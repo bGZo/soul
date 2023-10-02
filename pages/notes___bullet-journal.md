@@ -1,0 +1,5 @@
+-
+-
+-
+- ## refs
+  - https://en.wikipedia.org/wiki/Bullet_journal

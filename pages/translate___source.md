@@ -1,0 +1,6 @@
+-
+- [「人生的参差多态，是幸福的本源。」罗素的这句话是谁翻译的？ - 知乎](https://www.zhihu.com/question/21486805/answer/18406165)
+  - 这句话的出处是罗素的《 西方哲学史 》（ A History of Western Philosophy ）卷三「近代哲学」第一篇「从文艺 复兴 到休谟」第四章「埃拉斯摩和莫尔」的末尾。在 商务印书 馆马元德译本（1982 年版）下卷第 40 页。英文原书是在第 543 页
+  - It must be admitted, however, that life in More’s Utopia, as in most others, would be intolerably dull. **Diversity is essential to happiness**, and in Utopia there is hardly any. This is a defect of all planned social systems , actual as well as imaginary.
+  - 可是必须承认，莫尔的乌托邦里的生活也好像大部分其它乌托邦里的生活，会单调枯燥得受不了。 **参差多样，对幸** **福来讲是命脉** ，在乌托邦中几乎丝毫见不到。这点是一切 计划性社会制度 的缺陷，空想的制度如此，现实的也一样。
+-

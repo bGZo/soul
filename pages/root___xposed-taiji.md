@@ -1,0 +1,8 @@
+- > Magisk的原理简单的说就是在系统boot时将其img挂载到自己的分区下, 构建一个虚拟文件系统, 和system分区无关, 以不修改系统文件为前提, 从而达到修改系统文件的效果. 通过这种方式绕过谷歌安全机制, 系统OTA升级, 部分"被禁"软件都可以正常使用. 而Xposed相反, 框架一旦被加载就会修改系统, 改动会影响在安全机制保护下的APP, 所以一些理财软件,比如某某银行可能就无法使用, 这些应用对root权限非常敏感. 总的来说Magisk是通过systemless方式获取root, xposed则需要root才可以工作. 所以magisk虽然集合了各种功能, 但延展性上不如Xposed, 两者虽有一些相似之处, 但本质上完全不同, Magisk是创建新的分区而Xposed是直接修改系统文件. 现在最好的结果就是二者相辅相成, 按自己需要. via: https://www.coolapk.com/feed/19489640?shareKey=MDUzNjMzMzk2ZTVmNWY0NTExNTA~
+- **Xpose**: Xposed框架的原理就是替换安卓系统的app_process文件, 从而实现对系统的接管, 通过回调模块的方式来达到不用修改APK就能改变其表现行为的目的. 用通俗的话来说就是是在任意进程启动之前, 能加载特定Xposed模块的代码, 从而控制任意进程的行为. 这些特定的Xposed模块, 能在App进程启动之前执行特定代码. app_process其实是存放在systen/bin目录下的一个程序, 其作用就是启动zygote, 在Android中, zygote是整个系统创建新进程的核心进程. Xposed框架Hook了核心进程Zygote, 而其他应用启动都是从Zygote进程fork而来, 就够达到针对系统上所有的应用程序进程的Hook. 举个例子, 比如很著名的某微信模块, 就是你在启动微信之前, 首先要运行模块内的一些脚本, 这些脚本会劫持微信这个APP里的所有行为, 所以最终能够实现微信内容防撤回, 自定义微信摇骰子和石头剪刀布.
+- **Taiji**: 详见[Taiji](https://github.com/taichi-framework/TaiChi) [Doc](https://taichi.cool/), 更加稳定. via: https://www.zhihu.com/question/316497403
+- **MODULE**:
+  - [QNotified|QQ辅助性功能增强](https://github.com/ferredoxin/QNotified)
+  - [Zhiliao|知乎去广告Xposed模块](https://github.com/shatyuka/Zhiliao)
+  - [ChiMi|MIUI扩展插件(xposed)](https://github.com/yonghen/chimi-)
+  - [其他](https://repo.xposed.info/module-overview)

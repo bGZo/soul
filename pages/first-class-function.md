@@ -1,0 +1,24 @@
+alias:: Paradigms/first-class-function
+
+- have first-class functions if it treats functions as first-class citizens
+  - supports passing functions as arguments to other functions
+  - returning them as the values from other functions
+  - assigning them to variables or storing them in data structures
+- There are certain implementation difficulties in passing functions as arguments or returning them as results, especially in the presence of non-local variables introduced in nested and anonymous functions
+  - Historically, these were termed the **funarg problems**, the name coming from "function argument"
+- ## Concepts
+  - Higher-order functions: passing functions as arguments
+  - Anonymous and nested functions
+  - Non-local variables and closures | 非局部变量和闭包
+  - Higher-order functions: returning functions as results
+  - Assigning functions to variables
+  - Equality of functions
+    - Extensional equality | 外延相等
+    - Intensional equality | 内涵相等
+    - Reference equality | 引用相等
+-
+- ## [[lang/programming]] Support
+  - ![image.png](../assets/image_1656431254761_0.png)
+- ## Refs
+  - [First-class function - Wikipedia](https://en.wikipedia.org/wiki/First-class_function#Assigning_functions_to_variables)
+  -

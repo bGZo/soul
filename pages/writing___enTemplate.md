@@ -1,0 +1,26 @@
+- Begin
+  - For many years, people insisted that＂ perhaps it＇s time for us to have a new thought on···也许 是时候对····有个全新的认识了一对比过去, 引出观点
+  - Once in （a book,  a newspaper）,  I noticed that“＂＇has aroused widely public attention.-现象陈述, 引出观点
+  - When we discuss """,most people think that"while others regard"" as""",as far as I am concerned／however, I personally think that·-导入大众看法, 提出不同意见
+  - According to Thomas Edison,a legendary inventor,"A contented mind is the greatest blessing a man can enjoy in this world.（知足是人生在世最大的幸事）“.however, it seems to me··--通过名人名言 引出主题
+  - Should··../What....?Opinions vary greatly among different people,some may say·while others disapprove, but in my opinion··-设问引出观点
+  - 注意：
+    - 虽然推荐了这五种作文开头方式, 但你也可以选择不说任何废话, 开门见山, 只是这种如果处理不当就会显得很突兀, 而且对于很愁如何凑字数的同学来说也不太适用.
+    - 不提倡一开始就I怎么怎么样, 除非写的很出彩, 不然很难不让阅卷老师一看就倦怠.
+    - 五种开头方式都可取, 但一定要根据作文主题而选择, 不能生搬硬套. 要知道一旦走题, 任你文采飞扬到上天, 结果也是比较悲惨的.
+- Middle
+  - In regard to this (problem), I think we should take some effective measures.For one thing, For another＾··.Last but no least, -问题解决式
+  - They may point out that·...Others even argue that.·....And I won＇t deny it since.（说出反方 观点的合理之处）.However, from my point of view, ·····（可分点陈述, 但注意条理）---对比陈述 观点式
+  - But we should take consideration of both advantages and disadvantages of this（主题事物, 比如说汽 车, 网络）.The negative influence can be as plain as the nose on your face, like.......however, we are also enjoying the benefit of it.For instance, .·····.-利弊说明式
+  - Considering all the aspects,I can present three reasons for this phenomenon:first and foremost／, ...；second, .；last, -原因陈述式
+  - 注意：
+    - 有心的小伙伴可能注意到, 给出的两条都强调了正反方或利弊双方, 这是四六级常见的行文思路, 观点不可过于偏激或武断；但同时也要注意, 不要太过中庸, 吝啬表达自己的观点一一考虑 多方面, 不意味着自己就完全墙头草两边倒了
+    - 英语写作连接词这个估计大家都学烂了, 各种表达方式也是层出不穷, 所以此处给出的连接词大家完全可以根据自身情况与喜好替换～
+- End
+  - From what has been mentioned above/Taking all these factors into considerations,we can come to the conclusion that····---万能总结式
+  - All in all,  it is high time that we put an end to this（根据主题）---提出建议式
+  - There is no doubt that special emphasis should be put on the improvement of（某现象, 某问 ... ）. If we keep ignoring it,  sooner or later we will suffer the consequence...··---强调主题 It is hard to say whether ··is good or not since it highly depends on the specific conditions.
+  - However, from my perspective·····--观点表述式
+  - 注意
+    - 结尾其实是不太好总结的, 因为存在重合情况. 可能有小伙伴在总结后提出建议, 或者强调主题后提出建议, 只能说这个完全取决于自己的思路. 再次提醒小伙伴们, 结尾最好来个兼收并蓄, 表现自己的辩证思维, 但也一定要坚持住主流观点. 点题很重要, 千万不要思维一跑就收不回来, 实在没辙了, 结尾处在拉一拉收回来, 也还是算个补救滴～
+    - 在英语四六级写作中, 我们不能以凑字数为目标去写文章, 这样写出的文章冗长乏味, 是无法获得高分的. 我们在写作的时候, 不要让复杂的长难句变成文章中的冗杂部分, 那样不仅增加了因为语法问题而失分的可能性, 也会对你的作文大打折扣, 写作不仅要尽力而为也要量力而行, 漂亮精彩的文章

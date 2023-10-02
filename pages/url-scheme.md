@@ -1,0 +1,206 @@
+collapsed:: true
+title:: url-scheme
+define:: 
+title:: url-scheme
+alias:: deep-linking/mobile
+define:: link to a specific location within a mobile app rather than simply launching the app.
+tags:: 
+url:: 
+mark:: [Mobile deep linking - Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking); [List of URI schemes - Wikipedia](https://en.wikipedia.org/wiki/List_of_URI_schemes)
+start:: 20221128
+end::
+
+  - Implement: The format of the URI used to trigger or deep link an app is often different depending on the mobile operating system.
+    - [[android]] devices work through **intents**
+      url:: [Intents and Intent Filters  |  Android Developers](https://developer.android.com/guide/components/intents-filters)
+    - BlackBerry 10 devices work through BB10's invocation framework
+    - **Firefox OS** devices work through **Web Activities**
+    - [[iOS]] devices work through the **openUrl application** method
+      url:: [UIApplication | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uiapplication#jumpTo_37)
+    - **Windows Phone 8 devices** work through the **UriMapper class**
+- #Quickref
+  - ```html
+    tg://resolve?domain=<bot_username>
+    ```html
+    #Telegram via: [Deep links](https://core.telegram.org/api/links)
+  - Ali Scanner
+    - `alipayqr://platformapi/startapp?saId=10000007`
+  - Alipan
+    - `smartdrive://share/browse?shareId=EDgMfoP5XbA`
+  - Pinduoduo
+    - `pinduoduo://com.xunmeng.pinduoduo/search_result.html?search_key=%s`
+    - `pinduoduo://goods2.html?goods_id=270513197618`
+    - `https://mobile.yangkeduo.com/goods2.html?goods_id=270513197618`
+  - Eudic
+    - `eudic://dict/%s`
+  - Hidden
+    collapsed:: true
+    - 电商
+      collapsed:: true
+      - ```html
+        <string>taobao</string><!-- 淘宝  -->
+        <string>tmall</string><!-- 天猫  -->
+        <string>jdlogin</string><!-- 京东  -->
+        <string>pinduoduo</string> <!-- 拼多多  -->
+        <string>kaola</string> <!-- 网易考拉  -->
+        <string>yanxuan</string> <!-- 网易严选  -->
+        <string>vipshop</string> <!-- 唯品会  -->
+        <string>suning</string> <!-- 苏宁  -->
+        <string>mishopv1</string> <!-- 小米商城 -->
+        <string>wireless1688</string> <!-- 阿里巴巴 -->
+        ```html
+    - 社交、社区
+      collapsed:: true
+      - ```html
+        <string>weibo</string><!-- 微博 -->
+        <string>zhihu</string><!-- 知乎 -->
+        <string>xhsdiscover</string><!-- 小红书 -->
+        <string>momochat</string><!-- 陌陌 -->
+        <string>blued</string><!-- blued -->
+        <string>mqzone</string><!-- QQ空间 -->
+        <string>mqq</string><!-- QQ -->
+        <string>tantanapp</string><!-- 探探 -->
+        <string>huputiyu</string><!-- 虎扑 -->
+        <string>com.baidu.tieba</string> <!-- 贴吧  -->
+        <string>tianya</string> <!-- 天涯社区  -->
+        <string>douban</string> <!-- 豆瓣 -->
+        <string>jike</string> <!-- 即刻 -->
+        ```html
+    - 短视频
+      collapsed:: true
+      - ```html
+        <string>snssdk1128</string> <!-- 抖音 -->
+        <string>snssdk1112</string> <!-- 火山 -->
+        <string>snssdk32</string> <!-- 西瓜视频 -->
+        <string>gifshow</string> <!-- 快手 -->
+        ```html
+    - 视频/直播
+      collapsed:: true
+      - ```html
+        <string>tenvideo</string> <!-- 腾讯视频  -->
+        <string>youku</string> <!-- 优酷  -->
+        <string>bilibili</string> <!-- B站  -->
+        <string>imgotv</string> <!-- 芒果TV  -->
+        <string>qiyi-iphone</string> <!-- 爱奇艺  -->
+        <string>hanju</string> <!-- 韩剧TV  -->
+        <string>douyutv</string> <!-- 斗鱼  -->
+        <string>yykiwi</string> <!-- 虎牙  -->
+        ```html
+    - 图片处理
+      collapsed:: true
+      - ```html
+        <string>mtxx.open</string> <!-- 美图秀秀  -->
+        <string>faceu</string> <!-- faceu国内  -->
+        <string>ulike</string> <!-- 轻颜国内 -->
+        ```html
+    - 资讯
+      collapsed:: true
+      - ```html
+        <string>snssdk141</string> <!-- 今日头条  -->
+        <string>newsapp</string> <!-- 网易新闻  -->
+        <string>qqnews</string> <!-- 腾讯新闻  -->
+        <string>iting</string> <!-- 喜马拉雅 -->
+        <string>weread</string> <!-- 微信读书 -->
+        <string>jianshu</string> <!-- 简书 -->
+        <string>igetApp</string> <!-- 得到 -->
+        <string>kuaikan</string> <!-- 快看漫画 -->
+        ```html
+    - 财经
+      collapsed:: true
+      - ```html
+        <string>sinanews</string> <!-- 新浪财经  -->
+        <string>amihexin</string> <!-- 同花顺炒股 -->
+        ```html
+    - 音乐
+      collapsed:: true
+      - ```html
+        <string>orpheus</string> <!-- 网易云音乐  -->
+        <string>qqmusic</string> <!-- qq音乐  -->
+        <string>kugouURL</string> <!-- 酷狗  -->
+        <string>qmkege</string> <!-- 全民K歌 -->
+        <string>changba</string> <!-- 唱吧  -->
+        ```html
+    - 工具
+      collapsed:: true
+      - ```html
+        <string>iosamap</string> <!-- 高德地图  -->
+        <string>baidumap</string> <!-- 百度地图   -->
+        <string>baiduyun</string> <!-- 百度网盘  -->
+        <string>rm434209233MojiWeather</string> <!-- 墨迹天气  -->
+        ```html
+    - 办公
+      collapsed:: true
+      - ```html
+        <string>wxwork</string> <!-- 企业微信  -->
+        <string>dingtalk</string> <!-- 钉钉 -->
+        ```html
+    - 生活
+      collapsed:: true
+      - ```html
+        <string>imeituan</string> <!-- 美团  -->
+        <string>dianping</string> <!-- 点评  -->
+        <string>cainiao</string> <!-- 菜鸟裹裹  -->
+        <string>wbmain</string> <!--  58同城 -->
+        <string>mihome</string> <!--  米家 -->
+        ```html
+    - 美食佳饮
+      collapsed:: true
+      - ```html
+        <string>xcfapp</string> <!-- 下厨房  -->
+        <string>sbuxcn</string> <!-- 星巴克中国  -->
+        <string>meituanwaimai</string> <!-- 美团外卖  -->
+        ```html
+    - 运动健康
+      collapsed:: true
+      - ```html
+        <string>fb370547106731052</string> <!-- 小米运动  -->
+        <string>meetyou.linggan</string> <!-- 美柚  -->
+        <string>babytree</string> <!-- 宝宝树  -->
+        <string>keep</string> <!-- keep  -->
+        ```html
+    - 旅行
+      collapsed:: true
+      - ```html
+        <string>CtripWireless</string> <!-- 携程  -->
+        <string>diditaxi</string> <!-- 滴滴  -->
+        <string>taobaotravel</string> <!-- 飞猪  -->
+        <string>travelguide</string> <!-- 马蜂窝  -->
+        ```html
+    - 游戏
+      collapsed:: true
+      - ```html
+        <string>tencent1104466820</string> <!-- 王者荣耀  -->
+        <string>tencent100689805</string> <!-- 天天爱消除  -->
+        <string>tencent382</string> <!-- QQ斗地主  -->---
+        ```html
+    - App Store
+      collapsed:: true
+      - ```html
+        {
+        xiaomi: {
+            reg: /\(.*Android.*(MI|Mi|Redmi).*\)/,
+            scheme: "mimarket://details?id=com.xx.xx"
+        },
+        samsung: {
+            reg: /\(.*Android.*(SAMSUNG|SM-).*\)/,
+            scheme: "samsungapps://ProductDetail/com.xx.xx"
+        },
+        huawei: {
+            reg: /\(.*Android.*(HUAWEI|HONOR).*\)/i,
+            scheme: "appmarket://details?id=com.xx.xx"
+        },
+        oppo: {
+            reg: /\(.*Android.*OPPO.*\)/,
+            scheme: "oppomarket://details?packagename=com.xx.xx",
+            downloadFirst: !0
+        },
+        vivo: {
+            reg: /\(.*Android.*(vivo|VIVO).*\)/,
+            scheme: "vivomarket://details?id=com.xx.xx"
+        }
+        ```html
+    - via:
+      collapsed:: true
+      - [应用列表 | 捷径社区](https://sharecuts.cn/apps)
+      - [常见App Scheme整理](https://zhuanlan.zhihu.com/p/47837970)
+      - [求调用安卓各大应用市场的url scheme - SegmentFault 思否](https://segmentfault.com/q/1010000005116145)

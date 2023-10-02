@@ -1,0 +1,2 @@
+alias:: hobby/music
+icon:: 🎶

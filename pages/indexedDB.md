@@ -1,0 +1,1 @@
+alias:: database/nosql/indexedDB
