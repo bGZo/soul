@@ -1,0 +1,3 @@
+[submodule "GWToolkit"]
+  path = journals
+  url = git@github.com:bGZo/journals.git
