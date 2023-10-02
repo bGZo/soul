@@ -1,0 +1,3 @@
+- the act of checking a given sequence of tokens for the presence of the constituents of some pattern.
+-
+- C#, F#, Haskell, ML, Python, Ruby, Rust, Scala, Swift and the symbolic mathematics language Mathematica have special syntax for expressing tree patterns and a language construct for conditional execution and value retrieval based on it.

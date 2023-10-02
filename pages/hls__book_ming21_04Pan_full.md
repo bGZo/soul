@@ -1,0 +1,448 @@
+file:: [book_ming21_04Pan_full.pdf](../assets/book_ming21_04Pan_full.pdf)
+file-path:: ../assets/book_ming21_04Pan_full.pdf
+
+- 凡女人與男子交往，豈無真情。
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 64b3bcb4-0515-42c7-a7b4-1c4c0f7899f5
+- 勢摧妓子弄奸心
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 64b3bcec-c510-4726-82d8-e7489bc99639
+- 風月之中，以情為先；軍武之內，以操為最。情未調而求合，譬之三軍未曾操練馴熟而臨大敵，其必敗矣。嫖之允物，如魚之設餌。不得餌，則他往。妓之索物，不得物，則他求。後總（終？）與之，亦何益焉？
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 64b3be08-dae0-4806-9b85-d50c99d899b5
+- 妓者以色事人，以情扳人；事色為本，扳情為末。亦彼之經營也。癡心君子不解而認為真，必落圈套矣。故云：若要認真，定然著假。
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 64b3becd-b5e2-474e-b9df-78d1bc6f0109
+- 前車之鑒
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 64b3c206-f5bb-4b1f-9fed-757df18cbcdd
+- 寡醋，應有無端在暗中吃醋之意。
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 64b3c24a-617d-4823-9166-6d50a99deb4c
+- 食醋之心，人皆有之。量其厚薄可也。如食厚中之醋，不醋則不厚矣。設在薄中，則為寡醋耳。
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 64b3c26f-13e8-491e-bf97-c9cc234bad19
+- 五慵者乃於仁、義、禮、智、信尚慵懶也。又名忘八，忘卻孝、弟、忠、信、禮、義、廉、恥。又名烏龜，或為烏歸，以其白晝羞見人，（按：此處疑有闕字）則他出，黑夜則歸家......撅丁不知何本，不敢強解
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 64b3c290-318d-4d53-890c-ad63d580ee5a
+- 子弟在敲嫖之中，出言吐語全要因時置宜，不可轉喉觸諱也。
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 64b3c484-79ff-4b4b-bfd9-796daab06543
+- 子弟有三不嫖‧二不嫖科子
+  ls-type:: annotation
+  hl-page:: 11
+  hl-color:: yellow
+  id:: 64b3c4f5-af51-480e-a252-5d8ea99fd181
+- 以膠漆相投來形容兩人交情深厚。
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 64b3c588-759f-4ef8-a2ff-dd377783b542
+- 常言道：妓愛俏，媽愛鈔。所以子弟行中，有了潘安般貌，鄧通般錢，自然上和下睦，做得烟花寨內的大王，鴛鴦會上的主盟。
+  ls-type:: annotation
+  hl-page:: 13
+  hl-color:: yellow
+  id:: 64b3c5bb-45d2-4322-acc0-a29ff1647e39
+- 以此方法，藉他人之口向子弟傳達愛慕之意。雖然是假，但也可能從假中做出真來。
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 64b3c616-06b2-4bc9-b7d4-f095275530d9
+- 厨下烟火騰騰正是判定生意好壞的指標。如果陪茶，利潤全無，是浪費妓院的人力，所以不陪吃茶是定例
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: yellow
+  id:: 64b3c689-095d-4b74-8164-fd23e7b526e7
+- 房中有客，堂上有人，歌聲接耳，笑語頻聞，捧茶的一來一往，持酒的交集紛紜，厨下烟火氣騰騰
+  ls-type:: annotation
+  hl-page:: 15
+  hl-color:: yellow
+  id:: 64b3c6a3-e808-4563-acb7-7646a2b7fa1c
+- 心理學的角度而言，可以解釋為兩者之間有一種臣服關係（submission relation）形成
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: yellow
+  id:: 64b3c711-ff1b-424a-bd2f-4f27775ea5dc
+- 情不在貌，色要擇人。
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: yellow
+  id:: 64b3c757-d80f-4802-a87c-2fe16e5b2b26
+- 嫫姆，傳說中黃帝的妃子，貌醜而賢德。
+  ls-type:: annotation
+  hl-page:: 16
+  hl-color:: yellow
+  id:: 64b3c8f7-5b7b-42a9-a285-579db6897c4c
+- 孤老者，世稱老公，即孤寡老公也。
+  ls-type:: annotation
+  hl-page:: 19
+  hl-color:: yellow
+  id:: 64b3dd99-df8a-4bd2-a207-b006808c93d4
+- （男女）既交合之後，男心已灰，女意必敗
+  ls-type:: annotation
+  hl-page:: 19
+  hl-color:: yellow
+  id:: 64b3ddb0-2291-4b85-ad35-441971cd30e9
+- 交愈久而敬愈衰，此其本意；年漸深而情漸密，乃是真心
+  ls-type:: annotation
+  hl-page:: 21
+  hl-color:: yellow
+  id:: 64b3de3d-96af-496f-b63d-eda953bea3bf
+- 如果佳人傳情要接應，如此才會惺惺相惜，不會令人失望。如果對方不接應，自己要知機識趣。知機識趣一定會等有心之人，不會一意溺愛。如果還一意溺愛，就是個呆子了。
+  ls-type:: annotation
+  hl-page:: 21
+  hl-color:: yellow
+  id:: 64b3de52-33b0-44ab-bb27-0426309fda29
+- 子弟要會温存，要會念作（厚臉皮加風趣），要有工夫，要有本事，要用錢俏
+  ls-type:: annotation
+  hl-page:: 21
+  hl-color:: yellow
+  id:: 64b3de7c-5a9c-4c55-af61-859e81242c6c
+- 朝相見，暮相接，忙裏偷閑來温熱，慇勤日久自然親，一暴十寒情不浹
+  ls-type:: annotation
+  hl-page:: 21
+  hl-color:: yellow
+  id:: 64b3de89-a8d3-443a-b7cf-eeea8550cdb5
+- 大官人，你聽我說。但凡捱光的，兩字最難。要五件事俱全，方才行得。第一件，潘安的貌；第二件，驢的大行貨；第三件，要似鄧通有錢；第四件，小，就要綿裏針，忍耐；第五件，要閒工夫。此五件喚做潘驢鄧小閒。五件俱全，此事便獲著。西門慶道：實不瞞你說，這五件事，我都有些。第一，我的面兒雖比不得潘安，也充得過。第二，我小時也曾養得好大龜。第三，我家裏也頗有貫帛
+  ls-type:: annotation
+  hl-page:: 21
+  hl-color:: yellow
+  id:: 64b3dee1-cfc4-42b1-ac1b-2a34f979cf5c
+- 錢財，雖不及鄧通，也頗得過。第四，我最耐得。他便打我四百頓，休想我回他一拳。第五，我最有閒工夫。不然，如何來的恁頻。
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: yellow
+  id:: 64b3def3-69d6-46ac-8b77-246850ec4675
+- 捱光為偷情
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: yellow
+  id:: 64b3def9-b929-4e09-af06-786390dbd6ab
+- 未受訓練的妓稱娼婦
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: yellow
+  id:: 64b3df7e-270a-427a-b8b5-44305a5f30af
+- 若客人不來，妓家則遣僕人送物以寄情，提醒客人。如送二枚長短不同的炭，即意味長嘆短嘆，亂絲一把，則意指千思萬思。
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: yellow
+  id:: 64b3dfb0-b412-4f13-b068-e6e95bea622e
+- 子弟有三不嫖‧一不嫖龜婆〉，頁 9a-b：「龜婆原有主，半路纔出家，夫婆情還重，待人都是假。既不望贖身，又不圖娶嫁，厚我為甚麼？無非求善價。就裏奸詐多
+  ls-type:: annotation
+  hl-page:: 22
+  hl-color:: yellow
+  id:: 64b3e007-5b5b-48a8-a223-bd70fb5287de
+- 要討好得到芳心，千日百日也不夠；要挑錯的話，怎麼挑都可以，一個時辰也嫌太多了
+  ls-type:: annotation
+  hl-page:: 24
+  hl-color:: yellow
+  id:: 64b3e07e-9c60-409a-a54e-e1575cf3399c
+- 雜情之客，慣于跳槽，欲求情好，何可得焉？好強之士，尚于梳籠（櫳），相從不久，不過虛名。
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: yellow
+  id:: 64b3e0c5-5795-4e12-b194-4a838c14ce60
+- 有錢就諂媚巴結，没錢就言語譏刺
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: yellow
+  id:: 64b3e0dd-55f1-466c-b97e-47c77bbf60d3
+- 喜新厭舊，另結新歡
+  ls-type:: annotation
+  hl-page:: 23
+  hl-color:: yellow
+  id:: 64b3e0e6-9bde-4b7f-a665-284b5ec817a1
+- 青春幾何？答云：十八。過兩年又問，亦云十八。計算三年緫（總）添一歲。
+  ls-type:: annotation
+  hl-page:: 24
+  hl-color:: yellow
+  id:: 64b3e14a-03c8-4304-835d-c6fb198aaa9b
+- 模擬他人而無創造力
+  ls-type:: annotation
+  hl-page:: 24
+  hl-color:: yellow
+  id:: 64b3e16e-04f5-4a1d-9260-5f6c925301a2
+- 外表雖然看起來是找挨駡，骨子裏其實是調情
+  ls-type:: annotation
+  hl-page:: 25
+  hl-color:: yellow
+  id:: 64b3e1e3-8b01-459a-832d-1d52474f8064
+- 大方之家，修養深厚之人
+  ls-type:: annotation
+  hl-page:: 25
+  hl-color:: yellow
+  id:: 64b3e1f7-0129-45f0-9134-efa085c09638
+- 真是有天淵之別
+  ls-type:: annotation
+  hl-page:: 25
+  hl-color:: yellow
+  id:: 64b3e290-0662-4f32-ba22-2e0ddeba0d5f
+- 希冀
+  ls-type:: annotation
+  hl-page:: 25
+  hl-color:: yellow
+  id:: 64b3e293-bf1e-4f13-aafc-637aee194300
+- 痴心男子廣，水性婦人多
+  ls-type:: annotation
+  hl-page:: 25
+  hl-color:: yellow
+  id:: 64b3e29f-aa13-431f-b033-6c7a4c151333
+- 痴心則妄想，水性則易流，大略男子吃婦人虧也
+  ls-type:: annotation
+  hl-page:: 26
+  hl-color:: yellow
+  id:: 64b3e2bd-ee2d-4ced-979a-0f2df5ea64e9
+- 孤老表子，兩人設盟之後，男子守其規矩，再過（遇？）美妓則不相親。值兩下反目，女人心已灰，男子猶不捨，豈不是痴心？媍（婦）人之性隨皮（波）逐流，易於高下，實難捉摹（摸），豈不是水性？
+  ls-type:: annotation
+  hl-page:: 25
+  hl-color:: yellow
+  id:: 64b3e2d5-fbd1-444b-a665-a837b106632f
+- 狼虎嫖
+  ls-type:: annotation
+  hl-page:: 26
+  hl-color:: yellow
+  id:: 64b3e380-eb45-45c2-b83f-57e5bfe66676
+- 不善嫖者，扣數使錢，不扳人事，止（只）知與婊子調情，更不顧鴇子怨望，此謂雛嫖
+  ls-type:: annotation
+  hl-page:: 27
+  hl-color:: yellow
+  id:: 64b3e434-e79e-4bcd-8ac6-deb341a16fa5
+- 在行：對某些事物有獨到徹底的了解
+  ls-type:: annotation
+  hl-page:: 27
+  hl-color:: yellow
+  id:: 64b3e43a-cbbb-42e9-8fc7-0846ff28a7de
+- 情濃不捨，意熱難開，搬乎吳則隨乎吳，搬乎楚則從乎楚，抛家業棄妻子而不顧，此謂之遊方嫖
+  ls-type:: annotation
+  hl-page:: 27
+  hl-color:: yellow
+  id:: 64b3e484-da93-4e7c-aaba-331b191ef296
+- 後世以秦樓楚館稱歌榭妓院
+  ls-type:: annotation
+  hl-page:: 27
+  hl-color:: yellow
+  id:: 64b3e4c2-f949-4cfa-8f59-c2422095c99e
+- 堆黃金而供樂事，垛白金以作纒頭，惟買笑顏，更無吝色，此謂之死嫖。
+  ls-type:: annotation
+  hl-page:: 27
+  hl-color:: yellow
+  id:: 64b3e4c5-b4ad-4850-94b3-0a966af8a1de
+- 身在江湖，心存營運，故遣悶懷。恐妨正事，而偷閑暇之期，以償風流之債，此謂江湖嫖
+  ls-type:: annotation
+  hl-page:: 27
+  hl-color:: yellow
+  id:: 64b3e4fe-8aad-4a3e-929a-5b99c02b80d3
+- 經年在外，常無放蕩之心，擇日還郷，忽起猖狂之念。今宵歡會，明早別離，謂之解纜嫖
+  ls-type:: annotation
+  hl-page:: 28
+  hl-color:: yellow
+  id:: 64b3e531-4952-478c-99b7-841fdcfa8379
+- 白頭之客，此心不休，倍使錢鈔，專尋小姬，此謂之強嫖。
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: yellow
+  id:: 64b3e56c-95e5-4634-a066-5ffa5a0232c0
+- 老年妓者，設若開門，鬢雖白而態度存，年雖邁而風情在。下橋子弟方有斯緣。飲無名之酒，得倒貼之錢。客到則替殷勤置買，事出則辛苦安排，嬴得少姬，呼為老舅，此謂之當家嫖。
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: yellow
+  id:: 64b3e591-a4a1-4e50-80ae-e6a39c4a4b8f
+- 初到叢林，不知機見，苦貪美好，恐怕生心，不顧費鈔，但要買心，謂之小官嫖
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: yellow
+  id:: 64b3e5bb-def0-4d05-ab0c-fd81e87df6be
+- 伶俐之士，豈肯久貪。纔得其趣，即便抽身，謂之乖嫖
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: yellow
+  id:: 64b3e5c4-42cc-41de-9567-1f43c8598f22
+- 昨朝抱李妓，今夜宿張娼，如此頻換，俗稱跳槽，此謂之嚐湯嫖
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: yellow
+  id:: 64b3e5d6-1d6a-4287-8028-4523c9e79d5e
+- 其性既投，其情定密，不忍他為，百中有一，此謂之定門嫖
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: yellow
+  id:: 64b3e5dd-0fb2-4ae8-b517-854ff9af467b
+- 情既相厚，蓋不由人，不走三番，真成腳痒（癢），謂之點卯嫖
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: yellow
+  id:: 64b3e5e7-b75c-4c92-beb7-1305c23f05d5
+- 十旦一會合，半月一歡娛，却（卻）似謁廟參神，專期朔望，謂之燒香嫖
+  ls-type:: annotation
+  hl-page:: 29
+  hl-color:: yellow
+  id:: 64b3e5ef-1d2f-4940-b533-09c55d121313
+- 去年寒食曾相會，今歲清明始叙情。如鵲橋之約，一載一逢，此謂之牛女嫖
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 64b3ed5a-2636-4de0-a11e-d039f672ecd7
+- 一日兩頭眠妓館，五番三次宿章臺，如人之病瘧，間日一轉，此謂之瘧疾嫖
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 64b3ed8d-65a8-4e52-8603-8eee6cbe89e9
+- 有等相妬之人，見其與妓情厚，言揭孤老過失。或家事不齊，或行止有虧。大抵妓家多欲察此，故對孤老面說，使子弟傾囊不顧，以掩其愧，謂之忿志嫖
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 64b3eda7-cb92-407b-9786-c63d562d16fa
+- 或羡送某某物件。於此紛紜不能枚舉，往往痴人以賽相尚，因而乘（承）諾，或賄財即娶，或罄貲奮用，謂之闘志嫖
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 64b3edb8-d023-420b-87e1-19eb11676147
+- 妓家告訴子弟，非常羨慕某位恩客送給某位姊妹的物件。那物件有多貴重，多精美。其實是在暗示自己的恩客，如不能送個更好的，也起碼要送個相當的物件
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 64b3edce-5860-45a6-bf54-34da777a3046
+- 識風塵之意趣，賞絲竹之佳音，豈肯獨專，必携友樂，此謂之敲嫖
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 64b3ede3-f2c6-4806-88f7-a46134b99189
+- 為懼內不帶僕人，因吃醋不携朋友，暮則遮面而來，朝則抱頭而去，如此不謂之嫖，乃借宿也
+  ls-type:: annotation
+  hl-page:: 30
+  hl-color:: yellow
+  id:: 64b3edea-aff0-468d-906f-f99ab458eb0f
+- 盜朋友之妓曰截馬
+  ls-type:: annotation
+  hl-page:: 31
+  hl-color:: yellow
+  id:: 64b3f00e-9891-4afc-a65f-3d9bf4fcbb40
+- 前句義為妓家作孽太多，最後以出家收場。後句則指子弟久躭風塵，最後竟成龜奴
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 64b3f09c-a774-44fa-9196-a06e5bd20630
+- 諺云：接客千個，情在一人，斯言理亦有之
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 64b3f0c9-67ad-4004-930a-d151f40d1219
+- 投機為兩相契合之義而非一般乘機牟利，亦即話不投機半句多中的投機
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 64b3f0dd-94a4-4d10-ada1-2a92b8becafd
+- 廣種薄收
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 64b3f0f2-19ad-45a2-b24d-4ff873b29706
+- 用增加耕地面積的方法來增加產量。在青樓的情境中，可以用所謂的人海戰術，來理解廣種薄收之義，也就是與多人交往，只要有一人是真情即可
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 64b3f0f8-9a91-4d6b-9e6e-ae49eb0f4021
+- 如果已有妓家對自己情有所鍾，並有剪燒這樣的承諾，別人不知，對自己已有情之妓用情，結果就如弱棋一般，只要我一移到他的前面，他就得去坫垓，也就是到中間的邊界上待著，所有的棋都不能動
+  ls-type:: annotation
+  hl-page:: 33
+  hl-color:: yellow
+  id:: 64b3f124-0fc1-4ef1-b3a0-474330b68507
+- 此句中後三種稱媒人的方法都有貶抑的味道。馬泊六略同於今天所稱的淫媒或拉皮條者之流的人物。此類人物為人撮合，有時可能有些下作的情形，所以可鄙；等到採得百花成蜜，雙方情投意合，甜了別人，故可笑。
+  ls-type:: annotation
+  hl-page:: 35
+  hl-color:: yellow
+  id:: 64b3f1cb-eea8-43dd-a4c7-a6aa55cb9b02
+- 這二種心理狀態是很平常的，莫因妓家訴說而認真。因此在下面的註中，加了一句俏皮的批語：「這是在枕邊收攬人心的良方。」
+  ls-type:: annotation
+  hl-page:: 35
+  hl-color:: yellow
+  id:: 64b3f20a-12c8-4729-b34c-aa7f0dcde8bb
+- 悲歡總不足憑
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: yellow
+  id:: 64b3f271-69b2-422c-87eb-c5fac94bb71a
+- 因為屈情是壓抑情感，強顏歡笑正是屈情。對照下句，揉眼而悲，就不是本心，而是有些作做。
+  ls-type:: annotation
+  hl-page:: 36
+  hl-color:: yellow
+  id:: 64b3f27f-7c58-4e85-b0b2-76c6ded0f631
+- 嫖為貪婬（淫）之所致，初則嫖其母，次則嫖其女，再次之嫖其孫。大抵妓家親生之女頗少故也。若以悖禮責之，則不為箇中人也。女人之美貌盛容，譬之春花，雖壯其觀，焉能常好
+  ls-type:: annotation
+  hl-page:: 37
+  hl-color:: yellow
+  id:: 64b3f2dc-3a86-417a-abc8-fdce1abfcfe2
+- 女子二七天癸至，乃血氣方全。所以容顏強盛。自十四至二十四，僅有十年矣，如過此時，呼為下橋也
+  ls-type:: annotation
+  hl-page:: 37
+  hl-color:: yellow
+  id:: 64b3f2eb-8cab-4bd5-8651-844774a7cbe5
+- 體面，有聲望，有面子
+  ls-type:: annotation
+  hl-page:: 37
+  hl-color:: yellow
+  id:: 64b3f31b-2912-4ad6-90ab-b2464c6817eb
+- 如有情感，就不能泛泛處之。
+  ls-type:: annotation
+  hl-page:: 38
+  hl-color:: yellow
+  id:: 64b3f339-80fc-40ea-bad8-0e8c746778c8
+- 錢最重要，過於吝嗇，不可能有人和你海誓山盟，但用錢手寬，並不表示一定會有盟，對方無心也是枉然。
+  ls-type:: annotation
+  hl-page:: 40
+  hl-color:: yellow
+  id:: 64b3f406-c07e-429d-8e0f-5c090bdc4790
+- 徒勞無功，因為雪一入井即化為水，永遠也填不滿。擔水填井較為直白，其意與擔雪相同。至於擔氷填，雖有相同之意，不過以氷填井，是有可能填滿的，因為氷溶化的較慢。只是用冰填滿的井是無法長久維持填滿的狀態。
+  ls-type:: annotation
+  hl-page:: 40
+  hl-color:: yellow
+  id:: 64b3f451-e2a4-4e2f-b7ca-9217a7731c06
+- 人之著色迷，如舟之遭水溺。舟之溺，尚覺驚，色迷人，不省悟。任是決烈丈夫，亦不能自救耳。
+  ls-type:: annotation
+  hl-page:: 43
+  hl-color:: yellow
+  id:: 64b3f485-753e-4caa-aa45-718004a6707e
+- 為妓之道，兩全最難。不為財，無以養生，不為情，無以著人。大抵為為財者多，而為情者少，斯言信以（矣）哉！
+  ls-type:: annotation
+  hl-page:: 43
+  hl-color:: yellow
+  id:: 64b3f50d-448e-44ab-b194-7d23fd22d6b8
+- 此句言歡場之中的快樂是短暫的。其中馬上執鞭，馬上拱手應為有性暗示的雙關語。江中撒尿，其義不確，但應有短暫而不留痕跡之義。
+  ls-type:: annotation
+  hl-page:: 43
+  hl-color:: yellow
+  id:: 64b3f545-b0f1-43b3-96a1-d44d6140f452
+- 同聲相應，同相氣求，如此待客，方是一心。彼此兩家，稍有不愜，日久懷疑，定然反目
+  ls-type:: annotation
+  hl-page:: 42
+  hl-color:: yellow
+  id:: 64b3f57f-4369-4be1-bfb8-14700e396832
+- 「玉顏，紅粉皆婦人女子之稱。人之為妓，至賤至低，子弟欲之，即時可得，如伸手摘花之比。與宿最易，馴心最難。古之娶妓，最小（？）為哉。如上山打虎之喻。古人娶妓有歌一篇，名縛虎行：娶妓妓，妓復娶妓，云云。」按：最小為不知何義
+  ls-type:: annotation
+  hl-page:: 42
+  hl-color:: yellow
+  id:: 64b3f5b2-e14d-46cd-84ef-ea5fa3cea778
+- ：「夫婦者，乃五倫之一也。男有室，女有家，願相守而厭相離，魚水和同，百年契合。情人者，不過心情中所欲之人也。山海尚有變更，心情豈無久固。所以有百年之夫婦，無一世之情人。」
+  ls-type:: annotation
+  hl-page:: 41
+  hl-color:: yellow
+  id:: 64b3f5e7-5861-4e21-9690-d11aa28892cf

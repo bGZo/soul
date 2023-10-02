@@ -1,0 +1,10 @@
+- ## `int` <-> `string`
+  - `string` -> `int`
+    - `<string>/stoi()`
+    - `<cstdlib>/atoi()`
+  - `int` -> `string`
+    - `<string>/to_string()`
+    - `<sstream><string>/stringstream`
+-
+- ## refs
+  - https://www.programiz.com/cpp-programming/string-int-conversion

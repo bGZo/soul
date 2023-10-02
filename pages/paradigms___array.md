@@ -1,0 +1,26 @@
+title:: paradigms/array
+
+-
+- ## Support
+  - A+
+  - Analytica
+  - Chapel
+  - Futhark
+  - IDL
+  - Julia
+  - K
+  - Klong
+  - Mata
+  - MATLAB
+  - MOLSF
+  - Nial
+  - NumPy
+  - Octave
+  - PDL
+  - Q
+  - R
+  - S-Lang
+  - SAC
+  - Wolfram语言
+  - ZPL
+-

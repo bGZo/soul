@@ -1,0 +1,30 @@
+#  _                                        _ _   _
+# | |    ___   __ _ ___  ___  __ _     __ _(_) |_(_) __ _ _ __   ___  _ __ ___ 
+# | |   / _ \ / _` / __|/ _ \/ _` |   / _` | | __| |/ _` | '_ \ / _ \| '__/ _ \
+# | |__| (_) | (_| \__ \  __/ (_| |  | (_| | | |_| | (_| | | | | (_) | | |  __/
+# |_____\___/ \__, |___/\___|\__, | (_)__, |_|\__|_|\__, |_| |_|\___/|_|  \___|
+#            |___/             |_|   |___/         |___/
+#config
+.obsidian/
+.vscode/
+.idea/
+# PDFs, IMAGEs and more
+assets/
+# Draw
+draws/
+# Recyble Bin
+logseq/.recycle/
+logseq/bak/
+logseq/custom.css
+# Journals
+journals/
+# Page
+pages/LFH.md
+pages/2018.md
+pages/2019.md
+pages/2020.md
+pages/2020___archive.md
+pages/2021.md
+pages/2021___archive.md
+pages/2022.md
+pages/2023.md

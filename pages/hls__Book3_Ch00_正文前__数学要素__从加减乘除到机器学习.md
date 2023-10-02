@@ -1,0 +1,22 @@
+file:: [Book3_Ch00_正文前__数学要素__从加减乘除到机器学习.pdf](../assets/Visualize-ML/Book3_Elements-of-Mathematics/Book3_Ch00_正文前__数学要素__从加减乘除到机器学习.pdf)
+file-path:: ../assets/Visualize-ML/Book3_Elements-of-Mathematics/Book3_Ch00_正文前__数学要素__从加减乘除到机器学习.pdf
+
+- 诺瓦利斯曾说：“哲学就是怀着一种乡愁的冲动到处去寻找家园。”
+  ls-type:: annotation
+  hl-page:: 3
+  hl-color:: yellow
+  id:: 64081573-17ae-411f-b388-266273d4771d
+- [:span]
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 64081631-cc56-41f1-9f34-aa08a6a466c6
+  hl-type:: area
+  hl-stamp:: 1678251565776
+- [:span]
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 6408165b-82c7-491a-83a2-567ed5ba2526
+  hl-type:: area
+  hl-stamp:: 1678251609783

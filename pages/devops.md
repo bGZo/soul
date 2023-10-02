@@ -1,0 +1,31 @@
+-
+- DevOps
+  - ![image.png](../assets/dev/image_1663749107827_0.png)
+  - culture is implemented in several phases with the help of several tools
+  - effects
+    - make companies adapt faster to update and development changes
+    - the teams can now deliver quickly
+    - the development are more consistent and smooth though there maybe communication challenges devops manages a streamlined flow between the teams and makes the software development process sucessful
+  - ways
+    - plan
+    - code
+    - build
+    - test
+    - release
+    - deploy
+    - operate
+    - monitor
+  - [[Tool]]
+    - more automation
+      - aim to reduce its delivery time and the gap between its development and operations(运营) teams.
+    - Netflix -> Simian Army
+    - continuous integration
+    - delivery devops
+    - kubernetes
+    - docker
+-
+- Refs
+  collapsed:: true
+  - [DevOps is a culture, not a role!. Software is everywhere. In today’s… | by Irma Harlann | Medium](https://neonrocket.medium.com/devops-is-a-culture-not-a-role-be1bed149b0)
+  - [DevOps In 5 Minutes | What Is DevOps?| DevOps Explained | DevOps Tutorial For Beginners |Simplilearn - YouTube](https://www.youtube.com/watch?v=Xrgk023l4lI)
+-

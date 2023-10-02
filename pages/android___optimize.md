@@ -1,0 +1,7 @@
+- `.nomedia` file
+  - 常用于
+    - 一些应用的音效
+    - 一些应用的介绍视频或者图片
+    - 一些应用的缓存图片
+  - > Android 默认情况下会将每个多媒体文件的信息保存在一个数据库中，应用在需要读取设备内指定格式的多媒体文件信息时，可以直接读取这个数据库，相比于文件全盘检索效率会高很多。
+  - locate:  Android 的 `frameworks` 源码，会发现文件 `frameworks/base/media/java/android/media/MediaScanner.java` 里有 `isNoMediaPath` 函数

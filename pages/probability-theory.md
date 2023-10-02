@@ -1,0 +1,3 @@
+alias:: se/probability-theory
+
+-

@@ -1,0 +1,7 @@
+- > 随着SuperSu (XDA非常著名的开发者ChainFire维护的一款作品) 走向商业化(很久没有更新), 安卓5.0之后, 谷歌封堵了大量的漏洞, 一些以商业化模式运作的各种所谓的一键ROOT工具全都玩完!, 这些东西相对来说还非常危险, 因为基本任何商业化或者第三方机构给出的超级用户管理工具, 都等于是把你的手机变成别人的了, 甚至他们还可以比流氓还流氓!. 而SuperSU不一样, 它一直是保持着非商业化运作, 并且更新非常积极, 但遗憾的是在2017年10月, 开发者ChainFire发布声明不再参与维护SU, 好像是把SuperSU卖给了中国的一家商业化运作的公司, 自此更新节奏非常缓慢, 目前SuperSU已经不能实现安卓O(8.0)以上更高版本的ROOT了, 而取代这一切的, 是Magisk. Magisk 是一位中国台湾的学生 @topjohnwu 开发的 Android 框架, 它不但可以获取Root权限, 而且支持Magisk模块. 其第一个版本发布于2016年8月,  由于当时Magisk刚刚出现, 支持的模块并不多, 且SuperSu依然流行, Magisk还鲜为人知. 直到SuperSu的消亡, 人们才想起Magisk, 此后Magisk迅速流行起来, 成为每一个玩机爱好者的必备工具. via: https://www.coolapk.com/feed/17973123?shareKey=OTliMmY4NTlkMWNkNWY0NTExYTQ~
+- **原理** : Magisk 则另辟蹊径, 通过挂载一个与系统文件相隔离的文件系统来加载自定义内容, 为系统分区打开了一个通往平行世界的入口, 所有改动都只在那个世界(Magisk 分区)里发生, 并不直接修改系统分区, 这样大大减小了Magisk的变砖概率, 而且就算变砖也可以通过卸载Magisk来恢复原来的系统分区. 比如我们的/system/xbin中没有su, 我们可以通过刷入相应的模块, 在系统启动初期, 将su映射到/system/xbin下来获取root.
+- 教程
+  - 通过rec刷入Magisk(推荐)
+  - 直接安装(需要Root权限)(系统版本小于Android P, 你可能需要先解锁系统分区)
+  - 通过修补boot安装 (选中Rom解压后的boot.img, 并在rec中直接刷入修补后的boot文件. )
+  - 见 [教程](https://www.coolapk.com/feed/17697847?shareKey=ODg2YmRkZmRiNGRmNWY0NTExMTQ~) , [救砖](https://mp.weixin.qq.com/s/Os8j55GNmazqSt2UYrwy1g)

@@ -1,0 +1,704 @@
+icon:: 📝
+tags:: blog
+
+- ## [[reading]] [[flow]] | 阅读工作流
+  - If they have full content [[rss]], it's the best.
+    - I hate wordpress output recent 10 posts by default. #sucks #sucks
+    - Import into [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader).
+    - Found interesting content;
+    - Make highlights in [Raindrop.io](https://raindrop.io/)
+    - Put them all in [[Logseq]] page ready for refer.
+  - They don't, but their url have some rules
+    - like this blog, they don't even have an archived page :(
+      - Generate bookmark file then import into [Raindrop.io](https://raindrop.io/) and go on above.
+        collapsed:: true
+        - ```js
+          var length = 80,
+              length_len = 0,
+              length_tmp = length;
+          
+          while( length_tmp >= 1 ){
+              length_tmp /= 10;
+              length_len++;
+          }
+          // get the loop number
+          
+          for(var i = 1; i<=length; i++){
+              var str_num = "" + i;
+              while(str_num.length < length_len){
+                  str_num = "0" + str_num;
+              }
+              console.log('<DT><A HREF="https://blog.yitianshijie.net/page/' + i + '/">Bookmark '+ str_num +'</A>');
+          }
+          ```
+          - ```js
+            var length = 80,
+                length_len = 0,
+                length_tmp = length;
+            
+            while( length_tmp > 0 ){
+                length_tmp /= 10;
+                console.log(length_tmp);
+                length_len++;
+            }
+            console.log(length_len);
+            ```
+            #this-code/weird
+            - ```
+              8
+              0.8
+              0.08
+              0.008
+              0.0008
+              0.00008
+              0.000008000000000000001
+              8.000000000000002e-7
+              8.000000000000001e-8
+              8.000000000000002e-9
+              8.000000000000002e-10
+              ...
+              326
+              ```
+        - The template for bookmark is following:
+          inspired via: [browser - Documentation or reference for "NETSCAPE-Bookmark-file-1" DOCTYPE - Stack Overflow](https://stackoverflow.com/questions/72772176/)
+        - ```html
+          <!DOCTYPE NETSCAPE-Bookmark-file-1>
+          	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+              <!--This is an automatically generated file.
+              It will be read and overwritten.
+              Do Not Edit! -->
+              <Title>Bookmarks</Title>
+              <H1>Bookmarks</H1>
+              <DL><p>
+          
+                <DT><H3 FOLDED PERSONAL_TOOLBAR_FOLDER="true">Bookmarks</H3>
+                <DL><p>
+                  <DT><A HREF="https://blog.yitianshijie.net/page/1/">Bookmark 1</A>
+                  <DT><A HREF="https://blog.yitianshijie.net/page/2/">Bookmark 2</A>
+                  <!-- ...... -->
+                </DL><p>
+          
+              </DL><p>
+          ```
+          #bookmark/template #template/bookmark
+        - Full standard via: [Netscape Bookmark File Format (Internet Explorer) | Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa753582(v=vs.85))
+        -
+      - But when blogger update and the highlight would be deprecate.
+- ## Content
+  -
+  - # [说话 vs. 写字](https://blog.yitianshijie.net/2016/11/25/speech-vs-writing/)
+    collapsed:: true
+    - 在[《Susan Sontag: The Complete Rolling Stone Interview》](https://www.amazon.com/Susan-Sontag-Complete-Rolling-Interview/dp/0300189796/ref=sr_1_1?ie=UTF8&qid=1480039553&sr=8-1&keywords=Susan+Sontag%3A+The+Complete+Rolling+Stone+Interview)的前言里，Jonathan Cott 谈到了诺贝尔文学奖得主库切（J.M. Coetzee）对采访和语言的不屑：
+    - > 要是有先见之明，我从一开始就不会和记者有任何瓜葛。十次访问有九次都是都是陌生人之间的对话，而采访这种文体还为这个陌生人赋予了越界的特权，常规的礼数都可以置之不理……对我来说，真理和静默有关，和省思有关，和书写这一实践有关。语言并非真理的源泉，它是文字的一个苍白的临时版本
+  - # [高级电脑技能](https://blog.yitianshijie.net/2016/11/24/advanced-computer-skills/)
+    collapsed:: true
+    - 「未来三十年一定不会只是『互联网公司』的天下，未来三十年是『用好互联网技术』的公司，是『用好互联网技术』的国家的天下，是『用好互联网技术』的年轻人的天下。我们必须把互联网技术，互联网资源能够普惠化，才能成为造福人类的巨大的福祉。」
+      collapsed:: true
+      - 阿里巴巴董事局主席马云二零一六年十一月十六日在第三届世界互联网大会开幕式上的[主题演讲](https://press.taobao.com/detail.html?spm=0.0.0.0.RLfOfT&postId=7293836)
+    - 「美国只有 5% 的人具备高级电脑技能。澳大利亚和英国的数字是 6%，加拿大和北欧是 7%，新加坡和日本更高一些，8%。这里所谓高级电脑技能的一个例子是：统计老王上个月发出邮件里有百分之多少是关于可持续发展的。」
+      collapsed:: true
+      - 用户体验专家 Jakob Nielsen 二零一六年发布的[研究报告](https://www.nngroup.com/articles/computer-skill-levels/)
+  - # [为了胸肌](https://blog.yitianshijie.net/2016/11/22/towards-robust-breast/)
+    collapsed:: true
+    - > 三岛：这就是健美的原理，消灭身体中不能随意支配的肌肉。
+      
+      寺山：所以就是从身体中放逐了偶然性？
+      
+      三岛：就是这样。举个例子，你看我的胸，我可以让它随着音乐节奏动起来（展示动胸肌）。你的胸能动吗？
+      
+      ……
+      
+      寺山：三岛老师，如果您哪天想要像刚才那样动动胸却突然发现动不了了，那一天是会突然到来的吧？
+      
+      三岛：不会有那一天的。
+      
+      寺山：不，会来的。那种时候岂不是很情色。
+      
+      三岛：那一天绝对不会来的。不过，没有什么人像黑道一样重视形式了，他们是只有形式、形式、形式啊。
+      
+      寺山：所以说，应该死于形式之中。不过我的印象是，现在是个看不见的形式和看得见的形式的区别变得十分复杂的时代。使用形式时的灵活性也成为一种思想了。
+      
+      三岛：所谓灵活性就是妥协，这个很可怕啊。一旦说出「灵活性」这种词就不知伊于胡底了。
+  - # [在 Neil Postman 面前战栗吧](https://blog.yitianshijie.net/2016/11/13/shiver-in-front-of-neil-postman/)
+    collapsed:: true
+    - 新技术的好处和坏处并不是平均分布的。总是会有赢家和输家。很多时候，输家还会出于无知为赢家欢呼。这种令人费解又悲哀的事情如今仍在进行。
+    - 毫无疑问，电脑提升了军队、航空公司、银行和税收机构等大型组织的权力。同样，对于物理和其它自然科学的高级研究者来说，它也已经是不可或缺的工具。但电脑技术在什么程度上泽被了普罗大众？……跟踪和控制她们变得更容易了，各种名目的检查数量增加。对于施加于自己身上的决策，她们也越来越不知其所以然。大众常常只不过是一个数字。她们被垃圾邮件轰炸，广告公司和政治机构要针对她们投放信息易如反掌……简而言之，输家想要的东西几乎全都得不到，所以她们才是输家。
+      
+      赢家会鼓励输家对电脑技术培养兴趣，这并不奇怪……她们会对输家说，个人电脑可以让普通人更方便地管理账本，更好地整理收据，列出更合逻辑的购物清单。她们还对输家说妳的生活会因此更有效率。但她们暗中略过不提的是这个效率究竟是对谁而言，成本几何。一旦输家开始怀疑，赢家就会诱之以电脑的各种神奇功能。这些功能对于输家的生活用处甚为有限，但看上去还是很厉害的样子。输家终于屈服，一部分原因是她们相信如 Thamus 所预言的那样，掌握了新技术的人所拥有的那种专门知识是一种智慧。拥有这些知识的人也这么相信，Thamus 同样预言了这一点。结果，某些该被提出的问题就石沉大海。例如，这种技术为谁赋予了更大的权力和自由？谁的权力和自由又会因其减少？
+  - # [William Gibson 谈「人肉搜索」（一九九六）](https://blog.yitianshijie.net/2016/11/11/william-gibson-on-quote-unquote-doxxing-in-idoru/)
+    collapsed:: true
+    - 看到张亮[引用](https://zhuanlan.zhihu.com/p/23573723)了一段 William Gibson 的小说[《阿伊朵》](https://book.douban.com/subject/1927801/)（*[Idoru](https://www.amazon.com/Idoru-William-Gibson/dp/0425158640/ref=sr_1_1?ie=UTF8&qid=1478854000&sr=8-1&keywords=idoru)*，一九九六）里的话，顺手翻了翻。Gibson 是一个非常适合引用的小说家——这句话没有丝毫轻视之意。相反，他对未来的抽象想象力和文字意象密度每每令人震慑。在张亮引用的那段文字附近，就有如下令人难忘的片段：
+    - > 蓝尼……对于收集数据用的建筑有特别的天赋。他的注意力很难集中，属于医学界已知的一种症状。但在特定条件下，他又能将其转化为病态的超高专注力……他有敏锐的直觉，善于发现信息中的规律：数字社会中某个个体在网上过着庸常而又无穷复杂的生活时无意间留下的痕迹。他的分心病比较轻微，有时几乎检测不出。它令他成为天生的换台狂人，不停在程序与程序之间、数据库与数据库之间、平台与平台之间切换，而这一切都是用一种，呃，直觉的方式进行着。
+    - 妳认识这样的人。或许妳就是这样的人。
+  - # [Cool things don’t scale](https://blog.yitianshijie.net/2016/11/07/cool-things-dont-scale/)
+    collapsed:: true
+    - ‘We look for people who can make cool things that scale.’ ([Peter Thiel](http://thielfellowship.org/faq/), 2016)
+    - Don’t you know that things stop being cool when they scale? [Your pal Paul Graham knows better](http://paulgraham.com/ds.html).
+  - # [犯错](https://blog.yitianshijie.net/2016/11/02/mistakes/)
+    collapsed:: true
+    - 「当政者似乎不再在这些小事上头做文章，人民也学会犯规，开始懂得生活了。」（[迈克](https://zh.wikipedia.org/zh-hant/%E8%BF%88%E5%85%8B_(%E4%BD%9C%E5%AE%B6))，一九九零年代）
+    - Bernard Lowe: 是您加的代码，福特先生，那些「白日梦」，里面有一些……
+    - Robert Ford:「错误」。你不愿意说出来的就是这个词。这没有必要。你自己就是亿万个错误的结果。这个星球上的一切有知觉生命都是用「错误」这唯一的工具演化出来的……但我们现在已经摆脱了演化的枷锁不是吗？任何疾病都可以治好，最弱的人也能生存，或许有朝一日我们还能把[拉匝祿](https://zh.wikipedia.org/wiki/%E6%8B%89%E6%92%92%E8%B7%AF)从洞穴里召唤出来，到时连起死回生都不是问题。你知道那意味着什么？意味着我们完了，意味着我们目前已经做到了尽头。（[《西部世界》](https://en.wikipedia.org/wiki/Westworld_(TV_series))（*Westworld*），Jonathan Nolan & Lisa Joy，二零一六）
+  - # [也是中国人](https://blog.yitianshijie.net/2016/10/24/chinese-too/)
+    collapsed:: true
+    - [Sketch Measure](http://utom.design/measure/) 跟 [Zeplin](https://zeplin.io/) 差不多，还不用安装软件注册账号，最关键的是：免费！为了表达我的激动之情，给作者捐了 2.3 元。也是中国人。（[李大毛，二零一六](https://zhuanlan.zhihu.com/p/23171585)）
+    - （（一九六零年代美国驻日大使）Edwin O. Reischauer 的《My Life Between Japan and America》和盛田昭夫的《MADE IN JAPAN》）都让我想起十五年前一个朋友的故事。那是一位年轻的中国同性恋者，当时住在一个中年法国餐厅老板家里，经常晚归，早上又睡懒觉。法国人对此感到不快，于是有天早上用一桶冷水当头浇醒了他。中国人很愤怒。愤怒的原因是自尊心受到了伤害。「他怎么能这样呢？」他问我。「我是中国人啊！」（[‘We Japanese’](http://www.nybooks.com/articles/1987/03/12/we-japanese/), Ian Buruma, 一九八七）
+  - # [转机和危机](https://blog.yitianshijie.net/2016/10/24/opportunity-and-crisis/)
+    collapsed:: true
+    - 「二维码没有阶级，属于所有人。路边的煎饼摊可没有摆个银联或 Apple Pay 设备的条件，但是他们都会贴两张二维码。而煎饼摊、水果摊支持支付宝这种事情，在半年以前还令我们非常惊诧。」（新浪微博 @在世界的中心呼唤爱的南方群岛）
+    - 「先不要说危机就是转机了。日常生活中，更容易感受到：转机就是危机。到底遇到转机时，要怎么不让它变成危机呢？举例来说，网际网路出现了，带来许多转机，有很多新的技术跟机会，许多原先的阻挠都可望跨越。然后有一天，你发现很多人只知道脸书。」（[@JediLin](https://twitter.com/JediLin/status/768345790829912066)。按：「网际网路」是互联网在台湾的叫法）
+    - 二维码属于所有人，也不属于任何人，正如 URL 属于所有人，也不属于任何人。二维码和 URL 都只是一块方向指示牌，指向的东西才是我们要的。显然，支付宝二维码、微信支付二维码、Apple Pay 的 NFC 技术指向的东西都不属于所有人。
+    - 人类历史上的转机，大部分（全部？）都是技术带来的。而认为一家跨国巨头企业的技术可以属于所有人，大概就是转机变成危机的原因了。
+  - # [《一天世界》会员通讯和《一天世界》博客的区别](https://blog.yitianshijie.net/2016/10/21/difference-of-yitianshijie-newsletter-and-blog/)
+    collapsed:: true
+    - Blog 者，web log 之简称也。Log 者，流水账也。述而不作是博客的本质。但述而不作是前现代的概念。在今天述就是作。《一天世界》博客将主要由引文组成。最近的[「横尾忠则语录」](https://blog.yitianshijie.net/2016/10/20/some-yokoo-tadanori-quotes/)和[「黑川纪章语录」](https://blog.yitianshijie.net/2016/09/04/some-kisho-kurokawa-quotes/)是两个例子。
+    - 完全由引文构成的写作古已有之。本雅明（Walter Benjamin）未竟之作[《The Arcade Project》](https://www.amazon.com/gp/product/0674008022/ref=pd_sim_14_6?ie=UTF8&psc=1&refRID=14HW5N52SJWK9BJJBMP8)闻名遐迩，[Ubuweb](http://www.ubu.com/) 站长 Kenneth Goldsmith 如法炮制的[《Capital: New York, Capital of the 20th Century》](https://www.amazon.com/Capital-New-York-20th-Century/dp/1784781568/ref=sr_1_1?ie=UTF8&qid=1477023397&sr=8-1&keywords=new+york%2C+kenneth+goldsmith)是近期的例子。元朝伊世珍的[《琅環记》](http://ctext.org/wiki.pl?if=gb&res=224508)或许也可以算类似的趣味。
+    - 纯粹用引文写作是泛媒体时代的必然发展。信息越多，从信息之间发现关联的可能性越多。本雅明领先时代百年。
+    - 正如音乐家不应该让自己的作品里有死的采样，我也希望这里的引文都是活的。
+  - # [专业和艺术](https://blog.yitianshijie.net/2016/10/16/professionalism-and-art/)
+    collapsed:: true
+    - 李松蔚兄的[这篇](https://zhuanlan.zhihu.com/p/22979512)，我大体同意。但是关于文艺的说法错了，或者说误导了（粗体为李兄原文所加）：
+    - > 5. 越专业，越受用户欢迎。这是一条基本规律，而且永远不会错。当然你会提出「小众文艺片导演」这样的反例，但那只是说明，人家定义的用户本来就在「小众」。有人把用户定位为「理解能力低下的人」，也就有人把用户定位为「好这口的人」，各自把圈出的这些用户伺候好，这就是专业。
+    - 圈出一群人叫「小众」，或是「文艺片爱好者」，或是「实验艺术爱好者」，然后伺候之，这是监制的专业，是艺术家的耻辱。
+    - 被伺候是艺术受众的耻辱。等着「专业艺术家」来伺候妳的人，造就了那个「都是套路」的世界。她们抱怨套路，但她们就像欺负心仪的女生的小男孩一样爱着套路。
+      
+      套路的泛滥，和电脑有关。电脑让世界越来越可以被量化。量化是制造套路的利器。（电脑可以干任何事，但电脑现在主要被用来干这个，而且大家都觉得这才是电脑应该干的。）
+      
+      我们需要专业的伺候人的养老院，以及不专业的艺术。
+  - # [廿一世纪人的原型](https://blog.yitianshijie.net/2016/10/10/prototype-of-21st-century-men/)
+    collapsed:: true
+    - 很多人说[《Billy Bat》](https://en.wikipedia.org/wiki/Billy_Bat)烂尾。浦泽直树的旧作，以及 J.J. Abrams 的[《Lost》](https://en.wikipedia.org/wiki/Lost_(TV_series))都经常受此指责。我从来都不同意。大概因为我不是典型的漫画读者。
+    - 安东尼奥尼的《奇遇》（*[L’Avventura](https://en.wikipedia.org/wiki/L%27Avventura)*，也叫《情事》）烂尾吗？剧情进展到三分之一的时候女主角之一消失了，直到结尾也没交待怎么回事。欧洲电影里松脱的剧情线索数不胜数，是什么让我们为这些电影的创作者赋予艺术家的自由通行证，而对于《Billy Bat》和《Lost》这样的作品就有「把故事说圆」的期待？安东尼奥尼的故事没头没尾就是在「探索某种情境」，「故事逻辑的完整性不是他关心的」，浦泽直树/长崎尚志故事里的悬念要是没有落实就是烂尾？
+    - 浦泽的漫画，至少《Billy Bat》《二十世纪少年》《怪物》三部，跟村上春树最好的小说一样，都是音乐。不是文字铿锵、黄钟大吕那种前现代意义上的理解，而是说他们都在**用一种媒介传递另一种媒介的感觉**。这两人都是知名乐迷并非偶然。
+    - Bob Dylan 好赞，但果然还是没有办法，我毕竟是个小说家，不是音乐家。嘛，我就尝试用小说写出 Bob Dylan 那样的音乐吧——就是这种感觉。
+    - 阿伦·雷奈说 Chris Marker (1921–2012) 是「廿一世纪人的原型」也是这个意思。我就是要[完全用静照构成一部电影](https://en.wikipedia.org/wiki/La_Jet%C3%A9e)又怎样。Moving Pictures，移动的图画，又没说要高速移动对吧。一秒廿四格是电影，一秒一格就不是吗？
+    - 所以我也不觉得[《壁下观》](https://ipn.li/bixiaguan/)用语音来讲视觉艺术有什么问题。
+  - # [《Billy Bat》完结](https://blog.yitianshijie.net/2016/09/28/billy-bat-has-come-to-an-end/)
+    collapsed:: true
+    - J.J. Abrams 说，他最喜欢的是那种明明是大制作，但却用 B 级片感觉拍的电影。[《Billy Bat》](https://en.wikipedia.org/wiki/Billy_Bat)就是这样一部作品。
+    - 可是：
+    - ![Screenshot of Naoki Urasawa in a documentary](https://itgonglun.files.wordpress.com/2016/09/newimage.png?w=500)
+    - 看了八年盗版，今天买了全套日文单行本赎罪。谢谢你，浦泽直树。
+  - # [高端品牌不需要创新](https://blog.yitianshijie.net/2016/09/22/high-end-brand-needs-to-resist-disruption/)
+    collapsed:: true
+    - John Gruber [这篇](http://daringfireball.net/2016/09/design_as_branding)说出了一个老派道理。关键句子是「A new Rolex needs to look like a Rolex」，翻译一下，就是「高端品牌不需要创新」。（本文中的高端品牌不以价格论。三星有些手机比 iPhone 贵，但 iPhone 品牌形象比三星高端。）
+    -
+    - 在今天的科技商业语境里，创新特指「破坏式创新」（Disruption），也就是在中国不可避免地带上点负面意涵的破旧立新。高端品牌的精髓在于守旧。旧是好的，旧是 vintage，旧是 timeless，旧是 well-seasoned。
+      
+      所以，Gruber 反对 Farhad Manjoo 说 iPhone 7 的设计「stale」（停滞不前，了无新意），但劳力士之所以「需要」看着像劳力士，就是因为它不需要有新意，或者说它需要在相当程度上保留旧意。某腕表品牌所谓什么没人能拥有我，只是替下一代保管我，保管的难道不是那份旧意和传承？这在本质上和破坏式创新相悖。《纽约客》杂志封面格式百年不变，一样的道理。
+      
+      亮黑 iPhone 7 性感吗？有 latex fetish（不是 LaTeX fetish）的人当然会明白它的性感。了无新意吗？它必须在某种程度上了无新意。只不过，以十年后很可能就没法继续用的软件为核心竞争力的东西，要怎样替下一代保管，就算妳这样问我……
+  - # [不要放弃父母，教她们理解网址（URL）](https://blog.yitianshijie.net/2016/09/20/tell-mum-what-is-url/)
+    collapsed:: true
+    - 的确有些企业比其它企业更不值得信任，但抓住一家打，容易忘记任何大企业从根本上说都不值得信任。
+    - 相反，网址（URL）基本值得信任。的确，gmail.com 被坏人写成 gmall.com，谁也不能保证永远不看错。但这是妳可以控制的。如果妳确定看到的是 siemens.com，遇到冒牌维修工的几率就会大大降低。
+    - 这里涉及两个用户习惯，一是记网址的习惯，二是打开浏览器状态栏，并在点击网址之前确认即将访问的确实是页面上显示的网址的习惯。
+    - 上网较晚的人很可能没有这两个习惯。而在智能手机和平板上不易保留第二个习惯——妳需要长按链接才能看到网址。这就是乔布斯念兹在兹的「super easy to use」的副作用。好在苹果对于防坏人这件事一直非常上心，任妳说什么封闭、独裁，总之就是要把用户当幼儿园小朋友看。因为在数据安全、线上隐私这些课题面前，大部分人的确是幼儿园水平。
+    - 没有完美的答案，但我还是认为应该养成记网址的习惯。难吗？平心而论，对于并非以英文为第一语言的人而言，记网址总归是麻烦。但上面的例子其实佐证了我一直以来的观点，即不应该以 patronizing（善意歧视）的态度对待不熟悉数字文化的用户（例如父母）。可以想象如下逻辑链条：网址难记 >> 父母不愿意记 >> 子女也认为让父母记网址是强人所难 >> 父母相信网站上出现的「西门子官方维修」链接点过去就一定是西门子官方维修，哪怕状态栏显示网址是 siemems.com >> 上当
+    - 我们至少可以让父母知道有网址这样东西。就算她们暂时都无法放弃百度搜索，就算一时半会很难养成仔细观察网址的习惯，妳至少可以让她们知道网址是神奇的（一串字符就可以指向一大堆富媒体内容），也是更可靠的。无论妳说多少次，她们可能都不会听，但妳小时候被她们叮嘱好好刷牙同样也不听。她们并没有因此放弃妳
+    - 网址是万维网的基础，万维网是如今几乎所有互联网创业公司的基础。帮助父母理解这点，才是真正帮助他们跟上时代步伐。会用微信不是。
+  - # [告别微信之后](https://blog.yitianshijie.net/2016/09/13/byebye-wechat-postmortem/)
+    collapsed:: true
+    - 如果一个顶级科技公司的设计师能在二零零七年不用手机，那么在二零一六年当然更能不用微信。
+      
+      公私有别。对于那些强制用微信办公的工作，请考虑单独注册一个微信号工作专用。如果公司没有专门为您配一台工作用手机，这或许会带来一些实际上的不便。不过请记住，就像很多白领工余绝对不看邮箱一样，下班后，您是有不看工作信息的权利的。主动放弃这一权利在互联网圈常常被视为美德。这是愚蠢的。
+  - # [吴涛在读什么（2016.9.8）](https://blog.yitianshijie.net/2016/09/08/metaphox-reading-list-20160908/)
+  - # [《一天世界》本周会员通讯摘要（2016.8.21）](https://blog.yitianshijie.net/2016/09/07/newsletter-roundup-20160821/)
+    collapsed:: true
+    - 三、对未来的三种态度 (2016.8.17)
+      
+      经济学家 Robert Gordon 说 1870–1970 年间的增长再也不会复现。未来宿命论者 Elon Musk 说「我们此刻并非生活在虚拟现实里的机率是十亿分之一」。现实主义者 Maciej Cegłowski 说万维网上有很多猫猫。
+  - # [反正你就是有错](https://blog.yitianshijie.net/2016/09/04/not-something-you-can-fix/)
+    collapsed:: true
+    - talich 兄虚怀若谷，连他都[生气](https://zhuanlan.zhihu.com/p/22304079)，可见问题有多严重。
+    - > 没错，这篇文章我看着很难受。让我觉得别扭的，一个是上面那一堆乱插的图片，还有一堆的粗体重点。所以我就点去原文看了一下，发现人家文章干干净净，什么重点都没有。把文章翻译过来就翻译过来，非要用粗体跟御笔一样大摇大摆做高亮，看着恶心。实在是想用粗体，至少也应该加上一句：「文中粗体由译者所加」，否则对作者有何尊重可言。
+    - 当事人林国宇说「还希望您能一一指正，而不是这种类似『我不说问题在哪里，反正你们就是有错』的批评吧」。不，这里恰恰不应该一一指正。这是已经扩散的恶性肿瘤，如何一一？告诉你哪句译错了，太简单，也太无谓。就像软件臭虫一样，具体的错误总是可以修正，但弥漫在体内的那种 sense of entitlement 如何修正？胡乱加插图片，加粗个别句子，在当事人看来自然是「为读者着想」，这种「我都是为了你好」的认知如何修正？
+    - 不禁想起了 Alan Kay 的话：[The Web was done by amateurs](http://www.drdobbs.com/architecture-and-design/interview-with-alan-kay/240003442)。加一句：for amateurs。但重点不在于专业还是业余，重点在于是狗屎一样的业余/专业，还是金子一样的业余/专业。不谈好坏，只谈身份，这个世界不会好。
+  - # [Apple Store is now Apple](https://blog.yitianshijie.net/2016/09/04/apple-store-is-now-apple/)
+    collapsed:: true
+    - 所谓的高级感（或者用廿一世纪的中国语文，所谓的「屄格」），是由歧义决定的，是由微妙的「氛围气」决定的，是由不说的那部分决定的。这和崇尚透明、开源、凡事要有个解释的信息技术界有本质矛盾。
+      
+      很多人会问「究竟什么叫高端」，但很少人问「究竟什么是屄格」。这是很合理的，因为高级感 – 微妙的氛围气 ＝ 屄格。屄格简单、粗糙、直接，没有纠结定义的必要。屄格一词的流行，只不过是中国没有高端这一事实在公共语文中的体现。
+  - # [关于《经济学人》的二三事](https://blog.yitianshijie.net/2016/08/26/a-few-things-about-the-economist/)
+    collapsed:: true
+    - 《经济学人》（*The Economist*）副主编 Tom Standage 最近[在 Quora 上的答案](https://www.quora.com/profile/Tom-Standage)值得一看，内部员工实名公开讨论《经济学人》很罕见。不知是不是太多人以学英文的目的读这份杂志让人倒了胃口，最近几年中文互联网上常有人嫌鄙它。这种嫌鄙是站不住脚的。
+    - 关于她们[理想中的读者](https://www.quora.com/What-are-some-areas-The-Economist-covers-but-not-many-people-are-aware-of/answer/Tom-Standage)：
+    - > ……一个说英文的、高度好奇的外星人来到地球，想知道地球上有什么事，想知道如何看待这些事。
+    - 关于其[纸版和数字版的比较](https://www.quora.com/How-is-The-Economist-managing-change-to-digital-when-far-fewer-people-are-subscribing-to-print/answer/Tom-Standage)：
+    - > 有趣的潮流：年轻读者更愿意订纸版（估计是为了传递某种社会信号[1]，数字版就没法公开摊出来让人看见了），年长的读者更愿意订数字版（应该是由于在 iPad 上可以放大字号）。
+    - 《经济学人》在形象上很现代，但它和同样来自英国的 [Jethro Tull](https://en.wikipedia.org/wiki/Jethro_Tull_(band)) 一样，在很多细节上都[活在过去](https://blog.yitianshijie.net/2016/08/25/alternative-to-predicating-future/)。一八四三年创刊时《经济学人》是一份报纸，今天虽然长得完全是杂志的样子，但仍然管自己叫报纸。同样，杂志如今的内容[远不只经济和财经](https://www.quora.com/What-are-some-areas-The-Economist-covers-but-not-many-people-are-aware-of/answer/Tom-Standage)，这刊名造成的误会也并不少，但就是不改。文章不署名也是旧习惯，如 Standage [所说](https://www.quora.com/Will-The-Economist-ever-use-bylines/answer/Tom-Standage)，不署名在过去是常态，署名才是变态。不署名的记者如果不算工匠，我不知道什么才算。而工匠，当然也是活在过去的生物。
+  - # [既然预测未来非常难，那不如……](https://blog.yitianshijie.net/2016/08/25/alternative-to-predicating-future/)
+  - # [《一天世界》本周会员通讯摘要（2016.8.14）](https://blog.yitianshijie.net/2016/08/24/newsletter-roundup-20160814/)
+    collapsed:: true
+    - 二、不要用 iPad 工作（2016.8.9）
+      
+      iPad 的实体形态是根据书的实体形态设计的：一个薄薄的、可以握持的立方体。这一点决定了它不是一个创作工具。这就是为什么人们要用各种外部设备去增强 iPad，她们想让它变得更像一个放在桌子上用的设备。桌子。那才是最基本的、必不可少的创作利器。适合放在桌子上用的，才是生产力工具。
+  - # [[免费试读] 一天世界会员通讯：建筑为什么 low？（2016.8.1）](https://blog.yitianshijie.net/2016/08/18/yitianshijie-newsletter-29/)
+    collapsed:: true
+    - 类似的观点大家应该都在别处看过，主要就是：一、巨大的市场规模导致设计建筑的人不需要有很高的水平也能赚到不少的钱。二、翻译行业在对能力的要求和经济回报上的不对等。
+      
+      先说第二点。张先生签下一套和建筑有关的书，想找一位「外语好又懂建筑的专家」来翻译。然后有人说，「你可能在建筑界找不到人，没人愿意接你的活儿」。原因自然是钱。
+      
+      钱的问题过于简单，因此谈来很无趣。翻译稿费就是很低，短期内也没什么改变的可能。不过在我看来，某某领域的著作最好找该领域的人来翻译，是一种典型的似是而非。表面上是尊重专业性，其实恰恰是无视专业性——翻译这一行业的专业性。翻译建筑书不是一个建筑上的专业问题，是一个语言文字上的专业问题。
+      
+      近年的建筑（大）师喜欢讲理论，但她们绝大多数都谈不上是合格的理论家，正如绝大多数法餐大厨都不是合格的尺八演奏家。就算往前推几十一百年，柯布西耶、赖特等现代主义大师的写作，也都更适合作为一种史料来研究。我在第十六期《一天世界》提到的 Buckminster Fuller 的文字相当啰嗦繁冗，妳需要很用力才能感受到这二流表象背后的一流实质。那实质是新鲜而刺激的，但我们不必美化大师的弱点
+    - 建筑师很爱写的一类文体是宣言。宣言与其说是分析性文本，倒不如说是美化了的营销文案，类似「Here’s to the crazy ones」那样的东西。建筑师的宣言是一种很特殊的语言，它由一个长期深入思考三维空间、比例、色彩、光线、社会功能、结构力学的人用非正统的方式组织起来，在很大程度上也并不以一般性的读者为对象。后面这一点决定了建筑师通常不会是很好的翻译家。即便是很多专业文献的翻译，都需要译者对一般性、公共性的语言有很好的敏感度与把握能力。专业人士互相之间的交流则不太依赖这一点。这和医生的字迹普通人看不懂，但其她医生和药剂师能看懂是一个道理。
+    - 我是这么看的：
+      
+      一、任何手工艺者都理应无条件地把自己的工作看得很重要；
+      二、「行活」在任何领域都是大多数，有的时候我们称之为「类型作品」；
+      三、手工艺者可以跨界，但并不默认要跨界。外人也不应当认为一个行业的专业性必定可以平移到另一个行业。
+    - 如果张先生对于建筑教育有些了解的话就会知道，大部分的中国建筑学生——不论毕业于何处——外语并不好。这一现象仅仅是中国的美术学生和工科学生外语不好的一个子集[1]。我们也并不应因此而责怪她们。相反，问题出在专业文字工作者身上。为什么她们会认为一本建筑书的译者要去建筑界找，而不是去文字界找？（何况这里涉及的还不是专业建筑书，而是一套「写人类伟大的历史文化遗迹」的书。）在我看来，这种认识本身就是空谈误国论的某种隐秘的后果。一个对文字有信心的人，会相信文字工作者可以通过文字去认知世界上的任何现象与情感。事实上，直到目前为止，所有行业的人也都是这么做的。文学、历史、哲学和建筑、电脑科学等领域的知识无不是通过自然语言和文字传承与教授，区别仅仅在于前者的终点依然是文字，而后者的终点是其它符号系统（图像和形式语言）。仅仅因为文字的可复制性最高，需要的带宽最窄就对其丧失信心，不仅是一种庸俗，更是一种无知。
+    - 张先生在文中引用了一位建筑界的老师的说法，即「高歌猛进的房地产行业毁了一代建筑师」。简单来说，由于中国有太多房子要建（需求高），建筑师不需要自我提升也可以赚到钱，最终导致各种烂建筑的诞生。这一类思维表面上是在承认商业的力量，事实上依然是把商业视为一种特殊的东西，把商业和低劣画上了等号（类似「商业片都是烂片」）。照此逻辑，世界上所有伟大的城市都经历过房地产行业高歌猛进的时期，难道最终结果都是「对公众审美形成摧残」，并毁掉一代建筑师？
+    - 我们必须承认审美是被论述出来的。同样的结构、图像、风景，用不同的文字描述，会形成截然不同的心理认知和情感冲击。这就是我为什么相当反感中文网络上常见的一种化骨水式的论说方式，姑且称之为「不就是」体。这种文体的爱好者喜欢把任何复杂的现象化解成简单而容易下咽的压缩饼干。「不就是形式大于内容嘛」「不就是钱没给够的问题嘛」「网页版 Apple Pay 不就是支付宝嘛」。很多时候它们或许「是」，但并不「就是」。在理性至上精神和对神秘主义的反感驱使下，人们喜欢用总结中心思想的方式把审美驯服成容易理解的样子——往往也就是某种已经被认可了的旧的样子。这是文化保守主义的体现。
+    - 新的视觉文化必须附带着相应的论述，才有可能有效地弥散到社会肌理当中。我们选择什么样的文字来描述前所未见的视觉形象与设计理念，决定了公众（包括建筑师和非建筑师）会怎样认知这些新的视觉文化。管 OMA 的央视总部大楼叫「大裤衩」是一种典型的京城泼皮文化的体现，当我们看到一种新的、陌生的视觉形象出现在城市空间时，第一反应就是从脑中搜寻旧世界里与之类似的物件。这和用画得像不像来评判所有绘画并无二致。
+    - 建筑师常常抱怨甲方是烂建筑的根本原因。对于建筑师面对甲方时的无力感，我们应该报以同情和理解。但究竟为什么甲方的品味会有各种各样的问题？在今天，能成为甲方的人恐怕并不总是没见过世面的土皇帝。但是如果与审美和设计有关的语言要么被「大气」「屄格」「简约」这类粗糙的形容词所统治，要么被甲乙双方都假装能听懂的鬼扯所包围，我们就不可能就品味和审美之事进行任何智性的沟通。
+    - 我没有解药，但我想至少有以下事情是可以做的：
+      
+      一、建筑师请认真地写东西，不要带着「反正写了也没人看」或「建筑师写字是一种不务正业的行为」的心态写；
+      二、请认真读东西，没有理由地阅读；
+      三、请不要害怕跟妳的素人朋友谈论看上去很高深的问题。在 Lady M 吃甜品的时候谈，在日本料理店吃寿司的时候谈，在第一次约会的时候谈，在回家看父母的时候谈。语言确实属于人民，请不要放弃语言。
+  - # [付费内容也可以是垃圾](https://blog.yitianshijie.net/2016/08/16/paid-content-can-be-junk-too/)
+    collapsed:: true
+    - 付费内容越来越多，有必要重申如下常识：
+      
+      一、付费内容也可以是垃圾
+      二、付费内容也可以很精彩
+      三、免费内容也可以是垃圾
+      四、免费内容也可以很精彩
+      
+      很遗憾，如今关于内容的讨论，似乎都是在无视和不承认上述常识的前提下进行的。
+      
+      我对垃圾内容一词的使用和常人不同，所以必须定义。
+    - 垃圾内容 ＝ 属于当下时空、并直接诉诸于内在生理机制（包括肉体的和精神的）的内容，例如色情电影、Ed Wood 的电影、大部分类型小说、大部分电子舞曲音乐、成功学著作；
+    - 非垃圾内容 = 「不属于当下时空」和「不直接诉诸于内在生理机制（包括肉体的和精神的）」这两个条件至少符合一条的内容，例如一九六零年代的华语流行音乐、二零一六年的宝莱坞电影、[《纽约书评》杂志](http://www.nybooks.com/)、Jonathan Blow 的游戏[《The Witness》](http://the-witness.net/)、[Dust to Digital 唱片公司](http://www.dust-digital.com/)的出品、[Type is Beautiful](http://www.typeisbeautiful.com/)、[《壁下观》](http://bixiaguan.com/)（利益申报：《壁下观》系 [IPN 播客网络](https://ipn.li/)旗下节目）等等。
+    - 垃圾内容从来不缺赚钱的方法，因为垃圾内容本质上都是 hardcore 色情内容。
+      
+      我们关心「付费内容」，关心的是非垃圾内容如何持续的问题。如何持续具体包括：创作者的心理状态，创作者的生理状态，创作者的经济状态，创作者和受众的良性互动，相关基础设施的完善度。
+      
+      这属于商业问题，但仅仅在「商业是现代社会的基本肌理」这个层面上属于商业问题。它本质上属于文化问题，也就是意大利未来主义、五四新文化运动、法国新浪潮电影诸君思考的问题。
+  - # [奇葩中国，奇葩中国！My 真实中国 for a 奇葩中国！](https://blog.yitianshijie.net/2016/08/11/coming-to-terms-with-exotica/)
+    collapsed:: true
+    - 从阅读上说，横竖简繁都是无所谓的事。怎样都能读，速度取决于习惯。在有的人看来，我只是当了一回文化标本，而且还是假的标本，一只仓鼠伪装的兔子尸体——不但没给对方一个真实中国，反倒维系了他者对中国的错误想像。
+  - # [什么是 New Age？](https://blog.yitianshijie.net/2016/08/05/what-is-new-age/)
+    collapsed:: true
+    - 在今年七月号的[《The Wire》](http://www.thewire.co.uk/)杂志上看到这篇[「到底什么是 New Age」](http://livelifeletlive.blogspot.com/2010/12/what-is-new-age-anyway-by-jack-clarke.html)被印成背景图案了。[New Age](https://en.wikipedia.org/wiki/New_Age)……好遥远的词汇啊。
+    - It's people who believe we are what we think we are, and can change ourselves by changing our thinking.
+    - It's people that feel they can change the world by changing themselves, not by trying to change others.
+    - It's people that choose their own path rather than follow dogma.
+    - It's people interested in owning themselves rather than things.
+    - It's people curious about extra sensory perception and all it implies.
+    - It's people in all walks of life, from business persons to flower essence healers, psychologists to UFO investigators.
+      
+      ‘Everything in the world is exactly the same.’ — Kanye West
+  - # [什么是独立游戏](https://blog.yitianshijie.net/2016/07/16/what-is-indie-game/)
+    collapsed:: true
+    - 因为「独立游戏」这个概念正在越来越脱离分类学的范畴，成为某种精神和态度的指代。越来越多开发者愿意声称自己是独立开发者，在做独立游戏。这个概念确实难以定义。如同摇滚乐一样，谁能准确说出什么是摇滚呢。埃尔维斯·普雷斯利被称为「摇滚乐之王」，我听他的歌就怎么都感觉不到摇滚。会不会在未来某天，我的孩子对我说：「你给我推荐的都什么破游戏，这《时空幻境》一点都不独立！」
+    - 和独立音乐，或者任何独立创作一样，独立游戏原本就是精神和态度的指代。什么精神？大致有以下这些：
+      
+      主张 self-sufficient
+      蔑视体制，而且不需要理由
+      人大于机器，湿件大于软件和硬件
+      不喜欢被分类
+    - 这会直接导致以下结果：
+      
+      Self-sufficiency 和蔑视体制会让妳失去人脉网络以及体制的支持，从而在推广上遇到天花板
+      人大于机器意味着妳的 scalability 不会很好，因为妳的工作无法轻易复制
+      不能被分类的作品很难被大多数人理解
+    - 在资本主义世界，任何精神和态度都可以随时被收编。「另类」（alternative）作为一种音乐态度被唱片业收编就是最有名的例子。精神在前，收编在后。精神和态度会慢慢变成「分类学」中的一个单元格，而不是反过来。
+    - 周先生在最后把[谷歌的 Indie Games Festival](https://events.withgoogle.com/google-play-indie-game-festival/) 和每年假 GDC 举行的 [Independent Games Festival](https://en.wikipedia.org/wiki/Independent_Games_Festival) 对比，试图通过举办场地的豪华程度以及 indie 和 independent 两词的区别来证明前者才是真独立。
+    - 他完全搞反了。Independent Games Festival 已经做了十八年，其获奖作品诸如[《FEZ》](http://www.fezgame.com/)、[《Her Story》](http://www.herstorygame.com/)、以及最有名的[《时空幻境》](http://braid-game.com/)（Braid）都是教科书式的独立作品。如果未来的玩家不能理解《时空幻境》的好处，那么我们有责任帮助她们了解。正如我们有责任让人们明白一九六零年代的「迷幻摇滚」迷幻在哪里（以及或许帮助周先生了解猫王和摇滚的关系）。而自己开设游戏商店的谷歌主办 Indie Games Festival，才恰恰是巨头企业试图收割独立创作成果的表现。周先生认为分不清 indie 和 independent 说明语感不好，但谷歌用了 indie 一词并不意味着它就是独立，正如百度说自己更懂中文并不意味着她们更懂中文。一个[只有 Google Play 商店内的游戏才能参加](https://docs.google.com/forms/d/e/1FAIpQLSduaM998L0WXm_4znsZjHX5-unZLBChNXHuCHbTlWuAcmMNmQ/viewform?fbzx=6932505136114408000)的独立游戏节，首先是一个推广 Google Play 商店的工具。随口数五个经典独立游戏出来，看看哪个是在 Google Play 首发？我很遗憾周先生没有看懂这点。
+    - 一篇文章的标题里同时出现「钦定」和「独立」两词已经足够诡异，而文中的一句话更是暗示了独立被收割的现状：
+    - >
+    - 越来越多开发者愿意声称自己是独立开发者，在做独立游戏。
+    - 就像「如何成为有趣的人」一样。妳要么就「是」独立开发者，要么就不是；要么是御宅，要么就不是。我们用鼻子可以闻出谁是谁不是，「声称」是骗不了人的。
+  - [Episode 39: 我对盗版的态度 - Podcast](https://www.bababam.com/en/bu-niao-wan-ru-yi-yi-tian-shi-jie/201611251500-episode-39-wo-dui-dao-ban-de-tai-du)
+  - # [「在我的年代，大部分人都有人照顾，的确容易飘。」](https://blog.yitianshijie.net/2016/07/12/nugget-from-anthony-wong-interview-u-magazine-hk-2016/)
+    collapsed:: true
+    - 排场和奢华不只是「上一个时代的事情」，更是美学上落后的事情。奢华只能[后设](https://www.zhihu.com/question/22463701/answer/22004638)（meta）地作为一种 [anachronism](https://en.wikipedia.org/wiki/Anachronism) 存在。这也是为什么[海底捞的服务并不是好服务](http://www.vjmedia.com.hk/articles/2016/07/08/137846/)。有专人帮妳拧开水龙头，这绝不贴心，只有尴尬。就像慈禧太后洗一次澡要用四十条毛巾，有十名宫女专门负责浆洗衣物一样。（见德龄《御香缥缈录》。）
+    - 「自己做也有美丽之处」就是 Buckminster Fuller 思想的精髓之一。「唱片公司的支持」属于 Fuller 预言的不可持续的社会组织结构。Fuller 生于一八九五年——嘿，慈禧还活着呢。
+  - # [如何自由地转发](https://blog.yitianshijie.net/2016/07/07/how-to-freely-share-stuff/)
+    collapsed:: true
+    - 怎么说呢？五味杂陈？这位朋友的意思是没有「转发到微博」一类的按钮，但我相信，今天的确会有很多读者见到一篇没有任何按钮的文章就不知道如何转发。有不少读者已经不懂什么是 URL/网址了。我认识这样的人。
+    - 或者至少像 @MessiBeans 一样，知道网址是什么，但对它的感觉已经有点异样了：
+    - > 分享可不可以发一条 link 作为朋友圈，里面就是一个网址，什么简介都没有，然后人们好奇，就都点开看了。[笑cry]
+    - 我不希望造成一种将这二位朋友贴出来示众的印象，他们都是善意而用心的。此外，网址作为一种信息传播机制也不是没有缺点。最大的缺点恐怕就是可读性较差。在《一天世界》上的每一个网址我都力求做到可读，例如 [blog.yitianshijie.net/2016/07/06/content-farm-in-the-1980s](https://blog.yitianshijie.net/2016/07/06/content-farm-in-the-1980s/)
+    - 老实说，我并不太关心资深用户如何如何。她们永远能找到适合自己的用法。我关心的是连网址为何物都不知道的普通用户。妳应该了解什么是网址。它是最自由的转发机制，不受任何商业公司或产品设计机制的限制。若是担心表意不明，妳可以自己写一段简介，告知收信人为什么应该点开这条链接，而不是一昧信任文章作者在开头写下、然后被软件在网址预览介面自动提取作为导语的那部分文字。妳的朋友有权利知道妳的——而不是编辑或作者的——推荐理由。从这个意义上说，我倒有点希望苹果不要在 iOS 10 里为 iMessage 添加网址预览功能。毕竟只剩它一个了。
+    - 积极使用网址，就是保护开放的万维网（open web）。
+  - # [一九八零年代的内容农场](https://blog.yitianshijie.net/2016/07/06/content-farm-in-the-1980s/)
+    collapsed:: true
+    - 贾平凹的小说《废都》写的是一九八零年代的中国城市和知识分子风情画：
+    - > 洪江说：「开了这一年书店，我也摸了行情，写书的不如卖书的，卖书的又不如编书的。现在许多书店都在自己编书，或者掏钱买出版社一个书号，或者干脆偷着印，全编的是色情凶杀一类的小册子，连校对都不搞，一印几十几百万册，发海了！朱雀门街的小顺子，什么鸡巴玩意儿，大字不识的，却雇人用剪刀和胶水集中社会上各类小册子中的色情段落，编了那么一本，赚了十五万，现在出入都是出租小车，见天去唐城饭店吃一顿生猛海鲜。」庄之蝶说：「这些我知道，咱不能这样干。」洪江说：「我知道你要这么说。现在有一件事，我和师母商量了，一个书商拿来印好的一本武侠书，署名是刘德写的，卖不动，想便宜一半卖给咱。我想了，咱接过来，换一个封面，署上全庸大名，一定会赚许多钱的。」庄之蝶说：「这怎么就能赚许多钱？」洪江说：「金庸的书卖得快，这书当然写得不如金庸，咱署名全庸，用草字写，猛地一看也是金庸了，若要查起来，我写的是全庸啊！这事你由我办好了，只是得筹十万元，这你和师母要想办法。」牛月清说：「只要你老师同意，钱我筹。今日汪希眠送了帖子来，说是明日要给他娘过七十大寿，盼望咱一家人去，你要明日去就去，不去，我去向他借八万，咱再取了存折，十万元也凑够了。」
+    - 小顺子的 scalability 很差，洪江则懂得不要重新发明轮子的道理，牛月清知道 seed money 很多时候从亲友处筹集更加靠谱。
+  - # [什么是碎片化阅读？](https://blog.yitianshijie.net/2016/07/05/what-is-fragmented-reading/)
+    collapsed:: true
+    - 我想这位作者误会了我们究竟在反对什么。我们反对的是碎片化阅读，不是利用碎片化时间来阅读。欧阳修的「三上」（枕上、马上、厕上）大家耳熟能详，可见利用零散时间阅读的习惯古已有之。而我们所反对的碎片化阅读，指的是浮浅和无视语境的阅读。这和长短无关，和读者有没有整体性的视角有关。无论长短，无论发在什么平台上，妳都要意识到文本的意义来自于它和其它文本之间的关系，即所谓「互文」（intertextuality）。这里的其它文本不只是其它作者写下的文本，也包括其它读者在阅读这份文本——再次强调，不管是一句话的段子还是五十万字的小说——时的感受、心绪与思维。把一份文本仅仅当成它自己，并假装自己是世界上唯一和它发生了关系的读者，这就是无视语境的碎片化阅读。
+      如之前所说，这也是我反对微信公众号的主要原因。由于不允许在文中添加外部链接，微信从技术上直接切断了文本和网上大部分其它文本发生关系的可能。它不是把阅读送回日常生活，而是送回了前现代——那个文本自身比文本间关系更加重要的年代。这是一个百分之百向后看的互联网产品。
+  - # [二十分的作品属于灵薄狱](https://blog.yitianshijie.net/2016/07/03/do-not-shame-bad-work-with-mediocre-work/)
+    collapsed:: true
+    - 有人可能会说这或许刚好是整叠幻灯片里最差的一张，但我比较怀疑。无论如何，这样的对照比较对于推进人们关于设计的思考只有反作用。在丑陋、荒诞、畸形、下作能够有效地劫持公共论述的今天，用六十分的作品去羞辱二十分的作品是一种取巧。只有把注意力放在九十分的设计品上，才有可能做到八十分。二十分的作品属于[灵薄狱](https://zh.wikipedia.org/wiki/%E9%9D%88%E8%96%84%E7%8D%84)（limbo），就让它留在那里吧
+  - # [普通人有必要学编程吗？](https://blog.yitianshijie.net/2016/06/30/should-everybody-learn-how-to-code/)
+    collapsed:: true
+    - 这是我在二零一三年对于知乎上的问题「普通人有必要学编程吗？」的回答：
+    - [知乎用户黄飞鸿贴的图片](https://www.zhihu.com/question/21260661/answer/17691372)，是 NeXT 时期的乔布斯。背景的电脑屏幕上能看到 Paul Rand 给 NeXT 设计的立方体图标。
+    - 乔布斯说的话是很典型的黑客理念。赋权于民（empowering），把工具交给民众（《全球目录》的口号「access to tools」），然后从中就能开出花来。
+    - 这是非常理想化的软件左派信仰，可惜，电脑产业没有朝这个方向发展。专业化、社会分工、「花钱解决问题」的市场经济信仰取得了胜利。民众没有去学编程，他们花钱请人帮他们编程。
+    - 乔布斯在自己生涯的中后期是不是还信奉这一套，我不知道。但他的实际行动绝对是站在「人人都应该学编程」的反面的。[HyperCard](https://en.wikipedia.org/wiki/HyperCard) 被他[叫停](http://www.loper-os.org/?p=568)就是最好的例子。那可能是史上最有名的主张「大家一起来编程」的软件之一，跟今天的 [IFTTT](https://ifttt.com/) 有点像，但影响力远远大于 IFTTT。
+    - 苹果里一直有一支力量是主张赋权的。今天在 Mac OS X 里我们还能看到这一派的影子，那就是 [AppleScript](https://en.wikipedia.org/wiki/AppleScript) 和 [Automator](http://www.macworld.co.uk/how-to/mac-software/what-automator-can-do-for-you-3605538/)。但有多少人用它们呢？我认为乔布斯内心深处不是这一派的。
+    - 看看 iOS 时代的广告语吧：There’s an app for that。总有一款 app 满足你。这还学什么编程呀。
+    - 所以，这个问题要放在一九八零年代问，答案是肯定的。在今天，不，除非妳喜欢编程，不然没有必要学习编程。
+  - # [LINE 五周年，今天可以用它免费拨全球任何电话号码](https://blog.yitianshijie.net/2016/06/23/line-5th-anniversary/)
+    collapsed:: true
+    - [详情在此](http://official-blog.line.me/en/archives/1058679379.html)。
+    - 我们发布这样的消息，难道是假装 [LINE](http://line.me/) 在中国可以正常使用吗？
+    - 这个问题错了。正确的问题是：
+    - 大家曾经如此热爱的 Cony & Brown 即时通讯软件，难道仅仅因为在中国用不了，就假装它不存在吗？
+    - 正确的问题是：
+    - 难道要假装微信是世界上唯一的即时通讯软件吗？
+  - # [Alan Kay 最高](https://blog.yitianshijie.net/2016/06/22/alan-kay-is-the-best/)
+    collapsed:: true
+    - [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) 昨天在 Hacker News 做了一次 [AMA](https://news.ycombinator.com/item?id=11939851)（无限制问答活动），有很多精彩的讨论。我想特地摘出一条。网友 guelo 问：您在一九七零年代构想未来的电脑时似乎很重视其教育功能，但今天显然电脑作为娱乐工具的角色超越了一切。「有没有什么介面可以引导大脑，让它尽量远离那些最糟糕的本能冲动，用到更有生产力的地方？」
+    - Kay 答曰（为帮助大家了解背景，我在译文里加了三个链接和注释）：
+    - > We were mostly thinking of ‘human advancement’ or as Engelbart’s group termed it ‘Human Augmentation’—this includes education along with lots of other things. I remember noting that if Moore’s Law were to go a decade beyond 1995 (Moore’s original extrapolation) that things like television and other ‘legal drugs’ would be possible. We already had a very good sense of this before TV things were possible from noting how attractive early video games—like SpaceWar—were. This is a part of an industrial civilization being able to produce surpluses (the ‘industrial’ part) with the ‘civilization’ part being how well children can be helped to learn not to give into the cravings of genetics in a world of over-plenty. This is a huge problem in a culture like the US in which making money is rather separated from worrying about how the money is made.
+      （当时我们思考的主要是「人类的进化」，或者用 [(Doug) Engelbart](https://en.wikipedia.org/wiki/Douglas_Engelbart) 小组的说法，[「人类的增强」](http://worrydream.com/Engelbart/)——这包括教育，但也包括很多别的东西。我记得当时有想，如果摩尔定律在一九九五年之后还能继续前进十年（摩尔原本的发想），类似电视和其它「合法毒品」一类的东西就会成为可能（译者：这里是指在计算设备上成为可能）。看到早期的电脑游戏有多好玩后（例如 [Spacewar](https://en.wikipedia.org/wiki/Spacewar_(video_game))），我们就知道一定会这样，虽然当时电视之类的东西还没出现。（译者：也是指尚未在电脑上出现。）这就是工业文明生产盈余的体现（「工业」就是这个意思），而「文明」则是指电脑可以如何帮助小朋友在一个过度丰富的世界学习对抗基因本能带来的欲望。这一点对于美国这样的文化是个大问题——我们基本把赚钱和如何赚钱这两件事分割开来了。）
+    - 还能说什么呢？[Alan thought about these 30 years ago](https://youtu.be/9hUIxyE2Ns8?t=10m12s)，而今天，王路先生[认为](https://blog.yitianshijie.net/2016/06/22/hack-your-cultural-gene/)品味很大程度上由基因决定。
+    - 紧接着，网友 stcredzero 问了关于音乐有没有可能从现在的「游戏化」机制（gamification）里取经，而游戏化机制本身会不会有更正向的、用以提升人类智性活动效能的用法。Kay 给了一个非常古典，但毫不过时的回答：
+    - > I certainly don’t think of music along these lines. Or even theater. I like developed arts of all kinds, and these require learning on the part of the beholder, not just bones tossed at puppies.
+    - （我当然不会从这个角度去想音乐。戏剧也不会。我喜欢各类艺术，观看艺术需要学习，这不是一个给小狗丢骨头的过程。）
+  - # [如何对任何东西有感](https://blog.yitianshijie.net/2016/06/22/hack-your-cultural-gene/)
+    collapsed:: true
+    - 王路先生写了一篇[「你为什么对某些东西无感？」](https://zhuanlan.zhihu.com/p/21381688)。我对这个话题也有些心得，但看法和他正好相反，而且坦白说我不太喜欢他的结论，即归根结底，人的口味是基因决定的
+    - 这令我相当震惊。《五环之歌》我不知道是什么，暂且不论。Papi 酱的多语混合视频对我来说就像《老友记》里 Phoebe 唱的「Smelly Cat」一样，属于非常典型易懂的后现代趣味。女人看小鲜肉和男人看《花花公子》到底有什么区别？至于头上插草，不管看上去多傻，跟风行为本身就自带一种源自安全感的快乐。这些应该都是廿一世纪当代社会的审美常识，对于今天的人来说，理解它们应该要比理解十九世纪英国文学容易得多。
+      
+      庞麦郎难理解吗？在他之前三十年，香港就出现过几乎一样的现象，他的名字叫夏金城。当年的香港市民并不觉得夏金城有什么难理解的。
+      
+      我觉得王先生其实一定能理解这些东西好玩在哪，他真正的意思是「我不认同它们」。只要尝试进入语境，任何审美或趣味总是可以理解的，区别可能仅仅在于它能否让妳起鸡皮或者高潮。进入语境和学语言一样，进入得越多，进下一个就越容易。而进入和认同当然是两件事。一个人完全可以不喜欢职场但又在职场风生水起，精神分裂是廿一世纪人的基本状况——King Crimson 在一九六九年就说过了。今天有无数线上线下的工具帮助我们钻进，比如说，一九七零年代柬埔寨摇滚乐手的脑子。去尝试理解他们几乎是一种义务。
+      
+      我为什么要写这些？因为审美是我们人类能控制的为数不多的东西之一。把基因决定论用在审美上，这实在有点过分。
+  - # [万维网才是最好的平台](https://blog.yitianshijie.net/2016/06/20/web-is-the-best-platform/)
+    collapsed:: true
+    - iOS 平台成了「最佳平台」的默认想像，对此我虽然理解，但也感到遗憾。它无疑是最漂亮、最梦幻的平台，但最好的平台一定是万维网（Web），用 Safari、Chrome、IE、Firefox、Opera、360 浏览器、QQ 浏览器……上的那个。
+    - 那句话有一种把阶层价值嫁接到数字空间的味道。作者刻意选择的三个地名，暗示了播客是技术社群的专属媒介。「只有用 iOS 的技术人才听那个」——这是它传递的保守信息。《壁下观》就是对这一信息的强力反动。
+      
+      不把内容对 iOS 用户开放是商业上的愚蠢，不把内容对不用 iOS 的 Web 用户开放是道德上的错误。
+  - # [关于书单](https://blog.yitianshijie.net/2016/05/22/on-book-list/)
+    collapsed:: true
+    - 书单满天飞，人人都爱看。
+      
+      有点像上课做笔记，最早的「稍后再读」。就算稍后不读，收藏那一瞬间的快感也是真实的。
+      
+      Stephen King 最喜欢的一本书是《The Golden Argosy》，一九五五年的短篇小说集。今天应该没几个人听说过。维基百科上也只列出了编者，出版社，出版日期，以及「是 Stephen King 最喜欢的书」这一事实。书里收录的倒也不是什么沧海遗珠：福克纳、海明威、赫胥黎、艾伦坡，等等。
+      
+      然后我想这才是书单的意义：通过这些书去对推荐者的大脑进行逆向工程。他的脑子吃了什么长成这样的？书好不好也无所谓。而且从没吃过垃圾的人我觉得挺可怕的。
+      
+      职业写作者都知道，阅读是写作的一部分。King 自己的写作秘诀也是「每天读写四到八小时」，而不是每天写四到八小时。读作家推荐的书其实也是在读作家写的书。嘿，妳知道李力持的电影《行运一条龙》（1998）里，周星驰和郑秀文的「女装底横」（内裤）桥段是抄自美剧《老友记》第二季第十三集（1996）吗？美式通俗都市喜剧幻化成了港式市井 slapstick。
+      
+      要是不知道推荐者是谁，做了什么，那书单几乎毫无价值——除非妳是刚开始看书的人，比如廿世纪中文小说百强什么的。
+  - # [关于 IPN 的二三事](https://blog.yitianshijie.net/2016/05/20/a-few-things-about-ipn/)
+    collapsed:: true
+    - IPN always gives a fuck.
+      
+      – IPN’s audiences are the best.
+      
+      – IPN 的原则是：读者/听众说了不算。
+      
+      – IPN 不推送，因为推送是吸引的反义词。
+      
+      – IPN 不会把重要的事情说三遍，因为 IPN 的读者和听众不是只会读 bullet points 的白痴。
+      
+      – IPN 相信数据能揭示与直觉相反的真相，但 IPN 不是为了用数据揭示真相，而是要成为统计样本中的噪音。
+      
+      – IPN 相信所有文化变革均系由技术驱动（William Gibson 语）；钢笔和白纸都是技术。
+      
+      – IPN 不相信方便和随时随地，更不相信随时随地方便。
+      
+      – IPN 主张全盘西化，因为不可能全盘西化。
+      
+      – IPN 的目标是让中国变得更美。
+  - # [小议中英夹杂](https://blog.yitianshijie.net/2016/05/08/briefly-on-mixing-english-and-chinese-in-daily-use/)
+    collapsed:: true
+    - 朋友发了下面这段话要我评价：
+      
+      > 中英文夹杂着说话是习惯还是装屄？「每月把 Portfolio Analysis 发送给全组」这是习惯，「每月把资产组合分析 send 给整个 group」这是装屄。
+      
+      从原则上说，不能根据单词的难易程度来区分。有些简单的西文单词恰恰就已经充分嵌入了本地语言，例如「send」之于粤语（声调类似普通话的第一声），说起来无比自然。
+      
+      不过我有点怀疑作者所谓的「装屄」之处并不在于把发送和组这种简单的中文词英化，而在于故意要把 Portfolio Analysis 给汉化。会说「每月把 Portfolio Analysis 发送给全组」这种句子的人，想必是金融业者。这就涉及那个古老的问题：专业词汇的汉化不够充分。程序员直接说 robust/repo/keynote 很可能比「鲁棒/软件仓库/主题演讲」更容易听懂。
+      
+      一个对中英夹杂这件事如此在意，以至于要专门发文评论的人，我们可以假定她认为「中国人尽量说中文」是更好的状态，也认同「中文语汇需要不断扩展和丰富」。从这个意义上说，portfolio 这种专门词汇恰恰更需要汉化。专业圈子里直接说英文大家更容易明白，因此就直接说英文，这是偷懒。
+      
+      「每月把 Portfolio Analysis 发送给全组」和「每月把资产组合分析 send 给整个 group」都是习惯，但和前者相比，后者是无伤大雅的习惯。无论妳怎么用 send 来代替「发送」，中国人都不会忘记 send 这个词中文怎么说；妳越是坚持说 Portfolio，中国人就越不知道这个词中文怎么说。
+  - # [乾货文 = 欺诈文](https://blog.yitianshijie.net/2016/05/02/a-different-kind-of-fraud/)
+    collapsed:: true
+    - 这就是乾货文的最大问题。乾货文是一种承诺，告诉妳看了之后就可以变成那样的人，不论是经营便利店的高手、数据科学家、还是一流的用户体验设计师。
+      
+      但这种承诺根本就是欺诈：乾货文的作者自己，几乎从来就不是那样的人。
+  - # [安迪·沃霍尔不许视频直播](https://blog.yitianshijie.net/2016/05/02/no-video-lifecasting-for-andy-warhol/)
+    collapsed:: true
+    - 某个热门视频直播 app 规定：
+    - > 1. 严禁发表反党反政府的言论，或做出侮辱诋毁党和国家的行为
+      2. 严禁直接或间接传播淫秽、色情信息，或进行淫秽、色情表演，严禁低俗内容
+      3. 严禁通过任何方式传播毒品、展示枪支、管制刀具等
+      4. 严禁通过任何方式宣传、展现赌博信息
+      5. 严禁冒犯性、羞辱性、歧视性的语言和行为
+      6. 严禁进行各类广告宣传，恶意发布广告的行为
+      7. 严禁进行其他涉政、涉黄、违法、侵权及其他映客直播相关秩序规范的内容
+      8. 禁止挂机、黑屏、画面定格等行为
+      9. 禁止未成年人进行直播
+    - 第八条事实上就是前七条的母集合。挂机、黑屏、和画面定格是美学上的反动内容和色情内容。这个 app 可以说是 retroactively 地[在一九六四年封禁了安迪·沃霍尔](https://en.wikipedia.org/wiki/Empire_(1964_film))。
+    - 不过，如第五期[《一天世界》](http://yitianshijie.net/)的嘉宾所说，一张大脸对着镜头不断「谢谢点亮」的直播，究竟和挂机、黑屏、画面定格有什么不同。
+  - # [「到那个时候，我就可以在世界上任何地方办公了。」](https://blog.yitianshijie.net/2016/04/29/do-you-really-like-remote-working/)
+    collapsed:: true
+    - 不管初衷是不是实名制，绑了手机就是事实上的实名制。目前国内能仅用邮箱登录的网站几近绝迹，知乎也必须用手机号才能注册了。
+    - 真要提高安全体验，应该支持 Google Authenticator 或其它通用型两步验证密码生成器。不过「异常登录地识别」是近年互联网产品经常出现的一个设计。我的 Uber 账号曾经因为一周内在多个不同城市使用而被锁定，客服给的回答也正是这无比荒谬的「在居住地以外的城市登录」
+    - 这话要是抽离出来看并没有错，不过我倒是好奇一个人愿意为安全付出什么样的代价，又愿意为[自由](http://paulsin.blogspot.com/2016/04/freedom.html)付出什么样的代价？或许那些带着兴奋之情说出的「到那个时候，我就可以在世界上任何地方办公了」只不过是说说而已？我只想说，如果异地办公不可能，就不会有 [IPN](https://ipn.li/)。
+  - # [创业、手工艺和吃货](https://blog.yitianshijie.net/2016/04/22/entrepreneur-craft-foodie/)
+    collapsed:: true
+    - 手工艺之所以叫「手」工艺不是没有理由的。英文的 craft 也是「an activity involving skill in making things by **hand**」。这跟有没有实体物也无关。《The Witness》同样是用手指敲键盘做出来的。乔布斯的工作是管人，这一点跟别的企业家没有区别。
+    - 创业，至少是我们现在理解的创业，最终都是在管人。就算创业者一开始是手工艺者（技术创业者大部分都是），从手工艺「升级」到管人的状态都是一种默认的正确路线。我已经不写代码很久了。做老板不能凡事亲力亲为，要学会信任。Delegate, delegate, delegate。如此种种。离手越来越远不仅是必然的，也是被鼓励和赞美的。
+    - 重点在于创业与否完全是无关紧要的事，而认为只有创业才「有出息」的思维就是反手工艺精神的思维。手工艺者的最优先事项永远是怎么做一个好东西出来。读到这里，如果妳脑子里出现了任何类似「酒香不怕巷子深的时代已经过去了」的想法的话，妳就已经不再相信手工艺精神了。
+    - 必须指出，对于餐厅，人们现在还真的相信酒香不怕巷子深。别忘了[米其林三星](https://en.wikipedia.org/wiki/Michelin_Guide)的评判标准是怎么说的。但对于数字作品，人们就热衷于讨论如何让潜在用户用最少的努力发现它们。那些专门驱车前往鸟不生蛋的地方吃东西并且引以为荣的精神跑哪去了？
+  - # [欣澳、迪士尼和用户体验](https://blog.yitianshijie.net/2016/04/19/sunny-bay-disneyland-ux/)
+    collapsed:: true
+    - 米已成炊。今天的情况是，从东涌线欣澳站下车开始，一切细节都在调整妳的情绪和体验，帮助妳在心境上迅速进入迪士尼这个最顶尖的虚拟现实。要是坐着一辆雕满米老鼠的列车从「阴澳」出发驶往迪士尼乐园，回程的车内广播也变成「欢迎乘搭迪士尼线，我哋即将带你返到现代化嘅香港。阴澳，乘客可以喺呢个充满时代感嘅车站转乘东涌线」——如果当年的抗议者获胜，就会是这番景象。当然，本土文化得以保存。
+    - 好的用户体验来自于高度的控制。最极致的控制就是纳粹。用户去追求用户体验，这件事多少有点受虐成分。迪士尼肯定也做了调研。广东人连「空屋」都要说成「吉屋」（粤语空和凶同音），阴澳能不引起负面反应？筹备了半年的合家欢旅行，去了就是要开心，就是要阳光普照（所以欣澳的英文叫 Sunny Bay）。但要说这件事我们自己的骨头完全没有软，似乎也不大对，毕竟几十年前就有谷崎润一郎礼赞过「阴翳」了。这本书有英文版，Disney Imagineering 仝人没读过吗？
+  - # [什么是真正的重口味](https://blog.yitianshijie.net/2016/04/18/definition-of-hardcore/)
+    collapsed:: true
+    - 任何时代都有那些被视为妳「不可能不幹」的事，去肏这些事就是重口味。
+  - # [摩登 RELOADED](https://blog.yitianshijie.net/2016/04/17/modernity-reloaded/)
+    collapsed:: true
+    - 今抄录于此，并附戏仿拙文，以博诸君一笑。
+  - # [离线是一种权利](https://blog.yitianshijie.net/2016/04/15/offline-as-right/)
+    collapsed:: true
+    - 昨天关于[《微信外部链接内容管理规范》](https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_external_links_content_management_specification&from=groupmessage&isappinstalled=0&pass_ticket=CVDmRdTzDi%2BeA9xtCT4dqZ68LQFGt0RRq3WE8W3U%2BJE%3D)的[文章](https://blog.yitianshijie.net/2016/04/13/wechat-against-world-wide-web/)说的是一件很简单的事：在网上（[万维网](https://en.wikipedia.org/wiki/World_Wide_Web)上）写东西，理应可以自由链接。对我来说，连「外链」听上去都是一个荒诞的词。链接就是链接，不管是链到本站还是别人家的网站。外链背后的思维是，链到别人家的网站应该谨慎。
+    - 今早跟朋友聊了两句，意识到微信这种彻底封杀外链的做法其实有一定的社会基础。朋友有时会跟国内的媒体打交道，感觉她们很多都不鼓励、甚至不允许外链。十几年前我在《南方都市报》工作时也有类似的感受，虽然那时出版的还是报纸。简单来说，某些媒体似乎有一种「不能白白把流量和注意力带到别人家」的心态。不仅中国如此，[Engadget](http://www.engadget.com/) 就是一个丧心病狂的例子。我很多年没看这个网站，但当年她们家文章里的几乎每一个链接都是链到 engadget.com 上的另一篇文章。
+    - 这可以说是拜 Google 的淫威所赐，毕竟一个网站被链接的次数（无论是被别家还是自己链接）和它在 Google 搜索引擎里的排位息息相关。但不管怎么说，在某一路的媒体经营者看来，尽量让读者不离开自己的地盘无论如何都是好事，也是唯一的媒体经营之道。这种看法当然只对她们自己的媒体有效。[Daring Fireball](http://daringfireball.net/) 就是反例。主流媒体里，《纽约时报》和《纽约客》也都无此恶习。
+    - 这件事也有点复杂。以前在别处说过，对于在文章里加链接，我的态度是暧昧的。一方面我是开放万维网（open web）的死硬支持者，但另一方面我也很看重文章的「自我完足性」（self-containment）。某种程度上说，外链过多的文章就像是加了云端 DRM 系统，或是一个身上插了很多根管子的病人。一旦没网了，或者链接对象删除了文章，妳的文章就变成了残缺不全的东西。不加或者少加链接就不太容易出现这种事。至少对于如今的发达地区而言，上线是天经地义，离线反倒成了一种权利。比如我只要离开美国就看不了 Hulu 了。
+    - 但无论如何，这些问题的选择权属于作者。商业公司（微信背后的腾讯）封禁外链是绝对的大恶
+  - # [微信并不是在「管理」外部链接，因为微信公众号在事实上（de facto）不允许任何外部链接](https://blog.yitianshijie.net/2016/04/13/wechat-against-world-wide-web/)
+    collapsed:: true
+    - 中文世界一直混淆[互联网](https://en.wikipedia.org/wiki/Internet)（internet）和[万维网](https://en.wikipedia.org/wiki/World_Wide_Web)（web）。人们念兹在兹的「互联网开放精神」，实乃万维网的开放精神。万维网的开放主要就体现在一点：**任何万维网上的文章之间都可以通过网址随意互相链接**。如果我想在文章里介绍 UbuWeb 这个网站，我就可以直接在 [UbuWeb](http://ubu.com/) 这六个字母上添加它的网址 ubu.com
+    - 换言之，我们可以说微信公众号在事实上封杀了万维网。微信的产品设计者希望微信公众号的读者只看微信生态圈里的内容。一个以微信公众号为主要甚至唯一阅读来源的人，是看不到万维网上的大部分内容的。看不到 economist.com 看不到 nytimes.com 看不到 wsj.com 看不到 wikipedia.org。哪怕生活在国外也看不到，因为文章的作者并没有在文章里链接到外部网站的权力。
+    - 如果微信不允许任何外部链接，那么何来传播？整份《规范》的意义何在？
+      
+      我们当然都知道每篇微信公众号文章的底部有一个可点按的「阅读原文」，那就是《规范》里所指的外部链接。那四个字的确可以加任意链接——不管是微信公众平台链接还是外部链接。但无论是每篇文章只能有一个「阅读原文」链接的这种产品设计，以及「阅读原文」这一措辞，都和上面提到的万维网自由链接毫无关系。什么是原文？这篇文章是译文？如果不是，为什么我要看原文，这不是刚刚把原文看完吗？为什么只有一条「阅读原文」链接？如果我的文章里提到了两篇别人的文章呢？（比如一篇《南方周末》的，一篇《新京报》的。）很明显，微信的产品设计思路是任何「别人」都不敢不来开微信公众号，所以这个问题是「伪问题」。或许中国的媒体的确不敢，但外国媒体究竟有什么必要开微信公众号——尤其是当 The Verge 意识到自己在文章里没法链接到同一集团旗下的 Vox 的时候——实在令人挠头。再往后推，思路似乎就变成了中国人没必要读外国媒体，要读直接搬（dào）运（qìe）到微信公众号就好了。
+    - 这才是微信的恶质封闭性所在，而不是《规范》里对谣言、虚假活动、骚扰信息的禁止。这句话写出来都觉得好笑：禁止谣言 ＝ 封闭？而目前的讨论真的就被带上了邪路：先树立一个荒诞的、以模糊不清的「互联网开放精神」的名义批评微信《规范》的靶子，然后向它射击，得出「禁止骚扰和诱导类信息是一个负责任的内容平台应该做的」这一结论。微信的封闭是深刻地种在了产品层面，而非规范执行层面的。它先通过产品设计在大部分人意识不到的情况下、在事实上封杀了万维网，然后再对自己平台内部的内容施以《规范》。这种手段，中国人是熟悉的。
+      
+      微信是商业逻辑下的 GFW。GFW 是行政逻辑下的微信。GFW 尚且可以用技术手段跨越，但最强大的程序员也没法让妳在微信公众号文章中的「中华人民共和国中央人民政府网站」字样上添加 gov.cn 这个链接。
+  - # [[免费试读] 妳可以把性欲投射在 iPhone 上吗？](https://blog.yitianshijie.net/2016/04/07/free-trial-can-you-project-your-desire-to-an-iphone/)
+    collapsed:: true
+    - 加拿大媒介理论家 Marshall Mcluhan 关于「技术是人体的延伸」的观点发表于 1964 年的《理解媒介》，在那四年前，Powell 就直接用影像以一种拳拳到肉的方式向我们展现了这个道理。马克是一个窥视癖（Scopophilia）患者，「观看」和「凝视」不但令他上瘾，还令他产生性快感。他有特定的凝视对象：人类的恐惧表情。为了满足这一特殊欲望，他无时不带着摄像机——用来延伸他的视觉机能的外部技术设备。作为象征着尚未被技术异化的前现代人类的海伦小姐在这里试图将技术从一个纯天然的浪漫夜晚中剥离，而马克的焦虑和矛盾清晰可见。他喜欢海伦小姐。不，真的吗？他更喜欢海伦小姐，还是更喜欢作为他的性欲中介的摄像机？在影片较早的一个镜头里，马克像抚摸心爱女人的脸颊一样摩挲着摄像机。面对海伦小姐的请求，他本能地用手保护着肩膀上的摄像机背包，但最终还是就范，把摄像机交到海伦手中，放回了房间。
+    - 身份认同与疾病的模糊界线。1950 年代，同性恋被大多数人视为需要治疗的疾病，但今天它在现代社会已是被广泛接受（至少在理性上）的一种身份。在《偷窥狂》里，马克的性欲以一种在当年（如今也是？）显得高度变态的形式呈现出来，即便在艺术家创作自由的保护伞下，导演仍然逃不掉社会的道德审判。如果说对于外部技术设备的痴迷和癖恋在 1960 年被视为实打实的罕见疾病，那么它在今天已经演化成一种普遍存在的习惯——妳甚至很难说它是「坏习惯」
+    - 「我很想说这次实验令自己醍醐灌顶，但我不确定在这段时间里我比平时更『有效』地利用了时间，」他写道。「我只是把时间花在了不一样的事物上，而结果是经常感到无所事事……我不确定自己是否学到了什么，也不确定这次经验能够帮助我在未来更好地使用电子设备。」看到这里，那些想睡前躺在床上用 iPhone 观看《偷窥狂》的人或许可以放心了
+    - 所谓历史感，很多时候是和肮脏联系在一起的。卡斯特罗那不合时宜的巴洛克风格建筑里飘荡着几乎刺鼻的爆米花味，座位下方的地板上似乎总有乾掉的碳酸饮料，一脚踩上，再抬起来时就能听到鞋底发出令人不快的粘滞声。一月三十一日，Noir City 电影节的最后一晚，我坐在靠走廊的位置，看着一个身穿巧克力色紧身乳胶（latex）连衣长裙的高挑女子被西装笔挺、头发花白的主持人请了出来。
+      
+      「我感觉自己的身体被塞进了一只巨型避孕套里，」她说。Aja De Coudreaux 是湾区东部的奥克兰城居民，也是今年的「Noir City 小姐」。正职是模特的她，在台上毫不掩饰自己的花瓶属性。乳胶长裙紧密包裹出她丰腴的臀部曲线，旁边的白发男主持人也不忘煽风点火。「我看了一圈，这裙子好像没有拉链呢，怎么穿进去的？」
+    - Latex 和 LaTeX，表面上只是大小写的区别，在精神和趣味取向上却差得不能再远。后者是学习曲线陡峭、功能强大、象征着理性、效率和秩序的科学排版软件，前者是一种将人的身体物化、将物拟人化的性癖恋。卡斯特罗戏院离 Twitter 和 Uber 的总部都不到三公里，却是两个迥异的世界。这正是旧金山的趣味所在。看惯了关于 Mission 区房租飙升、民怨沸腾的报道，有时候会忘记这座曾经的花童城市还有这种时空隧道般的存在。
+    - 就像 IPN 的一位忠实听众对古代艺术史节目《壁下观》的评价：「听不懂。而且并没有去搞懂的欲望。:)」
+    - 但他似乎仍然在听。
+    - 他就没法把欲望投射到一个固定的科技物件上。是 iPhone 吗？是 iPad 吗？是 Apple Watch 吗？这些设备的硬件本体生命周期只有两年，真正为其续命的是摸不着、因此也无法投射性欲的软件（记得备份 iOS！）。除此之外，上述有条不紊的生活理想抑制了疯狂和变态的可能。High tech 的得益者热衷于在各种层面弘扬多样性，只要它不干扰到我一尘不染的精神生活
+    - 人们称之为 cyberpunk 的东西，实质上就是以近未来世界为背景的 noir。但 cyberpunk 的全盛期是 1980 年代。和黑色电影一样，它在今天也是不折不扣的类型作品，是可以不断斟入新酒的旧瓶子。Cyberpunk 作品的著名口号「High tech, low life」在今天听上去几乎是一种矛盾修辞。科技业者即便不是大富，也很少能和 low life 扯上关系。从旧金山地理空间的划分上，一条 Market Street 倒是把 high tech 划到了东南，把 low life 划到了西北[1]。泾渭分明，互不相干。High tech 世界的生活不喜烟酒，GTD 软件为每三十分钟划定功能。劳逸结合，屏幕光线日落后自动调整，可穿戴设备全天候监测体征，保证睡眠质量。至于红颜祸水？请不要给女人这样贴标签，谢谢。我们对于性别平等是很严肃的
+  -
+  - 这话要是抽离出来看并没有错，不过我倒是好奇一个人愿意为安全付出什么样的代价，又愿意为[自由](http://paulsin.blogspot.com/2016/04/freedom.html)付出什么样的代价？或许那些带着兴奋之情说出的「到那个时候，我就可以在世界上任何地方办公了」只不过是说说而已？我只想说，如果异地办公不可能，就不会有 [IPN](https://ipn.li/)。
+  -
+  - # [Welcome back my friends to the show that never ends](https://blog.yitianshijie.net/2016/04/04/welcome-back-my-friends-to-the-show-that-never-ends/)
+    collapsed:: true
+    - 在《IT 公论》的简介里，我写道
+    - > 科技播客，非奇技淫巧之表现也，亦非粉黑二元论争也。盖科技与吾人之关系至密至切，而欲其适合各人之需要，不悖于美之真义，则软件式款，与夫工作生活之配合，用例之转换，必有相当研究方克能之。而欲吾人乐愿研究之，则对于科技之兴趣，必先有以引起之，此《IT 公论》之滥觞也。
+  - # [论屄格](https://blog.yitianshijie.net/2016/03/28/on-the-chinese-slang-known-as-bige/)
+    collapsed:: true
+    - 他说有时突然想写某个题目，但转念一想，万维网那么大，「一定有人写过了」，于是作罢。不过后来他意识到这是一种想当然。对于任意一个题目，不但有可能没人写过，就算有人写过，可能也没有写出他的角度。就算写出了他的角度，恰恰由于万维网很大，他现有的读者也未必看到过。
+    - 那么我今天就来写一写「屄格」。
+      
+      首先是在知乎上看到了这样一个问题：中文字体排印如何做到高屄格？
+    - 中文排版的问题暂且不论。令我觉得奇异的是，这位朋友连阴道一词都羞于用母语写出，但对「屄格」却毫不介意。
+    - 屄格一词「正处在从脏话到非脏话的演化中」
+    - ……既然多数情况下，这个词早就脱离了生殖器官的含义……无论再怎么努力，语言的潮流都不会就此改变……死守着最原初的含义不放，而去刻意忽略这个词现在新赋予的含义，难免有些食古不化的感觉。
+    - 我首先要说明的是我不讨厌脏话，甚至可以说喜欢脏话。我自己也经常用脏话，无论对公对私。我反对屄格一词并不是因为它包含了女性生殖器，而是因为它让我们的思维变得浅陋。
+    - 我们回头来看事件的起因。那原本是一个非常好的问题。中文字体排印的发展程度远逊于西文。近年来越来越多中国设计师、程序员和读者开始在乎字体排印，大家都在慢慢朝着一个更优雅、更合理、更规范的字体排印环境努力。
+    - 字体排印是非常细致和复杂的学问。从视觉上说，两种字体在笔画形态上的区别有时极度微妙，不把字放大到全屏可能都看不出来。从功能上说，字体排印服务于文字内容。这意味着字体排印师要具备敏锐的文字感受力，才能为特定的文本选择合适的字体、设计合理的版式。更别提在电脑时代，字体排印从铅字过渡到了数字文件，硬件设备、操作系统、和阅读平台纷繁芜杂，又给字体设计师、网页设计师以及工程师带来了诸多新的难题。
+    - 我们都希望中文字体排印的环境不断改善，但究竟怎样改才是善，不但需要长时间的探讨和学习，也并没有唯一的标准。根据使用环境和需求的不同，有时我们需要中正严整的字体排印，有时需要细腻清朗的字体排印，有时需要暴烈狂放的字体排印，有时需要嬉皮笑脸的字体排印。这一切岂是屄格二字可以概括的？设计师之所以讨厌甲方「高端、大气、上档次」的需求，难道不是因为这七个字空洞无物、令人不知所措？同样，「高屄格」究竟意味着什么，用这个词的人说得清吗？
+    - 相信是说不清的，不过我倒愿意试试。在大部分情况下，屄格是不知优良品味为何物者想像中的救命稻草。有时它指的是「尊贵」一类的傻词，有时指的是百年老店的气度，有时指的是繁体字和直角引号，有时指的是一个 98% 的人负担不起的价格。更多的时候，它代表的是一种放弃挖掘甲方真实需求的懒惰，把已经被市场验证过的某种和现下语境毫无关系的设计直接贴到甲方那懵懂的脸上。我们完全可以这么说：在谈论设计时，只要「高屄格」三字一出口，论者就已经放弃了对好设计的追求。正如一个男人无法把黄瓜插入自己那条不存在的阴道，试图做到高屄格的设计是不会有任何格可言的。
+    - 以上就是我反对屄格一词的理由。至于屄格里的屄是不是脏话，或者说，它在 THEKOC 所谓的演化道路上走了多远，我想那条永恒的原则还是适用的：妳愿意听到女儿在饭桌上说这个词吗？
+  - # [告别微信之后](https://blog.yitianshijie.net/2016/03/20/goodbye-wechat-post-mortem/)
+    collapsed:: true
+    - 一、不用微信给工作造成了摩擦。先前我有一部分工作讨论是在微信群组里进行。删除微信后，该群内的成员跟我的沟通少了。必不可少的沟通我们会用电邮完成，但软性和零散的讨论我就看不到了。这并未影响工作进程，但依然给同事带来了不便。对此我非常抱歉，我会尽力在任何其它细节上按照她们的习惯行事，减少她们的麻烦。当然，和很多微信用户一样，我并不赞成用微信群讨论工作——不管同事们本身私下里用不用微信。
+    - 二、不用微信在很多场合确实意味着交流的中止。前两天有一位先生写邮件给我洽谈公事，顺便问能否加微信。在我看来，微信和 Telegram、LINE、iMessage、Facebook Messenger 等是平行关系。它们都是对电邮的补充，或替代。既然我已经删除了微信，就选择了两种在国内可以使用的 IM 工具——Telegram 和 iMessage——发给对方。（iMessage 可以使用，Telegram 部分功能可以使用。）如我所料，对方没有回音。或许他不知道 iMessage 是什么，或许他没有装过 Telegram，或许单纯觉得我这个人很怪。总之，我们的文字交流没能顺利升级到 IM 层。这种情况不是第一次出现，应该也不会是最后一次。
+    - 最后，有一点应该是不言自明的：不是每个人都想删除微信，也不是每个想删除微信的人都有条件删除微信。不过，也并不是每一个说「我真的离不开」（微信）的人都真的离不开（微信）。这最后一点是没有办法「论证」的。妳只能自己实践/实验。
+  - # [反对乾货](https://blog.yitianshijie.net/2016/03/09/against-meat/)
+    collapsed:: true
+    - 阐释是主义，而非问题；阐释是主观，而非客观；阐释是湿货，而非乾货，因此结论是：反对乾货，就是支持阐释。
+    - 但 Sontag 的阐释的对立面不是客观，而是感官直觉。比湿更湿。比玄更玄。所以她说：我们不要阐释学，我们要艺术色情。
+      
+      乾货崇拜已经到达了这样一种程度：某次《味之道》主播席妙雅做线下活动，事前宣传的易拉宝上写着：不反智，不接地气，乾货多。人们看到 IPN「湿货多」的口号，不假思索地替换成了湿货少。「应该没有人会说自己湿货多吧。」乾货就是好来就是好的想法，如此深入人心。
+    - 反对乾货是颂扬理性。理性不是有一说一，因为本来就没有一。理性是思维过程，不是思维结果。乾货是思维结果减去思维过程。和海鲜乾货一样，信息乾货同样是挤去了水分、预先包装好的罐头食品。海鲜爱好者会告诉妳，新鲜海产更好吃。
+    - 乾货就是阐释。正如海鲜乾货是对海鲜的阐释。
+    - 音乐家说：采样是尸体，我不希望我的音乐里有乾尸。
+    - 乾货是尸体，我不希望我的文章和播客里有乾尸。
+    - 多谈问题，多谈主义。胡适没有在[后稀缺时代](https://en.wikipedia.org/wiki/Post-scarcity_economy)生活过。
+    - 没有客观。
+      
+      反对乾货。
+  - # [比真实更真实的 VR](https://blog.yitianshijie.net/2016/03/06/vr-more-real-than-reality/)
+    collapsed:: true
+    - 新技术/新媒介初现曙光的时刻，人们兴奋得难以自制。无论是社会还是个人层面的人和变化都会被归因于它。在上周举行的一场关于虚拟现实（VR, Virtual Reality）的活动上，[《纽约时报》的 Sam Dolnick 说](https://twitter.com/GreeterDan/status/706212035265220610)他的一位朋友看了屠宰场的 VR 视频之后，一直就没再吃肉。「理性认识变成了官能体验。」
+    - 很多人或许都认识因为类似的际遇而选择吃素的人。动物保护主义者拍摄的纪录片经常可以达到同样效果——我有一位朋友就是这样放弃了荤食。但 VR 影像是不是比二维屏幕影像更有说服力？跟真实视觉形象相比呢？为什么？
+    - 我想起了几年前和朋友去潮州乡下吃牛肉火锅的经历。黑乎乎的小店开在公路边上，对面就是屠宰场。几轮牛肉下肚，我这个没怎么见过动物的城市人想去观摩杀牛的场面，整桌青年才俊自然无一响应，唯有朋友七岁的小妹妹吵着要同去。我们一起穿过马路，走入了黄牛地狱。一位屠夫抡起大锤往牛头上砸去，一声钝响，牛立时前蹄跪下倒地。我们缓慢地走着，以免遍地的血水溅到裤脚。眼前是正在被宰杀的巨大黄牛尸体，和一张可以铺满三人沙发有余的完整牛皮。等待宰杀的活牛站在旁边的围栏里沉默不语。
+    - 小女孩全程在笑。她脑中还没有「残酷」这一概念。
+    - 妳可以说上述经历是一种真实，但也可以说它是一种扩增现实（AR，Augmented Reality）。小女孩虽然看到了被残忍杀死的黄牛，但她知道只要回头穿过一条马路，就能回到爸爸妈妈、叔叔阿姨身边。对于那些来自大都市的叔叔阿姨们而言，屠杀黄牛的场景是一种被叠加到现实之上的奇观（spectacle）。扩增现实的重点不仅在于妳可以随时把扩增的那部分关掉，还在于真正的现实从来没有离开过妳。
+    - VR 则不然。它首先会剥夺妳的视觉，然后为妳替换另一套设计过的视觉。在 VR 设计者看来，越能让妳相信自己已经离开了现存的实体世界，设计就越成功。由于在视觉上切断一切和现实世界的联系是观看 VR 内容的前提，这种进入虚拟世界的体验和「读小说读到废寝忘食」似乎有着本质区别。戴着 VR 眼镜观看屠宰场面的人，回头也只能看到 VR 设计者事先做好的画面。这种无处可逃的感觉，或许是 VR 视频比真实的屠宰场更加骇人的原因。
+    - 而 VR 设计者有足够的动力尽可能地让妳不想摘下 VR 眼镜
+  - # [如果妳讨厌微信，请一定说出来](https://blog.yitianshijie.net/2016/03/02/speak-up-if-you-hate-wechat/)
+    collapsed:: true
+    - 但不用大声说出来。只要说出来就好了
+    - 也不用像我这样对着大众广播，只要对自己在乎的人说就好了
+    - 妳一定可以找到共鸣。然后，妳和妳在乎的人，一定可以发展出自己的 WeChat-free 沟通策略
+    - 讨厌微信，请一定说出来。不用大声，只要诚实地说出来就好了
+  - # [告别微信](https://blog.yitianshijie.net/2016/02/21/byebye-wechat/)
+    collapsed:: true
+    - 我也很讨厌这类文章。「我为什么退出了 Facebook」「我为什么停用 iPhone 转投 Android」。多大点事？
+    - 但我知道很多人和我一样讨厌微信。她们享受着微信带来的便利，但也隐隐约约地意识到了这便利的代价。微信是对中国社会渗透得无比深入的信息传播与媒体出版工具，这样的产品不可能仅仅是一种便利。它塑造着我们的精神。它定义着我们的文化生活。
+    - 删除微信对我也不是容易的决定。作为通讯工具以及支付工具的微信非常好用，而在中国微信有时甚至是唯一的选择。在那种情况下，选择微信不是在选择方便，而是在「能够完成工作」和「无法完成工作」之间选择
+    - 但微信越是成为生活中不可缺少的一部分，越是好用，解决的问题越多，我就越难以心安理得地用它。因为我所反对的是作为生活方式的微信。就像有的人反对朝九晚五的上班族生活方式，有的人反对「飞特族」的生活方式。我反对把自己文化生活的主导权让渡给任何一个品牌——尤其是微信——的生活方式
+    - 我拒绝一个不允许链接到自有生态圈以外资源的媒体基础设施。在微信公众号里，作者没有权利通过 URL 自由链接到万维网（web）上的其它文章、音频、视频与文件。喏，就像这样。这不仅从根本上肢解了万维网，也在变相鼓励侵权：如果我不能链接过去，就只好复制过来。
+    - 我拒绝一个随时有可能让妳打不开朋友发来的某条链接的工具。我尊重腾讯作为商业公司在法律许可的范围内封杀竞争对手的权力，但我也尊重我作为个人自由选择工具的权利。
+      
+      我拒绝一个包含高比例低幼、反智、庸俗、无聊内容的信息来源。我不在乎原因是什么，也不在乎微信作为一个内容平台在其中有没有通过其产品设计起到微妙的引导作用。米已成炊。目前的微信就是一个包含高比例低幼、反智、庸俗、无聊内容的信息来源，一个这类内容以外的内容不被珍视的场所。
+      
+      我不喜欢二维码，不喜欢看不见 URL 只能看见标题和导语的链接传递方式，不喜欢每篇文章必须配一幅题图的规定，不喜欢语音信息的六十秒限制，不喜欢专有的、非标准的分享 API。但从大处讲，这些都相对次要。
+    - 我不能接受「离开了某个高度复杂的系统就无法生活」的人生。
+      
+      Last but not least，我拒绝一条不存在任何加密可能的沟通管道。
+      
+      微信是方便的。但我选择不方便。
+  - # [美国警察可以强迫妳指纹解锁，但不能强迫妳提供开机密码](https://blog.yitianshijie.net/2016/02/18/us-law-can-force-fingerprint-but-not-passcode/)
+    collapsed:: true
+    - 我自己对这则新闻的反应就是把 iPhone 开机密码（Passcode）从六位数字改成了十多位的数字字母组合，并打开了输错十次销毁全部数据的选项（设置 >> 密码 >> 抹掉数据）。在美国，执法人员有权要求妳提供指纹，以便解锁设备，但无权要求妳提供开机密码。箇中原因和美国宪法第五修正案有关。简单来说，第五修正案规定了公权力不得强迫嫌疑人「自证其罪」。直接把密码告诉执法者，本质上和直接说「人是我杀的」属于同一范畴。但如果警察抓着妳的手强迫按指纹，则算是取证工作，而此中的强迫行为也和「为了执法暂时限制嫌疑人的人身自由」一样，并未超出法律允许的范畴。
+  - # [音乐教给我的科技观念](https://blog.yitianshijie.net/2016/02/08/tech-ideas-i-learnt-from-music/)
+    collapsed:: true
+    - 才意识到有多少科技相关的概念最初都是在音乐领域认识的
+    - 人工智能（Artificial Intelligence）：Warp 唱片公司 1990 年代初的电子舞曲唱片系列。
+      Drone: Asphodel 唱片公司的三部曲：《The Throne of Drones》（1 CD）、《Swarm of Drones》（2 CDs）、《A Storm of Drones》（3 CDs）。Drone 是小型飞行器，但本义是指延绵不断的长音。这三套唱片封面上有小型飞行器，音乐里有长音。
+      算法：学院派电脑音乐领域的算法作曲（Algorithmic Composition）。
+      正弦波：Polygon Window 1993 年的专辑《正弦波上的冲浪》（Surfing on Sine Waves）。
+      随机（Stochastic）: 数学概念，但也是希腊作曲家 Iannis Xenakis 的作曲法。
+      调变（Modulation）：通信领域的概念，但也是电子音乐的基本技巧之一。1998 年一部关于电子音乐的纪录片就叫《Modulations》（Iara Lee 导演）。
+  - # [无耻的「图片来自网络，侵权删除」](https://blog.yitianshijie.net/2016/02/07/shame-on-you-for-stealing-pics-online/)
+    collapsed:: true
+    - 「避风港原则」是美国人发明的一种东西。对于某些互联网服务，如果涉及到的所有内容都得壹壹确认版权归属，一来工作量难以承担，二来不符合无罪推定的原则。比如我创办 Google，返回搜索结果给大家，怎么可以事先假定搜出来的图片都是侵权图片呢？于是避风港原则说，请放心做吧。图片万一真的侵权，只要著作权的拥有者投诉后，妳把它拿下来，就不追究责任了。
+    - 虽然的确有一些提供互联网服务的公司在钻这条原则的空子，但我对这原则本身没什么意见。
+      
+      真正可耻的是：一个活人，在写文章的时候，利用这个原则盗用她人图片。这样的事情每天都在发生。
+      
+      最常见的表现形式就是：「图片来自网络，侵权删除。」
+    - 写文章和提供互联网服务完全不同。妳在 YouTube 上看到一段 Vladimir Horowitz 的演奏视频，虽然大部分情况下妳有 99% 的把握知道这并不是 Horowitz 的后代或某些持有他作品版权的人上传的，但 99% 就不是 100%。而当一个写文章的人使用某张图片时，她往往并不是链接到那张图片，而是把图片从对方的服务器上复制下来，再上传到自己的地盘。她美其名曰这是在改善阅读体验，让读者少按一次鼠标，少等一次加载。但她 100% 知道自己有没有使用这张图片的权利：要么图片本来就是她自己拍的或画的，要么她写信给作者并获得了授权，否则就是没有。「图片来自网络。侵权删除」的意思其实就是：我知道自己无权使用这张图片，但我就是用了，倒要看看谁闲得蛋疼来告我。
+      
+      This is why we can’t have nice things。对于靠这种方法堆砌多图流文章抓用户赚钱的人，shame on you。
+  -
+  - # [和「用户永远是对的」相比，我更喜欢美国餐厅里常见的这块牌子](https://blog.yitianshijie.net/2015/12/13/we-reserve-right-to-refuse-service/)
+    collapsed:: true
+    - ![image.png](../assets/wiki/image_1673071712105_0.png)
+  - # [中文互联网登录 UI 两大语文癌](https://blog.yitianshijie.net/2015/12/09/forgot-password-is-not-forget-password/)
+    collapsed:: true
+    - 「忘记密码？」和「请稍后」。
+      
+      后者不必解释。至于前者，是从英文的 Forgot password? 直译而来。由于中文没有过去时，「忘记密码？」就成了「要我帮妳把密码从妳记忆中抹除吗？」的意思。
+    - 「密码忘了？」是更好的措辞。有人可能觉得这不够正式，但 Forgot password? 在英文里并不是什么正式的表达。此外，把歧义作为正式的代价，恐怕也并非「不够正式派」想要的。
+      
+      某些网站或许意识到了这个问题，改用「无法登录？」的措辞。这要好得多。
+  - # [Uber 在微信公众平台被封杀](https://blog.yitianshijie.net/2015/12/05/uber-banned-in-wechat/)
+    collapsed:: true
+    - 这事腾讯固然小气鸡贼，但公众号就是他们家的，而且服务协议写得很清楚：
+      
+      6.1 微信公众帐号的所有权归腾讯公司所有，用户完成申请注册手续后，获得微信公众帐号的使用权。
+      
+      8.3 如果你停止使用本服务或服务被终止或取消，腾讯可以从服务器上永久地删除你的数据。在服务停止、终止或取消后，腾讯没有义务向你返还任何数据。
+      
+      9.5 你理解并同意，因业务发展需要，腾讯保留单方面对本服务的全部或部分服务内容在任何时候不经任何通知的情况下变更、暂停、限制、终止或撤销的权利，用户需承担此风险。
+    - 1. 没有所有权，只有使用权
+      
+      2. 使用权被取消后，不保证能取回数据和内容
+      
+      3.「业务发展需要」。例如本公司有同类产品，或投资了同类产品。
+    - Uber 在中国如果有一个能见度较高的网站，至少还不致于此。「可是注意力都在微信公众号啊！」老实说，各种餐厅打折、坐车送钱之类的促销手法，妳就在自家网站上做，用户会因为妳不上微信就不要这白捡的便宜？最低限度也该双管齐下，一旦被腾讯封禁，至少还有一块自己的地盘。或云很多中国用户不习惯、甚至不知道如何输入网址，但如果妳告诉 Uber 用户「去 uberchina.com 可领取 ￥100 优惠券」，她们当中有多少人真的会说「好难，好麻烦，还是算了」？
+    - 这就是为什么我们要支持开放的万维网（open web），以及为什么我总在 IPN 旗下的播客《IT 公论》里鼓励大家用泛用型播客客户端收听。我不想被「单方面撤销」，更不喜欢「对方没有义务向我返还任何数据」这样的条款。已经出现过 IPN 旗下某期节目被某播客平台封禁的事件（看看哪期节目在 IPN 的网站上可以收听，但在那个平台上找不到，就明白了），原因可以理解，但我不喜欢。
+  - # [talich: Zuckerberg 的雄心](https://blog.yitianshijie.net/2015/12/05/talich-on-chan-zuckerberg-initiative-llc/)
+    collapsed:: true
+    - 有 80% 的硅谷创业者相信绝大部分改变，从长期看，都是好的……创新即是改变世界。如果不相信改变是好的，也就没法说服自己去创新吧。而改变世界就意味着资本家们要从私人领域冲入公共领域。
+    - 这些成立慈善基金的人更想要的是改变世界。他们也是极其自信的人，他们相信，这笔钱由自己来花，要比由政府来花有效得多
+    - 这是创业者的雄心。在他们看来，慈善基金会，是社会变革的「风险投资」。
+  - # [IT 公论会员通讯 2015.12.1 已发出](https://blog.yitianshijie.net/2015/12/02/itgonglun-newsletter-20151201/)
+    collapsed:: true
+    - 这期从游戏开发者 Nathalie Lawhead 的[文章](http://www.nathalielawhead.com/candybox/but-its-not-real-alternative-title-i-want-my-free-premium-content-and-to-complain-about-it-too)和 [Samantha Bielefeld](http://samanthabielefeld.com/) 事件入手
+    - 真正的开放、自由社会，必须有一个能让没有直接商业前景的东西稳定生长的环境。这类东西的生长越有保障，社会就越开放、越自由。而把创作当成职业——不管独立与否——在任何时代都是高风险的活动；不成功是常态。
+    - 独立创作者在数字时代的生存问题
+  - # [IT 公论会员通讯: Man of science and faith](https://blog.yitianshijie.net/2015/11/26/newsletter-man-of-science-and-faith/)
+    collapsed:: true
+    - 日常生活中那些小小的不便并不是什么重大问题。妳 Twitter 时间线上的世界不是真实世界。妳不能根据所在领域当下的风潮去判断什么是有价值的、什么是有必要去做的。
+      ——Bret Victor, [What Can a Technologist Do About Climate Change? (A Personal View)](http://worrydream.com/#!/ClimateChange)
+  - # [猜猜这是哪个伟大的播客先驱说的？](https://blog.yitianshijie.net/2015/11/25/charisma-of-crystal-radio/)
+    collapsed:: true
+    - 「我一直觉得，最早听矿石收音机的那些人，她们的兴趣在于『听其她人类发声』这个现象本身。新闻报道、天气预报，这都不是重点，重点是『人声』这一现象——五个街区以外的人在说话，而妳可以听到，那种彻底的神秘感和挑战性。说的内容是否准确、是否有价值，那些都无所谓。关键在于有那么一把声音存在，有那么一种传递信息——随便什么信息——的方式：从一个人到另一个人，但两人并不在同一个房间里，不在同一个声响区域里。」
+      ——[某加拿大人](https://en.wikipedia.org/wiki/Glenn_Gould)，1968
+      （摘译自[这本书](http://www.amazon.com/Wondrous-Strange-Life-Glenn-Gould/dp/0195182464/ref=sr_1_4?ie=UTF8&qid=1448412880&sr=8-4&keywords=wondrous+strange)。）
+  - # [周三是什么日子？是妳应该刷新 worrydream.com 的日子](https://blog.yitianshijie.net/2015/11/23/bret-victor-has-new-essay-this-week/)
+    collapsed:: true
+    - 在（北京时间）周三之前，妳还有时间仔细把 worrydream.com 翻一遍。
+  - # [1995 年，未成的 walled garden](https://blog.yitianshijie.net/2015/11/21/msn-the-walled-garden-of-1995/)
+    collapsed:: true
+    - 在维基百科的 [MSN Dial-up 词条](https://en.wikipedia.org/wiki/MSN_Dial-up)中有这样一段：
+      collapsed:: true
+      - > 比尔·盖茨在公司内部发出了『关于互联网浪潮的备忘录』后，互联网就成了微软战略的核心，MSN 也开始把内容搬到 web 上，转型为互联网服务提供商（ISP）
+    - 很难相信上面这种事情需要特地写文章解释。表面上看，微信杀死的是开放的互联网，但它真正杀死的是中国人的好奇心。开放的互联网的确并不是在商业需求下诞生的产物，不过如果任何现实都可以方便地用商业逻辑来当作存在理据，人确实就和咸鱼没有区别。微信，一个闭关锁国的生活方式。
+  - # [如何对 Siri 说话](https://blog.yitianshijie.net/2015/11/17/how-to-talk-to-siri/)
+    collapsed:: true
+    - 从一开始我就决定用这种简陋的语法和 Siri 说话，从未想过其它。我看过大多数的苹果发布会，知道苹果是如何在台上演示 Siri 的。那些演示者的措辞总是那么日常和自然，但我一直就认定了那是精确控制的产物。天，就算他们在台上作假又如何？不要忘了，第一代 iPhone 发布会上的整个演示就是造假。乔布斯用的那台 iPhone 是彻底的半成品。它没法从头到尾播完一首歌，同样的操作（例如发封邮件然后浏览网页）把顺序颠倒过来可能就会完蛋。「经过了无数次尝试，iPhone 团队的工程师设计出了一条所谓『黄金路径』：为了让人们相信这台手机已经完工，必须按照这种特定的方式和顺序进行一系列操作演示。」
+    - 但 Vogelstein 的稿件发于 2013 年。2007 年的看客们没人知道台上正在进行的是一场假唱。没有实体键盘的纯触屏智能手机是人们从未见过的东西，乔布斯赌了一把：他在一月说了个谎，但在六月把它精彩地圆了回来。
+    - 绝大多数程序员更是有一套定制化程度高得多的工作流程。她们使用的 Mac 和苹果试图卖给世人的 Mac 几乎不是同一台电脑
+    - 「timer 30 minutes」这种措辞像是跟声控汽车说话，需要固定的格式。但这恰恰是我从苹果的演示中得出的结论。我知道发布会是精心设计的结果，那种所有参数都事先设定好的场景本身就是一种「固定的格式」，它和我们在复杂混乱的世界中遇到的格式绝不相同。简化自己的语言去配合这套格式，在今天是更加实际的做法。
+  - # [近日书单（2015.11.16）](https://blog.yitianshijie.net/2015/11/16/book-list-151116/)
+    collapsed:: true
+    - 我会定期把自己最近感兴趣的书列在这里。这不是推荐——列出的书很多我都还没有读。它们或许会出现在未来的不鸟万书评，或许不会。
+  - # [微信——事实上的局域网](https://blog.yitianshijie.net/2015/11/16/wechat-de-facto-lan/)
+    collapsed:: true
+    - 「究竟为什么有开发者要从苹果以外的管道下载 Xcode？因为中国的网速慢得像狗。」
+    - 「因为中国的网速慢得像狗」被加了链接，这通常被视为网页写作者的一种好习惯：在「呈现完整信息」的名义下，作者不用自己的话概括延伸信息，而是给出「原文链接」，供感兴趣的读者自行点击阅读
+    - 中国的网速并不慢，但中国的网速确实慢得像狗。
+    - 很多人认为是 GFW 从根源上促成了 XcodeGhost，这个逻辑没错：GFW 令中国大陆以内的人访问中国大陆以外的网站极度困难，有恶意的人便可利用这一点引诱中国人到中国大陆以内的网站下载被植入了后门的软件。但我们必须向前一步，追问 GFW 为什么会诞生。和任何权力机构或人物所施加的限制一样，GFW 是恐惧的结果。当家里的猫连续咬坏了我两台笔记本的电源线后，我就会出于恐惧把猫限制在接触不到笔记本电源线的地方。当公权力认为自由接触信息有可能危害到自己时，就会限制信息的流动。
+    - 尽管的确存在速度和服务品质令人抓狂的运营商，但把枪口指向具体的任何一家都是弄错了方向。中国的信息基础设施的糟糕之处不在于某家具体的运营商，甚至也不在于精密复杂的网络审查系统。问题的核心是对「他者」以及陌生事物的恐惧。这体现在只有某些「涉外」小区或酒店才能收到「境外电视台」的事实，也体现在之前 Twitter 上关于「归国华侨可以凭护照申请无 GFW 网络」的传闻。它体现在现代中文汉语中「国人使用习惯」一词的流行，体现在「为什么我国现代医德的代表人物是一个外国人白求恩」这类的知乎问题上。是的，这种恐惧不仅存在于公权力内部，也普遍存在于民众心中。最终，它体现在过去几周我感受到的令人极度沮丧的事实：
+      
+      无论网络状况多么恶劣，有一个服务永远高速、稳定和坚挺。它就是微信。
+    - 作为商业公司的腾讯有充分的动机把用户尽量多的线上甚至线下活动锁死在微信软件之内，「微信是一种生活方式」这句曾经的广告语如今已经成为现实。当对外的管道几乎全被封死或是投入了老鼠尸体和粪便时，微信成为信息饥渴症患者唯一的「救赎」。
+    - 在堂皇的「实用主义哲学」下，创业者、消费者和用户都没有选择地接受了这点。偏爱较为本地化的产品原本在世界各国都是常态。但当中国用户多少是被迫寻找着本国「替代品」时，也就自然而然地成为了 GFW 上的一块砖。
+    - 不久前我写过一篇题为《Another Brick in the Great Firewall》的短文。时至今日，国内的通讯以及内容产品需要自我审查已经是创业者的常识
+    - 微信就是今天的中央电视台和「八个样板戏」
+    - 技术上的确没有什么阻止我把 Maciej Cegłowski 的《What Happens Next will Amaze You》发在微信朋友圈，但在这个生态系统中，会因为那个小写的 L 上的神秘一撇而皱着眉头斥之为「什么鬼」而直接略过，或是即便点开但发现版式不适合手机阅读而关闭的人，其比例高到了我认为不值得那么做。认为微信是中性平台的人，请告诉我妳没有被公众号的剽窃行为或是养生文章恶心过。
+    - 中国的网速并不慢，但中国的网速确实慢得像狗。只要妳充分抑制对外部世界以及「异己」的好奇心，就可以快乐地生活在微信和网盘构筑的虚拟空间里，免除我在过去数周里经历的一切焦虑。有人说微信已经是事实上的操作系统，对我而言，它已经是事实上的局域网。
+    - 讨论任意的某个人在任意的某个时间和中国大陆的任意某个地点能否通畅地看到任意的信息
+  - # [IT 公论不鸟万书评：历史是实用主义的解毒剂](https://blog.yitianshijie.net/2015/11/16/book-review-fearless-genius/)
+    collapsed:: true
+    - 作为一个文化物件（artifact），《Fearless Genius》非常值得玩味。它记录的对象是数字革命的先锋，但其媒介却是纯然类比（analog）的
+    - 购买大量数字照片授权的费用很高，尽管盖茨比任何人都更能承担这个费用，但他的态度才是关键。「任何照片的价格都不应该超过 50 美元，」他在当年的一场 TED 演讲中说
+    - Menuez 的解决方法是重点捕捉人物面对压力时的反应。「技术公司投射出来的公共形象往往是光鲜而无所不能的，而当人物表现出脆弱的时候，就形成了对照，」他说。妳可以把这句话理解为摄影美学上的选择，但它背后更是如今科技新闻界罕见的基本操守：在很多时候，记者应该分发的恰恰是企业公关部门不希望被分发的信息。而事实上，虽然 Menuez 拍下了习惯蹲在椅子上工作的工程师和苹果 1990 年代的手持设备 Newton 发布前三台演示机全部失灵的乱象，这些照片在今天也绝不可能污染上述科技公司的形象。相反，它们就像摇滚乐手的混乱卧室一样，见证着某种无序但强大的生命力
+    - 理想主义仍旧在空气中飘荡。人们互相之间有着善意的假定和被坚定守护的信任。
+    - 在《Fearless Genius》里我最喜欢的一张照片并不是任何科技领袖的。它的拍摄时间是 1986 年，地点在旧金山湾区北部的 Sonoma，主角是一位不知名的女性 NeXT 员工。身穿朴素的牛仔服的她，坐在一间狭窄昏暗的房间里对着一台早期的 Mac 电脑工作。她把双手放在键盘上，但目光则瞄向键盘左边的一张 A4 纸。加州的灿烂阳光从百叶窗的缝隙中射入室内，在她的身上投下了黑白相间的阴影。她的桌子很小，除了电脑和纸张以外几乎摆不下别的——她似乎也不需要别的。对美好自然风光的无动于衷以及对电脑屏幕射出的人工光线的高度专注，在九年后的凌波丽的房间以及十三年后 Trinity 的房间里得到了呼应
+  - # [IT 公论不鸟万书评：Understanding Apple Music the Hard Way](https://blog.yitianshijie.net/2015/11/16/book-review-how-music-got-free/)
+    collapsed:: true
+    - 在大部分人的想像中，盗版音乐文件的交换是一种去中心化的全球性行为。世界各地的音乐爱好者出于单纯的分享动机，在一个个 p2p 网络上夜以继日地交换着文件。这也是 Witt 最初的想法。但经过了长达五年的调查与采访，他发现了完全违反直觉（但或许符合「二八定律」）的真相：大部分的盗版 MP3 都出自少数几个盗版音乐分享组织，而曾在美国北卡罗莱纳州的宝丽金 CD 工厂工作的 Doll Glover 和名叫「Rabid Neurosis (RNS)」的线上盗版音乐分享团体就是其中的最重要节点
+    - 《How Music Got Free》是一次怀旧的借口，但也是对个人历史的梳理。但这本书还有更加普世的价值
+    - 在没有历史观的技术主义者看来，技术的演化是一个线性的过程。（的确，她们更爱使用「进化」这个带有错误暗示的译名。）但任何东西的演化路径上都少不了回头路和死胡同，停滞不前也是常态。看过 Witt 的叙述就知道，尽管 MP3 发明人之一 Brandenburg 的导师在几十年前就认定音乐文件压缩算法在未来一定是用于流播，而非文件存储，但 MP3 在当年的标准争夺战中败给了 MP2。它后来的流行，却是阴差阳错地和网上的盗版音乐共享小组有关。技术产品发明人的意图总是好的，但结果却会被太多不可预测的因素左右。「预测未来最好的方式是发明未来」是一种修辞上的胜利，但未来从来就不是在实验室里被发明出来的
+    - 这不禁令人想到另外一个常见的问题：人工选歌，还是算法推荐？Apple Music 及其前身 Beats Music 都把人工选歌作为最大卖点。但业内人士都知道，任何公司都是两条腿走路，算法与人工同时进行。Morris 从 1960 年代就开始抓数据，但唱片公司的星探部门并没有因此取消。只有除了编程什么都不懂的人才会抱怨人工选歌「unscalable」，因为真正试图卖过内容的人都明白一个真理：内容永远就是 unscalable 的。Pandora 的背后有活人音乐专家为歌曲打上的千奇百怪的标签，Facebook 时间线上由算法推荐内容也在反复经由一个数百人的团队手工核查与调整。内容的「发现」和人的情绪、心理、所在地、机缘都有千丝万缕的联系，只要人依然是个变量而非常量，要在内容的发现上完全取消活人干涉就是痴人说梦。
+  - # [IT 公论不鸟万书评：无睡眠人生](https://blog.yitianshijie.net/2015/11/16/book-review-24-7-end-of-sleep/)
+    collapsed:: true
+    - 我生于 1980 年，在伴随着中国改革开放的成长经历中，我也体会到了人们对于睡觉一事在观念上的变化。大约从高中时期开始，午睡的习惯就渐渐从我和不少同龄人的生活中消失。在资本主义和市场经济体系里，睡眠时间的长短似乎往往与生产力直接相关。长大之后要是听说谁还有睡午觉的奢侈，若不是退休人士，通常就是事业单位的同志了。
+    - 我们生活在一个全球最优秀的头脑日夜钻营如何随时随地满足大家一切欲望的时代，睡眠意味着停滞和怠惰。那么多要看的书、文章和展览，那么多想听的音乐，那么多要安排的旅程、那么多要进入的市场、那么多要赚的钱。睡觉？那是给没有能力更加有效利用时间的人准备的吧。
+    - 于是我们在超市购买 5-hour energy，或是通过不明渠道搞来更高阶的药物 Adderall 或 Modafinil，强迫自己的身体适应高强度的体力劳动（嘿，脑力劳动也是体力劳动唷），在知乎上问「听说李开复一天只睡四个小时，请问是怎么做到的？」，私下交换着某「大神」连续一周每天只睡两小时的神话。另一方面，许多人在燃烧了几年之后，想起了劳逸结合的传统智慧，开始反思人生。她们的关键字从 GTD 变成了 WLB: work-life balance
+    - 这种书当然没有阅读的必要。知行难以合一才是人类面临的永恒难题。睡得少会影响健康和工作效率，这种道理难道真的需要看一本书才能明白吗？不过就在永动机般的生活方式引起反弹的同时，「高度发达资本主义」体系正在悄悄试图把无睡眠生活再推进一步。和我们在《IT 公论》里反复提及的一样，走在最前沿的仍然是美国军方。
+    - 时至如今，我们应该对新技术从军方向民间的下渗过程有充分的自觉。互联网、物联网以及整个电脑产业都是这种下渗的结果。如专研硅谷历史的 Leslie Berlin 所说，冷战时期美国政府对于共产世界的恐惧令美国国防部投入了大量资金研发新的电子技术。「美国政府其实就相当于硅谷最早的风险投资人。」
+    - 纽约哥伦比亚大学现代艺术与理论教授 Jonathan Crary 的《全天候人生：高度发达资本主义与睡眠的终结》（24/7: Late Capitalism and the Ends of Sleep）就是对这一现象的理论性阐述。
+      
+      「历史证明，和战争相关的创新总是会渗透到更广阔的社会领域，不睡觉的战士将会成为不睡觉的工人和不睡觉的消费者的先驱。抑制睡眠的产品在制药公司的强力推广下，先会成为一种生活方式，最终会变成很多人的必需品。」
+    - 时间看作「海绵里的水」，是一种多么前现代的表述！在今天，时间当然不是被挤出来的，而是被エンジニア（engineer）出來的
+    - 但正如 Crary 在书中所说，当代批评理论早就认定了人和机器在当代社会并无本质差别。当妳为了在计步器上积满一万步而在公寓楼下多走了两圈的时候，当妳以工作效率的名义吃代餐的时候，当妳把一个拥有某种「睡眠模式」的电子设备放在枕头旁边的时候，妳并没有做出更人性化的选择。假如有朝一日出现了可以让妳自由调节睡眠频率和时间的药物，妳会不会去用它？别急着说不会，妳被机器奴役不是第一次了。而且 M 的倾向不是广泛存在于每个人的身体里吗？：）
+    - 真正的个人革命仍然是可能的。但假若今天的妳不和 Facebook 努力营造的 walled-garden 对抗，不和把妳当作商品卖给广告主的免费服务对抗，不和随时随地即时满足的欲望对抗，不和忽略社会空间中柔软和微妙的那一部分织体的倾向对抗，在未来妳就很可能会成为无睡眠药物的快乐用户。
+-

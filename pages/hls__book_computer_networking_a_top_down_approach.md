@@ -1,0 +1,95 @@
+file:: [book_computer_networking_a_top_down_approach.pdf](../assets/book_computer_networking_a_top_down_approach.pdf)
+file-path:: ../assets/book_computer_networking_a_top_down_approach.pdf
+
+- A protocol defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
+  ls-type:: annotation
+  hl-page:: 37
+  hl-color:: yellow
+  id:: 643a7023-b789-4ea1-8ab5-e3cd27955dbe
+- [:span]
+  ls-type:: annotation
+  hl-page:: 115
+  hl-color:: yellow
+  id:: 643f9efe-3522-4325-b637-9dac3903a191
+  hl-type:: area
+  hl-stamp:: 1681891068555
+- [:span]
+  ls-type:: annotation
+  hl-page:: 130
+  hl-color:: yellow
+  id:: 643fa04f-4e5f-4e2e-b85a-2b0f699710a6
+  hl-type:: area
+  hl-stamp:: 1681891405859
+- [:span]
+  ls-type:: annotation
+  hl-page:: 134
+  hl-color:: yellow
+  id:: 6440bba0-a6b0-4621-9f09-fadf70fd9b68
+  hl-type:: area
+  hl-stamp:: 1681963934822
+- [:span]
+  ls-type:: annotation
+  hl-page:: 136
+  hl-color:: yellow
+  id:: 6440dc7c-3f8f-4b81-b6c6-595ae6bc5305
+  hl-type:: area
+  hl-stamp:: 1681972347251
+- [:span]
+  ls-type:: annotation
+  hl-page:: 145
+  hl-color:: yellow
+  id:: 6441023e-d102-4223-8ec1-487482420155
+  hl-type:: area
+  hl-stamp:: 1681982012880
+- First, the client SMTP (running on the sending mail server host) has TCP establish a connection to port 25 at the server SMTP (running on the receiving mail server host). If the server is down, the client tries again later. Once this connection is established, the server and client perform some applicationlayer handshaking—just as humans often introduce themselves before transferring information from one to another, SMTP clients and servers introduce themselves before transferring information. During this SMTP handshaking phase, the SMTP client indicates the e-mail address of the sender (the person who generated the message) and the e-mail address of the recipient. Once the SMTP client and server have introduced themselves to each other, the client sends the message. SMTP can count on the reliable data transfer service of TCP to get the message to the server without errors. The client then repeats this process over the same TCP connection if it has other messages to send to the server; otherwise, it instructs TCP to close the connection.
+  ls-type:: annotation
+  hl-page:: 147
+  hl-color:: yellow
+  id:: 64410848-d490-43e3-89f1-de72948ee978
+- [:span]
+  ls-type:: annotation
+  hl-page:: 150
+  hl-color:: yellow
+  id:: 64412d97-59b0-487b-9672-99bf09e643be
+  hl-type:: area
+  hl-stamp:: 1681993110109
+- [:span]
+  ls-type:: annotation
+  hl-page:: 155
+  hl-color:: yellow
+  id:: 64413fb3-cb64-42fc-bdef-f10f6f5d32c6
+  hl-type:: area
+  hl-stamp:: 1681997746187
+- [:span]
+  ls-type:: annotation
+  hl-page:: 157
+  hl-color:: yellow
+  id:: 64414229-8d0d-4383-9311-e2fdfa0e87e8
+  hl-type:: area
+  hl-stamp:: 1681998376156
+- The query sent from cse.nyu.edu to dns.nyu.edu is a recursive query, since the query asks dns.nyu.edu to obtain the mapping on its behalf. However, the subsequent three queries are iterative since all of the replies are directly returned to dns.nyu.edu. 
+  ls-type:: annotation
+  hl-page:: 158
+  hl-color:: yellow
+  id:: 644143b8-573a-45ee-a91d-c6752eb1e19e
+- [:span]
+  ls-type:: annotation
+  hl-page:: 159
+  hl-color:: yellow
+  id:: 644143c6-94b6-48e0-a561-a15c3d8db2ba
+  hl-type:: area
+  hl-stamp:: 1681998789737
+- [:span]
+  ls-type:: annotation
+  hl-page:: 161
+  hl-color:: yellow
+  id:: 64415633-be09-472b-bd35-cb831016b75b
+  hl-type:: area
+  hl-stamp:: 1682003505916
+- [:span]
+  ls-type:: annotation
+  hl-page:: 178
+  hl-color:: yellow
+  id:: 64425378-5d93-4cb9-b5f4-977b165178d6
+  hl-type:: area
+  hl-stamp:: 1682068343491
