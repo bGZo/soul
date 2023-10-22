@@ -4,7 +4,7 @@ tags:: system
 
 - #closed
   collapsed:: true
-  - ~~[BitDock比特工具栏-官方社区 - 首页](http://www.bitdock.cn/bbs/forum.php)~~ #deprecated #beautify
+  - ~~[BitDock比特工具栏-官方社区 - 首页](http://www.bitdock.cn/bbs/forum.php)~~ #Deprecated #beautify
 - ## [[Quickref]]
   collapsed:: true
   - Shortcuts

@@ -143,7 +143,7 @@ public:: true
         https://www.youtube.com/feeds/videos.xml?playlist_id=<playlist_id>
         ```
   - TODO And [[Backup]] and share your [[subscription]] [[monthly]] , including [[podcast]]
-    SCHEDULED: <2023-11-01 Wed .+1m>
+    SCHEDULED: <2023-12-01 Fri .+1m>
     :LOGBOOK:
     * State "DONE" from "DOING" [2023-02-05 Sun 00:51]
     * State "DONE" from "TODO" [2023-02-05 Sun 11:15]
@@ -156,6 +156,7 @@ public:: true
     * State "DONE" from "TODO" [2023-08-05 Sat 19:06]
     * State "DONE" from "TODO" [2023-09-03 Sun 18:12]
     * State "DONE" from "TODO" [2023-10-03 Tue 00:39]
+    * State "DONE" from "TODO" [2023-10-03 Tue 12:02]
     :END:
     - {{iframe https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03}}
       [feedbro.opml/edit](https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03/edit)

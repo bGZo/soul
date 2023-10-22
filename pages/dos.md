@@ -1,4 +1,4 @@
-alias:: windows/distros/dos
+alias:: Windows/distros/dos
 
 - 上古操作系统
 -

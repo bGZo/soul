@@ -76,7 +76,7 @@ title:: Template
           released-date:: 
           published-date:: 
           ```
-    - Here are [[deprecated]] properties:
+    - Here are [[Deprecated]] properties:
       - `url`
       - `mark`
       - `desc`

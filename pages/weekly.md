@@ -13,13 +13,18 @@ title:: weekly
   - Inspired by others' template (**Template Gallery**)
     template:: weekly
     template-including-parent:: false
-    collapsed:: true
     - alias:: weekly/
       collapsed:: true
       icon:: 📅
       - ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))
-    - {{embed ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))}}
-    - {{embed ((64ea10a6-9d34-4731-a9be-31c273dcf4e2))}}
+    - Linux
+      - ```
+         seq -s", " 20231015 20231021 | xclip -selection clipboard
+        ```
+    - Windows
+      collapsed:: true
+      - {{embed ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))}}
+      - {{embed ((64ea10a6-9d34-4731-a9be-31c273dcf4e2))}}
     - ## Review Questions
       - ### A line about this week
         - 截至目前，人生走过了 天、 周、 个月。

@@ -188,11 +188,11 @@
            ["weekly" "{{renderer :template, weekly}}"]
            ["podcast/episode" "{{renderer :template, podcast/episode}}"]
            ["project" "{{renderer :template, project}}"]
-           ["man" "{{renderer :template, man}}"]
+           ["command man" "{{renderer :template, command-man}}"]
            ["year review" "{{renderer :template, year/review}}"]
            ["ifame" "{{renderer :template, iframe}}"]
            
-           ["iframe-buildin" [[:editor/input "{{iframe }}\n#+BEGIN_CENTER\n\n#+END_CENTER\n" {:backward-pos 2}]]]
+           ["iframe-buildin" [[:editor/input "{{iframe }}\n#+BEGIN_CENTER\n\n#+END_CENTER" {:backward-pos 31}]]]
            ;; https://discuss.logseq.com/t/macros-and-commands-lets-share/9565
            ;; ["python code" [[:editor/input "```python\n\n```" {:backward-pos 4}]]]
            ;; ["cpp code" [[:editor/input "```cpp\n\n```" {:backward-pos 4}]]]

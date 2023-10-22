@@ -1,1 +1,1 @@
-alias:: windows/11
+alias:: Windows/11

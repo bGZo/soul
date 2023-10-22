@@ -1,4 +1,4 @@
-tags:: #project
+tags:: #Project
 url:: http://bgzo.cc
 
 - ## [[Issue]]

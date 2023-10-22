@@ -1,4 +1,4 @@
-alias:: windows/commandline
+alias:: Windows/commandline
 public:: true
 
 - ## ![Windows Commmands Reference](../assets/doc_ws-commands.pdf)

@@ -112,5 +112,5 @@ tags:: #Windows #monthly
           - [bucket/chromium.json](https://github.com/ScoopInstaller/Extras/blob/90b31955ada69b6bc83d35ad365feef6f9581120/bucket/chromium.json#L22)
           - [bucket/ungoogled-chromium.json](https://github.com/ScoopInstaller/Extras/blob/90b31955ada69b6bc83d35ad365feef6f9581120/bucket/ungoogled-chromium.json#L21)
         -
-  - TODO How to automatically backup the installed app? #project #ideea #automatic #script #monthly
+  - TODO How to automatically backup the installed app? #Project #ideea #automatic #script #monthly
 -

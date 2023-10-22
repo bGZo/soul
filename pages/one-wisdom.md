@@ -1,12 +1,12 @@
-tags:: #project #public
+tags:: #Project #public
 url:: [One wisdom sentence released - bGZo's blog](https://blog.bgzo.cc/one-wisdom-sentence-released.html)
 
 - 2023 新年伊始, 整理 2022 的陈年笔记时发现有很多不知名, 但是又舍不得丢弃的句子, 想着干脆把他们做成引用得了. 连着建仓库, 设计页面, 写脚本一套下来也没花太多时间, 一个简单的静态自动部署的网站就建好了: [One](https://one.bgzo.cc/)[^2].
 - ![](https://unpkg.com/bgzo@23.1.1/img/one-preview.png)
-## Tech stack
+- ## Tech stack
   - Jekyll
   - Github Action
-## Highlights
+- ## Highlights
   - [x] Every single page for quote; Detail[^1] is following:
   - <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="wvxWKZb" data-user="bgzo" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
     <span>See the Pen <a href="https://codepen.io/bgzo/pen/wvxWKZb">

@@ -1,4 +1,4 @@
-alias:: windows/regedit
+alias:: Windows/regedit
 tags:: #Windows
 
 - ## Windows Operating System Registry
