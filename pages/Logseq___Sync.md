@@ -1,0 +1,5 @@
+- Android
+  - Google Drive: http://127.0.0.1:5244/gdrive/SamsungFiles/androidLogseq.md
+- iOS (Download without coookie)
+  - https://www.icloud.com.cn/iclouddrive/0dfP2NK-LLjycO3mpP6-R7OSw#iOSLogseq
+-

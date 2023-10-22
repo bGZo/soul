@@ -1,5 +1,5 @@
 title:: the_programmer_idea_book
-tags:: #programming, #project 
+tags:: #programming, #Project 
 author:: 
 translator:: 
 publisher:: 
@@ -14,11 +14,11 @@ desc::
 mark::
 
   - TODO ![THE PROGRAMMERS IDEA BOOK](../assets/book_the_programmer_idea_book.pdf)
-    SCHEDULED: <2023-09-05 Fri .+3d>
     :LOGBOOK:
     * State "DONE" from "TODO" [2023-03-20 Mon 23:22]
     * State "DONE" from "TODO" [2023-05-02 Tue 22:42]
     :END:
+    \SCHEDULED: <2023-09-05 Fri .+3d>
   - title:: [karan/Projects](https://github.com/karan/Projects) ![](https://img.shields.io/github/stars/karan/Projects) 
     tags:: #Github #opensource 
     start:: 20230320

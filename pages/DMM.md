@@ -1,5 +1,5 @@
 icon:: 💸
-tags:: #game/platform #deprecated
+tags:: #game/platform #Deprecated
 mark:: DMM 2017年 支持过支付宝. 但是 1 天内就被下架了. 再次进入中国的可能性不大; 近年来开始锁外区 (非日区). 需要当地的 VPN 和银行卡; 基本是无解了
 title:: DMM
 

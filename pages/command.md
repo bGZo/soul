@@ -5,17 +5,19 @@ start:: 20230625
 title:: command
 
   - Linux Manual
-    template:: man
+    template:: command-man
     template-including-parent:: false
-    collapsed:: true
     - alias:: commands/``{c.page.name}``
       start:: ``{ date.now.format('YYYYMMDD') }``
+      icon:: ⌘
       public:: true
     - ## Why
     - ## How
     - ## What
-      - [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/cat.html)
-        <iframe src="[Page not found · GitHub Pages](https://wangchujiang.com/linux-command/c/``{c.page.name}``.html") style="height: 400px"></iframe>
+      - <iframe src="https://wangchujiang.com/linux-command/c/``{c.page.name}``.html" style="height: 400px"></iframe>
+        #+BEGIN_CENTER
+        via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/``{c.page.name}``.html)
+        #+END_CENTER
 - ## Why
   - #+BEGIN_NOTE
     It's evergreen(常青) knowledge that will not be out of date any time soon.

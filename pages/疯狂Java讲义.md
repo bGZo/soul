@@ -1,7 +1,7 @@
 title:: 疯狂Java讲义
 icon:: 📖
 alias:: book/疯狂Java讲义
-tags:: #Java, #develop #deprecated 
+tags:: #Java, #develop #Deprecated 
 author:: 李刚
 publisher:: 电子工业出版社
 published-date:: 20120100
@@ -12,7 +12,6 @@ douban:: [疯狂Java讲义 (豆瓣)](https://book.douban.com/subject/10436048/)
 goodreads:: 
 weread:: [疯狂Java讲义（第2版）-李刚编著-微信读书](https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d)
 mark:: 2^{rd} Edition
-
 
 - ## Backgroud
   - [Java 从开始到放弃 求大佬推荐一本书 - V2EX](https://v2ex.com/t/714143)
@@ -4821,7 +4820,7 @@ mark:: 2^{rd} Edition
               }
             }
             ```
-        - #project 多线程断点的网络下载工具
+        - #Project 多线程断点的网络下载工具
           collapsed:: true
           - 可通过RandomAccessFile类来实现
           - 所有的下载工具在下载开始时都会建立两个文件

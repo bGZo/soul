@@ -1,0 +1,11 @@
+alias:: commands/chkconfig
+start:: 20231005
+icon:: ⌘
+public:: true
+
+- ## Why
+- ## How
+- ## What
+  - [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/cat.html)
+    <iframe src="https://wangchujiang.com/linux-command/c/chkconfig.html" style="height: 400px"></iframe>
+-

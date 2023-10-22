@@ -1,4 +1,4 @@
-alias:: windows package manager cli
+alias:: Windows package manager cli
 tags:: #Windows #tools, #scoop
 github:: [microsoft/winget-cli](https://github.com/microsoft/winget-cli)
 released-date:: 20200514

@@ -6,8 +6,7 @@ start:: 20220101
 - ## How
   - ((6424f25c-07a0-4533-ae3e-73e33f674fa1))
   - {{iframe https://savesubs.com/}}
-  - TODO 每周一集哲学课 [[Crash Course/Philosophy]]
-    SCHEDULED: <2023-09-06 Sun ++1w>
+  - WAIT 每周一集哲学课 [[Crash Course/Philosophy]]
     :LOGBOOK:
     * State "DONE" from "TODO" [2023-02-26 Sun 14:42]
     * State "DONE" from "TODO" [2023-03-13 Mon 13:45]
@@ -15,6 +14,7 @@ start:: 20220101
     * State "DONE" from "TODO" [2023-04-07 Fri 00:58]
     * State "DONE" from "TODO" [2023-09-06 Wed 00:26]
     :END:
+    \SCHEDULED: <2023-09-06 Sun ++1w>
     - [Philosophy - YouTube](https://youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR)
 - ## What
   - ### What is Philosophy?

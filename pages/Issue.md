@@ -369,7 +369,7 @@ icon:: ⏸
 - ## 🏫 Courses / tutorials
 -
 -
-- [#B] 完善 Rsshub 路由 #rsshub #project #rss
+- [#B] 完善 Rsshub 路由 #rsshub #Project #rss
   - https://docs.rsshub.app/social-media.html#dou-ban
     - TODO [绘本漫画一周热门榜](https://m.douban.com/subject_collection/EC5U5NVYQ)
   - [紳士向 | 搜尋標籤 | udn遊戲角落](https://game.udn.com/game/tag/紳士向 ) RSSHUB 支持!!!

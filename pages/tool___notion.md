@@ -1,5 +1,5 @@
 title:: tool/notion
-tags:: #deprecated
+tags:: #Deprecated
 
 - Collection Site
   collapsed:: true

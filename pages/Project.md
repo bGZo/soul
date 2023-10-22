@@ -3,7 +3,7 @@ define:: any undertaking, carried out individually or collaboratively and possib
 icon:: 📂
 public:: true
 start:: 20230623
-title:: project
+title:: Project
 
   - template:: project
     template-including-parent:: false
@@ -11,12 +11,12 @@ title:: project
     - alias:: 
       define:: 
       icon:: 📂
-      tags:: #project
+      tags:: #Project
       public:: true
       start:: ``{ date.now.format('YYYYMMDD') }``
       title:: ``{ c.page.name }``
     - ## Project Meta
-      - DOING #project [[``{ c.page.name }``]]
+      - DOING #Project [[``{ c.page.name }``]]
       - query-table:: false
         collapsed:: true
         #+BEGIN_QUERY
@@ -170,7 +170,7 @@ title:: project
     - WAIT 物理控制器, 自己打碟
     - WAIT 各类 Generate 生成器构建
     - [[newsline]] #duplicate
-    - ### ~~[[deprecated]]~~
+    - ### ~~[[Deprecated]]~~
       - DONE 常用文本管理. 随时调用
         mark:: 需求消失 / Bitwarden
         :LOGBOOK:

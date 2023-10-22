@@ -44,7 +44,7 @@ url:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-software/u
       collapsed:: true
       - [Can't customize new tab · Issue #153 · ungoogled-software/ungoogled-chromium-archlinux](https://github.com/ungoogled-software/ungoogled-chromium-archlinux/issues/153)
       - [Add flag for setting a custom new tab page by Ahrotahn · Pull Request #1686 · ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium/pull/1686)
-    - RSS Start Page #project
+    - RSS Start Page #Project
       collapsed:: true
       - Extension show rss feed recently like Brave
       - [deepjyoti30/startpage: A minimal starpage for Chrome and Firefox](https://github.com/deepjyoti30/startpage) #shoulders-of-giants

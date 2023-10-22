@@ -1,11 +1,11 @@
 icon:: 📂
-tags:: #Steam #DOING #project 
+tags:: #Steam #DOING #Project 
 public:: true
 start:: 20230705
 title:: Steam Price Badges
 
 - ## Project Meta
-  - DOING #project [[Steam Price Badges]]
+  - DOING #Project [[Steam Price Badges]]
   - query-table:: false
     #+BEGIN_QUERY
     {:title [:h3 "Tasks related to Steam Price Badges"]
@@ -46,7 +46,7 @@ title:: Steam Price Badges
 - ## Why
   -
 - ## How
-  - Build-in web application cannot fetch / request the right url, it would occur CORS error: #deprecated
+  - Build-in web application cannot fetch / request the right url, it would occur CORS error: #Deprecated
     - `https://store.steampowered.com/api/appdetails?appids=2138000&cc=tr&l=en`
       - `Access to fetch at 'https://store.steampowered.com/api/appdetails?appids=2138000&cc=tr&l=en' from origin 'http://127.0.0.1:8081' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.`
   - Next.JS API?
