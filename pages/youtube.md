@@ -325,22 +325,22 @@ mark::
     start:: 20221220
   - title:: [Level UP - YouTube](https://www.youtube.com/channel/UCNK813T2BNBwcfDPDTPeMPA)
     rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCNK813T2BNBwcfDPDTPeMPA
-    tags:: #youtube #subscription #pokemon #anime 
+    tags:: #youtube #subscription #Pokemon #anime 
     mark:: 
     start:: 20221220
   - title:: [Gumbino - YouTube](https://www.youtube.com/channel/UCdpfQWie2gS-DdZLvrcQL6Q)
     rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCdpfQWie2gS-DdZLvrcQL6Q
-    tags:: #youtube #subscription #pokemon #anime 
+    tags:: #youtube #subscription #Pokemon #anime 
     mark:: 
     start:: 20221220
   - title:: [Dorkly - YouTube](https://www.youtube.com/channel/UCHdos0HAIEhIMqUc9L3vh1w)
     rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCHdos0HAIEhIMqUc9L3vh1w
-    tags:: #youtube #subscription #pokemon #anime 
+    tags:: #youtube #subscription #Pokemon #anime 
     mark:: 
     start:: 20221220
   - title:: [Cash Sonny Animations - YouTube](https://www.youtube.com/channel/UCVKyyXlc_RPc4BNp5IOQizg)
     rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCVKyyXlc_RPc4BNp5IOQizg
-    tags:: #youtube #subscription #pokemon #anime
+    tags:: #youtube #subscription #Pokemon #anime
     mark:: 
     start:: 20221220
   - title:: [Pan Piano - YouTube](https://www.youtube.com/channel/UCI7ktPB6toqucpkkCiolwLg)

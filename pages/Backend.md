@@ -1,6 +1,8 @@
+alias:: 后端
+wikipedia:: https://en.wikipedia.org/wiki/Back_end
+
 - **Backend**  [[roadmap/develop]] (Server-Side)
   - **Internet**
-    collapsed:: true
     - How does the internet work?
     - What is HTTP?
     - Browsers and how they work?
@@ -173,11 +175,8 @@
       - Horizontal/Vertical Scaling
       - Building with Observability in mind
     - (Keep Learning...)
--
 - Implement
   - [[Java]]
     - [[Spring]]
   - [[cpp]]
   - [[python]]
--
--

@@ -3,7 +3,6 @@ alias:: develop/roadmap
 tags:: TODO
 
 - Refs via: [study-plan · GitHub Topics](https://github.com/topics/study-plan) & https://github.com/search?q=stars:>100000
-  collapsed:: true
   - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) ![](https://img.shields.io/github/stars/freeCodeCamp/freeCodeCamp)
   - [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) ![](https://img.shields.io/github/stars/kamranahmedse/developer-roadmap)
     collapsed:: true
@@ -18,7 +17,6 @@ tags:: TODO
   - [ossu/computer-science](https://github.com/ossu/computer-science) ![](https://img.shields.io/github/stars/ossu/computer-science)
   - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ![](https://img.shields.io/github/stars/awesome-selfhosted/awesome-selfhosted)
 - Series of university
-  collapsed:: true
   - [ossu/computer-science: Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science) ![](https://img.shields.io/github/stars/ossu/computer-science)
   - [lib-pku/libpku: 北京大学课程资料民间整理](https://github.com/lib-pku/libpku) ![](https://img.shields.io/github/stars/lib-pku/libpku)
   - [QSCTech/zju-icicles: 浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles) ![](https://img.shields.io/github/stars/QSCTech/zju-icicles)
@@ -31,19 +29,16 @@ tags:: TODO
   - [idealclover/NJU-Review-Materials: 📝 南哪(南大)课程复习资料 Review materials for NJU](https://github.com/idealclover/NJU-Review-Materials) ![](https://img.shields.io/github/stars/idealclover/NJU-Review-Materials)
   - [📚各大高校课程资源汇总，在Github上大学](https://studyhard.cf/)
 - [[Mind map]]
-  collapsed:: true
   - [geekxh/hello-beginner: github 最全技术类思维导图](https://github.com/geekxh/hello-beginner) ![](https://img.shields.io/github/stars/geekxh/hello-beginner)
   - [justjavac/programming-mindmap: 编程相关的思维导图](https://github.com/justjavac/programming-mindmap) ![](https://img.shields.io/github/stars/justjavac/programming-mindmap)
   - [caiyongji/full-stack-mind-map: 全栈技术思维导图](https://github.com/caiyongji/full-stack-mind-map)![](https://img.shields.io/github/stars/caiyongji/full-stack-mind-map)
   - [liuxiang/xmind_booklist: 思维导图书录](https://github.com/liuxiang/xmind_booklist)![](https://img.shields.io/github/stars/liuxiang/xmind_booklist)
 - [[books]]
-  collapsed:: true
   - [[csapp]]
   - [yikeke/tao-of-programming: 编程之道(Tao of Programming) 中英双语](https://github.com/yikeke/tao-of-programming) ![](https://img.shields.io/github/stars/yikeke/tao-of-programming)
   - [ahangchen/How-to-Be-A-Programmer-CN: (译)如何做好一枚程序员](https://github.com/ahangchen/How-to-Be-A-Programmer-CN)![](https://img.shields.io/github/stars/ahangchen/How-to-Be-A-Programmer-CN)
   - [justjavac/Programming-Alpha-To-Omega: 从零开始学编程 系列汇总(从α到Ω)](https://github.com/justjavac/Programming-Alpha-To-Omega) ![](https://img.shields.io/github/stars/justjavac/Programming-Alpha-To-Omega)
 - Code style #programming/style
-  collapsed:: true
   - Code
     - [google/styleguide: Style guides for Google-originated open-source projects](https://github.com/google/styleguide) ![](https://img.shields.io/github/stars/google/styleguide)
   - Document
@@ -58,7 +53,6 @@ tags:: TODO
     - [sofish/typo.css: 中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版](https://github.com/sofish/typo.css) ![](https://img.shields.io/github/stars/sofish/typo.css)
 - [[geekbang/网络编程实战]]
 - [Bilibili](https://space.bilibili.com/10966983/favlist?fid=49128283) Collections
-  collapsed:: true
   - redis
   - 多线程
   - scip
