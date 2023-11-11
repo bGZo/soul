@@ -13,9 +13,7 @@ title:: weekly
   - Inspired by others' template (**Template Gallery**)
     template:: weekly
     template-including-parent:: false
-    collapsed:: true
     - alias:: weekly/
-      collapsed:: true
       icon:: 📅
       - ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))
         collapsed:: true
@@ -27,6 +25,15 @@ title:: weekly
           collapsed:: true
           - {{embed ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))}}
           - {{embed ((64ea10a6-9d34-4731-a9be-31c273dcf4e2))}}
+      - {{iframe https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f}}
+        #+BEGIN_CENTER
+        via: https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f
+        #+END_CENTER
+      - [[Logseq/Sync]]
+        - Android
+          - Google Drive: http://127.0.0.1:5244/gdrive/SamsungFiles/androidLogseq.md
+        - iOS (Download without coookie)
+          - https://www.icloud.com.cn/iclouddrive/0dfP2NK-LLjycO3mpP6-R7OSw#iOSLogseq
     - ## Review Questions
       - ### A line about this week
         - 截至目前，人生走过了 天、 周、 个月。
