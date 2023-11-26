@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/simple #array
-start:: 20230529
+start-date:: 20230529
 public:: true
 
 - ## Content

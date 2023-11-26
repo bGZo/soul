@@ -2,7 +2,7 @@ alias:: 推特
 define:: an online social media and social networking service owned and operated by American company X Corp., the successor of Twitter, Inc. 
 tags:: #[[social media]]  
 public:: true
-start:: 20230615
+start-date:: 20230615
 title:: twitter
 wikipedia:: [Twitter - Wikipedia](https://en.wikipedia.org/wiki/Twitter)
 

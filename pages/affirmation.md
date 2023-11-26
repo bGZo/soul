@@ -32,7 +32,7 @@ mark:: [Affirmations (New Age) - Wikipedia](https://en.wikipedia.org/wiki/Affirm
   - 向别人寻求帮助是可以的。
   - 我可以从失误中学习到新的知识。[^INS_1]
 -
-## ↩ Reference
+- ## ↩ Reference
   - collapsed:: true
     [^INS_1]: https://www.instagram.com/p/CoPcs4xOp9e/
     - https://m.cmx.im/@twitter_translate/109844040406948949

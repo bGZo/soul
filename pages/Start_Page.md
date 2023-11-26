@@ -8,7 +8,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     collapsed:: true
     - title:: [eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror) ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror) 
       tags:: #Github #opensource #mirror #Proxy 
-      start:: 20230223
+      start-date:: 20230223
       mark:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。
     - [[Github]]
       collapsed:: true
@@ -238,10 +238,10 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [Download subtitles from Youtube, Viki, Viu, Kocowa, Wetv and more](https://downsub.com) #youtube
         id:: 6424f25c-07a0-4533-ae3e-73e33f674fa1
   -
-  - ### 📺 [[anime]]
+  - ### 📺 [[Anime]]
     collapsed:: true
     - [番组放送](https://bgmlist.com/)  #opensource
-    - [M站_哔咪动漫,哔咪哔咪, 这里是兴趣使然的无名小站_bimibimi](https://www.bimiacg4.net/) #rss
+    - [M站_哔咪动漫,哔咪哔咪, 这里是兴趣使然的无名小站_bimibimi](https://www.bimiacg4.net/) #RSS
     - [NEP.Anime | 动画仓库](https://t.me/AnimeNep) [↩](tg://resolve?domain=AnimeNep)
       collapsed:: true
       - [AnimeNep Helper](tg://resolve?domain=AnimeNepbot)
@@ -336,9 +336,9 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     -
     - ### 😍📺 [[acgn]]
       - [D1DM 第一動漫 線上看動畫 ‣ 免費線上觀看高畫質最新最熱動漫盡在此地](https://d1-dm.online/)
-        #anime #ban/japan
+        #Anime #ban/japan
       - [Hanime1.me - H動漫/裏番/線上看](https://hanime1.me/)
-        #anime
+        #Anime
       - [哔咔漫画](http://picacgp.com/) #manga
       - [E-Hentai Galleries - The Free Hentai Doujinshi, Manga and Image Gallery System](https://e-hentai.org/) #manga
       - [nhentai: hentai doujinshi and manga](https://nhentai.net/) #manga

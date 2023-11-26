@@ -2,7 +2,7 @@ alias:: 域名
 icon:: 🌐
 tags:: #osi/application  
 public:: true
-start:: 20230604
+start-date:: 20230604
 title:: domain
 
 - ## Why

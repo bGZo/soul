@@ -1,6 +1,6 @@
 title:: Visualize-ML/Book3_Elements-of-Mathematics
 tags:: #maths #Github #opensource 
-start:: 20230308
+start-date:: 20230308
 author:: 生姜
 translator:: 
 publisher:: 

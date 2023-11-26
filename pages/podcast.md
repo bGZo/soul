@@ -2,7 +2,7 @@ alias:: 播客
 icon:: 🎧
 tags:: #hobby 
 public:: true
-start:: 20230603
+start-date:: 20230603
 title:: podcast
 
   - template:: podcast
@@ -14,7 +14,7 @@ title:: podcast
       icon:: 🎧
       tags:: 
       public:: true
-      start:: ``{ date.now.format('YYYYMMDD') }``
+      start-date:: ``{ date.now.format('YYYYMMDD') }``
       title:: ``{ c.page.name }``
   - `<iframe src=" " autoplay=0 frameborder=0></iframe>` #Deprecated
 - ## Why

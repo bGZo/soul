@@ -14,14 +14,14 @@ public:: true
     released-date:: 
     developer:: 
     publisher:: 
-    bgm:: 
+    bangumi:: 
     douban:: 
-    start:: ``{ date.now.format('YYYYMMDD') }``
-    end:: 
+    start-date:: ``{ date.now.format('YYYYMMDD') }``
+    end-date:: 
     template:: galgame
     template-including-parent:: true
 - ## WHY
-  - I know this kind of game from [*Oreimo*](https://bgm.tv/subject/5436), and I'm really drawn to it. I used to treat it like an alternative to [[anime]], basically it's same except a little complex.
+  - I know this kind of game from [*Oreimo*](https://bgm.tv/subject/5436), and I'm really drawn to it. I used to treat it like an alternative to [[Anime]], basically it's same except a little complex.
   - Then I know there is rating system for arts, expecially R18 game, which I almost have no education to [[sex]]. So I was addiacted in it deeper, and then find it's nothing if the story is bad.
   - A lot of things happened in [[China]] Internet, such as the policy is changed (to be more restrict, filling with recopy, report ( ((6463a921-47df-47b6-b7e6-971bee380898)) ) and sell again), Zh-Hans-Translation group disbanded appear more and more (See ((64625a01-b388-4404-91a9-baf438852bfe))).
   - Simply speaking, the whole market is exposed outside and turned to legal. Things is not turn good way to develop, because the rule of [[censor]] is not public. So I never touched a domestic galgame till now, because I don't think how deep in some topic they could reach, and that matters.
@@ -83,7 +83,7 @@ public:: true
     - title:: [【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩](https://www.bilibili.com/read/cv6488276)
       author:: Reca_ザキ
       tags:: #archive/web
-      start:: 20221121
+      start-date:: 20221121
       archive:: [💾 Archived](assets/archived_web/【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩 (11_21_2022 10_05_08 PM).html)
   - DONE How to play in different devices?
     collapsed:: true
@@ -101,14 +101,14 @@ public:: true
       define:: "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具"
       tags:: #Github
       url::  [hanmin0822/MisakaTranslator: 御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具](https://github.com/hanmin0822/MisakaTranslator) ![](https://img.shields.io/github/stars/hanmin0822/MisakaTranslator)
-      start:: 202012
+      start-date:: 202012
       mark:: Doc with [GAL党的福音——开源生肉翻译器MisakaTranslator正式版发布 - 知乎](https://zhuanlan.zhihu.com/p/112895928)
     - title:: miaomiaosoft/PandaOCR
       author:: miaomiaosoft
       define:: "多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码"
       tags:: #Github
       url:: [miaomiaosoft/PandaOCR: PandaOCR - 多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码](https://github.com/miaomiaosoft/PandaOCR) ![](https://img.shields.io/github/stars/miaomiaosoft/PandaOCR)
-      start:: 202012
+      start-date:: 202012
     - Windows 11 live caption
 - ## WHAT
   - Categories with more details.

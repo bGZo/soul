@@ -2,7 +2,7 @@ alias:: +8, +86, Simple Chinese, Great Firewall
 define:: 密不透风的墙, 什么都不会发生
 icon:: 🧱
 public:: true
-start:: 20230602
+start-date:: 20230602
 tags:: #networking, #China #censor
 title:: GFW
 background-image:: [obama_big_brother_is_watching_poster.jpeg](../assets/obama_big_brother_is_watching_poster_1674888986914_0.jpeg)

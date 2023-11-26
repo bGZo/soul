@@ -4,7 +4,7 @@ alias:: Mastodon
 desc:: 
 tags:: #social/media #Tool
 url:: [mastodon/mastodon: Your self-hosted, globally interconnected microblogging community](https://github.com/mastodon/mastodon)
-start:: 20221219
+start-date:: 20221219
 mark::
 
 - ## [[cheat/sheet]]

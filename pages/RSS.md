@@ -4,6 +4,7 @@ released-date:: 19990315
 wikipedia:: [RSS - Wikipedia](https://en.wikipedia.org/wiki/RSS)
 tags:: #info
 public:: true
+title:: RSS
 
 - ## Why
   - The first time icon of RSS I see is in the CD show. I even don't know what exactly is it. It appeared in the product birthed in last 10 years in China mainland.

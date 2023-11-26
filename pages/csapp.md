@@ -7,8 +7,8 @@ translator::
 publisher:: 机械工业出版社
 published-date:: 20161100
 isbn:: 9787111544937
-start:: 20230324
-end:: 
+start-date:: 20230324
+end-date:: 
 douban:: [深入理解计算机系统（原书第3版） (豆瓣)](https://book.douban.com/subject/26912767/)
 goodreads:: 
 weread:: 

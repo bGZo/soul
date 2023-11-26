@@ -1,5 +1,5 @@
 alias:: commands/chkconfig
-start:: 20231005
+start-date:: 20231005
 icon:: ⌘
 public:: true
 

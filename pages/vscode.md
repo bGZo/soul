@@ -7,7 +7,7 @@ document:: [Documentation for Visual Studio Code](https://code.visualstudio.com/
 changelog:: [Visual Studio Code Update](https://code.visualstudio.com/updates/)
 community:: 
 mark:: [Visual Studio Code - Code Editing. Redefined](https://code.visualstudio.com/)
-start:: 20230223
+start-date:: 20230223
 
 - ## [[cheat/sheet]]
   - ### [[shortcut]]

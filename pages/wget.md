@@ -1,5 +1,5 @@
 alias:: commands/wget
-start:: 20230703
+start-date:: 20230703
 public:: true
 
 - ## Why

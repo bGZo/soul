@@ -2,7 +2,7 @@ alias:: 书
 icon:: 📖
 tags:: #hobby 
 public:: true
-start:: 20230602
+start-date:: 20230602
 title:: book
 
   - template:: book
@@ -20,7 +20,7 @@ title:: book
       goodreads:: 
       weread:: 
       public:: true
-      start:: ``{ date.now.format('YYYYMMDD') }``
+      start-date:: ``{ date.now.format('YYYYMMDD') }``
       title:: ``{ c.page.name }``
     - ## Contents
       -
@@ -81,7 +81,7 @@ title:: book
     - [电脑上有哪些好用的 ePub 阅读器？ - 知乎](https://www.zhihu.com/question/19979089)
     - [云书库calibre-web搭建（1） | J.F's BLOG](https://blog.zzbd.org/2020/02/29/calibre-web/)
     - [这可能是安卓端最强的电子书阅读APP（“静读天下”使用技巧）_电子书刊_什么值得买](https://post.smzdm.com/p/a3g7dzkd/)
-  - WAIT How to import book using scanning? #anime #movie #Game
+  - WAIT How to import book using scanning? #Anime #movie #Game
     collapsed:: true
     - GET_ISBN_INFO
       - Similar products: GET_ANIME, GET_VIDEO, GET_GAME

@@ -17,7 +17,7 @@ alias:: video/movie
       imdb:: https://www.imdb.com/title/
       rt:: 
       mark:: 
-      start:: <% today %>
+      start-date:: <% today %>
       end::
   - template:: page/movie
     template-including-parent:: false
@@ -34,7 +34,7 @@ alias:: video/movie
       imdb:: https://www.imdb.com/title/
       rt:: 
       mark:: 
-      start:: <% today %>
+      start-date:: <% today %>
       end::
 - ## Factories
   collapsed:: true

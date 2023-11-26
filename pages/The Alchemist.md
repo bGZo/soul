@@ -11,7 +11,7 @@ douban:: [牧羊少年奇幻之旅 (豆瓣) (douban.com)](https://book.douban.co
 goodreads:: 
 weread:: [牧羊少年奇幻之旅-保罗•柯艾略-微信读书 (qq.com)](https://weread.qq.com/web/bookDetail/7c932dd05b71537c9f3404d)
 public:: true
-start:: 20230718
+start-date:: 20230718
 title:: The Alchemist
 
 - ## Contents

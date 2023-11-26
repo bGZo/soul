@@ -3,7 +3,7 @@ define::
 icon:: 🐍
 tags:: 
 public:: true
-start:: 20230627
+start-date:: 20230627
 title:: python documents
 
 - ## Why

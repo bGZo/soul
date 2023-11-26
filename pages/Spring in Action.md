@@ -9,7 +9,7 @@ isbn:: 9787115598691
 douban:: [Spring实战（第6版） (豆瓣)](https://book.douban.com/subject/36142064)
 weread:: [Spring实战（第6版）-克雷格·沃斯-微信读书](https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4)
 mark:: [habuma/spring-in-action-6-samples: Sample code from Spring in Action 6](https://github.com/habuma/spring-in-action-6-samples)
-start:: 20230111
+start-date:: 20230111
 end::
 
 - ## 📄 Contents

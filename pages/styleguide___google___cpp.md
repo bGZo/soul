@@ -38,11 +38,11 @@ tags:: #cpp
   - All header files should be self-contained. Users and refactoring tools should not have to adhere to special conditions to include the header. Specifically, a header should have [header guards](#The%5F%5Fdefine%5FGuard) and include all other headers it needs.
   - When a header declares inline functions or templates that clients of the header will instantiate, the inline functions and templates must also have definitions in the header, either directly or in files it includes. Do not move these definitions to separately included header (`-inl.h`) files; this practice was common in the past, but is no longer allowed. When all instantiations of a template occur in one `.cc` file, either because they're [explicit](https://en.cppreference.com/w/cpp/language/class%5Ftemplate#Explicit%5Finstantiation) or because the definition is accessible to only the `.cc` file, the template definition can be kept in that file.
   - There are rare cases where a file designed to be included is not self-contained. These are typically intended to be included at unusual locations, such as the middle of another file. They might not use [header guards](#The%5F%5Fdefine%5FGuard), and might not include their prerequisites. Name such files with the `.inc`extension. Use sparingly, and prefer self-contained headers when possible.
-  - ### The #define Guard
+  - ### The #Define Guard
   - All header files should have `#define` guards to prevent multiple inclusion. The format of the symbol name should be `_<PROJECT>__ _<PATH>__ _<FILE>__H_`.
   - To guarantee uniqueness, they should be based on the full path in a project's source tree. For example, the file `foo/src/bar/baz.h` in project `foo` should have the following guard:
   - #ifndef FOO_BAR_BAZ_H_
-  - #define FOO_BAR_BAZ_H_
+  - #Define FOO_BAR_BAZ_H_
   - ...
   - #endif  // FOO_BAR_BAZ_H_
   - ### Include What You Use
@@ -1050,8 +1050,8 @@ tags:: #cpp
   - ### Macro Names
   - You're not really going to [define a macro](#Preprocessor%5FMacros), are you? If you do, they're like this:`MY_MACRO_THAT_SCARES_SMALL_CHILDREN_AND_ADULTS_ALIKE`.
   - Please see the [description of macros](#Preprocessor%5FMacros); in general macros should _not_ be used. However, if they are absolutely needed, then they should be named with all capitals and underscores.
-  - #define ROUND(x) ...
-  - #define PI_ROUNDED 3.0
+  - #Define ROUND(x) ...
+  - #Define PI_ROUNDED 3.0
   - ### Exceptions to Naming Rules
   - If you are naming something that is analogous to an existing C or C++ entity then you can follow the existing naming convention scheme.
   - `bigopen()`

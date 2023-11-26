@@ -6,8 +6,8 @@ translator:: 爱飞翔
 publisher:: 机械工业出版社
 published-date:: 20210101
 isbn:: 9787111674023
-start:: 20230212
-end:: 
+start-date:: 20230212
+end-date:: 
 douban:: [Effective Python (豆瓣)](https://book.douban.com/subject/35334595/)
 goodreads:: 
 weread:: [Effective Python：编写高质量Python代码的90个有效方法（原书第2版）](https://weread.qq.com/web/bookDetail/c2932f9072620d81c29c1ed)
@@ -15,7 +15,7 @@ define:: 本书可以帮你掌握真正的 Pythonic 编程方式，令你能够�
 mark:: 2020年出版...
 
 - ## ![Effective Python: 90 Specific Ways to Write Better Python, Second Edition](../assets/books_Effective_Python_90_Specific_Ways_to_Write_Better.pdf)
-## Contents
+- ## Contents
   - 第1章 培养Pythonic思维
     - 第1条 查询自己使用的Python版本
       collapsed:: true
@@ -218,6 +218,6 @@ mark:: 2020年出版...
     - 第88条 用适当的方式打破循环依赖关系
     - 第89条 重构时考虑通过warnings提醒开发者API已经发生变化
     - 第90条 考虑通过typing做静态分析，以消除bug
-## [[Comment]]
+- ## [[Comment]]
   - 最傻逼的地方来了，中文般代码的插入是用图片，而不是文本格式🤣
 -

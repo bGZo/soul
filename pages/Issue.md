@@ -26,7 +26,7 @@ icon:: ⏸
           - 学会如何打领带。
           - 有疑虑时，保持简约。
           - 如果感觉不好，就不要穿。
-        - [[wishlist]]
+        - [[Wishlist]]
           - ((64d50300-39e6-446d-953f-879a60c1f58a))
           - 亚麻西装 ((64d50360-e42a-4663-89d0-5ebae3cb8e35))
           - POLO 衫
@@ -58,7 +58,7 @@ icon:: ⏸
 - #closed #.ol
   query-table:: false
   collapsed:: true
-  - DONE [[rss]] **通知栏推送**!!!
+  - DONE [[RSS]] **通知栏推送**!!!
     collapsed:: true
     - 把 rss 拉去下来优秀的消息进行 iOS 消息推送 -> [App Store 上的“期待”](https://apps.apple.com/us/app/%E6%9C%9F%E5%BE%85/id1461503931?l=zh&platform=iphone)
   - DONE 220831 考试
@@ -369,7 +369,7 @@ icon:: ⏸
 - ## 🏫 Courses / tutorials
 -
 -
-- [#B] 完善 Rsshub 路由 #rsshub #Project #rss
+- [#B] 完善 Rsshub 路由 #rsshub #Project #RSS
   - https://docs.rsshub.app/social-media.html#dou-ban
     - TODO [绘本漫画一周热门榜](https://m.douban.com/subject_collection/EC5U5NVYQ)
   - [紳士向 | 搜尋標籤 | udn遊戲角落](https://game.udn.com/game/tag/紳士向 ) RSSHUB 支持!!!

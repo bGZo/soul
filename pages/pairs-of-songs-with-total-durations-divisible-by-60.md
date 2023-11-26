@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium #hashtable 
-start:: 20230507
+start-date:: 20230507
 public:: true
 
 - ## Content

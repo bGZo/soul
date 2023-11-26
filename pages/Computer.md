@@ -3,7 +3,7 @@ define:: a machine that can be programmed to carry out sequences of arithmetic o
 icon:: 🖥️
 tags:: #3C
 public:: true
-start:: 20230620
+start-date:: 20230620
 title:: Computer
 wikipedia:: [Computer - Wikipedia](https://en.wikipedia.org/wiki/Computer)
 
@@ -13,7 +13,7 @@ wikipedia:: [Computer - Wikipedia](https://en.wikipedia.org/wiki/Computer)
     collapsed:: true
     - title:: 
       cpu::
-      RAM:: 
+      ram:: 
       gpu::
 - ## Why
 - ## How

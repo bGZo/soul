@@ -1,7 +1,7 @@
 alias:: pgsql
 tags:: #database/object–relational
 public:: true
-start:: 20230822
+start-date:: 20230822
 title:: PostgreSQL
 
 - ## Why

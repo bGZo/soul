@@ -5,5 +5,5 @@ tags:: #podcast, #philosophy
 author:: 
 url:: 
 mark:: tg://resolve?domain=vitamineEpodcast
-start:: 20221201
+start-date:: 20221201
 end::

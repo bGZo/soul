@@ -2,7 +2,7 @@ alias:: 情绪
 define:: Emotions are mental states brought(带来) on by neurophysiological(神经的) changes, variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure.
 icon:: 😀
 public:: true
-start:: 20230605
+start-date:: 20230605
 title:: emotion
 wikipedia:: [Emotion - Wikipedia](https://en.wikipedia.org/wiki/Emotion)
 

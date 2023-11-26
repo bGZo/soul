@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/simple #tree
-start:: 20230206
+start-date:: 20230206
 public:: true
 
 - ## Content

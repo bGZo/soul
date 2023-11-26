@@ -1,9 +1,9 @@
 icon:: 👨‍💻
 tags:: #matrix 
 mark:: [(NOI2013)向量内积](https://ac.nowcoder.com/acm/problem/17851)；[P1224 (NOI2013) 向量内积 - 洛谷 | 计算机科学教育新生态](https://www.luogu.com.cn/problem/P1224)
-start:: 20230206
+start-date:: 20230206
 
-## Content
+- ## Content
   - ## 题目描述
     
     两个 $d$ 维向量 $A=[a_1,a_2,\ldots,a_d]$ 与 $B=[b_1,b_2,\ldots,b_d]$ 的内积为其相对应维度的权值的乘积和，即：
@@ -62,7 +62,7 @@ start:: 20230206
     | $18$ | $5\times 10^4$ | $30$ | $3$ | $<10$ |
     | $19$ | $8\times 10^4$ | $30$ | $3$ | $<10$ |
     | $20$ | $10^5$ | $30$ | $3$ | $<10$ |
-## Solution
+- ## Solution
   -
-## Conclusion
+- ## Conclusion
   -

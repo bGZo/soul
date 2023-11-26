@@ -1,5 +1,5 @@
 alias:: 开支
-start:: 20230529
+start-date:: 20230529
 public:: true
 
 - {{query (property cost)}}

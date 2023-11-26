@@ -1,5 +1,5 @@
 alias:: 自动化
-start:: 20211231
+start-date:: 20211231
 mark:: https://github.com/bGZo/2021
 
 - #+BEGIN_PINNED

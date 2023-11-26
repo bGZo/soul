@@ -3,7 +3,7 @@ alias:: 代理, 翻墙, 科学上网
 cost:: 3
 icon:: ✈
 public:: true
-start:: 20230602
+start-date:: 20230602
 title:: Proxy
 
   -

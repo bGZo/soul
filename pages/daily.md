@@ -2,7 +2,7 @@ alias:: 每天
 icon:: 📅
 tags:: #scheduled 
 public:: true
-start:: 20230602
+start-date:: 20230602
 title:: daily
 
 - ## Why

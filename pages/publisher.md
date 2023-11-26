@@ -27,7 +27,7 @@
       url:: http://www.shinchosha.co.jp
     - publisher:: 讲谈社
       url:: http://www.kodansha.co.jp
-      bgm:: [講談社 | Bangumi 番组计划](https://bgm.tv/person/128)
+      bangumi:: [講談社 | Bangumi 番组计划](https://bgm.tv/person/128)
   - 出版品販賣商
     collapsed:: true
     - 日本知名書店

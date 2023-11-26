@@ -3,7 +3,7 @@ define:: a collection of related classes, methods, and resources that are packag
 icon:: ☕
 tags:: #java/api
 public:: true
-start:: 20230717
+start-date:: 20230717
 title:: java library
 
   - {{embed ((63e31fc9-aebc-46d1-8e99-a06961fbb3d8))}}

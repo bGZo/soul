@@ -1,1 +1,1 @@
-tags:: #anime #idea
+tags:: #Anime #idea

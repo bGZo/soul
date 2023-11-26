@@ -7,7 +7,7 @@ tags:: #question/oj
     collapsed:: true
     - icon:: 👨‍💻
       tags:: #leetcode/medium 
-      start:: ``{ date.now.format('YYYYMMDD') }``
+      start-date:: ``{ date.now.format('YYYYMMDD') }``
       public:: true
       - 。
     - ## Content

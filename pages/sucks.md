@@ -168,7 +168,7 @@ alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
   - Account include activities timeline | 全记录用户数据
     collapsed:: true
     - [[zhihu]]
-    - [[bgm]]
+    - [[Bangumi]]
   - Account only support singleton session | 单设备登陆
     collapsed:: true
     - Alipay

@@ -10,7 +10,7 @@ alias:: 专辑, music/album
       artisit:: 
       released_date:: 
       mark:: 
-      start:: <% today %>
+      start-date:: <% today %>
       - ### Description
         -
       - ### Songs #.ol
@@ -21,7 +21,7 @@ alias:: 专辑, music/album
       alias:: 
       tags:: #band 
       mark:: 
-      start:: <% today %>
+      start-date:: <% today %>
     - ## Members
       -
     - ## Description

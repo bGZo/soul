@@ -1,7 +1,7 @@
 alias:: 工具
 icon:: 🛠
 public:: true
-start:: 20230531
+start-date:: 20230531
 tags:: #productivity
 title:: Tool
 
@@ -15,7 +15,7 @@ title:: Tool
       document:: 
       icon::
       public:: true
-      start:: ``{ date.now.format('YYYYMMDD') }``
+      start-date:: ``{ date.now.format('YYYYMMDD') }``
       tags:: 
       title:: ``{ c.page.name }``
 - ## Why

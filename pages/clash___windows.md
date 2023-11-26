@@ -6,7 +6,7 @@ document:: [Clash for Windows | Clash for Windows](https://docs.cfw.lbyczf.com/)
 changelog:: [Fndroid的日常](https://t.me/fndroid_news) [↩](tg://resolve?domain=fndroid_news)
 community:: 
 mark:: 
-start:: 20230115
+start-date:: 20230115
 
 - Changelog
   - 0.20.0
