@@ -2,7 +2,7 @@ alias:: 项目
 define:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 icon:: 📂
 public:: true
-start:: 20230623
+start-date:: 20230623
 title:: Project
 
   - template:: project
@@ -13,7 +13,7 @@ title:: Project
       icon:: 📂
       tags:: #Project
       public:: true
-      start:: ``{ date.now.format('YYYYMMDD') }``
+      start-date:: ``{ date.now.format('YYYYMMDD') }``
       title:: ``{ c.page.name }``
     - ## Project Meta
       - DOING #Project [[``{ c.page.name }``]]

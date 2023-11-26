@@ -7,8 +7,8 @@ url:: [Dreamacro/clash: A rule-based tunnel in Go.](https://github.com/Dreamacro
 document:: 
 changelog:: 
 community:: 
-start:: 20230115
-end:: 
+start-date:: 20230115
+end-date:: 
 mark::
 
   - [yichengchen/clashX](https://github.com/yichengchen/clashX/) For MacOS ![](https://img.shields.io/github/stars/yichengchen/clashX)

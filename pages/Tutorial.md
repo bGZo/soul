@@ -1,6 +1,6 @@
 alias:: 教程
 public:: true
-start:: 20230719
+start-date:: 20230719
 title:: Tutorial
 
   - template:: tutorial
@@ -9,7 +9,7 @@ title:: Tutorial
     - author:: 
       tags:: 
       url:: 
-      start:: <% today %> <% time %>
+      start-date:: <% today %> <% time %>
       end::
 - ## Why
   - > To follow the path, 

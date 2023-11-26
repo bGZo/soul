@@ -1,7 +1,7 @@
 collapsed:: true
 alias:: 串流
 public:: true
-start:: 20230531
+start-date:: 20230531
 tags:: #Game
 title:: streaming
 
@@ -16,7 +16,7 @@ title:: streaming
     community:: [Moonlight Ideas and Suggestions (moonlight-stream.org)](https://ideas.moonlight-stream.org/)
     document:: [Frequently Asked Questions · moonlight-stream/moonlight-docs Wiki (github.com)](https://github.com/moonlight-stream/moonlight-docs/wiki/Frequently-Asked-Questions)
     public:: true
-    start:: 20230531
+    start-date:: 20230531
     tags:: #streaming #tools
     title:: moonlight
     collapsed:: true

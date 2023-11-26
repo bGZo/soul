@@ -12,7 +12,7 @@ define:: 禁止 / 封杀 / 屏蔽
   - 外国 封杀吗 #discuss
 - [[my]]
   collapsed:: true
-  - wechat #public via: [(TLDR) 微信小号 (无好友) 被限制登陆 == 永封 - V2EX](https://v2ex.com/t/857226#reply7)
+  - wechat #Public via: [(TLDR) 微信小号 (无好友) 被限制登陆 == 永封 - V2EX](https://v2ex.com/t/857226#reply7)
     collapsed:: true
     - day 1: 发现手机号让限制登陆封了, GV号无法协助解封, 报错`处理超时, 系统错误` :-)
       - 当天晚上联系客服实名认证, 上传手持身份证照片, 签保证书请求解封. 算是交了第一个工单.

@@ -1,7 +1,7 @@
 tags:: #Github #Tutorial  #Tool #jetbrains/idea 
 url:: [judasn/IntelliJ-IDEA-Tutorial: IntelliJ IDEA 简体中文专题教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial) ![](https://img.shields.io/github/stars/judasn/IntelliJ-IDEA-Tutorial)
-start:: 20230111
-end:: 
+start-date:: 20230111
+end-date:: 
 mark:: https://github.com/judasn/IntelliJ-IDEA-Tutorial/tree/9801bfb33946e041f8d579df06b22bf839e6fccf
 
 - ## Contents

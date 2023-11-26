@@ -2,7 +2,7 @@ alias:: spring/boot
 document:: [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/index.html) 
 tags:: #java/framework
 public:: true
-start:: 20230728
+start-date:: 20230728
 title:: Spring Boot
 
 - ## Why

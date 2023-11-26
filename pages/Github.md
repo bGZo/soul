@@ -9,13 +9,13 @@ collapsed:: true
     template-including-parent:: false
     - title:: ![](https://img.shields.io/github/stars/) 
       tags:: #Github #opensource 
-      start:: <% today %>
+      start-date:: <% today %>
       mark::
   - template:: page/github
     template-including-parent:: false
     - title::  
       tags:: #Github #opensource 
-      start:: <% today %>
+      start-date:: <% today %>
       mark:: ![](https://img.shields.io/github/stars/)
 - collapsed:: true
   ---
@@ -26,7 +26,7 @@ collapsed:: true
       tags:: 
       author:: 
       mark:: 
-      start:: <% today %>
-      end:: 
+      start-date:: <% today %>
+      end-date:: 
       template:: github
       ```

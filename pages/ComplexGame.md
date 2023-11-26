@@ -5,5 +5,5 @@ define:: 是凉意主持或独角的一档播客节目，希望提供超越二�
 author:: 凉意
 tags:: #podcast 
 url:: [超智游戏ComplexGame](https://pod.link/1535884558)
-start:: 20230113
+start-date:: 20230113
 end::

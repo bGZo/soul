@@ -3,7 +3,7 @@ define:: Doubt is a mental state in which the mind remains suspended between two
 icon:: 
 tags:: 
 public:: true
-start:: 20230605
+start-date:: 20230605
 title:: doubt
 
 - ## Why

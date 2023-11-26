@@ -3,7 +3,7 @@ define::
 icon:: 🎮
 tags:: #acgn
 public:: true
-start:: 20230815
+start-date:: 20230815
 title:: Game
 
   - template:: game
@@ -17,10 +17,10 @@ title:: Game
       released-date:: 
       developer:: 
       publisher:: 
-      bgm:: 
+      bangumi:: 
       douban:: 
       mark:: 
-      start:: <% today %>
+      start-date:: <% today %>
 - ## Why
 - ## How
 - ## What

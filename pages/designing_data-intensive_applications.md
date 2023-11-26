@@ -6,8 +6,8 @@ translator:: 赵军平, 李三平, 吕云松, 耿煜
 publisher:: O'Reilly
 published-date::  20180901
 isbn:: 9787519821968
-start:: 20230328
-end:: 
+start-date:: 20230328
+end-date:: 
 douban:: https://book.douban.com/subject/26197294 ； https://book.douban.com/subject/30329536/
 goodreads:: 
 weread:: 
@@ -15,7 +15,7 @@ desc::
 mark:: [GitHub - Vonng/ddia: 《Designing Data-Intensive Application》DDIA中文翻译](https://github.com/Vonng/ddia)
 
 - ## ![Designing Data-Intensive Applications](../assets/book_designing_data-Intensive_applications.pdf)
-## Contents
+- ## Contents
   - [序言](http://ddia.vonng.com/#/preface)
     - > **在我们的社会中，技术是一种强大的力量。数据、软件、通信可以用于坏的方面：不公平的阶级固化，损害公民权利，保护既得利益集团。但也可以用于好的方面：让底层人民发出自己的声音，让每个人都拥有机会，避免灾难。本书献给所有将技术用于善途的人们。**
     - > 计算是一种流行文化，流行文化鄙视历史。 流行文化关乎个体身份和参与感，但与合作无关。流行文化活在当下，也与过去和未来无关。 我认为大部分（为了钱）编写代码的人就是这样的， 他们不知道自己的文化来自哪里。
@@ -60,6 +60,6 @@ mark:: [GitHub - Vonng/ddia: 《Designing Data-Intensive Application》DDIA中�
     - [第十二章：数据系统的未来](http://ddia.vonng.com/#/ch12)
   - [术语表](http://ddia.vonng.com/#/glossary)
   - [后记](http://ddia.vonng.com/#/colophon)
-## [[Comment]]
+- ## [[Comment]]
   -
 -

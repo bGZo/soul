@@ -5,7 +5,7 @@ tags:: #blog
 author:: 编程随想 
 url:: [编程随想的博客](https://program-think.blogspot.com/)
 mark:: 
-start:: 20221212
+start-date:: 20221212
 end::
 
 - Archives
@@ -64,7 +64,7 @@ end::
   - title:: [计算机网络通讯的【系统性】扫盲——从“基本概念”到“==OSI 模型==”](https://program-think.blogspot.com/2021/03/Computer-Networks-Overview.html)
     author:: 
     tags:: #archive/web #web #networking
-    start:: 20221212
+    start-date:: 20221212
     mark:: 
     archive:: [💾 Archived](../assets/archived_web/计算机网络通讯的【系统性】扫盲——从基本概念到OSI 模型 @ 编程随想的博客 (12_12_2022 2_18_47 PM).html)
     collapsed:: true
@@ -328,7 +328,7 @@ end::
   - title:: [天朝民众的心理分析：斯德哥尔摩综合症](https://program-think.blogspot.com/2012/06/stockholm-syndrome.html)
     author:: 
     tags:: #GFW #archive/web
-    start:: 20221212
+    start-date:: 20221212
     mark:: 
     archive:: [💾 Archived](../assets/archived_web/天朝民众的心理分析：斯德哥尔摩综合症 @ 编程随想的博客 (12_12_2022 3_20_52 PM).html )
     collapsed:: true

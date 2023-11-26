@@ -300,5 +300,5 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
       tags:: #thought, #my
       feeling:: 
       mark:: 
-      start:: <% today %>
+      start-date:: <% today %>
 -

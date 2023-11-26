@@ -1,18 +1,18 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium 
 mark:: [1604. 警告一小时内使用相同员工卡大于等于三次的人](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
-start:: 20230207
+start-date:: 20230207
 
 - icon:: 👨‍💻
   tags:: #leetcode/medium 
-  start:: 20230514
+  start-date:: 20230514
   public:: true
 - ## Content
   - <iframe src="https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 - ## Solution
   -
-## Conclusion
+- ## Conclusion
   - 多声明局部变量是一个好习惯，有时候为了紧凑的写法，而不考虑写更清晰的局部变量非常不明智 #code/style
     - ```java
       for(int i = 0; i<keyName.length; i++){

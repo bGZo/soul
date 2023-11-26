@@ -1,8 +1,8 @@
 define:: 变态阅读器
-tags:: #Project #rss #[[github action]] #crawler #hentai
+tags:: #Project #RSS #[[github action]] #crawler #hentai
 icon:: 📂
 public:: true
-start:: [[20230614]]
+start-date:: [[20230614]]
 title:: Hentai Reader
 
 - ## Project Meta

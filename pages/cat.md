@@ -3,7 +3,7 @@ title:: cat
 alias:: 猫
 tags:: #hobby
 cost:: 5
-start:: 20230529
+start-date:: 20230529
 public:: false
 
 - ## Why

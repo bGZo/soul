@@ -2,7 +2,7 @@ alias:: central processing unit, 中央处理器,
 define:: Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations.
 icon:: 𓇲
 public:: true
-start:: 20230719
+start-date:: 20230719
 title:: CPU
 wikipedia:: [Central processing unit - Wikipedia](https://en.wikipedia.org/wiki/Central_processing_unit)
 

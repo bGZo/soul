@@ -1,1 +1,1 @@
-tags:: #rss
+tags:: #RSS

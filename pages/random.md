@@ -1,5 +1,5 @@
-- ## ((63f85f69-f67d-4238-af51-c299bd8a86c6))
-  via: [Random Number Generator: How Do Computers Generate Random Numbers?](https://www.freecodecamp.org/news/random-number-generator)
+## ((63f85f69-f67d-4238-af51-c299bd8a86c6))
+via: [Random Number Generator: How Do Computers Generate Random Numbers?](https://www.freecodecamp.org/news/random-number-generator)
   - Physical process (True Random Numbers, TRNG)
     - radioactive decay 放射性衰变
     - the photoelectric effect 光电效应

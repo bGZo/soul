@@ -2,7 +2,7 @@ title:: electron
 alias:: 
 desc:: 
 tags:: #Github #framework #nodejs #cross-platform #html #css #javascript #TODO
-start:: 20200801
+start-date:: 20200801
 mark::
 url:: [electron/electron](https://github.com/electron/electron) ![](https://img.shields.io/github/stars/electron/electron)
 mark:: [Build cross-platform desktop apps with JavaScript, HTML, and CSS | Electron](https://www.electronjs.org/)

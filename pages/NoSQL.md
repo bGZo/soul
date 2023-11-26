@@ -58,5 +58,5 @@ mark:: 用户数据和操作日志成倍的增加，如果要对这些数据进�
     - AP - 满足可用性，分区容忍性的系统，通常可能对一致性要求低一些
     - ![](..assets/cap-theoram-image.png)
 -
-## ↩ Reference
+- ## ↩ Reference
   - [NoSQL 简介 | 菜鸟教程](https://www.runoob.com/mongodb/nosql.html)

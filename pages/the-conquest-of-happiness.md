@@ -6,8 +6,8 @@ author:: Russell
 publisher:: 天津人民出版社
 published-date:: 20210100
 isbn:: 9787201168821
-start:: 20220704
-end:: 
+start-date:: 20220704
+end-date:: 
 douban:: [幸福之路 (豆瓣)](https://book.douban.com/subject/35302634/)
 goodreads:: [The Conquest of Happiness by Bertrand Russell | Goodreads](https://www.goodreads.com/book/show/454750.The_Conquest_of_Happiness)
 weread:: [幸福之路-伯特兰·罗素-微信读书](https://weread.qq.com/web/bookDetail/11e3277072206ec011ec1fa)
@@ -215,6 +215,6 @@ mark::
     - 第十七章 幸福的人
       - 幸福的人是真实地生活着的，他们有着自由的情爱和广泛的兴趣，他们通过这些情感和兴趣把握住了自己的幸福，而这又让他们自身成为其他很多人的兴趣和情爱目标。幸福的重要源泉是得到爱，但是索要爱的人是得不到爱的。泛泛而论，得到爱的人正是付出爱的人。  <u>2800</u>
   - 译名对照表
-## [[Comment]]
+- ## [[Comment]]
   -
 -

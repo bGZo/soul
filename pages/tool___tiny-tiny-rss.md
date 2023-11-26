@@ -1,6 +1,6 @@
 title:: tool/tiny-tiny-rss
 
-- A [[rss]] tool
+- A [[RSS]] tool
 - Using [[docker]] install and run
   - ```shell
     $ sudo dockerd

@@ -2,7 +2,7 @@ alias:: 年度, 年度总结, 复盘
 icon:: 📅
 tags:: #scheduled 
 public:: true
-start:: 20230602
+start-date:: 20230602
 title:: yearly
 
 - ## Why

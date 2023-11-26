@@ -3,18 +3,18 @@ alias:: 动漫
 tags:: #acgn
 wikipedia:: [Animation - Wikipedia](https://en.wikipedia.org/wiki/Animation)
 filters:: {"start_page" true}
+template:: anime
+template-including-parent:: false
 
   - cover:: ![🖼 ](../assets/``{ date.now.format('YYYY') }``/){:width 225}
     title:: 
     alias:: 
     desc:: 
-    tags:: #anime
+    tags:: #Anime
     author:: 
     published-date:: 
     douban:: 
-    bgm:: 
+    bangumi:: 
     myanimelist:: 
-    start:: ``{ date.now.format('YYYYMMDD') }``
-    end:: 
-    template:: anime
-    template-including-parent:: true
+    start-date:: ``{ date.now.format('YYYYMMDD') }``
+    end::

@@ -5,7 +5,7 @@ define:: Autonomous Sensory Meridian Response / 自主性感官经络反应 / �
 tags::  
 url:: 
 mark:: [ASMR - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/ASMR)
-start:: 20221130
+start-date:: 20221130
 end::
 
   - 2010年，在线论坛的参与者詹妮弗·艾伦 (Jennifer Allen) 提出将该现象命名

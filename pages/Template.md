@@ -1,7 +1,7 @@
 alias:: 模板
 collapsed:: true
 public:: true
-start:: 20230531
+start-date:: 20230531
 title:: Template
 
   - template:: page
@@ -10,7 +10,7 @@ title:: Template
     - alias:: 
       define:: 
       icon:: 
-      start:: ``{ date.now.format('YYYYMMDD') }``
+      start-date:: ``{ date.now.format('YYYYMMDD') }``
       tags:: 
       title:: ``{ c.page.name }``
     - ## Why
@@ -26,7 +26,7 @@ title:: Template
       define:: 
       icon:: 
       public:: true
-      start:: ``{ date.now.format('YYYYMMDD') }``
+      start-date:: ``{ date.now.format('YYYYMMDD') }``
       tags:: 
       title:: ``{ c.page.name }``
     - ## Why
@@ -54,7 +54,7 @@ title:: Template
           define:: 
         	icon::
       	public:: true
-      	start:: ``{ date.now.format('YYYYMMDD') }``
+      	start-date:: ``{ date.now.format('YYYYMMDD') }``
       	tags:: 
       	title:: ``{ c.page.name }``
       ```
@@ -70,7 +70,7 @@ title:: Template
           artisit:: 
           developer:: 
           #========#
-          end:: 
+          end-date:: 
           #========#
           :: 
           released-date:: 
@@ -100,7 +100,7 @@ title:: Template
         changelog:: 
         community:: 
         mark:: 
-        start:: <% today %>
+        start-date:: <% today %>
       - #+BEGIN_PINNED
         <!-- Rules -->
         #+END_PINNED

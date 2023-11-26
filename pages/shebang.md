@@ -3,7 +3,7 @@ alias:: hashbang, sha-bang, sharp-exclamation, pound-bang, hash-pling, #!
 tags:: #Linux
 define:: In Linux, this behavior is the result of both kernel and user-space code
 mark:: [Shebang (Unix) - Wikipedia](https://en.wikipedia.org/wiki/Shebang_(Unix)); [Shebang - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Shebang)
-end:: 20230111
+end-date:: 20230111
 
   - Etymology
     - May have come from an inexact contraction of *SHArp bang* or *haSH bang*, referring to the two typical Unix names for them

@@ -1,14 +1,14 @@
 alias:: 命令
 icon:: ⌘
 public:: true
-start:: 20230625
+start-date:: 20230625
 title:: command
 
   - Linux Manual
     template:: command-man
     template-including-parent:: false
     - alias:: commands/``{c.page.name}``
-      start:: ``{ date.now.format('YYYYMMDD') }``
+      start-date:: ``{ date.now.format('YYYYMMDD') }``
       icon:: ⌘
       public:: true
     - ## Why

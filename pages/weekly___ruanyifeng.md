@@ -3,7 +3,7 @@ alias:: ruanyifeng/weekly
 define:: 科技爱好者周刊
 tags:: #magazine #blog #newsletter  
 url:: [ruanyf/weekly: 科技爱好者周刊，每周五发布](https://github.com/ruanyf/weekly)
-start:: 20221221
+start-date:: 20221221
 
 - ## Content
   - 250

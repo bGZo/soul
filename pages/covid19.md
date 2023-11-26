@@ -129,7 +129,7 @@ define:: 新型冠狀病毒肺炎 / 武汉肺炎
     有话语权的年轻人可以拉上窗帘，摇晃身体，假装列车还在继续前行
     
     {{video https://www.youtube.com/watch?v=wszg3BAOEV8}}
-    #public via: https://twitter.com/imbGZo/status/1603648906578956288
+    #Public via: https://twitter.com/imbGZo/status/1603648906578956288
   - > 一亿剂进口 mRNA 疫苗+武警严格保护的大院+专人配送的特供物资+高干病房
     by **[ericwoflskin](https://www.v2ex.com/member/ericwoflskin)** via: [很好奇，那些退休的高官，现在怎么预防被感染？ - V2EX](https://www.v2ex.com/t/902109)
   - >我很年轻的时候，总以为某些大人物发起的各种运动背后都有深层的逻辑和理性的考虑，后来才发现根本没有, 其实就是精神病。

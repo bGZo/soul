@@ -2,13 +2,13 @@ blog:: [Logseq Blog](https://blog.logseq.com/)
 changelog:: [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changelog.md](https://github.com/logseq/docs/blob/master/pages/Changelog.md?plain=1)
 community:: [Logseq Community Hub](https://hub.logseq.com/);
 document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://mschmidtkorth.github.io/logseq-msk-docs)
-start:: 20210801
+start-date:: 20210801
 tags:: #tools
 collapsed:: true
 title:: Logseq
 
 - ## Why
-  - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[Privacy]], [[censor]], with high [[price]] and bullshit user agreement.
+  - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[Privacy]], [[censor]], with high [[Price]] and bullshit user agreement.
     - ((64772db8-4367-4d35-b2ca-fed0e45bdd2c))
   - Basically, it's better that encoding with txt and search in [[vscode]]. I used it in the past but I was dropped in the category hell. When I finish a note last two months, and I have no idea where are they stored. The category I organized is terrible. And the ((6474b5f9-a287-48d9-a097-3400b8de53f7)). I like it.
   - I've learned a lot of things, not only how to note, how to remember, but also a few philosophy of organizing the whole [[knowledge]] system. (See ((646ad604-3548-4c57-a41a-4c551df8a8cc)))
@@ -21,7 +21,7 @@ title:: Logseq
         [Make it easy to configure syntax highlighting theme? - Questions & Help - Logseq](https://discuss.logseq.com/t/make-it-easy-to-configure-syntax-highlighting-theme/4617)
         - title:: [codemirror/codemirror5: In-browser code editor (version 5, legacy)](https://github.com/codemirror/codemirror5) ![](https://img.shields.io/github/stars/codemirror/codemirror5)
           tags:: #Github #opensource 
-          start:: 20230531
+          start-date:: 20230531
       - [Specify Indentation Type & Changing The Default Font - Questions & Help - Logseq](https://discuss.logseq.com/t/specify-indentation-type-changing-the-default-font/2703/6)
         collapsed:: true
         - ```edu
@@ -80,7 +80,7 @@ title:: Logseq
       - Logseq Plugin | 插件
         - title:: [shady2k/logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin) 
           tags:: #Github #opensource 
-          start:: 20221120
+          start-date:: 20221120
           - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
             collapsed:: true
             #Telegram #Deprecated
@@ -116,7 +116,7 @@ title:: Logseq
       - But it only support show until **level 2**
     - title:: [shady2k/logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin)
       tags:: #Github #opensource
-      start:: 20221120
+      start-date:: 20221120
       collapsed:: true
       - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
         collapsed:: true
@@ -190,12 +190,12 @@ title:: Logseq
   - The page exported by default is not included plugin setting. The better way is writing it in `custom.css`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5). And here is my changelog: #changelog/wiki
     collapsed:: true
     - Font 
-      start:: 20221015
+      start-date:: 20221015
       collapsed:: true
       - [Basic UI Settings e.g. Font Size - Feature Requests - Logseq](https://discuss.logseq.com/t/basic-ui-settings-e-g-font-size/2946/25)
       - [Specify Indentation Type & Changing The Default Font - Questions & Help - Logseq](https://discuss.logseq.com/t/specify-indentation-type-changing-the-default-font/2703/5)
     - Tags 
-      start:: 20221118
+      start-date:: 20221118
       collapsed:: true
       - ```css
         a.tag[data-ref="star" i]::before {

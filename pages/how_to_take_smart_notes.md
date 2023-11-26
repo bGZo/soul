@@ -7,8 +7,8 @@ translator:: 陈琳
 publisher:: 人民邮电出版社
 published-date:: 20210700
 isbn:: 9787115564672
-start:: 20220124
-end:: 
+start-date:: 20220124
+end-date:: 
 douban:: [卡片笔记写作法 (豆瓣)](https://book.douban.com/subject/35503571/)
 goodreads:: 
 weread:: [卡片笔记写作法：如何实现从阅读到写作-申克·阿伦斯-微信读书](https://weread.qq.com/web/bookDetail/3d8326d072552e803d87c41)
@@ -182,7 +182,7 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
             define:: 需要意志力来维持的注意力
           - **心流**
             author:: 米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi)
-            start:: 1970s
+            start-date:: 1970s
             define:: 不需要过多依赖意志力和努力的其他形式的注意力
           - **持续注意**
             define:: 需要我们在较长的时间内保持对一项任务的关注
@@ -353,8 +353,8 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     publisher:: 
     published-date:: 
     isbn:: 
-    start:: 20230125
-    end:: 
+    start-date:: 20230125
+    end-date:: 
     douban:: [费曼学习法（用输出倒逼输入） (豆瓣)](https://book.douban.com/subject/35368398/)
     goodreads:: 
     weread:: [费曼学习法-尹红心 李伟-微信读书](https://weread.qq.com/web/bookDetail/6eb32330723b4e476ebec59)
@@ -366,8 +366,8 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     publisher:: 
     published-date:: 
     isbn:: 
-    start:: 20230125
-    end:: 
+    start-date:: 20230125
+    end-date:: 
     douban:: [西蒙学习法 (豆瓣)](https://book.douban.com/subject/36087707/)
     goodreads:: 
     weread:: [西蒙学习法：如何在短时间内快速学会新知识-友荣方略　著-微信读书](https://weread.qq.com/web/bookDetail/a7f32050813ab73e5g017342)
@@ -379,8 +379,8 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     publisher:: 
     published-date:: 
     isbn:: 
-    start:: 20230125
-    end:: 
+    start-date:: 20230125
+    end-date:: 
     douban:: 
     goodreads:: 
     weread:: [如何高效学习：1年完成麻省理工4年33门课程的整体性学习法-斯科特·扬-微信读书](https://weread.qq.com/web/bookDetail/0683235058c1e6068bd239f)

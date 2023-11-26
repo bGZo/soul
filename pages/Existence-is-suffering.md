@@ -1,5 +1,5 @@
 title:: Existence-is-suffering
-tags:: #my/blog, #fucking/reality #public
+tags:: #my/blog, #fucking/reality #Public
 public:: true
 
 - ## 出生即伤害, 存在即痛苦
@@ -21,7 +21,7 @@ public:: true
     define:: 这可能是悲指截止目前最悲观、最丧的一期了吧。我们对生命敬畏，却又对人生悲观。如果我们感到人生的痛苦大于快乐，还要带一个新的生命来到这个世上吗？如果原生家庭对我们造成难以抚平的伤痛，我可以通过创造并抚育新的生命来改写命运吗？还是说，生小孩是我们逃避人生无意义的方式？抑或是，去体验那种独一无二的连结、去爱，才是痛苦人生最大的快乐？这一期，献给所有脆弱又可爱的生命，我们希望这个世界为了你们变得更美好。
     tags:: #podcast/episode
     mark:: 
-    start:: 20220720
+    start-date:: 20220720
     collapsed:: true
     - <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3ppTHYES5dxhnOBFiwgrrh?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     - [:audio {:controls true :src "https://anchor.fm/s/46241440/podcast/play/36263963/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-27%2F137018e5-5ee6-c30b-27fd-cdee5cb87fc9.mp3"}]
@@ -72,7 +72,7 @@ public:: true
   - 想法见仁见智, 当我以某种叙事回顾父母被我和姊妹绑架的一生, 我会感到无尽的悲哀, 希望的幻灭, 重塑, 再幻灭, 再重塑, 我不忍再看到时光中他们的窘境, 再看到希望的微光再次扑灭, 所以，当我越爱他们, 越不希望他们结合在一起, 过这样的苦日子, 而这种希望却也消解我的存在。
   - 在这场注定会输，与命运的拉扯中, 我打心底里钦佩老一辈, 如二舅和福贵这样的人物[^ERJIU][^FUGUI], 如若换做是我, 可能撑不了多久就会砰然倒塌吧. 可是我想, 生活并不应该如此, 至少不应该在下一辈中寻找自我, 我宁愿花费我一生的时间来认识我自己, 来自我实现, 宁可做一个挨饿的理想主义者. 而不是去过早的, 以一个残缺的人格去抚育下一代.
 -
-## 各行其是
+- ## 各行其是
   - 就算如此, 像 [David Benatar](https://en.wikipedia.org/wiki/David_Benatar) 说的那样, 就算我说再多, 世人也可能不会买账(GIVE A F*CK)
   - >  It is even less likely that many people will stop having children. By contrast, it is quite likely that my views either will be ignored or will be dismissed.
   - 不管怎么说, 不被祝福的孩子还是会诞生于世, 利用阶级特权获得女性初夜权[^FIRST_NIGHT], [战争时期的性暴力](https://zh.wikipedia.org/zh/%E6%88%98%E4%BA%89%E6%97%B6%E6%9C%9F%E7%9A%84%E6%80%A7%E6%9A%B4%E5%8A%9B), 女性不被允许以一个鲜活的人, 而被视作容器与男人交媾, 我们一路走来, 从未听她们说一个 "不" 字, 每当失去希望而自尽的一瞬间, 遥远的山村, 一个女孩还是会呱呱坠地, 稀里糊涂地开始下一场轮回. 请问她们做错了什么吗? 我不明白

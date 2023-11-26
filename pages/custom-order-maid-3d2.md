@@ -4,10 +4,10 @@ define:: 3D定制女仆2 / カスタムオーダーメイド3D2 /
 tags:: #galgame, #hentai
 author:: 
 url:: [CUSTOM ORDER MAID 3D2](https://com3d2.world/r18/main.html)
-bgm:: [カスタムメイド3D2 | Bangumi 番组计划](https://bgm.tv/subject/131547)
+bangumi:: [カスタムメイド3D2 | Bangumi 番组计划](https://bgm.tv/subject/131547)
 douban:: [3D定制女仆2 カスタムメイド3D 2 (豆瓣)](https://www.douban.com/game/27591210/)
 mark:: 
-start:: 20221123
+start-date:: 20221123
 end::
 
 - New desire

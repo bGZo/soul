@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium 
-start:: 20230603
+start-date:: 20230603
 public:: true
 
 - ## Content

@@ -2,7 +2,7 @@ alias:: battery/charger, 充电器
 icon:: 🔋
 wikipedia:: [Battery charger - Wikipedia](https://en.wikipedia.org/wiki/Battery_charger)
 public:: true
-start:: 20230609
+start-date:: 20230609
 title:: battery charger
 
 - ## Why

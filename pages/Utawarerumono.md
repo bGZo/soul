@@ -9,10 +9,10 @@ tags:: #galgame/god
     tags:: #galgame
     author:: 
     url:: [うたわれるもの 散りゆく者への子守唄 PS4®/PS Vita](https://aquaplus.jp/uta/chiri/)
-    bgm:: [うたわれるもの 散りゆく者への子守唄 | Bangumi 番组计划](https://bgm.tv/subject/229849)
+    bangumi:: [うたわれるもの 散りゆく者への子守唄 | Bangumi 番组计划](https://bgm.tv/subject/229849)
     douban:: [传颂之物 致逝者的摇篮曲 うたわれるもの 散りゆく者への子守唄 (豆瓣)](https://www.douban.com/game/27202571/)
     mark:: 
-    start:: 20220805
+    start-date:: 20220805
     collapsed:: true
     end::
     - 2002 DVD
@@ -29,10 +29,10 @@ tags:: #galgame/god
     tags:: #galgame
     author:: 
     url:: [うたわれるもの 偽りの仮面 PS4®/PS3®/PS Vita](https://aquaplus.jp/uta/itsu/)
-    bgm::  [うたわれるもの 偽りの仮面 | Bangumi 番组计划](https://bgm.tv/subject/32340)
+    bangumi::  [うたわれるもの 偽りの仮面 | Bangumi 番组计划](https://bgm.tv/subject/32340)
     douban:: [传颂之物 虚伪的假面 うたわれるもの 偽りの仮面 (豆瓣)](https://www.douban.com/game/26605179/)
     mark:: 
-    start:: 
+    start-date:: 
     end::
   - title:: 传颂之物 二人的白皇
     alias:: うたわれるもの 二人の白皇, Utawarerumono: Mask of Truth, Utawarerumono: Futari no Hakuoro
@@ -40,10 +40,10 @@ tags:: #galgame/god
     tags:: #galgame
     author:: 
     url:: [うたわれるもの 二人の白皇 PS4®/PS3®/PS Vita](https://aquaplus.jp/uta/oro/)
-    bgm:: [うたわれるもの 二人の白皇 | Bangumi 番组计划](https://bgm.tv/subject/157916)
+    bangumi:: [うたわれるもの 二人の白皇 | Bangumi 番组计划](https://bgm.tv/subject/157916)
     douban:: [传颂之物 二人的白皇 うたわれるもの 二人の白皇 (豆瓣)](https://www.douban.com/game/26771073/)
     mark:: 
-    start:: 
+    start-date:: 
     end::
 - ---
 - #thought

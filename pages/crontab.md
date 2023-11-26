@@ -3,7 +3,7 @@ define:: Job scheduler on Unix-like operating systems | 定期运行的作业
 icon:: ⌘
 tags:: #Linux 
 public:: true
-start:: 20230625
+start-date:: 20230625
 title:: crontab
 wikipedia:: [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron)
 

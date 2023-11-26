@@ -1,6 +1,6 @@
 tags:: #philosophy
 mark:: [Philosophy - YouTube](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR)
-start:: 20220101
+start-date:: 20220101
 
 - ## Why
 - ## How

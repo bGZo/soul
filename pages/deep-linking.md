@@ -5,7 +5,7 @@ tags:: #hyperlink
 author:: 
 url:: 
 mark:: [Deep linking - Wikipedia](https://en.wikipedia.org/wiki/Deep_linking)
-start:: 20221128
+start-date:: 20221128
 end::
 
   - ```html

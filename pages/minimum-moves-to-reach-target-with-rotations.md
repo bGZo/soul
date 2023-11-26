@@ -1,7 +1,7 @@
 icon:: 👨‍💻
 tags:: #bfs #leetcode/hard 
 mark:: [1210. 穿过迷宫的最少移动次数 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/)
-start:: 20230205
+start-date:: 20230205
 public:: true
 
 - ## Content
@@ -67,7 +67,7 @@ public:: true
      */
     ```
   -
-## Conclusion
+- ## Conclusion
   -
 -
 -

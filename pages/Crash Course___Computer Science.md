@@ -1,6 +1,6 @@
 title:: Crash Course/Computer Science
 tags:: #Github #opensource
-start:: 20230324
+start-date:: 20230324
 mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 字幕组 (全40集 2018-5-1 精校完成)](https://github.com/1c7/crash-course-computer-science-chinese) ![](https://img.shields.io/github/stars/1c7/crash-course-computer-science-chinese)
 
 - [CSAPP+SICP - 知乎](https://www.zhihu.com/column/c_1212802114247979008)
