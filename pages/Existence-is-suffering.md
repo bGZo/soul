@@ -1,6 +1,5 @@
 title:: Existence-is-suffering
 tags:: #my/blog, #fucking/reality #Public
-public:: true
 
 - ## 出生即伤害, 存在即痛苦
   - [[Rick and Morty]] 衍生漫画 20210303 的一期 _Rick and Morty Presents: Jerryboree_[^JERRYBOREE] 中讲了杰瑞托管所的真相, 我印象很深, 在漫画中, `X-198` 号杰瑞吃了 _GOD PILL_, 成为 GOD 后做的第一件事, 就是 _NO MORE JERRYS_, 结束了其他 Jerry 的一生. 为什么呢?
@@ -18,10 +17,10 @@ public:: true
   - ((63cb620a-4606-4997-b63a-1d62005a07c0))
   - 像是播客 [EP19 人生若痛苦大于快乐，我还要带一个新的生命来这世上吗？ by 悲观生活指南 MORE THAN A FARCE](https://anchor.fm/wei48/episodes/EP19-e13h6ir) 中提到的 *Better Never to Have Been*[^BNTHB] 一书中, 论述的那样:
   - title:: [EP19 人生若痛苦大于快乐，我还要带一个新的生命来这世上吗？ by 悲观生活指南 MORE THAN A FARCE](https://anchor.fm/wei48/episodes/EP19-e13h6ir)
-    define:: 这可能是悲指截止目前最悲观、最丧的一期了吧。我们对生命敬畏，却又对人生悲观。如果我们感到人生的痛苦大于快乐，还要带一个新的生命来到这个世上吗？如果原生家庭对我们造成难以抚平的伤痛，我可以通过创造并抚育新的生命来改写命运吗？还是说，生小孩是我们逃避人生无意义的方式？抑或是，去体验那种独一无二的连结、去爱，才是痛苦人生最大的快乐？这一期，献给所有脆弱又可爱的生命，我们希望这个世界为了你们变得更美好。
+    mark:: 这可能是悲指截止目前最悲观、最丧的一期了吧。我们对生命敬畏，却又对人生悲观。如果我们感到人生的痛苦大于快乐，还要带一个新的生命来到这个世上吗？如果原生家庭对我们造成难以抚平的伤痛，我可以通过创造并抚育新的生命来改写命运吗？还是说，生小孩是我们逃避人生无意义的方式？抑或是，去体验那种独一无二的连结、去爱，才是痛苦人生最大的快乐？这一期，献给所有脆弱又可爱的生命，我们希望这个世界为了你们变得更美好。
     tags:: #podcast/episode
     mark:: 
-    start-date:: 20220720
+    created:: 20220720
     collapsed:: true
     - <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3ppTHYES5dxhnOBFiwgrrh?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     - [:audio {:controls true :src "https://anchor.fm/s/46241440/podcast/play/36263963/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-5-27%2F137018e5-5ee6-c30b-27fd-cdee5cb87fc9.mp3"}]

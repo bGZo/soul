@@ -1,4 +1,4 @@
-define:: a three-layer model for network design first proposed by [Cisco](https://en.wikipedia.org/wiki/Cisco).
+mark:: a three-layer model for network design first proposed by [Cisco](https://en.wikipedia.org/wiki/Cisco).
 
 - ![https://community.fs.com/blog/how-to-choose-the-right-distribution-switch.html](https://media.fs.com/images/community/upload/kindEditor/202105/25/distribution-layer-diagram-1621937301-ES7wiU19cL.jpg){:height 408, :width 778}
   - ### Core 核心层

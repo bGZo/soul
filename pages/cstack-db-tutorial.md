@@ -1,5 +1,5 @@
 tags:: #database #Tutorial
-start-date:: 2022
+created:: 2022
 
 - ## [GitHub - cstack/db_tutorial: Writing a sqlite clone from scratch in C](https://github.com/cstack/db_tutorial)
 - ## P01
@@ -117,8 +117,8 @@ start-date:: 2022
     - 在C99标准中定义了这些数据类型，具体定义在：`/usr/include/stdint.h` ISO C99: 7.18 Integer types
       collapsed:: true
       - ```c
-        #ifndef __int8_t_defined
-        # define __int8_t_defined
+        #ifndef __int8_t_mark:: d
+        # mark::  __int8_t_mark:: d
         typedef signed char             int8_t;
         typedef short int               int16_t;
         typedef int                     int32_t;
@@ -133,9 +133,9 @@ start-date:: 2022
         typedef unsigned char           uint8_t;
         typedef unsigned short int      uint16_t;
         
-        #ifndef __uint32_t_defined
+        #ifndef __uint32_t_mark:: d
             typedef unsigned int            uint32_t;
-            # define __uint32_t_defined
+            # mark::  __uint32_t_mark:: d
         #endif
         
         #if __WORDSIZE == 64
@@ -156,12 +156,12 @@ start-date:: 2022
       // via: https://stackoverflow.com/questions/17720223
       truct {
          ...
-      } myNameStruct;  // defines myNameStruct as a variable with this struct
+      } myNameStruct;  // mark:: s myNameStruct as a variable with this struct
                        // definition, but the struct definition cannot be re-used.
       
       struct Name {
          ...
-      } myNameStruct;  // define a struct, and declare/define a struct variable 
+      } myNameStruct;  // mark::  a struct, and declare/mark::  a struct variable 
                // at the same time:
       
       typedef struct {

@@ -1,5 +1,5 @@
 title:: osi/network
-define:: 网络层
+mark:: 网络层
 
 -
 - Networking/OSI/Network

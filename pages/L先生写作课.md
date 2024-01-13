@@ -1,5 +1,5 @@
 tags:: #[[writing]]
-url:: https://mp.weixin.qq.com/s/FS6vViYHHONfoCJxQk2dBA
+source:: https://mp.weixin.qq.com/s/FS6vViYHHONfoCJxQk2dBA
 
 - Map
   - 01 概论：一切从用户思维开始

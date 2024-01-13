@@ -2056,8 +2056,8 @@ n-1 <= 网络 <=Cn2=n(n-1)/2
     ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1605228236874-49743c23-3eb5-42e5-801f-7884c625e8a1.png#align=left&display=inline&height=267&margin=%5Bobject%20Object%5D&name=image.png&originHeight=534&originWidth=932&size=86500&status=done&style=none&width=466)
 ### Floyd（弗洛伊德）算法
 ```cpp
-#define  MAX_VERVEX_NUM  20
-#define  max  9999
+#mark::   MAX_VERVEX_NUM  20
+#mark::   max  9999
 VextexType  PathMatrix[MAX_VERVEX_NUM, MAX_VERVEX_NUM];
 VRType  DistMatrix[MAX_VERVEX_NUM, MAX_VERVEX_NUM];
 void ShortestPath_Floyd(PathMatrix &path, DistMatrix &A) {//用邻接矩阵存储图

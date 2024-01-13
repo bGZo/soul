@@ -35,15 +35,15 @@ title:: linux/system-call
   - https://www.kernel.org
   - 对于 64 位操作系统,找到 unistd_64.h 文件,里面对于系统调用的定义,就是下面这样
     ```cpp
-    #define __NR_restart_syscall    0
-    #define __NR_exit     1
-    #define __NR_fork     2
-    #define __NR_read     3
-    #define __NR_write      4
-    #define __NR_open     5
-    #define __NR_close      6
-    #define __NR_waitpid      7
-    #define __NR_creat      8
+    #mark::  __NR_restart_syscall    0
+    #mark::  __NR_exit     1
+    #mark::  __NR_fork     2
+    #mark::  __NR_read     3
+    #mark::  __NR_write      4
+    #mark::  __NR_open     5
+    #mark::  __NR_close      6
+    #mark::  __NR_waitpid      7
+    #mark::  __NR_creat      8
     ......
     ```
 - Glibc

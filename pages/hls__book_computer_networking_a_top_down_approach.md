@@ -1,7 +1,7 @@
 file:: [book_computer_networking_a_top_down_approach.pdf](../assets/book_computer_networking_a_top_down_approach.pdf)
 file-path:: ../assets/book_computer_networking_a_top_down_approach.pdf
 
-- A protocol defines the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
+- A protocol mark:: s the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
   ls-type:: annotation
   hl-page:: 37
   hl-color:: yellow

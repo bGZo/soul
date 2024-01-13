@@ -13,20 +13,20 @@ icon:: ☕
   - 3. **J2ME** (Java Platform, Micro Edition，Android != 嵌入系统开发，手机 / PDA）
 - ## [[oop]]
   - 封装 Encapsulation
-    define:: 明确接口
+    mark:: 明确接口
   - 继承 Composition, inheritance, and delegation (委托???)
-    define:: "继承基类, 做出扩展; 子类(完全)兼容基类"
+    mark:: "继承基类, 做出扩展; 子类(完全)兼容基类"
     - 继承 (泛化)
       - 实现继承
-        define:: 无需额外编码的能力
+        mark:: 无需额外编码的能力
       - 可视继承
-        define:: 子窗体（类）使用基窗体（类）的外观和实现代码的能力
+        mark:: 子窗体（类）使用基窗体（类）的外观和实现代码的能力
     - 组合 (聚合)
       - 接口继承
-        define:: 子类必须提供实现的能力
+        mark:: 子类必须提供实现的能力
       - 纯虚类
   - 多态 Polymorphism
-    define:: "基于对象所属类的不同, 外部对同一个方法的调用, 实际执行的逻辑不同; 多态依赖继承"
+    mark:: "基于对象所属类的不同, 外部对同一个方法的调用, 实际执行的逻辑不同; 多态依赖继承"
     - 重写/覆盖 Override
       - 虚函数重写
       - 接口重写

@@ -13,7 +13,7 @@ alias:: programming/english
     mark:: 
     tags:: itRef
   - Internationalization & localization
-    url:: https://en.wikipedia.org/wiki/Internationalization_and_localization
+    source:: https://en.wikipedia.org/wiki/Internationalization_and_localization
     collapsed:: true
     - name:: i18n
       full:: {{cloze internationalization 国际化 }}

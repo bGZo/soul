@@ -1,8 +1,8 @@
 alias:: tools/VLC
 icon:: ⏯️
-tags:: #video 
-public:: true
-start-date:: 20200118
+tags:: #Video 
+
+date:: 20200118
 title:: VLC
 
 - ## Why

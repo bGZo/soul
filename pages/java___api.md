@@ -1,4 +1,4 @@
-define:: a set of interfaces, classes, and methods that provide access to certain functionality in the Java Standard Library or in third-party libraries. An API defines the way a developer can interact with a library and use its features.
+mark:: a set of interfaces, classes, and methods that provide access to certain functionality in the Java Standard Library or in third-party libraries. An API mark:: s the way a developer can interact with a library and use its features.
 tags:: #[[java library]]
 
   - #vs [[java library]]

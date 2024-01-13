@@ -234,7 +234,7 @@ alias:: database/object–relational/oracle
       alter table demo add 
       constraint f_uk
       foreign key(uid) references t_user(uid);
-      --[用户定义] User defined:
+      --[用户定义] User mark:: d:
         -- NOT NULL: 列级
         -- CHECK : 表级/列级, More to see: 
         -- https://blog.csdn.net/weixin_42187487/article/details/113051594

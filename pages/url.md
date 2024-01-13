@@ -1,4 +1,5 @@
+filters:: {"20231230" true}
+
 - ## Encoding
   - [[Chinese]]
-    collapsed:: true
     - [中文网址编码是一种将中文域名转换为英文域名的方法，它使用了一种叫做 Punycode 的算法](https://github.com/mingyun/mingyun.github.io/blob/master/Characterencoding.html)[1](https://github.com/mingyun/mingyun.github.io/blob/master/Characterencoding.html)[2](https://stackoverflow.com/questions/9724379/xn-on-domain-what-it-means)[。Punycode 是一种将 Unicode 字符串编码为 ASCII 字符串的方式，它使用了 xn-- 前缀和一些数字和字母来表示原始的 Unicode 字符串](https://stackoverflow.com/questions/9724379/xn-on-domain-what-it-means)[2](https://stackoverflow.com/questions/9724379/xn-on-domain-what-it-means)[。例如，中文网址 编码.com 的 Punycode 编码是 xn–fiqz59cpva341l.com](https://stackoverflow.com/questions/9724379/xn-on-domain-what-it-means)[2](https://stackoverflow.com/questions/9724379/xn-on-domain-what-it-means)[。这样做的目的是为了让不支持 Unicode 的浏览器和服务器能够识别和访问中文域名](https://github.com/mingyun/mingyun.github.io/blob/master/Characterencoding.html)[1](https://github.com/mingyun/mingyun.github.io/blob/master/Characterencoding.html)[2](https://stackoverflow.com/questions/9724379/xn-on-domain-what-it-means)。

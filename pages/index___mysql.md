@@ -1,7 +1,7 @@
 title:: index/mysql
 alias:: mysql/index
 tags:: #[[data-structure]], TODO
-define:: "一种用于快速查询和检索数据的数据结构"
+mark:: "一种用于快速查询和检索数据的数据结构"
 
   - Use Case
     - `not null`(**Best**) & `where` & `having`
@@ -23,7 +23,7 @@ define:: "一种用于快速查询和检索数据的数据结构"
     collapsed:: true
     - 主键索引 (Primary Key)
     - 二级索引 (辅助索引)
-      define:: "二级索引的叶子节点存储的数据是主键, 也就是说，通过二级索引，可以定位主键的位置"
+      mark:: "二级索引的叶子节点存储的数据是主键, 也就是说，通过二级索引，可以定位主键的位置"
       - 普通索引, Index
         - 作用(1)
           - 快速查询数据
@@ -39,10 +39,10 @@ define:: "一种用于快速查询和检索数据的数据结构"
   - 聚集索引与非聚集索引
     collapsed:: true
     - 聚集索引, cluster index
-      define:: "索引结构和数据一起存放的索引"
+      mark:: "索引结构和数据一起存放的索引"
       -
     - 非聚集索引, non-cluster index
-      define:: "索引结构和数据分开存放的索引"
+      mark:: "索引结构和数据分开存放的索引"
   - 覆盖索引 ???
   - 联合/组合/复合 索引 ???
 -

@@ -1,6 +1,6 @@
 title:: rss/liqi
-define:: 停更杂志
-url:: [利器](https://liqi.io/)
+mark:: 停更杂志
+source:: [利器](https://liqi.io/)
 
 - ## People
   collapsed:: true

@@ -1,7 +1,7 @@
 icon:: 👨‍💻
 tags:: #matrix 
 mark:: [(NOI2013)向量内积](https://ac.nowcoder.com/acm/problem/17851)；[P1224 (NOI2013) 向量内积 - 洛谷 | 计算机科学教育新生态](https://www.luogu.com.cn/problem/P1224)
-start-date:: 20230206
+created:: 20230206
 
 - ## Content
   - ## 题目描述

@@ -1,8 +1,8 @@
-define:: A Python library for pulling data out of HTML and XML files
+mark:: A Python library for pulling data out of HTML and XML files
 icon:: 🐍
 tags:: #[[Python Library]]
-public:: true
-start-date:: 20230627
+
+date:: 20230627
 title:: BeautifulSoup
 
 - ## Why

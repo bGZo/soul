@@ -229,7 +229,7 @@ tags:: #geekbang, #Linux
       #include <stdio.h>
       #include <stdlib.h>
        
-      #define NUM_OF_TASKS 5
+      #mark::  NUM_OF_TASKS 5
        
       void *downloadfile(void *filename){
          printf("I am downloading the file %s!\n", (char *)filename);
@@ -305,7 +305,7 @@ tags:: #geekbang, #Linux
           #include <stdio.h>
           #include <stdlib.h>
            
-          #define NUM_OF_TASKS 5
+          #mark::  NUM_OF_TASKS 5
            
           int money_of_tom = 100;
           int money_of_jerry = 100;
@@ -360,8 +360,8 @@ tags:: #geekbang, #Linux
           #include <stdio.h>
           #include <stdlib.h>
            
-          #define NUM_OF_TASKS 3
-          #define MAX_TASK_QUEUE 11
+          #mark::  NUM_OF_TASKS 3
+          #mark::  MAX_TASK_QUEUE 11
            
           char tasklist[MAX_TASK_QUEUE]="ABCDEFGHIJ";
           int head = 0;
@@ -484,23 +484,23 @@ tags:: #geekbang, #Linux
           - ```c
             // bitset set
             /* Used in tsk->state: */
-            #define TASK_RUNNING                    0
-            #define TASK_INTERRUPTIBLE              1
-            #define TASK_UNINTERRUPTIBLE            2
-            #define __TASK_STOPPED                  4
-            #define __TASK_TRACED                   8
+            #mark::  TASK_RUNNING                    0
+            #mark::  TASK_INTERRUPTIBLE              1
+            #mark::  TASK_UNINTERRUPTIBLE            2
+            #mark::  __TASK_STOPPED                  4
+            #mark::  __TASK_TRACED                   8
             /* Used in tsk->exit_state: */
-            #define EXIT_DEAD                       16
-            #define EXIT_ZOMBIE                     32
-            #define EXIT_TRACE                      (EXIT_ZOMBIE | EXIT_DEAD)
+            #mark::  EXIT_DEAD                       16
+            #mark::  EXIT_ZOMBIE                     32
+            #mark::  EXIT_TRACE                      (EXIT_ZOMBIE | EXIT_DEAD)
             /* Used in tsk->state again: */
-            #define TASK_DEAD                       64
-            #define TASK_WAKEKILL                   128
-            #define TASK_WAKING                     256
-            #define TASK_PARKED                     512
-            #define TASK_NOLOAD                     1024
-            #define TASK_NEW                        2048
-            #define TASK_STATE_MAX                  4096
+            #mark::  TASK_DEAD                       64
+            #mark::  TASK_WAKEKILL                   128
+            #mark::  TASK_WAKING                     256
+            #mark::  TASK_PARKED                     512
+            #mark::  TASK_NOLOAD                     1024
+            #mark::  TASK_NEW                        2048
+            #mark::  TASK_STATE_MAX                  4096
             ```
         - ![image.png](../assets/image_1650000764075_0.png)
           - `TASK_RUNNING`: 进程在时刻准备运行的状态
@@ -516,7 +516,7 @@ tags:: #geekbang, #Linux
             - 但可以响应致命信号
           - `TASK_WAKEKILL` 接收到致命信号时唤醒进程
             - ```c
-              #define TASK_KILLABLE           (TASK_WAKEKILL | TASK_UNINTERRUPTIBLE)
+              #mark::  TASK_KILLABLE           (TASK_WAKEKILL | TASK_UNINTERRUPTIBLE)
               ```
           - TASK_STOPPED
             - 在进程接收到 SIGSTOP、SIGTTIN、SIGTSTP 或者 SIGTTOU 信号之后进入该状态
@@ -530,9 +530,9 @@ tags:: #geekbang, #Linux
           - #### Flags 标志
             - 在 flags 字段中，被定义称为宏，以 PF 开头。
             - ```c
-              #define PF_EXITING    0x00000004
-              #define PF_VCPU     0x00000010
-              #define PF_FORKNOEXEC 0x00000040
+              #mark::  PF_EXITING    0x00000004
+              #mark::  PF_VCPU     0x00000010
+              #mark::  PF_FORKNOEXEC 0x00000040
               ```
             - PF_EXITING
               - 正在退出
@@ -641,16 +641,16 @@ tags:: #geekbang, #Linux
         - `capabilities` 位图
           collapsed:: true
           - ```c
-            #define CAP_CHOWN             0
-            #define CAP_KILL              5
-            #define CAP_NET_BIND_SERVICE  10
-            #define CAP_NET_RAW           13
-            #define CAP_SYS_MODULE        16
-            #define CAP_SYS_RAWIO         17
-            #define CAP_SYS_BOOT          22
-            #define CAP_SYS_TIME          25
-            #define CAP_AUDIT_READ        37
-            #define CAP_LAST_CAP          CAP_AUDIT_READ
+            #mark::  CAP_CHOWN             0
+            #mark::  CAP_KILL              5
+            #mark::  CAP_NET_BIND_SERVICE  10
+            #mark::  CAP_NET_RAW           13
+            #mark::  CAP_SYS_MODULE        16
+            #mark::  CAP_SYS_RAWIO         17
+            #mark::  CAP_SYS_BOOT          22
+            #mark::  CAP_SYS_TIME          25
+            #mark::  CAP_AUDIT_READ        37
+            #mark::  CAP_LAST_CAP          CAP_AUDIT_READ
             ```
           - 粒度小
           - cap_permitted 表示进程能够使用的权限。但是真正起作用的是 cap_effective。cap_permitted 中可以包含 cap_effective 中没有的权限。一个进程可以在必要的时候，放弃自己的某些权限，这样更加安全。假设自己因为代码漏洞被攻破了，但是如果啥也干不了，就没办法进一步突破。

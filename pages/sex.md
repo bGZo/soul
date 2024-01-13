@@ -1,6 +1,6 @@
 icon:: 🔞
 alias:: sexual, 色情, 情色, 性交, 交媾
-tags:: #hobby, #Topic
+tags:: #Hobby, #Topic
 
 - #+BEGIN_PINNED
   饱暖思淫欲，每天吃少点并多做运动
@@ -370,7 +370,7 @@ tags:: #hobby, #Topic
       - 做爱需要不会破的纸巾
   - 避孕
     collapsed:: true
-    - [讨论一下避孕手段，很苦恼](https://bgm.tv/group/topic/374618) #[[discuss]]
+    - [讨论一下避孕手段，很苦恼](https://bgm.tv/group/topic/374618) #[[Discuss]]
   - Delayed ejaculation  忍精不射 #orgasm
     collapsed:: true
     - 于我而言，性刺激往往先于自慰行为发生，充血状态其实已经持续了很长时间，对比传统性行为，这其实已经有点频繁了；
@@ -401,7 +401,7 @@ tags:: #hobby, #Topic
   - 按摩棒
   - 色情电刺激
   - 非自愿性高潮
-    define:: 生殖器反射也是由脊髓控制的，故此其不一定为意识所控制
+    mark:: 生殖器反射也是由脊髓控制的，故此其不一定为意识所控制
     collapsed:: true
     - 一些人会在诸如强奸或其他性侵犯的情况下，发生非自愿性高潮。
     - 由非自愿性行为引起的性高潮经常会使受害者感到羞耻，这是由[受害者责备](https://zh.wikipedia.org/zh-cn/%E5%8F%97%E5%AE%B3%E8%80%85%E8%B2%AC%E5%82%99)此一态度内化所致

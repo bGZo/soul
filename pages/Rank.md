@@ -1,4 +1,4 @@
-define:: 排位 / 排行榜
+mark:: 排位 / 排行榜
 tags:: #standard
 
   - ladder(天梯)

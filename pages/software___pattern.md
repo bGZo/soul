@@ -26,7 +26,7 @@ title:: software/pattern
   - Principles, 6, S.O.L.I.D + LoD
     collapsed:: true
     - [SRP] Single Responsibility Principle
-      define:: **单一职责**; ==1 个类应该仅有 1 个引起它变化的原因. 任何修改只有 1 个原因==[ASD]
+      mark:: **单一职责**; ==1 个类应该仅有 1 个引起它变化的原因. 任何修改只有 1 个原因==[ASD]
       collapsed:: true
       - Why
         - ==耦合会导致脆弱的设计==
@@ -38,7 +38,7 @@ title:: software/pattern
           - 判断是否应该分离?
             - **如果你能够想到多于一个的动机去改变一个类，那么这个类就具有多于一个的职责**
     - [OCP] Open/Closed Principle
-      define:: **开闭原则**; 开放扩展. 关闭修改 (软件实体 (类、模块、函数等等) )
+      mark:: **开闭原则**; 开放扩展. 关闭修改 (软件实体 (类、模块、函数等等) )
       collapsed:: true
       - **==面向对象设计的核心==**
       - **扩展开放 (Open for extension)** / **更改封闭 (Closed for modification)**
@@ -57,7 +57,7 @@ title:: software/pattern
         对于应用程序中的每个部分都刻意地进行抽象同样不是一个好主意。拒绝不成熟的抽象和抽象本身一样重要[ASD]
         #+END_WARNING
     - [DIP] Dependency Inversion Principle
-      define:: **依赖倒置**; 高层与底层数据解耦. 只依赖抽象. 不依赖实现. **抽象不应该依赖细节. 细节应该依赖于抽象**
+      mark:: **依赖倒置**; 高层与底层数据解耦. 只依赖抽象. 不依赖实现. **抽象不应该依赖细节. 细节应该依赖于抽象**
       collapsed:: true
       - 要针对接口编程，不要对实现编程
         - 高层模块不应该依赖低层模块。两个都应该依赖抽象
@@ -66,7 +66,7 @@ title:: software/pattern
         - 发现业务逻辑的高层模块都是一样的，但客户却希望使用不同的数据库或存储信息方式
           - 我们希望能再次利用这些高层模块，但高层模块都是与低层的访问数据库绑定在一起的，没办法复用这些高层模块，这就非常糟糕了
     - [LoD] Law of Demeter / Principle of Least Knowledge
-      define:: **迪米特法则 / 得墨忒耳定律 / 最少知识原则**; 简单化模块间的通信. 最大程度地隐藏内部逻辑
+      mark:: **迪米特法则 / 得墨忒耳定律 / 最少知识原则**; 简单化模块间的通信. 最大程度地隐藏内部逻辑
       collapsed:: true
       - 如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用。
         - 在类的结构设计上，每一个类都应当尽量降低成员的访问权限,
@@ -75,7 +75,7 @@ title:: software/pattern
           - 越松越有利于复用
       - 如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用
     - [LSP] Liskov Substitution Principle,
-      define:: **里氏替换原则**; 父子类可替换
+      mark:: **里氏替换原则**; 父子类可替换
       id:: ef348d29-4248-4e81-8c6d-5c1e703883f8
       collapsed:: true
       - **子类型必须能够替换掉它们的父类型**
@@ -90,10 +90,10 @@ title:: software/pattern
         - 面向对象设计的标志
           - 用哪种语言来编写程序不重要，如果编写时考虑的都是如何针对抽象编程而不是针对细节编程，即程序中所有的依赖关系都是终止于抽象类或者接口，那就是面向对象的设计，反之那就是过程化的设计了
     - [ISP] Interface Segregation Principle
-      define:: **接口隔离原则**; 细粒度化接口(灵活Up)
+      mark:: **接口隔离原则**; 细粒度化接口(灵活Up)
   - ((63491e18-813e-466e-b6ca-72d05fedbaf2))
     - 创建 (c,5)
-      define:: 提供创建对象的机制; 增加已有代码的灵活性和可复用性
+      mark:: 提供创建对象的机制; 增加已有代码的灵活性和可复用性
       collapsed:: true
       - 单例 Singleton
         - ((634cd4bc-9950-4d3c-8057-466be4c059e3))
@@ -157,7 +157,7 @@ title:: software/pattern
           collapsed:: true
           - ![https://user-images.githubusercontent.com/57313137/](../assets/book/秒懂设计模式/175233997-ee7c1f58-b2a5-48ab-8ec2-baf36f384ca2.png)
     - 结构 (s, 7)
-      define:: 如何将对象和类组装成较大的结构; 并同时保持结构的灵活和高效
+      mark:: 如何将对象和类组装成较大的结构; 并同时保持结构的灵活和高效
       - 门面 Facade
         collapsed:: true
         id:: 236dd848-1377-4002-a120-a5652b5b6ad8
@@ -233,7 +233,7 @@ title:: software/pattern
         - ((634cd4bc-9950-4d3c-8057-466be4c059e3))
           - ![image](../assets/book/秒懂设计模式/175245048-9bc50001-9269-49e0-a071-eb0b9ef9f3c3.png){:height 278, :width 623}
       - 代理 Proxy
-        define:: "当你希望在无需修改客户代码的前提下于已有类的对象上增加额外行为时， 该模式是无可替代的"
+        mark:: "当你希望在无需修改客户代码的前提下于已有类的对象上增加额外行为时， 该模式是无可替代的"
         collapsed:: true
         - ((634cd4bc-9950-4d3c-8057-466be4c059e3))
           collapsed:: true
@@ -302,7 +302,7 @@ title:: software/pattern
         - ((634cf9cc-6b4f-48b7-9214-a8ad936a9672))
           - 抽象与实现解耦, 系统更加松散灵活
     - 行为 Behavior (v, 11)
-      define:: 对象间的高效沟通和职责委派
+      mark:: 对象间的高效沟通和职责委派
       - 模板 Template
         collapsed:: true
         - ((634cd4bc-9950-4d3c-8057-466be4c059e3))
@@ -410,7 +410,7 @@ title:: software/pattern
         collapsed:: true
         - ![image.png](../assets/book/大话设计模式/image_1648052685023_0.png)
 -
-- [[question]]
+- [[Question]]
   - 如果在更改一个对象的时候，需要同时连带改变其他的对象，而且不知道究竟应该有多少对象需要被连带改变，应该使用何种设计模式 {{cloze 观察者模式}}
     - ((e0e4c4da-0a0d-41b3-b834-1dcd3c1344d9)) #vs ((a36469b8-4cb6-4bf2-b158-6fce461dd255))
 -
@@ -435,14 +435,14 @@ title:: software/pattern
     author:: 程杰
     publisher:: 清华大学出版社
     published-date:: 20071201
-    url:: [大话设计模式 (豆瓣)](https://book.douban.com/subject/2334288/)
+    source:: [大话设计模式 (豆瓣)](https://book.douban.com/subject/2334288/)
   - 秒懂设计模式
     alias:: book/秒懂设计模式
     tags:: #[[software/pattern]] 
     author:: 刘韬
     publisher::  人民邮电出版社
     published-date:: 20201100
-    url:: [秒懂设计模式 (豆瓣)](https://book.douban.com/subject/35525040/); [demo/tasks/design-pattern/src](https://github.com/bGZo/demo/tree/main/tasks/design-pattern/src)
+    source:: [秒懂设计模式 (豆瓣)](https://book.douban.com/subject/35525040/); [demo/tasks/design-pattern/src](https://github.com/bGZo/demo/tree/main/tasks/design-pattern/src)
   -
   - [52 Design Principles](https://rpdc.xiaohongshu.com/52-design-principles)
   - [Refactoring and Design Patterns](https://refactoring.guru/); [免费在线学习代码重构和设计模式](https://refactoringguru.cn/)

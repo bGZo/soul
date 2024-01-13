@@ -1,5 +1,5 @@
 alias:: 火狐, FF
-define:: ff
+mark:: ff
 
 - [[Backup]]
   - **Profile**: `%APPDATA%\Mozilla\Firefox\Profiles\`

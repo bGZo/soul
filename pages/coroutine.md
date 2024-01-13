@@ -1,6 +1,6 @@
 alias:: concurrency/coroutine
 tags:: TODO 
-define:: "协程"
+mark:: "协程"
 
 -
 - 协程

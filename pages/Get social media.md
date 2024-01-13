@@ -1,8 +1,8 @@
 icon:: 📂
 tags:: #Project, #twitter, #mastodon
-public:: true
-start-date:: 20221231
-end-date:: [[weekly/1140]]
+
+date:: 20221231
+closed:: [[weekly/1140]]
 title:: Get social media
 
 - ## Project Meta

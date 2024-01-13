@@ -4,7 +4,7 @@ tags:: #[[English]], #[[English/words]]
 author:: Antoine de Saint-Exupéry
 publisher:: 上海阅文信息技术有限公司
 published-date:: 20180400
-url:: https://book.douban.com/subject/1370897
+source:: https://book.douban.com/subject/1370897
 
 - > 1943 年 首次出版
   > 1944 年 7 月, 作者在执行飞行任务时失联，从此再也没有回来

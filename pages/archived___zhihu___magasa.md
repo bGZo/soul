@@ -1,4 +1,4 @@
-url:: https://www.zhihu.com/people/magasa
+source:: https://www.zhihu.com/people/magasa
 
 - # Backup
   - 这是我第一次觉得，凯文·凯利的1000个粉丝理论，有大规模实现的可能。他说，任何创作者，只要你有1000个铁杆粉丝，不管你创作出什么作品，他都愿意付费购买，那你就能因此而存活。

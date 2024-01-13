@@ -2,7 +2,7 @@ id:: 6254e947-b746-4586-8242-b17e9066ec55
 icon:: ⊞
 tags:: system
 
-- #closed
+- #Closed
   collapsed:: true
   - ~~[BitDock比特工具栏-官方社区 - 首页](http://www.bitdock.cn/bbs/forum.php)~~ #Deprecated #beautify
 - ## [[Quickref]]
@@ -54,7 +54,7 @@ tags:: system
         |        prtsc        |              截屏              |
 - ## [[Issue]]
   collapsed:: true
-  - #closed
+  - #Closed
     - DONE Loction
       collapsed:: true
       - 鉴于Windows家庭版无法更改的中文环境, 特此备注.
@@ -189,8 +189,8 @@ tags:: system
          setlocal enabledelayedexpansion
          set "ext=%~x1"
          :loop
-         if defined ext set "ext=!ext:"=!"
-         if defined ext goto ok
+         if mark:: d ext set "ext=!ext:"=!"
+         if mark:: d ext goto ok
          echo 如果你不知道文件的扩展名，关闭批处理然后把文件拖到批处理文件的图标上。
          set /p "v=请输入扩展名（如txt）然后回车："
          for /f "delims=" %%i in (".!v!") do set "ext=%%~xi"

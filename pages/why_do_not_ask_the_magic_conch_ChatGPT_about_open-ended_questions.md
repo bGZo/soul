@@ -1,5 +1,5 @@
 tags:: #chatGPT 
-start-date:: 20221210
+created:: 20221210
 
 - ![VideoScreenshot--YouTube-TheMagicConchin5MinutesClubSpongeBob5MinuteEpisodeSpongeBob-3’22”.png](../assets/VideoScreenshot--YouTube-TheMagicConchin5MinutesClubSpongeBob5MinuteEpisodeSpongeBob-3’22”_1675760522335_0.png)
   via:[The Magic Conch in 5 Minutes! 🐚 "Club SpongeBob" 5 Minute Episode | SpongeBob - YouTube](https://www.youtube.com/watch?v=ZHmtvR-1ivw) (3:22)
@@ -443,7 +443,7 @@ start-date:: 20221210
     - In English, the phrase "拙劣的类比推理是不切合实际的" can be translated as "poor analogical reasoning is unrealistic." Analogical reasoning is a type of reasoning that involves drawing comparisons between two things that are similar in some way, in order to understand or explain something. If analogical reasoning is "poor," it means that the comparisons being made are not accurate or well thought out. If analogical reasoning is described as "unrealistic," it means that it does not accurately reflect reality or the way things really are.
   - "功利" 英文
     collapsed:: true
-    - In English, the word "功利" can be translated as "utilitarian." Utilitarianism is a philosophical theory that holds that the best action is the one that maximizes utility, which is defined as the overall happiness or well-being of all people affected by the action. In other words, a utilitarian approach to decision-making involves choosing the option that will produce the greatest balance of good over bad for the greatest number of people.
+    - In English, the word "功利" can be translated as "utilitarian." Utilitarianism is a philosophical theory that holds that the best action is the one that maximizes utility, which is mark:: d as the overall happiness or well-being of all people affected by the action. In other words, a utilitarian approach to decision-making involves choosing the option that will produce the greatest balance of good over bad for the greatest number of people.
   - 厕纸 英文?
     collapsed:: true
     - In English, the term "厕纸" can be translated as "toilet paper." Toilet paper is a type of paper that is used for hygiene purposes, specifically for cleaning the anus and surrounding area after defecation. It is typically made from soft, absorbent paper that is easy to tear and flush. Toilet paper is often found in public restrooms and is also used in private homes.

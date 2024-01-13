@@ -8,7 +8,7 @@ alias:: Paradigms/generic
   - although the best known example is the Standard Template Library ([[stl]]), which developed a theory of iterators that is used to decouple sequence data structures and the algorithms operating on them.
     id:: 6256e4b7-d109-494d-83b0-e14d7abe6b15
   - ML编程语言在 1973 年首创
-  - Ada、Delphi、Eiffel、Java、C#、F#、Swift 和 Visual Basic .NET 称之为泛型（generics）
+  - Ada、Delphi、Eiffel、Java、C\#、F\#、Swift 和 Visual Basic .NET 称之为泛型（generics）
   - ML、Scala 和 Haskell 称之为参数多态（parametric polymorphism）
   - C++ 和 D称之为模板
 - ## Refs

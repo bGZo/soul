@@ -2,7 +2,7 @@ alias:: book/深入浅出SSD
 author:: SSDFans
 publisher:: 机械工业出版社
 published-date:: 20180600
-url:: https://book.douban.com/subject/30240853
+source:: https://book.douban.com/subject/30240853
 
 - # SSD
   id:: 624abfdb-61e4-44ea-81a9-0e675c25f03e

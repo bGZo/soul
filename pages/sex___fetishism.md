@@ -1,5 +1,5 @@
 alias:: 性癖, 恋物
-define:: 精神障碍？对无生命物体或性器官以外的身体部位的性固着，可代指某些类型的性活动
+mark:: 精神障碍？对无生命物体或性器官以外的身体部位的性固着，可代指某些类型的性活动
 mark:: [Sexual fetishism - Wikipedia](https://en.wikipedia.org/wiki/Sexual_fetishism)
 
   - This broader usage of fetish covers parts or features of the body (including obesity and body modifications), objects, situations and activities (such as smoking or BDSM)

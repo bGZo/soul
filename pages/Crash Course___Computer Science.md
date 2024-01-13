@@ -1,24 +1,21 @@
 title:: Crash Course/Computer Science
 tags:: #Github #opensource
-start-date:: 20230324
-mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 字幕组 (全40集 2018-5-1 精校完成)](https://github.com/1c7/crash-course-computer-science-chinese) ![](https://img.shields.io/github/stars/1c7/crash-course-computer-science-chinese)
+created:: 20230324
+source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https://img.shields.io/github/stars/1c7/crash-course-computer-science-chinese)
 
 - [CSAPP+SICP - 知乎](https://www.zhihu.com/column/c_1212802114247979008)
 - Coursera镜像网站：[https://www.mooc.cn](https://www.mooc.cn)
 - ## Content #.ol
   - 计算机早期历史
     id:: 6331a08f-14fb-483b-ab89-e92add5bc9ea
-    collapsed:: true
     - M(Mega)B
     - G(Giga)B
     - ASKII：7位
     - Mojibake
     - 不同编码方式1个英文字母占的字节是不同的：
       - ASCII
-        collapsed:: true
         - 一个英文字母（不分大小写）占一个字节的空间，一个中文汉字占两个字节的空间。
       - UTF-8
-        collapsed:: true
         - 一个英文字符等于一个字节，一个中文（含繁体）等于三个字节。中文标点占三个字节，英文标点占一个字节。
       - Unicode
         - 一个英文等于两个字节，一个中文（含繁体）等于两个字节。中文标点占两个字节，英文标点占两个字节。
@@ -35,16 +32,13 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
       - $$1B(字节)=8位(Bit)$$
       - 往上则分别有`GB`、`TB`、`PB`、`EB`、`ZB`、`YB`、`BB`、`NB`、`DB`
   - 电子计算机
-    define:: "涉及的设备：继电器、真空管、晶体管"
-    collapsed:: true
+    mark:: "涉及的设备：继电器、真空管、晶体管"
     - **继电器（relay）**: 用电控制的机械开关
-      collapsed:: true
       - 1937年最大的机电计算机之一是哈佛的马克(Mark)一号，是IBM在1944年给二战同盟国建造的。该机器的大脑是由继电器（relay）构成的，存在大约3500个继电器。
       - **原理:** 通过产生磁场来闭合开关形成通路
       - **性能:** 1940年一个好的继电器一秒最多50开关次. 哈佛马克一号1秒能做3次加减法运算，一次乘法需要6秒，除法需要15秒，三角函数需要一分钟以上。
       - **缺点:** 无法快速开关。哈佛马克一号平均每天需要更换一个故障继电器。
     - **真空管/电子管（Thermionic valve）**
-      collapsed:: true
       - 1904年，英国物理学家John Ambrose Fleming -> 新的电子组件——热电子管（Thermionic valve）
       - **原理:** 气密的真空玻璃灯泡中一个电极A可以加热，从而发射电子，称为**热电子发射（Thermionic emission）**；另一个电极**B会吸引电子，来形成电流**。但**只有当电极B带正电时才能吸引电子，否则当电极B带负电荷或者中性电荷时，电子就无法跨越真空区域**。
       - 1906年，美国发明家Lee de Forest在此基础上加入了第三个控制电极。通过向控制电极施加正电荷，就能吸引电子，从而闭合电路；而通过施加负电荷，就能闭合电路。
@@ -55,14 +49,12 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
       - **第一个大规模使用真空管的计算机是巨人1号**，由工程师Tommy Flowers设计并于1943年12月完工。巨人1号包含1600个真空管，并被认为是第一个可编程的电子计算机，编程方法是把几百根电线插入插板，由此让计算机执行正确操作。
       - **电子数值积分计算机 ENIAC**，**在1946年于宾夕法尼亚大学设计制造**，这是世上第一个真正的通用可编程电子计算机，每秒可执行5000次十位加减法。但是由于存在大量的真空管，因此ENIAC运行半天左右就会出现一次故障。
     - **晶体管（Transistor）:**
-      collapsed:: true
       - **晶体管：**类似于继电器和真空管，晶体管也是一个用于控制电路闭合断开的开关。晶体管有**两个电极**，这**两个电极之间通过半导体材料隔开**。这里通过控制连接到半导体的电极电荷数，可以控制半导体的导电性，由此来控制电流是否流动。当控制线路通电时，两个电极接通，否则两个电极断开。
       - **性能：**每秒可开关10000次。
       - **优势：**相比玻璃制成的真空管，晶体管是固体的，并且体积远小于继电器和真空管。
       - **IBM 608**，它有3000个晶体管，每秒执行4500次加减法，或80次左右的乘除法。
       - 如今，计算机里的晶体管小于50nm，并且每秒可切换上百万次，工作几十年。很多晶体管和半导体开发在圣克拉拉谷，位于旧金山和圣河西之间，**由于制造半导体最常见的材料是硅，由此这个地方被称为“硅谷”**。并且William Shockley搬过去创建了**肖克利半导体**，里面的员工后来成立了**仙童半导体**，而这里面的员工后来创立了**英特尔**。
   - 布尔逻辑和逻辑门
-    collapsed:: true
     - 使用二进制的原因
       - 计算机最早的是机电设备，一般使用十进制计数，比如用齿轮数来代表十进制。一些早期电子计算机，通过对不同电流大小进行划分，可以使用三进制、五进制等等。但问题是，**状态越多就越难区分信号，如果存在电噪音，可能就会使状态十分混乱**。所以为了让信号更加清晰，可以只使用“开”和“关”两种状态。
       - **布尔代数（Boolean Algebra）**: 一整个数学分支专门处理“真”和“假”，已解决了所有法则和运算. 在布尔代数中，变量的值是true和false，能够对其进行逻辑操作。布尔代数中有三个基本操作：NOT、AND和OR。
@@ -71,7 +63,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
     - **OR操作**: 左侧电极为电源，下方两个电极分别表示两个输入，右侧电极为输出。只要任意一个输入开启，就能使得电源和输出电极接通，使得输出开启；当两个输入都关闭时，就使得电源和输出电极保持断开状态，使得输出保持关闭。由此通过上方的三个组件（NOT门、AND门和OR门）可以构建出更加复杂的组件。另一个常见的布尔操作叫做异或操作。
     - **异或操作（XOR）**: XOR操作和OR操作唯一的不同就只有当两个输入都为true时，XOR输出false，而OR输出true。通过对AND操作真值表取反，再和OR操作真值表进行对比，可以发现，第二三行都为true，而第一四行结果不同，因此只要在这两个结果后面加个AND就能得到XOR的真值表。
   - 二进制
-    collapsed:: true
     - 二进制的基为2，每一位是前一位的两倍。
     - **位（bit）**: 一个1或0
     - **字节（byte）**: 8位二进制数, 定义原因是八位太过常见，最小为0，最大为255。
@@ -85,7 +76,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
     - UNICODE 1992年诞生，是字符编码标准，解决 ASCII 不够表达所有语言的问题
       - 最常见的Unicode是16位的，有超过一百万个位置来编码字符，编码所有语言的所有字符都足够了，并且还有位置放数学符号、Emoji等等。
   - 算数逻辑单元（Arithmetic and Logic Unit，ALU）
-    collapsed:: true
     - ALU
       - 英特尔 74181
       - 算数单元（Arithmetic Unit）
@@ -99,7 +89,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
         - 能做简单的数值测试，比如数字是不是负数(一堆OR门最后加上NOT门)。
         - 两个8位输入，并且有一个4位操作码（Operation Code）来告诉ALU对输入执行什么操作, 有一个8位输出。同时ALU会输出一系列1位标志（FLAG），来表示特定状态，比如我们可以计算A-B，然后通过ZERO来判断结果是否为零来判断A与B是否相等，通过NEGATIVE来判断A是否小于B；然后OVERFLOW连接到加法器的进位，来判断是否出现溢出。
   - 寄存器和内存
-    collapsed:: true
     - **随机存取存储器（Random Access Memory, RAM）**: 只能在有电的情况下存储东西
     - **持久存储（Persistent Memory）**: 电源关闭时数据也不会丢失，它用来存其他东西。
     - **构建存储一位的锁存器**
@@ -118,7 +107,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
     - RAM中存储的数据是保存在OR门其中一个电极上，所以断电后就无法保存。
     - 这一节用锁存器做了一块静态随机存取存储器（Static Random-Access Memory，SRAM），还有很多其他类型的RAM，比如DRAM、闪存和NVRAM，它们的功能和SRAM相似，但是使用不同的电路存放单个位。但是根本上，这些技术都是矩阵层层嵌套来存储大量信息。
   - 中央处理器（Central Processing Unit，CPU）
-    collapsed:: true
     - ALU + RAM
     - 给CPU支持的所有指令分配一个ID，可以得到指令表（Instruction Table）
       - 追踪程序运行到了哪里，称为指令地址寄存器（Instruction Address Register），用来存放当前指令的内存地址。
@@ -137,7 +125,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
         - 第一个单芯片CPU是1971年发布的4位CPU——Intel 4004，它的微架构如下图所示，有16个8位寄存器，4个指令地址寄存器，时钟速度达到了740kHz，即每秒74万次。
         - 在对控制单元加入时钟后才变成一个完整的独立组件，可以得到一个CPU芯片。而RAM是CPU外面的独立组件，CPU和RAM之间通过地址线、数据线、允许读取线和允许写入线来进行通信。
   - 指令和程序
-    collapsed:: true
     - CPU，它之所以强大，是因为它是可编程的，如果写入不同指令，就会执行不同任务，所以CPU是一块可以被软件控制的硬件。
     - JUMP指令就是将后面4位的内存地址覆盖当前的指令地址寄存器，使得指令地址寄存器指向新的内存地址。JUMP_NEG指令是当ALU结果为负数时进行跳转，我们知道ALU中有若干个FALG，其中有个NEG标志位，**当ALU结果为负数时NEG=1，所以JUMP_NEG就通过和这个标志位取AND来进行判断**。**HALT来指示计算机停止工作，应该将HALT放在程序的结尾，说明程序结束**。
       - 指令和数据都存储在同一个内存中，它们在根本上没有区别，都是二进制数，所以HALT指令很重要，能够用来区分指令和数据。
@@ -149,7 +136,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
         > 一般来说，指令=操作码+操作值地址，比如LOAD_A 10表示的是将RAM 10中保存的数据加载到寄存器A中。当指令=操作码+操作值时，该操作值就称为**立即值**，不需要在RAM中索引出对应的操作值，比如JUMP 2，这里直接跳转到RAM 2处，所以这个2称为立即值。总之，不需要从RAM中索引出操作值就能使用的称为立即值。
     - 在Intel 4004中，它支持46个指令，使用8位立即值来执行JUMP，所以可以表示更多的内存地址。处理器从1971年至今，现代CPU比如Intel Core i7含有上千个指令和指令变体，长度从1到15字节。
   - 高级CPU设计
-    collapsed:: true
     - 早期计算机的提速方式是**减少晶体管的切换时间**
     - 处理器厂商发明各种新技术来提升性能
       - **给CPU增加专门电路**
@@ -180,7 +166,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
     - MMX，3DNOW，SEE——多余的电路去实现更经一部的操作
     - 46——1000+ ——超级高的时针转速——快速传数据给CPU
   - 早期的编程方式
-    collapsed:: true
     - 最早的可编程的物品——纺织机（亚卡尔织布机）
       - 每一行的图案由可穿孔卡纸决定UARD——线高线低
       - 连续指令时的图案更加丰富
@@ -193,7 +178,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
       - 门槛——底层硬件
       - 优化——PROGRAMMING LANGUAGE
   - 编程语言与发展
-    collapsed:: true
     - 机器可以处理 ML(机器语言) && MC(机器码)
     - 在计算机早期，必须用机器码写程序，一般会先对程序进行高层次的功能描述，称为伪代码（Pseudo-code）
       - 助于程序员理解，无法让计算机运行，然后根据**指令表**将伪代码转换成**二进制机器码**，然后将机器码送入计算机中并运行
@@ -214,18 +198,16 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
       - 70年代：Pascal，C和Smalltalk
       - 80年代：C++，Objective-C，Perl
       - 90年代：Python，Ruby和Java
-      - 新千年：Swift，C#，Go
+      - 新千年：Swift，C\#，Go
       - 正是语言才是大众化的桥梁
       - 变量的抽象就是地址的抽象（COBOL）
   - 编译原理 语句和函数
-    collapsed:: true
     - 0x0d 语句
     - ——语法
     - 控制流语句
     - ??????
   - 算法入门——运行步骤和输入大小之间的关系
   - 数据结构
-    collapsed:: true
     - 数组Array
     - 字符串String
     - 矩阵Matrix
@@ -233,7 +215,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
     - 链表Linked List
   - 软件工程
   - 集成电路&&摩尔定律
-    collapsed:: true
     - 集成开发环境 
       电子管到晶体管 
       仙童半导体让集成电路成为可嫩
@@ -247,7 +228,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
       量子隧穿效应——电极之间的极速靠近导致电子跳跃
     - 如何判断是否是小数？？
   - 操作系统（OS）
-    collapsed:: true
     - 目的：让计算机自动运行
     - 一种拥有操作硬件的特殊权利来运行软件和管理其他程序
       为了避免繁琐的软硬件交互，操作系统是作为硬件和软件之间的媒介
@@ -270,7 +250,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
       - 微软的磁盘操作系统（MS-DOS）（160k）
   - 内存&&存储介质
   - 文件与文件系统
-    collapsed:: true
     - 文件格式：可以随便存文件数据，但按格式会更方便
       - TXT文本文件：ASKII
       - WAV音频文件：每秒上千次的采集数字
@@ -285,7 +264,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
        如果是磁带这样的存储介质就会造成问题，所以做碎片整理
     - 分层文件系统 —Hierarchical File System：有不同文件夹，文件夹可以层层嵌套
   - 文件压缩
-    collapsed:: true
     - 压缩的好处是能存更多的文件，传输也更快
       - 游码编程
       - 无损压缩
@@ -297,7 +275,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
       - 时间冗余
       - MPEG-4视频编码
   - 命令行界面
-    collapsed:: true
     - 人机交互
     - 早期输入数据是打印到纸上，而输入是用纸纸卡一次性把程序和数据都给进去
     - QWERTY 打字机的发展，克里斯托弗·莱瑟姆·肖尔斯 发明于1868年
@@ -307,7 +284,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
     - 早期文字游戏  Zork （1977年）
     - cd命令
   - 屏幕与2D图形显示
-    collapsed:: true
     - PDP-1计算机、键盘与显示器分开，屏幕显示临时值
       - PDP-1（Programmed Data Processor-1），程序数据处理机１号 , 是形成骇客文化的重要推手。史上第一个电脑游戏是在这个平台上开发的（一段简单的FORTRAN程序。在这个程序里，Crowther设计了一张地图，地图上不规则的分布着陷阱，游戏者必须寻找路径避开陷阱）
         
@@ -329,7 +305,6 @@ mark:: [Crash-Course-Computer-Science-Chinese|计算机速成课 | Crash Course 
   - The Personal Computer Revolution
   - Graphical User Interface
   - 计算机网络-Computer Networks
-    collapsed:: true
     - 第一个计算机网络出现在1950~1960年代
     - **"球鞋网络"**(sneakernet): 非正式的术语，用于通过在计算机之间物理移动介质（例如磁带，软盘，光盘，USB闪存驱动器或外部硬盘驱动器）来传输电子信息，而不是通过计算机网络进行传输.
     - **LAN**

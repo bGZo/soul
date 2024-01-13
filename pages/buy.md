@@ -7,7 +7,7 @@ tags:: #[[consume]]
     tags:: 
     price:: 
     rmb:: 
-    url:: 
+    source:: 
     mark::
 -
   - query-properties:: [:name :tags :rmb :url ]

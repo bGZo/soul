@@ -2,7 +2,7 @@ alias::
 title:: English/words
 
 - [[abbr]] Collections
-  url:: https://www.allacronyms.com
+  source:: https://www.allacronyms.com
   collapsed:: true
   - name:: et al.
     full:: {{cloze at alia; and others; and co-workers; 等它人}}

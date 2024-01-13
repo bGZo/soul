@@ -1,9 +1,9 @@
 icon:: 🐱
 title:: cat
 alias:: 猫
-tags:: #hobby
+tags:: #Hobby
 cost:: 5
-start-date:: 20230529
+created:: 20230529
 public:: false
 
 - ## Why

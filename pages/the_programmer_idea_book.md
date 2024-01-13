@@ -3,10 +3,10 @@ tags:: #programming, #Project
 author:: 
 translator:: 
 publisher:: 
-published-date:: 
+published-created:: 
 isbn:: 
-start-date:: 20230315
-end-date:: 
+created:: 20230315
+closed:: 
 douban:: 
 goodreads:: 
 weread:: 
@@ -21,11 +21,11 @@ mark::
     \SCHEDULED: <2023-09-05 Fri .+3d>
   - title:: [karan/Projects](https://github.com/karan/Projects) ![](https://img.shields.io/github/stars/karan/Projects) 
     tags:: #Github #opensource 
-    start-date:: 20230320
+    created:: 20230320
     mark:: A list of practical projects that anyone can solve in any programming language.
   - title:: [GitHub - karan/Projects-Solutions](https://github.com/karan/Projects-Solutions) ![](https://img.shields.io/github/stars/karan/Projects-Solutions) 
     tags:: #Github #opensource 
-    start-date:: 20230321
+    created:: 20230321
     mark:: Links to others' solutions to Projects (https://github.com/karan/Projects/)
 -
 - ## Content

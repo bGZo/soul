@@ -1,10 +1,9 @@
 icon:: ☕
 alias:: 咖啡
 title:: coffee
-tags:: #hobby
+tags:: #Hobby
 cost:: 1
-start-date:: 20230530
-public:: true
+created:: 20230530
 
 - ## Why
   -

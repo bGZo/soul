@@ -1,9 +1,9 @@
 alias:: java/library
-define:: a collection of related classes, methods, and resources that are packaged together to provide a specific set of functionality. A library can contain one or more APIs and may be provided by the Java Standard Library, third-party vendors, or custom-built by the user.
+mark:: a collection of related classes, methods, and resources that are packaged together to provide a specific set of functionality. A library can contain one or more APIs and may be provided by the Java Standard Library, third-party vendors, or custom-built by the user.
 icon:: ☕
 tags:: #java/api
-public:: true
-start-date:: 20230717
+
+date:: 20230717
 title:: java library
 
   - {{embed ((63e31fc9-aebc-46d1-8e99-a06961fbb3d8))}}
@@ -47,7 +47,7 @@ title:: java library
            *     for unequal objects may improve the performance of hash tables.
            * </ul>
            * <p>
-           * As much as is reasonably practical, the hashCode method defined by
+           * As much as is reasonably practical, the hashCode method mark:: d by
            * class {@code Object} does return distinct integers for distinct
            * objects. (This is typically implemented by converting the internal
            * address of the object into an integer, but this implementation

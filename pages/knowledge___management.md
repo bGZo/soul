@@ -1,9 +1,8 @@
 alias:: knowledge management, 知识管理
-public:: true
 
 - ## Directories
   - Google
-    url:: http://www.google.com/dirhp; https://www.googleguide.com/directory.html
+    source:: http://www.google.com/dirhp; https://www.googleguide.com/directory.html
     collapsed:: true
     - Arts
       collapsed:: true
@@ -54,7 +53,7 @@ public:: true
       collapsed:: true
       - Deutsch, Español, Français, Italiano, Japanese, Korean, Nederlands, Polska, Svenska, ...
   - Yahoo！
-    url:: http://dir.yahoo.com/
+    source:: http://dir.yahoo.com/
     collapsed:: true
     - Arts & Humanities
       collapsed:: true
@@ -99,7 +98,7 @@ public:: true
       collapsed:: true
       - Sexuality, Religion, Food & Drink...
   - Wikipedia
-    url:: http://en.wikipedia.org/wiki/Wikipedia:Categorical_index
+    source:: http://en.wikipedia.org/wiki/Wikipedia:Categorical_index
     collapsed:: true
     - Art and culture
     - Geography and places
@@ -114,7 +113,7 @@ public:: true
     - Social sciences and society
     - Technology and applied sciences
   - DMOZ
-    url:: https://www.dmoz-odp.org/
+    source:: https://www.dmoz-odp.org/
 - ## Methods
   - $$处理 \rightarrow 组织 \rightarrow  输出$$
     - 处理
@@ -147,7 +146,7 @@ public:: true
       - 1）能够涵盖集合中的所有元素。
       - 2）类与类之间不重叠。
       - 3）能够比较容易地为每一个元素找到其分类。
-  - [公众分类法（Folksonomy） - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2006/09/folksonomy.html) #book
+  - [公众分类法（Folksonomy） - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2006/09/folksonomy.html) #Book
     collapsed:: true
     - 先从一个具体的问题开始思考：如何给电子书分类？（这个问题可以推广到如何给信息分类。）
     - 传统的方法是使用自上而下的**目录分类法**（Taxonomy）。在中国是中图分类法（第四版），在美国是国会图书馆分类法。但是，这种分类过于复杂（所有细目厚达几千页），导致实施起来成本很高。而且，它不太符合电子书的实际，一是分得太细，一本书往往在第四层或第五层的子目录；二是分得不均衡，中图分类法下A类是"马克思主义、列宁主义、毛泽东思想、邓小平理论"，I类是"文学"，显而易见，对于电子书库来说，将A类单独分为一类非常浪费，而I类则至少可以分列成"汉语文学"和"外语文学"两大类。

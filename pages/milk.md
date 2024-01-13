@@ -3,8 +3,7 @@ title:: milk
 alias:: 牛奶
 cost:: 0.2
 tags:: #health 
-start-date:: 20230530
-public:: true
+created:: 20230530
 
 - ## Why
   -

@@ -4,7 +4,7 @@ author:: Robert Sedgewick / Kevin Wayne / 谢路云
 publisher:: 人民邮电出版社
 published-date:: 20121001
 tags:: #[[Java]]
-url:: https://book.douban.com/subject/19952400
+source:: https://book.douban.com/subject/19952400
 
 -
 - FIND

@@ -1,5 +1,5 @@
 alias:: lang/programming/domain-specific/markdown
-start-date:: 20191213T02:40:57+08:00
+created:: 20191213T02:40:57+08:00
 
 - ## [[Tool]]
   - [oscarmorrison/md-page: 📝 create a webpage with just markdown](https://github.com/oscarmorrison/md-page) ![](https://img.shields.io/github/stars/oscarmorrison/md-page)
@@ -267,7 +267,7 @@ start-date:: 20191213T02:40:57+08:00
     author:: 毕小朋
     publisher:: 电子工业出版社
     published-date:: 20190800
-    url:: [了不起的Markdown (豆瓣)](https://book.douban.com/subject/34613706/)
+    source:: [了不起的Markdown (豆瓣)](https://book.douban.com/subject/34613706/)
     collapsed:: true
     - **幻灯片插件**——reveal.js
     - **邮箱渲染插件**——Markdown Here

@@ -32,7 +32,7 @@ alias:: search/engine/google
     | location:   | 指定地区区域内查询关键词相关的网页                           | wow  gold location:France         |
     | weather:    | 查询该地区或城市当前的天气状况                               | weather:北京                      |
     | stocks:     | 查询股票信息; 一般源于专业财经网站                           | stocks:比亚迪                     |
-    | define:     | 返回包含查询关键词定义的网面                                 | define:  暗网                     |
+    | mark:: :     | 返回包含查询关键词定义的网面                                 | mark:: :  暗网                     |
 - #bookmark
   - Advanced Search: https://www.google.com/advanced_search
   - Help: https://support.google.com/websearch/?hl=zh-Hans

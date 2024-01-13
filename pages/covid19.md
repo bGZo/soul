@@ -1,13 +1,13 @@
-define:: 新型冠狀病毒肺炎 / 武汉肺炎
+mark:: 新型冠狀病毒肺炎 / 武汉肺炎
 
 - Testing | 检测
   - **核酸检测 (Polymerase Chain Reaction, PCR / Real-time PCR, RT-PCR)**
-    define:: 针对病毒遗传序列. 查验是否存在病毒核糖 (RNA)
+    mark:: 针对病毒遗传序列. 查验是否存在病毒核糖 (RNA)
     collapsed:: true
     - 把病毒基因复制几十次，然后再测试 (荧光测试)
       - 提取病毒RNA,把病毒RNA "反转录" 成 cDNA 去荧光定量测试
     - 循环阈值-循环阈值(cycle threshold，Ct)
-      define:: RT—PCR检测时将病毒RNA扩增至可检出水平所需的循环数; 一般为 30 - 40
+      mark:: RT—PCR检测时将病毒RNA扩增至可检出水平所需的循环数; 一般为 30 - 40
     - ((6371afe5-756b-42b7-abcd-f77405c9bdfa))
       - 鼻粘膜或唾液
     - ((6371b01c-43c1-4ba3-92e7-25b7b14728bd))
@@ -20,7 +20,7 @@ define:: 新型冠狀病毒肺炎 / 武汉肺炎
       - 价格昂贵
       - 需要1-3天时间
   - **抗原检测 / 侧流免疫层析测定 (Rapid Antigen Test, RAT / Lateral Flow Test, LFT)**
-    define:: 检测病毒病原体中的特定蛋白质核酸
+    mark:: 检测病毒病原体中的特定蛋白质核酸
     collapsed:: true
     - 利用人工制造抗体，找出相对应的病毒
       - 小胶盒上有两个抗体，一个是 coat 在 membrane 上的capture Ab, 一个是 sample pad 上的 label Ab.如果病人样品中存在抗原，就会形成两个抗体夹住一个抗原的复合物，所以称之为夹心法。最后横杠的颜色取决于标记抗体是用什么物质标记的，常见的是红色和蓝色。大家一定要注意的是在C(control)的地方一定要有横杠，没有的话表示测试无效。
@@ -35,7 +35,7 @@ define:: 新型冠狀病毒肺炎 / 武汉肺炎
     - ((6371aed9-1bbc-4522-a09c-af13babccf35))
       - 需要一定的病毒量
   - **抗体检测 ( Antibody tests / Serology tests)**
-    define:: 檢測人體的免疫系統是否已產生抗體對抗新冠病毒
+    mark:: 檢測人體的免疫系統是否已產生抗體對抗新冠病毒
     collapsed:: true
     - 了解病毒在人群擴散的範圍大小
     - 人体免疫产物

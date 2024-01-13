@@ -14,7 +14,7 @@ alias:: cpp/question
   - `Define`
     collapsed:: true
     - ```cpp
-      #define swap(x, y)\
+      #mark::  swap(x, y)\
       x = x + y;\
       y = x - y;\
       x = x - y;

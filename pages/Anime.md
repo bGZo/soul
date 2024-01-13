@@ -1,6 +1,6 @@
 icon:: 📺
 alias:: 动漫
-tags:: #acgn
+extends:: [[ACGN]] 
 wikipedia:: [Animation - Wikipedia](https://en.wikipedia.org/wiki/Animation)
 filters:: {"start_page" true}
 template:: anime
@@ -12,9 +12,9 @@ template-including-parent:: false
     desc:: 
     tags:: #Anime
     author:: 
-    published-date:: 
+    published-created:: 
     douban:: 
     bangumi:: 
     myanimelist:: 
-    start-date:: ``{ date.now.format('YYYYMMDD') }``
-    end::
+    created:: ``{ date.now.format('YYYYMMDD') }``
+    closed::

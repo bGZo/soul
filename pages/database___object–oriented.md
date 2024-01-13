@@ -1,5 +1,5 @@
 title:: database/object–oriented
-define:: OODBMS / **Object-oriented database**(面向对象数据库)
+mark:: OODBMS / **Object-oriented database**(面向对象数据库)
 
 - #vs [[database/object–relational]]
   collapsed:: true

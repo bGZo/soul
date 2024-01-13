@@ -1,6 +1,6 @@
 alias:: tool/archive
 icon:: 💾
-define:: 一般保存**极具参考性. 建设性. 以及常引用性** 的内容/讨论. 必须予以原样保存;
+mark:: 一般保存**极具参考性. 建设性. 以及常引用性** 的内容/讨论. 必须予以原样保存;
 
 - [[Template]]
   template:: archive(default: web)
@@ -8,11 +8,11 @@ define:: 一般保存**极具参考性. 建设性. 以及常引用性** 的内�
   - title:: 
     author:: 
     tags:: #archive/web
-    start-date:: <% today %>
+    created:: <% today %>
     mark:: 
     archive:: [💾 Archived](../assets/archived_web/ )
 - [[bookmark]]
-  - [[Issue]] #discuss
+  - [[Issue]] #Discuss
     collapsed:: true
     - 哪一个更加安全? 更加有效?
       - > 劝你别用 webarchive， 它会被 DMCA 管制

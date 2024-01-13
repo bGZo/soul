@@ -1,4 +1,4 @@
-define:: Message Digest Algorithm 5 /  MD5消息摘要算法
+mark:: Message Digest Algorithm 5 /  MD5消息摘要算法
 author:: [Ronald Rivest](https://en.wikipedia.org/wiki/Ron_Rivest)
 published-date:: 19920400
 tags:: #[[algo]], #[[hash]]

@@ -34,13 +34,13 @@ tags:: #lang
       - title:: [Evolution of the Alphabet | Earliest Forms to Modern Latin Script - YouTube](https://www.youtube.com/watch?v=3kGuN8WIGNc)
         alias:: 
         desc:: 
-        tags:: #video
+        tags:: #Video
         author:: 
-        published-date:: 
-        url:: 
+        published-created:: 
+        source:: 
         mark:: inspired by [5天就能記住1萬個單詞的方法，老師為什麽不教？用结果说话，因为结果不会骗人一套高效背单词的方法，单词记忆法。快速提高中考高考英语，四级六级考研雅思托福词汇量 - YouTube](https://www.youtube.com/watch?v=AFgZbU3AhlY&t=264s)
-        start-date:: 20221219
-        end::
+        created:: 20221219
+        closed::
         - {{video https://www.youtube.com/watch?v=3kGuN8WIGNc}}
           - {{youtube-timestamp 54}} Begin
           - Proto-Sinaitic (原始西奈) | 青铜中期文化时期字母
@@ -87,7 +87,7 @@ tags:: #lang
   - [Wei-Xia/most-frequent-technology-english-words: 程序员工作中常见的英语词汇](https://github.com/Wei-Xia/most-frequent-technology-english-words) ![](https://img.shields.io/github/stars/Wei-Xia/most-frequent-technology-english-words)
   - [Kaiyiwing/qwerty-learner: 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件](https://github.com/Kaiyiwing/qwerty-learner) ![](https://img.shields.io/github/stars/Kaiyiwing/qwerty-learner)
   - [hanxiaomax/WordPowerMadeEasy: 词汇笔记和在线思维导图](https://github.com/hanxiaomax/WordPowerMadeEasy) ![](https://img.shields.io/github/stars/hanxiaomax/WordPowerMadeEasy)
-  - [[book]]
+  - [[Book]]
     - [Free Magazines Online ✴️ Digital Magazine PDF Download](https://freemagazines.top/)
   - [Technical vocabulary lists](https://www.eapfoundation.com/vocab/other/lists/)  | 普林斯顿大学创建的开源词典 WordNet 生成的, 专业词汇
   - [Academic Collocation for PTE Academic | Pearson PTE](https://www.pearsonpte.com/teachers/academic-collocation) | 2469 个最常见且与教学相关的书面学术英语词汇搭配

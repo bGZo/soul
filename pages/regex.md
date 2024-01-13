@@ -1,4 +1,4 @@
-define:: "正则表达式, "
+mark:: "正则表达式, "
 
 - [[Issue]]
   collapsed:: true
@@ -10,7 +10,7 @@ define:: "正则表达式, "
         ```
         #why
       - [java - What is the regex to extract all the emojis from a string? - Stack Overflow](https://stackoverflow.com/questions/24840667/what-is-the-regex-to-extract-all-the-emojis-from-a-string)
-    - [[question]]
+    - [[Question]]
       collapsed:: true
       - ```
         # editor envir: https://rubular.com | a ruby regular expression editor

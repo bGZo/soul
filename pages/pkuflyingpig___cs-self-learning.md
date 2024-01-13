@@ -1,6 +1,6 @@
 title:: PKUFlyingPig/cs-self-learning
 tags:: #Github #opensource #Tutorial  #programming #roadmap/develop
-start-date:: 20230324
+created:: 20230324
 mark:: [计算机自学指南](https://github.com/PKUFlyingPig/cs-self-learning) ![](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning)；[CS自学指南](https://csdiy.wiki/)
 
   - > *Everyone should enjoy CS if you have a good teacher to teach you a good course.*
@@ -590,7 +590,7 @@ mark:: [计算机自学指南](https://github.com/PKUFlyingPig/cs-self-learning)
         - btw，此篇文章是讲解工作流的演化思路，如果对此工作流的实现细节感兴趣，建议阅读完本文后再按顺序阅读以下文章
         - 1. [3000 + 小时积累的学习工作流](https://sspai.com/post/75969)
         - 2. [Obsidian 的高级玩法 | 打造能跳转到任何格式文件的笔记](https://juejin.cn/post/7145351315705577485)
-    - [实用工具箱](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/tools/) #Start_Page
+    - [实用工具箱](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/tools/) #[[Start Page]]
       collapsed:: true
       - ## 下载工具
         collapsed:: true

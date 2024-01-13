@@ -1,22 +1,22 @@
 collapsed:: true
 title:: url-scheme
-define:: 
+mark:: 
 title:: url-scheme
 alias:: deep-linking/mobile
-define:: link to a specific location within a mobile app rather than simply launching the app.
+mark:: link to a specific location within a mobile app rather than simply launching the app.
 tags:: 
-url:: 
+source:: 
 mark:: [Mobile deep linking - Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking); [List of URI schemes - Wikipedia](https://en.wikipedia.org/wiki/List_of_URI_schemes)
-start-date:: 20221128
-end::
+created:: 20221128
+closed::
 
   - Implement: The format of the URI used to trigger or deep link an app is often different depending on the mobile operating system.
     - [[android]] devices work through **intents**
-      url:: [Intents and Intent Filters  |  Android Developers](https://developer.android.com/guide/components/intents-filters)
+      source:: [Intents and Intent Filters  |  Android Developers](https://developer.android.com/guide/components/intents-filters)
     - BlackBerry 10 devices work through BB10's invocation framework
     - **Firefox OS** devices work through **Web Activities**
     - [[iOS]] devices work through the **openUrl application** method
-      url:: [UIApplication | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uiapplication#jumpTo_37)
+      source:: [UIApplication | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uiapplication#jumpTo_37)
     - **Windows Phone 8 devices** work through the **UriMapper class**
 - #Quickref
   - ```html

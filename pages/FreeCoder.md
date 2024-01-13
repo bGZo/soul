@@ -18,16 +18,16 @@ mark:: 作者一聽就是個大佬，真希望知道他現在過得怎麽樣？�
     - 方法区 Static 变量/常量 直接/间接 引用；
   - {{youtube-timestamp 120}} 清理堆区的思路 #.ol
     - 标记——清理算法
-      define:: 对准备清理的对象打上标记，然后清理；
+      mark:: 对准备清理的对象打上标记，然后清理；
       - 产生内存碎片
     - 标记——整理算法
-      define:: 为了解决1的局限，删除之后，全部前移；
+      mark:: 为了解决1的局限，删除之后，全部前移；
       - 代价巨大
     - 复制算法
-      define:: 开辟两片堆区，删除的时候，从1复制到2，全部清理1；
+      mark:: 开辟两片堆区，删除的时候，从1复制到2，全部清理1；
       - 需要两倍的内存空间
   - {{youtube-timestamp 260}} 实际 GC 的算法
-    - define:: 堆区划分为年轻代 (Young) 和老年代 (old)，年轻代再次划分为 Survivor Space(S0,S1), Eden Space, Eden Space, Tenured Generation, Permanent Generation
+    - mark:: 堆区划分为年轻代 (Young) 和老年代 (old)，年轻代再次划分为 Survivor Space(S0,S1), Eden Space, Eden Space, Tenured Generation, Permanent Generation
       - Eden：出生区（伊甸园）；将满的时候出发 Young GC
         - 采用复制算法，复制到 S0
         - Eden 和 Survivor 比例：$8:1:1$

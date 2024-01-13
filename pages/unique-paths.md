@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium
-public:: true
+
 
 - ## Content
   - <iframe src="https://leetcode.cn/problems/unique-paths" style="height: 400px"></iframe>

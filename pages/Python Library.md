@@ -1,9 +1,9 @@
 alias:: python/library
-define:: 
+mark:: 
 icon:: 🐍
 tags:: 
-public:: true
-start-date:: 20230627
+
+date:: 20230627
 title:: Python Library
 
 - ## Why

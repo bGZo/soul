@@ -1016,7 +1016,7 @@ title:: imu/software/process
 - Refs
   - 软件过程管理 - 朱少民 - 清华大学出版社 - 2007-4
     isbn:: 9787302146407
-    url:: https://book.douban.com/subject/2035607
+    source:: https://book.douban.com/subject/2035607
   - [软件过程与管理总复习_一指流沙q的博客-CSDN博客](https://blog.csdn.net/qq_51165234/article/details/125250711)
   - [软件过程与管理复习题_一指流沙q的博客-CSDN博客_软件过程管理期末考试题](https://blog.csdn.net/qq_51165234/article/details/125234900)
     collapsed:: true

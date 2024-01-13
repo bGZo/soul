@@ -1,8 +1,8 @@
 alias:: 工具
 icon:: 🛠
-public:: true
-start-date:: 20230531
-tags:: #productivity
+
+date:: 20230531
+tags:: #Productivity
 title:: Tool
 
   - template:: tool
@@ -14,8 +14,8 @@ title:: Tool
       community:: 
       document:: 
       icon::
-      public:: true
-      start-date:: ``{ date.now.format('YYYYMMDD') }``
+      
+      date:: ``{ date.now.format('YYYYMMDD') }``
       tags:: 
       title:: ``{ c.page.name }``
 - ## Why
@@ -68,7 +68,7 @@ title:: Tool
     - pptx: `.pptx` rename to `.rar` -> edit `./ppt/presentation.xml` -> find `<p:modifyVerifier .../>` -> delete it.
     - ppt: https://products.aspose.app/pdf/zh-hant/unlock/ppt
   - 断点续传
-    define:: "指的是在上传/下载时，将任务（一个文件或压缩包）人为的划分为几个部分，每一个部分采用一个线程进行上传/下载，如果碰到网络故障，可以从已经上传/下载的部分开始继续上传/下载未完成的部分，而没有必要从头开始上传/下载。 可以节省时间，提高速度。 via: https://blog.csdn.net/liang19890820/article/details/53215087"
+    mark:: "指的是在上传/下载时，将任务（一个文件或压缩包）人为的划分为几个部分，每一个部分采用一个线程进行上传/下载，如果碰到网络故障，可以从已经上传/下载的部分开始继续上传/下载未完成的部分，而没有必要从头开始上传/下载。 可以节省时间，提高速度。 via: https://blog.csdn.net/liang19890820/article/details/53215087"
   - 百度网盘秒传链接: https://cangku.io/pages/178105
   - [Mathematical Alphanumeric Symbols - Unicode 字符百科](https://unicode-table.com/cn/blocks/mathematical-alphanumeric-symbols/)
   - [傲梅产品下载：硬盘分区软件下载、轻松备份软件下载、微信恢复软件下载](https://www.aomeikeji.com/download.html)

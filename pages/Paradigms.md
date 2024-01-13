@@ -1,9 +1,9 @@
 title:: Paradigms
 alias:: programming paradigms, 编程范式
 tags:: #lang/programming
-define:: a way to classify programming languages based on their features
-public:: true
-start-date:: 20230826
+mark:: a way to classify programming languages based on their features
+
+date:: 20230826
 title:: Paradigms
 
 - ## Why

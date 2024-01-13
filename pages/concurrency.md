@@ -1,5 +1,5 @@
 alias:: simultaneous, se/concurrency
-define:: "并发计算(大陆); 并行计算(台); a form of computing in which several computations are executed concurrently — during overlapping(重叠) time periods — instead of sequentially(顺序) — with one completing before the next starts."
+mark:: "并发计算(大陆); 并行计算(台); a form of computing in which several computations are executed concurrently — during overlapping(重叠) time periods — instead of sequentially(顺序) — with one completing before the next starts."
 
 -
 - #vs [[parallel]]

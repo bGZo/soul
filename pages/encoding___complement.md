@@ -1,14 +1,14 @@
 title:: encoding/complement
-define:: 补码
+mark:: 补码
 
 - Ones' Complement
-  define:: "一的补码, 一补数, 一补码, 反码"
+  mark:: "一的补码, 一补数, 一补码, 反码"
   id:: 63233299-4c35-4594-a358-c2b35d9fef9f
   - 任意一对相反数的反码的 "和" 都是一串 $1$，所以我们可以这样定义负数 $N$ 的 $n$ 位二进制反码
   - 负数的反码定义
     $$N_{补} = \underbrace{ 111\cdots1 }_{n个1} - \left| N \right|$$
 - Two's Complement
-  define:: "二的补码, 二补数, 二补码"
+  mark:: "二的补码, 二补数, 二补码"
   id:: 632332a2-db20-41f7-905d-6af2ff488157
   - 表示 (一个) $2$ 的补, 与 ((63233299-4c35-4594-a358-c2b35d9fef9f)) 不同
   - 负数的补码的定义

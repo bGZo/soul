@@ -1,7 +1,6 @@
 alias:: commands/chkconfig
-start-date:: 20231005
+created:: 20231005
 icon:: ⌘
-public:: true
 
 - ## Why
 - ## How

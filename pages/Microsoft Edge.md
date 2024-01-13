@@ -1,6 +1,6 @@
 tags:: #Browser
-public:: true
-start-date:: 20230604
+
+date:: 20230604
 title:: Microsoft Edge
 
 - ## Why

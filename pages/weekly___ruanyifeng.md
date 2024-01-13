@@ -1,9 +1,9 @@
-title:: weekly/ruanyifeng
+title:: Weekly/ruanyifeng
 alias:: ruanyifeng/weekly
-define:: 科技爱好者周刊
-tags:: #magazine #blog #newsletter  
-url:: [ruanyf/weekly: 科技爱好者周刊，每周五发布](https://github.com/ruanyf/weekly)
-start-date:: 20221221
+mark:: 科技爱好者周刊
+tags:: #magazine #Blog #newsletter
+source:: [ruanyf/weekly: 科技爱好者周刊，每周五发布](https://github.com/ruanyf/weekly)
+created:: 20221221
 
 - ## Content
   - 250
@@ -196,10 +196,10 @@ start-date:: 20221221
     - 我们像蝴蝶，只飞翔一天，便以为那是永恒。
     - \-- [卡尔萨根](https://www.goodreads.com/quotes/190741-we-are-like-butterflies-who-flutter-for-a-day-and)，美国科普作家
     - ## 历史上的本周
-    - [掌机的未来](http://www.ruanyifeng.com/blog/2022/02/weekly-issue-196.html)（2022 #196）
-    - [网课应该怎么上？](http://www.ruanyifeng.com/blog/2021/02/weekly-issue-146.html)（2021 #146）
-    - [既懂得制造，又懂得销售](http://www.ruanyifeng.com/blog/2020/02/weekly-issue-94.html)（2020 #94）
-    - [高校"唯论文"导向的后果](http://www.ruanyifeng.com/blog/2019/02/weekly-issue-44.html)（2019 #44）
+    - [掌机的未来](http://www.ruanyifeng.com/blog/2022/02/weekly-issue-196.html)（2022 \#196）
+    - [网课应该怎么上？](http://www.ruanyifeng.com/blog/2021/02/weekly-issue-146.html)（2021 \#146）
+    - [既懂得制造，又懂得销售](http://www.ruanyifeng.com/blog/2020/02/weekly-issue-94.html)（2020 \#94）
+    - [高校"唯论文"导向的后果](http://www.ruanyifeng.com/blog/2019/02/weekly-issue-44.html)（2019 \#44）
     - ## 鸣谢
     - 周刊得到国内新一代知识管理与协作平台 [FlowUs](https://flowus.cn?promotionChannel=GW%5FRYF%5F01) 的帮助，深表感谢。
     - [FlowUS](https://flowus.cn?promotionChannel=GW%5FRYF%5F01) \= 文档 + 表格 + 网盘。你可以用它写文档、做主页、管理数据、存储文件等等。
@@ -231,7 +231,7 @@ start-date:: 20221221
     - 这个设定是合理的，象征我们在生活中遇到的各种机会。机会来临时，转瞬即逝，必须立刻决定是否抓住它，错过就是错过了。你在三个月前放弃了一个机会，不可能三个月后再捡起来。
     - 大家可以想一想，这时应该面试多少人？
     - 如果录用得太早，可能错过后面更好的候选人；如果录用得太晚，可能错误放走前面的合格人选。
-    - 数学家对这个问题，已经有了充分的讨论。经过计算，成功概率最大的方法，叫做["1/e 法则"](https://en.wikipedia.org/wiki/Secretary_problem#1/e-law_of_best_choice)。e 是自然对数的底数，约等于2.718，那么 1/e 就约等于37%，所以它又称"37%法则"。
+    - 数学家对这个问题，已经有了充分的讨论。经过计算，成功概率最大的方法，叫做["1/e 法则"](https://en.wikipedia.org/wiki/Secretary_problem\#1/e-law_of_best_choice)。e 是自然对数的底数，约等于2.718，那么 1/e 就约等于37%，所以它又称"37%法则"。
     - **"37%法则"的意思就是，寻找阶段进行到37%就要停止。** 100个应聘者，先面试前37个，此后的面试只要遇到一个更优秀的，就立刻录取，不再继续面试了。换句话说，前37个面试者无论多么优秀，都不会录取，他们只是用来确定录取的标准。
     - 如果最合适的候选者偏偏在前面37%里面，那就只能错过了，作为"寻找阶段"不得不付出的成本。最终录取的将是不如前面候选人的次优选择。
     - 这个法则很实用，日常生活中，只要符合"寻找-决策过程"的场景，都可以适用37%法则。

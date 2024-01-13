@@ -1,6 +1,6 @@
 alias:: 教程
-public:: true
-start-date:: 20230719
+
+date:: 20230719
 title:: Tutorial
 
   - template:: tutorial
@@ -8,9 +8,9 @@ title:: Tutorial
     collapsed:: true
     - author:: 
       tags:: 
-      url:: 
-      start-date:: <% today %> <% time %>
-      end::
+      source:: 
+      created:: <% today %> <% time %>
+      closed::
 - ## Why
   - > To follow the path, 
     look to the master, 

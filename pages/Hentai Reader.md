@@ -1,8 +1,8 @@
-define:: 变态阅读器
+mark:: 变态阅读器
 tags:: #Project #RSS #[[github action]] #crawler #hentai
 icon:: 📂
-public:: true
-start-date:: [[20230614]]
+
+date:: [[20230614]]
 title:: Hentai Reader
 
 - ## Project Meta
@@ -47,12 +47,12 @@ title:: Hentai Reader
 - ## Why
   - No money. No time. Lazy.
 - ## How
-  - ~~Give the full-text output;~~ #closed
+  - ~~Give the full-text output;~~ #Closed
     collapsed:: true
     - How to deal with the content only show for the user login?
       collapsed:: true
       - So the way RSS is bankruptcy, how does you request content using common method? How do you recognize the different websites? There are too much details. So why not design a module build for them directly?
-  - ~~Git push to [Github - bGZo/bgzo at rss_reader](https://github.com/bGZo/bgzo/tree/rss_reader)~~ #closed
+  - ~~Git push to [Github - bGZo/bgzo at rss_reader](https://github.com/bGZo/bgzo/tree/rss_reader)~~ #Closed
     collapsed:: true
     - {{twitter https://twitter.com/imbGZo/status/1668952517408075776}}
   - WAIT How to deal with the copyright? #crawler
@@ -196,7 +196,7 @@ title:: Hentai Reader
               console.log(todayDate.toString())
               // Output: "Mon Nov 14 2022 13:37:12 GMT+0100 (Central European Standard Time)"
               ```
-        - TODO [html - How to define width of :before pseudo element relative to containing element - Stack Overflow](https://stackoverflow.com/questions/39995303/how-to-define-width-of-before-pseudo-element-relative-to-containing-element)
+        - TODO [html - How to mark::  width of :before pseudo element relative to containing element - Stack Overflow](https://stackoverflow.com/questions/39995303/how-to-mark:: -width-of-before-pseudo-element-relative-to-containing-element)
           collapsed:: true
           - `relative`?
         - TODO [HTML Entities (w3schools.com)](https://www.w3schools.com/html/html_entities.asp)

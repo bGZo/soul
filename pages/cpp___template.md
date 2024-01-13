@@ -19,7 +19,7 @@ title:: cpp/template
   - 当编译器遇到对模板函数的调用时，它将使用模板自动生成一个函数，该函数将myType的每个外观替换为作为实际模板参数（在本例中为int）传递的类型，然后对其进行调用。该过程由编译器自动执行，并且对于程序员是不可见的。
   - > In this specific case where the generic type T is used as a parameter for GetMax the compiler can find out automatically which data type has to instantiate without having to explicitly specify it within angle brackets (like we have done before specifying <int> and <long>).
   - 如果处理的多个参数是同一类型, 那么`<>`里面的类型可以隐形调用, 而不用显示说明.
-  - We can also define function templates that accept more than one type parameter, simply by specifying more template parameters between the angle brackets. For example:
+  - We can also mark::  function templates that accept more than one type parameter, simply by specifying more template parameters between the angle brackets. For example:
   - ```cpp
     template <class T, class U>
     T GetMin (T a, U b) {
@@ -59,7 +59,7 @@ title:: cpp/template
     template <> class mycontainer <char> { ... };
     ```
   - The first line is the generic template, and the second one is the specialization.
-  - When we declare specializations for a template class, we must also define all its members, even those exactly equal to the generic template class, because there is no "inheritance" of members from the generic template to the specialization.
+  - When we declare specializations for a template class, we must also mark::  all its members, even those exactly equal to the generic template class, because there is no "inheritance" of members from the generic template to the specialization.
   - 当我们为模板类声明特殊化时，我们还必须定义其所有成员，甚至那些与通用模板类完全相同的成员，因为从通用模板到特殊化之间没有成员的“继承性”。
   - 但是，比此前缀更重要的是类模板名称后面的`<char>`专门化参数。这个特殊化参数本身标识了要为其声明模板类特殊化（`char`）的类型。请注意，通用类模板和专业化之间的区别：
   - 即专门模板与通用模板的一些区别

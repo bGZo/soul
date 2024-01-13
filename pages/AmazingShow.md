@@ -2,8 +2,8 @@ title:: AmazingShow
 alias:: 美秀集團
 tags:: #band #taiwan 
 mark:: 
-start-date:: 20230115
-end::
+created:: 20230115
+closed::
 
 - ## Members
   - 狗柏（主唱、吉他手）

@@ -9,19 +9,19 @@ collapsed:: true
     template-including-parent:: false
     - title:: ![](https://img.shields.io/github/stars/) 
       tags:: #Github #opensource 
-      start-date:: <% today %>
+      created:: <% today %>
       mark::
   - template:: page/github
     template-including-parent:: false
     - title::  
       tags:: #Github #opensource 
-      start-date:: <% today %>
+      created:: <% today %>
       mark:: ![](https://img.shields.io/github/stars/)
 - collapsed:: true
   ---
   - 在 `page_name`中,  不会再加入 `[[]]`的符号;
     - ```
-      url::  ![](https://img.shields.io/github/stars/)
+      source::  ![](https://img.shields.io/github/stars/)
       desc:: 
       tags:: 
       author:: 

@@ -3,12 +3,12 @@ mark:: [Object-oriented programming - Wikipedia](https://en.wikipedia.org/wiki/O
 
 - ## [[Java]] #vs [[cpp]]
   - **虚函数**
-    define:: 为了多态
+    mark:: 为了多态
     - Java 没有虚函数的概念 -> Java 普通函数 == C++ 虚函数
       - **动态绑定**是 Java 的默认行为
       - 如果 Java 中不希望某个函数具有虚函数特性，可以加上 final 关键字变成非虚函数
   - **抽象函数(纯虚函数)**
-    define:: 为了定义接口
+    mark:: 为了定义接口
     - ```cpp
       virtual void print() = 0;
       ```
@@ -16,11 +16,11 @@ mark:: [Object-oriented programming - Wikipedia](https://en.wikipedia.org/wiki/O
       abstract void print();
       ```
   - **抽象类**
-    define:: "父类中既包括子类共性函数的具体定义，也包括需要子类各自实现的函数接口"
+    mark:: "父类中既包括子类共性函数的具体定义，也包括需要子类各自实现的函数接口"
     - C++ 中抽象类只需要包括纯虚函数，既是一个抽象类。如果仅仅包括虚函数，不能定义为抽象类，因为类中其实没有抽象的概念。
     - Java 抽象类是用 abstract 修饰声明的类。
   - **接口**
-    define:: "为了形成一种规约, 不能有 普通成员变量 + 非纯虚函数"
+    mark:: "为了形成一种规约, 不能有 普通成员变量 + 非纯虚函数"
     - C++ 中接口其实就是全虚基类。
     - Java 中接口是用 interface 修饰的类。
   - **小结**

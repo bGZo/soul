@@ -1,9 +1,9 @@
 alias:: 怀疑
-define:: Doubt is a mental state in which the mind remains suspended between two or more contradictory propositions, unable to be certain of any of them
+mark:: Doubt is a mental state in which the mind remains suspended between two or more contradictory propositions, unable to be certain of any of them
 icon:: 
 tags:: 
-public:: true
-start-date:: 20230605
+
+date:: 20230605
 title:: doubt
 
 - ## Why

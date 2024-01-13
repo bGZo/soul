@@ -48,7 +48,7 @@ alias:: maths/graph/tree
   - **森林（forest）**
     collapsed:: true
     - 每个连通分量（连通块）都是树的图。按照定义，一棵树也是森林
-      define:: "连通分量(Connected Component), 任何连通图的连通分量只有一个，即是其自身，非连通的无向图有多个连通分量"
+      mark:: "连通分量(Connected Component), 任何连通图的连通分量只有一个，即是其自身，非连通的无向图有多个连通分量"
   - **生成树（spanning tree）**
     collapsed:: true
     - 一个连通无向图的生成子图，同时要求是树。也即在图的边集中选择 $n-1$ 条，将所有顶点连通
@@ -142,7 +142,7 @@ alias:: maths/graph/tree
     - 中序遍历
     - 后序遍历
     - 反推
-      define:: 已知中序遍历序列和另外一个序列可以求第三个序列
+      mark:: 已知中序遍历序列和另外一个序列可以求第三个序列
   - 树上 BFS
   - 无根树
     collapsed:: true

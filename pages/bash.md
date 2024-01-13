@@ -1,5 +1,5 @@
 tags:: #tools, #[[Linux Commandline]], #lang/programming
-public:: true
+
 
 - ## References
   - ### ![Bash Reference Manual](../assets/doc_bash.pdf)

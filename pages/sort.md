@@ -176,7 +176,7 @@ alias:: algo/sort
         }
         ```
     - ((63229b76-3951-43fe-bd40-f2b407fd2944))
-      define:: 适用于待排序数据值域较大但分布比较均匀的情况
+      mark:: 适用于待排序数据值域较大但分布比较均匀的情况
       - [[stl]] Set 天然自带排序功能
         - ```cpp
           #include <iostream>
@@ -304,7 +304,7 @@ alias:: algo/sort
     - 竞赛中的排序有三种：分别是C库的qsort，C++库的sort（第一种是传入一个 functor 对象，另外一种是直接传入一个排序函数），经过下面代码的运行
       - ```cpp
         using namespace std;
-        #define _for(i,a,b) for(int i=(a);i<(b);++i)
+        #mark::  _for(i,a,b) for(int i=(a);i<(b);++i)
         const int N = 10000000;
         struct TS {
           int a, b, c;
@@ -365,7 +365,7 @@ alias:: algo/sort
   - [[cpp]]
     - ```c++
       #include<algorithm>
-      #define sorts(p,m) sort(p,p+m);
+      #mark::  sorts(p,m) sort(p,p+m);
       sorts(p,m);//此处只做参考，具体使用的时候再做打算
       //sort ( start , end , cmp(compare) )
       //start表示要排序数组的起始地址；

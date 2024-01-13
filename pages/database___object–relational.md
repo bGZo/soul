@@ -1,3 +1,3 @@
-define:: ORDBMS / **Object-relational database**(关系型数据库)
+mark:: ORDBMS / **Object-relational database**(关系型数据库)
 
 -

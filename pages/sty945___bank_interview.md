@@ -1,8 +1,8 @@
 title:: sty945/bank_interview
 tags:: #Github, #bank
-url:: [sty945/bank_interview: 银行笔试面试经验分享及资料分享（help you pass the bank interview, and get a amazing bank offer!）](https://github.com/sty945/bank_interview) ![](https://img.shields.io/github/stars/sty945/bank_interview)
-start-date:: 20221124
-end-date:: 
+source:: [sty945/bank_interview: 银行笔试面试经验分享及资料分享（help you pass the bank interview, and get a amazing bank offer!）](https://github.com/sty945/bank_interview) ![](https://img.shields.io/github/stars/sty945/bank_interview)
+created:: 20221124
+closed:: 
 mark::
 
 - **银行常见问题**

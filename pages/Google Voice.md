@@ -1,8 +1,8 @@
 alias:: google/voice
 icon:: 📞
 tags:: #Privacy 
-public:: true
-start-date:: 20230806
+
+date:: 20230806
 title:: Google Voice
 
 - ## Why
@@ -20,11 +20,11 @@ title:: Google Voice
 - ## What
   - What this number used for?
     collapsed:: true
-    - ~~Douban~~
+    - CANCELED ~~Douban~~
       collapsed:: true
       - 禁言申诉
       - 注销账号.
-    - ~~Steam~~
+    - CANCELED ~~Steam~~
       collapsed:: true
       - VOIP 不符合[安全策略](https://help.steampowered.com/zh-cn/faqs/view/7EFD-3CAE-64D3-1C31)
         :logbook:

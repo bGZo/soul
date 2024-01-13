@@ -1,7 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium 
-start-date:: 20230514
-public:: true
+created:: 20230514
 
 - ## Content
   - <iframe src="https://leetcode.cn/problems/distant-barcodes" style="height: 400px"></iframe>

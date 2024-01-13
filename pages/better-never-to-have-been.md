@@ -4,13 +4,13 @@ alias:: book/宁可不曾存在过, Better Never to Have Been The Harm of Coming
 tags:: 
 author:: David Benatar
 publisher:: Oxford University Press
-published-date:: 20080915
+published-created:: 20080915
 isbn:: 9780199549269
-start-date:: 20230121
-end-date:: 
+created:: 20230121
+closed:: 
 douban:: [Better Never to Have Been (豆瓣)](https://book.douban.com/subject/4685115/)
 goodreads:: [Better Never to Have Been: The Harm of Coming into Existence by David Benatar | Goodreads](https://www.goodreads.com/book/show/660518.Better_Never_to_Have_Been#?ref=nav_comm)
-define:: *Better Never to Have Been* argues for a number of related, highly provocative, views: (1) Coming into existence is always a serious harm. (2) It is always wrong to have children. (3) It is wrong not to abort fetuses at the earlier stages of gestation. (4) It would be better if, as a result of there being no new people, humanity became extinct. These views may sound unbelievable--but anyone who reads Benatar will be obliged to take them seriously.
+mark:: *Better Never to Have Been* argues for a number of related, highly provocative, views: (1) Coming into existence is always a serious harm. (2) It is always wrong to have children. (3) It is wrong not to abort fetuses at the earlier stages of gestation. (4) It would be better if, as a result of there being no new people, humanity became extinct. These views may sound unbelievable--but anyone who reads Benatar will be obliged to take them seriously.
 mark::
 
 - ![better-never-to-have-been-the-harm-of-coming-into-existence.pdf](../assets/better-never-to-have-been-the-harm-of-coming-into-existence_1674274322218_0.pdf)
@@ -18,10 +18,10 @@ mark::
   desc:: 
   tags:: #video/short
   author:: 
-  published-date:: 
+  published-created:: 
   mark:: 
-  start-date:: 20230121
-  end::
+  created:: 20230121
+  closed::
   - {{video https://www.youtube.com/watch?v=Ltdngo86GdY}}
     - {{youtube-timestamp 0}} Begin
 - ## 📄 Contents

@@ -1,14 +1,14 @@
 alias:: 年度, 年度总结, 复盘
 icon:: 📅
 tags:: #scheduled 
-public:: true
-start-date:: 20230602
+
+date:: 20230602
 title:: yearly
 
 - ## Why
   - Work flow.
 - ## How
-  - 基本每一个平台都会有年度总结, 如果我要聚合所有的平台的链接, 那会永无止境, 我只能在入门的时候多看看这个平台的年度数据. Especially [[hobby]]
+  - 基本每一个平台都会有年度总结, 如果我要聚合所有的平台的链接, 那会永无止境, 我只能在入门的时候多看看这个平台的年度数据. Especially [[Hobby]]
     collapsed:: true
     - You know what, actually I don't give a fuck to this garbage ranking.
       - Only when **you are newer to fields or you are busy all years**, you would need this.
@@ -19,7 +19,7 @@ title:: yearly
     - WAIT Github Trend
   - [[reading]]
     collapsed:: true
-    - 年度书单 #book
+    - 年度书单 #Book
       - [纽约时报](https://nytimes.com/2022/11/29/books/best-books-2022.html)
       - [经济学人](https://economist.com/culture/2022/12/06/these-are-the-economists-best-books-of-2022)
       - [华尔街日报](https://wsj.com/articles/the-best-reading-of-2022-11670613727)
@@ -27,7 +27,7 @@ title:: yearly
       - [金融时报](https://ft.com/content/2dd61d03-13ac-4278-8214-678c1d9a33c1)
       - [纽约客](https://newyorker.com/best-books-2022)
       - Via: https://www.chongbuluo.com/thread-14426-1-1.html
-  - #### [[news]]
+  - #### News
     collapsed:: true
     - WAIT Hacker News
   - [[We Media]]
@@ -36,7 +36,7 @@ title:: yearly
   - [[databases]]
     collapsed:: true
     - [Bangumi 年鉴 | BEST OF 2022](https://bgm.tv/award/2022)
-  - [[podcast]]
+  - [[Podcast]]
     collapsed:: true
     - [2022小宇宙播客大赏](https://annual.podcast.xyz/2022)
     - [Most popular podcasts of 2022 - Apple Podcasts for Creators](https://podcasters.apple.com/4704-news-2022-eoy-charts)

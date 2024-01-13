@@ -4,7 +4,7 @@ tags:: #garbage_collection
 - ## [Java (JVM) Memory Model - Memory Management in Java | DigitalOcean](https://www.digitalocean.com/community/tutorials/java-jvm-memory-model-memory-management-in-java)
   ![](../assets/Java-Memory-Model.png)
   - ### Young Generation
-    define:: the place where all the new objects are created
+    mark:: the place where all the new objects are created
     - GC => **Minor GC**
     - #### Java Memory Model
       - Eden Memory
@@ -12,10 +12,10 @@ tags:: #garbage_collection
   - ### Old Generation, Tenured
     - GC => **Major GC**
     - #### Stop the World Event
-      define:: **all GC is this event**, which means all application threads are stopped until the operation completes.
+      mark:: **all GC is this event**, which means all application threads are stopped until the operation completes.
     - #### Java Memory Model
       - 永久代 Permanent Generation, Perm Gen
-        define:: contains the application metadata required by the JVM to describe the classes and methods used in the application
+        mark:: contains the application metadata required by the JVM to describe the classes and methods used in the application
         - collapsed:: true
           #+BEGIN_WARNING
           Perm Gen is not part of Java Heap memory, and changed name to **Metaspace** since [[java/8]]. The most significant difference is **how it handles memory allocation**. Specifically, this native memory region grows automatically by default.
@@ -27,18 +27,18 @@ tags:: #garbage_collection
             - *MinMetaspaceFreeRatio – *is the minimum percentage of class metadata capacity free after [garbage collection](https://www.baeldung.com/jvm-garbage-collectors)
             - *MaxMetaspaceFreeRatio *– is the maximum percentage of class metadata capacity free after a garbage collection to avoid a reduction in the amount of space
         - 方法区 Method Area
-          define:: Store class structure (runtime constants and static variables) and code for methods and constructors.
+          mark:: Store class structure (runtime constants and static variables) and code for methods and constructors.
           - 常量池 Runtime Constant Pool
-            define:: per-class runtime representation of constant pool in a class. (类中常量池的每个类运行时表示形式). It contains class runtime constants and static methods.
+            mark:: per-class runtime representation of constant pool in a class. (类中常量池的每个类运行时表示形式). It contains class runtime constants and static methods.
         - 内存池 Memory Pool
-          define:: Create a pool of immutable objects if the implementation supports it. like String Pool.
+          mark:: Create a pool of immutable objects if the implementation supports it. like String Pool.
           - #+BEGIN_WARNING
             Memory Pool can belong to Heap or Perm Gen, depending on the JVM memory manager implementation.
             属于堆还是永久代取决于 JVM 内存管理的实现
             #+END_WARNING
           -
       - 栈内存 Java Stack Memory
-        define:: used for execution of a thread. They contain method specific values that are short-lived and references to other objects in the heap that is getting referred from the method.
+        mark:: used for execution of a thread. They contain method specific values that are short-lived and references to other objects in the heap that is getting referred from the method.
         - #+BEGIN_WARNING
           Stack memory belongs to the non-heap memory of JVM. It is allocated for each thread that runs in the JVM. Stack memory is used to store local variables and method calls for each thread.
           #+END_WARNING

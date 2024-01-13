@@ -9,12 +9,12 @@ tags:: #data, #info, #knowledge, #wisdom
       - as symbol
     - Information
       - > "Information is inferred from data"
-        > "Classically," states a recent text, "information is defined as data that are **endowed with meaning and purpose**"
+        > "Classically," states a recent text, "information is mark:: d as data that are **endowed with meaning and purpose**"
       - Structural vs. functional
       - Symbolic vs. subjective
   - \#Create
     - Knowledge
-      - > "knowledge is defined with **reference to information**"
+      - > "knowledge is mark:: d with **reference to information**"
         > "All knowledge is tacit"
         > "Knowledge is a fluid mix of framed experience, values, contextual information, expert insight and grounded intuition that provides an environment and framework for evaluating and incorporating new experiences and information. It originates and is applied in the minds of knowers. In organizations it often becomes embedded not only in documents and repositories but also in organizational routines, processes, practices and norms."
       - as processed

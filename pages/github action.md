@@ -1,8 +1,8 @@
 alias:: github/action
-define:: makes it easy to automate all your software workflows, now with world-class CI/CD.
+mark:: makes it easy to automate all your software workflows, now with world-class CI/CD.
 icon:: 🔁
-public:: true
-start-date:: 20230625
+
+date:: 20230625
 title:: github action
 
 - ## Why

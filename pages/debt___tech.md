@@ -1,5 +1,5 @@
 alias:: technical debt, design debt, code debt, 技术债
-define:: Analogous with monetary debt, if technical debt is not repaid, it can accumulate "interest", making it harder to implement changes. (与货币债务类似，如果不偿还技术债务，它会积累“利息”，使实施变革变得更加困难)
+mark:: Analogous with monetary debt, if technical debt is not repaid, it can accumulate "interest", making it harder to implement changes. (与货币债务类似，如果不偿还技术债务，它会积累“利息”，使实施变革变得更加困难)
 mark:: [Technical debt - Wikipedia](https://en.wikipedia.org/wiki/Technical_debt)
 
   - > Shipping first time code is like going into debt. A little debt speeds development so long as it is paid back promptly with a rewrite... The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. Entire engineering organizations can be brought to a stand-still under the debt load of an unconsolidated implementation, object-oriented or otherwise.
@@ -9,5 +9,5 @@ mark:: [Technical debt - Wikipedia](https://en.wikipedia.org/wiki/Technical_debt
     >
     [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham) (1992-03-26). ["The WyCash Portfolio Management System"](http://c2.com/doc/oopsla92.html). Retrieved 2008-09-26.
   - I agree so much. "Only install the plugins when you can read and understand the source code."
-    start-date:: 20230215
+    created:: 20230215
     - ![Logseq_212.png](../assets/Logseq_212_1676439263372_0.png)

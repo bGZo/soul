@@ -1,5 +1,5 @@
 title:: maths/graph/topological
-define:: 拓扑图
+mark:: 拓扑图
 
 -
 - [[sort]] | 拓扑排序

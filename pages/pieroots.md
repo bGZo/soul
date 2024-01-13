@@ -1,10 +1,10 @@
 icon::  
 title:: pieroots
 alias:: Word Power Made Easy
-define:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
+mark:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
 tags:: #English #telegram/channel #subscription #DOING 
-url:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
-start-date:: 20221220
+source:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
+created:: 20221220
 mark::
 
 - Content

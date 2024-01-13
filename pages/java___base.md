@@ -1,5 +1,5 @@
 title:: java/base
-define:: java syntax
+mark:: java syntax
 
 - ## Type (8)
   collapsed:: true
@@ -112,7 +112,7 @@ define:: java syntax
   - Java中则专门用field及method, (via: [java语言规范](https://docs.oracle.com/javase/specs/jls/se14/html/jls-8.html#jls-8.1.6)), 其中只用field及method，从来没有用过“member variable"或”member function"这样的说法。
     - Java中的field，一般译为"字段“（包括官方jdk文档的中译版，[这里](https://www.cjsdn.net/Doc/JDK60/java/lang/Math.html)有个早期的备份), 但是Sun公司被Oracle收购后就没有出过新版的官方中文API文档), 在这个官方的文档中, 也是将一个类的文档分成“字段 | 构造方法 | 方法”三个部分。
     - 阿里巴巴是Java的重度使用者，并且开发有专门的JDK实现版本，他们也都将field翻译为字段(via: https://github.com/alibaba/p3c) 其中的 阿里巴巴Java开发手册（泰山版）.pdf
-  - C#（csharp)语言，微软的国际化是做得比较完备的，它的语言规范中，都是将field译为”字段“，via: https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/language-specification/classes#fields
+  - C\#（csharp)语言，微软的国际化是做得比较完备的，它的语言规范中，都是将field译为”字段“，via: https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/language-specification/classes#fields
   - Python语言的官方中文文档中，将称“数据成员”称为”属性“（注意它没有用过“成员变量”一词），via: https://docs.python.org/zh-cn/3/tutorial/classes.html#class-definition-syntax
   - 数据库领域中，field也无一例外地译为“字段”。
 - `method` -> 功能/操作

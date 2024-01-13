@@ -1,4 +1,4 @@
-define:: 精神分析
+mark:: 精神分析
 tags:: TODO
 
 - 黑格尔
