@@ -8,9 +8,9 @@ alias:: 专辑, music/album
       alias:: 
       tags:: #album
       artisit:: 
-      released_date:: 
+      released_created:: 
       mark:: 
-      start-date:: <% today %>
+      created:: <% today %>
       - ### Description
         -
       - ### Songs #.ol
@@ -21,7 +21,7 @@ alias:: 专辑, music/album
       alias:: 
       tags:: #band 
       mark:: 
-      start-date:: <% today %>
+      created:: <% today %>
     - ## Members
       -
     - ## Description

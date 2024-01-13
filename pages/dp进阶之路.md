@@ -3,7 +3,7 @@ tags:: [[dynamic-programming]], #[[algo]], TODO
 author:: 邓丝雨
 publisher:: 
 published-date:: 20161011
-url:: ![dp进阶之路](../assets/algo/dp/dp进阶之路.pdf);
+source:: ![dp进阶之路](../assets/algo/dp/dp进阶之路.pdf);
 
 -
 - Digests

@@ -1,8 +1,8 @@
 alias:: 推特
-define:: an online social media and social networking service owned and operated by American company X Corp., the successor of Twitter, Inc. 
-tags:: #[[social media]]  
-public:: true
-start-date:: 20230615
+mark:: an online social media and social networking service owned and operated by American company X Corp., the successor of Twitter, Inc. 
+tags:: #[[Social Media]]  
+
+date:: 20230615
 title:: twitter
 wikipedia:: [Twitter - Wikipedia](https://en.wikipedia.org/wiki/Twitter)
 
@@ -10,7 +10,7 @@ wikipedia:: [Twitter - Wikipedia](https://en.wikipedia.org/wiki/Twitter)
 - ## How
   - How to use twitter list and manage following people?
     collapsed:: true
-    - List 中的人要不要关注? #discuss
+    - List 中的人要不要关注? #Discuss
       - ==我个人选择不关注, 因为日常供给我的选择越多==, 但是, 这样阅读 List 又会把别人对我没有什么价值的信息传达给我
   - How to use twitter likes and bookmarks?
     collapsed:: true

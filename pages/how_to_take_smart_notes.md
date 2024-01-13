@@ -5,14 +5,14 @@ tags:: #learning/learning #note
 author:: 申克·阿伦斯
 translator:: 陈琳
 publisher:: 人民邮电出版社
-published-date:: 20210700
+published-created:: 20210700
 isbn:: 9787115564672
-start-date:: 20220124
-end-date:: 
+created:: 20220124
+closed:: 
 douban:: [卡片笔记写作法 (豆瓣)](https://book.douban.com/subject/35503571/)
 goodreads:: 
 weread:: [卡片笔记写作法：如何实现从阅读到写作-申克·阿伦斯-微信读书](https://weread.qq.com/web/bookDetail/3d8326d072552e803d87c41)
-define:: 德国著名学者卢曼基于学习心理学的洞察，借鉴久经考验的笔记技术，使用卡片盒笔记写作法，积累了 9万张知识卡片，一生中写了 58本书和上百篇论文。本书是该系统的第一本中文综合指南和说明，本书分为三个部分，第一个部分从写作知识、写作准备、写作能力和注意事项四个角度概述写作的基本问题；第二部分总结了有效写作的四个原则；第三部分是成功写作的六个步骤。详细解释了卡片盒笔记写作法的工作原理和具体写作方法，这一方法可以帮助我们将精力集中在真正重要的事情上——思考、理解和提出新的写作思路，而不用将时间浪费在寻找笔记、资料或参考文献上。无论你喜欢用笔和纸，还是喜欢在Windows、Mac或Linux上做笔记都没关系，这个方法都能够轻松应用。
+mark:: 德国著名学者卢曼基于学习心理学的洞察，借鉴久经考验的笔记技术，使用卡片盒笔记写作法，积累了 9万张知识卡片，一生中写了 58本书和上百篇论文。本书是该系统的第一本中文综合指南和说明，本书分为三个部分，第一个部分从写作知识、写作准备、写作能力和注意事项四个角度概述写作的基本问题；第二部分总结了有效写作的四个原则；第三部分是成功写作的六个步骤。详细解释了卡片盒笔记写作法的工作原理和具体写作方法，这一方法可以帮助我们将精力集中在真正重要的事情上——思考、理解和提出新的写作思路，而不用将时间浪费在寻找笔记、资料或参考文献上。无论你喜欢用笔和纸，还是喜欢在Windows、Mac或Linux上做笔记都没关系，这个方法都能够轻松应用。
 cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:height 982, :width 686}
 
 - ## CONTENTS
@@ -179,13 +179,13 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
         并会**延长我们再次集中注意力所需要的时间**
         - 区分不同的注意力
           - **集中注意力**
-            define:: 需要意志力来维持的注意力
+            mark:: 需要意志力来维持的注意力
           - **心流**
             author:: 米哈里·契克森米哈赖 (Mihaly Csikszentmihalyi)
-            start-date:: 1970s
-            define:: 不需要过多依赖意志力和努力的其他形式的注意力
+            created:: 1970s
+            mark:: 不需要过多依赖意志力和努力的其他形式的注意力
           - **持续注意**
-            define:: 需要我们在较长的时间内保持对一项任务的关注
+            mark:: 需要我们在较长的时间内保持对一项任务的关注
           - #+BEGIN_IMPORTANT
             集中的注意力必然会受到持续增长的外界干扰的影响，并且随着时间的推移，我们练习专注力的机会越来越少，人们注意力的平均持续时间似乎也大大缩减了
             **How to 练习专注力?** #TODO/workout
@@ -256,7 +256,7 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
           - 驱动力或意志力
         - 各种各样的事情都可能导致自我损耗
           - 自我损耗
-            define:: 由于先前的意志力消耗，导致再进行其他需要耗费意志力资源的行为 (包括控制环境、控制自我、做出选择和采取行动等行为) 时，自我的能力和意愿出现的暂时降低
+            mark:: 由于先前的意志力消耗，导致再进行其他需要耗费意志力资源的行为 (包括控制环境、控制自我、做出选择和采取行动等行为) 时，自我的能力和意愿出现的暂时降低
             author:: Baumeister et al
           - 最聪明的方法是“欺骗”
             - **想办法让我们感觉自己喜欢去做那些能够推动项目前进的事情**。在不需要运用太多意志力的情况下完成需要完成的工作
@@ -281,7 +281,7 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
         - 提取一篇文章或一种思想的要点，并以书面形式加以说明
           - 这绝不是单纯的练习，而是每天要重复多次的刻意练习
         - 拥有“普世智慧”的人
-          define:: 拥有大量思考工具并知道如何应用的人
+          mark:: 拥有大量思考工具并知道如何应用的人
           authot:: 伯克希尔·哈撒韦公司 (Berkshire Hathaway) 副主席查理·芒格(Charlie Munger)
         - 如果没有指导，那该如何掌握这样的能力呢
           - **最好的方法不是摘录，而是做笔记**，就是对所阅读的文本进行浓缩重写
@@ -351,10 +351,10 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     tags:: 
     author:: 
     publisher:: 
-    published-date:: 
+    published-created:: 
     isbn:: 
-    start-date:: 20230125
-    end-date:: 
+    created:: 20230125
+    closed:: 
     douban:: [费曼学习法（用输出倒逼输入） (豆瓣)](https://book.douban.com/subject/35368398/)
     goodreads:: 
     weread:: [费曼学习法-尹红心 李伟-微信读书](https://weread.qq.com/web/bookDetail/6eb32330723b4e476ebec59)
@@ -364,10 +364,10 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     tags:: 
     author:: 
     publisher:: 
-    published-date:: 
+    published-created:: 
     isbn:: 
-    start-date:: 20230125
-    end-date:: 
+    created:: 20230125
+    closed:: 
     douban:: [西蒙学习法 (豆瓣)](https://book.douban.com/subject/36087707/)
     goodreads:: 
     weread:: [西蒙学习法：如何在短时间内快速学会新知识-友荣方略　著-微信读书](https://weread.qq.com/web/bookDetail/a7f32050813ab73e5g017342)
@@ -377,10 +377,10 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     tags:: 
     author:: 
     publisher:: 
-    published-date:: 
+    published-created:: 
     isbn:: 
-    start-date:: 20230125
-    end-date:: 
+    created:: 20230125
+    closed:: 
     douban:: 
     goodreads:: 
     weread:: [如何高效学习：1年完成麻省理工4年33门课程的整体性学习法-斯科特·扬-微信读书](https://weread.qq.com/web/bookDetail/0683235058c1e6068bd239f)

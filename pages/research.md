@@ -4,7 +4,7 @@ tags:: TODO
 -
 - ## academic fields
   -
-- ## [[philosophy]]
+- ## [[Philosophy]]
   - Constructivism
   - Empiricism
   - Positivism / Antipositivism / Postpositivism

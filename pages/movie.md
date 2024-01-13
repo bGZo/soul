@@ -8,34 +8,34 @@ alias:: video/movie
       title:: 
       alias:: 
       desc:: 
-      tags:: #video #movie 
+      tags:: #Video #movie 
       director:: 
       sreenwriter:: 
       actor:: 
-      published-date:: 
+      published-created:: 
       douban:: 
       imdb:: https://www.imdb.com/title/
       rt:: 
       mark:: 
-      start-date:: <% today %>
-      end::
+      created:: <% today %>
+      closed::
   - template:: page/movie
     template-including-parent:: false
     - icon:: 🎬
       title:: 
       alias:: 
       desc:: 
-      tags:: #video #movie 
+      tags:: #Video #movie 
       director:: 
       sreenwriter:: 
       actor:: 
-      published-date:: 
+      published-created:: 
       douban:: 
       imdb:: https://www.imdb.com/title/
       rt:: 
       mark:: 
-      start-date:: <% today %>
-      end::
+      created:: <% today %>
+      closed::
 - ## Factories
   collapsed:: true
   - Dream Works

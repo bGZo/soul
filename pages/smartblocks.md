@@ -3,14 +3,14 @@ alias::
 desc:: 
 tags:: #logseq/plugin 
 author:: 
-url:: 
+source:: 
 mark:: 
-start-date:: 20221213
-end::
+created:: 20221213
+closed::
 
 - [[Issue]]
   - TODO [#B] The block properties would be missing
-    url:: [The block properties would be missing · Issue #46 · sawhney17/logseq-smartblocks](https://github.com/sawhney17/logseq-smartblocks/issues/46)
+    source:: [The block properties would be missing · Issue #46 · sawhney17/logseq-smartblocks](https://github.com/sawhney17/logseq-smartblocks/issues/46)
     collapsed:: true
     - Here is my template:
       - ```
@@ -19,7 +19,7 @@ end::
         - title:: 
           desc:: 
           tags:: 
-          url:: 
+          source:: 
           mark:: 
           start-date:: 
           end::
@@ -35,7 +35,7 @@ end::
         - title:: 
           desc:: 
           tags:: 
-          url:: 
+          source:: 
           mark:: 
           start-date:: 
           end::

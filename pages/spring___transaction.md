@@ -1,4 +1,4 @@
 title:: spring/transaction
 alias:: transaction/spring
 tags:: TODO
-define:: Spring 事务
+mark:: Spring 事务

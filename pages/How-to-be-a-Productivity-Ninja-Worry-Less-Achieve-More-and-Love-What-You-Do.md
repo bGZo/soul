@@ -1,9 +1,9 @@
 alias:: book/高效忍者
-tags:: #[[productivity]], TODO
+tags:: #[[Productivity]], TODO
 author:: [英]格雷厄姆·阿尔科特
 publisher:: 后浪
 published-date:: 20190700
-url:: [高效忍者 (豆瓣)](https://book.douban.com/subject/34436016/)
+source:: [高效忍者 (豆瓣)](https://book.douban.com/subject/34436016/)
 
 - Digests
   - 前言

@@ -1,6 +1,5 @@
 alias:: 开支
-start-date:: 20230529
-public:: true
+created:: 20230529
 
 - {{query (property cost)}}
   query-table:: true

@@ -1,6 +1,6 @@
 icon:: 🐧
-public:: true
-start-date:: 20230906
+
+date:: 20230906
 tags:: #Ubuntu
 title:: How to/manage application on Ubuntu
 

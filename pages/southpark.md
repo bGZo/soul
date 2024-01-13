@@ -1,6 +1,6 @@
 title:: southpark
 alias:: South Park, video/south-park
-start-date:: 20221201
+created:: 20221201
 
 - collapsed:: true
   > 南方公园最有意思的一点是他什么都反对，反对言论自由，反对言论不自由;反对政治正确，反对政治不正确；反对信仰自由，反对信仰不自由；反对非法移民，反对移民非法~~~

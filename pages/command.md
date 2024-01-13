@@ -1,16 +1,15 @@
 alias:: 命令
 icon:: ⌘
-public:: true
-start-date:: 20230625
+
+date:: 20230625
 title:: command
 
   - Linux Manual
     template:: command-man
     template-including-parent:: false
     - alias:: commands/``{c.page.name}``
-      start-date:: ``{ date.now.format('YYYYMMDD') }``
+      created:: ``{ date.now.format('YYYYMMDD') }``
       icon:: ⌘
-      public:: true
     - ## Why
     - ## How
     - ## What
@@ -404,7 +403,7 @@ title:: command
         - nohup
         - killall
         - pkill
-    - ### Manual #Start_Page
+    - ### Manual #[[Start Page]]
       collapsed:: true
       - [Linux 常用命令全拼 | 菜鸟教程](https://www.runoob.com/w3cnote/linux-command-full-fight.html)  (runoob.com)
         collapsed:: true

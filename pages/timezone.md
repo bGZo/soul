@@ -1,8 +1,8 @@
 alias:: time/zone, 时区
-define:: Area which observes a uniform standard time for legal, commercial and social purposes.
+mark:: Area which observes a uniform standard time for legal, commercial and social purposes.
 icon:: 🕛
-public:: true
-start-date:: 20230626
+
+date:: 20230626
 title:: timezone
 wikipedia:: [Time zone - Wikipedia](https://en.wikipedia.org/wiki/Time_zone)
 

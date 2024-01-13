@@ -1,7 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/simple #tree
-start-date:: 20230206
-public:: true
+created:: 20230206
 
 - ## Content
   - <iframe src="https://leetcode.cn/problems/evaluate-boolean-binary-tree" style="height: 400px"></iframe>

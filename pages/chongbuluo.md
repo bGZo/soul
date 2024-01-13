@@ -1,7 +1,7 @@
-define:: 虫部落
-url:: [虫部落 - 让搜索更简单](https://www.chongbuluo.com/)
+mark:: 虫部落
+source:: [虫部落 - 让搜索更简单](https://www.chongbuluo.com/)
 
-- [[question]]
+- [[Question]]
   - [虫部落邀请码第17期题目：用搜索引擎来弥补遗憾 - 题库 - 虫部落](https://www.chongbuluo.com/thread-6016-1-1.html)
     collapsed:: true
     - >1. 请问截止到 200.11.18 ，Google 搜索引擎索引的网页数量已经高达多少？(答案为 10 亿的都不认为是准确数据）

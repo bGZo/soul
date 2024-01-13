@@ -108,7 +108,7 @@ alias:: 中国
     - 主管社会团体
       collapsed:: true
       - 中国思想政治工作研究会
-- 央企 #job
+- 央企 #Job
   - 98 家实业类中央企业 #.ol
     collapsed:: true
     - 中国核工业集团有限公司

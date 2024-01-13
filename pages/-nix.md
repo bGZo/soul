@@ -14,11 +14,11 @@ tags:: TODO
   - [ruby - What is the meaning of *nix? - Stack Overflow](https://stackoverflow.com/questions/4715374/what-is-the-meaning-of-nix)
   - [Unix-like - Wikipedia](https://en.wikipedia.org/wiki/Unix-like)
 - alias:: *nix
-  define:: 
+  mark:: 
   icon:: 
   tags:: 
-  public:: true
-  start-date:: 20230629
+  
+  date:: 20230629
   title:: -nix
 - ## Why
   -

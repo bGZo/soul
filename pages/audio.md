@@ -10,5 +10,5 @@ alias:: voice
   - 差分 / さぶん
     mark:: 一个CG或者立绘上大体相同，但如表情，眼神等局部细节不同，一般就成为差分CG或者立绘；via: [NGA玩家社区](https://ngabbs.com/read.php?tid=14528252&page=1#pid286147318Anchor)
 -
-## ↩ Reference
+- ## ↩ Reference
   - [^Monaural]: via [Monaural - Wikipedia](https://en.wikipedia.org/wiki/Monaural)

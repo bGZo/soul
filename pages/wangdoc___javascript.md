@@ -1,5 +1,5 @@
 title:: wangdoc/javascript
-url:: https://wangdoc.com/javascript/
+source:: https://wangdoc.com/javascript/
 
 - 1. 入门篇
 - 2. 数据类型

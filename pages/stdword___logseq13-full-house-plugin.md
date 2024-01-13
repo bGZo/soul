@@ -1,5 +1,5 @@
 tags:: #changelog/wiki #changelog/broken/
-public:: true
+
 
 - ## [Logseq Templates you will really love ❤️](https://github.com/stdword/logseq13-full-house-plugin)
   - [Any way to get variables' value in custom commands? - #7 by Roby_Ho - Questions & Help - Logseq](https://discuss.logseq.com/t/any-way-to-get-variables-value-in-custom-commands/15994/7)

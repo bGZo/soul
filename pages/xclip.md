@@ -1,7 +1,6 @@
 alias:: commands/xclip
-start-date:: 20231015
+created:: 20231015
 icon:: ⌘
-public:: true
 
 - ## Why
 - ## How

@@ -4,7 +4,7 @@ tags::
 author:: 乔舒亚·巴克曼 Joshua Barkman
 publisher:: 四川文艺出版社
 published-date:: 20211101
-url:: [我能有什么坏心思呢 (豆瓣)](https://book.douban.com/subject/35632117/)
+source:: [我能有什么坏心思呢 (豆瓣)](https://book.douban.com/subject/35632117/)
 
 -
 - Digests

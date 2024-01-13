@@ -1,8 +1,8 @@
 title:: mschmidtkorth/logseq-msk-docs
 tags:: #Github #Logseq #Tutorial 
-url:: [mschmidtkorth/logseq-msk-docs: Unofficial Logseq documentation.](https://github.com/mschmidtkorth/logseq-msk-docs) ![](https://img.shields.io/github/stars/mschmidtkorth/logseq-msk-docs)
-start-date:: 20221218
-end-date:: 
+source:: [mschmidtkorth/logseq-msk-docs: Unofficial Logseq documentation.](https://github.com/mschmidtkorth/logseq-msk-docs) ![](https://img.shields.io/github/stars/mschmidtkorth/logseq-msk-docs)
+created:: 20221218
+closed:: 
 mark::
 
 - [Queries/Advanced Queries/Tutorial](https://mschmidtkorth.github.io/logseq-msk-docs/#/page/queries%2Fadvanced%20queries%2Ftutorial)

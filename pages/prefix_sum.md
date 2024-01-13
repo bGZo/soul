@@ -14,7 +14,7 @@ alias:: algo/prefix_sum, 前缀最大和, 前缀和
   - **[思路]** 把数组输入和计算并行处理, 利用b[i]=a[i]+b[i-1]; 需要注意的是 ==两个数组第一项相等==
   - ```cpp
     #include<iostream>
-    #define ll long long
+    #mark::  ll long long
     using namespace std;
     
     ll data[10000];

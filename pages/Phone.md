@@ -1,8 +1,8 @@
 alias:: 手机
 icon:: 📱
 tags:: #3C 
-public:: true
-start-date:: 20230719
+
+date:: 20230719
 title:: Phone
 
 - ## Why

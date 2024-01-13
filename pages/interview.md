@@ -1,11 +1,11 @@
 title:: interview
-define:: 压力考试
+mark:: 压力考试
 tags:: 
 author:: 
-url:: 
+source:: 
 mark:: 
-start-date:: 20221124
-end::
+created:: 20221124
+closed::
 
 - ## Categories
   - 无领导讨论

@@ -1,6 +1,6 @@
-tags:: #philosophy
+tags:: #Philosophy
 mark:: [Philosophy - YouTube](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR)
-start-date:: 20220101
+created:: 20220101
 
 - ## Why
 - ## How
@@ -154,7 +154,7 @@ start-date:: 20220101
         > ---- 阿瑟·柯南·道尔爵士《四签名》第六章 夏洛克 福尔摩斯
     - Conclusion
       collapsed:: true
-      - Deductive reasoning, or deduction, is making an inference based on widely accepted facts or premises. If a beverage is defined as "drinkable through a straw," one could use deduction to determine soup to be a beverage.
+      - Deductive reasoning, or deduction, is making an inference based on widely accepted facts or premises. If a beverage is mark:: d as "drinkable through a straw," one could use deduction to determine soup to be a beverage.
       - Inductive reasoning, or induction, is making an inference based on an observation, often of a sample. You can induce that the soup is tasty if you observe all of your friends consuming it.
       - Abductive reasoning, or abduction, is making a probable conclusion from what you know. If you see an abandoned bowl of hot soup on the table, you can use abduction to conclude the owner of the soup is likely returning soon.
     - 哲学家寻求真理

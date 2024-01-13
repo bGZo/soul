@@ -1,8 +1,8 @@
 title:: WSL
 alias:: Windows Subsystem For Linux
 tags:: #Windows #Linux #-nix #tools #Github #Microsoft
-url:: [microsoft/WSL: Issues found on WSL](https://github.com/microsoft/WSL) ![](https://img.shields.io/github/stars/microsoft/WSL)
-start-date:: 202104
+source:: [microsoft/WSL: Issues found on WSL](https://github.com/microsoft/WSL) ![](https://img.shields.io/github/stars/microsoft/WSL)
+created:: 202104
 
 - ## [[Quickref]]
   - Open in `explore.exe` #PowerShell #Windows

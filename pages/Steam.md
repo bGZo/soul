@@ -1,7 +1,7 @@
 icon:: 🎮
 tags:: game/platform
-public:: true
-start-date:: 20230704
+
+date:: 20230704
 title:: Steam
 
 - ## Why
@@ -11,7 +11,7 @@ title:: Steam
     - Steam cache **locaton**: `C:\Program Files (x86)\Steam\appcache\librarycache`
     - Lunch game quickly: `steam://launch/<id>`
       - via: [Steam browser protocol - Valve Developer Community (valvesoftware.com)](https://developer.valvesoftware.com/wiki/Steam_browser_protocol)
-  - #closed
+  - #Closed
     - DONE [Steam Support - Suspicious Content Lock](https://help.steampowered.com/en/wizard/HelpWithSuspiciousContent)
       collapsed:: true
       - I use a google drive link then suspicious for 16 years. Just stay support reply.

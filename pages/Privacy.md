@@ -3,7 +3,7 @@ alias:: 隐私
 tags:: #Topic
 
 - Refs
-  - [[discuss]]
+  - [[Discuss]]
     collapsed:: true
     - > 跟踪器就内嵌在你每天使用的 app 中: 每一款 app 平均含有 6 个跟踪器[1], 大多数热门的 Android 和 iOS app 中都含有嵌入式跟踪器 [2] [3].
       

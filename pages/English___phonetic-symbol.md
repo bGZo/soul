@@ -1,6 +1,6 @@
 title:: English/phonetic-symbol
 alias:: 
-define:: 音标
+mark:: 音标
 
 -
 -

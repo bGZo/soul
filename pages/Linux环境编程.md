@@ -1,5 +1,5 @@
 alias:: book/Linux环境编程
-url:: https://weread.qq.com/web/reader/53232cf05caf46532cc8384kc81322c012c81e728d9d180
+source:: https://weread.qq.com/web/reader/53232cf05caf46532cc8384kc81322c012c81e728d9d180
 
 - ## Q&A
   - [[posix]] vs [[-nix]]

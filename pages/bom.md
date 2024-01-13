@@ -1,6 +1,6 @@
 alias:: javascript/bom, web/api/bom
 tags:: #Browser 
-define:: Browser Object Model / 浏览器对象模型
+mark:: Browser Object Model / 浏览器对象模型
 
 -
 - 浏览器模型概述

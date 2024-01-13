@@ -1,5 +1,5 @@
-tags:: TODO, #philosophy
-define:: 认识论
+tags:: TODO, #Philosophy
+mark:: 认识论
 
   - epistemology
     - phonetic

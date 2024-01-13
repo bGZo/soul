@@ -1,9 +1,9 @@
 title:: vitamineE
 alias:: podcast/vitamineE
-define:: 维生素E 
-tags:: #podcast, #philosophy 
+mark:: 维生素E 
+tags:: #Podcast, #Philosophy 
 author:: 
-url:: 
+source:: 
 mark:: tg://resolve?domain=vitamineEpodcast
-start-date:: 20221201
-end::
+created:: 20221201
+closed::

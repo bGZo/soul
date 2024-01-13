@@ -1,9 +1,9 @@
 alias:: 
-define:: 
+mark:: 
 icon:: 
 tags:: 
-public:: true
-start-date:: 20230709
+
+date:: 20230709
 title:: tailwind
 
 - ## Why

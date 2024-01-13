@@ -1,5 +1,5 @@
 alias:: 糖尿病
-start-date:: 2022
+created:: 2022
 
 - diabetes mellitus, DM
   - 一型 (制造)

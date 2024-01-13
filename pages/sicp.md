@@ -3,7 +3,7 @@ author::
 publisher:: 
 published-date:: 
 tags:: TODO
-url:: https://book.douban.com/subject/
+source:: https://book.douban.com/subject/
 
 - ## Ch1 [Building Abstractions with Procedures](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-9.html#%_chap_1)
   collapsed:: true

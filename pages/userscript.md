@@ -1,8 +1,8 @@
 alias:: 用户脚本
-define:: a program, usually written in JavaScript, for modifying web pages to augment browsing.
+mark:: a program, usually written in JavaScript, for modifying web pages to augment browsing.
 tags:: #javascript 
-public:: true
-start-date:: 20230615
+
+date:: 20230615
 title:: userscript
 wikipedia:: [Userscript - Wikipedia](https://en.wikipedia.org/wiki/Userscript)
 

@@ -1,7 +1,7 @@
 alias:: 安卓
 tags:: #Phone #google 
-start-date:: 2020-05-01T17:14:48+08:00
-define:: Android 是一个由 google 主导的移动设备开源系统, 根据Android开源项目(AOSP), 手机厂商可以创建定制的 Android 操作系统版本, 将设备和配件移植到 Android 平台.
+created:: 2020-05-01T17:14:48+08:00
+mark:: Android 是一个由 google 主导的移动设备开源系统, 根据Android开源项目(AOSP), 手机厂商可以创建定制的 Android 操作系统版本, 将设备和配件移植到 Android 平台.
 
 - ## [[bookmark]]
   - [Download APK Fast, Free and Safe on Android](https://apkpure.com/)

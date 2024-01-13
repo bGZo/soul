@@ -1,5 +1,5 @@
 alias:: www
-define:: World Wide Web
+mark:: World Wide Web
 
   - History
     - Web 1.0

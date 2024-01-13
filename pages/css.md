@@ -1,6 +1,6 @@
 alias:: Cascading Style Sheets, 层叠样式表, 串样式列表, 级联样式表, 串接样式表, 阶层式样式表
 tags:: #lang/programming/domain-specific #web
-define:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护
+mark:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护
 
 - ## [[Quickref]]
   - ### unit
@@ -15,7 +15,7 @@ define:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或X
       REM is the newer unit, older browsers don't support it.
       via: [PX to REM converter (instantly and bidirectional)](https://nekocalc.com/px-to-rem-converter)
       #+END_NOTE
-    - **px –** It defines the font-size in terms of pixels. (96px = 1in)
+    - **px –** It mark:: s the font-size in terms of pixels. (96px = 1in)
     - **vh –** Relative to 1% of the height of the viewport.
     - **vw –** Relative to 1% of the width of the viewport.
     - More
@@ -45,7 +45,7 @@ define:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或X
       #+END_NOTE
 - ## Basics
   - `position`
-    define:: defines the position of an element in a document
+    mark:: mark:: s the position of an element in a document
     - five values #.ol
       - static
       - relative

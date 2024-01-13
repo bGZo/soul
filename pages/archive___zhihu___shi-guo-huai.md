@@ -1,6 +1,6 @@
 title:: archive/zhihu/shi-guo-huai
-define:: 时国怀
-url:: [时国怀 - 知乎](https://www.zhihu.com/people/shi-guo-huai)
+mark:: 时国怀
+source:: [时国怀 - 知乎](https://www.zhihu.com/people/shi-guo-huai)
 collapsed:: true
 
   - [有些人现在起就一辈子不会见了 想到这会不会就有莫名得悲伤？](https://www.zhihu.com/question/22375641/answer/21160254)

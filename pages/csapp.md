@@ -5,10 +5,10 @@ tags:: #CMU
 author:: Randal E.Bryant, David O'Hallaron
 translator:: 
 publisher:: 机械工业出版社
-published-date:: 20161100
+published-created:: 20161100
 isbn:: 9787111544937
-start-date:: 20230324
-end-date:: 
+created:: 20230324
+closed:: 
 douban:: [深入理解计算机系统（原书第3版） (豆瓣)](https://book.douban.com/subject/26912767/)
 goodreads:: 
 weread:: 

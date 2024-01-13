@@ -1,5 +1,5 @@
 tags:: #booklist #reading
-public:: true
+
 
 - ## #.ol [汉译世界学术名著丛书](https://weread.qq.com/misc/booklist/14214625_6VYjyGxUk)
   collapsed:: true

@@ -1,9 +1,9 @@
 alias:: 游戏
-define:: 
+mark:: 
 icon:: 🎮
-tags:: #acgn
-public:: true
-start-date:: 20230815
+tags:: #ACGN
+
+date:: 20230815
 title:: Game
 
   - template:: game
@@ -14,18 +14,18 @@ title:: Game
       alias:: 
       desc:: 
       tags:: #Game 
-      released-date:: 
+      released-created:: 
       developer:: 
       publisher:: 
       bangumi:: 
       douban:: 
       mark:: 
-      start-date:: <% today %>
+      created:: <% today %>
 - ## Why
 - ## How
 - ## What
-  - 我们一定要对一件事情有看法吗? 为什么我们一定要有看法? #discuss
-  - Play pirated game, then buy it future. #discuss
+  - 我们一定要对一件事情有看法吗? 为什么我们一定要有看法? #Discuss
+  - Play pirated game, then buy it future. #Discuss
     collapsed:: true
     - "补票" 这个词是中国游戏圈一个特有的词汇, 国外基本没有这样的用法, 传统上我们讲:
       - > 凡应凭票方能获得的某种权利，如缺少票证，需按规定补全称为补票。多用于乘坐车船。

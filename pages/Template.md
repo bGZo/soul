@@ -1,18 +1,20 @@
-alias:: 模板
-collapsed:: true
-public:: true
-start-date:: 20230531
-title:: Template
+---
+alias: 模板
+collapsed: true
+created: 20230531
+title: Template
+---
 
   - template:: page
     template-including-parent:: false
-    collapsed:: true
-    - alias:: 
-      define:: 
-      icon:: 
-      start-date:: ``{ date.now.format('YYYYMMDD') }``
-      tags:: 
-      title:: ``{ c.page.name }``
+    - ---
+      alias: 
+      mark: 
+      icon: 
+      date: ``{ date.now.format('YYYYMMDD') }``
+      tags: 
+      title: ``{ c.page.name }``
+      ---
     - ## Why
       -
     - ## How
@@ -22,13 +24,15 @@ title:: Template
   - template:: page/public
     template-including-parent:: false
     collapsed:: true
-    - alias:: 
-      define:: 
-      icon:: 
-      public:: true
-      start-date:: ``{ date.now.format('YYYYMMDD') }``
-      tags:: 
-      title:: ``{ c.page.name }``
+    - ---
+      alias: 
+      mark: 
+      icon: 
+      
+      date: ``{ date.now.format('YYYYMMDD') }``
+      tags: 
+      title: ``{ c.page.name }``
+      ---
     - ## Why
       -
     - ## How
@@ -51,9 +55,9 @@ title:: Template
         template-including-parent:: false
         - alias:: 
         	collapsed:: true
-          define:: 
+          mark:: 
         	icon::
-      	public:: true
+      	
       	start-date:: ``{ date.now.format('YYYYMMDD') }``
       	tags:: 
       	title:: ``{ c.page.name }``
@@ -61,7 +65,7 @@ title:: Template
       - Other properties options references
         collapsed:: true
         - ```yml
-          url:: 
+          source:: 
           :: 
           title:: 
           #========#
@@ -100,7 +104,7 @@ title:: Template
         changelog:: 
         community:: 
         mark:: 
-        start-date:: <% today %>
+        created:: <% today %>
       - #+BEGIN_PINNED
         <!-- Rules -->
         #+END_PINNED
@@ -110,7 +114,7 @@ title:: Template
       - ## [[bookmark]]
         -
       - ## [[Issue]]
-        - #closed
+        - #Closed
           -
         -
       - ## 📃 Reference

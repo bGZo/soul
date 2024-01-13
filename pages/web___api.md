@@ -1,6 +1,6 @@
 title:: web/api
 alias:: api/web
-define::  an application programming interface for either a web server or a web browser
+mark::  an application programming interface for either a web server or a web browser
 
 - Refs
   - [Web API - Wikipedia](https://en.wikipedia.org/wiki/Web_API)

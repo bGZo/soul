@@ -5,10 +5,10 @@ tags:: #database
 author:: Abraham Silberschatz, Henry F.Korth, S.Sudarshan
 translator:: 杨冬青, 李红燕, 唐世渭
 publisher:: 机械工业出版社
-published-date:: 20120300
+published-created:: 20120300
 isbn:: 9787111375296
-start-date:: 20230328
-end-date:: 
+created:: 20230328
+closed:: 
 douban:: https://book.douban.com/subject/10548379/
 goodreads:: 
 weread:: 

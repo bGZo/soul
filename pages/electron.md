@@ -1,10 +1,10 @@
 title:: electron
 alias:: 
 desc:: 
-tags:: #Github #framework #nodejs #cross-platform #html #css #javascript #TODO
-start-date:: 20200801
+tags:: #Github #Framework #nodejs #cross-platform #html #css #javascript #TODO
+created:: 20200801
 mark::
-url:: [electron/electron](https://github.com/electron/electron) ![](https://img.shields.io/github/stars/electron/electron)
+source:: [electron/electron](https://github.com/electron/electron) ![](https://img.shields.io/github/stars/electron/electron)
 mark:: [Build cross-platform desktop apps with JavaScript, HTML, and CSS | Electron](https://www.electronjs.org/)
 
   - [Electron](https://github.com/electron/electron), html/css/js的跨平台应用开发框架, 额外需要用到[NodeJS](http://nodejs.cn/learn)

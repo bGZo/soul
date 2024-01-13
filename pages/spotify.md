@@ -2,8 +2,7 @@ alias:: 声破天
 title:: spotify
 tags:: #music/platform
 cost:: 1
-start-date:: 20220320
-public:: true
+created:: 20220320
 
 - ## Why this [[music/platform]]
   - To be first, Netease and QQ music both have censored and comments design, which is really wasting time.

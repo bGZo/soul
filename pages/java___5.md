@@ -12,7 +12,7 @@ mark:: [Java 5.0 - 維基百科，自由的百科全書](https://zh.wikipedia.or
   - 自动封箱拆箱(Autoboxing/Unboxing)
     - 八大基本类型和它们的包装类能够自动的相互转换
     - 自动装箱 (Autoboxing)
-      define:: 把一个基本类型变量直接赋给对应的包装类变量，或者赋给Object变量 (Object是所有类的父类，子类对象可以直接赋给父类变量)
+      mark:: 把一个基本类型变量直接赋给对应的包装类变量，或者赋给Object变量 (Object是所有类的父类，子类对象可以直接赋给父类变量)
       - ```java
         public class AutoBoxingUnboxing{
           public static void main(String[] args){

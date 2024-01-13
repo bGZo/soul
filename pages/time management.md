@@ -21,7 +21,7 @@ wikipedia:: [Time management - Wikipedia](https://en.wikipedia.org/wiki/Time_man
     collapsed:: true
     - An acronym for "Prioritize by Organizing, Streamlining, Economizing and Contributing"
     - Inherent in the acronym is a hierarchy of self-realization, which mirrors [[needs/hierarchy]].
-      - **P**rioritize your time and define your life by goals.
+      - **P**rioritize your time and mark::  your life by goals.
         优先考虑您的时间，并通过目标定义您的生活。
       - **O**rganize things you have to accomplish regularly to be successful (family and finances).
         组织您必须定期完成的事情才能取得成功（家庭和财务）。

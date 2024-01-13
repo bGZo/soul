@@ -299,7 +299,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 #include <stdio.h>
                 #include <unistd.h>
                 
-                #define MAXLINE 4096
+                #mark::  MAXLINE 4096
                 
                 void client(int readfd,int writefd){
                     size_t len;
@@ -325,7 +325,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 #include <sys/stat.h>
                 #include <fcntl.h>
                 
-                #define MAXLINE 4096
+                #mark::  MAXLINE 4096
                 
                 void server(int readfd,int writefd){
                     char buf[MAXLINE];

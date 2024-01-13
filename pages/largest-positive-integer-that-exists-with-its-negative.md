@@ -1,7 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/simple #hashtable #two-pointers  
-start-date:: 20230513
-public:: true
+created:: 20230513
 
 - ## Content
   - <iframe src="https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative" style="height: 400px"></iframe>

@@ -3,7 +3,7 @@ tags:: #learning, #Github
 author:: 李笑来
 publisher:: 
 published-date:: 20190314
-url:: [selfteaching/the-craft-of-selfteaching: One has no future if one couldn't teach themself.](https://github.com/selfteaching/the-craft-of-selfteaching) ![](https://img.shields.io/github/stars/selfteaching/the-craft-of-selfteaching)
+source:: [selfteaching/the-craft-of-selfteaching: One has no future if one couldn't teach themself.](https://github.com/selfteaching/the-craft-of-selfteaching) ![](https://img.shields.io/github/stars/selfteaching/the-craft-of-selfteaching)
 
 - Digest
   collapsed:: true

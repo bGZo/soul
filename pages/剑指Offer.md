@@ -1,13 +1,13 @@
 icon:: 📖
 title:: 剑指Offer
 alias:: book/剑指Offer
-tags:: #book #develop #question 
+tags:: #Book #develop #Question 
 author:: 何海涛
 publisher:: 电子工业出版社
-published-date:: 20170500
+published-created:: 20170500
 isbn:: 9787121310928 / 9787121415203
-start-date:: 20221204
-end-date:: 
+created:: 20221204
+closed:: 
 douban:: [剑指Offer：名企面试官精讲典型编程题（第2版） (豆瓣)](https://book.douban.com/subject/27008702/); [剑指Offer（专项突破版）：数据结构与算法名企面试题精讲 (豆瓣)](https://book.douban.com/subject/35543447/)
 goodreads:: 
 weread:: [剑指Offer（专项突破版）：数据结构与算法名企面试题精讲-何海涛-微信读书](https://weread.qq.com/web/bookDetail/4e132bc07263ff664e11075)

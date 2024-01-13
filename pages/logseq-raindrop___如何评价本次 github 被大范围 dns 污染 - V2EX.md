@@ -1,7 +1,7 @@
 title:: logseq-raindrop/如何评价本次 github 被大范围 dns 污染 - V2EX
 raindrop-id:: 482602275
 raindrop-title:: 如何评价本次 github 被大范围 dns 污染 - V2EX
-raindrop-url:: https://www.v2ex.com/t/900605
+raindrop-source:: https://www.v2ex.com/t/900605
 tags:: TODO
 
 -

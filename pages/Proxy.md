@@ -1,12 +1,12 @@
-collapsed:: true
-alias:: 代理, 翻墙, 科学上网
-cost:: 3
-icon:: ✈
-public:: true
-start-date:: 20230602
-title:: Proxy
+---
+collapsed: true
+alias: 代理, 翻墙, 科学上网
+cost: 3
+icon: ✈
+created: 20230602
+title: Proxy
+---
 
-  -
 - ## Why
   - Due to [[GFW]] )
 - ## How
@@ -234,7 +234,7 @@ title:: Proxy
             - <https://typeblog.net/life/2015/08/21/long-live-shadowsocks.html>
         - 8.21：传出 @clowwindy 被请去喝茶的消息
           collapsed:: true
-          - 他在 shadowsocks-windows 的 #305 issue 下回复道
+          - 他在 shadowsocks-windows 的 \#305 issue 下回复道
           - > I was invited for some tea yesterday. I won’t be able to continue developing this project.
           - 同时开启了 twitter 的隐私保护，除先前关注者外无法查看动态
           - 晚：@clowwindy 发布了 _thanks._ 后的推文，证明人没事

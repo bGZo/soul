@@ -10,8 +10,8 @@ tags::
 douban:: 
 goodreads:: 
 weread:: 
-public:: true
-start-date:: 20230708
+
+date:: 20230708
 title:: The_Great_Gatsby
 
 - ## Contents

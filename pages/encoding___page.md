@@ -517,7 +517,7 @@ title:: encoding/page
   -
   - [Windows code page](https://en.wikipedia.org/wiki/Windows_code_page)
     collapsed:: true
-    These code pages are used by Microsoft in its own Windows operating system. Microsoft defined [a number of code pages](https://en.wikipedia.org/wiki/Windows_code_pages) known as the ANSI code pages (as the first one, 1252 was based on an [apocryphal](https://en.wikipedia.org/wiki/Apocrypha) ANSI draft of what became [ISO 8859-1](https://en.wikipedia.org/wiki/ISO_8859-1)). Code page 1252 is built on ISO 8859-1 but uses the range 0x80-0x9F for extra printable characters rather than the C1 control codes used in ISO-8859-1. Some of the others are based in part on other parts of [ISO 8859](https://en.wikipedia.org/wiki/ISO_8859) but often rearranged to make them closer to 1252.
+    These code pages are used by Microsoft in its own Windows operating system. Microsoft mark:: d [a number of code pages](https://en.wikipedia.org/wiki/Windows_code_pages) known as the ANSI code pages (as the first one, 1252 was based on an [apocryphal](https://en.wikipedia.org/wiki/Apocrypha) ANSI draft of what became [ISO 8859-1](https://en.wikipedia.org/wiki/ISO_8859-1)). Code page 1252 is built on ISO 8859-1 but uses the range 0x80-0x9F for extra printable characters rather than the C1 control codes used in ISO-8859-1. Some of the others are based in part on other parts of [ISO 8859](https://en.wikipedia.org/wiki/ISO_8859) but often rearranged to make them closer to 1252.
     - [874](https://en.wikipedia.org/wiki/Code_page_1162) – Windows [Thai](https://en.wikipedia.org/wiki/Thai_script)
     - [1250](https://en.wikipedia.org/wiki/Code_page_1250) – Windows [Central Europe](https://en.wikipedia.org/wiki/Central_Europe)
     - [1251](https://en.wikipedia.org/wiki/Code_page_1251) – Windows [Cyrillic](https://en.wikipedia.org/wiki/Cyrillic_script)
@@ -540,7 +540,7 @@ title:: encoding/page
   -
   - MS-DOS code pages
     collapsed:: true
-    These code pages are used by Microsoft in its MS-DOS operating system. Microsoft refers to these as the OEM code pages because they were defined by the [OEMs](https://en.wikipedia.org/wiki/Original_equipment_manufacturer) who licensed MS-DOS for distribution with their hardware, not by Microsoft or a standards organization. Most of these code pages have the same number as the equivalent IBM code pages, although they are not **exactly** identical. There are minimum differences in some code pages from IBM and Microsoft.
+    These code pages are used by Microsoft in its MS-DOS operating system. Microsoft refers to these as the OEM code pages because they were mark:: d by the [OEMs](https://en.wikipedia.org/wiki/Original_equipment_manufacturer) who licensed MS-DOS for distribution with their hardware, not by Microsoft or a standards organization. Most of these code pages have the same number as the equivalent IBM code pages, although they are not **exactly** identical. There are minimum differences in some code pages from IBM and Microsoft.
     - [708](https://en.wikipedia.org/wiki/Code_page_708) – Arabic (ASMO 708)
     - [709](https://en.wikipedia.org/w/index.php?title=Code_page_709&action=edit&redlink=1) – Arabic ([ASMO 449+](https://en.wikipedia.org/wiki/Code_page_ASMO449%2B)/BCON V4)
     - [710](https://en.wikipedia.org/w/index.php?title=Code_page_710&action=edit&redlink=1) – Arabic (Transparent Arabic)

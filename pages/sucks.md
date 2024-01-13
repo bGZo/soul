@@ -143,7 +143,7 @@ alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
       - ......
   - Content farm just want to increasing SEO, wasting time. | 内容农场
     - [[seo]] Key Words Ranking [侵权?]
-      define:: 利用 RSS 二次分发内容创作者的内容; 内容农场; 创建各种关键字以提高 SEO 排名
+      mark:: 利用 RSS 二次分发内容创作者的内容; 内容农场; 创建各种关键字以提高 SEO 排名
       collapsed:: true
       - [ALiyun](https://www.aliyun.com)
       - [TencentCloud](https://cloud.tencent.com/)
@@ -253,7 +253,7 @@ alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
       - collapsed:: true
         >您使用了广告拦截器，导致本站内容无法显示。
         请将 www.ruanyifeng.com 加入白名单，解除广告屏蔽后，刷新页面。谢谢。
-- [[job]]
+- [[Job]]
   collapsed:: true
   - `{{query (and [[job]] [[black-list]])}}`
     query-table:: false

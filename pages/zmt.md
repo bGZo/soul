@@ -1,4 +1,4 @@
-url:: https://zmt.pub
+source:: https://zmt.pub
 rss:: https://zmt.pub/feed
 tags:: blog
 

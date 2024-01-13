@@ -1,22 +1,24 @@
 alias:: 项目
-define:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
+mark:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 icon:: 📂
-public:: true
-start-date:: 20230623
+
+date:: 20230623
 title:: Project
 
   - template:: project
     template-including-parent:: false
     collapsed:: true
-    - alias:: 
-      define:: 
-      icon:: 📂
-      tags:: #Project
-      public:: true
-      start-date:: ``{ date.now.format('YYYYMMDD') }``
-      title:: ``{ c.page.name }``
+    - ---
+      alias: 
+      mark: 
+      icon: 📂
+      tags: #Project
+      created: ``{ date.now.format('YYYYMMDD') }``
+      title: ``{ c.page.name }``
+      ---
     - ## Project Meta
-      - DOING #Project [[``{ c.page.name }``]]
+      collapsed:: true
+      - \DOING #Project [[``{ c.page.name }``]]
       - query-table:: false
         collapsed:: true
         #+BEGIN_QUERY
@@ -57,10 +59,13 @@ title:: Project
         }
         #+END_QUERY
     - ## Why
+      collapsed:: true
       -
     - ## How
+      collapsed:: true
       -
     - ## What
+      collapsed:: true
       - ### \# Program Description
         - #### Input
           -
@@ -118,12 +123,19 @@ title:: Project
       CLOCK: [2022-11-05 Sat 15:42:51]
       :END:
       - Raindrop
-      - Browser History Unlimited
+        - [Matter](https://getmatter.app/)
+        -
       - Mirror Site
         - Wikipedia
           - [维基媒体下载](https://dumps.wikimedia.org/)
           - [架设Wikipedia的本地镜像(Linux联盟收集整理)_CSDN博客](https://blog.csdn.net/zengxianghu/article/details/6472573)
         - via: [有一天物理断网，哪些东西是你要存储起来的 - V2EX](https://www.v2ex.com/t/876861)
+      - 无限延期
+        - WAITING [Browser History Unlimited](https://chromewebstore.google.com/detail/history-trends-unlimited/pnmchffiealhkdloeffcdnbgdnedheme)
+          - > Will you make a version of the extension for Firefox? 
+            Yes, once it is possible to do so. Keep an eye on Firefox [issue 1673477](https://bugzilla.mozilla.org/show_bug.cgi?id=1673477). Once it is fixed, I should be able to port this extension to Firefox. And please see FAQ \#11: The extension is closed source, so forks are not allowed. 
+            >— [History Trends Unlimited - FAQ](https://sites.google.com/view/history-trends-unlimited/faq)
+          - 两插件双向数据不互通，这个插件的数据无法导入 FF，FF上只有这个[替代](https://github.com/Christoph-Wagner/firefox-better-history-ng)
     - WAIT Music Studio
       - music.bgzo.cc -> My Favs
         - 完全静态的听歌网站
@@ -146,7 +158,7 @@ title:: Project
     - WAIT [[sort]] 可视化
       - [如何可视化「排序算法」 - 知乎](https://zhuanlan.zhihu.com/p/31314248)
       - [数据结构和算法动态可视化 (Chinese) - VisuAlgo](https://visualgo.net/zh)
-    - WAIT #acgn Blog Theme / combine with origin blog?
+    - WAIT #ACGN Blog Theme / combine with origin blog?
       - 把 Git Blog 改造成为 Jekyll 博客
       - **重要特性**: 支持**搜索**
       - 博客 != 教程
@@ -207,20 +219,20 @@ title:: Project
     collapsed:: true
     - https://cuvids.io/app/video/97/watch/ #[[algorithms4E]]
     - x86_64 Linux Assembly
-      url:: https://www.youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn
+      source:: https://www.youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn
       collapsed:: true
       - {{video https://www.youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn}}
     - Java源码盘起来！演示搭建JDK源码阅读环境，利用IDEA搭建Java源码阅读环境视频教程_哔哩哔哩_bilibili
-      url:: https://www.bilibili.com/video/BV1V7411U78L
+      source:: https://www.bilibili.com/video/BV1V7411U78L
       collapsed:: true
       - {{video https://www.bilibili.com/video/BV1V7411U78L}}
     - 尚硅谷最新版JavaWeb全套教程,java web零基础入门完整版_哔哩哔哩_bilibili
-      url:: https://www.bilibili.com/video/BV1Y7411K7zz?p=117
+      source:: https://www.bilibili.com/video/BV1Y7411K7zz?p=117
       collapsed:: true
       - {{video https://www.bilibili.com/video/BV1Y7411K7zz?p=117}}
       -
     - 5 ways to vertically center with CSS
-      url:: https://www.youtube.com/watch?v=qJVVZYTYA9U
+      source:: https://www.youtube.com/watch?v=qJVVZYTYA9U
       collapsed:: true
       - {{video https://www.youtube.com/watch?v=qJVVZYTYA9U}}
     - 操作系统真相还原 via: [doctording/os: 《操作系统真相还原》笔记](https://github.com/doctording/os)

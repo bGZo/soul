@@ -1,5 +1,5 @@
 title:: my/blog
-tags:: #blog #jekyll #vercel
+tags:: #Blog #jekyll #vercel
 mark:: [Home - bGZo's blog](http://blog.bgzo.cc)
 
 - ## [[Issue]]

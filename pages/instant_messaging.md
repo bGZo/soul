@@ -1,5 +1,5 @@
 alias:: IM, Instant Messaging
-define:: used by social messengers, messaging apps or chat apps 
+mark:: used by social messengers, messaging apps or chat apps 
 mark:: [Instant messaging - Wikipedia](https://en.wikipedia.org/wiki/Instant_messaging);
 
 - ## IM [[Protocols]]

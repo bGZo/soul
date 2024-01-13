@@ -1,5 +1,5 @@
 tags:: #Project
-url:: http://bgzo.cc
+source:: http://bgzo.cc
 
 - ## [[Issue]]
   - [Getting 'blocked:other' error status from the browser - In Angular application, I made a rest api call to fetch the information from the server - Stack Overflow](https://stackoverflow.com/questions/56048166/getting-blockedother-error-status-from-the-browser-in-angular-application)

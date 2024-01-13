@@ -162,7 +162,7 @@ icon:: 💾
     collapsed:: true
     - We **do** plan to keep adding to this content here on Khan Academy, so check back here every few months for updates.
       via: [Where to go from here (article) | Algorithms | Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/algorithms-more-learning/a/where-to-go-from-here)
-- [[discuss]]
+- [[Discuss]]
   collapsed:: true
   - [你觉得哪些技术点觉得难，哪些觉得简单 - V2EX](https://www.v2ex.com/t/854363#r_11685524)
     - 其实都是隔行如隔山的问题，真正处理业务代码都不难，用到数学知识觉得难了，学会了又不难了。另外越底层越难显然是误解，以前学生时代导师做 IC 设计，IC 底层大都执行一些相当单纯的逻辑，在该视角的工程师来看是不复杂的。同理，你做系统级编程会发现，系统的基础组件也在处理很死板的逻辑。写业务代码的不了解所以就感觉难了
@@ -1917,7 +1917,7 @@ icon:: 💾
   - 一个国家刚刚大规模爆发疫情，每天感染几千万，很可能会产生新的变异毒株，官方对于实际传染病例数字不予公布，然后心急火燎地开放国内游客的出国行，旁边的国家不害怕那才叫见鬼了呢。
   - 《V字仇杀队》（V for Vendetta）的豆瓣条目被删除了。
   - 【2022年十大流行语发布】经过读者征集、网友投票、专家和媒体评选，《咬文嚼字》编辑部26日公布了“2022年十大流行语”，分别为：踔厉奋发、勇毅前行；中国式现代化；新赛道；大白；烟火气；天花板；拿捏；雪糕刺客；精神内耗；沉浸式。 https://t.co/rePqg07ytw
-- #book
+- #Book
   collapsed:: true
   - 1、鸠摩搜索 (https://www.jiumodiary.com/)：除了资源多，鸠摩还贴心地按照不同的格式对书籍进行了分类；
   - 2、电子书搜索 (https://ebook.chongbuluo.com/)： 快搜电子书搜索，有多个资源站点可选择
@@ -2140,7 +2140,7 @@ icon:: 💾
     4.
     你都能想到的国家能想不到吗？
     国家这么大上边也不可能面面俱到
-- #job
+- #Job
   collapsed:: true
   - 酷安夜话
     去面试吧
@@ -2915,7 +2915,7 @@ icon:: 💾
       - 在 VSC 上，一般都是搜索文件名，或者直接全文搜索。把站点构建逻辑也梳理过 https://www.wener.tech/story/how-i-build-my-site 刚好最近进行了一些迁移 https://www.v2ex.com/t/885020
     - 2
       - google doc 用了差不多 10 年，这个界面就可以全局搜索： https://drive.google.com/drive/my-drive
-  - [有没有这样一个开源应用？可以存储 epub， mobi 等格式的书籍，然后拿起任何一部设备都能读？ - V2EX](https://www.v2ex.com/t/884988) #[[book]]
+  - [有没有这样一个开源应用？可以存储 epub， mobi 等格式的书籍，然后拿起任何一部设备都能读？ - V2EX](https://www.v2ex.com/t/884988) #[[Book]]
     collapsed:: true
     - 我反推一下，猜猜隐藏的商业诉求
     - 1 、自己手里一堆 pdf epub 盗版书籍，想给很多人看
@@ -2940,7 +2940,7 @@ icon:: 💾
     - 6 、由于版权限制的原因，很多流媒体服务商限制来自中国的网络请求，例如 Netflix/Disney+/Paramount+/Peacock/Showtime/Starz/Tubi/VUDU/PlutoTV 等。同样你需要使用 VPN 服务来解除这些限制，这种 VPN 与上面用来访问 Internet 的 VPN 不同，不一定可以直接连接，但是他们是流媒体友好的，你需要在其他 VPN 已经提供服务的情况下再使用这些 VPN 。流媒体 VPN 推荐 ExpressVPN/PureVPN/NordVPN 等。
     - 7 、关于杂志和报纸，现在基本上比较流行的杂志都可以在线访问了，例如 TIME/New Yorker/NatGeo/Atlantic/Harpers/Foreign Affairs/Politico ，只是从阅读实体报刊变成了阅读电子版。
     - 8 、关于书籍的购买阅读，只要你有一个 4G/LTE 版本的 Amazon Kindle 阅读器，那么买电子书也不是问题。在中国可以很方便地购买和阅读 Amazon Kindle 商店中的各种图书，使用 Kindle Unlimited 服务也正常。
-  - [在这个美好的国庆，我被裁了。 - V2EX](https://www.v2ex.com/t/884316) #[[job]]
+  - [在这个美好的国庆，我被裁了。 - V2EX](https://www.v2ex.com/t/884316) #[[Job]]
     collapsed:: true
     - https://blog.forecho.com/receiving-unemployment-insurance-benefits-in-shenzhen.html
       分享我在深圳领失业保险金的经验

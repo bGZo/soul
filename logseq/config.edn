@@ -14,7 +14,7 @@
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
- :ui/enable-tooltip? false
+ :ui/enable-tooltip? true
 
  ;; Enable Block timestamp
  :feature/enable-block-timestamps? false
@@ -72,7 +72,7 @@
  ;; 2. ` ` empty space between keys represents key chords. eg: `t s` means press `s` follow by `t`
  ;; 3. `mod` means `Ctrl` for Windows/Linux  and `Command` for Mac
  ;; 4. use `false` to disable particular shortcut
- ;; 4. you can define multiple bindings for one action, eg `["ctrl+j" "down"]`
+ ;; 4. you can mark::  multiple bindings for one action, eg `["ctrl+j" "down"]`
  ;; full list of configurable shortcuts are available below:
  ;; https://github.com/logseq/logseq/blob/master/src/main/frontend/modules/shortcut/config.cljs
  ;; Example:
@@ -102,12 +102,12 @@
  ;; Whether to show empty bullets for non-document mode (the default mode)
  :ui/show-empty-bullets? false
 
- ;; Pre-defined :view function to use in Query
+ ;; Pre-mark:: d :view function to use in Query
  :query/views
  {:pprint
   (fn [r] [:pre.code (pprint r)])}
 
- ;; Pre-defined :result-transform function to use in Query
+ ;; Pre-mark:: d :result-transform function to use in Query
  :query/result-transforms
  {:sort-by-priority
   (fn [result] (sort-by (fn [h] (get h :block/priority "Z")) result))}
@@ -118,16 +118,18 @@
             ;; the "NOW" query asks the tasks which need to be finished "now",
             {:title "🔨 NOW"
              :query [:find (pull ?h [*])
-                     :in $ ?start ?today
+                     ;:in $ ?start ?today
                      :where
                      [?h :block/marker ?marker]
                      [(contains? #{"NOW" "DOING"} ?marker)]
-                     [?h :block/page ?p]
-                     [?p :block/journal? true]
-                     [?p :block/journal-day ?d]
-                     [(>= ?d ?start)]
-                     [(<= ?d ?today)]]
-             :inputs [:14d :today]
+                     ;[?h :block/page ?p]
+                     ;[?p :block/journal? true]
+                     ;[?p :block/page? true]
+                     ;[?p :block/journal-day ?d]
+                     ;[(>= ?d ?start)]
+                     ;[(<= ?d ?today)]
+                    ]
+             ;:inputs [:3650d :today]
              :result-transform (fn [result]
                                  (sort-by (fn [h]
                                             (get h :block/priority "Z")) result))
@@ -136,16 +138,17 @@
             ;; the "NEXT" query asks the future tasks.
             {:title "📅 NEXT"
              :query [:find (pull ?b [*])
-                     :in $ ?start ?next
+                     ;:in $ ?start ?next
                      :where
                      [?h :block/marker ?marker]
                      [(contains? #{"NOW" "LATER" "TODO"} ?marker)]
                      [?h :block/page ?p]
                      [?p :block/journal? true]
                      [?p :block/journal-day ?d]
-                     [(> ?d ?start)]
-                     [(< ?d ?next)]]
-             :inputs [:today :7d-after]
+                     ;[(> ?d ?start)]
+                     ;[(< ?d ?next)]
+                     ]
+             ;:inputs [:today :3650d-after]
              :collapsed? false}
 
             {:title "🗓️ Scheduled"
@@ -166,11 +169,12 @@
 
             {:title "🔥 OVERDUE"
              :query [:find (pull ?b [*])
-                     :in $ ?start ?today
+                    ; :in $ ?start ?today
                      :where
-                     (task ?b #{"NOW" "LATER" "TODO" "DOING" "WAIT" "WAITING"})
-                     (between ?b ?start ?today)]
-             :inputs [:-56d :today]
+                     (task ?b #{"NOW" "TODO"})
+                     ;(between ?b ?start ?today)
+                     ]
+           ;  :inputs [:-3650d :today]
              :collapsed? true}
             ]}
 
@@ -214,7 +218,7 @@
  ;; The default level to be opened for the linked references.
  :ref/default-open-blocks-level 1
 
- :favorites ["umass/453_computer_networking" "cmu/15-445_database_systems" "umass/computer_networking_top_down" "mit/6.042_Mathematics_for_Computer_Science" "java/interview" "database_system_concepts" "designing_data-intensive_applications" "csapp" "剑指Offer" "time/kill" "time/kill, entertainment" "start_page" "startpage" "issue" "topic" "star"]
+ :favorites ["659a4cc1-e22a-4359-a583-d609e4ddcd5a"]
 
  :ref/linked-references-collapsed-threshold 20
 
@@ -225,7 +229,7 @@
  
  :feature/enable-journals? true
 
- :ui/show-brackets? false
+ :ui/show-brackets? true
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -313,5 +317,9 @@
  :ui/show-full-blocks? true
 
  :ui/auto-expand-block-refs? false
+ 
+ :editor/logical-outdenting? true
+ 
+ :editor/preferred-pasting-file? true
 
  }

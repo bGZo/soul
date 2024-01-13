@@ -1,8 +1,8 @@
 alias:: 耳机 
 icon:: 🎧
 tags:: #3c
-public:: true
-start-date:: 20230719
+
+date:: 20230719
 title:: EarPhone
 
 - ## Why

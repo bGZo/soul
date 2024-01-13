@@ -1,13 +1,13 @@
 icon:: 📖
 title:: Microservices-Patterns-With-Examples-in-Java
 alias:: book/微服务架构设计模式
-tags:: #book #develop #microserver #Java
+tags:: #Book #develop #microserver #Java
 author:: [美] 克里斯·理查森（Chris Richardson）
 publisher:: 机械工业出版社
-published-date:: 20190500
+published-created:: 20190500
 isbn:: 9787111624127
-start-date:: 20221213
-end::
+created:: 20221213
+closed::
 douban:: [微服务架构设计模式 (豆瓣)](https://book.douban.com/subject/33425123/)
 goodreads:: [Microservices Patterns: With examples in Java by Chris Richardson, Manning Publications by Chris Richardson | Goodreads](https://www.goodreads.com/book/show/55612970-microservices-patterns)
 weread::
@@ -472,7 +472,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           - 每一个重要的系统操作都对应着架构层面的一个重大**场景**，是架构中需要详细描述和特别考虑的地方
       - 2.2.2 根据业务能力进行服务拆分
         mark:: **创建微服务架构的策略之一**
-        url:: [Decompose by business capability](https://microservices.io/patterns/decomposition/decompose-by-business-capability.html)
+        source:: [Decompose by business capability](https://microservices.io/patterns/decomposition/decompose-by-business-capability.html)
         - 业务能力
           - 一个来自于业务架构建模的术语
           - 指一些能够为公司（或组织）产生价值的商业活动
@@ -824,7 +824,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
             - 5.有时很难将多个更新操作映射到 HTTP 动词
       - 3.2.2 使用[gRPC(Remote Procedure Call)](http://www.grpc.io)
         id:: 639b0d75-e399-48dd-a4e6-0e2dc1f10b29
-        define:: 用于编写跨语言客户端和服务端的[框架](https://en.wikipedia.org/wiki/Remote_procedure_call)
+        mark:: 用于编写跨语言客户端和服务端的[框架](https://en.wikipedia.org/wiki/Remote_procedure_call)
         collapsed:: true
         - 引用原因
           collapsed:: true
@@ -909,13 +909,13 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
             }
           }
           ```
-          This example shows a simple gRPC client that sends a request to a server to say hello. The server's response is then printed to the console. This example demonstrates how to define a gRPC service, generate the necessary stubs and interfaces using the Protocol Buffers compiler, and implement a client that can communicate with the server using the gRPC API.
+          This example shows a simple gRPC client that sends a request to a server to say hello. The server's response is then printed to the console. This example demonstrates how to mark::  a gRPC service, generate the necessary stubs and interfaces using the Protocol Buffers compiler, and implement a client that can communicate with the server using the gRPC API.
           #chatGPT
           --------
       - 3.2.3 使用断路器模式处理局部故障
         collapsed:: true
         - 断路器模式
-          define:: "这是一个远程过程调用的代理，在连续失败次数超过指定阁值后的一段时间内，这个代理会立即拒绝其他调用"
+          mark:: "这是一个远程过程调用的代理，在连续失败次数超过指定阁值后的一段时间内，这个代理会立即拒绝其他调用"
           via:: https://microservices.io/patterns/reliability/circuit-breaker.html
         - ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671261044236_0.png)
           mark:: 如果Order Service 出问题: OrderServiceProxy 将无限期地阻塞. 等待响应. 最后整个 API 网关就会崩掉.

@@ -1,5 +1,5 @@
 title:: osi/transport
-define:: 建立**端到端**的连接
+mark:: 建立**端到端**的连接
 
 - OSI/Transport
   - UDP

@@ -2,8 +2,8 @@ alias:: 手柄, 手把
 icon:: 🎮
 tags:: #Game 
 wikipedia:: [Gamepad - Wikipedia](https://en.wikipedia.org/wiki/Gamepad)
-public:: true
-start-date:: 20230604
+
+date:: 20230604
 title:: gamepad
 
 - ## Why

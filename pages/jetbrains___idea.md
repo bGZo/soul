@@ -1,6 +1,6 @@
 alias:: IntelliJ-IDEA, IntelliJ IDEA
 tags:: #tools
-public:: true
+
 [IntelliJ IDEA – the Leading Java and Kotlin IDE (jetbrains.com)](https://www.jetbrains.com/idea/)
 
 -

@@ -1,11 +1,11 @@
 title:: spring/guides
-url:: https://spring.io/guides
+source:: https://spring.io/guides
 tags:: TODO
 
 -
 - Getting Started Guides
   - Building a RESTful Web Service
-    url:: [Getting Started | Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/#initial)
+    source:: [Getting Started | Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/#initial)
     collapsed:: true
     - In Spring’s approach to building RESTful web services, HTTP requests are handled by a controller.
     - Traditional MVC controller #vs RESTful web service controller
@@ -162,7 +162,7 @@ tags:: TODO
       - [开始使用 Jenkins](https://www.jenkins.io/zh/doc/pipeline/tour/getting-started/)
         - Jenkins Pipeline（或简称为 "Pipeline"）是一套插件，将持续交付的实现和实施集成到 Jenkins 中
   - Consuming a RESTful Web Service
-    url:: [Getting Started | Consuming a RESTful Web Service](https://spring.io/guides/gs/consuming-rest)
+    source:: [Getting Started | Consuming a RESTful Web Service](https://spring.io/guides/gs/consuming-rest)
     - ```java
       @SpringBootApplication
       public class ConsumingRestApplication {

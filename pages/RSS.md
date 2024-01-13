@@ -1,9 +1,9 @@
 alias:: RDF Site Summary, Really Simple Syndication, tools/rss
-define:: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
+mark:: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
 released-date:: 19990315
 wikipedia:: [RSS - Wikipedia](https://en.wikipedia.org/wiki/RSS)
 tags:: #info
-public:: true
+
 title:: RSS
 
 - ## Why
@@ -143,7 +143,7 @@ title:: RSS
         https://www.youtube.com/feeds/videos.xml?channel_id=<channel_id>
         https://www.youtube.com/feeds/videos.xml?playlist_id=<playlist_id>
         ```
-  - TODO And [[Backup]] and share your [[subscription]] [[monthly]] , including [[podcast]]
+  - TODO And [[Backup]] and share your [[subscription]] [[monthly]] , including [[Podcast]]
     SCHEDULED: <2023-12-01 Fri .+1m>
     :LOGBOOK:
     * State "DONE" from "DOING" [2023-02-05 Sun 00:51]
@@ -177,7 +177,7 @@ title:: RSS
   - How I connect each other tools and build [[Workflow]]?
     - ![image.png](../assets/works/infoflow.excalidraw.png)
       `[[draws/flow.book.excalidraw]]`
-      #book #reading #writing #flow
+      #Book #reading #writing #flow
       - When rss failed/[[404]], go to [Inoreader - Take back control of your news feed](https://www.inoreader.com/). Subscribe, and find the old articles.
       - When you seeing a good source, you shouldn't subscribe immediately, you should save a read latter and done it as soon as possible. Because it will accumulate while  you don't care it. Yet it might be a instant source, so it will be spam in the future.
         collapsed:: true
@@ -189,7 +189,7 @@ title:: RSS
         - 我想划线高亮, 我就必须跳转到原网站去阅读, 
           传统的 Rss Reader 全文抓取失去了意义
         - 稍后读 Read Latter 无所谓, 因为本来就打算在后者阅读
-      - 参考同类竞品 [[alternative]] [[read latter]] [[tools]]
+      - 参考同类竞品 [[Alternative]] [[read latter]] [[tools]]
         - [简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展](http://ksria.com/simpread/)
         - [Readwise](https://readwise.io/)
         - [Pocket: Home](https://getpocket.com/en/)

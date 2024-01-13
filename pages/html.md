@@ -1,10 +1,10 @@
 alias:: lang/programming/domain-specific/html
 tags:: #[[web]]
 icon:: 
-define:: "HTML, HyperText Markup Language, 网页文档的标准标记语言, 但是 HTML 把不同类型的元素，如 描述性元素 color、i 等 和 结构性元素 div、table 等，以及元素属性放在一起，为以后的维护和管理埋下隐患"
+mark:: "HTML, HyperText Markup Language, 网页文档的标准标记语言, 但是 HTML 把不同类型的元素，如 描述性元素 color、i 等 和 结构性元素 div、table 等，以及元素属性放在一起，为以后的维护和管理埋下隐患"
 
 - Elements
-  define:: everything from the start tag to the end tag
+  mark:: everything from the start tag to the end tag
   collapsed:: true
   - | Start tag | Element content | End tag |
     | <h1> | My First Heading | </h1> |
@@ -81,24 +81,24 @@ define:: "HTML, HyperText Markup Language, 网页文档的标准标记语言, �
       - more via: [HTML 标签列表(字母排序) | 菜鸟教程](https://www.runoob.com/tags/html-reference.html)
 -
 - Entities
-  define:: Reserved characters(保留字符) in HTML must be replaced with character entities(字符实体).
+  mark:: Reserved characters(保留字符) in HTML must be replaced with character entities(字符实体).
   - | Result | Description | Entity Name | Entity Number |
-    |  | non-breaking space | &nbsp; | &#160; |
-    | < | less than | &lt; | &#60; |
-    | > | greater than | &gt; | &#62; |
-    | & | ampersand | &amp; | &#38; |
-    | " | double quotation mark | &quot; | &#34; |
-    | ' | single quotation mark (apostrophe) | &apos; | &#39; |
-    | ¢ | cent | &cent; | &#162; |
-    | £ | pound | &pound; | &#163; |
-    | ¥ | yen | &yen; | &#165; |
-    | € | euro | &euro; | &#8364; |
-    | © | copyright | &copy; | &#169; |
-    | ® | registered trademark | &reg; | &#174; | |
+    |  | non-breaking space | &nbsp; | &\#160; |
+    | < | less than | &lt; | &\#60; |
+    | > | greater than | &gt; | &\#62; |
+    | & | ampersand | &amp; | &\#38; |
+    | " | double quotation mark | &quot; | &\#34; |
+    | ' | single quotation mark (apostrophe) | &apos; | &\#39; |
+    | ¢ | cent | &cent; | &\#162; |
+    | £ | pound | &pound; | &\#163; |
+    | ¥ | yen | &yen; | &\#165; |
+    | € | euro | &euro; | &\#8364; |
+    | © | copyright | &copy; | &\#169; |
+    | ® | registered trademark | &reg; | &\#174; | |
 - Layout
   collapsed:: true
   - **块(block)状元素**
-    define:: "在网页设计中，块状元素主要用来定义页面结构、布局网页、构建网页基本框架和结构。块状元素能够嵌套其他块状、行内等不同类型的元素，因此，它们主要负责网页结构的支撑和构建。HTML 4"
+    mark:: "在网页设计中，块状元素主要用来定义页面结构、布局网页、构建网页基本框架和结构。块状元素能够嵌套其他块状、行内等不同类型的元素，因此，它们主要负责网页结构的支撑和构建。HTML 4"
     collapsed:: true
     - html、body、frameset、frame、noframes、iframe：网页、框架基本结构块
     - form、fieldset、legend：表单结构块
@@ -144,7 +144,7 @@ define:: "HTML, HyperText Markup Language, 网页文档的标准标记语言, �
       - 它可以容纳内联元素和其他块元素
     - 内联标签
   - **行内元素 / 内联标签**
-    define:: "定义特定语义信息**。行内元素是不能用来进行网页结构构建的，虽然这样操作不会影响页面的解析效果，但是它不符合 HTML 结构嵌套规范，不建议使用。同时，也不建议在行内元素中包含其他块状元素，这样会严重破坏结构的逻辑关系。 HTML4"
+    mark:: "定义特定语义信息**。行内元素是不能用来进行网页结构构建的，虽然这样操作不会影响页面的解析效果，但是它不符合 HTML 结构嵌套规范，不建议使用。同时，也不建议在行内元素中包含其他块状元素，这样会严重破坏结构的逻辑关系。 HTML4"
     collapsed:: true
     - span：行内包含框。
     - a、area：超链接和映射包含框。
@@ -426,5 +426,5 @@ define:: "HTML, HyperText Markup Language, 网页文档的标准标记语言, �
   - [网页直接加QQ群/QQ好友](https://blog.csdn.net/qq_28975017/article/details/72898385) - coder丶赵
   - [想把文件直接放至服务器，通过http的url下载](https://blog.csdn.net/weixin_36586564/article/details/78774035?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task)-严的博客
   - [提高网页打开速度的一些小技巧 [问题点数：100分]]( https://bbs.csdn.net/topics/230010297)
-  - [不会再有 HTML6 了。 · Issue #91 · chunpu/blog](https://github.com/chunpu/blog/issues/91)
+  - [不会再有 HTML6 了。 · Issue \#91 · chunpu/blog](https://github.com/chunpu/blog/issues/91)
 -

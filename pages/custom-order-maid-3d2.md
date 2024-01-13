@@ -1,14 +1,14 @@
 title:: custom-order-maid-3d2
 alias:: CUSTOM_ORDER_MAID_3D2_Its_a_Night_Magic
-define:: 3D定制女仆2 / カスタムオーダーメイド3D2 /
+mark:: 3D定制女仆2 / カスタムオーダーメイド3D2 /
 tags:: #galgame, #hentai
 author:: 
-url:: [CUSTOM ORDER MAID 3D2](https://com3d2.world/r18/main.html)
+source:: [CUSTOM ORDER MAID 3D2](https://com3d2.world/r18/main.html)
 bangumi:: [カスタムメイド3D2 | Bangumi 番组计划](https://bgm.tv/subject/131547)
 douban:: [3D定制女仆2 カスタムメイド3D 2 (豆瓣)](https://www.douban.com/game/27591210/)
 mark:: 
-start-date:: 20221123
-end::
+created:: 20221123
+closed::
 
 - New desire
   collapsed:: true
@@ -19,14 +19,14 @@ end::
 - Before works
   collapsed:: true
   - カスタムメイド3D2
-    url:: [カスタムオーダーメイド3D2 | Bangumi 番组计划](https://bgm.tv/subject/238552)
+    source:: [カスタムオーダーメイド3D2 | Bangumi 番组计划](https://bgm.tv/subject/238552)
   - What's difference?
   -
 - Patch
   - [S-courtDL：Download](https://dl-en.s-court.me/download.php?itemid=104)
   - [CUSTOM ORDER MAID 3D2 Update](https://com3d2.world/r18/update/)
-- #Comment #my
-  url:: [游戏冷门, 就没人吐槽一下 Steam 的游玩感受吗? (不定期更新) (讨论:カスタムオーダーメイド3D2)](https://bgm.tv/subject/topic/23749); [Steam 社区 :: 💛 :: 评测 CUSTOM ORDER MAID 3D2 It's a Night Magic](https://steamcommunity.com/id/bgzotr/recommended/1097580/)
+- #Comment #My
+  source:: [游戏冷门, 就没人吐槽一下 Steam 的游玩感受吗? (不定期更新) (讨论:カスタムオーダーメイド3D2)](https://bgm.tv/subject/topic/23749); [Steam 社区 :: 💛 :: 评测 CUSTOM ORDER MAID 3D2 It's a Night Magic](https://steamcommunity.com/id/bgzotr/recommended/1097580/)
   - KISS&S-court 可太会了, 这游戏玩着就像是氪金手游, 掏空你钱包, 根本停不下来! 实在是太草了!!!
     - 如果你想给 Maid 添置 性格(人物) / 衣服,头发,体位(R18), 每样都需要购买 1 份 DLC!
     - 如果你想和你开局就送的 3 位 Maid 结婚, 抱歉, 再来 1 份 DLC!

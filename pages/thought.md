@@ -9,53 +9,53 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
   - Types of Thoughts
     collapsed:: true
     - Concept (概念)
-      define:: Mental representation or an abstract object
+      mark:: Mental representation or an abstract object
       - Abstract concept (抽象概念)
-        define:: Metaphysics concept covering the divide between two types of entities
+        mark:: Metaphysics concept covering the divide between two types of entities
       - Concrete concept (具体概念)
-        define:: Metaphysics concept covering the divide between two types of entities
+        mark:: Metaphysics concept covering the divide between two types of entities
     - Conjecture (猜想)
-      define:: *Proposition(命题)* in mathematics that is unproven
+      mark:: *Proposition(命题)* in mathematics that is unproven
     - Decision (决策)
     - Definition (定义)
-      define:: Statement that *attaches a meaning to a term(赋予术语含义)*
+      mark:: Statement that *attaches a meaning to a term(赋予术语含义)*
     - Explanation (解释)
-      define:: Set of statements constructed to describe a set of facts which *clarifies causes(阐明原因)*
+      mark:: Set of statements constructed to describe a set of facts which *clarifies causes(阐明原因)*
     - Hypothesis (假设)
-      define:: *Proposed explanation(提出的解释)* for an observation. phenomenon. or scientific problem
+      mark:: *Proposed explanation(提出的解释)* for an observation. phenomenon. or scientific problem
     - Idea (想法)
-      define:: *Mental image(心理形象)* or concept
+      mark:: *Mental image(心理形象)* or concept
     - Logical argument (逻辑论证)
     - Logical assertion (逻辑断言)
     - Mental image (心理形象)
-      define:: *Representation(表现)* in the mind of objects. activities or events. whether they existed or not
+      mark:: *Representation(表现)* in the mind of objects. activities or events. whether they existed or not
     - Percept / Perception (感知)
     - Premise (前提)
-      define:: Statement that *an argument claims will induce(主张将得出)* or *justify a conclusion(证明结论)*
+      mark:: Statement that *an argument claims will induce(主张将得出)* or *justify a conclusion(证明结论)*
     - Proposition (命题)
-      define:: *Non-linguistic(非语言)* meaning of a sentence
+      mark:: *Non-linguistic(非语言)* meaning of a sentence
     - Syllogism (三段论)
-      define:: Type of logical argument that applies *deductive reasoning(演绎推理)*
+      mark:: Type of logical argument that applies *deductive reasoning(演绎推理)*
     - Theory (理论)
-      define:: *Supposition(假设)* or system of ideas intended to explain something
+      mark:: *Supposition(假设)* or system of ideas intended to explain something
     - Thought experiment (思想实验) 
-      define:: *Hypothetical(假设)* situation
+      mark:: *Hypothetical(假设)* situation
     - **Content of thoughts**
       collapsed:: true
       - Argument (论证)
-        define:: Attempt to *persuade(说服)* or to determine the truth of a *conclusion(结论)*
+        mark:: Attempt to *persuade(说服)* or to determine the truth of a *conclusion(结论)*
       - Belief (信念)
-        define:: Psychological state of holding a *proposition(前提)* or *premise(命题)* to be true
+        mark:: Psychological state of holding a *proposition(前提)* or *premise(命题)* to be true
       - Communication (沟通)
-        define:: Act of conveying *intended meaning(预期意义)*
+        mark:: Act of conveying *intended meaning(预期意义)*
       - Data
-        define:: Units of information
+        mark:: Units of information
       - Information
-        define:: Facts provided or learned about something or someone
+        mark:: Facts provided or learned about something or someone
       - Knowledge 
-        define::  *Awareness(认识)* of facts or being *competent(能力)*
+        mark::  *Awareness(认识)* of facts or being *competent(能力)*
       - Schema 
-        define:: Technique to encode and *retrieve(检索)* memories
+        mark:: Technique to encode and *retrieve(检索)* memories
   - Types of Thought (Thinking)
     collapsed:: true
     - Animal thought
@@ -182,7 +182,7 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
         - Process of elimination – Logical method to identify an entity of interest among several ones by excluding all other entities
         - Systems thinking – Examining complex systems as a whole
           - Critical systems thinking
-        - Problem-solving strategy – steps one would use to find the problem(s) that are in the way to getting to one’s own goal. Some would refer to this as the ‘problem-solving cycle’ (Bransford & Stein, 1993). In this cycle one will recognize the problem, define the problem, develop a strategy to fix the problem, organize the knowledge of the problem cycle, figure-out the resources at the user's disposal, monitor one's progress, and evaluate the solution for accuracy.
+        - Problem-solving strategy – steps one would use to find the problem(s) that are in the way to getting to one’s own goal. Some would refer to this as the ‘problem-solving cycle’ (Bransford & Stein, 1993). In this cycle one will recognize the problem, mark::  the problem, develop a strategy to fix the problem, organize the knowledge of the problem cycle, figure-out the resources at the user's disposal, monitor one's progress, and evaluate the solution for accuracy.
           - Abstraction – Process of generalisation – solving the problem in a model of the system before applying it to the real system
           - Analogy – Cognitive process of transferring information or meaning from a particular subject to another – using a solution that solves an analogous problem
           - Brainstorming – Group creativity technique – (especially among groups of people) suggesting a large number of solutions or ideas and combining and developing them until an optimum solution is found
@@ -297,8 +297,8 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
   - template:: thought
     template-including-parent:: false
     - <!--Thoughts-->
-      tags:: #thought, #my
+      tags:: #thought, #My
       feeling:: 
       mark:: 
-      start-date:: <% today %>
+      created:: <% today %>
 -

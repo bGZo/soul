@@ -4,10 +4,10 @@ tags::
 author:: 
 translator:: 
 publisher:: 
-published-date:: 
+published-created:: 
 isbn:: 
-start-date:: 20230413
-end-date:: 
+created:: 20230413
+closed:: 
 douban:: 
 goodreads:: 
 weread:: 
@@ -91,7 +91,7 @@ mark::
         collapsed:: true
         - process: program running within a host
           collapsed:: true
-          - within same host, two processes communicate using  **inter-process communication** (defined by OS)
+          - within same host, two processes communicate using  **inter-process communication** (mark:: d by OS)
           - processes in different hosts communicate by exchanging messages
         - clients, servers
           collapsed:: true
@@ -126,7 +126,7 @@ mark::
           - IP address: 128.119.245.12
             port number: 80
         - more shortly…
-      - An application-layer protocol defines:
+      - An application-layer protocol mark:: s:
         collapsed:: true
         - types of messages exchanged,
           collapsed:: true
@@ -140,7 +140,7 @@ mark::
         - rules for when and how processes send & respond to messages
         - open protocols:
           collapsed:: true
-          - defined in RFCs, everyone has access to protocol definition
+          - mark:: d in RFCs, everyone has access to protocol definition
           - allows for interoperability
           - e.g., HTTP, SMTP
         - proprietary protocols:
@@ -514,8 +514,8 @@ mark::
             - SMTP requires message (header & body) to be in 7-bit ASCII
             - SMTP server uses CRLF.CRLF to determine end of message
       - Mail message format
-        - SMTP: protocol for exchanging e-mail messages, defined in RFC 5321 (like RFC 7231 defines HTTP)
-        - RFC 2822 defines syntax for e-mail message itself (like HTML defines syntax for web documents)
+        - SMTP: protocol for exchanging e-mail messages, mark:: d in RFC 5321 (like RFC 7231 mark:: s HTTP)
+        - RFC 2822 mark:: s syntax for e-mail message itself (like HTML mark:: s syntax for web documents)
           - header lines, e.g.,
             - To:
               From:

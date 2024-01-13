@@ -2,7 +2,6 @@ alias:: lang/programming/veriloghdl
 
 -
 - EXPERIENCE
-  collapsed:: true
   - 被 赋值 与 OUTPUT 的 变量 都应该定义为 `REG`
   - always 行为描述
   - => 非阻塞式赋值
@@ -73,7 +72,7 @@ alias:: lang/programming/veriloghdl
     
     下面将通过两个例子进一步说明在层次调用的电路中改变参数常用的一些用法。 
     
-    [例]：在引用Decode实例时，D1，D2的Width将采用不同的值4和5，且D1的Polarity将为0。可用例子中所用的方法来改变参数，即用 #(4,0)向D1中传递 Width=4,Polarity=0; 用#(5)向D2中传递Width=5,Polarity仍为1。 
+    [例]：在引用Decode实例时，D1，D2的Width将采用不同的值4和5，且D1的Polarity将为0。可用例子中所用的方法来改变参数，即用 \#(4,0)向D1中传递 Width=4,Polarity=0; 用\#(5)向D2中传递Width=5,Polarity仍为1。 
     
     ```verilog
     module Decode(A,F);

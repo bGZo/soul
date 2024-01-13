@@ -1,5 +1,5 @@
 alias:: concurrency/multithreading
-define:: 进程(中国大陆); ==过程==、行程、程序、处理程序(港台)
+mark:: 进程(中国大陆); ==过程==、行程、程序、处理程序(港台)
 tags:: TODO
 
 - [[process]] #vs [[thread]]

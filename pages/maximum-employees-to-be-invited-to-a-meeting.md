@@ -1,7 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/hard
-start-date:: 20231101
-public:: true
+created:: 20231101
 
 - ## Content
   - <iframe src="https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting" style="height: 400px"></iframe>

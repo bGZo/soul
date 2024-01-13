@@ -1,7 +1,7 @@
 icon:: 📂
 tags:: #Steam #DOING #Project 
-public:: true
-start-date:: 20230705
+
+date:: 20230705
 title:: Steam Price Badges
 
 - ## Project Meta

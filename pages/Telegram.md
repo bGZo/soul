@@ -2,8 +2,8 @@ alias:: tg, 电报, t.me, telegram.me, telegram.org, telesco.pe, tg.dev
 tags:: #tool/im
 document:: [Telegram APIs](https://core.telegram.org/api)
 changelog:: [Version history](https://desktop.telegram.org/changelog)
-start-date:: 20200108
-public:: true
+created:: 20200108
+
 title:: Telegram
 
 - ## Why
@@ -18,7 +18,7 @@ title:: Telegram
 - ## 📃 References
   collapsed:: true
   -
-- ## [[Start_Page]]
+- ## [[Start Page]]
   collapsed:: true
   - ### Web Client
     collapsed:: true
@@ -71,7 +71,4 @@ title:: Telegram
   - ![Telegram（电报）：新手指南、使用教程及频.pdf](../assets/Telegram（电报）：新手指南、使用教程及频_1645371954006_0.pdf)
   - ![微信难用？！不如找个备胎.pdf](../assets/微信难用？！不如找个备胎_1645431869680_0.pdf)
   - [Telegram 各个系统客户端地址 - Blog](https://congcong0806.github.io/2019/01/08/Telegram/)
--
-- ??? where
--
 -

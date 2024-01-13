@@ -2,7 +2,7 @@ alias:: book/unix编程艺术
 author:: Eric S·Raymond
 publisher:: 电子工业出版社
 published-date:: 20060200
-url:: https://book.douban.com/subject/1467587, https://weread.qq.com/web/reader/f1f32dd072021a42f1fbdefkc81322c012c81e728d9d180
+source:: https://book.douban.com/subject/1467587, https://weread.qq.com/web/reader/f1f32dd072021a42f1fbdefkc81322c012c81e728d9d180
 
 - UNIX 的特点：
   - __Everything (including hardware) is a file__.

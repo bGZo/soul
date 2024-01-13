@@ -1,4 +1,4 @@
-define:: 默示; 天启;
+mark:: 默示; 天启;
 
   - Since [[2020]]; Realize [[2022]]
   - [[Quickref]]

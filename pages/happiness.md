@@ -1,8 +1,8 @@
 alias:: 幸福
-define:: a positive and pleasant emotion, ranging from contentment to intense joy
+mark:: a positive and pleasant emotion, ranging from contentment to intense joy
 tags:: #emotion 
-public:: true
-start-date:: 20230614
+
+date:: 20230614
 title:: happiness
 wikipedia:: [Happiness - Wikipedia](https://en.wikipedia.org/wiki/Happiness)
 

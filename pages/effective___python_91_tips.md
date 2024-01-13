@@ -2,8 +2,8 @@ tags:: #outdated
 douban:: [编写高质量代码：改善Python程序的91个建议 (豆瓣)](https://book.douban.com/subject/25910544/)
 weread:: [编写高质量代码：改善Python程序的91个建议-张颖 赖勇浩-微信读书](https://weread.qq.com/web/bookDetail/b4832100597d8eb481b4cd6)
 cover:: ![](https://img9.doubanio.com/view/subject/l/public/s27308066.jpg)
-start-date:: 20230227
-end-date:: 20230227
+created:: 20230227
+closed:: 20230227
 
 - ## Contents
   - 版权信息
@@ -42,7 +42,7 @@ end-date:: 20230227
         ```
         - 至于为什么两个列子的最终结果前后不一致
           - **string interning（字符串驻留）机制**
-            define:: 对于较小的字符串，为了提高系统性能会保留其值的一个副本，当创建新的字符串的时候直接指向该副本即可
+            mark:: 对于较小的字符串，为了提高系统性能会保留其值的一个副本，当创建新的字符串的时候直接指向该副本即可
     - 建议17：考虑兼容性，尽可能使用Unicode
       - 要解决示例一的乱码问题可以使用Unicode作为中间介质来完成转换。首先需要对读入的字符用UTF-8进行解码，然后再用GBK进行编码
         - ==我觉得，不如全都用 UTF-8 编解码（关键是Windows命令行也使用 UTF-8），放弃GBK 😅；编码这方面，Windows 家庭中文版总是埋下一个大坑，Linux 就没有这个问题==

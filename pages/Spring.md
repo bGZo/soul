@@ -1,6 +1,6 @@
 tags:: #java/framework
-public:: true
-start-date:: 20230728
+
+date:: 20230728
 title:: Spring
 
 - ## [[Java]]

@@ -35,7 +35,7 @@ title:: hashtable
   -
   - **Open Hashing**
     id:: 6321dbe7-2475-4f51-9a92-7ee9a54331a2
-    define:: "Separate Chaining/开散列/链地址/拉链法, 在每个存放数据的地方开一个链表，如果有多个键值索引到同一个地方，只用把他们都放到那个位置的链表里就行了"
+    mark:: "Separate Chaining/开散列/链地址/拉链法, 在每个存放数据的地方开一个链表，如果有多个键值索引到同一个地方，只用把他们都放到那个位置的链表里就行了"
     collapsed:: true
     - ((6321e667-0a32-415c-aa68-a19b8311b879))
       collapsed:: true
@@ -58,10 +58,10 @@ title:: hashtable
   -
   - Closed Hashing
     id:: 6320a0b1-bf68-4f58-a7e8-742fe589a943
-    define:: Open Addressing/闭散列/开地址法
+    mark:: Open Addressing/闭散列/开地址法
     collapsed:: true
     - 线性探测法
-      define:: "线性探测再散列; 即往后滚, 滚到 NULL 位就塞进去, 滚出去就从零开始滚"
+      mark:: "线性探测再散列; 即往后滚, 滚到 NULL 位就塞进去, 滚出去就从零开始滚"
       - 寻找下一散列地址公式
         - $$H_{i} = (H(key) + d_{i} ) \% m$$
           $$d_{i} = 1, 2, ..., m-1$$
@@ -77,7 +77,7 @@ title:: hashtable
           id:: 6321db42-1a19-4b70-a5f1-bd24ece8448c
           - 在处理冲突的过程中出现的**非同义词之间对同一散列地址争夺**的现象
     - 二次探测法
-      define:: 二次探测再散列
+      mark:: 二次探测再散列
       collapsed:: true
       - 寻找下一散列地址公式
         - $$H_{i} = (H(key) + d_{i} ) \% m$$
@@ -89,7 +89,7 @@ title:: hashtable
           - 查找成功
           - 查找失败
     - 随机探测法
-      define:: 伪随机探测再散列
+      mark:: 伪随机探测再散列
       collapsed:: true
       - 寻找下一散列地址公式 (**位移量**是一个随机数列)
         - $$H_{i} = (H(key) + d_{i} ) \% m$$

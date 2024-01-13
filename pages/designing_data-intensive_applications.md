@@ -4,10 +4,10 @@ tags:: #database
 author:: Martin Kleppmann
 translator:: 赵军平, 李三平, 吕云松, 耿煜
 publisher:: O'Reilly
-published-date::  20180901
+published-created::  20180901
 isbn:: 9787519821968
-start-date:: 20230328
-end-date:: 
+created:: 20230328
+closed:: 
 douban:: https://book.douban.com/subject/26197294 ； https://book.douban.com/subject/30329536/
 goodreads:: 
 weread:: 

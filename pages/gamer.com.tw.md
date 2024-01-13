@@ -1,5 +1,5 @@
 title:: gamer.com.tw
-define:: 巴哈姆特
+mark:: 巴哈姆特
 
 - #sucks
   - 删除账户需要填表! 需要实名! 电话, 姓名, 身份证!!!

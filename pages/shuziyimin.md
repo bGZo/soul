@@ -1,21 +1,25 @@
+alias:: 数字移民
+created:: 20240102
+tags:: #migrant/digtal
 title:: shuziyimin
-alias:: migrant/digtal
-define:: 数字移民
-url:: [数字移民 – 肉体和精神，总要有一个是自由的。](https://blog.shuziyimin.org/)
-mark:: [数字移民](https://github.com/shuziyimin)
 
-- ## Content
+- ## Why
+  - > 肉体和精神，总要有一个是自由的
+- ## How
+- ## [What](https://blog.shuziyimin.org) ![](https://img.shields.io/github/stars/shuziyimin){:height 44, :width 82}
   - [翻墙后可以看什么？我做了一个数字移民导航站，已收集 200+ 网站 – 数字移民](https://blog.shuziyimin.org/1321)
+    collapsed:: true
     - 导航站没有使用动态页面，所有静态 HTML 都是手动写的。因为收集好各个网站名称、网站 URL、网站简介、网站 icon 就基本完成了。所以收集好上述内容后，我用 Google sheet 中的 CONCATENATE 函数连接，一键生成需要的 HTML，复制粘贴就完成了页面的制作。
     - title::  WebStackPage/WebStackPage.github.io
       tags:: #Github
-      url:: [WebStackPage/WebStackPage.github.io: ❤️静态响应式网址导航网站 - webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) ![](https://img.shields.io/github/stars/WebStackPage/WebStackPage.github.io)
-      start-date:: 20230108
-      end-date:: 
+      source:: [WebStackPage/WebStackPage.github.io: ❤️静态响应式网址导航网站 - webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) ![](https://img.shields.io/github/stars/WebStackPage/WebStackPage.github.io)
+      created:: 20230108
+      closed:: 
       mark::
       - Jekyll 版本的后台 [0xl2oot/webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)
       - 从Chrome书签生成Jekyll版本配置的工具 [hanxi/webstack-jekyll](https://github.com/hanxi/webstack-jekyll)
   - [「数字移民」简介与文章列表 – 数字移民](https://blog.shuziyimin.org/431)
+    collapsed:: true
     - 1.「数字移民」一词的来源
       - 2018年早些时候，内容审核不断加紧，推友们赋予 「数字移民」一个新含义，与「肉身移民」相对，指「无法移民的情况下，在数字生活上追求一定的自由」。数字移民网站受此灵感而建立。
         
@@ -48,6 +52,7 @@ mark:: [数字移民](https://github.com/shuziyimin)
       - 利器
         - [利器：如何批量下载 Tumblr 博客内容](https://blog.shuziyimin.org/459)
         - Setapp，大概是Mac上最值得订阅的服务：计划中
+-
 - [[music]]
   collapsed:: true
   - DONE #archive Netease Music to [[Apple/music]]
@@ -62,15 +67,3 @@ mark:: [数字移民](https://github.com/shuziyimin)
       
       It's really feel like GFW. Cause **its a lie** made by offical social media that everyone would be trusted in netease village, everything will love them. But netease merely is a business company, the imagnation is becoming larger and larger as they grew up.
   - [[Apple/music]] to [[ytmusic]]
-- [[Google Voice]]
-- [[google/play]]
-  collapsed:: true
-  - Google Play 礼品卡
-    - > 无法完成您的交易, 您的 Play 余额只能在日本使用. 请查看礼品卡服务条款
-      - 规则变动: ~~**2000JP 余额**~~
-    - 被后台判定你不在地区以后，即使肉身去该国/请人在当地的朋友代上号也无效
-      必须找客服，重新验证一套在当地的付款资料才能解封 via https://yues.org/read.php?tid=28043073&page=2
-      - 关闭付款方式，关闭付款方式会导致账户内所有余额清空，关闭后重新充值
-      - visa信用卡，但需年满18周岁并且提供收入证明
-      - **中银万事达非人哉白泽借记卡 和 中银万事达非人哉小玉借记卡** 这两张卡是**外币借记卡**（不是信用卡），自身没有人民币账户，可用于境外消费
-      - via https://www.taptap.com/topic/18988807 & https://www.m78.co/chat/mastercard.html

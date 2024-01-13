@@ -1,10 +1,10 @@
 title:: ziishaned/learn-regex
 author:: 
-define:: Learn regex the easy way
+mark:: Learn regex the easy way
 tags:: #regex, #Github
-url::  [ziishaned/learn-regex: Learn regex the easy way](https://github.com/ziishaned/learn-regex) ![](https://img.shields.io/github/stars/ziishaned/learn-regex)
-start-date:: 2021
-end-date:: 2021
+source::  [ziishaned/learn-regex: Learn regex the easy way](https://github.com/ziishaned/learn-regex) ![](https://img.shields.io/github/stars/ziishaned/learn-regex)
+created:: 2021
+closed:: 2021
 mark::
 
 - Meta

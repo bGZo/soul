@@ -1,7 +1,7 @@
 tags:: tools
 wikipedia:: [Anki (software) - Wikipedia](https://en.wikipedia.org/wiki/Anki_(software))
 bookmark:: [AnkiWeb](https://ankiweb.net)
-public:: true
+
 
 - ## Why
   - I was used to blame my hobbies except the study for forgotten knowledge in the past. And basically I picked up a wrong story from the first.
@@ -27,7 +27,7 @@ public:: true
 - ## What
   - DONE Donate Anki by purchasing in [app store](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (￥163); #donation 
     dollar:: 25
-    end-date:: 20221029
+    closed:: 20221029
     - > Use of the service is currently free, and the hosting costs are supported by sales of the [iPhone app](http://ankisrs.net/docs/AnkiMobile.html). As the hosting costs continue to grow, we may need to introduce a "freemium" model in the future, where basic accounts are free, and people can pay for accounts that support larger decks or extra features.
       — [Account Terms - AnkiWeb](https://ankiweb.net/account/terms)
   - Great manuals
