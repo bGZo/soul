@@ -2,7 +2,7 @@ alias:: Windows Subsystem for Android
 tags:: #Windows #android
 alternatives:: [[samsung/dex]]
 
-date:: 20230823
+created:: 20230823
 title:: WSA
 
 - ## Why

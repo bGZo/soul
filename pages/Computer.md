@@ -3,7 +3,7 @@ mark:: a machine that can be programmed to carry out sequences of arithmetic or 
 icon:: 🖥️
 tags:: #3C
 
-date:: 20230620
+created:: 20230620
 title:: Computer
 wikipedia:: [Computer - Wikipedia](https://en.wikipedia.org/wiki/Computer)
 

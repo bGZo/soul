@@ -1,5 +1,4 @@
-tags:: #tools, #[[Linux Commandline]], #lang/programming
-
+tags:: #Tools, #[[Linux Commandline]], #lang/programming
 
 - ## References
   - ### ![Bash Reference Manual](../assets/doc_bash.pdf)

@@ -36,7 +36,6 @@ tags:: #lang
         desc:: 
         tags:: #Video
         author:: 
-        published-created:: 
         source:: 
         mark:: inspired by [5天就能記住1萬個單詞的方法，老師為什麽不教？用结果说话，因为结果不会骗人一套高效背单词的方法，单词记忆法。快速提高中考高考英语，四级六级考研雅思托福词汇量 - YouTube](https://www.youtube.com/watch?v=AFgZbU3AhlY&t=264s)
         created:: 20221219

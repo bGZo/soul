@@ -1,18 +1,18 @@
 icon:: 🎬
-alias:: video/movie
+alias:: 电影, Video/Movie
+title:: Movie
 
-- ## [[Template]]
   - template:: movie
     template-including-parent:: false
+    collapsed:: true
     - icon:: 🎬
       title:: 
       alias:: 
       desc:: 
-      tags:: #Video #movie 
+      tags:: #Video #Movie 
       director:: 
       sreenwriter:: 
       actor:: 
-      published-created:: 
       douban:: 
       imdb:: https://www.imdb.com/title/
       rt:: 
@@ -21,15 +21,15 @@ alias:: video/movie
       closed::
   - template:: page/movie
     template-including-parent:: false
+    collapsed:: true
     - icon:: 🎬
       title:: 
       alias:: 
       desc:: 
-      tags:: #Video #movie 
+      tags:: #Video #Movie 
       director:: 
       sreenwriter:: 
       actor:: 
-      published-created:: 
       douban:: 
       imdb:: https://www.imdb.com/title/
       rt:: 
@@ -37,7 +37,6 @@ alias:: video/movie
       created:: <% today %>
       closed::
 - ## Factories
-  collapsed:: true
   - Dream Works
   - Warner Bros
   - Metro-Goldmyn-Mayer

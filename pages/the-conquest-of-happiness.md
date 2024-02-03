@@ -4,7 +4,7 @@ alias:: book/幸福之路, 幸福之路
 tags:: #Book 
 author:: Russell
 publisher:: 天津人民出版社
-published-created:: 20210100
+published:: 20210100
 isbn:: 9787201168821
 created:: 20220704
 closed:: 

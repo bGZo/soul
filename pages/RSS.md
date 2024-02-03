@@ -1,9 +1,8 @@
-alias:: RDF Site Summary, Really Simple Syndication, tools/rss
+alias:: RDF Site Summary, Really Simple Syndication, Tools/RSS
 mark:: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
 released-date:: 19990315
 wikipedia:: [RSS - Wikipedia](https://en.wikipedia.org/wiki/RSS)
 tags:: #info
-
 title:: RSS
 
 - ## Why
@@ -189,7 +188,7 @@ title:: RSS
         - 我想划线高亮, 我就必须跳转到原网站去阅读, 
           传统的 Rss Reader 全文抓取失去了意义
         - 稍后读 Read Latter 无所谓, 因为本来就打算在后者阅读
-      - 参考同类竞品 [[Alternative]] [[read latter]] [[tools]]
+      - 参考同类竞品 [[Alternative]] [[read latter]] [[Tools]]
         - [简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展](http://ksria.com/simpread/)
         - [Readwise](https://readwise.io/)
         - [Pocket: Home](https://getpocket.com/en/)

@@ -4,7 +4,7 @@ alias:: book/微服务架构设计模式
 tags:: #Book #develop #microserver #Java
 author:: [美] 克里斯·理查森（Chris Richardson）
 publisher:: 机械工业出版社
-published-created:: 20190500
+published:: 20190500
 isbn:: 9787111624127
 created:: 20221213
 closed::

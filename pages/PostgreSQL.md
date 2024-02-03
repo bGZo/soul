@@ -1,7 +1,7 @@
 alias:: pgsql
 tags:: #database/object–relational
 
-date:: 20230822
+created:: 20230822
 title:: PostgreSQL
 
 - ## Why

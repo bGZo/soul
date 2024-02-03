@@ -3,7 +3,6 @@ alias:: anime/rick-and-morty, 瑞克与莫迪, R&M, 瑞莫, Rick and Morty
 desc:: 
 tags:: #america
 author:: 
-published-created:: 
 douban:: 
 bangumi:: 
 source:: 

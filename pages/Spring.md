@@ -1,6 +1,6 @@
 tags:: #java/framework
 
-date:: 20230728
+created:: 20230728
 title:: Spring
 
 - ## [[Java]]

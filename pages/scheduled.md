@@ -2,7 +2,7 @@ alias:: 计划
 icon:: 🗓️
 tags:: #Logseq 
 
-date:: 20230602
+created:: 20230602
 title:: scheduled
 
 - ## Why

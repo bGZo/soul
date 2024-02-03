@@ -4,7 +4,7 @@ tags:: #python
 author:: 布雷特·斯拉特金
 translator:: 爱飞翔
 publisher:: 机械工业出版社
-published-created:: 20210101
+published:: 20210101
 isbn:: 9787111674023
 created:: 20230212
 closed:: 

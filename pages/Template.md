@@ -99,7 +99,7 @@ title: Template
         title:: 
         alias:: 
         desc:: 
-        tags:: #tools
+        tags:: #Tools
         document:: 
         changelog:: 
         community:: 

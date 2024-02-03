@@ -4,7 +4,6 @@ created:: 20230308
 author:: 生姜
 translator:: 
 publisher:: 
-published-created:: 
 isbn:: 
 douban:: 
 goodreads:: 

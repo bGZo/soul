@@ -1,8 +1,8 @@
 alias:: 解包 
 mark:: Extracting the resource from game
-tags:: #geek, #tools 
+tags:: #geek, #Tools 
 
-date:: 20230611
+created:: 20230611
 title:: unpack
 
 - ## Why

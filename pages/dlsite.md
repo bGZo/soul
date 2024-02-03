@@ -1,7 +1,7 @@
 icon:: 🏢
 tags:: game/platform
 
-date:: 20230627
+created:: 20230627
 title:: dlsite
 
 - ## Why

@@ -3,7 +3,7 @@ mark::
 icon:: 🎮
 tags:: #ACGN
 
-date:: 20230815
+created:: 20230815
 title:: Game
 
   - template:: game
@@ -44,7 +44,7 @@ title:: Game
     - [如何看待先玩盗版游戏，等到 Steam 打折时候再进行补票的行为？ - 知乎](https://www.zhihu.com/question/68383289)
     - [Is it fine if I download a pirated game, and then buy it in future? - Quora](https://www.quora.com/Is-it-fine-if-I-download-a-pirated-game-and-then-buy-it-in-future)
     -
-  - Some useful [[tools]]:
+  - Some useful [[Tools]]:
     collapsed:: true
     - [Controller Companion](http://controllercompanion.com/)
     - [Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards)  | RTSS(RivaTuner Statistics Service) 锁帧

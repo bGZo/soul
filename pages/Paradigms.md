@@ -3,7 +3,7 @@ alias:: programming paradigms, 编程范式
 tags:: #lang/programming
 mark:: a way to classify programming languages based on their features
 
-date:: 20230826
+created:: 20230826
 title:: Paradigms
 
 - ## Why

@@ -2,7 +2,7 @@ alias:: 域名
 icon:: 🌐
 tags:: #osi/application  
 
-date:: 20230604
+created:: 20230604
 title:: domain
 
 - ## Why

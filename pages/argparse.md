@@ -1,7 +1,7 @@
 icon:: 🐍
 tags:: #[[Python Library]] 
 
-date:: 20230703
+created:: 20230703
 title:: argparse
 
 - ## Why

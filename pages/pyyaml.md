@@ -1,7 +1,7 @@
 icon:: 🐍
 tags:: #[[Python Library]], #yaml 
 
-date:: 20230718
+created:: 20230718
 title:: pyyaml
 
 - ## Why

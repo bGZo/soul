@@ -1,5 +1,4 @@
-title:: summaries-along
-tags:: #my/blog #Public
+alias:: 
 created:: 202110
 
 - 21年10月第三个周末看到了 [@february](https://sunhuiquan.github.io/) 个人的 blog, 感慨他能在学校的环境下做出如此的成就, 心血来潮, 也想赶在表达欲消失之前, 简单写些自己的编码经历. 奈何这几年来文件管理做的不好, 犄角旮旯藏的都是自己的写的小 Sticks; 从 ubuntu 迁移到 windows 更是丢了自己一年的历史数据; 加上不正确的记忆, 东拼西凑, 勉强挤出些文字, 却是囿于自己的笔力浅薄, 删改不断, 写完回读, 又弗如远甚. 罢了, 凑合着看吧...
@@ -10,28 +9,20 @@ created:: 202110
   > If you're not paying the product, then you are the product."
   
   那些标榜着永不变质, 永久免费, 永不倒闭的公司, 只是骗你交出尽量多的私人数据, 之后做什么就全看企业良心了, 综上所述, 自托管才是当前市场下的良策. -->
-- Rules: Not New Year Resolution, but Past Year Review(PYR)
-  collapsed:: true
-  - **_狗熊有话说_** [ep. 400](https://voice.beartalking.com/400) 讲 [@Tim Ferriss](https://tim.blog/2021/12/27/past-year-review/) 的方法: **不要着急做做新一年的计划, 而是去回看过去一年的经历**. 以及以下的方法论:
-    
-    > 1. Grab a notepad and create two columns: POSITIVE and NEGATIVE.
-    > 2. Go through your calendar from the last year, looking at every week.
-    > 3. For each week, jot down on the pad any people or activities or commitments that triggered peak positive or negative emotions for that month. Put them in their respective columns.
-    > 4. Once you’ve gone through the past year, look at your notepad list and ask, “What 20% of each column produced the most reliable or powerful peaks?”
-    > 5. Based on the answers, take your “positive” leaders and schedule more of them in the new year. Get them on the calendar now! Book things with friends and prepay for activities/events/commitments that you know work. It’s not real until it’s in the calendar. That’s step one. Step two is to take your “negative” leaders, put “NOT-TO-DO LIST” at the top, and put them somewhere you can see them each morning for the first few weeks of 2022. These are the people and things you *know* make you miserable, so don’t put them on your calendar out of obligation, guilt, FOMO, or other nonsense.
-  - | Positive | Negative |
-    | ---------| ---------|
-    | 画像素画   | 生产力色情 |
-    | 线下看了奥斯卡最佳影片 | 美化桌面 |
-    | 哲学 / 经典的书 | 社交媒体 <br /> ([V2EX](https://v2ex.com/); [Twitter](https://twitter.com/); [Bangumi](https://bgm.tv/)) <br /> 泛滥 |
-    | 用 GA & Script 自动化繁琐的任务 | 手工格式化作业过多|
-    | 笔记软件 Logseq | 不断收集用不到的资源 |
-    | 看了一些小玩具的源码 | 漫无目的 改写/扩写 自己的废话  |
-    | 短时间就能收获成果的教程, <br /> 坚持做完教程 + 独立做一遍 | 禁止思考如 <br /> "要是当时我当初xxx", <br /> "看看他的动态吧" <br /> "纠结如何回应" <br /> 找个酷酷的背景/头像 |
-    | 每天背单词, 看一点英文 Youtube 视频 | 看了太多 动漫/漫画 |
-    | 无纸化办公, 用掉多余的废纸和笔 | 频繁使用手机截图, 事后也不处理 |
-    | 和他人搭话, 多说一点无用的废话 | 看到陌生没有打招呼, 默默走开 |
-    | 控制自己每日**摄入信息**| 迁移无关紧要的数据 |
+
+- | Positive | Negative |
+  | ---------| ---------|
+  | 画像素画   | 生产力色情 |
+  | 线下看了奥斯卡最佳影片 | 美化桌面 |
+  | 哲学 / 经典的书 | 社交媒体 <br /> ([V2EX](https://v2ex.com/); [Twitter](https://twitter.com/); [Bangumi](https://bgm.tv/)) <br /> 泛滥 |
+  | 用 GA & Script 自动化繁琐的任务 | 手工格式化作业过多|
+  | 笔记软件 Logseq | 不断收集用不到的资源 |
+  | 看了一些小玩具的源码 | 漫无目的 改写/扩写 自己的废话  |
+  | 短时间就能收获成果的教程, <br /> 坚持做完教程 + 独立做一遍 | 禁止思考如 <br /> "要是当时我当初xxx", <br /> "看看他的动态吧" <br /> "纠结如何回应" <br /> 找个酷酷的背景/头像 |
+  | 每天背单词, 看一点英文 Youtube 视频 | 看了太多 动漫/漫画 |
+  | 无纸化办公, 用掉多余的废纸和笔 | 频繁使用手机截图, 事后也不处理 |
+  | 和他人搭话, 多说一点无用的废话 | 看到陌生没有打招呼, 默默走开 |
+  | 控制自己每日**摄入信息**| 迁移无关紧要的数据 |
 - 2019 Winter
   collapsed:: true
   - <!--前十八年对大学的幻想甚高, 一上来就是完全的理想主义之破碎: 辩论队参加是参加了, 但是我的身份是裁判; 社团参与是参与了, 谁知道手工社全社就三个男生; 课外活动诸如不明觉厉的讲座也参与了, 但完全是被叫过去充数的... 和曾在社交媒体上流传的讲课视频全然不同, 这和我对大学的幻想相形见绌. 多多少少让人郁闷.-->

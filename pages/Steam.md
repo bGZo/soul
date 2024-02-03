@@ -1,7 +1,7 @@
 icon:: 🎮
 tags:: game/platform
 
-date:: 20230704
+created:: 20230704
 title:: Steam
 
 - ## Why

@@ -2,7 +2,7 @@ alias:: google/voice
 icon:: 📞
 tags:: #Privacy 
 
-date:: 20230806
+created:: 20230806
 title:: Google Voice
 
 - ## Why

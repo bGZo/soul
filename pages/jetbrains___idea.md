@@ -1,5 +1,5 @@
 alias:: IntelliJ-IDEA, IntelliJ IDEA
-tags:: #tools
+tags:: #Tools
 
 [IntelliJ IDEA – the Leading Java and Kotlin IDE (jetbrains.com)](https://www.jetbrains.com/idea/)
 

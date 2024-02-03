@@ -5,7 +5,7 @@ tags:: #CMU
 author:: Randal E.Bryant, David O'Hallaron
 translator:: 
 publisher:: 机械工业出版社
-published-created:: 20161100
+published:: 20161100
 isbn:: 9787111544937
 created:: 20230324
 closed:: 

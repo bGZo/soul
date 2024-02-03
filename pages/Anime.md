@@ -12,7 +12,6 @@ template-including-parent:: false
     desc:: 
     tags:: #Anime
     author:: 
-    published-created:: 
     douban:: 
     bangumi:: 
     myanimelist:: 

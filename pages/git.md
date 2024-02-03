@@ -1,6 +1,6 @@
-tags:: #tools 
+tags:: #Tools 
 
-date:: 20230728
+created:: 20230728
 title:: git
 
 - ## Why

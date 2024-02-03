@@ -3,7 +3,7 @@ mark:: a collection of related classes, methods, and resources that are packaged
 icon:: ☕
 tags:: #java/api
 
-date:: 20230717
+created:: 20230717
 title:: java library
 
   - {{embed ((63e31fc9-aebc-46d1-8e99-a06961fbb3d8))}}
