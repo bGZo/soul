@@ -4,7 +4,7 @@ tags:: #database
 author:: Martin Kleppmann
 translator:: 赵军平, 李三平, 吕云松, 耿煜
 publisher:: O'Reilly
-published-created::  20180901
+published::  20180901
 isbn:: 9787519821968
 created:: 20230328
 closed:: 

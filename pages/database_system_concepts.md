@@ -5,7 +5,7 @@ tags:: #database
 author:: Abraham Silberschatz, Henry F.Korth, S.Sudarshan
 translator:: 杨冬青, 李红燕, 唐世渭
 publisher:: 机械工业出版社
-published-created:: 20120300
+published:: 20120300
 isbn:: 9787111375296
 created:: 20230328
 closed:: 

@@ -2,7 +2,7 @@ mark:: A Python library for pulling data out of HTML and XML files
 icon:: 🐍
 tags:: #[[Python Library]]
 
-date:: 20230627
+created:: 20230627
 title:: BeautifulSoup
 
 - ## Why

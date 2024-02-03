@@ -1,6 +1,6 @@
 alias:: 教程
 
-date:: 20230719
+created:: 20230719
 title:: Tutorial
 
   - template:: tutorial

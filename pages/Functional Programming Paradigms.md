@@ -3,7 +3,7 @@ mark::
 icon:: 
 tags:: #Paradigms
 
-date:: 20230826
+created:: 20230826
 title:: Functional Programming Paradigms
 wikipedia:: [Functional programming - Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)
 

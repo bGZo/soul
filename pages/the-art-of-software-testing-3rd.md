@@ -4,7 +4,7 @@ alias:: book/软件测试的艺术(第3版)
 tags:: #Book #develop #testing 
 author:: Glenford J. Myers / Tom Badgett
 publisher:: 机械工业出版社
-published-created:: 20120415
+published:: 20120415
 isbn:: 9787111376606
 created:: 20221204
 closed:: 

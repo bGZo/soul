@@ -2,7 +2,6 @@ tags:: tools
 wikipedia:: [Anki (software) - Wikipedia](https://en.wikipedia.org/wiki/Anki_(software))
 bookmark:: [AnkiWeb](https://ankiweb.net)
 
-
 - ## Why
   - I was used to blame my hobbies except the study for forgotten knowledge in the past. And basically I picked up a wrong story from the first.
   - Now I have to recongnize, the forgetting things is prefactly normal, there's no bad habbies in judgement, only whether you like it or not!

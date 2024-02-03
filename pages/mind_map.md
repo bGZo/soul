@@ -1,5 +1,5 @@
 alias:: 思维导图, Mind map
-tags:: #tools
+tags:: #Tools
 mark:: [Mind map - Wikipedia](https://en.wikipedia.org/wiki/Mind_map)
 
   - title:: 🌟 [markmap/markmap](https://github.com/markmap/markmap) ![](https://img.shields.io/github/stars/markmap/markmap) 

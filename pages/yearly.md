@@ -2,7 +2,7 @@ alias:: 年度, 年度总结, 复盘
 icon:: 📅
 tags:: #scheduled 
 
-date:: 20230602
+created:: 20230602
 title:: yearly
 
 - ## Why
@@ -27,7 +27,7 @@ title:: yearly
       - [金融时报](https://ft.com/content/2dd61d03-13ac-4278-8214-678c1d9a33c1)
       - [纽约客](https://newyorker.com/best-books-2022)
       - Via: https://www.chongbuluo.com/thread-14426-1-1.html
-  - #### News
+  - #### 这周发生了点啥
     collapsed:: true
     - WAIT Hacker News
   - [[We Media]]

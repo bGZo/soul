@@ -1,5 +1,5 @@
 title:: zsh
-tags:: #[[Linux Commandline]], #tools
+tags:: #[[Linux Commandline]], #Tools
 mark:: https://github.com/bGZo/dotfiles
 
 - ## Refs

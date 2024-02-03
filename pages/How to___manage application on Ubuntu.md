@@ -1,6 +1,6 @@
 icon:: 🐧
 
-date:: 20230906
+created:: 20230906
 tags:: #Ubuntu
 title:: How to/manage application on Ubuntu
 

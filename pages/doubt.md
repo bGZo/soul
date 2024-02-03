@@ -3,7 +3,7 @@ mark:: Doubt is a mental state in which the mind remains suspended between two o
 icon:: 
 tags:: 
 
-date:: 20230605
+created:: 20230605
 title:: doubt
 
 - ## Why

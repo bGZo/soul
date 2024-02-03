@@ -1,7 +1,7 @@
 alias:: 命令
 icon:: ⌘
 
-date:: 20230625
+created:: 20230625
 title:: command
 
   - Linux Manual

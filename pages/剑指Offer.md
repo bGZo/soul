@@ -4,7 +4,7 @@ alias:: book/剑指Offer
 tags:: #Book #develop #Question 
 author:: 何海涛
 publisher:: 电子工业出版社
-published-created:: 20170500
+published:: 20170500
 isbn:: 9787121310928 / 9787121415203
 created:: 20221204
 closed:: 

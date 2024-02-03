@@ -5,7 +5,7 @@ tags:: #learning/learning #note
 author:: 申克·阿伦斯
 translator:: 陈琳
 publisher:: 人民邮电出版社
-published-created:: 20210700
+published:: 20210700
 isbn:: 9787115564672
 created:: 20220124
 closed:: 
@@ -351,7 +351,6 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     tags:: 
     author:: 
     publisher:: 
-    published-created:: 
     isbn:: 
     created:: 20230125
     closed:: 
@@ -364,7 +363,6 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     tags:: 
     author:: 
     publisher:: 
-    published-created:: 
     isbn:: 
     created:: 20230125
     closed:: 
@@ -377,7 +375,6 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     tags:: 
     author:: 
     publisher:: 
-    published-created:: 
     isbn:: 
     created:: 20230125
     closed:: 

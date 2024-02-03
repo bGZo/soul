@@ -1,4 +1,4 @@
-alias:: tools/onedrive
+alias:: Tools/onedrive
 
 - > 世纪互联只提供商业版，个人版和家庭版 365 全都是由微软自营
   via: [如何判断自己 office365 的 onedrive 是存在微软云还是世纪互联](https://www.v2ex.com/t/751037)

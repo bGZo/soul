@@ -2,7 +2,7 @@ alias:: 项目
 mark:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 icon:: 📂
 
-date:: 20230623
+created:: 20230623
 title:: Project
 
   - template:: project
@@ -118,24 +118,23 @@ title:: Project
     Wired Things Via [[geek]] 
     #+END_PINNED
   - [[Issue]]
-    - DOING [#A] Alternatives
+    - #Alternatives 替代品
       :LOGBOOK:
       CLOCK: [2022-11-05 Sat 15:42:51]
       :END:
-      - Raindrop
+      - WAITING Raindrop
         - [Matter](https://getmatter.app/)
         -
-      - Mirror Site
+      - WAITING Mirror Site
         - Wikipedia
           - [维基媒体下载](https://dumps.wikimedia.org/)
           - [架设Wikipedia的本地镜像(Linux联盟收集整理)_CSDN博客](https://blog.csdn.net/zengxianghu/article/details/6472573)
         - via: [有一天物理断网，哪些东西是你要存储起来的 - V2EX](https://www.v2ex.com/t/876861)
-      - 无限延期
-        - WAITING [Browser History Unlimited](https://chromewebstore.google.com/detail/history-trends-unlimited/pnmchffiealhkdloeffcdnbgdnedheme)
-          - > Will you make a version of the extension for Firefox? 
-            Yes, once it is possible to do so. Keep an eye on Firefox [issue 1673477](https://bugzilla.mozilla.org/show_bug.cgi?id=1673477). Once it is fixed, I should be able to port this extension to Firefox. And please see FAQ \#11: The extension is closed source, so forks are not allowed. 
-            >— [History Trends Unlimited - FAQ](https://sites.google.com/view/history-trends-unlimited/faq)
-          - 两插件双向数据不互通，这个插件的数据无法导入 FF，FF上只有这个[替代](https://github.com/Christoph-Wagner/firefox-better-history-ng)
+      - WAITING [Browser History Unlimited](https://chromewebstore.google.com/detail/history-trends-unlimited/pnmchffiealhkdloeffcdnbgdnedheme)
+        - > Will you make a version of the extension for Firefox? 
+          Yes, once it is possible to do so. Keep an eye on Firefox [issue 1673477](https://bugzilla.mozilla.org/show_bug.cgi?id=1673477). Once it is fixed, I should be able to port this extension to Firefox. And please see FAQ \#11: The extension is closed source, so forks are not allowed. 
+          >— [History Trends Unlimited - FAQ](https://sites.google.com/view/history-trends-unlimited/faq)
+        - 两插件双向数据不互通，这个插件的数据无法导入 FF，FF上只有这个[替代](https://github.com/Christoph-Wagner/firefox-better-history-ng)
     - WAIT Music Studio
       - music.bgzo.cc -> My Favs
         - 完全静态的听歌网站

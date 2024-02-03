@@ -4,7 +4,7 @@ alias:: book/疯狂Java讲义
 tags:: #Java, #develop #Deprecated 
 author:: 李刚
 publisher:: 电子工业出版社
-published-created:: 20120100
+published:: 20120100
 isbn:: 9787121155789
 created:: 20221125
 closed:: 20221210

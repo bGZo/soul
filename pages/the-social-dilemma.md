@@ -1,16 +1,9 @@
 title:: the-social-dilemma
 alias:: movie/监视资本主义
-desc:: 
-tags:: 
 author:: 杰夫·奥洛威斯基
-published-created:: 2020-09
+published:: 2020-09
 douban:: [监视资本主义：智能陷阱 (豆瓣)](https://movie.douban.com/subject/34960008/)
-imdb:: 
-rt:: 
-source:: 
-mark:: 
 created:: 20221202
-closed::
 
 -
 - > 他们像蜘蛛一样测试你的神经, 这是很恐怖的

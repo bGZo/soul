@@ -2,7 +2,7 @@ alias:: 推特
 mark:: an online social media and social networking service owned and operated by American company X Corp., the successor of Twitter, Inc. 
 tags:: #[[Social Media]]  
 
-date:: 20230615
+created:: 20230615
 title:: twitter
 wikipedia:: [Twitter - Wikipedia](https://en.wikipedia.org/wiki/Twitter)
 

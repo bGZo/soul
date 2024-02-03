@@ -218,7 +218,7 @@
  ;; The default level to be opened for the linked references.
  :ref/default-open-blocks-level 1
 
- :favorites ["659a4cc1-e22a-4359-a583-d609e4ddcd5a"]
+ :favorites ["20230211" "659a4cc1-e22a-4359-a583-d609e4ddcd5a"]
 
  :ref/linked-references-collapsed-threshold 20
 

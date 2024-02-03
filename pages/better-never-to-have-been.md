@@ -4,7 +4,7 @@ alias:: book/宁可不曾存在过, Better Never to Have Been The Harm of Coming
 tags:: 
 author:: David Benatar
 publisher:: Oxford University Press
-published-created:: 20080915
+published:: 20080915
 isbn:: 9780199549269
 created:: 20230121
 closed:: 
@@ -18,7 +18,6 @@ mark::
   desc:: 
   tags:: #video/short
   author:: 
-  published-created:: 
   mark:: 
   created:: 20230121
   closed::

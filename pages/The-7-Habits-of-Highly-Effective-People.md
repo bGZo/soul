@@ -5,7 +5,7 @@ tags:: #Productivity #brainwashing
 author:: 史蒂芬·柯维
 translator:: 高新勇 / 王亦兵 / 葛雪蕾
 publisher:: 中国青年出版社
-published-created:: 20180501
+published:: 20180501
 isbn:: 9787500695356
 douban:: [高效能人士的七个习惯 (豆瓣) (douban.com)](https://book.douban.com/subject/5325618/)
 goodreads:: [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change by Stephen R. Covey | Goodreads](https://www.goodreads.com/en/book/show/36072)

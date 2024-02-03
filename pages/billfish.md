@@ -1,6 +1,6 @@
 icon:: 
 title:: billfish
-alias:: tools/billfish, 尖嘴鱼 
+alias:: Tools/billfish, 尖嘴鱼 
 desc:: 
 tags:: #font #photo
 document:: [知识库 - Billfish素材管理工具](https://www.billfish.cn/category/knowledge/)

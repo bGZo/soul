@@ -3,7 +3,7 @@ mark::
 icon:: 
 tags:: 
 
-date:: 20230709
+created:: 20230709
 title:: tailwind
 
 - ## Why

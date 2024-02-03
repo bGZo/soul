@@ -4,7 +4,7 @@ alias:: book/SpringCloud_微服务架构开发实战
 tags:: #Book #spring/cloud #microserver
 author:: 董超
 publisher:: 机械工业出版社
-published-created:: 20180700
+published:: 20180700
 isbn:: 9787111604525
 created:: 20221228
 closed:: 

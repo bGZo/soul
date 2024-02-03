@@ -1,8 +1,7 @@
-alias:: tools/VLC
+alias:: Tools/VLC
 icon:: ⏯️
 tags:: #Video 
-
-date:: 20200118
+created:: 20200118
 title:: VLC
 
 - ## Why

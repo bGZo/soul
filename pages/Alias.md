@@ -1,1 +1,1 @@
-Alias:: 别名
+alias:: 别名

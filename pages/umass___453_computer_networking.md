@@ -4,7 +4,6 @@ tags::
 author:: 
 translator:: 
 publisher:: 
-published-created:: 
 isbn:: 
 created:: 20230413
 closed:: 

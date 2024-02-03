@@ -4,7 +4,7 @@ alias:: books/现实+每个虚拟世界都是一个新的现实, Reality+ Virtua
 tags:: 
 author:: 大卫·查默斯
 publisher:: 中信出版集团
-published-created::  20220125
+published::  20220125
 isbn:: 9787521747782
 created:: 20230126
 closed:: 

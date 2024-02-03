@@ -1,7 +1,7 @@
 alias:: 工具
 icon:: 🛠
 
-date:: 20230531
+created:: 20230531
 tags:: #Productivity
 title:: Tool
 
@@ -15,7 +15,7 @@ title:: Tool
       document:: 
       icon::
       
-      date:: ``{ date.now.format('YYYYMMDD') }``
+      created:: ``{ date.now.format('YYYYMMDD') }``
       tags:: 
       title:: ``{ c.page.name }``
 - ## Why

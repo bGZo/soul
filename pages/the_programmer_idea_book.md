@@ -3,7 +3,6 @@ tags:: #programming, #Project
 author:: 
 translator:: 
 publisher:: 
-published-created:: 
 isbn:: 
 created:: 20230315
 closed:: 

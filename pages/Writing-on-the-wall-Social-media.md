@@ -4,7 +4,7 @@ alias:: book/社交媒体简史, 社交媒体简史
 tags:: #Privacy #Book #History
 author:: Tom Standage
 publisher:: 中信出版社
-published-created:: 2019-3
+published:: 2019-3
 isbn:: 9787508696980
 created:: 20221216
 closed:: 

@@ -3,7 +3,7 @@ changelog:: [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changel
 community:: [Logseq Community Hub](https://hub.logseq.com/);
 document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://mschmidtkorth.github.io/logseq-msk-docs)
 created:: 20210801
-tags:: #tools
+tags:: #Tools
 collapsed:: true
 title:: Logseq
 
