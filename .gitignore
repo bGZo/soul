@@ -8,6 +8,7 @@
 .obsidian/
 .vscode/
 .idea/
+.trash/
 # PDFs, IMAGEs and more
 assets/
 # Draw
