@@ -9,7 +9,6 @@ title:: yearly
   - Work flow.
 - ## How
   - 基本每一个平台都会有年度总结, 如果我要聚合所有的平台的链接, 那会永无止境, 我只能在入门的时候多看看这个平台的年度数据. Especially [[Hobby]]
-    collapsed:: true
     - You know what, actually I don't give a fuck to this garbage ranking.
       - Only when **you are newer to fields or you are busy all years**, you would need this.
 - ## What

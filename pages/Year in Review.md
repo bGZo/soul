@@ -13,7 +13,6 @@ alias:: 年终盘点, 年终总结
     - 我根据这个规则做了一些模板，供参考：
       template:: year/review/with/feedback
       template-including-parent:: false
-      collapsed:: true
       - | 正反馈的事情 | 负反馈的事情 |
         | ---------| ---------|
         |  |  |
