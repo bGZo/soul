@@ -9,13 +9,16 @@ title: Weekly
 - ## Why
   - Work Flow
 - ## How
-  - TODO [摸 🐟] 同步工作便条 
-    SCHEDULED: <2024-02-10 Sat 00:00 ++1w>
+  - WAITING [摸 🐟] 同步工作便条 
+    SCHEDULED: <2024-03-23 Sat 00:00 ++1w>
     collapsed:: true
     :LOGBOOK:
     * State "DONE" from "TODO" [2024-01-20 Sat 22:00]
     * State "DONE" from "TODO" [2024-01-27 Sat 21:38]
     * State "DONE" from "TODO" [2024-02-03 Sat 10:50]
+    * State "DONE" from "TODO" [2024-02-24 Sat 10:45]
+    * State "DONE" from "WAITING" [2024-03-10 Sun 16:32]
+    * State "DONE" from "WAITING" [2024-03-16 Sat 14:52]
     :END:
     - {{iframe https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f}}
       #+BEGIN_CENTER

@@ -17,3 +17,7 @@ template-including-parent:: false
     myanimelist:: 
     created:: ``{ date.now.format('YYYYMMDD') }``
     closed::
+- > 我就是喜欢纸片人。他们是点阵、是数据、这种事情我知道。
+  那你喜欢的那个男孩又是什么? 蛋白质? 钙?
+  重要的是充满爱的心啊。
+  — [桂木桂馬 | Bangumi 番组计划](https://bgm.tv/character/780)

@@ -28,6 +28,7 @@ mark:: [ShareX - The best free and open source screenshot tool for Windows](http
       -
   - ### DOING [[compress]] #flow
     - #### [[photo]]
+      -
       - Convert image to WebP using [cwebp.exe](https://developers.google.com/speed/webp/download)
       - Compress PNG file lossy using [pngquant.exe](https://pngquant.org/)
       - Compress PNG file lossless using [[optipng]] [OptiPNG Home Page](https://optipng.sourceforge.net/)

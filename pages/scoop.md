@@ -1,64 +1,25 @@
-alias:: tool/scoop
-tags:: #Windows #monthly
+---
+alias: tools/scoop
+mark: 
+icon: 
+date: 20240225
+tags: #Windows #monthly
+title: scoop
+---
 
-- #+BEGIN_QUOTE
-  你可以 scoop export 一个 json 文件，下次重装直接 scoop import 就行了
-  — [Windows 包管理 scoop 太好用了! - V2EX](https://www.v2ex.com/t/869453)
-  #+END_QUOTE
--
--
--
--
-- [Scoop - Windows下的包管理工具 - 简书 (jianshu.com)](https://www.jianshu.com/p/d88616d7138e)
-  - Edit the Environment config
-  - ```
-    ```
-- ## [[Quickref]]
-  - collapsed:: true
-    ```shell
-    $psversiontable.psversion.major
-    set-executionpolicy remotesigned -scope currentuser
-    # check up ”PS” 
-    $env:SCOOP='D:\scoop'
-    [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
-    iwr -useb get.scoop.sh | iex
-    # customize scoop path
-    scoop bucket add extras
-    scoop bucket add dorado https://github.com/chawyehsu/dorado
-    scoop bucket add dodorz https://github.com/dodorz/scoop
-    # add extra repo
-    ##Beautify###########################################
-    # Maybe u should install scoop first from 
-    # https://github.com/lukesampson/scoop
-    # Dowmload powershell 7.x instead of default 5.x form 
-    # https://github.com/PowerShell/PowerShell/releases
-    # then run the powershell 7.x
-    Install-Module posh-git -Scope CurrentUser 
-    Install-Module oh-my-posh -Scope CurrentUser
-    
-    # 
-    $PROFILE
-    if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
-    notepad $PROFILE 
-    # then code $PROFILE
-    # you could input the path to freash the powershell
-    # add the config like this:
-    Import-Module posh-git
-    Import-Module oh-my-posh
-    Set-PoshPrompt Paradox 
-    ```
-    - Refs
-      - Hidden
-        collapsed:: true
-        - [「一行代码」搞定软件安装卸载，用 Scoop 管理你的 Windows 软件 - 少数派](https://sspai.com/post/52496)
-        - [给 Scoop 加上这些软件仓库，让它变成强大的 Windows 软件管理器 - 少数派](https://sspai.com/post/52710)
-        - [你需要掌握的Scoop技巧和知识 - 知乎](https://zhuanlan.zhihu.com/p/135278662)
-        - [Windows | Scoop软件包管理神器 | 小新博客](https://www.limufang.com/post/569.html)
-      - could see more prompts from [Themes | Oh My Posh](https://ohmyposh.dev/docs/themes)
-      - notice its not "Set-Theme" from [Windows Terminal - PowerShell customization via oh-my-posh/posh-git Set-Theme error? · Issue #9237 · microsoft/terminal](https://github.com/microsoft/terminal/issues/9237#issuecomment-798913706)
-        - > It seems the "Set-Theme" cmdlet was renamed to "Set-PoshPrompt".
-      - more color-schemes:  [Windows 终端配色方案 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/terminal/customize-settings/color-schemes)
-- ## [[Issue]]
+- ## Why
+  collapsed:: true
+  - [[commandline]]
+- ## How
+  - DONE 如何一键迁移 Scoop？
+    collapsed:: true
+    - logseq.order-list-type:: number
+      #+BEGIN_QUOTE
+      你可以 scoop export 一个 json 文件，下次重装直接 scoop import 就行了
+      — [Windows 包管理 scoop 太好用了! - V2EX](https://www.v2ex.com/t/869453)
+      #+END_QUOTE
+    - {{embed ((65ccf1f1-1c85-4844-8e8f-b0947b25b0fd))}}
+      logseq.order-list-type:: number
   - DONE Browser 的两种启动方式无法正常工作
     collapsed:: true
     :LOGBOOK:
@@ -112,5 +73,58 @@ tags:: #Windows #monthly
           - [bucket/chromium.json](https://github.com/ScoopInstaller/Extras/blob/90b31955ada69b6bc83d35ad365feef6f9581120/bucket/chromium.json#L22)
           - [bucket/ungoogled-chromium.json](https://github.com/ScoopInstaller/Extras/blob/90b31955ada69b6bc83d35ad365feef6f9581120/bucket/ungoogled-chromium.json#L21)
         -
-  - TODO How to automatically backup the installed app? #Project #ideea #automatic #script #monthly
--
+  - WAITING How to automatically backup the installed app? #Project #ideea #automatic #script #monthly
+- ## What
+  - Search software online
+    - {{iframe https://bjansen.github.io/scoop-apps/}}
+      #+BEGIN_CENTER
+      via: https://bjansen.github.io/scoop-apps/
+      #+END_CENTER
+  - 一些参考文章
+    - [Scoop——也许是Windows平台最好用的软件（包）管理器 - 知乎](https://zhuanlan.zhihu.com/p/463284082)
+    - [Scoop - Windows下的包管理工具 - 简书 (jianshu.com)](https://www.jianshu.com/p/d88616d7138e)
+  - 从零开始配置
+    collapsed:: true
+    - ```shell
+      $psversiontable.psversion.major
+      set-executionpolicy remotesigned -scope currentuser
+      # check up ”PS” 
+      $env:SCOOP='D:\scoop'
+      [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
+      iwr -useb get.scoop.sh | iex
+      # customize scoop path
+      scoop bucket add extras
+      scoop bucket add dorado https://github.com/chawyehsu/dorado
+      scoop bucket add dodorz https://github.com/dodorz/scoop
+      # add extra repo
+      ##Beautify###########################################
+      # Maybe u should install scoop first from 
+      # https://github.com/lukesampson/scoop
+      # Dowmload powershell 7.x instead of default 5.x form 
+      # https://github.com/PowerShell/PowerShell/releases
+      # then run the powershell 7.x
+      Install-Module posh-git -Scope CurrentUser 
+      Install-Module oh-my-posh -Scope CurrentUser
+      
+      # 
+      $PROFILE
+      if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
+      notepad $PROFILE 
+      # then code $PROFILE
+      # you could input the path to freash the powershell
+      # add the config like this:
+      Import-Module posh-git
+      Import-Module oh-my-posh
+      Set-PoshPrompt Paradox 
+      ```
+      - Refs
+        - Hidden
+          collapsed:: true
+          - [「一行代码」搞定软件安装卸载，用 Scoop 管理你的 Windows 软件 - 少数派](https://sspai.com/post/52496)
+          - [给 Scoop 加上这些软件仓库，让它变成强大的 Windows 软件管理器 - 少数派](https://sspai.com/post/52710)
+          - [你需要掌握的Scoop技巧和知识 - 知乎](https://zhuanlan.zhihu.com/p/135278662)
+          - [Windows | Scoop软件包管理神器 | 小新博客](https://www.limufang.com/post/569.html)
+        - could see more prompts from [Themes | Oh My Posh](https://ohmyposh.dev/docs/themes)
+        - notice its not "Set-Theme" from [Windows Terminal - PowerShell customization via oh-my-posh/posh-git Set-Theme error? · Issue #9237 · microsoft/terminal](https://github.com/microsoft/terminal/issues/9237#issuecomment-798913706)
+          - > It seems the "Set-Theme" cmdlet was renamed to "Set-PoshPrompt".
+        - more color-schemes:  [Windows 终端配色方案 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/terminal/customize-settings/color-schemes)
