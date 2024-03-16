@@ -50,7 +50,7 @@ title:: font
       再者关于 阅读体验 是一个非常主观的东西, 目前这个东西还没有什么定论, 有的人面对美观的字体, 阅读速度反而可以升高, 但是有人则不然.
       - {{video https://www.youtube.com/watch?v=41i9EN9l8uc}}
     - 20221020
-  - DOING 字体收集
+  - TODO 字体收集
     - id:: 6374947b-7716-4507-8561-f6c91e6d6fa4
       title:: [ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more](https://github.com/ryanoasis/nerd-fonts) ![](https://img.shields.io/github/stars/ryanoasis/nerd-fonts)
       mark:: "Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others."

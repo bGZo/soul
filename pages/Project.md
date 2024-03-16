@@ -208,7 +208,6 @@ title:: Project
       - 怎么一键发布 Wordpress 站点, 官方不支持 Markdown 就很麻烦... 别人是怎么忍受的???
         - [我的主页 ‹ 生存日记 — WordPress.com](https://wordpress.com/home/bgzo.wordpress.com)
         - [WordPress+PublishMarkdown快速构建个人博客 - 知乎](https://zhuanlan.zhihu.com/p/105236218)
-      - scoop 支持 proxy_all 代理检查更新. 但下载不能用其进行下载 ...
       - 单元测试
       - Mac虚拟机
         - 垃圾 Noteshelf, 为什么只给 Mac 做了适配, 更奇怪的是, 这好像是一个 windows 诅咒的怪圈, tm的几乎没有开发者对 windows 抱有好感. 这带来的软件的割裂真的让人非常匪夷所思和难受. 屮

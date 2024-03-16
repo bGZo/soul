@@ -142,8 +142,8 @@ title:: RSS
         https://www.youtube.com/feeds/videos.xml?channel_id=<channel_id>
         https://www.youtube.com/feeds/videos.xml?playlist_id=<playlist_id>
         ```
-  - TODO And [[Backup]] and share your [[subscription]] [[monthly]] , including [[Podcast]]
-    SCHEDULED: <2023-12-01 Fri .+1m>
+  - WAITING And [[Backup]] and share your [[subscription]] [[monthly]] , including [[Podcast]]
+    SCHEDULED: <2024-04-01 Mon .+1m>
     :LOGBOOK:
     * State "DONE" from "DOING" [2023-02-05 Sun 00:51]
     * State "DONE" from "TODO" [2023-02-05 Sun 11:15]
@@ -157,6 +157,7 @@ title:: RSS
     * State "DONE" from "TODO" [2023-09-03 Sun 18:12]
     * State "DONE" from "TODO" [2023-10-03 Tue 00:39]
     * State "DONE" from "TODO" [2023-10-03 Tue 12:02]
+    * State "DONE" from "WAITING" [2024-03-09 Sat 15:57]
     :END:
     - {{iframe https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03}}
       [feedbro.opml/edit](https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03/edit)

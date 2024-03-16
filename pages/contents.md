@@ -6,7 +6,12 @@ title: Contents
 - [:h2 {:class text-right} "Quick start"]
   - [[Start Page]] | 导航页
     logseq.order-list-type:: number
-- [:h2 {:class text-right} "Projects Focused on"]
+- [:h2 {:class text-right} "Focus on"]
+  - 长期目标：**小润出省，大润出国**
+    logseq.order-list-type:: number
+    - 语言
+    - 健康
+    - 原生家庭
   - [[Weekly]] | 个人周报
     logseq.order-list-type:: number
   - [[Project]] | 项目

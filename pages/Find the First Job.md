@@ -720,8 +720,8 @@ tags:: #Job, #DONE, byd
   -
   - ### Special: [[programming]] #learning #roadmap/develop
     -
-    - TODO Java exercise;
-      SCHEDULED: <2023-09-06 Tue 00:00 .+1d>
+    - WAITING Java exercise;
+      SCHEDULED: <2024-03-11 Mon 00:00 .+1d>
       - [Nowcoder](https://www.nowcoder.com/)
         logseq.order-list-type:: number
       - [LeetCode](https://leetcode.cn/problemset/all/)；
@@ -771,8 +771,7 @@ tags:: #Job, #DONE, byd
         - [[mooc/javaee]]
         - [[geekbang/Java核心技术]]
     - TODO Submit [[cv]];
-    - TODO [[Spring in Action]] daily until you done;
-      SCHEDULED: <2023-08-22 Tue .+1d>
+    - DOING [[Spring in Action]] daily until you done;
       :LOGBOOK:
       * State "DONE" from "TODO" [2023-05-05 Fri 21:14]
       * State "DONE" from "TODO" [2023-05-06 Sat 17:51]

@@ -21,11 +21,11 @@ title:: How to/manage application on Ubuntu
     - #+BEGIN_NOTE
       有些软件没有被收录进软件镜像源，或者说开发者需要去使用他们最新的版本，这时候就要自己去他们的官网或者是代码托管平台下载最新的Linux源码，自己来build. 这种方式安装需要解决很多的依赖，安装前多Google
       #+END_NOTE
-    - ```shell
-      sudo make
-      sudo make install
-      ```
-      - You could install `build-essential` before )
+      - ```shell
+        sudo make
+        sudo make install
+        ```
+        - You could install `build-essential` before )
   - If need to install dependency with prompt:
     - ```shell
       sudo apt install -f xxx

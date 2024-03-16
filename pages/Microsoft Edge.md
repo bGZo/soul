@@ -4,7 +4,7 @@ created:: 20230604
 title:: Microsoft Edge
 
 - ## Why
-  - Before this, I used the [[vivaldi]], [[firefox]], [[chrome]], [[brave]] and [[chromium]]. I learn a lot about  thought during using. (See  ((acaf8742-7083-4d0d-adc9-eaebc5a30b26)))
+  - Before this, I used the [[vivaldi]], [[Firefox]], [[chrome]], [[brave]] and [[chromium]]. I learn a lot about  thought during using. (See  ((acaf8742-7083-4d0d-adc9-eaebc5a30b26)))
 - ## How
   -
 - ## What
