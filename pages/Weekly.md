@@ -9,9 +9,9 @@ title: Weekly
 - ## Why
   - Work Flow
 - ## How
-  - WAITING [摸 🐟] 同步工作便条 
-    SCHEDULED: <2024-03-23 Sat 00:00 ++1w>
+  - TODO 同步工作摸🐟 [Gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f) 
     collapsed:: true
+    SCHEDULED: <2024-04-20 Sat 00:00 ++1w>
     :LOGBOOK:
     * State "DONE" from "TODO" [2024-01-20 Sat 22:00]
     * State "DONE" from "TODO" [2024-01-27 Sat 21:38]
@@ -19,6 +19,10 @@ title: Weekly
     * State "DONE" from "TODO" [2024-02-24 Sat 10:45]
     * State "DONE" from "WAITING" [2024-03-10 Sun 16:32]
     * State "DONE" from "WAITING" [2024-03-16 Sat 14:52]
+    * State "DONE" from "WAITING" [2024-03-23 Sat 16:28]
+    * State "DONE" from "WAITING" [2024-03-30 Sat 20:09]
+    * State "DONE" from "WAITING" [2024-04-08 Mon 07:21]
+    * State "DONE" from "TODO" [2024-04-13 Sat 11:30]
     :END:
     - {{iframe https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f}}
       #+BEGIN_CENTER
@@ -31,10 +35,12 @@ title: Weekly
         - https://www.icloud.com.cn/iclouddrive/0dfP2NK-LLjycO3mpP6-R7OSw#iOSLogseq
     - ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))
       - Linux
+        collapsed:: true
         - ```
            seq -s", " 20231015 20231021 | xclip -selection clipboard
           ```
       - Windows
+        collapsed:: true
         - {{embed ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))}}
         - {{embed ((64ea10a6-9d34-4731-a9be-31c273dcf4e2))}}
 - ## What

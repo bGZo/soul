@@ -15,7 +15,7 @@ created:: 20220628
         # 将 Temp 目录改成 Test 目录。此时，项目中只会存在 Test 目录，不会存在 test 目录。目标达成。
         git mv Temp Test
         ```
-      - WAIT 我不理解的是，为什么远端的 test 也会在第一个命令执行之后消失？
+      - WAITING 我不理解的是，为什么远端的 test 也会在第一个命令执行之后消失？
     - Atom在前端的使用
     - Emmet in VS Code
     - GitHub的使用

@@ -60,7 +60,7 @@ alias:: multithreading/java
   - 优先级
     - `Thread.setPriority(int n)`
       - 1 ~ 10 (default:5)
-- WAIT 状态
+- WAITING 状态
   - New | 新创建未执行
   - Runnable | 正在执行
   - Blocked | 阻塞挂起
@@ -93,8 +93,8 @@ alias:: multithreading/java
             }
         }
         ```
-- WAIT 中断
-- WAIT 守护 | Daemon Thread
+- WAITING 中断
+- WAITING 守护 | Daemon Thread
   - 守护线程是指为其他线程服务的线程
   - JVM退出时不必关心守护线程
     - 所有非守护线程都执行完毕后，无论有没有守护线程，JVM 都会自动退出
@@ -118,8 +118,8 @@ alias:: multithreading/java
         - x64平台 是原子操作
     - 引用类型赋值
       - 如：`List<String> list = anotherList`
-      - WAIT 但多行赋值语句就需要同步, 大多数情况需要巧妙转换下
-  - WAIT 方法
+      - WAITING 但多行赋值语句就需要同步, 大多数情况需要巧妙转换下
+  - WAITING 方法
     - `synchronized`
       - ```java
         synchronized(Counter.lock) { // 获取锁

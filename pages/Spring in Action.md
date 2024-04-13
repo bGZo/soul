@@ -1907,14 +1907,14 @@ closed::
         - `TACO_ORDER`
         - `TACO_ORDER_TACOS`
         - 所以原项目的 `TACO_ORDER_Refs` 其实有点多余, 所以删掉了
-    - WAIT ch01 & ch02 alway `alter table Ingredient_Ref add foreign key (ingredient) references Ingredient(id); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "PRIMARY KEY | UNIQUE (ID)" not found; SQL statement`
+    - WAITING ch01 & ch02 alway `alter table Ingredient_Ref add foreign key (ingredient) references Ingredient(id); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "PRIMARY KEY | UNIQUE (ID)" not found; SQL statement`
       collapsed:: true
-      - WAIT 说实话, 我实在搞不明白他怎么跑起来来的, 他 Github 仓库里面多了好几个类, 并且用到了后面讲的注释, 如`@AllArgsConstructor`
+      - WAITING 说实话, 我实在搞不明白他怎么跑起来来的, 他 Github 仓库里面多了好几个类, 并且用到了后面讲的注释, 如`@AllArgsConstructor`
       - ```
         initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcIngredientRepository' mark:: d in file [/mnt/c/Users/15517/Desktop/taco-cloud/target/classes/tacos/data/JdbcIngredientRepository.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' mark:: d in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #6 of URL [file:/mnt/c/Users/15517/Desktop/taco-cloud/target/classes/schema.sql]: alter table Ingredient_Ref add foreign key (ingredient) references Ingredient(id); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "PRIMARY KEY | UNIQUE (ID)" not found; SQL statement:
         alter table Ingredient_Ref add foreign key (ingredient) references Ingredient(id) [90057-214]
         ```
-    - WAIT Auto complete static package import
+    - WAITING Auto complete static package import
       - [java - IntelliJ Static Import Completion - Stack Overflow](https://stackoverflow.com/questions/4387134/intellij-static-import-completion)
       - [java - Eclipse Optimize Imports to Include Static Imports - Stack Overflow](https://stackoverflow.com/questions/288861/eclipse-optimize-imports-to-include-static-imports)
   - collapsed:: true
@@ -2000,7 +2000,7 @@ closed::
       - > To use embedded mongo, the spring.mongodb.embedded.version property must now be set. This helps to ensure that the MongoDB version that is used by the embedded support matches the MongoDB version that your application will use in production.
         via: [Spring Boot 2.6 Release Notes · spring-projects/spring-boot Wiki](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.6-Release-Notes#embedded-mongo)
       -
-    - WAIT I don't know why my entity field cannot be set `final`.
+    - WAITING I don't know why my entity field cannot be set `final`.
       - It throws error `Cannot set property id because no setter`. Okey, the properties cannot changed when set final. But why they need to set when the page load?
       - How does they work?
     -

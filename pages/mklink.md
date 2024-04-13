@@ -3,10 +3,10 @@ tags:: TODO
 
   - same as [[commands/ln]] in [[-nix]]
 -
-- WAIT Onedrive don't support symbolic link to snyc data, wait for it Or chose other plugin/substitute
+- WAITING Onedrive don't support symbolic link to snyc data, wait for it Or chose other plugin/substitute
   collapsed:: true
   - via [OneDrive not syncing files inside symbolic links : onedrive](https://www.reddit.com/r/onedrive/comments/amq38m/onedrive_not_syncing_files_inside_symbolic_links/) & [Why do all my symbolic links always have the blue "Sync pending" icon? : onedrive](https://www.reddit.com/r/onedrive/comments/k82lav/why_do_all_my_symbolic_links_always_have_the_blue/)
-- WAIT 为什么 linux 与 windows 软链接底层兼容？ / 通用?
+- WAITING 为什么 linux 与 windows 软链接底层兼容？ / 通用?
   collapsed:: true
   - [如何实现linux与windows软链接底层兼容？ - SegmentFault 思否](https://segmentfault.com/q/1010000007544629)
   -
@@ -31,7 +31,7 @@ tags:: TODO
         - 局限
           - **只用于文件**, 无法链接到目录
           - **只建立在同一分区内的文件指向**, 链接到外部文件系统（磁盘驱动器）
-            - WAIT linux 主要分区就一个好吗? 基本就完全不起作用呗...
+            - WAITING linux 主要分区就一个好吗? 基本就完全不起作用呗...
           - **不跨系统**
             - 每个文件系统都有各自的 inode 数据结构和列表
             - via: [[os/file-system]]

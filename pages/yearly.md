@@ -15,7 +15,7 @@ title:: yearly
   - [[coding]]
     collapsed:: true
     - [Top Pens of 2022 on CodePen](https://codepen.io/2022/popular/pens/)
-    - WAIT Github Trend
+    - WAITING Github Trend
   - [[reading]]
     collapsed:: true
     - 年度书单 #Book
@@ -28,7 +28,7 @@ title:: yearly
       - Via: https://www.chongbuluo.com/thread-14426-1-1.html
   - #### 这周发生了点啥
     collapsed:: true
-    - WAIT Hacker News
+    - WAITING Hacker News
   - [[We Media]]
     collapsed:: true
     - ?

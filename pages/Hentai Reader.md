@@ -55,7 +55,7 @@ title:: Hentai Reader
   - ~~Git push to [Github - bGZo/bgzo at rss_reader](https://github.com/bGZo/bgzo/tree/rss_reader)~~ #Closed
     collapsed:: true
     - {{twitter https://twitter.com/imbGZo/status/1668952517408075776}}
-  - WAIT How to deal with the copyright? #crawler
+  - WAITING How to deal with the copyright? #crawler
     collapsed:: true
     - #+BEGIN_WARNING
       Considered the copyright, 
@@ -93,7 +93,7 @@ title:: Hentai Reader
         - Any good website welcome to post on issues )
       - TODO More usable.
         collapsed:: true
-        - WAIT The configure of the whole sources is not usable, which is written in code. You should put it in a configuration file.
+        - WAITING The configure of the whole sources is not usable, which is written in code. You should put it in a configuration file.
     - #### Input
       - Give Rss feed address;
     - #### Output

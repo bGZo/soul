@@ -45,7 +45,7 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
           - The range is exponential, so increasing the CRF value +6 results in roughly half the bitrate / file size, while -6 leads to roughly twice the bitrate.
         - 自己试了下0, 无损压缩, 文件大小从30M -> 300M
       - via: [shell - FFMPEG convert .mpg video to .mp4 without lose quality - Stack Overflow](https://stackoverflow.com/questions/33672960/ffmpeg-convert-mpg-video-to-mp4-without-lose-quality)
-        - WAIT [Encode/H.264 – FFmpeg](https://trac.ffmpeg.org/wiki/Encode/H.264)
+        - WAITING [Encode/H.264 – FFmpeg](https://trac.ffmpeg.org/wiki/Encode/H.264)
     - DONE Diff 2 compressed video info (size under different bitrate/High@L ...)? #Issue
       collapsed:: true
       - 比较两个命令的输出有何区别 (最好着色)? #diff
@@ -93,7 +93,7 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
       collapsed:: true
       - [onsshare/onscripter: onscripter clootection](https://github.com/onsshare/onscripter)
     - [xupefei/Locale-Emulator: Yet Another System Region and Language Simulator](https://github.com/xupefei/Locale-Emulator)
-  - WAIT How to play without zh-has translation?
+  - WAITING How to play without zh-has translation?
     collapsed:: true
     - title:: hanmin0822/MisakaTranslator
       author:: hanmin0822

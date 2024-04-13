@@ -15,12 +15,12 @@ mark:: [ShareX - The best free and open source screenshot tool for Windows](http
     - [Keybinds - ShareX](https://getsharex.com/docs/keybinds)
 - ## [[Issue]]
   - #Closed
-    - WAIT  Multi file in Github Gist wontfix
+    - WAITING  Multi file in Github Gist wontfix
       collapsed:: true
       - > Adding multiple files using api is 1 min job. Handling multiple tasks as one task and redirecting all of them to same task is big deal and can require week of work to completely change many things for be able to support it. Because other uploaders don't support getting multiple files to same uploader and because of inheritation all using same methods. Not to mention how to know is one people wants separate gist or all in same gist.
         via: [How to upload multiple files in the same gist? · Issue #243 · ShareX/ShareX](https://github.com/ShareX/ShareX/issues/243)
     - DONE Generally, this application kill [uTools官网](https://www.u.tools/). And fuck utools.
-    - WAIT Change file extension name
+    - WAITING Change file extension name
       - Related
         - [(QUESTION) How do I rename text file extensions? · Issue #1269 · ShareX/ShareX](https://github.com/ShareX/ShareX/issues/1269)
         - [Support filename, or at least file extension, in custom uploader arguments · Issue #2558 · ShareX/ShareX](https://github.com/ShareX/ShareX/issues/2558)

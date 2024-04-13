@@ -215,11 +215,11 @@ title:: Logseq
         ```
         via: [Custom tags rendering with Emojis - Look what I built - Logseq](https://discuss.logseq.com/t/custom-tags-rendering-with-emojis/709)
       - [🙏 How do I change some tag colours? - Questions & Help - Logseq](https://discuss.logseq.com/t/how-do-i-change-some-tag-colours/637)
-  - WAIT `equb` 全文搜索
+  - WAITING `equb` 全文搜索
     collapsed:: true
     - 连  Calibre 也不支持, 但是逆天的是 Weread 支持! 不知道之后市面上能不能出一款支持的, 目前有印象的还有 Google Book, 对关键词的搜集太急需了.
-  - WAIT LS ==query function== count of rows (how to show results-count in variable)?
-  - WAIT How to ==query== the number of sub blocks?
+  - WAITING LS ==query function== count of rows (how to show results-count in variable)?
+  - WAITING How to ==query== the number of sub blocks?
     collapsed:: true
     - `{{query block (page <% current page %>)}}`
     - How to logseq fuzzy query?
@@ -264,7 +264,7 @@ title:: Logseq
     - [Query for co-occurences in property - Look what I built - Logseq](https://discuss.logseq.com/t/query-for-co-occurences-in-property/5448/10)
     - [Advanced Query: Blocks excluding certain tag - Questions & Help - Logseq](https://discuss.logseq.com/t/advanced-query-blocks-excluding-certain-tag/3173)
     -
-  - WAIT How to ==query== with alias and tags?
+  - WAITING How to ==query== with alias and tags?
     collapsed:: true
     - Multi Tags
       collapsed:: true
@@ -310,21 +310,21 @@ title:: Logseq
         ```
     - [Logseq query with a custom view](https://www.loom.com/share/d007932e94db4b4981cca606bebdb54a)
     - [Logseq queries example (using properties) and custom view](https://gist.github.com/tiensonqin/b319e19e6a1ef4659f24bb3b71d3d025)
-  - WAIT How to open the deleted page recently directly?
-  - WAIT [Image asset as page icon - Feature Requests - Logseq](https://discuss.logseq.com/t/image-asset-as-page-icon/3826)
+  - WAITING How to open the deleted page recently directly?
+  - WAITING [Image asset as page icon - Feature Requests - Logseq](https://discuss.logseq.com/t/image-asset-as-page-icon/3826)
     collapsed:: true
     - [yoyurec/logseq-awesome-links: Icons for links. Logseq Plugin](https://github.com/yoyurec/logseq-awesome-links#-journal-icon)
     - ((6374947b-7716-4507-8561-f6c91e6d6fa4))
-  - WAIT How to delete a unused file ?
+  - WAITING How to delete a unused file ?
     collapsed:: true
     - Plugin I think, cause just find wiki for file name is enough.
     - via: [How to clean unlinked files in an effective way - Questions & Help - Logseq](https://discuss.logseq.com/t/how-to-clean-unlinked-files-in-an-effective-way/2125)
-  - WAIT Default template stored in `config.edu` is not supported for page, only for journal
+  - WAITING Default template stored in `config.edu` is not supported for page, only for journal
     collapsed:: true
     - [I got the error message "Looks like you've been doing that a lot. Take a break for 5 minutes before trying again." when posting my first thread in 8 days. : help](https://www.reddit.com/r/help/comments/nh2tsy/i_got_the_error_message_looks_like_youve_been/)
     - [Can you create a template for your DAY page? : logseq](https://www.reddit.com/r/logseq/comments/q0ysh5/can_you_create_a_template_for_your_day_page/)
     - [How to Set Up an Automated Daily Template in Logseq](https://thinkstack.club/how-to-set-up-an-automated-daily-template-in-logseq/)
-  - WAIT The "HTTP" will be crashed, how to avoid?
+  - WAITING The "HTTP" will be crashed, how to avoid?
   - DONE Publish making web html 2022-05-12
     collapsed:: true
     - https://logseq.github.io/#/page/publishing%20(desktop%20app%20only)

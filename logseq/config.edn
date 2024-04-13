@@ -172,7 +172,8 @@
                      ;:in $ ?start ?today
                      :where
                      (task ?b #{"NOW" "TODO"})
-
+                     (not [?b :block/scheduled ?d])
+                     (not [?b :block/deadline ?d])
                      ;(between ?b ?start ?today)
                      ]
              ;:inputs [:-3650d :today]

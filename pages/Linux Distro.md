@@ -6,7 +6,7 @@ title:: Linux Distro
 
 - ## Why
 - ## How
-  - WAIT 做一个自己的 LINUX 发行版
+  - WAITING 做一个自己的 LINUX 发行版
 - ## What
   - What's Linux Distro?
     collapsed:: true

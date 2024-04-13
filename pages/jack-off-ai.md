@@ -1,8 +1,7 @@
 title:: jack-off-ai
 alias:: 导管 AI, 自慰 AI
-tags:: #sex #my/blog
+tags:: #[[sex]] #my/blog
 mark:: [Jark off AI - bGZo's blog](https://blog.bgzo.cc/jark-off-ai.html)
-
 
 - 男孩父母带着他跑到城市打工, 听说那里的教育不一样, 读过书的都能找个不错的营生, 不必像在村里, 整日就知道丢石头, 长大了面朝黄土背朝天, 再受一次这一辈的罪, 最后到头挣不到几个钱. 男孩童年很单调, 除了每年过年能买到的光碟[^4], 以及从村里带过来的, 整整一大柜子的碟片, 那是他们在村里营生的东西, 带过来也能在这里找个打发时间的工具.
 -

@@ -14,10 +14,10 @@ title:: gamepad
       collapsed:: true
       - ![chrome_50.png](../assets/2023/chrome_50_1673504605513_0.png){:height 286, :width 688}
         - My controller model is `1708`
-    - WAIT To buy the next generation!
+    - WAITING To buy the next generation!
       collapsed:: true
       - Does it would be released iwth next xbox gamer?
-    - WAIT Is there a cheaper changer stand?
+    - WAITING Is there a cheaper changer stand?
       collapsed:: true
       - This color and pink is good:
         - https://twitter.com/XboxContro11ers/status/1388533386445209606

@@ -69,7 +69,7 @@ tags:: #design
 -
 - ## [[Issue]]
   -
-  - WAIT Github Markdown was not supported for color rendering(via [github](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#disabling-markdown-rendering)). Yet you could use some third-party markdown web rendering tools (same with milkdown.dev):
+  - WAITING Github Markdown was not supported for color rendering(via [github](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#disabling-markdown-rendering)). Yet you could use some third-party markdown web rendering tools (same with milkdown.dev):
     collapsed:: true
     - https://github.com/pandao/editor.md / https://pandao.github.io/editor.md
     - * Inspiring by making labels for https://github.com/bGZoCg/2021/issues. *

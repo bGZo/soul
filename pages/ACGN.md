@@ -3,7 +3,7 @@ title:: ACGN
 extends:: [[Hobby]]
 
 - ## [[Issue]]
-  - WAIT [Too much] Digest the content via: [二次元 | RSSHub](https://docs.rsshub.app/anime.html) #[[Weekly]]
+  - WAITING [Too much] Digest the content via: [二次元 | RSSHub](https://docs.rsshub.app/anime.html) #[[Weekly]]
     - anitama
       - [如何看待anitama即将解散？ - 知乎](https://www.zhihu.com/question/313191641)
 - ## [[bookmark]]

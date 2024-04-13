@@ -12,7 +12,7 @@ tags:: #lang
     :END:
     2023-05-04 Sat ++2w - 2023-06-17 Sat 14:00
     - 提前一个月练习听力 !!!
-  - WAIT [[ielts]]
+  - WAITING [[ielts]]
     collapsed:: true
     - I think cet-6 is impossible;
       - ~~Using [[chatGPT]] and [[anki]] learning the words cheat daily! **==PASS CET6==**~~

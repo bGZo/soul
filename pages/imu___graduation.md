@@ -778,7 +778,7 @@ tags:: #spring/cloud
       -
   - ### WAIT Rabbitmq及数据同步
     - RabbitMQ
-    - WAIT 搜索服务、商品静态页的数据同步
+    - WAITING 搜索服务、商品静态页的数据同步
     - 实现思路
       - 发送方：商品微服务
         - 什么时候发？
