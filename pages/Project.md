@@ -135,14 +135,14 @@ title:: Project
           Yes, once it is possible to do so. Keep an eye on Firefox [issue 1673477](https://bugzilla.mozilla.org/show_bug.cgi?id=1673477). Once it is fixed, I should be able to port this extension to Firefox. And please see FAQ \#11: The extension is closed source, so forks are not allowed. 
           >— [History Trends Unlimited - FAQ](https://sites.google.com/view/history-trends-unlimited/faq)
         - 两插件双向数据不互通，这个插件的数据无法导入 FF，FF上只有这个[替代](https://github.com/Christoph-Wagner/firefox-better-history-ng)
-    - WAIT Music Studio
+    - WAITING Music Studio
       - music.bgzo.cc -> My Favs
         - 完全静态的听歌网站
         - 版权问题?
-    - WAIT [[MonthTopic]] Like Newsletter #[[writing]]
-    - WAIT 完善 cms 系统
+    - WAITING [[MonthTopic]] Like Newsletter #[[writing]]
+    - WAITING 完善 cms 系统
       - [韩剧tv-韩剧-韩剧网-韩剧TV官网-TSKS韩剧社-韩剧Tv](https://www.1vys.com/)
-    - WAIT 聊天室 & 做一个匿名服务
+    - WAITING 聊天室 & 做一个匿名服务
       - [Volafile.org Live Filesharing & Chat](https://volafile.org/)
       - [hack.chat](https://hack.chat/)
       - 匿名社交媒体  
@@ -154,10 +154,10 @@ title:: Project
         - 匿名聊天室
         - 匿名邮箱
         - 匿名信息
-    - WAIT [[sort]] 可视化
+    - WAITING [[sort]] 可视化
       - [如何可视化「排序算法」 - 知乎](https://zhuanlan.zhihu.com/p/31314248)
       - [数据结构和算法动态可视化 (Chinese) - VisuAlgo](https://visualgo.net/zh)
-    - WAIT #ACGN Blog Theme / combine with origin blog?
+    - WAITING #ACGN Blog Theme / combine with origin blog?
       - 把 Git Blog 改造成为 Jekyll 博客
       - **重要特性**: 支持**搜索**
       - 博客 != 教程
@@ -166,20 +166,20 @@ title:: Project
       - 支持更新时间排序
       - 信息半衰期时效提醒, "该信息已经过时"
       - 增加自动抓取的社交媒体的言论页面, 比如 Twitter, Github, BGM...
-    - WAIT [BGM](https://bgm.tv) 全局通知
-    - WAIT [[crawler]] JS
+    - WAITING [BGM](https://bgm.tv) 全局通知
+    - WAITING [[crawler]] JS
       - 优化正则爬虫, 使用 BeautifulSoup 库替换
       - [如何保存知乎某个问题的全部答案？ - 知乎](https://www.zhihu.com/question/24296318)
-    - WAIT 贤者时间质问器
-    - WAIT Imitate
+    - WAITING 贤者时间质问器
+    - WAITING Imitate
       - 呼吸灯
       - 重力
       - VR
       - 全景
       - 横向展示
-    - WAIT Convert BILIBILI video to podcast RSS to listen in background.
-    - WAIT 物理控制器, 自己打碟
-    - WAIT 各类 Generate 生成器构建
+    - WAITING Convert BILIBILI video to podcast RSS to listen in background.
+    - WAITING 物理控制器, 自己打碟
+    - WAITING 各类 Generate 生成器构建
     - [[newsline]] #duplicate
     - ### ~~[[Deprecated]]~~
       - DONE 常用文本管理. 随时调用

@@ -14,7 +14,7 @@ tags:: #[[iOS]]
     - 补充
       collapsed:: true
       - 其实我个人也是耗电敏感人员, 但查了一下好像没什么区别. via: [小火箭后台一直挂着耗电大嚒？ - V2EX](https://v2ex.com/t/641714)
-    - WAIT iOS 小火箭 DNS 有时候有大病...
+    - WAITING iOS 小火箭 DNS 有时候有大病...
   - 使用
     collapsed:: true
     - 小火箭的分流策略需要在 Tab2 上面对应的配置详情里面设置. Index 的面板基本是没用的, 总体上和 Clash 差别不大.

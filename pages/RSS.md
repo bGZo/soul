@@ -11,7 +11,7 @@ title:: RSS
     - DONE The amount of RSS feed supported by socal media is very few, no matter they are.
       collapsed:: true
       - We have [DIYgod/RSSHub: 🍰 Everything is RSSible (github.com)](https://github.com/DIYgod/RSSHub)
-        - WAIT I really want to contribute [RSSHub](https://docs.rsshub.app/joinus/quick-start.html) 😭
+        - WAITING I really want to contribute [RSSHub](https://docs.rsshub.app/joinus/quick-start.html) 😭
           collapsed:: true
           - ~~`JSON` to `RSS`~~
             collapsed:: true
@@ -98,7 +98,7 @@ title:: RSS
             - collapsed:: true
               > 没有我想订阅的网站怎么办嘤嘤嘤 QAQ
               - 如果你会写 JavaScript，请按照[规则](https://docs.rsshub.app/joinus/quick-start.html#ti-jiao-xin-de-rsshub-gui-ze)提交 pull request，否则按照要求[提交 issue (opens new window)](https://github.com/DIYgod/RSSHub/issues/new?template=rss_request_zh.md)，然后等待有缘人完成你的需求，也可以考虑[赞助项目](https://docs.rsshub.app/support)或附上一张你自己的女装照来获得更快的 issue 响应速度。
-    - WAIT Overdesign / design deliberatly, which is hard to fetch normally.
+    - WAITING Overdesign / design deliberatly, which is hard to fetch normally.
       collapsed:: true
       - 爬取方式 #.ol
         - RSS 订阅（关闭全文输出）
@@ -142,8 +142,8 @@ title:: RSS
         https://www.youtube.com/feeds/videos.xml?channel_id=<channel_id>
         https://www.youtube.com/feeds/videos.xml?playlist_id=<playlist_id>
         ```
-  - WAITING And [[Backup]] and share your [[subscription]] [[monthly]] , including [[Podcast]]
-    SCHEDULED: <2024-04-01 Mon .+1m>
+  - TODO  And [[Backup]] and share your [[subscription]] [[monthly]] , including [[Podcast]]
+    SCHEDULED: <2024-05-01 Wed .+1m>
     :LOGBOOK:
     * State "DONE" from "DOING" [2023-02-05 Sun 00:51]
     * State "DONE" from "TODO" [2023-02-05 Sun 11:15]
@@ -158,6 +158,7 @@ title:: RSS
     * State "DONE" from "TODO" [2023-10-03 Tue 00:39]
     * State "DONE" from "TODO" [2023-10-03 Tue 12:02]
     * State "DONE" from "WAITING" [2024-03-09 Sat 15:57]
+    * State "DONE" from "WAITING" [2024-04-08 Mon 07:21]
     :END:
     - {{iframe https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03}}
       [feedbro.opml/edit](https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03/edit)

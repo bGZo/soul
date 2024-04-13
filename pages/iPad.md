@@ -19,7 +19,7 @@ title:: iPad
           #+END_QUOTE
 -
 - ## What
-  - WAIT I need a free version sideload by individual
+  - WAITING I need a free version sideload by individual
     - [Blink Shell, Build & Code - Decrypt IPA Store](https://decrypt.day/app/id1594898306) 16.1.10ot work
     - [Cracked iOS & Mac App Store Apps Free Download | AppCake (iphonecake.com)](https://iphonecake.com/)
   - TODO Applist

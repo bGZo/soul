@@ -6,7 +6,7 @@ created:: 20220101
 - ## How
   - ((6424f25c-07a0-4533-ae3e-73e33f674fa1))
   - {{iframe https://savesubs.com/}}
-  - WAIT 每周一集哲学课 [[Crash Course/Philosophy]]
+  - WAITING 每周一集哲学课 [[Crash Course/Philosophy]]
     :LOGBOOK:
     * State "DONE" from "TODO" [2023-02-26 Sun 14:42]
     * State "DONE" from "TODO" [2023-03-13 Mon 13:45]

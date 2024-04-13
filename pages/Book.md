@@ -95,14 +95,14 @@ title:: Book
   - How to convert [[markdown]] to pdf?
     collapsed:: true
     - [Customizing pandoc to generate beautiful pdf and epub from markdown](https://learnbyexample.github.io/customizing-pandoc/)
-  - WAIT How to build reading system [[opensource]], especially without commercial way!
+  - WAITING How to build reading system [[opensource]], especially without commercial way!
     collapsed:: true
     - No [[weread]] !!
     - [Moon+ Pro and Calibre Integration - MobileRead Forums](https://www.mobileread.com/forums/showthread.php?t=328164)
     - [电脑上有哪些好用的 ePub 阅读器？ - 知乎](https://www.zhihu.com/question/19979089)
     - [云书库calibre-web搭建（1） | J.F's BLOG](https://blog.zzbd.org/2020/02/29/calibre-web/)
     - [这可能是安卓端最强的电子书阅读APP（“静读天下”使用技巧）_电子书刊_什么值得买](https://post.smzdm.com/p/a3g7dzkd/)
-  - WAIT How to import book using scanning? #Anime #Movie #Game
+  - WAITING How to import book using scanning? #Anime #Movie #Game
     collapsed:: true
     - GET_ISBN_INFO
       - Similar products: GET_ANIME, GET_VIDEO, GET_GAME
@@ -129,7 +129,7 @@ title:: Book
     - 判断是否收藏: Market Price / Hobbies
       collapsed:: true
       - 要留一套书珍藏 -> 扫码看回收价 / 书本身是否稀缺 / 自己喜好.
-  - WAIT What's your reading list?
+  - WAITING What's your reading list?
     collapsed:: true
     - 163 网易云课堂
       collapsed:: true

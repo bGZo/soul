@@ -7,7 +7,7 @@ title:: Get social media
 
 - ## Project Meta
   - TODO #Project Get social media about Thread.net and Weibo.
-    - WAIT [Introducing Threads: A New Way to Share With Text | Meta (fb.com)](https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/)
+    - WAITING [Introducing Threads: A New Way to Share With Text | Meta (fb.com)](https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/)
       - [New App - Threads API Documentation - 开发者帮助论坛 - Meta 开发者 (facebook.com)](https://developers.facebook.com/community/threads/1277329089818470/)
       - [Threads API (coursendy.com)](https://coursendy.com/threads-api)
     -
@@ -66,7 +66,7 @@ title:: Get social media
       Second, for %CD%, the **current directory** means the directory when executing the command line or the batch file. For %~dp0, the __current directory__ is the directory where the bat file resides 
       — [The difference between %CD% and %~dp0](https://myprogrammingnotes.com/cd-dp0.html)
       #+END_QUOTE
-  - WAIT Use JS/TS rewrite the scripts and build it in web application online.
+  - WAITING Use JS/TS rewrite the scripts and build it in web application online.
 - ## What
   - ### Design Notes
     collapsed:: true

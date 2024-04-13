@@ -9,7 +9,7 @@ mark:: Android 是一个由 google 主导的移动设备开源系统, 根据Andr
   - [下载Android应用程序-下载，恢复，在Uptodown分享](https://cn.uptodown.com/)
   - [豌豆荚手机精灵](https://www.wandoujia.com/)
 - ## [[Issue]]
-  - WAIT 刷机
+  - WAITING 刷机
     collapsed:: true
     - 线刷 / fastboot刷机 / `.gz`
       - 分区镜像

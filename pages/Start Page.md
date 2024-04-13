@@ -279,7 +279,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [Switch520](https://xxxxx520.com/)
     -
     - Game Show
-      - WAIT [:::G-EIGHT::: Gamer, Entertainment, Indie game, Gathering, H-Game ](https://geight.io/) #taiwan
+      - WAITING [:::G-EIGHT::: Gamer, Entertainment, Indie game, Gathering, H-Game ](https://geight.io/) #taiwan
     -
     - 众筹 / 集资
       - [遊戲 專案探索 | 嘖嘖 zeczec × 讓美好的事物發生：台灣的群眾集資平台](https://www.zeczec.com/categories?category=13&page=1) #taiwan

@@ -22,7 +22,7 @@ title:: Podcast
   - I have to say, in the rest time of listening music, I spend most time in [[weread]] and this one. This is a really new platform to discover others' mind and thought. And we could be better, especially if we want to dig deep into something.
   - We connect, we talk, we thought, and we discover new. That's awesome.
 - ## How
-  - WAIT 用 PlayerFM 必须优先听 Rsshub 抓取的源😭, 而且搜索的时候也无法搜索第二页了
+  - WAITING 用 PlayerFM 必须优先听 Rsshub 抓取的源😭, 而且搜索的时候也无法搜索第二页了
 - ## What
   - Why all podcast provide rss feed link?
     collapsed:: true
@@ -104,7 +104,7 @@ title:: Podcast
           <!-- 芒果冰OL -->
           https://www.youtube.com/channel/UCIUYqpXe7yok4x3VkK67B3Q
           ```
-      - WAIT [[bilibili]]
+      - WAITING [[bilibili]]
   - [全平台播客订阅及收听指南 - 少数派](https://sspai.com/post/57960)
   - [我们做了个能帮大家发现播客的小玩具：🎙中文播客榜 - V2EX](https://www.v2ex.com/t/867252)
     - [中文播客榜](https://xyzrank.com/#/)

@@ -1,6 +1,6 @@
 icon:: ↩
 
-- WAIT **Need to be remembered ==in time==**
+- WAITING **Need to be remembered ==in time==**
   :LOGBOOK:
   * State "DONE" from "TODO" [2023-03-21 Tue 22:02]
   * State "DONE" from "TODO" [2023-05-02 Tue 22:42]

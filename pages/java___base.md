@@ -106,8 +106,8 @@ mark:: java syntax
       - 如果方法的返回类型是 void 和基本数据类型，则返回值重写时不可修改 ( 当然也没有必要改
         - 但是如果方法的返回值是引用类型，重写时是可以返回该引用类型的子类的。
 -
-- WAIT `class` -> `field` + `method`
-- WAIT `field` -> 域 / 域变量 / 属性 / 成员变量 / **字段**
+- WAITING `class` -> `field` + `method`
+- WAITING `field` -> 域 / 域变量 / 属性 / 成员变量 / **字段**
   - C++中, 有成员变量 (member variable) 及成员函数 (member function) 的叫法，成员变量属于data member. ([via](https://en.cppreference.com/w/cpp/language/classes)).
   - Java中则专门用field及method, (via: [java语言规范](https://docs.oracle.com/javase/specs/jls/se14/html/jls-8.html#jls-8.1.6)), 其中只用field及method，从来没有用过“member variable"或”member function"这样的说法。
     - Java中的field，一般译为"字段“（包括官方jdk文档的中译版，[这里](https://www.cjsdn.net/Doc/JDK60/java/lang/Math.html)有个早期的备份), 但是Sun公司被Oracle收购后就没有出过新版的官方中文API文档), 在这个官方的文档中, 也是将一个类的文档分成“字段 | 构造方法 | 方法”三个部分。

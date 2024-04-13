@@ -57,7 +57,7 @@ public:: false
     - 这么一想，其实长大也没什么可怕。小时候我总觉得长大成人很恐怖，但是此刻再看，其实长大多好呀，我小时候做过的梦，此刻都在一一实现，我有了猫咪，有能力给他们健康的生活，他们能够更长远地陪伴我，我们都过得很快乐。
     - ![](https://mmbiz.qpic.cn/mmbiz_png/EibNoYLTccgia3FIprWEjazwBmeCmu6rEhujH5o6a9EicQhYQUX0b9tlKW0xxPk0VQT7IpKhbl1CxMowxvVBNictTA/640?wx_fmt=png)
   - [[draft/sorry-for-cats-in-My-First-Half-of-Life]]
-    - WAIT 我是不是一个适合养宠物的人?
+    - WAITING 我是不是一个适合养宠物的人?
       collapsed:: true
       - https://www.v2ex.com/t/834675
       - 看到上面这个帖子我时常追问我自己养猫合适的心态是什么

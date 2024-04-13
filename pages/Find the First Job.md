@@ -91,10 +91,10 @@ tags:: #Job, #DONE, byd
         mark:: 岗位不符(C)
         source:: [校园招聘](https://app.mokahr.com/campus-recruitment/kingbase/47259#/job/9a50fedc-8606-49e0-9c2c-5fe8dfb52070)
         collapsed:: true
-        - WAIT [Linux后台开发面试高频题经验分享 - 掘金](https://juejin.cn/post/6844904062538907661)
-        - WAIT [人大金仓信息技术股份有限公司面试经验|面试题（共13条）- 职朋](https://www.job592.com/pay/comms29813784.html)
-        - WAIT [秋招04-人大金仓1面-Linux c软件开发工程师_笔经面经_牛客网](https://www.nowcoder.com/discuss/1004483)
-        - WAIT [「人大金仓信息技术股份有限公司c面试题目|面试经验」-看准网](https://www.kanzhun.com/firm/interview/j479451_1XZ73929.html)
+        - WAITING [Linux后台开发面试高频题经验分享 - 掘金](https://juejin.cn/post/6844904062538907661)
+        - WAITING [人大金仓信息技术股份有限公司面试经验|面试题（共13条）- 职朋](https://www.job592.com/pay/comms29813784.html)
+        - WAITING [秋招04-人大金仓1面-Linux c软件开发工程师_笔经面经_牛客网](https://www.nowcoder.com/discuss/1004483)
+        - WAITING [「人大金仓信息技术股份有限公司c面试题目|面试经验」-看准网](https://www.kanzhun.com/firm/interview/j479451_1XZ73929.html)
       - 比亚迪 BYD
         mark:: 深圳 7500;水电不包; 西安Java已无消息;
         source:: http://job.byd.com/zpweb/zpweb/planList.do
@@ -720,7 +720,7 @@ tags:: #Job, #DONE, byd
   -
   - ### Special: [[programming]] #learning #roadmap/develop
     -
-    - WAITING Java exercise;
+    - TODO  Java exercise;
       SCHEDULED: <2024-03-11 Mon 00:00 .+1d>
       - [Nowcoder](https://www.nowcoder.com/)
         logseq.order-list-type:: number

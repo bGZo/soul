@@ -19,7 +19,7 @@ title:: lang/programming/system
   - [Ada](https://en.wikipedia.org/wiki/Ada_(programming_language))
   - [D](https://en.wikipedia.org/wiki/D_(programming_language))
   - [Nim](https://en.wikipedia.org/wiki/Nim_(programming_language))
-  - WAIT [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
-  - WAIT [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language))
+  - WAITING [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
+  - WAITING [Rust](https://en.wikipedia.org/wiki/Rust_(programming_language))
   - [Swift](https://en.wikipedia.org/wiki/Swift_(programming_language))
 -

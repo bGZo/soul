@@ -85,7 +85,7 @@ mark:: 2020年出版...
           - 第三方模块
           - 自己的模块
         - 属于同一个部分的import语句按字母顺序排列
-    - WAIT 第3条 了解bytes与str的区别 (都表示字符序列)
+    - WAITING 第3条 了解bytes与str的区别 (都表示字符序列)
       collapsed:: true
       - `bytes`
         - bytes实例包含的是原始数据，即8位的无符号值（通常按照ASCII编码标准来显示）

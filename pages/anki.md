@@ -8,7 +8,7 @@ bookmark:: [AnkiWeb](https://ankiweb.net)
   - So Anki is a power tool to help us to remember the knowledge. IDK how long [[Logseq]] had worked for this, so I rather to use Anki again. (View some ((6469b1b9-9a75-4610-8580-1a049b7fed1d)) to interduce it)
 - ## How
   - Firstly, I decided to use parent block ——— `anki` to include information I need to remember.
-  - WAIT And try my best to remember them in the morning.
+  - WAITING And try my best to remember them in the morning.
     \SCHEDULED: <2023-05-21 Sun 06:00 .+1d>
   - Then, I need a plugin to collect words in daily scenes. And [Online Dictionary Helper](https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb) is a good extension to connect it, whose implement is interesting as well.
     - ```js

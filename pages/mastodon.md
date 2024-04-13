@@ -39,12 +39,12 @@ mark::
     - [Mastodon | Creating Mastodon | Patreon](https://www.patreon.com/mastodon)
     - [如何使用Patreon给外国创作者打钱？ - 哔哩哔哩](https://www.bilibili.com/read/cv3684028)
     - DONE [捐助O3O – O3O](https://o3o.foundation/donate/) #donation
-  - WAIT Mastodon content still available when the source is closed. Does could I know which instance is the backup from?
+  - WAITING Mastodon content still available when the source is closed. Does could I know which instance is the backup from?
     collapsed:: true
     - `@cyberbot@saibo.world`
     - [What Happens If My Mastodon Server Shuts Down? - All Things How](https://allthings.how/what-happens-if-my-mastodon-server-shuts-down/)
     - [Content I deleted in one instance is still showing up in others, years after the fact : Mastodon](https://www.reddit.com/r/Mastodon/comments/10mta5v/content_i_deleted_in_one_instance_is_still/)
-  - WAIT CSS 不同语言切换不同字体的用法
+  - WAITING CSS 不同语言切换不同字体的用法
     collapsed:: true
     - ```css
       <div class="status__content__text status__content__text--visible translate" lang="ja"><p>xxxx</p></div>

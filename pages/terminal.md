@@ -19,7 +19,7 @@
         - ```bash
           cat /etc/shells # see your shell in Linux
           ```
-  - WAIT Windows
+  - WAITING Windows
 -
 - VSZ/RSS/TTY/STAT/START/PTS & TTY
   - ```bash

@@ -14,11 +14,11 @@ created:: 20220320
       iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1 | iex
       iwr -useb https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.ps1 | iex
       ```
-  - WAIT [(Other) Bring back Behind The Lyrics - The Spotify Community](https://community.spotify.com/t5/Closed-Ideas/Other-Bring-back-Behind-The-Lyrics/idi-p/5323478)
+  - WAITING [(Other) Bring back Behind The Lyrics - The Spotify Community](https://community.spotify.com/t5/Closed-Ideas/Other-Bring-back-Behind-The-Lyrics/idi-p/5323478)
     ==对歌词背后 Stories(Behind the Songs) 的挖掘==
-  - WAIT Find spotify alternatives, because I think the low price time would be not long.
+  - WAITING Find spotify alternatives, because I think the low price time would be not long.
     - 菲律宾 和 土耳其 低价区；
-  - WAIT Organize origin playlist by text, rather than platform or community.
+  - WAITING Organize origin playlist by text, rather than platform or community.
     - A good tool to move within different platfroms is [迁移 网易云 / QQ 音乐到 Apple Music, Youtube Music, Spotify | yyrcd](https://yyrcd.com/n2s/)
       collapsed:: true
       - ```
