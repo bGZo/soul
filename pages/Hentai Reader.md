@@ -101,7 +101,7 @@ title:: Hentai Reader
   - ### \# Alternatives
     - Feedbro
   - ### \# Notes
-    - The project tech stack is [[python]], [[jekyll]], [[tailwind]] and few [[javascript]];
+    - The project tech stack is [[python]], [[jekyll]], [[tailwind]] and few [[Javascript]];
     - The libraries I used is
       - [[pyyaml]]
         collapsed:: true

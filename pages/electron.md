@@ -1,7 +1,7 @@
 title:: electron
 alias:: 
 desc:: 
-tags:: #Github #Framework #nodejs #cross-platform #html #css #javascript #TODO
+tags:: #Github #Framework #nodejs #cross-platform #html #css #Javascript #TODO
 created:: 20200801
 mark::
 source:: [electron/electron](https://github.com/electron/electron) ![](https://img.shields.io/github/stars/electron/electron)

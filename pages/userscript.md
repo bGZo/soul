@@ -1,6 +1,6 @@
 alias:: 用户脚本
 mark:: a program, usually written in JavaScript, for modifying web pages to augment browsing.
-tags:: #javascript 
+tags:: #Javascript 
 
 created:: 20230615
 title:: userscript

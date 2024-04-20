@@ -25,7 +25,7 @@ closed::
 - Patch
   - [S-courtDL：Download](https://dl-en.s-court.me/download.php?itemid=104)
   - [CUSTOM ORDER MAID 3D2 Update](https://com3d2.world/r18/update/)
-- #Comment #My
+- #Comment #my
   source:: [游戏冷门, 就没人吐槽一下 Steam 的游玩感受吗? (不定期更新) (讨论:カスタムオーダーメイド3D2)](https://bgm.tv/subject/topic/23749); [Steam 社区 :: 💛 :: 评测 CUSTOM ORDER MAID 3D2 It's a Night Magic](https://steamcommunity.com/id/bgzotr/recommended/1097580/)
   - KISS&S-court 可太会了, 这游戏玩着就像是氪金手游, 掏空你钱包, 根本停不下来! 实在是太草了!!!
     - 如果你想给 Maid 添置 性格(人物) / 衣服,头发,体位(R18), 每样都需要购买 1 份 DLC!

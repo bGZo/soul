@@ -8,15 +8,12 @@ alias:: 数据库
 -
 -
 - More
-  collapsed:: true
   - People in DataBase Object,  You Should Know
-    collapsed:: true
     - 1973年 Charles W. Bachman(1924-2017) 网状数据库技术
     - 1981年 Edgar F. Codd (1923－2003 )数据库系统，尤其是关系型数据库
     - 1998年 Jim Gray (1944-2007.1.28? )数据库与事务处理
     - 2014年 Michael Stonebraker(1943-)现代数据库系统底层的概念与实践
   - Categories
-    collapsed:: true
     - 国外
       - [大] 甲骨文 Oracle
       - [大] IBM DB2
@@ -34,7 +31,6 @@ alias:: 数据库
       - 东软: [OpenBASE](http://www.openbase.com.cn)
       - 阿里巴巴: [OceanBase](http://code.taobao.org/p/OceanBase/src/)
   - [[magazine]]
-    collapsed:: true
     - | 刊物简称  | 刊物全称                                            | 出版社                | 网址                                                 |
       | --------- | --------------------------------------------------- | --------------------- | ---------------------------------------------------- |
       | TODS      | ACM Transactions on Database Systems                | ACM                   | http://www.acm.org/tods/                             |
@@ -42,7 +38,6 @@ alias:: 数据库
       | TOIS      | ACM Transactions on Information and Systems         | ACM                   | http://www.acm.orgpubs/tois/                         |
       | IEEE TKDE | IEEE Transactions on Knowledge and Data Engineering | IEEE Computer Society | http://www.computer.org/tkde/                        |
   - Meetings
-    collapsed:: true
     - ACM SIGMOD 国际计算机学会数据管理专业委员会
       - 国际数据库领域最高级别的国际会议
       - 主要致力于数据库以及信息技术的研究，开发和应用

@@ -39,7 +39,7 @@ wikipedia:: https://en.wikipedia.org/wiki/Back_end
     - PHP
     - Rust
     - Go
-    - [[javascript]]
+    - [[Javascript]]
     - [[python]]
     - Ruby
   - **Version Control System**

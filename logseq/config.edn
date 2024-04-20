@@ -14,7 +14,7 @@
 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
- :ui/enable-tooltip? true
+ :ui/enable-tooltip? false
 
  ;; Enable Block timestamp
  :feature/enable-block-timestamps? false
@@ -220,7 +220,7 @@
  ;; The default level to be opened for the linked references.
  :ref/default-open-blocks-level 1
 
- :favorites ["20240127" "20240203" "20230211" "659a4cc1-e22a-4359-a583-d609e4ddcd5a"]
+ :favorites ["magasa" "archived/zhihu/magasa" "20240127" "20240203" "20230211" "659a4cc1-e22a-4359-a583-d609e4ddcd5a"]
 
  :ref/linked-references-collapsed-threshold 20
 
@@ -231,7 +231,7 @@
  
  :feature/enable-journals? true
 
- :ui/show-brackets? true
+ :ui/show-brackets? false
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
