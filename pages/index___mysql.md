@@ -1,7 +1,10 @@
-title:: index/mysql
-alias:: mysql/index
-tags:: #[[data-structure]], TODO
-mark:: "一种用于快速查询和检索数据的数据结构"
+---
+alias: mysql/index
+mark: 一种用于快速查询和检索数据的数据结构
+date: 20240417
+tags: #[[data-structure]]
+title: index/mysql
+---
 
   - Use Case
     - `not null`(**Best**) & `where` & `having`
@@ -15,7 +18,6 @@ mark:: "一种用于快速查询和检索数据的数据结构"
       - 创建索引和维护索引需要耗费许多时间。当对表中的数据进行增删改的时候，如果数据有索引，那么索引也需要动态的修改，会**降低 SQL 执行效率**
       - 索引需要使用**物理文件存储**, 也会耗费一定空间
   - [[data-structure]]
-    collapsed:: true
     - Hash
     - B 树
     - B+ 树
@@ -45,6 +47,16 @@ mark:: "一种用于快速查询和检索数据的数据结构"
       mark:: "索引结构和数据分开存放的索引"
   - 覆盖索引 ???
   - 联合/组合/复合 索引 ???
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+-
+-
+-
+-
 -
 - [[interview]]
   collapsed:: true

@@ -10,7 +10,7 @@ source:: https://wangdoc.com/javascript/
 - 7. 异步操作
 - 8. [[dom]]
   - 概述
-    - Rather than **接口规范**; 只不过 [[javascript]] 操作地比较多
+    - Rather than **接口规范**; 只不过 [[Javascript]] 操作地比较多
     - DOM 作用
       - 将网页转为一个 JavaScript 对象，从而可以用脚本进行各种操作 (增删内容)
     - [[Browser]]

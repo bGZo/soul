@@ -1,5 +1,4 @@
-- {{renderer :tocgen2}}
-- ## 概述
+## 概述
   - 2018年9月26日,Oracle官方发布JAVA11.这是JAVA大版本周期变化后的第一个长期支持版本,非常值得关注.最新发布的JAVA11将带来ZGC HttpClient等重要特性,一共17个需要我们关注的JEP,参考文档 http://openjdk.java.net/projects/jdk/11/
     - ![1630397289057](../assets/mashibing/1630397289057.png)
       - 181:基于嵌套的访问控制

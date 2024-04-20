@@ -188,7 +188,7 @@ icon:: 💾
     collapsed:: true
     - 奧古斯特拒絕行納粹禮，他的舉動被人拍了下來，因而使他聞名於世。
     - ![image.png](../assets/archived/image_1666177782853_0.png)
-  - [[archived/zhihu/magasa]]
+  - [[magasa]]
   - [[archive/wan-wei-gang]]
 -
 -

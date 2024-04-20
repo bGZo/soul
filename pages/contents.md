@@ -3,6 +3,8 @@ icon: 🧾
 title: Contents
 ---
 
+- [:h2 {:class text-right} "Contents"]
+  {{renderer :tocgen2, *}}
 - [:h2 {:class text-right} "Quick start"]
   - [[Start Page]] | 导航页
     logseq.order-list-type:: number

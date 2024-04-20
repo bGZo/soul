@@ -5,7 +5,7 @@ alias:: Paradigms/prototype-based
   - [[ecmascript]]
     - ActionScript 1.0, used by Adobe Flash and Adobe Flex
     - E4X
-    - [[javascript]]
+    - [[Javascript]]
     - JScript
     - TypeScript
   - Lua
