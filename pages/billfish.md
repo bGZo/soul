@@ -1,8 +1,6 @@
-icon:: 
 title:: billfish
 alias:: Tools/billfish, 尖嘴鱼 
-desc:: 
-tags:: #font #photo
+tags:: #font #photo #deprecated 
 document:: [知识库 - Billfish素材管理工具](https://www.billfish.cn/category/knowledge/)
 changelog:: [软件下载- Billfish素材管理工具](https://www.billfish.cn/download/)
 community:: [Billfish素材管理软件-用户交流论坛 - Powered by Discuz!](https://www.billfish.cn/bbs/)
@@ -51,3 +49,4 @@ created:: 20230127
       - TODO 但是不知道为什么数据库只增不减, 并不清楚数据库中详细条目的占用情况, 有时间优化下;
     - `.backup` 中备份自己的两个数据库, 所以我只把这部分取动态链接到 Onedrive 同步了, 但要时常主义该备份是否可用, 因为上一次就是因为备份失效了, 才导致我努力了好多天, 花巨大精力维护的数据库直接没了 😭
       - via: 上一次 -> ((63d1f165-74a3-4cf6-b656-3a46700c6dd8))
+-

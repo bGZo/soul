@@ -3,7 +3,7 @@ alias:: 爱好
 title:: Hobby
 
 - [[Issue]]
-  - #Discuss #[[Open-ended Question]] 哪些爱好需要被抑制?
+  - #discuss #[[Open-ended Question]] 哪些爱好需要被抑制?
 - LATER [[ACGN]]
   :LOGBOOK:
   CLOCK: [2022-02-23 Wed 09:29:39]--[2022-02-23 Wed 09:29:40] =>  00:00:01

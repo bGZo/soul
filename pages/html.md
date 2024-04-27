@@ -15,7 +15,7 @@ mark:: "HTML, HyperText Markup Language, 网页文档的标准标记语言, 但�
   - Empty HTML Elements | 内容可为空
   - HTML is Not Case Sensitive | 大小写不敏感
   - HTML Tag Reference
-    - ==Not supported in HTML5== (12) #[[Deprecated]]
+    - ==Not supported in HTML5== (12) #[[deprecated]]
       collapsed:: true
       - ~~`<frame> <frameset> <noframes>`~~
       - ~~`<acronym>`~~

@@ -27,7 +27,7 @@ title:: year
         - ### DLsite Comic Sale Ranking
           - {{iframe https://www.dlsite.com/maniax/ranking/year?year=``{c.page.name}``&sort=sale&category=comic}}
   -
-  - DONE In new [[year]] page, I will sperate vertical page to two parts at least. #Closed #Deprecated 
+  - DONE In new [[year]] page, I will sperate vertical page to two parts at least. #Closed #deprecated 
     created:: 20221217
     closed:: 20230218
     - the more details are like this: #changelog/wiki #Template

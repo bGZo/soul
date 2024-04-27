@@ -3,7 +3,7 @@ changelog:: [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changel
 community:: [Logseq Community Hub](https://hub.logseq.com/);
 document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://mschmidtkorth.github.io/logseq-msk-docs)
 created:: 20210801
-tags:: #Tools
+tags:: #tools
 collapsed:: true
 title:: Logseq
 
@@ -83,7 +83,7 @@ title:: Logseq
           created:: 20221120
           - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
             collapsed:: true
-            #Telegram #Deprecated
+            #Telegram #deprecated
             - I think the journals more like tasks with #[[gtd]]
           - Sub block will gone #Issue
             - Test case:
@@ -120,7 +120,7 @@ title:: Logseq
       collapsed:: true
       - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
         collapsed:: true
-        #Telegram #Deprecated
+        #Telegram #deprecated
         - I think the journals more like tasks with #[[gtd]]
       - Sub block will gone #Issue
         - Test case:
@@ -155,7 +155,7 @@ title:: Logseq
       - Right click to select copy this position
     - [Online LaTeX Equation Editor - create, integrate, download](https://latex.codecogs.com) #[[latex]] #[[bookmark]]
     - `@@` use html code!
-    - There are many tools [[Deprecated]] as following, #Closed  #.ol
+    - There are many tools [[deprecated]] as following, #Closed  #.ol
       collapsed:: true
       - [Zotero | Your personal research assistant](https://www.zotero.org/)
         - **Alternatives**

@@ -162,7 +162,7 @@ icon:: 💾
     collapsed:: true
     - We **do** plan to keep adding to this content here on Khan Academy, so check back here every few months for updates.
       via: [Where to go from here (article) | Algorithms | Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/algorithms-more-learning/a/where-to-go-from-here)
-- [[Discuss]]
+- [[discuss]]
   collapsed:: true
   - [你觉得哪些技术点觉得难，哪些觉得简单 - V2EX](https://www.v2ex.com/t/854363#r_11685524)
     - 其实都是隔行如隔山的问题，真正处理业务代码都不难，用到数学知识觉得难了，学会了又不难了。另外越底层越难显然是误解，以前学生时代导师做 IC 设计，IC 底层大都执行一些相当单纯的逻辑，在该视角的工程师来看是不复杂的。同理，你做系统级编程会发现，系统的基础组件也在处理很死板的逻辑。写业务代码的不了解所以就感觉难了

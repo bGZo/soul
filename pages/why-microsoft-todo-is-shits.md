@@ -1,8 +1,8 @@
-title:: draft/why-microsoft-todo-is-shits
+title:: why-microsoft-todo-is-shits
+tags:: microsoft/todo
 
 - Not support Markdown like https://trello.com.
-  - Also like Microsoft Office, compare with Google Online Tools
--
+  - Also like Microsoft Office, compared with Google Online Tools
 - Usage design not friendly, like
   - making a task for sub-task for another task
   - multi views show up
@@ -10,4 +10,3 @@ title:: draft/why-microsoft-todo-is-shits
 - Count time not supported
 - Export data not supported
 - oauth login apis are difficult???
--

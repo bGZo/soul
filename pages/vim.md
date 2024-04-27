@@ -1,4 +1,4 @@
-tags:: #Tools
+tags:: #tools
 
 - ## [[Quickref]]
   - [Vim Cheat Sheet & Quick Reference](https://quickref.me/vim)

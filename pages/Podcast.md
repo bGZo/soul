@@ -16,7 +16,7 @@ title:: Podcast
       tags:: 
       date:: ``{ date.now.format('YYYYMMDD') }``
       title:: ``{ c.page.name }``
-  - `<iframe src=" " autoplay=0 frameborder=0></iframe>` #Deprecated
+  - `<iframe src=" " autoplay=0 frameborder=0></iframe>` #deprecated
 - ## Why
   - I listen podcast since [[twitter]]'s recommendation, and my first platform is [xiaoyuzhoufm)](https://www.xiaoyuzhoufm.com/). Then I changed to other platform cause they are not useful across devices.
   - I have to say, in the rest time of listening music, I spend most time in [[weread]] and this one. This is a really new platform to discover others' mind and thought. And we could be better, especially if we want to dig deep into something.

@@ -114,7 +114,7 @@ title:: Book
       collapsed:: true
       - `equb` > `awz3` >= `mobi` > `PDF` (**手写UP**)
         - > PDF 是输出文件，不推荐编辑。打个比方，你用什么肥料灌溉米饭？ 
-          via: [你用什么编辑 pdf? - V2EX](https://www.v2ex.com/t/863307#; ) #Discuss
+          via: [你用什么编辑 pdf? - V2EX](https://www.v2ex.com/t/863307#; ) #discuss
         - 前 3 者可以转换 `PDF`, 过程不可逆. 但 `PDF` 更加通用, 可以直接做文章的引用(准确到页)
           - `mobi/azw*`
             - Amazon 私有格式, 亚马逊利用 `azw` 对电子书做 `DRM` 版权保护

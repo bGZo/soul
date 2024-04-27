@@ -1,7 +1,4 @@
-alias:: classes/bourgeoisie
-tags:: TODO
+alias:: 资产阶级,
+wikipedia:: https://en.wikipedia.org/wiki/Bourgeoisie
 
--
-- Refs
-  - [Bourgeoisie - Wikipedia](https://en.wikipedia.org/wiki/Bourgeoisie)
 -

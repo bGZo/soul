@@ -80,7 +80,7 @@ title: Template
           released-date:: 
           published-date:: 
           ```
-    - Here are [[Deprecated]] properties:
+    - Here are [[deprecated]] properties:
       - `url`
       - `mark`
       - `desc`
@@ -99,7 +99,7 @@ title: Template
         title:: 
         alias:: 
         desc:: 
-        tags:: #Tools
+        tags:: #tools
         document:: 
         changelog:: 
         community:: 

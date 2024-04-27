@@ -104,7 +104,7 @@ tags:: #Job, #DONE, byd
           > via: https://www.nowcoder.com/feed/main/detail/dc45a0aa252342cca3bcf44be2c7a7d1
         - Refs
           collapsed:: true
-          - [[Discuss]]
+          - [[discuss]]
             collapsed:: true
             - 来比亚迪十个月后宿舍变化
               collapsed:: true

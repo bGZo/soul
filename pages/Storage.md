@@ -31,7 +31,7 @@ title: Storage
       - Refereneces
         - [[为什么现在的手机大多已不支持SD存储卡扩展呢？ - 知乎]]
         - [[Re 閒聊 安卓旗艦為何不採用NVME呢？]]
-  - ### 检测工具 [[Tools]]
+  - ### 检测工具 [[tools]]
     - ```shell
       # Windows
       scoop install diskgenius crystaldiskinfo crystaldiskmark
