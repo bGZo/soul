@@ -1,1 +1,1 @@
-tags:: #Deprecated
+tags:: #deprecated

@@ -10,8 +10,8 @@ title: Weekly
   - Work Flow
 - ## How
   - TODO 同步工作摸🐟 [Gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f) 
+    SCHEDULED: <2024-04-27 Sat 00:00 ++1w>
     collapsed:: true
-    SCHEDULED: <2024-04-20 Sat 00:00 ++1w>
     :LOGBOOK:
     * State "DONE" from "TODO" [2024-01-20 Sat 22:00]
     * State "DONE" from "TODO" [2024-01-27 Sat 21:38]
@@ -23,6 +23,7 @@ title: Weekly
     * State "DONE" from "WAITING" [2024-03-30 Sat 20:09]
     * State "DONE" from "WAITING" [2024-04-08 Mon 07:21]
     * State "DONE" from "TODO" [2024-04-13 Sat 11:30]
+    * State "DONE" from "TODO" [2024-04-20 Sat 23:30]
     :END:
     - {{iframe https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f}}
       #+BEGIN_CENTER

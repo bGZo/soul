@@ -3,13 +3,13 @@ mark:: 禁止 / 封杀 / 屏蔽
 
 - [[Issue]]
   collapsed:: true
-  - 封杀应不应该被理解 #Discuss
+  - 封杀应不应该被理解 #discuss
     - [美国有封杀劣迹艺人的事例吗？ - 知乎](https://www.zhihu.com/question/26032041)
-  - 造成不良影响是否要封杀 #Discuss
+  - 造成不良影响是否要封杀 #discuss
     - [是否支持 PG ONE 被封杀？ - 知乎](https://www.zhihu.com/question/265138699)
     - [为什么卢本伟开挂会被弄到封杀这么严重？ - 知乎](https://www.zhihu.com/question/296986768)
     - [美国有封杀劣迹艺人的事例吗？ - 知乎](https://www.zhihu.com/question/26032041)
-  - 外国 封杀吗 #Discuss
+  - 外国 封杀吗 #discuss
 - [[my]]
   collapsed:: true
   - wechat #Public via: [(TLDR) 微信小号 (无好友) 被限制登陆 == 永封 - V2EX](https://v2ex.com/t/857226#reply7)

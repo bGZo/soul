@@ -1,5 +1,5 @@
 mark:: the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options. via: [OpenSSH](https://www.openssh.com/)
-tags:: #Tools
+tags:: #tools
 
 - ## Suite
   - Remote operations are done using [ssh](https://man.openbsd.org/ssh.1), [scp](https://man.openbsd.org/scp.1), and [sftp](https://man.openbsd.org/sftp.1).

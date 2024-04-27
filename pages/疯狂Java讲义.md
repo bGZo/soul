@@ -1,7 +1,7 @@
 title:: 疯狂Java讲义
 icon:: 📖
 alias:: book/疯狂Java讲义
-tags:: #Java, #develop #Deprecated 
+tags:: #Java, #develop #deprecated 
 author:: 李刚
 publisher:: 电子工业出版社
 published:: 20120100

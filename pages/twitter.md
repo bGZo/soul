@@ -10,7 +10,7 @@ wikipedia:: [Twitter - Wikipedia](https://en.wikipedia.org/wiki/Twitter)
 - ## How
   - How to use twitter list and manage following people?
     collapsed:: true
-    - List 中的人要不要关注? #Discuss
+    - List 中的人要不要关注? #discuss
       - ==我个人选择不关注, 因为日常供给我的选择越多==, 但是, 这样阅读 List 又会把别人对我没有什么价值的信息传达给我
   - How to use twitter likes and bookmarks?
     collapsed:: true

@@ -21,7 +21,7 @@ mark:: [Home - bGZo's blog](http://blog.bgzo.cc)
         - `lxgw-wenkai-screen-webfont`
       - 测试用的是 Screen 版本, 总共 10 M, 对比原版需要 30M, 感觉只有 Build-in App 才会用, 但这不标榜 Webfont 吗? Build-in 我直接去哪原版了, 来这里做什么?
     - 作者应该是下了幸苦, 按一定分区大小进行划分, 每个包差不多50多K, 合在一起的 CSS 差不多 100 多K, 但是要全部包加载完才能渲染完, 2分钟内一直在下载状态就非常不能忍;
-  - DONE ~~Add support for CN characters~~ in 20230131 #Deprecated #regex
+  - DONE ~~Add support for CN characters~~ in 20230131 #deprecated #regex
     collapsed:: true
     - 1 , 替换
       2 . 替换

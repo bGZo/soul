@@ -1,8 +1,8 @@
-mark:: 默示; 天启;
+alias:: 默示, 天启
+tags:: 疫情, 末日
 
   - Since [[2020]]; Realize [[2022]]
   - [[Quickref]]
-    collapsed:: true
     - [常温]
       id:: 635b6113-9e0c-4f57-a85a-72c2289d981e
     - [冷藏]
@@ -13,7 +13,6 @@ mark:: 默示; 天启;
       id:: 62c1a26b-0f75-4d00-9980-68321e85376d
 - Prepare
   tags:: #[[buy]]
-  collapsed:: true
   - 嗜好品
     - 咖啡 1 年量
   - 食物

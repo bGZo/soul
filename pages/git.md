@@ -1,4 +1,4 @@
-tags:: #Tools 
+tags:: #tools 
 
 created:: 20230728
 title:: git

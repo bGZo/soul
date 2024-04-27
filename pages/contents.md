@@ -35,7 +35,6 @@ title: Contents
   }]}
   #+END_QUERY
 - [:h3 {:class text-center} "bGZo © 2024"]
-  collapsed:: true
   -
   - #+BEGIN_CENTER
     Copyright 2021 - 2024 [[bGZo]]. All rights reserved. The contents is licensed under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/); the code is under [MIT](https://github.com/bGZo/blog/blob/main/LICENSE) licence. The contents and comments are copyright their respective authors, submission implies license to publish on this web site.

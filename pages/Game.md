@@ -24,8 +24,8 @@ title:: Game
 - ## Why
 - ## How
 - ## What
-  - 我们一定要对一件事情有看法吗? 为什么我们一定要有看法? #Discuss
-  - Play pirated game, then buy it future. #Discuss
+  - 我们一定要对一件事情有看法吗? 为什么我们一定要有看法? #discuss
+  - Play pirated game, then buy it future. #discuss
     collapsed:: true
     - "补票" 这个词是中国游戏圈一个特有的词汇, 国外基本没有这样的用法, 传统上我们讲:
       - > 凡应凭票方能获得的某种权利，如缺少票证，需按规定补全称为补票。多用于乘坐车船。
@@ -44,7 +44,7 @@ title:: Game
     - [如何看待先玩盗版游戏，等到 Steam 打折时候再进行补票的行为？ - 知乎](https://www.zhihu.com/question/68383289)
     - [Is it fine if I download a pirated game, and then buy it in future? - Quora](https://www.quora.com/Is-it-fine-if-I-download-a-pirated-game-and-then-buy-it-in-future)
     -
-  - Some useful [[Tools]]:
+  - Some useful [[tools]]:
     collapsed:: true
     - [Controller Companion](http://controllercompanion.com/)
     - [Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards)  | RTSS(RivaTuner Statistics Service) 锁帧

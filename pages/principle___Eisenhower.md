@@ -1,4 +1,6 @@
 title:: principle/Eisenhower
+alias:: 艾森豪威尔矩阵
+tags:: #time/management
 
 - $$important > urgent$$
   - ![https://upload.wikimedia.org/wikipedia/commons/3/32/MerrillCoveyMatrix.png](../assets/image_1660446169666_0.png)

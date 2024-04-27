@@ -1,4 +1,4 @@
-tags:: #Browser #Deprecated
+tags:: #Browser #deprecated
 
 - ## Feature 🎉
   collapsed:: true

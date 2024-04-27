@@ -181,7 +181,7 @@ title:: Project
     - WAITING 物理控制器, 自己打碟
     - WAITING 各类 Generate 生成器构建
     - [[newsline]] #duplicate
-    - ### ~~[[Deprecated]]~~
+    - ### ~~[[deprecated]]~~
       - DONE 常用文本管理. 随时调用
         mark:: 需求消失 / Bitwarden
         :LOGBOOK:
