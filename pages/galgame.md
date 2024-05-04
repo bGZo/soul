@@ -2,7 +2,7 @@ icon:: 🌸
 alias:: ギャルゲーム, ギャルゲー, ギャルゲ, 美少女游戏, 萌游戏, Visual Novel
 moegirl:: [Galgame - 萌娘百科 萬物皆可萌的百科全書 (moegirl.org.cn)](https://zh.moegirl.org.cn/zh-hk/Galgame)
 wikipedia:: [Bishōjo game - Wikipedia](https://en.wikipedia.org/wiki/Bish%C5%8Djo_game)
-tags:: #Hobby #Game
+tags:: #Hobby #game
 mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
 
   - cover:: ![🖼 ](../assets/``{ date.now.format('YYYY') }``/)

@@ -47,11 +47,11 @@ title:: Video
     - {{renderer :smartblock, youtuber, +Add a suck channel, true}}
     - title:: [芒果冰OL - YouTube](https://www.youtube.com/channel/UCIUYqpXe7yok4x3VkK67B3Q)
       rss:: [芒果冰OL](https://www.youtube.com/feeds/videos.xml?channel_id=UCIUYqpXe7yok4x3VkK67B3Q)
-      tags:: #Podcast #Youtube #subscription #Game 
+      tags:: #Podcast #Youtube #subscription #game 
       created:: 20221220
     - title:: [独立菌儿 - YouTube](https://www.youtube.com/channel/UCNwO6JN62MCYT-YWdCSf3ng)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCNwO6JN62MCYT-YWdCSf3ng
-      tags:: #Podcast #Youtube #subscription #Game
+      tags:: #Podcast #Youtube #subscription #game
       created:: 20221220
     - title:: [富人俱樂部 - YouTube](https://www.youtube.com/channel/UCdok8jHNfHCWNPwkmBiapmg)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCdok8jHNfHCWNPwkmBiapmg
