@@ -2,9 +2,10 @@ alias:: 游戏
 mark:: 
 icon:: 🎮
 tags:: #ACGN
+title:: game
 
 created:: 20230815
-title:: Game
+title:: game
 
   - template:: game
     template-including-parent:: false
@@ -13,7 +14,7 @@ title:: Game
       title:: 
       alias:: 
       desc:: 
-      tags:: #Game 
+      tags:: #game 
       released-created:: 
       developer:: 
       publisher:: 

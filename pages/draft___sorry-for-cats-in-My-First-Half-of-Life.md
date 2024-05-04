@@ -1,5 +1,5 @@
 title:: draft/sorry-for-cats-in-My-First-Half-of-Life
-tags:: #cat, #Public
+tags:: #cat, #public
 mark:: 我人生中对不起的几只猫
 created:: 20210314
 

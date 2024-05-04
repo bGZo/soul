@@ -1,6 +1,6 @@
 alias:: 手柄, 手把
 icon:: 🎮
-tags:: #Game 
+tags:: #game 
 wikipedia:: [Gamepad - Wikipedia](https://en.wikipedia.org/wiki/Gamepad)
 
 created:: 20230604

@@ -260,7 +260,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - [在线看漫画_飒漫乐画_妃夕妍雪 - 漫画柜](https://www.manhuagui.com/)
     - [Mox.moe (Kindle漫畫|Kobo漫畫|epub漫畫) (mox.moe)](https://mox.moe/)
   -
-  - ### 🎮 [[Game]]
+  - ### 🎮 [[game]]
     collapsed:: true
     - #### 👥 [[community]]
       - [其乐 Keylol](https://keylol.com/)

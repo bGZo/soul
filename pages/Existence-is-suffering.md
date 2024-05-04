@@ -1,5 +1,5 @@
 title:: Existence-is-suffering
-tags:: #my/blog, #fucking/reality #Public
+tags:: #my/blog, #fucking/reality #public
 
 - ## 出生即伤害, 存在即痛苦
   - [[Rick and Morty]] 衍生漫画 20210303 的一期 _Rick and Morty Presents: Jerryboree_[^JERRYBOREE] 中讲了杰瑞托管所的真相, 我印象很深, 在漫画中, `X-198` 号杰瑞吃了 _GOD PILL_, 成为 GOD 后做的第一件事, 就是 _NO MORE JERRYS_, 结束了其他 Jerry 的一生. 为什么呢?
