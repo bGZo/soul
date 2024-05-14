@@ -37,7 +37,7 @@
  :export/bullet-indentation :two-spaces
 
  ;; Whether export all pages within that repo or not.
- :publishing/all-pages-public? false
+ :publishing/all-pages-public? true
 
  ;; Specify default home page and sidebar status for Logseq
  ;; If not specified, Logseq default opens journals page on startup
