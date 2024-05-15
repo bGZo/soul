@@ -94,7 +94,7 @@
 
  ;; Block content larger than `block/content-max-length` will not be searchable
  ;; or editable for performance.
- :block/content-max-length 4000
+ :block/content-max-length 20000
 
  ;; Whether to show command doc on hover
  :ui/show-command-doc? true
@@ -197,7 +197,6 @@
            ["command man" "{{renderer :template, command-man}}"]
            ["year review" "{{renderer :template, year/review}}"]
            ["ifame" "{{renderer :template, iframe}}"]
-           
            ["iframe-buildin" [[:editor/input "{{iframe }}\n#+BEGIN_CENTER\n\n#+END_CENTER" {:backward-pos 31}]]]
            ;; https://discuss.logseq.com/t/macros-and-commands-lets-share/9565
            ;; ["python code" [[:editor/input "```python\n\n```" {:backward-pos 4}]]]
@@ -211,7 +210,6 @@
  ;; By default, a block can only be collapsed if it has some children.
  :outliner/block-title-collapse-enabled? false
 
-
  ;; Macros replace texts and will make you more productive.
  :macros {
           "iframe" "<iframe src='$1' style='height:300px;'></iframe>"
@@ -220,16 +218,17 @@
  ;; The default level to be opened for the linked references.
  :ref/default-open-blocks-level 1
 
- :favorites ["magasa" "archived/zhihu/magasa" "20240127" "20240203" "20230211" "659a4cc1-e22a-4359-a583-d609e4ddcd5a"]
+ :favorites ["20240127" "20240203" "20230211"]
 
  :ref/linked-references-collapsed-threshold 20
 
  :feature/enable-encryption? false
 
  :journal/page-title-format "yyyyMMdd"
+ 
  :journal/file-name-format "yyyyMMdd"
  
- :feature/enable-journals? true
+ :feature/enable-journals? false
 
  :ui/show-brackets? false
 
@@ -274,7 +273,7 @@
  ;; Extra CodeMirror options
  :editor/extra-codemirror-options {
                                    :lineWrapping true 
-                                   :theme "rdark"
+                                   ;:theme "rdark"
                                    }
  ;; ignore #+keyword: for parsing page references in orgmode
  ;; :ignored-page-references-keywords #{"author" "startup"}
@@ -306,8 +305,6 @@
  ;   :list?            true
  ; }
 
-
-
  :file/name-format :triple-lowbar
 
  :feature/enable-timetracking? false
@@ -323,5 +320,7 @@
  :editor/logical-outdenting? true
  
  :editor/preferred-pasting-file? true
-
+ 
+ :default-home {:page "Contents"}
+ 
  }
