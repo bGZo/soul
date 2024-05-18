@@ -1,11 +1,7 @@
 tags:: #geekbang, #Linux
 
-- [EM italics parent of a parent SPAN going on next line · Issue #111 · GitMurf/roam-highlighter · GitHub](https://github.com/GitMurf/roam-highlighter/issues/111)
--
 - ## 入门
-  collapsed:: true
   - ## Why?
-    collapsed:: true
     - __服务端应用__
       - 云计算、虚拟化、容器、大数据、人工智能，几乎都是基于 Linux 技术的。那些牛得不行的系统，团购、电商、打车、快递，都是部署在服务端，也几乎都是基于 Linux 技术的
     - __代码实现__
@@ -21,7 +17,6 @@ tags:: #geekbang, #Linux
   - ...
   -
   - ## Route
-    collapsed:: true
     - Linux 的灵活性也会使得你有 N 多种方法解决问题,从而事半功倍,你就会有一切尽在掌握的感觉
     - [[tool/commandline]]
       - 在这样没有统一入口的情况下,就需要你对最基本的命令有所掌握
@@ -54,14 +49,10 @@ tags:: #geekbang, #Linux
     - __真实场景开发__
       - 生产环境会有大量的不可控因素,尤其是集群规模大的更是如此,大量的运维经验是实战来的,不能光靠读书。
       - 如果你是开发,对内核进行少量修改容易,但是一旦面临真实的场景,需要考虑各种因素, __并发与并行,锁与保护,扩展性和兼容性,__ 都需要真实项目才能练出来
--
 - ## 综述
-  collapsed:: true
   - ## Subsystem
-    collapsed:: true
     - ![image.png](../assets/image_1645947936470_0.png)
   - ## Several [[command]]
-    collapsed:: true
     - ![image.png](../assets/image_1645956348730_0.png)
     - [[ls]]
     - Install
@@ -69,11 +60,9 @@ tags:: #geekbang, #Linux
     - [[command/nohup]]
     -
   - ## 系统调用
-    collapsed:: true
     -
     - [[linux/system-call]]
-    - collapsed:: true
-      > "一切皆文件"
+    - > "一切皆文件"
       - 启动一个进程,需要一个程序文件,这是一个**二进制文件**。
       - 启动的时候,要加载一些配置文件,例如 yml、properties 等,这是文本文件;启动之后会打印一些日志,如果写到硬盘上,也是**文本文件**。
       - 但是如果我想把日志打印到交互控制台上,在命令行上唰唰地打印出来,这其实也是一个文件,是标准输出**stdout 文件**。
@@ -85,12 +74,9 @@ tags:: #geekbang, #Linux
       - 每个文件,Linux 都会分配一个**文件描述符**(File Descriptor),这是一个整数。有了这个文件描述符,我们就可以使用系统调用,查看或者干预进程运行的方方面面。
       -
       -
--
 - ## 系统初始化
-  collapsed:: true
   - ##
   - ## x86
-    collapsed:: true
     - IBM 和 x86 的故事
       - IBM 开始做 IBM PC 时,一开始并没有让最牛的华生实验室去研发,而是交给另一个团队。一年时间,软硬件全部自研根本不可能完成,于是他们采用了英特尔的 8088 芯片作为 CPU,使用微软的 MS-DOS 做操作系统。
       - 谁能想到 IBM PC 卖的超级好,好到因为垄断市场而被起诉。IBM 就在被逼的情况下公开了一些技术,使得后来无数 IBM-PC 兼容机公司的出现,也就有了后来占据市场的惠普、康柏、戴尔等等。
@@ -99,14 +85,9 @@ tags:: #geekbang, #Linux
     - 计算机的工作模式
       - ![image.png](../assets/image_1645973090444_0.png)
       -
--
 - ## 进程管理
-  collapsed:: true
-  - ##
   - ## ch01 进程
-    collapsed:: true
     - `build-essential` in [[Ubuntu]]
-      collapsed:: true
       - ```shell
         $ apt show build-essential
         ...
@@ -165,7 +146,6 @@ tags:: #geekbang, #Linux
       - ![image.png](../assets/image_1649658869823_0.png)
         - ELF
           - 可重定位文件 (Relocatable File) `.o`
-            collapsed:: true
             ![image.png](../assets/image_1649658995290_0.png)
             - 可重定位:
             -
@@ -182,13 +162,11 @@ tags:: #geekbang, #Linux
             - 编译的时候先做预处理工作, 如将头文件嵌入到正文中，将定义的宏展开，然后编译过程，-> `.o` 文件 (ELF 第一种类型)
               - ELF made by section(节)
           - 可执行文件
-            collapsed:: true
             ![image.png](../assets/image_1649660911584_0.png)
             - 这些 `section` 是多个`.o` 文件合并过的
             - 将小的 `section` 合成了大的段 `segment`，并且在最前面加一个段头表 (Segment Header Table)
             - 在代码里面的定义为 `struct elf32_phdr` 和 `struct elf64_phdr`，这里面除了有对于段的描述之外，最重要的是 p_vaddr，这个是这个段加载到内存的虚拟地址。在 ELF 头里面，有一项 e_entry，也是个虚拟地址，是这个程序运行的入口。
           - 共享对象文件 (Shared Object) ref -> ((6253d4ec-85ba-4879-b2db-71ba04b8b9b8))
-            collapsed:: true
             - diff
               - 一个`.interp` 的 Segment
                 - 这里面是 `ld-linux.so`，动态链接器, 运行时的链接动作都是它做的
@@ -223,7 +201,6 @@ tags:: #geekbang, #Linux
     - [[commands/exec]]
     -
   - ## ch02 线程
-    collapsed:: true
     - ```cpp
       #include <pthread.h>
       #include <stdio.h>
@@ -284,13 +261,11 @@ tags:: #geekbang, #Linux
     - ### Data
       - ![image.png](../assets/image_1649666236716_0.png)
         - 线程栈上的本地数据
-          collapsed:: true
           - 管理栈 `ulimit [-a][-s]`
           - 修改 `int pthread_attr_setstacksize(pthread_attr_t *attr, size_t stacksize);`
           - 线程栈之间还会有小块区域，用来隔离保护各自的栈空间。一旦另一个线程踏入到这个隔离区，就会引发段错误
         - 在整个进程里共享的全局数据
         - 线程私有数据 (Thread Specific Data)
-          collapsed:: true
           - 声明 `int pthread_setspecific(pthread_key_t key, const void *value)`
             - 创建一个 key，伴随着一个析构函数
           - 设置 key 对应的 value
@@ -437,17 +412,14 @@ tags:: #geekbang, #Linux
           - ![image.png](../assets/image_1649668596808_0.png)
           -
   - ## ch03 progress [[data-structure]]
-    collapsed:: true
     - ![image.png](../assets/image_1650000073242_0.png)
     - ### 进程链表
-      collapsed:: true
       - ```c
         struct list_head    tasks;
         ```
         via: https://github.com/torvalds/linux/blob/a19944809fe9942e6a96292490717904d0690c21/include/linux/sched.h#L854=
       - ![image.png](../assets/image_1650003276235_0.png)
       - #### 任务 ID
-        collapsed:: true
         - ```c
           pid_t pid;  // process id
           pid_t tgid; // thread group ID
@@ -459,7 +431,6 @@ tags:: #geekbang, #Linux
           - 有其他线程
             - 线程有自己的 pid，tgid 就是进程的主线程的 pid，group_leader 指向的就是进程的主线程
       - #### 信号处理
-        collapsed:: true
         - ```c
           /* Signal handlers: */
           struct signal_struct  *signal;
@@ -473,14 +444,12 @@ tags:: #geekbang, #Linux
           unsigned int      sas_ss_flags;
           ```
       - #### 任务状态
-        collapsed:: true
         - ```c
            volatile long  state;    /* -1 unrunnable, 0 runnable, >0 stopped */
            int      exit_state;
            unsigned int   flags;
           ```
         - state（状态）可以取的值定义在 include/linux/sched.h 头文件中
-          collapsed:: true
           - ```c
             // bitset set
             /* Used in tsk->state: */
@@ -544,7 +513,6 @@ tags:: #geekbang, #Linux
               - fork 完了，还没有 exec
               - 在 _do_fork 函数里面调用 copy_process，这个时候把 flag 设置为 PF_FORKNOEXEC。当 exec 中调用了 load_elf_binary 的时候，又把这个 flag 去掉
       - #### 进程调度
-        collapsed:: true
         - 状态切换
         - ```c
           // 是否在运行队列上
@@ -568,7 +536,6 @@ tags:: #geekbang, #Linux
           struct sched_info     sched_info;
           ```
       - #### 运行统计信息
-        collapsed:: true
         - ```c
           u64       utime;        // 用户态消耗的 CPU 时间
           u64       stime;        // 内核态消耗的 CPU 时间
@@ -578,10 +545,8 @@ tags:: #geekbang, #Linux
           u64       real_start_time;  // 进程启动时间，包含睡眠时间
           ```
       - #### 进程亲缘关系
-        collapsed:: true
         - ![image.png](../assets/image_1650001657755_0.png)
-        - collapsed:: true
-          ```c
+        - ```c
           struct task_struct __rcu *real_parent;  /* real parent process */
           struct task_struct __rcu *parent;     /* recipient of SIGCHLD, wait4() reports */
           struct list_head children;          /* list of my children */
@@ -593,7 +558,6 @@ tags:: #geekbang, #Linux
             - 通常情况下，real_parent 和 parent 是一样的
             - 当子进程作为父进程时候, real_parent 和 parent 不一样
       - #### 进程权限
-        collapsed:: true
         - 项目组权限的控制范畴
           - ```c
             /* Objective and real subjective task credentials (COW): */
@@ -639,7 +603,6 @@ tags:: #geekbang, #Linux
                 - 游戏程序的用户 B 的 ID 还会保存在一个地方，这就是 suid 和 sgid，也就是 saved uid 和 save gid
                 - 这样就可以很方便地使用 setuid，通过设置 uid 或者 suid 来改变权限。
         - `capabilities` 位图
-          collapsed:: true
           - ```c
             #mark::  CAP_CHOWN             0
             #mark::  CAP_KILL              5
@@ -659,14 +622,12 @@ tags:: #geekbang, #Linux
           - 这样有很多好处。例如，系统启动以后，将加载内核模块的权限去掉，那所有进程都不能加载内核模块。这样，即便这台机器被攻破，也做不了太多有害的事情。
           - cap_ambient 是比较新加入内核的，就是为了解决 cap_inheritable 鸡肋的状况，也就是，非 root 用户进程使用 exec 执行一个程序的时候，如何保留权限的问题。当执行 exec 的时候，cap_ambient 会被添加到 cap_permitted 中，同时设置到 cap_effective 中。
       - #### 内存管理
-        collapsed:: true
         - mm_struct
         - ```c
           struct mm_struct                *mm;
           struct mm_struct                *active_mm;
           ```
       - #### 文件与文件系统
-        collapsed:: true
         - ```c
           /* Filesystem information: */
           struct fs_struct                *fs;
@@ -679,9 +640,7 @@ tags:: #geekbang, #Linux
         void  *stack;
         ```
     - 用户态函数栈
-      collapsed:: true
       - x86
-        collapsed:: true
         - ![image.png](../assets/image_1650005541305_0.png)
         - ESP (Extended Stack Pointer): 栈顶指针寄存器
           - 入栈操作 Push 和出栈操作 Pop 指令，会自动调整 ESP 的值
@@ -689,7 +648,6 @@ tags:: #geekbang, #Linux
           - 指向当前栈帧的最底部
         - A 调用 B，A 的栈里面包含 A 函数的局部变量，然后是调用 B 的时候要传给它的参数，然后返回 A 的地址，这个地址也应该入栈，这就形成了 A 的栈帧。接下来就是 B 的栈帧部分了，先保存的是 A 栈帧的栈底位置，也就是 EBP。因为在 B 函数里面获取 A 传进来的参数，就是通过这个指针获取的，接下来保存的是 B 的局部变量等等。当 B 返回的时候，返回值会保存在 EAX 寄存器中，从栈中弹出返回地址，将指令跳转回去，参数也从栈中弹出，然后继续执行 A。
       - x64
-        collapsed:: true
         - ![image.png](../assets/image_1650004463135_0.png)
         - `ax` 保存函数调用的返回结果
         - `rsp` 栈顶指针寄存器
@@ -699,25 +657,18 @@ tags:: #geekbang, #Linux
           - 指向当前栈帧的起始位置
         - `rdi`、`rsi`、`rdx`、`rcx`、`r8`、`r9`: 参数传递
     - 内核态函数栈
-      collapsed:: true
       - ![image.png](../assets/image_1650003890869_0.png)
     - x86 vs x64
-      collapsed:: true
       - ![image.png](../assets/image_1650004552227_0.png)
   - ## ch04 调度
-    collapsed:: true
     - ![image.png](../assets/image_1650006220845_0.png)
     - ![image.png](../assets/image_1650006602228_0.png)
   - ## ch05 进程创建
-    collapsed:: true
     - ![image.png](../assets/image_1650007561931_0.png)
     -
   - ## ch06 线程创建
-    collapsed:: true
     - ![image.png](../assets/image_1650007954430_0.png)
--
 - ## 网络系统
-  collapsed:: true
   - 网络分层
     collapsed:: true
     - 两种网络协议模型
@@ -845,4 +796,5 @@ tags:: #geekbang, #Linux
       ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags, struct sockaddr *src_addr, socklen_t *addrlen);
       ```
   - Socket 内核 #[[data-structure]]
--
+- ## References
+  - [EM italics parent of a parent SPAN going on next line · Issue #111 · GitMurf/roam-highlighter · GitHub](https://github.com/GitMurf/roam-highlighter/issues/111)

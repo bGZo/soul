@@ -17,12 +17,12 @@ source:: [One wisdom sentence released - bGZo's blog](https://blog.bgzo.cc/one-w
   - [x] Generate quote by syncing Github issues with metadata;
   - [x] Deploy with [Vercel](https://vercel.com)
   - [x] SEO supported by plugin.
-  - DOING Add [Analytics](https://analytics.google.com/analytics/web/#/a252954726p347875136/admin/changehistory/account)
+  - WAITING Add [Analytics](https://analytics.google.com/analytics/web/#/a252954726p347875136/admin/changehistory/account)
     :LOGBOOK:
     CLOCK: [2023-01-03 Tue 09:07:31]
     CLOCK: [2023-01-03 Tue 09:07:33]
     :END:
-  - DOING Add Tags
+  - WAITING Add Tags
     :LOGBOOK:
     CLOCK: [2023-01-03 Tue 09:07:51]
     :END:
