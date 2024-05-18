@@ -3,14 +3,14 @@ alias: 每周
 icon: 📅
 tags: #scheduled
 created: 20230602
-title: Weekly
+title: weekly
 ---
 
 - ## Why
   - Work Flow
 - ## How
   - TODO 同步工作摸🐟 [Gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f) 
-    SCHEDULED: <2024-05-11 Sat 00:00 ++1w>
+    SCHEDULED: <2024-05-18 Sat 00:00 ++1w>
     collapsed:: true
     :LOGBOOK:
     * State "DONE" from "TODO" [2024-01-20 Sat 22:00]
@@ -26,6 +26,7 @@ title: Weekly
     * State "DONE" from "TODO" [2024-04-20 Sat 23:30]
     * State "DONE" from "TODO" [2024-04-27 Sat 15:57]
     * State "DONE" from "TODO" [2024-05-04 Sat 09:14]
+    * State "DONE" from "TODO" [2024-05-17 Fri 20:05]
     :END:
     - {{iframe https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f}}
       #+BEGIN_CENTER

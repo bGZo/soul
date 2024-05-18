@@ -1,4 +1,5 @@
-alias:: se/general/redundancy
+alias:: se/general/redundancy, 冗余
+wikipedia:: https://zh.wikipedia.org/zh-cn/%E5%86%97%E9%A4%98, https://en.wikipedia.org/wiki/Redundancy_(engineering)
 
 - ## 冗余 / 多数决系统 / 投票式逻辑
   - 为了提升其可靠度 (备用 / 提升性能)，刻意配置重复的零件或是机能。
@@ -18,6 +19,3 @@ alias:: se/general/redundancy
   - 不同机能冗余
     - 车辆中同时有机械刹车及油压刹车
       - 二个独立由不同人写作，有相同功能的模块，针对同一信号产生相同的输出
-- ## Refs
-  - [冗余 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/%E5%86%97%E9%A4%98)
-  - [Redundancy (engineering) - Wikipedia](https://en.wikipedia.org/wiki/Redundancy_(engineering))
