@@ -16,8 +16,8 @@ draws/
 # Recyble Bin
 logseq/.recycle/
 logseq/bak/
-logseq/custom.css
-# Page
+
+# journals 
 pages/LFH.md
 pages/2018.md
 pages/2019.md
@@ -27,3 +27,7 @@ pages/2021.md
 pages/2021___archive.md
 pages/2022.md
 pages/2023.md
+
+# config
+logseq/custom.css
+logseq/config.edn

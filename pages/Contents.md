@@ -16,7 +16,7 @@ title: Contents
     - 语言
     - 健康
     - 原生家庭
-  - [[Weekly]] | 个人周报
+  - [[weekly]] | 个人周报
     logseq.order-list-type:: number
   - [[Project]] | 项目
     logseq.order-list-type:: number

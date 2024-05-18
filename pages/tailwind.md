@@ -1,8 +1,4 @@
-alias:: 
-mark:: 
-icon:: 
-tags:: 
-
+tags:: #css
 created:: 20230709
 title:: tailwind
 
