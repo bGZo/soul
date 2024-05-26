@@ -1,7 +1,6 @@
 alias:: 时间复杂度, 空间复杂度
-tags:: #algo 
+tags:: #algo
 mark:: [复杂度 - OI Wiki](https://oi-wiki.org/basic/complexity/)
-
 - 时间复杂度
   mark:: 衡量一个算法的效率时. 最重要的不是看它在某个数据规模下的用时. 而是看**它的用时随数据规模而增长的趋势**. 即 **时间复杂度**
   - 数据规模

@@ -2,10 +2,8 @@ alias:: java/library
 mark:: a collection of related classes, methods, and resources that are packaged together to provide a specific set of functionality. A library can contain one or more APIs and may be provided by the Java Standard Library, third-party vendors, or custom-built by the user.
 icon:: ☕
 tags:: #java/api
-
 created:: 20230717
 title:: java library
-
   - {{embed ((63e31fc9-aebc-46d1-8e99-a06961fbb3d8))}}
 - ## Why
 - ## How
@@ -21,7 +19,7 @@ title:: java library
        * {@code Class} object is the object that is locked by {@code
        * static synchronized} methods of the represented class.
        *
-       */  
+       */
       public final native Class<?> getClass()
         /**
            * Returns a hash code value for the object. This method is
@@ -275,7 +273,7 @@ title:: java library
         ```
       - 假设有一个字符串 “Hello”，它的哈希值是这样计算的：
       - ```java
-        "Hello".hashCode() = 
+        "Hello".hashCode() =
           'H'*31^4 + 'e'*31^3 + 'l'*31^2 + 'l'*31^1 + 'o'*31^0 =
           72*923521 + 101*29791 + 108*961 + 108*31 + 111 =
           66430125 + 3007631 + 103788 + 3348 + 111 =
@@ -304,7 +302,7 @@ title:: java library
           ```
       - 一个空字符串加上基本类型
         - ```java
-          String str3 = c + ""; 
+          String str3 = c + "";
           ```
     - ### String -> `Basic Type` 字符串转换成基本数据类型
       collapsed:: true

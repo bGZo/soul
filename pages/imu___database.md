@@ -1,5 +1,4 @@
 tags:: #database
-
 - #+BEGIN_WARNING
   **闭包 / 最小依赖集 / 范式优化**
   #+END_WARNING
@@ -143,7 +142,7 @@ tags:: #database
         - **连接(join)**
           - $∏_{ENAME,SAL}(σ_{SAL>1000}(EMP))$: 求出了所有工资大于1000的员工的名字和工资, 将 $σ_{SAL>1000}(EMP)$ 执行的结果当做一个临时的关系，参与了投影运算得到
             - **自然连接(natural join)**
-              - 所有老师的名字以及其所授课程的id: 
+              - 所有老师的名字以及其所授课程的id:
                 $∏_{name, course_id}(instructor ⋈ teaches)$
         - **除法(division)**
           - 原理解析见[CSDN博客](https://blog.csdn.net/qq_22627687/article/details/53789362)
@@ -372,9 +371,9 @@ tags:: #database
     - A Tour of PostgreSQL Internals
     - 查询处理
     - postgresql log: https://www.postgresql.org/docs/13/release-13-2.html
-      postgresql document: https://www.postgresql.org/files/documentation/pdf/13/postgresql-13-A4.pdf 
+      postgresql document: https://www.postgresql.org/files/documentation/pdf/13/postgresql-13-A4.pdf
         --> queries 111-138
-        --> parallel 
+        --> parallel
             --> How Parallel Query Works
     - reference:
       - [用户中心 - 博客园](https://home.cnblogs.com/u/flying-tiger/)

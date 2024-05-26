@@ -1,7 +1,6 @@
 alias:: 公墓, grave, died, 404, RIP
 tags:: #archive
 #.ol
-
   - [射手网](https://www.shooter.cn)
     - [论射手网的倒下 - 知乎](https://zhuanlan.zhihu.com/p/19903517)
   - 人人影视

@@ -30,8 +30,8 @@
       - 局部变量空间顶多放得下下 524288 个int类型（数组大概是`724.077*724.077`）！
       - 我想在局部中开一个大数组怎么办？很简单，将它归到 __Data Segment__ 中：
       - ```cpp
-        #include<iostream>  
-        using namespace std;  
+        #include<iostream>
+        using namespace std;
         int main(){
           static int dis[8000][8000];//注意局部变量的初始化
         }
@@ -39,17 +39,17 @@
     - 而在局部定义数组的时候，数组会自动初始化为随机数，所以数组在刚被定义的时候就塞进 Stack 区了，才会出现 `int dis[520073]` 直接报堆栈溢出的问题
     - TODO 如果需要大量的内存. 建议使用new在堆上创建对象().或者直接使用windowsAPI VirtualAlloc,GlobalAlloc等自己从系统堆上分配.
     - ```cpp
-      int a = 0; //全局初始化区 
-      char *p1; //全局未初始化区 
-      int main() { 
-        int b; //栈 
-        char s[] = "abc"; //栈 
-        char *p2; //栈 
-        char *p3 = "123456"; //123456在常量区，p3在栈上。 
-        static int c =0； //全局（静态）初始化区 
-        p1 = (char *)malloc(10); 
-        p2 = (char *)malloc(20); //分配得来得10和20字节的区域就在堆区。 
-        strcpy(p1, "123456"); //123456放在常量区，编译器可能会将它与p3所指向的"123456"优化成一个地方。 
+      int a = 0; //全局初始化区
+      char *p1; //全局未初始化区
+      int main() {
+        int b; //栈
+        char s[] = "abc"; //栈
+        char *p2; //栈
+        char *p3 = "123456"; //123456在常量区，p3在栈上。
+        static int c =0； //全局（静态）初始化区
+        p1 = (char *)malloc(10);
+        p2 = (char *)malloc(20); //分配得来得10和20字节的区域就在堆区。
+        strcpy(p1, "123456"); //123456放在常量区，编译器可能会将它与p3所指向的"123456"优化成一个地方。
       }
       ```
   - [[heap]] vs [[stack]]
@@ -70,7 +70,7 @@
     - 每一个线程都有一个栈，但是每一个应用程序通常都只有一个堆（尽管为不同类型分配内存使用多个堆的情况也是有的）。
       - 效率比较实例：
         - ```cpp
-          char s1[] = "aaaaaaaaaaaaaaa"; //aaaaaaaaaaa是在运行时刻赋值的； 
+          char s1[] = "aaaaaaaaaaaaaaa"; //aaaaaaaaaaa是在运行时刻赋值的；
           char *s2 = "bbbbbbbbbbbbbbbbb"; //bbbbbbbbbbb是在编译时就确定的；
           ```
       - 在以后的存取中，在栈上的数组比指针所指向的字符串(例如堆)快。 这个可以用编译后的汇编代码查看操作来敲定到底做了什么。（Flag）

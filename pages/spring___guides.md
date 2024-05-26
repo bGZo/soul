@@ -1,7 +1,6 @@
 title:: spring/guides
 source:: https://spring.io/guides
 tags:: TODO
-
 -
 - Getting Started Guides
   - Building a RESTful Web Service
@@ -41,7 +40,6 @@ tags:: TODO
           - 测试速度快
           - 不依赖网络环境
           - 提供了一套验证的工具
-            
             ```java
             /** 编写测试类
               * via: https://zhuanlan.zhihu.com/p/61342833
@@ -63,8 +61,6 @@ tags:: TODO
               // 实例化方式二
             //        mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
                 }
-            
-            
             /** 单元测试方法
               */
             @Test
@@ -90,35 +86,30 @@ tags:: TODO
             }
             ```
       - 常用的测试
-        
         ```java
         /* 测试普通控制器 */
-        mockMvc.perform(get("/user/{id}", 1)) //执行请求  
-                  .andExpect(model().attributeExists("user")) //验证存储模型数据  
-                  .andExpect(view().name("user/view")) //验证viewName  
-                  .andExpect(forwardedUrl("/WEB-INF/jsp/user/view.jsp"))//验证视图渲染时forward到的jsp  
-                  .andExpect(status().isOk())//验证状态码  
+        mockMvc.perform(get("/user/{id}", 1)) //执行请求
+                  .andExpect(model().attributeExists("user")) //验证存储模型数据
+                  .andExpect(view().name("user/view")) //验证viewName
+                  .andExpect(forwardedUrl("/WEB-INF/jsp/user/view.jsp"))//验证视图渲染时forward到的jsp
+                  .andExpect(status().isOk())//验证状态码
                   .andDo(print()); //输出MvcResult到控制台
-        
         /* 得到MvcResult自定义验证 */
-        MvcResult result = mockMvc.perform(get("/user/{id}", 1))//执行请求  
-              .andReturn(); //返回MvcResult  
+        MvcResult result = mockMvc.perform(get("/user/{id}", 1))//执行请求
+              .andReturn(); //返回MvcResult
         Assert.assertNotNull(result.getModelAndView().getModel().get("user")); //自定义断言
-        
         /*验证请求参数绑定到模型数据及Flash属性*/
-        mockMvc.perform(post("/user").param("name", "zhang")) //执行传递参数的POST请求(也可以post("/user?name=zhang"))  
-                  .andExpect(handler().handlerType(UserController.class)) //验证执行的控制器类型  
-                  .andExpect(handler().methodName("create")) //验证执行的控制器方法名  
-                  .andExpect(model().hasNoErrors()) //验证页面没有错误  
-                  .andExpect(flash().attributeExists("success")) //验证存在flash属性  
+        mockMvc.perform(post("/user").param("name", "zhang")) //执行传递参数的POST请求(也可以post("/user?name=zhang"))
+                  .andExpect(handler().handlerType(UserController.class)) //验证执行的控制器类型
+                  .andExpect(handler().methodName("create")) //验证执行的控制器方法名
+                  .andExpect(model().hasNoErrors()) //验证页面没有错误
+                  .andExpect(flash().attributeExists("success")) //验证存在flash属性
                   .andExpect(view().name("redirect:/user")); //验证视图
-        
         /* 文件上传 */
-        byte[] bytes = new byte[] {1, 2};  
-        mockMvc.perform(fileUpload("/user/{id}/icon", 1L).file("icon", bytes)) //执行文件上传  
-              .andExpect(model().attribute("icon", bytes)) //验证属性相等性  
+        byte[] bytes = new byte[] {1, 2};
+        mockMvc.perform(fileUpload("/user/{id}/icon", 1L).file("icon", bytes)) //执行文件上传
+              .andExpect(model().attribute("icon", bytes)) //验证属性相等性
               .andExpect(view().name("success")); //验证视图
-        
         /* JSON请求/响应验证 */
         String requestBody = "{\"id\":1, \"name\":\"zhang\"}";
         mockMvc.perform(post("/user")
@@ -127,7 +118,6 @@ tags:: TODO
               .andExpect(content().contentType(MediaType.APPLICATION_JSON)) // 验证响应contentType(JSON)
               .andExpect(jsonPath("$.id").value(1));
               // NOTE: Json path验证JSON. via: http://goessner.net/articles/JsonPath
-        
         String errorBody = "{id:1, name:zhang}";
         MvcResult result = mockMvc.perform(post("/user")
               .contentType(MediaType.APPLICATION_JSON).content(errorBody)
@@ -135,24 +125,21 @@ tags:: TODO
               .andExpect(status().isBadRequest())                           // 400错误请求
               .andReturn();
         Assert.assertTrue(HttpMessageNotReadableException.class.isAssignableFrom(result.getResolvedException().getClass()));//错误的请求内容体
-        
-        
         /*异步测试 Callable*/
-        MvcResult result = mockMvc.perform(get("/user/async1?id=1&name=zhang")) //执行请求  
-              .andExpect(request().asyncStarted())  
-              .andExpect(request().asyncResult(CoreMatchers.instanceOf(User.class))) //默认会等10秒超时  
-              .andReturn();  
+        MvcResult result = mockMvc.perform(get("/user/async1?id=1&name=zhang")) //执行请求
+              .andExpect(request().asyncStarted())
+              .andExpect(request().asyncResult(CoreMatchers.instanceOf(User.class))) //默认会等10秒超时
+              .andReturn();
         mockMvc.perform(asyncDispatch(result))
               .andExpect(status().isOk())
               .andExpect(content().contentType(MediaType.APPLICATION_JSON))
               .andExpect(jsonPath("$.id").value(1));
-        
         /* 全局配置 */
         mockMvc = webAppContextSetup(wac)
                   .defaultRequest(get("/user/1").requestAttr("default", true))
                   //默认请求 如果其是Mergeable类型的，会自动合并的哦 mockMvc.perform中的RequestBuilder
-                  .alwaysDo(print())  //默认每次执行请求后都做的动作  
-                  .alwaysExpect(request().attribute("default", true)) //默认每次执行后进行验证的断言  
+                  .alwaysDo(print())  //默认每次执行请求后都做的动作
+                  .alwaysExpect(request().attribute("default", true)) //默认每次执行后进行验证的断言
                   .build();
         mockMvc.perform(get("/user/1"))
                   .andExpect(model().attributeExists("user"));
@@ -166,18 +153,14 @@ tags:: TODO
     - ```java
       @SpringBootApplication
       public class ConsumingRestApplication {
-      
         private static final Logger log = LoggerFactory.getLogger(ConsumingRestApplication.class);
-      
         public static void main(String[] args) {
           SpringApplication.run(ConsumingRestApplication.class, args);
         }
-      
         @Bean
         public RestTemplate restTemplate(RestTemplateBuilder builder) {
           return builder.build();
         }
-      
         @Bean
         public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
             return args -> {
@@ -201,19 +184,13 @@ tags:: TODO
         @Retention(RetentionPolicy.RUNTIME)
         @Documented
         public @interface Bean {
-        
             @AliasFor("name")
             String[] value() default {};
-        
             @AliasFor("value")
             String[] name() default {};
-        
             Autowire autowire() default Autowire.NO;
-        
             String initMethod() default "";
-        
             String destroyMethod() default AbstractBeanDefinition.INFER_METHOD;
-        
         }
         ```
     - `RestTemplate` makes interacting with most RESTful services a one-line incantation. And it can even bind that data to custom domain types.
@@ -229,7 +206,6 @@ tags:: TODO
             private String name;
             private int age;
         }
-        
         public class user {
             private String name;
             @JsonIgnore

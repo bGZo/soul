@@ -1,5 +1,4 @@
 mark:: 新型冠狀病毒肺炎 / 武汉肺炎
-
 - Testing | 检测
   - **核酸检测 (Polymerase Chain Reaction, PCR / Real-time PCR, RT-PCR)**
     mark:: 针对病毒遗传序列. 查验是否存在病毒核糖 (RNA)
@@ -127,7 +126,6 @@ mark:: 新型冠狀病毒肺炎 / 武汉肺炎
   - > @**[aogu555](https://www.v2ex.com/member/aogu555)** via: [某市急救已经近乎停摆，养老院出现集中病逝，各位也请做好准备](https://web.archive.org/web/20221211102221/https://www.v2ex.com/t/901697)
     dont look up
     有话语权的年轻人可以拉上窗帘，摇晃身体，假装列车还在继续前行
-    
     {{video https://www.youtube.com/watch?v=wszg3BAOEV8}}
     #public via: https://twitter.com/imbGZo/status/1603648906578956288
   - > 一亿剂进口 mRNA 疫苗+武警严格保护的大院+专人配送的特供物资+高干病房

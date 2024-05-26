@@ -1,11 +1,9 @@
 alias:: time/zone, 时区
 mark:: Area which observes a uniform standard time for legal, commercial and social purposes.
 icon:: 🕛
-
 created:: 20230626
 title:: timezone
 wikipedia:: [Time zone - Wikipedia](https://en.wikipedia.org/wiki/Time_zone)
-
 - ## Why
   - History
     - 1870年代加拿大铁路工程师弗莱明首次提出全世界按统一标准划分时区
@@ -60,7 +58,7 @@ wikipedia:: [Time zone - Wikipedia](https://en.wikipedia.org/wiki/Time_zone)
   - What's different with **UTC**(Coordinated Universal Time) and **GMT**(Coordinated Universal Time)?
     - [GMT](https://en.wikipedia.org/wiki/Greenwich_Mean_Time) is based on **astronomical observations** while UTC is based on [atomic clocks](https://en.wikipedia.org/wiki/Atomic_clock).
       - #+BEGIN_QUOTE
-        You might be wondering why UTC is the abbreviation for Coordinated Universal Time. The acronym came about as a compromise between English and French speakers: Coordinated Universal Time would normally be abbreviated as CUT, and the French name, Temps Universel Coordonné, would be TUC. 
+        You might be wondering why UTC is the abbreviation for Coordinated Universal Time. The acronym came about as a compromise between English and French speakers: Coordinated Universal Time would normally be abbreviated as CUT, and the French name, Temps Universel Coordonné, would be TUC.
         — [What is UTC? | Space](https://www.space.com/what-is-utc.html)
         #+END_QUOTE
       - UTC have [leap second](https://en.wikipedia.org/wiki/Leap_second) problem, the GMT is more accurate.

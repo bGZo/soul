@@ -2,7 +2,6 @@ mark:: "An template language, Safe, customer-facing template language for flexib
 tags:: #shopify #opensource #ruby #jekyll
 source:: [Home · Shopify/liquid Wiki](https://github.com/Shopify/liquid) ![](https://img.shields.io/github/stars/Shopify/liquid)
 created:: 20230109
-
 - ## [[Issue]]
   - Date
     - Filters [date – Liquid template language](https://shopify.github.io/liquid/filters/date/) #Created

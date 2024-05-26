@@ -1,6 +1,5 @@
 file:: [doc_mybatis_3.5.10.pdf](../assets/doc_mybatis_3.5.10.pdf)
 file-path:: ../assets/doc_mybatis_3.5.10.pdf
-
 - transactionManager
   ls-type:: annotation
   hl-page:: 29

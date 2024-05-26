@@ -7,13 +7,12 @@ publisher:: 机械工业出版社
 published:: 20180700
 isbn:: 9787111604525
 created:: 20221228
-closed:: 
+closed::
 douban:: [Spring Cloud微服务架构开发实战 (豆瓣)](https://book.douban.com/subject/30389992/)
-goodreads:: 
+goodreads::
 weread:: [Spring Cloud微服务架构开发实战-董超 胡炽维-微信读书](https://weread.qq.com/web/bookDetail/7d332ce0715dbcba7d3a09d)
-desc:: 
+desc::
 mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/cd826/springcloud-demo)
-
 - Content
   - 版权信息
   - 内容简介
@@ -69,14 +68,12 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
                 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
             http://maven.apache.org/maven-v4_0_0.xsd">
                 <modelVersion>4.0.0</modelVersion>
-          
                 <! -- 这里将项目的父项目设置为Spring Boot，所使用版本为1.5.2.RELEASE -->
                 <parent>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-parent</artifactId>
                     <version>1.5.2.RELEASE</version>
                 </parent>
-          
                 <! -- 这里设置本项目的groupId、artifactId和版本等信息 -->
                 <groupId>cd826dong.cloud</groupId>
                 <artifactId>cd826dong-clouds-boot</artifactId>
@@ -84,36 +81,30 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
                 <packaging>jar</packaging>
             <name>SpringCloud Demo Projects -- Spring Boot</name>
             <properties>
-          
                 <! -- 定义项目所使用的编码为UTF-8 -->
                 <project.build.sourceEncoding>UTF-8</project.build.source
                 Encoding>
-          
                 <! -- 项目所用JDK 1.8，也可以使用低版本，但建议还是使用JDK 1.8以上版本-->
                 <java.version>1.8</java.version>
                 <maven.compiler.source>${java.version}</maven.compiler.source>
                 <maven.compiler.target>${java.version}</maven.compiler.target>
-          
                 <! -- 项目所使用第三方包的版本，建议以后都采用这种方式，统一在一个地方声明
           	  版本号，这样对项目可以进行统一管理，方便以后升级 -->
                 <guava.version>20.0</guava.version>
                 <swagger.version>2.6.1</swagger.version>
             </properties>
             <dependencies>
-          
                 <! -- 项目所用Spring Boot starters:web -->
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-web</artifactId>
                 </dependency>
-          
                 <! -- Guava可以为我们提供缓存、集合等一些方便的工具类 -->
                 <dependency>
                     <groupId>com.google.guava</groupId>
                     <artifactId>guava</artifactId>
                     <version>${guava.version}</version>
                 </dependency>
-          
                 <! -- test -->
                 <dependency>
                     <groupId>org.springframework.boot</groupId>
@@ -133,7 +124,6 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
                             <target>1.8</target>
                         </configuration>
                     </plugin>
-          
                     <! -- 该插件可以让Maven将工程直接打包成一个可以直接运行的JAR -->
                     <plugin>
                         <groupId>org.springframework.boot</groupId>
@@ -310,7 +300,7 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
           collapsed:: true
           - Hibernate
             mark:: 根据实体类自动创建数据库
-          - Spring JDBC #jdbc #.ol 
+          - Spring JDBC #jdbc #.ol
             mark:: 初始化 `DataSource`, 在启动系统时检测 `classpath` 根目录下是否有 `schema.sql` 和 `data.sql` 脚本文件，如果存在这两个脚本文件存在或者其中一个，将会尝试加载并执行该脚本，初始化产生异常，应用系统启动将会失败
             - `schema.sql` 创建数据库表
             - `data.sql` 初始化数据

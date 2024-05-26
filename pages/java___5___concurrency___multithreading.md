@@ -1,6 +1,5 @@
 title:: java/5/concurrency/multithreading
 alias:: multithreading/java
-
 -
 - [[Java]]
   - 内置支持多线程
@@ -32,12 +31,10 @@ alias:: multithreading/java
               */
           if (threadStatus != 0)
               throw new IllegalThreadStateException();
-      
           /* Notify the group that this thread is about to be started
               * so that it can be added to the group's list of threads
               * and the group's unstarted count can be decremented. */
           group.add(this);
-      
           boolean started = false;
           try {
       +       start0();
@@ -53,7 +50,6 @@ alias:: multithreading/java
               }
           }
       }
-      
       +private native void start0();
       // native 修饰符表示这个方法是由 JVM 虚拟机内部的 C 代码实现
       ```

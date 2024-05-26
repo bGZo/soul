@@ -4,7 +4,6 @@ icon: 📝
 created: 2024-01-07
 title: Blog
 ---
-
 - ## Why
   - 为什么写博客？
 - ## How

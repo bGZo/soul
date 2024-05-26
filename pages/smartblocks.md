@@ -1,13 +1,12 @@
 title:: smartblocks
-alias:: 
-desc:: 
-tags:: #logseq/plugin 
-author:: 
-source:: 
-mark:: 
+alias::
+desc::
+tags:: #logseq/plugin
+author::
+source::
+mark::
 created:: 20221213
 closed::
-
 - [[Issue]]
   - TODO [#B] The block properties would be missing
     source:: [The block properties would be missing · Issue #46 · sawhney17/logseq-smartblocks](https://github.com/sawhney17/logseq-smartblocks/issues/46)
@@ -16,12 +15,12 @@ closed::
       - ```
         template:: Placeholder
         template-including-parent:: false
-        - title:: 
-          desc:: 
-          tags:: 
-          source:: 
-          mark:: 
-          start-date:: 
+        - title::
+          desc::
+          tags::
+          source::
+          mark::
+          start-date::
           end::
           collapsed:: true
           - Placeholder
@@ -32,12 +31,12 @@ closed::
         ```
     - When I use SmartBlocks, what I get:
       - ```
-        - title:: 
-          desc:: 
-          tags:: 
-          source:: 
-          mark:: 
-          start-date:: 
+        - title::
+          desc::
+          tags::
+          source::
+          mark::
+          start-date::
           end::
           - Placeholder
             - Placeholder

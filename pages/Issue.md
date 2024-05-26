@@ -1,10 +1,9 @@
 alias:: 议题
-mark:: 
+mark::
 icon:: ⏸
 created:: 20231227
-tags:: 
+tags::
 title:: Issue
-
 - ## Why
 - ## How
 - ## What
@@ -14,7 +13,6 @@ title:: Issue
    :query [:find (pull ?b [*])
            :where
            [?b :block/name "TODO"]
-           
   [?b :block/refs ?p]
   ]
    :collapsed? true
@@ -28,7 +26,7 @@ title:: Issue
              :in $ ?target
              :where
              [?p :block/name ?target]
-             [?h :block/refs ?p]] 
+             [?h :block/refs ?p]]
      :inputs ["issue"]
      :table-view? false}
    #+END_QUERY

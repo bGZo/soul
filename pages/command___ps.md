@@ -1,5 +1,4 @@
 title:: command/ps
-
 - like [[commands/top]]
 -
 - ```shell

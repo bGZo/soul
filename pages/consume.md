@@ -1,5 +1,4 @@
 alias:: 消费
-
 - mark::  / 消耗 (殆尽)
   - #vs [[buy]]/Purchase
     - ***Buy/Purchase*** is similar to buy but has a more formal connotation.

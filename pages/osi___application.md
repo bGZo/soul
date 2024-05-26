@@ -1,7 +1,6 @@
 title:: osi/application
 tags:: TODO
 mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
-
 -
 - Protocols
   - **HTTP**, HyperText Transfer Protocol
@@ -49,7 +48,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
     source:: [Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)
   - **RIP**, Routing Information Protocol
     source:: [Wikipedia](https://en.wikipedia.org/wiki/Routing_Information_Protocol)
-  - **BGP**, Border Gateway Protocol 
+  - **BGP**, Border Gateway Protocol
     source:: [Wikipedia](https://en.wikipedia.org/wiki/Border_Gateway_Protocol)
   - WebSocket
     mark:: 一种让客户端和服务器之间能进行双向实时通信的技术
@@ -280,7 +279,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
       collapsed:: true
       - HTTP 协议缓存的响应分析
         collapsed:: true
-        - WEB 缓存: 在服务器-客户端之间搞监控，监控请求，并且把请求输出的内容（例如 HTML 页面、图片和文件）另存一份（统称为副本）；然后，如果下一个请求是相同的  URL ，则直接请求保存的副本，而不是再次访问资源服务器。 
+        - WEB 缓存: 在服务器-客户端之间搞监控，监控请求，并且把请求输出的内容（例如 HTML 页面、图片和文件）另存一份（统称为副本）；然后，如果下一个请求是相同的  URL ，则直接请求保存的副本，而不是再次访问资源服务器。
           collapsed:: true
           - 分类
             collapsed:: true
@@ -313,7 +312,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
   - ((63305f34-8398-4775-94c5-fc82d6f40b5d)) #vs ((633065d1-de9c-4a67-b7ff-ec2036c3a3c1))
     id:: 6330685f-d9ca-4f16-a2e0-fe8eaa82a611
     collapsed:: true
-    - | **Items** | ((63305f34-8398-4775-94c5-fc82d6f40b5d)) | ((633065d1-de9c-4a67-b7ff-ec2036c3a3c1))| 
+    - | **Items** | ((63305f34-8398-4775-94c5-fc82d6f40b5d)) | ((633065d1-de9c-4a67-b7ff-ec2036c3a3c1))|
       |-------| ------------------------------------------|-------------------------------------------|
       | **端口号** | 80                       | 443             |
       | **URL前缀** | `http://`              | `https://`|

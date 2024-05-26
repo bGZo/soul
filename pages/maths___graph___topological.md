@@ -1,6 +1,5 @@
 title:: maths/graph/topological
 mark:: 拓扑图
-
 -
 - [[sort]] | 拓扑排序
   - Use Case -> 先修课
@@ -31,7 +30,6 @@ mark:: 拓扑图
           return error (graph has at least one cycle)
       else
           return L (a topologically sorted order)
-      
       via: https://oi-wiki.org/graph/topo/
       ```
   - Implement

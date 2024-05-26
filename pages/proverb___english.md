@@ -1,6 +1,5 @@
 title:: proverb/english
 tags:: #[[English/reading]]
-
 - Collections
   collapsed:: true
   - A bad beginning makes a bad ending. 不善始者不善终。
@@ -28,7 +27,7 @@ tags:: #[[English/reading]]
   - A friend without faults will never be found. 没有十全十美的朋友。
   - "After you" is good manners. “您先请”是礼貌。
   - A good beginning is half done. 良好的开端是成功的一半。
-  - A good beginning makes a good ending. 
+  - A good beginning makes a good ending.
     善始者善终。
   - A good book is a good friend. 好书如挚友。
   - A good book is the best of friends, the same today andforever. 一本好书，相伴一生。

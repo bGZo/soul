@@ -6,7 +6,6 @@ source::  [ziishaned/learn-regex: Learn regex the easy way](https://github.com/z
 created:: 2021
 closed:: 2021
 mark::
-
 - Meta
   - Shorth and Character Sets / Single Char
     - ```bash
@@ -26,7 +25,7 @@ mark::
       ```
   - Quantifiers(数量)
     - ```shell
-      * # expression >=0, 
+      * # expression >=0,
       .* # anything
       + # expression >=1
       a*  -> a{0,}  -> Match a or aa or aaaaa or an empty string
@@ -55,7 +54,6 @@ mark::
     - ```shell
       () # groups and backreferences
       \([0-9]\) #[a-zA-Z] / [A-Z] / [a-z] / [0123456789]
-      
       what diff with \ & $ ????
       ```
 - Lookarounds

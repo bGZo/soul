@@ -1,7 +1,6 @@
 title:: algo/search/binary
 mark:: "binary(二分), half-interval(折半),logarithmic(对数), 在一个升序数组中查找一个数, 难点在于到底要给 mid ± 1, while 里到底用  <= / <"
 tags:: #[[sort]]
-
 - >Although the basic idea of binary search is comparatively straightforward, the details can be surprisingly tricky | 思路很简单，细节是魔鬼
   — [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)(1998). *Sorting and searching*. [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming). Vol. 3 (2nd ed.). Reading, MA: Addison-Wesley Professional. [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier)) [978-0-201-89685-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-201-89685-5).
 -
@@ -23,11 +22,9 @@ tags:: #[[sort]]
 - ```java
   int binarySearch(int[] nums, int target) {
       int left = 0, right = ...;
-  
       while(...) {
           int mid = left + (right - left) / 2;
           // NOTE: left + (right - left) / 2  better than  (left + right) / 2
-        
           if (nums[mid] == target) {
               ...
           } else if (nums[mid] < target) {
@@ -48,9 +45,8 @@ tags:: #[[sort]]
       所以当 nums[mid] == target 时可以立即返回
     - // 左开右开的写法
       int binary_search(int[] nums, int target) {
-          int left = 0, 
+          int left = 0,
             right = nums.length - 1; // 注意
-      
           while(left <= right) {
               int mid = left + (right - left) / 2;
               if (nums[mid] < target) {
@@ -86,13 +82,10 @@ tags:: #[[sort]]
           // 判断一下 nums[left] 是不是 target
           return nums[left] == target ? left : -1;
       }
-      
-      
       // 左开右闭的写法
       int left_bound(int[] nums, int target) {
           int left = 0,
             right = nums.length; // 注意
-          
           while (left < right) { // 注意
               int mid = left + (right - left) / 2;
               if (nums[mid] == target) {
@@ -136,11 +129,9 @@ tags:: #[[sort]]
           // 判断一下 nums[left] 是不是 target
           return nums[left - 1] == target ? (left - 1) : -1;
       }
-      
       // 左开右闭的写法
       int right_bound(int[] nums, int target) {
           int left = 0, right = nums.length;
-          
           while (left < right) {
               int mid = left + (right - left) / 2;
               if (nums[mid] == target) {

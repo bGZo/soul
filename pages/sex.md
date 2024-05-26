@@ -5,7 +5,6 @@ date: 20240409
 tags: #Hobby, #Topic
 title: sex
 ---
-
 - #+BEGIN_PINNED
   饱暖思淫欲，每天吃少点并多做运动
   #+END_PINNED
@@ -447,7 +446,7 @@ title: sex
   - TODO 有了小孩之后, 性生活要怎么做???
   - __上瘾__ -> 因追求刺激而突破个体认知层的拘束, 以达到新一层级的刺激, 多少让人一下接受不了的同时, 又想多看几眼.
   - __性癖__
-    - 色情片本身就有异化的价值观和镜头引导, 往往关乎两个人的权力系统, 曾看过一句话: 
-      > Everything in the world is about sex, except sex, sex is about power 
+    - 色情片本身就有异化的价值观和镜头引导, 往往关乎两个人的权力系统, 曾看过一句话:
+      > Everything in the world is about sex, except sex, sex is about power
       如若真要关注性本位, 是否要退回到一个人的世界, 即那些一个人 Show 的视频也许才是真的有关于 "纯粹" 性的交合, 也许这正是我真正的诉求? 同时一个人的交合是真正的交合吗?
 -

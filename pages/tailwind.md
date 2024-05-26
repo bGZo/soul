@@ -1,7 +1,6 @@
 tags:: #css
 created:: 20230709
 title:: tailwind
-
 - ## Why
 - ## How
 - ## What
@@ -17,6 +16,5 @@ title:: tailwind
       os.makedirs('_posts')
   if not os.path.exists( ('_posts/' + _label) ):
       os.makedirs('_posts/'+)
-  
   os.makedirs(os.path.dirname(archive_filename), exist_ok=True)
   ```

@@ -1,7 +1,6 @@
 title:: English/phonetic-symbol
-alias:: 
+alias::
 mark:: 音标
-
 -
 -
 -

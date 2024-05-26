@@ -1,6 +1,5 @@
 file:: [book_computer_networking_a_top_down_approach.pdf](../assets/book_computer_networking_a_top_down_approach.pdf)
 file-path:: ../assets/book_computer_networking_a_top_down_approach.pdf
-
 - A protocol mark:: s the format and the order of messages exchanged between two or more communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other event.
   ls-type:: annotation
   hl-page:: 37
@@ -67,7 +66,7 @@ file-path:: ../assets/book_computer_networking_a_top_down_approach.pdf
   id:: 64414229-8d0d-4383-9311-e2fdfa0e87e8
   hl-type:: area
   hl-stamp:: 1681998376156
-- The query sent from cse.nyu.edu to dns.nyu.edu is a recursive query, since the query asks dns.nyu.edu to obtain the mapping on its behalf. However, the subsequent three queries are iterative since all of the replies are directly returned to dns.nyu.edu. 
+- The query sent from cse.nyu.edu to dns.nyu.edu is a recursive query, since the query asks dns.nyu.edu to obtain the mapping on its behalf. However, the subsequent three queries are iterative since all of the replies are directly returned to dns.nyu.edu.
   ls-type:: annotation
   hl-page:: 158
   hl-color:: yellow

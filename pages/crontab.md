@@ -1,12 +1,10 @@
 alias:: commands/crontab
 mark:: Job scheduler on Unix-like operating systems | 定期运行的作业
 icon:: ⌘
-tags:: #Linux 
-
+tags:: #Linux
 created:: 20230625
 title:: crontab
 wikipedia:: [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron)
-
 - ## Why
 - ## How
 - ## What
@@ -27,11 +25,9 @@ wikipedia:: [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron)
     - ```shell
       crontab -l
       # 显示你的作业
-      
       crontab -e
       # 编辑已有的 Cron 作业
       # 设定编辑器 EDITOR=nano crontab -e
-      
       ```
     - Cases
       - 每 12 小时运行来自 `/Users/flavio/test.sh` 的脚本

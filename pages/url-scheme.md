@@ -1,15 +1,14 @@
 collapsed:: true
 title:: url-scheme
-mark:: 
+mark::
 title:: url-scheme
 alias:: deep-linking/mobile
 mark:: link to a specific location within a mobile app rather than simply launching the app.
-tags:: 
-source:: 
+tags::
+source::
 mark:: [Mobile deep linking - Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking); [List of URI schemes - Wikipedia](https://en.wikipedia.org/wiki/List_of_URI_schemes)
 created:: 20221128
 closed::
-
   - Implement: The format of the URI used to trigger or deep link an app is often different depending on the mobile operating system.
     - [[android]] devices work through **intents**
       source:: [Intents and Intent Filters  |  Android Developers](https://developer.android.com/guide/components/intents-filters)

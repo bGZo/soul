@@ -1,10 +1,9 @@
 icon:: 🙄
 alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
-
 - **Generally**, I hate [[software]] [[design]] with
   collapsed:: true
   #perference
-  - Keywords contains 
+  - Keywords contains
     via:: [bGZo/fuck-app-shit: Third Android SDK Files Unnecessarily Created Sucks.🤮](https://github.com/bGZo/fuck-app-shit)
     collapsed:: true
     - collapsed:: true
@@ -17,27 +16,21 @@ alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
                   "https://www.v2ex.com/t/801183"
               ]
           },{
-              "Title":"Black Items", 
+              "Title":"Black Items",
               "Items":[
                   "个人看法", "我看",
                   "我觉得", "我认为",
-      
                   "暖心文字", "每日",
                   "情感", "语录",
-      
                   "男拳", "男权", "厌男", "蝈蝻",
                   "女权", "女拳", "乱打拳", "厌女",
-                  
                   "星座", "占卜", "解梦", "看相",
-      
                   "奔现", "情侣",
                   "对象", "情话",
                   "出轨", "挽回",
                   "前男友", "前女友",
                   "走心",
-      
                   "抑郁", "失眠",
-      
                   "鸿蒙",
                   "拘",
                   "暖",
@@ -87,7 +80,7 @@ alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
                   "热热热",
                   "冷冷冷",
                   "雨雨雨",
-                  "又双叒叕", 
+                  "又双叒叕",
                   "上海人注意了",
                   "北京人注意了",
                   "@北京人",
@@ -106,10 +99,9 @@ alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
               ]
           },
           {
-              "Title":"stars", 
+              "Title":"stars",
               "Items":[
                   "猛料", "娱乐圈", "共青团", "工作室",
-      
                   "罗志祥", "蔡徐坤", "薛之谦", "鹿晗",
                   "易烊千玺", "王俊凯", "王源",
                   "马云", "李开复",
@@ -118,13 +110,13 @@ alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
               ]
           },
           {
-              "Title":"Arts", 
+              "Title":"Arts",
               "Items":[
                   "甄嬛"
               ]
           },
           {
-              "Title":"Game", 
+              "Title":"Game",
               "Items":[
                   "LOL", "王者"
                 	"原神", "原批"

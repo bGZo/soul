@@ -17,7 +17,6 @@
       - ```shell
         jaotc --output libHelloWorld.so HelloWorld.class
         jaotc --output libjava.base.so --module java.base
-        
         java -XX:AOTLibrary=./libHelloWorld.so,./libjava.base.so HelloWorld
         ```
       - 避免了JIT预热等各方面的开销

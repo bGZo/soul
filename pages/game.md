@@ -1,26 +1,24 @@
 alias:: 游戏
-mark:: 
+mark::
 icon:: 🎮
 tags:: #ACGN
 title:: game
-
 created:: 20230815
 title:: game
-
   - template:: game
     template-including-parent:: false
     collapsed:: true
     - icon:: 🎮
-      title:: 
-      alias:: 
-      desc:: 
-      tags:: #game 
-      released-created:: 
-      developer:: 
-      publisher:: 
-      bangumi:: 
-      douban:: 
-      mark:: 
+      title::
+      alias::
+      desc::
+      tags:: #game
+      released-created::
+      developer::
+      publisher::
+      bangumi::
+      douban::
+      mark::
       created:: <% today %>
 - ## Why
 - ## How

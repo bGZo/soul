@@ -1,7 +1,6 @@
 alias:: 浏览器
-tags:: #Tool 
+tags:: #Tool
 title:: Browser
-
 - ## [[Issue]]
   - **浏览器内置通知**
     via: [Is there any way to view Chrome browser notifications history? - Super User](https://superuser.com/questions/1035042/is-there-any-way-to-view-chrome-browser-notifications-history)
@@ -93,7 +92,6 @@ title:: Browser
               ├── 6.0
               ├── manifest.fingerprint
               └── manifest.json
-      
       29 directories, 49 files
       ```
     - 可以看出多出来的只是 `Brave (Rewards)Wallet + Brave Ads + Ad Block`, 所以感觉 Meaningless. 之前看过的软文([How To Enable Or Disable Notifications On The Brave Web Browser | PC | *2022* 👍 - YouTube](https://www.youtube.com/watch?v=86xEqFtENB8) & [Brave浏览器看广告赚取BAT Token | 完美支持MetaMask钱包 | 比谷歌浏览器快3倍，高度保护用户隐私 - YouTube](https://www.youtube.com/watch?v=QGFJ_LbUFpM)), 号称打着边挖矿边保护隐私方面, 还把 Brendan Eich 的名号搬出来, 可笑可笑
@@ -103,7 +101,7 @@ title:: Browser
   - ```js
     (function() {
       var elem = document.documentElement;
-      var rfs = 
+      var rfs =
              elem.requestFullscreen
           || elem.webkitRequestFullScreen
           || elem.mozRequestFullScreen

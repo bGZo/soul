@@ -1,5 +1,4 @@
 alias:: 标准
-
 - Definition -> #vs [[principle]] & [[rule]]
   id:: 62f3b145-a016-4f45-bb52-57d9a4355f81
   - constrain

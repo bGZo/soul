@@ -10,27 +10,25 @@ via: [Random Number Generator: How Do Computers Generate Random Numbers?](https:
       - Support by [RANDOM.ORG - True Random Number Service](https://www.random.org/)
         - collapsed:: true
           ```js
-          
           // Generates a random number within user indicated interval
           const getRandom = async (min, max, base) => {
             const response = await fetch("https://www.random.org/integers/?num=1&min="+min+"&max="+max+"&col=1&base="+base+"&format=plain&rnd=new")
-          	return response.text() 
-          } 
-          
+          	return response.text()
+          }
           // Output handling
           const handleGenerate = () => {
             handleActive(generateButton)
             const base = binary.checked ? 2 : decimal.checked ? 10 : 16
             if (!minimum.value || !maximum.value) {
-              prompter.style.color = 'red' 
+              prompter.style.color = 'red'
               prompter.textContent = "Enter Min & Max values"
             } else {
               getRandom(minimum.value, maximum.value, base).then((data) => {
                 resultValue.textContent = data
-                prompter.textContent = ""    
+                prompter.textContent = ""
               }).catch((error) => {
                 resultValue.textContent = 'ERROR'
-                prompter.textContent = 'Connection error. Unable to 						generate';    
+                prompter.textContent = 'Connection error. Unable to 						generate';
               })
               handleRestart()
             }
@@ -65,9 +63,9 @@ via: [Random Number Generator: How Do Computers Generate Random Numbers?](https:
         /** x0=seed
           * a=multiplier
           * b=increment
-          * m=modulus 
+          * m=modulus
           * n=desired array length
-          */ 
+          */
         const linearRandomGenerator = (x0, a, b, m, n) => {
           const results = []
           for (let i = 0; i < n; i++) {

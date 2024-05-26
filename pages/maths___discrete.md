@@ -1,7 +1,6 @@
 title:: maths/discrete
 alias:: 离散数学, 组合数学, maths/combinatorics, Discrete Mathematics, Combinatorics Mathematics
 mark:: [组合数学 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6)
-
 - [数学部分简介 - OI Wiki](https://oi-wiki.org/math/)
   - [排列组合](https://oi-wiki.org/math/combinatorics/combination/)
   - [抽屉原理](https://oi-wiki.org/math/combinatorics/drawer-principle/)

@@ -1,5 +1,4 @@
 tags:: #3C, #CPU, #Rank
-
 - ## \#1 桌面 CPU
   - {{iframe https://www.mydrivers.com/zhuanti/tianti/cpu/index.html}}
     #+BEGIN_CENTER

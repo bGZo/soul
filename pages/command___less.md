@@ -1,5 +1,4 @@
 title:: command/less
-
 - ```shell
   less filename
   ```

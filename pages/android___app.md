@@ -1,6 +1,5 @@
 title:: android/app
 alias:: app/android
-
 -
 - [[Quickref]]
   - File Path

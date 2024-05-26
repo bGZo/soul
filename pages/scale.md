@@ -1,5 +1,4 @@
 alias:: maths/scale
-
 - Measurement Unit
   collapsed:: true
   - ((632567dc-203a-4a50-acbe-692fe9c6e248))
@@ -16,7 +15,7 @@ alias:: maths/scale
             10/2 = 5余0
             5/2 = 2余1
             2/2 = 1余0
-            1/2 = 0余1 
+            1/2 = 0余1
             ```
           - 即 `1010`
       - 降幂法
@@ -58,7 +57,7 @@ alias:: maths/scale
                   m=m/2;
               }
                 p[i]='\0';
-                for(int j=i-1;j>=0;j--)cout<<p[j];  
+                for(int j=i-1;j>=0;j--)cout<<p[j];
             }//这里采取倒序输出是因为开始处理的位数是个位，所以最后输出的位数也因该是倒序输出，关于这类问题，首先着手的是自己处理的位数是哪位！是关于移位处理的进制转换问题，
             ```
           - 这是二进制转化十进制的操作！
@@ -73,7 +72,7 @@ alias:: maths/scale
             int len=strlen(p);
             for(int i=0;i<len;i++){
                 sum*=2;
-                sum+=p[i]-'0'; 
+                sum+=p[i]-'0';
             }
               cout<<sum<<endl;
             }//getline读取后的数组从最大位置开始，然后迭代算到个位结束。

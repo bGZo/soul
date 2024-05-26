@@ -1,7 +1,6 @@
 alias:: commands/chkconfig
 created:: 20231005
 icon:: ⌘
-
 - ## Why
 - ## How
 - ## What

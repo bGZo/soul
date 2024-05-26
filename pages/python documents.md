@@ -1,11 +1,9 @@
 alias:: python/documents
-mark:: 
+mark::
 icon:: 🐍
-tags:: 
-
+tags::
 created:: 20230627
 title:: python documents
-
 - ## Why
 - ## How
 - ## What
@@ -24,13 +22,10 @@ title:: python documents
     - ```python
       #!/usr/bin/env python
       #-*- coding: utf-8 -*-
-      
       """ Template via:
           https://stackoverflow.com/a/1523456/13561253
       """
-      
       import xxx
-      
       __author__      = "bGZo"
       __copyright__   = "Copyright(c) 2022 bGZo"
       __credits__     = "bGZo"
@@ -46,7 +41,6 @@ title:: python documents
       collapsed:: true
       - ```shell
         BaseException  # 所有异常的基类
-        
          +-- SystemExit  # 解释器请求退出
          +-- KeyboardInterrupt  # 用户中断执行(通常是输入^C)
          +-- GeneratorExit  # 生成器(generator)发生异常来通知退出

@@ -1,6 +1,5 @@
 alias:: Object-oriented programming, 面向对象, 面向对象编程
 mark:: [Object-oriented programming - Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming)
-
 - ## [[Java]] #vs [[cpp]]
   - **虚函数**
     mark:: 为了多态

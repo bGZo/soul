@@ -1,22 +1,19 @@
 alias:: 工具
 icon:: 🛠
-
 created:: 20230531
 tags:: #Productivity
 title:: Tool
-
   - template:: tool
     template-including-parent:: false
     collapsed:: true
-    - alias:: 
-      blog:: 
-      changelog:: 
-      community:: 
-      document:: 
+    - alias::
+      blog::
+      changelog::
+      community::
+      document::
       icon::
-      
       created:: ``{ date.now.format('YYYYMMDD') }``
-      tags:: 
+      tags::
       title:: ``{ c.page.name }``
 - ## Why
   - Creating thing more productive.
@@ -35,7 +32,7 @@ title:: Tool
       **开发人员要有意识地搭建自己的技术框架**;
       #+END_PINNED
       - #+BEGIN_QUOTE
-        编写自己的工具库, 比如编码转换、网络通信等，还可以把阅读过并增加了很多注释的开源项目，如图形库、电驴源码、即时通讯源码等等放进去. 
+        编写自己的工具库, 比如编码转换、网络通信等，还可以把阅读过并增加了很多注释的开源项目，如图形库、电驴源码、即时通讯源码等等放进去.
         — [开发人员如何构建自己的学习笔记系统？ - 知乎](https://www.zhihu.com/question/273440522/answer/368778127)
         #+END_QUOTE
     - #+BEGIN_PINNED

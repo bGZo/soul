@@ -1,7 +1,6 @@
 title:: java/5/concurrency
 alias:: concurrency/java, java 并发
 tags:: TODO
-
 -
 - `sleep()` #vs `wait()` #[[question/java]]
   - | **Items**   |`sleep()`  | `wait()`  |

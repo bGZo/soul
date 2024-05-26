@@ -1,5 +1,4 @@
 tags:: #geekbang, #Linux
-
 - ## 入门
   - ## Why?
     - __服务端应用__
@@ -53,6 +52,7 @@ tags:: #geekbang, #Linux
   - ## Subsystem
     - ![image.png](../assets/image_1645947936470_0.png)
   - ## Several [[command]]
+    collapsed:: true
     - ![image.png](../assets/image_1645956348730_0.png)
     - [[ls]]
     - Install
@@ -62,7 +62,8 @@ tags:: #geekbang, #Linux
   - ## 系统调用
     -
     - [[linux/system-call]]
-    - > "一切皆文件"
+    - collapsed:: true
+      > "一切皆文件"
       - 启动一个进程,需要一个程序文件,这是一个**二进制文件**。
       - 启动的时候,要加载一些配置文件,例如 yml、properties 等,这是文本文件;启动之后会打印一些日志,如果写到硬盘上,也是**文本文件**。
       - 但是如果我想把日志打印到交互控制台上,在命令行上唰唰地打印出来,这其实也是一个文件,是标准输出**stdout 文件**。
@@ -77,6 +78,7 @@ tags:: #geekbang, #Linux
 - ## 系统初始化
   - ##
   - ## x86
+    collapsed:: true
     - IBM 和 x86 的故事
       - IBM 开始做 IBM PC 时,一开始并没有让最牛的华生实验室去研发,而是交给另一个团队。一年时间,软硬件全部自研根本不可能完成,于是他们采用了英特尔的 8088 芯片作为 CPU,使用微软的 MS-DOS 做操作系统。
       - 谁能想到 IBM PC 卖的超级好,好到因为垄断市场而被起诉。IBM 就在被逼的情况下公开了一些技术,使得后来无数 IBM-PC 兼容机公司的出现,也就有了后来占据市场的惠普、康柏、戴尔等等。
@@ -87,27 +89,21 @@ tags:: #geekbang, #Linux
       -
 - ## 进程管理
   - ## ch01 进程
-    - `build-essential` in [[Ubuntu]]
+    - `build-essential` in [[ubuntu]]
       - ```shell
         $ apt show build-essential
         ...
-        Depends: libc6-dev | libc-dev, gcc (>= 4:9.2), g++ (>= 4:9.2), make, dpkg-dev (>= 1.17.11) 
+        Depends: libc6-dev | libc-dev, gcc (>= 4:9.2), g++ (>= 4:9.2), make, dpkg-dev (>= 1.17.11)
         ...
         ```
     - ### Compiler
       - ```cpp
         //process.c
         #include <stdio.h>
-        
         #include <stdlib.h>
-        
         #include <sys/types.h>
         #include <unistd.h>
-         
-         
         extern int create_process (char* program, char** arg_list);
-         
-         
         int create_process (char* program, char** arg_list)
         {
             pid_t child_pid;
@@ -121,14 +117,10 @@ tags:: #geekbang, #Linux
         }
         // createprocess.c
         #include <stdio.h>
-        
         #include <stdlib.h>
-        
         #include <sys/types.h>
         #include <unistd.h>
-         
         extern int create_process (char* program, char** arg_list);
-         
         int main ()
         {
             char* arg_list[] = {
@@ -146,6 +138,7 @@ tags:: #geekbang, #Linux
       - ![image.png](../assets/image_1649658869823_0.png)
         - ELF
           - 可重定位文件 (Relocatable File) `.o`
+            collapsed:: true
             ![image.png](../assets/image_1649658995290_0.png)
             - 可重定位:
             -
@@ -162,11 +155,13 @@ tags:: #geekbang, #Linux
             - 编译的时候先做预处理工作, 如将头文件嵌入到正文中，将定义的宏展开，然后编译过程，-> `.o` 文件 (ELF 第一种类型)
               - ELF made by section(节)
           - 可执行文件
+            collapsed:: true
             ![image.png](../assets/image_1649660911584_0.png)
             - 这些 `section` 是多个`.o` 文件合并过的
             - 将小的 `section` 合成了大的段 `segment`，并且在最前面加一个段头表 (Segment Header Table)
             - 在代码里面的定义为 `struct elf32_phdr` 和 `struct elf64_phdr`，这里面除了有对于段的描述之外，最重要的是 p_vaddr，这个是这个段加载到内存的虚拟地址。在 ELF 头里面，有一项 e_entry，也是个虚拟地址，是这个程序运行的入口。
           - 共享对象文件 (Shared Object) ref -> ((6253d4ec-85ba-4879-b2db-71ba04b8b9b8))
+            collapsed:: true
             - diff
               - 一个`.interp` 的 Segment
                 - 这里面是 `ld-linux.so`，动态链接器, 运行时的链接动作都是它做的
@@ -184,7 +179,7 @@ tags:: #geekbang, #Linux
     - ### Link
       - 静态链接库
         - ```shell
-          ar cr libstaticprocess.a process.o 
+          ar cr libstaticprocess.a process.o
           #archives, 将一系列对象文件（.o）归档为一个文件
           gcc -o staticcreateprocess createprocess.o -L. -lstaticprocess
           # -L 表示在当前目录下找.a 文件
@@ -205,9 +200,7 @@ tags:: #geekbang, #Linux
       #include <pthread.h>
       #include <stdio.h>
       #include <stdlib.h>
-       
       #mark::  NUM_OF_TASKS 5
-       
       void *downloadfile(void *filename){
          printf("I am downloading the file %s!\n", (char *)filename);
          sleep(10);
@@ -216,20 +209,17 @@ tags:: #geekbang, #Linux
          pthread_exit((void *)downloadtime);
         //当一个线程退出的时候，就会发送信号给其他所有同进程的线程
       }
-       
       int main(int argc, char *argv[]){
          char files[NUM_OF_TASKS][20]={"file1.avi","file2.rmvb","file3.mp4","file4.wmv","file5.flv"};
          pthread_t threads[NUM_OF_TASKS];
          int rc;
          int t;
          int downloadtime;
-       
          pthread_attr_t thread_attr;
          pthread_attr_init(&thread_attr);
          pthread_attr_setdetachstate(&thread_attr,PTHREAD_CREATE_JOINABLE);
          // The detach state attribute determines whether a thread created using the thread
-         // attributes  object attr will be created in a joinable or a detached state. 
-      
+         // attributes  object attr will be created in a joinable or a detached state.
          for(t=0;t<NUM_OF_TASKS;t++){
            printf("creating thread %d, please help me to download %s\n", t, files[t]);
            rc = pthread_create(&threads[t], &thread_attr, downloadfile, (void *)files[t]);
@@ -242,15 +232,12 @@ tags:: #geekbang, #Linux
              exit(-1);
            }
          }
-       
          pthread_attr_destroy(&thread_attr);
-       
          for(t=0;t<NUM_OF_TASKS;t++){
            pthread_join(threads[t],(void**)&downloadtime);
            // 获取返回值并传给主线程
            printf("Thread %d downloads the file %s in %d minutes.\n",t,files[t],downloadtime);
          }
-       
          pthread_exit(NULL);
       }
       ```
@@ -261,11 +248,13 @@ tags:: #geekbang, #Linux
     - ### Data
       - ![image.png](../assets/image_1649666236716_0.png)
         - 线程栈上的本地数据
+          collapsed:: true
           - 管理栈 `ulimit [-a][-s]`
           - 修改 `int pthread_attr_setstacksize(pthread_attr_t *attr, size_t stacksize);`
           - 线程栈之间还会有小块区域，用来隔离保护各自的栈空间。一旦另一个线程踏入到这个隔离区，就会引发段错误
         - 在整个进程里共享的全局数据
         - 线程私有数据 (Thread Specific Data)
+          collapsed:: true
           - 声明 `int pthread_setspecific(pthread_key_t key, const void *value)`
             - 创建一个 key，伴随着一个析构函数
           - 设置 key 对应的 value
@@ -279,14 +268,11 @@ tags:: #geekbang, #Linux
           #include <pthread.h>
           #include <stdio.h>
           #include <stdlib.h>
-           
           #mark::  NUM_OF_TASKS 5
-           
           int money_of_tom = 100;
           int money_of_jerry = 100;
           // 第一次运行去掉下面这行
           pthread_mutex_t g_money_lock;
-           
           void *transfer(void *notused){
             pthread_t tid = pthread_self();
             printf("Thread %u is transfering money!\n", (unsigned int)tid);
@@ -301,14 +287,12 @@ tags:: #geekbang, #Linux
             printf("Thread %u finish transfering money!\n", (unsigned int)tid);
             pthread_exit((void *)0);
           }
-           
           int main(int argc, char *argv[]){
             pthread_t threads[NUM_OF_TASKS];
             int rc;
             int t;
             // 第一次运行去掉下面这行
             pthread_mutex_init(&g_money_lock, NULL);
-           
             for(t=0;t<NUM_OF_TASKS;t++){
               rc = pthread_create(&threads[t], NULL, transfer, NULL);
               if (rc){
@@ -316,7 +300,6 @@ tags:: #geekbang, #Linux
                 exit(-1);
               }
             }
-            
             for(t=0;t<100;t++){
               // 第一次运行去掉下面这行
               pthread_mutex_lock(&g_money_lock);
@@ -334,24 +317,17 @@ tags:: #geekbang, #Linux
           #include <pthread.h>
           #include <stdio.h>
           #include <stdlib.h>
-           
           #mark::  NUM_OF_TASKS 3
           #mark::  MAX_TASK_QUEUE 11
-           
           char tasklist[MAX_TASK_QUEUE]="ABCDEFGHIJ";
           int head = 0;
           int tail = 0;
-           
           int quit = 0;
-           
           pthread_mutex_t g_task_lock;
           pthread_cond_t g_task_cv;
-           
           void *coder(void *notused){
             pthread_t tid = pthread_self();
-           
             while(!quit){
-           
               pthread_mutex_lock(&g_task_lock);
               while(tail == head){
                 if(quit){
@@ -368,18 +344,14 @@ tags:: #geekbang, #Linux
               sleep(5);
               printf("Thread %u finish the task %c!\n", (unsigned int)tid, task);
             }
-           
             pthread_exit((void *)0);
           }
-           
           int main(int argc, char *argv[]){
             pthread_t threads[NUM_OF_TASKS];
             int rc;
             int t;
-           
             pthread_mutex_init(&g_task_lock, NULL);
             pthread_cond_init(&g_task_cv, NULL);
-           
             for(t=0;t<NUM_OF_TASKS;t++){
               rc = pthread_create(&threads[t], NULL, coder, NULL);
               if (rc){
@@ -387,9 +359,7 @@ tags:: #geekbang, #Linux
                 exit(-1);
               }
             }
-           
             sleep(5);
-           
             for(t=1;t<=4;t++){
               pthread_mutex_lock(&g_task_lock);
               tail+=t;
@@ -398,12 +368,10 @@ tags:: #geekbang, #Linux
               pthread_mutex_unlock(&g_task_lock);
               sleep(20);
             }
-           
             pthread_mutex_lock(&g_task_lock);
             quit = 1;
             pthread_cond_broadcast(&g_task_cv);
             pthread_mutex_unlock(&g_task_lock);
-           
             pthread_mutex_destroy(&g_task_lock);
             pthread_cond_destroy(&g_task_cv);
             pthread_exit(NULL);
@@ -414,16 +382,18 @@ tags:: #geekbang, #Linux
   - ## ch03 progress [[data-structure]]
     - ![image.png](../assets/image_1650000073242_0.png)
     - ### 进程链表
+      collapsed:: true
       - ```c
         struct list_head    tasks;
         ```
         via: https://github.com/torvalds/linux/blob/a19944809fe9942e6a96292490717904d0690c21/include/linux/sched.h#L854=
       - ![image.png](../assets/image_1650003276235_0.png)
       - #### 任务 ID
+        collapsed:: true
         - ```c
           pid_t pid;  // process id
           pid_t tgid; // thread group ID
-          struct task_struct *group_leader; 
+          struct task_struct *group_leader;
           ```
           via: https://github.com/torvalds/linux/blob/master/include/linux/sched.h & https://docs.huihoo.com/doxygen/linux/kernel/3.7/include_2linux_2sched_8h_source.html
           - 只有主线程
@@ -431,6 +401,7 @@ tags:: #geekbang, #Linux
           - 有其他线程
             - 线程有自己的 pid，tgid 就是进程的主线程的 pid，group_leader 指向的就是进程的主线程
       - #### 信号处理
+        collapsed:: true
         - ```c
           /* Signal handlers: */
           struct signal_struct  *signal;
@@ -444,12 +415,14 @@ tags:: #geekbang, #Linux
           unsigned int      sas_ss_flags;
           ```
       - #### 任务状态
+        collapsed:: true
         - ```c
            volatile long  state;    /* -1 unrunnable, 0 runnable, >0 stopped */
            int      exit_state;
            unsigned int   flags;
           ```
         - state（状态）可以取的值定义在 include/linux/sched.h 头文件中
+          collapsed:: true
           - ```c
             // bitset set
             /* Used in tsk->state: */
@@ -513,6 +486,7 @@ tags:: #geekbang, #Linux
               - fork 完了，还没有 exec
               - 在 _do_fork 函数里面调用 copy_process，这个时候把 flag 设置为 PF_FORKNOEXEC。当 exec 中调用了 load_elf_binary 的时候，又把这个 flag 去掉
       - #### 进程调度
+        collapsed:: true
         - 状态切换
         - ```c
           // 是否在运行队列上
@@ -536,6 +510,7 @@ tags:: #geekbang, #Linux
           struct sched_info     sched_info;
           ```
       - #### 运行统计信息
+        collapsed:: true
         - ```c
           u64       utime;        // 用户态消耗的 CPU 时间
           u64       stime;        // 内核态消耗的 CPU 时间
@@ -545,8 +520,10 @@ tags:: #geekbang, #Linux
           u64       real_start_time;  // 进程启动时间，包含睡眠时间
           ```
       - #### 进程亲缘关系
+        collapsed:: true
         - ![image.png](../assets/image_1650001657755_0.png)
-        - ```c
+        - collapsed:: true
+          ```c
           struct task_struct __rcu *real_parent;  /* real parent process */
           struct task_struct __rcu *parent;     /* recipient of SIGCHLD, wait4() reports */
           struct list_head children;          /* list of my children */
@@ -558,6 +535,7 @@ tags:: #geekbang, #Linux
             - 通常情况下，real_parent 和 parent 是一样的
             - 当子进程作为父进程时候, real_parent 和 parent 不一样
       - #### 进程权限
+        collapsed:: true
         - 项目组权限的控制范畴
           - ```c
             /* Objective and real subjective task credentials (COW): */
@@ -603,6 +581,7 @@ tags:: #geekbang, #Linux
                 - 游戏程序的用户 B 的 ID 还会保存在一个地方，这就是 suid 和 sgid，也就是 saved uid 和 save gid
                 - 这样就可以很方便地使用 setuid，通过设置 uid 或者 suid 来改变权限。
         - `capabilities` 位图
+          collapsed:: true
           - ```c
             #mark::  CAP_CHOWN             0
             #mark::  CAP_KILL              5
@@ -622,12 +601,14 @@ tags:: #geekbang, #Linux
           - 这样有很多好处。例如，系统启动以后，将加载内核模块的权限去掉，那所有进程都不能加载内核模块。这样，即便这台机器被攻破，也做不了太多有害的事情。
           - cap_ambient 是比较新加入内核的，就是为了解决 cap_inheritable 鸡肋的状况，也就是，非 root 用户进程使用 exec 执行一个程序的时候，如何保留权限的问题。当执行 exec 的时候，cap_ambient 会被添加到 cap_permitted 中，同时设置到 cap_effective 中。
       - #### 内存管理
+        collapsed:: true
         - mm_struct
         - ```c
           struct mm_struct                *mm;
           struct mm_struct                *active_mm;
           ```
       - #### 文件与文件系统
+        collapsed:: true
         - ```c
           /* Filesystem information: */
           struct fs_struct                *fs;
@@ -640,6 +621,7 @@ tags:: #geekbang, #Linux
         void  *stack;
         ```
     - 用户态函数栈
+      collapsed:: true
       - x86
         - ![image.png](../assets/image_1650005541305_0.png)
         - ESP (Extended Stack Pointer): 栈顶指针寄存器
@@ -648,6 +630,7 @@ tags:: #geekbang, #Linux
           - 指向当前栈帧的最底部
         - A 调用 B，A 的栈里面包含 A 函数的局部变量，然后是调用 B 的时候要传给它的参数，然后返回 A 的地址，这个地址也应该入栈，这就形成了 A 的栈帧。接下来就是 B 的栈帧部分了，先保存的是 A 栈帧的栈底位置，也就是 EBP。因为在 B 函数里面获取 A 传进来的参数，就是通过这个指针获取的，接下来保存的是 B 的局部变量等等。当 B 返回的时候，返回值会保存在 EAX 寄存器中，从栈中弹出返回地址，将指令跳转回去，参数也从栈中弹出，然后继续执行 A。
       - x64
+        collapsed:: true
         - ![image.png](../assets/image_1650004463135_0.png)
         - `ax` 保存函数调用的返回结果
         - `rsp` 栈顶指针寄存器
@@ -657,13 +640,17 @@ tags:: #geekbang, #Linux
           - 指向当前栈帧的起始位置
         - `rdi`、`rsi`、`rdx`、`rcx`、`r8`、`r9`: 参数传递
     - 内核态函数栈
+      collapsed:: true
       - ![image.png](../assets/image_1650003890869_0.png)
     - x86 vs x64
+      collapsed:: true
       - ![image.png](../assets/image_1650004552227_0.png)
   - ## ch04 调度
+    collapsed:: true
     - ![image.png](../assets/image_1650006220845_0.png)
     - ![image.png](../assets/image_1650006602228_0.png)
   - ## ch05 进程创建
+    collapsed:: true
     - ![image.png](../assets/image_1650007561931_0.png)
     -
   - ## ch06 线程创建
@@ -722,7 +709,7 @@ tags:: #geekbang, #Linux
         - `SOCK_DGRAM`
           collapsed:: true
           - UDP 面向数据报
-        - `SOCK_RAW` 
+        - `SOCK_RAW`
           collapsed:: true
           - 可以直接操作 IP 层，或者非 TCP 和 UDP 的协议
             collapsed:: true
@@ -743,17 +730,14 @@ tags:: #geekbang, #Linux
         int bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
         /* sockfd: socket 文件描述符
          */
-        
         struct sockaddr_in {
           __kernel_sa_family_t  sin_family; /* Address family (IPv4, AF_INET) */
           __be16        sin_port; /* Port number            */
           struct in_addr    sin_addr; /* Internet address (IP Address)  */
-         
           /* Pad to size of `struct sockaddr'. */
           unsigned char   __pad[__SOCK_SIZE__ - sizeof(short int) -
               sizeof(unsigned short int) - sizeof(struct in_addr)];
         };
-         
         struct in_addr {
           __be32  s_addr;
         };
@@ -792,7 +776,6 @@ tags:: #geekbang, #Linux
         - 每次通信时，调用 sendto 和 recvfrom，都要传入 IP 地址和端口
     - ```c
       ssize_t sendto(int sockfd, const void *buf, size_t len, int flags, const struct sockaddr *dest_addr, socklen_t addrlen);
-       
       ssize_t recvfrom(int sockfd, void *buf, size_t len, int flags, struct sockaddr *src_addr, socklen_t *addrlen);
       ```
   - Socket 内核 #[[data-structure]]

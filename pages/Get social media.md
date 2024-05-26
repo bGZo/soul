@@ -1,12 +1,10 @@
 icon:: 📂
-tags:: #Project, #twitter, #mastodon
-
+tags:: #project, #twitter, #mastodon
 created:: 20221231
 closed:: [[weekly/1140]]
 title:: Get social media
-
 - ## Project Meta
-  - TODO #Project Get social media about Thread.net and Weibo.
+  - TODO #project Get social media about Thread.net and Weibo.
     - WAITING [Introducing Threads: A New Way to Share With Text | Meta (fb.com)](https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/)
       - [New App - Threads API Documentation - 开发者帮助论坛 - Meta 开发者 (facebook.com)](https://developers.facebook.com/community/threads/1277329089818470/)
       - [Threads API (coursendy.com)](https://coursendy.com/threads-api)
@@ -62,8 +60,8 @@ title:: Get social media
       - 切到脚本所在的目录就会让整个脚本的路径映射正确；
       - 但是如果直接托在源文件，不更改目录的话，文件映射失败，执行错误；
     - #+BEGIN_QUOTE
-      First, %~dp0 can only be used in bat file while %CD% can be used on command line.  
-      Second, for %CD%, the **current directory** means the directory when executing the command line or the batch file. For %~dp0, the __current directory__ is the directory where the bat file resides 
+      First, %~dp0 can only be used in bat file while %CD% can be used on command line.
+      Second, for %CD%, the **current directory** means the directory when executing the command line or the batch file. For %~dp0, the __current directory__ is the directory where the bat file resides
       — [The difference between %CD% and %~dp0](https://myprogrammingnotes.com/cd-dp0.html)
       #+END_QUOTE
   - WAITING Use JS/TS rewrite the scripts and build it in web application online.
@@ -91,9 +89,7 @@ title:: Get social media
         - ```python
           import requests
           import re
-          
           base_url = 'https://tweetpik.com/api/tweets'
-          
           f = open ('input')
           line = f.readline()
           while(line):
@@ -106,12 +102,9 @@ title:: Get social media
                   'Connection': 'keep-alive',
                   'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38',
               }).json()
-          
               output = open('export', 'a')
-          
               tweet = res['text']
               tweet = re.sub("\n", "\n  ", tweet)
-          
               output.write('- ' + tweet + '\n  by ' + res['name'] + \
                           ' at '+ res['created_at'] +'with likes ' + \
                           str(res['like_count']) + ' & retweet ' + \
@@ -123,11 +116,9 @@ title:: Get social media
                       output.write('  ![]('+ media['url']+')')
                   output.write('\n')
               output.close()
-          
               output = open('output', 'a')
               output.write(str(res)+'\n')
               output.close()
-          
               line = f.readline()
           ```
         - ```js

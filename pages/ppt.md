@@ -1,5 +1,4 @@
 tags:: #Tool
-
   - Keep It Simple & Stupid
   - 信噪比
     - 不重要的内容就是噪音

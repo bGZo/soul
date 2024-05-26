@@ -1,6 +1,5 @@
 title:: color
 tags:: #design
-
 - ## Palette 调色板 🎨🔴🟠🟡🟢🔵🟣🟤
   - `background-color::` #Logseq
   - ---
@@ -41,9 +40,9 @@ tags:: #design
     - PHP: `#525e92`
       background-color:: #525e92
     - Reference
-      - title:: [GitHub - ozh/github-colors](https://github.com/ozh/github-colors) ![](https://img.shields.io/github/stars/ozh/github-colors) 
-        tags:: #Github #opensource #color #programming 
-        created:: 20230302 
+      - title:: [GitHub - ozh/github-colors](https://github.com/ozh/github-colors) ![](https://img.shields.io/github/stars/ozh/github-colors)
+        tags:: #Github #opensource #color #programming
+        created:: 20230302
         mark:: 🌈 Github colors for all the languages
   - ### [[commandline]] #termux
     collapsed:: true

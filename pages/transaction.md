@@ -2,7 +2,6 @@ title:: transaction
 alias:: 事务
 tags:: #Spring #database
 wikipedia:: [Database transaction - Wikipedia](https://en.wikipedia.org/wiki/Database_transaction)
-
 - ## 特性 (ACID, A、I、D 是手段; C 是目的)
   id:: 6324a046-49b3-48d6-8275-b6b0feca5d51
   - **A**tomic，原子性

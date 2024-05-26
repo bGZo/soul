@@ -1,24 +1,23 @@
 alias:: 项目
 mark:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 icon:: 📂
-
+title:: project
 created:: 20230623
-title:: Project
-
+title:: project
   - template:: project
     template-including-parent:: false
     collapsed:: true
     - ---
-      alias: 
-      mark: 
+      alias:
+      mark:
       icon: 📂
-      tags: #Project
+      tags: #project
       created: ``{ date.now.format('YYYYMMDD') }``
       title: ``{ c.page.name }``
       ---
     - ## Project Meta
       collapsed:: true
-      - \DOING #Project [[``{ c.page.name }``]]
+      - \DOING #project [[``{ c.page.name }``]]
       - query-table:: false
         collapsed:: true
         #+BEGIN_QUERY
@@ -115,7 +114,7 @@ title:: Project
 -
 - ## What
   - #+BEGIN_PINNED
-    Wired Things Via [[geek]] 
+    Wired Things Via [[geek]]
     #+END_PINNED
   - [[Issue]]
     - #Alternatives 替代品
@@ -131,8 +130,8 @@ title:: Project
           - [架设Wikipedia的本地镜像(Linux联盟收集整理)_CSDN博客](https://blog.csdn.net/zengxianghu/article/details/6472573)
         - via: [有一天物理断网，哪些东西是你要存储起来的 - V2EX](https://www.v2ex.com/t/876861)
       - WAITING [Browser History Unlimited](https://chromewebstore.google.com/detail/history-trends-unlimited/pnmchffiealhkdloeffcdnbgdnedheme)
-        - > Will you make a version of the extension for Firefox? 
-          Yes, once it is possible to do so. Keep an eye on Firefox [issue 1673477](https://bugzilla.mozilla.org/show_bug.cgi?id=1673477). Once it is fixed, I should be able to port this extension to Firefox. And please see FAQ \#11: The extension is closed source, so forks are not allowed. 
+        - > Will you make a version of the extension for Firefox?
+          Yes, once it is possible to do so. Keep an eye on Firefox [issue 1673477](https://bugzilla.mozilla.org/show_bug.cgi?id=1673477). Once it is fixed, I should be able to port this extension to Firefox. And please see FAQ \#11: The extension is closed source, so forks are not allowed.
           >— [History Trends Unlimited - FAQ](https://sites.google.com/view/history-trends-unlimited/faq)
         - 两插件双向数据不互通，这个插件的数据无法导入 FF，FF上只有这个[替代](https://github.com/Christoph-Wagner/firefox-better-history-ng)
     - WAITING Music Studio
@@ -145,7 +144,7 @@ title:: Project
     - WAITING 聊天室 & 做一个匿名服务
       - [Volafile.org Live Filesharing & Chat](https://volafile.org/)
       - [hack.chat](https://hack.chat/)
-      - 匿名社交媒体  
+      - 匿名社交媒体
         collapsed:: true
         - [Signal >> Home](https://signal.org/)
         - [MeWe - The Next-Gen Social Network](https://mewe.com/)

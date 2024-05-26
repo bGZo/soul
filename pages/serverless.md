@@ -1,6 +1,5 @@
 alias:: architecture/pattern/serverless, pattern/architecture/serverless
 tags:: TODO
-
 -
 - 现实问题
   collapsed:: true

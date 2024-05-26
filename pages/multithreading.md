@@ -1,7 +1,6 @@
 alias:: concurrency/multithreading
 mark:: 进程(中国大陆); ==过程==、行程、程序、处理程序(港台)
 tags:: TODO
-
 - [[process]] #vs [[thread]]
   id:: 63e72768-1f77-4542-9d9b-aa3e724b7bce
   - 定义/内存共享/阻塞/依赖/数据共享/系统处理

@@ -2,7 +2,6 @@
 icon: 🧾
 title: Contents
 ---
-
 - 👋 Hello there. Thanks for your being here.
 - 😊 Wish you have a fun time. That would be my pleasure.
 - [:h2 {:class text-right} "Contents"]
@@ -18,7 +17,7 @@ title: Contents
     - 原生家庭
   - [[weekly]] | 个人周报
     logseq.order-list-type:: number
-  - [[Project]] | 项目
+  - [[project]] | 项目
     logseq.order-list-type:: number
 - [:h2 {:class text-right} "Waiting List"]
   query-table:: true

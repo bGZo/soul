@@ -1,7 +1,6 @@
 alias:: commands/service
 created:: 20231005
 icon:: ⌘
-
 - ## Why
 - ## How
 - ## What

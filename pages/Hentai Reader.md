@@ -1,12 +1,10 @@
 mark:: 变态阅读器
-tags:: #Project #RSS #[[github action]] #crawler #hentai
+tags:: #project #RSS #[[github action]] #crawler #hentai
 icon:: 📂
-
 created:: [[20230614]]
 title:: Hentai Reader
-
 - ## Project Meta
-  - DONE #Project Hentai Reader
+  - DONE #project Hentai Reader
   - query-table:: false
     #+BEGIN_QUERY
     {:title [:h3 "Tasks related to Hentai Reader"]
@@ -58,7 +56,7 @@ title:: Hentai Reader
   - WAITING How to deal with the copyright? #crawler
     collapsed:: true
     - #+BEGIN_WARNING
-      Considered the copyright, 
+      Considered the copyright,
       I **should not build a mirror site for business content**!
       #+END_WARNING
   - TODO 具有防盗链的一些订阅源： #.ol
@@ -121,7 +119,7 @@ title:: Hentai Reader
       - Use the [[tailwind]], instead of writing CSS one by one.
         collapsed:: true
         - #+BEGIN_QUOTE
-          backdrop-blur-md 
+          backdrop-blur-md
           — [Blur Background Image in TailwindCSS - CSS Tailwind](https://csstailwind.com/blur-background-image-in-tailwindcss/)
           #+END_QUOTE
         - #+BEGIN_QUOTE
@@ -143,26 +141,21 @@ title:: Hentai Reader
         - [python - How to subtract a day from a date? - Stack Overflow](https://stackoverflow.com/questions/441147/how-to-subtract-a-day-from-a-date)
         - #+BEGIN_QUOTE
           ```
-          from datetime import datetime 
-          
-          ts = int('1284101485') 
-          
-          # if you encounter a "year is out of range" error the timestamp 
-          
-          # may be in milliseconds, try `ts /= 1000` in that case 
-          
+          from datetime import datetime
+          ts = int('1284101485')
+          # if you encounter a "year is out of range" error the timestamp
+          # may be in milliseconds, try `ts /= 1000` in that case
           print(datetime.utcfromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S'))
-          ``` 
-          
+          ```
           — [python - Converting unix timestamp string to readable date - Stack Overflow](https://stackoverflow.com/questions/3682748/converting-unix-timestamp-string-to-readable-date)
           #+END_QUOTE
         - #+BEGIN_QUOTE
           http://strftime.org
           ```
-          >>> from datetime import datetime 
-          >>> datetime.today().strftime('%Y-%m-%d') 
+          >>> from datetime import datetime
+          >>> datetime.today().strftime('%Y-%m-%d')
           '2021-01-26'
-          ``` 
+          ```
           — [datetime - Getting today's date in YYYY-MM-DD in Python? - Stack Overflow](https://stackoverflow.com/questions/32490629/getting-todays-date-in-yyyy-mm-dd-in-python)
           #+END_QUOTE
         - [Get Previous, Current and Next-Day System Dates in Python – Data to Fish](https://datatofish.com/get-previous-current-and-next-day-system-dates-in-python/)
@@ -172,11 +165,8 @@ title:: Hentai Reader
           collapsed:: true
           - ```js
             var date = new Date();
-            
             date ; //# => Fri Apr 01 2011 11:14:50 GMT+0200 (CEST)
-            
             date.setDate(date.getDate() - 1);
-            
             date ; //# => Thu Mar 31 2011 11:14:50 GMT+0200 (CEST)
             ```
           - [Get Yesterday Date in JavaScript | HereWeCode](https://herewecode.io/blog/get-yesterday-date-javascript/#:~:text=The%20best%20way%20to%20get,setDate%20to%20update%20the%20date.)
@@ -184,14 +174,11 @@ title:: Hentai Reader
             - ```js
               // Create a date
               const todayDate = new Date()
-              
               // Before subtracting 1 day
               console.log(todayDate.toString())
               // Output: "Tue Nov 15 2022 13:37:12 GMT+0100 (Central European Standard Time)"
-              
               // Subtract one day to the current date
               todayDate.setDate(todayDate.getDate() - 1)
-              
               // After removing 1 day
               console.log(todayDate.toString())
               // Output: "Mon Nov 14 2022 13:37:12 GMT+0100 (Central European Standard Time)"
@@ -206,8 +193,7 @@ title:: Hentai Reader
           - ```js
             var d1 = new Date();
             var d2 = new Date(d1);
-            
-            console.log(d1 == d2);   // prints false (wrong!) 
+            console.log(d1 == d2);   // prints false (wrong!)
             console.log(d1 === d2);  // prints false (wrong!)
             console.log(d1 != d2);   // prints true  (wrong!)
             console.log(d1 !== d2);  // prints true  (wrong!)
@@ -236,15 +222,14 @@ title:: Hentai Reader
           collapsed:: true
           - ```js
             const date = new Date();
-            
             date.toLocaleDateString('en-GB').split('/').reverse().join(''); // '20211124'
             ```
           - [Date.prototype.toLocaleDateString() - JavaScript | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
         - #+BEGIN_QUOTE
-          ``` 
-           const date = new Date(); 
+          ```
+           const date = new Date();
            console.log(date);
-          ``` 
+          ```
           — [How to Get the Current Date in JavaScript - Scaler Topics](https://www.scaler.com/topics/get-current-date-in-javascript/)
           #+END_QUOTE
         - #+BEGIN_QUOTE
@@ -266,7 +251,7 @@ title:: Hentai Reader
           collapsed:: true
           - collapsed:: true
             #+BEGIN_QUOTE
-            FWIW I was able to install 3.2.8 without issue. 
+            FWIW I was able to install 3.2.8 without issue.
             — [Tabnine Extension was unable to download its dependencies. · Issue #447 · codota/tabnine-vscode --- Tabnine Extension 无法下载其依赖项。 · 问题 #447 · codota/tabnine-vscode](https://github.com/codota/tabnine-vscode/issues/447)
             #+END_QUOTE
             - 降级到 3.2.8 #WSL
@@ -297,22 +282,20 @@ title:: Hentai Reader
       - [[jekyll]]
         collapsed:: true
         - #+BEGIN_QUOTE
-          ``` 
-          exclude: 
-            - mydoc_writers_* 
-            - bower_components 
+          ```
+          exclude:
+            - mydoc_writers_*
+            - bower_components
             - Gemfile
-          ``` 
+          ```
           — [Excluding files | Jekyll theme for documentation](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_exluding_files.html#exclude-strategies)
           #+END_QUOTE
         - #+BEGIN_QUOTE
-          根据您要显示的内容类型，这会有所不同。但在最基本的层面上，这将输出最新帖子的标题和正文内容……没有循环……这对您的构建时间有好处。 
-          
+          根据您要显示的内容类型，这会有所不同。但在最基本的层面上，这将输出最新帖子的标题和正文内容……没有循环……这对您的构建时间有好处。
           ```
-          <h1>{{ site.posts.last.title }}</h1> 
+          <h1>{{ site.posts.last.title }}</h1>
           {{ site.posts.last.content }}
-          ``` 
-          
+          ```
           — [How to show the latest post as the homepage? - Help - Jekyll Talk --- 如何将最新的帖子显示为首页？ - 帮助 - Jekyll Talk](https://talk.jekyllrb.com/t/how-to-show-the-latest-post-as-the-homepage/2199/3)
           #+END_QUOTE
       - Python
@@ -333,7 +316,7 @@ title:: Hentai Reader
         - #+BEGIN_QUOTE
           ```
           window.location.href
-          ``` 
+          ```
           — [Get the current URL with JavaScript? - Stack Overflow](https://stackoverflow.com/questions/1034621/get-the-current-url-with-javascript)
           #+END_QUOTE
         - [javascript - Expanding all details tags - Stack Overflow](https://stackoverflow.com/questions/43008609/expanding-all-details-tags)

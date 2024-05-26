@@ -3,8 +3,7 @@ alias:: 肯定, 自我肯定
 tags:: #thought/new
 mark:: the practice of positive thinking and self-empowerment—fostering a belief that "a positive mental attitude supported by affirmations will achieve success in anything"；积极心理学，经常性地给自己打鸡血
 mark:: [Affirmations (New Age) - Wikipedia](https://en.wikipedia.org/wiki/Affirmations_(New_Age))
-
-- DONE **Repeat until you remember those words** #.ol 
+- DONE **Repeat until you remember those words** #.ol
   SCHEDULED: <2023-03-12 Sun .+1d>
   background-color:: purple
   id:: 64021a57-20e9-4846-9833-06603f0520a0

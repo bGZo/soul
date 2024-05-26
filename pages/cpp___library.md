@@ -11,8 +11,8 @@
 - [[cpp/template]]
 -
 - name:: 断言(assert)的用法 - thisway_diy - 博客园 (11_15_2022 1_17_26 PM).html
-  tags:: 
-  mark:: 
+  tags::
+  mark::
   archive:: [💾 Archived](../assets/archived_web/断言(assert)的用法 - thisway_diy - 博客园 (11_15_2022 1_17_26 PM).html)
   collapsed:: true
   - 事实上，它居然是个宏，并且作用并非"报错"
@@ -71,7 +71,6 @@
     #include <cstdlib>
     #include <cstring>
     #include <ctime>
-    
     #if __cplusplus >= 201103L
     #include <ccomplex>
     #include <cfenv>
@@ -83,7 +82,6 @@
     #include <cwchar>
     #include <cwctype>
     #endif
-    
     // C++
     #include <algorithm>
     #include <bitset>
@@ -117,7 +115,6 @@
     #include <utility>
     #include <valarray>
     #include <vector>
-    
     #if __cplusplus >= 201103L
     #include <array>
     #include <atomic>

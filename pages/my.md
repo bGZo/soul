@@ -1,6 +1,5 @@
 alias:: bGZo, 于我而言, 对我来说, 我的经验, 自认为
 icon:: 💀
-
 - [:h2 {:class text-center} "🌸 About Me"]
   - #+BEGIN_CENTER
     ![](https://unpkg.com/bgzo/img/bGZo.png){:width 250}

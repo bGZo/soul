@@ -4,7 +4,6 @@ tags: ONE一个,阅读
 source: https://m.wufazhuce.com/question/3710
 author: 韩寒
 ---
-
 - 梁永安答
 - 简单说：
 - **「观念」——是外来的、快速的、不稳定的、难以持续的。**

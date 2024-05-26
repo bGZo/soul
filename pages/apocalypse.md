@@ -1,6 +1,5 @@
 alias:: 默示, 天启
 tags:: 疫情, 末日
-
   - Since [[2020]]; Realize [[2022]]
   - [[Quickref]]
     - [常温]

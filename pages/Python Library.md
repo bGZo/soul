@@ -1,18 +1,16 @@
 alias:: python/library
-mark:: 
+mark::
 icon:: 🐍
-tags:: 
-
+tags::
 created:: 20230627
 title:: Python Library
-
 - ## Why
 - ## How
   - ### How to traverse?
     collapsed:: true
     - collapsed:: true
       #+BEGIN_NOTE
-      遍历 `Str`, `List` 相似，一共存在 4 种方法： #.ol 
+      遍历 `Str`, `List` 相似，一共存在 4 种方法： #.ol
       #+END_NOTE
       - `for` 循环；
       - 下标遍历；
@@ -31,7 +29,7 @@ title:: Python Library
               try:
                 print(next(myiter))
               except StopIteration:
-                break 
+                break
             ```
       - `enumerate` 遍历
       - collapsed:: true
@@ -87,7 +85,6 @@ title:: Python Library
             print(key)
         for value in mydict.values():
             print(value)
-          
         ```
     - collapsed:: true
       #+BEGIN_NOTE
@@ -95,11 +92,10 @@ title:: Python Library
       #+END_NOTE
       - ```python
         myset = {"apple", "banana", "cherry"}
-        
         # 1
         for item in myset:
         	print(item)
-        # 2 
+        # 2
         myiter = iter(myset)
         print(next(myiter))
         while True:
@@ -109,7 +105,7 @@ title:: Python Library
                 break
         # 3
         for index, value in enumerate(myset):
-            print("Index:", index, "Value:", value) 
+            print("Index:", index, "Value:", value)
         ```
   - [How to check if a list is empty in Python (tutorialspoint.com)](https://www.tutorialspoint.com/How-to-check-if-a-list-is-empty-in-Python)
     collapsed:: true
@@ -125,10 +121,9 @@ title:: Python Library
       dir_set   = set()
       file_list = []
       for root, dirs, files in walk(getcwd()):
-          for file in files: 
+          for file in files:
             dir_set   .add(root)
             file_list .append(os.path.join(root, file))
-      
       ```
     - `os.walk(PATH)`
       collapsed:: true
@@ -255,7 +250,6 @@ title:: Python Library
       - ```python
         textchars = bytearray({7,8,9,10,12,13,27} | set(range(0x20, 0x100)) - {0x7f})
         is_binary_string = lambda bytes: bool(bytes.translate(None, textchars))
-        
         # is_binary_string(open('/usr/bin/python', 'rb').read(1024))
         # >>> True
         # via https://stackoverflow.com/questions/898669/how-can-i-detect-if-a-file-is-binary-non-text-in-python
@@ -333,14 +327,12 @@ title:: Python Library
       - I am run wsl2, so `C:\Users\xxx\Pictures\pic` is not suitting me. Should use the mount path, such as `/mnt/c/Users/15517/Pictures/pic`.
       - ```python
         import os
-        
         localDir = []
         localFile = []
         PATH = os.getcwd()
-        
         for root,dirs,files in os.walk(PATH):
             for dir in dirs:
-                for file in files: 
+                for file in files:
                     localDir.append(os.path.join(root,dir))
                     localFile.append(os.path.join(root, file))
         ```
@@ -351,12 +343,10 @@ title:: Python Library
             for file in files:
                 print(root) # 获取文件所属目录
                 print(os.path.join(root,file))# 获取文件路径
-        
         for root,dirs,files in os.walk(r"D:\test"):
             for dir in dirs:
                 print(dir) #获取目录的名称
                 print(os.path.join(root,dir)) #获取目录的路径
-        
         #递归获取该目录下所有的文件名称和目录名称
         def get_file_path(root_path,file_list,dir_list):
             dir_or_files = os.listdir(root_path)
@@ -384,12 +374,10 @@ title:: Python Library
         import os
         DirList = []
         FileNameList = []
-        
         DIR = os.getcwd()
         for root, dirs, files in os.walk(DIR):
             for file in files:
                 DirList.append(os.path.join(root,file))
-        
                 nowFileName = os.path.splitext(file) # Here
                 FileNameList.append(nowFileName[0])
                 # from: https://www.geeksforgeeks.org/python-os-path-splitext-method/
@@ -408,7 +396,6 @@ title:: Python Library
     - ```python
       import re
       target= '{"is_success": true, "message": "9a5ab695d17c3b3271ef48e825a5a52114acfecc92094986ee0ae761d9e33ed712642d6b1647434b493b850d4237cb20be2b0f7cd456d51f88f62bd82ae37518d2baae7570c49c6f59a8051c7e42e5a0395be18da9a39ccc198a8df90129cebf49373c11d9823e24f47b609b56088f039c5a1b120874822fdffa21102430a834"}'
-      
       m =re.search(r'"(message)": "(.*)?"', target)
       print(target[m.start():m.end()])
       print(m.group(1)) # notice don not use group[1]
@@ -434,7 +421,7 @@ title:: Python Library
         - https://gohom.win/2016/01/21/proxy-py/
       - ```python
         import urllib
-        proxy="http://127.0.0.1:7890" 
+        proxy="http://127.0.0.1:7890"
         # Build ProxyHandler object by given proxy, wsl2 is hard...
         proxy_support=urllib.request.ProxyHandler({'http':proxy})
         # Build opener with ProxyHandler object
@@ -473,7 +460,6 @@ title:: Python Library
     - **`dumps`**
     - ```python
       import json
-      
       def get_json_to_dict(url):
           r = requests.get(url, auth=('user', 'pass')) # Basic Auth
           data = json.loads(r.text) # get a dict obj
@@ -503,7 +489,7 @@ title:: Python Library
       def f(PATH):
           with open(PATH, "rb") as f:
               base64_data = base64.b64encode(f.read())
-              print(base64_data) 
+              print(base64_data)
               # https://blog.csdn.net/qq_42731401/article/details/105039539
       ```
   - ### Math
@@ -543,6 +529,6 @@ title:: Python Library
   - 有一次为了避免文件创建的重名问题, 一时方便取巧, 将文件的开头加入今天的时间之后在做重命名, 但是有一个问题, **必须加到毫秒才会安全**, 因为如果最小任务单位制是毫秒级的话, 精确到秒的命名规则就会出现问题. **[FIXME]** 那么如何加毫秒呢???
   - ```python
     import time
-    newDir = str(time.strftime('%Y-%m-%d-%H-%M-%S',time.localtime(time.time()))) 
+    newDir = str(time.strftime('%Y-%m-%d-%H-%M-%S',time.localtime(time.time())))
     ```
 -

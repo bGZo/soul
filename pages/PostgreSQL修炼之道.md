@@ -1,19 +1,16 @@
 ---
 cover: ![](https://res.weread.qq.com/wrepub/CB_BIE766756Ci46iS6gb5gm8R5_parsecover){:width 225}
 alias: books/PostgreSQL修炼之道
-author: 
-translator: 
+translator:
 icon: 📖
-isbn: 
-publisher: 
-published-date: 
-tags: 
+isbn:
+publisher:
+published-date:
 douban: https://book.douban.com/subject/35224053//
-weread: 
+weread:
 created: 20240419
 title: PostgreSQL修炼之道
 ---
-
 - ## Contents
   - 前言
   - 第一篇 准备篇

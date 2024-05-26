@@ -1,7 +1,6 @@
 created:: 20230912
-tags:: #Apple 
+tags:: #Apple
 title:: iPad
-
 - ## Why
   - [[Logseq]]
 - ## How
@@ -11,10 +10,10 @@ title:: iPad
       collapsed:: true
       - The interpreter on the iPad.
         - #+BEGIN_QUOTE
-          Creating an IDE for iOS is going to be a challenge. There are three key challenges: 
-          1. Having your IDE build and install an entirely new app isn’t really feasible. While it __might__ be feasible to build the app, there’s no supported way for one app to install another. 
-          2. Running the code you generate in a subprocess isn’t feasible because iOS does not allow an app to create an arbitrary subprocess. 
-          3. Running native code within you app isn’t feasible because third-party apps can’t allocate memory that can be executed. 
+          Creating an IDE for iOS is going to be a challenge. There are three key challenges:
+          1. Having your IDE build and install an entirely new app isn’t really feasible. While it __might__ be feasible to build the app, there’s no supported way for one app to install another.
+          2. Running the code you generate in a subprocess isn’t feasible because iOS does not allow an app to create an arbitrary subprocess.
+          3. Running native code within you app isn’t feasible because third-party apps can’t allocate memory that can be executed.
           — [Compile on iOS | Apple Developer Forums](https://developer.apple.com/forums/thread/128859)
           #+END_QUOTE
 -

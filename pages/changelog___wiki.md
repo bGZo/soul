@@ -1,7 +1,6 @@
 title:: changelog/wiki
 alias:: logseq/changelog
 mark:: start begin Beta 0.6.5; [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changelog.md](https://github.com/logseq/docs/blob/master/pages/Changelog.md?plain=1)
-
 - Apr 26st, 2023  Beta 0.9.4
   - Add `:remove-block-children?` query option for advanced queries [#9229](https://github.com/logseq/logseq/pull/9229)
 - Apr 19st, 2023  Beta 0.9.3

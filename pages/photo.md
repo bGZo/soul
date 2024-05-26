@@ -1,6 +1,5 @@
 alias:: design/photo
 icon:: 📷
-
 - [[compress]]
   collapsed:: true
   - commands

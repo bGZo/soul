@@ -1,6 +1,5 @@
 title:: servlet
 tags:: #[[Java]]
-
 -
 - 概括
   collapsed:: true
@@ -143,7 +142,6 @@ tags:: #[[Java]]
     - 获得对象 (4)
       - ```java
         ServletContext servletContext;
-        
         servletContext = this.getServletContext();            // GenericServlet
         servletContext = this.getServletConfig().getServletContext(); // ServletConfig
         servletContext = req.getSession().getServletContext();      // HttpSession
@@ -218,7 +216,6 @@ tags:: #[[Java]]
         String[] getParameterValues (String name);
         Enumeration getParameterNames();
         Map getParameterMap();
-        
         ```
   - RequestDispatcher | (协作) **请求转发** / 请求包含?
     id:: 6315b6aa-c5a1-46f4-b1bc-5ab3b5c2929b
@@ -369,7 +366,6 @@ tags:: #[[Java]]
   - API
     - ```java
       HttpSession session=request.getSession(); // 获取session对象
-      
       long getCreationTime();
       String getId();
       long getLastAccessedTime();

@@ -2,7 +2,6 @@ title:: jdbc
 alias:: java database connectivity
 mark:: a Java API that allows Java programs to connect and execute queries with various databases； a part of JavaSE (Java Standard Edition) and it consists of a set of interfaces and classes written in the Java programming language. JDBC provides a standard abstraction for Java applications to communicate with different database management systems
 tags:: #api #java/se
-
 - ## 流程
   - 通过IoC容器创建并管理一个全局`DataSource`实例，表示数据库连接池；
   - 在需要读写数据库的方法内部，按如下步骤访问数据库：

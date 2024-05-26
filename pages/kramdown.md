@@ -1,9 +1,8 @@
 title:: kramdown
 mark:: parsing and converting a **superset** of Markdown
-tags:: #markdown #ruby/library #mit 
+tags:: #markdown #ruby/library #mit
 source:: [Home | kramdown](https://kramdown.gettalong.org/index.html)
 created:: 20230108
-
   - based on the Markdown syntax and has been enhanced with features that are found in other Markdown implementations like Maruku , PHP Markdown Extra and Pandoc .
   - ![](https://kramdown.gettalong.org/overview.png)
 - ## Syntax
@@ -34,37 +33,29 @@ created:: 20230108
         - ```
           This is a normal
           paragraph.
-          
           And A Header
           ------------
           And a paragraph
-          
           > This is a blockquote.
-          
           And A Header
           ------------
           ```
       - atx Style
         - ```
           # First level header
-          
           ### Third level header    ###
-          
           ## Second level header ######
           ```
       - Specifying a Header ID
         - ```
           Hello        {#id}
           -----
-          
           # Hello      {#id}
-          
           # Hello #    {#id}
           ```
       - Code Blocks
         - ```
               Here comes some code
-          
               This text belongs to the same code block.
           ```
       - Fenced Code Blocks
@@ -85,14 +76,12 @@ created:: 20230108
         - ```
           kramdown
           : A Markdown-superset converter
-          
           Maruku
           :     Another Markdown-superset converter
           ```
         - ```
           {:#term} Term with id="term"
           : {:.cls} Definition with class "cls"
-          
           {:#term1} First term
           {:#term2} Second term
           : {:.cls} Definition
@@ -106,9 +95,7 @@ created:: 20230108
         - kramdown provides a syntax to assign the full phrase to an abbreviation. When writing the text, you don’t need to do anything special. However, ==once you add abbreviation definitions, the abbreviations in the text get marked up automatically. Abbreviations can consist of any character except a closing bracket.==
         - ```
           This is some text not written in HTML but in another language!
-          
           *[another language]: It's called Markdown
-          
           *[HTML]: HyperTextMarkupLanguage
           {:.mega-big}
           ```

@@ -1,10 +1,9 @@
 created:: 20230215
 mark:: [郝海龍](https://haohailong.net/)
-
 - ## Contents
   - [「辱華」與「霸權」](https://haohailong.net/2023/ru-hua-yu-ba-quan-392418c4)
   - [值得期待的乳齒象（Mastodon）客戶端（iOS 為主）](https://haohailong.net/2023/promising-mastodon-clients)
-  - [我與世界的衝突 - 郝海龍](https://haohailong.net/2022/wo-yu-shi-jie-de-chong-tu-2b3721a3) 
+  - [我與世界的衝突 - 郝海龍](https://haohailong.net/2022/wo-yu-shi-jie-de-chong-tu-2b3721a3)
     collapsed:: true
     - ## 1. 我喜歡學習，但不喜歡上學。
     - 我對將教書當作一份賺錢的活計的老師其實沒有太多意見，我討厭的是那些：
@@ -139,7 +138,7 @@ mark:: [郝海龍](https://haohailong.net/)
     - （[如果你喜欢我的文字，欢迎成为《林中来信》会员](https://laixin.one/membership/)）
     - [All rights reserved](https://wikipedia.org/wiki/Copyright)
     - Except where otherwise noted, content on this page is copyrighted.
-  - [愿倪匡先生走好，愿自由洒满人间](https://haohailong.net/2022/tribute-to-ni-kuang) 
+  - [愿倪匡先生走好，愿自由洒满人间](https://haohailong.net/2022/tribute-to-ni-kuang)
     collapsed:: true
     - 我从小成长于中国偏远地区，信息闭塞，书店里很难看到除教辅以外的其他书籍。父母偶尔出差带回来的木兰花系列和卫斯理系列小说让我第一次知道自由的可贵，可以说先生的作品就是我的私人启蒙读物。
     - 由于阅读先生作品甚多，很多作品又读过不止一遍，我的文风也深受先生影响。虽未曾谋面，先生可谓我的师承。一直以来我都希望能有朝一日，见先生一面，岂料世事无常，等来的却是先生去世的噩耗。
@@ -237,7 +236,7 @@ mark:: [郝海龍](https://haohailong.net/)
     - [All rights reserved](https://wikipedia.org/wiki/Copyright)
     - Except where otherwise noted, content on this page is copyrighted.
   - [男性普遍化妆与元宇宙哪个先来？](https://haohailong.net/2022/makeup-and-metaverse)
-  - [屏幕大小与阅读体验](https://haohailong.net/2022/screen-size-matters) 
+  - [屏幕大小与阅读体验](https://haohailong.net/2022/screen-size-matters)
     collapsed:: true
     - 虽然我们谈到电子书阅读器时，通常不会想到手机，但手机其实才是大多数人使用频率最高的阅读器。
     - 与纸书相比，手机（以及相当多的其他电子阅读器）显示文字的区域通常更小，这就造成了一个问题：==文字的排列方式发生了变化。这种变化其实会影响到阅读体验和阅读速度==。
@@ -452,7 +451,7 @@ mark:: [郝海龍](https://haohailong.net/)
     - 这就是微博之墙。不仅仅有彻底封禁某些网站的硬墙，也有这种利用「小不便」，利用我们「便捷度弹性高」这个特点，而筑成的软墙。软墙没有彻底阻止你通过，但因为这种不便，会有很多人放弃访问这个站点。对于那些愿意穿墙而过的人，也会在这种「小不便」的潜移默化之下，对这个网站产生负面的情绪。
     - 再比如，在当今时代，联系一个不用微信的人，很多时候要做的只是切换到另一个应用而已。但我们能看到很多人，只是因为不愿意多做这一小步，就把自己的交际限制在使用微信的朋友中——或者，至少降低与微信生态圈之外的人联系的频率。这也一种利用「便捷度弹性高」而形成的软墙，我想你也一定见过指责他人不用微信的人。
     - 「只和用微信的人联系」当然是一种个人选择，他人没资格干涉，但做这种选择的人，似乎也没有立场去指责选择其他通讯方式的人。另外，也不妨想想，这种个人选择究竟在多大程度上体现了自己的意志？
-  - [女性主义与独立 听《不可理论》第 31 期《此后彼后》有感](https://haohailong.net/2021/feminism-and-independence) 
+  - [女性主义与独立 听《不可理论》第 31 期《此后彼后》有感](https://haohailong.net/2021/feminism-and-independence)
     collapsed:: true
     - 听《不可理论》第 31 期《[此后彼后](https://www.bukelilun.com/31)》，论及女性主义时，主播宝婷谈到一种现象：很多支持女性主义的人并不会在人前自称「女性主义者」。大意是有些人虽然支持女性主义（女权主义）的观点，但自己并没有像很多女性主义者标榜的那般独立，可能还是会依赖于他人。主播也谈到了自己的例子，说看到某些应用上面很多精致的女生，一方面觉得她们物质，另一方面可能也有一些羡慕。
     - 在节目本身的语境中，我们很容易明白主播想表达的意思，也能理解很多人不愿自称「女性主义者」的原因。但我想说，物质本身与女性主义并不冲突。凡人都追求某种程度的物质享受或者至少需要某种程度的物质条件，当一个男性购买豪车时，他也物质，但并没有人说他不独立。推及女性，我想一个女性主义者也没有必要因为「羡慕一些物质的东西」而觉得自己不够独立，进而不够「女性主义」。
@@ -461,7 +460,7 @@ mark:: [郝海龍](https://haohailong.net/)
     - ==真正有冲突的是，无论自己是否依赖别人，都主张女性应该甚至必须依附于他人，并且还自称女性主义者。持这种观点的人当然也有表达的权利，不过我们也应该运用表达的权利毫不留情地批判==。
     - [All rights reserved](https://wikipedia.org/wiki/Copyright)
     - Except where otherwise noted, content on this page is copyrighted.
-  - [市民与黑暗面](https://haohailong.net/2021/citizen-and-dark-side) 
+  - [市民与黑暗面](https://haohailong.net/2021/citizen-and-dark-side)
     collapsed:: true
     - 近日，读到一篇倪匡写于一九七〇年代的杂文，题曰《香港的黑暗面》\[^1\]。里面讲到一则旧闻：「英国的电视台去香港拍了一出有关香港黑暗面的片子，引起很多人不满。」对此，倪匡有个观点很有意思：
     - 理由是，==如果片中所呈现的内容是事实，片子就属于「揭露」，而非「丑化」。将本身存在的丑事暴露，本是铲除丑事的有效办法。因此，市民自然希望这种片子越多越好，只有官家可能因此失了面子，产生不满==。

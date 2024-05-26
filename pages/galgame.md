@@ -4,19 +4,18 @@ moegirl:: [Galgame - 萌娘百科 萬物皆可萌的百科全書 (moegirl.org.cn
 wikipedia:: [Bishōjo game - Wikipedia](https://en.wikipedia.org/wiki/Bish%C5%8Djo_game)
 tags:: #Hobby #game
 mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
-
   - cover:: ![🖼 ](../assets/``{ date.now.format('YYYY') }``/)
-    title:: 
-    alias:: 
-    desc:: 
+    title::
+    alias::
+    desc::
     tags:: #galgame
-    released-created:: 
-    developer:: 
-    publisher:: 
-    bangumi:: 
-    douban:: 
+    released-created::
+    developer::
+    publisher::
+    bangumi::
+    douban::
     created:: ``{ date.now.format('YYYYMMDD') }``
-    closed:: 
+    closed::
     template:: galgame
     template-including-parent:: true
 - ## WHY
@@ -57,11 +56,10 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
         - expanded
           - ```shell
             sudo apt install colordiff
-            
             diff -u <(mediainfo --fullscan old.mp4) <(mediainfo --fullscan new.mp4) | colordiff
             colordiff <(mediainfo --fullscan old.mp4) <(mediainfo --fullscan new.mp4)
             ```
-            - 着色 
+            - 着色
               :LOGBOOK:
               CLOCK: [2022-08-20 Sat 16:41:06]--[2022-08-20 Sat 16:41:07] =>  00:00:01
               :END:
@@ -171,7 +169,7 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
     - {{iframe https://zh.wikipedia.org/wiki/%E6%B1%89%E5%8C%96%E7%BB%84}}
     - collapsed:: true
       #+BEGIN_IMPORTANT
-      R.I.P. 
+      R.I.P.
       #+END_IMPORTANT
       - 脸肿汉化组
       - [巴比伦汉化组](https://bblacg.com/)

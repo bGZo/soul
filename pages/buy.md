@@ -1,19 +1,18 @@
 tags:: #[[consume]]
-
-- ## [[Template]]
+- ## [[template]]
   - template:: buy
     type:: to-buy-list
-    name:: 
-    tags:: 
-    price:: 
-    rmb:: 
-    source:: 
+    name::
+    tags::
+    price::
+    rmb::
+    source::
     mark::
 -
   - query-properties:: [:name :tags :rmb :url ]
     #+BEGIN_QUERY
     { :title ["To Buy It"]
-      :query (property type to-buy-list) 
+      :query (property type to-buy-list)
       :table-view? true
     }
     #+END_QUERY
@@ -48,7 +47,7 @@ tags:: #[[consume]]
     腾讯云服务器            120+69
     域名                    1+29+29
     ACG                    98+6
-    集线器                  26 
+    集线器                  26
     临摹纸                  25.3
     暖手宝                  58
     转接头                  9.9

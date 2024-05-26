@@ -1,6 +1,5 @@
 title:: prefix_sum
 alias:: algo/prefix_sum, 前缀最大和, 前缀和
-
 - ## Inclusion and Exclusion(容斥原理/排容原理)
   - 离散数学/组合数学中的容斥定理
     - ![Inclusion_and_Exclusion.png](../assets/Inclusion_and_Exclusion_1675590802283_0.png)
@@ -16,25 +15,23 @@ alias:: algo/prefix_sum, 前缀最大和, 前缀和
     #include<iostream>
     #mark::  ll long long
     using namespace std;
-    
     ll data[10000];
     ll datasum[10000];
-    
     int main(){
       int i,ii=0,k;
       cin>>i;
       k=i;
       while(i--){
         cin>>data[ii];
-        if(!ii) 
+        if(!ii)
           datasum[ii]=data[ii];
-        if(ii>0) 
+        if(ii>0)
           datasum[ii]=datasum[ii-1]+data[ii];
         ii++;
       }
       for(int i=0;i<k;i++)
         cout<<datasum[i]<<" ";
-    }  
+    }
     ```
 - ## 2D Prefix Sum(二维)
   - 二维矩阵的前缀最大和,  牵扯到数表矩阵的使用, 酌情观看.

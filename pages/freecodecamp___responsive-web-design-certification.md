@@ -1,5 +1,4 @@
 title:: freecodecamp/responsive-web-design-certification
-
   - Learn HTML by Building a Cat Photo App, Not started
   - Learn Basic CSS by Building a Cafe Menu, Not started
   - Learn CSS Colors by Building a Set of Colored Markers, Not started

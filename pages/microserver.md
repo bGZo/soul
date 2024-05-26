@@ -1,6 +1,5 @@
 alias:: architecture/pattern/microserver, 微服务
 wikipedia:: [Microservices - Wikipedia](https://en.wikipedia.org/wiki/Microservices)
-
 - [微服務 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9C%8D%E5%8B%99)
 - ## Framework
   - ### [[Java]]

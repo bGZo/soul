@@ -1,10 +1,9 @@
 icon:: ©
 title:: copyright
 mark:: "借由赋予对著作的专有权利的方式提供作者从事创作之经济动机，但相对的此种赋予作者专有权利的方式同时也限制了他人任意使用创作物的自由"
-tags:: #writing #draft  
+tags:: #writing #draft
 created:: 20221220
 mark::
-
   - ((62516e62-846f-419e-aab5-6777b0974336))
   - 创作一分钟, 版权一小时.
 - ## [[bGZo]]
@@ -29,4 +28,4 @@ mark::
     Copyright [year] [author/company name]. All rights reserved. No part of this work may be used, reproduced, modified, copied, plagiarized, distributed, or displayed without the written permission of [author/company name].
     本作品版权归[作者/公司名称]所有。未经[作者/公司名称]的书面许可，任何人不得使用、复制、修改、抄袭、传播或展示本作品的任何部分。
     ```
-    #Template
+    #template

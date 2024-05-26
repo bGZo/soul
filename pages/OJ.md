@@ -1,6 +1,5 @@
 alias:: open judge, online judge, question/oj
 tags:: #[[algo]], #[[data-structure]]
-
 - [[Quickref]]
   - `Accepted`
     collapsed:: true

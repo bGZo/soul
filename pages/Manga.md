@@ -2,22 +2,21 @@ icon:: 📔
 alias:: comic, 漫画
 title:: Manga
 tags:: #Book #Hobby #ACGN
-
-- ## [[Template]]
+- ## [[template]]
   - template:: manga
     template-including-parent:: false
-    - title:: 
-      alias:: 
-      desc:: 
+    - title::
+      alias::
+      desc::
       tags:: #Manga
-      author:: 
-      publisher:: 
+      author::
+      publisher::
       created:: <% today %>
-      closed:: 
-      source:: 
-      bangumi:: 
-      douban:: 
-      goodreads:: 
+      closed::
+      source::
+      bangumi::
+      douban::
+      goodreads::
       mark::
 - ## [[Tool]]
   - [tachiyomiorg/tachiyomi: Free and open source manga reader for Android.](https://github.com/tachiyomiorg/tachiyomi) #android

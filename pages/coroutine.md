@@ -1,7 +1,6 @@
 alias:: concurrency/coroutine
-tags:: TODO 
+tags:: TODO
 mark:: "协程"
-
 -
 - 协程
   - via: [为什么 Java 坚持多线程不选择协程？ - 大宽宽的回答 - 知乎](https://www.zhihu.com/question/332042250/answer/734115120)

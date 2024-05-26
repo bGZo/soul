@@ -2,7 +2,6 @@ title:: java/1/reflection
 alias:: java 反射
 mark:: Reflection enables Java code to discover information about the fields, methods and constructors of loaded classes, and to use reflected fields, methods, and constructors to operate on their *underlying counterparts(底层对应物)*, *within security restrictions*(安全限制内). The API *accommodates(满足)* applications that need access to either the public members of a target object (based on its runtime class) or the members declared by a given class(该API访问目标对象的公共成员（基于其运行时的类）或特定类所声明的成员的应用程序). It also allows programs to suppress default reflective access control(它还允许程序抑制默认的反射性访问控制).
 mark:: [Core Java Reflection](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/index.html)；from java 1.1
-
   - Enhanced in #java/1 #java/5 #java/6 #java/8
   -
 -
@@ -17,19 +16,16 @@ mark:: [Core Java Reflection](https://docs.oracle.com/javase/8/docs/technotes/gu
   - `class`（包括`interface`）的本质是数据类型（`Type`）。无继承关系的数据类型无法赋值。而`class`是由JVM在执行过程中动态加载的。JVM在第一次读取到一种`class`类型时，将其加载进内存。
     collapsed:: true
     - 每加载一种`class`，JVM就为其创建一个`Class`类型的实例，并关联起来。注意：这里的`Class`类型是一个名叫`Class`的`class`。它长这样：
-      
       ```java
       public final class Class {
           private Class() {}
       }
       ```
     - 以`String`类为例，当JVM加载`String`类时，它首先读取`String.class`文件到内存，然后，为`String`类创建一个`Class`实例并关联起来：
-      
       ```java
       Class cls = new Class(String);
       ```
     - 只有JVM能创建`Class`实例，我们自己的Java程序是无法创建`Class`实例的，JVM持有的每个`Class`实例都指向一个数据类型（`class`或`interface`）
-      
       ```
       ┌───────────────────────────┐
       │      Class Instance       │──────> String
@@ -77,11 +73,9 @@ mark:: [Core Java Reflection](https://docs.oracle.com/javase/8/docs/technotes/gu
   collapsed:: true
   - ```java
     Integer n = new Integer(123);
-    
     boolean b1 = n instanceof Integer; // true，因为n是Integer类型
     boolean b2 = n instanceof Number; // true，因为n是Number类型的子类
     // 用`instanceof`不但匹配指定类型，还匹配指定类型的子类
-    
     boolean b3 = n.getClass() == Integer.class; // true，因为n.getClass()返回Integer.class
     boolean b4 = n.getClass() == Number.class; // false，因为Integer.class!=Number.class
     用`==`判断`class`实例可以精确地判断数据类型，但不能作子类型比较
@@ -90,13 +84,11 @@ mark:: [Core Java Reflection](https://docs.oracle.com/javase/8/docs/technotes/gu
     - 因为面向抽象编程的时候，我们不关心具体的子类型
   - 用`==`判断`class`精确判断一个类型是不是某个`class`实例
   - 可以通过该`Class`实例来创建对应类型的实例
-    
     ```java
     // 获取String的Class实例:
     Class cls = String.class;
     // 创建一个String实例:
     String s = (String) cls.newInstance();
-    
     // Same as
     String s = new String();
     ```
@@ -122,18 +114,15 @@ mark:: [Core Java Reflection](https://docs.oracle.com/javase/8/docs/technotes/gu
     - 在运行期根据条件加载不同的实现类
       - Commons Logging 总是优先使用Log4j
         - 只有当Log4j不存在时，才使用JDK的logging
-          
           ```
           // 我们只需要把Log4j的jar包放到classpath中
           // Commons Logging就会自动使用Log4j
-          
           LogFactory factory = null;
           if (isClassPresent("org.apache.logging.log4j.Logger")) {
               factory = createLog4j();
           } else {
               factory = createJdkLog();
           }
-          
           boolean isClassPresent(String name) {
               try {
                   Class.forName(name);

@@ -6,7 +6,7 @@
       - 物理终端
         collapsed:: true
         - `/dev/console`
-      - 伪终端 
+      - 伪终端
         collapsed:: true
         - 远程网络终端, 图形下的终端
         - `/dev/pts/#(num)`
@@ -23,9 +23,9 @@
 -
 - VSZ/RSS/TTY/STAT/START/PTS & TTY
   - ```bash
-    # Physical Line         
+    # Physical Line
     | teletype |<--------------------->| teletype |
-    # Physical Line 
+    # Physical Line
     | Terminal |<->| Modem |<--------------------->| Modem |<->| UART |<->| Computer |
     -------------------------------------------------
     |          Kernel           |
@@ -35,6 +35,5 @@
     |                 ----------  |
     |                        |
     -------------------------------------------------
-    
     ```
 -

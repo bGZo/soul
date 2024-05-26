@@ -1,5 +1,4 @@
 alias:: Paradigms/first-class-function
-
 - have first-class functions if it treats functions as first-class citizens
   - supports passing functions as arguments to other functions
   - returning them as the values from other functions

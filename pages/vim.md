@@ -1,5 +1,4 @@
 tags:: #tools
-
 - ## [[Quickref]]
   - [Vim Cheat Sheet & Quick Reference](https://quickref.me/vim)
   - [Awesome Vim list with stars count🌟](https://awesome-repos.ecp.plus/vim.html)

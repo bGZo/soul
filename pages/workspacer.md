@@ -1,16 +1,15 @@
-icon:: 
+icon::
 title:: workspacer
 alias:: tool/workspacer
 mark:: A tiled windows manager
-tags:: #Github #Tool #Windows 
+tags:: #Github #Tool #Windows
 source:: [workspacer/workspacer: a tiling window manager for Windows](https://github.com/workspacer/workspacer)  ![](https://img.shields.io/github/stars/workspacer/workspacer)
 document:: [configuring workspacer](https://workspacer.org/config/)
 changelog:: [changelog](https://workspacer.org/changelog/)
-community:: 
+community::
 created:: 20220427
-closed:: 
+closed::
 mark:: [Tiling window manager - Wikipedia](https://en.wikipedia.org/wiki/Tiling_window_manager); [windows 下有没有这样的分屏工具-(内有图)? - V2EX](https://www.v2ex.com/t/429177#; )
-
 - ## [[cheat/sheet]]
   - ### Configure
     collapsed:: true
@@ -19,17 +18,14 @@ mark:: [Tiling window manager - Wikipedia](https://en.wikipedia.org/wiki/Tiling_
       #r "C:\Users\15517\bin\workspacer-0.9.11.81\plugins\workspacer.Bar\workspacer.Bar.dll"
       #r "C:\Users\15517\bin\workspacer-0.9.11.81\plugins\workspacer.ActionMenu\workspacer.ActionMenu.dll"
       #r "C:\Users\15517\bin\workspacer-0.9.11.81\plugins\workspacer.FocusIndicator\workspacer.FocusIndicator.dll"
-      
       using System;
       using workspacer;
       using workspacer.Bar;
       using workspacer.ActionMenu;
       using workspacer.FocusIndicator;
-      
       Action<IConfigContext> doConfig = (context) => {
           // Uncomment to switch update branch (or to disable updates)
           // context.Branch = Branch.None;
-      
           context.AddBar(new BarPluginConfig(){
               BarTitle = "workspacer.Bar",
               FontSize = 14,
@@ -37,21 +33,17 @@ mark:: [Tiling window manager - Wikipedia](https://en.wikipedia.org/wiki/Tiling_
               // DefaultWidgetForeground = Color.White,
               // BackgroundColor = "white",
               FontName = "Sarasa Mono SC",
-              RightWidgets = () => new IBarWidget[] { 
-                  new workspacer.Bar.Widgets.TimeWidget(1000,"yyyy-MM-dd  hh:mm:ss"), 
-                  new workspacer.Bar.Widgets.BatteryWidget(), 
-                  new workspacer.Bar.Widgets.ActiveLayoutWidget(), 
+              RightWidgets = () => new IBarWidget[] {
+                  new workspacer.Bar.Widgets.TimeWidget(1000,"yyyy-MM-dd  hh:mm:ss"),
+                  new workspacer.Bar.Widgets.BatteryWidget(),
+                  new workspacer.Bar.Widgets.ActiveLayoutWidget(),
                   },
           });
-      
           context.WorkspaceContainer.CreateWorkspaces("[one]", "[two]", "[three]", "[four]", "[five]");
           // context.WorkspaceContainer.CreateWorkspaces(" 1 ", " 2 ", " 3 ", " 4 ", " 5 ");
-      
           context.AddFocusIndicator();
           var actionMenu = context.AddActionMenu();
-      
           context.CanMinimizeWindows = true; // false by default
-      
           //unsubscribe, alt right/left always bugs.
           context.Keybinds.Unsubscribe(KeyModifiers.Alt, Keys.Left);
           context.Keybinds.Unsubscribe(KeyModifiers.Alt, Keys.Right);

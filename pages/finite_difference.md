@@ -1,7 +1,6 @@
 alias:: 差分
 mark:: 一种和前缀和相对的策略，可以当做是求和的逆运算（前缀和逆运算）
 mark:: [Finite difference - Wikipedia](https://en.wikipedia.org/wiki/Finite_difference)
-
   - #+BEGIN_NOTE
     将原本需要通过遍历对**区间求加和**的时间 $O(n)$ 降低为 $O(1)$
     #+END_NOTE

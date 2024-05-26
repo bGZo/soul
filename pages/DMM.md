@@ -2,7 +2,6 @@ icon:: 💸
 tags:: #game/platform #deprecated
 mark:: DMM 2017年 支持过支付宝. 但是 1 天内就被下架了. 再次进入中国的可能性不大; 近年来开始锁外区 (非日区). 需要当地的 VPN 和银行卡; 基本是无解了
 title:: DMM
-
   - More via:
     - > 個人極度不建議繼續在這網站消費了，我買的三、四千塊的東西全部無預警被停止使用，只因為Ｄ網鎖區、把很多主題的影片全部禁止台灣購買／觀看，鎖海外MASTER CARD
       via: [【問題】DMM獨佔 三上悠亞新作 @場外休憩區 哈啦板 - 巴哈姆特](https://forum.gamer.com.tw/C.php?bsn=60076&snA=7331659)

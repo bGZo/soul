@@ -1,5 +1,4 @@
 title:: cpp/memos
-
 - > 消除不确定
 - ## char array vs char* vs string
   collapsed:: true
@@ -30,7 +29,7 @@ title:: cpp/memos
         //    here must be const, or warning warning: ISO C++ forbids
         //    converting a string constant to 'char*' [-Wwrite-strings]
         const char *p="test";
-        std::string str= p; 
+        std::string str= p;
         ```
     - string to char[]
       collapsed:: true
@@ -41,19 +40,16 @@ title:: cpp/memos
         std::string s="hello";
         char p[s.size()+1];
         strcpy(p, s.c_str());
-        
         // 2 - std::string::copy
         std::string s = "Hello World!";
         char cstr[s.size() + 1];
         s.copy(cstr, s.size() + 1);
         cstr[s.size()] = '\0';
-        
-        // 3 - std::copy 
+        // 3 - std::copy
         std::string s = "Hello World!";
         char cstr[s.size() + 1];
         std::copy(s.begin(), s.end(), cstr);
-        cstr[s.size()] = '\0'; 
-        
+        cstr[s.size()] = '\0';
         //via: https://www.techiedelight.com/convert-string-char-array-cpp/
         ```
     - string to char*
@@ -67,7 +63,7 @@ title:: cpp/memos
         std::string s="hello";
         const char* p = s.c_str();
         // 3 - const_cast: removes the const attribute from a class.
-        //        That means any change to the char* will be 
+        //        That means any change to the char* will be
         //        reflected in the string object and vice versa.
         #include<string>
         std::string str = "std::string to char*";
@@ -94,10 +90,8 @@ title:: cpp/memos
         // p: |  *======> | w | o | r | l | d |\0 |
         //    +-----+     +---+---+---+---+---+---+
         // via: https://stackoverflow.com/questions/9627962/is-it-possible-to-convert-char-to-char-in-c
-        
         // 1 - address
-        char* p = &a[0] 
-        
+        char* p = &a[0]
         // 2 - strcpy
         char a[] = "test";
         char *p = strcpy(new char[strlen(a) + 1], a);
@@ -109,7 +103,7 @@ title:: cpp/memos
         // ...
         char *name="Test";
         char test[255]
-        // test=name; is error, cannot put a string(array) in a char 
+        // test=name; is error, cannot put a string(array) in a char
         strcpy(test, name);
         ```
 - ## r/w file

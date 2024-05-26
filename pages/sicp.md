@@ -1,10 +1,9 @@
 alias:: Structure and Interpretation of Computer Programs, book/sicp
-author:: 
-publisher:: 
-published-date:: 
+author::
+publisher::
+published-date::
 tags:: TODO
 source:: https://book.douban.com/subject/
-
 - ## Ch1 [Building Abstractions with Procedures](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-9.html#%_chap_1)
   collapsed:: true
   - The third is separating them from all other ideas that accompany them in their real existence: this is called **abstraction**, and thus all its general ideas are made.

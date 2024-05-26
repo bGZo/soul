@@ -1,6 +1,5 @@
 alias:: c艹, c++
 tags:: lang/programming/system
-
 - ## Why
 - ## How
 - ## What

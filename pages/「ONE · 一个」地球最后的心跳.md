@@ -1,10 +1,8 @@
 ---
 created: 20240224
-tags: 
 source: http://wufazhuce.com/article/4295
 author: 顾连川
 ---
-
 - > 可能我该自杀，满足大家的心愿。
 - ![](assets/2024/12312/Fm9KhSJ42TXAXNHZfQxN6qTwK4Fq.jpeg)
 - 故事发生在未来，人类告别刀耕火种已久，但离彻底摆脱死亡，失恋和婚姻带来的痛苦又遥遥无期的时间。

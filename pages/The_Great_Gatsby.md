@@ -1,19 +1,17 @@
-cover:: 
+cover::
 alias:: books/了不起的盖茨比
-author:: 
-translator:: 
+author::
+translator::
 icon:: 📖
-isbn:: 
-publisher:: 
-published-date:: 
-tags:: 
-douban:: 
-goodreads:: 
-weread:: 
-
+isbn::
+publisher::
+published-date::
+tags::
+douban::
+goodreads::
+weread::
 created:: 20230708
 title:: The_Great_Gatsby
-
 - ## Contents
   - CH 14
     - > 那天下午，黛熙肯定有不少地方让他大失所望——倒不是说黛熙本人有什么缺点，而是因为他把黛熙幻想得太美好。这幻想超越了黛熙，超越了所有事物。他这几年的心血全用来创造这个幻想，不停地为它添砖加瓦，将他遇到的一切美好东西都用来修饰它。再似火的热情，再漂亮的外表，也比不上为情所困的心堆积起来的幻想。

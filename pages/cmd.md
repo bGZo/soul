@@ -1,6 +1,4 @@
-alias:: 
-tags:: commandline/windows
-
+alias::tags:: commandline/windows
 -
 -
 - ## Batch Commands
@@ -13,8 +11,7 @@ tags:: commandline/windows
   - start
   - goto
   - set
-  - 回显屏蔽 @
-  - 重定向1 >与>>
+  - 回显屏蔽  - 重定向1 >与>>
   - 重定向2 <
   - 管道符号 |
   - 转义符 ^
@@ -54,11 +51,9 @@ tags:: commandline/windows
   - sc 系统服务设置与控制
   - reg 注册表控制台工具
   - powercfg控制系统上的电源设置
-    
     > 对于以上列出的所有命令，在cmd中输入命令+/?即可查看该命令的帮助信息。如find /?
   - ``` bat
-    1 echo 和 @
-    回显命令
+    1 echo 和    回显命令
     @ #关闭单行回显
     echo off #从下一行开始关闭回显
     @echo off #从本行开始关闭回显。一般批处理第一行都是这个
@@ -66,12 +61,10 @@ tags:: commandline/windows
     echo #显示当前是 echo off 状态还是 echo on 状态
     echo. #输出一个”回车换行”，空白行
     #(同echo, echo; echo+ echo[ echo] echo/ echo)
-    
     2 errorlevel
     echo %errorlevel%
     每个命令运行结束，可以用这个命令行格式查看返回码
     默认值为0，一般命令执行出错会设 errorlevel 为1
-    
     3 dir
     显示文件夹内容
     dir #显示当前目录中的文件和子目录
@@ -80,23 +73,19 @@ tags:: commandline/windows
     dir c: /a:-d #显示 C 盘根目录中的文件
     dir c: /b/p #/b只显示文件名，/p分页显示
     dir *.exe /s #显示当前目录和子目录里所有的.exe文件
-    
     4 cd
     切换目录
     cd #进入根目录
     cd #显示当前目录
     cd /d d:sdk #可以同时更改盘符和目录
-    
     5 md
     创建目录
     md d:abc #如果 d:a 不存在，将会自动创建中级目录
     #如果命令扩展名被停用，则需要键入 mkdir abc。
-    
     6 rd
     删除目录
     rd abc #删除当前目录里的 abc 子目录，要求为空目录
     rd /s/q d:temp #删除 d:temp 文件夹及其子文件夹和文件，/q安静模式
-    
     7 del
     删除文件
     del d:test.txt #删除指定文件，不能是隐藏、系统、只读文件
@@ -104,19 +93,15 @@ tags:: commandline/windows
     删除 d:temp 文件夹里面的所有文件，包括隐藏、只读、系统文件，不包括子目录
     del /q/a/f/s d:temp*.*
     删除 d:temp 及子文件夹里面的所有文件，包括隐藏、只读、系统文件，不包括子目录
-    
     8 ren
     重命名命令
     ren d:temp tmp #支持对文件夹的重命名
-    
     9 cls
     清屏
-    
     10 type
     显示文件内容
     type c:boot.ini #显示指定文件的内容，程序文件一般会显示乱码
     type *.txt #显示当前目录里所有.txt文件的内容
-    
     11 copy
     拷贝文件
     copy c:test.txt d:test.bak
@@ -129,39 +114,31 @@ tags:: commandline/windows
     如果不指定 3.txt ，则保存到 1.txt
     copy test.txt +
     复制文件到自己，实际上是修改了文件日期
-    
     12 title
     设置cmd窗口的标题
     title 新标题 #可以看到cmd窗口的标题栏变了
-    
     13 ver
     显示系统版本
-    
     14 label 和 vol
     设置卷标
     vol #显示卷标
     label #显示卷标，同时提示输入新卷标
     label c:system #设置C盘的卷标为 system
-    
     15 pause
     暂停命令
-    
     16 rem 和 ::
     注释命令
     注释行不执行操作
-    
     17 date 和 time
     日期和时间
     date #显示当前日期，并提示输入新日期，按"回车"略过输入
     date/t #只显示当前日期，不提示输入新日期
     time #显示当前时间，并提示输入新时间，按"回车"略过输入
     time/t #只显示当前时间，不提示输入新时间
-    
     18 goto 和 :
     跳转命令
     :label #行首为:表示该行是标签行，标签行不执行操作
     goto label #跳转到指定的标签那一行
-    
     19 find (外部命令)
     查找命令
     find "abc" c:test.txt
@@ -171,28 +148,22 @@ tags:: commandline/windows
     查找含 abc 的行，忽略大小写
     find /c "abc" c:test.txt
     显示含 abc 的行的行数
-    
     20 more (外部命令)
     逐屏显示
     more c:test.txt #逐屏显示 c:test.txt 的文件内容
-    
     21 tree
     显示目录结构
     tree d: #显示D盘的文件目录结构
-    
     22 &
     顺序执行多条命令，而不管命令是否执行成功
-    
     23 &&
     顺序执行多条命令，当碰到执行出错的命令后将不执行后面的命令
     find "ok" c:test.txt && echo 成功
     如果找到了"ok"字样，就显示"成功"，找不到就不显示
-    
     24 ||
     顺序执行多条命令，当碰到执行正确的命令后将不执行后面的命令
     find "ok" c:test.txt || echo 不成功
     如果找不到"ok"字样，就显示"不成功"，找到了就不显示
-    
     25 |
     管道命令
     dir *.* /s/a | find /c ".exe"
@@ -200,7 +171,6 @@ tags:: commandline/windows
     该命令行结果：输出当前文件夹及所有子文件夹里的.exe文件的个数
     type c:test.txt|more
     这个和 more c:test.txt 的效果是一样的
-    
     26 > 和 >>
     输出重定向命令
     > 清除文件中原有的内容后再写入
@@ -218,7 +188,6 @@ tags:: commandline/windows
     echo ^^W ^> ^W>c:test.txt
     生成的文件内容为 ^W > W
     ^ 和 > 是控制命令，要把它们输出到文件，必须在前面加个 ^ 符号
-    
     27 <
     从文件中获得输入信息，而不是从屏幕上
     一般用于 date time label 等需要等待输入的命令
@@ -227,16 +196,13 @@ tags:: commandline/windows
     date <temp.txt
     del temp.txt
     这样就可以不等待输入直接修改当前日期
-    
     28 %0 %1 %2 %3 %4 %5 %6 %7 %8 %9 %*
     命令行传递给批处理的参数
     %0 批处理文件本身
     %1 第一个参数
     %9 第九个参数
     %* 从第一个参数开始的所有参数
-    
     批参数(%n)的替代已被增强。您可以使用以下语法:
-    
     %~1 - 删除引号(")，扩充 %1
     %~f1 - 将 %1 扩充到一个完全合格的路径名
     %~d1 - 仅将 %1 扩充到一个驱动器号
@@ -251,9 +217,7 @@ tags:: commandline/windows
     扩充到找到的第一个完全合格的名称。如果环境
     变量名未被定义，或者没有找到文件，此组合键会
     扩充到空字符串
-    
     可以组合修定符来取得多重结果:
-    
     %~dp1 - 只将 %1 扩展到驱动器号和路径
     %~nx1 - 只将 %1 扩展到文件名和扩展名
     %~dp$PATH:1 - 在列在 PATH 环境变量中的目录里查找 %1，
@@ -263,7 +227,6 @@ tags:: commandline/windows
     echo load "%%1" "%%2">c:test.txt
     生成的文件内容为 load "%1" "%2"
     批处理文件里，用这个格式把命令行参数输出到文件
-    
     29 if
     判断命令
     if "%1"=="/a" echo 第一个参数是/a
@@ -278,7 +241,6 @@ tags:: commandline/windows
     ) else (
     echo 不存在c:test.bat
     )
-    
     30 setlocal 和 endlocal
     设置”命令扩展名”和”延缓环境变量扩充”
     SETLOCAL ENABLEEXTENSIONS #启用"命令扩展名"
@@ -293,7 +255,6 @@ tags:: commandline/windows
     序，建议在开头和结尾加上 SETLOCAL ENABLEEXTENSIONS 和 ENDLOCAL 语句，以确
     保程序能在其它系统上正确运行
     "延缓环境变量扩充"主要用于 if 和 for 的符合语句，在 set 的说明里有其实用例程
-    
     31 set
     设置变量
     引用变量可在变量名前后加 % ，即 %变量名%
@@ -355,14 +316,11 @@ tags:: commandline/windows
     %CMDCMDLINE% #调用命令处理器的原始命令行
     可以用echo命令查看每个变量值，如 echo %time%
     注意 %time% 精确到毫秒，在批处理需要延时处理时可以用到
-    
     32 start
     批处理中调用外部程序的命令，否则等外部程序完成后才继续执行剩下的指令
-    
     33 call
     批处理中调用另外一个批处理的命令，否则剩下的批处理指令将不会被执行
     有时有的应用程序用start调用出错的，也可以call调用
-    
     34 choice (外部命令)
     选择命令
     让用户输入一个字符，从而选择运行不同的命令，返回码errorlevel为1234……
@@ -371,7 +329,6 @@ tags:: commandline/windows
     win2003里是choice.exe
     choice /N /C y /T 5 /D y>nul
     延时5秒
-    
     35 assoc 和 ftype
     文件关联
     assoc 设置'文件扩展名'关联，关联到'文件类型'
@@ -393,7 +350,6 @@ tags:: commandline/windows
     ftype exefile="%1" %*
     恢复 exefile 的正确关联
     如果该关联已经被破坏，可以运行 http://command.com ，再输入这条命令
-    
     36 pushd 和 popd
     切换当前目录
     @echo off
@@ -402,7 +358,6 @@ tags:: commandline/windows
     cd /d d:mp4 #更改当前目录为 d:mp4
     pushd c:mp3 #保存当前目录，并切换当前目录为 c:mp3
     popd #恢复当前目录为刚才保存的 d:mp4
-    
     37 for
     循环命令
     这个比较复杂，请对照 for/? 来看
@@ -443,13 +398,11 @@ tags:: commandline/windows
     其中 tokens=1,2,3 若用 tokens=1-3 替换，效果是一样的
     for /f "tokens=2* delims=- " %%a in ('date /t') do echo %%b
     取第2列给 %%a ，其后的列都给 %%b
-    
     38 subst (外部命令)
     映射磁盘。
     subst z: serverd #这样输入z:就可以访问serverd了
     subst z: /d #取消该映射
     subst #显示目前所有的映时
-    
     39 xcopy (外部命令)
     文件拷贝
     xcopy d:mp3 e:mp3 /s/e/i/y
@@ -458,65 +411,28 @@ tags:: commandline/windows
     ```
 - id:: 6254ef84-41ea-4415-aebd-2f65fdf5a52e
 - ## cmd批量打开网页和关闭网页的批处理代码
-  
   如果浏览器的安装路径中有空格，可以用“ ”代替，如下：
   C:\Program Files\Mozilla Firefox\firefox.exe
   可以替换为C:\Program" "Files\Mozilla" "Firefox\firefox.exe
-  
   **1、用IE浏览器打开网页的批处理代码：start c:\progra~1\Intern~1\iexplore.exe 网址**
-  
   例子：
-  
   ```shell
-  @echo off 
-  title 打开网页 
-  start c:\progra~1\Intern~1\iexplore.exe "http://www.baidu.com" 
-  ```
-  
+  @echo off  title 打开网页  start c:\progra~1\Intern~1\iexplore.exe "http://www.baidu.com"  ```
   **2、用谷歌浏览器打开网页的批处理代码：安装路径 网址**
-  
   ```shell
-  @echo off 
-  title 打开网页 
-  start C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe http://www.google.com.hk
+  @echo off  title 打开网页  start C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe http://www.google.com.hk
   ```
-  
   **3、用火狐浏览器打开网页的批处理代码：安装路径 网址**
-  
   ```shell
-  @echo off 
-  title 打开网页 
-  start C:\Program" "Files\Mozilla" "Firefox\firefox.exe "http://www.163.com" 
-  ```
-  
+  @echo off  title 打开网页  start C:\Program" "Files\Mozilla" "Firefox\firefox.exe "http://www.163.com"  ```
   **4、批量打开网页的代码(转载)：**
-  
   ```shell
-  @echo off 
-  mode con lines=16 
-  title 批量打开网页 
-  color 2f 
-  cls 
-  echo. 
-  echo  现在是 %date% %time%echo 
-  echo ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
-  start www.baidu.com 
-  start www.jb51.net 
-  echo 开启完成，正在返回！ 
-  ```
-  
+  @echo off  mode con lines=16  title 批量打开网页  color 2f  cls  echo.  echo  现在是 %date% %time%echo  echo ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  start www.baidu.com  start www.jb51.net  echo 开启完成，正在返回！  ```
   **5、关闭浏览器的批处理代码：**
-  
   ```shell
-  @echo off 
-  title 结束进程 
-  taskkill /f /t /im iexplore.exe 
-  taskkill /f /t /im chrome.exe 
-  taskkill /f /t /im firefox.exe 
-  ```
+  @echo off  title 结束进程  taskkill /f /t /im iexplore.exe  taskkill /f /t /im chrome.exe  taskkill /f /t /im firefox.exe  ```
 - ## 代码实例
 - ### 黑客效果-vbs
-  
   ```bat
   @echo off
   :a
@@ -534,7 +450,6 @@ tags:: commandline/windows
   goto a
   ```
 - ### 键盘跑马灯 -vbs
-  
   ```bat
   Set wshShell =wscript.CreateObject("WScript.Shell")
   do
@@ -545,7 +460,6 @@ tags:: commandline/windows
   loop
   ```
 - ### 快速弹窗
-  
   ```bat
   start
   start
@@ -557,12 +471,9 @@ tags:: commandline/windows
   start box
   ```
 - ### 新建文件夹
-  
   ```bat
-  md sdkfsj jdsjksak 
-  ```
+  md sdkfsj jdsjksak  ```
 - ### 喜欢我吗
-  
   ```bat
   x=msgbox("所以马上罢工。点击重试(R)让系统重新检测",5+48,"系统检测到你不喜欢我 哼~" )
   x=msgbox("所以你还是不喜欢我？！",0+16,"系统已经重新检测")
@@ -571,7 +482,6 @@ tags:: commandline/windows
   loop
   ```
 - ### 自动朗读机
-  
   ```bat
   Message=InputBox("请在下方输入文字，点击确认朗读","自动朗读机")
   Set Speak=CreateObject("sapi.spvoice")

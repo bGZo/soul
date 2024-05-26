@@ -4,16 +4,14 @@ collapsed: true
 created: 20230531
 title: Template
 ---
-
   - template:: page
     template-including-parent:: false
     - ---
-      alias: 
-      mark: 
-      icon: 
-      date: ``{ date.now.format('YYYYMMDD') }``
-      tags: 
-      title: ``{ c.page.name }``
+      alias:
+      mark:
+      icon:
+      created: ``{ date.now.format('YYYYMMDD') }``
+            title: ``{ c.page.name }``
       ---
     - ## Why
       -
@@ -25,13 +23,11 @@ title: Template
     template-including-parent:: false
     collapsed:: true
     - ---
-      alias: 
-      mark: 
-      icon: 
-      
+      alias:
+      mark:
+      icon:
       date: ``{ date.now.format('YYYYMMDD') }``
-      tags: 
-      title: ``{ c.page.name }``
+            title: ``{ c.page.name }``
       ---
     - ## Why
       -
@@ -53,32 +49,32 @@ title: Template
     - ```markdown
       - template:: placeholder
         template-including-parent:: false
-        - alias:: 
+        - alias::
         	collapsed:: true
-          mark:: 
+          mark::
         	icon::
       	
       	start-date:: ``{ date.now.format('YYYYMMDD') }``
-      	tags:: 
+      	tags::
       	title:: ``{ c.page.name }``
       ```
       - Other properties options references
         collapsed:: true
         - ```yml
-          source:: 
-          :: 
-          title:: 
+          source::
+          ::
+          title::
           #========#
-          author:: 
-          publisher:: 
-          artisit:: 
-          developer:: 
+          author::
+          publisher::
+          artisit::
+          developer::
           #========#
-          end-date:: 
+          end-date::
           #========#
-          :: 
-          released-date:: 
-          published-date:: 
+          ::
+          released-date::
+          published-date::
           ```
     - Here are [[deprecated]] properties:
       - `url`
@@ -95,15 +91,15 @@ title: Template
     collapsed:: true
     - template:page/tool
       template-including-parent: false
-      - icon:: 
-        title:: 
-        alias:: 
-        desc:: 
+      - icon::
+        title::
+        alias::
+        desc::
         tags:: #tools
-        document:: 
-        changelog:: 
-        community:: 
-        mark:: 
+        document::
+        changelog::
+        community::
+        mark::
         created:: <% today %>
       - #+BEGIN_PINNED
         <!-- Rules -->

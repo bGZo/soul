@@ -1,6 +1,5 @@
 alias:: data-structure/hash-table, 哈希表, 散列表
 title:: hashtable
-
 -
 -
 - Hash 碰撞解决方法

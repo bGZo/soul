@@ -1,6 +1,5 @@
 title:: tree
 alias:: maths/graph/tree
-
 - Base
   collapsed:: true
   - 这种数据结构看起来像是一个倒挂的树，因此得名
@@ -114,7 +113,6 @@ alias:: maths/graph/tree
           // ...
           v = sib[v];  // 转至下一个子结点，即 v 的一个兄弟
         }
-        
         for (int v = child[u]; v != EMPTY_NODE; v = sib[v]) {
           // ...
           // 处理子结点 v
@@ -156,7 +154,6 @@ alias:: maths/graph/tree
             dfs(v, u);
           }
       }
-      
       // 开始遍历时
       int EMPTY_NODE = -1;  // 一个不存在的编号
       int root = 0;         // 任取一个结点作为出发点

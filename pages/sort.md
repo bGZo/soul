@@ -1,5 +1,4 @@
 alias:: algo/sort
-
 -
 - ## Sort Function
   - #+BEGIN_NOTE
@@ -8,7 +7,7 @@ alias:: algo/sort
     #cpp
   - [std::sort - cppreference.com](https://en.cppreference.com/w/cpp/algorithm/sort)
     - ```cpp
-      constexpr bool operator()(const T &lhs, const T &rhs) const 
+      constexpr bool operator()(const T &lhs, const T &rhs) const
       {
           return lhs > rhs; // assumes that the implementation uses a flat address space
       }
@@ -133,7 +132,6 @@ alias:: algo/sort
       - ```c++
         #include <iostream>
         #include <queue>
-        
         int main() {
           std::priority_queue<int>q;        //优先队列
           for (int i = 1; i <= 5; i++) q.push(i);
@@ -181,27 +179,22 @@ alias:: algo/sort
         - ```cpp
           #include <iostream>
           #include <set>
-          
           using namespace std;
           set<int> s;
           int a[105];
-          
           int main(){
             cin>>a[0];
-              //a[0] means the array size, to decrease paras of function calling 
-          
+              //a[0] means the array size, to decrease paras of function calling
             for(int i=1;i<=a[0];i++){
               cin>>a[i];
               s.insert(a[i]);
             }
-            
             cout<<s.size()<<endl;
             while(s.size()!=0){
                 cout<<*s.begin()<<" ";
                 s.erase(s.begin());
             }
             cout<<endl;
-            
             return 0;
           }
           ```
@@ -337,22 +330,18 @@ alias:: algo/sort
         }
         int main() {
           srand(time(NULL));
-        
           genData();
           clock_t start = clock();
           sort(tss, tss + N, cmp);
           printf("sort by functor pointer: %ld\n", clock() - start);
-        
           genData();
           start = clock();
           sort(tss, tss + N, cmpFunctor());
           printf("sort by functor: %ld\n", clock() - start);
-        
           genData();
           start = clock();
           qsort(tss, N, sizeof(TS), cmp4qsort);
           printf("qsort by functor pointer: %ld\n", clock() - start);
-        
           return 0;
         }
         ```

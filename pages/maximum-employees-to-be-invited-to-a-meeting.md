@@ -1,14 +1,12 @@
 icon:: 👨‍💻
 tags:: #leetcode/hard
 created:: 20231101
-
 - ## Content
   - <iframe src="https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting/)
 - ## Solution
   - ```java
     class Solution {
-    
       public int maximumInvitations(int[] favorite) {
         int n = favorite.length;
         List<List<Integer>> graph = new ArrayList<>();

@@ -1,5 +1,4 @@
 title:: commandline/color
-
 - 目录会有颜色：
 - |color|decribe|
   |---|---|

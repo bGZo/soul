@@ -1,5 +1,4 @@
 alias:: knowledge management, 知识管理
-
 - ## Directories
   - Google
     source:: http://www.google.com/dirhp; https://www.googleguide.com/directory.html
@@ -139,7 +138,7 @@ alias:: knowledge management, 知识管理
   - 勿吝啬, 勿用闹钟, 直接提上日程 (整理书籍/资料)
     - 时间坚持控制在一周之内, 然后快速地过掉, 不懂的概念不要过眼云烟, 要写出来自己的解决方案.
 - ## References
-  - [信息的分类 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2007/01/categories.html) 
+  - [信息的分类 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2007/01/categories.html)
     collapsed:: true
     - 如何将世界上所有的信息分类？这看似一个很普通的问题，其实非常的难。
     - 一个好的分类法应该做到如下几点：

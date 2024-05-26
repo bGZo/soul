@@ -1,7 +1,6 @@
-alias:: getting things done 
+alias:: getting things done
 icon:: 🕛
 tags:: #[[time management]]
-
 - ❌ "把事情做完"
   collapsed:: true
   ✔ "**把你需要做的事情列出来，并处理它**"

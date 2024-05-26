@@ -1,16 +1,14 @@
 alias:: Windows Subsystem for Android
 tags:: #Windows #android
 alternatives:: [[samsung/dex]]
-
 created:: 20230823
 title:: WSA
-
 - ## Why
 - ## How
   #+BEGIN_NOTE
   The most of issues here is about [[adb]] problem.
   #+END_NOTE
-  - [Any idea on using a proxy?](https://github.com/WSA-Community/WSAGAScript/issues/131) #Proxy
+  - [Any idea on using a proxy?](https://github.com/WSA-Community/WSAGAScript/issues/131) #proxy
     id:: 64e5f8f2-7901-46a2-a719-dbc03af14363
     - ```shell
       adb connect 127.0.0.1:58526 && adb shell "settings put global http_proxy ``ip route list match 0 table all scope global | cut -F3``:7890"

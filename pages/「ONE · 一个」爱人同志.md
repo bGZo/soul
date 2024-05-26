@@ -4,7 +4,6 @@ tags: ONE一个, 阅读
 source: https://m.wufazhuce.com/article/5826
 author: 韩寒
 ---
-
 - ![](../assets/2024/Fuu1uX28ydeeZC_CpCTjN7N-2IKV.jpeg)
 - 没有谁规定哪个年纪不能做哪件事，只要不是伤天害理，想做什么都是可以的。
 - 与祁湘去Livehouse看新裤子演出，散场后已是夜里十一点，两人紧赶慢赶去挤末班地铁，一人分一只耳机，随《After Party》的节奏奔跑：“It's too late，It's too late，我已赶不上地铁；It's time home，It's time home，我不想回家睡觉。”

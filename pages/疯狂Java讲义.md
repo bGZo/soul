@@ -1,7 +1,7 @@
 title:: 疯狂Java讲义
 icon:: 📖
 alias:: book/疯狂Java讲义
-tags:: #Java, #develop #deprecated 
+tags:: #Java, #develop #deprecated
 author:: 李刚
 publisher:: 电子工业出版社
 published:: 20120100
@@ -9,10 +9,9 @@ isbn:: 9787121155789
 created:: 20221125
 closed:: 20221210
 douban:: [疯狂Java讲义 (豆瓣)](https://book.douban.com/subject/10436048/)
-goodreads:: 
+goodreads::
 weread:: [疯狂Java讲义（第2版）-李刚编著-微信读书](https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d)
 mark:: 2^{rd} Edition
-
 - ## Backgroud
   - [Java 从开始到放弃 求大佬推荐一本书 - V2EX](https://v2ex.com/t/714143)
   - [《On Java 8》中文版 | OnJava8](https://lingcoder.github.io/OnJava8/#/)
@@ -145,7 +144,6 @@ mark:: 2^{rd} Edition
                                 + msg);
                     }
                 }
-                
                 class Leaf extends Mid{
                     static{
                             System.out.println("Leaf的静态初始化块");
@@ -159,7 +157,6 @@ mark:: 2^{rd} Edition
                             System.out.println("执行Leaf的构造器");
                     }
                 }
-                
                 public class Test{
                   public static void main(String[] args){
                     new Leaf();
@@ -668,9 +665,7 @@ mark:: 2^{rd} Edition
                 public class Test {
                   public static void main(String[] args) {
                     Collection books=new HashSet();
-                    
                     books.add("轻量级Java EE企业应用实战"); books.add("疯狂Java讲义");books.add("疯狂Java讲义2");books.add("疯狂Android讲义");
-                    
                     Iterator it=books.iterator();
                     while(it.hasNext()){
                       String book=(String)it.next();
@@ -681,7 +676,6 @@ mark:: 2^{rd} Edition
                     System.out.println(books);
                   }
                 }
-                
                 ```
                 #this-code/weird Why???
                 - 在next方法中存在集合的修改校验方法，==**当remove最后一个参数时，hasNext方法返回为false，不会执行后面的next方法，所以删除最后一个元素时不会报错**==；ArrayList的hasNext在迭代完最后一个元素后会再进入一次循环，所以换成ArrayList即使是删除最后一个元素也会报错；单线程建议使用迭代器的remove方法
@@ -1522,15 +1516,12 @@ mark:: 2^{rd} Edition
                 books.offer("疯狂Java讲义"); 			// 队尾
                 books.push("轻量级Java EE企业应用实战"); // 栈顶
                 books.offerFirst("疯狂Android讲义");	 // 队头 (栈顶)
-            
                 for (int i=0; i < books.size() ; i++ )
                   System.out.println(books.get(i));
-            
                 System.out.println(books.peekFirst()); 	// 栈顶 (访问但不删除)
                 System.out.println(books.peekLast()); 	// 队尾 (访问但不删除)
                 System.out.println(books.pop()); 		// 栈顶出栈
                 System.out.println(books);
-                
                 System.out.println(books.pollLast());	// 队尾 (访问并删除)
                 System.out.println(books);
               }
@@ -1566,7 +1557,6 @@ mark:: 2^{rd} Edition
               //动态初始化数组元素
               for (int i=0; i < 900000; i++)
                 tst1[i]=String.valueOf(i);
-          
               ArrayList al=new ArrayList();
               //将所有的数组元素加入ArrayList集合中
               for (int i=0; i < 900000 ; i++)
@@ -1575,14 +1565,12 @@ mark:: 2^{rd} Edition
               //将所有的数组元素加入LinkedList集合中
               for (int i=0; i < 900000 ; i++)
                 ll.add(tst1[i]);
-              
               //迭代访问ArrayList集合的所有元素，并输出迭代时间
               long start=System.currentTimeMillis();
               for (Iterator it=al.iterator();it.hasNext() ; )
                 it.next();
               System.out.println("迭代ArrayList集合元素的时间:"
                                  + (System.currentTimeMillis() - start));
-              
               //迭代访问LinkedList集合的所有元素，并输出迭代时间
               start=System.currentTimeMillis();
               for (Iterator it=ll.iterator();it.hasNext() ; )
@@ -1741,7 +1729,6 @@ mark:: 2^{rd} Edition
                 for (int j=0; j < values.length ; j++ )
                   cards.add(types[i] + values[j]);
               //随机排列
-              
               Collections.shuffle(cards);
             }
             /**
@@ -2215,21 +2202,18 @@ mark:: 2^{rd} Edition
           public abstract class Shape{
             public abstract void draw(Canvas c);
           }
-          
           // 定义Shape的子类Circle
           public class Circle extends Shape{
             // 实现画图方法，以打印字符串来模拟画图方法实现
             public void draw(Canvas c)
               System.out.println("在画布" + c + "上画一个圆");
           }
-          
           // 定义Shape的子类Rectangle
           public class Rectangle extends Shape{
             // 实现画图方法，以打印字符串来模拟画图方法实现
             public void draw(Canvas c)
               System.out.println("把一个矩形画在画布" + c + "上");
           }
-          
           public class Canvas{
             // 同时在画布上绘制多个形状
             public void drawAll(List<?> shapes){
@@ -2536,8 +2520,7 @@ mark:: 2^{rd} Edition
           	 把ArrayList[10]对象赋给List<String>[]变量时
              会有编译警告 [unchecked] 未经检查的转换
           3. BETTER: Java允许创建无上限的通配符泛型数组
-          */  List<?>[] lsa=new ArrayList<?>[10]; 
-        
+          */  List<?>[] lsa=new ArrayList<?>[10];
           Object[] oa=(Object[]) lsa;
           List<Integer> li=new ArrayList<Integer>();
           li.add(new Integer(3));
@@ -2546,7 +2529,7 @@ mark:: 2^{rd} Edition
           if (target instanceof String){
             // 程序需要将lsa的第一个数组元素的第一个集合元素强制类型转换为String类型
             // 通过instanceof运算符来保证它的数据类型
-            // Otherwise ClassCastException Exception 
+            // Otherwise ClassCastException Exception
             // 下面代码安全了
             String s=(String) target;
           }
@@ -3269,8 +3252,8 @@ mark:: 2^{rd} Edition
                 // 使用Connection来创建一个PreparedStatement对象
                 // 传入控制结果集可滚动、可更新的参数
                 PreparedStatement pstmt=conn.prepareStatement(
-                    sql,   
-                    ResultSet.TYPE_SCROLL_INSENSITIVE, 
+                    sql,
+                    ResultSet.TYPE_SCROLL_INSENSITIVE,
                     ResultSet.CONCUR_UPDATABLE
                 );
                 ResultSet rs=pstmt.executeQuery();
@@ -3432,7 +3415,7 @@ mark:: 2^{rd} Edition
                         // 创建执行插入的PreparedStatement对象
                         // 该对象执行插入后可以返回自动生成的主键
                         insert=conn.prepareStatement("insert into img_table"
-                                + " values(null,?,?)" , 
+                                + " values(null,?,?)" ,
                                 Statement.RETURN_GENERATED_KEYS);
                         // 创建两个PreparedStatement对象，用于查询指定图片，查询所有图片
                         query=conn.prepareStatement("select img_data from img_table"
@@ -4144,7 +4127,7 @@ mark:: 2^{rd} Edition
                 collapsed:: true
                 - 建议前缀使用一个短的、有意义的字符串，比如"hjb"或"mail"
               - suffix参数可以为null，在这种情况下，将使用默认的后缀“.tmp”
-            - static File createTempFile(String prefix, String suffix, File directory) 
+            - static File createTempFile(String prefix, String suffix, File directory)
               collapsed:: true
               - 在directory所指定的目录中创建一个临时的空文件，使用给定前缀、系统生成的随机数和给定后缀作为文件名
               - 这是一个静态方法，可以直接通过File类来调用
@@ -4491,7 +4474,7 @@ mark:: 2^{rd} Edition
           - 关闭输出流 2 个作用
             collapsed:: true
             - 保证流的物理资源被回收
-            - 将输出流缓冲区中的数据flush到物理节点里 
+            - 将输出流缓冲区中的数据flush到物理节点里
               (因为在执行close()方法之前，自动执行输出流的flush()方法)
         -
     - 15.4 输入/输出流体系
@@ -4534,7 +4517,7 @@ mark:: 2^{rd} Edition
         - java.io.*
           collapsed:: true
           ![image.png](../assets/book/疯狂Java讲义/image_1670150536232_0.png){:height 313, :width 740}
-          **粗体字**: 节点流，必须直接与指定的物理节点关联; 
+          **粗体字**: 节点流，必须直接与指定的物理节点关联;
           *斜体字*: 抽象基类，无法直接创建实例
           - Java为了实现更好的设计，它把IO流按功能分成了许多类，而每类中又分别提供了字节流和字符流（当然有些流无法提供字节流，有些流无法提供字符流），字节流和字符流里又分别提供了输入流和输出流两大类，所以导致整个输入/输出流体系格外复杂
         - 一个规则
@@ -4820,7 +4803,7 @@ mark:: 2^{rd} Edition
               }
             }
             ```
-        - #Project 多线程断点的网络下载工具
+        - #project 多线程断点的网络下载工具
           collapsed:: true
           - 可通过RandomAccessFile类来实现
           - 所有的下载工具在下载开始时都会建立两个文件
@@ -4899,7 +4882,7 @@ mark:: 2^{rd} Edition
         - e.g. Serializable Person
           collapsed:: true
           - ```java
-            public class Person 
+            public class Person
               implements java.io.Serializable{
               private String name;
               private int age;
@@ -5407,7 +5390,6 @@ mark:: 2^{rd} Edition
           public void info(){}
           public void info(String str){}
           public void info(String str , Integer num){}
-          
           public static void main(String []args){
             // 获取第 2 个info方法
             clazz.getMethod("info" , String.class);

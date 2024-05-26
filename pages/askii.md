@@ -1,6 +1,5 @@
 title:: askii
 alias:: encoding/askii
-
 - [[cheat/sheet]]
   collapsed:: true
   - ![](../assets/encoding/ascii_table_lge.png)

@@ -9,7 +9,7 @@
               | <expression> - <term>
               | <term>
         <term> ::= <term> * <factor>
-            | <term> / <factor> 
+            | <term> / <factor>
             | <factor>
         <factor> ::= <primary> ^ <factor>
             | <primary>
@@ -89,6 +89,6 @@
   - [《编译原理之美》笔记——前端部分 | 李乾坤的博客](http://qiankunli.github.io/2020/02/08/fundamentals_of_compiling_frontend.html)
   - https://www.cnblogs.com/secoding/p/11193711.html
   - 在线 DFA 转化: https://cyberzhg.github.io/toolbox
-    - (c|da)* 最长匹配  
+    - (c|da)* 最长匹配
       c*|(da)* 优先匹配
     - 两个表达式确实不一样
