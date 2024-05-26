@@ -1,5 +1,4 @@
 title:: encoding/page
-
 -
 - > I was trouble in the CP problem within a whole Afternoon in that java GUI/language output only support the sys language(GBK), meanwhile Window Family Version isn't support the English-System , Oh only damn it ! So I catch some Code Page to switch. -- 2020-07-03 23:30:00:00
 -

@@ -1,7 +1,6 @@
 title:: stl
 alias:: cpp/stl
 tags:: #[[data-structure]], #[[algo]]
-
 - [[cpp]] STL 内置用法:
   - `find`：顺序查找。`find(v.begin(), v.end(), value)`，其中 `value` 为需要查找的值。
   - `find_end`：逆序查找。`find_end(v.begin(), v.end(), value)`。

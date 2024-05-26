@@ -1,6 +1,5 @@
 title:: jvm/memory
 tags:: #garbage_collection
-
 - ## [Java (JVM) Memory Model - Memory Management in Java | DigitalOcean](https://www.digitalocean.com/community/tutorials/java-jvm-memory-model-memory-management-in-java)
   ![](../assets/Java-Memory-Model.png)
   - ### Young Generation

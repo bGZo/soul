@@ -1,15 +1,14 @@
 title:: rick-and-morty
-alias:: anime/rick-and-morty, 瑞克与莫迪, R&M, 瑞莫, Rick and Morty 
-desc:: 
+alias:: anime/rick-and-morty, 瑞克与莫迪, R&M, 瑞莫, Rick and Morty
+desc::
 tags:: #america
-author:: 
-douban:: 
-bangumi:: 
-source:: 
-mark:: 
+author::
+douban::
+bangumi::
+source::
+mark::
 created:: 20221202
 closed::
-
 - #Comment
   - 周扒片
     collapsed:: true
@@ -37,7 +36,7 @@ closed::
       collapsed:: true
       - [Profile] : 莫蒂买了个娃娃，不料是个代孕机器
       - 小莫这次实力演绎了, 父母不过是有了小孩的小孩, 他们也是第一次当父母, 可能自己还没准备好, 难免会有犯错的时候, 恨一个人总是容易, 随便找个理由, 大可弃他而去, 爱一个人却是那么难, 就算他于你而言只是个意外, 就算有反对的声音, 就算有人冷嘲热讽, 你还是无法弃之不顾, 还是常常奋不顾身.
-        他是我儿子, 如果你想伤害他 ,就先跨过我的尸体吧, 瑞克 
+        他是我儿子, 如果你想伤害他 ,就先跨过我的尸体吧, 瑞克
         即便经过这一切, 他还是惦记着你的不好, 你也不过一声叹息:
         我希望他能吃得好
         到底是男孩太色, 还是女孩太暴露?
@@ -69,9 +68,9 @@ closed::
   - 有些失去的东西活在自己心里是什么感觉? 最近看 周扒片Plus 回顾的 <> 有点上头, 内心因外表疯癫的姥爷各种往事所潮涌,  有的时候我打开讨论的论坛又关上,  我有点舍不得这仅有的感觉,  我害怕过两天就又会再度消失,  我关掉的是因为我想多维持这样的状态,  而当有东西活在你心里的时候,  你知道去到哪里都是他的影子,  是的,  离别说的我活在你心里的话是千真万确,  但是有的人喜欢这样子自我反刍的感觉,  有的人视这样的感觉是人生的一种折磨,  这又是多么的矛盾和荒谬啊.
     created:: 2020
     collapsed:: true
-    - Everyone I know  
-      Goes away in the end  
-      And you could have it all  
-      My empire of dirt  
-      I will let you down  
+    - Everyone I know
+      Goes away in the end
+      And you could have it all
+      My empire of dirt
+      I will let you down
       I will make you hurt

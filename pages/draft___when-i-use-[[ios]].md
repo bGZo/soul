@@ -1,6 +1,5 @@
 title:: draft/when-i-use-[[ios]]
 tags:: #[[iOS]]
-
 - when I use [[iOS]], here some wired things I felt:
 - 🌐 代理的爱恨纠葛
   collapsed:: true
@@ -30,11 +29,9 @@ tags:: #[[iOS]]
       - ```
         John Smith (first name(given name), last name)
         via: https://www.zhihu.com/question/19864402
-        
         (406) 443-4577
         10 Alta St
         Helena, Montana(MT), 59601
-        
         电话
         道路地址
         市名, 州名(缩写), 邮编

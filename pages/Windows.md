@@ -1,7 +1,6 @@
 id:: 6254e947-b746-4586-8242-b17e9066ec55
 icon:: ⊞
 tags:: system
-
 - ## Why
 - ## How
   - ~~[BitDock比特工具栏-官方社区 - 首页](http://www.bitdock.cn/bbs/forum.php)~~ #deprecated #beautify
@@ -128,7 +127,6 @@ tags:: system
           %localappdata%\Google\Chrome\User Data\SwReporter
           ```
           **[方法]：**“高级” -> “禁用继承” -> "从此对象中删除所有继承的权限".保证没有用户组可以访问SwReporter文件夹并启动Software Reporter Tool了。
-        
         + Bluetooth Handsfree Service：没有蓝牙的用户可以关闭
         + Fax：计算机或网络上的可用传真资源发送和接收传真
         + Workstation：创建和维护到远程服务的客户端网络连接如果服务停止
@@ -156,7 +154,7 @@ tags:: system
     collapsed:: true
     - 1. 开机的部分时间内会短暂的占用部分端口，所以请稍后重试。
       2. Cmd 下命令：
-       ```shell 
+       ```shell
        netstat -ano|findstr "XXX" #端口号，或者下面的命令
        netstat -aon|findstr :XXX|findstr LISTEN（netstat -ano | findstr “XXX” ）
        ```
@@ -164,9 +162,7 @@ tags:: system
   - DONE 投屏无法使用
     collapsed:: true
     - > Miracast是由Wi-Fi联盟于2012年所制定，以Wi-Fi直连（Wi-Fi Direct）为基础的无线显示标准。支持此标准的3C设备(如智能手机、电视、投影、电脑等)可透过无线方式分享视频画面，也就是说在此技术下，手机可以在不借助任何连接线的情况下实现与电视、电脑等大屏设备的画面投屏。
-      
       资料可知，通过和手机间的投屏是使用无线网卡来实现的，所以，如果你的电脑有无线局域网（Wi-Fi）功能，你就可以使用投屏功能。
-      
       1. **window+R**快捷键运行**dxdiag.exe** -> 保存所有信息 -> `Miracast`是否可用?(Available,withHDCP)
       2. 我的问题定位到**Microsoft Wi-Fi Direct Virtual Adapter**被禁用
       3. **window按钮->设备管理器->网络适配器**，找到你的网卡打开就OK
@@ -174,12 +170,10 @@ tags:: system
   - DONE 默认应用误设
     collapsed:: true
     - ![154kEn.png](https://s2.ax1x.com/2020/02/10/154kEn.png)
-      
       1. 用文本打开一个打不开的文件，会报错然后就完美了。
        1. **[推荐]**新建文本A — > 随便起个后缀 -> 用A选择默认打开误开的应用 -> 删掉A
       2. 用可卸载的软件打开一遍，然后卸载这个软件。
       3. 批处理代码，粘过来研究
-      
        ```visual basic
        @echo off
        setlocal enabledelayedexpansion
@@ -212,7 +206,6 @@ tags:: system
   - DONE [谷歌浏览器Software Reporter Tool长时间占用CPU解决办法](https://www.cnblogs.com/ShaYeBlog/p/10224349.html)
     collapsed:: true
     - > 一个Chrome清理工具,用于清理谷歌浏览器中不必要或恶意的扩展，应用程序，劫持开始页面等等。当你安装Chrome时，Software_reporter_tool.exe也j就会被下载在SwReporter文件夹下的Chrome应用数据文件夹中。
-      
       1. 默认它位于以下目录`C:\Users\[YourName]\AppData\Local\Google\Chrome\User Data\SwReporter\[版本]\software_reporter_tool.exe`
       2. 我们还可以通过`win+r`键打开运行命令窗口并输入以下命令快速找到它`%localappdata%\Google\Chrome\User Data\SwReporter`
       3. 右键单击software_reporter_tool.exe选择属性
@@ -223,15 +216,13 @@ tags:: system
   - DONE 音量的无限增高
     collapsed:: true
     - 播放器正常播放，为了喇叭的安全，所有的播放器一般只使用了喇叭【70%～75%】的功率，所以这样的声音没有开完，这种'功率不会损伤喇叭【这也是手机出厂的时候，设置过】
-      
       而[酷狗](https://www.baidu.com/s?wd=酷狗&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)就是增加了个，打破这个播放功率，长时间使用，会对播放器造成损伤
   - DONE Bluetooth APTX Support
     collapsed:: true
     - 1. `设备管理器` -> 网卡(蓝牙)型号(AC9560).
-      2. Google Search 
+      2. Google Search
        1. [英特尔9260 9560 9462 8265 8260 7265 3165蓝牙驱动程序](https://www.dell.com/support/home/zh-cn/drivers/driversdetails?driverid=2dfn9)
        2. [Intel 7265/3165/7260/3160 Bluetooth Audio Application (WBS/APTX)](https://www.dell.com/support/home/zh-cn/drivers/DriversDetails?driverId=90WTD)
-      
       另外值得一提的是, 对耳机开启/关闭ATPX编码的位置在:`控制面板\声音\声卡设置\选择对应耳机`
   - DONE Cat serial number / 查看序列号
     collapsed:: true
@@ -277,42 +268,34 @@ tags:: system
     - 运行
     - ```reg
       Windows Registry Editor Version 5.00
-      
       ; 若原先有，先删除原来的
       [-HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere]
       [-HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
       [-HKEY_CLASSES_ROOT\Directory\Background\shell\PowershellAdmin]
-      
       ; 1.右键：命令行
       [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere]
       @="在此处打开命令行窗口"
-      
       [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere\command]
-      @="cmd.exe -noexit -command Set-Location -literalPath \"%V\"" 
-      
+      @="cmd.exe -noexit -command Set-Location -literalPath \"%V\""
       ; 2.右键：命令行（管理员）
       [HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
       @="在此处打开命令行窗口(管理员)"
       "ShowBasedOnVelocityId"=dword:00639bc8
-      
       [HKEY_CLASSES_ROOT\Directory\Background\shell\runas\command]
       @="cmd.exe /s /k pushd \"%V\""
-      
       ; 3.shift+右键：Powershell(管理员)
       [HKEY_CLASSES_ROOT\Directory\Background\shell\PowershellAdmin]
       @="在此处打开 Powershell 窗口(管理员)"
       "Extended"=""
-      
       [HKEY_CLASSES_ROOT\Directory\Background\shell\PowershellAdmin\command]
       @="\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -windowstyle hidden -Command $stpath = pwd; Start-Process PowerShell -ArgumentList \\\"-NoExit\\\", \\\"-Command Set-Location -literalPath '%V'\\\" -verb RunAs"
-      
       ; 4.设置右键 管理员打开cmd的另一种方法（可用来替换上面的2）
       ; 通过Powershell调起，会闪过一次Powershell的窗口，去掉下面几行的[; ]可以取消注释
       ; [-HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHereAdmin]
-      ; 
+      ;
       ; [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHereAdmin]
       ; @="在此处打开命令行窗口(管理员)"
-      ; 
+      ;
       ; [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHereAdmin\command]
       ; @="PowerShell -windowstyle hidden -Command \"Start-Process cmd.exe -ArgumentList '/s,/k, pushd,%V' -Verb Run
       ```
@@ -334,11 +317,9 @@ tags:: system
         # "StartMenuExperienceHost.exe",      # [ALWAYS] IDGAF
         "TouchpointAnalyticsClientService.exe"  # FUCK HP
       )
-      
       for ($i=0; $i -lt $my_tasks.Length; $i++) {
         taskkill /F /im  $my_tasks[$i]
       }
-      
       pause
       ```
   - DONE Add input double pinyin with flypy

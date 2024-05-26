@@ -1,6 +1,5 @@
 title:: database/object–oriented
 mark:: OODBMS / **Object-oriented database**(面向对象数据库)
-
 - #vs [[database/object–relational]]
   collapsed:: true
   object-oriented database vs object-relational database

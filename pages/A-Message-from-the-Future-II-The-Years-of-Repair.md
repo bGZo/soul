@@ -1,8 +1,7 @@
 title:: A-Message-from-the-Future-II-The-Years-of-Repair
 source:: https://www.youtube.com/watch?v=2m8YACFJlMg
-
 - [50%]
-- Britain needs to rethink its defence policy **from the ground up**; the last big review took place in 1998. 
+- Britain needs to rethink its defence policy **from the ground up**; the last big review took place in 1998.
   英国需要从头至尾重新考虑下自己的国防政策，然而上次大规模从新审查还要追溯到1998年
 - way back in the **terror**(恐怖) and tenderness of the **pandemic**(大流行病).
 - And then change bloomed in the streets: in the fire and struggle of the **uprisings**(起义,暴动).
@@ -13,12 +12,12 @@ source:: https://www.youtube.com/watch?v=2m8YACFJlMg
 - we are all **entangled**(被缠住).
 - It started in the **First Great Pause**(第一个伟大的停顿) -
   when the smog cleared and the rich **fled the cities**(逃离城市).
-- When poverty **dropped its disguise**(放弃伪装) 
+- When poverty **dropped its disguise**(放弃伪装)
   and **racist inequality**(种族不平等) drew the map of the disease.
 - we **arose to**(来到) birdsong and **ambulance sirens**(救护车的鸣笛).
-- And we learned again and again that 
+- And we learned again and again that
   so many of us doing essential work were being treated as **sacrificial**(牺牲的).
-  From nursing homes to **detention facilities**(拘留场所), 
+  From nursing homes to **detention facilities**(拘留场所),
   **meatpacking plants and fulfillment centers**(肉类加工厂和配送中心),
   the virus exposed the **cruelty**(残酷, 虐待, 不公)
   of these **warehouses**(仓库) of “efficiency” and profit.

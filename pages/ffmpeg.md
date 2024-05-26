@@ -1,6 +1,5 @@
 alias:: commands/ffmpeg
 tags:: #[[free-software]], #[[Video]]
-
 -
 - 子程序(4)
   - ffmpeg

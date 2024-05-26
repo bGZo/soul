@@ -1,6 +1,5 @@
 title:: imperative
 alias:: Paradigms/imperative
-
 - ## 命令式编程
   - 汇编语言的抽象化
     - 1954, Fortran, 首个在复杂程序的设计中除掉机器代码的编程语言

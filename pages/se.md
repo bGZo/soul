@@ -1,5 +1,4 @@
 icon:: 👨‍💻
-
 - [[introduction]]
 - [[csapp]]
 - [[os]]

@@ -1,19 +1,18 @@
 icon:: 📖
 title:: the-conquest-of-happiness
 alias:: book/幸福之路, 幸福之路
-tags:: #Book 
+tags:: #Book
 author:: Russell
 publisher:: 天津人民出版社
 published:: 20210100
 isbn:: 9787201168821
 created:: 20220704
-closed:: 
+closed::
 douban:: [幸福之路 (豆瓣)](https://book.douban.com/subject/35302634/)
 goodreads:: [The Conquest of Happiness by Bertrand Russell | Goodreads](https://www.goodreads.com/book/show/454750.The_Conquest_of_Happiness)
 weread:: [幸福之路-伯特兰·罗素-微信读书](https://weread.qq.com/web/bookDetail/11e3277072206ec011ec1fa)
 mark:: "90年长销经典，诺奖得主罗素风靡东西方的幸福指南。南京大学社会心理学博士、前非诚勿扰学者嘉宾黄菡新译，2110字导读推荐。《幸福之路》是罗素探索现代社会幸福问题的经典生活哲理书。全书简明扼要地分为“不幸福的原因”和“幸福的原因”两大部分，不去讲高深的哲理 和枯燥的说教，而是直接反思生活中最常破坏幸福感的消极心理因素，如竞争、疲劳、嫉妒、罪恶感、受害妄想等，直接给出获得和提升幸福感的具体生活建议，如通过兴致、情爱、家庭、工作、闲情逸致等。作者给书中的每个观点都提供了真实的人性经验的支撑和清晰、坦率、真诚的剖析论证；他所开列的药方，也都是亲历亲见，并且实践证明有效提升了他的幸福感，所以具有非常强的实用性。无数感到苦闷而又不甘忍受的男男女女，完全能够借此明察自身的困境，进而找到突围之路，凭着适当的努力变得幸福。是每个人在幸福追寻途中的必备指南。"
 mark::
-
 - ## 📄 Content
   - 译者序
     - 参差多态乃是幸福的本源  <u>3970</u>
@@ -47,7 +46,7 @@ mark::
             - 因为缺乏生机勃勃的活动
         - 变化
           - #+BEGIN_TIP
-            农耕生活的到来，生活开始变得单调乏味; 
+            农耕生活的到来，生活开始变得单调乏味;
             机器时代的到来极大减少了世上的无趣
             #+END_TIP
           - 工薪阶层

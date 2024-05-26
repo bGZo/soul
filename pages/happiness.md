@@ -1,16 +1,14 @@
 alias:: 幸福
 mark:: a positive and pleasant emotion, ranging from contentment to intense joy
-tags:: #emotion 
-
+tags:: #emotion
 created:: 20230614
 title:: happiness
 wikipedia:: [Happiness - Wikipedia](https://en.wikipedia.org/wiki/Happiness)
-
 - ## Why
   - No why, this is the desire human being all long for.
 - ## How
   - collapsed:: true
-    > In my opinion, the happiness need to be collected. 
+    > In my opinion, the happiness need to be collected.
     快乐需要积攒
     - What some ridiculous reason is, "I'm busy", just like [[the-little-prince]].
     - But I have to say, after going to work, or enter in a big system, the time of our life was broken into pieces. This is fact. So there's must some moments we don't like to live. So we need some place to escape to. So there are.

@@ -1,6 +1,5 @@
 title:: imu/software/architecture-pattern
 tags:: [[software/pattern]], [[software/architecture]]
-
 -
 -
 - Outline
@@ -104,7 +103,7 @@ tags:: [[software/pattern]], [[software/architecture]]
         - 仓库系统及知识库
         - C2
           - 通过连接件绑定在一起的按照一组规则运作的并行构件网络。
-      - 客户/服务器风格 
+      - 客户/服务器风格
         collapsed:: true
         - C/S 体系 (3)
           collapsed:: true

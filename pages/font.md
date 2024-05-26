@@ -1,10 +1,8 @@
 alias:: 字体
 icon:: 字
-tags:: #designtags:: 
-
+tags:: #designtags::
 created:: 20230821
 title:: font
-
 - ## Why
 - ## How
 - ## What
@@ -25,7 +23,6 @@ title:: font
     collapsed:: true
     - ![](../assets/japan-men.webp)
     - 微软雅黑默认状态下部分字符显示为日文字符, 如`门`就会显示 '中间一竖的`门`'. 纠正方法换字体 --`文泉译米` 即可
-      
       Profromence differences are related with [**CJK Unified Ideographs**](https://en.wikipedia.org/wiki/CJK_Unified_Ideographs), and relating to [CJK Font](https://en.wikipedia.org/wiki/List_of_CJK_fonts). And Some Font display the Japan Font as default pattern, such this `Mircosoft YaHei` in ubuntu when the sys encoding is `US_Utf-8`, but why the window is not such situation?<sup>[3](#j3)</sup>. Some more details [FAQ](https://www.unicode.org/faq/han_cjk.html) with it. By th way, Japan encodes CIJ and Chinese encodes GB.
     -
   -
@@ -37,16 +34,13 @@ title:: font
   - WAITING 中文字体市场混乱
     collapsed:: true
     - 说实话中文字体界实在是太乱了, 在使用过 [Google Fonts](https://fonts.google.com) 之后一直想找替代的网站, 简中 SEO 较高的总是指向诸如 xxx下载站, pc下载站, 第一字体网 之类的质量较低下(缺乏**字体介绍**, **使用许可**, **作者详情**, **官方网站**等) 的网站, 这种资源德不配位真的让我有点受不了. 简中的铜臭气也渗透了出来.
-      
       我们总是不把版权问题摆在前面, 总是先入为主地 "拿来就用", 也不问有什么代价, 乐于做伸手党, 久而久之真的沦为了理所当然的事情. 因为每一片雪花都很小, 所以雪崩不怪任何人, 甚至伸手党们拉帮结伙开始反攻作者, 真的让人啼笑皆非.
       2020
   - WAITING 用什么字体?
     collapsed:: true
-    - 我将浏览器默认字体换成 LXGW 之后, 发现有很多网站混杂了相当多的字体, 当然阅读体验被毁得一团乱, 但是, 我发现绝大多数 网站都有在使用 Arial 这个字体, 尤其是在国外, 频率非常高. 之后查了查资料, 关于这个字体和非衬线字体有较大的争论, 尤其是人们在互相争论使用哪一个字体的时候. 
+    - 我将浏览器默认字体换成 LXGW 之后, 发现有很多网站混杂了相当多的字体, 当然阅读体验被毁得一团乱, 但是, 我发现绝大多数 网站都有在使用 Arial 这个字体, 尤其是在国外, 频率非常高. 之后查了查资料, 关于这个字体和非衬线字体有较大的争论, 尤其是人们在互相争论使用哪一个字体的时候.
       collapsed:: true
-      
       一个具体的研究表明在 12px 之下的阅读还是衬线字体比较好辨别, 但是随着字体大小的变化, 人对两者的阅读体验开始持平, 甚至可以说, 在字体大小非常大的时候, 两者的区别已经无所谓了.
-      
       再者关于 阅读体验 是一个非常主观的东西, 目前这个东西还没有什么定论, 有的人面对美观的字体, 阅读速度反而可以升高, 但是有人则不然.
       - {{video https://www.youtube.com/watch?v=41i9EN9l8uc}}
     - 20221020
@@ -54,7 +48,7 @@ title:: font
     - id:: 6374947b-7716-4507-8561-f6c91e6d6fa4
       title:: [ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more](https://github.com/ryanoasis/nerd-fonts) ![](https://img.shields.io/github/stars/ryanoasis/nerd-fonts)
       mark:: "Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others."
-      tags:: #Github #opensource 
+      tags:: #Github #opensource
       mark::
       -
         - #+BEGIN_TIP

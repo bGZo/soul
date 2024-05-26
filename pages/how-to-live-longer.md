@@ -1,10 +1,9 @@
 alias:: book/how-to-live-longer
-tags:: 
+tags::
 author:: geekan
-publisher:: 
-published-date:: 
+publisher::
+published-date::
 source:: [geekan/HowToLiveLonger: 程序员延寿指南 | A programmer's guide to live longer](https://github.com/geekan/HowToLiveLonger)
-
 - <h1>程序员延寿指南</h1>
   - ACM: All-Cause Mortality / 全因死亡率
   - 假设 $$DeltaLifeSpan = ( \frac{1}{1+DeltaACM} - 1 ) * 10$$

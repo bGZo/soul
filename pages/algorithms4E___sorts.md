@@ -1,6 +1,5 @@
 title:: algorithms4E/sorts
 tags:: [[sort]]
-
 - 初级排序
   - 游戏规则
     collapsed:: true
@@ -173,7 +172,7 @@ tags:: [[sort]]
       public class SortCompare
       {
           public static double time(String alg, Double[] a)
-          {  
+          {
             Stopwatch timer=new Stopwatch();
             if(alg.equals("Insertion"))   Insertion.sort(a);
             if(alg.equals("Selection"))   Selection.sort(a);
@@ -594,7 +593,7 @@ tags:: [[sort]]
       - 这么做的话delMax()的用例就需要将返回值转换为某种具体的类型，比如String。一般来说，应该尽量避免在用例中进行类型转换
   - TODO exercise
 -
-- $$学习一个新的算法 == 思路 + 代码 + 算法轨迹$$ 
+- $$学习一个新的算法 == 思路 + 代码 + 算法轨迹$$
   tags:: #[[TIL]], #[[programming]]
 -
 -

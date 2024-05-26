@@ -1,5 +1,4 @@
 title:: command/kill
-
 -
 - Other commnad: `killall`
 - Linux 进程可以接收信号并做出反应, 这是我们与运行中进程打交道的一种方式

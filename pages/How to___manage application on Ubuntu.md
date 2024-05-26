@@ -1,9 +1,7 @@
 icon:: 🐧
-
 created:: 20230906
 tags:: #Ubuntu
 title:: How to/manage application on Ubuntu
-
 - ## \#1 Install
   - From mirror source:
     - ```shell
@@ -55,7 +53,7 @@ title:: How to/manage application on Ubuntu
     dpkg --get-selections | grep XXX
     ```
   - ```shell
-     sudo apt purge XXX  #一个带core的package, 如果没有带core的package, 则是情况而定. 
+     sudo apt purge XXX  #一个带core的package, 如果没有带core的package, 则是情况而定.
     ```
 -
 - ## \#4 Clean old version software
@@ -82,12 +80,12 @@ title:: How to/manage application on Ubuntu
       ```
   - A more hacker way is:
     - ```shell
-      dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P 
+      dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P
       ```
     - collapsed:: true
       #+BEGIN_TIP
       这条命令是用于清理 Debian 或 Ubuntu 系统中残留的已经被标记为 "rc"（已删除但配置文件仍然存在）状态的软件包。让我逐步解释这个命令的各个部分：
-      #chatGPT 
+      #chatGPT
       #+END_TIP
       - `dpkg -l`：这部分命令列出系统中安装的所有软件包。
       - `|`：这是管道符号，用于将第一个命令的输出传递给下一个命令。

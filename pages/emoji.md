@@ -1,5 +1,4 @@
 tags:: TODO
-
 - Old Archive
   collapsed:: true
   - Vendors and platforms

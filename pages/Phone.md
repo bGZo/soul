@@ -1,10 +1,8 @@
 alias:: 手机
 icon:: 📱
-tags:: #3C 
-
+tags:: #3C
 created:: 20230719
 title:: Phone
-
 - ## Why
 - ## How
   - How to buy a phone? Or what's the [[standard]] about phone?

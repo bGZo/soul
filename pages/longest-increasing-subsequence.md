@@ -1,8 +1,6 @@
 icon:: 👨‍💻
 alias:: 最长递增子序列
 tags:: #leetcode/medium #动态规划
-
-
 - ## Content
   - <iframe src="https://leetcode.cn/problems/longest-increasing-subsequence" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/longest-increasing-subsequence/)
@@ -13,14 +11,12 @@ tags:: #leetcode/medium #动态规划
   - 则本题的答案方程为：
     - $$LIS_{length} = max(dp[i])$$
   - ```cpp
-    
     class Solution {
       public:
       int lengthOfLIS(vector<int>& nums) {
         int ans = 0, len = nums.size();
         int *dp = new int[len];
         dp[0] = 1;
-    
         for(int i =0 ; i< len; i++){
           int maxInt = dp[0];
     	
@@ -37,13 +33,11 @@ tags:: #leetcode/medium #动态规划
         //     cout<< i << ", "
         // }
         // compiler error
-    
     class Solution {
       public:
       int lengthOfLIS(vector<int>& nums) {
         int ans = 0, len = nums.size();
         int *dp = new int[len];
-    
         for(int i =0 ; i< len; i++){
           dp[i] = 1;
           for(int j =0 ; j< i; j++ ){
@@ -54,7 +48,6 @@ tags:: #leetcode/medium #动态规划
         return *max_element(dp, dp + len);
       }
     };
-    
     class Solution {
       public:
       int lengthOfLIS(vector<int>& nums) {

@@ -1,6 +1,5 @@
 alias:: se/general/redundancy, 冗余
 wikipedia:: https://zh.wikipedia.org/zh-cn/%E5%86%97%E9%A4%98, https://en.wikipedia.org/wiki/Redundancy_(engineering)
-
 - ## 冗余 / 多数决系统 / 投票式逻辑
   - 为了提升其可靠度 (备用 / 提升性能)，刻意配置重复的零件或是机能。
   - 有时会降低系统的可靠度

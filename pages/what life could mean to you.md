@@ -12,7 +12,6 @@ weread: https://weread.qq.com/web/reader/51232f605e056751253e156
 created: 20240409
 title: what life could mean to you
 ---
-
 - ## Contents
   - 版权信息
   - 第一章 生活的意义

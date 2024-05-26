@@ -1,22 +1,19 @@
 collapsed:: true
 alias:: 串流
-
 created:: 20230531
 tags:: #Game
 title:: Streaming
-
 - ## Why
   -
 - ## How
   - [Steam Link – Apps on Google Play](https://play.google.com/store/apps/details?id=com.valvesoftware.steamlink&hl=en_SG&gl=US)
     - DONE Some games control is error. #wontfix
     - DONE Cannot play local game. #wontfix
-  - Moonlight 
+  - Moonlight
     changelog:: [Moonlight Game Streaming Project (github.com)](https://github.com/moonlight-stream)
     community:: [Moonlight Ideas and Suggestions (moonlight-stream.org)](https://ideas.moonlight-stream.org/)
     document:: [Frequently Asked Questions · moonlight-stream/moonlight-docs Wiki (github.com)](https://github.com/moonlight-stream/moonlight-docs/wiki/Frequently-Asked-Questions)
     collapsed:: true
-    
     created:: 20230531
     tags:: #Streaming #tools
     title:: moonlight

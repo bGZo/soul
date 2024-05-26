@@ -1,5 +1,4 @@
 alias:: commands/ls
-
 - collapsed:: true
   ```shell
   $ ls -l
@@ -43,25 +42,19 @@ alias:: commands/ls
 - id:: 62515057-455a-4083-bfc4-b439da391075
 - collapsed:: true
   ```shell
-  ls -al |grep "^-" | wc -l 
+  ls -al |grep "^-" | wc -l
   # 查询当前目录下的文件个数
-  
-  ls -F |grep "*" 
+  ls -F |grep "*"
   # 查询当前目录下的可执行文件
-  
-  ls -F |grep "@" 
+  ls -F |grep "@"
   # 查询当前目录下的符号链接文件
-  
-  ls -al |grep "^-" 
+  ls -al |grep "^-"
   # 查询当前目录下的文件
-  
-  ls -al |grep "^d" 
+  ls -al |grep "^d"
   # 查询当前目录下的文件夹
-  
-  ls -F |grep "/"  
-  # 查询当前目录下的文件夹 
-  
-  ls -F |grep "/$" 
+  ls -F |grep "/"
+  # 查询当前目录下的文件夹
+  ls -F |grep "/$"
   # 查询当前目录下的文件夹
   ```
   - 在每个文件名后附上一个字符以说明该文件的类型

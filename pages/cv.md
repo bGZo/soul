@@ -1,6 +1,5 @@
 title:: cv
 alias:: curriculum vitae, resume, my/cv
-
 - ## ↩ Reference
   - ![My first Resume made by Notion](../assets/resume_1679561164091_0.pdf)
   - ![https://github.com/lixiaoyan](../assets/resume_1679561550667_0.pdf)
@@ -40,7 +39,7 @@ alias:: curriculum vitae, resume, my/cv
   - `四川华迪信息技术有限公司`, `JavaEE 开发人员`
     - 1. 学习企业 RUP 和 CMMI3 软件开发规范;
       2. SpringMVC 架构;
-      3. ORM, MyBatisPlus, SpringBoot软件编程; 
+      3. ORM, MyBatisPlus, SpringBoot软件编程;
       4. 利用SSM框架集成编程
 - 项目经历
   - `基于 C++ CLI 的选课系统`

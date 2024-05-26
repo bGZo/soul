@@ -1,10 +1,8 @@
 ---
 created: 20240303
-tags: 
 source: http://wufazhuce.com/article/6280
 author: 周宏翔
 ---
-
 - ## 爱情是和现实生活最好的对抗
 - ![](assets/2024/2799/Fl3sw0zrtOoAUg-yFTLZ2KXQjSiA.jpeg)
 - 把爱情当成一次疲乏生活的插曲，心灵的一次放假，对日常规训的一次反抗，而不是期待长相厮守，永结同心的婚姻式爱情，爱情就会变成一件轻松的事情。

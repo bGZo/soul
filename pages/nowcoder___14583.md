@@ -1,8 +1,7 @@
 icon:: 👨‍💻
-tags:: #prefix_sum 
+tags:: #prefix_sum
 mark:: [糖糖别胡说，我真的不是签到题目](https://ac.nowcoder.com/acm/problem/14583)
 created:: 20230205
-
 - ## Content
   - 从前，有 nnn 只萌萌的糖糖，他们分成了==两组==一起玩游戏。他们会排成一排，第 iii 只糖糖会随机得到一个能力值 bib_ibi​。从第 iii 秒的时候，第 iii 只糖糖就可以消灭掉所有排在他前面的和他不是同一组的且能力值小于他的糖糖。
   - 为了使游戏更加有趣，糖糖的爸爸，娇姐，会发功 mmm 次，第 iii 次发功的时间为 cic_i ci​，则在第 cic_ici​ 秒结束后，b1,b2,.....,bcib_1,b_2,.....,b_{c_i}b1​,b2​,.....,bci​​都会增加 1.
@@ -19,26 +18,21 @@ created:: 20230205
     #include<bits/stdc++.h>
     using namespace std;
     int idx[50010];
-    
     int main(){
         int T;
         cin>>T;
         while(T--){
             int n, m;
             cin>>n>>m;
-    
             int *suger = new int[n+1];
             int *suger_group = new int [n+1];
             memset(idx,0,sizeof(idx));
-    
             for(int i = 1; i<=n; i++){
                 cin >> suger_group[i] >> suger[i];
             }
-    
             while(m--){
                 int gong;
                 cin>>gong;
-    
                 idx[1]++;
                 idx[gong+1]--;
                 //差分
@@ -48,24 +42,20 @@ created:: 20230205
                 suger[i] += idx[i];
                 // 求前缀和还原数组
             }
-    
-            int max_group0 = -1, 
-                max_group1 = -1, 
+            int max_group0 = -1,
+                max_group1 = -1,
                 ans = 0;
-            
             for(int i = n; i>=1; i--){
                 if(suger_group[i] == 0){
-                    max_group0 = max(max_group0, suger[i]); 
+                    max_group0 = max(max_group0, suger[i]);
                 }else{
-                    max_group1 = max(max_group1, suger[i]); 
+                    max_group1 = max(max_group1, suger[i]);
                 }
-    
-                if(suger_group[i]==0 && suger[i]>=max_group1) 
+                if(suger_group[i]==0 && suger[i]>=max_group1)
                     ans++;
-                if(suger_group[i]==1 && suger[i]>=max_group0) 
+                if(suger_group[i]==1 && suger[i]>=max_group0)
                     ans++;
             }
-    
             cout<< ans << endl;
         }
     }

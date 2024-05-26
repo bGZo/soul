@@ -1,12 +1,10 @@
 alias:: +8, +86, Simple Chinese, Great Firewall
 mark:: 密不透风的墙, 什么都不会发生
 icon:: 🧱
-
 created:: 20230602
 tags:: #networking, #China #censor
 title:: GFW
 background-image:: [obama_big_brother_is_watching_poster.jpeg](../assets/obama_big_brother_is_watching_poster_1674888986914_0.jpeg)
-
   - <!-- [Obama Big Brother Is Watching Poster | Zazzle](https://www.zazzle.co.uk/obama_big_brother_is_watching_poster-228974630743633129) -->
   - [yihong0618 on Twitter: "GFW，+86，+8，再加个简体中文，我们已经有了 4 道墙了。" / Twitter](https://twitter.com/yihong0618/status/1431506334977966082)
 - ## Why
@@ -15,7 +13,7 @@ background-image:: [obama_big_brother_is_watching_poster.jpeg](../assets/obama_b
   - IDK
 - ## What
   - #+BEGIN_PINNED
-    中华人民共和国宪法 第 35 条: 
+    中华人民共和国宪法 第 35 条:
     **中华人民共和国公民有言论、出版、集会、结社、游行、示威的自由**。
     #+END_PINNED
   - [List of websites blocked in mainland China - Wikipedia](https://en.wikipedia.org/wiki/List_of_websites_blocked_in_mainland_China)

@@ -1,6 +1,5 @@
 tags:: TODO, #Philosophy
 mark:: 认识论
-
   - epistemology
     - phonetic
       - /ɪˌpɪstəˈmɒlədʒi/

@@ -1,6 +1,5 @@
 alias:: 火狐, FF
 mark:: ff
-
 - [[Backup]]
   - **Profile**: `%APPDATA%\Mozilla\Firefox\Profiles\`
     collapsed:: true
@@ -15,20 +14,20 @@ mark:: ff
       ├── addons.json
       ├── autofill-profiles.json
       ├── blocklist.xml
-      ├── bookmarkbackups           # This folder stores bookmark backup files, 
+      ├── bookmarkbackups           # This folder stores bookmark backup files,
       |                   # which can be used to restore your bookmarks.
       ├── broadcast-listeners.json
       ├── browser-extension-data
-      ├── cert9.db              # all your security certificate settings and 
-      |                   # any SSL certificates you have imported into 
+      ├── cert9.db              # all your security certificate settings and
+      |                   # any SSL certificates you have imported into
       |                                       # Firefox.
       ├── cert_override.txt
       ├── compatibility.ini
-      ├── containers.json           # the details of containers used by the Container 
+      ├── containers.json           # the details of containers used by the Container
       |                   # Tabs feature, including those created by extensions
       |                                       # such as Facebook Container.
       ├── content-prefs.sqlite        # Site-specific preferences:
-      ├── cookies.sqlite            # a bit of information stored on your computer 
+      ├── cookies.sqlite            # a bit of information stored on your computer
       |                   # by a website you’ve visited
       ├── crashes
       ├── datareporting
@@ -39,8 +38,8 @@ mark:: ff
       ├── extensions.json
       ├── favicons.sqlite           # all of the favicons for your Firefox bookmarks.
       ├── features
-      ├── formhistory.sqlite          # This file remembers what you have searched 
-      |                   # for in the Firefox search bar and what 
+      ├── formhistory.sqlite          # This file remembers what you have searched
+      |                   # for in the Firefox search bar and what
       |                                       # information you’ve entered into forms on websites.
       ├── gmp
       ├── gmp-gmpopenh264
@@ -57,13 +56,13 @@ mark:: ff
       ├── parent.lock
       ├── permissions.sqlite          # Site-specific preferences
       ├── pkcs11.txt              # security module configuration.
-      ├── places.sqlite             # This file contains all your Firefox bookmarks 
-      |                   # and lists of all the files you've downloaded 
+      ├── places.sqlite             # This file contains all your Firefox bookmarks
+      |                   # and lists of all the files you've downloaded
       |                   # and websites you’ve visited.
       ├── pluginreg.dat
       ├── prefs.js              # customized user preference settings, such as
       |                   # changes you make in Firefox Settings dialogs.
-      |                                       # The optional user.js file, if one exists, 
+      |                                       # The optional user.js file, if one exists,
       |                                       # will override any modified preferences.
       ├── protections.sqlite
       ├── saved-telemetry-pings
@@ -84,8 +83,8 @@ mark:: ff
       ├── storage.sqlite
       ├── times.json
       ├── weave
-      ├── webappsstore.sqlite         # DOM storage,  provide a larger, more secure, 
-      |                   # and easier-to-use alternative to storing 
+      ├── webappsstore.sqlite         # DOM storage,  provide a larger, more secure,
+      |                   # and easier-to-use alternative to storing
       |                   # information in cookies.
       └── xulstore.json           # toolbar and window size/position settings
       ```

@@ -1,5 +1,4 @@
 alias:: question/brain-teaser
-
 -
 - [[interview]]
   - 二进制 问题

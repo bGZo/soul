@@ -1,5 +1,4 @@
 source:: https://medium.com/@karolisram/preventing-burnout-for-programmers-12b4968adbaa
-
 - It’s not rare in the field of programming to burn out and lose passion for your work
 - Burnout seems to occur amongst the programmers more often than professionals in other fields.
 - The second reason involves the fact that programming is highly ==cognitively intensive== and stressful job, and the mental ==fatigue can take its toll==.

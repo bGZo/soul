@@ -3,7 +3,6 @@ alias:: Windows Subsystem For Linux
 tags:: #Windows #Linux #-nix #tools #Github #Microsoft
 source:: [microsoft/WSL: Issues found on WSL](https://github.com/microsoft/WSL) ![](https://img.shields.io/github/stars/microsoft/WSL)
 created:: 202104
-
 - ## [[Quickref]]
   - Open in `explore.exe` #PowerShell #Windows
     collapsed:: true
@@ -36,12 +35,12 @@ created:: 202104
     - 工作的重心逐渐转移回 Windows, 除了命令行让人难以忍受的难用之外并没有什么不合心意的地方, 所以我又踏上了美化 Windows 命令行的道路. 一切都是源于被 *nix 惯坏的习惯.
     - ```shell
       # Maybe u should install scoop first from https://github.com/lukesampson/scoop
-      # Dowmload powershell 7.x instead of default 5.x form 
+      # Dowmload powershell 7.x instead of default 5.x form
       # https://github.com/PowerShell/PowerShell/releases, then run the powershell 7.x
-      Install-Module posh-git -Scope CurrentUser 
+      Install-Module posh-git -Scope CurrentUser
       Install-Module oh-my-posh -Scope CurrentUser
-      # If u are in China, please look up the proxy using the powershell or get help 
-      # from my gist: https://gist.github.com/82a76ecbebf81b556a1d20a91a6bd21a 
+      # If u are in China, please look up the proxy using the powershell or get help
+      # from my gist: https://gist.github.com/82a76ecbebf81b556a1d20a91a6bd21a
       # Edit the Environment config
       $PROFILE
       if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
@@ -51,9 +50,9 @@ created:: 202104
       Import-Module posh-git
       Import-Module oh-my-posh
       Set-PoshPrompt Paradox # could see more prompts from https://ohmyposh.dev/docs/themes
-      # Notice its not "Set-Theme" from 
+      # Notice its not "Set-Theme" from
       # https://github.com/microsoft/terminal/issues/9237#issuecomment-798913706
-      # More color-schemes: 
+      # More color-schemes:
       # https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/color-schemes
       # Everything maybe all right but the frosted glass (blur background)
       # Edit your terminal profiles and add following json stmt. If its doesn't make sence,

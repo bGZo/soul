@@ -1,7 +1,6 @@
 alias:: state grid corporation of China, 国家电网公司
 tags:: #China
 mark:: https://en.wikipedia.org/wiki/State_Grid_Corporation_of_China
-
 - ![](https://picx.zhimg.com/v2-b9f303825c74bb0d46ed66447739a686_r.jpg?source=1940ef5c)
   via: [国家电网有社会招聘吗？ - 珞研杰尼龟的回答 - 知乎](https://www.zhihu.com/question/33919772/answer/2634655269)
 -

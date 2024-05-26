@@ -11,7 +11,6 @@ weread:: [Spring实战（第6版）-克雷格·沃斯-微信读书](https://were
 mark:: [habuma/spring-in-action-6-samples: Sample code from Spring in Action 6](https://github.com/habuma/spring-in-action-6-samples)
 created:: 20230111
 closed::
-
 - ## 📄 Contents
   - 关于本书
     collapsed:: true
@@ -66,11 +65,11 @@ closed::
             ==
             ```java
             // NOTE: 告知Spring这是一个配置类，它会为Spring应用上下文提供bean
-            @Configuration 
+            @Configuration
             public class ServiceConfiguration {
               // NOTE: 方法所返回的对象会以bean的形式添加到Spring的应用上下文中
               // bean ID == method name by default
-              @Bean 
+              @Bean
               public InventoryService inventoryService() {
                 return new InventoryService();
               }
@@ -142,28 +141,24 @@ closed::
               			xsi:schemaLocation = "http://maven.apache.org/POM/4.0.0
                     https://maven.apache.org/xsd/maven-4.0.0.xsd">
               <modelVersion>4.0.0</modelVersion>
-            
               <parent>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-parent</artifactId>
                 <version>2.5.3</version>
                 <!-- NOTE:
-            		使用 Spring Boot 2.5.3, 
+            		使用 Spring Boot 2.5.3,
             		依赖管理指定底层的核心Spring框架的版本为5.3.9
             	-->
                 <relativePath />
               </parent>
-            
               <groupId>sia</groupId>
-              <artifactId>taco-cloud</artifactId> 
+              <artifactId>taco-cloud</artifactId>
               <version>0.0.1-SNAPSHOT</version>
               <name>taco-cloud</name>
               <description>Taco Cloud Example</description>
-            
               <properties>
                 <java.version>11</java.version>
               </properties>
-            
               <dependencies>
                 <!-- Starter依赖-->
                 <dependency>
@@ -193,7 +188,6 @@ closed::
                   <optional>true</optional>
                 </dependency>
             </dependencies>
-            
             <build>
               <plugins>
                 <!-- Spring Boot插件 -->
@@ -203,7 +197,6 @@ closed::
                 </plugin>
               </plugins>
             </build>
-            
             <repositories>
               <repository>
                 <id>spring-milestones</id>
@@ -218,7 +211,6 @@ closed::
                   <url>https://repo.spring.io/milestone</url>
                 </pluginRepository>
               </pluginRepositories>
-            
             </project>
             ```
           - `<parent>`
@@ -246,15 +238,12 @@ closed::
           collapsed:: true
           - ```java
             package tacos;
-            
             import org.springframework.boot.SpringApplication;
             import org.springframework.boot.autoconfigure.SpringBootApplication;
-            
             @SpringBootApplication	// Spring Boot应用(POWERFUL!!!)
             public class TacoCloudApplication {
-            
               public static void main(String[] args) {
-                SpringApplication.run(TacoCloudApplication.class, args); // 
+                SpringApplication.run(TacoCloudApplication.class, args); //
                 /** NOTE:  运行应用(样板代码)
                  * SpringApplication 中静态的 run() 方法，才真正执行应用的引导过程
                  * 传递 2 个参数 (配置类 + 命令行参数)
@@ -292,10 +281,8 @@ closed::
               package tacos;
               import org.junit.jupiter.api.Test;
               import org.springframework.boot.test.context.SpringBootTest;
-              
               @SpringBootTest　　// Spring Boot测试
               public class TacoCloudApplicationTests {
-                
                 // 测试方法
                 // 空的测试方法也会提示该注解完成了它的工作并成功加载Spring应用上下文
                 @Test　　
@@ -329,7 +316,6 @@ closed::
             /* NOTE: 控制器
             	Spring会自动发现并创建一个HomeController实例作为Spring应用上下文中的bean*/
             public class HomeController {
-              
               @GetMapping("/")						// 处理对根路径“/ ”的请求
               public String home() {
                 return "home";
@@ -377,10 +363,8 @@ closed::
             ```java
             @WebMvcTest(HomeController.class)　　// 针对HomeController的Web测试
             public class HomeControllerTest {
-              
               @Autowired
               private MockMvc mockMvc;　　// 注入MockMvc, 能够让测试实现 mockup
-            
               @Test
               public void testHomePage() throws Exception {
                 mockMvc.perform(get("/"))　　		  // 发起对“/”的GET请求
@@ -410,7 +394,7 @@ closed::
             ```
         - 1.3.5 了解Spring Boot DevTools
           collapsed:: true
-          - DevTools #.ol 
+          - DevTools #.ol
             mark:: 提供了一些便利的开发期工具和特性
             collapsed:: true
             - 代码热更新, 自动重启；
@@ -522,7 +506,6 @@ closed::
             @RequestMapping("/design")
             @SessionAttributes("tacoOrder")
             public class DesignTacoController {
-            
             @ModelAttribute
             public void addIngredientsToModel(Model model) {
                 List<Ingredient> ingredients = Arrays.asList(
@@ -537,33 +520,28 @@ closed::
                   new Ingredient("SLSA", "Salsa", Type.SAUCE),
                   new Ingredient("SRCR", "Sour Cream", Type.SAUCE)
                 );
-            
                 Type[] types = Ingredient.Type.values();
                 for (Type type : types) {
                   model.addAttribute(type.toString().toLowerCase(),
                   filterByType(ingredients, type));
               }
             }
-            
             @ModelAttribute(name = "tacoOrder")
             public TacoOrder order() {
               return new TacoOrder();
             }
-            
             @ModelAttribute(name = "taco")
             public Taco taco() {
               return new Taco();
             }
-            
-            /* 	对类级别的`@RequestMapping`进行了细化 
+            /* 	对类级别的`@RequestMapping`进行了细化
             	当接收到对`/design`的HTTP GET请求时，
                 Spring MVC将会调用showDesignForm()来处理请求
             */
-            @GetMapping 
+            @GetMapping
             public String showDesignForm() {
               return "design";
             }
-            
             private Iterable<Ingredient> filterByType(
                 List<Ingredient> ingredients, Type type) {
               return ingredients
@@ -605,7 +583,6 @@ closed::
           collapsed:: true
           - ```html
             <p th:text = "${message}">placeholder message</p>
-            
             <h3>Designate your wrap:</h3>
             <div th:each = "ingredient : ${wrap}">
               <input th:field = "*{ingredients}" type = "checkbox"
@@ -662,7 +639,6 @@ closed::
               @NotNull
               @Size(min = 5, message = "Name must be at least 5 characters long")
               private String name;
-              
               @NotNull
               @Size(min = 1, message = "You must choose at least 1 ingredient")
               private List<Ingredient> ingredients;
@@ -682,14 +658,11 @@ closed::
             public String processTaco(
               @Valid Taco taco, Errors errors,
               @ModelAttribute TacoOrder tacoOrder) {
-            
               if (errors.hasErrors()) {
                 return "design";
               }
-            
               tacoOrder.addTaco(taco);
               log.info("Processing taco: {}", taco);
-            
               return "redirect:/orders/current";
             }
             ```
@@ -718,7 +691,6 @@ closed::
           collapsed:: true
           - ```java
             package tacos.web // 配置类替换了HomeController类
-            
             @Configuration
             public class WebConfig implements WebMvcConfigurer {
               @Override
@@ -797,7 +769,6 @@ closed::
             - ==这里其实可以用 _疯狂Java讲义_ 里面提到的== ((63bf6c48-0fba-45ab-85a0-c2d712743600)) ==里异常自动关闭的写法== [^try-with-resource]
             - ```java
               private JdbcTemplate jdbcTemplate;
-              
               public Optional<Ingredient> findById(String id) {
                 List<Ingredient> results = jdbcTemplate.query(
                     "select id, name, type from Ingredient where id = ?",
@@ -842,7 +813,7 @@ closed::
               - > Constructor injection is actually recommended over field injection.
                   + clearly identified.
                   + dependencies can be final, which helps with robustness and thread-safety
-                  + you don't need reflection to set the dependencies. 
+                  + you don't need reflection to set the dependencies.
                 via: [dependency injection - Spring @Autowire on Properties vs Constructor - Stack Overflow](https://stackoverflow.com/questions/40620000/spring-autowire-on-properties-vs-constructor)
               - ```java
                 class MyComponent {
@@ -1076,19 +1047,15 @@ closed::
               import javax.persistence.*;
               import java.io.Serializable;
               import java.util.Set;
-              
               @Entity
               @Table(name = "students")
               public class Student implements Serializable {
-              
                 @Id
                 @GeneratedValue(strategy = GenerationType.IDENTITY)
                 private Long id;
-              
                 private String name;
                 private int age;
                 private String grade;
-              
                 @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
                 @JoinTable(name = "students_courses",
               	joinColumns = {
@@ -1098,16 +1065,13 @@ closed::
                   @JoinColumn(name = "course_id", referencedColumnName = "id",
                                          nullable = false, updatable = false)})
                 private Set<Course> courses = new HashSet<>();
-              
                 public Student() {
                 }
-              
                 public Student(String name, int age, String grade) {
                   this.name = name;
                   this.age = age;
                   this.grade = grade;
                 }
-              
                 // getters and setters, equals(), toString() .... (omitted for brevity)
               }
               ```
@@ -1140,7 +1104,7 @@ closed::
             docker run --name my-cassandra --network cassandra-net -p 9042:9042 -d cassandra:latest	
              docker run -it --network cassandra-net --rm cas
             sandra cqlsh my-cassandra
-            # Wait connecting 
+            # Wait connecting
             cqlsh> create keyspace tacocloud with replication = {'class':'SimpleStrategy', 'replication_factor':1} and durable_writes = true;
              # 创建一个名为tacocloud的键空间
              # 配置其为简单副本和持久性写入
@@ -1194,9 +1158,8 @@ closed::
               <groupId>org.springframework.boot</groupId>
               <artifactId>spring-boot-starter-security</artifactId>
           </dependency>
-          <!-- 
+          <!--
           Using generated security password: b7aace4e-ae7f-460c-b7cc-949fa646a2eb
-          
           This generated password is for development use only. Your security configuration must be updated before running your application in production.
           -->
           ```
@@ -1265,11 +1228,10 @@ closed::
                     .authorizeRequests()
                       .antMatchers("/design", "/orders")
                          .access("hasRole('USER') && " +
-                          "T(java.util.Calendar).getInstance().get(" + 
+                          "T(java.util.Calendar).getInstance().get(" +
                           "T(java.util.Calendar).DAY_OF_WEEK) == " +
                           "T(java.util.Calendar).TUESDAY")
                       .antMatchers("/", "/**").access("permitAll")
-                
                     .and()
                     .build();
                 }
@@ -1539,9 +1501,7 @@ closed::
             @Profile({"!prod", "!qa"})
             public CommandLineRunner dataLoader(IngredientRepository repo,
                   UserRepository userRepo, PasswordEncoder encoder) {
-            
               ...
-            
             }
             ```
       - 小结
@@ -1601,7 +1561,7 @@ closed::
                   http.authorizeRequests()
                       .antMatchers(HttpMethod.POST,
                                    "/ingredients").hasRole("ADMIN")
-                      .antMatchers(HttpMethod.DELETE, 
+                      .antMatchers(HttpMethod.DELETE,
                                    "/ingredients/**").hasRole("ADMIN")
                       ...
                 }
@@ -1676,25 +1636,25 @@ closed::
       - collapsed:: true
         ```java
         // 发送原始的消息
-        void send(MessageCreator messageCreator) 
+        void send(MessageCreator messageCreator)
           throws JmsException;
-        void send(Destination destination, MessageCreator messageCreator) 
+        void send(Destination destination, MessageCreator messageCreator)
           throws JmsException;
-        void send(String destinationName, MessageCreator messageCreator) 
+        void send(String destinationName, MessageCreator messageCreator)
           throws JmsException;
         // 发送根据对象转换而成的消息
-        void convertAndSend(Object message) 
+        void convertAndSend(Object message)
           throws JmsException;
-        void convertAndSend(Destination destination, Object message) 
+        void convertAndSend(Destination destination, Object message)
           throws JmsException;
-        void convertAndSend(String destinationName, Object message) 
+        void convertAndSend(String destinationName, Object message)
           throws JmsException;
         // 发送根据对象转换而成的消息，且带有后期处理的功能
         void convertAndSend(Object message, MessagePostProcessor
           postProcessor) throws JmsException;
         void convertAndSend(Destination destination, Object message,
           MessagePostProcessor postProcessor) throws JmsException;
-        void convertAndSend(String destinationName, Object message, 
+        void convertAndSend(String destinationName, Object message,
           MessagePostProcessor postProcessor) throws JmsException;
         ```
         - 注意：
@@ -1922,7 +1882,7 @@ closed::
     - `@SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT)`
       - ((63d244b1-8572-4263-8d21-197decff603c))
       - Refer the above, `@ExtendWith(SpringExtension.class)` is no need
-    - `@ExtendWith` by Junit 
+    - `@ExtendWith` by Junit
       mark:: @ExtendWith is **a repeatable annotation that is used to register extensions for the annotated test class, test interface, test method, parameter, or field**. Annotated parameters are supported in test class constructors, in test methods, and in @BeforeAll , @AfterAll , @BeforeEach , and @AfterEach lifecycle methods. via: [ExtendWith (JUnit 5.8.0 API)](https://junit.org/junit5/docs/5.8.0/api/org.junit.jupiter.api/org/junit/jupiter/api/extension/ExtendWith.html)
     - `@MockBean`
       mark:: Spring Boot includes a @MockBean annotation that can be used to mark::  a Mockito mock for a bean inside your ApplicationContext.
@@ -2016,10 +1976,8 @@ closed::
     - Kill port in windows via: https://stackoverflow.com/questions/56499928
       - ```shell
         > netstat -ano | findstr *<port used>*
-        
           TCP    0.0.0.0:*<port used>*  0.0.0.0:0              LISTENING       *<pid>*
           TCP    [::]:*<port used>*     [::]:0                 LISTENING       *<pid>*
-        
         > taskkill /F /PID *<pid>*
         SUCCESS: The process with PID *<pid>* has been terminated.
         ```
@@ -2065,9 +2023,9 @@ closed::
   - ~~How to download [Spring Framework 6.0.8 API](https://docs.spring.io/spring-framework/docs/current/javadoc-api/index.html) to PDF？~~
     - **Seem the official is not provide this option**
     - ```
-      [DIR] javadoc-api/            2023-04-13 08:28    -   
-      [DIR] kdoc-api/               2023-04-13 08:29    -   
-      [DIR] reference/              2023-04-13 08:29    -   
+      [DIR] javadoc-api/            2023-04-13 08:28    -
+      [DIR] kdoc-api/               2023-04-13 08:29    -
+      [DIR] reference/              2023-04-13 08:29    -
       ```
       [Index of /spring-framework/docs/current](https://docs.spring.io/spring-framework/docs/current/)
     - And what's difference with Javadoc and reference?

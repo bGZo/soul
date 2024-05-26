@@ -1,5 +1,4 @@
 title:: algorithms4E/fundamentals
-
 - ### 1.1 编程模型  Programming Model
   collapsed:: true
   - 基础编程模型: **描述和实现算法所用到的语言特性、软件库和操作系统特性**
@@ -570,11 +569,8 @@ title:: algorithms4E/fundamentals
       - 队列是许多日常现象的自然模型，它也是无数应用程序的核心
         - 在用集合保存元素的同时保存它们的**相对顺序**：使它们入列顺序和出列顺序相同
         - #[[Question]] 我们的In类的静态方法readInts()的一种实现。
-          
           这个方法为用例解决的问题是用例无需预先知道文件的大小即可将文件中的所有整数读入一个数组中
-          
           我们首先将所有的整数读入队列中，然后使用Queue的size()方法得到所需数组的大小，创建数组并将队列中的所有整数移动到数组中。队列之所以合适是因为它能够将整数按照文件中的顺序放入数组中（如果该顺序并不重要，也可以使用Bag对象）
-          
           这段代码使用了自动装箱和拆箱来转换用例中的int原始数据类型和队列的Integer封装类型
           ![image.png](../assets/image_1650354439862_0.png)
     - (下压) 栈
@@ -680,9 +676,7 @@ title:: algorithms4E/fundamentals
         Item[] temp = new Item[max];
         ```
         - 总之没什么区别, 第一个的实际过程创建一个中间变量然后把引用还给`temp`.
-          
           第一句反而来的更加直接, 没什么区别.
-          
           via: https://stackoverflow.com/questions/23362900/what-happens-when-we-do-type-casting-on-objects
       -
     - 对象游离
@@ -965,7 +959,7 @@ title:: algorithms4E/fundamentals
       - 关键原则 -> 实验可重现
         id:: 62621bf8-5232-416c-80bd-53f53e9dd25b
         - id:: 62621bf8-49a0-4216-af2b-f816a5f0878c
-          > “再多的实验也不一定能够证明我是对的，但只需要一个实验就能证明我是错的。” 
+          > “再多的实验也不一定能够证明我是对的，但只需要一个实验就能证明我是错的。”
           ---- 爱因斯坦
       -
     - 观察

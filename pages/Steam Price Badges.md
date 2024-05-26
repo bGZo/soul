@@ -1,11 +1,9 @@
 icon:: 📂
-tags:: #Steam #DOING #Project 
-
+tags:: #Steam #DOING #project
 created:: 20230705
 title:: Steam Price Badges
-
 - ## Project Meta
-  - DOING #Project [[Steam Price Badges]]
+  - DOING #project [[Steam Price Badges]]
   - query-table:: false
     #+BEGIN_QUERY
     {:title [:h3 "Tasks related to Steam Price Badges"]

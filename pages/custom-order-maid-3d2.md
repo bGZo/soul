@@ -2,14 +2,13 @@ title:: custom-order-maid-3d2
 alias:: CUSTOM_ORDER_MAID_3D2_Its_a_Night_Magic
 mark:: 3D定制女仆2 / カスタムオーダーメイド3D2 /
 tags:: #galgame, #hentai
-author:: 
+author::
 source:: [CUSTOM ORDER MAID 3D2](https://com3d2.world/r18/main.html)
 bangumi:: [カスタムメイド3D2 | Bangumi 番组计划](https://bgm.tv/subject/131547)
 douban:: [3D定制女仆2 カスタムメイド3D 2 (豆瓣)](https://www.douban.com/game/27591210/)
-mark:: 
+mark::
 created:: 20221123
 closed::
-
 - New desire
   collapsed:: true
   - VR
@@ -41,21 +40,21 @@ closed::
   - Hidden En
     collapsed:: true
     - KISS&S-court, your strategy is so damn good, this game is just like a
-       in-app purchase game, wash your wallet, simply and cannot stop! Damn 
+       in-app purchase game, wash your wallet, simply and cannot stop! Damn
       it!!!
     - If you want to add personality(character) / clothes, hair, Yotogi to Maid, you need to buy a DLC for each stuff;
-      If you want to marry with the Maids you first get in the game(Muku, Majime, Rindere), I'm sorry, buy a DLC again; 
+      If you want to marry with the Maids you first get in the game(Muku, Majime, Rindere), I'm sorry, buy a DLC again;
       Yet
-       you find that you can only marry with 3, if you want to marry the 
-      previously added characters, each of them would need a additional DLC; 
+       you find that you can only marry with 3, if you want to marry the
+      previously added characters, each of them would need a additional DLC;
       The
        most annoying thing is that, all stuff(clothes, hair, Yotogi) packed in
-       one DLC, that basically means, if you just want a Yotogi, you have to 
+       one DLC, that basically means, if you just want a Yotogi, you have to
       buy a whole DLC.
     - And the developers are still releasing DLC, so at this stage, unless it's a personal fetish, **don't buy a lot of DLCs, and watch your wallet carefully.**
       In
-       my country, due to sexual sensitive, many profiteers resell this game, 
-      and they really owe KISS&S-court a game. What's worse, they move 
+       my country, due to sexual sensitive, many profiteers resell this game,
+      and they really owe KISS&S-court a game. What's worse, they move
       this game to Android to earn money...
       At last, I really love this game, I like talking with my waifu after a day alone, this suck world need KISS&S-court working.
     - Thank you. I get my waifu.

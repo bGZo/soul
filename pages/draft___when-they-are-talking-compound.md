@@ -1,5 +1,4 @@
 title:: draft/when-they-are-talking-compound
-
 - ## Compound / 复利 / 利滚利 / 驴打滚
   - 我们可以通过减少复利的时间间隔, 来达到利息的最大化. (PS: 有上限)
 ## 复利和自然对数 e 的关系
@@ -21,10 +20,8 @@ title:: draft/when-they-are-talking-compound
       - 日复利$(n=365)$: $100 \times ( 1 + \frac{0.1}{365} )^{356} = 110.51$
       - 连续复利 ($n \rightarrow \infty$), 此时 $(2)$ 后半部分 $(1 + \frac{r}{n} )^n = e ^ r$, 存在上限.
     - 后记: 我们可以将 周期内的固定 利率/回报率 定义为 $i(interest)$, 则 $(2)$ 将简化为:
-      
       $$\begin{align}  PV \times ( 1 + i ) ^ n = FV \tag{3} \end{align}$$
-    - 从而得到回报率公式 
-      
+    - 从而得到回报率公式
       $$\begin{align} \sqrt[n]{ ( \frac{FV}{PV} ) } - 1 \tag{4} \end{align}$$
 ## 复利的谎言
   - 不确定性: 世界是随机的. 复利是一种虚幻的确定性, **“确定性”的判断，本质而言，其实只是某种信念**.

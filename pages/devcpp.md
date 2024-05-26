@@ -1,10 +1,9 @@
 ---
 alias: tools/devcpp
 date: 20240317
-tags: #compiler #cpp 
+tags: #compiler #cpp
 title: devcpp
 ---
-
 - ## Why
 - ## How
 - ## What

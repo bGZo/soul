@@ -42,7 +42,7 @@
       <proxies/>
       <activeProfiles/>
       <profiles>
-        <profile>  
+        <profile>
             <repositories>
                <repository>
                     <id>aliyunmaven</id>
@@ -64,7 +64,7 @@
                     <id>aliyunmavenApache</id>
                     <url>https://maven.aliyun.com/repository/apache-snapshots</url>
                 </repository>
-            </repositories>             
+            </repositories>
          </profile>
       </profiles>
     </settings>

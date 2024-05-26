@@ -113,15 +113,15 @@
 - ### 1_更简化的编译运行
 - JAVA11 提供了更简化的编译运行程序
 - 编译一个java源代码文件语法应该是
-- ``` java 
+- ``` java
   javac Test1.java
   ```
 - 解释执行一个java字节码的语法应该是
-- ``` java 
+- ``` java
   java Test1
   ```
 - 在我们目前的知识里面,运行一个java源代码必须经过两个不中,一个是编译,一个是解释执行,而在java11中,通过一个java命令就可以直接搞定了,语法是
-- ``` java 
+- ``` java
   java Test1.java
   ```
 - 需要注意的是:
@@ -136,14 +136,11 @@
         Person p=new Person();
         // 实例化另一个文件中的Student类
         Student stu =new Student();
-            
     }
-    
   }
   - class Person {
     private String pid;
     private String pname;
-    
   }
   class Test2{
     public static void main(String[] args){
@@ -153,7 +150,6 @@
   ```
 - ``` java
   public class Student{
-    
   }
   ```
 - 如果当前文件中,没有使用其他文件中的类,可以直接运行成功
@@ -176,9 +172,9 @@
 - PS: 多层堆即对象置于DRAM和冷对象置于NVMe闪存
 - ### 4_其他了解
 - * unicode10
-  * Deprecate The Pack200 Tools and API 
+  * Deprecate The Pack200 Tools and API
   * 新的Epsilon垃圾收集器
   * 完全支持Linux容器,包括Docker
   * 支持G1上的并行完全垃圾收集
-  * 最新的HTTPS安全协议TLS 1.3 
+  * 最新的HTTPS安全协议TLS 1.3
   * JAVA Flight Recoder

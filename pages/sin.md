@@ -1,6 +1,5 @@
 alias:: 罪
 mark:: https://en.wikipedia.org/wiki/Sin
-
 - New English Translation of St. Thomas Aquinas's *Summa Theologiae* (*Summa Theologica*)
   - [Table of Contents - Part 1-2 (nd.edu)](https://www3.nd.edu/~afreddos/summa-translation/TOC-part1-2.htm)
     - Q76 Ignorance as a Cause of Sin （无知作为一种罪）
@@ -24,6 +23,5 @@ mark:: https://en.wikipedia.org/wiki/Sin
         - 普遍性无知是否是罪恶的原因？作者认为，普遍性无知不是罪恶的原因，因为它不影响人类行为的判断。
         - 特殊性无知是否是罪恶的原因？作者认为，特殊性无知可以是罪恶的原因，如果它涉及到人类行为应该遵循或避免的事物。
         - 影响性无知是否是罪恶的原因？作者认为，影响性无知可以是罪恶的原因，如果它由于人类行为中缺乏对善良事物或神圣法律的关注而产生。
-          
           这是一个简要的概述，如果您想了解更多细节，请阅读全文。😊
   -

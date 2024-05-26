@@ -1,12 +1,11 @@
 title:: interview
 mark:: 压力考试
-tags:: 
-author:: 
-source:: 
-mark:: 
+tags::
+author::
+source::
+mark::
 created:: 20221124
 closed::
-
 - ## Categories
   - 无领导讨论
     - {{query "无领导"}}
@@ -80,7 +79,7 @@ closed::
           性格上
             心地善良，具有同情心，乐于助人，具的服务意识
             具有大局观和很强的包容心-
-            勤俭朴素，吃苦耐劳 
+            勤俭朴素，吃苦耐劳
           ```
     - 人际沟通
       - e.g.

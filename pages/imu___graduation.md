@@ -1,7 +1,6 @@
 title:: imu/graduation
 alias:: 基于 springcloud 的商城系统的设计与开发
 tags:: #spring/cloud
-
   - [赵俊峰](https://ccs.imu.edu.cn/info/1152/4630.htm)`；`4994323`；`cszjf@imu.edu.cn`
   - 课题介绍：
     collapsed:: true
@@ -193,7 +192,6 @@ tags:: #spring/cloud
           - ```java
             public List<User> queryUserByIds(List<Long> ids) {
               List<User> users = new ArrayList<>();
-            
               List<ServiceInstance> instances = discoveryClient.getInstances("user-service");
               // 因为只有一个UserService,因此我们直接get(0)获取
               ServiceInstance instance = instances.get(0);
@@ -425,19 +423,16 @@ tags:: #spring/cloud
                 // 登录校验，肯定是在前置拦截
                 return "pre";
               }
-            
               @Override
               public int filterOrder() {
                 // 顺序设置为1
                 return 1;
               }
-            
               @Override
               public boolean shouldFilter() {
                 // 返回true，代表过滤器生效。
                 return true;
               }
-            
               @Override
               public Object run() throws ZuulException {
                 // 登录校验逻辑。
@@ -618,7 +613,7 @@ tags:: #spring/cloud
                         Access-Control-Allow-Origin: http://manage.leyou.com
                         <!-- 可接受的域，具体域名 / * -->
                         Access-Control-Allow-Credentials: true
-                        <!-- 是否允许携带cookie, 默认为 False 
+                        <!-- 是否允许携带cookie, 默认为 False
                         True 的话必须指定域名，不能为 * -->
                         Content-Type: text/html; charset=utf-8
                         ```
@@ -628,7 +623,6 @@ tags:: #spring/cloud
                 - 预检请求（preflight）
                   - 特殊请求会在正式通信之前，增加一次HTTP查询请求，称为"预检"请求
                   - 一个“预检”请求的样板：
-                    
                     ```http
                     OPTIONS /cors HTTP/1.1
                     Origin: http://manage.leyou.com
@@ -639,15 +633,11 @@ tags:: #spring/cloud
                     Connection: keep-alive
                     User-Agent: Mozilla/5.0...
                     ```
-                    
                     与简单请求相比，除了Origin以外，多了两个头：
                   - Access-Control-Request-Method：接下来会用到的请求方式，比如PUT
                   - Access-Control-Request-Headers：会额外用到的头信息
-                    
                     > 预检请求的响应
-                    
                     服务的收到预检请求，如果许可跨域，会发出响应：
-                    
                     ```http
                     HTTP/1.1 200 OK
                     Date: Mon, 01 Dec 2008 01:15:39 GMT
@@ -664,7 +654,6 @@ tags:: #spring/cloud
                     Connection: Keep-Alive
                     Content-Type: text/plain
                     ```
-                    
                     除了`Access-Control-Allow-Origin`和`Access-Control-Allow-Credentials`以外，这里又额外多出3个头：
                   - Access-Control-Allow-Methods：允许访问的方式
                   - Access-Control-Allow-Headers：允许携带的头
@@ -708,7 +697,6 @@ tags:: #spring/cloud
             proxy_set_header X-Forwarded-Host $host;
             proxy_set_header X-Forwarded-Server $host;
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        
         	location / {
         		proxy_pass http://127.0.0.1:10010; # 代理转发
         		proxy_connect_timeout 600;
@@ -1313,7 +1301,6 @@ tags:: #spring/cloud
           - ```shell
             ## rdb持久化开关 （RDB 压缩）
             rdbcompression yes
-            
             ## 指定rdb数据存储的⽂件
             dbfilename dump.rdb
             ```
@@ -1335,12 +1322,10 @@ tags:: #spring/cloud
           - ```shell
             ## 开启AOF
             appendonly yes
-            
             ## 设置触发条件（三选⼀）
             appendfsync always 		## 只要进⾏成功的写操作，就执⾏aof
             appendfsync everysec 	## 每秒进⾏⼀次aof
             appendfsync no 			## 让redis执⾏决定aof
-            
             ## 设置aof⽂件路径
             appendfilename "appendonly.aof"
             ```
@@ -1395,16 +1380,12 @@ tags:: #spring/cloud
             //1.string
             //添加数据 set key value
             stringRedisTemplate.boundValueOps(product.getProductId()).set( jsonstr);
-            
             //2.hash
             stringRedisTemplate.boundHashOps("products").put(product.getProductId(),jsonstr);
-            
             //3.list
             stringRedisTemplate.boundListOps("list").leftPush("ccc");
-            
             //4.set
             stringRedisTemplate.boundSetOps("s1").add("v2");
-            
             //5.zset
             stringRedisTemplate.boundZSetOps("z1").add("v1",1.2);
             ```
@@ -1412,7 +1393,7 @@ tags:: #spring/cloud
           - ```java
             //string
             String o = stringRedisTemplate.boundValueOps("103").get();
-            //hash 
+            //hash
             Object v = stringRedisTemplate.boundHashOps("products").get("101");
             //list
             String s1 = stringRedisTemplate.boundListOps("list").leftPop();
@@ -1459,7 +1440,7 @@ tags:: #spring/cloud
                       .constructParametricType(ArrayList.class, IndexImg.class);
                     indexImgs = objectMapper.readValue(imgsStr, javaType);
                   } else {
-                    // 1000个请求都会进⼊else 
+                    // 1000个请求都会进⼊else
                     // (service类在spring容器中是单例的，
                     // 1000个并发会启动1000个线程来处理，但是公⽤⼀个service实例)
                     synchronized (this){

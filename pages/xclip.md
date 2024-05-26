@@ -1,7 +1,6 @@
 alias:: commands/xclip
 created:: 20231015
 icon:: ⌘
-
 - ## Why
 - ## How
 - ## What

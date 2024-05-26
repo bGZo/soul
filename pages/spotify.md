@@ -3,7 +3,6 @@ title:: spotify
 tags:: #music/platform
 cost:: 1
 created:: 20220320
-
 - ## Why this [[music/platform]]
   - To be first, Netease and QQ music both have censored and comments design, which is really wasting time.
   - Then, Apple Music have region restriction, although the China region is cheap, but they have no Joy Zhou and a lot of singer banned by China.
@@ -24,7 +23,6 @@ created:: 20220320
       - ```
         歌单名: 回忆都喂风
         曲目数: 159
-        
         Alice - 米白
         雪之泪 雨之音 - 东京塔子
         红蔷薇白玫瑰 - G.E.M. 邓紫棋
@@ -184,7 +182,6 @@ created:: 20220320
         去大理 - 郝云
         一辈子的孤单 - 刘若英
         让我做你的眼睛,那样才能看得清 (精彩苏七) - 网络歌手
-        
         ------
         歌单名: 听说有人不看剧
         曲目数: 143
@@ -331,9 +328,6 @@ created:: 20220320
         ミライボタン - 纯情的Afilia (純情のアフィリア)
         君が笑む夕暮れ (有你微笑的黄昏) - 南条爱乃 (なんじょう よしの)
         Skyreach - 雨宮天 (あまみや そら)
-        
-        
-        
         ----
         歌单名: 后摇带词
         曲目数: 62
@@ -399,8 +393,6 @@ created:: 20220320
         Holy - Wolf Colony
         Angel with a Shotgun - Nightcore
         Bad Apple!! - nomico (のみこ)
-        
-        
         ---
         歌单名: 吾心安是归处
         曲目数: 191
@@ -595,9 +587,7 @@ created:: 20220320
         Did You Remember the Day We Were Child - Under The Big Bright Yellow Sun
         Into The Sun - Liquid Cinema
         Over the end - 出羽良彰 (でわ よしあき)
-        
-        
-        --- 
+        ---
         歌单名: &#12644;
         曲目数: 9
         雪之泪 雨之音 - 东京塔子
@@ -609,7 +599,6 @@ created:: 20220320
         你还要走 - Maxone / Maxone老虎 / Grape skins / 徐不错
         没有理想 Ordinary life - 一三
         孩子 (Demo) - 西楼
-        
         ```
 - ## What
   - What I've learn some categories by spotify 🥰 #.ol

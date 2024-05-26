@@ -1,5 +1,4 @@
 alias:: interview/java
-
 - [600+ 道 Java面试题及答案整理_牛客网](https://www.nowcoder.com/discuss/1023635)
   - Java 基础
     - DONE 1、面向对象编程有哪些特征？（3）
@@ -59,40 +58,28 @@ alias:: interview/java
     - DONE 27、为什么 byte 取值范围为 -128～127？
       collapsed:: true
       - [byte 是 Java 中的一个基本数据类型，它是一个 8 位的有符号整数。](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[1](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[2](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[3](https://www.w3schools.com/java/java_data_types.asp)
-        
         [8 位表示 byte 类型可以用 8 个二进制位（0 或 1）来表示。](https://www.w3schools.com/java/java_data_types.asp)[3](https://www.w3schools.com/java/java_data_types.asp)
-        
         [有符号表示 byte 类型可以表示正数和负数，以及零。](https://stackoverflow.com/questions/3621067/why-is-the-range-of-bytes-128-to-127-in-java)[4](https://stackoverflow.com/questions/3621067/why-is-the-range-of-bytes-128-to-127-in-java)
-        
         [Java 中的 byte 类型使用二进制补码来表示整数。](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[2](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[5](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-        
         [二进制补码是一种编码方式，它可以使正数和负数的运算更加方便。](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)[5](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-        
         二进制补码的规则是：
       - 如果最高位（第 8 位）是 0，表示这个数是正数或零，其余 7 位就是它的原码（即正常的二进制表示）。
       - 如果最高位（第 8 位）是 1，表示这个数是负数，其余 7 位就是它的反码（即原码取反，每个位都变成相反的值）加上一。
-        
         例如：
       - 数字 +127 的原码和补码都是 `01111111`。
       - 数字 -127 的原码是 `10000001`，反码是 `01111110`，补码是 `01111110 + 1 = 01111111`。
       - 数字 +1 的原码和补码都是 `00000001`。
       - 数字 -1 的原码是 `10000001`，反码是 `01111110`，补码是 `01111110 + 1 = 01111111`。
-        
         [由于 byte 类型只有一个字节（8 比特），所以它能表示的整数范围就受到了限制。](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[2](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[3](https://www.w3schools.com/java/java_data_types.asp)[5](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-        
         如果我们从最小的负数开始计算：
       - 最小的负数的补码是 `10000000`，对应十进制 -128。
       - 加一后得到 `10000001`，对应十进制 -127。
       - 再加一后得到 `10000010`，对应十进制 -126。
       - …
       - 直到加到 `01111111`，对应十进制 +127。
-        
         [再加一后就会发生溢出（overflow），即超出了 byte 类型能表示的范围。](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[2](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[5](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-        
         溢出后得到的结果会回到最小值 `-128`。
-        
         因此，byte 类型能表示的整数范围就是 `-128 ~ +127`。
-        
         您还有其他关于 Java 数据类型或运算符的问题吗？
     - 28、char 类型可以存储中文汉字吗？
     - DONE 29、重载和重写有什么区别？
@@ -149,14 +136,12 @@ alias:: interview/java
         sj.add("b");
         sj.add("c");
         System.out.println(sj.toString()); // 输出 [a,b,c]
-        
         // 合并两个StringJoiner对象
         StringJoiner sj2 = new StringJoiner(";");
         sj2.add("d");
         sj2.add("e");
         sj.merge(sj2);
         System.out.println(sj.toString()); // 输出 [a,b,c;d;e]
-        
         // 使用Collectors类将列表中的元素拼接成字符串
         List<String> list = Arrays.asList("Java", "Python", "C++");
         String result = list.stream().collect(Collectors.joining("|", "{", "}"));
@@ -221,7 +206,6 @@ alias:: interview/java
       - [R (result) 表示返回值的类型](https://zhuanlan.zhihu.com/p/381859667)[2](https://zhuanlan.zhihu.com/p/381859667)，例如 Function<T,R> 表示一个函数，接受一个 T 类型的参数，返回一个 R 类型的结果。
       - [K (key) 和 V (value) 分别代表 Map 中的键值 Key Value](https://zhuanlan.zhihu.com/p/381859667)[1](https://bing.com/search?q=Java+%E6%B3%9B%E5%9E%8B%E4%B8%AD%E7%9A%84+T%E3%80%81R%E3%80%81K%E3%80%81V%E3%80%81E+%E5%88%86%E5%88%AB%E6%8C%87%E4%BB%80%E4%B9%88)[2](https://zhuanlan.zhihu.com/p/381859667)，例如 Map<K,V> 表示一个泛型映射。
       - [E (element) 代表元素，例如 ArrayList 中的元素](https://zhuanlan.zhihu.com/p/381859667)[1](https://bing.com/search?q=Java+%E6%B3%9B%E5%9E%8B%E4%B8%AD%E7%9A%84+T%E3%80%81R%E3%80%81K%E3%80%81V%E3%80%81E+%E5%88%86%E5%88%AB%E6%8C%87%E4%BB%80%E4%B9%88)[2](https://zhuanlan.zhihu.com/p/381859667)[3](https://stackoverflow.com/questions/6008241/what-is-the-difference-between-e-t-and-for-java-generics)，例如 ArrayList<E> 表示一个泛型数组列表。
-        
         [这些字母只是约定俗成的，并没有特殊的含义，你也可以用其他字母来定义泛型类型](https://zhuanlan.zhihu.com/p/381859667)[2](https://zhuanlan.zhihu.com/p/381859667)[3](https://stackoverflow.com/questions/6008241/what-is-the-difference-between-e-t-and-for-java-generics)。
     - 92、Java 金额计算怎么避免精通丢失？
     - 93、Java 语法糖是什么意思？
@@ -850,13 +834,11 @@ alias:: interview/java
       collapsed:: true
       - ```
         在Linux中，root用户是拥有系统管理员权限的超级用户，而普通用户则只拥有系统中分配给他们的权限。以下是区分root和普通用户的一些常见方法：
-        
         1. 用户名：root用户的用户名通常是“root”，而普通用户则是由系统管理员分配的其他名称。
         2. UID：每个用户在系统中都有一个唯一的用户标识符（UID），root用户的UID通常为0，而普通用户的UID则是大于0的数字。
         3. 权限：root用户拥有对系统中所有文件和目录的完全控制权限，而普通用户只能访问他们拥有权限的文件和目录。
         4. shell提示符：默认情况下，root用户的shell提示符通常是以“#”结尾的，而普通用户的提示符通常是以“$”结尾的。
         5. sudo权限：sudo是Linux中一种授权机制，允许普通用户在必要时以root用户身份运行特定的命令。通常，只有root用户和具有sudo权限的普通用户才能使用sudo命令。
-        
         总之，通过用户名、UID、权限、shell提示符和sudo权限等方式，可以在Linux系统中区分root用户和普通用户。
         ```
     - 13、Linux 怎么切换用户？
@@ -882,69 +864,52 @@ alias:: interview/java
         df -h
         ```
       - du命令：查看目录和文件的磁盘空间使用情况。可以使用以下命令来查看当前目录下文件和目录的磁盘空间使用情况：
-        
         ```
         du -sh *
         ```
       - ls命令：查看文件和目录的大小。可以使用以下命令来查看当前目录下的所有文件和目录的大小：
-        
         ```
         ls -lh
         ```
       - ncdu命令：以交互方式查看磁盘使用情况。ncdu是一个交互式命令行工具，可以帮助您以图形化的方式查看磁盘使用情况。如果您没有安装该工具，可以使用以下命令进行安装：
-        
         ```
         sudo apt-get install ncdu
         ```
-        
         以上命令都是常用的用于查看磁盘使用情况的命令，在Linux系统中可以根据需要使用相应的命令。
     - ==`30、Linux 怎么查看内存的使用情况？`== #.ol
       collapsed:: true
       - free命令：可以显示系统的内存使用情况，包括物理内存、交换空间等信息。可以使用以下命令来查看内存使用情况：
-        
         ```
         free -h
         ```
-        
         其中，选项“-h”表示以人类可读的方式显示结果，更加易读。输出结果中，第一行显示物理内存的使用情况，第二行显示交换空间的使用情况。
       - top命令：可以实时动态地查看系统进程的资源使用情况，包括CPU、内存等。可以使用以下命令来启动top命令：
-        
         ```
         top
         ```
-        
         在top命令的输出中，按下“Shift+M”键可以按内存使用率排序，可以看到占用内存最多的进程。
       - ps命令：可以列出当前系统中的进程列表，包括进程的PID、命令名称、CPU使用率、内存使用率等信息。可以使用以下命令来列出占用内存最多的前N个进程：
-        
         ```
         ps aux --sort=-%MEM | head -n N
         ```
-        
         其中，选项“--sort=-%MEM”表示按内存使用率逆序排序，选项“head -n N”表示只显示前N个结果。A（all）；U（uid, name）；X（processes without controlling ttys）
     - ==`31、Linux 怎么查看资源消耗最多的进程？`== #.ol
       collapsed:: true
       - top命令：可以实时动态地查看进程的资源使用情况。可以使用以下命令来启动top命令：
-        
         ```
         top
         ```
-        
         在top命令的输出中，按下“Shift+P”键可以按CPU使用率排序，按下“Shift+M”键可以按内存使用率排序，可以看到资源消耗最多的进程。
       - ps命令：可以列出当前系统中的进程列表，包括进程的PID、命令名称、CPU使用率、内存使用率等信息。可以使用以下命令来列出资源消耗最多的前N个进程：
-        
         ```
         ps aux --sort=-%CPU | head -n N
         ```
-        
         其中，选项“--sort=-%CPU”表示按CPU使用率逆序排序，选项“head -n N”表示只显示前N个结果。可以将“%CPU”换成“%MEM”来按内存使用率排序。
       - htop命令：是一个交互式的进程查看工具，类似于top命令，但提供更多的功能和操作。可以使用以下命令来启动htop命令：
-        
         ```
         htop
         ```
-        
         在htop命令的输出中，按下“F6”键可以按CPU使用率或内存使用率排序，可以看到资源消耗最多的进程。
-        
         以上三种方法都可以用来查看资源消耗最多的进程，可以根据需要选择合适的方法。
     - ==`32、Linux 怎么看端口被哪个进程占用？`==
       collapsed:: true
@@ -964,33 +929,24 @@ alias:: interview/java
       collapsed:: true
       - 在Linux系统中，可以使用以下命令来查找某个进程：
       - ps命令：可以列出当前系统中的进程列表，包括进程的PID、命令名称、CPU使用率、内存使用率等信息。可以使用以下命令来查找某个进程：
-        
         ```
         ps aux | grep 进程名
         ```
-        
         其中，“进程名”是要查找的进程的名称，可以使用部分名称进行模糊匹配。
       - pgrep命令：可以通过进程名称来查找进程的PID，可以使用以下命令来查找某个进程：
-        
         ```
         pgrep 进程名
         ```
-        
         其中，“进程名”是要查找的进程的名称。
       - pstree命令：可以以树状结构的形式显示当前系统中的进程和它们之间的关系，可以使用以下命令来查找某个进程：
-        
         ```
         pstree | grep 进程名
         ```
-        
         其中，“进程名”是要查找的进程的名称。
-        
         以上三种方法都可以用来查找某个进程，可以根据需要选择合适的方法。如果需要终止某个进程，可以使用kill命令，并指定该进程的PID。例如：
-        
         ```
         kill -9 PID
         ```
-        
         其中，“PID”是要终止的进程的PID。注意，使用kill命令需要谨慎，避免误操作。
     - 34、Linux 怎么结束某个进程？
     - 35、Linux 怎么清屏？
@@ -998,18 +954,15 @@ alias:: interview/java
       collapsed:: true
       - 在Linux系统中，可以通过修改控制台的配置文件来设置超时自动注销，具体步骤如下：
       - 打开控制台的配置文件/etc/profile，可以使用以下命令：
-        
         ```
         sudo nano /etc/profile
         ```
       - 在文件的末尾添加以下内容：
-        
         ```
         TMOUT=分钟数
         readonly TMOUT
         export TMOUT
         ```
-        
         其中，“分钟数”表示空闲多少分钟后自动注销，可以根据需要自行设置，建议设置为5-15分钟。
     - 37、Linux vim 和 vi 命令的区别？
     - 38、Linux vim 命令怎么使用？

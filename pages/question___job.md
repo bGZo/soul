@@ -1,6 +1,5 @@
 title:: question/job
 alias:: job/question
-
   - Kick the can down the road **踢皮球⚽️**
     - > As is the question of whether this kind of legislative postponement is simply an issue of procrastination or a deliberate avoidance of something that it's hoped will somehow go away or fall to someone else.
       问题是这种立法推迟是否仅仅是拖延问题，还是**故意回避希望以某种方式消失或落入他人手中的事情**
@@ -12,13 +11,13 @@ alias:: job/question
           把皮球踢回去, 换角色, 把此时此刻的问题包装场景扔回去;
           创造共情条件, 让对方去面对 "皮球";
           return;
-        else # 对方拒绝回诉求 / 无法和对方取得沟通  
+        else # 对方拒绝回诉求 / 无法和对方取得沟通
           if(存在对应的 调和/权威 机构):
               联系第三方;
               return;
             else
               # 抗议? 暴动? 表达诉求?
-        # TODO: 
+        # TODO:
         # 如何更好地减少别人的帮助成本 + 别人拒绝的成本?
         ```
       - 原因 -> 多方的无法理解;

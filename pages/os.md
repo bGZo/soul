@@ -1,6 +1,5 @@
 title:: os
 alias:: system/operating
-
 -
 - [[soft-return]]
 - [[process]]
@@ -42,7 +41,6 @@ alias:: system/operating
       // filedes: 文件描述符; buf: 待写入数据缓存区; nbytes:要写入的字节数
       ```
   - mkfifo()函数
-    
     创建FIFO管道
     - ```
       #include <sys/types.h>
@@ -51,7 +49,6 @@ alias:: system/operating
       // 创建成功返回0，出错返回1
       // pathname: 普通的路径名; mode: 与open函数中的mode参数相同
       ```
-      
       [3/n] 存储管理
 - 磁盘工作原理
   - 一直以来不是很理解计算机组成原理的磁盘工作原理, 这周上操作系统再次提到了这个模块, 偶然寻到一个[视频](https://www.bilibili.com/video/BV11a4y1x7PC/)讲解, 感觉非常清晰, 总之就是三级寻址, `柱面 => 磁道(定位盘面) => 扇区`.

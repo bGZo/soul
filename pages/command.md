@@ -1,9 +1,7 @@
 alias:: 命令
 icon:: ⌘
-
 created:: 20230625
 title:: command
-
   - Linux Manual
     template:: command-man
     template-including-parent:: false
@@ -137,17 +135,14 @@ title:: command
         - dirs
         - du
           - ```shell
-            du 
+            du
             # 单独计算每个文件的大小
-             
             du -m
             du -g
             # 以兆字节（MB）或千兆字节（GB）为单位显示文件大小
-            
-            du -h 
+            du -h
             # 显示更为可读的，适应大小的数值
-            
-            du -a 
+            du -a
             # 输出文件夹中每一个文件的大小
             ```
           - Cases

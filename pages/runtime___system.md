@@ -1,7 +1,6 @@
 title:: runtime/system
 alias:: execution/runtime/system, runtime-system
 mark:: 运行时系统
-
   - 指一种半编译的执行码在目标机器上运行时的环境
     - [[runtime/environment]] 运行环境是一种介乎编译器及直译器的执行方式
       - Java运行环境 ("Java Runtime Environment", JRE)

@@ -8,7 +8,7 @@
   - By purpose
     via:: ["TUNES: Programming Languages"](http://tunes.org/wiki/programming_20languages.html). [Archived](https://web.archive.org/web/20071020203251/http://tunes.org/wiki/programming_20languages.html) from the original on 20 October 2007.
     - General programming languages
-    - System programming languages 
+    - System programming languages
       via:: https://en.wikipedia.org/wiki/System_programming_language, [[lang/programming/system]]
     - Scripting languages
       id:: 62a3352c-8411-4cf8-825c-7483e0c7a35d

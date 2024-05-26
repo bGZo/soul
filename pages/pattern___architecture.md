@@ -1,3 +1,2 @@
 title:: pattern/architecture
-
 -

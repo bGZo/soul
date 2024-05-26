@@ -4,7 +4,6 @@ tags: scheme,sicp
 source: https://segmentfault.com/a/1190000005064958
 author: garfileo
 ---
-
 - 原文： http://www.posteriorscience.net/?p=206
 - 以下是不太严格的译文。
 - 在纽约举行的一次 Lisp 集会上，Gerry Sussman 被问到 MIT 为何停掉著名的 6.001 课程。这门课所用的教材是 Sussman 与 Abelson 所写的《Structure and Interpretation of Computer Programs》(中译《计算机程序的构造与解释》)。Sussman 的回答如下：

@@ -1,5 +1,4 @@
 alias:: syndrome/fraud
-
 - # Impostor
   - {{youtube https://www.youtube.com/watch?v=eqhUHyVpAwE}}
   - 冒名顶替症候群 / 冒名顶替现象 / 骗子症候群

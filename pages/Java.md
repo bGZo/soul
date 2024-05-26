@@ -1,6 +1,5 @@
 tags:: #lang/programming
 icon:: ☕
-
   - | Items | Java | [[cpp]] |
     | 面向对象(封装/继承/多态)|✔|✔|
     | 方法重载 |✔|✔|

@@ -2,7 +2,6 @@ alias:: browser/chromium, chrome
 mark:: uGc
 icon:: 
 source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-software/ungoogled-chromium: Google Chromium, sans integration with Google](https://github.com/ungoogled-software/ungoogled-chromium) ![](https://img.shields.io/github/stars/ungoogled-software/ungoogled-chromium)
-
   - Gc with [Hibbiki/chromium-win64: Chromium builds for Windows x64](https://github.com/Hibbiki/chromium-win64) ![](https://img.shields.io/github/stars/Hibbiki/chromium-win64)
 - [[Backup]]
   collapsed:: true
@@ -44,7 +43,7 @@ source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-softwar
       collapsed:: true
       - [Can't customize new tab · Issue #153 · ungoogled-software/ungoogled-chromium-archlinux](https://github.com/ungoogled-software/ungoogled-chromium-archlinux/issues/153)
       - [Add flag for setting a custom new tab page by Ahrotahn · Pull Request #1686 · ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium/pull/1686)
-    - RSS Start Page #Project
+    - RSS Start Page #project
       collapsed:: true
       - Extension show rss feed recently like Brave
       - [deepjyoti30/startpage: A minimal starpage for Chrome and Firefox](https://github.com/deepjyoti30/startpage) #shoulders-of-giants

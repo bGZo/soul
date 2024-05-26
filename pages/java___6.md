@@ -11,10 +11,10 @@
       NavigableMap
       ConcurrentNavigableMap
       ArrayDeque
-      ConcurrentSkipListSet 
+      ConcurrentSkipListSet
       ConcurrentSkipListMap
-      ConcurrentSkipListMap 
-      AbstractMap.SimpleEntry 
+      ConcurrentSkipListMap
+      AbstractMap.SimpleEntry
       AbstractMap.SimpleImmutableEntry
       ```
   - Scripting. 可以让其他语言在java平台上运行。 java6包含了一个基于Mozilla Rhino实现的javascript脚本引擎。

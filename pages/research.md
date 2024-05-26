@@ -1,5 +1,4 @@
 tags:: TODO
-
 - 🧐
 -
 - ## academic fields

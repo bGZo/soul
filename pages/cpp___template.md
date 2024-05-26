@@ -1,5 +1,4 @@
 title:: cpp/template
-
 - [[generic]]
 - 本质和函数模板相同.
 - ```cpp
@@ -11,7 +10,6 @@ title:: cpp/template
 - ## USAGE
   collapsed:: true
   - > Here we have created a template function with myType as its template parameter. This template parameter represents a type that has not yet been specified, but that can be used in the template function as if it were a regular type.
-    
     我们以myType作为模板参数创建了一个模板函数。此模板参数表示尚未指定的类型，但是可以在模板函数中使用它，就像它是常规类型一样
 - ## FUNCTION
   collapsed:: true
@@ -33,10 +31,10 @@ title:: cpp/template
     template <class T>
     T mypair<T>::getmax ()
     ```
-  - >  The first one is the template parameter. 
-    > 
-    > The second T refers to the type returned by the function. 
-    > 
+  - >  The first one is the template parameter.
+    >
+    > The second T refers to the type returned by the function.
+    >
     > And the third T (the one between angle brackets) is also a requirement: It specifies that this function's template parameter is also the class template parameter.
 - ## Non-type parameters for templates
   collapsed:: true
@@ -72,15 +70,9 @@ title:: cpp/template
     > Because templates are compiled when required, this forces a restriction for multi-file projects: the implementation (definition) of a template class or function must be in the same file as its declaration. That means that we cannot separate the interface in a separate header file, and that we must include both interface and implementation in any file that uses the templates.
     >
     > Since no code is generated until a template is instantiated when required, compilers are prepared to allow the inclusion more than once of the same template file with both declarations and definitions in a project without generating linkage errors.
-    
-    
-    
     从编译器的角度来看，模板不是正常的函数或类。它们是按需编译的，这意味着直到需要使用特定模板参数的实例化之后，才编译模板函数的代码。那时，需要实例化时，编译器会为模板中的这些参数专门生成一个函数。
-    
     当项目增长时，通常会将程序的代码拆分为不同的源代码文件。在这些情况下，接口和实现通常是分开的。以函数库为例，该接口通常由可调用的所有函数的原型的声明组成。这些通常在带有.h扩展名的“头文件”中声明，并且实现（这些函数的定义）在具有c ++代码的独立文件中。
-    
     由于模板是在需要时编译的，因此对多文件项目施加了限制：模板类或函数的实现（定义）必须与声明的文件位于同一文件中。这意味着我们不能在单独的头文件中分离接口，并且必须在使用模板的任何文件中同时包含接口和实现。
-    
     由于在需要时实例化模板之前不会生成任何代码，因此编译器准备允许在项目中使用声明和定义在同一模板文件中多次包含该模板文件，而不会产生链接错误。
 - ## refs
   - https://blog.csdn.net/EmSoftEn/article/details/50421124

@@ -4,7 +4,6 @@ released-date:: 19990315
 wikipedia:: [RSS - Wikipedia](https://en.wikipedia.org/wiki/RSS)
 tags:: #info
 title:: RSS
-
 - ## Why
   - The first time icon of RSS I see is in the CD show. I even don't know what exactly is it. It appeared in the product birthed in last 10 years in China mainland.
   - Then when I have some spare time in 2020 and I notice it again. I wonder whether it have some interesting story or not. And at that point, I use a simple and not well reader to subscribe RSS. And just feeling amazing, and feel sad as well, like (by the way, they're [[sucks]])
@@ -187,7 +186,7 @@ title:: RSS
         - TODO How to build a good flow of reading latter? When I meet a good blog.
     - RSS  + **Raindrop + Export to Each Platform**
       - 依赖 Raindrop 的高亮导致无法在 RSS Reader 内阅读;
-        - 我想划线高亮, 我就必须跳转到原网站去阅读, 
+        - 我想划线高亮, 我就必须跳转到原网站去阅读,
           传统的 Rss Reader 全文抓取失去了意义
         - 稍后读 Read Latter 无所谓, 因为本来就打算在后者阅读
       - 参考同类竞品 [[Alternative]] [[read latter]] [[tools]]
@@ -241,7 +240,7 @@ title:: RSS
       - Extra
         - [What are Bookmarklets? How to Use JavaScript to Make a Bookmarklet in Chromium and Firefox](https://www.freecodecamp.org/news/what-are-bookmarklets/)
         - TODO [异步 JavaScript 简介 - 学习 Web 开发 | MDN](https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Asynchronous/Introducing)
-        - JavaScript regex group replace? 
+        - JavaScript regex group replace?
           [regex - Javascript replace with reference to matched group? - Stack Overflow](https://stackoverflow.com/questions/1234712/javascript-replace-with-reference-to-matched-group)
           - ```js
             /**

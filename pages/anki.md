@@ -1,7 +1,6 @@
 tags:: tools
 wikipedia:: [Anki (software) - Wikipedia](https://en.wikipedia.org/wiki/Anki_(software))
 bookmark:: [AnkiWeb](https://ankiweb.net)
-
 - ## Why
   - I was used to blame my hobbies except the study for forgotten knowledge in the past. And basically I picked up a wrong story from the first.
   - Now I have to recongnize, the forgetting things is prefactly normal, there's no bad habbies in judgement, only whether you like it or not!
@@ -14,7 +13,7 @@ bookmark:: [AnkiWeb](https://ankiweb.net)
     - ```js
       /* https://github1s.com/ninja33/anki-dict-helper/blob/HEAD/ext/fg/js/client.js#L174-L181 */
       let url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(definition.expression)}`; //api of youdao audio
-      const audio = this.audio[url] || new Audio(url); // awe new: 
+      const audio = this.audio[url] || new Audio(url); // awe new:
       ```
   - So I made a basic template `anki` to replace official one, although it has a little ugly and really simple, but it works well )
     - {{iframe https://gist.github.com/bGZo/b26301b0d528f41302f8d547f47f733f}}
@@ -24,7 +23,7 @@ bookmark:: [AnkiWeb](https://ankiweb.net)
     - [AwesomeTTS - Add speech to your flashcards - AnkiWeb](https://ankiweb.net/shared/info/1436550454)
   - For using quickly, you could view shortcuts via ((6469cfdf-21b3-4c96-8a1a-a852de39f55e))
 - ## What
-  - DONE Donate Anki by purchasing in [app store](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (￥163); #donation 
+  - DONE Donate Anki by purchasing in [app store](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (￥163); #donation
     dollar:: 25
     closed:: 20221029
     - > Use of the service is currently free, and the hosting costs are supported by sales of the [iPhone app](http://ankisrs.net/docs/AnkiMobile.html). As the hosting costs continue to grow, we may need to introduce a "freemium" model in the future, where basic accounts are free, and people can pay for accounts that support larger decks or extra features.

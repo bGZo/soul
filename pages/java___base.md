@@ -1,6 +1,5 @@
 title:: java/base
 mark:: java syntax
-
 - ## Type (8)
   collapsed:: true
   - Keywords
@@ -72,7 +71,7 @@ mark:: java syntax
           - From: Java 5.
           - ```java
              int int1 = 1;
-             Integer integer2 = int1;     // 自動裝箱 
+             Integer integer2 = int1;     // 自動裝箱
              int int3 = integer2;         // 自動拆箱
             /**字節碼反編譯後，會還原出其隱式調用的轉換方法**/
              int int1 = 1;

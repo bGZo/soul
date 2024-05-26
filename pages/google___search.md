@@ -1,6 +1,5 @@
 title:: google/search
 alias:: search/engine/google
-
 - 2014年12月版 部分参考：《利用搜索引擎检索现有技术》魏保志201203版
   collapsed:: true
   - | Char        | Meanings                                                     | Case                              |

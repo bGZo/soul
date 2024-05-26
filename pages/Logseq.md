@@ -6,7 +6,6 @@ created:: 20210801
 tags:: #tools
 collapsed:: true
 title:: Logseq
-
 - ## Why
   - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[Privacy]], [[censor]], with high [[price]] and bullshit user agreement.
     - ((64772db8-4367-4d35-b2ca-fed0e45bdd2c))
@@ -16,11 +15,11 @@ title:: Logseq
   - How to use logseq fully? What's the design they are? #.ol
     - The configuration, stored in `config.edu` file, which included  a few functions hidden: #.ol
       collapsed:: true
-      - [Feature: add codemirror options by andelf · Pull Request #3699 · logseq/logseq](https://github.com/logseq/logseq/pull/3699) via: 
+      - [Feature: add codemirror options by andelf · Pull Request #3699 · logseq/logseq](https://github.com/logseq/logseq/pull/3699) via:
         collapsed:: true
         [Make it easy to configure syntax highlighting theme? - Questions & Help - Logseq](https://discuss.logseq.com/t/make-it-easy-to-configure-syntax-highlighting-theme/4617)
         - title:: [codemirror/codemirror5: In-browser code editor (version 5, legacy)](https://github.com/codemirror/codemirror5) ![](https://img.shields.io/github/stars/codemirror/codemirror5)
-          tags:: #Github #opensource 
+          tags:: #Github #opensource
           created:: 20230531
       - [Specify Indentation Type & Changing The Default Font - Questions & Help - Logseq](https://discuss.logseq.com/t/specify-indentation-type-changing-the-default-font/2703/6)
         collapsed:: true
@@ -78,8 +77,8 @@ title:: Logseq
       background-image:: https://images.unsplash.com/photo-1498855926480-d98e83099315
       collapsed:: true
       - Logseq Plugin | 插件
-        - title:: [shady2k/logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin) 
-          tags:: #Github #opensource 
+        - title:: [shady2k/logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin)
+          tags:: #Github #opensource
           created:: 20221120
           - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
             collapsed:: true
@@ -92,19 +91,14 @@ title:: Logseq
                 Test
                   * sub test
                     * sub test
-                
                 Here show something
-                
                 Test
                   + sub test
                     + sub test
-                
                 Here show something
-                
                 - Test
                   - sub test
                     - sub test
-                
                 Here show something
                 ```
                 Get:
@@ -129,19 +123,14 @@ title:: Logseq
             Test
               * sub test
                 * sub test
-            
             Here show something
-            
             Test
               + sub test
                 + sub test
-            
             Here show something
-            
             - Test
               - sub test
                 - sub test
-            
             Here show something
             ```
             Get:
@@ -168,7 +157,7 @@ title:: Logseq
         - 3.数据库同步数据会随知识库的增加而呈好几个数量级上涨;
           - 单文件 sql 会变得无比肿胀
         - 4.功能陈旧
-          - 就拿个批量删除 RSS 数据源来说, 还需要自己写个脚本的; 
+          - 就拿个批量删除 RSS 数据源来说, 还需要自己写个脚本的;
             via: [Feed clean-up - Zotero Forums](https://forums.zotero.org/discussion/comment/413650/);
         - 5.迁移成本巨大;
         - 6.常驻后台 + Extension;
@@ -189,12 +178,12 @@ title:: Logseq
             - 视频结尾说明一个更多的好处就是**在每次层级改变的时候, 只需要变更 Hashtag, 而不是将内容从一个文件搬运到另一个文件** (我是后者hhh)
   - The page exported by default is not included plugin setting. The better way is writing it in `custom.css`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5). And here is my changelog: #changelog/wiki
     collapsed:: true
-    - Font 
+    - Font
       created:: 20221015
       collapsed:: true
       - [Basic UI Settings e.g. Font Size - Feature Requests - Logseq](https://discuss.logseq.com/t/basic-ui-settings-e-g-font-size/2946/25)
       - [Specify Indentation Type & Changing The Default Font - Questions & Help - Logseq](https://discuss.logseq.com/t/specify-indentation-type-changing-the-default-font/2703/5)
-    - Tags 
+    - Tags
       created:: 20221118
       collapsed:: true
       - ```css
@@ -206,7 +195,6 @@ title:: Logseq
           background: red;
           box-shadow: 0 0 4px red;
         }
-        
         a.tag[data-ref="star" i] {
           visibility: hidden;
           width: 24px;
@@ -289,7 +277,6 @@ title:: Logseq
                (task ?b #{"DOING"})]
         }
         #+END_QUERY✔ Focus On
-        
         #+BEGIN_QUERY
         {:title [:h2 "✔ To Do"]
          :query [:find (pull ?b [*])
@@ -297,9 +284,7 @@ title:: Logseq
                (task ?b #{"TODO"})]
         }
         #+END_QUERY✔ Focus On
-        
         {{query [[waiting-todo]] }}
-        
         #+BEGIN_QUERY
         {:title [:h2 "Waiting ToDo"]
          :query  [:find (pull ?b [*])
@@ -355,7 +340,7 @@ title:: Logseq
     - Journals in each day
     - Using bi-directional links and graph to connect.
       - Although it's really slow.
-  - [笔记软件为何需要本地存储？ - Skywind Inside](https://www.skywind.me/blog/archives/2582) 
+  - [笔记软件为何需要本地存储？ - Skywind Inside](https://www.skywind.me/blog/archives/2582)
     id:: 64772db8-4367-4d35-b2ca-fed0e45bdd2c
     collapsed:: true
     - 不要忘记历史：
@@ -373,7 +358,7 @@ title:: Logseq
   - What I learned about [[pkm]]?
     id:: 646ad604-3548-4c57-a41a-4c551df8a8cc
     - #+BEGIN_PINNED
-      [^1] **Every page should have a [[Template]] page refer to parent class**.
+      [^1] **Every page should have a [[template]] page refer to parent class**.
       2 Everything could be page, which could linked somewhere else in graph.
       3 ((63bac790-01ec-4ada-a89b-89724b3041c4))
       #+END_PINNED

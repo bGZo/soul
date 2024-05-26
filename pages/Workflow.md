@@ -4,7 +4,6 @@ icon:: ⚙️
 created:: 20230910
 title:: Workflow
 wikipedia:: [Workflow - Wikipedia](https://en.wikipedia.org/wiki/Workflow)
-
 - ## Why
 - ## How
 - ## What

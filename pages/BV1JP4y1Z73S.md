@@ -1,7 +1,6 @@
-tags:: #ssm 
+tags:: #ssm
 mark:: [【动力节点】SSM框架之MyBatis上线即经典，跟老杜从零学mybatis 入门到架构思维](https://www.bilibili.com/video/BV1JP4y1Z73S/)
 created:: 20230305
-
   - https://www.yuque.com/dujubin/ltckqu/pozck9 & `rs4n`
 - ## #.ol-nested-2 Contents
   - DONE MyBatis概述
@@ -212,18 +211,15 @@ created:: 20230305
         - ThreadLocal 保证一个线程中只有一个 SqlSession
         - ```java
           package com.powernode.bank.utils;
-          
           import org.apache.ibatis.io.Resources;
           import org.apache.ibatis.session.SqlSession;
           import org.apache.ibatis.session.SqlSessionFactory;
           import org.apache.ibatis.session.SqlSessionFactoryBuilder;
-          
           /**
            * MyBatis工具类
            */
           public class SqlSessionUtil {
             private static SqlSessionFactory sqlSessionFactory;
-          
             /**
              * 类加载时初始化sqlSessionFactory对象
              */
@@ -235,9 +231,7 @@ created:: 20230305
                 e.printStackTrace();
               }
             }
-          
             private static ThreadLocal<SqlSession> local = new ThreadLocal<>();
-          
             /**
              * 每调用一次openSession()可获取一个新的会话，该会话支持自动提交。
              * @return 新的会话对象
@@ -250,7 +244,6 @@ created:: 20230305
               }
               return sqlSession;
             }
-          
             /**
              * 关闭SqlSession对象
              * @param sqlSession
@@ -272,18 +265,15 @@ created:: 20230305
       - 利用 Java 反射和声明好的接口，生成对应的方法；
       - ```java
         package com.powernode.bank.utils;
-        
         import org.apache.ibatis.javassist.CannotCompileException;
         import org.apache.ibatis.javassist.ClassPool;
         import org.apache.ibatis.javassist.CtClass;
         import org.apache.ibatis.javassist.CtMethod;
         import org.apache.ibatis.session.SqlSession;
-        
         import java.lang.reflect.Constructor;
         import java.lang.reflect.Method;
         import java.lang.reflect.Modifier;
         import java.util.Arrays;
-        
         /**
          * 使用javassist库动态生成dao接口的实现类
          *
@@ -292,7 +282,6 @@ created:: 20230305
          * @since 1.0
          */
         public class GenerateDaoByJavassist {
-        
             /**
              * 根据dao接口生成dao接口的代理对象
              *

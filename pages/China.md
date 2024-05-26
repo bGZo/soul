@@ -1,7 +1,6 @@
 icon:: 🇨🇳
 title:: China
 alias:: 中国
-
 - Hierarchy
   collapsed:: true
   - 中共中央组织部 (国家公务员局)

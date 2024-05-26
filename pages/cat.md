@@ -5,7 +5,6 @@ tags:: #Hobby
 cost:: 5
 created:: 20230529
 public:: false
-
 - ## Why
   - In such a cruel world, you may feel lonely, you may feel that you're too small, to this society with highly industrialized. You would feel sense of belonging if tame it. I mean, you could get a new relationship with someone, even they cannot understand by your language. (See the article written by Su Gengsheng ((6474a8e3-3b3e-45be-ae77-17cbcdc2e226)))
   - And they just like your child, you need to take good care of them. You could play with them in your spare time. You would be the first, or even only person they own in their short lives. You need to know something, such as they really have no bad idea, they're weak, cute and friendly. (See ((4847f074-7bd0-4988-91c9-e46f80e46108)))

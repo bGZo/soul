@@ -1,7 +1,6 @@
 icon:: 👨‍💻
-tags:: #leetcode/simple #hashtable #two-pointers  
+tags:: #leetcode/simple #hashtable #two-pointers
 created:: 20230513
-
 - ## Content
   - <iframe src="https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/largest-positive-integer-that-exists-with-its-negative/)
@@ -26,11 +25,9 @@ created:: 20230513
     class Solution {
       public int findMaxK(int[] nums) {
         HashSet<Integer> hs = new HashSet<>();
-    
         int len = nums.length, maxK = -1;
         for(int i =0 ; i< len; i++){
           hs.add(nums[i]);
-    
           if(hs.contains(-nums[i])){
             maxK = Math.max(Math.abs(nums[i]), maxK);
           }

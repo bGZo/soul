@@ -1,6 +1,5 @@
 icon:: 🤔
 tags:: TODO
-
   - #vs [[thought]]
     - > thought is one step at a time and these various steps makes up thinking
     - > But when understood in the widest sense, **any mental event may be understood as a form of thinking, including perception and unconscious mental processes**. In a slightly different sense, the term *thought* refers not to the mental processes themselves but to mental states or systems of ideas brought about by these processes.

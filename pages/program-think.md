@@ -1,13 +1,12 @@
 title:: program-think
-alias:: 编程随想 
-desc:: 
+alias:: 编程随想
+desc::
 tags:: #Blog
-author:: 编程随想 
+author:: 编程随想
 source:: [编程随想的博客](https://program-think.blogspot.com/)
-mark:: 
+mark::
 created:: 20221212
 closed::
-
 - Archives
   - Java 新手的通病[0]：概述
     collapsed:: true
@@ -62,10 +61,10 @@ closed::
         - synchronized 对性能有没有影响？为什么？
         - volatile 关键字又是派啥用滴？啥时候需要用这个关键字捏？
   - title:: [计算机网络通讯的【系统性】扫盲——从“基本概念”到“==OSI 模型==”](https://program-think.blogspot.com/2021/03/Computer-Networks-Overview.html)
-    author:: 
+    author::
     tags:: #archive/web #web #networking
     created:: 20221212
-    mark:: 
+    mark::
     archive:: [💾 Archived](../assets/archived_web/计算机网络通讯的【系统性】扫盲——从基本概念到OSI 模型 @ 编程随想的博客 (12_12_2022 2_18_47 PM).html)
     collapsed:: true
     - 本文的目标读者
@@ -274,14 +273,14 @@ closed::
         - **4层交换机（Layer 4 switching）**
         - **状态防火墙（[stateful firewall](https://en.wikipedia.org/wiki/Stateful_firewall)）**
       - 传输层相关的【软件工具】
-        - **[netcat](https://en.wikipedia.org/wiki/Netcat) 家族**——传输层的“瑞士军刀”  
-          关于 netcat，俺已经写过一篇比较详细的教程：《[扫盲 netcat（网猫）的 N 种用法——从“网络诊断”到“系统入侵”](https://program-think.blogspot.com/2019/09/Netcat-Tricks.html)》。看完这篇教程，你肯定能体会它功能的强大——很多与 TCP/UDP 相关的事情，都可以用 netcat 搞定。  
+        - **[netcat](https://en.wikipedia.org/wiki/Netcat) 家族**——传输层的“瑞士军刀”
+          关于 netcat，俺已经写过一篇比较详细的教程：《[扫盲 netcat（网猫）的 N 种用法——从“网络诊断”到“系统入侵”](https://program-think.blogspot.com/2019/09/Netcat-Tricks.html)》。看完这篇教程，你肯定能体会它功能的强大——很多与 TCP/UDP 相关的事情，都可以用 netcat 搞定。
           另外，netcat 还有很多衍生品（衍生的开源项目），构成一个丰富的 netcat 家族。在上述教程也有介绍。
-        - **netstat ＆ ss**  
-          Windows 和 POSIX（Linux＆UNIX）都有一个 netstat 命令，可以查看当前系统的 TCP/UDP 状态（包括当前系统开启了哪些监听端口）。  
+        - **netstat ＆ ss**
+          Windows 和 POSIX（Linux＆UNIX）都有一个 netstat 命令，可以查看当前系统的 TCP/UDP 状态（包括当前系统开启了哪些监听端口）。
           另外，Linux 上还有一个 ss 命令，功能更强（但这个命令在 Windows 上默认没有）
-        - **[nmap](https://en.wikipedia.org/wiki/Nmap)**  
-          这是最著名的开源的扫描器，可以扫描远程主机监听了哪些传输层端口（注：前面提到的“netcat 家族”也可以干这事儿）  
+        - **[nmap](https://en.wikipedia.org/wiki/Nmap)**
+          这是最著名的开源的扫描器，可以扫描远程主机监听了哪些传输层端口（注：前面提到的“netcat 家族”也可以干这事儿）
           nmap 的功能很强，“端口扫描”只是其功能之一。
     - 业务层（OSI 上三层）：概述
       collapsed:: true
@@ -290,21 +289,21 @@ closed::
       - 会话层 ＆ 表示层 ＆ 应用层
     - 业务层（OSI 上三层）：具体实例
       collapsed:: true
-      - 业务层的协议非常多。即使光把各种协议的名称列出来，也很费劲。所以俺就偷懒一下，只点评几个特别重要的协议。  
+      - 业务层的协议非常多。即使光把各种协议的名称列出来，也很费劲。所以俺就偷懒一下，只点评几个特别重要的协议。
         collapsed:: true
-        - **HTTP 协议**  
-          如果让俺评选最重要的业务层协议，俺首推 HTTP 协议。互联网的普及推动了 Web 的普及，而 Web 的普及使得 HTTP 成为信息时代的重要支柱。当你上网的时候，你看到的网页（HTML 页面）就是通过 HTTP 协议传输到你的浏览器上。  
-          如今 HTTP 已经不仅仅用来展示网页，还有很多业务层的协议是建立在 HTTP 协议之上。比如说：如果你用 RSS 订阅俺的博客，RSS 阅读器需要调用 blogspot 博客平台提供的 RSS 接口，这些 RSS 接口就是基于 HTTP 协议传输滴。  
+        - **HTTP 协议**
+          如果让俺评选最重要的业务层协议，俺首推 HTTP 协议。互联网的普及推动了 Web 的普及，而 Web 的普及使得 HTTP 成为信息时代的重要支柱。当你上网的时候，你看到的网页（HTML 页面）就是通过 HTTP 协议传输到你的浏览器上。
+          如今 HTTP 已经不仅仅用来展示网页，还有很多业务层的协议是建立在 HTTP 协议之上。比如说：如果你用 RSS 订阅俺的博客，RSS 阅读器需要调用 blogspot 博客平台提供的 RSS 接口，这些 RSS 接口就是基于 HTTP 协议传输滴。
           考虑到本文的篇幅，俺不可能在这里细聊 HTTP 协议的规格，有兴趣的同学可以去看《[HTTP 权威指南](https://docs.google.com/document/d/1TgujhFUzyVlf1W5e48lSMTIwJuCTElvXw2LgQ_Ng0Cs/)》这本书。
-        - **SSL/TLS 协议**  
-          最早的 HTTP 协议是【明文】滴；为了强化安全性，后来又设计了 SSL 协议，用来【加密】HTTP 流量；再后来，SSL 升级为 TLS（这俩是同义词）。如今经常看到的 HTTPS 相当于“HTTP over TLS”。  
-          SSL/TLS 设计得比较优雅（很灵活），使得其它业务层的协议可以很方便地架构在 SSL/TLS 之上。这样的好处是：其它协议就不用自己再设计一套加密机制＆认证机制。  
-          SSL/TLS 对于安全性很重要，因此俺专门写了一个系列教程（如下），详细介绍该协议的技术细节。  
+        - **SSL/TLS 协议**
+          最早的 HTTP 协议是【明文】滴；为了强化安全性，后来又设计了 SSL 协议，用来【加密】HTTP 流量；再后来，SSL 升级为 TLS（这俩是同义词）。如今经常看到的 HTTPS 相当于“HTTP over TLS”。
+          SSL/TLS 设计得比较优雅（很灵活），使得其它业务层的协议可以很方便地架构在 SSL/TLS 之上。这样的好处是：其它协议就不用自己再设计一套加密机制＆认证机制。
+          SSL/TLS 对于安全性很重要，因此俺专门写了一个系列教程（如下），详细介绍该协议的技术细节。
           《[扫盲 HTTPS 和 SSL／TLS 协议](https://program-think.blogspot.com/2014/11/https-ssl-tls-0.html)》（系列）
-        - **域名相关的协议（DNS 及其它）**  
-          域名相关的协议，也很重要。因为域名系统是整个互联网的基础设施。最早的域名查询协议是“DNS 协议”，由于这个协议【没有】加密，导致了一些安全隐患。比如 GFW 就利用 DNS 的这个弱点，搞“域名污染/域名投毒”。因此，后来又设计了一系列新的域名协议，引入了加密的机制。  
-          关于这些协议的扫盲教程，可以参考如下几篇博文：  
-          《[扫盲 DNS 原理，兼谈“域名劫持”和“域名欺骗／域名污染”](https://program-think.blogspot.com/2014/01/dns.html)》  
+        - **域名相关的协议（DNS 及其它）**
+          域名相关的协议，也很重要。因为域名系统是整个互联网的基础设施。最早的域名查询协议是“DNS 协议”，由于这个协议【没有】加密，导致了一些安全隐患。比如 GFW 就利用 DNS 的这个弱点，搞“域名污染/域名投毒”。因此，后来又设计了一系列新的域名协议，引入了加密的机制。
+          关于这些协议的扫盲教程，可以参考如下几篇博文：
+          《[扫盲 DNS 原理，兼谈“域名劫持”和“域名欺骗／域名污染”](https://program-think.blogspot.com/2014/01/dns.html)》
           《[对比4种强化域名安全的协议——DNSSEC，DNSCrypt，DNS over TLS，DNS over HTTPS](https://program-think.blogspot.com/2018/10/Comparison-of-DNS-Protocols.html)》
       - 业务层相关的【网络设备】
         - **应用层防火墙（[application firewall](https://en.wikipedia.org/wiki/Application_firewall)）**
@@ -326,10 +325,10 @@ closed::
         - 用某种协议包裹另一种协议，以满足某些特殊的需求
         - “隧道协议”可以做到更灵活的包裹——既可以对层次相隔很远的协议进行包裹，也可以对同一层的协议进行包裹，甚至可以“倒挂”——所谓的“倒挂”就是让【上】层反过来包裹【下】层
   - title:: [天朝民众的心理分析：斯德哥尔摩综合症](https://program-think.blogspot.com/2012/06/stockholm-syndrome.html)
-    author:: 
+    author::
     tags:: #GFW #archive/web
     created:: 20221212
-    mark:: 
+    mark::
     archive:: [💾 Archived](../assets/archived_web/天朝民众的心理分析：斯德哥尔摩综合症 @ 编程随想的博客 (12_12_2022 3_20_52 PM).html )
     collapsed:: true
     - 从一桩奇怪的抢劫案说起
@@ -366,7 +365,6 @@ closed::
     collapsed:: true
     - ```
       话说斯托克代尔是越战后的美国海军中将。他在参加越战时被俘，被关在战俘营长达八年，期间遭受越共的种种虐待。作为当时战俘营中军衔最高的军官，他带领同伴跟越共做各种斗争，以提高美军战俘的待遇并增加获释的机会。获释之后，斯托克代尔的事迹被广为宣传。著名的管理学家吉姆·柯林斯慕名找他做了一次访谈（以下是对话过程摘录）。
-      
       柯林斯好奇地问：
       你为啥能熬过那8年悲惨的战俘生活，坚持到最后获释的？
       斯托克代尔给出的回答是：
@@ -381,7 +379,6 @@ closed::
       那帮乐观主义者会说：'圣诞节之前，我们一定出得去'。圣诞节会来临，然后过了。
       他们又说：'复活节之前，我们一定出得去'。复活节来了，又过了。
       然后是感恩节，再然后是下一个圣诞节......如此往复。最终，那些乐观主义者在郁闷中死去。
-      
       最后，斯托克代尔总结说：
       这是一个非常重要的教训——你不能把信念和原则搞混。
       信念是：你一定能获得成功——这个信念千万不可失去。

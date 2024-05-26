@@ -1,6 +1,5 @@
 icon:: 📅
 title:: year
-
   - Year Review Template
     collapsed:: true
     - template:: year/review
@@ -27,20 +26,20 @@ title:: year
         - ### DLsite Comic Sale Ranking
           - {{iframe https://www.dlsite.com/maniax/ranking/year?year=``{c.page.name}``&sort=sale&category=comic}}
   -
-  - DONE In new [[year]] page, I will sperate vertical page to two parts at least. #Closed #deprecated 
+  - DONE In new [[year]] page, I will sperate vertical page to two parts at least. #Closed #deprecated
     created:: 20221217
     closed:: 20230218
-    - the more details are like this: #changelog/wiki #Template
+    - the more details are like this: #changelog/wiki #template
       collapsed:: true
       - ![](../assets/works/2023-new-page-design.png){:height 394, :width 275}
         via: `[[draws/2023-new-page-design.excalidraw]]`
     - template: page/year
       collapsed:: true
       template-including-parent: false
-      - icon:: 📅 
-        title:: 
+      - icon:: 📅
+        title::
         alias:: year/
-        desc:: 
+        desc::
         tags:: #year
         mark::
       - `{{query }}`
@@ -52,7 +51,7 @@ title:: year
         collapsed:: true
         {{renderer :smartblock, book, +Book, false}} {{renderer :smartblock, podcast/episode, +Episode, false}} {{renderer :smartblock, game, +Game, false}} {{renderer :smartblock, galgame, +Hentai, false}} {{renderer :smartblock, video, +Video, false}} {{renderer :smartblock, video/movie, +Movie, false}} {{renderer :smartblock, anime, +Anime, false}} {{renderer :smartblock, manga, +Manga, false}}
         -
-      - ## [[archive]] 
+      - ## [[archive]]
         collapsed:: true
         {{renderer :smartblock, archive(default: web), +Web, false}}
         -

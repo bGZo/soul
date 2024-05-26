@@ -1,5 +1,4 @@
 tags:: [[process]]
-
 -
 - Android 进程分类(6)
   - 前台进程 (foreground)

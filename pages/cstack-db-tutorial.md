@@ -1,6 +1,5 @@
 tags:: #database #Tutorial
 created:: 2022
-
 - ## [GitHub - cstack/db_tutorial: Writing a sqlite clone from scratch in C](https://github.com/cstack/db_tutorial)
 - ## P01
   collapsed:: true
@@ -39,56 +38,45 @@ created:: 2022
       ```c
       // from https://c-for-dummies.com/blog/?p=1112
       #include <stdio.h>
-      
       int input(char *s,int length);
-      
       int main(){
           char *buffer;
           size_t bufsize = 32;
           size_t characters;
-      
           buffer = (char *)malloc(bufsize * sizeof(char));
           if( buffer == NULL){
               perror("Unable to allocate buffer");
               exit(1);
           }
-      
           printf("Type something: ");
           characters = getline(&buffer,&bufsize,stdin);
           printf("%zu characters were read.\n",characters);
           printf("You typed: '%s'\n",buffer);
-      
           return(0);
       }
       // case two
       #include <stdio.h>
-      
       int input(char *s,int length);
-      
       int main()
-      {    
+      {
           char *b;
           size_t bufsize = 0;
           size_t characters;
-      
           printf("Type something: ");
           characters = getline(&b, &bufsize, stdin);
           printf("%ld\n", bufsize);
           printf("%zu characters were read.\n", characters);
           printf("You typed: '%s'\n", b);
-      
           return(0);
       }
       ```
       - 会发现在 `char` 指针做缓冲区的时候, `bufsize` 默认为 `120`, 就算读入缓冲超过 `120` , 也会加倍为`240`. 但是, char 指针可以
-        
         ```
         > ./test
         Type something: dsdsa
         120
         6 characters were read.
         You typed: '����'
-        
         > ./test
         Type something: testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttestt
         240
@@ -105,7 +93,7 @@ created:: 2022
   collapsed:: true
   - name:: HTH
     full:: {{cloze Hope That Helps}}
-    tag:: 
+    tag::
     mark:: used in electronic messages when you have told someone something or done something for them via: https://www.macmillandictionary.com/dictionary/british/hth
     type:: abbr
   - `uint8_t` / `uint16_t` / `uint32_t` / `uint64_t` in [[lang/programming/system/c]]
@@ -129,15 +117,12 @@ created:: 2022
             typedef long long int           int64_t;
             # endif
         #endif
-        
         typedef unsigned char           uint8_t;
         typedef unsigned short int      uint16_t;
-        
         #ifndef __uint32_t_mark:: d
             typedef unsigned int            uint32_t;
             # mark::  __uint32_t_mark:: d
         #endif
-        
         #if __WORDSIZE == 64
             typedef unsigned long int       uint64_t;
         #else
@@ -158,19 +143,16 @@ created:: 2022
          ...
       } myNameStruct;  // mark:: s myNameStruct as a variable with this struct
                        // definition, but the struct definition cannot be re-used.
-      
       struct Name {
          ...
-      } myNameStruct;  // mark::  a struct, and declare/mark::  a struct variable 
+      } myNameStruct;  // mark::  a struct, and declare/mark::  a struct variable
                // at the same time:
-      
       typedef struct {
          ...
       } Name_t;    // use an untagged struct type inside a typedef:
-      
       typedef struct Name {
          ...
-      } Name_t;    // begin with typedef, NewTypeName will be Name_t, 
+      } Name_t;    // begin with typedef, NewTypeName will be Name_t,
                // not a varible
       ```
   - 序列化(serialize): 把对象转化为可传输的字节序列过程称为序列化

@@ -1,19 +1,18 @@
 icon:: 📖
 alias:: Designing Data-Intensive Applications, books/设计数据密集型应用
-tags:: #database 
+tags:: #database
 author:: Martin Kleppmann
 translator:: 赵军平, 李三平, 吕云松, 耿煜
 publisher:: O'Reilly
 published::  20180901
 isbn:: 9787519821968
 created:: 20230328
-closed:: 
+closed::
 douban:: https://book.douban.com/subject/26197294 ； https://book.douban.com/subject/30329536/
-goodreads:: 
-weread:: 
-desc:: 
+goodreads::
+weread::
+desc::
 mark:: [GitHub - Vonng/ddia: 《Designing Data-Intensive Application》DDIA中文翻译](https://github.com/Vonng/ddia)
-
 - ## ![Designing Data-Intensive Applications](../assets/book_designing_data-Intensive_applications.pdf)
 - ## Contents
   - [序言](http://ddia.vonng.com/#/preface)

@@ -1,14 +1,11 @@
 alias:: code/pseido, 伪代码
-
 -
 - 用词描述解决何种问题, 不包含具体实现
   - ```
     Extract the next word from the line (good)
     set word to get next token (poor)
-      
     Append the file extension to the name (good)
     name = name + extension (poor)
-    
     FOR all the characters in the name (good)
     FOR character = first to last (ok)
     ```
@@ -89,7 +86,7 @@ alias:: code/pseido, 伪代码
       READ Temperature
       IF Temperature > Freezing THEN
           INCREMENT total
-      END IF 
+      END IF
     UNTIL Temperature < zero
     Print total
     ```

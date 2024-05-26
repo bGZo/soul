@@ -1,6 +1,5 @@
 icon:: 🏫
 alias:: Database Systems
-
 - ## REFERENCES
   - [Schedule | CMU 15-445/645 :: Intro to Database Systems (Fall 2022)](https://15445.courses.cs.cmu.edu/fall2022/schedule.html)
   - [CMU Intro to Database Systems (15-445/645 - Fall 2022) - YouTube](https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf)

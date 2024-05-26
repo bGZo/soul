@@ -1,7 +1,6 @@
 title:: jvm
 alias:: java/virtual-machine
 tags:: TODO
-
 - ![image.png](../assets/Untitled-2022-05-12-1350.excalidraw.png)
   - Java ((fe354034-2b72-4d88-a56a-b41a5c60867c)) 的语言 => JIT（just-in-time compilation） 编译器
     - 运行时编译

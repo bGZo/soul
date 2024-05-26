@@ -1,5 +1,4 @@
 tags:: #[[algo]], #[[maths]]
-
 - Outline
   collapsed:: true
   - 栈

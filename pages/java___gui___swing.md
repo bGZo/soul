@@ -1,5 +1,4 @@
 title:: java/gui/swing
-
 - Under [[idea]] Design UI Tools
   - [swing还有人用吗？ - 知乎](https://www.zhihu.com/question/26610345)
     - 如果你学习到了 JavaSE 的 Swing 部分，建议如下：

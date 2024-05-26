@@ -1,6 +1,5 @@
 alias:: database/object–relational/mysql
 tags:: TODO
-
 -
 - 基础架构
   - ![image.png](../assets/database/image_1663350146392_0.png)

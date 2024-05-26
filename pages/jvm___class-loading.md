@@ -1,6 +1,5 @@
 title:: jvm/class-loading
 tags:: TODO
-
 -
 - Class Life Cycle
   id:: 6331a761-a18d-4464-b9fa-69756c4a9f6f

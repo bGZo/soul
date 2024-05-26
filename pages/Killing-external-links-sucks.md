@@ -1,6 +1,5 @@
 title:: Killing-external-links-sucks
 tags:: #internet #China #public, #my/blog, #external_link
-
 - ### External links been killed
   collapsed:: true
   - 这周用 <https://steampy.com> 低价购入了 Dead Cells 的 CDKey, 虽然 Google Play 也买了, 但论搓起来的手感那是不能比的, 加上原本就早年就接触的, 主打手机市场的元气骑士, `Rogue` 算是给我创造了很多美好的回忆, 藉此机缘, 搜到了这篇文章 —— [触乐夜话：到底是“类Rogue”还是“轻度Rogue”](http://www.chuapp.com/?c=Article&id=288658). 文章比较权衡了`Roguelike` 和 `Roguelite` 的适用范围, 写得很棒, 是很少能在国内媒体看到的长文, 但高兴之余, 也有 2 点担忧:
@@ -68,31 +67,17 @@ tags:: #internet #China #public, #my/blog, #external_link
 - `\[([A-Z_0-9]+)\]`
 -
 - [^WEICHAT_OUTLINK]: 现如今微信公众号已经可以插入超链接了, 但门槛是 `认证服务号` + `开通微信支付`, 受众群体并不包含大量的个人原创者, via: [微信公众号文章如何插入外部链接？ - 微信开放社区](https://developers.weixin.qq.com/community/develop/doc/000cc6c96f80403625ea530cd51000);
-  
   [^CLEAN_LINK]: "外链能造成什么不良影响？一旦这些外链网站没使用了，域名未续费，就有可能被别人注册，做成非法（黄赌毒）网站，将对您的网站造成不良影响，或将注销ICP备案号、关停网站，主体也或将承担相应的责任。" via: [关于清查网站外链的重要告知-湖北大鹏网络公司-官网](https://www.dpwl.net/news/01/3885.html); Archived [here](https://web.archive.org/web/*/https://www.dpwl.net/news/01/3885.html);
-  
   [^WWW]: 这里指代的万维网参考 Wikipedia 中文的定义: "一个透过互联网访问的，由许多互相链接的超文本组成的資訊系統", via: [万维网 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh/%E4%B8%87%E7%BB%B4%E7%BD%91); 阅读更多超链接相关的历史, 可以参考2021年书库出品的书籍: [超文本和超链接 (豆瓣)](https://book.douban.com/subject/35438602/), 就像电子迷宫网站（The Electronic Labyrinth）说的那样：“任何为出版图书面写超文本的人都面临一个直接矛盾一一一本赞美电子文本优点的纸质书。”(via: https://t.me/weekly_books/1295);
-  
   [^VPS_1]: Via: [2022 年了 ，备案还是这么繁琐 - V2EX](https://v2ex.com/t/853461);
-  
   [^VPS_2]: Via: [今天腾讯云电话告知网站不能有跳转链接，有这样的规定吗？？ - V2EX](https://www.v2ex.com/t/662820)
-  
   [^VPS_3]: Via: [为什么国内很多网站会限制外链 - V2EX](https://v2ex.com/t/777126)
-  
   [^WEIBO_WHITE_LIST]: via: https://weibo.com/1934183965/Jbt7Nydr3
-  
   [^PRON_FLOW]: 当然 more than 1%. 也不好统计过去十几年的流量, 保守地讲为 1%;
-  
   [^BLOG_DESIGN]: 尽管功能非常诱惑, 但我考虑再三, 还是没有往博客里添加, 希望没有破坏你的阅读体验 : )
-  
   [^ANSWER]: 答案是本博客, 我打赌, 你第一眼绝对看不出来 (笑
-  
   [^YITIANSHIJIE]: 段落出自[一天世界](https://blog.yitianshijie.net/) 博客 [离线是一种权利](https://blog.yitianshijie.net/2016/04/15/offline-as-right/), 作者主张: "无论如何，这些问题的选择权属于作者。商业公司（微信背后的腾讯）封禁外链是绝对的大恶". 作者曾强烈地反对过微信, 读者可以参考这些文章: [微信——事实上的局域网](https://blog.yitianshijie.net/2015/11/16/wechat-de-facto-lan/), [Uber 在微信公众平台被封杀](https://blog.yitianshijie.net/2015/12/05/uber-banned-in-wechat/), [告别微信](https://blog.yitianshijie.net/2016/02/21/byebye-wechat/), [告别微信之后](https://blog.yitianshijie.net/2016/03/20/goodbye-wechat-post-mortem/), [微信并不是在「管理」外部链接，因为微信公众号在事实上（de facto）不允许任何外部链接](https://blog.yitianshijie.net/2016/04/13/wechat-against-world-wide-web/), [万维网才是最好的平台](https://blog.yitianshijie.net/2016/06/20/web-is-the-best-platform/)
-  
   [^SHAOSHUPAI]: 这部分参考少数派文章 [关于 RSS](https://sspai.com/post/71637), 少数派自此关闭了全文 RSS 输出, 需要个人使用阅读器进行全文抓取;
-  
   [^THREE_LAWS]: Via: [Clarke's three laws - Wikipedia](https://en.wikipedia.org/wiki/Clarke%27s_three_laws)
-  
   [^WALL]: Via: [软墙 by 郝海龙](https://haohailong.net/2021/soft-wall)
-  
   [^404]: 图出自 [乱铁 on Twitter](https://twitter.com/_dirtyiron_/status/1501235050355978240), 图片版权归原作者所有;
