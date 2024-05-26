@@ -1,5 +1,4 @@
 title:: needs/hierarchy
-
 - Maslow's hierarchy of needs / 马斯洛需求层次理论
   collapsed:: true
   ![image.png](../assets/image_1660448125255_0.png){:height 475, :width 560}

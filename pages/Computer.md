@@ -1,19 +1,17 @@
-alias:: Personal Computer, PC, 计算机 
+alias:: Personal Computer, PC, 计算机
 mark:: a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically.
 icon:: 🖥️
 tags:: #3C
-
 created:: 20230620
 title:: Computer
 wikipedia:: [Computer - Wikipedia](https://en.wikipedia.org/wiki/Computer)
-
   - ### Computer Devices
     template:: computer
     template-including-parent:: false
     collapsed:: true
-    - title:: 
+    - title::
       cpu::
-      ram:: 
+      ram::
       gpu::
 - ## Why
 - ## How

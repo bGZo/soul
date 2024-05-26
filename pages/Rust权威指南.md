@@ -5,14 +5,12 @@ translator:: 毛靖凯 / 唐刚 / 沙渺
 icon:: 📖
 isbn:: 9787121387067
 publisher:: 电子工业出版社
-published-date:: 20200601 
+published-date:: 20200601
 tags:: #Rust
 douban:: https://book.douban.com/subject/35081743/
 weread:: https://weread.qq.com/web/bookDetail/d733256071eeeed9d7322fd
-
 created:: 20240102
 title:: Rust权威指南
-
 - ## Contents
   - ## 版权信息
   - ## 内容简介

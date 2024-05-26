@@ -1,6 +1,5 @@
 title:: javascript/question
 alias:: question/javascript
-
   - Variable
     collapsed:: true
     - var #[[vs]] let #[[vs]] const
@@ -36,11 +35,10 @@ alias:: question/javascript
                 };
             };
             scrollDownTillEnd();
-            
             /* Works Code*/
             let i = 0;
             var times = prompt("Input how many times to scroll?");
-            if (times == ""){ 
+            if (times == ""){
                 times = 1000;
             }
             function scrollDownTillEnd(countryDropdownList) {

@@ -1,8 +1,7 @@
 alias:: 安卓
-tags:: #Phone #google 
+tags:: #Phone #google
 created:: 2020-05-01T17:14:48+08:00
 mark:: Android 是一个由 google 主导的移动设备开源系统, 根据Android开源项目(AOSP), 手机厂商可以创建定制的 Android 操作系统版本, 将设备和配件移植到 Android 平台.
-
 - ## [[bookmark]]
   - [Download APK Fast, Free and Safe on Android](https://apkpure.com/)
   - [APKMirror - Free APK Downloads - Free and safe Android APK downloads](https://www.apkmirror.com/)
@@ -66,10 +65,9 @@ mark:: Android 是一个由 google 主导的移动设备开源系统, 根据Andr
       - BlueStack
       - 海马王技术
         - > virtualbox+androidx86+intel libhoudini+host渲染加速
-          
           >
-          > **virtualbox解决emulator载体问题**, 
-          **android x86**使得guest是x86架构, 在系统层面确保gust host架构相同, 免除指令模拟, 
+          > **virtualbox解决emulator载体问题**,
+          **android x86**使得guest是x86架构, 在系统层面确保gust host架构相同, 免除指令模拟,
           **intel libhoudini** 是intel提供的免费但不开源arm to x86指令翻译工具, 这个工具使得只提供了arm so的app在emulator成为可行且性能不错(由于不开源, 不知道翻译是发生在哪个阶段, 但我猜是运行时动态翻译, 文档显示翻译后性能接近直接跑x86指令, 实测的确如此！)
           **host渲染加速**基本原理是, 在guesthost间建立一条高速数据传输通道, 将guest端渲染命令打包传给host端, host端解包再执行命令, 最后把结果返回, 注意, 这里很多时候是要求同步的, 这也是为什么强调通道必须高速. 另外, 别说我为何知道这些细节, 因为我正在做这玩意！(?????说了我也不太了解,++)
       - XDroid

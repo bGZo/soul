@@ -1,6 +1,5 @@
 title:: generic
 alias:: Paradigms/generic
-
 - > Generic programming centers around the idea of abstracting from concrete, efficient algorithms to obtain generic algorithms that can be combined with different data representations to produce a wide variety of useful software.
 - — Musser, David R.; Stepanov, Alexander A., Generic Programming
 - 泛型允许在**强类型程序设计语言**中编写代码时使用一些以后才指定的类型 (实例化时作为参数指明)

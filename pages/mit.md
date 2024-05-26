@@ -1,5 +1,4 @@
 alias:: Massachusetts Institute of Technology
-
 - ## Degree Charts
   - [Computer Science and Engineering (Course 6-3) < MIT](http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/)
 - I wanna a MIT email address 😭 GDI

@@ -1,5 +1,4 @@
 alias:: Inter Process Communication, 进程间通信
-
   - 通信类
     collapsed:: true
     - 在进程之间传递消息，交换数据

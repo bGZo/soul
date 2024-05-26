@@ -1,8 +1,7 @@
 icon:: 👨‍💻
-tags:: #bfs #leetcode/hard 
+tags:: #bfs #leetcode/hard
 mark:: [1210. 穿过迷宫的最少移动次数 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/)
 created:: 20230205
-
 - ## Content
   - <iframe src="https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/minimum-moves-to-reach-target-with-rotations/)
@@ -13,26 +12,19 @@ created:: 20230205
       final int[][] dirs = {{1,0,0}, {0,1,0}, {0,0,1}};
       public int minimumMoves(int[][] grid) {
         int n = grid.length, step = 1;
-    
         Queue<int[]> queue = new LinkedList<>();
         queue.offer(new int[]{0, 0, 0});
-    
         boolean[][][] isVisited = new boolean[n][n][2];
-    
         while(!queue.isEmpty()){
           int len = queue.size();
-    
           while(len > 0){
             int[] arr = queue.poll();
-    
             for(int[] dir: dirs){
               int x1 = arr[0] + dir[0],
               y1 = arr[1] + dir[1],
               z1 = arr[2] ^ dir[2]; // 蛇尾
-    
               int x2 = x1 + z1,
               y2 = y1 + (z1 ^ 1); // 蛇头
-    
               // 出界判定
               // 1.⚠ 数组未越界；
               // 2. 不能撞墙；
@@ -41,10 +33,9 @@ created:: 20230205
               if( /** x1 < n && y1<n && */ x2<n && y2<n &&
                  grid[x1][y1] != 1 && grid[x2][y2] !=1 &&
                  !isVisited[x1][y1][z1] &&
-                 (dir[2]==0 || grid[x1+1][y1+1] !=1) 
+                 (dir[2]==0 || grid[x1+1][y1+1] !=1)
                 ){
-                if(x1 == n-1 && y1 == n-2) return step; 
-    
+                if(x1 == n-1 && y1 == n-2) return step;
                 isVisited[x1][y1][z1] = true; // isVisited[x2][y2][z1] = true;
                 queue.offer(new int[]{x1, y1, z1});
               }

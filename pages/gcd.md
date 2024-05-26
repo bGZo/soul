@@ -1,5 +1,4 @@
 alias:: maths/number-theory/gcd, Greatest Common Divisor, 最大公约数
-
 -
 - 辗转相除法 / 欧几里德算法 / Euclidean algorithm
   id:: 6322ca85-80ce-4347-a589-8174d423ff3d

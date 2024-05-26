@@ -1,6 +1,5 @@
-tags:: #[[data-structure]], #[[maths]] 
+tags:: #[[data-structure]], #[[maths]]
 mark:: algorithm
-
 -
 - [[roadmap/algo]] via: [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)
   collapsed:: true
@@ -251,22 +250,15 @@ mark:: algorithm
             delete    o(n)
             ```
     - **Linked List**
-        Head Tail 
-      
+        Head Tail
         java的next指针是引用
-      
         双向链表
-      
         循环链表
-      
         ```java
         Entry<T>
         ```
-      
         java的链表是双向链表
-      
         slide
-      
         ```cpp
         prepend   o(1)//增加
         append    o(1)
@@ -275,46 +267,24 @@ mark:: algorithm
         delete    o(1)
         ```
     - **Skip LIst**
-      
         Redis
-      
         升维思想——空间换时间
-      
         添加第一级索引
-      
         添加二级索引
-      
         增加log2n个级索引
-      
         64（2^6）个元素(log2n-1)
-      
         ```
         n/2、n/4、n/8、第k级索引结点的个数就是n/（2k）
         假设索引有h级，最高级的索引有2个结点。n/（2h）=2，从而求得h=log2（n）-1
         ```
-      
         维护成本高
-      
         n*(1-1/2^n)<n
-      
-      
-      
         LRU Cache - Linked list
-        
-        https://www.jianshu.com/p/b1ab4a170c3c 
-        
+        https://www.jianshu.com/p/b1ab4a170c3c
         https://leetcode-cn.com/problems/Iru-cache
-      
-      
-      
-        Redis - Skip - List 
-        
-        https://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html 
-        
+        Redis - Skip - List
+        https://redisbook.readthedocs.io/en/latest/internal-datastruct/skiplist.html
         https://www.zhihu.com/question/20202931
-      
-      
-      
       > 给的建议也是让我们快速的练习，而不是从零到有，我觉得不好，但是又想不出下文。
   - 栈、队列、优先队列、双端队列
     collapsed:: true
@@ -356,10 +326,7 @@ mark:: algorithm
       - new HashSet() / new TreeSet()
       - set.add(value)
       - set.delete(value)
-      - set.hash(value) 
-        
-        
-        
+      - set.hash(value)
         ```python
         ist_x = [1, 2, 3, 4]
         map_x = {
@@ -371,24 +338,21 @@ mark:: algorithm
         set_x = {‘jack’, ‘selina’, ‘Andy’}
         set_y = set([‘jack’, ‘selina’, ‘jack’])
         ```
-        
         Map, Set : interfaces
     - Java set classes:
       - [TreeSet, HashSet,ConcurrentSkipListSet, CopyOnWriteArraySet, EnumSet, JobState Reasons, LinkedHashSet](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/Set.html)
     - Java map classes:
       - [HashMap, Hashtable, ConcurrentHashMap](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/util/Map.html)
-        
         实战题目
         1. https://leetcode-cn.com/problems/valid-anagram/description/
         2. https://leetcode-cn.com/problems/group-anagrams/
-        
         3. https://leetcode-cn.com/problems/two-sum/description/
         小技巧
     - 养成收藏精选代码的习惯
       collapsed:: true
       - Anagram, group-anagrams, two sum
             ```python
-            # 思路：手动模拟hashtable，将字符串”a-z“的ASCII码作key，计数求差异    
+            # 思路：手动模拟hashtable，将字符串”a-z“的ASCII码作key，计数求差异
             def  isAnagram(self, s: str, t: str) -> bool:
               arr1, arr2 = [0]*26, [0]*26
               for i in s:
@@ -396,7 +360,6 @@ mark:: algorithm
               for i in t:
                   arr2[ord(i) - ord('a')] += 1
               return arr1 == arr2
-        
             ```
             ```python
             # 思路：map计数，对比计数差异
@@ -427,7 +390,6 @@ mark:: algorithm
           }
             }
             ```
-        
             ```java
             public boolean isAnagram(String s1, String s2) {
               int[] freq = new int[256];
@@ -436,20 +398,17 @@ mark:: algorithm
               return s1.length() == s2.length();
           }
             ```
-        
             ```java
-            public boolean isAnagram(String s, String t) 
+            public boolean isAnagram(String s, String t)
             {
           char[] sChar = s.toCharArray();
           char[] tChar = t.toCharArray();
           Arrays.sort(sChar);
           Arrays.sort(tChar);
-          return Arrays.equals(sChar, tChar);   
+          return Arrays.equals(sChar, tChar);
             }
             ```
-        
         Group Anagrams:
-        
             ```python
             def groupAnagrams(self, strs):
           d = {}
@@ -458,7 +417,6 @@ mark:: algorithm
               d[key] = d.get(key, []) + [w]
           return d.values()
             ```
-        
             ```python
             def groupAnagrams(self, strs):
           dic = {}
@@ -467,12 +425,10 @@ mark:: algorithm
               dic[sortedItem] = dic.get(sortedItem, []) + [item]
           return dic.values()
             ```
-        
             ```java
             public List<List<String>> groupAnagrams(String[] strs) {
           List<List<String>> res = new ArrayList<>();
           HashMap<String, List<String>> map = new HashMap<>();
-          
           Arrays.sort(strs);
           for (int i = 0; i < strs.length; i++) {
               String temp = strs[i];
@@ -492,9 +448,7 @@ mark:: algorithm
           return res;
             }
             ```
-        
           Two sum
-        
             ```python
             def twoSum(self, nums, target):
               d = dict()
@@ -503,12 +457,10 @@ mark:: algorithm
                       d[target - num] = index
                   else:
                       return [d.get(num), index]
-        
             ```
-        
             ```java
             public int[] twoSum(int[] nums, int target) {
-              HashMap<Integer, Integer> tracker = 
+              HashMap<Integer, Integer> tracker =
                   new HashMap<Integer, Integer>();
               int len = nums.length;
               for (int i = 0; i < len; i++){
@@ -521,7 +473,6 @@ mark:: algorithm
               }
               return new int[2];
           }
-        
             ```
     - [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)
     - https://leetcode-cn.com/problems/group-anagrams/
@@ -544,57 +495,43 @@ mark:: algorithm
       collapsed:: true
       - ```python
         # Python
-        def recursion(level, param1, param2, ...): 
-          # recursion terminator 
-          if level > MAX_LEVEL: 
-           process_result 
-           return 
-        
-          # process logic in current level 
-          process(level, data...) 
-        
-          # drill down 
-          self.recursion(level + 1, p1, ...) 
-        
+        def recursion(level, param1, param2, ...):
+          # recursion terminator
+          if level > MAX_LEVEL:
+           process_result
+           return
+          # process logic in current level
+          process(level, data...)
+          # drill down
+          self.recursion(level + 1, p1, ...)
           # reverse the current level status if needed
         ```
         ```java
-        
         // Java
-        public void recur(int level, int param) { 
-        
-        
-        // terminator 
-        if (level > MAX_LEVEL) { 
-          // process result 
-          return; 
+        public void recur(int level, int param) {
+        // terminator
+        if (level > MAX_LEVEL) {
+          // process result
+          return;
         }
-        
-        
-        // process current logic 
-        process(level, param); 
-        
-        
-        // drill down 
-        recur( level: level + 1, newParam); 
-        // restore current status 
+        // process current logic
+        process(level, param);
+        // drill down
+        recur( level: level + 1, newParam);
+        // restore current status
         ```
-        
         ```cpp
         // C/C++
-        void recursion(int level, int param) { 
+        void recursion(int level, int param) {
         // recursion terminator
-        if (level > MAX_LEVEL) { 
-          // process result 
-          return ; 
+        if (level > MAX_LEVEL) {
+          // process result
+          return ;
         }
-        
-        // process current logic 
+        // process current logic
         process(level, param);
-        
-        // drill down 
+        // drill down
         recursion(level + 1, param);
-        
         // reverse the current level status if needed
         }
         ```
@@ -604,14 +541,13 @@ mark:: algorithm
          // recursion terminator
          if(level > MAX_LEVEL){
            process_result
-           return 
+           return
          }
          // process current level
          process(level, params)
          //drill down
          recursion(level+1, params)
          //clean current level status if needed
-        
         }
         ```
     - 习题
@@ -633,12 +569,10 @@ mark:: algorithm
         ```
       - ```cpp
         void _generate(int, int, const std::string);
-        
         std::list<std::string> generateParenthesis(int n) {
           _generate(0, 2 * n, "");
           return {};
         }
-        
         void _generate(int level, int max, const std::string s) { //自顶向下编程.
             //terminator
             if(level>=max) {
@@ -647,11 +581,9 @@ mark:: algorithm
             }
           //process currnet logic : lefe, right
           //down is here.
-        
           //drill down
           _generate(level+1, max, s+"(");
           _generate(level+1, max, s+")");
-        
           //reverse state
         }
         int main(){
@@ -660,15 +592,12 @@ mark:: algorithm
         ```
       - ```cpp
         void _generate(int, int, int, const std::string);
-        
         std::list<std::string>result;
         std::list<std::string>::iterator it;
         std::list<std::string> generateParenthesis(int n) {
-        
             _generate(-1, 0, n, "");
             return result;
         }
-        
         void _generate(int right, int left ,int n, const std::string s) { //自顶向下编程.
             //terminator
             if(right == n && left == n ) {
@@ -678,7 +607,6 @@ mark:: algorithm
                 return;
             }
             //process currnet logic : lefe, right
-        
             //drill down
             if(left < n)
                 _generate(right,left+0, n, s+"(");
@@ -686,7 +614,6 @@ mark:: algorithm
                 _generate(right+0,left, n, s+")");
                 //reverse state
             }
-            
             int main(){
                 generateParenthesis(2);
                 for(it=result.begin();it!=result.end();++it)
@@ -716,25 +643,23 @@ mark:: algorithm
       collapsed:: true
       - ```python
            # Python
-           def divide_conquer(problem, param1, param2, ...): 
-             # recursion terminator 
-             if problem is None: 
-             print_result 
-             return 
-             # prepare data 
-             data = prepare_data(problem) 
-             subproblems = split_problem(problem, data) 
-             # conquer subproblems 
-             subresult1 = self.divide_conquer(subproblems[0], p1, ...) 
-             subresult2 = self.divide_conquer(subproblems[1], p1, ...) 
-             subresult3 = self.divide_conquer(subproblems[2], p1, ...) 
+           def divide_conquer(problem, param1, param2, ...):
+             # recursion terminator
+             if problem is None:
+             print_result
+             return
+             # prepare data
+             data = prepare_data(problem)
+             subproblems = split_problem(problem, data)
+             # conquer subproblems
+             subresult1 = self.divide_conquer(subproblems[0], p1, ...)
+             subresult2 = self.divide_conquer(subproblems[1], p1, ...)
+             subresult3 = self.divide_conquer(subproblems[2], p1, ...)
              …
-             # process and generate the final result 
+             # process and generate the final result
              result = process_result(subresult1, subresult2, subresult3, …)
-             
              # revert the current level states
            ```
-           
             ```cpp
             //C/C++
             int divide_conquer(Problem *problem, int params) {
@@ -742,42 +667,33 @@ mark:: algorithm
               if (problem == nullptr) {
                 process_result
                 return return_result;
-              } 
-        
+              }
               // process current problem
               subproblems = split_problem(problem, data)
               subresult1 = divide_conquer(subproblem[0], p1)
               subresult2 = divide_conquer(subproblem[1], p1)
               subresult3 = divide_conquer(subproblem[2], p1)
               ...
-        
               // merge
               result = process_result(subresult1, subresult2, subresult3)
               // revert the current level status
-            
               return 0;
             }
             ```
-        
             ```java
             //Java
             private static int divide_conquer(Problem problem, ) {
-            
             if (problem == NULL) {
                 int res = process_last_result();
-                return res;     
+                return res;
             }
             subProblems = split_problem(problem)
-            
             res0 = divide_conquer(subProblems[0])
             res1 = divide_conquer(subProblems[1])
-            
             result = process_result(res0, res1);
-            
             return result;
             }
             ```
-        
             ```javascript
             //Javascript
             const divide_conquer = (problem, params) => {
@@ -785,17 +701,14 @@ mark:: algorithm
             if (problem == null) {
                 process_result
                 return
-            } 
-        
+            }
             // process current problem
-        
             subproblems = split_problem(problem, data)
             subresult1 = divide_conquer(subproblem[0], p1)
             subresult2 = divide_conquer(subproblem[1], p1)
             subresult3 = divide_conquer(subproblem[2], p1)
             ...
             // merge
-        
             result = process_result(subresult1, subresult2, subresult3)
             // revert the current level status
             }
@@ -843,20 +756,19 @@ mark:: algorithm
         dfs(ans, nums, list, index+1);// not pick the number at this index
       - list.add(nums[index]);
         dfs(ans, nums, list, index+1);// pick the number at this index
-      - // reverse the current state 
+      - // reverse the current state
         list.remove(list.size()-1);
       }
       ```
       迭代
       ```python
-      class Solution(object): 
+      class Solution(object):
         def subsets(self, nums):
             subsets = [[]]
-            
             for num in nums:
                 for subset in subsets:
-                    new_subset = sulset + [num] 
-                    newsets.append(new_subset) 
+                    new_subset = sulset + [num]
+                    newsets.append(new_subset)
                 subsets. extend(newsets).
         return subsets
       ```
@@ -933,7 +845,6 @@ mark:: algorithm
           • Programming in the large vs. individual programming
         - **[Core-Tier2]（必须掌握的核心知识：第 2 级）**
           • Evaluation of software process models
-          
           [Elective]（选修部分）
           • Software quality concepts
           • Process improvement
@@ -942,35 +853,21 @@ mark:: algorithm
       - Learning Outcomes
         collapsed:: true
         - **[Core-Tier1]**
-          
           1. Describe how software can interact with and participate in various systems including information management, embedded, process control, and communications systems.[Familiarity]
-          
           2. Describe the relative advantages and disadvantages among several major process models (e.g., waterfall, iterative, and agile). [Familiarity]
-          
           3. Describe the different practices that are key components of various process models. [Familiarity]
-          
           4. Differentiate among the phases of software development. [Familiarity]
-          
           5. Describe how programming in the large differs from individual efforts with respect to understanding a large code base, code reading, understanding builds, and understanding context of changes. [Familiarity]
         - **[Core-Tier2]**
-          
           6. Explain the concept of a software lifecycle and provide an example, illustrating its phases including the deliverables that are produced. [Familiarity]
-          
           7. Compare several common process models with respect to their value for development of particular classes of software systems taking into account issues such as requirement stability, size, and non-unctional characteristics. [Usage]
         - **[Elective]**
-          
           8. Define software quality and describe the role of quality assurance activities in the software process.[Familiarity]
-          
           9. Describe the intent and fundamental similarities among process improvement approaches. [Familiarity]
-          
           10. Compare several process improvement models such as CMM, CMMI, CQI, Plan-Do-Check-Act, or ISO9000. [Assessment]
-          
           11. Assess a development effort and recommend potential changes by participating in process improvement (using a model such as PSP) or engaging in a project retrospective. [Usage]
-          
           12. Explain the role of process maturity models in process improvement. [Familiarity]
-          
           13. Describe several process metrics for assessing and controlling a project. [Familiarity]
-          
           14. Use project metrics to describe the current state of a project. [Usage]
   - ACM 总结的18个计算机科学关键领域
     collapsed:: true
@@ -995,10 +892,7 @@ mark:: algorithm
       |SF | Systems Fundamentals| 系统基础|
       |SP| Social Issues and Professional Practice| 社会性主题与职业实践|
       http://www.acm.org/education/curricula-recommendations
-      
       《Computer Science Curricula-2013》
-      
-      
       不要试图做你认为做不到的事情, 而当你感到自闭的时候. 那恰巧正是你意识到要发生改变的时候.
   - ACM的《Computer Science Curricula-2013》
   - 衡量计算机科学知识的掌握程度

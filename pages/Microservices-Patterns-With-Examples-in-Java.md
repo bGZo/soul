@@ -12,7 +12,6 @@ douban:: [微服务架构设计模式 (豆瓣)](https://book.douban.com/subject/
 goodreads:: [Microservices Patterns: With examples in Java by Chris Richardson, Manning Publications by Chris Richardson | Goodreads](https://www.goodreads.com/book/show/55612970-microservices-patterns)
 weread::
 mark:: [microservices-patterns/ftgo-application: Example code for the book Microservice patterns](https://github.com/microservices-patterns/ftgo-application); <`<Stop>`>
-
 - ## ![微服务架构设计模式 by 克里斯·理查森](../assets/book_微服务架构设计模式_克里斯·理查森_chris_richardson.pdf)
   collapsed:: true
   - `([\u4e00-\u9fa5，。？；：”“、]) ([\u4e00-\u9fa5，。？；：”“、])`
@@ -378,7 +377,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
               collapsed:: true
               ```shell
               # Place Order
-              Given a consumer 
+              Given a consumer
               	And a restaurant
                   And a delivery address/time that can be served by that restaurant
                   And an order total that meets the restaurant''s order minimum
@@ -459,7 +458,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                 6.系统创建订单。
                 ```
               - ```shell
-                findAvailableRestaurants(deliveryAddress, deliveryTime) 
+                findAvailableRestaurants(deliveryAddress, deliveryTime)
                 # 获取所有能够送餐到用户地址并满足送餐时间要求的餐馆。
                 findRestaurantMenu(id)
                 #返回餐馆信息和这家餐馆的菜单项。
@@ -508,7 +507,6 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
         - 有多种客户端与服务的交互方式, 它们可以分为2个维度
           collapsed:: true
           - collapsed:: true
-            
             1. **1 v 1** & **1 v n**
             - **1 v 1**: 每个客户端请求由一个服务实例来处理
             - **1 v n**: 每个客户端请求由多个服务实例来处理
@@ -578,7 +576,6 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           - HTTP REST
             collapsed:: true
             - collapsed:: true
-              
               1. 在 URL 中嵌入主要版本号
               - `/v1/...`
               - `/v2/...`
@@ -588,7 +585,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                 collapsed:: true
                 - ```
                   GET /orders/xyz HTTP/1.1
-                  Accept:application/vnd.example.resource+json; version=1 
+                  Accept:application/vnd.example.resource+json; version=1
                   ```
               - 实现 API 的服务适配器将包含在旧版本和新版本之间进行转换的逻辑(API Gateway)
       - 3.1.4 消息的格式
@@ -631,34 +628,23 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
             - collapsed:: true
               ```java
               public class OrderService {
-              
                 //...
-              
                   public Order createOrder(long consumerId, long restaurantId,
                                            List<MenuItemIdAndQuantity> lineItems) {
                   Restaurant restaurant = restaurantRepository.findById(restaurantId)
                     .orElseThrow(() -> new RestaurantNotFoundException(restaurantId));
-              
                   List<OrderLineItem> orderLineItems = makeOrderLineItems(lineItems, restaurant);
-              
                   ResultWithDomainEvents<Order, OrderDomainEvent> orderAndEvents =
                     Order.createOrder(consumerId, restaurant, orderLineItems);
-              
                   Order order = orderAndEvents.result;
                   orderRepository.save(order);
-              
                   orderAggregateEventPublisher.publish(order, orderAndEvents.events);
-              
                   OrderDetails orderDetails = new OrderDetails(consumerId, restaurantId, orderLineItems, order.getOrderTotal());
-              
                   CreateOrderSagaState data = new CreateOrderSagaState(order.getId(), orderDetails);
                   createOrderSagaManager.create(data, Order.class, order.getId());
-              
                   meterRegistry.ifPresent(mr -> mr.counter("placed_orders").increment());
-              
                   return order;
                 }
-              
               ```
           - Pattern: Remote Procedure Invocation (RPI)
             collapsed:: true
@@ -666,10 +652,8 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
               ```Scala
               @Component
               class RegistrationServiceProxy @Autowired()(restTemplate: RestTemplate) extends RegistrationService {
-              
                 @Value("${user_registration_url}")
                 var userRegistrationUrl: String = _
-              
                 @HystrixCommand(commandProperties=Array(new HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds", value="800")))
                 override def registerUser(emailAddress: String, password: String): Either[RegistrationError, String] = {
                   try {
@@ -686,7 +670,6 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                   }
                 }
               }
-              
               ```
       - 3.2.1 使用REST
         collapsed:: true
@@ -740,27 +723,22 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                     public class Book {
                       private String title;
                       private String author;
-                    
                       // Getters and setters for the title and author properties
-                    
                       // This method adds a link to the book resource
                       public void addLink(String rel, String href) {
                         // Code to add a link to the book resource
                       }
                     }
-                    
                     // The BookResource class provides an API for interacting with book resources
                     public class BookResource {
                       // This method returns a list of books
                       public List<Book> getBooks() {
                         List<Book> books = new ArrayList<>();
                         // Code to retrieve the books from a database
-                    
                         // Add a link to each book resource
                         for (Book book : books) {
                           book.addLink("self", "/books/" + book.getId());
                         }
-                    
                         return books;
                       }
                     }
@@ -868,22 +846,17 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
         - ```java
           // Define the service in a .proto file
           syntax = "proto3";
-          
           service Greeter {
             rpc SayHello (HelloRequest) returns (HelloResponse);
           }
-          
           message HelloRequest {
             string name = 1;
           }
-          
           message HelloResponse {
             string message = 1;
           }
-          
           // Generate the stubs using the Protocol Buffers compiler
           $ protoc -I . greeter.proto --java_out=. --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_cpp_plugin`
-          
           // Implement the service
           import com.example.grpc.GreeterGrpc;
           import com.example.grpc.HelloRequest;
@@ -891,13 +864,11 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           import io.grpc.ManagedChannel;
           import io.grpc.ManagedChannelBuilder;
           import io.grpc.StatusRuntimeException;
-          
           public class HelloWorldClient {
             public static void main(String[] args) {
               ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 50051)
                   .usePlaintext()
                   .build();
-          
               GreeterGrpc.GreeterBlockingStub stub = GreeterGrpc.newBlockingStub(channel);
               HelloRequest request = HelloRequest.newBuilder().setName("World").build();
               try {

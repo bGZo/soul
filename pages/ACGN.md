@@ -1,7 +1,6 @@
 filters:: {"start_page" true}
 title:: ACGN
 extends:: [[Hobby]]
-
 - ## [[Issue]]
   - WAITING [Too much] Digest the content via: [二次元 | RSSHub](https://docs.rsshub.app/anime.html) #[[weekly]]
     - anitama

@@ -1,6 +1,5 @@
 title:: encoding/complement
 mark:: 补码
-
 - Ones' Complement
   mark:: "一的补码, 一补数, 一补码, 反码"
   id:: 63233299-4c35-4594-a358-c2b35d9fef9f

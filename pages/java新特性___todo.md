@@ -11,11 +11,11 @@
   Release Process(JEP 3).
   ```
 - Features
-- ``` java 
+- ``` java
   http://openjdk.java.net/projects/jdk/12/
   ```
 - ![1630745315617](../assets/mashibing/1630745315617.png)
-- ``` java 
+- ``` java
   189:Shenandoah:A Low-Pause-Time Garbage Collector(Experimental)
   低暂停时间的GC http://openjdk.java.net/jeps/189
   230:Microbenchmark Suite
@@ -340,26 +340,20 @@
   常明朗，需要看企业的实际场景需求，并不是一个一劳永逸的解决方案。
 - ``` java
   -XX:+AlwaysPreTouch：使用所有可用的内存分页，减少系统运行停顿，为避免运行时性能损失。
-    
   -Xmx == -Xmsv：设置初始堆大小与最大值一致，可以减轻伸缩堆大小带来的压力，与 AlwaysPreTouch 参数配
   合使用，在启动时提交所有内存，避免在最终使用中出现系统停顿。
-    
   -XX:+ UseTransparentHugePages：能够大大提高大堆的性能，同时建议在 Linux 上使用时将
   /sys/kernel/mm/transparent_hugepage/enabled 和
   /sys/kernel/mm/transparent_hugepage/defragv 设置为：madvise，同时与 AlwaysPreTouch 一起使
   用时，init 和 shutdownv 速度会更快，因为它将使用更大的页面进行预处理。
-    
   -XX:+UseNUMA：虽然 Shenandoah 尚未明确支持 NUMA（Non-Uniform Memory Access），但最好启用此功
   能以在多插槽主机上启用 NUMA 交错。与 AlwaysPreTouch 相结合，它提供了比默认配置更好的性能。
-    
   -XX:+DisableExplicitGC：忽略代码中的 System.gc() 调用。当用户在代码中调用 System.gc() 时会强制
-  Shenandoah 执行 STW Full GC ，应禁用它以防止执行此操作，另外还可以使用 
-    
+  Shenandoah 执行 STW Full GC ，应禁用它以防止执行此操作，另外还可以使用
   -XX:+ExplicitGCInvokesConcurrent，在 调用 System.gc() 时执行 CMS GC 而不是 Full GC，建议在有
   System.gc() 调用的情况下使用。
   不过目前 Shenandoah 垃圾回收器还被标记为实验项目，如果要使用Shenandoah GC需要编译时--with-jvmfeatures
   选项带有shenandoahgc，然后启动时使用参数
-    
   -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC
   ```
 - ### 2_可中断的 G1 Mixed GC
@@ -655,7 +649,7 @@
   - * 评级系统的半星（Half stars for rating systems）
   - * 额外的占星符号（Additional astrological symbols）
   - * 象棋中国象棋符号（Xiangqi Chinese chess symbols）
-  -   
+  -
   - 7个新脚本：
   - * Hanifi Rohingya
   * Old Sogdian
@@ -1120,7 +1114,7 @@
 - ![1631073770033](../assets/mashibing/1631073770033.png)
 - ![1631074436015](../assets/mashibing/1631074436015.png)
 - >  语言特性7项目
-- * switch表达式(标准) 
+- * switch表达式(标准)
   * 友好的空指针异常
   * 非易失性字节缓冲区
   * record
@@ -1148,7 +1142,7 @@
         if (this == anObject) {
             return true;
         }
-        // 先进行类型的判断 
+        // 先进行类型的判断
         if (anObject instanceof String) {
             // 然后进行强转
             String aString = (String)anObject;
@@ -1162,7 +1156,7 @@
 - 需要先判断类型,然后强转,还要声明一个本地变量,语法比较麻烦.比较理想的状态是,在执行类型检测的时候同时执行类型转换
 - JEP305 新增了使instanceof运算符具有匹配的能力. 模式匹配能够是程序的通用逻辑更加简洁,代码更加简单,同时在做类型判断和类型转换的时候也更加安全.详情如下
 - JAVA14 提供了新的解决方案: 新的instanceof模式匹配,新的模式匹配语法是: 在instanceof的类型之后添加了变量. 如果对obj的类型检查通过,obj会被转换成后面的变量表示的数据类型. 数据类型的声明仅仅书写一次即可
-- ``` java 
+- ``` java
   Object obj ="hello java";
         if(obj instanceof String str){
             System.out.println(str);
@@ -1256,7 +1250,6 @@
         System.out.println("");
         yield 2;
     }
-  
   default:
   yield 3;
   };
@@ -1279,7 +1272,6 @@
                    <title>Title</title>
                </head>\s\
                <body>
-                              
                </body>\s
                </html>
                """;
@@ -1764,10 +1756,8 @@
   package jdk.nio.mapmode;
   public class ExtendedMapMode{
     private ExtendedMapMode(){
-        
     }
     public static final MapMode READ_ONLY_SYNC=  ... ...
-    
   }
   ```
 - 在调用FileChannel::map方法创建映射到NVM设备文件上的只读或者写MappedByteBuffer时,可以使用上述的枚举值,如果这些标志在不支持NVM设备文件平台上传递,程序会抛出UnsupportedOperationException异常,在受支持的平台上,及当目标FileChannel实例是通过NVM设备打开的派生文件是,才能传递这些参数,在任何情况下,都会抛出IOException;
@@ -1849,9 +1839,6 @@
   sealed class B implements I{}
   non-sealed class C implements I{}
   - final class D extends B{}
-    
-    
-    
   ```
 - 密封接口不可以使用匿名内部类进行实现
 - > 密封列与接口和模式匹配问题
@@ -1882,7 +1869,6 @@
   - public class TestRecords {
     public static void main(String[] args) {
         MyInter1 myInter1=new Person(10,"旋涡刘能");
-     
     }
   }
   - sealed interface  MyInter1{
@@ -1891,37 +1877,33 @@
   - /*record 默认继承的 java.lang.Record
   * record可以直接实现密封接口,不需要用sealed 修饰 non-sealed 修饰
   * record本身是隐式的final修饰
-  * 
+  *
   * */
   - record Person(Integer pid,String pname)  implements MyInter1 {
     @Override
     public void eat() {
-        
     }
   }
   record Student(Integer pid,String pname) implements MyInter1{
     @Override
     public void eat() {
-        
     }
   }
   record Cook(Integer pid,String pname) implements MyInter1{
     @Override
     public void eat() {
-        
     }
   }
   record Worker(Integer pid,String pname) implements MyInter1{
     @Override
     public void eat() {
-        
     }
   }
   ```
 - ### 2_隐藏类
 - > JEP371 :HiddenClass(隐藏类)
 - 该提案通过启用标准API来定义无法发现且有有限生命周期的隐藏类,从而提高JVM上所有语言的效率. JDK内部和外部的框架将能够动态生成类,而这些类可以定义隐藏类.通常来说基于JVM的很多语言都有动态生成类的机制,这样可以提高语言的灵活性和效率.
-- * 隐藏类天生为框架设计的,在运行时生成内部的class   
+- * 隐藏类天生为框架设计的,在运行时生成内部的class
   * 隐藏类只能通过反射访问,不能直接被其他类的字节码访问
   * 隐藏类可以独立于其他类加载,卸载,这样可以减少框架的内存占用
 - > 什么是Hidden Class
@@ -1983,7 +1965,7 @@
 - > JEP373 Reimplement the legcy DatagramSocketAPI  重新实现DatagramSocketAPI
 - 作为JEP353的后续,该方案重新实现了遗留的套接字API. java.net.datagram.Socket 和java.netMulticastSocket的当前实现可以追溯到JDK1.0,当时IPV6还在开发中. 因此,当前的套接字实现尝试调和IPV4和IPV6难以维护的方式.
 - > 具体情况
-- * 通过替换 java.net.datagram 的基础实现,重新实现旧版DatagramSocket API 
+- * 通过替换 java.net.datagram 的基础实现,重新实现旧版DatagramSocket API
   * 更改java.net.DatagramSocket和java.net.MulticastSocket 为更加简单,现代化的底层实现,提高了JDK的可维护性和稳定性
 - > 新的实现
 - 1 易于维护和调试

@@ -1,6 +1,5 @@
 title:: wangdoc/javascript
 source:: https://wangdoc.com/javascript/
-
 - 1. 入门篇
 - 2. 数据类型
 - 3. 运算符

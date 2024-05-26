@@ -1,6 +1,5 @@
 file:: [book_ming21_04Pan_full.pdf](../assets/book_ming21_04Pan_full.pdf)
 file-path:: ../assets/book_ming21_04Pan_full.pdf
-
 - 凡女人與男子交往，豈無真情。
   ls-type:: annotation
   hl-page:: 8

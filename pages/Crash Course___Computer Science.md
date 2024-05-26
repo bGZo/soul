@@ -2,7 +2,6 @@ title:: Crash Course/Computer Science
 tags:: #Github #opensource
 created:: 20230324
 source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https://img.shields.io/github/stars/1c7/crash-course-computer-science-chinese)
-
 - [CSAPP+SICP - 知乎](https://www.zhihu.com/column/c_1212802114247979008)
 - Coursera镜像网站：[https://www.mooc.cn](https://www.mooc.cn)
 - ## Content #.ol
@@ -215,8 +214,8 @@ source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https:
     - 链表Linked List
   - 软件工程
   - 集成电路&&摩尔定律
-    - 集成开发环境 
-      电子管到晶体管 
+    - 集成开发环境
+      电子管到晶体管
       仙童半导体让集成电路成为可嫩
       PCB 蚀刻金属线——PCB和IC结合
       光刻技术 把复杂图案印在材料上
@@ -286,9 +285,7 @@ source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https:
   - 屏幕与2D图形显示
     - PDP-1计算机、键盘与显示器分开，屏幕显示临时值
       - PDP-1（Programmed Data Processor-1），程序数据处理机１号 , 是形成骇客文化的重要推手。史上第一个电脑游戏是在这个平台上开发的（一段简单的FORTRAN程序。在这个程序里，Crowther设计了一张地图，地图上不规则的分布着陷阱，游戏者必须寻找路径避开陷阱）
-        
          其磁芯内存的周期时间是**5.35微秒**(换算成**时脉频率**约**187千赫兹**)。大部分算数指令需要10.7微秒来完成(亦即约**每秒完成93458个运算**)，这是因为这些指令运算需要使用两个内存周期：第一个周期用来**取得指令**，而第二个周期用来**存取数据**。
-        
          PDP-1的晶体管数量为2700个，并且拥有3000个二极管
       - 文本任务 和 图像任务是分开的。因为早期的屏幕分辨率连纸都不如。**早期的屏幕的值更多是追踪程序的值（比如寄存器的值）**
     - 阴极射线管（CRT）（原理是：把电子发射到有碳光体涂层的屏幕上，当电子撞击涂层时会发光几分之一秒，由于电子是带电拉子。略径可以用磁场控制，屏幕内用板子或线圈把电子引导到想要的位置）

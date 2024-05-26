@@ -1,5 +1,4 @@
 tags:: #Privacy
-
 - ## Delete Account Queue
   - Even though I know the *delete account* is not really delete database, it just a soft delete, still I want to try it, just for another people if they could see.
   - [#C] Delete account

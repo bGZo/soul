@@ -1,6 +1,5 @@
 alias:: 兰斯, ランス
 tags:: #hentai #galgame/god
-
 - ## Series
   - ![](../assets/game_rance/Rance-series-nav-full.webp)
     via: [Rance Series | AliceSoftWiki | Fandom](https://alicesoft.fandom.com/wiki/Rance_Series)

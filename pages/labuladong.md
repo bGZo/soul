@@ -1,10 +1,9 @@
 title:: labuladong
-tags:: #Github #剑指Offer #algo  
+tags:: #Github #剑指Offer #algo
 source:: [labuladong/fucking-algorithm: 刷算法全靠套路 ](https://github.com/labuladong/fucking-algorithm) ![](https://img.shields.io/github/stars/labuladong/fucking-algorithm)
 created:: 20221204
-closed:: 
+closed::
 mark::
-
 - Content
   - 0
     collapsed:: true

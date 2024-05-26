@@ -1,7 +1,6 @@
 title:: imu/java
 tags:: #[[Java]]
 mark:: 期末占 50% + EduCoder 30% + 平时 20%
-
   - Java
     collapsed:: true
     - 异常处理
@@ -67,11 +66,9 @@ mark:: 期末占 50% + EduCoder 30% + 平时 20%
     - 简答
       - 说明Java的包机制，并说明类成员在各种访问控制符修饰下在相应包、子类继承关系中的访问范围。
         collapsed:: true
-        - package是java 中包机制。包机制的作用是为了方便程序的管理。  
+        - package是java 中包机制。包机制的作用是为了方便程序的管理。
           不同功能的类分别存放在不同的包下。    
-          
           package是一个关键字，后面加包名。
-          
           一般都采用公司域名倒序的方式
         - | **访问修饰符** |
           | --- | --- | --- |
@@ -84,13 +81,11 @@ mark:: 期末占 50% + EduCoder 30% + 平时 20%
         collapsed:: true
         - JSP是Servlet技术的扩展，本质上就是Servlet的简易方式。JSP编译后是“类servlet”
         - Servlet的应用逻辑是在Java文件中，并且完全从表示层中的HTML里分离开来
-          
           JSP的情况是Java和HTML可以组合成一个扩展名为.jsp的文件
-          
           JSP侧重于视图，Servlet主要用于控制逻辑
-        - Servlet在Java代码中通过HttpServletResponse对象动态输出HTML内容  
+        - Servlet在Java代码中通过HttpServletResponse对象动态输出HTML内容
           JSP在静态HTML内容中嵌入Java代码，Java代码被动态执行后生成HTML内容。
-          Servlet能够很好地组织业务逻辑代码，但是在Java源文件中通过字符串拼接的方式生成动态HTML内容会导致代码维护困难、可读性差  
+          Servlet能够很好地组织业务逻辑代码，但是在Java源文件中通过字符串拼接的方式生成动态HTML内容会导致代码维护困难、可读性差
           JSP虽然规避了Servlet在生成HTML内容方面的劣势，但是在HTML中混入大量、复杂的业务逻辑同样也是不可取的。
         - via: [jsp与servlet的区别与联系_癸酉金鸡的博客-CSDN博客_jsp和servlet区别和联系](https://blog.csdn.net/chinasi2012/article/details/87428361)
       - 说明Java EE组件-容器的编程思想，并画图说明servlet运行管理机制。
@@ -133,29 +128,19 @@ mark:: 期末占 50% + EduCoder 30% + 平时 20%
       - 请描述forward和redirect的区别。
         collapsed:: true
         - 请求方不同
-          
           redirect：客户端发起的请求
-          
           forward：服务端发起的请求
         - 浏览器地址表现不同
-          
           redirect：浏览器地址显示被请求的
-          
           urlforward：浏览器地址不显示被请求的url
         - 参数传递不同
-          
           redirect：重新开始一个request,原页面的request生命周期结束。
-          
           forward：forward另一个连接的时候。request变量是在其生命周期内的。另一个页面也可以使用，其实质是把目标地址include。
         - 底层运作不同
-          
           redirect：发送的请求信息又回送给客户机，让客户机再转发到另一个资源上，需要在服务器和客户机之间增加一次通信。
-          
           forward：服务器端直接找到目标，并include过来。
         - 定义不同
-          
           直接转发方式（Forward）：客户端和浏览器只发出一次请求，Servlet、HTML、JSP或其它信息资源，由第二个信息资源响应该请求，在请求对象request中，保存的对象对于每个信息资源是共享的。
-          
           间接转发方式（Redirect）实际是两次HTTP请求，服务器端在响应第一次请求的时候，让浏览器再向另外一个URL发出请求，从而达到转发的目的。
         - via: [forward和redirect的区别_百度知道](https://zhidao.baidu.com/question/1574962284977388260.html)
       - 请描述EJB和JAVA BEAN的区别。

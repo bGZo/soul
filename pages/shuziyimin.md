@@ -2,7 +2,6 @@ alias:: 数字移民
 created:: 20240102
 tags:: #migrant/digtal
 title:: shuziyimin
-
 - ## Why
   - > 肉体和精神，总要有一个是自由的
 - ## How
@@ -14,7 +13,7 @@ title:: shuziyimin
       tags:: #Github
       source:: [WebStackPage/WebStackPage.github.io: ❤️静态响应式网址导航网站 - webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) ![](https://img.shields.io/github/stars/WebStackPage/WebStackPage.github.io)
       created:: 20230108
-      closed:: 
+      closed::
       mark::
       - Jekyll 版本的后台 [0xl2oot/webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)
       - 从Chrome书签生成Jekyll版本配置的工具 [hanxi/webstack-jekyll](https://github.com/hanxi/webstack-jekyll)
@@ -22,9 +21,7 @@ title:: shuziyimin
     collapsed:: true
     - 1.「数字移民」一词的来源
       - 2018年早些时候，内容审核不断加紧，推友们赋予 「数字移民」一个新含义，与「肉身移民」相对，指「无法移民的情况下，在数字生活上追求一定的自由」。数字移民网站受此灵感而建立。
-        
         关于叫做 digital immigrant，只是数字移民一词的表面意思翻译。被人吐槽用的是 immigrant （移入）而非 emigrant （移出），丧失了「数字移民」这词潜在的诙谐之处。
-        
         2019年9月起，为了方便之后扩展项目，已经启用新域名 shuziyimin.org，访问 digital.immigrant.org 会自动重定向到新域名。
     - 2.数字移民项目简介
       - 2018年初，[数字移民博客](http://blog.shuziyimin.org/) 上线；
@@ -60,10 +57,8 @@ title:: shuziyimin
     CLOCK: [2022-02-24 Thu 21:50:50]--[2022-02-24 Thu 21:50:51] =>  00:00:01
     :END:
     - I hated scene in netease feeds
-      
       #+BEGIN_WARNING
-      this comment is being deleted. 
-      #+END_WARNING 
-      
+      this comment is being deleted.
+      #+END_WARNING
       It's really feel like GFW. Cause **its a lie** made by offical social media that everyone would be trusted in netease village, everything will love them. But netease merely is a business company, the imagnation is becoming larger and larger as they grew up.
   - [[Apple/music]] to [[ytmusic]]

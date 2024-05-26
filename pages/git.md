@@ -1,8 +1,6 @@
-tags:: #tools 
-
+tags:: #tools
 created:: 20230728
 title:: git
-
 - ## Why
 - ## How
   - ### Commands References
@@ -46,7 +44,7 @@ title:: git
       collapsed:: true
       - ```bash
         git remote -v # List all currently configured remotes
-        git remote show <remote> # Show information about a remote  
+        git remote show <remote> # Show information about a remote
         git remote add <shortname> <url> # Add new remote repository, named <remote>
           # git submodule add <url>/<ssh>
         git fetch <remote> # Download all changes from <remote>
@@ -62,9 +60,8 @@ title:: git
           git fetch origin master
           git log -p master..origin/master
           git merge origin/master
-          
           git fetch origin master:tmp
-          git diff tmp 
+          git diff tmp
           git merge tmp
           # via: https://blog.csdn.net/hudashi/article/details/7664457
           ```
@@ -74,11 +71,11 @@ title:: git
       collapsed:: true
       - ```bash
         git merge <branch>
-        git rebase <branch>  
+        git rebase <branch>
         git rebase --abort
         git rebase --continue
         git mergetool
-        git add <resolved-file> 
+        git add <resolved-file>
         git rm <resolved-file>
         ```
       - `rebase` tutorial
@@ -87,10 +84,10 @@ title:: git
       - ```bash
         git reset --hard HEAD
         git checkout HEAD <file> # Discard local changes in a specific file
-        git revert <commit> # Revert a commit   (by producing a new commit with contrary changes)  
+        git revert <commit> # Revert a commit   (by producing a new commit with contrary changes)
         git reset --hard <commit> # Reset your HEAD pointer to a previous commit …and discard all changes since then
         git reset <commit> # and preserve all changes as unstaged changes
-        git reset --keep <commit> # and preserve uncommitted local changes  
+        git reset --keep <commit> # and preserve uncommitted local changes
         ```
       - `revert` vs `checkout` vs `reset`, via: [atlassian](https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting)
         - `revert` -> `commit level`, no `file level`
@@ -108,7 +105,6 @@ title:: git
         git submodule add https://github.com/yyy/xxx.git
         git submodule status
         git submodule deinit
-        
         git clone https://github.com/yyy/xxx.git --recursive #子模块也一起 clone, or using for
         git submodule init && git submodule update # euqal following
         git submodule update --init
@@ -119,15 +115,13 @@ title:: git
     - Add 错了怎么办?
       collapsed:: true
       - #+BEGIN_WARNING
-        不要用 `git reset --hard (versionＨash)`, 修改会清空! 
+        不要用 `git reset --hard (versionＨash)`, 修改会清空!
         #+END_WARNING
       - ```shell
         git reset --mixed
         # 保留修改, 退出暂存区, --mixed 为默认参数
-        
         git reset HEAD
         # 撤销 add (绿字变红字)
-        
         git checkout -- (file)
         # 撤销没 add 的修改 (红字变无)
         ```
@@ -136,7 +130,6 @@ title:: git
       - ```shell
         git reset --soft HEAD^
         # 不删除工作空间改动代码, 撤销 commit, 不撤销 git add
-        
         git commit --amend
         # commit 注释写错了, 只想改一下注释
         ```

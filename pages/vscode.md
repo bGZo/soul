@@ -1,14 +1,13 @@
 title:: vscode
 alias:: visual studio code, Tools/vscode
 tags::
-mark:: a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional [Microsoft product license](https://code.visualstudio.com/License/); combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools; updated monthly with new features and bug fixes. 
-tags:: 
+mark:: a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional [Microsoft product license](https://code.visualstudio.com/License/); combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools; updated monthly with new features and bug fixes.
+tags::
 document:: [Documentation for Visual Studio Code](https://code.visualstudio.com/docs)
 changelog:: [Visual Studio Code Update](https://code.visualstudio.com/updates/)
-community:: 
+community::
 mark:: [Visual Studio Code - Code Editing. Remark:: d](https://code.visualstudio.com/)
 created:: 20230223
-
 - ## [[cheat/sheet]]
   - ### [[shortcut]]
     - ![https://code.visualstudio.com/assets/docs/getstarted/tips-and-tricks/KeyboardReferenceSheet.png](../assets/VscodeKeyboardReferenceSheet.png)

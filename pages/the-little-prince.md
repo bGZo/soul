@@ -1,11 +1,10 @@
 title:: the-little-prince
 alias:: book/the-little-prince
-tags:: #[[English]], #[[English/words]] 
+tags:: #[[English]], #[[English/words]]
 author:: Antoine de Saint-Exupéry
 publisher:: 上海阅文信息技术有限公司
 published-date:: 20180400
 source:: https://book.douban.com/subject/1370897
-
   - > 1943 年 首次出版
     > 1944 年 7 月, 作者在执行飞行任务时失联，从此再也没有回来
   - 小王子与玫瑰的爱情、可怕的猴面包树、专制的国王、痴迷于加法的红脸先生、执着的点灯人、小王子与狐狸的友情、沙漠中的水井与歌
@@ -21,27 +20,16 @@ source:: https://book.douban.com/subject/1370897
     - boa constrictor
     - swallowing
       pondered
-      
       jungle.
-      
       Frighten
-      
       lay aside
-      
       magnificent
-      
       disheartened
-      
       **Grown-ups never understand anything by themselves, and it is tiresome for children to be always and forever explaining things to them**
-      
       intimately
-      
       I would try to find out, so, if this was a person of true understanding.
-      
       primeval
-      
       neckties.
-      
       sensible
   - ### Chapter 2
     collapsed:: true

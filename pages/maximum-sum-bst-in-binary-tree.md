@@ -1,7 +1,6 @@
 icon:: 👨‍💻
-tags:: #leetcode/medium 
+tags:: #leetcode/medium
 created:: 20230520
-
 - ## Content
   - <iframe src="https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/)
@@ -19,25 +18,19 @@ created:: 20230520
               int sum, lo, hi;
               T(int sum_, int lo_, int hi_):sum(sum_), lo(lo_), hi(hi_){}
           };
-      
           int ans;
-      
           T solve(TreeNode *rt) {
               T tl(0, rt->val, INT_MIN);
               T tr(0, INT_MAX, rt->val);
       		// 后序遍历
-             
               if (rt->left) tl = solve(rt->left);
               if (rt->right) tr = solve(rt->right);
-      
               if (tl.hi < rt->val && rt->val < tr.lo) {
                   ans = max(ans, tl.sum + rt->val + tr.sum);
                   return T(tl.sum + rt->val + tr.sum, tl.lo, tr.hi);
               }
-      
               return T(INT_MIN, INT_MIN, INT_MAX);
           }
-      
           int maxSumBST(TreeNode* root) {
               ans = 0;
               solve(root);

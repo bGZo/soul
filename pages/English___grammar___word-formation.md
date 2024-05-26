@@ -1,5 +1,4 @@
 alias:: 构词法
-
 - 背景
   - 早期
     - 一个整体产生的, 比如 love，trust，sense，letter 这些词一样不能再进行拆分

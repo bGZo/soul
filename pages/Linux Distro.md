@@ -1,9 +1,8 @@
 alias:: Linux Distribution, Linux发行套件
 icon:: 🐧
-tags:: #Linux 
+tags:: #Linux
 created:: 20230906
 title:: Linux Distro
-
 - ## Why
 - ## How
   - WAITING 做一个自己的 LINUX 发行版
@@ -29,7 +28,7 @@ title:: Linux Distro
     - SUSE Linux
       - openSUSE 经验丰富+技术创新+简单易用+配置灵活！
     - Debian Linux
-      - [[Ubuntu]] Linux
+      - [[ubuntu]] Linux
         - 零配置开箱即用的发行套件
       - [[Deepin]]
       - KNOPPIX Linux

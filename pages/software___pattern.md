@@ -1,5 +1,4 @@
 title:: software/pattern
-
 - [[Quickref]]
   - UML
     id:: 634cd4bc-9950-4d3c-8057-466be4c059e3
@@ -431,14 +430,14 @@ title:: software/pattern
 - Refs
   - 大话设计模式
     alias:: book/大话设计模式
-    tags:: #[[software/pattern]] 
+    tags:: #[[software/pattern]]
     author:: 程杰
     publisher:: 清华大学出版社
     published-date:: 20071201
     source:: [大话设计模式 (豆瓣)](https://book.douban.com/subject/2334288/)
   - 秒懂设计模式
     alias:: book/秒懂设计模式
-    tags:: #[[software/pattern]] 
+    tags:: #[[software/pattern]]
     author:: 刘韬
     publisher::  人民邮电出版社
     published-date:: 20201100

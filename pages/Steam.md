@@ -1,9 +1,7 @@
 icon:: 🎮
 tags:: game/platform
-
 created:: 20230704
 title:: Steam
-
 - ## Why
 - ## How
 - ## What
@@ -18,7 +16,7 @@ title:: Steam
       - similar to  https://steamcommunity.com/discussions/forum/0/3430075523241519800/
     - WAITING 点数商店兑换的东西没有办法再次卖出 #wontfix
       collapsed:: true
-      - > 淘宝/stcn交易区买就行了，点数很便宜，10w点好像才50块钱.... 
+      - > 淘宝/stcn交易区买就行了，点数很便宜，10w点好像才50块钱....
         via: [steam点数商店里的季节性徽章多久刷新一次？ NGA玩家社区](https://ngabbs.com/read.php?tid=29809808&rand=920)
     - WAITING Demo project cannot stay in library #sucks
       collapsed:: true
@@ -60,7 +58,7 @@ title:: Steam
     - 昨天让一条评论整破防了
     - > [villivateur](https://www.v2ex.com/member/villivateur): 如果你看看服务条款的话，你就会知道你现在买的也是盗版，因为你不在香港，买港区的服务也算盗版 via: https://www.v2ex.com/t/796466
     - 让我们来回答两个问题
-    - > 跨境消费的商品算盗版吗? 
+    - > 跨境消费的商品算盗版吗?
       > 分区定价合理吗?
       - 什么东西算盗版, 我们假定以 wikipedia 的定义为标准:
       - > **Copyright infringement** (at times referred to as piracy) is the use of works protected by copyright without permission for a usage where such permission is required, thereby infringing certain exclusive rights granted to the copyright holder, such as the right to reproduce, distribute, display or perform the protected work, or to make derivative works, via: https://en.wikipedia.org/wiki/Copyright_infringement

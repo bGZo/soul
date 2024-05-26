@@ -1,5 +1,4 @@
 alias:: 设计
-
 - [[Tool]]
   - Format Code
     - set: http://tool.lu

@@ -1,6 +1,5 @@
 alias:: music/platform/apple-music
 title:: Apple/music
-
 - nice
   - directly using, no proxy, take replace of common spotify.
   - mainland is cheaper

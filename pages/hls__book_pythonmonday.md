@@ -1,6 +1,5 @@
 file:: [book_pythonmonday.pdf](../assets/book_pythonmonday.pdf)
 file-path:: ../assets/book_pythonmonday.pdf
-
 - Python Editors
   ls-type:: annotation
   hl-page:: 18

@@ -1,8 +1,6 @@
 tags:: #java/framework
-
 created:: 20230728
 title:: Spring
-
 - ## [[Java]]
   - ### Why
   - ### How

@@ -1,5 +1,4 @@
 alias:: database/crud
-
 - > 英文小写的crud，是指渣滓、水垢、腐蚀污泥
 - Create, Read, Update, and Delete, 增删查改 (CRUD)
   - basic operations of persistent storage

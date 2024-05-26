@@ -1,5 +1,4 @@
 title:: draft/write-to-self-in-2019
-
 - 放弃 `BAIDU`
 - `RTFM` & `STFW` 可以解决你 80% 的网络问题. 而不是逛知乎, 公众号, 闲鱼买课, 或是其他什么软文. 当别人的韭菜.
   - Read The Fucking Manual, 压根就不用去看二流作者转义写出来的过气文章, 恶心 (更新问题).

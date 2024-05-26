@@ -1,9 +1,8 @@
 icon:: 💭
 name:: [Outline of thought - Wikipedia](https://en.wikipedia.org/wiki/Outline_of_thought#Types_of_thought_(thinking))
-tags:: 
-mark:: 
+tags::
+mark::
 archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia (11_15_2022 11_40_59 PM).html)
-
   - also known as [[thinking]] processes
 - Outline
   - Types of Thoughts
@@ -38,7 +37,7 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
       mark:: Type of logical argument that applies *deductive reasoning(演绎推理)*
     - Theory (理论)
       mark:: *Supposition(假设)* or system of ideas intended to explain something
-    - Thought experiment (思想实验) 
+    - Thought experiment (思想实验)
       mark:: *Hypothetical(假设)* situation
     - **Content of thoughts**
       collapsed:: true
@@ -52,9 +51,9 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
         mark:: Units of information
       - Information
         mark:: Facts provided or learned about something or someone
-      - Knowledge 
+      - Knowledge
         mark::  *Awareness(认识)* of facts or being *competent(能力)*
-      - Schema 
+      - Schema
         mark:: Technique to encode and *retrieve(检索)* memories
   - Types of Thought (Thinking)
     collapsed:: true
@@ -293,12 +292,12 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
     - Validity – Argument whose conclusion must be true if its premises are
     - Value theory – Concept in sociology and philosophy
     - Wrongdoing – Act that is illegal or immoral
-- [[Template]]
+- [[template]]
   - template:: thought
     template-including-parent:: false
     - <!--Thoughts-->
       tags:: #thought, #my
-      feeling:: 
-      mark:: 
+      feeling::
+      mark::
       created:: <% today %>
 -

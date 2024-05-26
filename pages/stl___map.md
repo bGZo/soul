@@ -1,6 +1,5 @@
 title:: stl/map
 alias:: cpp/stl/map
-
 - map是STL的一个关联容器，它提供一对一的hash
 -
 - ## `map`
@@ -20,15 +19,11 @@ alias:: cpp/stl/map
     ---------------------------------------------------------
     Ordering          | increasing  order   | no ordering
                       | (by default)        |
-    
     Implementation    | Self balancing BST  | Hash Table
-                      | like Red-Black Tree |  
-    
-    search time       | log(n)              | O(1) -> Average 
+                      | like Red-Black Tree |
+    search time       | log(n)              | O(1) -> Average
                       |                     | O(n) -> Worst Case
-    
     Insertion time    | log(n) + Rebalance  | Same as search
-                          
     Deletion time     | log(n) + Rebalance  | Same as search
     ```
   - Use `std::map` when

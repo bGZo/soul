@@ -1,5 +1,4 @@
 tags:: #cmd #Windows
-
 - ## [[Quickref]]
   - ```bat
     echo %~dp0

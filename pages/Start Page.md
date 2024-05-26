@@ -1,12 +1,11 @@
 icon:: 🔖
 alias:: 导航
 mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
-
 - ## 👨‍💻 Work
   - ### 🚀 Mirrors
     collapsed:: true
-    - title:: [eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror) ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror) 
-      tags:: #Github #opensource #mirror #Proxy 
+    - title:: [eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror) ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
+      tags:: #Github #opensource #mirror #proxy
       created:: 20230223
       mark:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。
     - [[Github]]
@@ -44,7 +43,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - http://scholar.scqylaw.com/
       - https://gg.xueshu5.com/
       - https://item.guidebook.top/google/
-    - [[Ubuntu]]
+    - [[ubuntu]]
       collapsed:: true
       - 高校镜像源有:
         - [Tinghua Mirror / 清华大学](https://mirrors.tuna.tsinghua.edu.cn)
@@ -217,7 +216,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [ZTrening](http://www.codah.club/)
 -
 - ## 😎 Life / Hobbies
-  - ### Books
+  - ### 如果有天堂，那一定是图书馆的模样
     collapsed:: true
     - [书格](https://new.shuge.org/)
   -

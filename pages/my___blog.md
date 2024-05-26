@@ -1,17 +1,14 @@
 title:: my/blog
 tags:: #Blog #jekyll #vercel
 mark:: [Home - bGZo's blog](http://blog.bgzo.cc)
-
 - ## [[Issue]]
   - DONE Modify Font CSS (Solarized) in 20230128
     collapsed:: true
     - [chawyehsu/lxgw-wenkai-webfont: webfont package for the LXGW WenKai typeface](https://github.com/chawyehsu/lxgw-wenkai-webfont) #sucks #font/web
       collapsed:: true
       - 总耗时 2.1 min 😅
-        
         ![firefox_103.png](../assets/firefox_103_1674914188465_0.png)
       - 对比 [Noto Serif Simplified Chinese - Google Fonts](https://fonts.google.com/noto/specimen/Noto+Serif+SC/about) 6s (当然也很慢)
-        
         ![firefox_102.png](../assets/firefox_102_1674914603295_0.png)
       - 一开始从 [Chrome 版 WebFeed 简介](https://taoshu.in/webfeed/webfeed-for-chrome.html) 发现的, 它网站的加载速度更慢...
       - 仓库维护四个版本的字体

@@ -1,6 +1,5 @@
-tags:: #java/interview 
+tags:: #java/interview
 mark:: [Java校招面试题目合集_Java工程师/Java开发_牛客网](https://www.nowcoder.com/ta/review-java)
-
 - ## Contents
   - DONE [什么是Java虚拟机？为什么Java被称作是“平台无关的编程语言”？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21069&query=&asc=true&order=&page=1)
   - DONE [JDK和JRE的区别是什么？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21070&query=&asc=true&order=&page=2)
@@ -187,7 +186,6 @@ mark:: [Java校招面试题目合集_Java工程师/Java开发_牛客网](https:/
               	Function<? super K, ? extends V> mappingFunction) {
                   // ...
               	if ((first = tab[i = (n - 1) & hash]) != null) {
-                    
               ```
             - 这样得到的结果和传统取模运算结果一致，而且效率比取模运算高
         - jdk1.8中put方法的具体步骤
@@ -223,12 +221,9 @@ mark:: [Java校招面试题目合集_Java工程师/Java开发_牛客网](https:/
       - ```java
         public class HashSet<E> extends AbstractSet<E>
             implements Set<E>, Cloneable, java.io.Serializable {
-        
             private transient HashMap<E,Object> map;
-        
             // Dummy value to associate with an Object in the backing Map
             private static final Object PRESENT = new Object();
-        
             public HashSet() {
                 map = new HashMap<>();
             }
@@ -242,7 +237,6 @@ mark:: [Java校招面试题目合集_Java工程师/Java开发_牛客网](https:/
                     V value;
                     Entry<K,V> next;
                     int hash;
-        
                     ....
                 }
         ```
@@ -337,7 +331,7 @@ mark:: [Java校招面试题目合集_Java工程师/Java开发_牛客网](https:/
       - 这一层负责连接参与服务的两个JVM。这一层是建立在网络上机器间的TCP/IP连接之上的。它提供了基本的连接服务，还有一些防火墙穿透策略。
   - [RMI中的远程接口(Remote Interface)扮演了什么样的角色？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21149&query=&asc=true&order=&page=81)
     collapsed:: true
-    - A remote object is an instance of a class that implements a remote interface. A remote interface extends the interface java.rmi.Remote and declares a set of remote methods. Each remote method must declarejava.rmi.RemoteException (or a superclass of RemoteException)   
+    - A remote object is an instance of a class that implements a remote interface. A remote interface extends the interface java.rmi.Remote and declares a set of remote methods. Each remote method must declarejava.rmi.RemoteException (or a superclass of RemoteException)
        来自：https://docs.oracle.com/javase/8/docs/technotes/guides/rmi/hello/hello-world.html
   - [java.rmi.Naming类扮演了什么样的角色？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21150&query=&asc=true&order=&page=82)
   - [RMI的绑定(Binding)是什么意思？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21151&query=&asc=true&order=&page=83)

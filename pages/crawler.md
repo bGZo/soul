@@ -1,11 +1,9 @@
 alias:: crawler spider, spiderbot, 爬虫
 mark:: an Internet bot that systematically browses the World Wide Web and that is typically operated by search engines for the purpose of Web indexing (web spidering)
-tags:: #web  
-
+tags:: #web
 created:: 20230614
 title:: crawler
 wikipedia:: [Web crawler - Wikipedia](https://en.wikipedia.org/wiki/Web_crawler)
-
 - ## Why
 - ## How
 - ## What

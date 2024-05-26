@@ -1,7 +1,6 @@
 alias:: commands/diff
 created:: 20240420
 icon:: ⌘
-
 - ## Why
 - ## How
 - ## What

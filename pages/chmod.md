@@ -1,7 +1,6 @@
 alias:: commands/chmod
 created:: 20231217
 icon:: ⌘
-
 - ## Why
 - ## How
   - 每个人都可以读取

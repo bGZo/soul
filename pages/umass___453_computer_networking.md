@@ -1,19 +1,18 @@
 icon:: 🏫
 alias:: 自顶向下计算机网络, Computer Networking: A Top-Down Approach
-tags:: 
-author:: 
-translator:: 
-publisher:: 
-isbn:: 
+tags::
+author::
+translator::
+publisher::
+isbn::
 created:: 20230413
-closed:: 
-douban:: 
-goodreads:: 
-weread:: 
-desc:: 
-cover:: 
+closed::
+douban::
+goodreads::
+weread::
+desc::
+cover::
 mark::
-
 - [Jim Kurose Homepage (umass.edu)](https://gaia.cs.umass.edu/kurose_ross/index.php)
 - [COMPSCI 453 Computer Networking | Cybersecurity Institute (umass.edu)](https://infosec.cs.umass.edu/content/compsci-453553-computer-networking)
 -
@@ -318,7 +317,6 @@ mark::
         Connection to gaia.cs.umass.edu 80 port [tcp/http] succeeded!
         GET /kurose_ross/interactive/index.php HTTP/1.1
         Host: gaia.cs.umass.edu
-        
         HTTP/1.1 200 OK
         Date: Wed, 19 Apr 2023 15:07:07 GMT
         Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.33 mod_perl/2.0.11 Perl/v5.16.3
@@ -403,7 +401,6 @@ mark::
             Cache Example
             #+END_EXAMPLE
             {{youtube-timestamp 195}}
-            
             $$delay_{end-end} =  delay_{Internet}+ delay_{access-link}+delay_{LAN}$$
             - $delay_{Internet}$ is **RTT from institutional router to server**
               从机构路由器到服务器的RTT
@@ -435,7 +432,7 @@ mark::
           - transmission order of requested objects based on client-specified object priority (not necessarily FCFS)
           - ==`push unrequested objects to client`==
           - ==`divide objects into frames, schedule frames to mitigate HOL blocking`==
-        - HTTP/2 mitigating HOL(Head of Line) blocking 
+        - HTTP/2 mitigating HOL(Head of Line) blocking
           collapsed:: true
           HTTP 2 减少队头阻塞
           - HTTP 1.1: client requests 1 large object (e.g., video file) and 3 smaller objects
@@ -486,7 +483,7 @@ mark::
           - commands: ASCII text
           - response: status code and phrase
         - #+BEGIN_EXAMPLE
-          S: 220 hamburger.edu 
+          S: 220 hamburger.edu
           C: HELO crepes.fr
           S: 250 Hello crepes.fr, pleased to meet you
           C: MAIL FROM: <alice@crepes.fr>
@@ -575,7 +572,7 @@ mark::
             - forwarding request into DNS hierarchy for resolution
               each ISP has local DNS name server; to find yours:
               - ```shell
-                # MacOS 
+                # MacOS
                 scutil --dns
                 # Windows
                 ipconfig /all

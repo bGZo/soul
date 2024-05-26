@@ -1,12 +1,11 @@
-icon::  
+icon::
 title:: pieroots
 alias:: Word Power Made Easy
 mark:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
-tags:: #English #telegram/channel #subscription #DOING 
+tags:: #English #telegram/channel #subscription #DOING
 source:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
 created:: 20221220
 mark::
-
 - Content
   - 关于词根词缀，简单地说，词尾可以看做是一个特殊的后缀，而词干则是单词去除了词尾后的剩余部分。词根是单词去除了所有词缀（包括前缀和后缀）后的剩余部分。**词干等于或大于词尾**，即有时候词干恰好就是一个词根，或称自由词根。但更多时候词干是词根加上若干词缀。
     collapsed:: true
@@ -35,7 +34,7 @@ mark::
     - per（加强语气）+suas（劝说）+ion（名词后缀）→说服。
     - title:: `suad-`/`suas-`/`suav-`
       definition:: {{cloze suavis / sweet;   suadere / to advise; to make something pleasant to / to present in a pleasing manner; hence to recommend / to advise}}
-      tags:: #card, #English #English/word/root 
+      tags:: #card, #English #English/word/root
       refs:: [suad-, suas-, suav- - Word Information](https://wordinfo.info/unit/3928)
       mark:: "来自拉丁语动词suadere（劝说）及其完成分词suasus，本意是“使变甜，使某事显得令人愉快，说甜言蜜语”，和拉丁词根suav-（甜的，令人愉悦的）、日耳曼单词sweet（甜的）同源"
       - assuage (verb, /əˈsweɪdʒ/), assuages; assuaged; assuaging
@@ -69,14 +68,14 @@ mark::
     - precipitate=pre（向前）+cipit（=capit，头）+ate（动词和形容词后缀）→头向前→一头栽下→猛地落下。转做名词，表示落下来的东西，也就是沉淀物。
     - title:: `capit-` / `capt-` / `cap-` / `cep-` / `ceps-` / `chapt-` / `chef` / `cip-`
       definition:: {{cloze  head; leader / chief / or first}}
-      tags:: #card, #English #English/word/root 
+      tags:: #card, #English #English/word/root
       refs:: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
       mark::
       - > When the French *borrowed words*(借用单词) from Latin, they frequently used soft sounds. These French words, with their softer sounds, then made their way into the English language. At the same time, English borrowed words directly from Latin. So it is that in English we often have two words which share the same root, but which have different, though related, forms and meanings.
         via: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
       - **chief** -> achieve (verb), achieves; achieved; achieving
         collapsed:: true
-        - > Word History 
+        - > Word History
           To achieve something is to bring plans and actions to a head. This is the literal meaning of the ancestor of our word achieve, which was borrowed from the French in Norman times. They made the verb achever out of the preposition a-, "to", and **chief**, "head": "to bring to a head".
           Old French chief comes, in turn, through a thousand years of gradual changes, which only the strongest (accented) syllables survived, from Latin caput, "head". The original sense, "bring to a head", easily acquired the present significance, "bring to a successful conclusion, make a success" of the task at hand.
       - capital (adjective) | 首都
@@ -146,7 +145,7 @@ mark::
       - 另一个含义是“没有意识到、不去注意”，所以是“忽略、不理睬”的意思，派生出的ignored就是“被忽略的”
     - title:: `gno-` / `gnos-` / `gnoto-` / `-gnostic` / `-gnosia` / `-gnomic` / `-gnomonic` / `-gnomical` / `-gnomy` / `-gnosia` / `-gnostic` / `-gnosis`
       definition:: {{cloze (Greek) know / learn / discern(辨別)}}
-      tags:: #card, #English #English/word/root 
+      tags:: #card, #English #English/word/root
       refs:: [gno-, gnos-, gnoto-, -gnostic, -gnosia, -gnomic, -gnomonic, -gnomical, -gnomy, -gnosia, -gnostic, -gnosis - Word Information](https://wordinfo.info/unit/929/s:ignore)
       mark::
       - cognizance (KAHG ni zuhns) (s) (noun), cognizances (pl) | 認知
@@ -196,7 +195,7 @@ mark::
     collapsed:: true
     - boycott源自英国人查尔斯·博伊科特（CharlesBoycott）的姓氏。博伊科特在19世纪70年代移居爱尔兰，成为了爱尔兰大地主俄内伯爵的地产经纪人。在当时的爱尔兰，农民为了反抗地主的盘剥和压迫，纷纷自发组织各种形式的反抗。其中，“土地联盟”便是农民组织之一。“土地联盟”试图在爱尔兰进行土地改革，推出一项新政策，要求地主降低地租。博伊科特拒绝降低地租，还驱逐参加运动的佃农，激起了爱尔兰人的公愤。因此，“土地联盟”号召民众对其进行一种“道德流放”，断绝与他的一切来往，拒绝为他提供任何商品和服务。未过多久，博伊科特便发现自己完全陷入孤立，不得不狼狈地离开了爱尔兰。这件事经当时的英国报纸报道后，产生了巨大的社会影响。后人经常加以仿效，对自己不满的组织或活动进行联合抵制。博伊科特的姓氏boycott也就成为了“联合抵制”的代称。中文中通常翻译为“杯葛”。
   - issue来自拉丁语动词exire，=ex（out，出来）+ire（go，走，前往），字面意思就是go out（走出来）。这个单词途经法语时，拼写变成了issue，变得面目全非了。**法语发音有个常见的音变现象，就是拉丁语单词中的辅音k常常脱落**，所以拉丁语exire中的ex在法语中就变成了iss，x中的那个k音脱落了。
-  - eligible=e（=ex，出来）+lig（=leg，挑选）+ible（可以）→可以挑选出来的→合格的，符合条件的。 
+  - eligible=e（=ex，出来）+lig（=leg，挑选）+ible（可以）→可以挑选出来的→合格的，符合条件的。
     拉丁词根leg-/lect-（采集；挑选；读，讲，言语）来自拉丁语动词 legere（采集，挑选，引申为读、讲、言语）及其完成分词 lectus。同根词有select，elect等
   - deadpan /dedpæn/ adj. without any expression or emotion; often pretending to be serious when you are joking
     deadpan中的pan意思是平底锅，是“脸”的俚语。这里的pan和pandemic中的pan不是一个东西，后者中的pan-意为all。英语中很多这种情况，拼写完全一样的，未必是同一个东西。
@@ -347,7 +346,7 @@ mark::
     词根prehens-的本意是“抓、掌握”，引申出好几个含义：被人抓住就是逮捕，被大脑抓住就是理解，被焦虑恐惧之情抓住就是忧虑、恐惧。
   - identify=ident（同一）+i+fy（=fac，做）→确定是否同一→鉴定。 拉丁词根ident-（同一）来自拉丁语代词idem（同一个）。 拉丁词根fac-/fact-（做，制造，驱使，放置）来自拉丁语动词 facere（做，制造，驱使）及其完成分词 factus。
     ID其实就是identification的缩写
-    sustain=sus（=sub，在下面）+tain（=ten，保持）→在下面保持→维持，支撑。 
+    sustain=sus（=sub，在下面）+tain（=ten，保持）→在下面保持→维持，支撑。
     拉丁词根ten-/tent-（保持，持有）来自拉丁语动词tenere（保持，持有）及其完成分词形式。
     常见变体形式：tin-/tain-。
     humble=hum(泥土)+b+(i)le（形容词后缀）→泥土的→卑下的，谦逊的，简陋的。源自拉丁语形容词humilis，进入法语后，法国人插入了字母b，略去了元音i，就变成了humble。humble的同根词humility、humiliate等就保持了拉丁语的原始拼写
@@ -569,7 +568,7 @@ mark::
   - He who knows not life knows not death.
     not为什么没有和助动词连用？
     这是一种仿古用法。动词后直接加not表示否定，现代英语多使用助动词的否定式即do not。
-    He who knows not life knows not death. 
+    He who knows not life knows not death.
     = He who doesn’t know life doesn’t know death.
     这种用法在早期现代英语里很多，比如看KJV版的圣经，里面有很多这种用法，比如fear not! (don't fear!)...
   - virtual
@@ -579,7 +578,7 @@ mark::
     所谓的virtual reality，从英语的角度看，指的是“近乎真实的现实，实质效果上的事实”。汉语中称此为“虚拟现实”。同样的一个概念，汉语和英语的用词和描述是有区别的。“虚拟”的“虚”字会给人以“虚假”的相关印象，这点和词典释义virtual“实质上的”之“实”表面形成一种反义的对应。然而这样的误解不过是汉语语词思维导致的，英语词virtual本身并没有这种歧义。
     virtual可以翻译为“虚拟”，但意思和“虚拟”相差甚远。virtually可以翻译为“实际上”，但意思也不是“实际上”。virtual的本意和“虚拟”和“实际”都无关，指的是“功效上的，功效上等同的”，与其相对的是“物理上的、实体上的”。
     virtual除去-al得到virtue“卓越，有效”，汉语翻译中的“美德，德行，价值”等概念便来自于此。virtue的本意就是“男人的功效”，也就是男人的能力，尤其是英勇作战的能力，由其引申出“英勇、男子汉的气概”，进一步泛指“美德”。
-  - hypermature, postmature  
+  - hypermature, postmature
     hyper-=over，表示“超越、过度”，所以hypermature的意思就是“过于成熟的”。
     post-表示“在……之后”，所以postmature表示“过了成熟期的”。这两个单词都是后人生造出来的，所以都有其特定的使用场景，不能光看字面意思。
     比如hypermature常常用来形容cataract，hypermature cataract就是“过熟期白内障”。

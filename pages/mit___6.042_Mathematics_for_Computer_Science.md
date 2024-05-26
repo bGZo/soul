@@ -1,7 +1,6 @@
 icon:: 🏫
 alias:: MIT 6.042J, Mathematics for Computer Science
 mark:: Version 2010 Fall, Latter has 2015；
-
 - ## REFERENCES
   - ![https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/93cad640cf3ed0b23ef70688f452d4d5_MIT6_042JF10_notes.pdf](../assets/book_MIT6_042JF10_notes.pdf)
   - [1. （Chrysalides已校对）Introduction and Proofs · Yuque](https://www.yuque.com/guigumentor/bazl0e/uy8f2b)

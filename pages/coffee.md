@@ -4,7 +4,6 @@ title:: coffee
 tags:: #Hobby
 cost:: 1
 created:: 20230530
-
 - ## Why
   -
 - ## How

@@ -1,5 +1,4 @@
 mark:: [Java 5.0 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/Java_5.0)
-
 - ## Feats #.ol
   - 泛型 (Generics)
   - 增强循环（Enhanced for Loop）

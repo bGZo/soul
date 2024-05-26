@@ -1,6 +1,5 @@
 title:: question/cpp
 alias:: cpp/question
-
 -
 - Notes
   collapsed:: true
@@ -35,7 +34,6 @@ alias:: cpp/question
     collapsed:: true
     - 全局作用域符号
       - 当全局变量在局部函数中与其中某个变量重名时，可以用::来区分，否则局部变量会屏蔽全局变量。
-        
         ```c
         int a = 10;
         int main() {
@@ -80,12 +78,10 @@ alias:: cpp/question
       }
       /*
       程序写了一半
-      
       3
       1 zhangsan
       2 lisi
       3 wangwu
-      
       result:
       ?zhangsan
       1 lisi

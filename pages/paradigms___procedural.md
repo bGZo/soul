@@ -1,5 +1,4 @@
 alias:: 过程式编程, procedural/programming
-
 - 采取 过程调用 / 函数调用 的方式来进行 流程控制
   - 流程控制由包涵一系列运算步骤
     - 过程 (Procedures)

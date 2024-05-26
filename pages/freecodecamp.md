@@ -1,8 +1,8 @@
 title:: Freecodecamp
 alias::
 author:: [freeCodeCamp.org](https://github.com/freeCodeCamp/)
-desc:: 
+desc::
 tags:: #Github
 created:: 20210101
-closed:: 
+closed::
 mark::

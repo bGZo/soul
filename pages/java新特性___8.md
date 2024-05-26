@@ -113,7 +113,7 @@
 - ```java
     public static CallSite metafactory(
         // 调用者（LambdaTest）可访问权限的上下文对象，JVM自动填充
-        MethodHandles.Lookup caller, 
+        MethodHandles.Lookup caller,
         // 要执行的方法名，即Consumer.accept()，JVM自动填充
         String invokedName,
         // 调用点预期的签名（包含目标方法参数类型String和Lambda返回类型Consumer），JVM自动填充
@@ -161,7 +161,6 @@
     CallSite buildCallSite() throws LambdaConversionException {
         final Class<?> innerClass = spinInnerClass();
         // 省略部分代码...
-        
         try {
                 Object inst = ctrs[0].newInstance();
                 return new ConstantCallSite(MethodHandles.constant(samBase, inst));
@@ -177,7 +176,6 @@
      * Generate a class file which implements the functional
      * interface, define and return the class.
      * 生成一个实现函数式接口的类文件，定义并返回该类的Class实例
-     
      * @return a Class which implements the functional interface
      * 返回一个实现函数式接口的Class实例
      */
@@ -196,7 +194,6 @@
         cw.visitEnd(); // end
   -         // Define the generated class in this VM.
   -         final byte[] classBytes = cw.toByteArray();
-        
         // If requested, dump out to a file for debugging purposes
         if (dumper != null) { // 转储对象
             AccessController.doPrivileged(new PrivilegedAction<Void>() {
@@ -236,7 +233,7 @@
   ```
 - Bingo！
 - 现在我们初步得到了一些结论：
-- > 1. Lambda表达式底层是用内部类来实现的 
+- > 1. Lambda表达式底层是用内部类来实现的
   > 2. 该内部类实现了*某个（根据Lambda所属的代码指定）*函数式接口，并重写了该接口的抽象方法
   > 3. 该内部类是在程序运行时使用ASM技术动态生成的，所以编译期没有对应的.class文件，但是我们可以通过设置系统属性将该内部类文件转储出来
 - ## 5. Lambda表达式编译和运行过程
@@ -265,7 +262,7 @@
   public class Demo01PrintSimple {
     private static void printString(Printable data) {
     	data.print("Hello, World!");
-    } 
+    }
     public static void main(String[] args) {
     	printString(s ‐> System.out.println(s));
     }
@@ -280,7 +277,7 @@
   public class Demo02PrintRef {
     private static void printString(Printable data) {
     	data.print("Hello, World!");
-    } 
+    }
     public static void main(String[] args) {
     	printString(System.out::println);
     }
@@ -342,7 +339,7 @@
   public class Demo04MethodRef {
     private static void printString(Printable lambda) {
     	lambda.print("Hello");
-    } 
+    }
   -     public static void main(String[] args) {
         MethodRefObject obj = new MethodRefObject();
         printString(obj::printUpperCase);
@@ -355,14 +352,14 @@
   @FunctionalInterface
   public interface Calcable {
   int calc(int num);
-  } 
+  }
   ```
 - 第一种写法是使用Lambda表达式：
 - ```java
   public class Demo05Lambda {
     private static void method(int num, Calcable lambda) {
     	System.out.println(lambda.calc(num));
-    } 
+    }
   -     public static void main(String[] args) {
     	method(‐10, n ‐> Math.abs(n));
     }
@@ -373,11 +370,11 @@
   public class Demo06MethodRef {
     private static void method(int num, Calcable lambda) {
     	System.out.println(lambda.calc(num));
-    } 
+    }
     public static void main(String[] args) {
     	method(‐10, Math::abs);
     }
-  } 
+  }
   ```
 - 在这个例子中，下面两种写法是等效的：
 - - Lambda表达式： `n -> Math.abs(n)`
@@ -388,7 +385,7 @@
   @FunctionalInterface
   public interface Greetable {
   void greet();
-  } 
+  }
   ```
 - 然后是父类 Human 的内容：
 - ```java
@@ -408,7 +405,7 @@
   -      // 定义方法method,参数传递Greetable接口
     public void method(Greetable g){
     	g.greet();
-    } 
+    }
   -     public void show(){
         // 调用method方法,使用Lambda表达式
         method(()‐>{
@@ -420,7 +417,7 @@
         // 使用super关键字代替父类对象
         method(()‐>super.sayHello());
     }
-  } 
+  }
   ```
 - 但是如果使用方法引用来调用父类中的 `sayHello` 方法会更好，例如另一个子类 `Woman` ：
 - ```java
@@ -428,7 +425,7 @@
     @Override
     public void sayHello() {
     	System.out.println("大家好,我是Man!");
-    } 
+    }
   -     // 定义方法method,参数传递Greetable接口
     public void method(Greetable g){
     	g.greet();
@@ -447,28 +444,28 @@
   @FunctionalInterface
   public interface Richable {
   void buy();
-  } 
+  }
   ```
 - 下面是一个丈夫 Husband 类：
 - ```java
   public class Husband {
     private void marry(Richable lambda) {
         lambda.buy();
-    } 
+    }
   -     public void beHappy() {
         marry(() ‐> System.out.println("买套房子"));
     }
-  } 
+  }
   ```
 - 开心方法 `beHappy` 调用了结婚方法 `marry` ，后者的参数为函数式接口 `Richable` ，所以需要一个Lambda表达式。但是如果这个Lambda表达式的内容已经在本类当中存在了，则可以对 `Husband` 丈夫类进行修改：
 - ```java
   public class Husband {
     private void buyHouse() {
     	System.out.println("买套房子");
-    } 
+    }
   -     private void marry(Richable lambda) {
     	lambda.buy();
-    } 
+    }
   -     public void beHappy() {
     	marry(() ‐> this.buyHouse());
     }
@@ -479,10 +476,10 @@
   public class Husband {
     private void buyHouse() {
     	System.out.println("买套房子");
-    } 
+    }
     private void marry(Richable lambda) {
     	lambda.buy();
-    } 
+    }
     public void beHappy() {
     	marry(this::buyHouse);
     }
@@ -494,47 +491,47 @@
 - - - ## 9. 类的构造器引用
 - 由于构造器的名称与类名完全一样，并不固定。所以构造器引用使用 `类名称::new` 的格式表示。首先是一个简单
   的 `Person` 类：
-- ```java 
+- ```java
   public class Person {
     private String name;
     public Person(String name) {
     	this.name = name;
-    } 
+    }
   -     public String getName() {
     	return name;
-    } 
+    }
   -     public void setName(String name) {
     	this.name = name;
     }
-  } 
+  }
   ```
 - 然后是用来创建 `Person` 对象的函数式接口：
-- ```java 
+- ```java
   public interface PersonBuilder {
   Person buildPerson(String name);
   }
   ```
 - 要使用这个函数式接口，可以通过Lambda表达式：
-- ```java 
+- ```java
   public class Demo09Lambda {
     public static void printName(String name, PersonBuilder builder) {
     	System.out.println(builder.buildPerson(name).getName());
-    } 
+    }
   -     public static void main(String[] args) {
     	printName("赵丽颖", name ‐> new Person(name));
     }
-  } 
+  }
   ```
 - - 但是通过构造器引用，有更好的写法：
-- ```java 
+- ```java
   public class Demo10ConstructorRef {
     public static void printName(String name, PersonBuilder builder) {
     	System.out.println(builder.buildPerson(name).getName());
-    } 
+    }
     public static void main(String[] args) {
     	printName("赵丽颖", Person::new);
     }
-  } 
+  }
   ```
 - 在这个例子中，下面两种写法是等效的：
 - - Lambda表达式： `name -> new Person(name)`
@@ -542,33 +539,33 @@
 - - - ## 10. 数组的构造器引用
 - 数组也是 `Object` 的子类对象，所以同样具有构造器，只是语法稍有不同。如果对应到Lambda的使用场景中时，
   需要一个函数式接口：
-- ```java 
+- ```java
   @FunctionalInterface
   public interface ArrayBuilder {
   int[] buildArray(int length);
-  } 
+  }
   ```
 - 在应用该接口的时候，可以通过Lambda表达式：
-- ```java 
+- ```java
   public class Demo11ArrayInitRef {
     private static int[] initArray(int length, ArrayBuilder builder) {
     	return builder.buildArray(length);
-    } 
+    }
   -     public static void main(String[] args) {
     	int[] array = initArray(10, length ‐> new int[length]);
     }
   }
   ```
 - 但是更好的写法是使用数组的构造器引用：
-- ```java 
+- ```java
   public class Demo12ArrayInitRef {
     private static int[] initArray(int length, ArrayBuilder builder) {
     	return builder.buildArray(length);
-    } 
+    }
   -     public static void main(String[] args) {
     	int[] array = initArray(10, int[]::new);
     }
-  } 
+  }
   ```
 - 在这个例子中，下面两种写法是等效的：
 - Lambda表达式： `length -> new int[length]`
@@ -695,11 +692,11 @@
         // ...
   -         Stream<String> stream3 = vector.stream();
     }
-  } 
+  }
   ```
 - ### 2.根据**Map获取流**
 - `java.util.Map` 接口不是 `Collection` 的子接口，且其K-V数据结构不符合流元素的单一特征，所以获取对应的流需要分key、value或entry等情况：
-- ```java 
+- ```java
   import java.util.HashMap;
   import java.util.Map;
   import java.util.stream.Stream;
@@ -711,11 +708,11 @@
         Stream<String> valueStream = map.values().stream();
         Stream<Map.Entry<String, String>> entryStream = map.entrySet().stream();
     }
-  } 
+  }
   ```
 - ### 3.**根据数组获取流**
 - 如果使用的不是集合或映射而是数组，由于数组对象不可能添加默认方法，所以 Stream 接口中提供了静态方法of ，使用很简单：
-- ```java 
+- ```java
   import java.util.stream.Stream;
   public class Demo06GetStream {
     public static void main(String[] args) {
@@ -734,7 +731,7 @@
   >
 - ### 1.逐一处理：**forEach**
 - 虽然方法名字叫 forEach ，但是与for循环中的“for-each”昵称不同。
-- ```java 
+- ```java
   void forEach(Consumer<? super T> action);
   ```
 - 该方法接收一个 Consumer 接口函数，会将每一个流元素交给该函数进行处理。
@@ -751,7 +748,7 @@
         Stream<String> stream = Stream.of("张无忌", "张三丰", "周芷若");
         stream.forEach(name‐> System.out.println(name));
     }
-  } 
+  }
   ```
 - ### 2.过滤：filter
 - 可以通过 filter 方法将一个流转换成另一个子集流。方法签名：
@@ -761,7 +758,7 @@
 - 该接口接收一个 Predicate 函数式接口参数（可以是一个Lambda或方法引用）作为筛选条件。
 - #### 复习Predicate接口
 - 此前我们已经学习过 `java.util.stream.Predicate` 函数式接口，其中唯一的抽象方法为：
-- ```java 
+- ```java
     boolean test(T t);
   ```
 - 该方法将会产生一个boolean值结果，代表指定的条件是否满足。如果结果为true，那么Stream流的 filter 方法将会留用元素；如果结果为false，那么 filter 方法将会舍弃元素。
@@ -774,7 +771,7 @@
         Stream<String> original = Stream.of("张无忌", "张三丰", "周芷若");
         Stream<String> result = original.filter(s ‐> s.startsWith("张"));
     }
-  } 
+  }
   ```
 - 在这里通过Lambda表达式来指定了筛选的条件：必须姓张。
 - ### 3.映射：map
@@ -798,7 +795,7 @@
         Stream<String> original = Stream.of("10", "12", "18");
         Stream<Integer> result = original.map(str‐>Integer.parseInt(str));
     }
-  } 
+  }
   ```
 - 这段代码中， map 方法的参数通过方法引用，将字符串类型转换成为了int类型（并自动装箱为 Integer 类对象）。
 - ### 4.统计个数：count
@@ -815,7 +812,7 @@
         Stream<String> result = original.filter(s ‐> s.startsWith("张"));
         System.out.println(result.count()); // 2
     }
-  } 
+  }
   ```
 - ### 5.取用前几个：limit
 - limit 方法可以对流进行截取，只取用前n个。方法签名：
@@ -831,7 +828,7 @@
         Stream<String> result = original.limit(2);
         System.out.println(result.count()); // 2
     }
-  } 
+  }
   ```
 - ### 6.跳过前几个：skip
 - 如果希望跳过前几个元素，可以使用 skip 方法获取一个截取之后的新流：
@@ -847,7 +844,7 @@
         Stream<String> result = original.skip(2);
         System.out.println(result.count()); // 1
     }
-  } 
+  }
   ```
 - ### 7.组合：concat
 - 如果有两个流，希望合并成为一个流，那么可以使用 Stream 接口的静态方法 concat ：
@@ -865,6 +862,6 @@
         Stream<String> streamB = Stream.of("张翠山");
         Stream<String> result = Stream.concat(streamA, streamB);
     }
-  } 
+  }
   ```
 - -

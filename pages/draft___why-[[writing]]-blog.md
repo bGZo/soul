@@ -1,5 +1,4 @@
 title:: draft/why-[[writing]]-blog
-
 -
 - ## Remember
 - After I read *[[the-little-prince]]*, I relieved I've forgotten for a long time about rite. But it's seem like when yesterday I talked about taming, rite, child or something other.

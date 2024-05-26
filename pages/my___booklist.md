@@ -1,6 +1,4 @@
 tags:: #booklist #reading
-
-
 - ## #.ol [汉译世界学术名著丛书](https://weread.qq.com/misc/booklist/14214625_6VYjyGxUk)
   collapsed:: true
   - [奥义书](https://weread.qq.com/web/reader/4c532360813ab71dbg011352)

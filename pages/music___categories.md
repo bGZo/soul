@@ -1,5 +1,4 @@
 title:: music/categories
-
 - Popular Music 区分 古典/当代严肃音乐/传统民俗音乐, 其余的就是 Pop Music (大众乐)
 - Genre (流派) -> - SubGenre (分支) ->Styles (曲风)
   - Avant-Garde

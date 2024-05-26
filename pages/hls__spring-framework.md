@@ -1,5 +1,4 @@
 file-path:: ../assets/spring-framework.pdf
-
 - 2.3. Design Philosophy
   ls-type:: annotation
   hl-page:: 29
@@ -20,12 +19,12 @@ file-path:: ../assets/spring-framework.pdf
   hl-page:: 31
   hl-color:: yellow
   id:: 63ff8679-87eb-460c-8f2c-fb46a5ed1ec1
-- Spring Web MVC is the original web framework built on the Servlet API and has been included in the Spring Framework from the very beginning. 
+- Spring Web MVC is the original web framework built on the Servlet API and has been included in the Spring Framework from the very beginning.
   ls-type:: annotation
   hl-page:: 884
   hl-color:: yellow
   id:: 63ff8852-97c7-4c1f-978e-61de46efd270
-- Spring MVC, as many other web frameworks, is designed around the front controller pattern where a central Servlet, the DispatcherServlet, provides a shared algorithm for request processing, while actual work is performed by configurable delegate components. 
+- Spring MVC, as many other web frameworks, is designed around the front controller pattern where a central Servlet, the DispatcherServlet, provides a shared algorithm for request processing, while actual work is performed by configurable delegate components.
   ls-type:: annotation
   hl-page:: 884
   hl-color:: yellow

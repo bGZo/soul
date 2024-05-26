@@ -2,7 +2,6 @@ title:: java/2/collections
 alias:: java 容器, java 集合
 mark:: a framework that provides an architecture to store and manipulate(操纵) the group of objects
 mark:: from java 1.2
-
 - #+BEGIN_NOTE
   灵活性(存储, 类型, 数量, 映射关系) > 数组
   #+END_NOTE
@@ -65,7 +64,7 @@ mark:: from java 1.2
           | **线程安全** | ✖ | ✔ |
       - ((632dcaab-2ecb-412b-80d5-03a1c8464039)) #vs ((632dca98-ffb9-4184-9941-ee414e0cb3f7))
         - | **Items** | **Arraylist** | **LinkedList** |
-          | **线程安全** | ✖| ✖| 
+          | **线程安全** | ✖| ✖|
           | **底层** | Object [] | ~~循环链表~~ 双向链表(>=JDK1.7) |
           | **插/删 受元素位置影响** | ✔ O(n/2) | ✖ O(1) |
           | **快速随机访问**  | ✔| ✖|

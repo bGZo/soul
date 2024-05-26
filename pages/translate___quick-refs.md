@@ -1,6 +1,5 @@
 title:: translate/quick-refs
 alias:: quick-refs/translate
-
 - | Author / Works                  | Translator |
   | ------------------------------- | ---------- |
   | 契诃夫 / \*                      | 汝龙       |

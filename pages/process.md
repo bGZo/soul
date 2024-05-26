@@ -1,5 +1,4 @@
 alias:: os/process, 进程
-
 - TODO 用 go 和 docker 讲解进程????
 - ## Wiki
   - 守护进程 & 僵尸进程 & 孤儿进程
@@ -57,7 +56,7 @@ alias:: os/process, 进程
           else if(pid>0) exit(0);
           setsid();
           pid=fork();
-          if(pid>0) exit(0); 
+          if(pid>0) exit(0);
           else if(pid<0) exit(1);
           for(i=0;i<NOFILE;i++)close(i);
           chdir("/tmp");
@@ -108,9 +107,9 @@ alias:: os/process, 进程
     - 用到的简单命令
       - ```bash
         gcc xxx.c -o xxx #后面是指明输出文件的名字
-        ./xxx 
-        ps -aux | grep xxx # 
-        cat /tmp/xxx.log 
+        ./xxx
+        ps -aux | grep xxx #
+        cat /tmp/xxx.log
         top # 不看不知道, 一看吓一跳, 我的电脑里面有两个僵尸进程, woc
         ```
 - ## [[linux/kernel]] Process | Linux 操作进程

@@ -1,6 +1,5 @@
 alias:: lang/programming/clojure
 tags:: WAIT
-
 -
 - Refs
   - [Clojure 是个神奇的语言 - V2EX](https://www.v2ex.com/t/740180)

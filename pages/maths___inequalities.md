@@ -1,5 +1,4 @@
 title:: maths/inequalities
-
 - 性质
   - 对称性
   - 传递性

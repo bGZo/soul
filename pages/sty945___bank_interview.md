@@ -2,9 +2,8 @@ title:: sty945/bank_interview
 tags:: #Github, #bank
 source:: [sty945/bank_interview: 银行笔试面试经验分享及资料分享（help you pass the bank interview, and get a amazing bank offer!）](https://github.com/sty945/bank_interview) ![](https://img.shields.io/github/stars/sty945/bank_interview)
 created:: 20221124
-closed:: 
+closed::
 mark::
-
 - **银行常见问题**
   collapsed:: true
   - 银行校招是否卡学历？
@@ -45,16 +44,11 @@ mark::
   collapsed:: true
   via: https://twitter.com/imbGZo/status/1595624863016026112
   #thought #Github #public #twitter
-  - 1/ 
-    
+  - 1/
     我知道创作不易, 我宁可希望你放出来一个 DONATION LINK, 而不是这种浪费别人时间的方式, 取而代之.
-    
     > YOU SOLVE MY PROBLEM, SHUT UP AND TAKE MY MONEY.
-    
     对, 听起来很强词夺理, 但你引流的行为不也一样吗? 我默许你这样做了, 那你是不是也要容忍我这样做呢?
   - 2/
-     
     我们试想, 如果全 Github 上所有优秀的技术都是这个样子: 扫码, 关注, 交钱, 听课, 最后才是 Review. 每一行 "代码" 直接导向的, 不是任何一个现实中有建设性的问题, 而是一场又一场消费. 这被无限被拉长的 Flow 中, 热情会被磨灭, 目的会被忘却, 到头来, 你是为了什么才来解决这个问题的?
   - 3/
-    
     我知道剽窃别人的劳动成果可耻, 但你铜臭气的行为一样让人感到恶心.

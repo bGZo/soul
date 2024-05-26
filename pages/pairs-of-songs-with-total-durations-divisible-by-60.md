@@ -1,7 +1,6 @@
 icon:: 👨‍💻
-tags:: #leetcode/medium #hashtable 
+tags:: #leetcode/medium #hashtable
 created:: 20230507
-
 - ## Content
   - <iframe src="https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60" style="height: 600px"></iframe>
     [LeetCode](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
@@ -34,17 +33,14 @@ created:: 20230507
           public:
           int numPairsDivisibleBy60(vector<int>& time) {
             std::unordered_map<int, int> hm;
-        
             int len = time.size();
             int ans = 0;
-        
             for(int i=0; i<len; i++ ){
               time[i]%=60;
               hm[time[i]] ++;
               cout<<time[i]<<", ";
             }
             cout<<endl;
-        
             bool flag[61] = {false};
             for (auto iter = hm.begin(); iter != hm.end(); ++iter) {
               if(flag [60 - iter->first] == false){
@@ -61,7 +57,6 @@ created:: 20230507
                 }else{
                   sum = hm[60 - iter->first] * hm[iter->first];
                 }
-        
                 ans += sum;
                 flag [60 - iter->first] = true;
                 flag [iter->first] = true;

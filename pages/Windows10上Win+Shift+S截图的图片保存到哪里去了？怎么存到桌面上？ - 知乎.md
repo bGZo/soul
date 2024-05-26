@@ -4,7 +4,6 @@ tags: 互联网,软件,Microsoft Windows,图片,Windows 10
 source: https://www.zhihu.com/question/268129552
 author: 极客学长Bravo华东师范大学 计算机科学与技术硕士 关注
 ---
-
 - - 由于评论区有新手找不到自己电脑的用户名叫啥 so 现变更为带变量用户名的动态路径~ 最终保存路径为：【**Windows10 20H2** 版本号: v2009 Build 19042 十月更新版 目前最新版截图路径】
 - **%HOMEPATH%\\AppData\\Local\\Packages\\MicrosoftWindows.Client.CBS\_cw5n1h2txyewy\\TempState\\ScreenClip**
 - 快捷键 **WIN+R** 复制上面路径，**回车**打开，将你需要的截图**拖动到桌面**或其他地方即可~~~

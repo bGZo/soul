@@ -2,9 +2,8 @@ title:: Snailclimb/JavaGuide
 tags:: #Github #Java
 source:: [Snailclimb/JavaGuide: 「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！](https://github.com/Snailclimb/JavaGuide) ![](https://img.shields.io/github/stars/Snailclimb/JavaGuide)
 created:: 20221207
-closed:: 
+closed::
 mark::
-
 - Content
   - Java 基础常见知识点&面试题总结
     via: https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/basis/java-basic-questions-01.md; https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/basis/java-basic-questions-02.md; https://github.com/Snailclimb/JavaGuide/blob/main/docs/java/basis/java-basic-questions-03.md
@@ -117,7 +116,7 @@ mark::
         collapsed:: true
         - JDK 自带的序列化方式一般不用 (效率低 & 安全问题)
           collapsed:: true
-          - TODO 基于二进制的序列化协议 #Project
+          - TODO 基于二进制的序列化协议 #project
             - Hessian
             - Kryo
             - Protobuf

@@ -1,7 +1,6 @@
 icon:: 💓
 alias:: 爱好
 title:: Hobby
-
 - [[Issue]]
   - #discuss #[[Open-ended Question]] 哪些爱好需要被抑制?
 - LATER [[ACGN]]

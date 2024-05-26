@@ -1,5 +1,4 @@
 title:: lang/programming/system
-
 - ## Lists
   - [ESPOL](https://en.wikipedia.org/wiki/Executive_Systems_Problem_Oriented_Language)
   - [PL/I](https://en.wikipedia.org/wiki/PL/I)

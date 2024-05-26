@@ -1,5 +1,4 @@
 tags:: #Privacy
-
 - #+BEGIN_NOTE
   The composition of this article was assisted by ChatGPT.
   #+END_NOTE
@@ -15,7 +14,7 @@ tags:: #Privacy
       ```
     - The meaning of those params could be found on [Stack Exchange](https://webapps.stackexchange.com/questions/116105/what-are-the-different-parameters-used-in-google-search). The `gs_lcrp` could be found on [Git at Google](https://chromium.googlesource.com/chromium/src.git/+/e2ad407421b119f069f44fa4d8f9a01ee2d3ee73), which meaning is `Google Search Link Click Rank Position`. ==That's used to record which link users click on the search result page and transmits the link's ranking position to Google when users click on it, allowing Google to track user behavior and the effectiveness of search results==.
   - #+BEGIN_CAUTION
-    The most funny thing is the `sourceid` is set to `chrome` ) 
+    The most funny thing is the `sourceid` is set to `chrome` )
     #+END_CAUTION
 - ---
 -

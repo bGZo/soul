@@ -1,87 +1,64 @@
 alias:: Structured Query Language
 tags:: #lang/programming/domain-specific #database
-
 - ## [[Quickref]]
   - ### ![redshift-dg.pdf](../assets/database/redshift-dg_1665846149243_0.pdf)
   - ### Syntax [Learn SQL in Y Minutes](https://learnxinyminutes.com/docs/zh-cn/sql/)
     collapsed:: true
     - ```sql
       -- 注释以两个连字符开始。命令以分号结束。
-      
       -- SQL关键字大小写不敏感。在下文的示例命令中关键字大写，
       -- 因为大写更容易区分数据库、表和列名。
-      
       -- 创建和删除一个数据库。数据库名和表名是大小写敏感的。
       CREATE DATABASE someDatabase;
       DROP DATABASE someDatabase;
-      
       -- 列出可用的数据库。
       SHOW DATABASES;
-      
       -- 使用某个已经存在的数据库
       USE employees;
-      
       -- 从当前的departments表，选择所有的行和列
       -- 解释器的默认行为是将结果打印在屏幕上。
       SELECT * FROM departments;
-      
       -- 检索departments表中所有的行，但只取dept_no和dept_name列。
       -- 一条命令可以跨越多行
       SELECT dept_no,
              dept_name FROM departments;
-      
       -- 检索departments表中所有的行，但是只输出5行。
       SELECT * FROM departments LIMIT 5;
-      
       -- 检索departments表中dept_name列包含子串'en'的行。
       SELECT dept_name FROM departments WHERE dept_name LIKE '%en%';
-      
       -- 检索departmnets表中所有dept_name列值为'S'开头并且'S'后接4个字符的行。
       SELECT * FROM departments WHERE dept_name LIKE 'S____';
-      
       -- 检索title表中所有行，不显示重复的行。
       SELECT DISTINCT title FROM titles;
-      
       -- 和上面的查询相同，但是以title的值排序(大小写敏感)。
       SELECT DISTINCT title FROM titles ORDER BY title;
-      
       -- 计算departments表的总行数。
       SELECT COUNT(*) FROM departments;
-      
       -- 计算departments表中dept_name列以'en'字段开头的行的数量。
       SELECT COUNT(*) FROM departments WHERE dept_name LIKE '%en%';
-      
       -- 不同表中信息的JOIN: titles表显示谁有什么工作，员工编号，
       -- 入职离职时间。检索这些信息，但是使用员工编号作为employees表
       -- 的交叉引用，而不是直接使用员工编号，来获得每个员工的名和姓。
       -- (同时只取10行)
-      
       SELECT employees.first_name, employees.last_name,
              titles.title, titles.from_date, titles.to_date
       FROM titles INNER JOIN employees ON
              employees.emp_no = titles.emp_no LIMIT 10;
-      
       -- 列出所有数据库中所有的表。不同实现通常提供各自的快捷命令
       -- 来列出当前使用数据库的所有表。
       SELECT * FROM INFORMATION_SCHEMA.TABLES
       WHERE TABLE_TYPE='BASE TABLE';
-      
       -- 在当前使用的数据库中，创建一个名为tablename1的表，包含下
       -- 述两列。许多其它选项可用于定制列，比如列的数据类型。
       CREATE TABLE tablename1 (fname VARCHAR(20), lname VARCHAR(20));
-      
       -- 向tablename1表插入一行数据。假设该表已经定义并且接受这些值。
       INSERT INTO tablename1 VALUES('Richard','Mutt');
-      
       -- 更新tablename1表中lname为'Mutt'的行fname的值改为'John'。
       UPDATE tablename1 SET fname='John' WHERE lname='Mutt';
-      
       -- 删除tablename1表lname列以'M'开头的行。
       DELETE FROM tablename1 WHERE lname like 'M%';
-      
       -- 删除tablename1表的所有行，留下空表。
       DELETE FROM tablename1;
-      
       -- 删除整个tablename1表。
       DROP TABLE tablename1;
       ```
@@ -204,9 +181,7 @@ tags:: #lang/programming/domain-specific #database
         SELECT * FROM table LIMIT m, n --返回m+1行开始往后数n条数据
         SELECT * FROM table LIMIT m, -1 --返回m+1行到末尾的全部数据
         ```
-        
         例如
-        
         ```sql
         SELECT * FROM table LIMIT 5, 10    --返回6-15行的数据
         ```
@@ -215,14 +190,12 @@ tags:: #lang/programming/domain-specific #database
       - ```sql
         SELECT * FROM table WHERE a IN (value1,value2,...) --返回a值为value1,value2,...中任意一个值的行
         ```
-        
         in的用法和python中的"variable in list"用法类似
     - 范围 between
       collapsed:: true
       - ```sql
         SELECT * FROM table WHERE a BETWEED 1 AND 5 --返回a字段值在[1, 5)之间的行
         ```
-        
         可以使用NOT BETWEED，表示不在[1,5)之间的行。注意左闭右开区间。
     - 别名 alias
       collapsed:: true
@@ -232,12 +205,10 @@ tags:: #lang/programming/domain-specific #database
         SELECT a_long_name_table_a.col_a, another_long_name_table_b.col_b
         FROM a_long_name_table_a, another_long_name_table_b
         WHERE a_long_name_table_a.col_a='123' AND another_long_name_table_b.col_b='456'
-        
         --使用别名的情况，sql语句简洁明了
         SELECT t1.col_a, t2.col_b
         FROM a_long_name_table_a AS t1, another_long_name_table_b AS t2
         WHERE t1.col_a='123' AND t2.col_b='456'
-        
         ----列别名
         SELECT a_long_column_name AS a, another_long_column_name AS b
         FROM table    --获取两个列的数据，并在结果集中列名改为a和b
@@ -276,9 +247,7 @@ tags:: #lang/programming/domain-specific #database
         UNION
         SELECT student FROM pku
         --返回tsinghua的student字段和pku的student字段（去重）
-        
         --不想去重，使用UNION ALL
-        
         SELECT student FROM tsinghua
         UNION ALL
         SELECT student FROM pku
@@ -293,11 +262,10 @@ tags:: #lang/programming/domain-specific #database
       collapsed:: true
       - ```sql
         --创建名为dbname的数据库
-        CREATE DATABASE dbname    
-        
+        CREATE DATABASE dbname
         --创建一个表
         CREATE TABLE 表名称
-        (   
+        (
           列名称1 数据类型 约束(可有可无),
           列名称2 数据类型 约束(可有可无),
           列名称3 数据类型,
@@ -347,7 +315,6 @@ tags:: #lang/programming/domain-specific #database
       - ```sql
         --统计每个stu_name对应的point之和。同stu_name会被合并到一组求和
         SELECT stu_name,SUM(point) FROM stu GROUP BY stu_name
-        
         --不加GROUP BY会导致SUM(point)的值全部为全表总值
         ```
     - 过滤 having

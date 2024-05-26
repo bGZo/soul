@@ -1,5 +1,4 @@
 alias:: Paradigms/structured
-
 - improving the clarity, quality, and development time of a computer program by making extensive use of the structured control flow constructs of selection (if/then/else) and repetition (while and for), block structures, and subroutines.
 - The **structured program theorem** provides the theoretical basis of structured programming.
   - It states that three ways of combining programs—sequencing, selection, and iteration—are sufficient to express any computable function.

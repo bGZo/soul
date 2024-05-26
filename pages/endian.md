@@ -1,5 +1,4 @@
 alias:: encoding/endian
-
 - > 小人国为水煮蛋该从大的一端 (Big-End) 剥开还是小的一端 (Little-End) 剥开而争论，争论的双方分别被称为 "大端派 (Big-Endians)" 和 "小端派 (Little-Endians)"  -- Gulliver's Travels
 - 字节序 / 端序 / 尾序
   - 小端 / 小尾序

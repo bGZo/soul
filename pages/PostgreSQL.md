@@ -1,12 +1,10 @@
 alias:: pgsql
 tags:: #database/object–relational
-
 created:: 20230822
 title:: PostgreSQL
-
 - ## Why
   - [[vs]] [[mysql]] Ref [彦祖们， pg 还是 mysql? 到底该怎么选？ - V2EX](https://v2ex.com/t/800592)
-    - [MySQL :: MySQL Restrictions and Limitations :: 12 Limits in MySQL](https://dev.mysql.com/doc/mysql-reslimits-excerpt/8.0/en/limits.html) 
+    - [MySQL :: MySQL Restrictions and Limitations :: 12 Limits in MySQL](https://dev.mysql.com/doc/mysql-reslimits-excerpt/8.0/en/limits.html)
       collapsed:: true
       - [Identifier Length Limits](https://dev.mysql.com/doc/mysql-reslimits-excerpt/8.0/en/identifier-length.html) 标识符长度
         collapsed:: true
@@ -28,7 +26,7 @@ title:: PostgreSQL
           | Resource Group | 64 |
       - [Grant Table Scope Column Properties](https://dev.mysql.com/doc/mysql-reslimits-excerpt/8.0/en/grant-tables-scope-column-properties.html) 授权列长度
         collapsed:: true
-        - **Table 12.1 Grant Table Scope Column Lengths** 
+        - **Table 12.1 Grant Table Scope Column Lengths**
           | Column Name | Maximum Permitted Characters |
           | ---- | ---- | ---- |
           | `Host`, `Proxied_host` | 255 (60 prior to MySQL 8.0.17) |
@@ -47,7 +45,7 @@ title:: PostgreSQL
       -
       -
       -
-    - [PostgreSQL: Documentation: 13: Appendix K. PostgreSQL Limits](https://www.postgresql.org/docs/13/limits.html) 
+    - [PostgreSQL: Documentation: 13: Appendix K. PostgreSQL Limits](https://www.postgresql.org/docs/13/limits.html)
       collapsed:: true
       - [Table K.1](limits.html#LIMITS-TABLE) describes various hard limits of PostgreSQL. However, practical limits, such as performance limitations or available disk space may apply before absolute hard limits are reached.
       - **Table K.1. PostgreSQL Limitations**

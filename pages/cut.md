@@ -1,6 +1,5 @@
 title:: cut
 alias:: commands/cut
-
 -
 -
 - **Cases**

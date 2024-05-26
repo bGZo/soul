@@ -1,6 +1,5 @@
 title:: imu/linux
 email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
-
 -
 - 占 80%
 -
@@ -8,7 +7,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
   - 手写
     - ```makefile
       mypipes: mypipes.o client.o server.o
-          g++ mypipes.o client.o server.o -o mypipes 
+          g++ mypipes.o client.o server.o -o mypipes
       mypipes.o:  mypipes.cpp
           g++ -c mypipes.cpp
       client.o: client.cpp
@@ -21,28 +20,20 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
   - 自动编译
     - ```makefile
       GCC=g++
-      
       CFLAG=-c
       OFLAG=-o
-      
       SLIB=-pthread
-      
       SEXE=serMain
-      SOBJ=serMain.o server.o 
-      
+      SOBJ=serMain.o server.o
       CEXE=cliMain
-      COBJ=cliMain.o client.o 
-      
+      COBJ=cliMain.o client.o
       all:${SEXE} ${CEXE}
-      
       ${SEXE}:${SOBJ}
           ${GCC} ${OFLAG} $@ $^ ${SLIB}
       ${CEXE}:${COBJ}
           ${GCC} ${OFLAG} $@ $^
-      
       %.o:%.cpp
           ${GCC} ${CFLAG} $^
-      
       clean:
           rm *.o
           rm ${SEXE} ${CEXE}
@@ -61,10 +52,8 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
               - ```cpp
                 int n = 4;
                 pid_t pid;
-                
                 for (int i=0; i<n; i++){
                     pid=fork();
-                
                     if(pid < 0){
                         exit(-1);
                         printf("fork error");
@@ -79,10 +68,8 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
               - ```cpp
                 int n = 4;
                 pid_t pid;
-                
                 for (int i=0; i<n; i++){
                     pid=fork();
-                
                     if(pid < 0){
                         printf("fork error");
                         exit(-1);
@@ -100,11 +87,10 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 pid_t pid;                        // 创建一个进程，给他一个pid
                 for (int i=0; i<n; ++i){
                     pid = fork();                 // 创建子进程
-                
                     if(pid == 0)
                         id = i;                    // 把 i 赋值给 id 表示树的第几个孩子
                 }
-                printf("#%d is process %ld with parent %ld\n", 
+                printf("#%d is process %ld with parent %ld\n",
                        id, (long)getpid(), (long)getppid());
                 ```
     - !无血缘
@@ -123,22 +109,18 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 #include <unistd.h>
                 #include <sys/types.h>
                 #include <sys/wait.h>
-                
                 int main(){
                     int fd[2];
                     int pid,line;
                     char msg[BUFSIZ];
                     //阻塞标志
-                
                     int parentFlag = 1;// 1阻塞 2不阻塞
                     int childFlag = 1;// 2阻塞 1不阻塞
-                
                     printf( "程序开始 \n ");
                     if( pipe(fd) < 0 ){
                         perror( "建立管道失败:");
                     }
                     printf( "建立管道成功 \n ");
-                
                     pid = fork();
                     if( pid < 0){
                     perror( "建立进程失败");
@@ -154,7 +136,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                                 childFlag++;
                             }
                             scanf( "%s",msg);
-                
                             close(fd[ 0]); //关闭读
                             write(fd[ 1],msg, strlen(msg)+ 1); //开始写
                             printf( "子进程写入完成 \n\n ");
@@ -163,7 +144,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                                 break;
                             }
                         } //while
-                
                         printf( "子进程结束 \n ");
                         _exit( 0);
                     } else{
@@ -178,16 +158,13 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                         } else{
                             childFlag= 2;
                         }
-                
                         close(fd[ 1]); //关闭写
                         read(fd[ 0],msg,BUFSIZ); //开始读
-                
                         if(parentFlag== 2){
                             parentFlag= 1;
                             printf( "父进程解除阻塞 \n ");
                             printf( "父进程开始读取 \n ");
                             printf( "父进程读取:%s \n ",msg);
-                
                             if ( strcmp(msg, "EOF") == 0){
                                 printf( "父进程结束通讯 \n ");
                                 break;
@@ -201,7 +178,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                     printf( "程序结束 \n ");
                     return 0;
                 }
-                
                 ```
             - 双管道读写
               collapsed:: true
@@ -212,22 +188,18 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 #include <unistd.h>
                 #include <sys/types.h>
                 #include <sys/wait.h>
-                
                 int main(){
                     int fd[2];
                     int pid,line;
                     char msg[BUFSIZ];
                     //阻塞标志
-                
                     int parentFlag = 1;// 1阻塞 2不阻塞
                     int childFlag = 1;// 2阻塞 1不阻塞
-                
                     printf( "程序开始 \n ");
                     if( pipe(fd) < 0 ){
                         perror( "建立管道失败:");
                     }
                     printf( "建立管道成功 \n ");
-                
                     pid = fork();
                     if( pid < 0){
                     perror( "建立进程失败");
@@ -243,7 +215,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                                 childFlag++;
                             }
                             scanf( "%s",msg);
-                
                             close(fd[ 0]); //关闭读
                             write(fd[ 1],msg, strlen(msg)+ 1); //开始写
                             printf( "子进程写入完成 \n\n ");
@@ -252,7 +223,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                                 break;
                             }
                         } //while
-                
                         printf( "子进程结束 \n ");
                         _exit( 0);
                     } else{
@@ -267,16 +237,13 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                         } else{
                             childFlag= 2;
                         }
-                
                         close(fd[ 1]); //关闭写
                         read(fd[ 0],msg,BUFSIZ); //开始读
-                
                         if(parentFlag== 2){
                             parentFlag= 1;
                             printf( "父进程解除阻塞 \n ");
                             printf( "父进程开始读取 \n ");
                             printf( "父进程读取:%s \n ",msg);
-                
                             if ( strcmp(msg, "EOF") == 0){
                                 printf( "父进程结束通讯 \n ");
                                 break;
@@ -290,7 +257,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                     printf( "程序结束 \n ");
                     return 0;
                 }
-                
                 ```
               - `client`
                 ```cpp
@@ -298,9 +264,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 #include <string.h>
                 #include <stdio.h>
                 #include <unistd.h>
-                
                 #mark::  MAXLINE 4096
-                
                 void client(int readfd,int writefd){
                     size_t len;
                     char buf[MAXLINE];
@@ -324,9 +288,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 #include <sys/types.h>
                 #include <sys/stat.h>
                 #include <fcntl.h>
-                
                 #mark::  MAXLINE 4096
-                
                 void server(int readfd,int writefd){
                     char buf[MAXLINE];
                     ssize_t n = read(readfd,buf,MAXLINE);
@@ -357,18 +319,13 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 #include <error.h>
                 #include <sys/types.h>
                 #include <sys/wait.h>
-                
                 #include "client.h"
                 #include "server.h"
-                
                 int main(){
                     int fd1[2], fd2[2];
-                
                     pipe(fd1);
                     pipe(fd2);
-                
                     int pid = fork();
-                
                     if(pid < 0){
                         fprintf(stderr,"fork error\n");
                         exit(-1);
@@ -377,17 +334,13 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                         close(fd1[1]);
                         close(fd2[0]);
                         server(fd1[0],fd2[1]);
-                
                     }else{
                         //父进程
                         close(fd1[0]);
                         close(fd2[1]);
                         client(fd2[0],fd1[1]);
-                
                         waitpid(pid,NULL,0);
-                
                     }
-                
                     exit(0);
                 }
                 ```
@@ -402,25 +355,20 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 #include<signal.h>
                 #include<unistd.h>
                 #include<unistd.h>
-                
                 #include<iostream>
                 #include<sys/types.h>
                 #include<sys/wait.h>
-                
                 void handle_child(int signo){
                   pid_t child;
                   while((child=waitpid(-1,NULL,WNOHANG)) > 0){
                     std::cerr<<child<<" finish\n";
                   }
                 }
-                
                 int main(int argc,char* argv[]){
                   signal(SIGCHLD,handle_child);
                   int fd[2], fd2[2];
-                
                     pipe(fd);
                   pipe(fd2);
-                
                   int i=0;
                   for(;i<3;i++){
                     pid_t child=fork();
@@ -429,34 +377,25 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                   if(i==0){
                     close(fd2[0]);
                     close(fd2[1]);
-                
                     close(fd[0]);
                         dup2(fd[1],1);
                       execlp(argv[1], argv[1], argv[2], NULL);
-                
                     exit(0);
                   }else if(i==1){
                         close(fd2[0]);
                     close(fd[1]);
-                
                       dup2(fd[0], 0); // 0
                       dup2(fd2[1], 1);  //***
-                
                       execlp(argv[3], argv[3], NULL); //***
                     exit(0);
                   }else if(i==2){
                         close(fd[0]);
                         close(fd[1]);
-                
                     close(fd2[1]);
                       dup2(fd2[0], 0);
-                
                         // printf("test");
-                
                       execlp(argv[4], argv[4], NULL);
-                
                         exit(0);
-                
                   }else{
                     close(fd[0]);
                     close(fd[1]);
@@ -486,14 +425,10 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
             #include <error.h>
             #include <string.h>
             #include <ctype.h>
-            
             #include "server.h"
-            
             using SAI = struct sockaddr_in;
             using SA = struct sockaddr;
-            
             const int LEN = 4096;
-            
             void handle_msg(const int confd){
                 while(true){
                     char buf[LEN];
@@ -510,19 +445,16 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                         std::cout << "read " << s << " bytes: " << buf << std::endl;
                         for(int i=0;i<strlen(buf);i++){
                             if (!isdigit(buf[i])) {  // for(auto i: buf) ????
-                                flag = false; 
+                                flag = false;
                                 std::cout<<"error"<< i <<std::endl;
-                                break; 
+                                break;
                             }
                         }
                     }
                     int tmp;
                     if(flag) tmp = atoi(buf);
-            
                     std::cout<<"flag:"<<flag <<"; tmp:"<<tmp<<std::endl;
-            
                     memset(buf, '\0', sizeof(buf));
-            
                     if (flag) {
                         if( tmp%2 == 0) strcpy(buf, "Yes");
                         else strcpy(buf, "No");
@@ -530,10 +462,8 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                         strcpy(buf, "No");
                     }
                     write(confd, buf , strlen(buf));
-            
                 }
             }
-            
             void process(const int listenfd){
                 while(true){
                     int confd = accept(listenfd, nullptr, nullptr);
@@ -544,7 +474,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                     handle_msg(confd);
                 }
             }
-            
             void server(int port){
                 int listenfd;
                 do{
@@ -581,12 +510,9 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
             #include <string.h>
             #include <error.h>
             #include "client.h"
-            
             using SAI = struct sockaddr_in;
             using SA = struct sockaddr;
-            
             const int LEN = 4096;
-            
             void process(const int confd){
                 while(true){
                     char buf[LEN];
@@ -600,7 +526,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                         break;
                     }
                     write(confd, buf, strlen(buf));
-            
                     memset(buf, '\0', sizeof(buf));
                     ssize_t s = read(confd, buf, sizeof(buf));
                     if(s == 0){
@@ -612,10 +537,8 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                     } else{
                         std::cout << "read " << s << " bytes: " << buf << std::endl;
                     }
-            
                 }
             }
-            
             void client(const char* ip, const int port){
                 int confd;
                 do{
@@ -627,7 +550,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                     SAI saddr;
                     saddr.sin_family = AF_INET;
                     inet_pton(AF_INET, ip, &saddr.sin_addr );
-                    saddr.sin_port = htons(port); 
+                    saddr.sin_port = htons(port);
                     if(connect(confd, (SA*)&saddr, sizeof(saddr)) < 0){ //-1
                         std::cerr << "ERROR on binding" << std::endl;
                         break;
@@ -635,7 +558,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                     process(confd);
                 }while(0); //via: https://www.cnblogs.com/lizhenghn/p/3674430.html & https://www.zhihu.com/question/24386599
                 close(confd);
-               
             }
             ```
       - TODO UDP
@@ -648,21 +570,15 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
             #include <unistd.h>
             #include <arpa/inet.h>
             #include <string.h>
-            
             #include "server.h"
             #include "message.h"
-            
             using SAI = struct sockaddr_in;
             using SA = struct sockaddr;
-            
             const int LEN = 4096;
-            
             void process(const int confd) {
                 char buf[LEN];
-            
                 while(true){
                     memset(buf, 0, LEN);
-            
                     SAI caddr;
                     memset (&caddr, 0, sizeof(caddr));
                     socklen_t calen = sizeof(caddr);
@@ -671,18 +587,16 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                     sendto(confd, buf, strlen(buf), 0, (SA *)&caddr, calen);
                 }
             }
-            
             void server(const int port){
                 // udp just have a port
                 int confd;
-            
                 do{
                     confd = socket(PF_INET, SOCK_DGRAM, 0);
                     if(confd == -1) {
                         std::cerr<<"socket error"<<std::endl;
                         break;
                     }
-                    // bind address 
+                    // bind address
                     SAI saddr;
                     memset(&saddr, 0, sizeof(saddr));
                     saddr.sin_family = AF_INET;
@@ -709,27 +623,20 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
             #include <error.h>
             #include "client.h"
             // #include "message.h"
-            
             using SAI = struct sockaddr_in;
             using SA = struct sockaddr;
-            
             const int LEN = 4096;
-            
             void process (const int confd, SAI& saddr){
                 char buf[LEN];
-            
                 while(true){
                     memset(buf, 0, LEN);
                     // std::cin.clear();
                     std::cin>>buf;
-            
                     sendto(confd, buf, strlen(buf), 0, (SA*)&saddr, sizeof(saddr));
-            
                     recvfrom(confd, buf, LEN, 0, NULL, NULL); // LEN-1
                     std::cout<<buf<<std::endl;
                 }
             }
-            
             void client(const char* ip, const int port){
                 int confd;
                 do{
@@ -755,8 +662,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
       #include <iostream>
       #include <thread>
       #include <stdlib.h>
-      
-      class ThreadGuard{ 
+      class ThreadGuard{
           std::thread t_;
       public:
           ThreadGuard (std::thread t):t_(std::move(t)){}
@@ -768,7 +674,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
           ThreadGuard(ThreadGuard&) = delete;
           ThreadGuard operator =(ThreadGuard&)= delete;
       };
-      
       class Perfect{
           int n;
           int factorSum(int n){
@@ -787,10 +692,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                   std:: cout<< "no\n";
               }
           }
-      
       };
-      
-      
       int main(int argc, char* argv[]){
           int n = atoi (argv[1]);
           // std::cout << (isPerfect(n)? "Yes\n" : "No\n") <<std::endl;
@@ -800,7 +702,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
           Perfect pf(n);
           std::thread t(pf);
           ThreadGuard tg(std::move(t)); //t对应的线程移动到 t -> t_
-      
           //t.join();
           return 0;
       }
@@ -813,13 +714,10 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
       #include <thread>
       #include <atomic>
       #include <mutex>
-      
       std::mutex tmutex;
-      
       void sellref(int& tickets, int num){
           for(int i = 0; i < num; i++){
               std::lock_guard<std::mutex> lg(tmutex);
-      
               if(tickets == 0){
                   std::cout << "Sold Out " << i << " Tickets\n";
                   break;
@@ -827,30 +725,25 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
               tickets--;
           }
       }
-      
       void refund(int& tickets, int num){
           for(int i = 0; i < num; i++){
               std::lock_guard<std::mutex> lg(tmutex);
               tickets++;
           }
       }
-      
       int main(int argc, char * argv[]){
           int total = atoi(argv[1]),
               back = atoi(argv[2]),
               tickets = total;
-      
           // std::thread w1(sell, &tickets, total);              // 传指针
           std::thread w1(sellref, std::ref(tickets), total);
           std::thread w2(sellref, std::ref(tickets), total);  // 传引用
           std::thread w3(sellref, std::ref(tickets), total);
           std::thread w4(refund, std::ref(tickets), back);
-      
           w1.join();
           w2.join();
           w3.join();
           w4.join();
-      
           std::cout<<tickets<<std::endl;
           return 0;
       }
@@ -861,21 +754,15 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
       #include<iostream>
       #include<thread>
       #include<mutex>
-      
       //via: https://www.cnblogs.com/pigdragon/p/6951475.html
       const int NUM_THREADS = 5;
-      
       std::mutex chopstick[NUM_THREADS];
-      
       void philosopher(int id){
           while(true){
-      
               int left = id;
               int right = (id + 1) % NUM_THREADS;
-      
               std::this_thread::sleep_for(std::chrono::milliseconds(1000));
               std::cout<<"Philosopher "<<id<<" is thinking\n";
-      
               if (try_lock(chopstick[left], chopstick[right]) == -1){
                   //via: https://stackoverflow.com/questions/4362459/check-to-see-if-a-pthread-mutex-is-locked-or-unlocked-after-a-thread-has-locked & http://www.cplusplus.com/reference/mutex/try_lock/
                   std::cout<<"Philosopher "<<id<<" is eating\n";
@@ -884,27 +771,19 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                   chopstick[right].lock();
                   continue;
               }
-      
               chopstick[left].unlock();
               chopstick[right].unlock();
-      
               std::cout<<"Philosopher "<<id<<" is putting down chopstick\n";
           }
       }
-      
-      
       int main(int argc, char * argv[]){
-      
           std::thread philosophers[NUM_THREADS];
-      
           for(int i = 0; i < NUM_THREADS; i++){
               philosophers[i] = std::thread(philosopher, i);
           }
-      
           for(int i = 0; i < NUM_THREADS; i++){
               philosophers[i].join();
           }
-      
           return 0;
       }
       ```
@@ -915,21 +794,17 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
       #include <thread>
       #include <atomic>
       #include <mutex>
-      
       std::mutex tmutex;
-      
       struct Account{
           int balance;
           std::string aid;
           // Account():balance(0){}
           Account(std::string id, int balance):aid(id), balance(balance){}
       };
-      
       std::ostream& operator <<(std::ostream& os, const Account& acc){
           os << "Balance: " << acc.balance << " Account ID: " << acc.aid;
           return os;
       }
-      
       void withdraw(Account& acc, int amount){
           std::lock_guard<std::mutex> lg(tmutex);
           if(acc.balance < amount){
@@ -939,29 +814,23 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
           acc.balance -= amount;
           std::cout << "Withdrawal Successful"<<acc<<"\n";
       }
-      
-      
       void deposit(Account& acc, int amount){
           std::lock_guard<std::mutex> lg(tmutex);
           acc.balance += amount;
           std::cout << "Deposit Successful "<<acc<<" \n";
       }
-      
       int main(int argc, char* argv[]){
           Account account("100001", 50000);
           std::thread t1(withdraw, std::ref(account), 60000);
           std::thread t2(withdraw, std::ref(account), 30000);
           std::thread t3(deposit, std::ref(account), 10000);
           std::thread t4(deposit, std::ref(account), 5000);
-      
           t1.join();
           t2.join();
           t3.join();
           t4.join();
-      
           std::cout<<account<<std::endl;
       }
-      
       ```
 -
 - Other
@@ -985,9 +854,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
       #include <stdlib.h>
       #include <sys/types.h>
       #include <unistd.h>
-      
       extern int create_process (char* program, char** arg_list);
-      
       int main (){
           char* arg_list[] = {
               "ls",
@@ -1006,9 +873,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
       #include <stdlib.h>
       #include <sys/types.h>
       #include <unistd.h>
-      
       extern int create_process (char* program, char** arg_list);
-      
       int create_process (char* program, char** arg_list){
           pid_t child_pid;
           child_pid = fork();
@@ -1019,7 +884,6 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
               abort ();
           }
       }
-      
       ```
   - [[command/tar]] 打包
   -

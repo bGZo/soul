@@ -1,14 +1,11 @@
 title:: wsdjeg/Learn-Vim
-tags:: #Github #opensource #vim #Tutorial 
+tags:: #Github #opensource #vim #Tutorial
 mark:: [GitHub - wsdjeg/Learn-Vim_zh_cn](https://github.com/wsdjeg/Learn-Vim_zh_cn) ![](https://img.shields.io/github/stars/wsdjeg/Learn-Vim_zh_cn)
-
-
 - ## Start
   - `option`/`flag` -> use flag to set options
     collapsed:: true
     - `:version`
     - 如果您想打开 `hello.txt` 文件后迅速执行一条命令，您可以向 `vim` 传递一个 `+{cmd}`/ `-c cmd` 选项。 在Vim中，您可以使用`:s` 命令（ `substitue` 的缩写）替换文本。如果您想打开 `hello.txt` 后立即将所有的"pancake"替换成"bagel"
-      
       ```shell
       $ vim +%s/pancake/bagel/g hello.txt
       ```

@@ -1,20 +1,18 @@
 alias:: 播客
 icon:: 🎧
 tags:: #Hobby
-
 created:: 20230603
 title:: Podcast
-
   - template:: podcast
     template-including-parent:: false
     collapsed:: true
-    - alias:: 
-      author:: 
-      cover:: 
-      mark:: 
+    - alias::
+      author::
+      cover::
+      mark::
       icon:: 🎧
-      tags:: 
-      date:: ``{ date.now.format('YYYYMMDD') }``
+      tags::
+      created:: ``{ date.now.format('YYYYMMDD') }``
       title:: ``{ c.page.name }``
   - `<iframe src=" " autoplay=0 frameborder=0></iframe>` #deprecated
 - ## Why
@@ -39,7 +37,7 @@ title:: Podcast
         collapsed:: true
         - New path:  `https://www.youtube.com/@<username>`
         - ```
-          <!-- Macoto ASMR まこと。--> 
+          <!-- Macoto ASMR まこと。-->
           https://www.youtube.com/channel/UCwSOARsvB-Qa6PtuYyK74dA
           <!-- Coromo Sara. ASMR -->
           https://www.youtube.com/channel/UCmZb4LwQRhEzZX5Uqpcqziw

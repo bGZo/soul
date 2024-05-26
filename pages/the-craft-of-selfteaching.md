@@ -1,10 +1,9 @@
 alias:: book/自学是门手艺
 tags:: #learning, #Github
 author:: 李笑来
-publisher:: 
+publisher::
 published-date:: 20190314
 source:: [selfteaching/the-craft-of-selfteaching: One has no future if one couldn't teach themself.](https://github.com/selfteaching/the-craft-of-selfteaching) ![](https://img.shields.io/github/stars/selfteaching/the-craft-of-selfteaching)
-
 - Digest
   collapsed:: true
   - collapsed:: true
@@ -51,7 +50,7 @@ source:: [selfteaching/the-craft-of-selfteaching: One has no future if one could
     - 九零后、零零后呢？他们很少有什么疑问需要向父母提问，直接问搜索引擎，效果就是父母们天天被惊到甚至吓到。最近两年更不一样了，我有朋友在旧金山生活，他的孩子整天跟 Google 说话，有点什么问题，就直接 “Hey Google...”
     -
     - 人们阅读的选择很不同而已。有自学能力的人和没有自学能力的人，在这一点上很容易分辨：
-    - > 有自学能力的人，选择阅读 “有繁殖能力” 的内容； 
+    - > 有自学能力的人，选择阅读 “有繁殖能力” 的内容；
       > 没有自学能力的人，阅读只是为了消磨时光……
     - 我把那些能给你带来新视野，能让你改变思考模式，甚至能让你拥有一项新技能的内容称之为 “有繁殖能力的内容”。
     -
@@ -181,11 +180,8 @@ source:: [selfteaching/the-craft-of-selfteaching: One has no future if one could
     - > ==**这东西能用在哪儿呢？**==
       - 更多的时候，需要你花时间去琢磨，才能找到用处。 找到用处，有时候还真挺难的 —— 因为==人都一样，容易被自己的眼界所限，放眼望过去，没有用处，自然也就不用了，甚至不用学了，更不用提那就肯定是感觉不用练了==……
         - 那些在学校里帮老师干活的小朋友们，更多情况下还真不是很多人以为的 “拍马屁”（不排除肯定有哈），只不过是在 “主动找活干”……
-          
           ==**找活干** ，是应用所学的最有效方式，有活干，所以就有问题需要解决，所以就有机会反复攻关，在这个过程中， **以用带练**== ……
-          
           所以，很多人在很多事上都想反了。 人们常常取笑那些呼哧呼哧干活的人，笑着说，“能者多劳”，觉得他们有点傻。 这话真的没错。但这么说更准： **劳者多能** —— 你看，都想反了吧？
-          
           到最后，**一切自学能力差的人，外部的表现都差不多，都起码包括这么一条：眼里没活**。他们也不喜欢干活，甚至也没想过，玩乐也是干活（每次逢年过节玩得累死那种）—— 从消耗或者成本的角度来看根本没啥区别 —— 只不过那些通常都是没有产出的活而已。
         - 看看 “别人想出什么用处没有？”
           - TODO 比如，我去 Google `best applications of python skill` ，在第一个页面我就发现了这么篇文章：“[What exactly can you do with Python?](https://medium.freecodecamp.org/what-can-you-do-with-python-the-3-main-applications-518db9a68a78)”，翻了一会儿觉得颇有意思……
@@ -289,7 +285,7 @@ source:: [selfteaching/the-craft-of-selfteaching: One has no future if one could
     - 很多人误以为他们眼里的成功者靠的是 “坚持”、靠的是 “毅力”，这完全是自己的镜像神经元 “尽力” 的结果，是 “调用自己过往经验去 **感同身受** 的结果”…… 事实上呢？那些 “成功者” 其实并不在意成功，因为到死之前成长不应该也不可能结束，因为那是他们的生活方式，学习、进步、探索、迂回，甚至折腾、挫败和迷茫，都是他们生活中必不可少的内容，这是最初不自觉的选择，谈不上什么 “坚持”，谈不上什么 “毅力”……
     - 再进一步，这也是为什么要选择朋友的原因。人与人之间有很大的差异，最大的差异来自于性格养成，大多数人会沦为表现型人格，只有少数人才会在不断调整中保持、呵护、进一步培养 “进取型” 人格。他们自然而然地更为乐观，更有耐心，更有承受力，更有战斗力，更能生产更能体验学习与进步的乐趣。与这样的人在一起，学习会更容易 —— 只因为镜像神经元会更容易地被正确激发。说清楚了，道理其实挺简单的
     -
-    - > No matter what you choose, build stuff and be around smart people. 
+    - > No matter what you choose, build stuff and be around smart people.
       > 无论你选择了什么，都要造出东西来，要与聪明人打交道。
     - 在我看来，有好作品的人都很聪明，但还是那句话，那不是天分和智商，那分明是有效积累。 我个人最看重的个人品质之一，就是 **有没有像样的作品** 。
       - 地球上有效社交密度最高的地方，是 [Github](https://github.com/) 。有些程序员们常开玩笑，说 Github 是全球最大的同性社交网站，事实上，他们不知道，女性程序员的比例正在逐步提高，而且女性在科学上，从来就没有屈居二线过

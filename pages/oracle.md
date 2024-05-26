@@ -1,5 +1,4 @@
 alias:: database/object–relational/oracle
-
 -
 - History
   collapsed:: true
@@ -29,14 +28,12 @@ alias:: database/object–relational/oracle
     - ```sql
       ----------- Window Command Settings-------------
       SET WRAP OFF
-      COL (COLUMN_NAME) FOR A20 
+      COL (COLUMN_NAME) FOR A20
       set linesize 300
-      
       -- 1. make select beautiful :-)
-      -- 2. if set wrap off then maybe the truncating (as requested) 
+      -- 2. if set wrap off then maybe the truncating (as requested)
       --    before column xxx
       -- 3.rows are maybe be truncated and can't display.
-      
       SET NLS_LANG = "SIMPLIFIED CHINESE_CHINA.ZHS16GBK"
       -- `锟斤拷`
       -- UTF-8 编码用 `GBK/GBK2312/GB18030` 的编码标准去解析下的错
@@ -46,17 +43,15 @@ alias:: database/object–relational/oracle
       -- ufffd对应的utf-8编码为“EFBFBD”。如果这个编码重复两次, 然后放到
       -- GBK/GB2312/GB1803 0的环境中显示时, 一个汉字占据2个字节, 最终的结
       -- 果就是：锟斤拷——锟(EFBF), 斤(BDEF), 拷(BFBD).
-      
       -- Windows ANSI: 不是一种中文编码, 在不同的系统中, ANSI表示不同的编码
-      -- Refer to: 
+      -- Refer to:
         -- https://blog.csdn.net/amsong/article/details/39496805
         -- https://www.cnblogs.com/malecrab/p/5300486.html
         -- https://bbs.csdn.net/topics/300210062
-      -- More: 
-        -- https://blog.csdn.net/weixin_43167418/article/details/100075486 
-      
-      -- code command comment is complex in oracle (zh-environment), and I 
-      -- think its must write the comment in right postion such as 
+      -- More:
+        -- https://blog.csdn.net/weixin_43167418/article/details/100075486
+      -- code command comment is complex in oracle (zh-environment), and I
+      -- think its must write the comment in right postion such as
       -- https://docs.oracle.com/cd/B12037_01/server.101/b10759/sql_elements006.htm
       -- and the comment can't appear after the character `;` (damn it....)
       -- LIKE FOLLOWING THIS:
@@ -67,62 +62,45 @@ alias:: database/object–relational/oracle
         FROM employees e,                 -- of all employees
              departments d
         WHERE e.department_id = d.department_id
-          AND salary + NVL(commission_pct, 0) >  -- whose compensation 
+          AND salary + NVL(commission_pct, 0) >  -- whose compensation
                                                  -- is greater than
             (SELECT salary + NVL(commission_pct,0)  -- the compensation
-          FROM employees 
+          FROM employees
           WHERE last_name = 'Pataballa')        -- of Pataballa.
       ;
-      
       ------------------------------------------------
-      
       startup;
       dbstart
       -- 启动数据库
       shutdown immediate
       dbshut
       --停止数据库
-      
       lsnrctl start
       lsnrctl stop
       lsnrctl status
       -- 数据库监听
-      
       sqlplus /nolog --nolog参数表示不登录, 进入sqlplus环境
       -- 登陆oracle的三种方法
         -- From: https://blog.csdn.net/motianlundejiyi/article/details/8869520
       -- 1. sqlplus
       -- 2. url:http://127.0.0.1:xxx/isqlplus
       -- 3. SQL Plus
-      
       sqlplus /nolog
-      conn user/passwd@ip:1521/instance_name as sysdba 
+      conn user/passwd@ip:1521/instance_name as sysdba
       -- 远程连接数据库
-      
       SQLPLUS SYS/(password) AS SYSDBA; --SYS 表示一个权利集合的角色
-      
-      
       CREATE USER (username) IDENTIFIED BY (password);
       alter user username default tablespace username; -- 赋予用户的表空间权限
       create user (username) identified by (password) default tablespace username;
-      
-      
       GRANT DBA TO (username);
       grant connect,resource,dba to username;
       -- 刚刚创建完的新用户是没有任何权限的(包括登录)
       -- 常用的角色 connect（7种权限）、dba、resource（在任何表空间建表）
-      
-      
       CONN (username)/(passwd);
-      
-      
       drop user username cascade;
       -- 经常遇到如用户有对象而未加此参数则用户删不了的问题, 最好带上cascade
-      
       alter user username identified by newpassword
       -- 给他人改密码
-      
-      
       ------------------------------------------------
       -- from: https://pclevinblog.pixnet.net/blog/post/314561194-oracle-sql-%E7%9A%84%E5%88%86%E9%A1%9Edml%E3%80%81dcl%E3%80%81ddl
       -- | TYPE          | MEANINGS     |  Notes  |
@@ -147,27 +125,21 @@ alias:: database/object–relational/oracle
       -- |               | SAVEPOINT    ||
       -- |               | ROLLBACK     ||
       -- |               | SET TRANSACTION |Change transaction options like isolation level and what rollback segment to use|
-      
-      
       ------------------------------------------------
       -- Create Table/Schema
       CREATE SCHEMA AUTHORIZATION BGZOCG;
-      -- schema: 
+      -- schema:
         -- ORACLE SCHEMA is not supported?!
         -- refer to: https://stackoverflow.com/questions/10994414/missing-authorization-clause-while-creating-schema
-        -- 在MySQL中,schema和database是同义词. CREATE SCHEMA和CREATE 
+        -- 在MySQL中,schema和database是同义词. CREATE SCHEMA和CREATE
         -- DATABASE是等效的.但是其他的数据库产品(几乎所有数据库)有所不同.
         -- 在oracle数据库产品中,schema是database的一部分. 表示
         -- the tables and other objects owned by a single user.
       -- [REFER1](https://www.cnblogs.com/zienzir/p/9093516.html)
       -- [REFER2](https://blog.csdn.net/afsdfq/article/details/90417355)
-      
-      
       -- `dual` 用法: 一个虚拟表, 构成select的语法规则, oracle保证dual里面
       -- 永远只有一条记录。
       -- [REFERENCE](https://www.cnblogs.com/qiangqiang/archive/2010/10/15/1852229.html)
-      
-      
       CREATE TABLE STUDENT (
           SNO CHAR(9) PRIMARY KEY,
           SNAME CHAR(20) UNIQUE UNIQUE,
@@ -183,15 +155,11 @@ alias:: database/object–relational/oracle
       -- |DATE                                    |日期变量,也存时间|
       -- |BLOB                                    |音频、视频、图形、图像|
       -- |CLOB                                    |超过4000个字节的大块文本|
-      
-      
       -- 子查询创表
       CREATE TABLE new_emp_10 AS
       SELECT *
       FROM emp
       WHERE deptno=10;
-      
-      
       -- DELETE TABLE
       DROP TABLE (TABLE_NAME) [CASCADE CONSTRAINTS]; -- !!! 命令不能回退
       TRUNCATE TABLE table;-- 不能回滚记录;释放基表占用空间
@@ -208,19 +176,15 @@ alias:: database/object–relational/oracle
       ALTER TABLE (TABLE_NAME)
       MODIFY (column datatype [DEFAULT expr] [NOT NULL]
             [,column datatype]...);
-      
-      
       -- RENAME
       -- Tables
       RENAME OLD_TABLE TO NEW_NAME;
       -- Constraints
-      ALTER TABLE (TABLE_NAME) 
+      ALTER TABLE (TABLE_NAME)
       RENAME CONSTRAINTS (SYS_NXXX) TO (NEW_NAME)
       -- Columns
-      ALTER TABLE (TABLE_NAME) 
+      ALTER TABLE (TABLE_NAME)
       RENAME COLUMN (COLUMN_NAME) TO (NEW_NAMW)
-      
-      
       ------------------------------------------------
       -- Integrity constraints 完整性约束
       -- [实体完整] primary key: 表级/列级
@@ -230,39 +194,33 @@ alias:: database/object–relational/oracle
       create table demo(
         CONSTRAINT f_uk FOREIGN KEY(uid) REFERENCES t_user(uid)
       );
-      -- or after creating table 
-      alter table demo add 
+      -- or after creating table
+      alter table demo add
       constraint f_uk
       foreign key(uid) references t_user(uid);
       --[用户定义] User mark:: d:
         -- NOT NULL: 列级
-        -- CHECK : 表级/列级, More to see: 
+        -- CHECK : 表级/列级, More to see:
         -- https://blog.csdn.net/weixin_42187487/article/details/113051594
         -- UNIQUE: 表级/列级
-      
       -- DELETE CONSTRAINTS
       ALTER TABLE (TABLE_NAME)
         DROP CONSTRAINT constraint ;
       -- DISABLE/ENABLE
       ALTER TABLE (TABLE_NAME)
         DISABLE/ENABLE CONSTRAINT constraint [CASCADE];
-      
-      
       -- search constraints name
       -- name: SYS_CnXXX
-      select user_constraints.table_name, user_constraints.constraint_name, 
+      select user_constraints.table_name, user_constraints.constraint_name,
       constraint_type, column_name, search_condition
       -- TABLE_NAME  CONSTRAINT_NAME  C  COLUMN_NAME  SEARCH_CONDITION
       -- 表名         约束名       约束类型  列名       查询状态
       from user_constraints, user_cons_columns
       -- 查询数据字典
-      where user_constraints.table_name=user_cons_columns.table_name and 
-      user_constraints.constraint_name=user_cons_columns.constraint_name and 
+      where user_constraints.table_name=user_cons_columns.table_name and
+      user_constraints.constraint_name=user_cons_columns.constraint_name and
       user_constraints.table_name='JOB_HISTORY';
-      
       SELECT constraint_name, table_name, search_condition FROM user_constraints;
-      
-      
       ------------------------------------------------
       -- insert/add data
       INSERT INTO DEPT VALUES(10,'ACCOUNTING','NEW YORK'); --隐式
@@ -297,14 +255,14 @@ alias:: database/object–relational/oracle
       -- ​| Q      | digit 季度|
       -- ​| WW     | digit 当年第几周|
       -- ​| W      | digit 当月第几周|
-      -- 
+      --
       -- TRUNC（number,num_digits)
-      -- by the way, the `trunc()` and `round()` handling the date type in 
-      -- oracle is limited by `to_char()`, in my environment the result of 
-      -- `select sysdate,trunc(sysdate,'dd') from dual;` is 
+      -- by the way, the `trunc()` and `round()` handling the date type in
+      -- oracle is limited by `to_char()`, in my environment the result of
+      -- `select sysdate,trunc(sysdate,'dd') from dual;` is
       -- `04-JUN-21 04-JUN-21`, seems to nothing was happened.
       -- So, it means that use `to_char()` when you wanna trunc the date type
-      -- while using `trunc()` handling the number type. 
+      -- while using `trunc()` handling the number type.
       -- meanwhile, use `round()` handling rounding number, such as
       select TRUNC(123.458), --123
              TRUNC(123.458, 0), --123
@@ -340,50 +298,37 @@ alias:: database/object–relational/oracle
              Round(123, 4) --123
         from dual;
       -- from :https://blog.csdn.net/damaolly/article/details/25285473
-      
       -- also by the way , I found this question in following url:
       -- http://www.sqlines.com/oracle-to-mysql/trunc_datetime
-      
-      
       -- variables
       INSERT INTO emp
         (empno, ename, deptno)
       VALUES(&no, '&name',  &d_no);
       -- 定制提示
       ACCEPT dept_id PROMPT 'Please enter the department number:';
-      ACCEPT dept_name PROMPT 'Please enter the department name:'; 
-      ACCEPT region_name PROMPT 'Please enter the region number:'; 
+      ACCEPT dept_name PROMPT 'Please enter the department name:';
+      ACCEPT region_name PROMPT 'Please enter the region number:';
       INSERT INTO dept (deptno, dname, loc) VALUES (&dept_id, ‘&dept_name’, ‘&region_name’);
       -- 子查询
       CREATE TABLE new_emp AS
       SELECT *
       FROM emp
       WHERE deptno=10;
-      
-      
       -- comment 注释
       COMMENT ON COLUMN EMP.JOB IS '工作';
-      
-      
       --UPDATE
       UPDATE (table-name)
-        SET (column)=(value) [,column=value] 
+        SET (column)=(value) [,column=value]
         [ WHERE condition];
       --where 缺省时表内元素全部修改
-      
-      
       -- delete data
       DELETE [FROM] table [WHERE condition];
       DELETE FROM (table_name);
-      
-      
       ------------------------------------------------
       COMMIT;
       SAVEPOINT A;
       -- ....
       ROLLBACK TO A;
-      
-      
       ------------------------------------------------
       -- Select语句的一般形式
       SELECT [ALL|DISTINCT]
@@ -404,7 +349,7 @@ alias:: database/object–relational/oracle
       ORDER BY Grade DESC
       -- 聚集函数: count(*)：获取数量; sum()：求和（这里要注意求和是
       -- 忽略null值的，null与其他数值相加结果为null，所以可以通过
-      -- ifnull(xxx,0)将null的值赋为0）; avg()：求平均数; max()：求最大值; 
+      -- ifnull(xxx,0)将null的值赋为0）; avg()：求平均数; max()：求最大值;
       -- min()：求最小值
       -- GROUP BY: 细化聚集函数的作用对象
       SELECT city, count(*), age
@@ -417,12 +362,8 @@ alias:: database/object–relational/oracle
         -- 使用group by 子句对数据进行分组；
         -- 对group by 子句形成的组运行聚集函数计算每一组的值；
         -- 最后用having 子句去掉不符合条件的组
-      
-      
       ------------------------------------------------
       -- 嵌套查询
-      
-      
       ------------------------------------------------
       -- 连接查询
       -- (非)等值(=) from https://blog.csdn.net/jiakw_1981/article/details/3050917
@@ -432,30 +373,25 @@ alias:: database/object–relational/oracle
       FROM STUDENT, SC (
       WHERE STUDENT.SNO=SC.SNO
       );
-      
       --自身连接
       SELECT FIRST.*, SECOND.*
       FROM COURSE FIRST, COURSE SECOND
       WHERE FIRST.CPNO=SECOND.CNO;
-      
       --外连接: 将主体表中不满足连接条件的元组一并输出
       SELECT Student.Sno, Sname, Ssex, Sage, Sdept, Cno, Grade
       FROM Student
       LEFT/RIGHT/ALL (OUTER/INNER) JOIN SC ON
       (Student.Sno=SC.Sno);
       -- FROM Student LEFT OUTER JOIN SC USING(Sno)
-      -- See img diff with each other: 
-      -- ![](https://dandelionfs.oss-cn-beijing.aliyuncs.com/Visual_SQL_JOINS_orig.webp) 
-      -- and from its from: 
+      -- See img diff with each other:
+      -- ![](https://dandelionfs.oss-cn-beijing.aliyuncs.com/Visual_SQL_JOINS_orig.webp)
+      -- and from its from:
       -- https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins
-      
       -- 复合条件连接: 多个连接条件
       SELECT Student.Sno, Sname
       FROM Student, SC
       WHERE Student.Sno = SC.Sno AND /* 连接谓词*/
         SC.Cno= '2' AND SC.Grade > 90; /* 其他限定条件 */
-      
-      
       ------------------------------------------------
       -- 嵌套查询 不能使用ORDER BY子句
       -- IN 谓词, 只存在一个子结果的时候 = 可以代替 In
@@ -469,16 +405,12 @@ alias:: database/object–relational/oracle
       (SELECT SDEPT
       FROM STUDENT
       WHERE SNAME='刘晨');
-      
-      
       -- 相关子查询: 子查询联系父查询(子句 where 条件里用到父句的表)
       SELECT Sno, Cno
       FROM SC x
       WHERE Grade >=(SELECT AVG(Grade)
       FROM SC y
       WHERE y.Sno=x.Sno);
-      
-      
       -- 带有ANY（SOME）或ALL谓词
       SELECT Sname, Sage
       FROM Student
@@ -487,7 +419,6 @@ alias:: database/object–relational/oracle
         WHERE Sdept= 'CS')
         AND Sdept <> 'CS' ;
       /* WHERE Sage < (SELECT MAX(Sage) FROM Student WHERE Sdept= ' CS ') */
-      
       -- 带有EXISTS谓词: EXISTS的子查询只返回真值或假值，给出列名无实际意义
       -- 所有带IN谓词、比较运算符、ANY和ALL谓词的子查询都能用带 EXISTS谓词的子查询等价替换
       SELECT Sname
@@ -499,7 +430,6 @@ alias:: database/object–relational/oracle
       WHERE Sno= Student.Sno
         AND Cno= Course.Cno)
       ); --查询选修了全部课程的学生姓名
-      
       -- 用EXISTS/NOT EXISTS实现逻辑蕴函(难)
       -- 查询至少选修了学生200215122选修的全部课程的学生号码
       SELECT DISTINCT Sno
@@ -510,7 +440,6 @@ alias:: database/object–relational/oracle
       WHERE SCY.Sno = ' 200215122 ' AND NOT EXISTS (SELECT *
         FROM SC SCZ
         WHERE SCZ.Sno=SCX.Sno AND SCZ.Cno=SCY.Cno));
-      
       -- 集合查询
       -- 并操作 UNION `UNION`: 自动去重; `UNION ALL` 不去重(DISTINCT)
       -- 交操作 INTERSECT
@@ -523,14 +452,12 @@ alias:: database/object–relational/oracle
         FROM Student
         WHERE Sage<=19
       -- OR
-      
       -- 既选修了课程1又选修了课程2 的学生
       SELECT Sno
       FROM SC
       WHERE Cno='1' AND Sno IN (SELECT Sno
         FROM SC
         WHERE Cno='2')
-      
       -- 基于派生表(Derived Table)的查询: 出现在FROM的子查询
       -- 找出每个学生超过他自己选修课程平均成绩的课程号
       SELECT Sno, Cno
@@ -538,10 +465,9 @@ alias:: database/object–relational/oracle
         FROM SC
         GROUP BY Sno) AS Avg_sc (avg_sno, avg_grade)
       WHERE SC.Sno = Avg_sc.avg_sno and SC.Grade >=Avg_sc.avg_grade ;
-      /* 此处 (SELECT Sno, Avg(Grade) FROM SC GROUP BY Sno) AS 
+      /* 此处 (SELECT Sno, Avg(Grade) FROM SC GROUP BY Sno) AS
        * Avg_sc (avg_sno, avg_grade) 为临时表
       */
-      
       /**********************************************
       AVG (DISTINCT|ALL|n)            平均值
       COUNT (DISTINCT|ALL|expr|*)     计算个数
@@ -553,19 +479,14 @@ alias:: database/object–relational/oracle
       COUNT(*)                        返回表中的记录数
       COUNT(expr)                     返回非空记录数
       ***********************************************/
-      
-      
       -- View
-      CREATE [OR REPLACE] [FORCE|NOFORCE] VIEW view 
-        [(alias[, alias]...)] 
-        AS sub-query 
+      CREATE [OR REPLACE] [FORCE|NOFORCE] VIEW view
+        [(alias[, alias]...)]
+        AS sub-query
         [WITH CHECK OPTION [CONSTRAINT constraint ]] -- impact update data
         [WITH READ ONLY]
       DROP VIEW (VIEW_NAME);
-      
       -- DML operation only impact the single view table.
-      
-      
       /******************REFERENCE*******************
       - https://www.nginx.cn/6235.html
       - https://kangdonggen.gitbooks.io/oracle/content/chapter1.html
@@ -575,7 +496,7 @@ alias:: database/object–relational/oracle
 - Question
   collapsed:: true
   - ```sql
-    /* title: IMU ORACLE HOMEWORK 
+    /* title: IMU ORACLE HOMEWORK
      * author: bGZoCg
      * update: 2021-05-29
      */
@@ -602,7 +523,6 @@ alias:: database/object–relational/oracle
     CREATE TABLE EMPLOYEES( EMPLOYEE_ID NUMBER(6) PRIMARY KEY, FIRST_NAME VARCHAR2(20) NOT NULL,LAST_NAME VARCHAR2(25) NOT NULL,EMAIL VARCHAR2(25) NOT NULL,PHONE_NUMBER VARCHAR2(20),HIRE_DATE DATE,JOB_ID VARCHAR2(10) NOT NULL,FOREIGN KEY(JOB_ID) REFERENCES JOBS(JOB_ID),SALARY NUMBER (8, 2),CONSTRAINT SALARY_CHECK CHECK (SALARY > 0),COMMISSION_PCT NUMBER (2, 2),MANAGER_ID NUMBER (6),DEPARTMENT_ID NUMBER (4),FOREIGN KEY (MANAGER_ID) REFERENCES EMPLOYEES (EMPLOYEE_ID),FOREIGN KEY (DEPARTMENT_ID) REFERENCES DEPARTMENTS(DEPARTMENT_ID));
     CREATE TABLE JOB_HISTORY(EMPLOYEE_ID NUMBER(6) NOT NULL,FOREIGN KEY(EMPLOYEE_ID) REFERENCES EMPLOYEES(EMPLOYEE_ID),START_DATE DATE NOT NULL,
     END_DATE DATE NOT NULL,JOB_ID VARCHAR2(10) NOT NULL,DEPARTMENT_ID NUMBER(4),FOREIGN KEY(JOB_ID) REFERENCES JOBS(JOB_ID),FOREIGN KEY(DEPARTMENT_ID) REFERENCES DEPARTMENTS(DEPARTMENT_ID));
-    
     1.locations
     insert all
     into locations values('1000','1297 Via Cola di Rie','00989','Roma', null,'IT')
@@ -629,7 +549,6 @@ alias:: database/object–relational/oracle
     into locations values('3100','Pieter Breughelstraat 837','3029SK','Utrecht','Utrecht','NL')
     into locations values('3200','Mariano Escobedo 9991','11932','Mexico City','Distrito Federal,','MX')
     select* from dual;
-    
     2.dept
     insert all
      into dept values('10','ACCOUNTING','NEW YORK')
@@ -637,7 +556,6 @@ alias:: database/object–relational/oracle
      into dept values('30','SALES','CHICAGO')
      into dept values('40','OPERATIONS','BOSTON')
     select* from dual;
-    
     3.regions
     insert all
      into regions values('1','Europe')
@@ -645,7 +563,6 @@ alias:: database/object–relational/oracle
      into regions values('3','Asia')
      into regions values('4','Middle East and Africa')
     select* from dual;
-    
     4.  Countries
     insert all
      into countries values('AR','Argentina','2')
@@ -674,7 +591,6 @@ alias:: database/object–relational/oracle
      into countries values('ZM','Zambia','4')
      into countries values('ZW','Zimbabwe','4')
     select* from dual;
-    
     5.locations
     insert all
      into locations values('1000','1297 Via Cola di Rie','00989','Roma',null,'IT')
@@ -701,8 +617,6 @@ alias:: database/object–relational/oracle
      into locations values('3100','Pieter Breughelstraat 837','3029SK','Utrecht','Utrecht','NL')
      into locations values('3200','Mariano Escobedo 9991','11932','Mexico City','Distrito Federal,','MX')
     select* from dual;
-    
-    
     6.departments
     insert all
      into departments values('10','Administration','200','1700')
@@ -733,7 +647,6 @@ alias:: database/object–relational/oracle
      into departments values('260','Recruiting',null,'1700')
      into departments values('270','Payroll',null,'1700')
     select* from dual;
-    
     7.jobs
     insert all
      into jobs values('AD_PRES','President','20000','40000')
@@ -756,7 +669,6 @@ alias:: database/object–relational/oracle
      into jobs values('HR_REP','Human Resources Representative','4000','9000')
      into jobs values('PR_REP','Public Relations Representative','4500','10500')
     select* from dual;
-    
     8.job_history
     insert all
      into job_history values('102',to_date('13-01-93','dd-mm-yy'),to_date('24-07-98','dd-mm-yy'),'IT_PROG','60')
@@ -770,7 +682,6 @@ alias:: database/object–relational/oracle
      into job_history values('176',to_date('01-01-99','dd-mm-yy'),to_date('31-12-99','dd-mm-yy'),'SA_MAN','80')
      into job_history values('200',to_date('01-07-94','dd-mm-yy'),to_date('31-12-98','dd-mm-yy'),'AC_ACCOUNT','90')
     select* from dual;
-    
     9.EMPLOYEES
     INSERT INTO EMPLOYEES VALUES( '100','Steven','King','SKING', '515.123.4567' , TO_DATE('1917-JUN-87', 'DDDD-MM-YY'), 'AD_PRES', '24000',NULL, NULL,'90');
     INSERT INTO EMPLOYEES VALUES( '101','Neena','Kochhar','NKOCHHAR', '515.123.4568' , TO_DATE('1921-SEP-89', 'DDDD-MM-YY'), 'AD_VP' , '17000',NULL,'100','90');
@@ -879,9 +790,7 @@ alias:: database/object–relational/oracle
     INSERT INTO EMPLOYEES VALUES( '204','Hermann','Baer','HBAER', '515.123.8888' , TO_DATE('1907-JUN-94', 'DDDD-MM-YY'), 'PR_REP' , '10000',NULL,'101','70');
     INSERT INTO EMPLOYEES VALUES( '205','Shelley','Higgins','SHIGGINS', '515.123.8080' , TO_DATE('1907-JUN-94', 'DDDD-MM-YY'), 'AC_MGR' , '12000',NULL,'101','110');
     INSERT INTO EMPLOYEES VALUES( '206','William','Gietz','WGIETZ', '515.123.8181' , TO_DATE('1907-JUN-94', 'DDDD-MM-YY'), 'AC_ACCOUNT' ,'8300',NULL, '205', '110');
-    
     select user_constraints.table_name,user_constraints.constraint_name, constraint_type,column_name,search_condition from user_constraints,user_cons_columns where user_constraints.table_name=user_cons_columns.table_name and user_constraints.constraint_name=user_cons_columns.constraint_name and user_constraints.table_name='JOB_HISTORY';
-    
     --Homework2-------------------------------------------------------------
     SELECT EMPNO, ENAME, JOB FROM EMP;
     SELECT EMPNO AS "NUMBER", ENAME AS "NAME", JOB AS JOB FROM EMP;
@@ -916,16 +825,15 @@ alias:: database/object–relational/oracle
     SELECT ENAME,SAL FROM EMP WHERE SAL>=1000 AND SAL<=1500 ORDER BY SAL DESC;
     SELECT ENAME,JOB,SAL*12 YSAL FROM EMP WHERE SAL*12>=15000 AND SAL*12<=20000 AND (JOB='MANAGER' OR JOB='SALESMAN');
     --区别: null的字段上做逻辑关系永假, <>,>,=,<
-    
     /*  1. 在雇员表中查询雇员的编号、姓名、工作。（其视图名为 T2_1,后面的题目以 此类推）
-        2. 为题目 1 中查询列取别名（number, NAME,JOB ）。 
-        3. 查询所有的工作。 
-        4. 按照以下的格式进行结果输出，如 NO:7469,Name:SMITH,Job:CLERK。 
+        2. 为题目 1 中查询列取别名（number, NAME,JOB ）。
+        3. 查询所有的工作。
+        4. 按照以下的格式进行结果输出，如 NO:7469,Name:SMITH,Job:CLERK。
         5. 列出每个雇员的姓名及年薪。
-        6. 查看每月可以得到奖金的雇员信息。 
-        7. 基本工资大于 1500，同时可以领取奖金的雇员信息。 
-        8. 查询基本工资不大于 1500，同时不可以领取奖金的雇员信息。 
-        9. 查询在 1981 年雇佣的全部雇员信息，BETWEEN .. AND 包含等于的情况。 
+        6. 查看每月可以得到奖金的雇员信息。
+        7. 基本工资大于 1500，同时可以领取奖金的雇员信息。
+        8. 查询基本工资不大于 1500，同时不可以领取奖金的雇员信息。
+        9. 查询在 1981 年雇佣的全部雇员信息，BETWEEN .. AND 包含等于的情况。
         10. 查询出雇员编号不是 7369、7499 的雇员信息。
         11. 查看雇员编号不是 7369 的雇员信息，使用<>或!=。
         12. 对雇员的工资由低到高进行排序，升序为默认(ASC)，降序(DESC)。
@@ -949,19 +857,18 @@ alias:: database/object–relational/oracle
         30. 找出EMP 表员工名字中含有A 和N的员工姓名。
         31. 显示工资不在 1000 到 1500 之间的员工信息：名字、工资，按工资从大到小 排序。
         32. 显示职位为MANAGER 和 SALESMAN，年薪在 15000 和 20000 之间的员 工的信息：名字、职位、年薪。
-        33. 说明以下两条 SQL语句的输出结果： 
-            1) SELECT EMPNO,COMM FROM EMP WHERE COMM IS NULL; 
+        33. 说明以下两条 SQL语句的输出结果：
+            1) SELECT EMPNO,COMM FROM EMP WHERE COMM IS NULL;
             2) SELECT EMPNO,COMM FROM EMP WHERE COMM = NULL;*/
-    
     --Homework3-------------------------------------------------------------
     SELECT EMP.EMPNO, EMP.ENAME, EMP.DEPTNO, DEPT.LOC FROM EMP, DEPT WHERE EMP.DEPTNO=DEPT.DEPTNO;
     SELECT E1.ENAME,E1.JOB,E2.ENAME FROM EMP E1,EMP E2 WHERE E1.MGR=E2.EMPNO;
     SELECT E1.ENAME, E1.JOB, E2.ENAME, DNAME FROM EMP E1, EMP E2, DEPT WHERE E1.MGR=E2.EMPNO AND E.DEPTNO=DEPT.DEPTNO;
     SELECT E1.ENAME, E1.SAL+NVL(COMM,0), DNAME, E2.ENAME FROM EMP E1, EMP E2, DEPT WHERE E1.DEPTNO=DEPT.DEPTNO AND E1.MGR=E2.EMPNO;
     SELECT TO_CHAR(SALARY,'L99,999.99'), TO_CHAR(SALARY,'$99,999.99') FROM HR.EMPLOYEES WHERE ROWNUM < 5; -- 英文环境??
-    SELECT ENAME, SAL+NVL(COMM,0), ROUND((E.SAL+NVL(COMM,0))*1.08) AS LATER_SAL FROM EMP WHERE ROWNUM<=5; 
+    SELECT ENAME, SAL+NVL(COMM,0), ROUND((E.SAL+NVL(COMM,0))*1.08) AS LATER_SAL FROM EMP WHERE ROWNUM<=5;
     SELECT UPPER(FIRST_NAME)||' '||UPPER(LAST_NAME) FROM EMPLOYEES WHERE MANAGER_ID IS NULL;
-    SELECT E2.FIRST_NAME FROM EMPLOYEES E1, EMPLOYEES E2 WHERE E1.MANAGER_ID=E2.EMPLOYEE_ID AND E1.FIRST_NAME='David' AND E1.LAST_NAME='Austin';-- select first_name ||' '|| last_name from employees where employee_id=(select manager_id from employees where first_name='David' and last_name='Austin'); 
+    SELECT E2.FIRST_NAME FROM EMPLOYEES E1, EMPLOYEES E2 WHERE E1.MANAGER_ID=E2.EMPLOYEE_ID AND E1.FIRST_NAME='David' AND E1.LAST_NAME='Austin';-- select first_name ||' '|| last_name from employees where employee_id=(select manager_id from employees where first_name='David' and last_name='Austin');
     SELECT E2.FIRST_NAME||' '|| E2.LAST_NAME FROM EMPLOYEES E1, EMPLOYEES E2 WHERE E1.FIRST_NAME='Alexander' AND E1.LAST_NAME='Hunold' AND E2.MANAGER_ID=E1.EMPLOYEE_ID;
     SELECT E1.FIRST_NAME, E1.SALARY, E2.FIRST_NAME, E2.SALARY FROM EMPLOYEES E1, EMPLOYEES E2 WHERE E1.MANAGER_ID=E2.EMPLOYEE_ID AND E1.SALARY>E2.SALARY;
     SELECT FIRST_NAME, LAST_NAME FROM EMPLOYEES WHERE DEPARTMENT_ID=(SELECT DEPARTMENT_ID FROM EMPLOYEES WHERE LAST_NAME='Chen');-- other: select * from employees e1 where exists( select *  from employees e2  where LAST_NAME='Chen' and e1.DEPARTMENT_ID=e2.DEPARTMENT_ID ) and e1.LAST_NAME<>'Chen' ;
@@ -976,29 +883,28 @@ alias:: database/object–relational/oracle
     SELECT COUNT(DISTINCT(MANAGER_ID)) FROM EMPLOYEES WHERE MANAGER_ID IS NOT NULL;
     SELECT * FROM EMPLOYEES E1 WHERE SALARY=(SELECT MAX(SALARY) FROM EMPLOYEES WHERE DEPARTMENT_ID=E1.DEPARTMENT_ID) AND HIRE_DATE=(SELECT MAX(HIRE_DATE) FROM EMPLOYEES WHERE DEPARTMENT_ID=E1.DEPARTMENT_ID);-- SELECT FIRST_NAME, SALARY, HIRE_DATE FROM EMP E1 WHERE SAL=(SELECT MAX(SAL) FROM EMP WHERE DEPTNO=E1.DEPTNO) AND HIREDATE=(SELECT MAX(HIREDATE) FROM EMP WHERE DEPTNO=E1.DEPTNO); -- SELECT DISTINCT E1.FIRST_NAME, E1.LAST_NAME, E1.SALARY, E1.HIRE_DATE FROM EMPLOYEES E1, EMPLOYEES E2 WHERE E1.DEPARTMENT_ID=E2.DEPARTMENT_ID AND E1.SALARY>E2.SALARY AND E1.HIRE_DATE > E2.HIRE_DATE;-- SELECT DISTINCT E1.FIRST_NAME, E1.LAST_NAME, E1.SALARY, E1.HIRE_DATE FROM EMPLOYEES E1, EMPLOYEES E2 WHERE E1.DEPARTMENT_ID=E2.DEPARTMENT_ID AND E1.SALARY>E2.SALARY AND E1.HIRE_DATE > E2.HIRE_DATE; 不一样???
     /*1. 要求查询雇员的编号、姓名、部门编号、部门名称及部门位置。（其视图名为 T3_1,后面的题目以此类推）
-      2. 要求查询每个雇员的姓名、工作、雇员的直接上级领导的姓名(表自关联)。 
-      3. 对题目 2 进行扩充，将雇员所在部门名称同时列出。 
+      2. 要求查询每个雇员的姓名、工作、雇员的直接上级领导的姓名(表自关联)。
+      3. 对题目 2 进行扩充，将雇员所在部门名称同时列出。
       4. 查询每个雇员的姓名、工资、部门名称，及其领导的姓名。
       5. 让 SELECT TO_CHAR(SALARY,'L99,999.99') FROM HR.EMPLOYEES WHERE ROWNUM < 5 输出结果的货币单位是￥和$。
       6. 列出前五位每个员工的名字，工资、涨薪后的的工资（涨幅为 8%），以“元” 为单位进行四舍五入。
-      7. 找出谁是最高领导，将名字按大写形式显示。 
-      8. 找出 First_Name 为David，Last_Name 为 Austin 的直接领导名字。 
-      9. First_Name 为Alexander，Last_Name为Hunold领导谁。（谁向David 报告）。 
+      7. 找出谁是最高领导，将名字按大写形式显示。
+      8. 找出 First_Name 为David，Last_Name 为 Austin 的直接领导名字。
+      9. First_Name 为Alexander，Last_Name为Hunold领导谁。（谁向David 报告）。
       10. 哪些员工的工资高于他直接上司的工资，列出员工的名字和工资，上司的名 字和工资。
-      11. 哪些员工和Chen(LAST_NAME)同部门。 
-      12. 哪些员工跟 De Haan(LAST_NAME)做一样职位。 
-      13. 哪些员工跟 Hall(LAST_NAME)不在同一个部门。 
-      14. 哪些员工跟William（FIRST_NAME）、Smith(LAST_NAME)做不一样的职位。 
-      15. 显示有提成的员工的信息：名字、提成、所在部门名称、所在地区的名称。 
-      16. 显示 Executive 部门有哪些职位。 
-      17. 整个公司中，最高工资和最低工资相差多少。 
+      11. 哪些员工和Chen(LAST_NAME)同部门。
+      12. 哪些员工跟 De Haan(LAST_NAME)做一样职位。
+      13. 哪些员工跟 Hall(LAST_NAME)不在同一个部门。
+      14. 哪些员工跟William（FIRST_NAME）、Smith(LAST_NAME)做不一样的职位。
+      15. 显示有提成的员工的信息：名字、提成、所在部门名称、所在地区的名称。
+      16. 显示 Executive 部门有哪些职位。
+      17. 整个公司中，最高工资和最低工资相差多少。
       18. 提成大于 0 的人数。
-      19. 显示整个公司的最高工资、最低工资、工资总和、平均工资保留到整数位。 
-      20. 整个公司有多少个领导。 
+      19. 显示整个公司的最高工资、最低工资、工资总和、平均工资保留到整数位。
+      20. 整个公司有多少个领导。
       21. 列出在同一部门入职日期晚但工资高于其他同事的员工：名字、工资、入职 日期。*/
-    
     --Homework4-------------------------------------------------------------
-    SELECT DNAME FROM DEPT WHERE DEPTNO IN (SELECT DEPTNO FROM EMP GROUP BY DEPTNO HAVING COUNT(EMPNO)>=1); --other1: select dname from dept where deptno in(select deptno from emp); -- other2: SELECT DISTINCT DNAME FROM EMP E1, DEPT D1 WHERE E1.DEPTNO=D1.DEPTNO AND (SELECT COUNT(*) FROM DEPT D2 WHERE D1.DEPTNO=D2.DEPTNO)>=1; 
+    SELECT DNAME FROM DEPT WHERE DEPTNO IN (SELECT DEPTNO FROM EMP GROUP BY DEPTNO HAVING COUNT(EMPNO)>=1); --other1: select dname from dept where deptno in(select deptno from emp); -- other2: SELECT DISTINCT DNAME FROM EMP E1, DEPT D1 WHERE E1.DEPTNO=D1.DEPTNO AND (SELECT COUNT(*) FROM DEPT D2 WHERE D1.DEPTNO=D2.DEPTNO)>=1;
     SELECT * FROM EMP WHERE SAL> ( SELECT SAL FROM EMP WHERE ENAME='SMITH');-- `=` -> like.....
     SELECT E1.ENAME,E2.ENAME FROM EMP E1,EMP E2 WHERE E1.MGR=E2.EMPNO;
     SELECT E1.* FROM EMP E1,EMP E2 WHERE E1.MGR=E2.EMPNO AND E1.HIREDATE<E2.HIREDATE;
@@ -1026,36 +932,34 @@ alias:: database/object–relational/oracle
     SELECT FIRST_NAME||' '||LAST_NAME FROM EMPLOYEES E1 WHERE E1.SALARY>(SELECT AVG(SALARY) FROM EMPLOYEES E2 WHERE E2.DEPARTMENT_ID=E1.DEPARTMENT_ID);
     SELECT FIRST_NAME||' '||LAST_NAME, DEPARTMENT_ID, SALARY FROM EMPLOYEES E1 WHERE SALARY= (SELECT MAX(SALARY) FROM EMPLOYEES E2 WHERE E2.DEPARTMENT_ID =E1.DEPARTMENT_ID) HIRE_DATE=(SELECT MAX(HIRE_DATE) FROM EMPLOYEES E3 WHERE E3.DEPARTMENT_ID = E1.DEPARTMENT_ID);
     SELECT * FROM (SELECT AVG(SALARY) FROM EMPLOYEES GROUP BY DEPARTMENT_ID ORDER BY DEPARTMENT_ID DESC) WHERE ROWNUM=1;
-    
-    /*  1. 列出至少有一个员工的所有部门。（其视图名为 T4_1,后面的题目以此类推） 
-        2. 列出薪金比“SMITH”多的所有员工。 
+    /*  1. 列出至少有一个员工的所有部门。（其视图名为 T4_1,后面的题目以此类推）
+        2. 列出薪金比“SMITH”多的所有员工。
         3. 列出所有员工的姓名及其直接上级的姓名。
-        4. 列出受雇日期早于其直接上级的所有员工。 
-        5. 列出部门名称和这些部门的员工信息，同时列出那些没有员工的部门。 
-        6. 列出所有“CLERK”（办事员）的姓名及其部门名称。 
-        7. 列出最低薪金大于 1500 的各种工作。 
-        8. 列出在部门“SALES”（销售部）工作的员工的姓名，假定不知道销售部的部 门编号。 
-        9. 列出薪金高于公司平均薪金的所有员工。 
-        10. 列出与“SCOTT”从事相同工作的所有员工。 
-        11. 列出薪金等于部门 30 中员工的薪金的所有员工的姓名和薪金。 
-        12. 列出薪金高于在部门 30 工作的所有员工的薪金的员工姓名和薪金。 
-        13. 列出在每个部门工作的员工数量、平均工资和平均服务期限。 
-        14. 列出所有员工的姓名、部门名称和工资。 
-        15. 列出所有部门的详细信息和部门人数。 
-        16. 列出各种工作的最低工资。 
-        17. 列出各个部门的MANAGER（经理）的最低薪金。 
-        18. 列出所有员工的年工资,按年薪从低到高排序。 
-        19. 各个部门平均、最大、最小工资、人数，按照部门号升序排列。 
+        4. 列出受雇日期早于其直接上级的所有员工。
+        5. 列出部门名称和这些部门的员工信息，同时列出那些没有员工的部门。
+        6. 列出所有“CLERK”（办事员）的姓名及其部门名称。
+        7. 列出最低薪金大于 1500 的各种工作。
+        8. 列出在部门“SALES”（销售部）工作的员工的姓名，假定不知道销售部的部 门编号。
+        9. 列出薪金高于公司平均薪金的所有员工。
+        10. 列出与“SCOTT”从事相同工作的所有员工。
+        11. 列出薪金等于部门 30 中员工的薪金的所有员工的姓名和薪金。
+        12. 列出薪金高于在部门 30 工作的所有员工的薪金的员工姓名和薪金。
+        13. 列出在每个部门工作的员工数量、平均工资和平均服务期限。
+        14. 列出所有员工的姓名、部门名称和工资。
+        15. 列出所有部门的详细信息和部门人数。
+        16. 列出各种工作的最低工资。
+        17. 列出各个部门的MANAGER（经理）的最低薪金。
+        18. 列出所有员工的年工资,按年薪从低到高排序。
+        19. 各个部门平均、最大、最小工资、人数，按照部门号升序排列。
         20. 各个部门中工资大于 5000 的员工人数。
-        21. 各个部门平均工资和人数，按照部门名字升序排列。 
-        22. 列出每个部门中有同样工资的员工的统计信息，列出他们的部门号，工 资，人数。 
-        23. 列出同部门中工资高于 1000 的员工数量超过 2 人的部门，显示部门名 字、地区名称。 
-        24. 哪些员工的工资，高于整个公司的平均工资，列出员工的名字和工资（降序）。 
-        25. 哪些员工的工资，介于 50 号 和 80 号部门平均工资之间。 
-        26. 所在部门平均工资高于 5000 的员工名字。 
-        27. 列出各个部门中工资最高的员工的信息：名字、部门号、工资。 
+        21. 各个部门平均工资和人数，按照部门名字升序排列。
+        22. 列出每个部门中有同样工资的员工的统计信息，列出他们的部门号，工 资，人数。
+        23. 列出同部门中工资高于 1000 的员工数量超过 2 人的部门，显示部门名 字、地区名称。
+        24. 哪些员工的工资，高于整个公司的平均工资，列出员工的名字和工资（降序）。
+        25. 哪些员工的工资，介于 50 号 和 80 号部门平均工资之间。
+        26. 所在部门平均工资高于 5000 的员工名字。
+        27. 列出各个部门中工资最高的员工的信息：名字、部门号、工资。
         28. 最高的部门平均工资是多少。*/
-    
     --Homework4-------------------------------------------------------------
     SELECT DEPARTMENT_ID,COUNT(*) FROM EMPLOYEES GROUP BY DEPARTMENT_ID HAVING COUNT(*) > (SELECT COUNT(*) FROM EMPLOYEES WHERE DEPARTMENT_ID = 90);-- SELECT DEPARTMENT_NAME FROM DEPARTMENTS WHERE DEPARTMENT_ID IN (SELECT DISTINCT DEPARTMENT_ID FROM EMPLOYEES E2 WHERE (SELECT COUNT(*) FROM EMPLOYEES E3 WHERE E2.DEPARTMENT_ID=E3.DEPARTMENT_ID) > (SELECT COUNT(*) FROM EMPLOYEES E1 WHERE E1.DEPARTMENT_ID=90));
     SELECT FIRST_NAME||' '||LAST_NAME FROM EMPLOYEES WHERE EMPLOYEE_ID=( SELECT  MANAGER_ID FROM EMPLOYEES WHERE FIRST_NAME='Den' AND LAST_NAME='Raphaely');
@@ -1067,7 +971,6 @@ alias:: database/object–relational/oracle
     SELECT FIRST_NAME||' '||LAST_NAME FROM EMPLOYEES E1 WHERE NOT EXISTS (SELECT 1 FROM EMPLOYEES E2 WHERE FIRST_NAME='Den' AND LAST_NAME='Raphaely' AND E1.DEPARTMENT_ID=E2.DEPARTMENT_ID);
     SELECT DISTINCT JOB_ID FROM EMPLOYEES WHERE DEPARTMENT_ID = ( SELECT DEPARTMENT_ID FROM DEPARTMENTS WHERE DEPARTMENT_NAME = 'Finance'); -- SELECT DISTINCT JOB_TITLE FROM JOBS J1 WHERE JOB_ID IN (SELECT JOB_ID FROM EMPLOYEES E1, DEPARTMENTS D1 WHERE D1.DEPARTMENT_ID=E1.DEPARTMENT_ID AND DEPARTMENT_NAME='Finance'); -- SELECT DISTINCT JOB_TITLE FROM JOBS J1, DEPARTMENTS D1, EMPLOYEES E1 WHERE J1.JOB_ID=E1.JOB_ID AND D1.DEPARTMENT_ID=E1.DEPARTMENT_ID AND DEPARTMENT_NAME='Finance';
     SELECT DISTINCT JOB_ID FROM EMPLOYEES E1 WHERE EXISTS (SELECT * FROM DEPARTMENTS D1 WHERE DEPARTMENT_NAME = 'Finance' AND E1.DEPARTMENT_ID=D1.DEPARTMENT_ID);
-    
     -- *, 1 AND DEPARTMENT_ID IS OK BUT WHY??????
     /*1. 哪些部门的人数比 90 号部门的人数多
      *2. Den(FIRST_NAME)、Raphaely(LAST_NAME)的领导是谁（非关联子查询）

@@ -1,5 +1,4 @@
 tags:: #newsletter
-
 - #+BEGIN_NOTE
   Receive email notification -> Ask in [tieliu](tg://resolve?domain=hdnote) ->  Copy Preface(Main)；
   #+END_NOTE

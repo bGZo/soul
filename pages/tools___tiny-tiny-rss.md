@@ -1,10 +1,22 @@
-title:: tool/tiny-tiny-rss
-
+---
+created: 20240524
+tags: #RSS
+title: tools/tiny-tiny-rss
+---
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+-
+-
+-
+-
 - A [[RSS]] tool
 - Using [[docker]] install and run
   - ```shell
     $ sudo dockerd
-    
     $ docker run -d --name ttrssdb nornagon/postgres
     $ docker run -d --link ttrssdb:db -p <port>:80 -e SELF_URL_PATH=http://<ttrss_domain>:<port> fischerman/docker-ttrss
     # again start docker
@@ -34,10 +46,9 @@ title:: tool/tiny-tiny-rss
       $ sudo vim /etc/docker/daemon.json
       {
       "registry-mirrors": [
-          "https://9mz5nt2s.mirror.aliyuncs.com"
+          "https://ustc-edu-cn.mirror.aliyuncs.com/"
       ]
       }
-      # "https://ustc-edu-cn.mirror.aliyuncs.com"
       $ service docker restart
       ```
   - Debug
@@ -73,12 +84,10 @@ title:: tool/tiny-tiny-rss
          {
            "httpProxy": "http://$host_ip:7890",
            "httpsProxy": "http://$host_ip:7890",
-      
            "noProxy": "localhost"
          }
       }
       }" > .docker/config.json
-      
           echo "HTTP Proxy on"
       }
       ```

@@ -1,6 +1,5 @@
 alias:: commands/tar
 tags:: #[[compress]]
-
 - tape archive (磁带档案)
 -
 - -r：向压缩归档文件末尾追加文件

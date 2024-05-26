@@ -1,12 +1,11 @@
 icon:: 👨‍💻
 alias:: 力扣
 tags:: #question/oj
-
   - template:: leetcode
     template-including-parent:: false
     collapsed:: true
     - icon:: 👨‍💻
-      tags:: #leetcode/medium 
+      tags:: #leetcode/medium
       created:: ``{ date.now.format('YYYYMMDD') }``
       - 。
     - ## Content

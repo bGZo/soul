@@ -1,5 +1,4 @@
 alias:: examined, 审查
-tags:: #Topic 
+tags:: #Topic
 mark:: [Censorship - Wikipedia](https://en.wikipedia.org/wiki/Censorship)
-
 -

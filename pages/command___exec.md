@@ -1,5 +1,4 @@
 title:: command/exec
-
 -
 - 一组函数
   - ![image.png](../assets/image_1649661927239_0.png){:height 796, :width 747}

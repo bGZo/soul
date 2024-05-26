@@ -1,12 +1,11 @@
-icon:: 
+icon::
 title:: mastodon
 alias:: Mastodon
-desc:: 
+desc::
 tags:: #[[Social Media]] #Tool
 source:: [mastodon/mastodon: Your self-hosted, globally interconnected microblogging community](https://github.com/mastodon/mastodon)
 created:: 20221219
 mark::
-
 - ## [[cheat/sheet]]
   - ### [[shortcut]]
     collapsed:: true
@@ -55,11 +54,9 @@ mark::
         $cjk-langs: ja, ko, zh-CN, zh-HK, zh-TW;
         ```
   - 马斯克收购后转移到Mastodon的人更多了。这里有一些搜索/查找Mastodon的方法，如果您正在寻找想要的主题的话：
-    
     https://search.noc.social
     https://fediverse.space
     https://mastodon.fediverse.observer/list
     https://the-federation.info/mastodon
-    
     #tools
 -

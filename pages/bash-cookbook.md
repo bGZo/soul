@@ -4,7 +4,6 @@ author:: Carl Albing / JP Vossen / Cameron Newham
 publisher:: 人民邮电出版社
 published-date:: 20210100
 source:: https://book.douban.com/subject/35301381 ; https://weread.qq.com/web/reader/0fe3236072462ddc0fee7efkc81322c012c81e728d9d180
-
 - ## Bash
   - #why
     - 历史原因, bash 现在无处不在

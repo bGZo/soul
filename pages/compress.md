@@ -1,5 +1,4 @@
 alias:: 压缩
-
 - Format
   - table
     collapsed:: true

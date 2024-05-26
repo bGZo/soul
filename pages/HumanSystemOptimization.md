@@ -1,10 +1,9 @@
 alias:: book/人体系统调优不完全指南
-tags:: 
+tags::
 author:: zijie0
-publisher:: 
+publisher::
 published-date:: 20220522
 source:: [zijie0/HumanSystemOptimization: 健康学习到150岁 - 人体系统调优不完全指南](https://github.com/zijie0/HumanSystemOptimization)
-
 - Digests
   - 睡眠
     collapsed:: true

@@ -1,39 +1,38 @@
 icon:: 🎬
 alias:: 电影, Video/Movie
 title:: Movie
-
   - template:: movie
     template-including-parent:: false
     collapsed:: true
     - icon:: 🎬
-      title:: 
-      alias:: 
-      desc:: 
-      tags:: #Video #Movie 
-      director:: 
-      sreenwriter:: 
-      actor:: 
-      douban:: 
+      title::
+      alias::
+      desc::
+      tags:: #Video #Movie
+      director::
+      sreenwriter::
+      actor::
+      douban::
       imdb:: https://www.imdb.com/title/
-      rt:: 
-      mark:: 
+      rt::
+      mark::
       created:: <% today %>
       closed::
   - template:: page/movie
     template-including-parent:: false
     collapsed:: true
     - icon:: 🎬
-      title:: 
-      alias:: 
-      desc:: 
-      tags:: #Video #Movie 
-      director:: 
-      sreenwriter:: 
-      actor:: 
-      douban:: 
+      title::
+      alias::
+      desc::
+      tags:: #Video #Movie
+      director::
+      sreenwriter::
+      actor::
+      douban::
       imdb:: https://www.imdb.com/title/
-      rt:: 
-      mark:: 
+      rt::
+      mark::
       created:: <% today %>
       closed::
 - ## Factories

@@ -6,10 +6,10 @@ icon: ✈
 created: 20230602
 title: Proxy
 ---
-
 - ## Why
   - Due to [[GFW]] )
 - ## How
+  - <a href='ms-settings:network-proxy'>Jump to Windows Proxy Settings</a>
   - How to avoid the DNS cache pollution by IPS? (See ((64795467-e51f-45d9-ab92-8ce0e224ec71)))
     collapsed:: true
     - [ios - iOS 客户端对于运营商劫持的一点点对抗方式_个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000009049544)
@@ -18,8 +18,10 @@ title: Proxy
   - How to update GeoIP Database? (See ((64795467-3e96-450e-9145-58aa9310c2ec)))
     collapsed:: true
     - And *MAXMIND* change the access to database since 20191230, via: [Significant Changes to Accessing and Using GeoLite2 Databases](https://blog.maxmind.com/2019/12/significant-changes-to-accessing-and-using-geolite2-databases/)
+      collapsed:: true
       - > Starting **December 30, 2019,** we will be requiring users of our GeoLite2 databases **to [register for a MaxMind account](https://www.maxmind.com/en/geolite2/signup) and obtain a license key in order to download GeoLite2 databases**. We will continue to offer the GeoLite2 databases without charge, and with the ability to redistribute with proper attribution and in compliance with privacy regulations. In addition, we are **introducing a new [end-user license agreement to govern your use of the GeoLite2 databases](https://www.maxmind.com/en/geolite2/eula) **. Previously, GeoLite2 databases were accessible for download to the public on our developer website and were licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) .
     - So here is some supported by github:
+      collapsed:: true
       - [Loyalsoldier/geoip: 🌚 🌍 🌝 GeoIP 规则文件加强版](https://github.com/loyalsoldier/geoip) ![](https://img.shields.io/github/stars/loyalsoldier/geoip)
       - [alecthw/mmdb_china_ip_list: Geoip MaxMind Database for china ip list](https://github.com/alecthw/mmdb_china_ip_list) ![](https://img.shields.io/github/stars/alecthw/mmdb_china_ip_list)
       - [clashdev/geolite.clash.dev: A MaxMind GeoLite Mirror.](https://github.com/clashdev/geolite.clash.dev) ![](https://img.shields.io/github/stars/clashdev/geolite.clash.dev)
@@ -27,10 +29,12 @@ title: Proxy
   - How to convert proxy node subscription?
     collapsed:: true
     - First of all, we should know, the most important backend, [tindy2013/subconverter](https://github.com/tindy2013/subconverter), is only one service we need to self host;
+      collapsed:: true
       ![](https://img.shields.io/github/stars/tindy2013/subconverter)
       - No output `Allow Lan True`
     -
     - Then, let us see what a full url we would get：
+      collapsed:: true
       - ((63e5213d-5895-4ec1-8938-0cfb6933539f))
     - In some way, solution needs two parts: the subconverter configure and the convert link. The latter is a likely rss link, in most case. So our target is to figure out the former configuration.
     - The whole shorten configure is following, you could refer the official [Chinese document](https://github.com/tindy2013/subconverter/blob/master/README-cn.md):
@@ -91,9 +95,10 @@ title: Proxy
       ![](https://img.shields.io/github/stars/ACL4SSR/ACL4SSR)
     - Another is [CareyWang/sub-web](https://github.com/CareyWang/sub-web) ![](https://img.shields.io/github/stars/CareyWang/sub-web)
     - #+BEGIN_NOTE
-      Check out repo under the master branch, which is not default branch. 
+      Check out repo under the master branch, which is not default branch.
       #+END_NOTE
     - The most interesting thing is that, the Chinese document of [subconverter](https://github.com/tindy2013/subconverter) is really usefully and inspired ✨
+      collapsed:: true
       - > 在进行下一步操作前，十分推荐您阅读以下内容：
         与 调用地址 相关的：[什么是URL？](https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/What_is_a_URL)
         与 配置文件 相关的：[INI 语法介绍](https://zh.wikipedia.org/wiki/INI%E6%96%87%E4%BB%B6) 、 [YAML 语法介绍](https://zh.wikipedia.org/wiki/YAML#%E8%AA%9E%E6%B3%95) 以及 [TOML 语法介绍](https://toml.io/cn/v1.0.0)
@@ -103,8 +108,10 @@ title: Proxy
         当遇到问题需要提交 ISSUE 时的：[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
         当您尝试进行进阶操作时，即默认您有相关的操作能力，本程序仅保证在默认配置文件下能够正常运行。
     - Tools you might be used:
+      collapsed:: true
       - [URLEncode](https://www.urlencoder.org/)
-    - #+BEGIN_WARNING
+    - collapsed:: true
+      #+BEGIN_WARNING
       We notice the backend have the function to upload subscription to gist;
       And there are more invisible actions, but actually we don't know;
       So this could be a risk worth noting when we use a free convert service.
@@ -114,15 +121,14 @@ title: Proxy
       - [Subscription Converter](https://api.nameless13.com/)
       - [Subscription Converter](https://sub-web.wcc.best/)
     - Finally, you should have a dashboard to config, because clash only support API, and there are 2 projects about it.
+      collapsed:: true
       - [Dreamacro/clash-dashboard: web port of clash](https://github.com/Dreamacro/clash-dashboard)
         mark:: 去翻 [GA](https://github.com/Dreamacro/clash-dashboard/actions/runs/3965255781/jobs/6794824307) 才发现原来是他们家的： http://clash.razord.top 😂
         collapsed:: true
         - ```
           PS E:\download.vivaldi\clash-dashboard-master> npm start
-          
           > clash-dashboard@0.1.0 start
           > vite
-          
           failed to load config from E:\download.vivaldi\clash-dashboard-master\vite.config.ts
           error when starting dev server:
           Error: Cannot find module 'node:path'
@@ -163,7 +169,6 @@ title: Proxy
           npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
           npm ERR!
           npm ERR! See C:\Users\15517\scoop\persist\nodejs\cache\eresolve-report.txt for a full report.
-          
           npm ERR! A complete log of this run can be found in:
           npm ERR!     C:\Users\15517\scoop\persist\nodejs\cache\_logs\2023-02-09T10_36_34_551Z-debug.log
           ```
@@ -182,7 +187,7 @@ title: Proxy
     - [Proxy Command References · GitHub](https://gist.github.com/bGZo/82a76ecbebf81b556a1d20a91a6bd21a)
       {{iframe https://gist.github.com/bGZo/82a76ecbebf81b556a1d20a91a6bd21a}}
 - ## What
-  - >上机 3h，测试网络 2h，刚敲没半个小时，下课了，草 🤯 
+  - >上机 3h，测试网络 2h，刚敲没半个小时，下课了，草 🤯
     #joke
   - What is proxies? And how many specifications (protocols) they have?
     collapsed:: true
@@ -194,6 +199,7 @@ title: Proxy
         - 基于 Socks5 代理方式的网络数据加密传输包
           collapsed:: true
           - **SOCK5**
+            collapsed:: true
             - Practically, a SOCKS server proxies TCP connections to an arbitrary IP address, and provides a means for UDP packets to be forwarded.
             - SOCKS performs at Layer 5 of the OSI model (the session layer, an intermediate layer between the presentation layer and the transport layer)
             - It was approved by the IETF in 1996 as RFC 1928
@@ -238,6 +244,7 @@ title: Proxy
           - > I was invited for some tea yesterday. I won’t be able to continue developing this project.
           - 同时开启了 twitter 的隐私保护，除先前关注者外无法查看动态
           - 晚：@clowwindy 发布了 _thanks._ 后的推文，证明人没事
+            collapsed:: true
             - shadowsocksR 作者 @breakwa11 表示会继续开发新版本，@clowwindy 对其致谢
         - 8.22：@clowwindy 删除所有 github 上的 shadowsocks 仓库，之前在 twitter 上发布了删除的相关动态。同时 @clowwindy 明确表示不会继续开发 shadowsocks 项目
         - 8.24：@breakwa11 发布 ShadowsocksR C# v3.4.0
@@ -250,6 +257,7 @@ title: Proxy
           - [Docs](https://teddysun.com/486.html)
       - [KeiKinn/ShadowsocksBio: 记录一下Shadowsocks的前世今生，以及一个简单的教程总结 (github.com)](https://github.com/KeiKinn/ShadowsocksBio) ![](https://img.shields.io/github/stars/KeiKinn/ShadowsocksBio)
       - [shadowsocksr-rm/shadowsocks-rss: ShadowsocksR update rss, SSR organization https://github.com/shadowsocksr](https://github.com/shadowsocksr-rm/shadowsocks-rss)
+        collapsed:: true
         - [Home · shadowsocksrr/shadowsocks-rss Wiki](https://github.com/shadowsocksrr/shadowsocks-rss/wiki)
     - SSR / ShadowsocksR
     - [2dust/v2rayN: A V2Ray client for Windows, support Xray core and v2fly core](https://github.com/2dust/v2rayN) ![](https://img.shields.io/github/stars/2dust/v2rayN)
@@ -257,6 +265,7 @@ title: Proxy
       - 模块化的代理软件包，它的目标是提供常用的代理软件模块，简化网络代理软件的开发
       - [Loyalsoldier/v2ray-rules-dat: 🦄 🎃 👻 V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，兼容 Shadowsocks-windows、Xray-core、Trojan-Go 和 leaf](https://github.com/Loyalsoldier/v2ray-rules-dat) ![](https://img.shields.io/github/stars/Loyalsoldier/v2ray-rules-dat)
       - [v2ray](https://github.com/233boy/v2ray)
+        collapsed:: true
         - [v2ray 教程](https://github.com/vkuajing/v2ray).
         - Backup：[233boy-v2ray](https://github.com/PhenTse/233boy-v2ray)
     - Others by VPN provider: #.ol
@@ -272,39 +281,53 @@ title: Proxy
     - $$ IPLC / IEPL > CN2_{GIA} > BGP > 中继_{隧道} > CN2_{GT} > 直连 > 普通$$
     - Leased line 不过墙
       wikipedia:: [Leased line - Wikipedia](https://en.wikipedia.org/wiki/Leased_line)
+      collapsed:: true
       - **IPLC** / International Private Leased Circuit
+        collapsed:: true
         - 国际私有租赁线路
       - **IEPL** / International Ethernet Private Line
+        collapsed:: true
         - 国际以太网专线
     - Public Internet Access 公网出口
+      collapsed:: true
       - **ChinaNet** / 163骨干网 / AS4134
+        collapsed:: true
         - 骨干网, 基建早, 带宽大, 便宜, 承载普通质量的互联网业务.
         - 接入国际 Tier1/2 运营商以及主流 OTT
       - **Chinatelecom Next Carrier Network** / CNCN / CN2 / AS4809
+        collapsed:: true
         - 后进骨干网, 稳定高速, 时延敏感
         - 直连国际网. 国际出口有单独线路
         - **CN2 GT** / Global Transit
+          collapsed:: true
           - 全球互联网资源转接
         - **CN2 GIA** / Global Internet Access
+          collapsed:: true
           - 为企业提供 **中国方向** 互联网专线接入.
           - GIA 单独回国线路, 高优先级, 高质量
           - 接入CN2，出口全程CN2, 但出口带宽小, 有网络波动.
           - **单程/单向 CN2**
+            collapsed:: true
             - **去CN2, 回ChinaNet**
+              collapsed:: true
               - 测试效果好, 实际体验无感.
             - **去ChinaNet, 回CN2**
+              collapsed:: true
               - 综合抗DDoS, 速度, 价格的最优解.
           - **双程/双向 CN2**
       - Telecom Global Internet Services / **GIS**
+        collapsed:: true
         - Global Transit (GT)
         - Global Internet Access(GIA)
         - ChinaNet Paid-Peer
         - China Access
       - more via: [浅谈中国电信出口网络的链路情况](https://www.oldking.net/751.html)
     - **BGP** / Border Gateway Protocol
+      collapsed:: true
       - 边界网关协议, 互联网AS间的互联
       - BGP多线机房相较于双IP双线机房更优
     - **中继**
+      collapsed:: true
       - 入口国内, 出国国外, 过墙会用隧道协议 (负载均衡 -> 防止被墙)
   - What is DNS?
     id:: 64795467-e51f-45d9-ab92-8ce0e224ec71
@@ -314,8 +337,10 @@ title: Proxy
     id:: 64795467-3e96-450e-9145-58aa9310c2ec
     collapsed:: true
     - Another useful file is `GeoIP`, which is supported by [MAXMIND](https://www.maxmind.com/en/geoip2-country-database), to determine an Internet visitor's country based on their IP address. And this file is often used in your `config.yaml`. Check your configure )
+      collapsed:: true
       - ![Code_211.png](../assets/Code_211_1676435689409_0.png)
       - Check document in [Configuration · Dreamacro/clash Wiki](https://github.com/Dreamacro/clash/wiki/configuration)
+        collapsed:: true
         - > **Rules**
           `GEOIP`: `GEOIP,CN,policy` routes any requests to a China IP address to `policy`.
   - The clients recommended:
@@ -485,15 +510,18 @@ title: Proxy
     - ##### V2Ray 客户端
     - iOS
     - - Surge 4, Quantumult X, Quantumult, Shadowrocket, Pharos Pro, Kitsunebi, Loon ↑
+      collapsed:: true
       - [i2Ray](https://apps.apple.com/us/app/id1445270056) $3.99
     - Windows
     - - Clash for Windows ↑
+      collapsed:: true
       - [v2rayN](https://github.com/2dust/v2rayN/releases)
       - [V2RayW](https://github.com/Cenmrev/V2RayW/releases)
       - [V2RayS](https://github.com/Shinlor/V2RayS/releases)
       - [Qv2ray](https://github.com/Qv2ray/Qv2ray/releases)
     - macOS
     - - ClashX ↑
+      collapsed:: true
       - [V2RayX](https://github.com/Cenmrev/V2RayX/releases)
       - [V2rayU](https://github.com/yanue/V2rayU/releases)
       - [V2RayC](https://github.com/gssdromen/V2RayC)
@@ -502,6 +530,7 @@ title: Proxy
     - - [Qv2ray](https://github.com/Qv2ray/Qv2ray/releases)
     - Android
     - - Clash for Android ↑
+      collapsed:: true
       - [v2rayNG](https://github.com/2dust/v2rayNG/releases)
       - [v2rayNG Google Play](https://play.google.com/store/apps/details?id=com.v2ray.ang)
     - ##### Trojan 客户端
@@ -516,6 +545,7 @@ title: Proxy
       collapsed:: true
       - 这是移动操作系统的一个特殊机制，Surge、Quantumult、Shadowrocket等等所有的 SS 客户端开启后会接管全局的（几乎）所有通信，所以所有的网络方面电量消耗都会被算在 SS 客户端头上，实际使用中不会感到 SS 客户端对电量有明显影响，「设置-电池」中看到它的电池用量，绝大部分都是网络所消耗的电量，并不是 SS 客户端消耗的电量，SS 客户端就是背锅侠。
     - **Telegram 客户端 Proxy 代理设置**
+      collapsed:: true
       - https://telegra.ph/Telegram-Proxy-02-15
     - iOS 设备上使用 SS 客户端也会显示VPN 图标:是因为使用了 iOS 系统的 VPN Network Extension 接口（以及 NEPacketTunnelProvider 和 NWUDPSession 组件），iOS 9 才开放的此接口，这些新接口让我们可以制作出私密协议的VPN产品，苹果官方称之为 Enterprise VPN。正是因为 iOS 9 之后开放了这个接口和组件才能有今天iOS 上的各式各样的 SS 客户端。
     - 官方文档:https://developer.apple.com/documentation/networkextension
@@ -523,6 +553,7 @@ title: Proxy
     - 本地开启的SOCKS5 与SS/SSR 信息无关的，本机的软件和同一局域网内的其他设备只需要连接此台机器就行了，IP和端口也必须和SS/SSR 客户端上开启的信息一致。
     - 本机的软件和同一局域网内的其他设备通过SOCKS5 连接到此台机器的SS/SSR 客户端，SS/SSR 客户端再连接到SS/SSR 服务器。
     - 引用一句 clowwindy 的话:
+      collapsed:: true
       - > *往往不需要政府造墙，网民也会自发造墙*
     - ==[欢迎 - 教程WIKI](https://help.happynothings031.xyz/)==
     - [关于在使用 Clash 过程中遇到的问题 - 明心的博客 | 明心 Blog](https://benjamingao.github.io/2019/03/02/%E5%85%B3%E4%BA%8E%E5%9C%A8%E4%BD%BF%E7%94%A8-Clash-%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/)
@@ -531,4 +562,5 @@ title: Proxy
     Proxies [[sucks]] as well, which would be identified and treated as spam by some service providers.
     #+END_IMPORTANT
     - Reddit [[sucks]]
+      collapsed:: true
       - [I got the error message "Looks like you've been doing that a lot. Take a break for 5 minutes before trying again." when posting my first thread in 8 days. : help](https://www.reddit.com/r/help/comments/nh2tsy/i_got_the_error_message_looks_like_youve_been/)

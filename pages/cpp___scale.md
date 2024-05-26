@@ -3,10 +3,9 @@
   - ```cpp
     //via: https://www.cnblogs.com/gongpixin/p/4477361.html
     #include<iostream>
-    #include<stdio.h> 
+    #include<stdio.h>
     using namespace std;
-    
-    char*my_itoa(int num,char*str,int radix){//原数字，存放地址，要转换的转换进制 
+    char*my_itoa(int num,char*str,int radix){//原数字，存放地址，要转换的转换进制
         const char table[]="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ" ;
         char*ptr=str ;
         bool negative=false ;

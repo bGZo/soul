@@ -4,7 +4,6 @@ author:: [英]格雷厄姆·阿尔科特
 publisher:: 后浪
 published-date:: 20190700
 source:: [高效忍者 (豆瓣)](https://book.douban.com/subject/34436016/)
-
 - Digests
   - 前言
     collapsed:: true

@@ -1,7 +1,6 @@
 title:: qianguyihao/Web
-tags:: #Github #opensource 
+tags:: #Github #opensource
 created:: 20220628
-
 - ## [qianguyihao/Web: 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。 (github.com)](https://github.com/qianguyihao/Web) ![](https://img.shields.io/github/stars/qianguyihao/Web)
   - 前端工具
     - 01-VS Code的使用

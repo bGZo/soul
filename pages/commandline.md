@@ -1,6 +1,5 @@
 alias:: commands/line, cli, 命令行
 tags:: #tools
-
 -
 -
 - [[terminal]] #vs shell #vs [[bash]]/[[zsh]]

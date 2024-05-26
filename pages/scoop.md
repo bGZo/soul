@@ -1,12 +1,11 @@
 ---
 alias: tools/scoop
-mark: 
-icon: 
+mark:
+icon:
 date: 20240225
 tags: #Windows #monthly
 title: scoop
 ---
-
 - ## Why
   collapsed:: true
   - [[commandline]]
@@ -73,7 +72,7 @@ title: scoop
           - [bucket/chromium.json](https://github.com/ScoopInstaller/Extras/blob/90b31955ada69b6bc83d35ad365feef6f9581120/bucket/chromium.json#L22)
           - [bucket/ungoogled-chromium.json](https://github.com/ScoopInstaller/Extras/blob/90b31955ada69b6bc83d35ad365feef6f9581120/bucket/ungoogled-chromium.json#L21)
         -
-  - WAITING How to automatically backup the installed app? #Project #ideea #automatic #script #monthly
+  - WAITING How to automatically backup the installed app? #project #ideea #automatic #script #monthly
 - ## What
   - Search software online
     - {{iframe https://bjansen.github.io/scoop-apps/}}
@@ -88,7 +87,7 @@ title: scoop
     - ```shell
       $psversiontable.psversion.major
       set-executionpolicy remotesigned -scope currentuser
-      # check up ”PS” 
+      # check up ”PS”
       $env:SCOOP='D:\scoop'
       [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
       iwr -useb get.scoop.sh | iex
@@ -98,24 +97,23 @@ title: scoop
       scoop bucket add dodorz https://github.com/dodorz/scoop
       # add extra repo
       ##Beautify###########################################
-      # Maybe u should install scoop first from 
+      # Maybe u should install scoop first from
       # https://github.com/lukesampson/scoop
-      # Dowmload powershell 7.x instead of default 5.x form 
+      # Dowmload powershell 7.x instead of default 5.x form
       # https://github.com/PowerShell/PowerShell/releases
       # then run the powershell 7.x
-      Install-Module posh-git -Scope CurrentUser 
+      Install-Module posh-git -Scope CurrentUser
       Install-Module oh-my-posh -Scope CurrentUser
-      
-      # 
+      #
       $PROFILE
       if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
-      notepad $PROFILE 
+      notepad $PROFILE
       # then code $PROFILE
       # you could input the path to freash the powershell
       # add the config like this:
       Import-Module posh-git
       Import-Module oh-my-posh
-      Set-PoshPrompt Paradox 
+      Set-PoshPrompt Paradox
       ```
       - Refs
         - Hidden

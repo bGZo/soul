@@ -1,6 +1,5 @@
 alias:: android/app/termux
 changelog:: https://github.com/termux/termux-app/releases
-
 -
 - Changelog
   - 0.90及以上 版本需要 Android7.0 及以上版本的系统. 此安装包由 F-Droid 编译并签名, 且保证与此源代码 tarball 保持一致.
@@ -32,17 +31,14 @@ changelog:: https://github.com/termux/termux-app/releases
   - ```shell
     sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list sed -i 's@^\(deb.*games stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable@' $PREFIX/etc/apt/sources.list.d/game.list sed -i 's@^\(deb.*science stable\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable@' $PREFIX/etc/apt/sources.list.d/science.list apt update && apt upgrade
     #then install vim
-    
     vim $PREFIX/etc/apt/sources.list.d/game.list
     deb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24 games stable
     vim $PREFIX/etc/apt/sources.list.d/science.list
     deb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 science stable
     vim $PREFIX/etc/apt/sources.list
-    deb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main 
+    deb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main
     # refer to https://mirrors.tuna.tsinghua.edu.cn/help/termux/
-    
-    termux-setup-storage 
-    # acquire the access of storage 
-    
+    termux-setup-storage
+    # acquire the access of storage
     ```
 -

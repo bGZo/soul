@@ -1,7 +1,6 @@
 alias:: Cascading Style Sheets, 层叠样式表, 串样式列表, 级联样式表, 串接样式表, 阶层式样式表
 tags:: #lang/programming/domain-specific #web
 mark:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护
-
 - ## [[Quickref]]
   - ### unit
     collapsed:: true
@@ -35,10 +34,8 @@ mark:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML
         - [https://jerryzou.com/posts/aboutNormalizeCss/](https://jerryzou.com/posts/aboutNormalizeCss/)
     - #+BEGIN_NOTE
       [normalize.css](https://github.com/csstools/normalize.css) and [sanitize.css](https://github.com/csstools/sanitize.css) correct browser bugs while carefully testing and documenting changes.
-      
       normalize.css styles adhere to css specifications.
       sanitize.css styles adhere to common developer expectations and preferences.
-      
       [reset.css](http://meyerweb.com/eric/tools/css/reset/) unstyles all elements.
       Both sanitize.css and normalize.css are maintained in sync.
       via: [csstools/sanitize.css: A best-practices CSS foundation](https://github.com/csstools/sanitize.css)

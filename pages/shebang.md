@@ -4,7 +4,6 @@ tags:: #Linux
 mark:: In Linux, this behavior is the result of both kernel and user-space code
 mark:: [Shebang (Unix) - Wikipedia](https://en.wikipedia.org/wiki/Shebang_(Unix)); [Shebang - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Shebang)
 closed:: 20230111
-
   - Etymology
     - May have come from an inexact contraction of *SHArp bang* or *haSH bang*, referring to the two typical Unix names for them
     - Another theory on the sh in shebang is that it is from the default shell sh, usually invoked with shebang
@@ -13,8 +12,7 @@ closed:: 20230111
   #!/bin/bash – Bash shell
   #!/usr/bin/pwsh – PowerShell
   #!/usr/bin/env python3 –Python interpreter, using the env program search path to find it
-  
-  #!/bin/false – Do nothing, but return a non-zero exit status, indicating failure. 
+  #!/bin/false – Do nothing, but return a non-zero exit status, indicating failure.
   ```
   - `#!/bin/false`
     - Prevent stand-alone execution of a script file intended for execution in a specific context, such as by the . command from sh/bash, source from csh/tcsh, or as a .profile, .cshrc, or .login file
