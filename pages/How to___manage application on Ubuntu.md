@@ -2,6 +2,7 @@ icon:: 🐧
 created:: 20230906
 tags:: #Ubuntu
 title:: How to/manage application on Ubuntu
+
 - ## \#1 Install
   - From mirror source:
     - ```shell
@@ -39,16 +40,10 @@ title:: How to/manage application on Ubuntu
   - ```shell
     sudo apt reinstall -d xxx
     ```
--
 - ## \#3 Uninstall
   - ```shell
-    sudo apt remove --purge xxx
+    sudo apt purge xxx
     ```
-  -
-  - ```shell
-    sudo apt autoremove --purge XXX
-    ```
-  -
   - ```shell
     dpkg --get-selections | grep XXX
     ```
