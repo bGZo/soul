@@ -3,6 +3,7 @@ created: 20240524
 tags: #RSS
 title: tools/tiny-tiny-rss
 ---
+
 - ## Why
   -
 - ## How
@@ -96,12 +97,12 @@ title: tools/tiny-tiny-rss
       - Fucking ___VM Network___!!! So you cannot visit using LAN IP, which you just only use it on your PC(using 127.0.0.1)!!! So next you should set ___port forwarding___ on win10.  The startup see more deatails on [here-csdn](https://blog.csdn.net/cf313995/article/details/108871531). Shortly like following:
       - ```shell
         # on wsl
-        $ ip addr show eth0
+        ip addr show eth0
         # get v4ip likely: 192.168.97.228/20 ->  192.168.97.228, then switch windows ps
-        $ sudo netsh interface portproxy add v4tov4 listenport=4040 listenaddress=0.0.0.0 connectport=4040 connectaddress=192.168.97.228 protocol=tcp
+        sudo netsh interface portproxy add v4tov4 listenport=4040 listenaddress=0.0.0.0 connectport=4040 connectaddress=192.168.97.228 protocol=tcp
         # or -> sudo netsh interface portproxy add v4tov4 listenport=4040 listenaddress=* connectport=4040 connectaddress=192.168.97.228 protocol=tcp
         # check what you set
-        $ netsh interface portproxy show all
+        netsh interface portproxy show all
         ```
       - Then if everything work well, you'll be able to visit your PC LAN IP to visit TTRSS. But on my machine it still not work. That's really wired... Open `firewall & network protection` -> `advanced settings` -> `inbound rules `-> `new rules`: `port`  -> `TCP&&4040` -> `defalut`...
       - Then everything work well for me. Nice🍻

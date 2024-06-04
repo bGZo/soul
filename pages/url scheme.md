@@ -1,14 +1,10 @@
 collapsed:: true
-title:: url-scheme
-mark::
-title:: url-scheme
+title:: url scheme
 alias:: deep-linking/mobile
 mark:: link to a specific location within a mobile app rather than simply launching the app.
-tags::
-source::
-mark:: [Mobile deep linking - Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking); [List of URI schemes - Wikipedia](https://en.wikipedia.org/wiki/List_of_URI_schemes)
+wikipedia:: [Mobile deep linking - Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking); [List of URI schemes - Wikipedia](https://en.wikipedia.org/wiki/List_of_URI_schemes)
 created:: 20221128
-closed::
+
   - Implement: The format of the URI used to trigger or deep link an app is often different depending on the mobile operating system.
     - [[android]] devices work through **intents**
       source:: [Intents and Intent Filters  |  Android Developers](https://developer.android.com/guide/components/intents-filters)
@@ -17,6 +13,12 @@ closed::
     - [[iOS]] devices work through the **openUrl application** method
       source:: [UIApplication | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uiapplication#jumpTo_37)
     - **Windows Phone 8 devices** work through the **UriMapper class**
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
 - #Quickref
   - ```html
     tg://resolve?domain=<bot_username>
@@ -203,3 +205,11 @@ closed::
       - [应用列表 | 捷径社区](https://sharecuts.cn/apps)
       - [常见App Scheme整理](https://zhuanlan.zhihu.com/p/47837970)
       - [求调用安卓各大应用市场的url scheme - SegmentFault 思否](https://segmentfault.com/q/1010000005116145)
+- ---
+  alias:
+  mark:
+  icon:
+  created: 20240526
+        title: url scheme
+  ---
+-

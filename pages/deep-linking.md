@@ -7,6 +7,7 @@ source::
 mark:: [Deep linking - Wikipedia](https://en.wikipedia.org/wiki/Deep_linking)
 created:: 20221128
 closed::
+
   - ```html
     http://example.com/path/page
     <!-- Deep Linking -->
@@ -14,4 +15,4 @@ closed::
     <!-- Mobile Deep Linking
          Directly linking to in-app content using a non-HTTP URI -->
     ```
-    #vs [[url-scheme]]
+    #vs [[url scheme]]
