@@ -2,10 +2,12 @@
 icon: 📅
 ---
 
-- collapsed:: true
-  > I don't want sex. I want love. I want to be understood. I want to never feel alone. I want to come home to someone I miss all day when I'm at work. I want someone who motivates me. I want someone who trusts me. I want someone who loves me for me, not what I do. I want real love.
-  https://twitter.com/DontAskMeBitch2/status/1523617622369062914
-  - {{twitter https://twitter.com/DontAskMeBitch2/status/1523617622369062914}}
+- {{video https://www.youtube.com/watch?v=zABLecsR5UE}}
+  collapsed:: true
+  - collapsed:: true
+    > I don't want sex. I want love. I want to be understood. I want to never feel alone. I want to come home to someone I miss all day when I'm at work. I want someone who motivates me. I want someone who trusts me. I want someone who loves me for me, not what I do. I want real love.
+    https://twitter.com/DontAskMeBitch2/status/1523617622369062914
+    - {{twitter https://twitter.com/DontAskMeBitch2/status/1523617622369062914}}
 - 天哪，这周虽继续饱受[[湿疹]]的折磨，每天都要起夜三次以上，但我的腰肌劳损显然已经好了不少，从五一完全不能久坐桌前，到现在已经坐着码字半日，我相当满足。
 - 正在经历这些伤痛的我，真切地感觉到，我们活着的每一天，每一个当下，都是一个不可思议的奇迹。我感谢我的身体，我吃进去的食物，已经还在坚持活着的自己。因为我完全可能是另一个模样，全身瘫痪，营养不良，或者不再健康，每况愈下，甚至在某次入睡后不再醒来。
 - 这次湿疹的诱因我想了很多，五一作息规律，唯一的诱因就是连续几日吃的食物，炒鸡，很好吃，很辣。可能我已经不能再碰辣椒了，大学后半段我曾经频繁拥抱这一调味料，每次进食都强迫自己吃辛辣的食物，而这独特的香味和味道我可能已经不能再拥有。大部分的外卖也不能再点了，我必须审查每一道食物是否有过量的辣椒，这对我简直是另一大考验。也许我应该花几百块去检测过敏原，再对症下药。但总之不是这周 ）
@@ -425,7 +427,6 @@ icon: 📅
   - [沉浸式翻译强制收集所有用户的 token 令牌，这合理吗？](https://www.v2ex.com/t/1042477)
     collapsed:: true
     - https://github.com/fishjar/kiss-translator
-  - https://github.com/ddlBoJack/SLAM-LLM
   - C Style: My favorite C programming practices (2014)
     collapsed:: true
     - Link: https://readhacker.news/s/687Qn
@@ -447,10 +448,6 @@ icon: 📅
     collapsed:: true
     - Link: https://readhacker.news/s/682Hb
       Comments: https://readhacker.news/c/682Hb
-  - How to Turn Off AI Overview in Google and Set "Web" as Default
-    collapsed:: true
-    - Link: https://readhacker.news/s/68eAK
-      Comments: https://readhacker.news/c/68eAK
   - How terminal works. Part 1: Xterm, user input
     collapsed:: true
     - Link: https://readhacker.news/s/68aPF
@@ -459,10 +456,9 @@ icon: 📅
     collapsed:: true
     - Link: https://readhacker.news/s/68iJt
       Comments: https://readhacker.news/c/68iJt
-  - collapsed:: true
-    ---
+  - ---
+    - WAITING https://github.com/ddlBoJack/SLAM-LLM #gpu
     - Chameleon: Meta's New Multi-Modal LLM (Score: 153+ in 6 hours)
-      collapsed:: true
       - Link: https://readhacker.news/s/68c2L
         Comments: https://readhacker.news/c/68c2L
     - PEP 686 – Make UTF-8 mode default
@@ -524,6 +520,12 @@ icon: 📅
       collapsed:: true
       - Link: https://readhacker.news/s/686mp
         Comments: https://readhacker.news/c/686mp
+    - How to Turn Off AI Overview in Google and Set "Web" as Default
+      collapsed:: true
+      - >just add udm=14 to the Url.
+      - Link: https://readhacker.news/s/68eAK
+        Comments: https://readhacker.news/c/68eAK.
+    -
 - ## 人类一思考，上帝就发笑
   - [[WNEN U WANT TO USE PROXIES on CYBERCAFÉ]]
   - {{video https://www.bilibili.com/video/BV1nm41117cs}}

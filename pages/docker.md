@@ -2,10 +2,10 @@ alias:: tools/docker
 icon:: 🐳
 title:: docker
 created:: 20240524
+
 - ## Why
 - ## How
   - How to pull container via [[proxy]] ?
-    collapsed:: true
     - ```shell
       sudo mkdir -p /etc/docker
       sudo tee /etc/docker/daemon.json <<-'EOF'

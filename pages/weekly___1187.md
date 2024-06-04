@@ -61,9 +61,11 @@
       - 2:1 ECC（误
   - [Gitee Pages Died.](https://www.landiannews.com/archives/103754.html)
     collapsed:: true
+    - [GiteePages 服务已下线](https://www.v2ex.com/t/1038397)
     - ·然而无论是多少反馈以及各种群组里的讨论，Gitee 都没有发布任何回应，不知道是这个功能正在维护还是因为其他原因不可用，直到有用户咨询客服获得答复。
     - 2022-05-19 网曝国内 git 托管仓库 Gitee 从 5.18 起对开源项目实行先审核后上线公开的措施
       2020-08-25 Gitee 获工信部扶植，建设中国独立的开源托管平台
+  - [太极宣布永久停更 - V2EX](https://www.v2ex.com/t/1038907)
   - Stack Overflow users deleting answers after OpenAI partnership
     collapsed:: true
     - https://build5nines.com/stack-overflow-upset-over-users-deleting-answers-after-openai-partnership
