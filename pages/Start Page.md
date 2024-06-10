@@ -1,13 +1,16 @@
 icon:: 🔖
 alias:: 导航
 mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
+
 - ## 👨‍💻 Work
   - ### 🚀 Mirrors
     collapsed:: true
-    - title:: [eryajf/Thanks-Mirror](https://github.com/eryajf/Thanks-Mirror) ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
+    - id:: 66515727-37fc-4088-aff7-c582f96f7344
+      title:: https://github.com/eryajf/Thanks-Mirror
       tags:: #Github #opensource #mirror #proxy
       created:: 20230223
-      mark:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像，Thanks Mirror。
+      mark:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
+      ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
     - [[Github]]
       collapsed:: true
       - https://hub.xn--p8jhe.tw
@@ -44,10 +47,11 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - https://gg.xueshu5.com/
       - https://item.guidebook.top/google/
     - [[ubuntu]]
+      id:: 66515727-99f3-4d0d-b4c9-fc0fe63d8106
       collapsed:: true
       - 高校镜像源有:
+        - ==[USTC  Mirror / 中国科学技术大学](https://mirrors.ustc.edu.cn)==
         - [Tinghua Mirror / 清华大学](https://mirrors.tuna.tsinghua.edu.cn)
-        - [USTC  Mirror / 中国科学技术大学](https://mirrors.ustc.edu.cn)
         - [SJTU Mirror / 上海交通大学](https://ftp.sjtu.edu.cn)
         - [SHU Mirror / 上海大学](https://mirrors.shu.edu.cn)
       - 企业镜像源:
