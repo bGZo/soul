@@ -1,8 +1,14 @@
 icon:: 🐧
 created:: 20230906
-tags:: #Ubuntu
-title:: How to/manage application on Ubuntu
+tags:: #Ubuntu, #debian
+title:: how to/manage application on debian
 
+- #+BEGIN_NOTE
+  Ubuntu 和 Debian 通吃是因为 Debian 系的 APT 包管理器。
+  #+END_NOTE
+- ## \#0 Mirror
+  - {{embed ((66515727-99f3-4d0d-b4c9-fc0fe63d8106))}}
+  - More via: {{embed ((66515727-37fc-4088-aff7-c582f96f7344))}}
 - ## \#1 Install
   - From mirror source:
     - ```shell

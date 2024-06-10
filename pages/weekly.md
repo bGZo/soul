@@ -11,7 +11,6 @@ title: weekly
 - ## How
   - TODO 同步工作摸🐟 [Gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f)
     SCHEDULED: <2024-06-01 Sat 00:00 ++1w>
-    collapsed:: true
     :LOGBOOK:
     * State "DONE" from "TODO" [2024-01-20 Sat 22:00]
     * State "DONE" from "TODO" [2024-01-27 Sat 21:38]
@@ -40,12 +39,10 @@ title: weekly
         - https://www.icloud.com.cn/iclouddrive/0dfP2NK-LLjycO3mpP6-R7OSw#iOSLogseq
     - ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))
       - Linux
-        collapsed:: true
         - ```
            seq -s", " 20231015 20231021 | xclip -selection clipboard
           ```
       - Windows
-        collapsed:: true
         - {{embed ((64ea10a6-28cd-4f2a-bcf6-987ed761b146))}}
         - {{embed ((64ea10a6-9d34-4731-a9be-31c273dcf4e2))}}
 - ## What
