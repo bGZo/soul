@@ -4,6 +4,7 @@ collapsed: true
 created: 20230531
 title: Template
 ---
+
   - template:: page
     template-including-parent:: false
     - ---
@@ -11,7 +12,7 @@ title: Template
       mark:
       icon:
       created: ``{ date.now.format('YYYYMMDD') }``
-            title: ``{ c.page.name }``
+      title: ``{ c.page.name }``
       ---
     - ## Why
       -
