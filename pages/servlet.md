@@ -1,5 +1,6 @@
 title:: servlet
-tags:: #[[Java]]
+tags:: #[[java]]
+
 -
 - 概括
   collapsed:: true

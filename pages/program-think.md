@@ -7,10 +7,11 @@ source:: [编程随想的博客](https://program-think.blogspot.com/)
 mark::
 created:: 20221212
 closed::
+
 - Archives
   - Java 新手的通病[0]：概述
     collapsed:: true
-    #Java
+    #java
     - 1. [对算法和数据结构不熟悉](https://program-think.blogspot.com/2009/01/defect-of-java-beginner-1-algorithm.html)
       collapsed:: true
       #algo

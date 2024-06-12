@@ -4,6 +4,7 @@ icon:: ☕
 tags:: #java/api
 created:: 20230717
 title:: java library
+
   - {{embed ((63e31fc9-aebc-46d1-8e99-a06961fbb3d8))}}
 - ## Why
 - ## How

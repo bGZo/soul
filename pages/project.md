@@ -4,6 +4,7 @@ icon:: 📂
 title:: project
 created:: 20230623
 title:: project
+
   - template:: project
     template-including-parent:: false
     collapsed:: true
@@ -214,7 +215,7 @@ title:: project
   -
   - TODO Lists
     collapsed:: true
-    - https://cuvids.io/app/video/97/watch/ #[[algorithms4E]]
+    - https://cuvids.io/app/video/97/watch/ #[[books/algorithms4E]]
     - x86_64 Linux Assembly
       source:: https://www.youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn
       collapsed:: true

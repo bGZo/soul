@@ -1,20 +1,28 @@
 # JAVA12
-- ## 概述
-- 2019年3月19日,java12正式发布了,总共有8个新的JEP(JDK Enhancement Proposals)
-- ``` java
-  JDK 12 is the open-source reference implementation of version 12 of the Java SE12
-  Platform as specified by by JSR 386 in the Java Community Process.
-  JDK 12 reached General Availability on 19 March 2019. Production-ready binaries under
-  the GPL are available from Oracle; binaries from other vendors will follow shortly.
-  The features and schedule of this release were proposed and tracked via the JEP
-  Process, as amended by the JEP 2.0 proposal. The release was produced using the JDK
-  Release Process(JEP 3).
-  ```
-- Features
-- ``` java
-  http://openjdk.java.net/projects/jdk/12/
-  ```
-- ![1630745315617](../assets/mashibing/1630745315617.png)
+  - ## 概述
+    - 20190319，
+    -
+    - 2019年3月19日,java12正式发布了,总共有8个新的JEP(JDK Enhancement Proposals)
+    - ``` java
+      JDK 12 is the open-source reference implementation of version 12 of the Java SE12
+      Platform as specified by by JSR 386 in the Java Community Process.
+      JDK 12 reached General Availability on 19 March 2019. Production-ready binaries under
+      the GPL are available from Oracle; binaries from other vendors will follow shortly.
+      The features and schedule of this release were proposed and tracked via the JEP
+      Process, as amended by the JEP 2.0 proposal. The release was produced using the JDK
+      Release Process(JEP 3).
+      ```
+    - Features
+      - | 189: | [Shenandoah: A Low-Pause-Time Garbage Collector (Experimental)](https://openjdk.org/jeps/189) |
+        | 230: | [Microbenchmark Suite](https://openjdk.org/jeps/230) |
+        | 325: | [Switch Expressions (Preview)](https://openjdk.org/jeps/325) |
+        | 334: | [JVM Constants API](https://openjdk.org/jeps/334) |
+        | 340: | [One AArch64 Port, Not Two](https://openjdk.org/jeps/340) |
+        | 341: | [Default CDS Archives](https://openjdk.org/jeps/341) |
+        | 344: | [Abortable Mixed Collections for G1](https://openjdk.org/jeps/344) |
+        | 346: | [Promptly Return Unused Committed Memory from G1](https://openjdk.org/jeps/346) |
+        http://openjdk.java.net/projects/jdk/12/
+      - ![1630745315617](../assets/mashibing/1630745315617.png)
 - ``` java
   189:Shenandoah:A Low-Pause-Time Garbage Collector(Experimental)
   低暂停时间的GC http://openjdk.java.net/jeps/189

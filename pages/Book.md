@@ -3,6 +3,7 @@ icon:: 📖
 tags:: #Hobby
 created:: 20230602
 title:: Book
+
   - template:: book
     template-including-parent:: false
     collapsed:: true
@@ -500,3 +501,4 @@ title:: Book
   - JEL分类系统
     collapsed:: true
     - > JEL分类系统, 是美国经济学会《经济文献杂志》（Journal of Economic Literature)所创立的对经济学文献的主题分类系统, 并被现代西方经济学界广泛采用。 该分类方法主要采用开头的一个英文字母与随后的两位阿拉伯数字一起对经济学各部类进行“辞书式”编码分类。
+- books/疯狂java讲义

@@ -1,5 +1,6 @@
 created:: 20220801
 tags:: #Job, #DONE, byd
+
 -
 - ## Why
   -
@@ -572,7 +573,7 @@ tags:: #Job, #DONE, byd
       - 去做一点压力测试, 更简单的理财系统和我的秒杀系统相比到底差在哪???
       - 少一点并发造假的知识 !!!
       - 整个项目用到的架构模式等等
-    - 2. [[Java]] 基本面试的 八股文
+    - 2. [[java]] 基本面试的 八股文
       - 内/外模式
       - 索引
       - 经典的 Sql 问题, 刷 Leetcode!! 打印!!
@@ -605,8 +606,8 @@ tags:: #Job, #DONE, byd
       - 工资的成分是什么? 绩效整体占比是多少?
     - Prepared Progress
       - [[cv]]
-      - [[Java]] 开发(后端) [[roadmap/develop]]
-        - [[java/5/concurrency/multithreading]] 学习
+      - [[java]] 开发(后端) [[roadmap/develop]]
+        - [[java multithreading]] 学习
           - **synchronized**
           - **LockSupport**
           - **yield + 原子类**
@@ -731,7 +732,7 @@ tags:: #Job, #DONE, byd
       - Interview；
         logseq.order-list-type:: number
         collapsed:: true
-        - [[Java]] / [[Spring]] / [[networking]]
+        - [[java]] / [[Spring]] / [[networking]]
         - [[nowcoder/review_java]]
         - [Java校招面试题目合集_Java工程师/Java开发_牛客网](https://www.nowcoder.com/ta/review-java)
         - [[BV17K411Z7EB]] Spring 面试题
@@ -761,7 +762,7 @@ tags:: #Job, #DONE, byd
         - [[mooc/javaee]]
         - [[geekbang/Java核心技术]]
     - TODO Submit [[cv]];
-    - DOING [[Spring in Action]] daily until you done;
+    - DOING [[books/spring in action]] daily until you done;
       :LOGBOOK:
       * State "DONE" from "TODO" [2023-05-05 Fri 21:14]
       * State "DONE" from "TODO" [2023-05-06 Sat 17:51]

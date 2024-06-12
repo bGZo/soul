@@ -1,4 +1,9 @@
--
+---
+icon: ☕
+created: 20240612
+title: java 7
+---
+
 - ## Feats #.ol
   - 二进制前缀`0b` / `0B`；
     collapsed:: true

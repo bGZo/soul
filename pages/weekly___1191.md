@@ -2795,7 +2795,7 @@
         https://www.zhihu.com/question/658088686/answer/3520827001
     - co.elastic.clients 查询 Query 的组装
       collapsed:: true
-      #Java #JavaClass #Database #ElasticSearch #JavaClass #Java #ElasticSearch #Spring
+      #java #JavaClass #Database #ElasticSearch #JavaClass #java #ElasticSearch #Spring
       - 依赖引入
         <dependency>    <groupId>co.elastic.clients&LT/groupId>    <artifactId>elasticsearch-java&LT/artifactId>    <version>7.17.11&LT/version>&LT/dependency>
         查询语句

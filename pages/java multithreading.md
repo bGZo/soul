@@ -1,7 +1,8 @@
-title:: java/5/concurrency/multithreading
+title:: java multithreading
 alias:: multithreading/java
+
 -
-- [[Java]]
+- [[java]]
   - 内置支持多线程
     - 一个Java程序实际上是一个JVM进程
       - JVM进程用一个主线程来执行 `main()` 方法，在 `main()` 方法内部，我们又可以启动多个线程。

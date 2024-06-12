@@ -1,5 +1,6 @@
 alias:: 后端
 wikipedia:: https://en.wikipedia.org/wiki/Back_end
+
 - **Backend**  [[roadmap/develop]] (Server-Side)
   - **Internet**
     - How does the internet work?
@@ -33,7 +34,7 @@ wikipedia:: https://en.wikipedia.org/wiki/Back_end
     collapsed:: true
     quickly in ==**Core details about its runtime**==.
     e.g. ==**concurrency**(并发), **memory model**== etc.
-    - [[Java]]
+    - [[java]]
     - [[csharp]]
     - PHP
     - Rust
@@ -175,7 +176,7 @@ wikipedia:: https://en.wikipedia.org/wiki/Back_end
       - Building with Observability in mind
     - (Keep Learning...)
 - Implement
-  - [[Java]]
+  - [[java]]
     - [[Spring]]
   - [[cpp]]
   - [[python]]
