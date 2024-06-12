@@ -1,5 +1,6 @@
 alias:: data-structure/hash-table, 哈希表, 散列表
 title:: hashtable
+
 -
 -
 - Hash 碰撞解决方法
@@ -109,7 +110,7 @@ title:: hashtable
     - 设向量 $HashTable[0..m-1]$ 为基本表
     - 设立存储空间向量 $OverTable[0..v]$ 用以存储发生冲突的记录
 -
-- ## ((632dca8e-3286-4ea0-b0eb-f631076beece)) #Java
+- ## ((632dca8e-3286-4ea0-b0eb-f631076beece)) #java
 -
 -
 -

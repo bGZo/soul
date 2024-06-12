@@ -1,4 +1,5 @@
 title:: software/pattern
+
 - [[Quickref]]
   - UML
     id:: 634cd4bc-9950-4d3c-8057-466be4c059e3
@@ -266,7 +267,7 @@ title:: software/pattern
             - 可在没有客户端使用某个重量级对象时立即销毁该对象
           - CopyOnWriteList
           - 防火墙
-          - [[Java]] Library
+          - [[java]] Library
             - [ java.lang.reflect.Proxy ](http://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Proxy.html)
             - [ java.rmi.\* ](http://docs.oracle.com/javase/8/docs/api/java/rmi/package-summary.html)
             - [ javax.ejb.EJB ](http://docs.oracle.com/javaee/7/api/javax/ejb/EJB.html) （[查看评论](http://stackoverflow.com/questions/25514361/when-using-ejb-does-each-managed-bean-get-its-own-ejb-instance)）

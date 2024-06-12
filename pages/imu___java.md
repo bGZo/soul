@@ -1,6 +1,7 @@
 title:: imu/java
-tags:: #[[Java]]
+tags:: #[[java]]
 mark:: 期末占 50% + EduCoder 30% + 平时 20%
+
   - Java
     collapsed:: true
     - 异常处理
@@ -57,10 +58,10 @@ mark:: 期末占 50% + EduCoder 30% + 平时 20%
         - JSTL函数
           - ![image.png](../assets/imu/java/image_1662385498017_0.png)
     - [[servlet]]
-    - [[java/1/beans]]
+    - [[beans]]
     - [[jdbc]]
-  - [[java/5/generics]]
-  - [[java/5/annotation]]
+  - [[generics]]
+  - [[annotation]]
   - Outdated
     collapsed:: true
     - 简答

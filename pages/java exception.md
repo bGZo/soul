@@ -1,5 +1,6 @@
-title:: java/1/exception
+title:: java exception
 mark:: from java 1.0
+
 - ![image.png](../assets/exception-hierarchy-in-java.webp)
   via: [Exception Hierarchy in Java - BenchResources.Net](https://www.benchresources.net/exception-hierarchy-in-java/)
 - ## `Exception` #vs `Error`

@@ -1,6 +1,7 @@
 alias:: IntelliJ-IDEA, IntelliJ IDEA
 tags:: #tools
 [IntelliJ IDEA – the Leading Java and Kotlin IDE (jetbrains.com)](https://www.jetbrains.com/idea/)
+
 -
 - ## ShortCuts
   collapsed:: true
@@ -16,7 +17,7 @@ tags:: #tools
     - #+BEGIN_NOTE
       Check setting ***custom template*** & ***code type*** when switch language used
       #+END_NOTE
-    - #### [[Java]]
+    - #### [[java]]
       collapsed:: true
       - TempFilePath
         ```

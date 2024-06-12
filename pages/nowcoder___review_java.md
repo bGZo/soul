@@ -1,5 +1,6 @@
 tags:: #java/interview
 mark:: [Java校招面试题目合集_Java工程师/Java开发_牛客网](https://www.nowcoder.com/ta/review-java)
+
 - ## Contents
   - DONE [什么是Java虚拟机？为什么Java被称作是“平台无关的编程语言”？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21069&query=&asc=true&order=&page=1)
   - DONE [JDK和JRE的区别是什么？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21070&query=&asc=true&order=&page=2)
@@ -119,7 +120,7 @@ mark:: [Java校招面试题目合集_Java工程师/Java开发_牛客网](https:/
       - 保证在获得第一个锁之前，不会请求第二个锁，保证每一个线程都以同样的顺序加锁和释放锁。
   - DONE [Java集合类框架的基本接口有哪些？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21086&query=&asc=true&order=&page=18)
     collapsed:: true
-    - [[java/2/collections]]
+    - [[java 2/collections]]
     - 两大接口，容器和图，集合的父类是可迭代接口，下分列表，队列，集合；图下分哈希表实现，哈希图实现，有序图接口；
   - [为什么集合类没有实现Cloneable和Serializable接口？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21087&query=&asc=true&order=&page=19)
     collapsed:: true
@@ -143,7 +144,7 @@ mark:: [Java校招面试题目合集_Java工程师/Java开发_牛客网](https:/
       - 原理：由于迭代时是对原集合的拷贝进行遍历，所以在遍历过程中对原集合所作的修改并不能被迭代器检测到，所以不会触发Concurrent Modification Exception。
       - 缺点：基于拷贝内容的优点是避免了Concurrent Modification Exception，但同样地，迭代器并不能访问到修改后的内容，即：迭代器遍历的是开始遍历那一刻拿到的集合拷贝，在遍历期间原集合发生的修改迭代器是不知道的。
       - 场景：java.util.concurrent包下的容器都是安全失败，可以在多线程下并发使用，并发修改。
-  - [Java中的HashMap的工作原理是什么？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21091&query=&asc=true&order=&page=23) #java/2/collections
+  - [Java中的HashMap的工作原理是什么？](https://www.nowcoder.com/ta/review-java/review?tpId=31&tqId=21091&query=&asc=true&order=&page=23) #[[java 2/collections]]
     collapsed:: true
     - hashmap是一个key-value键值对的数据结构，从结构上来讲在jdk1.8之前是用数组加链表的方式实现，jdk1.8 加了红黑树，hashmap数组的默认初始长度是16，hashmap数组只允许一个key为null，允许多个value为null
     - hashmap的内部实现，hashmap是使用数组+链表+红黑树的形式实现的，其中数组是一个一个Node[]数组，我们叫他hash桶数组，它上面存放的是key-value键值对的节点。HashMap是用hash表来存储的，在hashmap里为解决hash冲突，使用链地址法，简单来说就是数组加链表的形式来解决，当数据被hash后，得到数组下标，把数据放在对应下表的链表中。

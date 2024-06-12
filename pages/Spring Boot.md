@@ -3,6 +3,7 @@ document:: [Spring Boot Reference Documentation](https://docs.spring.io/spring-b
 tags:: #java/framework
 created:: 20230728
 title:: Spring Boot
+
 - ## Why
 - ## How
 - ## What

@@ -2,6 +2,7 @@ alias:: java development kit, java/development_kit
 mark:: 功能齐全的 Java [[sdk]]；
 tags:: #sdk
 mark:: [Java Development Kit - Wikipedia](https://en.wikipedia.org/wiki/Java_Development_Kit)；[JDK - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/JDK)
+
 - collapsed:: true
   #+BEGIN_NOTE
   [[jdk]] == [[jre]] + javac 编译器 + 一些工具 (jconsole，jvisualvm, javadoc, jdb)
@@ -52,3 +53,4 @@ mark:: [Java Development Kit - Wikipedia](https://en.wikipedia.org/wiki/Java_Dev
         - 包含相应CPUs中的所有修复以及其他非重要修复
         - 仅当受到Oracle JDK关键补丁更新(CPUs)版本之外的其他漏洞的影响时才用
   - ![image.png](../assets/image_1652343742216_0.png){:height 1112, :width 778}
+-

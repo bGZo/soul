@@ -1,7 +1,6 @@
 icon:: 📖
-title:: Spring in Action
-alias:: books/Spring in Action
-tags:: #Spring #Java
+title:: books/spring in action
+tags:: #Spring #java
 author:: Craig Walls
 publisher:: 人民邮电出版社
 published:: 20221201
@@ -10,7 +9,7 @@ douban:: [Spring实战（第6版） (豆瓣)](https://book.douban.com/subject/36
 weread:: [Spring实战（第6版）-克雷格·沃斯-微信读书](https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4)
 mark:: [habuma/spring-in-action-6-samples: Sample code from Spring in Action 6](https://github.com/habuma/spring-in-action-6-samples)
 created:: 20230111
-closed::
+
 - ## 📄 Contents
   - 关于本书
     collapsed:: true

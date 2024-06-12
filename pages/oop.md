@@ -1,6 +1,7 @@
 alias:: Object-oriented programming, 面向对象, 面向对象编程
 mark:: [Object-oriented programming - Wikipedia](https://en.wikipedia.org/wiki/Object-oriented_programming)
-- ## [[Java]] #vs [[cpp]]
+
+- ## [[java]] #vs [[cpp]]
   - **虚函数**
     mark:: 为了多态
     - Java 没有虚函数的概念 -> Java 普通函数 == C++ 虚函数

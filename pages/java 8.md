@@ -1,13 +1,34 @@
--
+---
+icon: ☕
+created: 20240612
+title: java 8
+---
+
 - ## Feats
-  - **Lambda 表达式 (Lambda Expressions)** − Lambda 允许把函数作为一个方法的参数（函数作为参数传递到方法中）
-  - **方法引用 (Method references)** − 方法引用提供了非常有用的语法，可以直接引用已有Java类或对象（实例）的方法或构造器。与lambda联合使用，方法引用可以使语言的构造更紧凑简洁，减少冗余代码。
-  - **默认方法(Default methods)** − 默认方法就是一个在接口里面有了一个实现的方法。
-  - **新工具** − 新的编译工具，如：Nashorn引擎 jjs、 类依赖分析器jdeps。
-  - **Stream API** −新添加的Stream API（java.util.stream） 把真正的函数式编程风格引入到Java中。
-  - **Date Time API** − 加强对日期与时间的处理。
-  - **Optional 类** − Optional 类已经成为 Java 8 类库的一部分，用来解决空指针异常。
-  - **Nashorn, JavaScript 引擎** − Java 8提供了一个新的Nashorn javascript引擎，它允许我们在JVM上运行特定的javascript应用。
+  - **Lambda 表达式 (Lambda Expressions)**
+    collapsed:: true
+    - Lambda 允许把函数作为一个方法的参数（函数作为参数传递到方法中）
+  - **方法引用 (Method references)**
+    collapsed:: true
+    - 方法引用提供了非常有用的语法，可以直接引用已有Java类或对象（实例）的方法或构造器。与lambda联合使用，方法引用可以使语言的构造更紧凑简洁，减少冗余代码。
+  - **默认方法(Default methods)**
+    collapsed:: true
+    - 默认方法就是一个在接口里面有了一个实现的方法。
+  - **新工具**
+    collapsed:: true
+    - 新的编译工具，如：Nashorn引擎 jjs、 类依赖分析器jdeps。
+  - **Stream API**
+    collapsed:: true
+    - 新添加的Stream API（java.util.stream） 把真正的函数式编程风格引入到Java中。
+  - **Date Time API**
+    collapsed:: true
+    - 加强对日期与时间的处理。
+  - **Optional 类**
+    collapsed:: true
+    - Optional 类已经成为 Java 8 类库的一部分，用来解决空指针异常。
+  - **Nashorn, JavaScript 引擎**
+    collapsed:: true
+    - Java 8提供了一个新的Nashorn javascript引擎，它允许我们在JVM上运行特定的javascript应用。
   - ---
   - 重复注解（Repeating Annotations）。重复注解提供了在同一声明或类型中多次应用相同注解类型的能力。
   - 类型注解（Type Annotation）。在任何地方都能使用注解，而不是在声明的地方。
