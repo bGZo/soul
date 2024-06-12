@@ -1,6 +1,7 @@
 title:: orm
 alias:: Object Relational Mapping, 对象关系映射
 tags:: #oop, #database
+
 - ## WHY？
   - 因为开发使用**面向对象**，存储却用**关系型数据库**（而非面向对象数据库）；
   - 数据持久化技术

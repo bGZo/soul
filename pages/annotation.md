@@ -1,6 +1,7 @@
-title:: java/5/annotation
+title:: annotation
 alias:: 注解
 mark:: Java 注解；放在Java源码的类、方法、字段、参数前的一种特殊“注释”；注解是一种用作标注的 "元数据"；被编译器直接忽略，被打包进入class文件
+
 - ## [[Quickref]]
   - ` @Autowired`
     mark:: 对成员变量、方法和构造函数进行标注，来完成自动装配的工作；@Autowired是根据类型进行自动装配的，如果需要按名称进行装配，则需要配合@Qualifier使用；

@@ -1,7 +1,6 @@
-title:: 疯狂Java讲义
+title:: books/疯狂Java讲义
 icon:: 📖
-alias:: book/疯狂Java讲义
-tags:: #Java, #develop #deprecated
+tags:: #java, #deprecated
 author:: 李刚
 publisher:: 电子工业出版社
 published:: 20120100
@@ -9,15 +8,17 @@ isbn:: 9787121155789
 created:: 20221125
 closed:: 20221210
 douban:: [疯狂Java讲义 (豆瓣)](https://book.douban.com/subject/10436048/)
-goodreads::
 weread:: [疯狂Java讲义（第2版）-李刚编著-微信读书](https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d)
 mark:: 2^{rd} Edition
+
 - ## Backgroud
+  collapsed:: true
   - [Java 从开始到放弃 求大佬推荐一本书 - V2EX](https://v2ex.com/t/714143)
   - [《On Java 8》中文版 | OnJava8](https://lingcoder.github.io/OnJava8/#/)
   - [java - What is the regex to extract all the emojis from a string? - Stack Overflow](https://stackoverflow.com/questions/24840667/what-is-the-regex-to-extract-all-the-emojis-from-a-string)
   - [IDE doesn't provide a code completion suggestion for the 'extends' keyword while I'm trying to create a class inside a local scope (method)](https://youtrack.jetbrains.com/issue/SCL-15854)
 - ## Content
+  collapsed:: true
   - 如何学习Java
   - 前言
   - 第1章 Java语言概述
@@ -5639,8 +5640,10 @@ mark:: 2^{rd} Edition
       - 2.开发一个对象工厂池，这个对象工厂池不仅可以管理对象的String类型属性值，还可以管理容器中对象的其他类型的属性值，甚至可以将对象属性设置成引用到容器中其他对象（这就是Spring所提出的控制反转，即IoC）。
 - ---
 - #thought
+  collapsed:: true
   - Book 对于学习的指导意义不言自明, 当我面对成千上万的 API 的时候, 我不可能系统的学习一篇, 当然 API 也不会根据使用频率做个试试排序, 我不知道到底要学习哪一个, 学习到何种程度, 这个时候, Book里面列出来的条目就颇有价值了, 至少, 你要把这些 API 嚼烂了, 视频也是同理, 但是我不喜欢视频, 如果老师毫无个人魅力, 我只会唾弃他和他手中的东西.
     collapsed:: true
     - 显然大学老师在这方面做得有恃无恐, 一点都不上心, 尸位素餐, 嗯, 很恶心.
 - #Comment
+  collapsed:: true
   - [**一般**, 属于经典但不推荐, 因为有点过时] 一开始没看出版时间, 发现真的有点过时了... 但是市面上的视频资料讲得又不够深入, 实在是难以发现高质量的教材.

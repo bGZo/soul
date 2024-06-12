@@ -1,6 +1,7 @@
 title:: garbage_collection
 alias:: Garbage Collection, 垃圾回收
 tags:: #python #golang #ruby #Javascript
+
 - [Garbage collection (computer science) - Wikipedia](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
 -
 - ## [[jvm]] #jvm/memory

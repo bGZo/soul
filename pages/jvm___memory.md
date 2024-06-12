@@ -1,5 +1,6 @@
 title:: jvm/memory
 tags:: #garbage_collection
+
 - ## [Java (JVM) Memory Model - Memory Management in Java | DigitalOcean](https://www.digitalocean.com/community/tutorials/java-jvm-memory-model-memory-management-in-java)
   ![](../assets/Java-Memory-Model.png)
   - ### Young Generation
@@ -17,7 +18,7 @@ tags:: #garbage_collection
         mark:: contains the application metadata required by the JVM to describe the classes and methods used in the application
         - collapsed:: true
           #+BEGIN_WARNING
-          Perm Gen is not part of Java Heap memory, and changed name to **Metaspace** since [[java/8]]. The most significant difference is **how it handles memory allocation**. Specifically, this native memory region grows automatically by default.
+          Perm Gen is not part of Java Heap memory, and changed name to **Metaspace** since [[java 8]]. The most significant difference is **how it handles memory allocation**. Specifically, this native memory region grows automatically by default.
           永久代不是堆内存，最显着的区别是它如何处理内存分配。具体而言，默认情况下，此本机内存区域会自动增长
           #+END_WARNING
           via: [Permgen vs Metaspace in Java | Baeldung](https://www.baeldung.com/java-permgen-metaspace)

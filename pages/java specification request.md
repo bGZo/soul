@@ -1,0 +1,2 @@
+alias:: jsr
+tags:: java

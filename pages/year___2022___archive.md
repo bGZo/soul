@@ -1,6 +1,7 @@
 title:: year/2022/archive
 alias:: archive/2022
 icon:: 💾
+
 -
 - WAITING [patreon 怎么支付?](https://www.zhihu.com/question/54819872)
   collapsed:: true
@@ -2671,7 +2672,7 @@ icon:: 💾
       我现在写一些简单的 landing page 还是会用，毕竟打开编辑器直接就能开干还是蛮爽的。
     - 双向绑定？
     - 都是什么鬼回复 原因就一行字：不再需要直接操作 DOM 了
-  - [为什么很多人说 Java 不适合编写桌面应用？ - 知乎](https://www.zhihu.com/question/19711713) #Java
+  - [为什么很多人说 Java 不适合编写桌面应用？ - 知乎](https://www.zhihu.com/question/19711713) #java
     collapsed:: true
     - 这事还得从Java的传统，“跨平台一致性”说起。
     - 在写后台逻辑的时候，跨平台是好东西。很多公司都是在Windows下开发，在Linux下部署，方便。

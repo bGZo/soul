@@ -1,17 +1,16 @@
 icon:: 📖
-title:: Microservices-Patterns-With-Examples-in-Java
+title:: books/microservices patterns
 alias:: book/微服务架构设计模式
-tags:: #Book #develop #microserver #Java
+tags:: #microserver #java
 author:: [美] 克里斯·理查森（Chris Richardson）
 publisher:: 机械工业出版社
 published:: 20190500
 isbn:: 9787111624127
 created:: 20221213
-closed::
 douban:: [微服务架构设计模式 (豆瓣)](https://book.douban.com/subject/33425123/)
 goodreads:: [Microservices Patterns: With examples in Java by Chris Richardson, Manning Publications by Chris Richardson | Goodreads](https://www.goodreads.com/book/show/55612970-microservices-patterns)
-weread::
-mark:: [microservices-patterns/ftgo-application: Example code for the book Microservice patterns](https://github.com/microservices-patterns/ftgo-application); <`<Stop>`>
+mark:: [microservices-patterns/ftgo-application: Example code for the book Microservice patterns](https://github.com/microservices-patterns/ftgo-application);
+
 - ## ![微服务架构设计模式 by 克里斯·理查森](../assets/book_微服务架构设计模式_克里斯·理查森_chris_richardson.pdf)
   collapsed:: true
   - `([\u4e00-\u9fa5，。？；：”“、]) ([\u4e00-\u9fa5，。？；：”“、])`
@@ -19,21 +18,25 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
     #regex
   - `(\w+) (\w+)`
 - ## CONTENT
-  collapsed:: true
   - 写给中文版读者的话
+    collapsed:: true
     - 我想对本书的读者说：collapsed:: true
+      collapsed:: true
       - 第一，要记住微服务不是解决所有问题的万能 “银弹”
+        collapsed:: true
         - ^^Silver bullet, 万金油^^, via: [Silver bullet - Wikipedia](https://en.wikipedia.org/wiki/Silver_bullet) & [银色子弹 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%8A%80%E8%89%B2%E5%AD%90%E5%BD%88)
       - 第二，编写整洁的代码和使用自动化测试至关重要，因为这是现代软件开发的基础
       - 第三，关注微服务的本质，即**服务的分解和定义，而不是技术**，如容器和其他工具
       - 第四，确保你的服务松耦合，并且可以独立开发、测试和部署，不要搞成分布式单体 (Distributed Monolith), 那将会是巨大的灾难。
       - 第五，也是最重要的，不能只是在技术上采用微服务架构。 拥抱DevOps的原则和实践，在组织结构上实现跨职能的自治团队，这必不可少。
       - 还必须记住：
+        collapsed:: true
         - 实现微服务架构并不是你的目标。你的目标是加速大型复杂应用程序的开发。
   - 译者序
   - 中文版序一
   - 中文版序二
   - 前言
+    collapsed:: true
     - > 我最喜欢的格言之一是：未来已经到来，只是还没有平均分布。
       > －－－威廉·吉布森，科幻小说作家
       >
@@ -43,12 +46,14 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
       - 第2章解释了为什么软件架构很重要，描述了可用于将应用程序分解为服务集合的模式，并解释了如何克服在此过程中遇到的各种障碍。
       - 第3章 介绍了微服务架构中强大的==进程间通信的几种模式==，解释了为什么异步和基于消息的通信通常是最佳选择。
       - 第4章 介绍如何使用==Saga模式维护服务间的数据一致性==
+        collapsed:: true
         - Saga是通过传递异步消息的方式进行协调的一系列本地事务。
       - 第5章 介绍如何使用==领域驱动设计(DDD)的聚合和领域事件等模式==为服务设计业务逻辑
       - 第6章 以第5章为基础，解释了如何使用==事件溯源模式==开发业务逻辑，事件溯源模式是一种以事件为中心的设计思路，用来构建业务逻辑和持久化领域对象。
       - 第7章 介绍如何使用 API 组合模式或命令查询职责隔离(CQRS)模式，这两个模式用来实现查询分散在多个服务中的数据。
       - 第8章 介绍了处理来自各种外部客户端请求的外部API模式，例如移动应用程序、基于浏览器的JavaScript应用程序和第三方应用程序。
       - 第9章 是关于微服务自动化测试技术的两章中的第一章，介绍了重要的测试概念
+        collapsed:: true
         - 例如测试金字塔，描述了测试套件中每种测试类型的相对比例，还展示了如何编写构成测试金字塔基础的单元测试。
       - 第10章 以第9章为基础，描述了如何在测试金字塔中编写其他类型的测试，包括集成测试、消费者契约测试和组件测试等。
       - 第11章介绍了开发生产就绪服务的各个方面，包括安全性、外部化配置模式和服务可观测性模式。服务可观测性模式包括日志聚合、应用指标和分布式追踪。
@@ -57,32 +62,39 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
       -
   - 引言
   - 第1章 逃离单体地狱
+    collapsed:: true
     - 1.1 迈向单体地狱的漫长旅程
+      collapsed:: true
       - 1.1.1 FTGO应用程序的架构
       - 1.1.2 单体架构的好处
       - 1.1.3 什么是单体地狱
     - 1.2 为什么本书与你有关
     - 1.3 你会在本书中学到什么
     - 1.4 拯救之道：微服务架构
+      collapsed:: true
       - 1.4.1 扩展立方体和服务
       - 1.4.2 微服务架构作为模块化的一种形式
       - 1.4.3 每个服务都拥有自己的数据库
       - 1.4.4 FTGO的微服务架构
       - 1.4.5 微服务架构与SOA的异同
     - 1.5 微服务架构的好处和弊端
+      collapsed:: true
       - 1.5.1 微服务架构的好处
       - 1.5.2 微服务架构的弊端
     - 1.6 微服务架构的模式语言
+      collapsed:: true
       - 1.6.1 微服务架构并不是“银弹”
       - 1.6.2 模式和模式语言
       - 1.6.3 微服务架构的模式语言概述
     - 1.7 微服务之上：流程和组织
+      collapsed:: true
       - 1.7.1 进行软件开发和交付的组织
       - 1.7.2 进行软件开发和交付的流程
       - 1.7.3 采用微服务架构时的人为因素
   - 第2章 服务的拆分策略
     collapsed:: true
     - 2.1 微服务架构到底是什么
+      collapsed:: true
       - 传统上，架构的目标是可扩展性、可靠性和安全性。但是今天，该架构能够**快速安全地交付软件**，这一点非常重要
       - 2.1.1 软件架构是什么，为什么它如此重要
         collapsed:: true
@@ -301,6 +313,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
               - 理论上，团队可能只负责单一服务，因此服务绝不是微小的。相反，如果服务需要大型团队或需要很长时间进行测试，那么拆分团队或服务可能是有意义的。另外，如果你因为其他服务的变更而不断需要同步更新自己负责的服务，或者你所负责的服务正在触发其他服务的同步更新，那么这表明服务没有实现松耦合。你构建的甚至可能是一个分布式的单体。
           - 微服务架构把应用程序通过一些小的、松耦合的服务组织在一起。结果，这样的架构提升了开发阶段的效率，特别是可维护性、可测试性和可部署性，这也就让组织的软件开发速度更快。微服务架构也同时提升了应用程序的可扩展性，尽管这不是微服务的主要目标。为了使用微服务架构开发软件，你首先需要识别服务，并确定它们之间如何协作。现在我们来看看如何定义一个应用程序的微服务架构。
     - 2.2 为应用程序定义微服务架构
+      collapsed:: true
       - 三步式流程
         collapsed:: true
         - ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1670998184381_0.png)
@@ -318,8 +331,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
               - 一种源于业务架构学派的策略
             - 围绕领域驱动设计的子域来分解和设计服务
               collapsed:: true
-              - collapsed:: true
-                > If we use _domain-driven design subdomains_(领域驱动设计的子域) to decompose and design services, the example would change to reflect the subdomains that are relevant to the domain of the e-commerce website.
+              - > If we use _domain-driven design subdomains_(领域驱动设计的子域) to decompose and design services, the example would change to reflect the subdomains that are relevant to the domain of the e-commerce website.
                 > For example, we might identify subdomains such as search, checkout, and delivery within the domain of the e-commerce website.
                 > Then, we would design services that correspond to each of these subdomains, such as a search service for handling product searches, a checkout service for handling purchases, and a delivery service for handling product deliveries.
                 > This approach would allow us to manage and use these services in a way that is aligned with the subdomains of the domain, and it could potentially improve the efficiency of the e-commerce website.
@@ -356,11 +368,11 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                 collapsed:: true
                 - 使用领域驱动设计中的概念来消除上帝类
                   collapsed:: true
-                  - collapsed:: true
-                    > This means defining clear boundaries for different parts of the system and the language used to describe them. This can help to prevent a single class from becoming overly large and unmanageable. Additionally, using the concept of aggregation and small, focused classes can also help to prevent the formation of a God class.
+                  - > This means defining clear boundaries for different parts of the system and the language used to describe them. This can help to prevent a single class from becoming overly large and unmanageable. Additionally, using the concept of aggregation and small, focused classes can also help to prevent the formation of a God class.
                     > #chatGPT
                     >
       - 2.2.1 识别系统操作
+        collapsed:: true
         - 两步式流程识别和定义系统操作
           collapsed:: true
           - ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671018016495_0.png)
@@ -374,7 +386,6 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           - 通过与领域专家沟通后，分析用户故事和场景中频繁出现的名词
             collapsed:: true
             - id:: 6399b951-0ae3-4dbc-826e-4cd1210c9445
-              collapsed:: true
               ```shell
               # Place Order
               Given a consumer
@@ -389,7 +400,6 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
               # Consumer, Order, Restaurant 和 CredtCard, 暗示了这些类都是需要的
               ```
             - id:: 6399d7ae-6acc-4a32-bb44-be3cb996cfbf
-              collapsed:: true
               ```shell
               # Accept Order
               Given an order that is in the PENDING ACCEPTANCE state
@@ -420,8 +430,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
               - ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671025463172_0.png)
                 collapsed:: true
                 FTGO应用程序的重要系统命令
-                - collapsed:: true
-                  | :--------: | :--------------------: | :-----------------------: | :------------------------------------------------: |
+                - | :--------: | :--------------------: | :-----------------------: | :------------------------------------------------: |
                   |  Consumer  |      Create Order      |       createOrder()       |                    创建一个订单                    |
                   | Restaurant |      Accept Order      |       acceptOrder()       | 表示餐馆接受了订单,[:br]并承诺在规定的时间准备完毕 |
                   | Restaurant | Order Ready for Pickup | noteOrderReadyForPickup() |           表示订单已经准备完毕,可以送餐           |
@@ -449,6 +458,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           - 实现查询
             collapsed:: true
             - 用户过程
+              collapsed:: true
               - ```
                 1.用户输人送餐地址和期望的送餐时间
                 2.系统显示当前可用的餐馆
@@ -457,7 +467,8 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                 5.用户点餐并结账；
                 6.系统创建订单。
                 ```
-              - ```shell
+              - collapsed:: true
+                ```shell
                 findAvailableRestaurants(deliveryAddress, deliveryTime)
                 # 获取所有能够送餐到用户地址并满足送餐时间要求的餐馆。
                 findRestaurantMenu(id)
@@ -466,16 +477,20 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                 - 第1个包含了包含了地理位置等信息的复杂查询, 性能非常重要
                 - ...
         - ((639996a4-5935-462f-9bf4-ce89250749fb)) & ((639996a5-4b45-46b9-b60c-15648899453a)) 回答了**应用"做什么"**
+          collapsed:: true
           - 有助于推动应用程序的架构设计
           - 每一个**系统操作的行为**都通过领域模型的方式来描述
           - 每一个重要的系统操作都对应着架构层面的一个重大**场景**，是架构中需要详细描述和特别考虑的地方
       - 2.2.2 根据业务能力进行服务拆分
         mark:: **创建微服务架构的策略之一**
         source:: [Decompose by business capability](https://microservices.io/patterns/decomposition/decompose-by-business-capability.html)
+        collapsed:: true
         - 业务能力
+          collapsed:: true
           - 一个来自于业务架构建模的术语
           - 指一些能够为公司（或组织）产生价值的商业活动
           - 特定业务的业务能力取决于这个业务的类型
+            collapsed:: true
             - 例如，保险公司业务能力通常包括承保、理赔管理、账务和合规等
             - 在线商店的业务能力包括：订单管理、库存管理和发货，等等
         - <`<Stop>`>
@@ -484,6 +499,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
       - 2.2.5 拆分单体应用为服务的难点
       - 2.2.6 定义服务API
   - 第3章 微服务架构中的进程间通信
+    collapsed:: true
     - 3.1 微服务架构中的进程间通信概述
       collapsed:: true
       - 通信机制
@@ -622,11 +638,11 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           collapsed:: true
           - 然后它将回复发送回远程过程调用代理，该代理将结果返回给客户端的业务逻辑
         - 客户端使用同步的远程过程调用协议（如 REST ) 来调用服务 [参阅](https://microservices.io/patterns/communication-style/messaging.html)
+          collapsed:: true
           RPI === Command Pattern ((63959dcc-1bd8-4fc7-b337-6123a2911057)) thx #chatGPT
           - Pattern: Messaging
             collapsed:: true
-            - collapsed:: true
-              ```java
+            - ```java
               public class OrderService {
                 //...
                   public Order createOrder(long consumerId, long restaurantId,
@@ -648,8 +664,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
               ```
           - Pattern: Remote Procedure Invocation (RPI)
             collapsed:: true
-            - collapsed:: true
-              ```Scala
+            - ```Scala
               @Component
               class RegistrationServiceProxy @Autowired()(restTemplate: RestTemplate) extends RegistrationService {
                 @Value("${user_registration_url}")
@@ -714,11 +729,13 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                 wikipedia:: [HATEOAS - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/HATEOAS)
                 collapsed:: true
                 - 基本思想是在由 GET 请求返回的资源信息中包含链接，这些链接能够执行该资源允许的操作
+                  collapsed:: true
                   - 例如，客户端通过订单资源中包含的链接取消某一订单，或者发送 GET 请求去获取该订单，等等
                 - server provides links to resources in its responses, allowing the client to discover and navigate the API without prior knowledge of the API's structure.
                   collapsed:: true
                   #chatGPT
-                  - ```java
+                  - collapsed:: true
+                    ```java
                     // The Book class represents a resource in the API
                     public class Book {
                       private String title;
@@ -752,32 +769,44 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
         - 定义 REST API
           collapsed:: true
           - 使用接口定义语言 ( IDL ) 定义 API
+            collapsed:: true
             - 最流行的 REST IDL 是 [Open API 规范](http://www.openapis.org)
+              collapsed:: true
               - 它是从 Swagger 开源项目发展而来的
+                collapsed:: true
                 - Swagger 项目是一组用于开发和记录 REST API 的工具
+                  collapsed:: true
                   - 它包括从接口定义到生成客户端桩 ( stub , 存根）和服务器骨架的一整套工具
         - 在—个请求中获取多个资源的挑战
+          collapsed:: true
           - API 允许客户端在获取资源时检索相关资源。例如，客户可以使用 `GET/orders/order-id-1345?expand=consurner` 检索 Order 及其 Consumer
             collapsed:: true
             - 请求中的查询参数用来指定要与 Order 一起返回的相关资源
             - 许多场景中都很有效, 但是
+              collapsed:: true
               - 实现它也可能很耗时
               - 对于更复杂的场景来说，它通常是不够的
           - 替代技术, 旨在支持高效的数据获取
             collapsed:: true
             - [GraphQL](http://graphql.org) 和 [Neflix Falcor](http://netflix.github.io/falcor)
         - 把操作映射为 HTTP 动词的挑战
+          collapsed:: true
           - 每一种业务都有多种方法作为实现
           - 更新可能不是幕等的
+            collapsed:: true
             - 这却是使用 PUT 的要求
           - Solution 1
+            collapsed:: true
             - 定义用于更新资源的特定方面的子资源
+              collapsed:: true
               - OrderService 具有用于取消订单的 `POST/orders/{orderId}/cancel` 端点，以及用于修订订单的 `POST/orders/{orderId}/revise` 端点
           - Solution 2
+            collapsed:: true
             - 将动词指定为 URL 的查询参数
           - 可惜的是，这两种解决方案都不是特别符合 RESTful 的要求。
           - 映射操作到 HTTP 动词的这个问题导致了 REST 替代方案的日益普及, 见 ((639b0d75-e399-48dd-a4e6-0e2dc1f10b29))
         - REST 的好处和弊端
+          collapsed:: true
           - 好处
             collapsed:: true
             - 1.简单 / 熟悉
@@ -794,6 +823,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
             - 2.可能导致可用性降低
               collapsed:: true
               - 由于客户端和服务直接通信而没有代理来缓冲消息
+                collapsed:: true
                 - 它们必须在 REST API 调用期间都保持在线
             - 3.客户端必须知道服务实例的位置 (URL)
               collapsed:: true
@@ -819,18 +849,22 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           - 可以使用基于 Protocol Buffer 的 IDL 定义 gRPC API
             collapsed:: true
             - 使用 Protocol Buffer 编译器生成客户端的桩 (stub/存根) 和服务端骨架 (skeleton)
+              collapsed:: true
               - 编译器可以为各种语言生成代码，包括Java、 C# 、 Node.js和 GoLang
               - 客户端和服务端使用 HTTP/2 以 Protocol Buffer 格式交换二进制消息
           - gRPC API 由 一个或多个服务 和 请求/响应消息 定义组成
             collapsed:: true
             - 服务定义类似于Java接口，是**强类型方法的集合**
+              collapsed:: true
               - 除了支持简单的请求/响应RPC之外， gRPC还支持流式 RPC
               - 服务器可以使用消息流回复客户端。客户端也可以向服务器发送消息流
           - gRPC 使用 Protocol Buffers 作为消息格式
             collapsed:: true
             - Protocol Buffers是一种高效且紧凑的二进制格式
+              collapsed:: true
               - 它是一种标记格式
               - Protocol Buffers 消息的每个字段都有编号，并且有一个类型代码
+                collapsed:: true
                 - 消息接收方可以提取所需的字段，并跳过它无法识别的字段
                 - 因此，gRPC **使 API 能够在保持向后兼容的同时进行变更**
         - 好处
@@ -890,28 +924,34 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           via:: https://microservices.io/patterns/reliability/circuit-breaker.html
         - ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671261044236_0.png)
           mark:: 如果Order Service 出问题: OrderServiceProxy 将无限期地阻塞. 等待响应. 最后整个 API 网关就会崩掉.
+          collapsed:: true
           - 让远程过程调用代理 (如 OrderServiceProxy) 有正确处理无响应服务的能力
           - 需要决定如何从失败的远程服务中恢复
         - 开发可靠的远程过程调用代理
           collapsed:: true
           - Netflix 描述的 [Fault Tolerance in a High Volume, Distributed System | by Netflix Technology Blog | Netflix TechBlog](https://netflixtechblog.com/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a) 来保护自己, 包括
+            collapsed:: true
             - 网络超时
               collapsed:: true
               - 等待针对请求的响应时，一定不要做成无限阻塞，而是要设定一个超时
+                collapsed:: true
                 - 使用超时可以保证不会一直在无响应的请求上浪费资源
             - 限制客户端向服务器发出请求的数址
               collapsed:: true
               - 把客户端能够向特定服务发起的请求设置一个上限
                 collapsed:: true
                 - 如果请求达到了这样的上限，很有可能发起更多的请求也无济于事
+                  collapsed:: true
                   - 这时就应该让请求立刻失败
             - 断路器模式
               collapsed:: true
               - 监控客户端发出请求的成功和失败数量，如果失败的比例超过一定的阔值，就启动断路器，让后续的调用立刻失效
+                collapsed:: true
                 - 如果大量的请求都以失败而告终，这说明被调服务不可用，这样即使发起更多的调用也是无济于事
                 - 在经过一定的时间后，客户端应该继续尝试，如果调用成功，则解除断路器
           - [Netflix Hystrix](https://github.com/Netflix/Hystrix) in `Java`; [Polly库](https://github.com/Appv-Next/Polly) in `.NET`
         - 从服务失效故障中恢复
+          collapsed:: true
           - ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671261954020_0.png)
       - 3.2.4 使用服务发现
         collapsed:: true
@@ -919,23 +959,29 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
         - 什么是服务发现
           collapsed:: true
           - 服务发现的关键组件是**服务注册表**
+            collapsed:: true
             - 服务注册表是包含服务实例网络位置信息的一个数据库
           - 服务实例启动和停止时，服务发现机制会更新服务注册表
+            collapsed:: true
             - 当客户端调用服务时，服务发现机制会查询服务注册表以获取可用服务实例的列表，并将请求路由到其中一个服务实例
           - 有 2 种主要实现方式
+            collapsed:: true
             - 服务及其客户直接与服务注册表交互。
             - 通过部署基础设施来处理服务发现 （12 章中详细讨论）
         - 应用层服务发现模式
           collapsed:: true
           - ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671262994174_0.png)
           - 两种模式的组合
+            collapsed:: true
             - 自注册模式：服务实例向服务注册表注册自己
               via:: [Self Registration pattern](https://microservices.io/patterns/self-registration.html)
             - 客户端发现模式：客户端从服务注册表检索可用服务实例的列表，并在它们之间进行负载平衡
               via:: [Client-side service discovery pattern](https://microservices.io/patterns/client-side-discovery.html)
           - 好处
+            collapsed:: true
             - 可以处理多平台部署的问题 （服务发现机制与具体的部署平台无关）
           - 弊端
+            collapsed:: true
             - 需要为你使用的每种编程语言（可能还有框架） 提供服务发现库
             - 开发者负责设置和管理服务注册表， 这 会分散一定的精力
         - 平台层服务发现模式
@@ -948,72 +994,93 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
             - 服务端发现模式：客户端向路由器发出请求，路由器负责服务发现
               via:: [Server-side service discovery pattern](https://microservices.io/patterns/server-side-discovery.html)
           - 好处
+            collapsed:: true
             - 服务发现的所有方面都完全由部署平台处理
           - 弊端
+            collapsed:: true
             - 仅限于支持使用该平台部署的服务
     - 3.3 基于异步消息模式的通信
+      collapsed:: true
       - 3.3.1 什么是消息传递
+        collapsed:: true
         - 关于消息
         - 关于消息通道
       - 3.3.2 使用消息机制实现交互方式
+        collapsed:: true
         - 实现请求 I 响应和异步请求/响应
         - 实现单向通知
         - 实现发布/订阅
         - 实现发布/异步响应
       - 3.3.3 为基于消息机制的服务API创建API规范
+        collapsed:: true
         - 记录异步操作
         - 记录事件发布
           id:: 639d7be0-98ed-4f08-bb30-04660f771bb4
       - 3.3.4 使用消息代理
+        collapsed:: true
         - 无代理消息
         - 基于代理的消息
+          collapsed:: true
           - 好处
           - 弊端
       - 3.3.5 处理并发和消息顺序
       - 3.3.6 处理重复消息
+        collapsed:: true
         - 编写幕等消息处理器
         - 踉踪消息并丢弃重复消息
           id:: 639d7c40-484d-4c81-8c1a-1aa68d7f17ea
       - 3.3.7 事务性消息
+        collapsed:: true
         - 使用数据库表作为消息队列
         - 通过轮询模式发布事件
         - 使用事务日志拖尾模式发布事件
       - 3.3.8 消息相关的类库和框架
     - 3.4 使用异步消息提高可用性
+      collapsed:: true
       - 3.4.1 同步消息会降低可用性
       - 3.4.2 消除同步交互
+        collapsed:: true
         - 使用异步交互模式
           id:: 639d7cbc-4a72-4c32-a5fc-10415331456e
         - 复制数据
         - 先返回响应，再完成处理
   - 第4章 使用Saga管理事务
+    collapsed:: true
     - 4.1 微服务架构下的事务管理
+      collapsed:: true
       - 4.1.1 微服务架构对分布式事务的需求
       - 4.1.2 分布式事务的挑战
       - 4.1.3 使用Saga模式维护数据一致性
     - 4.2 Saga的协调模式
+      collapsed:: true
       - 4.2.1 协同式Saga
       - 4.2.2 编排式Saga
     - 4.3 解决隔离问题
+      collapsed:: true
       - 4.3.1 缺乏隔离导致的问题
       - 4.3.2 Saga模式下实现隔离的对策
     - 4.4 Order Service和Create Order Saga的设计
+      collapsed:: true
       - 4.4.1 OrderService类
       - 4.4.2 Create Order Saga的实现
       - 4.4.3 OrderCommandHandlers类
       - 4.4.4 OrderServiceConfiguration类
   - 第5章 微服务架构中的业务逻辑设计
+    collapsed:: true
     - 5.1 业务逻辑组织模式
+      collapsed:: true
       - 5.1.1 使用事务脚本模式设计业务逻辑
       - 5.1.2 使用领域模型模式设计业务逻辑
       - 5.1.3 关于领域驱动设计
     - 5.2 使用聚合模式设计领域模型
+      collapsed:: true
       - 5.2.1 模糊边界所带来的问题
       - 5.2.2 聚合拥有明确的边界
       - 5.2.3 聚合的规则
       - 5.2.4 聚合的颗粒度
       - 5.2.5 使用聚合设计业务逻辑
     - 5.3 发布领域事件
+      collapsed:: true
       - 5.3.1 为什么需要发布变更事件
       - 5.3.2 什么是领域事件
       - 5.3.3 事件增强
@@ -1022,10 +1089,13 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
       - 5.3.6 消费领域事件
     - 5.4 Kitchen Service的业务逻辑
     - 5.5 Order Service的业务逻辑
+      collapsed:: true
       - 5.5.1 Order聚合
       - 5.5.2  OrderService类
   - 第6章 使用事件溯源开发业务逻辑
+    collapsed:: true
     - 6.1 使用事件溯源开发业务逻辑概述
+      collapsed:: true
       - 6.1.1 传统持久化技术的问题
       - 6.1.2 什么是事件溯源
       - 6.1.3 使用乐观锁处理并发更新
@@ -1036,53 +1106,66 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
       - 6.1.8 事件溯源的好处
       - 6.1.9 事件溯源的弊端
     - 6.2 实现事件存储库
+      collapsed:: true
       - 6.2.1 Eventuate Local事件存储库的工作原理
       - 6.2.2 Eventuate的Java客户端框架
     - 6.3 同时使用Saga和事件溯源
+      collapsed:: true
       - 6.3.1 使用事件溯源实现协同式Saga
       - 6.3.2 创建编排式Saga
       - 6.3.3 实现基于事件溯源的Saga参与方
       - 6.3.4 实现基于事件溯源的Saga编排器
   - 第7章 在微服务架构中实现查询
+    collapsed:: true
     - 7.1 使用API组合模式进行查询
+      collapsed:: true
       - 7.1.1 findOrder()查询操作
       - 7.1.2 什么是API组合模式
       - 7.1.3 使用API组合模式实现findOrder()查询操作
       - 7.1.4 API组合模式的设计缺陷
       - 7.1.5 API组合模式的好处和弊端
     - 7.2 使用CQRS模式
+      collapsed:: true
       - 7.2.1 为什么要使用CQRS
       - 7.2.2 什么是CQRS
       - 7.2.3 CQRS的好处
       - 7.2.4 CQRS的弊端
     - 7.3 设计CQRS视图
+      collapsed:: true
       - 7.3.1 选择视图存储库
       - 7.3.2 设计数据访问模块
       - 7.3.3 添加和更新CQRS视图
     - 7.4 实现基于AWS DynamoDB的CQRS视图
+      collapsed:: true
       - 7.4.1 OrderHistoryEventHandlers模块
       - 7.4.2 DynamoDB中的数据建模和查询设计
       - 7.4.3 OrderHistoryDaoDynamoDb类
   - 第8章 外部API模式
+    collapsed:: true
     - 8.1 外部API的设计难题
+      collapsed:: true
       - 8.1.1 FTGO移动客户端API的设计难题
       - 8.1.2 其他类型客户端API的设计难题
     - 8.2 API Gateway模式
+      collapsed:: true
       - 8.2.1 什么是API Gateway模式
       - 8.2.2 API Gateway模式的好处和弊端
       - 8.2.3 以Netflix为例的API Gateway
       - 8.2.4 API Gateway的设计难题
     - 8.3 实现一个API Gateway
+      collapsed:: true
       - 8.3.1 使用现成的API Gateway产品或服务
       - 8.3.2 开发自己的API Gateway
       - 8.3.3 使用GraphQL实现API Gateway
   - **第9章** 微服务架构中的测试策略（上）
     collapsed:: true
     - 9.1 微服务架构中的测试策略概述
+      collapsed:: true
       - 9.1.1 什么是测试
       - 9.1.2 微服务架构中的测试挑战
       - 9.1.3 部署流水线
     - 9.2 为服务编写单元测试
+      collapsed:: true
       - 9.2.1 为实体编写单元测试
       - 9.2.2 为值对象编写单元测试
       - 9.2.3 为Saga编写单元测试
@@ -1092,28 +1175,34 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
   - **第10章** 微服务架构中的测试策略（下）
     collapsed:: true
     - 10.1 编写集成测试
+      collapsed:: true
       - 10.1.1 针对持久化层的集成测试
       - 10.1.2 针对基于REST的请求/响应式交互的集成测试
       - 10.1.3 针对发布/订阅式交互的集成测试
       - 10.1.4 针对异步请求/响应式交互的集成契约测试
     - 10.2 编写组件测试
+      collapsed:: true
       - 10.2.1 定义验收测试
       - 10.2.2 使用Gherkin编写验收测试
       - 10.2.3 设计组件测试
       - 10.2.4 为FTGO的Order Service编写组件测试
     - 10.3 端到端测试
+      collapsed:: true
       - 10.3.1 设计端到端测试
       - 10.3.2 编写端到端测试
       - 10.3.3 运行端到端测试
   - 第11章 开发面向生产环境的微服务应用
     collapsed:: true
     - 11.1 开发安全的服务
+      collapsed:: true
       - 11.1.1 传统单体应用程序的安全性
       - 11.1.2 在微服务架构中实现安全性
     - 11.2 设计可配置的服务
+      collapsed:: true
       - 11.2.1 使用基于推送的外部化配置
       - 11.2.2 使用基于拉取的外部化配置
     - 11.3 设计可观测的服务
+      collapsed:: true
       - 11.3.1 使用健康检查API模式
       - 11.3.2 使用日志聚合模式
       - 11.3.3 使用分布式追踪模式
@@ -1121,53 +1210,65 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
       - 11.3.5 使用异常追踪模式
       - 11.3.6 使用审计日志模式
     - 11.4 使用微服务基底模式开发服务
+      collapsed:: true
       - 11.4.1 使用微服务基底
       - 11.4.2 从微服务基底到服务网格
   - 第12章 部署微服务应用
     collapsed:: true
     - 12.1 部署模式：编程语言特定的发布包格式
+      collapsed:: true
       - 12.1.1 使用编程语言特定的发布包格式进行部署的好处
       - 12.1.2 使用编程语言特定的发布包格式进行部署的弊端
     - 12.2 部署模式：将服务部署为虚拟机
+      collapsed:: true
       - 12.2.1 将服务部署为虚拟机的好处
       - 12.2.2 将服务部署为虚拟机的弊端
     - 12.3 部署模式：将服务部署为容器
+      collapsed:: true
       - 12.3.1 使用Docker部署服务
       - 12.3.2 将服务部署为容器的好处
       - 12.3.3 将服务部署为容器的弊端
     - 12.4 使用Kubernetes部署FTGO应用程序
+      collapsed:: true
       - 12.4.1 什么是Kubernetes
       - 12.4.2 在Kubernetes上部署Restaurant Service
       - 12.4.3 部署API Gateway
       - 12.4.4 零停机部署
       - 12.4.5 使用服务网格分隔部署与发布流程
     - 12.5 部署模式：Serverless部署
+      collapsed:: true
       - 12.5.1 使用AWS Lambda进行Serverless部署
       - 12.5.2 开发Lambda函数
       - 12.5.3 调用Lambda函数
       - 12.5.4 使用Lambda函数的好处
       - 12.5.5 使用Lambda函数的弊端
     - 12.6 使用AWS Lambda和AWS Gateway部署RESTful服务
+      collapsed:: true
       - 12.6.1 AWS Lambda版本的Restaurant Service
       - 12.6.2 把服务打包为ZIP文件
       - 12.6.3 使用Serverless框架部署Lambda函数
   - 第13章 微服务架构的重构策略
     collapsed:: true
     - 13.1 重构到微服务需要考虑的问题
+      collapsed:: true
       - 13.1.1 为什么要重构单体应用
       - 13.1.2 绞杀单体应用
     - 13.2 将单体应用重构为微服务架构的若干策略
+      collapsed:: true
       - 13.2.1 将新功能实现为服务
       - 13.2.2 隔离表现层与后端
       - 13.2.3 提取业务能力到服务中
     - 13.3 设计服务与单体的协作方式
+      collapsed:: true
       - 13.3.1 设计集成胶水
       - 13.3.2 在服务和单体之间维持数据一致性
       - 13.3.3 处理身份验证和访问授权
     - 13.4 将新功能实现为服务：处理错误配送订单
+      collapsed:: true
       - 13.4.1 Delayed Delivery Service的设计
       - 13.4.2 为Delayed Delivery Service设计集成胶水
     - 13.5 从单体中提取送餐管理功能
+      collapsed:: true
       - 13.5.1 现有的送餐管理功能
       - 13.5.2 Delivery Service概览
       - 13.5.3 设计Delivery Service的领域模型
