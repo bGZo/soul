@@ -3,6 +3,7 @@ name:: [Outline of thought - Wikipedia](https://en.wikipedia.org/wiki/Outline_of
 tags::
 mark::
 archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia (11_15_2022 11_40_59 PM).html)
+
   - also known as [[thinking]] processes
 - Outline
   - Types of Thoughts

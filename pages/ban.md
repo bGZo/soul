@@ -1,6 +1,7 @@
 icon:: 
 mark:: 禁止 / 封杀 / 屏蔽
-- [[Issue]]
+
+- [[issue]]
   collapsed:: true
   - 封杀应不应该被理解 #discuss
     - [美国有封杀劣迹艺人的事例吗？ - 知乎](https://www.zhihu.com/question/26032041)

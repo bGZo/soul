@@ -1,4 +1,5 @@
 tags:: #commandline/windows
+
 - > Because-I-Believe-PowerShell-Commands-Are-Way-Too-Long-And-Unnecessarily-Verbose-That-I-Definitely-Hate-To-Type-Any-Of-Them-For-The-Sake-Of-My-Finger-Health-And-Keyboard-Durability
   —— [wdhwg001](https://www.v2ex.com/member/wdhwg001) [PowerShell 这种强大的命令行工具，为什么使用的人很少？ - V2EX](https://www.v2ex.com/t/876580)
 - ## Syntax

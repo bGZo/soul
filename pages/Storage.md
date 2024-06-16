@@ -1,10 +1,11 @@
 ---
 alias: 存储
 icon:  💾
-date: 20240128
-tags: #3C, #Tool
+created: 20240128
+tags: #3C, #tool
 title: Storage
 ---
+
 - ## Why
   collapsed:: true
   -

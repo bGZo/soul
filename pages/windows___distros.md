@@ -1,8 +1,9 @@
 ---
 alias: windows 发行版
-date: 20240421
+created: 20240421
 title: windows/distros
 ---
+
 - ## Why
 - ## How
 - ## What

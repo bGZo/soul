@@ -1,6 +1,7 @@
 alias:: 时间
 icon:: 🕛
-- [[Tool]]
+
+- [[tool]]
   - {{iframe https://fliqlo.com}}
     #+BEGIN_CENTER
     via: https://fliqlo.com

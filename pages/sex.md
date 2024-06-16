@@ -1,10 +1,11 @@
 ---
 alias: Sexual, 色情, 情色
 icon: 🔞
-date: 20240409
+created: 20240409
 tags: #Hobby, #Topic
 title: sex
 ---
+
 - #+BEGIN_PINNED
   饱暖思淫欲，每天吃少点并多做运动
   #+END_PINNED

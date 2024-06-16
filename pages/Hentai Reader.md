@@ -1,8 +1,9 @@
 mark:: 变态阅读器
-tags:: #project #RSS #[[github action]] #crawler #hentai
+tags:: #project #rss #[[github action]] #crawler #hentai
 icon:: 📂
 created:: [[20230614]]
 title:: Hentai Reader
+
 - ## Project Meta
   - DONE #project Hentai Reader
   - query-table:: false

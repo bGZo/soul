@@ -1,8 +1,9 @@
 ---
-date: 20240324
-tags: #RSS
+created: 20240324
+tags: #rss
 title: Rsshub
 ---
+
 - ## Why
 - ## How
 - ## What

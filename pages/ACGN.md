@@ -1,7 +1,8 @@
 filters:: {"start_page" true}
 title:: ACGN
 extends:: [[Hobby]]
-- ## [[Issue]]
+
+- ## [[issue]]
   - WAITING [Too much] Digest the content via: [二次元 | RSSHub](https://docs.rsshub.app/anime.html) #[[weekly]]
     - anitama
       - [如何看待anitama即将解散？ - 知乎](https://www.zhihu.com/question/313191641)

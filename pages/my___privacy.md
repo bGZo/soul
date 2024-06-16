@@ -1,4 +1,5 @@
 tags:: #Privacy
+
 - ## Delete Account Queue
   - Even though I know the *delete account* is not really delete database, it just a soft delete, still I want to try it, just for another people if they could see.
   - [#C] Delete account
@@ -130,7 +131,7 @@ tags:: #Privacy
       tumblr
       ...
       ```
-- [[Tool]]
+- [[tool]]
   - [网名生成器、姓名生成器、名字在线生成器](https://www.qmsjmfb.com/)
 - [​ - Zero Width Space: U+200B - Unicode Character Table](https://unicode-table.com/en/200B/)
 - [微信如何设置空白昵称？ - 知乎](https://www.zhihu.com/question/54624230)

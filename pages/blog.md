@@ -2,14 +2,15 @@
 alias: 博客
 icon: 📝
 created: 2024-01-07
-title: Blog
+title: blog
 ---
+
 - ## Why
   - 为什么写博客？
 - ## How
   - 如何写博客？
 - ## What
-  - #Star #Theme for blog #Blog/Theme
+  - #Star #theme for blog #theme/blog
     collapsed:: true
     - [luizdepra/hugo-coder: A minimalist blog theme for hugo.](https://github.com/luizdepra/hugo-coder/) #hugo
       - ![](https://github.com/luizdepra/hugo-coder/raw/main/images/screenshot.png)
