@@ -1,8 +1,9 @@
-tags:: #Github #Tutorial  #Tool #jetbrains/idea
+tags:: #Github #tutorial  #tool #jetbrains/idea
 source:: [judasn/IntelliJ-IDEA-Tutorial: IntelliJ IDEA 简体中文专题教程](https://github.com/judasn/IntelliJ-IDEA-Tutorial) ![](https://img.shields.io/github/stars/judasn/IntelliJ-IDEA-Tutorial)
 created:: 20230111
 closed::
 mark:: https://github.com/judasn/IntelliJ-IDEA-Tutorial/tree/9801bfb33946e041f8d579df06b22bf839e6fccf
+
 - ## Contents
   - **特别地方**
     - [IntelliJ IDEA 编译方式介绍](https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/9801bfb33946e041f8d579df06b22bf839e6fccf/make-introduce.md)

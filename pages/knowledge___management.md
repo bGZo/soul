@@ -1,4 +1,5 @@
 alias:: knowledge management, 知识管理
+
 - ## Directories
   - Google
     source:: http://www.google.com/dirhp; https://www.googleguide.com/directory.html
@@ -120,14 +121,14 @@ alias:: knowledge management, 知识管理
       - 泛读
         - NO 信息轰炸
           - 微博超话-\#阅读我们是认真的
-          - #Issue 你对 "自己本能想要远离那些喧闹, 刺耳的声音, 认同门槛的合理性" 的这件事情保有什么看法? 你对自己使用自己屏蔽掉了他们发声的内容, 你怎么看?
-        - #Issue 信息/新闻之间有**重叠, 重复**
+          - #issue 你对 "自己本能想要远离那些喧闹, 刺耳的声音, 认同门槛的合理性" 的这件事情保有什么看法? 你对自己使用自己屏蔽掉了他们发声的内容, 你怎么看?
+        - #issue 信息/新闻之间有**重叠, 重复**
           - 热点新闻
       - 参考
     - 组织
       - 分类
       - 补充
-        - #Issue 如何在递归中 Return?
+        - #issue 如何在递归中 Return?
           - 阅读有时候就是递归的, 你不会意识到你的栈已经炸了, 你只会意识到你遗忘了什么
           - **为每次递归设定时间, 并及时的叩问自己问题是否得到了解决**
       - 回顾

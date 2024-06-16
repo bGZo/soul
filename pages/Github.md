@@ -1,4 +1,4 @@
-## [[Issue]]
+## [[issue]]
 collapsed:: true
   - DONE Fork somebody repo cannot change to private?
     - [What security issue is caused by changing the visibility of a fork on Github? - Stack Overflow](https://stackoverflow.com/questions/71446341/what-security-issue-is-caused-by-changing-the-visibility-of-a-fork-on-github)

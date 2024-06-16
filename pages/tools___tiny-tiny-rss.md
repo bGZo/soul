@@ -1,6 +1,6 @@
 ---
 created: 20240524
-tags: #RSS
+tags: #rss
 title: tools/tiny-tiny-rss
 ---
 
@@ -14,7 +14,7 @@ title: tools/tiny-tiny-rss
 -
 -
 -
-- A [[RSS]] tool
+- A [[rss]] tool
 - Using [[docker]] install and run
   - ```shell
     $ sudo dockerd

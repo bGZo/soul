@@ -1,5 +1,6 @@
 alias:: tool/imghost
 tags:: #[[photo]]
+
 - FREE
   - [堆爱](//img.duiai.cc/tc/)
   - [SM.MS](//sm.ms/)

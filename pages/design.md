@@ -1,5 +1,6 @@
 alias:: 设计
-- [[Tool]]
+
+- [[tool]]
   - Format Code
     - set: http://tool.lu
     - convert to Pic / 代码图片

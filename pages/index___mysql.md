@@ -1,10 +1,11 @@
 ---
 alias: mysql/index
 mark: 一种用于快速查询和检索数据的数据结构
-date: 20240417
+created: 20240417
 tags: #[[data-structure]]
 title: index/mysql
 ---
+
   - Use Case
     - `not null`(**Best**) & `where` & `having`
     - Tip: 如果长时间都会有排序的需求, 可以用 带有 `groupby` 的`alter` 语句提前

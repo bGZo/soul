@@ -6,6 +6,7 @@ created:: 20210801
 tags:: #tools
 collapsed:: true
 title:: Logseq
+
 - ## Why
   - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[Privacy]], [[censor]], with high [[price]] and bullshit user agreement.
     - ((64772db8-4367-4d35-b2ca-fed0e45bdd2c))
@@ -38,7 +39,7 @@ title:: Logseq
           - Bug
             collapsed:: true
             - `Version GLIBC_2.33 not found` => package not correct installed
-          - How to install package from source manually? #Issue
+          - How to install package from source manually? #issue
             collapsed:: true
             - Not possible... Seem like, need to install wget, then install manually...
               collapsed:: true
@@ -84,7 +85,7 @@ title:: Logseq
             collapsed:: true
             #Telegram #deprecated
             - I think the journals more like tasks with #[[gtd]]
-          - Sub block will gone #Issue
+          - Sub block will gone #issue
             - Test case:
               collapsed:: true
               - ```
@@ -116,7 +117,7 @@ title:: Logseq
         collapsed:: true
         #Telegram #deprecated
         - I think the journals more like tasks with #[[gtd]]
-      - Sub block will gone #Issue
+      - Sub block will gone #issue
         - Test case:
           collapsed:: true
           - ```

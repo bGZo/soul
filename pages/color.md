@@ -1,5 +1,6 @@
 title:: color
 tags:: #design
+
 - ## Palette 调色板 🎨🔴🟠🟡🟢🔵🟣🟤
   - `background-color::` #Logseq
   - ---
@@ -66,7 +67,7 @@ tags:: #design
   - Douban Book \#58402a
     background-color:: #58402a
 -
-- ## [[Issue]]
+- ## [[issue]]
   -
   - WAITING Github Markdown was not supported for color rendering(via [github](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#disabling-markdown-rendering)). Yet you could use some third-party markdown web rendering tools (same with milkdown.dev):
     collapsed:: true

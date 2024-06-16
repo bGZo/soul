@@ -2,10 +2,11 @@ icon::
 title:: mastodon
 alias:: Mastodon
 desc::
-tags:: #[[Social Media]] #Tool
+tags:: #[[Social Media]] #tool
 source:: [mastodon/mastodon: Your self-hosted, globally interconnected microblogging community](https://github.com/mastodon/mastodon)
 created:: 20221219
 mark::
+
 - ## [[cheat/sheet]]
   - ### [[shortcut]]
     collapsed:: true
@@ -24,7 +25,7 @@ mark::
       - Comments
         - `api/v1/statuses/{post_id}/context`
 -
-- ## [[Issue]]
+- ## [[issue]]
   collapsed:: true
   - DONE MOVE OUT
     collapsed:: true

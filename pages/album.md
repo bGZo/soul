@@ -1,5 +1,6 @@
 title:: album
 alias:: 专辑, music/album
+
 - ## [[template]]
   - template:: album
     template-including-parent:: false

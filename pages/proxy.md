@@ -4,8 +4,9 @@ alias: 代理, 翻墙, 科学上网
 cost: 3
 icon: ✈
 created: 20230602
-title: Proxy
+title: proxy
 ---
+
 - ## Why
   - Due to [[GFW]] )
 - ## How

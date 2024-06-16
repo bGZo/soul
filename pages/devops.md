@@ -15,7 +15,7 @@
     - deploy
     - operate
     - monitor
-  - [[Tool]]
+  - [[tool]]
     - more automation
       - aim to reduce its delivery time and the gap between its development and operations(运营) teams.
     - Netflix -> Simian Army

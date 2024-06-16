@@ -4,6 +4,7 @@ icon:: 🐍
 tags::
 created:: 20230627
 title:: python documents
+
 - ## Why
 - ## How
 - ## What

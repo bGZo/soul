@@ -2,10 +2,11 @@
 alias: tools/scoop
 mark:
 icon:
-date: 20240225
+created: 20240225
 tags: #Windows #monthly
 title: scoop
 ---
+
 - ## Why
   collapsed:: true
   - [[commandline]]

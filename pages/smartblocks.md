@@ -7,7 +7,8 @@ source::
 mark::
 created:: 20221213
 closed::
-- [[Issue]]
+
+- [[issue]]
   - TODO [#B] The block properties would be missing
     source:: [The block properties would be missing · Issue #46 · sawhney17/logseq-smartblocks](https://github.com/sawhney17/logseq-smartblocks/issues/46)
     collapsed:: true

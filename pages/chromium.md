@@ -2,6 +2,7 @@ alias:: browser/chromium, chrome
 mark:: uGc
 icon:: 
 source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-software/ungoogled-chromium: Google Chromium, sans integration with Google](https://github.com/ungoogled-software/ungoogled-chromium) ![](https://img.shields.io/github/stars/ungoogled-software/ungoogled-chromium)
+
   - Gc with [Hibbiki/chromium-win64: Chromium builds for Windows x64](https://github.com/Hibbiki/chromium-win64) ![](https://img.shields.io/github/stars/Hibbiki/chromium-win64)
 - [[Backup]]
   collapsed:: true
@@ -14,7 +15,7 @@ source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-softwar
       - ...
     - `History`
     - `Bookmarks`
-- [[Issue]]
+- [[issue]]
   - Web notification cannot use (+Brave) #[[wontfix]]
     collapsed:: true
     - **Google Cloud Message / Firebase Cloud Messaging** 无法在 ungoogle 的浏览器使用...

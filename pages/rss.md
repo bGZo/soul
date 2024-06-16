@@ -1,9 +1,10 @@
-alias:: RDF Site Summary, Really Simple Syndication, Tools/RSS
+alias:: RDF Site Summary, Really Simple Syndication
 mark:: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
 released-date:: 19990315
 wikipedia:: [RSS - Wikipedia](https://en.wikipedia.org/wiki/RSS)
 tags:: #info
-title:: RSS
+title:: rss
+
 - ## Why
   - The first time icon of RSS I see is in the CD show. I even don't know what exactly is it. It appeared in the product birthed in last 10 years in China mainland.
   - Then when I have some spare time in 2020 and I notice it again. I wonder whether it have some interesting story or not. And at that point, I use a simple and not well reader to subscribe RSS. And just feeling amazing, and feel sad as well, like (by the way, they're [[sucks]])
@@ -174,7 +175,7 @@ title:: RSS
       - [4Gamers](https://www.4gamers.com.tw/rss/latest-news)
       - [游戏 – 琉璃神社 ★ HACG.me](https://www.hacg.mom/wp/game.html/feed)
       - [V2EX热门](https://rsshub.app/v2ex/topics/hot)
-  - How I connect each other tools and build [[Workflow]]?
+  - How I connect each other tools and build [[workflow]]?
     - ![image.png](../assets/works/infoflow.excalidraw.png)
       `[[draws/flow.book.excalidraw]]`
       #Book #reading #writing #flow

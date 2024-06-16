@@ -1,9 +1,10 @@
 title:: English/writing
 alias::
+
 - #+BEGIN_PINNED
   [^1] 不要用任何简写
   #+END_PINNED
-- ## [[Tool]]
+- ## [[tool]]
   - 语法纠正 / 英文润色 via: [数字移民](https://blog.shuziyimin.org/723) #.ol
     - [Grammarly: Free Online Writing Assistant](https://www.grammarly.com/)
     - [Free Grammar Checker & Paraphrase - Ginger Software](https://www.gingersoftware.com/grammarcheck)

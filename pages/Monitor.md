@@ -1,12 +1,13 @@
 alias:: screen, 显示器, 屏幕
 tags:: #3C
 title:: Monitor
+
 - ## Standard
   collapsed:: true
   - | Item | HD | FHD (Full HD) | WQHD (Wide Quad HD, QHD) |
     |--------|------|--------|----------|
     | Resolution | | 1,920 x 1,080 | 2,560 x 1,440 |
-- [[Issue]]
+- [[issue]]
   collapsed:: true
   - Health
     collapsed:: true

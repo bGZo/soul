@@ -1,4 +1,5 @@
 alias:: tool/typora
+
 - Shortcuts
   collapsed:: true
   - |     Operation      |              Effections              |

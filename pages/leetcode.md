@@ -1,6 +1,7 @@
 icon:: 👨‍💻
 alias:: 力扣
 tags:: #question/oj
+
   - template:: leetcode
     template-including-parent:: false
     collapsed:: true
@@ -23,7 +24,7 @@ tags:: #question/oj
 -
 - ## [[Quickref]]
 -
-- ## [[Issue]]
+- ## [[issue]]
   - DONE 写笔记的时候发现 [洛谷](https://www.luogu.com.cn/) 自带 Copy as Markdown 的脚本，实在是方便；
     collapsed:: true
     - ![chrome_149.png](../assets/chrome_149_1675655164306_0.png)
