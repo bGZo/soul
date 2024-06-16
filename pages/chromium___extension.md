@@ -1,6 +1,7 @@
 title:: chromium/extension
+
 - [[develop]]
-- [[Issue]]
+- [[issue]]
   - Version Choose
     - [Will my organization's Chrome extensions with manifest v2 run after Jan 2023? - Chrome Enterprise Community](https://support.google.com/chrome/a/thread/175260822/will-my-organization-s-chrome-extensions-with-manifest-v2-run-after-jan-2023?hl=en)
     - [巨坑：chrome extensions绝对不要升级到V3 - 掘金](https://juejin.cn/post/7094545901967900686)

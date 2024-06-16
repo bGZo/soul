@@ -1,6 +1,7 @@
 title:: osi/application
 tags:: TODO
 mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
+
 -
 - Protocols
   - **HTTP**, HyperText Transfer Protocol
@@ -424,7 +425,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
       - 尝试与服务器建立连接
       - 连接成功后尝试向需要验证的邮箱发送邮件
       - 根据返回结果判定邮箱地址的真实性
-      - [[Tool]] Online
+      - [[tool]] Online
         - https://verify-email.org/
         - http://tool.chacuo.net/mailverify
         - https://www.emailcamel.com/

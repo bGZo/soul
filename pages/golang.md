@@ -1,7 +1,8 @@
 alias:: lang/programming/golang
 title:: golang
 icon:: ﳑ
-- #Issue
+
+- #issue
   - [datetime - Go time.Now() is always 2009-11-10 23:00:00 +0000 UTC - Stack Overflow](https://stackoverflow.com/questions/24539986/go-time-now-is-always-2009-11-10-230000-0000-utc)
   - [为什么用 Go 访问某网站始终会 503 Service Unavailable ？ | 无辄的栈](https://www.zackwu.com/posts/2021-03-14-why-i-always-get-503-with-golang/)
 - #playground

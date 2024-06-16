@@ -1,4 +1,5 @@
 tags:: #[[consume]]
+
 - ## [[template]]
   - template:: buy
     type:: to-buy-list

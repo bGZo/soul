@@ -9,10 +9,11 @@ donation:: [Donate - ShareX](https://getsharex.com/donate)
 created:: 20230110
 closed::
 mark:: [ShareX - The best free and open source screenshot tool for Windows](https://getsharex.com/)
+
 - ## [[cheat/sheet]]
   - ### [[shortcut]]
     - [Keybinds - ShareX](https://getsharex.com/docs/keybinds)
-- ## [[Issue]]
+- ## [[issue]]
   - #Closed
     - WAITING  Multi file in Github Gist wontfix
       collapsed:: true

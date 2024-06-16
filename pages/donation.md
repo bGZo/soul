@@ -1,6 +1,7 @@
 alias:: donate, 捐助
 tags:: sponsor
-- [[Issue]]
+
+- [[issue]]
   - #Closed
     - DONE 20200728 **$10(￥84)** [DIYgod/RSSHub: 🍰 Everything is RSSible](https://github.com/DIYgod/RSSHub)
     - DONE 20201222 **$4.99(￥30)** [V2EX › 充值 › 支付宝](https://www.v2ex.com/balance/add/alipay);

@@ -1,12 +1,13 @@
 alias:: 浏览器
-tags:: #Tool
-title:: Browser
-- ## [[Issue]]
+tags:: #tool
+title:: browser
+
+- ## [[issue]]
   - **浏览器内置通知**
     via: [Is there any way to view Chrome browser notifications history? - Super User](https://superuser.com/questions/1035042/is-there-any-way-to-view-chrome-browser-notifications-history)
     - Windows 无法转换为 Native Notifications
     - 需要去 `User Data\Default\Platform Notifications` 看 log
-    - [Notification Examples - Base Site](https://web-push-book.gauntface.com/demos/notification-examples/) #[[Tool]]
+    - [Notification Examples - Base Site](https://web-push-book.gauntface.com/demos/notification-examples/) #[[tool]]
 - ## [[thought]]
   - Brave meaningless
     collapsed:: true
@@ -96,7 +97,7 @@ title:: Browser
       ```
     - 可以看出多出来的只是 `Brave (Rewards)Wallet + Brave Ads + Ad Block`, 所以感觉 Meaningless. 之前看过的软文([How To Enable Or Disable Notifications On The Brave Web Browser | PC | *2022* 👍 - YouTube](https://www.youtube.com/watch?v=86xEqFtENB8) & [Brave浏览器看广告赚取BAT Token | 完美支持MetaMask钱包 | 比谷歌浏览器快3倍，高度保护用户隐私 - YouTube](https://www.youtube.com/watch?v=QGFJ_LbUFpM)), 号称打着边挖矿边保护隐私方面, 还把 Brendan Eich 的名号搬出来, 可笑可笑
       - Notification not for GCM/FCM, via: [Notification problem for some web sites - Browser Support / Desktop Support - Brave Community](https://community.brave.com/t/notification-problem-for-some-web-sites/223966/17)
-- [[Tool]] FullScreen
+- [[tool]] FullScreen
   - via: https://github1s.com/xieby1/fullscreen/blob/HEAD/fullscreen.js#L1-L9
   - ```js
     (function() {

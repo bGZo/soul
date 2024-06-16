@@ -1,9 +1,10 @@
 ---
 alias: 正则表达式
-date: 20240421
+created: 20240421
 tags: #tools
 title: regex
 ---
+
 - ## Why
 - ## How
   - Match Object #[[encoding]]

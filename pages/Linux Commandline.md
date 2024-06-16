@@ -1,5 +1,6 @@
 icon:: 🐧
 tags:: Commandline, #Linux
+
 - ## [[Quickref]]
   collapsed:: true
   - ### Scripts syntax refer to [Learn X in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/docs/zh-cn/bash-cn/)

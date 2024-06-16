@@ -1,10 +1,11 @@
-title:: Weekly/ruanyifeng
-alias:: ruanyifeng/weekly
-mark:: 科技爱好者周刊
-tags:: #magazine #Blog #newsletter
+title:: ruanyifeng/weekly
+alias:: 科技爱好者周刊
+tags:: #magazine #newsletter
 source:: [ruanyf/weekly: 科技爱好者周刊，每周五发布](https://github.com/ruanyf/weekly)
 created:: 20221221
+
 - ## Content
+  collapsed:: true
   - 250
   - 249
   - 248
@@ -12,11 +13,7 @@ created:: 20221221
   - 246
   - 245
   - 244
-  - 243
-  - 242
-  - 241
-  - 240
-  - [科技爱好者周刊（第 243 期）：与孔子 AI 聊天 - 阮一峰的网络日志](http://www.ruanyifeng.com/blog/2023/02/weekly-issue-243.html)
+  - [243 与孔子 AI 聊天 ](http://www.ruanyifeng.com/blog/2023/02/weekly-issue-243.html)
     collapsed:: true
     - ## 封面图
     - ![](https://cdn.beekka.com/blogimg/asset/202302/bg2023022201.webp)
@@ -205,7 +202,9 @@ created:: 20221221
     - 每一期周刊同时发布在[ FlowUs 专栏](https://ruanyf-weekly.flowus.cn/?code=FLOWUS&promotionChannel=WX%5FRYF%5F00)，欢迎大家也去开通自己的专栏和主页。
     - ![](https://cdn.beekka.com/blogimg/asset/202207/bg2022072108.webp)
     - （完）
-  -
+  - 242
+  - 241
+  - 240
   - [239 未来两种人会增加](https://www.ruanyifeng.com/blog/2023/01/weekly-issue-239.html)
     collapsed:: true
     - 我最近读了一篇美国专家的文章，谈[怎么规划未来的城市](https://noahpinion.substack.com/p/the-us-city-of-the-future)。
@@ -221,7 +220,7 @@ created:: 20221221
     - 政府会新建更多的大学和医院，现有的规模也将不断变大。
     - 以上就是他对未来城市的预测，我觉得挺有道理。
     - 这个分析也可以用作人生规划的参考，看上去教育和医疗保健会成为将来的朝阳产业，而那些可以消磨闲暇时间、又不费钱的新事物，将成为大热门。
-  - [238 停止寻找的最佳时间 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2023/01/weekly-issue-238.html)
+  - [238 停止寻找的最佳时间](https://www.ruanyifeng.com/blog/2023/01/weekly-issue-238.html)
     collapsed:: true
     - Algorithms to Live By - 算法之美
     - 日常生活有很多"寻找-决策过程"，如果考察所有选项，要花费很长时间，可能还会错失机会，后面遇到的未必有前面的好。能否确定一个时间点，到了某个阶段就停下来，不再寻找了，这时找到合适候选人的概率最大？

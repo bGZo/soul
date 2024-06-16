@@ -2,7 +2,8 @@ alias:: 工具
 icon:: 🛠
 created:: 20230531
 tags:: #Productivity
-title:: Tool
+title:: tool
+
   - template:: tool
     template-including-parent:: false
     collapsed:: true

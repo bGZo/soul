@@ -1,5 +1,6 @@
 title:: wangdoc/javascript
 source:: https://wangdoc.com/javascript/
+
 - 1. 入门篇
 - 2. 数据类型
 - 3. 运算符
@@ -12,7 +13,7 @@ source:: https://wangdoc.com/javascript/
     - Rather than **接口规范**; 只不过 [[Javascript]] 操作地比较多
     - DOM 作用
       - 将网页转为一个 JavaScript 对象，从而可以用脚本进行各种操作 (增删内容)
-    - [[Browser]]
+    - [[browser]]
       - 根据 DOM 模型，将结构化文档 (比如 HTML 和 XML) 解析成一系列的节点，再由这些节点组成一个树状结构(DOM Tree)。所有的节点和最终的树状结构，都有规范的对外接口
     - Node (7)
       - `Document` ：整个文档树的顶层节点

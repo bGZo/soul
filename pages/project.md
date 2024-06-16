@@ -18,7 +18,7 @@ title:: project
       ---
     - ## Project Meta
       collapsed:: true
-      - \DOING #project [[``{ c.page.name }``]]
+      - \DOING #project [[page]]
       - query-table:: false
         collapsed:: true
         #+BEGIN_QUERY
@@ -117,7 +117,7 @@ title:: project
   - #+BEGIN_PINNED
     Wired Things Via [[geek]]
     #+END_PINNED
-  - [[Issue]]
+  - [[issue]]
     - #Alternatives 替代品
       :LOGBOOK:
       CLOCK: [2022-11-05 Sat 15:42:51]
@@ -265,7 +265,7 @@ title:: project
     - window  标签文档 http://cn.ejie.me/
     - Martyr2's Mega Project Ideas List! - Share Your Project | Dream.In.Code https://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/ 实现清单
     - 使用公共 DNS 上网的弊端（一） | Ephen‘s Blog https://web.archive.org/web/20181023062819/https://ephen.me/2017/PublicDns_1/
-    - [violet7pan/XYplorer_Help: XYplorer使用教程-原创](https://github.com/violet7pan/XYplorer_Help) #[[Tool]]
+    - [violet7pan/XYplorer_Help: XYplorer使用教程-原创](https://github.com/violet7pan/XYplorer_Help) #[[tool]]
     - https://github.com/mo-han/mo-han-toolbox/blob/f429a7d89d/__dump__/_x_segslice.py
     - mac 安装 在 virtualbox GitHub - myspaghettimacos-virtualbox: Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS https://github.com/myspaghetti/macos-virtualbox
     - css集合 GitHub - QiShaoXuancss_tricks: Some CSS tricks,一些 CSS 常用样式 https://github.com/QiShaoXuan/css_tricks

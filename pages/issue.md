@@ -3,7 +3,8 @@ mark::
 icon:: ⏸
 created:: 20231227
 tags::
-title:: Issue
+title:: issue
+
 - ## Why
 - ## How
 - ## What

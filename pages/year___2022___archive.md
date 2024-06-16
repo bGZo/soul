@@ -7,7 +7,7 @@ icon:: 💾
   collapsed:: true
   - 信用卡（VISA）/ Paypal（国区也可）
 -
-- [[Tutorial]]
+- [[tutorial]]
   - id:: 62905049-e91c-44ec-9846-de9a93492a11
   - [numbbbbb.com/20160704_我如何用三个月入门日语.numbbbbb.com](https://github.com/numbbbbb/numbbbbb.com/blob/master/source/_posts/20160704_%E6%88%91%E5%A6%82%E4%BD%95%E7%94%A8%E4%B8%89%E4%B8%AA%E6%9C%88%E5%85%A5%E9%97%A8%E6%97%A5%E8%AF%AD.md) #[[japanese]]
     collapsed:: true
@@ -2581,7 +2581,7 @@ icon:: 💾
     - 任何国家、任何人、任何势力都没有资格否定中国人民选择的正确道路。
   -
 - Refs
-  - [大家有没有什么好的记工作笔记的方法 - V2EX](https://www.v2ex.com/t/884947) #[[Tool]]
+  - [大家有没有什么好的记工作笔记的方法 - V2EX](https://www.v2ex.com/t/884947) #[[tool]]
     collapsed:: true
     - 1
       - 我的笔记 VSC ，笔记站点 https://github.com/wenerme/wener

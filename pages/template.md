@@ -2,24 +2,9 @@
 alias: 模板
 collapsed: true
 created: 20230531
-title: Template
+title: template
 ---
 
-  - template:: page
-    template-including-parent:: false
-    - ---
-      alias:
-      mark:
-      icon:
-      created: ``{ date.now.format('YYYYMMDD') }``
-      title: ``{ c.page.name }``
-      ---
-    - ## Why
-      -
-    - ## How
-      -
-    - ## What
-      -
   - template:: page/public
     template-including-parent:: false
     collapsed:: true
@@ -110,7 +95,7 @@ title: Template
         -
       - ## [[bookmark]]
         -
-      - ## [[Issue]]
+      - ## [[issue]]
         - #Closed
           -
         -

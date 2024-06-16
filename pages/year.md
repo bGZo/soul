@@ -1,5 +1,6 @@
 icon:: 📅
 title:: year
+
   - Year Review Template
     collapsed:: true
     - template:: year/review

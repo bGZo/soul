@@ -4,7 +4,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
 
 - ## 👨‍💻 Work
   - ### 🚀 Mirrors
-    collapsed:: true
     - id:: 66515727-37fc-4088-aff7-c582f96f7344
       title:: https://github.com/eryajf/Thanks-Mirror
       tags:: #Github #opensource #mirror #proxy
@@ -12,7 +11,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       mark:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
       ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
     - [[Github]]
-      collapsed:: true
       - https://hub.xn--p8jhe.tw
       - https://hub.xn--gzu630h.xn--kpry57d
       - https://hub.fastgit.xyz
@@ -25,9 +23,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - https://raw.gitslow.tk
       - https://raw.verge.tk
     - [[Google]]
-      collapsed:: true
       - https://g.luciaz.me
-        collapsed:: true
         - passwd: 心灵之约、水朝夕、csxy@123
       - http://gufenso.coderschool.cn
       - https://google.icloudnative.io/
@@ -40,7 +36,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - http://searx.bear4.ml/
       - S
     - Scholar
-      collapsed:: true
       - https://coderschool.cn/1853.html
       - https://ac.scmor.com/
       - http://scholar.scqylaw.com/
@@ -48,7 +43,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - https://item.guidebook.top/google/
     - [[ubuntu]]
       id:: 66515727-99f3-4d0d-b4c9-fc0fe63d8106
-      collapsed:: true
       - 高校镜像源有:
         - ==[USTC  Mirror / 中国科学技术大学](https://mirrors.ustc.edu.cn)==
         - [Tinghua Mirror / 清华大学](https://mirrors.tuna.tsinghua.edu.cn)
@@ -61,7 +55,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
         - [Tencent Mirror / 腾讯](https://mirrors.cloud.tencent.com)
         - [Yun-Idc / 首都在线](https://mirrors.yun-idc.com)
       - 国际镜像
-        collapsed:: true
         - 高校开源镜像站：
           - [The Chinese University of Hong Kong](https://ftp.cuhk.edu.hk)
           - [元智大學](https://ftp.yzu.edu.tw)
@@ -75,7 +68,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
           - [Yandex](https://mirror.yandex.ru)
   -
   - ### 📃 Document
-    collapsed:: true
     - [WeRead - 微信读书](https://weread.qq.com/)
     - [Raindrop - All-in-one bookmark manager](https://app.raindrop.io/my/-1)
     - [DevDocs API Documentation](https://devdocs.io/)
@@ -84,14 +76,12 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [Basic Latin — ✔️ ❤️ ★ Unicode Character Table](https://unicode-table.com/en/)
   -
   - ### 💻 Public Compiler
-    collapsed:: true
     - [菜鸟工具 - 不止于工具](https://c.runoob.com/)
     - [在线编辑器,在线运行代码,在线编译器大全 - 在线工具(cainiaojc.com)](https://www.cainiaojc.com/tool/)
     - [洛谷在线 IDE](https://www.luogu.com.cn/ide)
     - [Online Compiler by Programiz](https://www.programiz.com/c-programming/online-compiler/)
   -
   - ### ✏ Public Editor
-    collapsed:: true
     - 🌟 [VSCode For the Web](https://vscode.dev)
     - [Smart Text Editor](https://stedit.app)
     - #### [[latex]] Web Import Latex Libs
@@ -106,15 +96,12 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [StackBlitz | Instant Dev Environments | Click. Code. Done.](https://stackblitz.com/)
   -
   - ### 🐛 Debug
-    collapsed:: true
     - [Hoppscotch • Hoppscotch](https://hoppscotch.io/)
   -
   - ### 🎨 Design
-    collapsed:: true
     - ### 🔴🟠🟡🟢🔵🟣🟤 [[color]]
       - [Color Palettes](https://www.color-hex.com/color-palettes/)
       - [NIPPON COLORS - 日本の伝統色](https://nipponcolors.com/)
-        collapsed:: true
         - 山寨 | [zhongguose － 传统颜色](http://zhongguose.com/)
       - 护眼色 | [Solarized](https://ethanschoonover.com/solarized/)
         - [GitHub - jan-warchol/selenized: Solarized redesigned: fine-tuned color palette for programmers with focus on readability.](https://github.com/jan-warchol/selenized)
@@ -161,13 +148,11 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     -
   -
   - ### 🖌 Draw
-    collapsed:: true
     - 🌟 [Excalidraw](https://excalidraw.com)
     - [Canvas](https://canvas.apps.chrome/)
     - [Diagram Software and Flowchart Maker](https://www.diagrams.net/)
   -
   - ### 📝 Share Gist / Clipboard
-    collapsed:: true
     - [Ubuntu Pastebin](https://paste.ubuntu.com/);
     - [Fast Share Code](https://app.niucodata.com/share);
     - [Carbon | Create and share beautiful images of your source code](https://carbon.now.sh/);
@@ -177,13 +162,11 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - [Notepin - Extremely simple note taking](https://notepin.co/)
   -
   - ### 👥 Community
-    collapsed:: true
     - [GitHub: Let’s build from here · GitHub](https://github.com/)
     - [DEV Community 👩‍💻👨‍💻](https://dev.to/)
     - [daily.dev | The Homepage Developers Deserve](https://app.daily.dev/)
   -
   - ### 💼 Company #Job
-    collapsed:: true
     - [脉脉-成就职业梦想](https://maimai.cn/)
     - [面试经验|工资待遇|职业圈 - 职朋](https://www.job592.com)
     - [职友集：让求职者少走弯路](https://www.jobui.com/)
@@ -191,7 +174,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - [企查查 - 企业工商信息查询系统_查企业_查老板_查风险就上企查查!](https://www.qcc.com/)
   -
   - ### Other Tools
-    collapsed:: true
     - [ChatGPT - OpenAI](https://chat.openai.com/)
     - [[Open Judge]]
       - [ACdream](http://acdream.info/)
@@ -220,19 +202,16 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [ZTrening](http://www.codah.club/)
 -
 - ## 😎 Life / Hobbies
-  - ### 如果有天堂，那一定是图书馆的模样
-    collapsed:: true
+  - ### Books
     - [书格](https://new.shuge.org/)
   -
-  - ### [[Blog]]
-    collapsed:: true
+  - ### [[blog]]
     - [十年之约](https://www.foreverblog.cn/)
     - [Find Blog👁发现博客](https://t.me/FindBlog) [↩](tg://resolve?domain=FindBlog)
     - [timqian/chinese-independent-blogs: 中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
     - https://www.google.com/search?q=site:v2ex.com+blog #search/latter
   -
   - ### 🎥 [[Video]]
-    collapsed:: true
     - [首页 - 人人影视下载分享站](https://yyets.dmesg.app/home)
     - [80s电影网 - MP4高清电影分享](https://www.kk80s.com/)
     -
@@ -241,11 +220,9 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
         id:: 6424f25c-07a0-4533-ae3e-73e33f674fa1
   -
   - ### 📺 [[Anime]]
-    collapsed:: true
     - [番组放送](https://bgmlist.com/)  #opensource
-    - [M站_哔咪动漫,哔咪哔咪, 这里是兴趣使然的无名小站_bimibimi](https://www.bimiacg4.net/) #RSS
+    - [M站_哔咪动漫,哔咪哔咪, 这里是兴趣使然的无名小站_bimibimi](https://www.bimiacg4.net/) #rss
     - [NEP.Anime | 动画仓库](https://t.me/AnimeNep) [↩](tg://resolve?domain=AnimeNep)
-      collapsed:: true
       - [AnimeNep Helper](tg://resolve?domain=AnimeNepbot)
     - [樱花动漫(P)－专注动漫的门户网站](https://www.yhdmp.cc/)
     - [233动漫网 - 动漫在线-动漫下载](https://www.dm233.me/)
@@ -259,12 +236,10 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - [Ani-One中文官方動畫頻道 - YouTube](https://www.youtube.com/@AniOneAnime/videos)
   -
   - ### 📔 [[Manga]]
-    collapsed:: true
     - [在线看漫画_飒漫乐画_妃夕妍雪 - 漫画柜](https://www.manhuagui.com/)
     - [Mox.moe (Kindle漫畫|Kobo漫畫|epub漫畫) (mox.moe)](https://mox.moe/)
   -
   - ### 🎮 [[game]]
-    collapsed:: true
     - #### 👥 [[community]]
       - [其乐 Keylol](https://keylol.com/)
       - [Steam Community](https://steamcommunity.com/)
@@ -289,7 +264,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [摩点 - 发现新奇好物](https://www.modian.com/)
   -
   - ### 😍 [[hentai]]
-    collapsed:: true
     - ### 😍📚[[database]]
       - [JAVLibrary, Your online informative source for Japanese adult videos.](https://www.javlibrary.com/cn/)
       - [JavDB, Online information source for adult movies](https://javdb.com/)
@@ -298,12 +272,10 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - ### 😍👥 [[community]]
       - [我的galgame资源站--忧郁的loli_忧郁的弟弟](https://www.mmgal.com/) #hentai #galgame
       - [天遊二次元-非专业的PC及APP之Galgame情报，专攻汉化文字游戏，原天使二次元](https://www.tiangal.com/) #hentai #galgame
-        collapsed:: true
         - [天使二次元 — 本站专注ACG，主攻Galgame，兼攻Comic，Anime。以汉化版Galgame为主，为未来Gal中文界培养生力军。](https://www.tianshie.com/)
       - [GMgard - 紳士の庭 ♢绅士们的二次元资源分享交流平台♢](https://gmgard.com/)
       - [琉璃神社★分享动漫快乐](https://acg.gy)
       - [南+ South Plus - powered by Pu!mdHd](https://www.south-plus.net/)
-        collapsed:: true
         - [北+ South Plus - powered by Pu!mdHd](https://www.north-plus.net/)
         - [西+ South Plus - powered by Pu!mdHd](https://www.east-plus.net/)
         - [夏+ South Plus - powered by Pu!mdHd](https://www.summer-plus.net/)
@@ -319,13 +291,10 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     -
     - ### 😍🎥 [[Video]]
       - [XVIDEOS.COM - Free Porn Videos](https://www.xvideos.com/)
-        collapsed:: true
         - [Free Porn Videos - XVIDEOS.COM](https://www.xvideos.com/)
       - [XNXX.COM | Free Porn, Sex, Tube Videos, XXX Pics, Pussy in Porno Movies ](https://www.xnxx.com/)
-        collapsed:: true
         - [Free Porn, Sex, Tube Videos, XXX Pics, Pussy in Porno Movies - XNXX.COM](https://www.xnxx.com/)
       - [xHamster - Free Porn Videos & Sex Tube Movies at xHamster](https://xhamster.com/)
-        collapsed:: true
         - [Free Porn Videos & Sex Tube Movies at xHamster](https://xhamster18.desi/)
       - [Netflav - 主頁 / Home](https://netflav.com/)
       - [Pornhub | 免费色情视频及性爱影片 – A片，X级，色情片分享网站](https://cn.pornhub.com/)
@@ -359,7 +328,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [铁牛爱经官网 – 国内首家「性能力」培训品牌 – 中国保健协会理事单位。 – 专业男人「性能力」培训品牌](https://tieniu.ren/)
   -
   - ### 📚 [[database]]
-    collapsed:: true
     - [MyAnimeList.net - Anime and Manga Database and Community](https://myanimelist.net/)  #social/networking
     - [Baka-Updates Manga - Your Reviews, Series, Scanlator and Latest Manga Release Resource](https://www.mangaupdates.com/)
     - [The Visual Novel Database | vndb](https://vndb.org/)
@@ -392,15 +360,12 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - [DB-Engines Ranking - popularity ranking of database management systems](https://db-engines.com/en/ranking)
   -
   - ### ⏸ [[Podcast]]
-    collapsed:: true
     - [Anchor - The easiest way to make a podcast](https://anchor.fm/) #creation
-      collapsed:: true
       - via: [如何開始一個成功的Podcast， 新手 Podcast 製作教學 - janstockcoin](https://janstockcoin.com/2021/06/23/podcast3/#%E8%81%AF%E5%90%88%E4%BD%A0%E7%9A%84_Podcast_RSS_%E6%8F%90%E8%A6%81)
     - [pod.link | Share a Podcast](https://pod.link/)
     - ~~[Podcast PlayFM Play Later for Bgzo](https://player.fm/bgzo/play-later/all)~~
   -
   - ### 🇨🇳 [[China]] [[gov]]
-    collapsed:: true
     - [信用信息公示系统](http://www.gsxt.gov.cn/index.html)
     - [合同示范文本库](http://cont.12315.cn)
     - [标准地图服务](http://bzdt.ch.mnr.gov.cn/index.html)

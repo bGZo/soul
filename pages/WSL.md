@@ -3,6 +3,7 @@ alias:: Windows Subsystem For Linux
 tags:: #Windows #Linux #-nix #tools #Github #Microsoft
 source:: [microsoft/WSL: Issues found on WSL](https://github.com/microsoft/WSL) ![](https://img.shields.io/github/stars/microsoft/WSL)
 created:: 202104
+
 - ## [[Quickref]]
   - Open in `explore.exe` #PowerShell #Windows
     collapsed:: true
@@ -24,7 +25,7 @@ created:: 202104
     - via: [WSL 和 WSL2 简单对比 - V2EX](https://v2ex.com/t/587642)
     - [🚀 为什么在 WSL 下项目的编译/运行/git 等等和 IO 相关的操作貌似很慢？ · Issue #17 · spencerwooo/dowww](https://github.com/spencerwooo/dowww/issues/17#issuecomment-457128479)
     - [你不需要花哨的命令提示符 - 知乎](https://zhuanlan.zhihu.com/p/51008087)
-- ## [[Issue]]
+- ## [[issue]]
   - DONE WSL GUI
     collapsed:: true
     - Unstable Version: https://docs.microsoft.com/zh-cn/windows/wsl/tutorials/gui-apps

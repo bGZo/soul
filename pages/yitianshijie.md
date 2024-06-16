@@ -1,7 +1,8 @@
 icon:: 📝
 tags:: blog
+
 - ## [[reading]] [[flow]] | 阅读工作流
-  - If they have full content [[RSS]], it's the best.
+  - If they have full content [[rss]], it's the best.
     - I hate wordpress output recent 10 posts by default. #sucks #sucks
     - Import into [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader).
     - Found interesting content;

@@ -1,7 +1,8 @@
 title:: my/blog
-tags:: #Blog #jekyll #vercel
+tags:: #blog #jekyll #vercel
 mark:: [Home - bGZo's blog](http://blog.bgzo.cc)
-- ## [[Issue]]
+
+- ## [[issue]]
   - DONE Modify Font CSS (Solarized) in 20230128
     collapsed:: true
     - [chawyehsu/lxgw-wenkai-webfont: webfont package for the LXGW WenKai typeface](https://github.com/chawyehsu/lxgw-wenkai-webfont) #sucks #font/web

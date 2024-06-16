@@ -4,6 +4,7 @@ moegirl:: [Galgame - 萌娘百科 萬物皆可萌的百科全書 (moegirl.org.cn
 wikipedia:: [Bishōjo game - Wikipedia](https://en.wikipedia.org/wiki/Bish%C5%8Djo_game)
 tags:: #Hobby #game
 mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
+
   - cover:: ![🖼 ](../assets/``{ date.now.format('YYYY') }``/)
     title::
     alias::
@@ -32,7 +33,7 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
     collapsed:: true
     - ((63db96e5-053c-4978-8860-a305fa58f26c))
       id:: 63da20d9-3875-4191-a09a-735a0ca76cc5
-    - DONE Mp4 No Loss Encode | MP4无损压缩 #Issue #ffmpeg
+    - DONE Mp4 No Loss Encode | MP4无损压缩 #issue #ffmpeg
       collapsed:: true
       - ```bash
         ffmpeg -i $in -c:v libx264 -c:a libfaac -crf 20 -preset:v veryslow $out
@@ -45,7 +46,7 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
         - 自己试了下0, 无损压缩, 文件大小从30M -> 300M
       - via: [shell - FFMPEG convert .mpg video to .mp4 without lose quality - Stack Overflow](https://stackoverflow.com/questions/33672960/ffmpeg-convert-mpg-video-to-mp4-without-lose-quality)
         - WAITING [Encode/H.264 – FFmpeg](https://trac.ffmpeg.org/wiki/Encode/H.264)
-    - DONE Diff 2 compressed video info (size under different bitrate/High@L ...)? #Issue
+    - DONE Diff 2 compressed video info (size under different bitrate/High@L ...)? #issue
       collapsed:: true
       - 比较两个命令的输出有何区别 (最好着色)? #diff
         - ```shell

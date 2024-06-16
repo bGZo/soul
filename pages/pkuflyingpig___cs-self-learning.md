@@ -1,7 +1,8 @@
 title:: PKUFlyingPig/cs-self-learning
-tags:: #Github #opensource #Tutorial  #programming #roadmap/develop
+tags:: #Github #opensource #tutorial  #programming #roadmap/develop
 created:: 20230324
 mark:: [计算机自学指南](https://github.com/PKUFlyingPig/cs-self-learning) ![](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning)；[CS自学指南](https://csdiy.wiki/)
+
   - > *Everyone should enjoy CS if you have a good teacher to teach you a good course.*
     ![](https://raw.githubusercontent.com/PKUFlyingPig/cs-self-learning/master/docs/images/title.png)
 - ## Contents

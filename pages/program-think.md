@@ -1,7 +1,7 @@
 title:: program-think
 alias:: 编程随想
 desc::
-tags:: #Blog
+tags:: #blog
 author:: 编程随想
 source:: [编程随想的博客](https://program-think.blogspot.com/)
 mark::

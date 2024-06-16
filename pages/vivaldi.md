@@ -1,4 +1,5 @@
-tags:: #Browser #deprecated
+tags:: #browser #deprecated
+
 - ## Feature 🎉
   collapsed:: true
   - 🚫 update notification && 🚫 account must
