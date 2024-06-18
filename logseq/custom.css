@@ -70,8 +70,11 @@ hr {
  */
 :root {
   --usuao: #91B493;
-  --ls-tag-text-opacity: .9;
+  --aoni: #516E41;
+  --ls-tag-text-opacity: .7;
   --ls-highlight-color: var(--usuao);
+  --ls-link-text-color: var(--aoni);
+  --ls-highlight-text-color: var(--aoni);
 }
 .light-theme, html[data-theme="light"]{
   --ls-page-blockquote-border-color: var(--ls-highlight-color);
@@ -104,8 +107,8 @@ mark>a {
  */
 a.tag {
   display: inline;
-  border: 1.5px dashed var(--ls-highlight-color, #045591);
-  color: var(--ls-highlight-color);
+  border: 1.5px dashed var(--ls-highlight-text-color, #045591);
+  color: var(--ls-highlight-text-color);
 }
 a.tag:active, a.tag:focus, a.tag:hover {
   outline: none;
@@ -120,7 +123,7 @@ a.tag:active, a.tag:focus, a.tag:hover {
   border: 0;
   text-decoration: underline;
   text-decoration-style: dashed;
-  color: var(--ls-highlight-color);
+  color: var(--ls-highlight-text-color);
 }
 
 
