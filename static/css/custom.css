@@ -2,6 +2,7 @@
 @import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/admonition/admonition.css');
 @import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/quotes/quotes.css');
 @import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/tasks/tasks.css');
+@import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/code/code.css');
 
 /**
  * feat: with right layout ability
@@ -65,12 +66,46 @@ hr {
 
 
 /**
+ * style: custom color schame
+ */
+:root {
+  --usuao: #91B493;
+  --ls-tag-text-opacity: .9;
+  --ls-highlight-color: var(--usuao);
+}
+.light-theme, html[data-theme="light"]{
+  --ls-page-blockquote-border-color: var(--ls-highlight-color);
+  --ls-page-blockquote-bg-color: var(--color-level-3);
+  --ls-page-mark-bg-color: var(--ls-highlight-color);
+  --ls-page-properties-background-color: var(--color-level-3);
+}
+
+@media (prefers-color-scheme: dark) {
+  .light-theme, html[data-theme="light"]{
+    --ls-page-blockquote-border-color: var(--ls-highlight-color);
+    --ls-page-blockquote-bg-color: var(--color-level-3);
+    --ls-page-mark-bg-color: var(--ls-highlight-color);
+    --ls-page-properties-background-color: var(--color-level-3);
+  }
+  img {
+    filter: brightness(.80) contrast(1.1);
+  }
+}
+mark>code {
+  background-color: var(--ls-highlight-color) !important;
+}
+mark>a {
+  color: black !important;
+}
+
+
+/**
  * style[required]: custom tag
  */
- a.tag {
+a.tag {
   display: inline;
-  border: 1px dashed var(--ls-tag-text-color, #045591);
-  color: black;
+  border: 1.5px dashed var(--ls-highlight-color, #045591);
+  color: var(--ls-highlight-color);
 }
 a.tag:active, a.tag:focus, a.tag:hover {
   outline: none;
@@ -81,10 +116,11 @@ a.tag:active, a.tag:focus, a.tag:hover {
 /**
  * style: hyber link style with underline
  */
- .external-link {
+.external-link {
   border: 0;
   text-decoration: underline;
   text-decoration-style: dashed;
+  color: var(--ls-highlight-color);
 }
 
 
@@ -99,7 +135,7 @@ a.tag:active, a.tag:focus, a.tag:hover {
 /**
  * feat: task cancel text-decoration
  */
- .canceled, .cancelled, .done {
+.canceled, .cancelled, .done {
   text-decoration: none !important;
-  opacity: .6
+  opacity: var(--ls-tag-text-opacity);
 }
