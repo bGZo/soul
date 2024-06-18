@@ -1,7 +1,7 @@
-@import url('https://raw.githack.com/yoyurec/logseq-awesome-props/main/src/modules/propsLayout/propsLayout.css');
-@import url('https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/admonition/admonition.css');
-@import url('https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/quotes/quotes.css');
-@import url('https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/tasks/tasks.css');
+@import url('https://gistcdn.githack.com/bGZo/8df460ec380a5bd4385cb8225e894cf0/raw/8fc9f15b8f8b652119bfa15e92740d6cf9b6ae32/7.propsLayout.custom.css');
+@import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/admonition/admonition.css');
+@import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/quotes/quotes.css');
+@import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/tasks/tasks.css');
 
 /**
  * feat: with right layout ability
