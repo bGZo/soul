@@ -73,10 +73,11 @@ hr {
   --aoni: #516E41;
   --ls-tag-text-opacity: .7;
   --ls-highlight-color: var(--usuao);
-  --ls-link-text-color: var(--aoni);
   --ls-highlight-text-color: var(--aoni);
+  --ls-link-text-color: var(--aoni);
 }
 .light-theme, html[data-theme="light"]{
+  --ls-tag-background-hover: var(--color-level-1);
   --ls-page-blockquote-border-color: var(--ls-highlight-color);
   --ls-page-blockquote-bg-color: var(--color-level-3);
   --ls-page-mark-bg-color: var(--ls-highlight-color);
@@ -85,6 +86,7 @@ hr {
 
 @media (prefers-color-scheme: dark) {
   .light-theme, html[data-theme="light"]{
+    --ls-tag-background-hover: var(--color-level-1);
     --ls-page-blockquote-border-color: var(--ls-highlight-color);
     --ls-page-blockquote-bg-color: var(--color-level-3);
     --ls-page-mark-bg-color: var(--ls-highlight-color);
@@ -100,6 +102,9 @@ mark>code {
 mark>a {
   color: black !important;
 }
+.page-ref {
+  color: var(--ls-highlight-text-color);
+}
 
 
 /**
@@ -107,6 +112,7 @@ mark>a {
  */
 a.tag {
   display: inline;
+  background: none;
   border: 1.5px dashed var(--ls-highlight-text-color, #045591);
   color: var(--ls-highlight-text-color);
 }
