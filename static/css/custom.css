@@ -73,11 +73,10 @@ hr {
   --aoni: #516E41;
   --ls-tag-text-opacity: .7;
   --ls-highlight-color: var(--usuao);
-  --ls-link-text-color: var(--aoni);
   --ls-highlight-text-color: var(--aoni);
+  --ls-link-text-color: var(--aoni);
 }
 .light-theme, html[data-theme="light"]{
-  --ls-selection-background-color: var(--ls-highlight-color);
   --ls-tag-background-hover: var(--color-level-1);
   --ls-page-blockquote-border-color: var(--ls-highlight-color);
   --ls-page-blockquote-bg-color: var(--color-level-3);
@@ -87,7 +86,6 @@ hr {
 
 @media (prefers-color-scheme: dark) {
   .light-theme, html[data-theme="light"]{
-    --ls-selection-background-color: var(--ls-highlight-color);
     --ls-tag-background-hover: var(--color-level-1);
     --ls-page-blockquote-border-color: var(--ls-highlight-color);
     --ls-page-blockquote-bg-color: var(--color-level-3);
@@ -103,6 +101,9 @@ mark>code {
 }
 mark>a {
   color: black !important;
+}
+.page-ref {
+  color: var(--ls-highlight-text-color);
 }
 
 
