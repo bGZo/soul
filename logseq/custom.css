@@ -60,7 +60,6 @@
  * style[required]: custom horizontal rule.
  */
 hr {
-  /* border-color: var(--); */
   margin: 1rem 0;
 }
 
@@ -74,22 +73,17 @@ hr {
   --ls-tag-text-opacity: .7;
   --ls-highlight-color: var(--usuao);
   --ls-link-text-color: var(--aoni);
-  --ls-highlight-text-color: var(--aoni);
-}
-.light-theme, html[data-theme="light"]{
+
+  --ls-tag-background-hover: var(--color-level-1)
+  --ls-highlight-text-color: var(--ls-link-text-color);
+  --ls-selection-background-color: var(--ls-highlight-color);
   --ls-page-blockquote-border-color: var(--ls-highlight-color);
   --ls-page-blockquote-bg-color: var(--color-level-3);
   --ls-page-mark-bg-color: var(--ls-highlight-color);
-  --ls-page-properties-background-color: var(--color-level-3);
+  --ls-page-properties-background-color: var(--color-level-3);  
 }
 
 @media (prefers-color-scheme: dark) {
-  .light-theme, html[data-theme="light"]{
-    --ls-page-blockquote-border-color: var(--ls-highlight-color);
-    --ls-page-blockquote-bg-color: var(--color-level-3);
-    --ls-page-mark-bg-color: var(--ls-highlight-color);
-    --ls-page-properties-background-color: var(--color-level-3);
-  }
   img {
     filter: brightness(.80) contrast(1.1);
   }
@@ -107,6 +101,7 @@ mark>a {
  */
 a.tag {
   display: inline;
+  background: none;
   border: 1.5px dashed var(--ls-highlight-text-color, #045591);
   color: var(--ls-highlight-text-color);
 }
