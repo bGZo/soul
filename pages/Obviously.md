@@ -1,10 +1,7 @@
 title:: Obviously
 alias:: 显然乐队, 顯然樂隊
 tags:: #band #taiwan
-source::
-mark::
-created:: 20230115
-closed::
+created:: [[20230115]]
 
 - ## Members
   - 阿琺－主唱、吉他

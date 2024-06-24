@@ -1,7 +1,8 @@
 icon:: 📂
 tags:: #Steam #DOING #project
-created:: 20230705
+created:: [[20230705]]
 title:: Steam Price Badges
+
 - ## Project Meta
   - DOING #project [[Steam Price Badges]]
   - query-table:: false

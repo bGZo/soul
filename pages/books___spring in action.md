@@ -8,7 +8,7 @@ isbn:: 9787115598691
 douban:: [Spring实战（第6版） (豆瓣)](https://book.douban.com/subject/36142064)
 weread:: [Spring实战（第6版）-克雷格·沃斯-微信读书](https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4)
 mark:: [habuma/spring-in-action-6-samples: Sample code from Spring in Action 6](https://github.com/habuma/spring-in-action-6-samples)
-created:: 20230111
+created:: [[20230111]]
 
 - ## 📄 Contents
   - 关于本书
@@ -1969,7 +1969,7 @@ created:: 20230111
       collapsed:: true
       via: [hibernate - Tests failing when upgrading to Spring Boot 2.7 - "CommandAcceptanceException: Error executing DDL" - Stack Overflow](https://stackoverflow.com/questions/72546596/tests-failing-when-upgrading-to-spring-boot-2-7-commandacceptanceexception-e)
       - [EverSQL | Automatic SQL Query Optimization for MySQL & PostgreSQL](https://www.eversql.com/)
-    - 同时发现 #WSL 其实没有那么方便，因为我用 Windows 的环境运行了一下作者写的项目；然后停下来再运行我的，发现就访问不到了，最后还是用 WSL 的 IP 访问的；
+    - 同时发现 #wsl 其实没有那么方便，因为我用 Windows 的环境运行了一下作者写的项目；然后停下来再运行我的，发现就访问不到了，最后还是用 WSL 的 IP 访问的；
       - 然后我发现 WSL 的IP 需要去 WSL 里面去找 😂；Windows 里面的 IP 是访问不到 Linux 的；
         - Emmmm🤔, 有点复杂
     - Kill port in windows via: https://stackoverflow.com/questions/56499928

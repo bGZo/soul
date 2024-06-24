@@ -1,12 +1,6 @@
 title:: smartblocks
-alias::
-desc::
 tags:: #logseq/plugin
-author::
-source::
-mark::
-created:: 20221213
-closed::
+created:: [[20221213]]
 
 - [[issue]]
   - TODO [#B] The block properties would be missing
@@ -16,13 +10,13 @@ closed::
       - ```
         template:: Placeholder
         template-including-parent:: false
-        - title::
-          desc::
-          tags::
-          source::
-          mark::
-          start-date::
-          end::
+        - title:: 
+          desc:: 
+          tags:: 
+          source:: 
+          mark:: 
+          start-date:: 
+          end:: 
           collapsed:: true
           - Placeholder
             - Placeholder
@@ -32,13 +26,13 @@ closed::
         ```
     - When I use SmartBlocks, what I get:
       - ```
-        - title::
-          desc::
-          tags::
-          source::
-          mark::
-          start-date::
-          end::
+        - title:: 
+          desc:: 
+          tags:: 
+          source:: 
+          mark:: 
+          start-date:: 
+          end:: 
           - Placeholder
             - Placeholder
               backgroundcolor:: grey

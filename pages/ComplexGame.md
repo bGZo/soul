@@ -5,5 +5,4 @@ mark:: 是凉意主持或独角的一档播客节目，希望提供超越二元�
 author:: 凉意
 tags:: #Podcast
 source:: [超智游戏ComplexGame](https://pod.link/1535884558)
-created:: 20230113
-closed::
+created:: [[20230113]]

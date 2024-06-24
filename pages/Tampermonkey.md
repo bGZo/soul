@@ -1,6 +1,6 @@
 alias:: 油猴
 icon:: 🐵
-created:: 20231224
+created:: [[20231224]]
 tags:: #Productivity
 title:: Tampermonkey
 - [Documentation | Tampermonkey](https://www.tampermonkey.net/documentation.php)

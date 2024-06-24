@@ -6,11 +6,11 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
   - ### 🚀 Mirrors
     - id:: 66515727-37fc-4088-aff7-c582f96f7344
       title:: https://github.com/eryajf/Thanks-Mirror
-      tags:: #Github #opensource #mirror #proxy
-      created:: 20230223
+      tags:: #github #opensource #mirror #proxy
+      created:: [[20230223]]
       mark:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
       ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
-    - [[Github]]
+    - [[github]]
       - https://hub.xn--p8jhe.tw
       - https://hub.xn--gzu630h.xn--kpry57d
       - https://hub.fastgit.xyz
@@ -34,7 +34,6 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - https://gogogle.cf/
       - https://g.maysaor.tk/
       - http://searx.bear4.ml/
-      - S
     - Scholar
       - https://coderschool.cn/1853.html
       - https://ac.scmor.com/

@@ -1,45 +1,45 @@
 - [[template]]
   - template:: word(default: en)
     template-including-parent:: false
-    - title::
+    - title:: 
       definition:: {{cloze }}
       tags:: #card, #English/word
-      refs::
-      mark::
+      refs:: 
+      mark:: 
   - template:: word/zh
     template-including-parent:: false
-    - title::
+    - title:: 
       definition:: {{cloze }}
       tags:: #card, #Chinese/word
-      refs::
-      mark::
+      refs:: 
+      mark:: 
   - template:: word/it
     template-including-parent:: false
-    - title::
+    - title:: 
       definition:: {{cloze }}
       tags:: #card, #programming/word
-      refs::
-      mark::
+      refs:: 
+      mark:: 
   - 在 `page_name`中,  不会再加入 `[[]]`的符号;
     collapsed:: true
     - ```markdown
       # archived
       - template:: wordMeta
-        name::
+        name:: 
         full:: {{cloze }}
-        tag::
-        mark::
-        type::
+        tag:: 
+        mark:: 
+        type:: 
       - template:: wordMeta-itRef
-        name::
+        name:: 
         full:: {{cloze }}
-        tag::
-        mark::
+        tag:: 
+        mark:: 
         type:: itRef
       - template:: wordMeta-abbr
-        name::
+        name:: 
         full:: {{cloze }}
-        tag::
-        mark::
+        tag:: 
+        mark:: 
         type:: abbr
       ```

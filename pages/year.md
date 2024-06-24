@@ -28,8 +28,8 @@ title:: year
           - {{iframe https://www.dlsite.com/maniax/ranking/year?year=``{c.page.name}``&sort=sale&category=comic}}
   -
   - DONE In new [[year]] page, I will sperate vertical page to two parts at least. #Closed #deprecated
-    created:: 20221217
-    closed:: 20230218
+    created:: [[20221217]]
+    closed:: [[20230218]]
     - the more details are like this: #changelog/wiki #template
       collapsed:: true
       - ![](../assets/works/2023-new-page-design.png){:height 394, :width 275}
@@ -38,11 +38,11 @@ title:: year
       collapsed:: true
       template-including-parent: false
       - icon:: 📅
-        title::
+        title:: 
         alias:: year/
-        desc::
+        desc:: 
         tags:: #year
-        mark::
+        mark:: 
       - `{{query }}`
       - ## 💬 Topic
         collapsed:: true

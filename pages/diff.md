@@ -1,5 +1,5 @@
 alias:: commands/diff
-created:: 20240420
+created:: [[20240420]]
 icon:: ⌘
 - ## Why
 - ## How

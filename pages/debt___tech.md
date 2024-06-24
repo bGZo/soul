@@ -8,5 +8,5 @@ mark:: [Technical debt - Wikipedia](https://en.wikipedia.org/wiki/Technical_debt
     >
     [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham) (1992-03-26). ["The WyCash Portfolio Management System"](http://c2.com/doc/oopsla92.html). Retrieved 2008-09-26.
   - I agree so much. "Only install the plugins when you can read and understand the source code."
-    created:: 20230215
+    created:: [[20230215]]
     - ![Logseq_212.png](../assets/Logseq_212_1676439263372_0.png)

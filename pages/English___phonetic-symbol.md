@@ -1,5 +1,4 @@
 title:: English/phonetic-symbol
-alias::
 mark:: 音标
 -
 -

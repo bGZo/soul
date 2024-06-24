@@ -31,14 +31,14 @@ tags:: #lang
       id:: 63a0758e-c45f-4b3e-b5ed-a37800621f20
       collapsed:: true
       - title:: [Evolution of the Alphabet | Earliest Forms to Modern Latin Script - YouTube](https://www.youtube.com/watch?v=3kGuN8WIGNc)
-        alias::
-        desc::
+        alias:: 
+        desc:: 
         tags:: #Video
-        author::
-        source::
+        author:: 
+        source:: 
         mark:: inspired by [5天就能記住1萬個單詞的方法，老師為什麽不教？用结果说话，因为结果不会骗人一套高效背单词的方法，单词记忆法。快速提高中考高考英语，四级六级考研雅思托福词汇量 - YouTube](https://www.youtube.com/watch?v=AFgZbU3AhlY&t=264s)
-        created:: 20221219
-        closed::
+        created:: [[20221219]]
+        closed:: 
         - {{video https://www.youtube.com/watch?v=3kGuN8WIGNc}}
           - {{youtube-timestamp 54}} Begin
           - Proto-Sinaitic (原始西奈) | 青铜中期文化时期字母

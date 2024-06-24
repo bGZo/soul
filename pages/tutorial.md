@@ -1,12 +1,12 @@
 alias:: 教程
-created:: 20230719
+created:: [[20230719]]
 title:: tutorial
 
   - template:: tutorial
     template-including-parent:: true
-    author::
-    tags::
-    source::
+    author:: 
+    tags:: 
+    source:: 
     created:: <% today %> <% time %>
 - > To follow the path,
   look to the master,

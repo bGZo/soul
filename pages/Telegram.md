@@ -2,7 +2,7 @@ alias:: tg, 电报, t.me, telegram.me, telegram.org, telesco.pe, tg.dev
 tags:: #tool/im
 document:: [Telegram APIs](https://core.telegram.org/api)
 changelog:: [Version history](https://desktop.telegram.org/changelog)
-created:: 20200108
+created:: [[20200108]]
 title:: Telegram
 
 - ## Why
@@ -17,7 +17,7 @@ title:: Telegram
 - ## 📃 References
   collapsed:: true
   -
-- ## [[Start Page]]
+- ## [[navigation]]
   collapsed:: true
   - ### Web Client
     collapsed:: true

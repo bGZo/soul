@@ -1,6 +1,4 @@
-title:: 
 tags:: #rss/deprecated
-mark:: 
 template:: rss/deprecated
 template-including-parent:: true
 

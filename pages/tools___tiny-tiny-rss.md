@@ -93,7 +93,7 @@ title: tools/tiny-tiny-rss
       }
       ```
   - Bug
-    - deploy in [[WSL]]
+    - deploy in [[wsl]]
       - Fucking ___VM Network___!!! So you cannot visit using LAN IP, which you just only use it on your PC(using 127.0.0.1)!!! So next you should set ___port forwarding___ on win10.  The startup see more deatails on [here-csdn](https://blog.csdn.net/cf313995/article/details/108871531). Shortly like following:
       - ```shell
         # on wsl

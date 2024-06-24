@@ -1,7 +1,5 @@
 icon:: 💭
 name:: [Outline of thought - Wikipedia](https://en.wikipedia.org/wiki/Outline_of_thought#Types_of_thought_(thinking))
-tags::
-mark::
 archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia (11_15_2022 11_40_59 PM).html)
 
   - also known as [[thinking]] processes
@@ -298,7 +296,7 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
     template-including-parent:: false
     - <!--Thoughts-->
       tags:: #thought, #my
-      feeling::
-      mark::
+      feeling:: 
+      mark:: 
       created:: <% today %>
 -

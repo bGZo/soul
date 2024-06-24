@@ -1,9 +1,8 @@
 title:: xuxiaodong/usingcli-book
-tags:: #Github #Book #commandline #-nix
+tags:: #github #Book #commandline #-nix
 source:: [xuxiaodong/usingcli-book: 像黑客一样使用命令行](https://github.com/xuxiaodong/usingcli-book) ![](https://img.shields.io/github/stars/xuxiaodong/usingcli-book)
-created:: 20230103
-closed:: 20230103
-mark::
+created:: [[20230103]]
+closed:: [[20230103]]
 
 - ## [[Quickref]]
   - ((0ad5daf6-95a7-44f6-8f77-dd4623b9076a))

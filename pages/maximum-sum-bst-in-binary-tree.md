@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium
-created:: 20230520
+created:: [[20230520]]
 - ## Content
   - <iframe src="https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree/)

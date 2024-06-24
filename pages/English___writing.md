@@ -1,5 +1,4 @@
 title:: English/writing
-alias::
 
 - #+BEGIN_PINNED
   [^1] 不要用任何简写

@@ -1,11 +1,8 @@
-icon::
 title:: mastodon
 alias:: Mastodon
-desc::
 tags:: #[[Social Media]] #tool
 source:: [mastodon/mastodon: Your self-hosted, globally interconnected microblogging community](https://github.com/mastodon/mastodon)
-created:: 20221219
-mark::
+created:: [[20221219]]
 
 - ## [[cheat/sheet]]
   - ### [[shortcut]]

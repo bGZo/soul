@@ -7,6 +7,9 @@ created: 20230602
 title: proxy
 ---
 
+- #+BEGIN_PINNED
+  世界之大，付费可及；
+  #+END_PINNED
 - ## Why
   - Due to [[GFW]] )
 - ## How

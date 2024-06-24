@@ -3,7 +3,7 @@ alias:: 咖啡
 title:: coffee
 tags:: #Hobby
 cost:: 1
-created:: 20230530
+created:: [[20230530]]
 - ## Why
   -
 - ## How

@@ -1,7 +1,8 @@
 alias:: 命令
 icon:: ⌘
-created:: 20230625
+created:: [[20230625]]
 title:: command
+
   - Linux Manual
     template:: command-man
     template-including-parent:: false
@@ -398,7 +399,7 @@ title:: command
         - nohup
         - killall
         - pkill
-    - ### Manual #[[Start Page]]
+    - ### Manual #[[navigation]]
       collapsed:: true
       - [Linux 常用命令全拼 | 菜鸟教程](https://www.runoob.com/w3cnote/linux-command-full-fight.html)  (runoob.com)
         collapsed:: true
