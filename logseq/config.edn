@@ -218,7 +218,7 @@
  ;; The default level to be opened for the linked references.
  :ref/default-open-blocks-level 1
 
- :favorites ["20240127" "20240203" "20230211"]
+ :favorites ["inbox" "content checklist" "project checklist" "waiting checklist" "trash checklist" "navigation"]
 
  :ref/linked-references-collapsed-threshold 20
 
