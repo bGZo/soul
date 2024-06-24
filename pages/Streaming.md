@@ -1,6 +1,6 @@
 collapsed:: true
 alias:: 串流
-created:: 20230531
+created:: [[20230531]]
 tags:: #Game
 title:: Streaming
 - ## Why
@@ -14,7 +14,7 @@ title:: Streaming
     community:: [Moonlight Ideas and Suggestions (moonlight-stream.org)](https://ideas.moonlight-stream.org/)
     document:: [Frequently Asked Questions · moonlight-stream/moonlight-docs Wiki (github.com)](https://github.com/moonlight-stream/moonlight-docs/wiki/Frequently-Asked-Questions)
     collapsed:: true
-    created:: 20230531
+    created:: [[20230531]]
     tags:: #Streaming #tools
     title:: moonlight
     collapsed:: true

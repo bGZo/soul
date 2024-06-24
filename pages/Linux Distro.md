@@ -1,7 +1,7 @@
 alias:: Linux Distribution, Linux发行套件
 icon:: 🐧
 tags:: #Linux
-created:: 20230906
+created:: [[20230906]]
 title:: Linux Distro
 - ## Why
 - ## How

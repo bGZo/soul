@@ -3,12 +3,12 @@ tags:: #[[consume]]
 - ## [[template]]
   - template:: buy
     type:: to-buy-list
-    name::
-    tags::
-    price::
-    rmb::
-    source::
-    mark::
+    name:: 
+    tags:: 
+    price:: 
+    rmb:: 
+    source:: 
+    mark:: 
 -
   - query-properties:: [:name :tags :rmb :url ]
     #+BEGIN_QUERY

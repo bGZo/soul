@@ -9,7 +9,7 @@ published-date:: 20200601
 tags:: #Rust
 douban:: https://book.douban.com/subject/35081743/
 weread:: https://weread.qq.com/web/bookDetail/d733256071eeeed9d7322fd
-created:: 20240102
+created:: [[20240102]]
 title:: Rust权威指南
 - ## Contents
   - ## 版权信息

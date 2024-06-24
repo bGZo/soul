@@ -1,8 +1,6 @@
 alias:: 议题
-mark::
 icon:: ⏸
-created:: 20231227
-tags::
+created:: [[20231227]]
 title:: issue
 
 - ## Why

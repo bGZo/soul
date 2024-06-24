@@ -1,5 +1,4 @@
 title:: command/ln
-tags::
 - On [[Windows]] its called [[mklink]]
 -
 - hard link

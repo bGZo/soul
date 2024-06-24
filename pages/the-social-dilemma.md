@@ -3,7 +3,7 @@ alias:: movie/监视资本主义
 author:: 杰夫·奥洛威斯基
 published:: 2020-09
 douban:: [监视资本主义：智能陷阱 (豆瓣)](https://movie.douban.com/subject/34960008/)
-created:: 20221202
+created:: [[20221202]]
 -
 - > 他们像蜘蛛一样测试你的神经, 这是很恐怖的
   > 你的焦虑, 脆弱和抑郁是不是这些 Social Media 带来的.

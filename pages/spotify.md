@@ -2,7 +2,7 @@ alias:: 声破天
 title:: spotify
 tags:: #music/platform
 cost:: 1
-created:: 20220320
+created:: [[20220320]]
 - ## Why this [[music/platform]]
   - To be first, Netease and QQ music both have censored and comments design, which is really wasting time.
   - Then, Apple Music have region restriction, although the China region is cheap, but they have no Joy Zhou and a lot of singer banned by China.

@@ -1,7 +1,7 @@
 alias:: 情绪
 mark:: Emotions are mental states brought(带来) on by neurophysiological(神经的) changes, variously associated with thoughts, feelings, behavioral responses, and a degree of pleasure or displeasure.
 icon:: 😀
-created:: 20230605
+created:: [[20230605]]
 title:: emotion
 wikipedia:: [Emotion - Wikipedia](https://en.wikipedia.org/wiki/Emotion)
 - ## Why

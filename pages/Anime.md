@@ -6,16 +6,16 @@ filters:: {"start_page" true}
 template:: anime
 template-including-parent:: false
   - cover:: ![🖼 ](../assets/``{ date.now.format('YYYY') }``/){:width 225}
-    title::
-    alias::
-    desc::
+    title:: 
+    alias:: 
+    desc:: 
     tags:: #Anime
-    author::
-    douban::
-    bangumi::
-    myanimelist::
+    author:: 
+    douban:: https://www.douban.com/
+    bangumi:: https://bgm.tv/subject/
+    myanimelist:: 
     created:: ``{ date.now.format('YYYYMMDD') }``
-    closed::
+    closed:: 
 - > 我就是喜欢纸片人。他们是点阵、是数据、这种事情我知道。
   那你喜欢的那个男孩又是什么? 蛋白质? 钙?
   重要的是充满爱的心啊。

@@ -1,6 +1,6 @@
 icon:: 📂
 tags:: #project, #twitter, #mastodon
-created:: 20221231
+created:: [[20221231]]
 closed:: [[weekly/1140]]
 title:: Get social media
 - ## Project Meta

@@ -2,7 +2,7 @@ alias:: java/library
 mark:: a collection of related classes, methods, and resources that are packaged together to provide a specific set of functionality. A library can contain one or more APIs and may be provided by the Java Standard Library, third-party vendors, or custom-built by the user.
 icon:: ☕
 tags:: #java/api
-created:: 20230717
+created:: [[20230717]]
 title:: java library
 
   - {{embed ((63e31fc9-aebc-46d1-8e99-a06961fbb3d8))}}

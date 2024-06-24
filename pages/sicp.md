@@ -1,7 +1,5 @@
 alias:: Structure and Interpretation of Computer Programs, book/sicp
-author::
-publisher::
-published-date::
+published-date:: 
 tags:: TODO
 source:: https://book.douban.com/subject/
 - ## Ch1 [Building Abstractions with Procedures](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-9.html#%_chap_1)
