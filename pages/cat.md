@@ -3,7 +3,7 @@ title:: cat
 alias:: 猫
 tags:: #Hobby
 cost:: 5
-created:: 20230529
+created:: [[20230529]]
 public:: false
 - ## Why
   - In such a cruel world, you may feel lonely, you may feel that you're too small, to this society with highly industrialized. You would feel sense of belonging if tame it. I mean, you could get a new relationship with someone, even they cannot understand by your language. (See the article written by Su Gengsheng ((6474a8e3-3b3e-45be-ae77-17cbcdc2e226)))

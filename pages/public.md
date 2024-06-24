@@ -9,7 +9,7 @@
     - #+BEGIN_TIP
       Put all data in one, which would be published.
       #+END_TIP
-      - I know it is really annoyed 😵. I made [[Start Page]] a whole afternoon, I have to open every linked pages, cut them and put it in start page.
+      - I know it is really annoyed 😵. I made [[navigation]] a whole afternoon, I have to open every linked pages, cut them and put it in start page.
       - Then, to beautify and make it more visual-friend, I have to design icon in every title block.
       - Even though I've spent much time to collect bookmark in every topic, I still have to spend much time on other things not matters.
   - ~~Not support block ref~~

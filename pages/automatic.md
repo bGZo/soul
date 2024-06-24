@@ -1,5 +1,5 @@
 alias:: 自动化
-created:: 20211231
+created:: [[20211231]]
 mark:: https://github.com/bGZo/2021
 - #+BEGIN_PINNED
   Nothing is more important than ==imagination==. If something in the way, just break and go though them.

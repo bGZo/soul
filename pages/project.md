@@ -1,119 +1,81 @@
 alias:: 项目
+created:: [[20230623]]
 mark:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 icon:: 📂
 title:: project
-created:: 20230623
-title:: project
+template:: project
+template-including-parent:: false
 
-  - template:: project
-    template-including-parent:: false
+  - alias:: 
+    mark::
+    icon:: 📂
+    tags:: #project
+    created:: ``{ date.now.format('YYYYMMDD') }``
+    title:: ``{ c.page.name }``
+  - ## Project Meta
     collapsed:: true
-    - ---
-      alias:
-      mark:
-      icon: 📂
-      tags: #project
-      created: ``{ date.now.format('YYYYMMDD') }``
-      title: ``{ c.page.name }``
-      ---
-    - ## Project Meta
+    - \DOING #project [[page]]
+    - query-table:: false
       collapsed:: true
-      - \DOING #project [[page]]
-      - query-table:: false
-        collapsed:: true
-        #+BEGIN_QUERY
-        {:title [:h3 "Tasks related to ``{ c.page.name }``"]
-         :query [:find (pull ?b [*])
-             :in $ ?current-page
-             :where
-             [?p :block/name ?current-page]
-             [?b :block/marker ?marker]
-        [?p :block/alias ?al]
-        (or [?b :block/refs ?p] [?b :block/refs ?al])
-        (or
-             [(= "NOW" ?marker)]
-             [(= "DOING" ?marker)]
-             [(= "WAITING" ?marker)]
-             [(= "LATER" ?marker)]
-        )
-        (not [?b :block/page ?p])
-        ]
-         :inputs [:current-page]
-          :result-transform (fn [result]
-                              (sort-by (fn [b]
-                                         (get b :block/priority "Z")) result))
-          :breadcrumb-show? false
-          :table-view? false
-        }
-        #+END_QUERY
-      - query-table:: false
-        collapsed:: true
-        #+BEGIN_QUERY
-        {:title [:h3 "Checklist"]
-         :query (and (todo todo) (page [[``{ c.page.name }``]]))
-          :result-transform (fn [result]
-                              (sort-by (fn [b]
-                                         (get b :block/priority "Z")) result))
-          :breadcrumb-show? false
-          :table-view? false
-        }
-        #+END_QUERY
-    - ## Why
+      #+BEGIN_QUERY
+      {:title [:h3 "Tasks related to ``{ c.page.name }``"]
+       :query [:find (pull ?b [*])
+           :in $ ?current-page
+           :where
+           [?p :block/name ?current-page]
+           [?b :block/marker ?marker]
+      [?p :block/alias ?al]
+      (or [?b :block/refs ?p] [?b :block/refs ?al])
+      (or
+           [(= "NOW" ?marker)]
+           [(= "DOING" ?marker)]
+           [(= "WAITING" ?marker)]
+           [(= "LATER" ?marker)]
+      )
+      (not [?b :block/page ?p])
+      ]
+       :inputs [:current-page]
+        :result-transform (fn [result]
+                            (sort-by (fn [b]
+                                       (get b :block/priority "Z")) result))
+        :breadcrumb-show? false
+        :table-view? false
+      }
+      #+END_QUERY
+    - query-table:: false
       collapsed:: true
-      -
-    - ## How
-      collapsed:: true
-      -
-    - ## What
-      collapsed:: true
-      - ### \# Program Description
-        - #### Input
-          -
-        - #### Output
-          -
-      - ### \# Alternatives
+      #+BEGIN_QUERY
+      {:title [:h3 "Checklist"]
+       :query (and (todo todo) (page [[``{ c.page.name }``]]))
+        :result-transform (fn [result]
+                            (sort-by (fn [b]
+                                       (get b :block/priority "Z")) result))
+        :breadcrumb-show? false
+        :table-view? false
+      }
+      #+END_QUERY
+  - ## Why
+    collapsed:: true
+    -
+  - ## How
+    collapsed:: true
+    -
+  - ## What
+    collapsed:: true
+    - ### \# Program Description
+      - #### Input
         -
-      - ### \# Notes
+      - #### Output
         -
-- query-table:: false
-  #+BEGIN_QUERY
-  {:title [:h3 "Tasks related to project"]
-   :query [:find (pull ?b [*])
-     :in $ ?current-page
-     :where
-     [?p :block/name ?current-page]
-     [?b :block/marker ?marker]
-  [?p :block/alias ?al]
-  (or [?b :block/refs ?p] [?b :block/refs ?al])
-  (or
-     [(= "NOW" ?marker)]
-     [(= "DOING" ?marker)]
-     [(= "WAITING" ?marker)]
-     [(= "LATER" ?marker)]
-  )
-  (not [?b :block/page ?p])
-  ]
-   :inputs [:current-page]
-  :result-transform (fn [result]
-                      (sort-by (fn [b]
-                                 (get b :block/priority "Z")) result))
-  :breadcrumb-show? false
-  :table-view? false
-  }
-  #+END_QUERY
-- query-table:: false
-  #+BEGIN_QUERY
-  {:title [:h3 "Checklist"]
-   :query (and (todo todo) (page [[project]]))
-  :result-transform (fn [result]
-                      (sort-by (fn [b]
-                                 (get b :block/priority "Z")) result))
-  :breadcrumb-show? false
-  :table-view? false
-  }
-  #+END_QUERY
--
+    - ### \# Alternatives
+      -
+    - ### \# Notes
+      -
+  - ## Reference
+    collapsed:: true
+    -
 - ## What
+  collapsed:: true
   - #+BEGIN_PINNED
     Wired Things Via [[geek]]
     #+END_PINNED
@@ -214,7 +176,6 @@ title:: project
         -
   -
   - TODO Lists
-    collapsed:: true
     - https://cuvids.io/app/video/97/watch/ #[[books/algorithms4E]]
     - x86_64 Linux Assembly
       source:: https://www.youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn

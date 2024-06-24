@@ -1,9 +1,9 @@
 icon:: 📅
-created:: 20230602
+created:: [[20230602]]
 template:: weekly
 template-including-parent:: false
 
-  - alias::
+  - alias:: 
     icon:: 📅
   - ## Review
     collapsed:: true
@@ -119,25 +119,22 @@ template-including-parent:: false
       - ~~iOS (Download without coookie)~~
         collapsed:: true
         - https://www.icloud.com.cn/iclouddrive/0dfP2NK-LLjycO3mpP6-R7OSw#iOSLogseq
-  - Combine week notes via ((66515680-e8b8-422b-8113-d79d42028cd4))
-    collapsed:: true
-    - Windows
-      collapsed:: true
-      - 合并一周
+    - Combine week notes via ((66515680-e8b8-422b-8113-d79d42028cd4))
+      - Windows
+        - 合并一周
+          - ```powershell
+            Write-Host -NoNewline cat $($str=""; $format=", yyyyMMdd.\m\d"; $today = Get-Date; $startOfLastWeek = $today.AddDays(-($today.DayOfWeek.value__)); $endOfLastWeek = $startOfLastWeek.AddDays(5);$currentDate = $endOfLastWeek; while ($currentDate -ge $startOfLastWeek) { $str += $currentDate.ToString($format); $currentDate = $currentDate.AddDays(-1)}; echo $str.Substring(2);) "|" ac (Get-Date).AddDays(6 - [int](Get-Date).DayOfWeek).ToString("yyyyMMdd.\m\d")
+            ```
+        - 删除一周
+          collapsed:: true
+          - ```powershell
+            Write-Host -NoNewline rm $($str=""; $format=", yyyyMMdd.\m\d"; $today = Get-Date; $startOfLastWeek = $today.AddDays(-($today.DayOfWeek.value__)); $endOfLastWeek = $startOfLastWeek.AddDays(5);$currentDate = $endOfLastWeek; while ($currentDate -ge $startOfLastWeek) { $str += $currentDate.ToString($format); $currentDate = $currentDate.AddDays(-1)}; echo $str.Substring(2);)
+            ```
+      - Linux
         collapsed:: true
-        - ```powershell
-          Write-Host -NoNewline cat $($str=""; $format=", yyyyMMdd.\m\d"; $today = Get-Date; $startOfLastWeek = $today.AddDays(-($today.DayOfWeek.value__)); $endOfLastWeek = $startOfLastWeek.AddDays(5);$currentDate = $endOfLastWeek; while ($currentDate -ge $startOfLastWeek) { $str += $currentDate.ToString($format); $currentDate = $currentDate.AddDays(-1)}; echo $str.Substring(2);) "|" ac (Get-Date).AddDays(6 - [int](Get-Date).DayOfWeek).ToString("yyyyMMdd.\m\d")
+        - ```
+           seq -s", " 20231015 20231021 | xclip -selection clipboard
           ```
-      - 删除一周
-        collapsed:: true
-        - ```powershell
-          Write-Host -NoNewline rm $($str=""; $format=", yyyyMMdd.\m\d"; $today = Get-Date; $startOfLastWeek = $today.AddDays(-($today.DayOfWeek.value__)); $endOfLastWeek = $startOfLastWeek.AddDays(5);$currentDate = $endOfLastWeek; while ($currentDate -ge $startOfLastWeek) { $str += $currentDate.ToString($format); $currentDate = $currentDate.AddDays(-1)}; echo $str.Substring(2);)
-          ```
-    - Linux
-      collapsed:: true
-      - ```
-         seq -s", " 20231015 20231021 | xclip -selection clipboard
-        ```
 - ## What
   - 一些周报的正则替换规则
     - blank

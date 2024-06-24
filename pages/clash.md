@@ -4,12 +4,7 @@ alias:: clash
 mark:: SS / SSR / V2Ray / 分流
 tags:: #golang #proxy
 source:: [Dreamacro/clash: A rule-based tunnel in Go.](https://github.com/Dreamacro/clash) ![](https://img.shields.io/github/stars/Dreamacro/clash)
-document::
-changelog::
-community::
-created:: 20230115
-closed::
-mark::
+created:: [[20230115]]
 
   - [yichengchen/clashX](https://github.com/yichengchen/clashX/) For MacOS ![](https://img.shields.io/github/stars/yichengchen/clashX)
   - [Kr328/ClashForAndroid: A rule-based tunnel for Android.](https://github.com/Kr328/ClashForAndroid/) ![](https://img.shields.io/github/stars/Kr328/ClashForAndroid)

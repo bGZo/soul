@@ -1,5 +1,5 @@
 alias:: commands/systemctl
-created:: 20231005
+created:: [[20231005]]
 icon:: ⌘
 - ## Why
 - ## How

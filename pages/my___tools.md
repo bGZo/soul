@@ -1,5 +1,5 @@
 alias:: 随身常带的装备
-created:: 20230427
+created:: [[20230427]]
 tags:: #tools
 #.ol
   - 隔音耳塞

@@ -1,7 +1,6 @@
 alias:: book/dp进阶之路
 tags:: [[dynamic-programming]], #[[algo]], TODO
 author:: 邓丝雨
-publisher::
 published-date:: 20161011
 source:: ![dp进阶之路](../assets/algo/dp/dp进阶之路.pdf);
 -

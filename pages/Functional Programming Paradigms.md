@@ -1,8 +1,6 @@
 alias:: Functional Programming, 函数式编程范式, 函数式编程
-mark::
-icon::
 tags:: #Paradigms
-created:: 20230826
+created:: [[20230826]]
 title:: Functional Programming Paradigms
 wikipedia:: [Functional programming - Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)
 - ## Why

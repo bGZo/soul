@@ -1,5 +1,5 @@
 title:: wsdjeg/Learn-Vim
-tags:: #Github #opensource #vim #tutorial
+tags:: #github #opensource #vim #tutorial
 mark:: [GitHub - wsdjeg/Learn-Vim_zh_cn](https://github.com/wsdjeg/Learn-Vim_zh_cn) ![](https://img.shields.io/github/stars/wsdjeg/Learn-Vim_zh_cn)
 
 - ## Start

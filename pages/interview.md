@@ -1,11 +1,6 @@
 title:: interview
 mark:: 压力考试
-tags::
-author::
-source::
-mark::
-created:: 20221124
-closed::
+created:: [[20221124]]
 - ## Categories
   - 无领导讨论
     - {{query "无领导"}}

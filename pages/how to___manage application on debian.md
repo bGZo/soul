@@ -1,5 +1,5 @@
 icon:: 🐧
-created:: 20230906
+created:: [[20230906]]
 tags:: #Ubuntu, #debian
 title:: how to/manage application on debian
 

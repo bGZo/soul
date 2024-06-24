@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/simple #array
-created:: 20230529
+created:: [[20230529]]
 - ## Content
   - <iframe src="https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/)

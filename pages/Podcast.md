@@ -1,17 +1,17 @@
 alias:: 播客
 icon:: 🎧
 tags:: #Hobby
-created:: 20230603
+created:: [[20230603]]
 title:: Podcast
   - template:: podcast
     template-including-parent:: false
     collapsed:: true
-    - alias::
-      author::
-      cover::
-      mark::
+    - alias:: 
+      author:: 
+      cover:: 
+      mark:: 
       icon:: 🎧
-      tags::
+      tags:: 
       created:: ``{ date.now.format('YYYYMMDD') }``
       title:: ``{ c.page.name }``
   - `<iframe src=" " autoplay=0 frameborder=0></iframe>` #deprecated

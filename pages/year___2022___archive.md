@@ -2708,7 +2708,7 @@ icon:: 💾
       你不好找工作，并不是因为你学了C`#`，而是因为你只会一点C`#`。
     - 只要你技术扎实，算法/数据结构，网络、IO、存储等有一个方面比较深入，找个工作应该没有难度，什么华为中兴，BAT，微软，IBM之类的，都有没有问题（这些大公司，动则上万人，其实哪有那么多精英？多半都是普通人，只要努力，你也可以的）。
     - 但是如果你只会一点语法， 那么无论是C`#`还是JAVA或者C++，都没有用。
-  - [Is this project dead? · Issue #805 · necolas/normalize.css](https://github.com/necolas/normalize.css/issues/805) #Github
+  - [Is this project dead? · Issue #805 · necolas/normalize.css](https://github.com/necolas/normalize.css/issues/805) #github
     collapsed:: true
     - I wondered the same when looking at this and other similar projects. Over a year of no updates while others are more current. I agree 100% with your proposal, archive it so users are informed that updates are not coming, or at least make it clear that if there are any updates, any sort of timeline is unknown.
   - 反诈中心 #miui

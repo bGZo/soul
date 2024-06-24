@@ -4,7 +4,7 @@ template-including-parent:: false
   - alias:: 
     mark:: 
     icon:: 
-    created:: ``{ date.now.format('YYYYMMDD') }``
+    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
     title::  ``{ c.page.name }``
   - ## Why
     -

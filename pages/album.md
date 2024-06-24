@@ -5,12 +5,12 @@ alias:: 专辑, music/album
   - template:: album
     template-including-parent:: false
     collapsed:: true
-    - title::
-      alias::
+    - title:: 
+      alias:: 
       tags:: #album
-      artisit::
-      released_created::
-      mark::
+      artisit:: 
+      released_created:: 
+      mark:: 
       created:: <% today %>
       - ### Description
         -
@@ -19,10 +19,10 @@ alias:: 专辑, music/album
   - template:: band
     template-including-parent:: false
     collapsed:: true
-    - title::
-      alias::
+    - title:: 
+      alias:: 
       tags:: #band
-      mark::
+      mark:: 
       created:: <% today %>
     - ## Members
       -

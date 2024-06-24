@@ -1,6 +1,6 @@
 alias:: pgsql
 tags:: #database/object–relational
-created:: 20230822
+created:: [[20230822]]
 title:: PostgreSQL
 - ## Why
   - [[vs]] [[mysql]] Ref [彦祖们， pg 还是 mysql? 到底该怎么选？ - V2EX](https://v2ex.com/t/800592)

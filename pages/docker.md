@@ -1,7 +1,7 @@
 alias:: tools/docker
 icon:: 🐳
 title:: docker
-created:: 20240524
+created:: [[20240524]]
 
 - ## Why
 - ## How

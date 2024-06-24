@@ -1,6 +1,7 @@
 title:: imu/graduation
 alias:: 基于 springcloud 的商城系统的设计与开发
 tags:: #spring/cloud
+
   - [赵俊峰](https://ccs.imu.edu.cn/info/1152/4630.htm)`；`4994323`；`cszjf@imu.edu.cn`
   - 课题介绍：
     collapsed:: true
@@ -62,7 +63,7 @@ tags:: #spring/cloud
       - [Overview - Citation Styles: APA, MLA, Chicago, Turabian, IEEE - Guides at University of Pittsburgh](https://pitt.libguides.com/citationhelp)
       - [论文的参考文献怎样标注？ - 知乎](https://www.zhihu.com/question/319857603)
   -
-  - ### 查重 #[[Start Page]]
+  - ### 查重 #[[navigation]]
     - [“中国知网”学位论文管理系统](https://pmlc.cnki.net/)
       collapsed:: true
       - https://pmlc.cnki.net/user/Help/知网大学生论文检测系统使用手册（学生）-2022年3月版.pdf

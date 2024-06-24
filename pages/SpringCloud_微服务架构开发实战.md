@@ -6,12 +6,9 @@ author:: 董超
 publisher:: 机械工业出版社
 published:: 20180700
 isbn:: 9787111604525
-created:: 20221228
-closed::
+created:: [[20221228]]
 douban:: [Spring Cloud微服务架构开发实战 (豆瓣)](https://book.douban.com/subject/30389992/)
-goodreads::
 weread:: [Spring Cloud微服务架构开发实战-董超 胡炽维-微信读书](https://weread.qq.com/web/bookDetail/7d332ce0715dbcba7d3a09d)
-desc::
 mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/cd826/springcloud-demo)
 - Content
   - 版权信息

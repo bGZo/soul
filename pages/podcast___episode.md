@@ -1,5 +1,5 @@
 title:: podcast/episode
-  - title::
+  - title:: 
     tags:: #podcast/episode
     created:: ``{ date.now.format('YYYYMMDD') }``
     template:: podcast/episode

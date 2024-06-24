@@ -5,7 +5,7 @@ document:: [知识库 - Billfish素材管理工具](https://www.billfish.cn/cate
 changelog:: [软件下载- Billfish素材管理工具](https://www.billfish.cn/download/)
 community:: [Billfish素材管理软件-用户交流论坛 - Powered by Discuz!](https://www.billfish.cn/bbs/)
 mark:: 文档说明极其简陋, 非开源, 但是免费, 目前一直可用, 所以就一直在用了; 商业化部分极其鸡肋, 我相信每个会折腾的人都不会脱了裤子放屁😅, 很想期待一波但是还是得和前辈学习; [Billfish素材管家--创意设计必备素材管理工具](https://www.billfish.cn/)
-created:: 20230127
+created:: [[20230127]]
 
 - #+BEGIN_TIP
   软件其实有一个更好的 Geek 思路

@@ -1,8 +1,6 @@
 alias:: python/documents
-mark::
 icon:: 🐍
-tags::
-created:: 20230627
+created:: [[20230627]]
 title:: python documents
 
 - ## Why

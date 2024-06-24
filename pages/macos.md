@@ -1,7 +1,7 @@
 alias:: mac/os
 tags:: os
 icon:: 🍎
-created:: 20240609
+created:: [[20240609]]
 title:: macos
 
 - ## Why

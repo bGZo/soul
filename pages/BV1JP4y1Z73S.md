@@ -1,6 +1,6 @@
 tags:: #ssm
 mark:: [【动力节点】SSM框架之MyBatis上线即经典，跟老杜从零学mybatis 入门到架构思维](https://www.bilibili.com/video/BV1JP4y1Z73S/)
-created:: 20230305
+created:: [[20230305]]
   - https://www.yuque.com/dujubin/ltckqu/pozck9 & `rs4n`
 - ## #.ol-nested-2 Contents
   - DONE MyBatis概述

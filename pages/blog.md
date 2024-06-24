@@ -10,7 +10,7 @@ title: blog
 - ## How
   - 如何写博客？
 - ## What
-  - #Star #theme for blog #theme/blog
+  - #star #theme for blog #theme/blog
     collapsed:: true
     - [luizdepra/hugo-coder: A minimalist blog theme for hugo.](https://github.com/luizdepra/hugo-coder/) #hugo
       - ![](https://github.com/luizdepra/hugo-coder/raw/main/images/screenshot.png)

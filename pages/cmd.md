@@ -126,7 +126,7 @@ alias::tags:: commandline/windows
     label c:system #设置C盘的卷标为 system
     15 pause
     暂停命令
-    16 rem 和 ::
+    16 rem 和 :: 
     注释命令
     注释行不执行操作
     17 date 和 time

@@ -6,17 +6,17 @@ tags:: #Hobby #game
 mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
 
   - cover:: ![🖼 ](../assets/``{ date.now.format('YYYY') }``/)
-    title::
-    alias::
-    desc::
+    title:: 
+    alias:: 
+    desc:: 
     tags:: #galgame
-    released-created::
-    developer::
-    publisher::
-    bangumi::
-    douban::
+    released:: 
+    developer:: 
+    publisher:: 
+    bangumi:: https://bgm.tv/subject/
+    douban:: https://www.douban.com/
     created:: ``{ date.now.format('YYYYMMDD') }``
-    closed::
+    closed:: 
     template:: galgame
     template-including-parent:: true
 - ## WHY
@@ -81,7 +81,7 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
     - title:: [【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩](https://www.bilibili.com/read/cv6488276)
       author:: Reca_ザキ
       tags:: #archive/web
-      created:: 20221121
+      created:: [[20221121]]
       archive:: [💾 Archived](assets/archived_web/【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩 (11_21_2022 10_05_08 PM).html)
   - DONE How to play in different devices?
     collapsed:: true
@@ -97,16 +97,16 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
     - title:: hanmin0822/MisakaTranslator
       author:: hanmin0822
       mark:: "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具"
-      tags:: #Github
+      tags:: #github
       source::  [hanmin0822/MisakaTranslator: 御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具](https://github.com/hanmin0822/MisakaTranslator) ![](https://img.shields.io/github/stars/hanmin0822/MisakaTranslator)
-      created:: 202012
+      created:: [[202012]]
       mark:: Doc with [GAL党的福音——开源生肉翻译器MisakaTranslator正式版发布 - 知乎](https://zhuanlan.zhihu.com/p/112895928)
     - title:: miaomiaosoft/PandaOCR
       author:: miaomiaosoft
       mark:: "多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码"
-      tags:: #Github
+      tags:: #github
       source:: [miaomiaosoft/PandaOCR: PandaOCR - 多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码](https://github.com/miaomiaosoft/PandaOCR) ![](https://img.shields.io/github/stars/miaomiaosoft/PandaOCR)
-      created:: 202012
+      created:: [[202012]]
     - Windows 11 live caption
 - ## WHAT
   - Categories with more details.

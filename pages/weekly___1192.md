@@ -111,6 +111,7 @@ icon:: 📅
       这么好的题材，这标题不够震惊啊
       https://www.ithome.com/0/774/931.htm
   - [数字移民（shuziyimin.org）创作者删除其全部内容](https://www.v2ex.com/t/1049081)
+  - [多地高考考生自发声援巴勒斯坦，高考穿短裙遭网暴，四名美国人在中国被刺伤事件](https://mailchi.mp/519e316c8169/ot45ikfh2y-17387566)
   - collapsed:: true
     ---
     - {{video https://www.youtube.com/watch?v=LVkUXWBz9sw}}
@@ -8426,8 +8427,6 @@ icon:: 📅
     http://m.wufazhuce.com/one/4407
   - DONE https://weread.qq.com/web/bookDetail/ce9328a0813ab8d4ag012722
     - [我灵魂里的女性：关于迫切的爱，漫长的生命和善良的女巫们](https://book.douban.com/subject/36601830/)
-  - TODO https://weread.qq.com/web/bookDetail/8f432f50813ab8dfcg0156fe
-    - [沉默时，请大声朗读情书](https://book.douban.com/subject/36818068/)
   - collapsed:: true
     ---
     - >注意你的思想；它们会变为言语。注意你的言语；它们会变为行动。注意你的行动；它们会变为习惯。注意你的习惯;它们会变为性格。注意你的性格：它会变为你的命运。
@@ -8471,6 +8470,9 @@ icon:: 📅
       http://m.wufazhuce.com/one/4411
     - >生命没有高贵的出身，腐烂便是生命的母亲。
       http://m.wufazhuce.com/one/4410
+    - WAITING [沉默时，请大声朗读情书-梁彦增-微信读书](https://weread.qq.com/web/bookDetail/8f432f50813ab8dfcg0156fe) #小说
+      collapsed:: true
+      - [沉默时，请大声朗读情书](https://book.douban.com/subject/36818068/)
 - ## Not get more done, but rather to have less to do
   - DONE 蓝牙突然消失，重启无效
     collapsed:: true
@@ -8489,6 +8491,7 @@ icon:: 📅
   - TODO Let's certificates 原理，如何手动生成，骗过 https
     collapsed:: true
     - https://luanlmd.medium.com/install-docker-compose-on-arch-manjaro-linux-5e50147ee57b
+    - [手动生成证书 | Kubernetes](https://kubernetes.io/zh-cn/docs/tasks/administer-cluster/certificates/)
   - TODO 寻找图床
     collapsed:: true
     - https://github.com/liangliangle/roim-picx
@@ -8543,13 +8546,11 @@ icon:: 📅
   - https://github.com/glanceapp/glance
     collapsed:: true
     - LGTM，如果跑在 VPS 上将是完美的东西，只是没有 VPS
-  - https://www.v2ex.com/t/809917
-    collapsed:: true
+  - [请问哪些地方租房可以开 invoice 报销？ - V2EX](https://www.v2ex.com/t/809917)
     - 自如租房可以开发票，有点意思
-  - https://www.v2ex.com/t/922764
+  - TODO [兄弟们，三星现在最新的 tf 卡顺序读写速度只有 20MB/s 正常吗？是不是买到残次品了？ - V2EX](https://www.v2ex.com/t/922764)
     collapsed:: true
     - 买个 usb 3 的读卡器
-  - [手动生成证书 | Kubernetes](https://kubernetes.io/zh-cn/docs/tasks/administer-cluster/certificates/)
   - ---
 - ## 人类一思考，上帝就发笑
   - 躺在床上专心看新番是一件非常享受的事情，如果可以，我是不愿意穿插事情于其中的，但是如今每日留给自己的时间所剩无几，边看秽土转生边敲这段话这件事，已经成为一个非常残酷的选择。
@@ -8557,9 +8558,6 @@ icon:: 📅
     - please summary me some topics about this article.
   - https://www.bilibili.com/video/BV1XU411o7AD
     - 穷不过三代，因为会断代，绷不住了
-  - >想起了之前还有说要拍真人剧集，看了下是明年播
-    \#给我续命的东西
-    https://mastodon.0ne.day/@su/112598200359235882
   - https://www.v2ex.com/t/1048990
     - 两年 211 Java 找不到工作
 - ## 这周有断舍离吗？

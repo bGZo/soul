@@ -1,13 +1,12 @@
 title:: shareX
 mark:: "lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from."
-tags:: #Github #opensource #monthly
+tags:: #github #opensource #monthly
 source:: [Stargazers · ShareX/ShareX](https://github.com/ShareX/ShareX) ![](https://img.shields.io/github/stars/ShareX/ShareX)
 document:: [Actions - ShareX](https://getsharex.com/actions)
 changelog:: [Changelog - ShareX](https://getsharex.com/changelog)
 community:: [Discord](https://discord.com/invite/ShareX)
 donation:: [Donate - ShareX](https://getsharex.com/donate)
-created:: 20230110
-closed::
+created:: [[20230110]]
 mark:: [ShareX - The best free and open source screenshot tool for Windows](https://getsharex.com/)
 
 - ## [[cheat/sheet]]

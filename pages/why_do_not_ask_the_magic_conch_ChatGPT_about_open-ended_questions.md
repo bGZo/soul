@@ -1,5 +1,5 @@
 tags:: #chatGPT
-created:: 20221210
+created:: [[20221210]]
 - ![VideoScreenshot--YouTube-TheMagicConchin5MinutesClubSpongeBob5MinuteEpisodeSpongeBob-3’22”.png](../assets/VideoScreenshot--YouTube-TheMagicConchin5MinutesClubSpongeBob5MinuteEpisodeSpongeBob-3’22”_1675760522335_0.png)
   via:[The Magic Conch in 5 Minutes! 🐚 "Club SpongeBob" 5 Minute Episode | SpongeBob - YouTube](https://www.youtube.com/watch?v=ZHmtvR-1ivw) (3:22)
 -

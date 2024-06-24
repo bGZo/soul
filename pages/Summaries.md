@@ -1,5 +1,4 @@
-alias::
-created:: 202110
+created:: [[202110]]
 - 21年10月第三个周末看到了 [@february](https://sunhuiquan.github.io/) 个人的 blog, 感慨他能在学校的环境下做出如此的成就, 心血来潮, 也想赶在表达欲消失之前, 简单写些自己的编码经历. 奈何这几年来文件管理做的不好, 犄角旮旯藏的都是自己的写的小 Sticks; 从 ubuntu 迁移到 windows 更是丢了自己一年的历史数据; 加上不正确的记忆, 东拼西凑, 勉强挤出些文字, 却是囿于自己的笔力浅薄, 删改不断, 写完回读, 又弗如远甚. 罢了, 凑合着看吧...
 - 个人大致从 19 年复习期末的 CPP 考试开始写博客, 一开始拿不准哪个平台, 所以只能一个一个换着用, [onenote](https://www.onenote.com), [youdao](https://note.youdao.com/web), [wiz](https://note.wiz.cn/), [yuque](https://www.yuque.com), [cnblog](https://www.cnblogs.com/), [csdn](https://blog.csdn.net), [wordpress](https://cn.wordpress.org), [typecho](http://typecho.org), [bitcron](https://www.bitcron.com/), [hexo](https://hexo.io/zh-cn), [gitbook](https://www.gitbook.com/), [mkdics](https://www.mkdocs.org), [blogger](https://www.blogger.com), [hugo](https://gohugo.io), [notion](https://www.notion.so/), [obsidian](https://obsidian.md), [logseq](https://logseq.github.io)..., 最近决定沉淀在 [logseq](https://logseq.github.io) + [Jekyll](https://jekyllrb.com) 不动了, 前者依托 **_Bi-Directional Links & Graphs & Full-text Search_** 的特性让人眼前一亮, 后者依托 [**_github build-in support_**](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) 让人跃跃欲试. 当然为了更高的可扩展性, 最终选择在 [vercel](https://vercel.com) 上免费构建和托管, 也推荐给大家.
   id:: 64625a1d-5e7b-402f-80bb-c55211a01b81

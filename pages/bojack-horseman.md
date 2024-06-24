@@ -1,7 +1,7 @@
 title:: bojack-horseman
 alias:: 马男波杰克, Bojack, anime/bojack-horseman
 tags:: #Anime #WAIT
-created:: 20200611
+created:: [[20200611]]
 mark:: 有空二刷
 -
 - > 你是个好人，截安，这才是最重要的，你也不要停止做一个好人。我喜欢你去商店买东西时总是自带购物袋,喜欢你去什么地方也意是有条不素,我喜欢你在飞机上嚼回香糖减扇琪朵的不适。很多入可能不欣赏这样的你,但是我欣赏

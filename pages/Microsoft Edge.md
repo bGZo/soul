@@ -1,5 +1,5 @@
 tags:: #browser
-created:: 20230604
+created:: [[20230604]]
 title:: Microsoft Edge
 
 - ## Why

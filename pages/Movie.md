@@ -5,36 +5,36 @@ title:: Movie
     template-including-parent:: false
     collapsed:: true
     - icon:: 🎬
-      title::
-      alias::
-      desc::
+      title:: 
+      alias:: 
+      desc:: 
       tags:: #Video #Movie
-      director::
-      sreenwriter::
-      actor::
-      douban::
+      director:: 
+      sreenwriter:: 
+      actor:: 
+      douban:: https://www.douban.com/
       imdb:: https://www.imdb.com/title/
-      rt::
-      mark::
+      rt:: 
+      mark:: 
       created:: <% today %>
-      closed::
+      closed:: 
   - template:: page/movie
     template-including-parent:: false
     collapsed:: true
     - icon:: 🎬
-      title::
-      alias::
-      desc::
+      title:: 
+      alias:: 
+      desc:: 
       tags:: #Video #Movie
-      director::
-      sreenwriter::
-      actor::
-      douban::
+      director:: 
+      sreenwriter:: 
+      actor:: 
+      douban:: https://www.douban.com/
       imdb:: https://www.imdb.com/title/
-      rt::
-      mark::
+      rt:: 
+      mark:: 
       created:: <% today %>
-      closed::
+      closed:: 
 - ## Factories
   - Dream Works
   - Warner Bros

@@ -2,12 +2,13 @@
 icon: 🧾
 title: Contents
 ---
+
 - 👋 Hello there. Thanks for your being here.
 - 😊 Wish you have a fun time. That would be my pleasure.
 - [:h2 {:class text-right} "Contents"]
   {{renderer :tocgen2, *}}
 - [:h2 {:class text-right} "Quick start"]
-  - [[Start Page]] | 导航页
+  - [[navigation]] | 导航页
     logseq.order-list-type:: number
 - [:h2 {:class text-right} "Focus on"]
   - 长期目标：**小润出省，大润出国**

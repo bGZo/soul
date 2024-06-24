@@ -1,16 +1,6 @@
-cover::
 alias:: books/了不起的盖茨比
-author::
-translator::
 icon:: 📖
-isbn::
-publisher::
-published-date::
-tags::
-douban::
-goodreads::
-weread::
-created:: 20230708
+created:: [[20230708]]
 title:: The_Great_Gatsby
 - ## Contents
   - CH 14

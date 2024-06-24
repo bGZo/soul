@@ -1,16 +1,6 @@
 title:: the_programmer_idea_book
 tags:: #programming, #project
-author::
-translator::
-publisher::
-isbn::
-created:: 20230315
-closed::
-douban::
-goodreads::
-weread::
-desc::
-mark::
+
   - TODO ![THE PROGRAMMERS IDEA BOOK](../assets/book_the_programmer_idea_book.pdf)
     :LOGBOOK:
     * State "DONE" from "TODO" [2023-03-20 Mon 23:22]
@@ -18,12 +8,12 @@ mark::
     :END:
     \SCHEDULED: <2023-09-05 Fri .+3d>
   - title:: [karan/Projects](https://github.com/karan/Projects) ![](https://img.shields.io/github/stars/karan/Projects)
-    tags:: #Github #opensource
-    created:: 20230320
+    tags:: #github #opensource
+    created:: [[20230320]]
     mark:: A list of practical projects that anyone can solve in any programming language.
   - title:: [GitHub - karan/Projects-Solutions](https://github.com/karan/Projects-Solutions) ![](https://img.shields.io/github/stars/karan/Projects-Solutions)
-    tags:: #Github #opensource
-    created:: 20230321
+    tags:: #github #opensource
+    created:: [[20230321]]
     mark:: Links to others' solutions to Projects (https://github.com/karan/Projects/)
 -
 - ## Content

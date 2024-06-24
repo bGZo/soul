@@ -1,7 +1,7 @@
 alias:: 幸福
 mark:: a positive and pleasant emotion, ranging from contentment to intense joy
 tags:: #emotion
-created:: 20230614
+created:: [[20230614]]
 title:: happiness
 wikipedia:: [Happiness - Wikipedia](https://en.wikipedia.org/wiki/Happiness)
 - ## Why

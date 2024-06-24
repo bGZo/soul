@@ -246,7 +246,7 @@ title:: Hentai Reader
         - [python字典遍历的几种方法 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/33033288)
         - [Python 按键(key)或值(value)对字典进行排序 | 菜鸟教程 (runoob.com)](https://www.runoob.com/python3/python-sort-dictionaries-by-key-or-value.html)
     - The tools need to be more skilled:
-      - [[vscode]] with [[WSL]]
+      - [[vscode]] with [[wsl]]
         collapsed:: true
         - Can't open the tabnine setting panel
           collapsed:: true
@@ -255,7 +255,7 @@ title:: Hentai Reader
             FWIW I was able to install 3.2.8 without issue.
             — [Tabnine Extension was unable to download its dependencies. · Issue #447 · codota/tabnine-vscode --- Tabnine Extension 无法下载其依赖项。 · 问题 #447 · codota/tabnine-vscode](https://github.com/codota/tabnine-vscode/issues/447)
             #+END_QUOTE
-            - 降级到 3.2.8 #WSL
+            - 降级到 3.2.8 #wsl
             - [can't open the setting panel · Issue #741 · codota/tabnine-vscode --- 无法打开设置面板 · Issue #741 · codota/tabnine-vscode (github.com)](https://github.com/codota/tabnine-vscode/issues/741)
             - [command 'TabNine.statusBar' not found · Issue #426 · codota/tabnine-vscode (github.com)](https://github.com/codota/tabnine-vscode/issues/426)
             - [hub not loading · Issue #643 · codota/tabnine-vscode (github.com)](https://github.com/codota/tabnine-vscode/issues/643)

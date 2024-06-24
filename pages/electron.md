@@ -1,11 +1,9 @@
 title:: electron
-alias::
-desc::
-tags:: #Github #Framework #nodejs #cross-platform #html #css #Javascript #TODO
-created:: 20200801
-mark::
+tags:: #github #Framework #nodejs #cross-platform #html #css #Javascript #TODO
+created:: [[20200801]]
 source:: [electron/electron](https://github.com/electron/electron) ![](https://img.shields.io/github/stars/electron/electron)
 mark:: [Build cross-platform desktop apps with JavaScript, HTML, and CSS | Electron](https://www.electronjs.org/)
+
   - [Electron](https://github.com/electron/electron), html/css/js的跨平台应用开发框架, 额外需要用到[NodeJS](http://nodejs.cn/learn)
   - 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.
 - ## Usage

@@ -1,9 +1,9 @@
 alias:: book/自学是门手艺
-tags:: #learning, #Github
+tags:: #learning, #github
 author:: 李笑来
-publisher::
 published-date:: 20190314
 source:: [selfteaching/the-craft-of-selfteaching: One has no future if one couldn't teach themself.](https://github.com/selfteaching/the-craft-of-selfteaching) ![](https://img.shields.io/github/stars/selfteaching/the-craft-of-selfteaching)
+
 - Digest
   collapsed:: true
   - collapsed:: true
@@ -173,7 +173,7 @@ source:: [selfteaching/the-craft-of-selfteaching: One has no future if one could
     - 所谓的琢磨，其实真的不是很难，只不过，在此之前，你不知道该琢磨什么而已，一旦知道了，剩下的都再自然不过，都会自然而然地发生
   - 2.e [刻意思考](https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/markdown/Part.2.E.deliberate-thinking.md)
     collapsed:: true
-    - url::
+    - url:: 
     - > 刻意思考哪儿需要刻意练习
     - 刻意思考，就是所谓的琢磨。琢磨这事，一旦开始就简单得要死，可无从下手的时候就神秘无比。
     -
@@ -275,7 +275,7 @@ source:: [selfteaching/the-craft-of-selfteaching: One has no future if one could
     - 哦，对了，其实所有的读者，都可以用这个简单的方法影响下一代： 有同学问，你就一定要耐心讲讲 —— **对自己有好处。** 当然，最直接的方法是把自己变成 “上学” 者，保持开放，乐于分享，而孩子只需通过 “耳闻目染” 就可以了。
   - 3.f [自学者的社交](https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/markdown/Part.3.F.social-selfteaching.md)
     collapsed:: true
-    - url::
+    - url:: 
     - 事实上，在任何领域，社交都是必须的，只不过，很多人没有建立、打磨过自己的社交原则，所以才被各种无效社交所累。**就算讨厌，讨厌的也不应该是社交，而是无效社交**。
     - 在自学的任何一个阶段，学、练、用、造，社交都可能存在。 哪怕是在最枯燥，看起来最不需要社交的 “练” 的阶段，社交也会起很大的作用 —— 在自己累了的时候，看到有人还在练，看到很多人都在练，看到很多人其实也挺累的但还在练…… 这些都是让自己感觉没那么费劲的好办法。
     -

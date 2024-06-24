@@ -1,5 +1,5 @@
 tags:: #database #tutorial
-created:: 2022
+created:: [[2022]]
 
 - ## [GitHub - cstack/db_tutorial: Writing a sqlite clone from scratch in C](https://github.com/cstack/db_tutorial)
 - ## P01
@@ -94,7 +94,7 @@ created:: 2022
   collapsed:: true
   - name:: HTH
     full:: {{cloze Hope That Helps}}
-    tag::
+    tag:: 
     mark:: used in electronic messages when you have told someone something or done something for them via: https://www.macmillandictionary.com/dictionary/british/hth
     type:: abbr
   - `uint8_t` / `uint16_t` / `uint32_t` / `uint64_t` in [[lang/programming/system/c]]

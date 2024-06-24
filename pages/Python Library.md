@@ -1,8 +1,6 @@
 alias:: python/library
-mark::
 icon:: 🐍
-tags::
-created:: 20230627
+created:: [[20230627]]
 title:: Python Library
 - ## Why
 - ## How

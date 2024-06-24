@@ -1,7 +1,7 @@
 alias:: Tools/VLC
 icon:: ⏯️
 tags:: #Video
-created:: 20200118
+created:: [[20200118]]
 title:: VLC
 - ## Why
   - Cross Platform.

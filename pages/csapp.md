@@ -3,17 +3,11 @@ title:: csapp
 alias:: books/深入理解计算机系统
 tags:: #CMU
 author:: Randal E.Bryant, David O'Hallaron
-translator::
 publisher:: 机械工业出版社
 published:: 20161100
 isbn:: 9787111544937
-created:: 20230324
-closed::
+created:: [[20230324]]
 douban:: [深入理解计算机系统（原书第3版） (豆瓣)](https://book.douban.com/subject/26912767/)
-goodreads::
-weread::
-desc::
-mark::
 - ## ![COMPUTER SYSTEMS A PROGRAMMER’S PERSPECTIVE](../assets/book_computer_systems_a_programmers_perspective.pdf)
 -
 -
