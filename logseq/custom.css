@@ -49,9 +49,12 @@
 
 
 /**
- * fix: table wrap default
+ * feat: table wrap style by tag
  */
-.whitespace-nowrap{
+a.tag[data-ref*="config/table-wrap"] {
+    display: none;
+}
+[data-refs-self*="config/table-wrap"] .whitespace-nowrap {
   white-space: wrap;
 }
 

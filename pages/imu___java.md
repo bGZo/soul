@@ -1,6 +1,6 @@
 title:: imu/java
 tags:: #[[java]]
-mark:: 期末占 50% + EduCoder 30% + 平时 20%
+description:: 期末占 50% + EduCoder 30% + 平时 20%
 
   - Java
     collapsed:: true

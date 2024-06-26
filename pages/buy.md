@@ -8,7 +8,7 @@ tags:: #[[consume]]
     price:: 
     rmb:: 
     source:: 
-    mark:: 
+    description::
 -
   - query-properties:: [:name :tags :rmb :url ]
     #+BEGIN_QUERY

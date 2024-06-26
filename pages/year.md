@@ -42,7 +42,7 @@ title:: year
         alias:: year/
         desc:: 
         tags:: #year
-        mark:: 
+        description::
       - `{{query }}`
       - ## 💬 Topic
         collapsed:: true
@@ -61,5 +61,5 @@ title:: year
         -
 -
 - TODO 年榜缺少：
-  - [GMgard - 紳士の庭 ♢绅士们的二次元资源分享交流平台♢](https://gmgard.com/)
+  - [GMgard ](https://gmgard.com/)
 -

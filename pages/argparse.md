@@ -10,7 +10,7 @@ title:: argparse
     | Name | Description | Values |
     | ---- | ---- | ---- |
     | [action](https://docs.python.org/zh-cn/3/library/argparse.html#action) | Specify how an argument should be handled | 'store', 'store_const', 'store_true',[:br] 'append', 'append_const', 'count', [:br]'help', 'version' |
-    | [choices](https://docs.python.org/zh-cn/3/library/argparse.html#choices) | Limit values to a specific set of choices | ['foo', 'bar'], range(1, 10), or [Container](https://docs.python.org/zh-cn/3/library/collections.abc.html#collections.abc.Container) instance |
+    | [choices](https://docs.python.org/zh-cn/3/library/argparse.html#choices) | Limit values to a specific set of choices | ['foo', 'bar'], range(1, 10), or [Container](https://docs.python.org/zh-cn/3/library/collections.abc.html\#.ollections.abc.Container) instance |
     | [const](https://docs.python.org/zh-cn/3/library/argparse.html#const) | Store a constant value |  |
     | [default](https://docs.python.org/zh-cn/3/library/argparse.html#default) | Default value used when an argument [:br]is not provided | Defaults to None |
     | [dest](https://docs.python.org/zh-cn/3/library/argparse.html#dest) | Custom attribute name to be provided |  |

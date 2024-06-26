@@ -5,21 +5,21 @@
       definition:: {{cloze }}
       tags:: #card, #English/word
       refs:: 
-      mark:: 
+      description::
   - template:: word/zh
     template-including-parent:: false
     - title:: 
       definition:: {{cloze }}
       tags:: #card, #Chinese/word
       refs:: 
-      mark:: 
+      description::
   - template:: word/it
     template-including-parent:: false
     - title:: 
       definition:: {{cloze }}
       tags:: #card, #programming/word
       refs:: 
-      mark:: 
+      description::
   - 在 `page_name`中,  不会再加入 `[[]]`的符号;
     collapsed:: true
     - ```markdown

@@ -1,9 +1,10 @@
 alias:: 推特
-mark:: an online social media and social networking service owned and operated by American company X Corp., the successor of Twitter, Inc.
+description:: an online social media and social networking service owned and operated by American company X Corp., the successor of Twitter, Inc.
 tags:: #[[Social Media]]
 created:: [[20230615]]
 title:: twitter
 wikipedia:: [Twitter - Wikipedia](https://en.wikipedia.org/wiki/Twitter)
+
 - ## Why
 - ## How
   - How to use twitter list and manage following people?

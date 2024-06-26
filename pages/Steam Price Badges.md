@@ -1,9 +1,10 @@
 icon:: 📂
-tags:: #Steam #DOING #project
+tags:: #steam #DOING #project
 created:: [[20230705]]
 title:: Steam Price Badges
 
 - ## Project Meta
+  collapsed:: true
   - DOING #project [[Steam Price Badges]]
   - query-table:: false
     #+BEGIN_QUERY
@@ -43,6 +44,7 @@ title:: Steam Price Badges
     }
     #+END_QUERY
 - ## Why
+  collapsed:: true
   -
 - ## How
   - Build-in web application cannot fetch / request the right url, it would occur CORS error: #deprecated
@@ -62,7 +64,10 @@ title:: Steam Price Badges
     - #### Output
       -
   - ### \# Alternatives
-    -
+    - `<iframe>` 嵌入笔记 via [How to embed a Steam store page in a post? - Site Feedback - Chrono.gg Community](https://community.chrono.gg/t/how-to-embed-a-steam-store-page-in-a-post/15016)
+      - `<iframe src="https://store.steampowered.com/widget/427520/" frameborder="0" width="646" height="190"></iframe>`
+      - <iframe src="https://store.steampowered.com/widget/427520/" frameborder="0" width="646" height="190"></iframe>
   - ### \# Notes
     -
+-
 -

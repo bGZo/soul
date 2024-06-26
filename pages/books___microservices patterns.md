@@ -9,7 +9,7 @@ isbn:: 9787111624127
 created:: [[20221213]]
 douban:: [微服务架构设计模式 (豆瓣)](https://book.douban.com/subject/33425123/)
 goodreads:: [Microservices Patterns: With examples in Java by Chris Richardson, Manning Publications by Chris Richardson | Goodreads](https://www.goodreads.com/book/show/55612970-microservices-patterns)
-mark:: [microservices-patterns/ftgo-application: Example code for the book Microservice patterns](https://github.com/microservices-patterns/ftgo-application);
+description:: [microservices-patterns/ftgo-application: Example code for the book Microservice patterns](https://github.com/microservices-patterns/ftgo-application);
 
 - ## ![微服务架构设计模式 by 克里斯·理查森](../assets/book_微服务架构设计模式_克里斯·理查森_chris_richardson.pdf)
   collapsed:: true
@@ -482,7 +482,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
           - 每一个**系统操作的行为**都通过领域模型的方式来描述
           - 每一个重要的系统操作都对应着架构层面的一个重大**场景**，是架构中需要详细描述和特别考虑的地方
       - 2.2.2 根据业务能力进行服务拆分
-        mark:: **创建微服务架构的策略之一**
+        description:: **创建微服务架构的策略之一**
         source:: [Decompose by business capability](https://microservices.io/patterns/decomposition/decompose-by-business-capability.html)
         collapsed:: true
         - 业务能力
@@ -762,7 +762,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
                     ```
                     - In this example, the  `BookResource`  class provides a  `getBooks`  method that returns a list of  `Book`  objects. Each  `Book`  object includes a link to its own resource, allowing the client to easily access the book's details by following the link. This allows the client to interact with the API without knowing the URLs of the individual book resources in advance.
                 - HATEOAS 的优点
-                  mark:: [Advantages Of (Also) Using HATEOAS In RESTFul APIs](https://www.infoq.com/news/2009/04/hateoas-restful-api-advantages/)
+                  description:: [Advantages Of (Also) Using HATEOAS In RESTFul APIs](https://www.infoq.com/news/2009/04/hateoas-restful-api-advantages/)
                   collapsed:: true
                   - 无须在客户端代码中写入硬链接的 URL
                   - 由于资源信息中包含可允许操作的链接，客户端无须猜测在资源的当前状态下执行何种操作
@@ -832,7 +832,7 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
             - 5.有时很难将多个更新操作映射到 HTTP 动词
       - 3.2.2 使用[gRPC(Remote Procedure Call)](http://www.grpc.io)
         id:: 639b0d75-e399-48dd-a4e6-0e2dc1f10b29
-        mark:: 用于编写跨语言客户端和服务端的[框架](https://en.wikipedia.org/wiki/Remote_procedure_call)
+        description:: 用于编写跨语言客户端和服务端的[框架](https://en.wikipedia.org/wiki/Remote_procedure_call)
         collapsed:: true
         - 引用原因
           collapsed:: true
@@ -920,10 +920,10 @@ mark:: [microservices-patterns/ftgo-application: Example code for the book Micro
       - 3.2.3 使用断路器模式处理局部故障
         collapsed:: true
         - 断路器模式
-          mark:: "这是一个远程过程调用的代理，在连续失败次数超过指定阁值后的一段时间内，这个代理会立即拒绝其他调用"
+          description:: "这是一个远程过程调用的代理，在连续失败次数超过指定阁值后的一段时间内，这个代理会立即拒绝其他调用"
           via:: https://microservices.io/patterns/reliability/circuit-breaker.html
         - ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671261044236_0.png)
-          mark:: 如果Order Service 出问题: OrderServiceProxy 将无限期地阻塞. 等待响应. 最后整个 API 网关就会崩掉.
+          description:: 如果Order Service 出问题: OrderServiceProxy 将无限期地阻塞. 等待响应. 最后整个 API 网关就会崩掉.
           collapsed:: true
           - 让远程过程调用代理 (如 OrderServiceProxy) 有正确处理无响应服务的能力
           - 需要决定如何从失败的远程服务中恢复

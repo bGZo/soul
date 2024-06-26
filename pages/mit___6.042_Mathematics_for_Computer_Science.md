@@ -1,11 +1,12 @@
 icon:: 🏫
 alias:: MIT 6.042J, Mathematics for Computer Science
-mark:: Version 2010 Fall, Latter has 2015；
+description:: Version 2010 Fall, Latter has 2015；
+
 - ## REFERENCES
   - ![https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/93cad640cf3ed0b23ef70688f452d4d5_MIT6_042JF10_notes.pdf](../assets/book_MIT6_042JF10_notes.pdf)
   - [1. （Chrysalides已校对）Introduction and Proofs · Yuque](https://www.yuque.com/guigumentor/bazl0e/uy8f2b)
   - [【MIT公开课】6.042 计算机科学数学（完结·中英字幕·机翻·人工校对中）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1L741147VX)
-- ## CONTENTS #.ol
+- ## CONTENTS \#.ol
   - ### Introduction and Proofs
     - ((641d796e-cc86-4d56-8804-0a91057d7e00))
       - **Proposition**：命题

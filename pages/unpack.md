@@ -1,5 +1,5 @@
 alias:: 解包
-mark:: Extracting the resource from game
+description:: Extracting the resource from game
 tags:: #geek, #tools
 created:: [[20230611]]
 title:: unpack

@@ -857,7 +857,7 @@ alias:: interview/java
     - 26、Linux 文件调用权限分为哪 3 级？
     - 27、Linux 怎么修改文件权限？
     - 28、Linux 怎么修改文件所有者和所属组？
-    - ==`29、Linux 怎么查看磁盘的使用情况？`== #.ol
+    - ==`29、Linux 怎么查看磁盘的使用情况？`== \#.ol
       collapsed:: true
       - df命令：显示磁盘空间使用情况的概述。可以使用以下命令来显示文件系统使用情况及剩余空间：
         ```
@@ -876,7 +876,7 @@ alias:: interview/java
         sudo apt-get install ncdu
         ```
         以上命令都是常用的用于查看磁盘使用情况的命令，在Linux系统中可以根据需要使用相应的命令。
-    - ==`30、Linux 怎么查看内存的使用情况？`== #.ol
+    - ==`30、Linux 怎么查看内存的使用情况？`== \#.ol
       collapsed:: true
       - free命令：可以显示系统的内存使用情况，包括物理内存、交换空间等信息。可以使用以下命令来查看内存使用情况：
         ```
@@ -893,7 +893,7 @@ alias:: interview/java
         ps aux --sort=-%MEM | head -n N
         ```
         其中，选项“--sort=-%MEM”表示按内存使用率逆序排序，选项“head -n N”表示只显示前N个结果。A（all）；U（uid, name）；X（processes without controlling ttys）
-    - ==`31、Linux 怎么查看资源消耗最多的进程？`== #.ol
+    - ==`31、Linux 怎么查看资源消耗最多的进程？`== \#.ol
       collapsed:: true
       - top命令：可以实时动态地查看进程的资源使用情况。可以使用以下命令来启动top命令：
         ```

@@ -1,13 +1,13 @@
 alias:: 项目
 created:: [[20230623]]
-mark:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
+description:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 icon:: 📂
 title:: project
 template:: project
 template-including-parent:: false
 
   - alias:: 
-    mark::
+    description::
     icon:: 📂
     tags:: #project
     created:: ``{ date.now.format('YYYYMMDD') }``
@@ -145,7 +145,7 @@ template-including-parent:: false
     - [[newsline]] #duplicate
     - ### ~~[[deprecated]]~~
       - DONE 常用文本管理. 随时调用
-        mark:: 需求消失 / Bitwarden
+        description:: 需求消失 / Bitwarden
         :LOGBOOK:
         CLOCK: [2021-09-26 Sun 22:16]
         :END:

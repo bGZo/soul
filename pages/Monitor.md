@@ -20,7 +20,7 @@ title:: Monitor
           author:: 
           tags:: #archive/web
           created:: [[20221121]]
-          mark:: 
+          description:: 
           archive:: [💾 Archived](../assets/archived_web/显示器到底该俯视，还是仰视，还是平视呢？ - 知乎 (11_21_2022 10_46_36 PM).html)
         - [看屏幕是仰视、俯视、还是平视好？ - V2EX](https://www.v2ex.com/t/763790)
 - HD FHD WQHD

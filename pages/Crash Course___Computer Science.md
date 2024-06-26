@@ -5,7 +5,7 @@ source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https:
 
 - [CSAPP+SICP - 知乎](https://www.zhihu.com/column/c_1212802114247979008)
 - Coursera镜像网站：[https://www.mooc.cn](https://www.mooc.cn)
-- ## Content #.ol
+- ## Content \#.ol
   - 计算机早期历史
     id:: 6331a08f-14fb-483b-ab89-e92add5bc9ea
     - M(Mega)B
@@ -32,7 +32,7 @@ source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https:
       - $$1B(字节)=8位(Bit)$$
       - 往上则分别有`GB`、`TB`、`PB`、`EB`、`ZB`、`YB`、`BB`、`NB`、`DB`
   - 电子计算机
-    mark:: "涉及的设备：继电器、真空管、晶体管"
+    description:: "涉及的设备：继电器、真空管、晶体管"
     - **继电器（relay）**: 用电控制的机械开关
       - 1937年最大的机电计算机之一是哈佛的马克(Mark)一号，是IBM在1944年给二战同盟国建造的。该机器的大脑是由继电器（relay）构成的，存在大约3500个继电器。
       - **原理:** 通过产生磁场来闭合开关形成通路

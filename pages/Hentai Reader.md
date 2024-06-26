@@ -1,4 +1,4 @@
-mark:: 变态阅读器
+description:: 变态阅读器
 tags:: #project #rss #[[github action]] #crawler #hentai
 icon:: 📂
 created:: [[20230614]]
@@ -60,7 +60,7 @@ title:: Hentai Reader
       Considered the copyright,
       I **should not build a mirror site for business content**!
       #+END_WARNING
-  - TODO 具有防盗链的一些订阅源： #.ol
+  - TODO 具有防盗链的一些订阅源： \#.ol
     collapsed:: true
     - [灵梦御所](https://blog.reimu.net/feed)
       collapsed:: true

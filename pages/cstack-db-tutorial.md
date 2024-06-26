@@ -95,7 +95,7 @@ created:: [[2022]]
   - name:: HTH
     full:: {{cloze Hope That Helps}}
     tag:: 
-    mark:: used in electronic messages when you have told someone something or done something for them via: https://www.macmillandictionary.com/dictionary/british/hth
+    description:: used in electronic messages when you have told someone something or done something for them via: https://www.macmillandictionary.com/dictionary/british/hth
     type:: abbr
   - `uint8_t` / `uint16_t` / `uint32_t` / `uint64_t` in [[lang/programming/system/c]]
     id:: 629d9e2c-2c0c-48db-ae2d-56eba8649d36

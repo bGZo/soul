@@ -1,6 +1,7 @@
 alias:: Not Only SQL, 不仅仅是SQL
-mark:: 对不同于传统的关系型数据库的数据库管理系统的统称, nosql 用于超大规模数据的存储, 这些类型的数据存储不需要固定的模式，无需多余操作就可以横向扩展
-mark:: 用户数据和操作日志成倍的增加，如果要对这些数据进行挖掘，只能使用 NoSQL
+description:: 对不同于传统的关系型数据库的数据库管理系统的统称, nosql 用于超大规模数据的存储, 这些类型的数据存储不需要固定的模式，无需多余操作就可以横向扩展
+description:: 用户数据和操作日志成倍的增加，如果要对这些数据进行挖掘，只能使用 NoSQL
+
   - 优点
     collapsed:: true
     - 高可扩展性
@@ -50,7 +51,7 @@ mark:: 用户数据和操作日志成倍的增加，如果要对这些数据进�
 -
 -
 - CAP theorem / Brewer's theorem /  CAP定理 / 布鲁尔定理
-  mark:: 对于一个分布式计算系统来说，不可能同时满足三点：**一致性(Consistency)**；**可用性(Availability)**；**分隔容忍(Partition tolerance)**
+  description:: 对于一个分布式计算系统来说，不可能同时满足三点：**一致性(Consistency)**；**可用性(Availability)**；**分隔容忍(Partition tolerance)**
   - 将 NoSQL 数据库分成了满足 CA 原则、满足 CP 原则和满足 AP 原则 3 大类：
     - CA - 单点集群，满足一致性，可用性的系统，通常在可扩展性上不太强大
     - CP - 满足一致性，分区容忍性的系统，通常性能不是特别高

@@ -1,10 +1,11 @@
 alias:: Personal Computer, PC, 计算机
-mark:: a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically.
+description:: a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically.
 icon:: 🖥️
 tags:: #3C
 created:: [[20230620]]
 title:: Computer
 wikipedia:: [Computer - Wikipedia](https://en.wikipedia.org/wiki/Computer)
+
   - ### Computer Devices
     template:: computer
     template-including-parent:: false
@@ -12,7 +13,7 @@ wikipedia:: [Computer - Wikipedia](https://en.wikipedia.org/wiki/Computer)
     - title:: 
       cpu:: 
       ram:: 
-      gpu:: 
+      gpu::
 - ## Why
 - ## How
 - ## What

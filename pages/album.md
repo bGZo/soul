@@ -10,11 +10,11 @@ alias:: 专辑, music/album
       tags:: #album
       artisit:: 
       released_created:: 
-      mark:: 
+      description:: 
       created:: <% today %>
       - ### Description
         -
-      - ### Songs #.ol
+      - ### Songs \#.ol
         -
   - template:: band
     template-including-parent:: false
@@ -22,7 +22,7 @@ alias:: 专辑, music/album
     - title:: 
       alias:: 
       tags:: #band
-      mark:: 
+      description:: 
       created:: <% today %>
     - ## Members
       -

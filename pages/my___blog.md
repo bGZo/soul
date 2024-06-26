@@ -1,6 +1,6 @@
 title:: my/blog
 tags:: #blog #jekyll #vercel
-mark:: [Home - bGZo's blog](http://blog.bgzo.cc)
+description:: [Home - bGZo's blog](http://blog.bgzo.cc)
 
 - ## [[issue]]
   - DONE Modify Font CSS (Solarized) in 20230128

@@ -1,6 +1,7 @@
 title:: rss/liqi
-mark:: 停更杂志
+description:: 停更杂志
 source:: [利器](https://liqi.io/)
+
 - ## People
   collapsed:: true
   - [吴涛｜开发者，podcast主播 | 利器](https://liqi.io/wutao/)

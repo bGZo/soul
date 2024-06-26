@@ -15,7 +15,7 @@ title:: shuziyimin
       source:: [WebStackPage/WebStackPage.github.io: ❤️静态响应式网址导航网站 - webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) ![](https://img.shields.io/github/stars/WebStackPage/WebStackPage.github.io)
       created:: [[20230108]]
       closed:: 
-      mark:: 
+      description::
       - Jekyll 版本的后台 [0xl2oot/webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)
       - 从Chrome书签生成Jekyll版本配置的工具 [hanxi/webstack-jekyll](https://github.com/hanxi/webstack-jekyll)
   - [「数字移民」简介与文章列表 – 数字移民](https://blog.shuziyimin.org/431)

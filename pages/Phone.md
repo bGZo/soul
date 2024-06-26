@@ -3,6 +3,7 @@ icon:: 📱
 tags:: #3C
 created:: [[20230719]]
 title:: Phone
+
 - ## Why
 - ## How
   - How to buy a phone? Or what's the [[standard]] about phone?
@@ -75,7 +76,7 @@ title:: Phone
           - 美版三星99%说气密防水还在的都不是正确的，提高自身价值而已，虽然有，但是没原装好，除非他是他亲戚从美国坐飞机带来的
         - Apple
 - ## What
-  - What's different with [[iOS]] and [[android]]
+  - What's different with [[ios]] and [[android]]
     collapsed:: true
     - **硬件**:
       - CPU
@@ -91,7 +92,7 @@ title:: Phone
     - **Sceen**
       - IOS只有有限几种分辨率, 最高也就1136*640, 都没有达到1080P全高清的级别. 比较而言, Nexus5的分辨率达到了1080*1920全高清级别. 为此, 应用程序需要更多资源来渲染图像, 比较而言, IOS的应用程序就可以更容易达到流畅的帧数；但Nexus5的屏幕则可以达到更锐利, 更清晰的图像.
   - The [[CPU]] on phone by:
-    - [[Apple]]
+    - [[apple]]
       - A15
         |   | iPhone 13 mini / iPhone 13 | iPhone 13 Pro / iPhone 13 Pro Max |
         | SoC | **Apple A15 Bionic**[:br]2 × Avalanche[:br]4 × Blizzard[:br]4-core GPU | **Apple A15 Bionic**[:br]2 × Avalanche[:br]4 × Blizzard[:br]**5-core GPU** |

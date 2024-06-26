@@ -1,5 +1,6 @@
 title:: English/phonetic-symbol
-mark:: 音标
+description:: 音标
+
 -
 -
 -

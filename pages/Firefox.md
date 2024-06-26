@@ -1,5 +1,6 @@
 alias:: 火狐, FF
-mark:: ff
+description:: ff
+
 - [[Backup]]
   - **Profile**: `%APPDATA%\Mozilla\Firefox\Profiles\`
     collapsed:: true

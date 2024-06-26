@@ -1,4 +1,5 @@
-mark:: Progressive web apps (PWAs) are web apps that use [service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API). [manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest). and other web-platform features in combination with [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) to give users an experience on par with native apps.
+description:: Progressive web apps (PWAs) are web apps that use [service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API). [manifests](https://developer.mozilla.org/en-US/docs/Web/Manifest). and other web-platform features in combination with [progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement) to give users an experience on par with native apps.
+
 -
 - Refs
   - Discuss

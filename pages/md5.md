@@ -1,7 +1,8 @@
-mark:: Message Digest Algorithm 5 /  MD5消息摘要算法
+description:: Message Digest Algorithm 5 /  MD5消息摘要算法
 author:: [Ronald Rivest](https://en.wikipedia.org/wiki/Ron_Rivest)
 published-date:: 19920400
 tags:: #[[algo]], #[[hash]]
+
 - MD5
   - 128 bits / 16 Bytes / 32 位 16 进制数 (a "word")
 - 思路

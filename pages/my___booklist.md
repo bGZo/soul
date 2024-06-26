@@ -1,5 +1,5 @@
 tags:: #booklist #reading
-- ## #.ol [汉译世界学术名著丛书](https://weread.qq.com/misc/booklist/14214625_6VYjyGxUk)
+- ## \#.ol [汉译世界学术名著丛书](https://weread.qq.com/misc/booklist/14214625_6VYjyGxUk)
   collapsed:: true
   - [奥义书](https://weread.qq.com/web/reader/4c532360813ab71dbg011352)
   - [薄伽梵歌（汉译世界学术名著丛书）](https://weread.qq.com/web/reader/dd4325f072051b4fdd4a216)
@@ -161,7 +161,7 @@ tags:: #booklist #reading
   - [游叙弗伦 苏格拉底的申辩 克力同/汉译世界学术名著丛书](https://weread.qq.com/web/reader/de732b30811e3b160g014582)
   - [薄伽梵歌](https://weread.qq.com/web/reader/05f32bb0813ab71dag016d6f)
 - TODO/READING, reading/todo, book/list, book list, 书单, read latter, 稍后读
-- ## #.ol [牛津通识读本](https://weread.qq.com/misc/booklist/15051517_7dMgDx9U0)
+- ## \#.ol [牛津通识读本](https://weread.qq.com/misc/booklist/15051517_7dMgDx9U0)
   collapsed:: true
   - [牛津通识读本：卡夫卡是谁（中文版）](https://weread.qq.com/web/reader/4df32a405ceabe4df390115)
   - [牛津通识读本：批判理论（中文版）](https://weread.qq.com/web/reader/b89322507185cdcab89ef2e)
