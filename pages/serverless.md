@@ -1,5 +1,6 @@
 alias:: architecture/pattern/serverless, pattern/architecture/serverless
 tags:: TODO
+
 -
 - 现实问题
   collapsed:: true
@@ -149,7 +150,7 @@ tags:: TODO
     - Why Fast?
       collapsed:: true
       - FaaS 冷启动 -> **从调用函数开始到函数实例准备完成的整个过程**
-        mark:: "冷启动, PC上关闭电源后，PC 再启动仍然需要重新加载 BIOS 表，也就是从硬件驱动开始启动，因此启动速度很慢"
+        description:: "冷启动, PC上关闭电源后，PC 再启动仍然需要重新加载 BIOS 表，也就是从硬件驱动开始启动，因此启动速度很慢"
         collapsed:: true
         - > 现在的云服务商，基于不同的语言特性，冷启动平均耗时基本在 100～700 毫秒之间。得益于 Google 的 JavaScript 引擎 Just In Time 特性，Node.js 在冷启动方面速度是最快的
         - ![image.png](../assets/architecture/image_1663768478236_0.png)
@@ -157,7 +158,7 @@ tags:: TODO
           (蓝色厂商, 红色用户函数)
           - 响应时间足够小, 足够快 (1 秒以内，都算优秀)
         - **响应时间**敏感 -> **预热冷启动或预留实例策略**
-          mark:: "一旦你更新代码，云服务商就会偷偷开始调度资源，下载你的代码构建函数实例的镜像。请求第一次访问时，云服务商就可以利用构建好的缓存镜像，直接跳过冷启动的下载函数代码步骤，从镜像启动容器"
+          description:: "一旦你更新代码，云服务商就会偷偷开始调度资源，下载你的代码构建函数实例的镜像。请求第一次访问时，云服务商就可以利用构建好的缓存镜像，直接跳过冷启动的下载函数代码步骤，从镜像启动容器"
           source:: https://help.aliyun.com/document_detail/138103.html
         -
       - ((632b160e-e374-41f5-8c9d-5fb142a6212b))

@@ -4,7 +4,7 @@ title:: English/writing
   [^1] 不要用任何简写
   #+END_PINNED
 - ## [[tool]]
-  - 语法纠正 / 英文润色 via: [数字移民](https://blog.shuziyimin.org/723) #.ol
+  - 语法纠正 / 英文润色 via: [数字移民](https://blog.shuziyimin.org/723) \#.ol
     - [Grammarly: Free Online Writing Assistant](https://www.grammarly.com/)
     - [Free Grammar Checker & Paraphrase - Ginger Software](https://www.gingersoftware.com/grammarcheck)
     - [LanguageTool - Online Grammar, Style & Spell Checker](https://languagetool.org/)

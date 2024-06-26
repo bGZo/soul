@@ -8,35 +8,27 @@ title: Contents
 - [:h2 {:class text-right} "Contents"]
   {{renderer :tocgen2, *}}
 - [:h2 {:class text-right} "Quick start"]
-  - [[navigation]] | 导航页
+  - 导航页 => 🔖[[navigation]]
+    logseq.order-list-type:: number
+  - 收集箱 => 📥[[inbox]]
+    logseq.order-list-type:: number
+  - 执行清单 => 🏃[[content checklist]]
+    logseq.order-list-type:: number
+  - 项目清单 => 📂[[project checklist]]
+    logseq.order-list-type:: number
+  - 等待清单 => 🤔[[waiting checklist]]
+    logseq.order-list-type:: number
+  - 个人周报 => 📅[[weekly]]
     logseq.order-list-type:: number
 - [:h2 {:class text-right} "Focus on"]
   - 长期目标：**小润出省，大润出国**
     logseq.order-list-type:: number
+    collapsed:: true
     - 语言
     - 健康
     - 原生家庭
-  - [[weekly]] | 个人周报
-    logseq.order-list-type:: number
-  - [[project]] | 项目
-    logseq.order-list-type:: number
-- [:h2 {:class text-right} "Waiting List"]
-  query-table:: true
-  query-properties:: [:block]
-  collapsed:: true
-  #+BEGIN_QUERY
-  {:query [:find (pull ?b [*])
-          :in $ ?start ?today
-          :where
-          (task ?b #{"LATER" "WAIT" "WAITING"})
-          (between ?b ?start ?today)]
-  :inputs [:-3650d :today]
-  :collapsed? true
-  :table-view? true
-  :breadcrumb-show? false
-  }]}
-  #+END_QUERY
 - [:h3 {:class text-center} "bGZo © 2024"]
+  collapsed:: true
   -
   - #+BEGIN_CENTER
     Copyright 2021 - 2024 [[bGZo]]. All rights reserved. The contents is licensed under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/); the code is under [MIT](https://github.com/bGZo/blog/blob/main/LICENSE) licence. The contents and comments are copyright their respective authors, submission implies license to publish on this web site.

@@ -9,7 +9,8 @@ isbn:: 9787111604525
 created:: [[20221228]]
 douban:: [Spring Cloud微服务架构开发实战 (豆瓣)](https://book.douban.com/subject/30389992/)
 weread:: [Spring Cloud微服务架构开发实战-董超 胡炽维-微信读书](https://weread.qq.com/web/bookDetail/7d332ce0715dbcba7d3a09d)
-mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/cd826/springcloud-demo)
+description:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/cd826/springcloud-demo)
+
 - Content
   - 版权信息
   - 内容简介
@@ -243,9 +244,9 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
         - 数据管理
           - ORM / Object Relational Mapping #Framework
             - Hibernate
-              mark:: 辅助我们将业务对象通过映射的方式存储到数据库中，而不需要使用最原始的SQL语言
+              description:: 辅助我们将业务对象通过映射的方式存储到数据库中，而不需要使用最原始的SQL语言
           - JPA / Java Persistence API / Java持久性规范
-            mark:: 一个数据存储标准接口定义(By SUN)
+            description:: 一个数据存储标准接口定义(By SUN)
             - 作用
               - 将业务与具体存储的数据库解耦，不需要为不同的数据库编写不同的处理方法，从而方便在多种数据库之间进行切换。
               - 当使用JPA时，对于简单的增、删、改、查等功能几乎不需要编写任何代码，只需继承JpaRepository接口即可
@@ -267,7 +268,7 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
         - 业务逻辑层 (Service)
           - Domian→REST API→业务逻辑层→数据存储层
           - DTO[^DTO] / Data **Transfer** Object / 数据传输对象
-            mark:: 一般只有数据属性, 无业务逻辑, 一般用作前后端分离时的数据传输
+            description:: 一般只有数据属性, 无业务逻辑, 一般用作前后端分离时的数据传输
         - **编写RESTful API**
           - Spring MVC针对Controller提供了两个注解
             - `@Controller`
@@ -279,11 +280,11 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
                 scope:: 方法或类
                 - 注解类上
                   - 类中所有注解的方法都会继承类中所声明的属性
-                - 简化的注解 #.ol
+                - 简化的注解 \#.ol
                   - @GetMapping
-                    mark:: 处理Get请求
+                    description:: 处理Get请求
                   - @PostMapping
-                    mark:: 处理Post请求
+                    description:: 处理Post请求
             - #+BEGIN_NOTE
               注意返回值，最好的方式就是==对返回值进行统一包装==
               #+END_NOTE
@@ -291,14 +292,14 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
               - 假如方法中的是返回基础数据类型 (boolean/int/...)
                 - 无法进行序列化，从而造成错误
           - TODO [Swagger](https://swagger.io/)
-            mark:: 当系统启动后, 可以在浏览器中通过地址 `root/swagger/index.html` 访问到所生成的API文档
+            description:: 当系统启动后, 可以在浏览器中通过地址 `root/swagger/index.html` 访问到所生成的API文档
           -
         - **数据库初始化**
           collapsed:: true
           - Hibernate
-            mark:: 根据实体类自动创建数据库
-          - Spring JDBC #jdbc #.ol
-            mark:: 初始化 `DataSource`, 在启动系统时检测 `classpath` 根目录下是否有 `schema.sql` 和 `data.sql` 脚本文件，如果存在这两个脚本文件存在或者其中一个，将会尝试加载并执行该脚本，初始化产生异常，应用系统启动将会失败
+            description:: 根据实体类自动创建数据库
+          - Spring JDBC #jdbc \#.ol
+            description:: 初始化 `DataSource`, 在启动系统时检测 `classpath` 根目录下是否有 `schema.sql` 和 `data.sql` 脚本文件，如果存在这两个脚本文件存在或者其中一个，将会尝试加载并执行该脚本，初始化产生异常，应用系统启动将会失败
             - `schema.sql` 创建数据库表
             - `data.sql` 初始化数据
               - 通过设置项目配置文件, 初始化脚本
@@ -314,7 +315,7 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
     - 第3章 Spring Cloud简介
       - 3.1 微服务架构的核心关键点
         collapsed:: true
-        - ![](../assets/book_SpringCloud_微服务架构开发实战/epub_22920378_12.jpeg) #.ol
+        - ![](../assets/book_SpringCloud_微服务架构开发实战/epub_22920378_12.jpeg) \#.ol
           - 服务治理
           - 负载均衡
           - 统一入口
@@ -325,7 +326,7 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
       - 3.2 Spring Cloud技术概览
         collapsed:: true
         - **==Spring Cloud==**
-          mark:: "在Netflix OSS等多家开源的基础上，使用Spring Boot风格将这些比较成熟的微服务框架组合起来，屏蔽掉了复杂的配置和实现原理，为快速构建微服务架构的应用提供了一套基础设施工具和开发支持。所提供的基础设施，如服务发现、客户端负载均衡、API网关、微服务容错、统一配置中心、消息总线及微服务调用监控等，都可以做到一键启动和部署，极大减轻了我们进入微服务世界的难度" #.ol
+          description:: "在Netflix OSS等多家开源的基础上，使用Spring Boot风格将这些比较成熟的微服务框架组合起来，屏蔽掉了复杂的配置和实现原理，为快速构建微服务架构的应用提供了一套基础设施工具和开发支持。所提供的基础设施，如服务发现、客户端负载均衡、API网关、微服务容错、统一配置中心、消息总线及微服务调用监控等，都可以做到一键启动和部署，极大减轻了我们进入微服务世界的难度" \#.ol
           - 基于Netflix实现服务治理、客户端负载均衡和声明式调用；
           - 服务网关；
           - 微服务容错管理；
@@ -334,7 +335,7 @@ mark:: [cd826/springcloud-demo: Spring cloud demo projects](https://github.com/c
           - 分布式、版本化的统一配置管理；
           - 微服务调用链及追踪管理
         - Spring Cloud 子项目
-          - 分类 #.ol
+          - 分类 \#.ol
             collapsed:: true
             - 对现有成熟的第三方开源项目Spring Boot化，进行封装集成
               - 使得我们基于Spring的开发非常容易集成和使用

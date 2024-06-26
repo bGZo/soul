@@ -9,7 +9,8 @@ isbn:: 9787121310928 / 9787121415203
 created:: [[20221204]]
 douban:: [剑指Offer：名企面试官精讲典型编程题（第2版） (豆瓣)](https://book.douban.com/subject/27008702/); [剑指Offer（专项突破版）：数据结构与算法名企面试题精讲 (豆瓣)](https://book.douban.com/subject/35543447/)
 weread:: [剑指Offer（专项突破版）：数据结构与算法名企面试题精讲-何海涛-微信读书](https://weread.qq.com/web/bookDetail/4e132bc07263ff664e11075)
-mark:: 202108
+description:: 202108
+
 - Origin Content
   - 版权信息
   - 前言

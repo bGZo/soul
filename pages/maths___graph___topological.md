@@ -1,5 +1,6 @@
 title:: maths/graph/topological
-mark:: 拓扑图
+description:: 拓扑图
+
 -
 - [[sort]] | 拓扑排序
   - Use Case -> 先修课

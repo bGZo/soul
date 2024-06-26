@@ -1,6 +1,6 @@
 title:: wsdjeg/Learn-Vim
 tags:: #github #opensource #vim #tutorial
-mark:: [GitHub - wsdjeg/Learn-Vim_zh_cn](https://github.com/wsdjeg/Learn-Vim_zh_cn) ![](https://img.shields.io/github/stars/wsdjeg/Learn-Vim_zh_cn)
+description:: [GitHub - wsdjeg/Learn-Vim_zh_cn](https://github.com/wsdjeg/Learn-Vim_zh_cn) ![](https://img.shields.io/github/stars/wsdjeg/Learn-Vim_zh_cn)
 
 - ## Start
   - `option`/`flag` -> use flag to set options

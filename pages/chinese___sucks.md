@@ -1,6 +1,6 @@
 title:: chinese/sucks
 tags:: #Chinese #sucks
-#.ol
+\#.ol
   - 创造力许可垄断, 敏感; [^WANGZZY]
     - > Thus, control of the usage of the Chinese language is accomplished. That is the sad part. Internet is the most effective way to spread ideas in this era, while the usage of a language used by 1.4 billion people is strictly controlled. Of course, you can write in Chinese on a server outside China, but if what you wrote cannot reach its most potential audience, the meaning of writing itself is reduced.
       > Such control of a language is probably quite unique if we can have a chance to look back from a historical perspective. Now I just have no idea where that will go.

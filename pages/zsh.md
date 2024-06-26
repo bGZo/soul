@@ -1,6 +1,7 @@
 title:: zsh
 tags:: #[[Linux Commandline]], #tools
-mark:: https://github.com/bGZo/dotfiles
+description:: https://github.com/bGZo/dotfiles
+
 - ## Refs
   - [linux-command|Linux命令大全搜索工具](https://github.com/jaywcjlove/linux-command)
   - [如何在Ubuntu 18.04 LTS中安装和美化ZSH Shell - 系统极客](https://www.sysgeek.cn/install-zsh-shell-ubuntu-18-04/)

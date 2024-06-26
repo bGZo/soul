@@ -1,8 +1,9 @@
 title:: asmr
 alias:: hobby/asmr, orgasm/asmr
-mark:: Autonomous Sensory Meridian Response / 自主性感官经络反应 / 自发性知觉神经反应 / **颅内高潮(经络)** / 耳音 / 耳搔 / 大脑按摩 /大脑高潮
-mark:: [ASMR - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/ASMR)
+description:: Autonomous Sensory Meridian Response / 自主性感官经络反应 / 自发性知觉神经反应 / **颅内高潮(经络)** / 耳音 / 耳搔 / 大脑按摩 /大脑高潮
+description:: [ASMR - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/ASMR)
 created:: [[20221130]]
+
   - 2010年，在线论坛的参与者詹妮弗·艾伦 (Jennifer Allen) 提出将该现象命名
     collapsed:: true
     - 艾伦选择了用这些词是打算或假设它们具有以下特定含义：

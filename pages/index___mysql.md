@@ -25,7 +25,7 @@ title: index/mysql
     collapsed:: true
     - 主键索引 (Primary Key)
     - 二级索引 (辅助索引)
-      mark:: "二级索引的叶子节点存储的数据是主键, 也就是说，通过二级索引，可以定位主键的位置"
+      description:: "二级索引的叶子节点存储的数据是主键, 也就是说，通过二级索引，可以定位主键的位置"
       - 普通索引, Index
         - 作用(1)
           - 快速查询数据
@@ -41,10 +41,10 @@ title: index/mysql
   - 聚集索引与非聚集索引
     collapsed:: true
     - 聚集索引, cluster index
-      mark:: "索引结构和数据一起存放的索引"
+      description:: "索引结构和数据一起存放的索引"
       -
     - 非聚集索引, non-cluster index
-      mark:: "索引结构和数据分开存放的索引"
+      description:: "索引结构和数据分开存放的索引"
   - 覆盖索引 ???
   - 联合/组合/复合 索引 ???
 - ## Why

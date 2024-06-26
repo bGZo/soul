@@ -3,13 +3,14 @@ icon:: 🎧
 tags:: #Hobby
 created:: [[20230603]]
 title:: Podcast
+
   - template:: podcast
     template-including-parent:: false
     collapsed:: true
     - alias:: 
       author:: 
       cover:: 
-      mark:: 
+      description:: 
       icon:: 🎧
       tags:: 
       created:: ``{ date.now.format('YYYYMMDD') }``

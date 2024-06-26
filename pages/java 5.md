@@ -9,7 +9,7 @@ title: java 5
   - [[java concurrency]]
     - [[java multithreading]]
   - [[generics]]
-- ## Feats #.ol
+- ## Feats \#.ol
   - 泛型 (Generics)
   - 增强循环（Enhanced for Loop）
     collapsed:: true
@@ -23,7 +23,7 @@ title: java 5
     collapsed:: true
     - 八大基本类型和它们的包装类能够自动的相互转换
     - 自动装箱 (Autoboxing)
-      mark:: 把一个基本类型变量直接赋给对应的包装类变量，或者赋给Object变量 (Object是所有类的父类，子类对象可以直接赋给父类变量)
+      description:: 把一个基本类型变量直接赋给对应的包装类变量，或者赋给Object变量 (Object是所有类的父类，子类对象可以直接赋给父类变量)
       - ```java
         public class AutoBoxingUnboxing{
           public static void main(String[] args){

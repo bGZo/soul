@@ -5,8 +5,8 @@ via: [Random Number Generator: How Do Computers Generate Random Numbers?](https:
     - the photoelectric effect 光电效应
     - cosmic background radiation 宇宙背景辐射
     - atmospheric noise  大气噪声
-      mark:: 自然大气过程引起的无线电噪声（主要是雷暴中的闪电放电）；
-      mark:: [大气噪声 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%B0%94%E5%99%AA%E5%A3%B0)； [Atmospheric noise - Wikipedia](https://en.wikipedia.org/wiki/Atmospheric_noise)
+      description:: 自然大气过程引起的无线电噪声（主要是雷暴中的闪电放电）；
+      description:: [大气噪声 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E5%A4%A7%E6%B0%94%E5%99%AA%E5%A3%B0)； [Atmospheric noise - Wikipedia](https://en.wikipedia.org/wiki/Atmospheric_noise)
       - Support by [RANDOM.ORG - True Random Number Service](https://www.random.org/)
         - collapsed:: true
           ```js

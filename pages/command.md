@@ -12,7 +12,7 @@ title:: command
     - ## Why
     - ## How
     - ## What
-      - <iframe src="https://wangchujiang.com/linux-command/c/``{c.page.name}``.html" style="height: 400px"></iframe>
+      - {{iframe https://wangchujiang.com/linux-command/c/``{c.page.name}``.html, 400}}
         #+BEGIN_CENTER
         via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/``{c.page.name}``.html)
         #+END_CENTER
@@ -25,7 +25,7 @@ title:: command
 - ## What
   - ### On [[Linux]]
     collapsed:: true
-    - ### Category refer to [菜鸟教程](https://www.runoob.com/linux/linux-command-manual.html) #.ol
+    - ### Category refer to [菜鸟教程](https://www.runoob.com/linux/linux-command-manual.html) \#.ol
       collapsed:: true
       - 文件管理
         collapsed:: true

@@ -44,7 +44,7 @@ title: regex
         \[(?:[^][]|(?R))*\] # https://stackoverflow.com/questions/17845014/what-does-the-regex-mean
         ```
   - 向前非贪婪匹配匹配
-    mark:: 全模拟也可以解决
+    description:: 全模拟也可以解决
     - ```
       [Rubular: a Ruby regular expression editor](https://rubular.com/)
       [Regex Util download | SourceForge.net](https://sourceforge.net/projects/regex-util/)

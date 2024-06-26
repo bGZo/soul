@@ -1,5 +1,6 @@
 title:: osi/transport
-mark:: 建立**端到端**的连接
+description:: 建立**端到端**的连接
+
 - OSI/Transport
   - UDP
     - ![image-https://user-images.githubusercontent.com/57313137](../assets/network/147385876-d9ac3168-0555-4244-80ad-741fcd8ab889.png)

@@ -1,5 +1,5 @@
 icon:: 
-mark:: 禁止 / 封杀 / 屏蔽
+description:: 禁止 / 封杀 / 屏蔽
 
 - [[issue]]
   collapsed:: true

@@ -1,5 +1,6 @@
 created:: [[20230215]]
-mark:: [郝海龍](https://haohailong.net/)
+description:: [郝海龍](https://haohailong.net/)
+
 - ## Contents
   - [「辱華」與「霸權」](https://haohailong.net/2023/ru-hua-yu-ba-quan-392418c4)
   - [值得期待的乳齒象（Mastodon）客戶端（iOS 為主）](https://haohailong.net/2023/promising-mastodon-clients)

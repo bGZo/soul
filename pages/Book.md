@@ -92,7 +92,7 @@ title:: Book
       - Similar products: GET_ANIME, GET_VIDEO, GET_GAME
     - [实体图书扫描导入 Notion 实践 · 豆瓣评分版 - Linmi](https://linmi.cc/42154.html)
 - ## What
-  - What I mostly care when I read? #.ol
+  - What I mostly care when I read? \#.ol
     collapsed:: true
     - **Digest** ≫ *Print Book* in most cases.
       collapsed:: true

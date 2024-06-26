@@ -8563,29 +8563,29 @@ icon:: 📅
 - ## 这周有断舍离吗？
   - title:: [吴猛强的知乎动态](https://rsshub.rssforever.com/zhihu/xhu/people/activities/7f5daa9b1a2ed1dba3279f8d5182c543)
     tags:: #rss/deprecated #cannot/enjoy 
-    mark:: 知乎体过强，阅读有门槛
+    description:: 知乎体过强，阅读有门槛
   - title:: [予一人的知乎动态](https://rsshub.rssforever.com/zhihu/xhu/people/activities/aba4a1516eec0d307e42f64ba7330093) 
     tags:: #rss/deprecated #cannot/enjoy 
-    mark:: 数学方面解题dalao，rss点击率为0，几乎不看
+    description:: 数学方面解题dalao，rss点击率为0，几乎不看
   - title:: [弗兰克扬的知乎动态](https://rsshub.rssforever.com/zhihu/xhu/people/activities/c3239475688a09f3252cc320cc214ce4)
     tags:: #rss/deprecated #much/contents 
-    mark:: 内容过多，多为职场
+    description:: 内容过多，多为职场
   - title:: [老梁](https://www.youtube.com/feeds/videos.xml?channel_id=UC5xunxPS6oZ1zzKufgREFuA)
     tags::  #rss/deprecated #much/contents 
-    mark:: 原因同袁腾飞，几乎不看
+    description:: 原因同袁腾飞，几乎不看
   - title:: [大漠叔叔](https://www.youtube.com/feeds/videos.xml?channel_id=UCMMSkm5tB8pl3X9mr7y-PmA)
     tags::  #rss/deprecated #much/contents
-    mark:: 做着多国语言的视频，偏多且几乎不看
+    description:: 做着多国语言的视频，偏多且几乎不看
   - title:: [老E来了](https://www.youtube.com/feeds/videos.xml?channel_id=UCz0PGhnBchbi8S4iI395ZJQ)
     tags:: #rss/deprecated
-    mark:: 学生不在，已经没有多少时间看他玩了
+    description:: 学生不在，已经没有多少时间看他玩了
   -
   - title:: [记忆角落](https://199604.com/feed)
     tags:: #rss/deprecated
-    mark:: 非全文输出
+    description:: 非全文输出
   - title:: [游戏和谐 Wiki](https://ggame.gledos.science/feed_rss_updated.xml)
     tags:: #rss/deprecated
-    mark:: 非 markdown，格式混乱
+    description:: 非 markdown，格式混乱
   - title:: [葉開三言兩語](https://qq.md/feed/)
     tags:: #rss/deprecated
-    mark:: 非全文输出
+    description:: 非全文输出

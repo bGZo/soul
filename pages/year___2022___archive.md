@@ -1419,7 +1419,7 @@ icon:: 💾
   - Linux commands A-Z🐧 https://t.co/wq6l3YV0IP
     by TRÄW🤟 at 2022-10-07T13:58:10.000Zwith likes 1406 & retweet 384 & reply_count 24via: [twitter](https://twitter.com/xtremepentest/status/1578384188000051200);
     ![](https://pbs.twimg.com/media/FeeL3ifXwAEcM5u.jpg)
-- #solidot
+- \#.olidot
   collapsed:: true
   - Google FCM 被屏蔽 2022-09-23 18:56:00 by 记忆残留
     collapsed:: true

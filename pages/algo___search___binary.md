@@ -1,6 +1,7 @@
 title:: algo/search/binary
-mark:: "binary(二分), half-interval(折半),logarithmic(对数), 在一个升序数组中查找一个数, 难点在于到底要给 mid ± 1, while 里到底用  <= / <"
+description:: "binary(二分), half-interval(折半),logarithmic(对数), 在一个升序数组中查找一个数, 难点在于到底要给 mid ± 1, while 里到底用  <= / <"
 tags:: #[[sort]]
+
 - >Although the basic idea of binary search is comparatively straightforward, the details can be surprisingly tricky | 思路很简单，细节是魔鬼
   — [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)(1998). *Sorting and searching*. [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming). Vol. 3 (2nd ed.). Reading, MA: Addison-Wesley Professional. [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier)) [978-0-201-89685-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-201-89685-5).
 -
@@ -163,7 +164,7 @@ tags:: #[[sort]]
   - 平均时间复杂度和最坏时间复杂度均为 $O(log n)$
   - 空间复杂度为 $O(1)$
   - 递归（无尾调用消除）版本的二分查找的空间复杂度为 $O(log n)$
-    mark:: "尾调用是指一个函数里的最后一个动作是返回一个函数的调用结果的情形, 经过适当处理，尾递归形式的函数的运行效率可以被极大地优化。尾调用原则上都可以通过简化函数调用栈的结构而获得性能优化（称为“尾调用消除”），但是优化尾调用是否方便可行取决于运行环境对此类优化的支持程度如何"
+    description:: "尾调用是指一个函数里的最后一个动作是返回一个函数的调用结果的情形, 经过适当处理，尾递归形式的函数的运行效率可以被极大地优化。尾调用原则上都可以通过简化函数调用栈的结构而获得性能优化（称为“尾调用消除”），但是优化尾调用是否方便可行取决于运行环境对此类优化的支持程度如何"
     source:: https://zh.wikipedia.org/zh-cn/%E5%B0%BE%E8%B0%83%E7%94%A8
 -
 - Implement with [[stl]]

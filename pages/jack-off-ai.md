@@ -1,7 +1,8 @@
 title:: jack-off-ai
 alias:: 导管 AI, 自慰 AI
 tags:: #[[sex]] #my/blog
-mark:: [Jark off AI - bGZo's blog](https://blog.bgzo.cc/jark-off-ai.html)
+description:: [Jark off AI - bGZo's blog](https://blog.bgzo.cc/jark-off-ai.html)
+
 - 男孩父母带着他跑到城市打工, 听说那里的教育不一样, 读过书的都能找个不错的营生, 不必像在村里, 整日就知道丢石头, 长大了面朝黄土背朝天, 再受一次这一辈的罪, 最后到头挣不到几个钱. 男孩童年很单调, 除了每年过年能买到的光碟[^4], 以及从村里带过来的, 整整一大柜子的碟片, 那是他们在村里营生的东西, 带过来也能在这里找个打发时间的工具.
 -
 - 孩子快到了上学的年纪, 父母也行动起来, 听说孩子一天到头只知道看那几盘碟, 给他掰碎了; 听说看电视影响孩子学习, 把电视拆了; 听说上网会影响孩子学习, 把他网掐了. 家里的声音变得单调, 除了整日做营生的噪音, 再无其他精神层面的东西. 仿佛一个吃惯了荤的人, 因为冥冥中的东西, 突然开始斋戒.
@@ -34,7 +35,7 @@ mark:: [Jark off AI - bGZo's blog](https://blog.bgzo.cc/jark-off-ai.html)
 - 这么多年过去, 他最喜欢逛的网站还是那么几个:
   - [琉璃神社★分享动漫快乐](https://www.hacg.mom/)
   - [南+ South Plus - powered by Pu!mdHd](https://www.east-plus.net/)
-  - [GMgard - 紳士の庭 ♢绅士们的二次元资源分享交流平台♢](https://gmgard.com/)
+  - [GMgard ](https://gmgard.com/)
   - [紳士 - 4Gamers](https://www.4gamers.com.tw/gentlemen)
   - [FANZA 日本最大級のアダルトポータル (旧DMM.R18)](https://www.dmm.co.jp/top/)
   - [DLsite:从同人志，同人游戏开始，到PC软件，漫画的二次元综合下载商店 - DLsite综合首页](https://www.dlsite.com/index.html)

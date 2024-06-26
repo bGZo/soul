@@ -1,5 +1,5 @@
 alias:: RDF Site Summary, Really Simple Syndication
-mark:: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
+description:: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
 released-date:: 19990315
 wikipedia:: [RSS - Wikipedia](https://en.wikipedia.org/wiki/RSS)
 tags:: #info
@@ -17,7 +17,7 @@ title:: rss
             collapsed:: true
             - 需求消失 -> 监控某些 API 的变化 -> 学习 RSSHUB 路由编写规则
             - [RSS--一个古老、小众的阅读方法_CrazyDragon_King的博客-CSDN博客](https://blog.csdn.net/qq_40734247/article/details/105416907)
-              mark:: 转换方法只针对某个版本的 RSS XML 文件, 适用性不强
+              description:: 转换方法只针对某个版本的 RSS XML 文件, 适用性不强
               collapsed:: true
               - ```xml
                 <?xml version="1.0" encoding="utf-8" ?>
@@ -91,7 +91,7 @@ title:: rss
           - [常见问题 | RSSHub](https://docs.rsshub.app/faq.html)
             - collapsed:: true
               > 为什么 RSSHub 里的图片 / 视频加载不出来？
-              - RSSHub 里的图片 / 视频地址都是源站地址，部分有防盗链，所以 RSSHub 给图片加了`referrerpolicy="no-referrer"`  属性来**防止跨域问题**，但部分 RSS 服务会自作主张去掉这个属性，如 Feedly、Inoreader，在它们的网页端图片会触发跨域加载不出来。同时，视频目前没有类似的属性，因此大部分阅读器都无法通过防盗链检查。下面是一些解决方案： #.ol
+              - RSSHub 里的图片 / 视频地址都是源站地址，部分有防盗链，所以 RSSHub 给图片加了`referrerpolicy="no-referrer"`  属性来**防止跨域问题**，但部分 RSS 服务会自作主张去掉这个属性，如 Feedly、Inoreader，在它们的网页端图片会触发跨域加载不出来。同时，视频目前没有类似的属性，因此大部分阅读器都无法通过防盗链检查。下面是一些解决方案： \#.ol
                 - 使用不发送 Referer 的阅读器，如 [Inoreader 网页版 (opens new window)](https://www.inoreader.com/)配合[禁用 Referer 的 user script (opens new window)](https://greasyfork.org/zh-CN/scripts/376884)、[RSS to Telegram Bot (opens new window)](https://github.com/Rongronggg9/RSS-to-Telegram-Bot)等。如果你的阅读器能够绕过防盗链成功播放内嵌视频，那么它就是不发送 Referer 的，请考虑添加到文档里帮助更多的人。
                 - 设置反代，参考 [通用参数 -> 多媒体处理](https://docs.rsshub.app/parameter.html#duo-mei-ti-chu-li)。
                 - 回到原网站查看相关资源
@@ -100,7 +100,7 @@ title:: rss
               - 如果你会写 JavaScript，请按照[规则](https://docs.rsshub.app/joinus/quick-start.html#ti-jiao-xin-de-rsshub-gui-ze)提交 pull request，否则按照要求[提交 issue (opens new window)](https://github.com/DIYgod/RSSHub/issues/new?template=rss_request_zh.md)，然后等待有缘人完成你的需求，也可以考虑[赞助项目](https://docs.rsshub.app/support)或附上一张你自己的女装照来获得更快的 issue 响应速度。
     - WAITING Overdesign / design deliberatly, which is hard to fetch normally.
       collapsed:: true
-      - 爬取方式 #.ol
+      - 爬取方式 \#.ol
         - RSS 订阅（关闭全文输出）
         - [sawhney17/logseq-web-parser (github.com)](https://github.com/sawhney17/logseq-web-parser) #Logseq
       - #+BEGIN_EXAMPLE
@@ -160,8 +160,10 @@ title:: rss
     * State "DONE" from "WAITING" [2024-03-09 Sat 15:57]
     * State "DONE" from "WAITING" [2024-04-08 Mon 07:21]
     :END:
-    - {{iframe https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03}}
-      [feedbro.opml/edit](https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03/edit)
+    - {{iframe https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03,300}}
+      #+BEGIN_CENTER
+      via: https://gist.github.com/bGZo/f16fbc8d22cb77ae8078f8ac09234e03/edit
+      #+END_CENTER
   - How I handle the trash message?
     id:: 646a045c-74f6-49d4-bbce-78ec1484d73c
     - They have some general features:
@@ -173,10 +175,11 @@ title:: rss
       - [Solidot](https://www.solidot.org/index.rss)
       - [ONE · 一个](https://rsshub.app/one)
       - [4Gamers](https://www.4gamers.com.tw/rss/latest-news)
+      -
       - [游戏 – 琉璃神社 ★ HACG.me](https://www.hacg.mom/wp/game.html/feed)
       - [V2EX热门](https://rsshub.app/v2ex/topics/hot)
   - How I connect each other tools and build [[workflow]]?
-    - ![image.png](../assets/works/infoflow.excalidraw.png)
+    - ![image.png](../assets/works/infoflow.excalidraw.png){:height 571, :width 785}
       `[[draws/flow.book.excalidraw]]`
       #Book #reading #writing #flow
       - When rss failed/[[404]], go to [Inoreader - Take back control of your news feed](https://www.inoreader.com/). Subscribe, and find the old articles.
@@ -197,7 +200,7 @@ title:: rss
         - [Instapaper](https://www.instapaper.com/)
         - No more free 😭 I only could use raindrop.
 - ## What
-  - What I used in past and recommand now#.ol
+  - What I used in past and recommand now\#.ol
     id:: 4dd1229b-d8a7-4599-b042-8e767800317e
     - ✨ [Feedbro - Chrome Web Store (google.com)](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa?hl=en)
       collapsed:: true

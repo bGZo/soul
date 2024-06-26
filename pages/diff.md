@@ -4,7 +4,7 @@ icon:: ⌘
 - ## Why
 - ## How
 - ## What
-  - <iframe src="https://wangchujiang.com/linux-command/c/diff.html" style="height: 400px"></iframe>
+  - {{iframe https://wangchujiang.com/linux-command/c/diff.html, 400}}
     #+BEGIN_CENTER
     via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/diff.html)
     #+END_CENTER

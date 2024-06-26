@@ -1,6 +1,7 @@
 alias:: Cascading Style Sheets, 层叠样式表, 串样式列表, 级联样式表, 串接样式表, 阶层式样式表
 tags:: #lang/programming/domain-specific #web
-mark:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护
+description:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护
+
 - ## [[Quickref]]
   - ### unit
     collapsed:: true
@@ -42,8 +43,8 @@ mark:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML
       #+END_NOTE
 - ## Basics
   - `position`
-    mark:: mark:: s the position of an element in a document
-    - five values #.ol
+    description:: description:: s the position of an element in a document
+    - five values \#.ol
       - static
       - relative
       - absolute

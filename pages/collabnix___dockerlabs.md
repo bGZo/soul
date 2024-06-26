@@ -1,7 +1,7 @@
 title:: collabnix/dockerlabs
 tags:: #github #opensource #TODO #tutorial #docker
 created:: [[20230205]]
-mark:: [collabnix/dockerlabs Docker - Beginners | Intermediate | Advanced](https://github.com/Collabnix/dockerlabs) ![](https://img.shields.io/github/stars/Collabnix/dockerlabs)
+description:: [collabnix/dockerlabs Docker - Beginners | Intermediate | Advanced](https://github.com/Collabnix/dockerlabs) ![](https://img.shields.io/github/stars/Collabnix/dockerlabs)
 
 - [Lab #22: Down Command | dockerlabs](https://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/down_command.html)
   - ```shell

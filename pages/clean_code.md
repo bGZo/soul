@@ -6,7 +6,7 @@ alias:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, book
     —— [5S (methodology) - Wikipedia](https://en.wikipedia.org/wiki/5S_(methodology))
 -
 -
-- ## CONTENTS #.ol-nested-3
+- ## CONTENTS \#.ol-nested-3
   - 整洁代码
     - 要有代码
     - 糟糕的代码

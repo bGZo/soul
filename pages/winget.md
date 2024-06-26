@@ -14,7 +14,7 @@ created:: [[20230512]]
     - [Releases · microsoft/winget-cli · GitHub](https://github.com/microsoft/winget-cli/releases)
 -
 - ## References
-  - [^version]: 就算是允许多版本安装 Python，也都是安装在 `$LOCALAPPDATA\Programs\Python\PythonXX` 下，但是本身的环境变量没有办法方便的修改(via： [Can winget install an older version of Python? - Stack Overflow](https://stackoverflow.com/questions/70281103/can-winget-install-an-older-version-of-python))，所以相当鸡肋。只适用于 #.ol
+  - [^version]: 就算是允许多版本安装 Python，也都是安装在 `$LOCALAPPDATA\Programs\Python\PythonXX` 下，但是本身的环境变量没有办法方便的修改(via： [Can winget install an older version of Python? - Stack Overflow](https://stackoverflow.com/questions/70281103/can-winget-install-an-older-version-of-python))，所以相当鸡肋。只适用于 \#.ol
     - 微软已登录用户？
       - Github 安装的版本可以绕过这个限制吗？
     - 一些没有被墙的源（如 winget 源的 Google.PlatformTools，碍于无法使用代理，并且需要从 Google 官方那里拉取软件，所以基本已报错收尾）

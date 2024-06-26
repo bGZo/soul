@@ -32,7 +32,7 @@ created:: [[20220628]]
         - 表现
         - 行为
     - 02-浏览器的介绍
-      - High level structure #.ol
+      - High level structure \#.ol
         - User Interface（UI界面）
           collapsed:: true
           - 包括地址栏、前进/后退按钮、书签菜单等。也就是浏览器主窗口之外的其他部分。

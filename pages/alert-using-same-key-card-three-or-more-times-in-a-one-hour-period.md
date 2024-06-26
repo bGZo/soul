@@ -1,7 +1,8 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium
-mark:: [1604. 警告一小时内使用相同员工卡大于等于三次的人](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
+description:: [1604. 警告一小时内使用相同员工卡大于等于三次的人](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 created:: [[20230207]]
+
 - icon:: 👨‍💻
   tags:: #leetcode/medium
   created:: [[20230514]]

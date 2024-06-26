@@ -1,11 +1,11 @@
 title:: annotation
 alias:: 注解
-mark:: Java 注解；放在Java源码的类、方法、字段、参数前的一种特殊“注释”；注解是一种用作标注的 "元数据"；被编译器直接忽略，被打包进入class文件
+description:: Java 注解；放在Java源码的类、方法、字段、参数前的一种特殊“注释”；注解是一种用作标注的 "元数据"；被编译器直接忽略，被打包进入class文件
 
 - ## [[Quickref]]
   - ` @Autowired`
-    mark:: 对成员变量、方法和构造函数进行标注，来完成自动装配的工作；@Autowired是根据类型进行自动装配的，如果需要按名称进行装配，则需要配合@Qualifier使用；
-    mark:: Since Spring 2.5；[@Autowired 的作用是什么？ - 知乎](https://zhuanlan.zhihu.com/p/91654572)
+    description:: 对成员变量、方法和构造函数进行标注，来完成自动装配的工作；@Autowired是根据类型进行自动装配的，如果需要按名称进行装配，则需要配合@Qualifier使用；
+    description:: Since Spring 2.5；[@Autowired 的作用是什么？ - 知乎](https://zhuanlan.zhihu.com/p/91654572)
 - ##
 -
 - ## Category
@@ -19,8 +19,8 @@ mark:: Java 注解；放在Java源码的类、方法、字段、参数前的一�
     - 一个配置了`@PostConstruct`的方法会在调用构造方法后自动被调用
       （Java 提供，JVM并不识别）
       - ` @PostConstruct`
-        mark:: java/5 提供；是和@PreDestroy两个作用于 Servlet 生命周期的注解；实现Bean初始化之前和销毁之前的自定义操作
-        mark:: [PostConstruct注解详细使用说明及理解_](https://blog.csdn.net/skh2015java/article/details/117751380)
+        description:: java/5 提供；是和@PreDestroy两个作用于 Servlet 生命周期的注解；实现Bean初始化之前和销毁之前的自定义操作
+        description:: [PostConstruct注解详细使用说明及理解_](https://blog.csdn.net/skh2015java/article/details/117751380)
 -
 - 配置参数 (final)
   - 所有基本类型；

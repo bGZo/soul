@@ -1,4 +1,5 @@
 alias:: 版本号
+
 -
   - ```shell
     w.x.y.z
@@ -21,7 +22,7 @@ alias:: 版本号
   - ### [[android]]
     - bilibili comic 4.9.5
       #Samsung
-  - ### [[iOS]]
+  - ### [[ios]]
     - id:: 63b0e36a-fa4c-455a-a22c-ec1087860249
       | Name   | Version                           |
       | ------ | --------------------------------- |

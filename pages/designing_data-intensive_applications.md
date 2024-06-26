@@ -8,7 +8,8 @@ published::  20180901
 isbn:: 9787519821968
 created:: [[20230328]]
 douban:: https://book.douban.com/subject/26197294 ； https://book.douban.com/subject/30329536/
-mark:: [GitHub - Vonng/ddia: 《Designing Data-Intensive Application》DDIA中文翻译](https://github.com/Vonng/ddia)
+description:: [GitHub - Vonng/ddia: 《Designing Data-Intensive Application》DDIA中文翻译](https://github.com/Vonng/ddia)
+
 - ## ![Designing Data-Intensive Applications](../assets/book_designing_data-Intensive_applications.pdf)
 - ## Contents
   - [序言](http://ddia.vonng.com/#/preface)

@@ -1,5 +1,6 @@
 title:: imu/working
-mark:: 就业指导与职业发展
+description:: 就业指导与职业发展
+
 - 结课作业
   - 职业探索：详细分析以下内容
     collapsed:: true

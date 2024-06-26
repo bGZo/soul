@@ -7,7 +7,7 @@ published:: 20221201
 isbn:: 9787115598691
 douban:: [Spring实战（第6版） (豆瓣)](https://book.douban.com/subject/36142064)
 weread:: [Spring实战（第6版）-克雷格·沃斯-微信读书](https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4)
-mark:: [habuma/spring-in-action-6-samples: Sample code from Spring in Action 6](https://github.com/habuma/spring-in-action-6-samples)
+description:: [habuma/spring-in-action-6-samples: Sample code from Spring in Action 6](https://github.com/habuma/spring-in-action-6-samples)
 created:: [[20230111]]
 
 - ## 📄 Contents
@@ -39,7 +39,7 @@ created:: [[20230111]]
       - 第16章介绍如何使用Spring Boot Admin。它是构建在Actuator之上的一个对用户友好的基于浏览器的管理应用。
       - 第17章讨论如何将Spring bean暴露为JMX MBean，以及如何消费它们。
       - 最后，第18章介绍如何将Spring应用部署到各种生产环境中，包括Kubernetes。
-  - 第1部分 Spring基础 #.ol-nested-3
+  - 第1部分 Spring基础 \#.ol-nested-3
     collapsed:: true
     - Spring起步
       collapsed:: true
@@ -81,24 +81,24 @@ created:: [[20230111]]
           - 自动配置起源
             collapsed:: true
             - Component Scanning / 组件扫描
-              mark:: 自动发现应用类路径下的组件，并将它们创建成Spring应用上下文中的bean
+              description:: 自动发现应用类路径下的组件，并将它们创建成Spring应用上下文中的bean
               id:: 63bf6bef-9cb8-4fbc-96e2-c91f43d0d303
             - Autowiring / 自动装配
-              mark:: 自动为组件注入它们所依赖的其他bean
+              description:: 自动为组件注入它们所依赖的其他bean
               id:: 63bf6bef-a710-4323-adf1-55dfc0d193e1
           - Spring Boot >>  ((63bf6bef-9cb8-4fbc-96e2-c91f43d0d303)) & ((63bf6bef-a710-4323-adf1-55dfc0d193e1))
-            mark:: Spring框架的扩展，提供了很多生产效率方面的增强
+            description:: Spring框架的扩展，提供了很多生产效率方面的增强
             collapsed:: true
             - Autoconfiguration / 自动配置
-              mark:: 基于类路径中的条目、环境变量和其他因素合理猜测需要配置的组件，并将它们装配在一起
+              description:: 基于类路径中的条目、环境变量和其他因素合理猜测需要配置的组件，并将它们装配在一起
             - > 自动配置就像风一样，你可以看到它的效果，但是我找不到代码指给你说，“看！这就是自动配置的样例！”事情发生了，组件启用了，功能也提供了，但是不用编写任何的代码。没有代码就是自动装配的本质，也是它如此美妙的原因所在。
             - Spring XML配置是一种过时的方式, 本书会将Spring和Spring Boot当成一回事
       - 1.2 初始化Spring应用
         collapsed:: true
         - Spring Initializr
-          mark:: 基于浏览器的Web应用 / REST API, 能够生成一个Spring项目结构的骨架
+          description:: 基于浏览器的Web应用 / REST API, 能够生成一个Spring项目结构的骨架
           collapsed:: true
-          - 使用方式 #.ol
+          - 使用方式 \#.ol
             collapsed:: true
             - 通过地址为 https://start.spring.io/ 的Web应用；
             - 在命令行中使用curl命令；
@@ -118,19 +118,19 @@ created:: [[20230111]]
           - 测试代码放到了`src/test/java`
           - 非Java的资源放到了`src/main/resources`
           - `mvnw` / `mvnw.cmd`
-            mark:: Maven包装器(wrapper)脚本，即便没有Maven，也可以构建项目
+            description:: Maven包装器(wrapper)脚本，即便没有Maven，也可以构建项目
           - `pom.xml`
-            mark:: Maven 构建规范
+            description:: Maven 构建规范
           - `TacoCloudApplication.java`
-            mark:: Spring Boot主类，启动该项目
+            description:: Spring Boot主类，启动该项目
           - `application.properties`
-            mark:: 指定配置属性的 (第6章
+            description:: 指定配置属性的 (第6章
           - `static`
-            mark:: 为浏览器提供服务的静态内容 (图片/样式表/JavaScript等), 初始为空
+            description:: 为浏览器提供服务的静态内容 (图片/样式表/JavaScript等), 初始为空
           - `templates`
-            mark:: 用来渲染内容到浏览器的模板文件; 初始是空; Thymeleaf
+            description:: 用来渲染内容到浏览器的模板文件; 初始是空; Thymeleaf
           - `TacoCloudApplicationTests.java`
-            mark:: 测试类，确保Spring应用上下文成功加载
+            description:: 测试类，确保Spring应用上下文成功加载
         - 构建规范
           collapsed:: true
           - ```xml
@@ -255,11 +255,11 @@ created:: [[20230111]]
             id:: 63bfd20c-314f-459c-a0bc-dfc7230de2df
             collapsed:: true
             - `@SpringBootConfiguration`
-              mark:: 声明为配置类; 实际上是 `@Configuration` 的特殊形式。
+              description:: 声明为配置类; 实际上是 `@Configuration` 的特殊形式。
             - `@EnableAutoConfiguration`
-              mark:: 自动配置 Spring Boot 认为我们会用到的组件
+              description:: 自动配置 Spring Boot 认为我们会用到的组件
             - `@ComponentScan`
-              mark:: 组件扫描, Spring 自动发现并将它们注册为Spring应用上下文中的组件, 通过 `@Component` / `@Controller` / `@Service`... 这样的注解声明其他类
+              description:: 组件扫描, Spring 自动发现并将它们注册为Spring应用上下文中的组件, 通过 `@Component` / `@Controller` / `@Service`... 这样的注解声明其他类
         - 测试应用
           collapsed:: true
           - 手动测试
@@ -290,7 +290,7 @@ created:: [[20230111]]
               }
               ```
             - `@SpringBootTest`
-              mark:: 告诉 JUnit 在启动测试的时候要添加上Spring Boot的功能
+              description:: 告诉 JUnit 在启动测试的时候要添加上Spring Boot的功能
               collapsed:: true
               - `ExtendWith(SpringExtension.class)`
                 collapsed:: true
@@ -305,10 +305,10 @@ created:: [[20230111]]
         - 1.3.1 处理Web请求
           collapsed:: true
           - Spring MVC
-            mark:: Spring自带的Web框架
+            description:: Spring自带的Web框架
             collapsed:: true
             - Controller / 控制器(核心)
-              mark:: 处理请求并以某种方式进行信息响应的类, 控制器填充可选的数据模型并将请求传递给一个视图，以便于生成返回给浏览器的HTML
+              description:: 处理请求并以某种方式进行信息响应的类, 控制器填充可选的数据模型并将请求传递给一个视图，以便于生成返回给浏览器的HTML
           - collapsed:: true
             ```java
             @Controller
@@ -326,7 +326,7 @@ created:: [[20230111]]
             }
             ```
             - `@Controller`
-              mark:: 目的是让组件扫描将这个类识别为一个组件
+              description:: 目的是让组件扫描将这个类识别为一个组件
               collapsed:: true
               - `@Component` / `@Service` / `@Repository`
                 collapsed:: true
@@ -375,7 +375,7 @@ created:: [[20230111]]
             }
             ```
             - `@WebMvcTest` by Spring Boot
-              mark:: 提供了Spring环境的支持, 让测试在Spring MVC应用的上下文中执行, 即将HomeController注册到Spring MVC中, 以便于发请求
+              description:: 提供了Spring环境的支持, 让测试在Spring MVC应用的上下文中执行, 即将HomeController注册到Spring MVC中, 以便于发请求
               collapsed:: true
               - ((63d268d6-2155-4425-93aa-21bf9186c87d))
               - ((63d2699d-04d0-41da-bc94-c357a4f43608))
@@ -393,12 +393,12 @@ created:: [[20230111]]
             ```
         - 1.3.5 了解Spring Boot DevTools
           collapsed:: true
-          - DevTools #.ol
-            mark:: 提供了一些便利的开发期工具和特性
+          - DevTools \#.ol
+            description:: 提供了一些便利的开发期工具和特性
             collapsed:: true
             - 代码热更新, 自动重启；
               collapsed:: true
-              - 刚启用, 应用程序会加载到JVM中的 2 个独立的类加载器中 #.ol
+              - 刚启用, 应用程序会加载到JVM中的 2 个独立的类加载器中 \#.ol
                 collapsed:: true
                 - 加载代码 / 属性文件 / 项目的 `src/main/` 下几乎所有内容
                   collapsed:: true
@@ -414,7 +414,7 @@ created:: [[20230111]]
                     collapsed:: true
                     - 每当在构建规范中添加、变更或移除依赖的时候, 都要重新启动应用
             - 自动刷新 + 禁用模板缓存；
-              mark:: 面向浏览器的资源(模板 / JS / CSS)
+              description:: 面向浏览器的资源(模板 / JS / CSS)
               collapsed:: true
               - LiveReload服务器
             - (内置了H2控制台)
@@ -444,17 +444,17 @@ created:: [[20230111]]
             - `REST API` Web
           - 数据持久化 JdbcTemplate
           - Reactive 反应式风格编程 -> Spring WebFlux的新反应式Web框架
-        - 1.4.2 Spring Boot 提供 #.ol
+        - 1.4.2 Spring Boot 提供 \#.ol
           collapsed:: true
           - starter依赖
           - 自动配置
           - Actuator
-            mark:: 洞察应用运行时的内部工作状况，包括指标、线程dump信息、应用的健康状况以及应用程序可用的环境属性；
+            description:: 洞察应用运行时的内部工作状况，包括指标、线程dump信息、应用的健康状况以及应用程序可用的环境属性；
           - 灵活的环境属性规范；
           - 在核心框架的测试辅助功能之上，提供了对测试的额外支持
           - 基于Groovy脚本的编程模型 / Spring Boot CLI
-            mark:: 将整个应用程序编写为Groovy脚本的集合，并通过命令行运行它们
-        - 1.4.3 Spring Data #.ol
+            description:: 将整个应用程序编写为Groovy脚本的集合，并通过命令行运行它们
+        - 1.4.3 Spring Data \#.ol
           collapsed:: true
           - 将应用程序的数据存储库(repository)定义为简单的Java接口，在定义存储和检索数据的方法时使用一种特定的命名约定即可
           - 处理多种不同类型的数据库
@@ -462,7 +462,7 @@ created:: [[20230111]]
             - 关系型数据库（通过JDBC或JPA实现）
             - 文档数据库(Mongo)
             - 图数据库(Neo4j)
-        - 1.4.4 Spring Security (范围太大) #.ol
+        - 1.4.4 Spring Security (范围太大) \#.ol
           collapsed:: true
           - 包括身份验证
           - 授权和API安全性
@@ -471,9 +471,9 @@ created:: [[20230111]]
           collapsed:: true
           - 应用集成
           - Spring Integration
-            mark:: 实时集成问题，在实时集成中，数据在可用时马上就会得到处理
+            description:: 实时集成问题，在实时集成中，数据在可用时马上就会得到处理
           - Spring Batch
-            mark:: 批处理集成的问题，在此过程中，数据可以收集一段时间，直到某个触发器（可能是一个时间触发器）发出信号表明是时候处理批量数据了，才会得到处理
+            description:: 批处理集成的问题，在此过程中，数据可以收集一段时间，直到某个触发器（可能是一个时间触发器）发出信号表明是时候处理批量数据了，才会得到处理
         - 1.4.6 Spring Cloud
           collapsed:: true
           - 关于对Spring Cloud的完整介绍，我推荐阅读Thomas Vitale的Cloud Native Spring in Action（Manning，2020年）
@@ -489,10 +489,10 @@ created:: [[20230111]]
         - 2.1.1 构建领域类
           collapsed:: true
           - 应用领域
-            mark:: 它所要解决的主题范围，也就是会影响应用理解的理念和概念
+            description:: 它所要解决的主题范围，也就是会影响应用理解的理念和概念
           - ![](../assets/book_Spring_in_Action/15.png)
           - Lombok
-            mark:: 它能够在编译期自动生成这些方法(getter / setter / equals() / hashCode() / toString()...)，这样一来，在运行期就能使用它们了
+            description:: 它能够在编译期自动生成这些方法(getter / setter / equals() / hashCode() / toString()...)，这样一来，在运行期就能使用它们了
             collapsed:: true
             - Lombok的魔力是在编译期发挥作用的，所以在运行期没有必要用到它们
             - Lombok注解 (如@Data), 并在编译期进行自动化的方法生成
@@ -551,24 +551,24 @@ created:: [[20230111]]
             }
             ```
             - `@Slf4j` by Lombok
-              mark:: 它会在这个类中自动生成一个SLF4J Logger（SLF4J即simple logging facade for Java,请访问slf4j网站以了解更多）静态属性
+              description:: 它会在这个类中自动生成一个SLF4J Logger（SLF4J即simple logging facade for Java,请访问slf4j网站以了解更多）静态属性
               collapsed:: true
               - ```java
                 private static final org.slf4j.Logger log =
                     org.slf4j.LoggerFactory.getLogger(DesignTacoController.class);
                 ```
             - `@RequestMapping`
-              mark:: 用到类级别的时候，它能够**指定该控制器所处理的请求类型**
+              description:: 用到类级别的时候，它能够**指定该控制器所处理的请求类型**
             - `@GetMapping`
-              mark:: 请求映射注解中的一个
+              description:: 请求映射注解中的一个
               collapsed:: true
               - ![](../assets/book_Spring_in_Action/Chapter02_table_1.jpg){:height 272, :width 540}
             - `@ModelAttribute`
-              mark:: 方法也会在请求处理的时候被调用，并将其放到模型中
+              description:: 方法也会在请求处理的时候被调用，并将其放到模型中
           - 硬编码???
         - 2.1.2 创建控制器类
           collapsed:: true
-          - Spring 提供了多种定义视图的方式 #.ol
+          - Spring 提供了多种定义视图的方式 \#.ol
             collapsed:: true
             - JavaServer Pages(JSP)
             - Thymeleaf
@@ -596,22 +596,22 @@ created:: [[20230111]]
             -->
             ```
           - `th:text`
-            mark:: Thymeleaf命名空间中的属性; 元素体会被替换为Servlet request中key为`message`的属性值
+            description:: Thymeleaf命名空间中的属性; 元素体会被替换为Servlet request中key为`message`的属性值
           - `${}`
-            mark:: 操作符会告诉它要使用某个request属性中的值
+            description:: 操作符会告诉它要使用某个request属性中的值
           - `th:each`
-            mark:: 迭代一个元素集合，为集合中的每个条目渲染HTML
+            description:: 迭代一个元素集合，为集合中的每个条目渲染HTML
           - `th:field`
-            mark:: 用来绑定后台对象和表单数据
+            description:: 用来绑定后台对象和表单数据
           - `th:value`
-            mark:: 用对象对name值替换value属性
+            description:: 用对象对name值替换value属性
           - `@{}`
-            mark:: 用来生成一个相对于上下文的路径
+            description:: 用来生成一个相对于上下文的路径
       - 2.2 处理表单提交
       - 2.3 校验表单输入
         collapsed:: true
         - JavaBean Validation API / JavaBean校验API / JSR-303
-          mark:: 不必在应用程序代码中显式编写声明逻辑
+          description:: 不必在应用程序代码中显式编写声明逻辑
           collapsed:: true
           - 在构建文件中添加 `Spring Validation starter`；
           - 在要被校验的类上声明校验规则；
@@ -644,10 +644,10 @@ created:: [[20230111]]
             }
             ```
             - `@NotNull` & `@Size`
-              mark:: 确保name属性不能为空或null
+              description:: 确保name属性不能为空或null
               collapsed:: true
               - `@NotBlank`
-                mark:: 没有提交空白字段
+                description:: 没有提交空白字段
           - 合法的信用卡号 -> Luhn算法
         - 2.3.2 在表单绑定的时候执行校验
           collapsed:: true
@@ -683,7 +683,7 @@ created:: [[20230111]]
               	  <!-- fields属性的hasErrors()方法会检查ccNumber域是否存在错误 -->
               ```
               - `th:if`
-                mark:: 决定是否要显示该元素
+                description:: 决定是否要显示该元素
       - 2.4 使用视图控制器
         collapsed:: true
         - 只将请求转发到视图而不做其他事情的控制器
@@ -704,7 +704,7 @@ created:: [[20230111]]
             }
             ```
           - `WebMvcConfigurer`
-            mark:: 定义了多个方法来配置Spring MVC，尽管只是一个接口，却提供了所有方法的默认实现，只需要我们覆盖所需的方法
+            description:: 定义了多个方法来配置Spring MVC，尽管只是一个接口，却提供了所有方法的默认实现，只需要我们覆盖所需的方法
           - 所有的配置类都可以实现WebMvcConfigurer接口并覆盖addViewController方法, 即上述方法可以放到引导类中.
       - 2.5 选择视图模板库
         collapsed:: true
@@ -719,8 +719,8 @@ created:: [[20230111]]
       - 使用JDBC读取和写入数据
         collapsed:: true
         - `JdbcTemplate`
-          mark:: 提供了一种方式, 开发人员在对关系型数据库执行SQL操作的时候，能够避免使用JDBC时常见的繁文缛节和样板式代码
-          mark:: 即便有了JdbcTemplate，一些持久化任务仍然很有挑战性，尤其是在**持久化聚合中的嵌套领域对象时**
+          description:: 提供了一种方式, 开发人员在对关系型数据库执行SQL操作的时候，能够避免使用JDBC时常见的繁文缛节和样板式代码
+          description:: 即便有了JdbcTemplate，一些持久化任务仍然很有挑战性，尤其是在**持久化聚合中的嵌套领域对象时**
           collapsed:: true
           - collapsed:: true
             ```java
@@ -791,9 +791,9 @@ created:: [[20230111]]
         - 3.1.2 使用JdbcTemplate
           collapsed:: true
           - `@Repository`
-            mark:: 构造型(stereotype)注解, 其他如`@Controller`和`@Component`
+            description:: 构造型(stereotype)注解, 其他如`@Controller`和`@Component`
           - `@Autowired`
-            mark:: (From Spring 2.5, annotations-driven *Dependency Injection*) Allows Spring to resolve and inject collaborating beans into our bean.
+            description:: (From Spring 2.5, annotations-driven *Dependency Injection*) Allows Spring to resolve and inject collaborating beans into our bean.
             collapsed:: true
             - 当类只有一个构造器的时候
               collapsed:: true
@@ -841,11 +841,11 @@ created:: [[20230111]]
                 ```
                 via: [Oliver Drotbohm - Why field injection is evil](https://odrotbohm.de/2013/11/why-field-injection-is-evil/)
           - `query()`
-            mark:: 接受查询所使用的SQL及Spring RowMapper的一个实现（用来将结果集中的每行数据映射为一个对象）; 以最终参数(final argument)的形式接收查询中所需的任意参数
+            description:: 接受查询所使用的SQL及Spring RowMapper的一个实现（用来将结果集中的每行数据映射为一个对象）; 以最终参数(final argument)的形式接收查询中所需的任意参数
           - 必须先将数据写入数据库，才能读取它
             collapsed:: true
-            - Cases #.ol #chatGPT
-              mark:: keep in mind that a database is a persistent storage, so any changes made to the data must be saved/committed to the database before it can be read back.
+            - Cases \#.ol #chatGPT
+              description:: keep in mind that a database is a persistent storage, so any changes made to the data must be saved/committed to the database before it can be read back.
               collapsed:: true
               - When data is updated: If you want to read the updated data, you must first write the updated data to the database. This is because the database will not reflect the updated data until it is written.
               - When data is deleted: Before reading data that has been deleted, you must first delete it from the database. This is because the data is not available for reading after it has been deleted.
@@ -867,20 +867,20 @@ created:: [[20230111]]
               聚合和聚合根是领域驱动设计的核心概念，这种设计方式提倡软件代码的结构和语言要与业务领域匹配。在Taco Cloud领域对象中只使用了一点领域驱动设计(Domain-Driven Design, DDD)的思想，但是DDD的内容远不止聚合和聚合根。如果想要了解这项技术的更多内容，请阅读该主题的开创性著作——Eric Evans的《领域驱动设计》
               #+END_NOTE
             - `Spring Boot` 启动自动加载模式 (`schema.sql`) 和数据(`data.sql`)
-              mark:: `src/main/resources`, 每次启动都会重新执行
+              description:: `src/main/resources`, 每次启动都会重新执行
               collapsed:: true
               - > The data.sql file is executed **each time** the spring-boot application is fired up. This means that if you have insert statements, they may cause an `org.h2.jdbc.JdbcSQLException`-exception, because the **data is already present** in the database. I am using an embedded H2 database, but the problem stays the same.
                 via: [Spring Boot - Loading Initial Data - Stack Overflow](https://stackoverflow.com/questions/38040572/spring-boot-loading-initial-data)
         - 3.1.4 插入数据
           collapsed:: true
           - `Class GeneratedKeyHolder`
-            mark:: The standard implementation of the [`KeyHolder`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/support/KeyHolder.html) interface, to be used for holding auto-generated keys (as potentially returned by JDBC insert statements). Create an instance of this class for each insert operation, and pass it to the corresponding [`JdbcTemplate`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/JdbcTemplate.html) or [`SqlUpdate`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/object/SqlUpdate.html) methods.
-            mark:: [GeneratedKeyHolder (Spring Framework 6.0.4 API)](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/support/GeneratedKeyHolder.html)
+            description:: The standard implementation of the [`KeyHolder`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/support/KeyHolder.html) interface, to be used for holding auto-generated keys (as potentially returned by JDBC insert statements). Create an instance of this class for each insert operation, and pass it to the corresponding [`JdbcTemplate`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/JdbcTemplate.html) or [`SqlUpdate`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/object/SqlUpdate.html) methods.
+            description:: [GeneratedKeyHolder (Spring Framework 6.0.4 API)](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/support/GeneratedKeyHolder.html)
           - `Class PreparedStatementCreatorFactory`
-            mark:: Helper class that efficiently **creates multiple PreparedStatementCreator objects with different parameters based on an SQL statement and a single set of parameter declarations**.
-            mark:: [PreparedStatementCreatorFactory (Spring Framework 6.0.4 API)](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/PreparedStatementCreatorFactory.html)
+            description:: Helper class that efficiently **creates multiple PreparedStatementCreator objects with different parameters based on an SQL statement and a single set of parameter declarations**.
+            description:: [PreparedStatementCreatorFactory (Spring Framework 6.0.4 API)](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/PreparedStatementCreatorFactory.html)
           - `Interface PreparedStatementCreator`
-            mark:: One of the two central callback interfaces used by the JdbcTemplate class. **This interface creates a PreparedStatement given a connection, provided by the JdbcTemplate class.** Implementations are responsible for providing SQL and any necessary parameters. Implementations do not need to concern themselves with SQLExceptions that may be thrown from operations they attempt. The JdbcTemplate class will catch and handle SQLExceptions appropriately. A PreparedStatementCreator should also implement the SqlProvider interface if it is able to provide the SQL it uses for PreparedStatement creation. This allows for better contextual information in case of exceptions.
+            description:: One of the two central callback interfaces used by the JdbcTemplate class. **This interface creates a PreparedStatement given a connection, provided by the JdbcTemplate class.** Implementations are responsible for providing SQL and any necessary parameters. Implementations do not need to concern themselves with SQLExceptions that may be thrown from operations they attempt. The JdbcTemplate class will catch and handle SQLExceptions appropriately. A PreparedStatementCreator should also implement the SqlProvider interface if it is able to provide the SQL it uses for PreparedStatement creation. This allows for better contextual information in case of exceptions.
       - 使用Spring Data JDBC
         - 添加依赖
           collapsed:: true
@@ -933,8 +933,8 @@ created:: [[20230111]]
                 - 这种方式对关系型数据库和非关系型数据库同样有效
         - collapsed:: true
           ---
-          - `Spring Data`(伞形项目) 子项目 #.ol
-            mark:: Spring Data为各种项目提供基于存储库规范接口自动创建存储库的特性, 很少（甚至没有）持久化相关的逻辑，只需要编写一个或多个存储库接口
+          - `Spring Data`(伞形项目) 子项目 \#.ol
+            description:: Spring Data为各种项目提供基于存储库规范接口自动创建存储库的特性, 很少（甚至没有）持久化相关的逻辑，只需要编写一个或多个存储库接口
             collapsed:: true
             - Spring Data JDBC：对关系型数据库进行JDBC持久化。
             - Spring Data JPA：对关系型数据库进行JPA持久化。
@@ -970,7 +970,7 @@ created:: [[20230111]]
               ```
         - 将领域对象标注为实体
           - `@Entity` from by `javax.persistence`
-            mark:: 将 class 声明为JPA实体, id属性需要使用@Id注解，以便于将其指定为数据库中唯一标识该实体的属性
+            description:: 将 class 声明为JPA实体, id属性需要使用@Id注解，以便于将其指定为数据库中唯一标识该实体的属性
             - #+BEGIN_NOTE
               这个@Id注解来自javax.persistence包，不是Spring Data在org.springframework.data.annotation包中所提供的@Id注解
               #+END_NOTE
@@ -979,11 +979,11 @@ created:: [[20230111]]
           - ---
           - `lombok`
             - `@NoArgsConstructor`
-              mark:: generate a constructor with no parameters. If this is not possible (because of final fields), a compiler error will result instead, unless @NoArgsConstructor(force = true) is used, then all final fields are initialized with 0 / false / null. For fields with constraints, such as @NonNull fields, no check is generated,so be aware that these constraints will generally not be fulfilled until those fields are properly initialized later. Certain java constructs, such as hibernate and the Service Provider Interface require a no-args constructor. This annotation is useful primarily in combination with either @Data or one of the other constructor generating annotations.
+              description:: generate a constructor with no parameters. If this is not possible (because of final fields), a compiler error will result instead, unless @NoArgsConstructor(force = true) is used, then all final fields are initialized with 0 / false / null. For fields with constraints, such as @NonNull fields, no check is generated,so be aware that these constraints will generally not be fulfilled until those fields are properly initialized later. Certain java constructs, such as hibernate and the Service Provider Interface require a no-args constructor. This annotation is useful primarily in combination with either @Data or one of the other constructor generating annotations.
             - `@RequiredArgsConstructor`
-              mark:: generates a constructor with 1 parameter for each field that requires special handling. All non-initialized `final` fields get a parameter, as well as any fields that are marked as `@NonNull` that aren't initialized where they are declared. For those fields marked with `@NonNull`, an explicit null check is also generated. The constructor will throw a `NullPointerException` if any of the parameters intended for the fields marked with `@NonNull` contain `null`. The order of the parameters match the order in which the fields appear in your class.
+              description:: generates a constructor with 1 parameter for each field that requires special handling. All non-initialized `final` fields get a parameter, as well as any fields that are marked as `@NonNull` that aren't initialized where they are declared. For those fields marked with `@NonNull`, an explicit null check is also generated. The constructor will throw a `NullPointerException` if any of the parameters intended for the fields marked with `@NonNull` contain `null`. The order of the parameters match the order in which the fields appear in your class.
             - `@AllArgsConstructor`
-              mark:: generates a constructor with 1 parameter for each field in your class. Fields marked with `@NonNull` result in null checks on those parameters.
+              description:: generates a constructor with 1 parameter for each field in your class. Fields marked with `@NonNull` result in null checks on those parameters.
             - > Each of these annotations allows an alternate form, where the generated constructor is always private, and an additional static factory method that wraps around the private constructor is generated. This mode is enabled by supplying the `staticName` value for the annotation, like so: `@RequiredArgsConstructor(staticName="of")`. Such a static factory method will infer generics, unlike a normal constructor. This means your API users get write `MapEntry.of("foo", 5)` instead of the much longer `new MapEntry<String, Integer>("foo", 5)`.
               via: [@NoArgsConstructor, @RequiredArgsConstructor, @AllArgsConstructor](https://projectlombok.org/features/constructor)
         - 声明JPA存储库
@@ -1004,7 +1004,7 @@ created:: [[20230111]]
               - 断言是方法签名中最为有意思的一部分
                 - deliveryZip属性的值必须要等于方法第一个参数传入的值
                 - 关键字Between表明placedAt属性的值必须要位于方法最后两个参数的值之间
-              - 除了Equals和Between操作之外, 还有 #.ol
+              - 除了Equals和Between操作之外, 还有 \#.ol
                 - IsAfter、After、IsGreaterThan、GreaterThan；
                 - IsGreaterThanEqual、GreaterThanEqual；
                 - IsBefore、Before、 IsLessThan、LessThan；
@@ -1078,9 +1078,9 @@ created:: [[20230111]]
       collapsed:: true
       - 4.1 使用Cassandra存储库
         - Cassandra
-          mark:: 分布式、高性能、始终可用、最终一致、列分区存储的NoSQL数据库
+          description:: 分布式、高性能、始终可用、最终一致、列分区存储的NoSQL数据库
           tags:: TODO
-          mark:: [Apache Cassandra - Wikipedia](https://en.wikipedia.org/wiki/Apache_Cassandra); [Welcome to Apache Cassandra’s documentation! | Apache Cassandra Documentation](https://cassandra.apache.org/doc/latest/)
+          description:: [Apache Cassandra - Wikipedia](https://en.wikipedia.org/wiki/Apache_Cassandra); [Welcome to Apache Cassandra’s documentation! | Apache Cassandra Documentation](https://cassandra.apache.org/doc/latest/)
           - 简单来讲，Cassandra
           - 处理的是要写入表中的数据行
             collapsed:: true
@@ -1112,7 +1112,7 @@ created:: [[20230111]]
               # 对于单个数据中心来说，SimpleStrategy副本策略可以满足需求，但是如果Cassandra集群跨多个数据中心，那就应该考虑使用NetworkTopologyStrategy策略
             ```
           - 键空间
-            mark:: Cassandra节点中表的一个分组，大致类似于关系型数据库中表、视图和约束关系的分组
+            description:: Cassandra节点中表的一个分组，大致类似于关系型数据库中表、视图和约束关系的分组
         - 4.1.2 理解Cassandra数据模型
           collapsed:: true
           - Cassandra表可以有任意数量的列，但是并非所有的行都需要使用这些列。
@@ -1128,9 +1128,9 @@ created:: [[20230111]]
       - 4.2 编写MongoDB存储库
         collapsed:: true
         - MongoDB
-          mark:: MongoDB会将文档存储为BSON（即二进制JSON）格式，它的查询和检索方式与在其他的数据库中查询数据的方式类似
+          description:: MongoDB会将文档存储为BSON（即二进制JSON）格式，它的查询和检索方式与在其他的数据库中查询数据的方式类似
           tags:: #NoSQL
-          mark:: Cassandra是一个列存储的数据库，而MongoDB则被视为文档数据库
+          description:: Cassandra是一个列存储的数据库，而MongoDB则被视为文档数据库
         - 4.2.1 启用Spring Data MongoDB
           collapsed:: true
           - 反应式场景 (via: ch13)
@@ -1138,13 +1138,13 @@ created:: [[20230111]]
         - 4.2.2 将领域类型映射为文档
           collapsed:: true
           - `@Id` from Spring Data Commons
-            mark:: 指定某个属性为文档的ID
+            description:: 指定某个属性为文档的ID
           - `@Document`
-            mark:: 将领域类型声明为要持久化到MongoDB的文档。
+            description:: 将领域类型声明为要持久化到MongoDB的文档。
           - `@Field`
-            mark:: 声明在持久化存储的文档中该属性的字段名称（我们还可以选择性地配置顺序）
+            description:: 声明在持久化存储的文档中该属性的字段名称（我们还可以选择性地配置顺序）
           - `@Transient`
-            mark:: 声明该属性是否要进行持久化
+            description:: 声明该属性是否要进行持久化
           - 如果选择使用String属性作为ID，我们会享受到Mongo在保存时自动为其赋值的好处（假设它的值为null）。通过选择使用String，我们会有一个数据库管理的ID分配策略，不需要关心如何手动设置该属性的值。
           -
         - 4.2.3 编写MongoDB存储库接口
@@ -1177,15 +1177,15 @@ created:: [[20230111]]
       - 5.2 配置Spring Security
         - `interface PasswordEncoder`：密码转码器接口
           - BCryptPasswordEncoder
-            mark:: 使用bcrypt强哈希加密
+            description:: 使用bcrypt强哈希加密
           - NoOpPasswordEncoder （避免在生产环境中使用）
-            mark:: 不使用任何转码
+            description:: 不使用任何转码
           - Pbkdf2PasswordEncoder
-            mark:: 使用PBKDF2加密
+            description:: 使用PBKDF2加密
           - SCryptPasswordEncoder
-            mark:: 使用Scrypt哈希加密
+            description:: 使用Scrypt哈希加密
           - StandardPasswordEncoder（避免在生产环境中使用）
-            mark:: 使用SHA-256哈希加密（不安全）
+            description:: 使用SHA-256哈希加密（不安全）
           - #+BEGIN_NOTE
             不管是哪种密码转码器，数据库中的密码永远不会被解码；
             与解码过程相反，用户在登录时输入的密码将会使用相同的算法转码，并与数据库中已编码的密码进行对比
@@ -1264,9 +1264,9 @@ created:: [[20230111]]
             </dependency>
             ```
           - OAuth2
-            mark:: 授权规范，但它也可以用来通过第三方网站实现认证功能；
+            description:: 授权规范，但它也可以用来通过第三方网站实现认证功能；
           - OpenID Connect
-            mark:: 另一个基于OAuth2的安全规范，用于规范化第三方认证过程中发生的交互；
+            description:: 另一个基于OAuth2的安全规范，用于规范化第三方认证过程中发生的交互；
         - 5.3.4 防止 _跨站请求伪造(Cross-Site Request Forgery, CSRF)_
           - 为了防止这种类型的攻击发生
             - 应用可以在展现表单的时候生成一个CSRF令牌(token)，并将其放到隐藏域中临时存储起来，以便后续在服务器上使用；
@@ -1288,7 +1288,7 @@ created:: [[20230111]]
               ```
       - 5.4 实现方法级别的安全
         - `@PreAuthorize`
-          mark:: 注解会接受一个SpEL表达式，如果表达式的计算结果为false，这个方法将不会被调用；如果表达式的计算结果为true，方法就允许调用
+          description:: 注解会接受一个SpEL表达式，如果表达式的计算结果为false，这个方法将不会被调用；如果表达式的计算结果为true，方法就允许调用
           - 要使@PreAuthorize发挥作用，需要启用全局的方法安全功能。为了实现这一点，需要使用@EnableGlobalMethodSecurity注解标注安全配置类
         - 如果判定安全的条件依赖于方法调用的返回值，那么该如何保证方法不被调用呢？
           - 这又是一个“先有鸡还是先有蛋”的问题，我们可以先允许方法调用，并在表达式返回值为false时抛出一个AccessDeniedException，从而解决这个难题。
@@ -1300,14 +1300,14 @@ created:: [[20230111]]
           - 注入@AuthenticationPrincipal注解标注的方法参数（@AuthenticationPrincipal来自Spring Security的org.springframework.security.core.annotation包）
         -
     - 第6章 使用 ==配置属性==(configuration property) by Spring Boot
-      mark:: 为应用组件设置属性值；Spring应用上下文中带有@ConfigurationProperties注解的bean的属性；
+      description:: 为应用组件设置属性值；Spring应用上下文中带有@ConfigurationProperties注解的bean的属性；
       - 6.1 细粒度地调整自动配置
         collapsed:: true
         - 两种不同（但相关）的配置
           - bean装配
-            mark:: 声明在Spring应用上下文中创建哪些应用组件（即bean）以及它们之间如何互相注入的配置；
+            description:: 声明在Spring应用上下文中创建哪些应用组件（即bean）以及它们之间如何互相注入的配置；
           - 属性注入
-            mark:: 设置Spring应用上下文中bean的值的配置；
+            description:: 设置Spring应用上下文中bean的值的配置；
         - 6.1.1 理解Spring的环境抽象
           - Spring的环境抽象抽取原始的属性，这样需要这些属性的bean就可以从Spring本身中获取了；
           - Spring环境会拉取多个属性源，包括
@@ -1333,7 +1333,7 @@ created:: [[20230111]]
                 - Apache Commons DBCP2；
               - Offical Refer: ((63e13a7c-6d40-4f76-b974-3c91d4868bb2))
               - HikariCP连接池
-                mark:: spring boot 的默认数据库连接池；虽然功能不及Druid，但是对于监控也有一定的扩展性，简单，快速，稳定是其胜出的原因；[^HIKARI_CP]
+                description:: spring boot 的默认数据库连接池；虽然功能不及Druid，但是对于监控也有一定的扩展性，简单，快速，稳定是其胜出的原因；[^HIKARI_CP]
           - ```yml
             spring:
               datasource:
@@ -1346,7 +1346,7 @@ created:: [[20230111]]
                 - ingredients.sql
             ```
             - JNDI（Java Naming and Directory Interface）
-              mark:: 配置数据源并让Spring去那里进行查找并配置数据源；
+              description:: 配置数据源并让Spring去那里进行查找并配置数据源；
             - 在这种情况下，可以使用spring.datasource.jndi-name搭建自己的数据源：
             - ```yml
               spring:
@@ -1536,7 +1536,7 @@ created:: [[20230111]]
       collapsed:: true
       - 8.1 OAuth 2简介
         collapsed:: true
-        - 方案 #.ol
+        - 方案 \#.ol
           - ==HTTP Basic 认证==来保护“/ingredients”的端点
             - 通过为处理器方法添加@PreAuthorize来实现
               collapsed:: true
@@ -1596,7 +1596,7 @@ created:: [[20230111]]
       - 8.4 开发客户端
       - 小结
     - 第9章 发送异步消息（接收Java Message Service(JMS)、RabbitMQ和Kafka的消息）
-      mark:: 异步消息是一个应用程序向另一个应用程序间接发送消息的一种方式，这种间接性能够为通信的应用带来更松散的耦合和更大的可伸缩性。
+      description:: 异步消息是一个应用程序向另一个应用程序间接发送消息的一种方式，这种间接性能够为通信的应用带来更松散的耦合和更大的可伸缩性。
       - 9.1 使用JMS (Java Message Service, Java消息服务)发送消息
         - 9.1.1 搭建JMS环境
         - 9.1.2 使用JmsTemplate发送消息
@@ -1668,7 +1668,7 @@ created:: [[20230111]]
         - 有1个方法接受String，它通过名字的形式指定了消息的目的地。
       - RabbitMQ和AMQP
       - 交换机
-        mark:: 负责将消息路由到一个或多个队列中，这个过程会基于交换机的类型、交换机与队列间的绑定，以及消息的路由键进行。
+        description:: 负责将消息路由到一个或多个队列中，这个过程会基于交换机的类型、交换机与队列间的绑定，以及消息的路由键进行。
         collapsed:: true
         - 具体类型：
           - Default
@@ -1830,7 +1830,7 @@ created:: [[20230111]]
       - 18.4 构建和部署WAR文件
       - 18.5 以终为始
       - 小结
-- ## [[Comment]] #.ol
+- ## [[Comment]] \#.ol
   - Fuck 异步社区, Download resource need account
   - collapsed:: true
     #+BEGIN_NOTE
@@ -1882,17 +1882,17 @@ created:: [[20230111]]
       - ((63d244b1-8572-4263-8d21-197decff603c))
       - Refer the above, `@ExtendWith(SpringExtension.class)` is no need
     - `@ExtendWith` by Junit
-      mark:: @ExtendWith is **a repeatable annotation that is used to register extensions for the annotated test class, test interface, test method, parameter, or field**. Annotated parameters are supported in test class constructors, in test methods, and in @BeforeAll , @AfterAll , @BeforeEach , and @AfterEach lifecycle methods. via: [ExtendWith (JUnit 5.8.0 API)](https://junit.org/junit5/docs/5.8.0/api/org.junit.jupiter.api/org/junit/jupiter/api/extension/ExtendWith.html)
+      description:: @ExtendWith is **a repeatable annotation that is used to register extensions for the annotated test class, test interface, test method, parameter, or field**. Annotated parameters are supported in test class constructors, in test methods, and in @BeforeAll , @AfterAll , @BeforeEach , and @AfterEach lifecycle methods. via: [ExtendWith (JUnit 5.8.0 API)](https://junit.org/junit5/docs/5.8.0/api/org.junit.jupiter.api/org/junit/jupiter/api/extension/ExtendWith.html)
     - `@MockBean`
-      mark:: Spring Boot includes a @MockBean annotation that can be used to mark::  a Mockito mock for a bean inside your ApplicationContext.
+      description:: Spring Boot includes a @MockBean annotation that can be used to description::  a Mockito mock for a bean inside your ApplicationContext.
       - Mockito
-        mark:: **一种Java Mock 框架，他主要就是用来做Mock 测试的**，它可以模拟任何Spring 管理的Bean、模拟方法的返回值、模拟抛出异常等等，同时也会记录调用这些模拟方法的参数、调用顺序，从而可以校验出这个Mock 对象是否有被正确的顺序调用，以及按照期望的参数被调用 via: [Mockito 简介- satire - 博客园](https://www.cnblogs.com/satire/p/14846492.html)
+        description:: **一种Java Mock 框架，他主要就是用来做Mock 测试的**，它可以模拟任何Spring 管理的Bean、模拟方法的返回值、模拟抛出异常等等，同时也会记录调用这些模拟方法的参数、调用顺序，从而可以校验出这个Mock 对象是否有被正确的顺序调用，以及按照期望的参数被调用 via: [Mockito 简介- satire - 博客园](https://www.cnblogs.com/satire/p/14846492.html)
       - via: ((63d38953-fce4-471c-990e-98f98b614547))
     - `Class MediaType` -> Internet Media Types
       - Media type
         alias:: MIME type, Content type, 互联网媒体类型, MIME类型, 内容类型
-        mark:: a two-part identifier for file formats and format contents transmitted on the Internet
-        mark:: [Media type - Wikipedia](https://en.wikipedia.org/wiki/Media_type); Postel, J., [Media Type Registration Procedure](https://www.ietf.org/rfc/rfc1590.txt) , RFC 1590, November 1996)
+        description:: a two-part identifier for file formats and format contents transmitted on the Internet
+        description:: [Media type - Wikipedia](https://en.wikipedia.org/wiki/Media_type); Postel, J., [Media Type Registration Procedure](https://www.ietf.org/rfc/rfc1590.txt) , RFC 1590, November 1996)
         collapsed:: true
         - 一个MIME类型至少包括两个部分：一个*类型（type）*和一个*子类型（subtype）*
           它还可能包括一个或多个*可选参数（optional parameter）*
@@ -1936,7 +1936,7 @@ created:: [[20230111]]
               - `application/zstd` (.zst)
               - When make a post request, encode the data that forms
                 via: [html - What does enctype='multipart/form-data' mean? - Stack Overflow](https://stackoverflow.com/questions/4526273/what-does-enctype-multipart-form-data-mean)
-                - HTML forms provide [three methods of encoding](https://www.w3.org/html/wg/spec/association-of-controls-and-forms.html#attr-fs-enctype). #.ol
+                - HTML forms provide [three methods of encoding](https://www.w3.org/html/wg/spec/association-of-controls-and-forms.html#attr-fs-enctype). \#.ol
                   - `application/x-www-form-urlencoded` (the default)
                     - be more efficient than 2
                   - `multipart/form-data`
@@ -1989,7 +1989,7 @@ created:: [[20230111]]
     collapsed:: true
     - [^HIKARI_CP]: Via: [深入浅出HikariCP数据库连接池 - 掘金](https://juejin.cn/post/7039896653532233742)
     - @AuthenticationPrincipal
-      mark:: Annotation that is used to resolve Authentication.getPrincipal() to a method argument.
+      description:: Annotation that is used to resolve Authentication.getPrincipal() to a method argument.
       - 拿到当前会话的用户
         via: ((63e273ec-8e1b-445e-af31-f654ce5df0ca))
     - Error: `Spring Configuration Annotation Processor not configured`

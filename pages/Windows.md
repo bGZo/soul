@@ -1,6 +1,7 @@
 id:: 6254e947-b746-4586-8242-b17e9066ec55
 icon:: ⊞
 tags:: system
+
 - ## Why
 - ## How
   - ~~[BitDock比特工具栏-官方社区 - 首页](http://www.bitdock.cn/bbs/forum.php)~~ #deprecated #beautify
@@ -237,7 +238,7 @@ tags:: system
     - [坑] Windows 的绑定方式和 Office 的方式不同
       collapsed:: true
       - Windows 绑定主板 与 CPU, 在微软帐号里面无法查到, 但在 “设置”--“激活” 显示已经与帐号关联数字许可证激活
-      - 大体有以下几个版本 #.ol
+      - 大体有以下几个版本 \#.ol
         collapsed:: true
         - OEM / Original Equipment Manufacturer / 原始设备制造商
         - COEM / Certificate Original Equipment Manufactures / 原始设备制造商证书

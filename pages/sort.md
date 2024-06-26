@@ -1,4 +1,5 @@
 alias:: algo/sort
+
 -
 - ## Sort Function
   - #+BEGIN_NOTE
@@ -174,7 +175,7 @@ alias:: algo/sort
         }
         ```
     - ((63229b76-3951-43fe-bd40-f2b407fd2944))
-      mark:: 适用于待排序数据值域较大但分布比较均匀的情况
+      description:: 适用于待排序数据值域较大但分布比较均匀的情况
       - [[stl]] Set 天然自带排序功能
         - ```cpp
           #include <iostream>

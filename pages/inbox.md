@@ -1,9 +1,11 @@
 icon:: 📥
 tags:: gtd
 
-- {{query (task todo)}}
-  query-table:: true
-  query-properties:: [:page :block]
+- #config/table-wrap
   query-sort-by:: page
+  query-table:: true
   query-sort-desc:: true
+  query-properties:: [:page :block]
+  {{query (task todo)}}
+-
 -

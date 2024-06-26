@@ -48,9 +48,9 @@ title:: font
   - TODO 字体收集
     - id:: 6374947b-7716-4507-8561-f6c91e6d6fa4
       title:: [ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more](https://github.com/ryanoasis/nerd-fonts) ![](https://img.shields.io/github/stars/ryanoasis/nerd-fonts)
-      mark:: "Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others."
+      description:: "Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others."
       tags:: #github #opensource
-      mark:: 
+      description::
       -
         - #+BEGIN_TIP
           MD > FA > CODI >...

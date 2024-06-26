@@ -62,7 +62,7 @@ created:: [[20221212]]
     author:: 
     tags:: #archive/web #web #networking
     created:: [[20221212]]
-    mark:: 
+    description:: 
     archive:: [💾 Archived](../assets/archived_web/计算机网络通讯的【系统性】扫盲——从基本概念到OSI 模型 @ 编程随想的博客 (12_12_2022 2_18_47 PM).html)
     collapsed:: true
     - 本文的目标读者
@@ -326,7 +326,7 @@ created:: [[20221212]]
     author:: 
     tags:: #GFW #archive/web
     created:: [[20221212]]
-    mark:: 
+    description:: 
     archive:: [💾 Archived](../assets/archived_web/天朝民众的心理分析：斯德哥尔摩综合症 @ 编程随想的博客 (12_12_2022 3_20_52 PM).html )
     collapsed:: true
     - 从一桩奇怪的抢劫案说起

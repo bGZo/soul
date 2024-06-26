@@ -4,6 +4,7 @@ tags:: #ACGN
 title:: game
 created:: [[20230815]]
 title:: game
+
   - template:: game
     template-including-parent:: false
     collapsed:: true
@@ -17,7 +18,7 @@ title:: game
       publisher:: 
       bangumi:: https://bgm.tv/subject/
       douban:: https://www.douban.com/
-      mark:: 
+      description:: 
       created:: <% today %>
 - ## Why
 - ## How

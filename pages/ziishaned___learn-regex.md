@@ -1,6 +1,6 @@
 title:: ziishaned/learn-regex
 author:: ziishaned
-mark:: Learn regex the easy way
+description:: Learn regex the easy way
 tags:: #regex, #github
 source::  [ziishaned/learn-regex: Learn regex the easy way](https://github.com/ziishaned/learn-regex) ![](https://img.shields.io/github/stars/ziishaned/learn-regex)
 created:: [[2021]]

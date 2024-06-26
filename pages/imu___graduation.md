@@ -79,7 +79,7 @@ tags:: #spring/cloud
   collapsed:: true
   - ### SpringBoot
     - [Thymeleaf](https://www.thymeleaf.org/)
-      mark:: a modern server-side Java template engine for both web and standalone environments.
+      description:: a modern server-side Java template engine for both web and standalone environments.
       - 类似
         - ~~JSP~~
         - Velocity
@@ -123,12 +123,12 @@ tags:: #spring/cloud
         - 注册中心：服务自动注册和发现，无需人为记录服务地址
         - 自动订阅：服务列表自动推送，服务调用透明化，无需关心依赖关系
         - 动态监控服务：提供状态监控报告，人为控制服务状态
-    - 远程调用实现 #.ol
+    - 远程调用实现 \#.ol
       collapsed:: true
       - RPC：Remote Produce Call （RMI: Remote Method Call）
         - TCP based
         - 自定义数据格式
-        - 允许运行于一台计算机的程序调用另一台计算机的子程序 #.ol
+        - 允许运行于一台计算机的程序调用另一台计算机的子程序 \#.ol
           collapsed:: true
           - 远程调用
             collapsed:: true
@@ -185,7 +185,7 @@ tags:: #spring/cloud
         - 提供者：启动后向Eureka注册自己信息（地址，提供什么服务）
         - 消费者：向Eureka订阅服务，Eureka会将对应服务的所有提供者地址列表发送给消费者，并且定期更新
         - 心跳(续约)：提供者定期通过http方式向Eureka刷新自己的状态
-      - 引入方法 #.ol
+      - 引入方法 \#.ol
         - 服务器添加 `Eureka` 以后，在应用启动类中添加 `@EnableEurekaServer` 声明是一个 EurekaServer；再添加 Eureka 配置文件，包含端口、集群地址 `service-url` 和一些注册与订阅的配置。
           - `register-with-eureka`(注册信息到EurekaServer) 和 `fetch-registry`(拉取其它服务的信息) 默认为 True，因为只存在一台注册中心，所以无需告知自己的位置，应设置为 False
             id:: 646b638f-2553-4ecc-b243-56449d2c535a
@@ -283,7 +283,7 @@ tags:: #spring/cloud
         - 负载均衡策略?
         - 重试机制
     - [Hystix](https://github.com/Netflix/Hystrix/) 熔断 (by Netflix)
-      mark:: 容错管理工具，通过隔离、控制服务从而对延迟和故障提供更强大的容错能力，避免整个系统（级联失败）被拖垮。
+      description:: 容错管理工具，通过隔离、控制服务从而对延迟和故障提供更强大的容错能力，避免整个系统（级联失败）被拖垮。
       - 工作机制
         - Hystrix 使用自己的线程池，和主应用服务器线程池隔离
           - 如果调用花费很长时间，会停止调用
@@ -296,7 +296,7 @@ tags:: #spring/cloud
             - 当queryUserById执行超时（默认是1000毫秒），就会执行fallback函数，返回错误提示。
       - 超时时间 (`hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds`)
     - [Feign](https://github.com/OpenFeign/feign) Web Service 客户端 (by Netflix)
-      mark:: 声明式、模板化的HTTP客户端，用于更快捷地调用 HTTP API。
+      description:: 声明式、模板化的HTTP客户端，用于更快捷地调用 HTTP API。
       - 工作原理
         - Feign 隐藏 Rest 请求，伪装成类似 SpringMVC 的 Controller
           - 不用再自己拼接url，拼接参数等等操作，一切都交给Feign去做。
@@ -345,7 +345,7 @@ tags:: #spring/cloud
       - 请求压缩？
       - 日志级别？
     - [Zuul](https://github.com/Netflix/zuul) 网关 (by Netflix)
-      - 网关解决的问题（直接对外暴露服务接口可能出现的问题）： #.ol
+      - 网关解决的问题（直接对外暴露服务接口可能出现的问题）： \#.ol
         - 无法保证 “服务无状态”
           - 开放服务的权限控制机制将会贯穿并污染整个开放服务的业务逻辑
         - 无法复用 既有接口
@@ -584,7 +584,7 @@ tags:: #spring/cloud
           - 思路是：利用nginx反向代理把跨域为不跨域，支持各种请求方式
           - 缺点：需要在nginx进行额外配置，语义不清晰
         - CORS (Cross-origin resource sharing)，跨域资源共享
-          mark:: W3C标准，它允许浏览器向跨源服务器，发出[`XMLHttpRequest`](http://www.ruanyifeng.com/blog/2012/09/xmlhttprequest_level_2.html)请求，从而克服了AJAX只能[同源](http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)使用的限制。CORS需要浏览器（IE10以下不行）和服务器同时支持。
+          description:: W3C标准，它允许浏览器向跨源服务器，发出[`XMLHttpRequest`](http://www.ruanyifeng.com/blog/2012/09/xmlhttprequest_level_2.html)请求，从而克服了AJAX只能[同源](http://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)使用的限制。CORS需要浏览器（IE10以下不行）和服务器同时支持。
           - 原理
             - 浏览器将 ajax 请求分为两类
               - 简单请求
@@ -823,9 +823,9 @@ tags:: #spring/cloud
           | **@URL(protocol=,host=, port=,regexp=, flags=)** | 被注释的字符串必须是一个有效的url|
           | **@CreditCardNumber**| 被注释的字符串必须通过Luhn校验算法，银行卡，信用卡等号码一般都用Luhn计算合法性 |
     - [JWT](https://jwt.io) （Json Web Token）
-      mark:: JSON 风格轻量级的授权和身份认证规范，可实现无状态、分布式的Web应用授权
+      description:: JSON 风格轻量级的授权和身份认证规范，可实现无状态、分布式的Web应用授权
       - [GitHub - jwtk/jjwt: Java JWT: JSON Web Token for Java and Android](https://github.com/jwtk/jjwt)
-      - 格式 #.ol
+      - 格式 \#.ol
         - Header：头部，包含：
           - 声明类型，这里是JWT
           - 加密算法，自定义
@@ -836,7 +836,7 @@ tags:: #spring/cloud
           - 这部分也会采用base64加密，得到第二部分数据
         - Signature：签名，是整个数据的认证信息。一般根据前两步的数据，再加上服务的的密钥（secret）（不要泄漏，最好周期性更换），通过加密算法生成。用于验证整个数据完整和可靠性
         - ![](C:\Users\15517\Desktop\review\乐优商城《项目笔记》\day17笔记\assets\1527322512370.png)
-      - 交互流程 #.ol
+      - 交互流程 \#.ol
         - 用户登录
         - 服务的认证，通过后根据 secret 生成token
         - 将生成的 token 返回给浏览器
@@ -847,7 +847,7 @@ tags:: #spring/cloud
           因为JWT签发的token中已经包含了用户的身份信息，并且每次请求都会携带，这样服务的就无需保存用户信息，甚至无需去数据库查询，完全符合了Rest的无状态规范。
           #+END_NOTE
     - 非对称加密
-      mark:: 对信息进行编码和解码的技术，编码是把原来可读信息（又称明文）译成代码形式（又称密文），其逆过程就是解码（解密）
+      description:: 对信息进行编码和解码的技术，编码是把原来可读信息（又称明文）译成代码形式（又称密文），其逆过程就是解码（解密）
       - 加密算法可以分为三类：
         - 对称加密，如AES
           - 基本原理：将明文分成N个组，然后使用密钥对各个组进行加密，形成各自的密文，最后把所有的分组密文进行合并，形成最终的密文。
@@ -921,7 +921,7 @@ tags:: #spring/cloud
         - 以后每次请求，客户端都携带认证的token
         - 服务端对token进行解密，判断是否有效。
       - 状态
-        mark:: 服务端记录会话的客户端信息。从而识别客户端身份，再用于后续根据用户请求。
+        description:: 服务端记录会话的客户端信息。从而识别客户端身份，再用于后续根据用户请求。
         - 有状态服务 （如 session ）
           - 缺点
             - 服务端保存大量数据，增加服务端压力
@@ -1284,8 +1284,8 @@ tags:: #spring/cloud
       - **持久化**（因为基于内存操作，持久化未必即时，而是以一种策略）
         collapsed:: true
         - RDB（Redis DataBase，默认策略）
-          mark:: 在满⾜特定的redis操作条件时，将内存中的数据以数据快照的形式存储到rdb⽂件中
-          mark:: [P16 Redis-持久化策略-RDB](https://www.bilibili.com/video/BV11N411Z7is?p=16)
+          description:: 在满⾜特定的redis操作条件时，将内存中的数据以数据快照的形式存储到rdb⽂件中
+          description:: [P16 Redis-持久化策略-RDB](https://www.bilibili.com/video/BV11N411Z7is?p=16)
           collapsed:: true
           ![msedge_297.png](../assets/msedge_297_1676656761047_0.png)
           - 原理
@@ -1314,8 +1314,8 @@ tags:: #spring/cloud
             - 快照保存在 `rdb` 文件，迁移性较好；
           -
         - AOF（Apeend Only File）
-          mark:: 当达到设定触发条件时，将redis执⾏的**写操作指令**存储在aof⽂件中，Redis默认未开启aof持久化；默认采用增量存储；存在重复键的时候回执行优化操作；
-          mark:: [P17 Redis-持久化策略-AOF](https://www.bilibili.com/video/BV11N411Z7is?p=17)
+          description:: 当达到设定触发条件时，将redis执⾏的**写操作指令**存储在aof⽂件中，Redis默认未开启aof持久化；默认采用增量存储；存在重复键的时候回执行优化操作；
+          description:: [P17 Redis-持久化策略-AOF](https://www.bilibili.com/video/BV11N411Z7is?p=17)
           collapsed:: true
           ![msedge_298.png](../assets/msedge_298_1676656998594_0.png)
           - 原理
@@ -1358,7 +1358,7 @@ tags:: #spring/cloud
         - [P19 Redis-SpringBoot工程连接Redis](https://www.bilibili.com/video/BV11N411Z7is?p=19)
           collapsed:: true
           - Spring Data Redis
-            mark:: part of the larger Spring Data family, provides easy configuration and access to Redis from Spring applications. It offers both low-level and high-level abstractions for interacting with the store, freeing the user from infrastructural concerns.
+            description:: part of the larger Spring Data family, provides easy configuration and access to Redis from Spring applications. It offers both low-level and high-level abstractions for interacting with the store, freeing the user from infrastructural concerns.
           - Spring Data Redis依赖中，提供了⽤于连接redis的客户端：
             - RedisTemplate
             - StringRedisTemplat
@@ -1425,7 +1425,7 @@ tags:: #spring/cloud
       - [P26 Redis-锋迷商城-使用redis缓存首页类别列表](https://www.bilibili.com/video/BV11N411Z7is?p=26)
       - [P27 Redis-缓存击穿](https://www.bilibili.com/video/BV11N411Z7is?p=27)
         - 缓存击穿
-          mark:: ⼤量的并发请求同时访问同⼀个在redis中不存在的数据，就会导致⼤量的请求绕过redis同时并发访问数据库，对数据库造成了⾼并发访问压⼒
+          description:: ⼤量的并发请求同时访问同⼀个在redis中不存在的数据，就会导致⼤量的请求绕过redis同时并发访问数据库，对数据库造成了⾼并发访问压⼒
           collapsed:: true
           - **Solution** -> ==双重检测锁==
             - ```java
@@ -1476,7 +1476,7 @@ tags:: #spring/cloud
       - [P28 Redis-Jemeter测试缓存击穿](https://www.bilibili.com/video/BV11N411Z7is?p=28)
       - [P29 Redis-缓存穿透](https://www.bilibili.com/video/BV11N411Z7is?p=29)
         - 缓存穿透
-          mark:: ⼤量的请求⼀个数据库中不存在的数据，⾸先在redis中⽆法命中，最终所有的请求都会访问数据库，同样会导致数据库承受巨⼤的访问压⼒
+          description:: ⼤量的请求⼀个数据库中不存在的数据，⾸先在redis中⽆法命中，最终所有的请求都会访问数据库，同样会导致数据库承受巨⼤的访问压⼒
           - **Solution** -> 当从数据库查询到⼀个null时，写⼀个⾮空的数据到redis，并设置过期时
           - ![msedge_341.png](../assets/msedge_341_1678707162726_0.png)
           -

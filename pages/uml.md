@@ -1,6 +1,7 @@
 alias:: lang/modeling/unified
 tags:: #[[software/pattern]]
-mark:: Unified Modeling Language; UML打算成為可以對並發和分布式系統的標準建模語言; UML使用一套與Java語言或其他面向對象語言等價物. 同時也是本體論等價物的圖形標記
+description:: Unified Modeling Language; UML打算成為可以對並發和分布式系統的標準建模語言; UML使用一套與Java語言或其他面向對象語言等價物. 同時也是本體論等價物的圖形標記
+
 -
 - [[Quickref]]
   collapsed:: true

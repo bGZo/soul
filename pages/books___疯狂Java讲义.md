@@ -9,7 +9,7 @@ created:: [[20221125]]
 closed:: [[20221210]]
 douban:: [疯狂Java讲义 (豆瓣)](https://book.douban.com/subject/10436048/)
 weread:: [疯狂Java讲义（第2版）-李刚编著-微信读书](https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d)
-mark:: 2^{rd} Edition
+description:: 2^{rd} Edition
 
 - ## Backgroud
   collapsed:: true
@@ -447,7 +447,7 @@ mark:: 2^{rd} Edition
                   - 改为使用 `t.getClass()==Person.class` 比较合适。这行代码用到了反射基础，读者可参考第18章来理解此行代码
               -
     - 6.3 类成员
-      mark:: "static关键字修饰的成员就是类成员, 类成员属于整个类，不属于单个实例"
+      description:: "static关键字修饰的成员就是类成员, 类成员属于整个类，不属于单个实例"
       collapsed:: true
       - 理解类成员
         collapsed:: true
@@ -889,7 +889,7 @@ mark:: 2^{rd} Edition
         - TODO LinkedHashSet需要维护元素的插入顺序，因此性能略低于HashSet的性能，**但在迭代访问Set里的全部元素时将有很好的性能，因为它以链表来维护内部顺序**
           #Question [performance - Why are linked lists faster than arrays? - Stack Overflow](https://stackoverflow.com/questions/5445131/why-are-linked-lists-faster-than-arrays)
       - TreeSet实现类
-        mark:: "SortedSet接口的实现类，可以确保集合元素处于排序状态"
+        description:: "SortedSet接口的实现类，可以确保集合元素处于排序状态"
         collapsed:: true
         - 与HashSet集合相比，TreeSet还提供了如下几个额外的方法
           collapsed:: true
@@ -941,7 +941,7 @@ mark:: 2^{rd} Edition
         - 采用**红黑树**的数据结构来存储集合元素, 2 种**排序方法**
           collapsed:: true
           - 自然排序 (default)
-            mark:: "TreeSet会调用集合元素的compareTo(Object obj)方法来比较元素之间的大小关系，然后将集合元素按升序排列"
+            description:: "TreeSet会调用集合元素的compareTo(Object obj)方法来比较元素之间的大小关系，然后将集合元素按升序排列"
             collapsed:: true
             - 实现了Comparable接口的常用类
               collapsed:: true
@@ -1160,7 +1160,7 @@ mark:: 2^{rd} Edition
             }
             ```
     - 8.4 List集合
-      mark:: 代表一个元素有序、可重复的集合. 集合中每个元素都有其对应的顺序索引
+      description:: 代表一个元素有序、可重复的集合. 集合中每个元素都有其对应的顺序索引
       collapsed:: true
       - `List`接口和`List Iterator`接口
         collapsed:: true
@@ -1383,7 +1383,7 @@ mark:: 2^{rd} Edition
             collapsed:: true
             - 获取队列头部的元素，并删除该元素
         - `PriorityQueue` 实现类
-          mark:: 比较标准的队列实现类
+          description:: 比较标准的队列实现类
           collapsed:: true
           - 保存队列元素的顺序**不是按加入队列的顺序，而是按队列元素的大小进行重新排序**
             collapsed:: true
@@ -1407,7 +1407,7 @@ mark:: 2^{rd} Edition
                 - 不要求队列元素实现Comparable接口
               -
       - `Deque` 接口
-        mark:: "Deque接口是Queue接口的子接口, 它代表一个双端队列, 可以同时从两端来添加、删除, Deque接口里定义了一些双端队列的方法，这些方法允许从两端来操作队列的元素"
+        description:: "Deque接口是Queue接口的子接口, 它代表一个双端队列, 可以同时从两端来添加、删除, Deque接口里定义了一些双端队列的方法，这些方法允许从两端来操作队列的元素"
         collapsed:: true
         - APIs ( (双端)队列 / 栈 )
           collapsed:: true
@@ -1619,7 +1619,7 @@ mark:: 2^{rd} Edition
       - HashMap和Hashtable实现类
       - LinkedHashMap实现类
       - Properties读写属性文件
-        mark:: Hashtable类的子类; 该对象在处理属性文件时特别方便（Windows操作平台上的ini文件就是一种属性文件)
+        description:: Hashtable类的子类; 该对象在处理属性文件时特别方便（Windows操作平台上的ini文件就是一种属性文件)
         collapsed:: true
         - Properties类可以把Map对象和属性文件关联起来，从而可以把Map对象中的key-value对写入属性文件中，也可以把属性文件中的“属性名=属性值”加载到Map对象中
           collapsed:: true
@@ -2636,7 +2636,7 @@ mark:: 2^{rd} Edition
   - 第13章 MySQL数据库与JDBC编程
     - 13.1 JDBC基础
       - JDBC (JavaDatabase Connectivity, Java数据库连接)
-        mark:: 一种可以执行SQL语句的JavaAPI (接口)
+        description:: 一种可以执行SQL语句的JavaAPI (接口)
         collapsed:: true
         - 使用JDBC开发的数据库应用可以**跨平台运行**，而且可以**跨数据库** (标准的SQL)
       - JDBC驱动程序
@@ -2666,7 +2666,7 @@ mark:: 2^{rd} Edition
               collapsed:: true
               - 这种驱动包含特定数据库的本地代码，用于访问特定数据库的客户端
             - 支持三层结构的JDBC访问方式 #jdbc
-              mark:: 表现层（UI）、业务逻辑层（BLL）、数据访问层（DAL）
+              description:: 表现层（UI）、业务逻辑层（BLL）、数据访问层（DAL）
               collapsed:: true
               - 主要用于Applet阶段
               - 通过Applet访问数据库
@@ -2689,11 +2689,11 @@ mark:: 2^{rd} Edition
     - 13.3 JDBC的典型用法
       - JDBC常用接口和类简介
         - DriverManager
-          mark:: 用于管理JDBC驱动的服务类。程序中使用该类的主要功能是获取Connection对象
+          description:: 用于管理JDBC驱动的服务类。程序中使用该类的主要功能是获取Connection对象
           - public static synchronized Connection getConnection(String url,String user,String pass) throws SQLException
             - 该方法获得url对应数据库的连接
         - Connection
-          mark:: 代表数据库连接对象. 每个Connection代表一个物理连接会话
+          description:: 代表数据库连接对象. 每个Connection代表一个物理连接会话
           - Statement createStatement() throws SQLExcetpion
             - 返回一个Statement对象
           - PreparedStatement prepareStatement(String sql) throws SQLExcetpion
@@ -2721,7 +2721,7 @@ mark:: 2^{rd} Edition
               - setSchema(String schema); getSchema()
               - setNetworkTimeout(Executor executor, int milliseconds)、getNetworkTimeout()
         - Statement
-          mark:: "用于执行SQL语句的工具接口。该对象既可用于执行DDL、DCL语句，也可用于执行DML语句，还可用于执行SQL查询。当执行SQL查询时，返回查询到的结果集"
+          description:: "用于执行SQL语句的工具接口。该对象既可用于执行DDL、DCL语句，也可用于执行DML语句，还可用于执行SQL查询。当执行SQL查询时，返回查询到的结果集"
           - ResultSet executeQuery(String sql)throws SQLException
             - 只能用于执行查询语句
             - 返回查询结果对应的ResultSet对象
@@ -2741,7 +2741,7 @@ mark:: 2^{rd} Edition
             - isCloseOnCompletion()
               - 判断该Statement是否打开了“closeOnCompletion”
         - PreparedStatement
-          mark:: "预编译的Statement对象。PreparedStatement是Statement的子接口。相对于Statement而言，使用PreparedStatement执行SQL语句时，无须再传入SQL语句，只要为预编译的SQL语句传入参数值即可"
+          description:: "预编译的Statement对象。PreparedStatement是Statement的子接口。相对于Statement而言，使用PreparedStatement执行SQL语句时，无须再传入SQL语句，只要为预编译的SQL语句传入参数值即可"
           - void setXxx(int parameterIndex,Xxx value)
             - 该方法根据传入参数值的类型不同，需要使用不同的方法
             - 传入的值根据索引传给SQL语句中指定位置的参数。
@@ -2753,7 +2753,7 @@ mark:: 2^{rd} Edition
             #+END_NOTE
             - 它允许数据库预编译SQL语句 (这些SQL语句通常带有参数)，以后每次只改变SQL命令的参数，避免数据库每次都需要编译SQL语句
         - ResultSet
-          mark:: "结果集对象。该对象包含访问查询结果的方法，ResultSet可以通过列索引或列名获得列数据。它包含了如下常用方法来移动记录指针"
+          description:: "结果集对象。该对象包含访问查询结果的方法，ResultSet可以通过列索引或列名获得列数据。它包含了如下常用方法来移动记录指针"
           - void close()throws SQLException
             - 释放ResultSet对象
           - boolean absolute(int row)
@@ -3194,12 +3194,12 @@ mark:: 2^{rd} Edition
     - 13.5 管理结果集
       collapsed:: true
       - 可滚动、可更新的结果集
-        mark:: 可以使用absolute()、previous()、afterLast()等方法自由移动记录指针的ResultSet被称为可滚动的结果集 (**>= Java5**)
+        description:: 可以使用absolute()、previous()、afterLast()等方法自由移动记录指针的ResultSet被称为可滚动的结果集 (**>= Java5**)
         collapsed:: true
         - 以默认方式打开的ResultSet是不可更新的，如果希望创建可更新的ResultSet，则必须在创建Statement或PreparedStatement时传入如额外的参数 (**resultSetType, resultSetConcurrency**)
           collapsed:: true
           - resultSetType (3)
-            mark:: ResultSet的类型
+            description:: ResultSet的类型
             collapsed:: true
             - ResultSet.TYPE_FORWARD_ONLY
               collapsed:: true
@@ -3217,7 +3217,7 @@ mark:: 2^{rd} Edition
               对于有些数据库驱动来说，这两个常量并没有太大的区别
               #+END_NOTE
           - resultSetConcurrency(2)
-            mark:: 并发类型
+            description:: 并发类型
             collapsed:: true
             - ResultSet.CONCUR_READ_ONLY
               collapsed:: true
@@ -3559,7 +3559,7 @@ mark:: 2^{rd} Edition
         collapsed:: true
         - MetaData
           id:: 638ae342-457b-47db-ba95-245ca837ec5e
-          mark:: "元数据，即描述其他数据的数据"
+          description:: "元数据，即描述其他数据的数据"
           collapsed:: true
           - DatabaseMetaData则封装了描述Database的数据
           - ResultSetMetaData 封装了描述 ResultSet 对象的数据
@@ -3996,12 +3996,12 @@ mark:: 2^{rd} Edition
         - 程序启动时，系统主动建立足够的数据库连接，并将这些连接组成一个连接池
         - 每次应用程序请求数据库连接时，无须重新打开连接，而是从连接池中取出已有的连接使用，使用完后不再关闭数据库连接，而是直接将连接归还给连接池
       - 资源池 (Resource Pool)
-        mark:: "用于解决资源的频繁请求﹑释放所造成的性能下降"
+        description:: "用于解决资源的频繁请求﹑释放所造成的性能下降"
         collapsed:: true
         - JDBC 2.0规范引入了数据库连接池技术
         - 数据库连接池是Connection对象的工厂
       - DataSource(数据源)接口
-        mark:: "包含连接池和连接池管理两部分; 习惯上经常把DataSource称为连接池"
+        description:: "包含连接池和连接池管理两部分; 习惯上经常把DataSource称为连接池"
         collapsed:: true
         - 商用服务器（如WebLogic、WebSphere）等提供实现
         - 开源组织提供实现（如DBCP和C3P0等）
@@ -4013,7 +4013,7 @@ mark:: 2^{rd} Edition
       - 2.开发MySQL企业管理器，功能类似于SQLyog。
   - TODO 第14章 Annotation (注释) #Question
     - Annotation
-      mark:: (>=JDK 5) A kind of **metadata** that makes references to the data itself but is not an actual part of it (Annotation 本身)
+      description:: (>=JDK 5) A kind of **metadata** that makes references to the data itself but is not an actual part of it (Annotation 本身)
       collapsed:: true
       - 这些标记可以在编译、类加载、运行时被读取，并执行相应的处理
       - 程序开发人员可以在不改变原有逻辑的情况下，在源文件中嵌入一些补充的信息
@@ -4253,11 +4253,11 @@ mark:: 2^{rd} Edition
         - 3.节点流和处理流
           collapsed:: true
           - 节点流 / 低级流 (Low Level Stream)
-            mark:: "可以从/向一个特定的IO设备 (如磁盘/网络) 读/写数据的流 "
+            description:: "可以从/向一个特定的IO设备 (如磁盘/网络) 读/写数据的流 "
             collapsed:: true
             - ![image.png](../assets/book\疯狂Java讲义/image_1670136988567_0.png)
           - 处理流 / 高级流 (==装饰器设计模式==)
-            mark:: 用于对一个已存在的流进行连接或封装; 通过封装后的流来实现数据读/写功能
+            description:: 用于对一个已存在的流进行连接或封装; 通过封装后的流来实现数据读/写功能
             collapsed:: true
             - ![image.png](../assets/book\疯狂Java讲义/image_1670137003368_0.png)
             - 好处
@@ -4267,7 +4267,7 @@ mark:: 2^{rd} Edition
                 - 随着处理流所包装节点流的变化，程序实际所访问的数据源也相应地发生变化
               -
       - 流的概念模型 -- “水管”
-        mark:: Java把所有设备里的**有序数据**抽象成流模型; 简化了输入/输出处理
+        description:: Java把所有设备里的**有序数据**抽象成流模型; 简化了输入/输出处理
         collapsed:: true
         - Java的IO流的40多个类都是从如下4个抽象基类派生的
           collapsed:: true
@@ -4683,7 +4683,7 @@ mark:: 2^{rd} Edition
             ```
     - 15.6 Java虚拟机读写其他进程的数据
     - 15.7 RandomAccessFile
-      mark:: "如果我们希望只访问文件部分内容，而不是把文件从头读到尾，使用RandomAccessFile将是更好的选择"
+      description:: "如果我们希望只访问文件部分内容，而不是把文件从头读到尾，使用RandomAccessFile将是更好的选择"
       collapsed:: true
       - APIs
         collapsed:: true

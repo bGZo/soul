@@ -4,7 +4,7 @@ created: 20240612
 title: java 6
 ---
 
-- ## Feats #.ol
+- ## Feats \#.ol
   - 集合框架增强。
     - 为了更好的支持双向访问集合。添加了许多新的类和接口。
     - 新的数组拷贝方法。`Arrays.copyOf`和`Arrays.copyOfRange`

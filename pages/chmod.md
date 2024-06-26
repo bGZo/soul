@@ -46,7 +46,7 @@ icon:: ⌘
         - `6` 代表可以读取和写入
         - `7` 代表可以读取、执行和写入
 - ## What
-  - <iframe src="https://wangchujiang.com/linux-command/c/chmod.html" style="height: 400px"></iframe>
+  - {{iframe https://wangchujiang.com/linux-command/c/chmod.html, 400}}
     #+BEGIN_CENTER
     via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/chmod.html)
     #+END_CENTER

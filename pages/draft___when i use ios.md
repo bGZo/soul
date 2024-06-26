@@ -1,6 +1,7 @@
-title:: draft/when-i-use-[[ios]]
-tags:: #[[iOS]]
-- when I use [[iOS]], here some wired things I felt:
+title:: draft/when i use ios
+tags:: #[[ios]]
+
+- when I use [[ios]], here some wired things I felt:
 - 🌐 代理的爱恨纠葛
   collapsed:: true
   - 选择 via: [谈谈 iOS 平台上的几款代理软件 - Steven's Blog](https://blog.hly0928.com/post/talk-about-some-proxy-apps-on-ios/)

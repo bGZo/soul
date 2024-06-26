@@ -1,8 +1,9 @@
-mark:: A Python library for pulling data out of HTML and XML files
+description:: A Python library for pulling data out of HTML and XML files
 icon:: 🐍
 tags:: #[[Python Library]]
 created:: [[20230627]]
 title:: BeautifulSoup
+
 - ## Why
 - ## How
 - ## What
@@ -158,7 +159,7 @@ title:: BeautifulSoup
       - Going back and forth
         - `.next_element` 和 `.previous_element`
     - Searching the tree
-      - Kinds of filters #.ol
+      - Kinds of filters \#.ol
         - String `soup.find_all('b')`
         - Regular expression `soup.find_all(re.compile("^b"))`
         - List `soup.find_all(["a", "b"])`

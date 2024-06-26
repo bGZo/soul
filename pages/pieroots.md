@@ -1,9 +1,10 @@
 title:: pieroots
 alias:: Word Power Made Easy
-mark:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
+description:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
 tags:: #English #telegram/channel #subscription #DOING
 source:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
 created:: [[20221220]]
+
 - Content
   - 关于词根词缀，简单地说，词尾可以看做是一个特殊的后缀，而词干则是单词去除了词尾后的剩余部分。词根是单词去除了所有词缀（包括前缀和后缀）后的剩余部分。**词干等于或大于词尾**，即有时候词干恰好就是一个词根，或称自由词根。但更多时候词干是词根加上若干词缀。
     collapsed:: true
@@ -34,7 +35,7 @@ created:: [[20221220]]
       definition:: {{cloze suavis / sweet;   suadere / to advise; to make something pleasant to / to present in a pleasing manner; hence to recommend / to advise}}
       tags:: #card, #English #English/word/root
       refs:: [suad-, suas-, suav- - Word Information](https://wordinfo.info/unit/3928)
-      mark:: "来自拉丁语动词suadere（劝说）及其完成分词suasus，本意是“使变甜，使某事显得令人愉快，说甜言蜜语”，和拉丁词根suav-（甜的，令人愉悦的）、日耳曼单词sweet（甜的）同源"
+      description:: "来自拉丁语动词suadere（劝说）及其完成分词suasus，本意是“使变甜，使某事显得令人愉快，说甜言蜜语”，和拉丁词根suav-（甜的，令人愉悦的）、日耳曼单词sweet（甜的）同源"
       - assuage (verb, /əˈsweɪdʒ/), assuages; assuaged; assuaging
         - ![image.png](../assets/pieroots/image_1672647956994_0.png)
           ![image.png](../assets/pieroots/image_1672647966069_0.png)
@@ -53,7 +54,7 @@ created:: [[20221220]]
         definition:: {{cloze 大的/广阔的 / large / enlargement / spacious(寬敞的); comprehensive; enough / more than enough}}
         tags:: #card, #English #English/word/root
         refs:: [ampli-, ampl- - Word Information](https://wordinfo.info/unit/113)
-        mark:: 
+        description::
         - ample (adjective); ampler, more ample; amplest, most ample | 寬
         - amplification (s) (noun), amplifications (pl) | 放大
         - amplifier (s) (noun), amplifiers (pl) | 放大器
@@ -68,7 +69,7 @@ created:: [[20221220]]
       definition:: {{cloze  head; leader / chief / or first}}
       tags:: #card, #English #English/word/root
       refs:: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
-      mark:: 
+      description::
       - > When the French *borrowed words*(借用单词) from Latin, they frequently used soft sounds. These French words, with their softer sounds, then made their way into the English language. At the same time, English borrowed words directly from Latin. So it is that in English we often have two words which share the same root, but which have different, though related, forms and meanings.
         via: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
       - **chief** -> achieve (verb), achieves; achieved; achieving
@@ -145,7 +146,7 @@ created:: [[20221220]]
       definition:: {{cloze (Greek) know / learn / discern(辨別)}}
       tags:: #card, #English #English/word/root
       refs:: [gno-, gnos-, gnoto-, -gnostic, -gnosia, -gnomic, -gnomonic, -gnomical, -gnomy, -gnosia, -gnostic, -gnosis - Word Information](https://wordinfo.info/unit/929/s:ignore)
-      mark:: 
+      description::
       - cognizance (KAHG ni zuhns) (s) (noun), cognizances (pl) | 認知
         collapsed:: true
         - 1. Conscious knowledge or awareness: The *cognizance* of the importance of the issue at hand was realized by *the board of directors(董事會)*.

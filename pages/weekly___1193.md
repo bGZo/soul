@@ -176,7 +176,7 @@ icon:: 📅
       https://www.thepaper.cn/newsDetail_forward_27771515
     - 美國政府 NLRB 給出競業及禁止挖角條款違法的判決
       collapsed:: true
-      #Murmuring #Political #clause #complete #employee #employer #illegal #labor #legal #nlrb #non #practice #solicitation #work
+      #Murmuring \#.olitical #clause #complete #employee #employer #illegal #labor #legal #nlrb #non #practice \#.olicitation #work
       - 在「NLRB judge declares non-compete clause is an unfair labor practice (nlrbedge.com)」這邊看到的，原始文章是：「In First Case of its Kind, NLRB Judge Declares Non-Compete Clause Is an Unfair Labor Practice」。
         NLRB (National Labor Relations Board) 這次是針對 J.O. Mory 的判決，原始判決本來想連結到 NLRB 的網站上，但發現現在連不上，先給這份好了：「09031d4583d765f7.pdf」。
         裡面有兩個面向的判決，一個是競業的部分，另外一個是禁挖的部分。細節可以直接看原文，或是直接丟 Google Translate 或是叫 ChatGPT & Gemini 翻譯都可以。
@@ -262,7 +262,7 @@ icon:: 📅
         #人工智能
     - FTC 出手告 Adobe 的退租機制
       collapsed:: true
-      #Computer #Murmuring #Network #Political #Service #Social #act #adobe #cancel #confidence #dark #fee #ftc #online #pattern #restore #shopper #software #states #subscription #united
+      #Computer #Murmuring #Network \#.olitical #Service #Social #act #adobe #cancel #confidence #dark #fee #ftc #online #pattern #restore #shopper #software #states #subscription #united
       - 在「FTC sues Adobe for hiding fees and inhibiting cancellations (ftc.gov)」這邊看到的，FTC 的稿子在這邊：「FTC Takes Action Against Adobe and Executives for Hiding Fees, Preventing Consumers from Easily Cancelling Software Subscriptions」。
         FTC 的標題就講差不多了，然後第一段再更細節一點：The Federal Trade Commission is taking action against software maker Adobe and two of its executives, Maninder Sawhney and David Wadhwani, for deceiving consumers by hiding the early termination fee for its most popular subscription plan and making it difficult for consumers to cancel their subscriptions.後面有提到法源依據 Restore Online Shoppers' Confidence Act：The complaint charges that Adobe’s practices violate the Restore Online Shoppers’ Confidence Act.然後 FTC 內是 3-0 通過，然後在加州北區聯邦地院打官司：The Commission vote to refer the civil penalty complaint to the DOJ for filing was 3-0. The Department of Justice filed the complaint in the U.S. District Court for the Northern District of California.這個也是值得期待的案子，會是 dark pattern 在法律上的攻防戰...
         https://blog.gslin.org/archives/2024/06/18/11854/ftc-%e5%87%ba%e6%89%8b%e5%91%8a-adobe-%e7%9a%84%e9%80%80%e7%a7%9f%e6%a9%9f%e5%88%b6/
@@ -277,7 +277,7 @@ icon:: 📅
       -
     - 美國正在立法禁用大疆的產品
       collapsed:: true
-      #Computer #Murmuring #Political #Privacy #Security #Social #act #ccp #china #dji #drone #fcc #house #states #united
+      #Computer #Murmuring \#.olitical #Privacy #Security #Social #act #ccp #china #dji #drone #fcc #house #states #united
       - 在「DJI ban passes the House and moves on to the Senate (dronedj.com)」這邊看到的，原文在「DJI ban passes the House and moves on to the Senate」這邊。
         目前眾議院已經過過了，裡面提到 H.R.2864 (Countering CCP Drones Act)：One of these sections, H.R. 2864, or the Countering CCP Drones Act, was added to the bill and can be found under Section 1722. For those who are just hearing about this for the first time, it would remove DJI’s ability to get approval from the FCC, banning any future drones from being imported and possibly grounding current drones.在官方的官面上則是直接列出大疆 (DJI)：
         Countering CCP Drones Act
