@@ -3,7 +3,7 @@ alias:: ギャルゲーム, ギャルゲー, ギャルゲ, 美少女游戏, 萌�
 moegirl:: [Galgame - 萌娘百科 萬物皆可萌的百科全書 (moegirl.org.cn)](https://zh.moegirl.org.cn/zh-hk/Galgame)
 wikipedia:: [Bishōjo game - Wikipedia](https://en.wikipedia.org/wiki/Bish%C5%8Djo_game)
 tags:: #Hobby #game
-mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
+description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
 
   - cover:: ![🖼 ](../assets/``{ date.now.format('YYYY') }``/)
     title:: 
@@ -24,8 +24,8 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
   - Then I know there is rating system for arts, expecially R18 game, which I almost have no education to [[sex]]. So I was addiacted in it deeper, and then find it's nothing if the story is bad.
   - A lot of things happened in [[China]] Internet, such as the policy is changed (to be more restrict, filling with recopy, report ( ((6463a921-47df-47b6-b7e6-971bee380898)) ) and sell again), Zh-Hans-Translation group disbanded appear more and more (See ((64625a01-b388-4404-91a9-baf438852bfe))).
   - Simply speaking, the whole market is exposed outside and turned to legal. Things is not turn good way to develop, because the rule of [[censor]] is not public. So I never touched a domestic galgame till now, because I don't think how deep in some topic they could reach, and that matters.
-  - Yet the most friendly platform is [[Steam]], but they have the censor as well, including child porn or something else, which is different with [[Japan]]. I doubt, does it make sense? I don't know. I just dream a platform, which could give me all I want. But seemly it's just a dream. (See ((6463bf85-9f47-43a8-b65f-047dc1e2ebdf)))
-  - In broad strokes, I devided it into two categories now, althougt they have more details. (See ((64625a01-1706-4e5d-ba30-e303492e8e84))) #.ol
+  - Yet the most friendly platform is [[steam]], but they have the censor as well, including child porn or something else, which is different with [[Japan]]. I doubt, does it make sense? I don't know. I just dream a platform, which could give me all I want. But seemly it's just a dream. (See ((6463bf85-9f47-43a8-b65f-047dc1e2ebdf)))
+  - In broad strokes, I devided it into two categories now, althougt they have more details. (See ((64625a01-1706-4e5d-ba30-e303492e8e84))) \#.ol
     - [[galgame/jerk-off]] (See [[hentai]] details)
     - [[galgame/god]]
 - ## HOW
@@ -96,14 +96,14 @@ mark:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女�
     collapsed:: true
     - title:: hanmin0822/MisakaTranslator
       author:: hanmin0822
-      mark:: "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具"
+      description:: "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具"
       tags:: #github
       source::  [hanmin0822/MisakaTranslator: 御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具](https://github.com/hanmin0822/MisakaTranslator) ![](https://img.shields.io/github/stars/hanmin0822/MisakaTranslator)
       created:: [[202012]]
-      mark:: Doc with [GAL党的福音——开源生肉翻译器MisakaTranslator正式版发布 - 知乎](https://zhuanlan.zhihu.com/p/112895928)
+      description:: Doc with [GAL党的福音——开源生肉翻译器MisakaTranslator正式版发布 - 知乎](https://zhuanlan.zhihu.com/p/112895928)
     - title:: miaomiaosoft/PandaOCR
       author:: miaomiaosoft
-      mark:: "多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码"
+      description:: "多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码"
       tags:: #github
       source:: [miaomiaosoft/PandaOCR: PandaOCR - 多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码](https://github.com/miaomiaosoft/PandaOCR) ![](https://img.shields.io/github/stars/miaomiaosoft/PandaOCR)
       created:: [[202012]]

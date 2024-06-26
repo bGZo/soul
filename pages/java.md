@@ -49,21 +49,21 @@ icon:: ☕
   - ## [[oop]]
     collapsed:: true
     - 封装 Encapsulation
-      mark:: 明确接口
+      description:: 明确接口
     - 继承 Composition, inheritance, and delegation (委托???)
-      mark:: "继承基类, 做出扩展; 子类(完全)兼容基类"
+      description:: "继承基类, 做出扩展; 子类(完全)兼容基类"
       collapsed:: true
       - 继承 (泛化)
         - 实现继承
-          mark:: 无需额外编码的能力
+          description:: 无需额外编码的能力
         - 可视继承
-          mark:: 子窗体（类）使用基窗体（类）的外观和实现代码的能力
+          description:: 子窗体（类）使用基窗体（类）的外观和实现代码的能力
       - 组合 (聚合)
         - 接口继承
-          mark:: 子类必须提供实现的能力
+          description:: 子类必须提供实现的能力
         - 纯虚类
     - 多态 Polymorphism
-      mark:: "基于对象所属类的不同, 外部对同一个方法的调用, 实际执行的逻辑不同; 多态依赖继承"
+      description:: "基于对象所属类的不同, 外部对同一个方法的调用, 实际执行的逻辑不同; 多态依赖继承"
       collapsed:: true
       - 重写/覆盖 Override
         - 虚函数重写

@@ -1,6 +1,6 @@
 icon:: 🔖
 alias:: 导航
-mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
+description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
 
 - ## 👨‍💻 Work
   - ### 🚀 Mirrors
@@ -8,7 +8,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       title:: https://github.com/eryajf/Thanks-Mirror
       tags:: #github #opensource #mirror #proxy
       created:: [[20230223]]
-      mark:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
+      description:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
       ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
     - [[github]]
       - https://hub.xn--p8jhe.tw
@@ -272,7 +272,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [我的galgame资源站--忧郁的loli_忧郁的弟弟](https://www.mmgal.com/) #hentai #galgame
       - [天遊二次元-非专业的PC及APP之Galgame情报，专攻汉化文字游戏，原天使二次元](https://www.tiangal.com/) #hentai #galgame
         - [天使二次元 — 本站专注ACG，主攻Galgame，兼攻Comic，Anime。以汉化版Galgame为主，为未来Gal中文界培养生力军。](https://www.tianshie.com/)
-      - [GMgard - 紳士の庭 ♢绅士们的二次元资源分享交流平台♢](https://gmgard.com/)
+      - [GMgard ](https://gmgard.com/)
       - [琉璃神社★分享动漫快乐](https://acg.gy)
       - [南+ South Plus - powered by Pu!mdHd](https://www.south-plus.net/)
         - [北+ South Plus - powered by Pu!mdHd](https://www.north-plus.net/)
@@ -348,7 +348,7 @@ mark:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - #### 🚀 CPU
       - | | [桌面CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/cpu/index.html)| [手机CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/01/index.html)|
       -
-    - #### 🎮 [[Steam]]
+    - #### 🎮 [[steam]]
       - [Bottom 100 worst Steam Games – Steam 250](https://steam250.com/bottom100) | Steam 差评榜
         - https://store.steampowered.com/search/?sort_by=Reviews_ASC
         - https://store.steampowered.com/search/?sort_by=Reviews_DESC

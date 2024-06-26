@@ -2,7 +2,7 @@ title:: Visualize-ML/Book3_Elements-of-Mathematics
 tags:: #maths #github #opensource
 created:: [[20230308]]
 author:: 生姜
-mark:: [GitHub - Visualize-ML/Book3_Elements-of-Mathematics: Book_3_《数学要素》 |   鸢尾花书：从加减乘除到机器学习；本册有，583幅图，136个代码文件，其中24个Streamlit App；状态：清华社五审五校中；Github稿件基本稳定，欢迎提意见，会及时修改](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics) ![](https://img.shields.io/github/stars/Visualize-ML/Book3_Elements-of-Mathematics)
+description:: [GitHub - Visualize-ML/Book3_Elements-of-Mathematics: Book_3_《数学要素》 |   鸢尾花书：从加减乘除到机器学习；本册有，583幅图，136个代码文件，其中24个Streamlit App；状态：清华社五审五校中；Github稿件基本稳定，欢迎提意见，会及时修改](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics) ![](https://img.shields.io/github/stars/Visualize-ML/Book3_Elements-of-Mathematics)
 
 -
 - ## Content

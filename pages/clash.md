@@ -1,8 +1,8 @@
 icon:: 
 title:: clash
 alias:: clash
-mark:: SS / SSR / V2Ray / 分流
-tags:: #golang #proxy
+description:: SS / SSR / V2Ray / 分流
+tags:: \#.olang #proxy
 source:: [Dreamacro/clash: A rule-based tunnel in Go.](https://github.com/Dreamacro/clash) ![](https://img.shields.io/github/stars/Dreamacro/clash)
 created:: [[20230115]]
 

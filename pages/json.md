@@ -1,5 +1,6 @@
 tags:: #[[Javascript]]
-mark:: **J**ava**S**cript **O**bject **N**otation
+description:: **J**ava**S**cript **O**bject **N**otation
+
   - 通过键来引用值
   - a lightweight data interchange format
   - is language independent \*

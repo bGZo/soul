@@ -67,7 +67,7 @@ tags:: #Job, #DONE, byd
       collapsed:: true
       - TCL 中环
         source:: [TCL 校园招聘](http://campus.tcl.com/); [牛客 TCL 校招内推码:evnpow](https://www.nowcoder.com/discuss/1024990)
-        mark:: Base Hohhot 没有研发; 所以投的是 **TCL中环信息技术岗...**
+        description:: Base Hohhot 没有研发; 所以投的是 **TCL中环信息技术岗...**
       - 银联招聘
         source:: [2022银联招聘，专属内推码来啦，推荐人工号:TJU220001、PKU220001（任选其一；长期有效；校招、实习、社招均可） - 力扣（LeetCode）](https://leetcode.cn/circle/discuss/Jmfish/); [应聘者更新简历elink](https://cloud.italent.cn/PageHome/Index?product=Recruitment&keyName=Nusion&pageCode=RecruitPerfectResume&appCode=Recruitment&inviteKey=b1e8eb6e-4281-43b1-83af-66c62d6cc4e0&needsign=1&shadow_context=%7B%22elinkId%22:%22229f0ec8-d743-4f74-8e4f-36e9fd1dbfa8%22%7D&bc_sign=8697be66a83dbf3c772a3f4c842a7b2f350085b9&bc_ts=1663748647979&bc_nonce=z30l6y#/viewDynamic?t=t&shadow_context=%7BappModel:%22italent%22,uppid:%22%22%7D )
         collapsed:: true
@@ -81,22 +81,22 @@ tags:: #Job, #DONE, byd
         source:: [招商银行招聘](https://career.cloud.cmbchina.com/index.html#jobDetail?id=4d55b13c-dcce-4957-8589-9b0f9d2903b5&returnUrl=#jobList?id=96574F8D-C7ED-4772-AE7C-BAC896D190C1); [【持续招聘中】招商银行总分行内推2022校园招聘社会招聘_招聘信息_牛客网](https://www.nowcoder.com/discuss/740738?type=7&order=0&pos=3&page=7&ncTraceId=&channel=-1&source_id=discuss_tag_nctrack)
       - 建设银行
         tags:: TODO
-        mark:: edge 还需要继续投; 选择信息技术类/综合类;
+        description:: edge 还需要继续投; 选择信息技术类/综合类;
         source:: [中国建设银行—招聘](https://job1.ccb.com/cn/job/apply_job.html?planType=XY&orgId=2017283&planId=2022090511972949&planPost=20220905111009613754&secondOrgId=2019740); [建设银行笔试如何准备？笔试科目是什么？ - 知乎](https://www.zhihu.com/question/390444369)
       - 工商银行
         source:: [中国工商银行人才招聘](https://job.icbc.com.cn/pc/index.html#/main/personal/delivery); [有人了解工行的科技菁英计划吗？ - 知乎](https://www.zhihu.com/question/390165735)
       - 隆基绿能
         source:: [隆基绿能招聘官网-总部应用系统(018153)](https://longi.hotjob.cn/wt/LONGI/web/index/applyPositionN300!listApplyPosition?brandCode=1&operational=0b2e50a55fb57c0f5e596251256fc53864317a65ae774294a9321ea4ee967f58f6573a8fac28e9cde39a55debb9ebd98bbd2451484724a4d8eef99cce681e3eb6c053616eeb87558b84d989caa1bc67f822fabda092f0129393dfc460c74c860);[请问西安隆基绿能公司怎么样？ - 知乎](https://www.zhihu.com/question/379375885)
       - 人大金仓
-        mark:: 岗位不符(C)
+        description:: 岗位不符(C)
         source:: [校园招聘](https://app.mokahr.com/campus-recruitment/kingbase/47259#/job/9a50fedc-8606-49e0-9c2c-5fe8dfb52070)
         collapsed:: true
         - WAITING [Linux后台开发面试高频题经验分享 - 掘金](https://juejin.cn/post/6844904062538907661)
-        - WAITING [人大金仓信息技术股份有限公司面试经验|面试题（共13条）- 职朋](https://www.job592.com/pay/comms29813784.html)
-        - WAITING [秋招04-人大金仓1面-Linux c软件开发工程师_笔经面经_牛客网](https://www.nowcoder.com/discuss/1004483)
-        - WAITING [「人大金仓信息技术股份有限公司c面试题目|面试经验」-看准网](https://www.kanzhun.com/firm/interview/j479451_1XZ73929.html)
+        - CANCELED [人大金仓信息技术股份有限公司面试经验|面试题（共13条）- 职朋](https://www.job592.com/pay/comms29813784.html)
+        - CANCELED [秋招04-人大金仓1面-Linux c软件开发工程师_笔经面经_牛客网](https://www.nowcoder.com/discuss/1004483)
+        - CANCELED [「人大金仓信息技术股份有限公司c面试题目|面试经验」-看准网](https://www.kanzhun.com/firm/interview/j479451_1XZ73929.html)
       - 比亚迪 BYD
-        mark:: 深圳 7500;水电不包; 西安Java已无消息;
+        description:: 深圳 7500;水电不包; 西安Java已无消息;
         source:: http://job.byd.com/zpweb/zpweb/planList.do
         collapsed:: true
         - > 比亚迪是去学校签吧一般。综合面加技术面，然后就是逼签，流程特别快一般一个星期整个流程结束。签的时候要慎重考虑，迪子是直接三方不是offer，签了主动权就不在你手上了。
@@ -121,7 +121,7 @@ tags:: #Job, #DONE, byd
           - [比亚迪（BYD）面试经验|面试题（共491条）- 职朋](https://www.job592.com/pay/comms29499190.html)
       - 蒙牛
         source:: [蒙牛校园招聘](http://mengniu.zhiye.com/xiaoyuan?k=&c=&p=1^31,3^-1&d=#zw )
-        mark:: 数字化管培生 硕士起步
+        description:: 数字化管培生 硕士起步
       - 内蒙古东部电力有限公司
         source:: [国家电网！内蒙古东部电力有限公司2023年招聘公告](https://mp.weixin.qq.com/s?srcid=1002vu4GJUwYAwnewHlv7YW0&scene=23&sharer_sharetime=1665225961438&mid=2247516951&sharer_shareid=41b07940e3c2478dcec2bf71ef0fa999&sn=dae232cf198c2af0181f8d3b058741fb&idx=1&__biz=MzUxMTY4NDY3Ng%3D%3D&chksm=f96d3a3cce1ab32ac9cd150860c0ec0a24123be81101fcd2e291a8a1794c787647bd735e181c&mpshare=1#rd); [中国高等教育学生信息网（学信网）](https://www.chsi.com.cn/)
       - 畅游－运维工程师申请职位
@@ -129,44 +129,44 @@ tags:: #Job, #DONE, byd
       - 伯乐科技 - 服务端开发工程师（python）
         source:: [北京博乐科技有限公司 - 校园招聘](https://app.mokahr.com/campus_apply/bolegames/37643?recommendCode=DSYTZEDX#/job/e73c1132-bf7f-45b6-b294-5829bc201c50/campus_apply/thanks?jobId=e73c1132-bf7f-45b6-b294-5829bc201c50&codeType=2&isRecommendation=false&applyInfo%5BaimWorkCity%5D=%E5%8C%97%E4%BA%AC%E5%B8%82&applyInfo%5BrecommendCode%5D=DSYTZEDX&candidateName=%E9%B2%81%E4%B8%B0%E5%8D%8E&candidateId=372643661)
       - 滴滴打车－后端研发工程师（Golang/Java/C++/PHP）
-        mark:: 应该投测试的
+        description:: 应该投测试的
         source:: [滴滴 - 校园招聘](https://campus.didiglobal.com/campus_apply/didiglobal/6223#/candidateHome/applications)；[2023届滴滴校招正式批开始啦！！！_招聘信息_牛客网](https://www.nowcoder.com/discuss/1027785)
       - Thoughtworks - 海外 - 软件开发工程师
         source:: [Thoughtworks](https://join.thoughtworks.cn/)
-        mark:: 感谢信
+        description:: 感谢信
       - 中国邮政
-        mark:: Base深圳放弃
+        description:: Base深圳放弃
         source:: [中邮消费金融2023校园招聘](http://2023.yingjiesheng.com/youcash/)
       - 交通银行
       - 京东方
         source:: [在「京东方」工作或实习是一种怎样的体验？ - 知乎](https://www.zhihu.com/question/341516244); [我的申请](http://campus.boe.com/Portal/Apply/Index); [申请职位](http://campus.boe.com/Portal/Resume/ResumeItem?jid=880065277&stepId=0&sId=0&pId=1)
-        mark:: 群面挂(3 个 985 硕士)
+        description:: 群面挂(3 个 985 硕士)
       - 中国银行
       - 福建新大陆自动识别技术有限公司
         source:: [福建新大陆自动识别技术有限公司](https://imu.nmbys.cn/teachin/view/id/7056); [我的申请](https://nlscan.zhiye.com/Portal/Apply/Index)
       - 比特大陆
-        mark:: "挖矿的, 感觉容易被端"
+        description:: "挖矿的, 感觉容易被端"
         source:: [在比特大陆上班是一个怎样的体验？ - 知乎](https://www.zhihu.com/question/34468645)
       - 帆软
-        mark:: 后台开发工程师 -> 测试工程师 -> 项目运维工程师
+        description:: 后台开发工程师 -> 测试工程师 -> 项目运维工程师
         source:: [帆软2023届校园招聘](https://t6ixa9nyl6.jiandaoyun.com/f/625e75b9fa406f0007ca777a)
       - 绿盟科技
-        mark:: 秋招研发工程师-北京
+        description:: 秋招研发工程师-北京
         source:: [绿盟科技2023校园招聘](https://app.mokahr.com/campus_apply/nsfocus/29118#/job/22eab09c-1636-4778-ba14-68525f834891/campus_apply/thanks?jobId=22eab09c-1636-4778-ba14-68525f834891&codeType=2&isRecommendation=false&applyInfo%5BaimWorkCity%5D=%E5%8C%97%E4%BA%AC%E5%B8%82&applyInfo%5BrecommendCode%5D=DSKPEqJ4&candidateName=%E9%B2%81%E4%B8%B0%E5%8D%8E&candidateId=371491173)
       - 海康威视
-        mark:: 只有C++硬件嵌入式开发
+        description:: 只有C++硬件嵌入式开发
         source:: [校园招聘](https://mcampus.hikvision.com/#/school)
       - 华信咨询设计研究院有限公司
       - 北京时代数维
-        mark:: 笔试挂
+        description:: 笔试挂
         source:: https://www.jobui.com/company/15391187/
       - Zoom
-        mark:: 笔试挂
+        description:: 笔试挂
       - 4399
-        mark:: 笔试挂
+        description:: 笔试挂
         source:: [4399](https://hr.4399om.com/?r=UserCenter)
       - 科大讯飞
-        mark:: 笔试挂
+        description:: 笔试挂
         source:: [科大讯飞](https://campus.iflytek.com/official-pc/jobList); [科大讯飞2021校招笔试攻略 - 知乎](https://zhuanlan.zhihu.com/p/353333447)；[【科大讯飞】23届内推 内推码【fengwang26】#内推_招聘信息_牛客网](https://www.nowcoder.com/discuss/988104)
       - 用友 Java开发工程师 薪资面议
         source:: [用友校招](https://www.nowcoder.com/jobs/school/detail?jobId=126760&pageSource=7001&sponsorType=3)
@@ -185,7 +185,7 @@ tags:: #Job, #DONE, byd
       - 快手 - Java开发工程师
         source:: [快手校招 - Java开发工程师](https://campus.kuaishou.cn/recruit/campus/e/#/campus/my-apply)
       - 恒生 - 校园招聘
-        mark:: "大概率简历挂, 没有招聘宣讲城市, 投出去也没有反应"
+        description:: "大概率简历挂, 没有招聘宣讲城市, 投出去也没有反应"
         source:: [恒生校招-校园招聘](https://campus.hundsun.com/campus/jobs);
       - 青岛特锐德电气股份有限公司
         source:: [青岛特锐德电气股份有限公司-智联招聘官网](https://xiaoyuan.zhaopin.com/company/CC000273317); [投递结果成功页](https://xiaoyuan.zhaopin.com/scrd/delivery/completed?rid=27331&rnum=CC000273317&taskId=&productId=3&channelId=2&scjobs=CC000273317J00101519105)
@@ -218,56 +218,56 @@ tags:: #Job, #DONE, byd
       - 中国中化
         source:: [中国中化招聘官网](https://sinochem.hotjob.cn/SU610b91ee0dcad4106ff11c21/pb/posDetail.html?postId=630dae3abef57c3179fd65fa&postType=campus&isFollowTimeRules=true)
       - 威努特
-        mark:: Java 只有社招
+        description:: Java 只有社招
         source:: [校园招聘 - 威努特](http://www.winicssec.com/about/l180.html)~~
       - 美的集团
         source:: [美的集团-校园招聘官网-Midea校招/实习生招聘](https://careers.midea.com/schoolOut/post/details?projectRuleId=cf176940-20cc-4651-a0d7-b64b8c452399&positionId=8a928eaf826e136d0182aa81357a0576&recruitCategoryId=85ed0569354a46578240983830fe0c5b&tabActive=1)
-        mark:: 笔试挂; 没有面试城市
+        description:: 笔试挂; 没有面试城市
       - 爱奇艺
-        mark:: 校招0
+        description:: 校招0
         source:: [爱奇艺 - 校园招聘](https://campus.iqiyi.com/campus_apply/iqiyi/38597#/jobs)
       - 小马智行
-        mark:: "偏硬件, 自动驾驶, 嵌入式开发"
+        description:: "偏硬件, 自动驾驶, 嵌入式开发"
         source:: [小马智行 Pony.ai - 校园招聘](https://app.mokahr.com/campus-recruitment/pony/42966/#/jobs?zhineng=15065)
       - 顺丰
-        mark:: 简历挂
+        description:: 简历挂
         source:: [顺丰2023届校园招聘](http://campus.sf-express.com/#/recruitmentList?intern=1)
       - 猿辅导
-        mark:: "做客户端的多, 没有 Java"
+        description:: "做客户端的多, 没有 Java"
         source:: [2023猿辅导在线教育 - 校园招聘](https://hr.yuanfudao.com/campus-recruitment/fenbi/47742/#/)
       - 鹰角网络
-        mark:: "游戏公司, 做动漫的"
+        description:: "游戏公司, 做动漫的"
         source:: [鹰角网络校园招聘](https://app.mokahr.com/campus_apply/hypergryph/26326?sourceToken=58b0eaa4804d0e9a762bd363f341577a#/)
       - 美团
-        mark:: 好像没有 Java 的
+        description:: 好像没有 Java 的
         source:: [职位列表 | 美团招聘官网](https://campus.meituan.com/jobs?jobType=1)
       - 微众银行招聘
-        mark:: 人工智能?...
+        description:: 人工智能?...
         source:: [微众银行招聘](https://job.webank.com/campus_apply/webankhr/69#/)
       - Grab
-        mark:: 只要社招
+        description:: 只要社招
         source:: [Grab](https://github.com/CyC2018/Job-Recommend/blob/master/infos/Grab.md)
       - 涂鸦智能
-        mark:: 没有 Java 后端
+        description:: 没有 Java 后端
         source:: [涂鸦智能 - 校园招聘](https://app.mokahr.com/campus_apply/tuya/3235#/jobs?keyword=%E5%90%8E%E7%AB%AF)
       - 字节跳动
-        mark:: 简历挂
+        description:: 简历挂
         source:: [字节跳动校园招聘](https://jobs.bytedance.com/campus/position); [投递成功 - 加入字节跳动](https://jobs.bytedance.com/campus/resume/applied?spread=62PP8M5)
       - 虎牙
         source:: [【虎牙内推】2022届虎牙校招正式批/社招内推中_招聘信息_牛客网](https://www.nowcoder.com/discuss/716676); [虎牙直播-校园招聘](https://app.mokahr.com/campus_apply/huya/4112#/job/9b7aa223-180b-4404-b509-6bed5f1721c2/campus_apply/thanks?jobId=9b7aa223-180b-4404-b509-6bed5f1721c2&recommendCode=NTAF80f&codeType=1&isRecommendation=false&applyInfo%5BaimWorkCity%5D=%E5%B9%BF%E5%B7%9E%E5%B8%82&applyInfo%5BrecommendCode%5D=NTAF80f&candidateName=%E9%B2%81%E4%B8%B0%E5%8D%8E&candidateId=371859818)
       - 携程集团
-        mark:: "忘写内推码了, 淦... NTAH8Ma"
+        description:: "忘写内推码了, 淦... NTAH8Ma"
         source:: [携程集团 - 校园招聘](https://campus.ctrip.com/campus-recruitment/trip/37757#/job/e2d3d24f-e064-4c6a-bd22-695316d64408/campus_apply/thanks?jobId=e2d3d24f-e064-4c6a-bd22-695316d64408&recommendCode=NTAH8Ma&codeType=1&isRecommendation=false&applyInfo%5BaimWorkCity%5D=%E5%8C%97%E4%BA%AC%E5%B8%82&applyInfo%5BrecommendCode%5D=NTAH8Ma&candidateName=%E9%B2%81%E4%B8%B0%E5%8D%8E&candidateId=371877327)
       - OPPO
-        mark:: "面试地点没有线上, 没有呼和浩特"
+        description:: "面试地点没有线上, 没有呼和浩特"
         source:: [校园招聘](https://careers.oppo.com/campus/resume?fromPage=postDetail&projectName=2023%E5%B1%8A%E7%A7%8B%E5%AD%A3%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98&acceptStr=%E7%AC%AC%E4%B8%80%E6%84%8F%E5%90%91&positionName=%E5%90%8E%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88&idJobObjective=361728&acceptCity=%E5%8D%97%E4%BA%AC%E3%80%81%E6%88%90%E9%83%BD&id=581&isDone=N&positionTypeName=%E8%BD%AF%E4%BB%B6%E7%B1%BB&isNeedKey=true)
       - 腾讯
         source:: [岗位投递 | 腾讯校招](https://join.qq.com/post.html?query=p_1&keyword=Java);[如何看待 2023 腾讯 9.15 开启秋招? - 知乎](https://www.zhihu.com/question/553790535)
       - 蔚来
-        mark:: "没有 Java， 嵌入式"
+        description:: "没有 Java， 嵌入式"
         source:: [蔚来校园招聘](https://nio.jobs.feishu.cn/campus/?keywords=&category=&location=&project=7107135604417464612&type=&job_hot_flag=¤t=1&limit=10&functionCategory=&spread=SAYV33H ); [NIO内推](https://nio.jobs.feishu.cn/referral/campus/position?keywords=%E8%BD%AF%E4%BB%B6&category=6937213309162752293&location=&project=&type=&job_hot_flag=&current=2&limit=10&functionCategory=&token=MzsxNjU1NzEwNTQ1MjgxOzcwMzMwNjM2MDgzOTc1Nzk3ODk7MA)
       - 阿里巴巴
-        mark:: 没有 Java
+        description:: 没有 Java
         source:: [阿里巴巴集团校园招聘](https://talent.alibaba.com/campus/position-list?campusType=freshman&lang=zh)
   - Progressing
     collapsed:: true
@@ -305,7 +305,7 @@ tags:: #Job, #DONE, byd
   - ### Wikis
     collapsed:: true
     - 编制
-      mark:: 中华人民共和国各级机构编制管理机关核定的行政机构、事业单位的机构设置、人员数额和领导职数. 以及人民政府劳动行政部门核定的国有企业组织机构和人员数额. 分为**国家行政编制**、**事业编制**、**企业编制**三大类
+      description:: 中华人民共和国各级机构编制管理机关核定的行政机构、事业单位的机构设置、人员数额和领导职数. 以及人民政府劳动行政部门核定的国有企业组织机构和人员数额. 分为**国家行政编制**、**事业编制**、**企业编制**三大类
       source:: [编制 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/%E7%BC%96%E5%88%B6); [长期看，编制还重要吗？ - 知乎](https://www.zhihu.com/question/356545782/answer/948511722)
       collapsed:: true
       - > 编制这个问题，如果大家都没有的话，无所谓，大家都是一样的，如果你身处在这样的大环境中，别人有而你没有，那你就感觉很不爽了
@@ -318,16 +318,16 @@ tags:: #Job, #DONE, byd
           collapsed:: true
           - 现在大多私立学校都解决了这个问题，但是私立学校都是合同制，这就意味着随时可以淘汰你
     - HC (Head Count)
-      mark:: 人头; 稍微专业点讲就是这家公司打算招的人数
+      description:: 人头; 稍微专业点讲就是这家公司打算招的人数
     - Base地
-      mark:: 基地、总部
+      description:: 基地、总部
       source:: [工作签约时说的base是什么意思_百度知道](https://zhidao.baidu.com/question/427575976.html)
       collapsed:: true
       - 总部在上海，假设 base 地点为A地
         - 按照公司的说法，**你们应该是和总部签订的合同，关系在上海，相当于上海某公司的员工，所以交社保在上海**；同时，你们的工作地点应该就安排在A地，相当于长期外派在A地工作
     - 应届毕业生
-      mark:: "即将毕业, 但未拿到毕业证, 或已经停止学习，处于实习状态的; 拿到毕业证且时间不超过2年或三年择业期年限的 (超过则为往届生)"
-      mark:: 白纸一张(背景调查+事业脱节+人品和能力都差+精力充足+婚育问题); 国家层面解决就业问题(12月国考+3-5月省考+事业单位招考/统考/人才引进);
+      description:: "即将毕业, 但未拿到毕业证, 或已经停止学习，处于实习状态的; 拿到毕业证且时间不超过2年或三年择业期年限的 (超过则为往届生)"
+      description:: 白纸一张(背景调查+事业脱节+人品和能力都差+精力充足+婚育问题); 国家层面解决就业问题(12月国考+3-5月省考+事业单位招考/统考/人才引进);
       source:: [为什么应届生的身份这么值钱？ - 知乎](https://www.zhihu.com/question/296366864/answer/1735907342);  https://www.zhihu.com/question/296366864/answer/1321546761;
       collapsed:: true
       - 国家统一招生的普通高校毕业生离校时和在择业期内（国家规定择业期为二年，有些地方延长至三年）未落实工作单位、其户口、档案、组织关系保留在原毕业学校，或业生就业主管部门（毕业生就业指导服务中心）、各级人才交流服务机构和各级公共就业服务机构的毕业生，可按应届高校毕业生对待。
@@ -788,7 +788,7 @@ tags:: #Job, #DONE, byd
   -
   - ### Special: [[bank]]
     collapsed:: true
-    - [[China]] #.ol
+    - [[China]] \#.ol
       - 中国建设银行——CCB(China Constuction Bank)
       - 中国农业银行——ABC(Agricultural Bank of China)
       - 中国工商银行——ICBC(Industrial and Commercial Bank of China)
@@ -1075,7 +1075,7 @@ tags:: #Job, #DONE, byd
       - [csseky/cskaoyan: 提供计算机考研和软件工程考研专业的各个学校 考研真题](https://github.com/csseky/cskaoyan) ![](https://img.shields.io/github/stars/csseky/cskaoyan)
       - [521xueweihan/HelloGitHub: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.](https://github.com/521xueweihan/HelloGitHub) ![](https://img.shields.io/github/stars/521xueweihan/HelloGitHub)
     - [[civil-service]] | 公考
-      mark:: 没有做好准备，可能上考场也是去当分母；还需要缴纳 120 报名费；
+      description:: 没有做好准备，可能上考场也是去当分母；还需要缴纳 120 报名费；
 -
 -
 - ## References

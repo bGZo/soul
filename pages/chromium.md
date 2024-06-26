@@ -1,5 +1,5 @@
 alias:: browser/chromium, chrome
-mark:: uGc
+description:: uGc
 icon:: 
 source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-software/ungoogled-chromium: Google Chromium, sans integration with Google](https://github.com/ungoogled-software/ungoogled-chromium) ![](https://img.shields.io/github/stars/ungoogled-software/ungoogled-chromium)
 

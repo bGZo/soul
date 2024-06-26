@@ -1,5 +1,5 @@
 title:: java/base
-mark:: java syntax
+description:: java syntax
 
 - ## Type (8)
   collapsed:: true

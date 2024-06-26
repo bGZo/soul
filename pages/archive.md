@@ -1,6 +1,6 @@
 alias:: tool/archive
 icon:: 💾
-mark:: 一般保存**极具参考性. 建设性. 以及常引用性** 的内容/讨论. 必须予以原样保存;
+description:: 一般保存**极具参考性. 建设性. 以及常引用性** 的内容/讨论. 必须予以原样保存;
 
   - template:: archive(default: web)
     template-including-parent:: false
@@ -9,7 +9,7 @@ mark:: 一般保存**极具参考性. 建设性. 以及常引用性** 的内容/
       author:: 
       tags:: #archive/web
       created:: <% today %>
-      mark:: 
+      description:: 
       archive:: [💾 Archived](../assets/archived_web/ )
 - ## Why
 - ## How

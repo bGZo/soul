@@ -1,10 +1,11 @@
 icon:: 🏫
 alias:: 自顶向下计算机网络, Computer Networking: A Top-Down Approach
 created:: [[20230413]]
+
 - [Jim Kurose Homepage (umass.edu)](https://gaia.cs.umass.edu/kurose_ross/index.php)
 - [COMPSCI 453 Computer Networking | Cybersecurity Institute (umass.edu)](https://infosec.cs.umass.edu/content/compsci-453553-computer-networking)
 -
-- ## [Online](https://www.youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu) Lectures  #.ol-nested-2
+- ## [Online](https://www.youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu) Lectures  \#.ol-nested-2
   collapsed:: true
   - CH 01
     collapsed:: true
@@ -126,7 +127,7 @@ created:: [[20230413]]
         - rules for when and how processes send & respond to messages
         - open protocols:
           collapsed:: true
-          - mark:: d in RFCs, everyone has access to protocol definition
+          - description:: d in RFCs, everyone has access to protocol definition
           - allows for interoperability
           - e.g., HTTP, SMTP
         - proprietary protocols:

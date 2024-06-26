@@ -1,7 +1,7 @@
 alias:: 随身常带的装备
 created:: [[20230427]]
 tags:: #tools
-#.ol
+\#.ol
   - 隔音耳塞
   - LED 灯
   - 海露滴眼液（干眼）

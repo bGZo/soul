@@ -1,5 +1,5 @@
 alias:: github/action
-mark:: makes it easy to automate all your software workflows, now with world-class CI/CD.
+description:: makes it easy to automate all your software workflows, now with world-class CI/CD.
 icon:: 🔁
 created:: [[20230625]]
 title:: github action

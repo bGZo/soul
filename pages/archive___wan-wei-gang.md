@@ -1,6 +1,7 @@
 title:: archive/wan-wei-gang
-mark:: 万维刚
+description:: 万维刚
 collapsed:: true
+
   - [精致的利己主义者和常青藤的绵羊](https://www.aisixiang.com/data/90985.html)
     collapsed:: true
     - <h3>万维钢：精致的利己主义者和常青藤的绵羊</h3>

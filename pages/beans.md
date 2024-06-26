@@ -1,6 +1,6 @@
 title:: beans
 alias:: java beans, java bean
-mark:: from java 1.1
+description:: from java 1.1
 
 - 一个公共类，并提供无参公有的构造方法
 - 属性私有化

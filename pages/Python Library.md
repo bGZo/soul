@@ -8,7 +8,7 @@ title:: Python Library
     collapsed:: true
     - collapsed:: true
       #+BEGIN_NOTE
-      遍历 `Str`, `List` 相似，一共存在 4 种方法： #.ol
+      遍历 `Str`, `List` 相似，一共存在 4 种方法： \#.ol
       #+END_NOTE
       - `for` 循环；
       - 下标遍历；
@@ -134,7 +134,7 @@ title:: Python Library
         # ('E:\\OneDrive\\workspace\\scripts\\get_twitter_mastodon\\utils\\__pycache__', [], ['template.cpython-310.pyc', 'utils.cpython-310.pyc'])
         ```
 - ## What
-  - ### Data  Types #.ol
+  - ### Data  Types \#.ol
     collapsed:: true
     - Number，数字
       collapsed:: true
@@ -181,7 +181,7 @@ title:: Python Library
       - memoryview
   - ### `str`
     collapsed:: true
-    - 种类：#.ol
+    - 种类：\#.ol
       collapsed:: true
       - Unicode String / 文本字符串 / `u'xxx'` [default]
       - Byte String / 字节字符串 / `b'xxx'`
@@ -191,7 +191,7 @@ title:: Python Library
     - 切片
   - ### TODO `Time` via: [Python documentation](https://docs.python.org/3/library/time.html), [zh](https://docs.python.org/zh-cn/3/library/time.html)
     collapsed:: true
-    - Terminology and conventions (术语和惯例) #.ol
+    - Terminology and conventions (术语和惯例) \#.ol
       collapsed:: true
       - The *==epoch==* is the point where the time starts, the return value of time.gmtime(0). It is January 1, 1970, 00:00:00 (UTC) on all platforms.
       - The term *==seconds since the epoch==* refers to the total number of elapsed seconds since the epoch, typically **excluding [leap seconds](https://en.wikipedia.org/wiki/Leap_second)**. Leap seconds are excluded from this total on all POSIX-compliant platforms.

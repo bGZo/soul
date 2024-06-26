@@ -1,41 +1,41 @@
 title:: osi/application
 tags:: TODO
-mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
+description:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
 
 -
 - Protocols
   - **HTTP**, HyperText Transfer Protocol
     id:: 63305f34-8398-4775-94c5-fc82d6f40b5d
-    mark:: "超文本传输协议, 主要为 Web BS(浏览器/服务器) 之间的通信而设计的"
+    description:: "超文本传输协议, 主要为 Web BS(浏览器/服务器) 之间的通信而设计的"
     source:: [Wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_header_fields)
   - **HTTPS**, Hypertext Transfer Protocol Secure
     id:: 633065d1-de9c-4a67-b7ff-ec2036c3a3c1
-    mark:: ((63305f34-8398-4775-94c5-fc82d6f40b5d)) 的加强安全版本; 基于 ((63305f34-8398-4775-94c5-fc82d6f40b5d)); 用 TCP 作为底层协议; 并额外使用 ((63306685-01b5-4ab0-9d93-bf0f46710f9a)) 用作加密和安全认证
+    description:: ((63305f34-8398-4775-94c5-fc82d6f40b5d)) 的加强安全版本; 基于 ((63305f34-8398-4775-94c5-fc82d6f40b5d)); 用 TCP 作为底层协议; 并额外使用 ((63306685-01b5-4ab0-9d93-bf0f46710f9a)) 用作加密和安全认证
     source:: [Wikipedia](https://en.wikipedia.org/wiki/HTTPS)
     - **TLS/SSL**, Transport Layer Security/Secure Sockets Layer
       id:: 63306685-01b5-4ab0-9d93-bf0f46710f9a
-      mark:: "SSL 1996 首次发布, SSL 1.0 从未面世，SSL 2.0 则具有较大的缺陷 (DROWN 缺陷 —— Decrypting RSA with Obsolete and Weakened eNcryption), 1999 SSL 3.0 进一步升级，新版本被命名为 TLS 1.0。因此，TLS 是基于 SSL 之上的，但由于习惯叫法，通常把 HTTPS 中的核心加密协议混成为 SSL/TLS"
+      description:: "SSL 1996 首次发布, SSL 1.0 从未面世，SSL 2.0 则具有较大的缺陷 (DROWN 缺陷 —— Decrypting RSA with Obsolete and Weakened eNcryption), 1999 SSL 3.0 进一步升级，新版本被命名为 TLS 1.0。因此，TLS 是基于 SSL 之上的，但由于习惯叫法，通常把 HTTPS 中的核心加密协议混成为 SSL/TLS"
       source:: [Wikipedia](https://en.wikipedia.org/wiki/Transport_Layer_Security)
   - **SMTP**，Simple Mail Transfer Protocol
     id:: 633065eb-90dd-4ba4-9f3b-2e27fb4a4fae
-    mark:: "简单邮件传输(发送)协议, 用来发送电子邮件, 基于 TCP"
+    description:: "简单邮件传输(发送)协议, 用来发送电子邮件, 基于 TCP"
   - **POP3/IMAP**, Post Office Protocol/Internet Message Access Protocol
     id:: 63306043-53c8-40ef-96d0-b2d9df598499
-    mark:: 邮件接收的协议(POP3 协议); 不是 ((633065eb-90dd-4ba4-9f3b-2e27fb4a4fae))
+    description:: 邮件接收的协议(POP3 协议); 不是 ((633065eb-90dd-4ba4-9f3b-2e27fb4a4fae))
   - **FTP**, File Transfer Protocol
     id:: 6330606b-ddcc-4bb3-903b-0e265f5c4f0b
-    mark:: "文件传输协议, 主要提供文件传输服务, 基于客户—服务器（C/S）模型而设计的，在客户端与 FTP 服务器之间建立两个连接"
+    description:: "文件传输协议, 主要提供文件传输服务, 基于客户—服务器（C/S）模型而设计的，在客户端与 FTP 服务器之间建立两个连接"
     source:: [Wikipedia](https://en.wikipedia.org/wiki/File_Transfer_Protocol)
   - **Telnet**
     id:: 6330628e-3096-4c5c-abb4-cdc293a108e2
-    mark:: "远程登陆协议, 通过一个终端登陆到其他服务器"
+    description:: "远程登陆协议, 通过一个终端登陆到其他服务器"
     source:: [Wikipedia](https://en.wikipedia.org/wiki/Telnet)
     collapsed:: true
     - 缺点
       - 所有数据（包括用户名和密码）均以**明文形式发送**，这有潜在的安全风险
   - **SSH**, The Secure Shell Protocol
     id:: 6330644f-de3d-47c8-8d61-363c5b68652f
-    mark:: "安全的网络传输协议, 目前较可靠, 专为远程登录会话和其他网络服务提供安全性的协议"
+    description:: "安全的网络传输协议, 目前较可靠, 专为远程登录会话和其他网络服务提供安全性的协议"
     source:: [Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
     collapsed:: true
     - 建立在 TCP
@@ -52,7 +52,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
   - **BGP**, Border Gateway Protocol
     source:: [Wikipedia](https://en.wikipedia.org/wiki/Border_Gateway_Protocol)
   - WebSocket
-    mark:: 一种让客户端和服务器之间能进行双向实时通信的技术
+    description:: 一种让客户端和服务器之间能进行双向实时通信的技术
     source:: [Wikipedia](https://en.wikipedia.org/wiki/WebSocket)
 -
 - Process
@@ -158,14 +158,14 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
         collapsed:: true
         - 今天网课平台炸了，报了`504 Gateway Time-out`的错误，上个月空闲的时候看过一些请求错误的原因，今天再次从网上整理过来。
         - 1XX
-          mark:: 临时响应并需要请求者继续执行操作的状态代码
+          description:: 临时响应并需要请求者继续执行操作的状态代码
           collapsed:: true
           - | **Number** | **State** |
             |---|---|
             | 100 | **继续**, 请求者应当继续提出请求。服务器返回此代码表示已收到请求的第一部分，正在等待其余部分 |
             | 101 | **切换协议**, 请求者已要求服务器切换协议，服务器已确认并准备切换 |
         - 2XX
-          mark:: 成功处理了请求的状态代码
+          description:: 成功处理了请求的状态代码
           collapsed:: true
           - | **Number** | **State** |
             |---|---|
@@ -177,7 +177,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
             | 205 | **重置内容**, 服务器成功处理了请求，但没有返回任何内容 |
             | 206 | **部分内容**, 服务器成功处理了部分 GET 请求 |
         - 3XX - 重定向
-          mark:: 要完成请求. 需要进一步重定向操作
+          description:: 要完成请求. 需要进一步重定向操作
           collapsed:: true
           - | Number | State |
             |---|---|
@@ -189,7 +189,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
             | 305 | **使用代理**, 请求者只能使用代理访问请求的网页。如果服务器返回此响应，还表示请求者应使用代理 |
             | 307 | **临时重定向**, 服务器目前从不同位置的网页响应请求，但请求者应继续使用原有位置来进行以后的请求 |
         - 4XX - (请求错误)
-          mark:: "请求可能出错，妨碍了服务器的处理"
+          description:: "请求可能出错，妨碍了服务器的处理"
           collapsed:: true
           - | Number | State |
             |---|---|
@@ -211,7 +211,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
             | 416 | **请求范围不符合要求**, 如果页面无法提供请求的范围，则服务器会返回此状态代码 |
             | 417 | **未满足期望值**, 服务器未满足"期望"请求标头字段的要求 |
         - 5XX - 服务器错误
-          mark:: "服务器在尝试处理请求时发生内部错误。 这些错误可能是服务器本身的错误，而不是请求出错"
+          description:: "服务器在尝试处理请求时发生内部错误。 这些错误可能是服务器本身的错误，而不是请求出错"
           collapsed:: true
           - | Number | State |
             |---|---|
@@ -323,7 +323,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
     - ((63306685-01b5-4ab0-9d93-bf0f46710f9a)) 工作原理
       collapsed:: true
       - 非对称加密
-        mark:: 采用两个密钥 —— 公钥 (加密者) + 私钥(解密者)
+        description:: 采用两个密钥 —— 公钥 (加密者) + 私钥(解密者)
         id:: 390dc332-f2c5-4247-a422-132169542c78
         collapsed:: true
         - 公私钥对的生成算法依赖于单向陷门函数
@@ -338,7 +338,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
           - 公钥 $f$ 是公开的
           - 任何人对已有输入，都可以用 $f$ 加密，而要想根据加密信息还原出原信息，必须要有私钥才行
       - **(实际)** 对称加密
-        mark:: 通信双方共享唯一密钥 $k$. 加解密算法已知. 加密方利用密钥 $k$ 加密. 解密方利用密钥 $k$ 解密. 保密性依赖于密钥 $k$ 的保密性
+        description:: 通信双方共享唯一密钥 $k$. 加解密算法已知. 加密方利用密钥 $k$ 加密. 解密方利用密钥 $k$ 解密. 保密性依赖于密钥 $k$ 的保密性
         collapsed:: true
         - ((390dc332-f2c5-4247-a422-132169542c78)) 存在的必要吗 ???
           - 网络通信的信道是不安全, 传输报文对任何人是可见的
@@ -347,7 +347,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
             - 通信双方只需要一次非对称加密，交换对称加密的密钥
           - 在之后的信息通信中, 使用绝对安全的密钥, 对信息进行对称加密，即可保证保密性
       - CA，Certificate Authority, 证书颁发机构
-        mark:: CA 默认是受信任的第三方; CA 会给各个服务器颁发证书. 证书存储在服务器上.并附有 CA 的**电子签名**
+        description:: CA 默认是受信任的第三方; CA 会给各个服务器颁发证书. 证书存储在服务器上.并附有 CA 的**电子签名**
         id:: 63306dd5-61c0-46d5-8e5a-11097c6848dd
         collapsed:: true
         - 1. 当客户端 (浏览器) 向服务器发送 HTTPS 请求时，一定要先获取目标服务器的证书，并根据证书上的信息，检验证书的合法性
@@ -364,7 +364,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
             >同样的，S 公钥即使做加密，也难以避免这种信任性问题，C 被 AS 拐跑了！
           - ![image.png](../assets/network/image_1664118375309_0.png)
       - 数字签名
-        mark:: 是 ((63306dd5-61c0-46d5-8e5a-11097c6848dd)) 在给服务器颁发证书时. 使用散列+加密的组合技术. 在证书上盖个章. 以此来提供验伪的功能
+        description:: 是 ((63306dd5-61c0-46d5-8e5a-11097c6848dd)) 在给服务器颁发证书时. 使用散列+加密的组合技术. 在证书上盖个章. 以此来提供验伪的功能
         collapsed:: true
         - 1. ((63306dd5-61c0-46d5-8e5a-11097c6848dd)) 知道服务器的公钥，对该公钥采用散列技术生成一个摘要。((63306dd5-61c0-46d5-8e5a-11097c6848dd)) 使用 ((63306dd5-61c0-46d5-8e5a-11097c6848dd)) 私钥对该摘要进行加密，并附在证书下方，发送给服务器。
           2. 现在服务器将该证书发送给客户端，客户端需要验证该证书的身份。客户端找到第三方机构 ((63306dd5-61c0-46d5-8e5a-11097c6848dd))，获知 ((63306dd5-61c0-46d5-8e5a-11097c6848dd)) 的公钥，并用 ((63306dd5-61c0-46d5-8e5a-11097c6848dd)) 公钥对证书的签名进行解密，获得了 ((63306dd5-61c0-46d5-8e5a-11097c6848dd)) 生成的摘要。
@@ -420,7 +420,7 @@ mark:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
       - Target 服务器接收邮件之后, 通知 Target 邮箱的用户来收邮件, 用户就通过 ((63306043-53c8-40ef-96d0-b2d9df598499)) 将邮件取出
       - ![image.png](../assets/network/image_1664115124898_0.png)
     - 判断邮箱是真正存在的?
-      mark:: 利用 ((633065eb-90dd-4ba4-9f3b-2e27fb4a4fae)) 来检测
+      description:: 利用 ((633065eb-90dd-4ba4-9f3b-2e27fb4a4fae)) 来检测
       - 查找邮箱域名对应的 ((633065eb-90dd-4ba4-9f3b-2e27fb4a4fae)) 服务器地址
       - 尝试与服务器建立连接
       - 连接成功后尝试向需要验证的邮箱发送邮件

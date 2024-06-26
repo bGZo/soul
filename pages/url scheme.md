@@ -1,7 +1,7 @@
 collapsed:: true
 title:: url scheme
 alias:: deep-linking/mobile
-mark:: link to a specific location within a mobile app rather than simply launching the app.
+description:: link to a specific location within a mobile app rather than simply launching the app.
 wikipedia:: [Mobile deep linking - Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking); [List of URI schemes - Wikipedia](https://en.wikipedia.org/wiki/List_of_URI_schemes)
 created:: [[20221128]]
 
@@ -10,7 +10,7 @@ created:: [[20221128]]
       source:: [Intents and Intent Filters  |  Android Developers](https://developer.android.com/guide/components/intents-filters)
     - BlackBerry 10 devices work through BB10's invocation framework
     - **Firefox OS** devices work through **Web Activities**
-    - [[iOS]] devices work through the **openUrl application** method
+    - [[ios]] devices work through the **openUrl application** method
       source:: [UIApplication | Apple Developer Documentation](https://developer.apple.com/documentation/uikit/uiapplication#jumpTo_37)
     - **Windows Phone 8 devices** work through the **UriMapper class**
 - ## Why

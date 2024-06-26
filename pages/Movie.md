@@ -1,6 +1,7 @@
 icon:: 🎬
 alias:: 电影, Video/Movie
 title:: Movie
+
   - template:: movie
     template-including-parent:: false
     collapsed:: true
@@ -15,9 +16,9 @@ title:: Movie
       douban:: https://www.douban.com/
       imdb:: https://www.imdb.com/title/
       rt:: 
-      mark:: 
+      description:: 
       created:: <% today %>
-      closed:: 
+      closed::
   - template:: page/movie
     template-including-parent:: false
     collapsed:: true
@@ -32,9 +33,9 @@ title:: Movie
       douban:: https://www.douban.com/
       imdb:: https://www.imdb.com/title/
       rt:: 
-      mark:: 
+      description:: 
       created:: <% today %>
-      closed:: 
+      closed::
 - ## Factories
   - Dream Works
   - Warner Bros

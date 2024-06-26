@@ -1,8 +1,9 @@
 title:: kramdown
-mark:: parsing and converting a **superset** of Markdown
+description:: parsing and converting a **superset** of Markdown
 tags:: #markdown #ruby/library #mit
 source:: [Home | kramdown](https://kramdown.gettalong.org/index.html)
 created:: [[20230108]]
+
   - based on the Markdown syntax and has been enhanced with features that are found in other Markdown implementations like Maruku , PHP Markdown Extra and Pandoc .
   - ![](https://kramdown.gettalong.org/overview.png)
 - ## Syntax

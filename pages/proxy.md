@@ -127,7 +127,7 @@ title: proxy
     - Finally, you should have a dashboard to config, because clash only support API, and there are 2 projects about it.
       collapsed:: true
       - [Dreamacro/clash-dashboard: web port of clash](https://github.com/Dreamacro/clash-dashboard)
-        mark:: 去翻 [GA](https://github.com/Dreamacro/clash-dashboard/actions/runs/3965255781/jobs/6794824307) 才发现原来是他们家的： http://clash.razord.top 😂
+        description:: 去翻 [GA](https://github.com/Dreamacro/clash-dashboard/actions/runs/3965255781/jobs/6794824307) 才发现原来是他们家的： http://clash.razord.top 😂
         collapsed:: true
         - ```
           PS E:\download.vivaldi\clash-dashboard-master> npm start
@@ -152,7 +152,7 @@ title: proxy
               at Function.Module._load (node:internal/modules/cjs/loader:813:14)
           ```
       - [haishanh/yacd: Yet Another Clash Dashboard](https://github.com/haishanh/yacd)
-        mark:: http://yacd.haishan.me
+        description:: http://yacd.haishan.me
         collapsed:: true
         - ```
           PS E:\download.vivaldi\yacd-master> npm install axios --registry=http://registry.npm.taobao.org
@@ -272,7 +272,7 @@ title: proxy
         collapsed:: true
         - [v2ray 教程](https://github.com/vkuajing/v2ray).
         - Backup：[233boy-v2ray](https://github.com/PhenTse/233boy-v2ray)
-    - Others by VPN provider: #.ol
+    - Others by VPN provider: \#.ol
       collapsed:: true
       - OpenVPN
       - IKEv2/IPsec

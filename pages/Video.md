@@ -26,7 +26,7 @@ title:: Video
       author:: 
       source:: 
       created:: <% today %>
-      closed:: 
+      closed::
     - {{video }}
       - {{youtube-timestamp 0}} Begin
 - ## Why
@@ -83,24 +83,24 @@ title:: Video
       created:: [[20221220]]
     - title:: [苑舉正的正舉苑 - YouTube](https://www.youtube.com/channel/UCc11usK6gHIkimYPBdQPSdw)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCc11usK6gHIkimYPBdQPSdw
-      tags:: #Podcast #Youtube #subscription #Politics
+      tags:: #Podcast #Youtube #subscription \#.olitics
       created:: [[20221220]]
     - title:: [万物BB机 - YouTube](https://www.youtube.com/channel/UCbhUu8Rmky0SkVP-fmoTwZQ)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCbhUu8Rmky0SkVP-fmoTwZQ
       tags:: #Podcast #Youtube #subscription
-      mark:: 万物简史
+      description:: 万物简史
       created:: [[20221220]]
     - title:: [冲浪普拉斯 - YouTube](https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCZNxe_9FQAK2Z3suwaZlwpQ
-      tags:: #Podcast #Youtube #subscription #Politics
+      tags:: #Podcast #Youtube #subscription \#.olitics
       created:: [[20221220]]
     - title:: [吟游诗人基德 - YouTube](https://www.youtube.com/channel/UCoRl-KroV7gBf20KHD2L8Ag)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCoRl-KroV7gBf20KHD2L8Ag
-      tags:: #Podcast #Youtube #subscription #Politics
+      tags:: #Podcast #Youtube #subscription \#.olitics
       created:: [[20221220]]
     - title:: [小约翰可汗 - YouTube](https://www.youtube.com/channel/UCAeIZxbLS06qOpBTAGT1qxA)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCAeIZxbLS06qOpBTAGT1qxA
-      tags:: #Podcast #Youtube #subscription #Politics
+      tags:: #Podcast #Youtube #subscription \#.olitics
       created:: [[20221220]]
     - Lang
       collapsed:: true
@@ -114,7 +114,7 @@ title:: Video
         created:: [[20221220]]
     - title:: [五岳散人 - YouTube](https://www.youtube.com/channel/UCX8KQ5xQlm0MnZkmHO7CBDw)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCX8KQ5xQlm0MnZkmHO7CBDw
-      tags:: #Podcast #Youtube #subscription #China #Politics
+      tags:: #Podcast #Youtube #subscription #China \#.olitics
       created:: [[20221220]]
     - title:: [Hi5第一頻道 - YouTube](https://www.youtube.com/channel/UCvpX0E9dK-40zwYShv186oA)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCvpX0E9dK-40zwYShv186oA
@@ -146,7 +146,7 @@ title:: Video
       created:: [[20221220]]
     - title:: [多伦多方脸 - YouTube](https://www.youtube.com/channel/UCzYYzigb1vXR0GQXXBja2kg)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCzYYzigb1vXR0GQXXBja2kg
-      tags:: #Podcast #Youtube #subscription #Politics #China
+      tags:: #Podcast #Youtube #subscription \#.olitics #China
       created:: [[20221220]]
     -
     -

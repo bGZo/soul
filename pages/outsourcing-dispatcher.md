@@ -1,6 +1,7 @@
 alias:: OD, 外包
-mark:: 做项目 + 没产品
+description:: 做项目 + 没产品
 tags:: #sucks, #Job
+
 - 分类
   collapsed:: true
   - 劳务派遣 (人员外包) / 驻场

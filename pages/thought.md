@@ -7,53 +7,53 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
   - Types of Thoughts
     collapsed:: true
     - Concept (概念)
-      mark:: Mental representation or an abstract object
+      description:: Mental representation or an abstract object
       - Abstract concept (抽象概念)
-        mark:: Metaphysics concept covering the divide between two types of entities
+        description:: Metaphysics concept covering the divide between two types of entities
       - Concrete concept (具体概念)
-        mark:: Metaphysics concept covering the divide between two types of entities
+        description:: Metaphysics concept covering the divide between two types of entities
     - Conjecture (猜想)
-      mark:: *Proposition(命题)* in mathematics that is unproven
+      description:: *Proposition(命题)* in mathematics that is unproven
     - Decision (决策)
     - Definition (定义)
-      mark:: Statement that *attaches a meaning to a term(赋予术语含义)*
+      description:: Statement that *attaches a meaning to a term(赋予术语含义)*
     - Explanation (解释)
-      mark:: Set of statements constructed to describe a set of facts which *clarifies causes(阐明原因)*
+      description:: Set of statements constructed to describe a set of facts which *clarifies causes(阐明原因)*
     - Hypothesis (假设)
-      mark:: *Proposed explanation(提出的解释)* for an observation. phenomenon. or scientific problem
+      description:: *Proposed explanation(提出的解释)* for an observation. phenomenon. or scientific problem
     - Idea (想法)
-      mark:: *Mental image(心理形象)* or concept
+      description:: *Mental image(心理形象)* or concept
     - Logical argument (逻辑论证)
     - Logical assertion (逻辑断言)
     - Mental image (心理形象)
-      mark:: *Representation(表现)* in the mind of objects. activities or events. whether they existed or not
+      description:: *Representation(表现)* in the mind of objects. activities or events. whether they existed or not
     - Percept / Perception (感知)
     - Premise (前提)
-      mark:: Statement that *an argument claims will induce(主张将得出)* or *justify a conclusion(证明结论)*
+      description:: Statement that *an argument claims will induce(主张将得出)* or *justify a conclusion(证明结论)*
     - Proposition (命题)
-      mark:: *Non-linguistic(非语言)* meaning of a sentence
+      description:: *Non-linguistic(非语言)* meaning of a sentence
     - Syllogism (三段论)
-      mark:: Type of logical argument that applies *deductive reasoning(演绎推理)*
+      description:: Type of logical argument that applies *deductive reasoning(演绎推理)*
     - Theory (理论)
-      mark:: *Supposition(假设)* or system of ideas intended to explain something
+      description:: *Supposition(假设)* or system of ideas intended to explain something
     - Thought experiment (思想实验)
-      mark:: *Hypothetical(假设)* situation
+      description:: *Hypothetical(假设)* situation
     - **Content of thoughts**
       collapsed:: true
       - Argument (论证)
-        mark:: Attempt to *persuade(说服)* or to determine the truth of a *conclusion(结论)*
+        description:: Attempt to *persuade(说服)* or to determine the truth of a *conclusion(结论)*
       - Belief (信念)
-        mark:: Psychological state of holding a *proposition(前提)* or *premise(命题)* to be true
+        description:: Psychological state of holding a *proposition(前提)* or *premise(命题)* to be true
       - Communication (沟通)
-        mark:: Act of conveying *intended meaning(预期意义)*
+        description:: Act of conveying *intended meaning(预期意义)*
       - Data
-        mark:: Units of information
+        description:: Units of information
       - Information
-        mark:: Facts provided or learned about something or someone
+        description:: Facts provided or learned about something or someone
       - Knowledge
-        mark::  *Awareness(认识)* of facts or being *competent(能力)*
+        description::  *Awareness(认识)* of facts or being *competent(能力)*
       - Schema
-        mark:: Technique to encode and *retrieve(检索)* memories
+        description:: Technique to encode and *retrieve(检索)* memories
   - Types of Thought (Thinking)
     collapsed:: true
     - Animal thought
@@ -297,6 +297,6 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
     - <!--Thoughts-->
       tags:: #thought, #my
       feeling:: 
-      mark:: 
+      description:: 
       created:: <% today %>
 -

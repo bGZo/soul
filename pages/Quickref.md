@@ -9,4 +9,4 @@ icon:: ↩
 - title:: [GitHub - Fechin/reference](https://github.com/Fechin/reference) ![](https://img.shields.io/github/stars/Fechin/reference)
   tags:: #github #opensource #jekyll
   created:: [[20230323]]
-  mark:: ⭕ Share quick reference cheat sheet for developers
+  description:: ⭕ Share quick reference cheat sheet for developers

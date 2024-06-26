@@ -2,7 +2,8 @@ title:: bojack-horseman
 alias:: 马男波杰克, Bojack, anime/bojack-horseman
 tags:: #Anime #WAIT
 created:: [[20200611]]
-mark:: 有空二刷
+description:: 有空二刷
+
 -
 - > 你是个好人，截安，这才是最重要的，你也不要停止做一个好人。我喜欢你去商店买东西时总是自带购物袋,喜欢你去什么地方也意是有条不素,我喜欢你在飞机上嚼回香糖减扇琪朵的不适。很多入可能不欣赏这样的你,但是我欣赏
   > "You're a good person，Dlane，and that's the most important thing，it's important that  you don't stop being good.I like how you always bring your own bags to the grocery store，and how you're always organized to go places，I like how you chew gum on the airplane so your ears will pop.A lot of people might not appreciate that about you，but 1do.

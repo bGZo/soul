@@ -1,12 +1,13 @@
 tags:: #ssm
-mark:: [【动力节点】SSM框架之MyBatis上线即经典，跟老杜从零学mybatis 入门到架构思维](https://www.bilibili.com/video/BV1JP4y1Z73S/)
+description:: [【动力节点】SSM框架之MyBatis上线即经典，跟老杜从零学mybatis 入门到架构思维](https://www.bilibili.com/video/BV1JP4y1Z73S/)
 created:: [[20230305]]
+
   - https://www.yuque.com/dujubin/ltckqu/pozck9 & `rs4n`
-- ## #.ol-nested-2 Contents
+- ## \#.ol-nested-2 Contents
   - DONE MyBatis概述
     collapsed:: true
     - 框架
-      mark:: 对通用代码的封装，提前写好了一堆接口和类，我们可以在做项目的时候直接引入这些接口和类（引入框架），基于这些现有的接口和类进行开发，可以大大提高开发效率
+      description:: 对通用代码的封装，提前写好了一堆接口和类，我们可以在做项目的时候直接引入这些接口和类（引入框架），基于这些现有的接口和类进行开发，可以大大提高开发效率
     - 三层架构 #[[Spring MVC]]
       - ![](../assets/BV1JP4y1Z73S/三层架构.png)
       - 三层架构 #vs [[Spring MVC]]

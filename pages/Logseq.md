@@ -13,8 +13,8 @@ title:: Logseq
   - Basically, it's better that encoding with txt and search in [[vscode]]. I used it in the past but I was dropped in the category hell. When I finish a note last two months, and I have no idea where are they stored. The category I organized is terrible. And the ((6474b5f9-a287-48d9-a097-3400b8de53f7)). I like it.
   - I've learned a lot of things, not only how to note, how to remember, but also a few philosophy of organizing the whole [[knowledge]] system. (See ((646ad604-3548-4c57-a41a-4c551df8a8cc)))
 - ## How
-  - How to use logseq fully? What's the design they are? #.ol
-    - The configuration, stored in `config.edu` file, which included  a few functions hidden: #.ol
+  - How to use logseq fully? What's the design they are? \#.ol
+    - The configuration, stored in `config.edu` file, which included  a few functions hidden: \#.ol
       collapsed:: true
       - [Feature: add codemirror options by andelf · Pull Request #3699 · logseq/logseq](https://github.com/logseq/logseq/pull/3699) via:
         collapsed:: true
@@ -145,7 +145,7 @@ title:: Logseq
       - Right click to select copy this position
     - [Online LaTeX Equation Editor - create, integrate, download](https://latex.codecogs.com) #[[latex]] #[[bookmark]]
     - `@@` use html code!
-    - There are many tools [[deprecated]] as following, #Closed  #.ol
+    - There are many tools [[deprecated]] as following, #Closed  \#.ol
       collapsed:: true
       - [Zotero | Your personal research assistant](https://www.zotero.org/)
         - **Alternatives**
@@ -315,7 +315,7 @@ title:: Logseq
     collapsed:: true
     - https://logseq.github.io/#/page/publishing%20(desktop%20app%20only)
 - ## What
-  - What I used in past #.ol
+  - What I used in past \#.ol
     id:: 6474b5b1-ad1a-47c3-bc2c-4343950295a9
     collapsed:: true
     - [onenote](https://www.onenote.com)

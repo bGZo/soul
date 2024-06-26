@@ -42,9 +42,9 @@ tags:: #design
       background-color:: #525e92
     - Reference
       - title:: [GitHub - ozh/github-colors](https://github.com/ozh/github-colors) ![](https://img.shields.io/github/stars/ozh/github-colors)
-        tags:: #github #opensource #color #programming
+        tags:: #github #opensource \#.olor #programming
         created:: [[20230302]]
-        mark:: 🌈 Github colors for all the languages
+        description:: 🌈 Github colors for all the languages
   - ### [[commandline]] #termux
     collapsed:: true
     - [brewer](https://github.com/adi1090x/termux-style/blob/master/colors/base16-brewer-dark.properties)

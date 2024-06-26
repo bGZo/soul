@@ -1,9 +1,10 @@
 alias:: time/zone, 时区
-mark:: Area which observes a uniform standard time for legal, commercial and social purposes.
+description:: Area which observes a uniform standard time for legal, commercial and social purposes.
 icon:: 🕛
 created:: [[20230626]]
 title:: timezone
 wikipedia:: [Time zone - Wikipedia](https://en.wikipedia.org/wiki/Time_zone)
+
 - ## Why
   - History
     - 1870年代加拿大铁路工程师弗莱明首次提出全世界按统一标准划分时区

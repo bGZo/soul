@@ -11,7 +11,7 @@ id:: 65633c2a-d6ca-4124-b367-fb71278d780e
     - title:: 
       rss:: 
       tags:: #Youtube #subscription
-      mark:: 
+      description:: 
       created:: <% today %>
 - ## Why
 - ## How

@@ -181,23 +181,30 @@
             ]}
 
 
- ;; Add your own commands to slash menu to speedup. (only work for '<' )
+ ;; Add your own commands to slash menu to speedup.
  :commands[
+         ;; without plugin dependencies, need to restart logseq
+         ;; via: https://github.com/logseq/logseq/discussions/7976
+           ["bilibili prefix" "https://www.bilibili.com/video/"]
+           ["youtube prefix" "https://youtube.com/watch?v="]
+           ["iframe" [[:editor/input "{{iframe ,300}}\n#+BEGIN_CENTER\nvia: \n#+END_CENTER" {:backward-pos 40}]]]
+		   ["iframe/steam" [[:editor/input "{{{iframe https://store.steampowered.com/widget/ ,180}}}" {:backward-pos 8}]]]
+         ;; depend on plugin
+           
+           ["page" "{{renderer :template, page}}"]
+           ["weekly" "{{renderer :template, weekly}}"]
+           ["ifame/plugin" "{{renderer :template, iframe}}"]
+
+           
            ["anime" "{{renderer :template, anime}}"]
            ["book" "{{renderer :template, book}}"]
            ["leetcode" "{{renderer :template, leetcode}}"]
            ["galgame" "{{renderer :template, galgame}}"]
-           ["insert image by year" "{{renderer :template, insert image by year}}"]
-           ["insert bilibili video" "https://www.bilibili.com/video/"]
-           ["page" "{{renderer :template, page}}"]
-           ["tool" "{{renderer :template, tool}}"]
-           ["weekly" "{{renderer :template, weekly}}"]
+           ["image/year" "{{renderer :template, insert image by year}}"]
            ["podcast/episode" "{{renderer :template, podcast/episode}}"]
            ["project" "{{renderer :template, project}}"]
-           ["command man" "{{renderer :template, command-man}}"]
+           ["man" "{{renderer :template, command-man}}"]
            ["year review" "{{renderer :template, year/review}}"]
-           ["ifame" "{{renderer :template, iframe}}"]
-           ["iframe-buildin" [[:editor/input "{{iframe }}\n#+BEGIN_CENTER\n\n#+END_CENTER" {:backward-pos 31}]]]
            ;; https://discuss.logseq.com/t/macros-and-commands-lets-share/9565
            ;; ["python code" [[:editor/input "```python\n\n```" {:backward-pos 4}]]]
            ;; ["cpp code" [[:editor/input "```cpp\n\n```" {:backward-pos 4}]]]
@@ -212,7 +219,7 @@
 
  ;; Macros replace texts and will make you more productive.
  :macros {
-          "iframe" "<iframe src='$1' style='height:300px;'></iframe>"
+          "iframe" "<iframe src='$1' style='height:$2px;'></iframe>"
           }
 
  ;; The default level to be opened for the linked references.
@@ -228,7 +235,7 @@
  
  :journal/file-name-format "yyyyMMdd"
  
- :feature/enable-journals? false
+ :feature/enable-journals? true
 
  :ui/show-brackets? false
 
@@ -271,8 +278,10 @@
  ;; {:gestures/disabled-in-block-with-tags ["kanban"]}
 
  ;; Extra CodeMirror options
+ ;; NOTE: I don't use linewrap because my quote code is really long, 
+ ;; and then the main part is always wrapped. read it sucks...  
  :editor/extra-codemirror-options {
-                                   :lineWrapping true 
+                                   ;:lineWrapping true 
                                    ;:theme "rdark"
                                    }
  ;; ignore #+keyword: for parsing page references in orgmode
@@ -309,9 +318,9 @@
 
  :feature/enable-timetracking? false
 
- :feature/enable-whiteboards? false
+ :feature/enable-whiteboards? true
 
- :feature/enable-flashcards? false
+ :feature/enable-flashcards? true
 
  :ui/show-full-blocks? true
 

@@ -1,5 +1,6 @@
 icon:: 🙄
 alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
+
 - **Generally**, I hate [[software]] [[design]] with
   collapsed:: true
   #perference
@@ -135,7 +136,7 @@ alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
       - ......
   - Content farm just want to increasing SEO, wasting time. | 内容农场
     - [[seo]] Key Words Ranking [侵权?]
-      mark:: 利用 RSS 二次分发内容创作者的内容; 内容农场; 创建各种关键字以提高 SEO 排名
+      description:: 利用 RSS 二次分发内容创作者的内容; 内容农场; 创建各种关键字以提高 SEO 排名
       collapsed:: true
       - [ALiyun](https://www.aliyun.com)
       - [TencentCloud](https://cloud.tencent.com/)

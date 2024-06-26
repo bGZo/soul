@@ -1,7 +1,7 @@
 title:: java 2/collections
 alias:: java 容器, java 集合
-mark:: a framework that provides an architecture to store and manipulate(操纵) the group of objects
-mark:: from java 1.2
+description:: a framework that provides an architecture to store and manipulate(操纵) the group of objects
+description:: from java 1.2
 
 - #+BEGIN_NOTE
   灵活性(存储, 类型, 数量, 映射关系) > 数组

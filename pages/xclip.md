@@ -4,8 +4,7 @@ icon:: ⌘
 - ## Why
 - ## How
 - ## What
-  - <iframe src="https://wangchujiang.com/linux-command/c/xclip.html" style="height: 400px"></iframe>
+  - {{iframe https://wangchujiang.com/linux-command/c/xclip.html, 400}}
     #+BEGIN_CENTER
     via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/xclip.html)
     #+END_CENTER
--
