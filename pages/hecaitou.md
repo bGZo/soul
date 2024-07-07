@@ -1,0 +1,460 @@
+-
+- blog1
+  collapsed:: true
+  - https://www.hecaitou.com/2024/07/the-lost-game.html
+  - https://www.hecaitou.com/2024/07/after.html
+  - https://www.hecaitou.com/2024/07/low-speed-slow network.html
+  - https://www.hecaitou.com/2024/07/why-is-thatyou.html
+  - https://www.hecaitou.com/2024/06/Walk-with-suffering.html
+  - https://www.hecaitou.com/2024/06/Join-a-group-to-exchange-learning-experiences.html
+  - https://www.hecaitou.com/2024/06/in-the-best years.html
+  - https://www.hecaitou.com/2024/06/ man-in-mold.html
+  - https://www.hecaitou.com/2024/06/Wrong College-Entrance-Exam-Guide.html
+  - https://www.hecaitou.com/2024/06/Online-Debate Pyramid.html
+  - https://www.hecaitou.com/2024/06/that-whoever.html
+  - https://www.hecaitou.com/2024/06/ squirrel-tail.html
+  - https://www.hecaitou.com/2024/06/artificial-front line.html
+  - https://www.hecaitou.com/2024/06/Morning-coffee tips.html
+  - https://www.hecaitou.com/2024/06/reject the-whole-world.html
+  - https://www.hecaitou.com/2024/06/Michelin-for-working people.html
+  - https://www.hecaitou.com/2024/06/Otaku-near-immortal.html
+  - https://www.hecaitou.com/2024/06/Because-therefore.html
+  - https://www.hecaitou.com/2024/06/The-tame-of-cat.html
+  - https://www.hecaitou.com/2024/06/At-what-age-is-it-appropriate-for children-to-learn-bidding.html
+  - https://www.hecaitou.com/2024/06/Learning-through-the-body.html
+  - https://www.hecaitou.com/2024/06/Experience entry-level-NAS-first-hand.html
+  - https://www.hecaitou.com/2024/06/I think-you-are-such-a-person.html
+  - https://www.hecaitou.com/2024/06/A-big-hit-from-Apple.html
+  - https://www.hecaitou.com/2024/06/light-from-crack.html
+  - https://www.hecaitou.com/2024/06/Happy-Dragon-Boat-Festival.html
+  - https://www.hecaitou.com/2024/06/Boring-college-entrance-examination-essay.html
+  - https://www.hecaitou.com/2024/06/College-Entrance-Examination-and-.html
+  - https://www.hecaitou.com/2024/06/Be vegetarian-for-one-month.html
+  - https://www.hecaitou.com/2024/06/Dream-season again.html
+  - https://www.hecaitou.com/2024/06/have-to-use-NAS.html
+  - https://www.hecaitou.com/2024/06/The-last-one-to-leave-the-classroom.html
+  - https://www.hecaitou.com/2024/06/Bless-parents.html
+  - https://www.hecaitou.com/2024/05/Meet-a-vicious-person.html
+  - https://www.hecaitou.com/2024/05/What-AI-cannot draw.html
+  - https://www.hecaitou.com/2024/05/magnifying-glass-life.html
+  - https://www.hecaitou.com/2024/05/sudden hit.html
+  - https://www.hecaitou.com/2024/05/Reuse-electric-fan.html
+  - https://www.hecaitou.com/2024/05/fast-for-four-days.html
+  - https://www.hecaitou.com/2024/05/big-company-disease.html
+  - https://www.hecaitou.com/2024/05/writing-on-water.html
+  - https://www.hecaitou.com/2024/05/go-for-a real-teacher.html
+  - https://www.hecaitou.com/2024/05/Alternate-and-forced-landing.html
+  - https://www.hecaitou.com/2024/05/Planes-and-grass-roots-teams.html
+  - https://www.hecaitou.com/2024/05/weare-all-mortals-with-minor-flaws.html
+  - https://www.hecaitou.com/2024/05/ cyber-nomad.html
+  - https://www.hecaitou.com/2024/05/Little-thing-that-touch-the heart.html
+  - https://www.hecaitou.com/2024/05/Somatosensory-comes-first.html
+  - https://www.hecaitou.com/2024/05/Entanglement-and-struggle.html
+  - https://www.hecaitou.com/2024/05/Online-time-is-worthless.html
+  - https://www.hecaitou.com/2024/05/Mechanical parent.html
+  - https://www.hecaitou.com/2024/05/No-need-to-regret.html
+  - https://www.hecaitou.com/2024/05/Sixteen-years-of-wandering-in-Beijing.html
+  - https://www.hecaitou.com/2024/05/The-grass-that-makes-excuses-for-the-wind.html
+  - https://www.hecaitou.com/2024/05/What-to-use-to-listen-to-music.html
+  - https://www.hecaitou.com/2024/05/Disaster-public-relations.html
+  - https://www.hecaitou.com/2024/05/Uncle-s-music taste.html
+  - https://www.hecaitou.com/2024/05/the-most-dangerous-servant.html
+  - https://www.hecaitou.com/2024/05/Do-not-be-a-traitor.html
+  - https://www.hecaitou.com/2024/05/in-the-world.html
+  - https://www.hecaitou.com/2024/05/education-lesson-from-hand.html
+  - https://www.hecaitou.com/2024/05/mister-wellwell-and-Brother-Ber.html
+  - https://www.hecaitou.com/2024/05/Spotify-gets-stuck-on-ads.html
+  - https://www.hecaitou.com/2024/05/Paul-Auster-disappears-into-the-background.html
+  - https://www.hecaitou.com/2024/05/Put-down-the-phone-and-go-on-vacation.html
+  - https://www.hecaitou.com/2024/04/ViXion-01-review.html
+  - https://www.hecaitou.com/2024/04/Excessive.html
+  - https://www.hecaitou.com/2024/04/The-Sound-Game.html
+  - https://www.hecaitou.com/2024/04/The-best-520-commemoration.html
+  - https://www.hecaitou.com/2024/04/Not-famous-alumni.html
+  - https://www.hecaitou.com/2024/04/When-the-boss-wants-to-be-an-internet-celebrity.html
+  - https://www.hecaitou.com/2024/04/Think-slowly-and-speak-carefully.html
+  - https://www.hecaitou.com/2024/04/a-book-of-reading-book.html
+  - https://www.hecaitou.com/2024/04/Study-of-Monitor-eye-protection-mode.html
+  - https://www.hecaitou.com/2024/04/Home-stayer.html
+  - https://www.hecaitou.com/2024/04/eternal-struggle.html
+  - https://www.hecaitou.com/2024/04/Lord-Bird.html
+  - https://www.hecaitou.com/2024/04/bao-lun.html
+  - https://www.hecaitou.com/2024/04/There-is-always-an-urge-to-talk-nonsense.html
+  - https://www.hecaitou.com/2024/04/everything-is-an-illusion.html
+  - https://www.hecaitou.com/2024/04/The-world-is-like-a-tide-and-people-are-like-water.html
+  - https://www.hecaitou.com/2024/04/A-street-beef-hotpot-restaurant.html
+  - https://www.hecaitou.com/2024/04/Cat-abuse-and-moral-judgment.html
+  - https://www.hecaitou.com/2024/04/learning-composition.html
+  - https://www.hecaitou.com/2024/04/Endless-HiFi-dream.html
+  - https://www.hecaitou.com/2024/04/The-right-way-to-Chat-with-women.html
+  - https://www.hecaitou.com/2024/04/Under-the-cherry-tree.html
+  - https://www.hecaitou.com/2024/04/zezezezeze.html
+  - https://www.hecaitou.com/2024/04/Where-did-the-cat-go.html
+  - https://www.hecaitou.com/2024/04/perplexity-as-an-alternative.html
+  - https://www.hecaitou.com/2024/04/Fish-passing-through-the-hook forest.html
+  - https://www.hecaitou.com/2024/04/He-is-just-different-that-is- enough.html
+  - https://www.hecaitou.com/2024/03/Brand-Apostle.html
+  - https://www.hecaitou.com/2024/03/ midnight call.html
+  - https://www.hecaitou.com/2024/03/one-person-band.html
+  - https://www.hecaitou.com/2024/03/old watch.html
+  - https://www.hecaitou.com/2024/03/household-light-pollution.html
+  - https://www.hecaitou.com/2024/03/Let-us-start-first.html
+  - https://www.hecaitou.com/2024/03/Be-human.html
+  - https://www.hecaitou.com/2024/03/Inspired-by-He-Caitou.html
+  - https://www.hecaitou.com/2024/03/Just-read-The-Three-Body-Problem.html
+  - https://www.hecaitou.com/2024/03/hip-activation.html
+  - https://www.hecaitou.com/2024/03/Discuss-school-bullying.html
+  - https://www.hecaitou.com/2024/03/Omelette-tomato-soup.html
+  - https://www.hecaitou.com/2024/03/luo-xiang-s-talkshow.html
+  - https://www.hecaitou.com/2024/03/sen-q.html
+  - https://www.hecaitou.com/2024/03/Butt-hurts-Dune-2-review.html
+  - https://www.hecaitou.com/2024/03/red-wine-and-movie.html
+  - https://www.hecaitou.com/2024/03/Self-motivation-is-a-private-matter.html
+  - https://www.hecaitou.com/2024/03/Passion-for-Chinese-creation.html
+  - https://www.hecaitou.com/2024/03/good-omen.html
+  - https://www.hecaitou.com/2024/03/Nolan-and-the-Oscars.html
+  - https://www.hecaitou.com/2024/03/Follow-up-for-cervical-pain.html
+  - https://www.hecaitou.com/2024/03/manga boy.html
+  - https://www.hecaitou.com/2024/03/Don-not-forget-MH370.html
+  - https://www.hecaitou.com/2024/03/music-is-better.html
+  - https://www.hecaitou.com/2024/03/The-wine-is-all-in-the-painting.html
+  - https://www.hecaitou.com/2024/03/Follow-all-living-beings.html
+  - https://www.hecaitou.com/2024/03/Killer-s-reverse-engineering.html
+  - https://www.hecaitou.com/2024/03/zhou-chu-Eliminate-three-evils.html
+  - https://www.hecaitou.com/2024/03/50-years-old.html
+  - https://www.hecaitou.com/2024/03/Completely-detoxified.html
+  - https://www.hecaitou.com/2024/02/professional worrier.html
+  - https://www.hecaitou.com/2024/02/Easy-to-get-drunk.html
+  - https://www.hecaitou.com/2024/02/good-writing.html
+  - https://www.hecaitou.com/2024/02/To-express-authority-by-negation.html
+  - https://www.hecaitou.com/2024/02/signs-of-spring.html
+  - https://www.hecaitou.com/2024/02/Apple-Vision-Pro-personal-experience-report.html
+  - https://www.hecaitou.com/2024/02/Say-less-to-your-family-members.html
+  - https://www.hecaitou.com/2024/02/AI-takes-money-without-mercy.html
+  - https://www.hecaitou.com/2024/02/All-villains.html
+  - https://www.hecaitou.com/2024/02/Unconditional-Happiness.html
+  - https://www.hecaitou.com/2024/02/Jing-guang-fa.html
+  - https://www.hecaitou.com/2024/02/Everything-depends-on-the-viewing-angle.html
+  - https://www.hecaitou.com/2024/02/Silicon-competition.html
+  - https://www.hecaitou.com/2024/02/it-is-the-film-and-television-people-s-turn-to-be-anxious.html
+  - https://www.hecaitou.com/2024/02/Spring-Festival-Checklist.html
+  - https://www.hecaitou.com/2024/02/God-of-Wealth-on-Valentine-s-Day.html
+  - https://www.hecaitou.com/2024/02/Long-Distant-box-office-battle.html
+  - https://www.hecaitou.com/2024/02/The-secret-of-praying.html
+  - https://www.hecaitou.com/2024/02/Updated-for-three-consecutive-years.html
+  - https://www.hecaitou.com/2024/02/dragon-claw.html
+  - https://www.hecaitou.com/2024/02/Disappointment-and-arrogance.html
+  - https://www.hecaitou.com/2024/02/Painting-a-golden-dragon.html
+  - https://www.hecaitou.com/2024/02/direct-contact-with-life.html
+  - https://www.hecaitou.com/2024/02/wide-open-you.html
+  - https://www.hecaitou.com/2024/02/Looking-forward-to-Apple-Vision-Pro.html
+  - https://www.hecaitou.com/2024/01/Research-on-delivery-strategies-of-takeaway-tableware.html
+  - https://www.hecaitou.com/2024/01/KPI.html
+  - https://www.hecaitou.com/2024/01/Safety-first-before-Spring-Festival.html
+  - https://www.hecaitou.com/2024/01/The-Happiest-Man-in-the-World-book-review.html
+  - https://www.hecaitou.com/2024/01/Bad-origin.html
+  - https://www.hecaitou.com/2024/01/Not-disciplined-but-self-disciplined.html
+  - https://www.hecaitou.com/2024/01/Post-80s-and-The-Harvard-girl.html
+  - https://www.hecaitou.com/2024/01/Time-freeze.html
+  - https://www.hecaitou.com/2024/01/Pre-holiday-party.html
+  - https://www.hecaitou.com/2024/01/Major-Cold.html
+  - https://www.hecaitou.com/2024/01/Did-everyone-evacuate-in-advance.html
+  - https://www.hecaitou.com/2024/01/talk-with-people.html
+  - https://www.hecaitou.com/2024/01/unscripted-speech.html
+  - https://www.hecaitou.com/2024/01/what-is-your-name.html
+  - https://www.hecaitou.com/2024/01/Stupid-but-useful.html
+  - https://www.hecaitou.com/2024/01/Do-not-run-away-from-freedom.html
+  - https://www.hecaitou.com/2024/01/another-pair-of-glasses-online.html
+  - https://www.hecaitou.com/2024/01/The-most-important-new-feature-WeChat-should-have-in-the-AI-era.html
+  - https://www.hecaitou.com/2024/01/Looking-back-again.html
+  - https://www.hecaitou.com/2024/01/author-s-reading-comprehension.html
+  - https://www.hecaitou.com/2024/01/emergency-evacuation-2.html
+  - https://www.hecaitou.com/2024/01/Although-asthetics-is-not-the-only-criterion.html
+  - https://www.hecaitou.com/2024/01/blog-post.html
+  - https://www.hecaitou.com/2024/01/southern-baby-potatoes.html
+  - https://www.hecaitou.com/2024/01/people-in-shell.html
+  - https://www.hecaitou.com/2024/01/I-did-not-hide.html
+  - https://www.hecaitou.com/2024/01/ Six-metaphors.html
+  - https://www.hecaitou.com/2024/01/wish-you-happy-new-year-2024.html
+  - https://www.hecaitou.com/2023/12/Farewell-2023.html
+  - https://www.hecaitou.com/2023/12/Never-trust-the-words-of-friends.html
+  - https://www.hecaitou.com/2023/12/find-a-way-out.html
+  - https://www.hecaitou.com/2023/12/outside-the-list.html
+  - https://www.hecaitou.com/2023/12/under-the bridge.html
+  - https://www.hecaitou.com/2023/12/A-PUA-company.html
+  - https://www.hecaitou.com/2023/12/Ostrich-walks-through-the-city.html
+  - https://www.hecaitou.com/2023/12/walking-in-the-cold-wind.html
+  - https://www.hecaitou.com/2023/12/ new language.html
+  - https://www.hecaitou.com/2023/12/Happy-winter solstice.html
+  - https://www.hecaitou.com/2023/12/platonic-love.html
+  - https://www.hecaitou.com/2023/12/change-of-opinion.html
+  - https://www.hecaitou.com/2023/12/super-individual.html
+  - https://www.hecaitou.com/2023/12/ hope-and-fear.html
+  - https://www.hecaitou.com/2023/12/interpersonal accidents.html
+  - https://www.hecaitou.com/2023/12/a-business model.html
+  - https://www.hecaitou.com/2023/12/Wasted-a-whole-morning.html
+  - https://www.hecaitou.com/2023/12/1688-Travel Notes.html
+  - https://www.hecaitou.com/2023/12/somthing-to-say.html
+  - https://www.hecaitou.com/2023/12/Passer-by-Zhang-Wuji.html
+  - https://www.hecaitou.com/2023/12/BBQ-IN-SNOWY-DAT.html
+  - https://www.hecaitou.com/2023/12/First-anniversary-of-COVID-19.html
+  - https://www.hecaitou.com/2023/12/having-such-a-.html
+  - https://www.hecaitou.com/2023/12/remain-silent-until-done.html
+  - https://www.hecaitou.com/2023/12/Fans-are-getting-older.html
+  - https://www.hecaitou.com/2023/12/Hot-pot-purple-clay-pot-and-Mayday-band.html
+  - https://www.hecaitou.com/2023/12/The-secular-returns-to-the-secular.html
+  - https://www.hecaitou.com/2023/12/Get-ready-to-make-your-movie.html
+  - https://www.hecaitou.com/2023/12/shenzhen-and-beijing.html
+  - https://www.hecaitou.com/2023/12/Pain-and-Pain-Education.html
+  - https://www.hecaitou.com/2023/12/fenbid-save-.html
+  - https://www.hecaitou.com/2023/11/writing-for readers.html
+  - https://www.hecaitou.com/2023/11/catch-a-what-cold.html
+  - https://www.hecaitou.com/2023/11/The-night-the-internet-did-not-work.html
+  - https://www.hecaitou.com/2023/11/it-is-still-cod.html
+  - https://www.hecaitou.com/2023/11/Blue-Eyed-Samurai.html
+  - https://www.hecaitou.com/2023/11/will-be-snowing-by-the-dusk.html
+  - https://www.hecaitou.com/2023/11/hearing-test.html
+  - https://www.hecaitou.com/2023/11/office-monster.html
+  - https://www.hecaitou.com/2023/11/Little trouble.html
+  - https://www.hecaitou.com/2023/11/final-winner.html
+  - https://www.hecaitou.com/2023/11/just-a-job.html
+  - https://www.hecaitou.com/2023/11/who-is-most-important.html
+  - https://www.hecaitou.com/2023/11/When-founder-get-fired-from-his-own-company.html
+  - https://www.hecaitou.com/2023/11/annua-book-list-again.html
+  - https://www.hecaitou.com/2023/11/parallel-world.html
+  - https://www.hecaitou.com/2023/11/ internet-speed-problem-solving-checklist.html
+  - https://www.hecaitou.com/2023/11/preacher-and-muckraker.html
+  - https://www.hecaitou.com/2023/11/Cycling-like-a-middle-class.html
+  - https://www.hecaitou.com/2023/11/The-1st-year.html
+  - https://www.hecaitou.com/2023/11/1111- Shopping-summary.html
+  - https://www.hecaitou.com/2023/11/modern-cruelty.html
+  - https://www.hecaitou.com/2023/11/Shortsentences-long-articles-and-conversations.html
+  - https://www.hecaitou.com/2023/11/Electric-pillow-experience.html
+  - https://www.hecaitou.com/2023/11/Watch-others-solve-problems.html
+  - https://www.hecaitou.com/2023/11/birthday-cake.html
+  - https://www.hecaitou.com/2023/11/Happy-birthday-Mr-Hecaitou.html
+  - https://www.hecaitou.com/2023/11/Enthusiasm-has-not-changed.html
+  - https://www.hecaitou.com/2023/11/To-learn-dialect.html
+  - https://www.hecaitou.com/2023/11/liu-jia-chang-again.html
+  - https://www.hecaitou.com/2023/11/turtle-worship.html
+  - https://www.hecaitou.com/2023/10/My-favorite pillow.html
+  - https://www.hecaitou.com/2023/10/desire-to live.html
+  - https://www.hecaitou.com/2023/10/Goodbye-Chandler-Bing.html
+  - https://www.hecaitou.com/2023/10/Desktop-computers-of-this-era.html
+  - https://www.hecaitou.com/2023/10/blog-post_27.html
+  - https://www.hecaitou.com/2023/10/blog-post.html
+  - https://www.hecaitou.com/2023/10/Hidden-Potential.html
+  - https://www.hecaitou.com/2023/10/The-first-though.html
+  - https://www.hecaitou.com/2023/10/About-live-streaming-e-commerce.html
+  - https://www.hecaitou.com/2023/10/Get-along-with yourself.html
+  - https://www.hecaitou.com/2023/10/About-reading-habits.html
+  - https://www.hecaitou.com/2023/10/Responsibilities-of-Cats-and-Dogs.html
+  - https://www.hecaitou.com/2023/10/How-to-properly-accept-kindness.html
+  - https://www.hecaitou.com/2023/10/Follow the-wheat-ears-to-find-the-wheat-fields.html
+  - https://www.hecaitou.com/2023/10/The absolute-advantage-of-AI.html
+  - https://www.hecaitou.com/2023/10/Old-time-people-old-time-songs.html
+  - https://www.hecaitou.com/2023/10/some-personal-biases.html
+  - https://www.hecaitou.com/2023/10/ a-complete-day.html
+  - https://www.hecaitou.com/2023/10/Drop-everything-and-go-skiing.html
+  - https://www.hecaitou.com/2023/10/cool-of-autumn.html
+  - https://www.hecaitou.com/2023/10/communicate-online.html
+  - https://www.hecaitou.com/2023/10/ Memories-about-the-Four-Classics.html
+  - https://www.hecaitou.com/2023/10/Be-selective.html
+  - https://www.hecaitou.com/2023/10/myth-busted.html
+  - https://www.hecaitou.com/2023/10/also-had-a-hairstyle.html
+  - https://www.hecaitou.com/2023/10/others-situation.html
+  - https://www.hecaitou.com/2023/10/The-One-escaped.html
+  - https://www.hecaitou.com/2023/10/Those-weird outsiders .html
+  - https://www.hecaitou.com/2023/10/ Cervical-spine-rehabilitation.html
+  - https://www.hecaitou.com/2023/10/those-useless-.html
+  - https://www.hecaitou.com/2023/10/fruits-of-puppy-love.html
+  - https://www.hecaitou.com/2023/10/Le-Crazy-Horse-de-Paris.html
+  - https://www.hecaitou.com/2023/09/Stay-away-from-Xu-Jiayin.html
+  - https://www.hecaitou.com/2023/09/The-full-moon-in-Kunming.html
+  - https://www.hecaitou.com/2023/09/form-at-starting-point.html
+  - https://www.hecaitou.com/2023/09/Internet-chorus.html
+  - https://www.hecaitou.com/2023/09/Whole-Mushroom-Feast.html
+  - https://www.hecaitou.com/2023/09/Home-cooked-and-prepared-meals.html
+  - https://www.hecaitou.com/2023/09/iPhone15-and-purple-clay-teapot.html
+  - https://www.hecaitou.com/2023/09/Mars-mission-on-Earth.html
+  - https://www.hecaitou.com/2023/09/feeling-of-coming-home.html
+  - https://www.hecaitou.com/2023/09/Tenants-of-the-Soul-Hotel.html
+  - https://www.hecaitou.com/2023/09/apology-letter.html
+  - https://www.hecaitou.com/2023/09/it-is-hard-to-be-a-human.html
+  - https://www.hecaitou.com/2023/09/netizen-do-not-read.html
+  - https://www.hecaitou.com/2023/09/thank-you-doctor-wang.html
+  - https://www.hecaitou.com/2023/09/king-in-jeans.html
+  - https://www.hecaitou.com/2023/09/pray-for-my-cat.html
+  - https://www.hecaitou.com/2023/09/858-days.html
+  - https://www.hecaitou.com/2023/09/Those-things-that-I-lvoe-to-write.html
+  - https://www.hecaitou.com/2023/09/take-but-not.html
+  - https://www.hecaitou.com/2023/09/you-should-work-harder.html
+  - https://www.hecaitou.com/2023/09/chain-of-contempt.html
+  - https://www.hecaitou.com/2023/09/A-potential-AI-risk.html
+  - https://www.hecaitou.com/2023/09/opinions-and-Thought.html
+  - https://www.hecaitou.com/2023/09/all-about.html
+  - https://www.hecaitou.com/2023/09/Primary-Research-on-Relaxation.html
+  - https://www.hecaitou.com/2023/09/still-want-to-beat-someone.html
+  - https://www.hecaitou.com/2023/09/sweet wine.html
+  - https://www.hecaitou.com/2023/09/Teach-others-how-to-spand.html
+  - https://www.hecaitou.com/2023/09/power-of-the-land.html
+  - https://www.hecaitou.com/2023/09/when-a-chinese-guy-dies.html
+  - https://www.hecaitou.com/2023/09/There-is--no-such-thing-as-a-great-idea.html
+  - https://www.hecaitou.com/2023/08/EndowmentDiscussion-for-the-Rootless.html
+  - https://www.hecaitou.com/2023/08/life-without-news.html
+  - https://www.hecaitou.com/2023/08/ghost-character.html
+  - https://www.hecaitou.com/2023/08/ideal-writing-environment.html
+  - https://www.hecaitou.com/2023/08/tell-them-who-you-are.html
+  - https://www.hecaitou.com/2023/08/the-legacy-of-steve-jobs.html
+  - https://www.hecaitou.com/2023/08/old-peacock.html
+  - https://www.hecaitou.com/2023/08/oppenheimer.html
+  - https://www.hecaitou.com/2023/08/If-it-is-so-good-why-do-not-you-go-yourself.html
+  - https://www.hecaitou.com/2023/08/win-is-all.html
+  - https://www.hecaitou.com/2023/08/text-subdue-the-devil.html
+  - https://www.hecaitou.com/2023/08/I-broke-my-teapod-this-morning.html
+  - https://www.hecaitou.com/2023/08/Start-with-pomodoro-and-ledger.html
+  - https://www.hecaitou.com/2023/08/online-borderline.html
+  - https://www.hecaitou.com/2023/08/Introducing-a-miniature-man-made-wonder.html
+  - https://www.hecaitou.com/2023/08/Perseverance.html
+  - https://www.hecaitou.com/2023/08/blog-post.html
+  - https://www.hecaitou.com/2023/08/INTP-and-IMSB.html
+  - https://www.hecaitou.com/2023/08/disagreement.html
+  - https://www.hecaitou.com/2023/08/AI-cooling-off-period.html
+  - https://www.hecaitou.com/2023/08/a-simple-math-problem.html
+  - https://www.hecaitou.com/2023/08/get-rid-of-guilt.html
+  - https://www.hecaitou.com/2023/08/those-little-pleasures.html
+  - https://www.hecaitou.com/2023/08/glasses-online.html
+  - https://www.hecaitou.com/2023/08/do-not-lost-your-way.html
+  - https://www.hecaitou.com/2023/08/Snow-Cake-Genetics.html
+  - https://www.hecaitou.com/2023/08/meet-the-earthquake-again.html
+  - https://www.hecaitou.com/2023/08/Research-on-Live-Speech.html
+  - https://www.hecaitou.com/2023/08/book-turns-around.html
+  - https://www.hecaitou.com/2023/08/Rolling-down-with-experience.html
+  - https://www.hecaitou.com/2023/07/ sky-of-song-dynasty.html
+  - https://www.hecaitou.com/2023/07/Do-not-leave-the-good-stuff-for-the-next-day.html
+  - https://www.hecaitou.com/2023/07/Psychological-construction-of-bald-people.html
+  - https://www.hecaitou.com/2023/07/in-the-future.html
+  - https://www.hecaitou.com/2023/07/Uncles-and-Aunts-War.html
+  - https://www.hecaitou.com/2023/07/ABC-of-Chinese-Purple-Clay-Teapot.html
+  - https://www.hecaitou.com/2023/07/meet-at-the-corner.html
+  - https://www.hecaitou.com/2023/07/jian-shou-qing.html
+  - https://www.hecaitou.com/2023/07/received-a-red-envelope.html
+  - https://www.hecaitou.com/2023/07/Imported-chicken-soup-for-the-soul.html
+  - https://www.hecaitou.com/2023/07/how-to-do-great-work.html
+  - https://www.hecaitou.com/2023/07/Straightforward.html
+  - https://www.hecaitou.com/2023/07/Which-translation-is-the-best.html
+  - https://www.hecaitou.com/2023/07/living-a-double-life.html
+  - https://www.hecaitou.com/2023/07/I-can-read.html
+  - https://www.hecaitou.com/2023/07/how-to.html
+  - https://www.hecaitou.com/2023/07/The-most-beautiful-network-builder.html
+  - https://www.hecaitou.com/2023/07/you-can-not-teach-others-how-to-think.html
+  - https://www.hecaitou.com/2023/07/the-back-of-Milan-Kundera.html
+  - https://www.hecaitou.com/2023/07/long-texts-and-short-sentences.html
+  - https://www.hecaitou.com/2023/07/The-Last-Stubbornness-of-Middle-Aged-Men.html
+  - https://www.hecaitou.com/2023/07/The-flawless-small-world-of-the-Internet.html
+  - https://www.hecaitou.com/2023/07/soft-culture-hard-culture.html
+  - https://www.hecaitou.com/2023/07/hot-pot-with-bao.html
+  - https://www.hecaitou.com/2023/07/find-someone-to -chat.html
+  - https://www.hecaitou.com/2023/07/Zuckerberg-takes-a-hard-beat-to-Musk.html
+  - https://www.hecaitou.com/2023/07/The-Mystery-of-Friend-Behavior.html
+  - https://www.hecaitou.com/2023/07/Society-of-Cheese-Structures.html
+  - https://www.hecaitou.com/2023/07/create-meaning.html
+  - https://www.hecaitou.com/2023/07/A-large-scale-Internet-withdrawal-experiment.html
+  - https://www.hecaitou.com/2023/07/Then-who-will-save-the-cat-this-time.html
+  - https://www.hecaitou.com/2023/06/sugar-war.html
+  - https://www.hecaitou.com/2023/06/Bra-problem.html
+  - https://www.hecaitou.com/2023/06/go-through-the-window-to-get-a-haircut.html
+  - https://www.hecaitou.com/2023/06/the-reat-are-all-on-your-own.html
+  - https://www.hecaitou.com/2023/06/Why-dont-people-laugh-at-cockroaches.html
+  - https://www.hecaitou.com/2023/06/Buy-T-shirts-in-40C-heat.html
+  - https://www.hecaitou.com/2023/06/ details-of-history.html
+  - https://www.hecaitou.com/2023/06/cao-tai-ban-zi.html
+  - https://www.hecaitou.com/2023/06/happy-drago-boat-festival.html
+  - https://www.hecaitou.com/2023/06/Knowledge-barrier.html
+  - https://www.hecaitou.com/2023/06/I-do-not-like-Zhang-Xuefeng-nor-the-professors.html
+  - https://www.hecaitou.com/2023/06/nine-cats.html
+  - https://www.hecaitou.com/2023/06/how-dare-you-hiss-me.html
+  - https://www.hecaitou.com/2023/06/What-Love-Looks-Like-Fifteen-Years-Later.html
+  - https://www.hecaitou.com/2023/06/Strange-talk.html
+  - https://www.hecaitou.com/2023/06/teacher-he.html
+  - https://www.hecaitou.com/2023/06/Sun-Wukong-vs-Ultraman.html
+  - https://www.hecaitou.com/2023/06/unexpected-black-t-shirt.html
+  - https://www.hecaitou.com/2023/06/Proposal-for-Weibo-to-Acquire-Github.html
+  - https://www.hecaitou.com/2023/06/Separation.html
+  - https://www.hecaitou.com/2023/06/stand-high.html
+  - https://www.hecaitou.com/2023/06/distant-echo.html
+  - https://www.hecaitou.com/2023/06/Only-Snow-Mountain-knows-everything.html
+  - https://www.hecaitou.com/2023/06/naked-in-crowd.html
+  - https://www.hecaitou.com/2023/06/ Use-GPT-to-write-Chinese-college-entrance-examination-composition.html
+  - https://www.hecaitou.com/2023/06/Probability-of-Street-Exposure.html
+  - https://www.hecaitou.com/2023/06/social-network.html
+  - https://www.hecaitou.com/2023/06/vision-and-prejudice.html
+  - https://www.hecaitou.com/2023/06/I-want-an-Apple-Vision-Pro.html
+  - https://www.hecaitou.com/2023/06/before-the-2023-college-entrance-examination.html
+  - https://www.hecaitou.com/2023/06/its-been-long-time.html
+  - https://www.hecaitou.com/2023/06/almost-unlimited-views.html
+  - https://www.hecaitou.com/2023/06/they-are-just-unlucky-this-time.html
+  - https://www.hecaitou.com/2023/06/about-Paxlovid.html
+  - https://www.hecaitou.com/2023/06/make-you-feel-better.html
+  - https://www.hecaitou.com/2023/06/like-a-child.html
+  - https://www.hecaitou.com/2023/06/2023-05-review.html
+  - https://www.hecaitou.com/2023/05/reboot-tianya.html
+  - https://www.hecaitou.com/2023/05/nothing-about-the-hardware.html
+  - https://www.hecaitou.com/2023/05/Have-you-ever-heard-of-the-personal-computer.html
+  - https://www.hecaitou.com/2023/05/the-new-old-play.html
+  - https://www.hecaitou.com/2023/05/wechat-input-for-windows.html
+  - https://www.hecaitou.com/2023/05/Tiny-happiness.html
+  - https://www.hecaitou.com/2023/05/blog-post_25.html
+  - https://www.hecaitou.com/2023/05/I-will-be-back.html
+  - https://www.hecaitou.com/2023/05/where-is-the-good-Chinese.html
+  - https://www.hecaitou.com/2023/05/sun.html
+  - https://www.hecaitou.com/2023/05/Stefanie-Sun.html
+  - https://www.hecaitou.com/2023/05/nian-zhu.html
+  - https://www.hecaitou.com/2023/05/this-is-not-bullfighting.html
+  - https://www.hecaitou.com/2023/05/shu-ge-org.html
+  - https://www.hecaitou.com/2023/05/wear-the-musk.html
+  - https://www.hecaitou.com/2023/05/Technical-details-of-reopening-blog.html
+  - https://www.hecaitou.com/2023/05/Reload-blog.html
+  - https://www.hecaitou.com/2023/05/happy-Birthday-NJ-university.html
+  - https://www.hecaitou.com/2023/05/this-is-fate.html
+  - https://www.hecaitou.com/2023/05/365-days-drawing.html
+  - https://www.hecaitou.com/2023/05/think-about-your-age.html
+  - https://www.hecaitou.com/2023/05/A-good-beginning.html
+  - https://www.hecaitou.com/2023/05/ Just-taking-statins-alone-is-not-enough.html
+  - https://www.hecaitou.com/2023/05/a-little-thing.html
+  - https://www.hecaitou.com/2023/05/blog-post_13.html
+  - https://www.hecaitou.com/2023/05/blog-post_12.html
+  - https://www.hecaitou.com/2023/05/blog-post_11.html
+  - https://www.hecaitou.com/2023/05/blog-post.html
+  - https://www.hecaitou.com/2023/05/nana.html
+  - https://www.hecaitou.com/2021/03/Chinese-talkshow.html
+- blog 2
+  collapsed:: true
+  - https://www.hecaitou.info/2023/05/prompt.html
+  - https://www.hecaitou.info/2023/05/Cinematic Portrait.html
+  - https://www.hecaitou.info/2023/02/memories-of-arles.html
+  - https://www.hecaitou.info/2020/12/TheGrasshopper  Games Life and Utopia.html
+  - https://www.hecaitou.info/2020/11/about-zhihu.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy8_18.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy8.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy7.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy6.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy5.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy4.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy3.html.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy2.html
+  - https://www.hecaitou.info/2020/11/lostweightstudy1.html
+  - https://www.hecaitou.info/2020/11/blog-post.html
+  - https://www.hecaitou.info/2020/11/45-birthda.html
+  - https://www.hecaitou.info/2020/10/the-queens-gambit.html
+  - https://www.hecaitou.info/2020/10/blog-post.html
+  - https://www.hecaitou.info/2020/09/blog-post_27.html
+  - https://www.hecaitou.info/2020/09/1587.html
+  - https://www.hecaitou.info/2020/09/2009.html
+  - https://www.hecaitou.info/2020/09/blog-post_22.html
+  - https://www.hecaitou.info/2006/08/v.html
+  - https://www.hecaitou.info/2006/08/blog-post_22.html
+  - https://www.hecaitou.info/2006/08/blog-post.html
+  - https://www.hecaitou.info/2006/08/rss.html
+  - https://www.hecaitou.info/2006/08/bbs.html
+  - https://www.hecaitou.info/2005/10/blog-post.html

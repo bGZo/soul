@@ -1,4 +1,5 @@
-tags:: #[[algo]], #[[maths]]
+tags:: #[[algorithm]], #[[maths]]
+
 - Outline
   collapsed:: true
   - 栈

@@ -1,6 +1,6 @@
 title:: mastodon
 alias:: Mastodon
-tags:: #[[Social Media]] #tool
+tags:: #[[social media]] #tool
 source:: [mastodon/mastodon: Your self-hosted, globally interconnected microblogging community](https://github.com/mastodon/mastodon)
 created:: [[20221219]]
 

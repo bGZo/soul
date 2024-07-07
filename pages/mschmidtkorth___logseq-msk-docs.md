@@ -1,5 +1,5 @@
 title:: mschmidtkorth/logseq-msk-docs
-tags:: #github #Logseq #tutorial
+tags:: #github #logseq #tutorial
 source:: [mschmidtkorth/logseq-msk-docs: Unofficial Logseq documentation.](https://github.com/mschmidtkorth/logseq-msk-docs) ![](https://img.shields.io/github/stars/mschmidtkorth/logseq-msk-docs)
 created:: [[20221218]]
 

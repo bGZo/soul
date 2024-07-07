@@ -3,6 +3,7 @@ icon:: 📅
 tags:: #scheduled
 created:: [[20230602]]
 title:: yearly
+
 - ## Why
   - Work flow.
 - ## How
@@ -16,7 +17,7 @@ title:: yearly
     - WAITING Github Trend
   - [[reading]]
     collapsed:: true
-    - 年度书单 #Book
+    - 年度书单 #book
       - [纽约时报](https://nytimes.com/2022/11/29/books/best-books-2022.html)
       - [经济学人](https://economist.com/culture/2022/12/06/these-are-the-economists-best-books-of-2022)
       - [华尔街日报](https://wsj.com/articles/the-best-reading-of-2022-11670613727)
@@ -24,7 +25,7 @@ title:: yearly
       - [金融时报](https://ft.com/content/2dd61d03-13ac-4278-8214-678c1d9a33c1)
       - [纽约客](https://newyorker.com/best-books-2022)
       - Via: https://www.chongbuluo.com/thread-14426-1-1.html
-  - #### 对巨大的声音，保持质疑
+  - #### 今年发生了啥
     collapsed:: true
     - WAITING Hacker News
   - [[We Media]]

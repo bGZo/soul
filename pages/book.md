@@ -2,7 +2,7 @@ alias:: 书
 icon:: 📖
 tags:: #Hobby
 created:: [[20230602]]
-title:: Book
+title:: book
 
   - template:: book
     template-including-parent:: false

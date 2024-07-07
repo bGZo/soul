@@ -12,7 +12,7 @@ title:: software/pattern
 -
 - Outline
   - pattern
-    - #vs [[algo]]
+    - #vs [[algorithm]]
       collapsed:: true
       - 算法更像是菜谱: 提供达成目标的明确步骤
       - 模式更像是蓝图: 你可以看到最终的结果和模式的功能, 但需要自己确定实现步骤。

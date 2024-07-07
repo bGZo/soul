@@ -1,24 +1,23 @@
 icon:: 📔
 alias:: comic, 漫画
-title:: Manga
-tags:: #Book #Hobby #ACGN
+title:: manga
+tags:: #book #Hobby #ACGN
+template:: manga
+template-including-parent:: false
 
-- ## [[template]]
-  - template:: manga
-    template-including-parent:: false
-    - title:: 
-      alias:: 
-      desc:: 
-      tags:: #Manga
-      author:: 
-      publisher:: 
-      created:: <% today %>
-      closed:: 
-      source:: 
-      bangumi:: https://bgm.tv/subject/
-      douban:: https://www.douban.com/
-      goodreads:: 
-      description::
+  - title:: 
+    alias:: 
+    desc:: 
+    tags:: #manga
+    author:: 
+    publisher:: 
+    created:: <% today %>
+    closed:: 
+    source:: 
+    bangumi:: https://bgm.tv/subject/
+    douban:: https://www.douban.com/
+    goodreads:: 
+    description::
 - ## [[tool]]
   - [tachiyomiorg/tachiyomi: Free and open source manga reader for Android.](https://github.com/tachiyomiorg/tachiyomi) #android
   - [App Store 上的“可达漫画 - 本地漫画阅读器”](https://apps.apple.com/cn/app/%E5%8F%AF%E8%BE%BE%E6%BC%AB%E7%94%BB-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id1545372338) #ios

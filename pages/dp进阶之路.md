@@ -1,8 +1,9 @@
 alias:: book/dp进阶之路
-tags:: [[dynamic-programming]], #[[algo]], TODO
+tags:: [[dynamic-programming]], #[[algorithm]], TODO
 author:: 邓丝雨
 published-date:: 20161011
 source:: ![dp进阶之路](../assets/algo/dp/dp进阶之路.pdf);
+
 -
 - Digests
   - 动态规划基本思想

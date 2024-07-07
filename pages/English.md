@@ -86,7 +86,7 @@ tags:: #lang
   - [Wei-Xia/most-frequent-technology-english-words: 程序员工作中常见的英语词汇](https://github.com/Wei-Xia/most-frequent-technology-english-words) ![](https://img.shields.io/github/stars/Wei-Xia/most-frequent-technology-english-words)
   - [Kaiyiwing/qwerty-learner: 为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件](https://github.com/Kaiyiwing/qwerty-learner) ![](https://img.shields.io/github/stars/Kaiyiwing/qwerty-learner)
   - [hanxiaomax/WordPowerMadeEasy: 词汇笔记和在线思维导图](https://github.com/hanxiaomax/WordPowerMadeEasy) ![](https://img.shields.io/github/stars/hanxiaomax/WordPowerMadeEasy)
-  - [[Book]]
+  - [[book]]
     - [Free Magazines Online ✴️ Digital Magazine PDF Download](https://freemagazines.top/)
   - [Technical vocabulary lists](https://www.eapfoundation.com/vocab/other/lists/)  | 普林斯顿大学创建的开源词典 WordNet 生成的, 专业词汇
   - [Academic Collocation for PTE Academic | Pearson PTE](https://www.pearsonpte.com/teachers/academic-collocation) | 2469 个最常见且与教学相关的书面学术英语词汇搭配

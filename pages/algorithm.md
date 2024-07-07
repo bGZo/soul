@@ -1,5 +1,6 @@
 tags:: #[[data-structure]], #[[maths]]
 description:: algorithm
+title:: algorithm
 
 -
 - [[roadmap/algo]] via: [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)
@@ -905,15 +906,7 @@ description:: algorithm
 -
 - Competitions
   collapsed:: true
-  - OI, Olympiad in Informatics，信息学奥林匹克竞赛
-    - 在中国起源于 1984 年，五大高中学科竞赛之一
-      collapsed:: true
-      - 全国高中数学联赛
-      - 全国中学生物理竞赛复赛
-      - 中国化学奥林匹克竞赛(初赛)
-      - 全国中学生生物学联赛
-      - 全国青少年信息学奥林匹克联赛
-    - [www.noi.cn](http://www.noi.cn/)
+  - [[noip]]
   - ICPC/ACM (International Collegiate Programming Contest, 国际大学生程序设计竞赛)
     collapsed:: true
     - 最具影响力的大学生计算机竞赛
@@ -937,7 +930,7 @@ description:: algorithm
   - [阎文元《聊聊散列表》](https://shimo.im/docs/K9vKxdr69RtpKJtJ)
   - [张鹏《深入浅出数组》](https://shimo.im/docs/jpDKpgDTXTjtDkhj/)
 -
-- [[algo/bitwise-operation]]
+- [[algorithm/bitwise-operation]]
   - TODO  diff [[data-structure/bit-map]] && [[data-structure/bit-array]] and above ???
-- [[algo/stack/monotone]] | 单调栈
+- [[algorithm/stack/monotone]] | 单调栈
 -

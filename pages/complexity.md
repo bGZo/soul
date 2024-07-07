@@ -1,5 +1,5 @@
 alias:: 时间复杂度, 空间复杂度
-tags:: #algo
+tags:: #algorithm
 description:: [复杂度 - OI Wiki](https://oi-wiki.org/basic/complexity/)
 
 - 时间复杂度

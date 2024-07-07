@@ -34,7 +34,7 @@ description:: [Java Development Kit - Wikipedia](https://en.wikipedia.org/wiki/J
       ```
   - 特例: JSP 部署 Web 应用程序
     - 应用程序服务器会将 JSP 转换为 Java servlet，并且需要使用 JDK 来编译 servlet
-- ## [[version]] & [[licence]]
+- ## [[software/version]] & [[licence]]
   - Oracle JDK #vs OpenJDK
     - | Items | Oracle JDK | OpenJDK |
       | Licences | BCL / OTN | GPL v2 |

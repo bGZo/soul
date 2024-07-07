@@ -200,7 +200,7 @@ description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 
     - [GAL必备 - ACG喵导航](https://www.miaoaaa.com/favorites/gal%e5%bf%85%e5%a4%87)
 - collapsed:: true
   ----
-  - DONE Should I build each page for every single galgame? Just like [[Book]], Is that necessary? ~~Pointful~~ Meaningful? @20221121
+  - DONE Should I build each page for every single galgame? Just like [[book]], Is that necessary? ~~Pointful~~ Meaningful? @20221121
     collapsed:: true
     - **Unlike book**, they wont have a single page
       - But if, one day, the discuss about origin game increased a huge amount. I will turn it to page. But now, I just record the name I played, I don't have too interest and energy in it. #changelog/wiki

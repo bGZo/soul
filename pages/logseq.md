@@ -5,7 +5,7 @@ document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://
 created:: [[20210801]]
 tags:: #tools
 collapsed:: true
-title:: Logseq
+title:: logseq
 
 - ## Why
   - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[Privacy]], [[censor]], with high [[price]] and bullshit user agreement.
@@ -83,7 +83,7 @@ title:: Logseq
           created:: [[20221120]]
           - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
             collapsed:: true
-            #Telegram #deprecated
+            #telegram #deprecated
             - I think the journals more like tasks with #[[gtd]]
           - Sub block will gone #issue
             - Test case:
@@ -115,7 +115,7 @@ title:: Logseq
       collapsed:: true
       - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
         collapsed:: true
-        #Telegram #deprecated
+        #telegram #deprecated
         - I think the journals more like tasks with #[[gtd]]
       - Sub block will gone #issue
         - Test case:
@@ -315,26 +315,43 @@ title:: Logseq
     collapsed:: true
     - https://logseq.github.io/#/page/publishing%20(desktop%20app%20only)
 - ## What
-  - What I used in past \#.ol
+  - What I used in past #note
     id:: 6474b5b1-ad1a-47c3-bc2c-4343950295a9
     collapsed:: true
-    - [onenote](https://www.onenote.com)
-    - [youdao](https://note.youdao.com/web)
-    - [wiz](https://note.wiz.cn/)
-    - [yuque](https://www.yuque.com)
-    - [cnblog](https://www.cnblogs.com/)
-    - [csdn](https://blog.csdn.net)
-    - [wordpress](https://cn.wordpress.org)
-    - [typecho](http://typecho.org)
-    - [bitcron](https://www.bitcron.com/)
-    - [hexo](https://hexo.io/zh-cn)
-    - [gitbook](https://www.gitbook.com/)
-    - [mkdics](https://www.mkdocs.org)
-    - [blogger](https://www.blogger.com)
-    - [hugo](https://gohugo.io)
-    - [notion](https://www.notion.so/)
-    - [obsidian](https://obsidian.md)
-    - [logseq](https://logseq.github.io)
+    - https://www.cnblogs.com
+      logseq.order-list-type:: number
+    - https://blog.csdn.net
+      logseq.order-list-type:: number
+    - https://www.notion.so
+      logseq.order-list-type:: number
+    - https://logseq.github.io
+      logseq.order-list-type:: number
+    - https://www.onenote.com
+      logseq.order-list-type:: number
+    - https://www.yuque.com
+      logseq.order-list-type:: number
+    - https://cn.wordpress.org
+      logseq.order-list-type:: number
+    - https://note.youdao.com
+      logseq.order-list-type:: number
+    - http://typecho.org
+      logseq.order-list-type:: number
+    - https://www.bitcron.com
+      logseq.order-list-type:: number
+    - https://hexo.io/zh-cn
+      logseq.order-list-type:: number
+    - https://www.gitbook.com
+      logseq.order-list-type:: number
+    - https://www.mkdocs.org
+      logseq.order-list-type:: number
+    - https://www.blogger.com
+      logseq.order-list-type:: number
+    - https://gohugo.io
+      logseq.order-list-type:: number
+    - https://obsidian.md
+      logseq.order-list-type:: number
+    - https://note.wiz.cn
+      logseq.order-list-type:: number
   - Logseq gives us a vision we could organize
     id:: 6474b5f9-a287-48d9-a097-3400b8de53f7
     collapsed:: true

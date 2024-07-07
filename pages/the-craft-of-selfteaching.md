@@ -149,7 +149,12 @@ source:: [selfteaching/the-craft-of-selfteaching: One has no future if one could
   - 2.b [刻意练习](https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/markdown/Part.2.B.deliberate-practicing.md)
     collapsed:: true
     - 我们说，手艺么，主要是靠时间…… 这里的 “时间” 就是 **“刻意练习” 的时间**。
-      - TODO 我当过很长时间的英语老师。异常苦于一件事：最有用的道理最没人听。 学英语根本就不应该那么难，学了十六年也学不明白. 学英语最简单的刻意练习就是朗读。每天朗读一小时，一百天下来就会超越绝大多数人，也会超越自己原本可能永远跨不过去的那个坎 —— 神奇的是，朗读什么无所谓，反正现在有声书那么多…… 更神奇的是，刚开始朗读得好不好听，甚至好不好都无所谓，反正没几天就能体会到大幅进步…… 最神奇的是，这么简单的事，99.99% 的人不做 —— 你身在中国，能理解这个比例真的没有夸张 #English
+      - 我当过很长时间的英语老师。异常苦于一件事：最有用的道理最没人听。 学英语根本就不应该那么难，学了十六年也学不明白. 学英语最简单的刻意练习就是朗读。每天朗读一小时，一百天下来就会超越绝大多数人，也会超越自己原本可能永远跨不过去的那个坎 —— 神奇的是，朗读什么无所谓，反正现在有声书那么多…… 更神奇的是，刚开始朗读得好不好听，甚至好不好都无所谓，反正没几天就能体会到大幅进步…… 最神奇的是，这么简单的事，99.99% 的人不做 —— 你身在中国，能理解这个比例真的没有夸张 #English
+        - TODO 英语朗读百天；
+          SCHEDULED: <2024-07-03 Wed 06:00 .+1d>
+          - 话说前天看到一个不错的TED视频；
+          - 我觉得适合找下 Transcript，跟读一下；
+          -
       - 许多年前，资质平庸的我，一直苦恼一件事：为什么自己无论干什么都笨手笨脚、差这儿差那儿的……为什么与此同时，总是能看到另外一些人，给人感觉 “一出手就是高手” 呢？！
         - ==我花在刻意练习上的时间 **太少** 了==；
         - ==没有 **刻意思考** 哪些地方我应该去刻意练习==。
@@ -173,7 +178,7 @@ source:: [selfteaching/the-craft-of-selfteaching: One has no future if one could
     - 所谓的琢磨，其实真的不是很难，只不过，在此之前，你不知道该琢磨什么而已，一旦知道了，剩下的都再自然不过，都会自然而然地发生
   - 2.e [刻意思考](https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/markdown/Part.2.E.deliberate-thinking.md)
     collapsed:: true
-    - url:: 
+    - url::
     - > 刻意思考哪儿需要刻意练习
     - 刻意思考，就是所谓的琢磨。琢磨这事，一旦开始就简单得要死，可无从下手的时候就神秘无比。
     -
@@ -275,7 +280,7 @@ source:: [selfteaching/the-craft-of-selfteaching: One has no future if one could
     - 哦，对了，其实所有的读者，都可以用这个简单的方法影响下一代： 有同学问，你就一定要耐心讲讲 —— **对自己有好处。** 当然，最直接的方法是把自己变成 “上学” 者，保持开放，乐于分享，而孩子只需通过 “耳闻目染” 就可以了。
   - 3.f [自学者的社交](https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/markdown/Part.3.F.social-selfteaching.md)
     collapsed:: true
-    - url:: 
+    - url::
     - 事实上，在任何领域，社交都是必须的，只不过，很多人没有建立、打磨过自己的社交原则，所以才被各种无效社交所累。**就算讨厌，讨厌的也不应该是社交，而是无效社交**。
     - 在自学的任何一个阶段，学、练、用、造，社交都可能存在。 哪怕是在最枯燥，看起来最不需要社交的 “练” 的阶段，社交也会起很大的作用 —— 在自己累了的时候，看到有人还在练，看到很多人都在练，看到很多人其实也挺累的但还在练…… 这些都是让自己感觉没那么费劲的好办法。
     -

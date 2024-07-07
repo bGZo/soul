@@ -1,4 +1,4 @@
-title:: algo/search/binary
+title:: algorithm/search/binary
 description:: "binary(二分), half-interval(折半),logarithmic(对数), 在一个升序数组中查找一个数, 难点在于到底要给 mid ± 1, while 里到底用  <= / <"
 tags:: #[[sort]]
 

@@ -32,7 +32,7 @@ template-including-parent:: false
   - ## [[weekly/]]
     collapsed:: true
     - icon:: 📅
-    - ## 对巨大的声音，保持质疑
+    - ## 这周发生了啥
       - ---
     - ## 对细小的声音，侧耳倾听
       - ---
@@ -68,7 +68,7 @@ template-including-parent:: false
       -
     - ## 保持质疑
       -
-    - ## 对巨大的声音，保持质疑
+    - ## 这周发生了啥
       -
     - ## 二手知识
       -
@@ -111,7 +111,7 @@ template-including-parent:: false
       #+BEGIN_CENTER
       [Edit this gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f/edit)
       #+END_CENTER
-    - [[Logseq/Sync]]
+    - [[logseq/sync]]
       collapsed:: true
       - ~~Android~~
         collapsed:: true

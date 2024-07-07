@@ -6,7 +6,7 @@
 
  ;; The app will ignore those directories or files.
  ;; E.g. :hidden ["/archived" "/test.md" "../assets/archived"]
- :hidden []
+ :hidden [ "/utils" ]
 
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
@@ -185,10 +185,12 @@
  :commands[
          ;; without plugin dependencies, need to restart logseq
          ;; via: https://github.com/logseq/logseq/discussions/7976
-           ["bilibili prefix" "https://www.bilibili.com/video/"]
-           ["youtube prefix" "https://youtube.com/watch?v="]
+           ["prefix/bilibili" "https://www.bilibili.com/video/"]
+           ["prefix/youtube" "https://youtube.com/watch?v="]
+		   ["prefix/github" [[:editor/input "https://raw.githubusercontent.com//main/" {:backward-pos 6}]]]
+		   ["prefix/github/cdn" [[:editor/input "https://rawcdn.githack.com//main/" {:backward-pos 6}]]]
            ["iframe" [[:editor/input "{{iframe ,300}}\n#+BEGIN_CENTER\nvia: \n#+END_CENTER" {:backward-pos 40}]]]
-		   ["iframe/steam" [[:editor/input "{{{iframe https://store.steampowered.com/widget/ ,180}}}" {:backward-pos 8}]]]
+		   ["iframe/steam" [[:editor/input "{{{iframe https://store.steampowered.com/widget/ ,200}}}" {:backward-pos 8}]]]
          ;; depend on plugin
            
            ["page" "{{renderer :template, page}}"]
@@ -215,7 +217,7 @@
            ]
 
  ;; By default, a block can only be collapsed if it has some children.
- :outliner/block-title-collapse-enabled? false
+ :outliner/block-title-collapse-enabled? false ;; true, prefermance matters
 
  ;; Macros replace texts and will make you more productive.
  :macros {
@@ -223,7 +225,7 @@
           }
 
  ;; The default level to be opened for the linked references.
- :ref/default-open-blocks-level 1
+ :ref/default-open-blocks-level 2
 
  :favorites ["inbox" "content checklist" "project checklist" "waiting checklist" "trash checklist" "navigation"]
 

@@ -4,6 +4,7 @@ publisher:: 人民邮电出版社
 published-date:: 20160100
 tag:: #[[PowerShell]]
 source:: [Windows PowerShell实战指南 (豆瓣)](https://book.douban.com/subject/26833248/)
+
 - tmd 确实连个循环分支都不讲的吗... 屮
 -
 - 闲话提前说, 这次**又**准备学习PowerShell这个神器了, 在命令设计和长度上还是让习惯Linux的我有点头大的.[210415]

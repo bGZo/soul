@@ -11,7 +11,7 @@ created:: [[20221212]]
     #java
     - 1. [对算法和数据结构不熟悉](https://program-think.blogspot.com/2009/01/defect-of-java-beginner-1-algorithm.html)
       collapsed:: true
-      #algo
+      #algorithm
       - 几个问题：
         - 什么时候该用数组型容器、什么时候该用链表型容器？
         - 什么是散列函数？HashMap 的实现原理是什么？

@@ -1,5 +1,6 @@
 title:: prefix_sum
 alias:: algo/prefix_sum, 前缀最大和, 前缀和
+
 - ## Inclusion and Exclusion(容斥原理/排容原理)
   - 离散数学/组合数学中的容斥定理
     - ![Inclusion_and_Exclusion.png](../assets/Inclusion_and_Exclusion_1675590802283_0.png)
@@ -39,7 +40,7 @@ alias:: algo/prefix_sum, 前缀最大和, 前缀和
     - ![Inclusion_and_Exclusion_4.png](../assets/Inclusion_and_Exclusion_4_1675590925879_0.png)
   - 前缀和递推计算规则如下, 常应用计算子矩阵的和:
     - ![Inclusion_and_Exclusion_3.png](../assets/Inclusion_and_Exclusion_3_1675590935379_0.png)
-## ↩ Reference
+- ## ↩ Reference
   - [前缀和 & 差分](https://oi-wiki.org/basic/prefix-sum/)
   - [容斥原理-CNWIKIPEDIA](https://zh.wikipedia.org/wiki/%E6%8E%92%E5%AE%B9%E5%8E%9F%E7%90%86)
   - ["差分"的介绍与使用方法_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1SM4y1V79z/)
