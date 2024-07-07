@@ -1,0 +1,4 @@
+regex: '- (🖼|🎬|📷)* .*?source\n[ ]+'
+rules: '- '
+sort: 1
+type: 'all'

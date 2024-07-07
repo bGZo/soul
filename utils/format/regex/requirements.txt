@@ -1,0 +1,3 @@
+PyYAML~=6.0.1
+
+#'\\[虚构类\\](.*)\\n[^]*?(https://book.douban.com/subject/\\d+/)'

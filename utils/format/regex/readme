@@ -1,0 +1,6 @@
+
+run like this. don't worry. origin file will backup on backup directory )
+
+```bash
+python3 ./main.py .\tests\input\20240706.txt -o .\tests\output\output.txt
+```

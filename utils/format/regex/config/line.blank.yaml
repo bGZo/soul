@@ -1,0 +1,4 @@
+regex: '^[ ]*\n'
+rules: ''
+sort: 0
+type: 'line'

@@ -1,0 +1,4 @@
+regex: ' \((🔥 |❄️ )?Score: \d+\+ in \d+ (minutes|minute|day|days|hour|hours)\)'
+rules: ''
+sort: 1
+type: 'line'
