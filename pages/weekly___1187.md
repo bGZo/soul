@@ -1,6 +1,6 @@
 icon:: 📅
 
-- ## 对巨大的声音，保持质疑
+- ## 这周发生了啥
   - Apple M4 released.
     collapsed:: true
     - collapsed:: true

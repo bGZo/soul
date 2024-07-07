@@ -672,7 +672,7 @@ tags:: #Job, #DONE, byd
             - Dubbo源码分析
             - Netty源码分析
       - 计算机基础
-        - [[algo]]
+        - [[algorithm]]
           - [greyireland/algorithm-pattern: 算法模板，最科学的刷题方式，最快速的刷题路径，你值得拥有~](https://github.com/greyireland/algorithm-pattern)
         - [[os]]
         - [[networking]]
@@ -680,7 +680,7 @@ tags:: #Job, #DONE, byd
         - [[frameworks]]
         - [[software/pattern]]
         - [[leetcode]]
-        - [[Book]]
+        - [[book]]
       - More
         - MBTI-Results
           - 人格类型

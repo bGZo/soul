@@ -1,13 +1,14 @@
 title:: roadmap/develop
 alias:: develop/roadmap
 tags:: TODO
+
 - Refs via: [study-plan · GitHub Topics](https://github.com/topics/study-plan) & https://github.com/search?q=stars:>100000
   - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) ![](https://img.shields.io/github/stars/freeCodeCamp/freeCodeCamp)
   - [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) ![](https://img.shields.io/github/stars/kamranahmedse/developer-roadmap)
     collapsed:: true
     - [ccloli/developer-roadmap-zh-CN-2020](https://github.com/ccloli/developer-roadmap-zh-CN) ![](https://img.shields.io/github/stars/ccloli/developer-roadmap-zh-CN)
       #outdated
-  - [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ![](https://img.shields.io/github/stars/EbookFoundation/free-programming-books) #[[Book]]
+  - [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ![](https://img.shields.io/github/stars/EbookFoundation/free-programming-books) #[[book]]
     collapsed:: true
     - [大家来推荐几本对职业生涯影响较大的技术书籍 - V2EX](https://www.v2ex.com/t/795885)
   - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) ![](https://img.shields.io/github/stars/jwasham/coding-interview-university)

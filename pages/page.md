@@ -2,9 +2,9 @@ template:: page
 template-including-parent:: false
 
   - alias:: 
+    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
     description:: 
     icon:: 
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
     title::  ``{ c.page.name }``
   - ## Why
     -

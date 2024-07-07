@@ -3,6 +3,7 @@ author:: [奥]阿尔弗雷德•阿德勒（Alfred Adler）
 publisher:: 世界图书出版公司
 published-date:: 20190600
 source:: [自卑与超越 (豆瓣)](https://book.douban.com/subject/34464294/)
+
 -
 - Digests
   - 第五章 梦

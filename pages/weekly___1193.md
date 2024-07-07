@@ -1,6 +1,6 @@
 icon:: 📅
 
-- ## 对巨大的声音，保持质疑
+- ## 这周发生了啥
   - 蓝屏死机亮相 Linux；
     collapsed:: true
     - Linux 6.10 引入了一个新的 DRM Panic 处理程序基础设施，以便于在致命错误（Panic）发生时显示相关信息。Linux 6.10 还在开发之中，最新版本是 rc4，扩展 DRM Panic 支持的工作还在进行之中。未来在运行 Linux 6.10+ 的平台上，如果驱动支持 DRM Panic，那么就可以通过 echo c > /proc/sysrq-trigger 测试 Linux 版本的“蓝屏死机（BSOD）”。 Red Hat 工程师 Javier Martinez Canillas 在 Mastodon 分享了一幅图像，展示了 Linux 版本的蓝屏死机是什么模样。
@@ -262,7 +262,7 @@ icon:: 📅
         #人工智能
     - FTC 出手告 Adobe 的退租機制
       collapsed:: true
-      #Computer #Murmuring #Network \#.olitical #Service #Social #act #adobe #cancel #confidence #dark #fee #ftc #online #pattern #restore #shopper #software #states #subscription #united
+      #Computer #Murmuring #Network \#.olitical #Service #social #act #adobe #cancel #confidence #dark #fee #ftc #online #pattern #restore #shopper #software #states #subscription #united
       - 在「FTC sues Adobe for hiding fees and inhibiting cancellations (ftc.gov)」這邊看到的，FTC 的稿子在這邊：「FTC Takes Action Against Adobe and Executives for Hiding Fees, Preventing Consumers from Easily Cancelling Software Subscriptions」。
         FTC 的標題就講差不多了，然後第一段再更細節一點：The Federal Trade Commission is taking action against software maker Adobe and two of its executives, Maninder Sawhney and David Wadhwani, for deceiving consumers by hiding the early termination fee for its most popular subscription plan and making it difficult for consumers to cancel their subscriptions.後面有提到法源依據 Restore Online Shoppers' Confidence Act：The complaint charges that Adobe’s practices violate the Restore Online Shoppers’ Confidence Act.然後 FTC 內是 3-0 通過，然後在加州北區聯邦地院打官司：The Commission vote to refer the civil penalty complaint to the DOJ for filing was 3-0. The Department of Justice filed the complaint in the U.S. District Court for the Northern District of California.這個也是值得期待的案子，會是 dark pattern 在法律上的攻防戰...
         https://blog.gslin.org/archives/2024/06/18/11854/ftc-%e5%87%ba%e6%89%8b%e5%91%8a-adobe-%e7%9a%84%e9%80%80%e7%a7%9f%e6%a9%9f%e5%88%b6/
@@ -277,7 +277,7 @@ icon:: 📅
       -
     - 美國正在立法禁用大疆的產品
       collapsed:: true
-      #Computer #Murmuring \#.olitical #Privacy #Security #Social #act #ccp #china #dji #drone #fcc #house #states #united
+      #Computer #Murmuring \#.olitical #Privacy #Security #social #act #ccp #china #dji #drone #fcc #house #states #united
       - 在「DJI ban passes the House and moves on to the Senate (dronedj.com)」這邊看到的，原文在「DJI ban passes the House and moves on to the Senate」這邊。
         目前眾議院已經過過了，裡面提到 H.R.2864 (Countering CCP Drones Act)：One of these sections, H.R. 2864, or the Countering CCP Drones Act, was added to the bill and can be found under Section 1722. For those who are just hearing about this for the first time, it would remove DJI’s ability to get approval from the FCC, banning any future drones from being imported and possibly grounding current drones.在官方的官面上則是直接列出大疆 (DJI)：
         Countering CCP Drones Act

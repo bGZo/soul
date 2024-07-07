@@ -1,10 +1,59 @@
 icon:: 📅
 
-- ## 对巨大的声音，保持质疑
+- ## 这周发生了啥
   - Clash has [[died]]. #proxy
+    collapsed:: true
     - origin: https://github.com/Dreamacro/clash
     - fork: https://github.com/Ieooo/clash
     - https://news.ycombinator.com/item?id=38126160
+    - Clash 相关软件的仓库或平台删除、存档情况
+      collapsed:: true
+      - 14:02 Dreamacro/clash（删）
+        14:10 MetaCubeX/Clash.Meta（存）
+        14:40 EAimTY/tuic（删）
+        14:40 Dreamacro/clash-dashboard（删）
+        14:44 lotusnetwork/lotusboard（存）
+        15:10 Z-Siqi/Clash-for-Windows_Chinese（存）
+        15:11 fw876/helloworld（删）
+        15:54 juewuy/ShellClash（更名）
+        16:02 Kr328/ClashForAndroid（删）
+        16:11 Clash Multiplatform（解散群组）
+        16:16 MetaCubeX/ClashMetaForAndroid（踢群员）
+        16:32 ModuleList/ClashF（存）
+        16:32 CHIZI-0618/box4magisk（存）
+        16:42 zzzgydi/clash-verge（存）
+        16:49 Fclash/Fclash（存）
+        16:50 immortalwrt/homebridger（存）
+        17:18 openrhc/GUI.for.Clash（删）
+        18:00 Fclash/Fclash（删）
+        18:42 mritd/tpclash（删）
+        19:57 yichengchen/clashX（删）
+        以上日期均为 2023年11月3日，时间是 Telegram 频道、群组中，有人发现仓库出现问题的发现时间。
+        括号中的（删）表示删除公开库，（存）表示存档仓库，意味着停止开发。
+        主要参考 | 详细资料来源
+    - 因不可抗力而终止维护的 Proxy 们
+      collapsed:: true
+      - 2015年8月22日，Shadowsocks 仓库历史记录被清空，只在仓库的 README.md 文件中留下了「Removed according to regulations.」。
+        2020年7月29日，Trojan-Qt5 的仓库的 README.md 文件，被修改为「Removed due to regulationn」这样的信息，并删除了全部的内容。有消息称作者在 Telegram 群组里发了一个「喝茶」的 Emoji。
+        2021年8月29日，Clash.NET 仓库上传了最后一个版本，名为:「V1.2.8 - 欲加之罪, 何患无辞」。次日留下「Removed according to regulations.」这样的 README.md 文件，之后清空仓库。
+        2021年11月15日，Netch 的 Telegram 频道发布了新消息:「目前 Netch 已停更，明年见」，并在群组中开启了全员禁言，Github 仓库也被存档。
+        2023年11月2日，Clash for Windows 删除了发放软件的仓库。作者随后在 Telegram 频道和 X（Twitter），发布了说明：「停止更新了，江湖再见吧😅」。
+        ggame
+    - Proxy：死与新生
+      collapsed:: true
+      - Shadowsocks 原始仓库停止开发前，原作者 clowwindy 创建的 SS 相关仓库，均转移到了 GitHub 的 Shadowsocks 组织下，期间可能分配了完整权限给组织成员。所以 clowwindy 的删库与退出开发，并没有严重影响 SS，而是转由其余组织成员继续开发。
+        V2Ray 的创始人 Victoria Raymond 在失踪前一个月，表示 V2Ray 的基础设施已经实现了自动托管。随后创始人失踪，其他 V2Ray 组织成员继续维护软件。
+        不过由于 GitHub 的 V2Ray 组织成员不拥有完整的权限，所以在创始人失踪一个半月后，V2Ray 组织成员创建了 V2Fly 组织，以方便维护。
+        从维护者的一些行为来看，V2Fly 只是组织名，其维护的软件依然名为是 V2Ray，只是这种情况相当于弄丢了传国玉玺，所以许多人使用 V2Fly 代称 V2Ray。
+        ggame
+    - V2Ray 的分裂
+      collapsed:: true
+      - 〔事实〕XTLS/Go 库曾经是 V2Ray 的依赖，被人打包到 Debian 中，然后 XTLS/Go 库的作者 Refresh（清洗）了仓库，这时有打包者发现 XTLS/Go 的协议不兼容 Debian 的打包规则。
+        〔猜测〕打包者以为作者，在某个时间后修改了仓库的协议。所以提出 issues，请求作者修改协议。
+        〔猜测〕打包者的潜台词是希望作者撤销协议限制，因为之前被包到 Debian 中，也就以为之前的协议是更开放的。
+        〔事实〕作者对 Debian 不了解，之前也没有人提醒协议问题，甚至还放宽了协议，所以在听闻有人要求放宽协议，否则就会影响上游的 V2Ray，作者觉得有人在找茬，然后就开始找其他依赖的茬……接着因为愤怒而搁置协议问题，最终导致 V2Ray 社区的分裂。
+        以上内容，整理自 XTLS/Go issues License issue \#9。
+        #历史
   - ---
 - ## 对细小的声音，侧耳倾听
   - >禁尻一個月太嫩了，有種一個月不要對自己感到失望啊
@@ -39,8 +88,7 @@ icon:: 📅
     （即答）：表示迫不及待，有调侃意
     （意味深）：指前面说
 - ## 如果有天堂，那一定是图书馆的模样
-  - collapsed:: true
-    ---
+  - ---
     - ![](https://img.owspace.com/Public/uploads/Download/2023/1103.jpg){:width 250}![](https://img.owspace.com/Public/uploads/Download/2023/1102.jpg){:width 250}
 - ## 人类一思考，上帝就发笑
   - 我逐渐理解一切

@@ -1,7 +1,7 @@
 icon:: 📖
 title:: 剑指Offer
 alias:: book/剑指Offer
-tags:: #Book #develop #Question
+tags:: #book #develop #Question
 author:: 何海涛
 publisher:: 电子工业出版社
 published:: 20170500

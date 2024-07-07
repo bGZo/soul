@@ -10,7 +10,7 @@ tags:: sponsor
     -
   - [[archive]]
     via:: [Donate to the Internet Archive!](https://archive.org/donate/)
-  - [[Logseq]]
+  - [[logseq]]
     via:: [Logseq - Open Collective](https://opencollective.com/logseq)
   - [Support our nonprofit | freeCodeCamp.org](https://www.freecodecamp.org/donate/)
   - Tampermonkey

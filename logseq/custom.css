@@ -146,8 +146,8 @@ a.tag:active, a.tag:focus, a.tag:hover {
 
 /**
  * feat: task cancel text-decoration
- */
-.canceled, .cancelled, .done {
+.done {
   text-decoration: none !important;
   opacity: var(--ls-tag-text-opacity);
 }
+ */

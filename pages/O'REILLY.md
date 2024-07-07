@@ -1,4 +1,4 @@
-tags:: #star #Book #publisher
+tags:: #star #book #publisher
 
 - ## Series
   - [Animal Menagerie - O'Reilly Media](https://www.oreilly.com/animals.csp)

@@ -7,7 +7,7 @@ tags:: blog
     - Import into [yang991178/fluent-reader](https://github.com/yang991178/fluent-reader).
     - Found interesting content;
     - Make highlights in [Raindrop.io](https://raindrop.io/)
-    - Put them all in [[Logseq]] page ready for refer.
+    - Put them all in [[logseq]] page ready for refer.
   - They don't, but their url have some rules
     - like this blog, they don't even have an archived page :(
       - Generate bookmark file then import into [Raindrop.io](https://raindrop.io/) and go on above.

@@ -23,7 +23,7 @@ created:: [[20221128]]
   - ```html
     tg://resolve?domain=<bot_username>
     ```html
-    #Telegram via: [Deep links](https://core.telegram.org/api/links)
+    #telegram via: [Deep links](https://core.telegram.org/api/links)
   - Ali Scanner
     - `alipayqr://platformapi/startapp?saId=10000007`
   - Alipan

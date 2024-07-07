@@ -1,4 +1,4 @@
-## [[Logseq]] export
+## [[logseq]] export
   - #+BEGIN_TIP
     [Official public github action](https://github.com/logseq/publish-spa) has released. So I choose to publish all pages and only keep journals private.
     #+END_TIP

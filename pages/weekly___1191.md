@@ -26,7 +26,7 @@ icon:: 📅
 - 我多么希望，就算我没有上一所大学，也能有另外一种，类似“高考”，提供给人的活路。
 - 我多么希望，十八岁的我从技校出来，也能心安理得，安安心心地修一辈子车。
 - 而不是朝夕惶惶被裁，日夜颠倒地做一辈子题。
-- ## 对巨大的声音，保持质疑
+- ## 这周发生了啥
   - Taipei [COMPUTEX 2024](https://www.computextaipei.com.tw/en/menu/49A948920FF33BE2D0636733C6861689/info.html) June 4 – 7
     collapsed:: true
     - [如何评价英特尔最新发布的Lunar Lake处理器，新的Lunar Lake处理器架构有哪些亮点?](https://www.zhihu.com/question/658124769)

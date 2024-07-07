@@ -4,6 +4,7 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
 
 - ## 👨‍💻 Work
   - ### 🚀 Mirrors
+    collapsed:: true
     - id:: 66515727-37fc-4088-aff7-c582f96f7344
       title:: https://github.com/eryajf/Thanks-Mirror
       tags:: #github #opensource #mirror #proxy
@@ -11,6 +12,7 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       description:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
       ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
     - [[github]]
+      collapsed:: true
       - https://hub.xn--p8jhe.tw
       - https://hub.xn--gzu630h.xn--kpry57d
       - https://hub.fastgit.xyz
@@ -23,7 +25,9 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - https://raw.gitslow.tk
       - https://raw.verge.tk
     - [[Google]]
+      collapsed:: true
       - https://g.luciaz.me
+        collapsed:: true
         - passwd: 心灵之约、水朝夕、csxy@123
       - http://gufenso.coderschool.cn
       - https://google.icloudnative.io/
@@ -35,6 +39,7 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - https://g.maysaor.tk/
       - http://searx.bear4.ml/
     - Scholar
+      collapsed:: true
       - https://coderschool.cn/1853.html
       - https://ac.scmor.com/
       - http://scholar.scqylaw.com/
@@ -42,67 +47,86 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - https://item.guidebook.top/google/
     - [[ubuntu]]
       id:: 66515727-99f3-4d0d-b4c9-fc0fe63d8106
+      collapsed:: true
       - 高校镜像源有:
+        collapsed:: true
         - ==[USTC  Mirror / 中国科学技术大学](https://mirrors.ustc.edu.cn)==
         - [Tinghua Mirror / 清华大学](https://mirrors.tuna.tsinghua.edu.cn)
         - [SJTU Mirror / 上海交通大学](https://ftp.sjtu.edu.cn)
         - [SHU Mirror / 上海大学](https://mirrors.shu.edu.cn)
       - 企业镜像源:
+        collapsed:: true
         - [Alibaba Mirror / 阿里](http://mirrors.aliyun.com)
         - [Netease Mirror / 网易](http://mirrors.163.com)
         - [Huawei Mirrors / 华为](https://mirrors.huaweicloud.com)
         - [Tencent Mirror / 腾讯](https://mirrors.cloud.tencent.com)
         - [Yun-Idc / 首都在线](https://mirrors.yun-idc.com)
       - 国际镜像
+        collapsed:: true
         - 高校开源镜像站：
+          collapsed:: true
           - [The Chinese University of Hong Kong](https://ftp.cuhk.edu.hk)
           - [元智大學](https://ftp.yzu.edu.tw)
           - [Massachusetts Institute of Technology](https://mirrors.mit.edu)
         - 云服务商开源镜像站：
+          collapsed:: true
           - [Digital Ocean](https://mirrors.digitalocean.com)
           - [Linode](https://mirrors.linode.com)
           - [Cat Networks](https://mirrors.cat.net)
         - 公益开源镜像站：
+          collapsed:: true
           - [Kernel ORG](https://mirrors.kernel.org)
           - [Yandex](https://mirror.yandex.ru)
   -
   - ### 📃 Document
+    collapsed:: true
     - [WeRead - 微信读书](https://weread.qq.com/)
     - [Raindrop - All-in-one bookmark manager](https://app.raindrop.io/my/-1)
     - [DevDocs API Documentation](https://devdocs.io/)
     - #### 👨‍💻 [[encoding]]
+      collapsed:: true
       - [Unicode - Compart](https://www.compart.com/en/unicode)
       - [Basic Latin — ✔️ ❤️ ★ Unicode Character Table](https://unicode-table.com/en/)
   -
   - ### 💻 Public Compiler
+    collapsed:: true
     - [菜鸟工具 - 不止于工具](https://c.runoob.com/)
     - [在线编辑器,在线运行代码,在线编译器大全 - 在线工具(cainiaojc.com)](https://www.cainiaojc.com/tool/)
     - [洛谷在线 IDE](https://www.luogu.com.cn/ide)
     - [Online Compiler by Programiz](https://www.programiz.com/c-programming/online-compiler/)
   -
   - ### ✏ Public Editor
+    collapsed:: true
     - 🌟 [VSCode For the Web](https://vscode.dev)
     - [Smart Text Editor](https://stedit.app)
     - #### [[latex]] Web Import Latex Libs
+      collapsed:: true
       - [MathJax | Beautiful math in all browsers.](https://www.mathjax.org/)
       - [KaTeX – The fastest math typesetting library for the web](https://katex.org/)
     - #### [[markdown]]
+      collapsed:: true
       - [🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more](https://www.webfx.com/tools/emoji-cheat-sheet/) #emoji
-      - [Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/) #Logseq
+      - [Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/) #logseq
     - #### [[web]]
+      collapsed:: true
       - [CodeSandbox: Online Code Editor and IDE for Rapid Web Development](https://codesandbox.io/)
       - [CodePen: Online Code Editor and Front End Web Developer Community](https://codepen.io/)
       - [StackBlitz | Instant Dev Environments | Click. Code. Done.](https://stackblitz.com/)
   -
   - ### 🐛 Debug
+    collapsed:: true
     - [Hoppscotch • Hoppscotch](https://hoppscotch.io/)
   -
   - ### 🎨 Design
+    collapsed:: true
     - ### 🔴🟠🟡🟢🔵🟣🟤 [[color]]
+      collapsed:: true
       - [Color Palettes](https://www.color-hex.com/color-palettes/)
       - [NIPPON COLORS - 日本の伝統色](https://nipponcolors.com/)
+        collapsed:: true
         - 山寨 | [zhongguose － 传统颜色](http://zhongguose.com/)
       - 护眼色 | [Solarized](https://ethanschoonover.com/solarized/)
+        collapsed:: true
         - [GitHub - jan-warchol/selenized: Solarized redesigned: fine-tuned color palette for programmers with focus on readability.](https://github.com/jan-warchol/selenized)
       - 渐变色 | [ghosh/uiGradients: 🔴 Beautiful colour gradients for design and code](https://github.com/Ghosh/uiGradients)
       - 渐变色 | [Fresh Background Gradients | WebGradients.com 💎](https://webgradients.com/)
@@ -113,19 +137,23 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - via: [大家有什么好的配色网站或者软件推荐吗？ - V2EX](https://www.v2ex.com/t/525939)
     -
     - ### 📰 [[font]]
+      collapsed:: true
       - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/cheat-sheet)
         #cheat/sheet
       - [字体天下](http://www.fonts.net.cn/)
       - [[programming]]
+        collapsed:: true
         - [Google Font](https://fonts.google.com)
         - [中文字体 Ubuntu](https://wiki.ubuntu.org.cn/%E5%85%8D%E8%B4%B9%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93)
         - [Free-Chinese-Fonts](http://zenozeng.github.io/Free-Chinese-Fonts/)
         - [coding-fonts](https://github.com/chriscoyier/coding-fonts)
     -
     - ### 🌌 Icon
+      collapsed:: true
       - [iconfont-阿里巴巴矢量图标库](https://www.iconfont.cn/)
     -
     - ### 🖼 [[photo]] / WallPaper
+      collapsed:: true
       - [彼岸桌面（已备）](http://www.netbian.com/)
       - [Wallpaperup](https://www.wallpaperup.com/)
       - [Wallhaven](https://wallhaven.cc/)
@@ -147,11 +175,13 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     -
   -
   - ### 🖌 Draw
+    collapsed:: true
     - 🌟 [Excalidraw](https://excalidraw.com)
     - [Canvas](https://canvas.apps.chrome/)
     - [Diagram Software and Flowchart Maker](https://www.diagrams.net/)
   -
   - ### 📝 Share Gist / Clipboard
+    collapsed:: true
     - [Ubuntu Pastebin](https://paste.ubuntu.com/);
     - [Fast Share Code](https://app.niucodata.com/share);
     - [Carbon | Create and share beautiful images of your source code](https://carbon.now.sh/);
@@ -161,11 +191,13 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - [Notepin - Extremely simple note taking](https://notepin.co/)
   -
   - ### 👥 Community
+    collapsed:: true
     - [GitHub: Let’s build from here · GitHub](https://github.com/)
     - [DEV Community 👩‍💻👨‍💻](https://dev.to/)
     - [daily.dev | The Homepage Developers Deserve](https://app.daily.dev/)
   -
   - ### 💼 Company #Job
+    collapsed:: true
     - [脉脉-成就职业梦想](https://maimai.cn/)
     - [面试经验|工资待遇|职业圈 - 职朋](https://www.job592.com)
     - [职友集：让求职者少走弯路](https://www.jobui.com/)
@@ -173,8 +205,10 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - [企查查 - 企业工商信息查询系统_查企业_查老板_查风险就上企查查!](https://www.qcc.com/)
   -
   - ### Other Tools
+    collapsed:: true
     - [ChatGPT - OpenAI](https://chat.openai.com/)
     - [[Open Judge]]
+      collapsed:: true
       - [ACdream](http://acdream.info/)
       - [Aizu](http://judge.u-aizu.ac.jp/)
       - [CFGym](http://codeforces.com/gyms)
@@ -234,10 +268,10 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     - [卡通站|粤语动画|国语动画|tvb卡通](https://www.ktkkt.top/)
     - [Ani-One中文官方動畫頻道 - YouTube](https://www.youtube.com/@AniOneAnime/videos)
   -
-  - ### 📔 [[Manga]]
+  - ### 📔 [[manga]]
     - [在线看漫画_飒漫乐画_妃夕妍雪 - 漫画柜](https://www.manhuagui.com/)
     - [Mox.moe (Kindle漫畫|Kobo漫畫|epub漫畫) (mox.moe)](https://mox.moe/)
-  -
+    -
   - ### 🎮 [[game]]
     - #### 👥 [[community]]
       - [其乐 Keylol](https://keylol.com/)
@@ -309,9 +343,9 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
         #Anime #ban/japan
       - [Hanime1.me - H動漫/裏番/線上看](https://hanime1.me/)
         #Anime
-      - [哔咔漫画](http://picacgp.com/) #Manga
-      - [E-Hentai Galleries - The Free Hentai Doujinshi, Manga and Image Gallery System](https://e-hentai.org/) #Manga
-      - [nhentai: hentai doujinshi and manga](https://nhentai.net/) #Manga
+      - [哔咔漫画](http://picacgp.com/) #manga
+      - [E-Hentai Galleries - The Free Hentai Doujinshi, Manga and Image Gallery System](https://e-hentai.org/) #manga
+      - [nhentai: hentai doujinshi and manga](https://nhentai.net/) #manga
       - [DLsite:从同人志，同人游戏开始，到PC软件，漫画的二次元综合下载商店 | DLsite综合首页](https://www.dlsite.com/index.html)
       - [FANZA 日本最大級のアダルトポータル (旧DMM.R18)](https://www.dmm.co.jp/top/)
     -

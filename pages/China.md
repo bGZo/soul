@@ -1,6 +1,7 @@
 icon:: 🇨🇳
 title:: China
 alias:: 中国
+
 - Hierarchy
   collapsed:: true
   - 中共中央组织部 (国家公务员局)
@@ -246,4 +247,4 @@ alias:: 中国
     - 中国对外文化集团公司
 - Refs
   collapsed:: true
-  - [[Telegram]]
+  - [[telegram]]

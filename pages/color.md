@@ -2,7 +2,7 @@ title:: color
 tags:: #design
 
 - ## Palette 调色板 🎨🔴🟠🟡🟢🔵🟣🟤
-  - `background-color::` #Logseq
+  - `background-color::` #logseq
   - ---
   - ### [[programming]]
     collapsed:: true

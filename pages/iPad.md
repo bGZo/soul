@@ -3,7 +3,7 @@ tags:: #apple
 title:: iPad
 
 - ## Why
-  - [[Logseq]]
+  - [[logseq]]
 - ## How
   - How to use [[safari]] on iOS mobile?
     - DONE Custom search engine

@@ -1,7 +1,7 @@
 icon:: 📖
 title:: Writing-on-the-wall-Social-media
 alias:: book/社交媒体简史, 社交媒体简史
-tags:: #Privacy #Book #History
+tags:: #Privacy #book #History
 author:: Tom Standage
 publisher:: 中信出版社
 published:: 2019-3

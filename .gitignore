@@ -9,6 +9,8 @@
 .vscode/
 .idea/
 .trash/
+.venv/
+__pycache__/
 # PDFs, IMAGEs and more
 assets/
 # Draw
@@ -31,4 +33,9 @@ pages/2023.md
 
 # config
 # logseq/custom.css
-logseq/config.edn
+# logseq/config.edn
+
+# temp file
+utils/format/regex/backup/
+utils/format/regex/tests/
+utils/blog/blogger.com/sitemap.xml
