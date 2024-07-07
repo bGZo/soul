@@ -1,0 +1,4 @@
+regex: '- .*?看看【(.*?)的作品】(.*?)(https://v.douyin.com/.*?)\n'
+rules: '- [\2](\3) by \1\n'
+sort: 1
+type: 'line'

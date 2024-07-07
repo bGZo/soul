@@ -1,0 +1,4 @@
+regex: '[ ]+相关推荐\n[ -]+\n[ ]+点击可下载ONE一个app\n'
+rules: ''
+sort: 1
+type: 'all'

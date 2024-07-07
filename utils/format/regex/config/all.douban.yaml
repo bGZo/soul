@@ -1,0 +1,4 @@
+regex: '\[虚构类\](.*)\n[^~]*?(https://book.douban.com/subject/\d+/)'
+rules: '[\1](\2)'
+sort: 1
+type: 'all'
