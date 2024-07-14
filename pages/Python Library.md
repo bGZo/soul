@@ -1,7 +1,6 @@
 alias:: python/library
 icon:: 🐍
 created:: [[20230627]]
-title:: Python Library
 - ## Why
 - ## How
   - ### How to traverse?

@@ -1,4 +1,3 @@
-title:: workspacer
 description:: A tiled windows manager
 tags:: #deprecated 
 source:: [workspacer/workspacer: a tiling window manager for Windows](https://github.com/workspacer/workspacer)  ![](https://img.shields.io/github/stars/workspacer/workspacer)

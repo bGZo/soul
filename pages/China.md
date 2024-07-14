@@ -1,5 +1,4 @@
 icon:: 🇨🇳
-title:: China
 alias:: 中国
 
 - Hierarchy

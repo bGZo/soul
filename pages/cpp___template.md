@@ -1,4 +1,3 @@
-title:: cpp/template
 - [[generic]]
 - 本质和函数模板相同.
 - ```cpp

@@ -1,4 +1,3 @@
-title:: tool/notion
 tags:: #deprecated
 - Collection Site
   collapsed:: true

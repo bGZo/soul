@@ -1,4 +1,3 @@
-title:: hacker
 alias:: hobby/hacker
 description:: 对设计、编程和计算机科学方面具高度理解的人
 

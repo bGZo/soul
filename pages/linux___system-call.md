@@ -1,4 +1,3 @@
-title:: linux/system-call
 - ![image.png](../assets/image_1645969460108_0.png)
 - 进程管理
   - ![image.png](../assets/image_1645969691367_0.png)

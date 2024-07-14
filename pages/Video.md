@@ -1,7 +1,6 @@
 alias:: 视频
 icon:: 🎥
 created:: [[20231231]]
-title:: Video
 
   - template:: video
     template-including-parent:: false

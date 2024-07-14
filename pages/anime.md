@@ -5,7 +5,6 @@ wikipedia:: [Animation - Wikipedia](https://en.wikipedia.org/wiki/Animation)
 filters:: {"start_page" true}
 template:: anime
 template-including-parent:: false
-title:: anime
 
   - cover:: ![🖼](){:width 225}
     bangumi:: https://bgm.tv/subject/

@@ -1,4 +1,3 @@
-title:: effective/python
 alias:: Effective Python: 90 Specific Ways to Write Better Python, books/Effective_Python
 tags:: #python
 author:: 布雷特·斯拉特金

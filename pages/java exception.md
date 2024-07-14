@@ -1,4 +1,3 @@
-title:: java exception
 description:: from java 1.0
 
 - ![image.png](../assets/exception-hierarchy-in-java.webp)

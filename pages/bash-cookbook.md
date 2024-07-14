@@ -1,4 +1,3 @@
-title:: bash-cookbook
 alias:: book/bash-shell脚本编程经典实例
 author:: Carl Albing / JP Vossen / Cameron Newham
 publisher:: 人民邮电出版社

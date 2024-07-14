@@ -2,7 +2,6 @@ alias:: time/zone, 时区
 description:: Area which observes a uniform standard time for legal, commercial and social purposes.
 icon:: 🕛
 created:: [[20230626]]
-title:: timezone
 wikipedia:: [Time zone - Wikipedia](https://en.wikipedia.org/wiki/Time_zone)
 
 - ## Why

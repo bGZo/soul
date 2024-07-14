@@ -1,6 +1,5 @@
 icon:: ☕
 alias:: 咖啡
-title:: coffee
 tags:: #Hobby
 cost:: 1
 created:: [[20230530]]

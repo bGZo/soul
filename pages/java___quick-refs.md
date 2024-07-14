@@ -1,4 +1,3 @@
-title:: java/quick-refs
 alias:: quick-refs/java
 - [Java 速成 - OI Wiki](https://oi-wiki.org/lang/java/)
   - `final` 含义是这是最终的、不可更改的结果，被 `final` 修饰的变量只能被赋值一次，赋值后不再改变

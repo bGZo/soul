@@ -1,6 +1,5 @@
 tags:: #[[data-structure]], #[[maths]]
 description:: algorithm
-title:: algorithm
 
 -
 - [[roadmap/algo]] via: [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)

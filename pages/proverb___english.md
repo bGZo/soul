@@ -1,4 +1,3 @@
-title:: proverb/english
 tags:: #[[English/reading]]
 - Collections
   collapsed:: true

@@ -1,5 +1,4 @@
 alias:: lang/programming/golang
-title:: golang
 icon:: ﳑ
 
 - #issue

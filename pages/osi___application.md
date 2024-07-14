@@ -1,4 +1,3 @@
-title:: osi/application
 tags:: TODO
 description:: "OSI应用层, 真想把里面的各种协议自己实现一遍..."
 

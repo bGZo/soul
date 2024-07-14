@@ -1,4 +1,3 @@
-title:: wangdoc/javascript
 source:: https://wangdoc.com/javascript/
 
 - 1. 入门篇

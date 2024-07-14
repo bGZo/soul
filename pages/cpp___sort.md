@@ -1,4 +1,3 @@
-title:: cpp/sort
 -
 - Custom Compare Function
   - > **comp** - comparison function which ==returns ​*true* if the first argument is less than the second==. The signature of the comparison function should be equivalent to the following:  `bool cmp(const Type1 &a, const Type2 &b);`

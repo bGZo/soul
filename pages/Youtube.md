@@ -2,7 +2,6 @@ alias:: 油管
 icon:: 📺
 created:: [[20211115]]
 tags:: #video #Platform
-title:: Youtube
 filters:: {"20221220" false, "dont" true}
 id:: 65633c2a-d6ca-4124-b367-fb71278d780e
 

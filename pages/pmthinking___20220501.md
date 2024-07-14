@@ -1,4 +1,3 @@
-title:: pmthinking/20220501
 archive:: [Vol_20220501：标准化教育让人避免失败，但通过失败才能学会如何成功.htm](../assets/pmthinking/Vol_20220501：标准化教育让人避免失败，但通过失败才能学会如何成功.htm)
 - # 标准化教育让人避免失败，但通过失败才能学会如何成功
   - ## [凯文 · 凯利 70 岁生日的 103 条人生建议](https://mp.weixin.qq.com/s/LvH3PUDwea4ZsxsbZWRuFg) by Kevin Kelly

@@ -1,4 +1,3 @@
-title:: orm
 alias:: Object Relational Mapping, 对象关系映射
 tags:: #oop, #database
 

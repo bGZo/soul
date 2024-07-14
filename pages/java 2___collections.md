@@ -1,4 +1,3 @@
-title:: java 2/collections
 alias:: java 容器, java 集合
 description:: a framework that provides an architecture to store and manipulate(操纵) the group of objects
 description:: from java 1.2

@@ -1,5 +1,4 @@
 filters:: {"start_page" true}
-title:: ACGN
 extends:: [[Hobby]]
 
 - ## [[issue]]

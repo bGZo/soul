@@ -1,4 +1,3 @@
-title:: changelog/wiki
 alias:: logseq/changelog
 description:: start begin Beta 0.6.5; [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changelog.md](https://github.com/logseq/docs/blob/master/pages/Changelog.md?plain=1)
 

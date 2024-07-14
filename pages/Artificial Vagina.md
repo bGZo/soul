@@ -3,7 +3,6 @@ description:: A device designed to imitate the female sex organ.
 icon:: ✈️
 tags:: #[[Sex toy]]
 created:: [[20230705]]
-title:: Artificial Vagina
 wikipedia:: [Artificial vagina - Wikipedia --- 人工阴道 - 维基百科，免费的百科全书](https://en.wikipedia.org/wiki/Artificial_vagina)
 
 - ## Why

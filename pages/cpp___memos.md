@@ -1,4 +1,3 @@
-title:: cpp/memos
 - > 消除不确定
 - ## char array vs char* vs string
   collapsed:: true

@@ -1,5 +1,4 @@
 icon:: 
-title:: clash
 alias:: clash
 description:: SS / SSR / V2Ray / 分流
 tags:: \#.olang #proxy

@@ -1,4 +1,3 @@
-title:: electron
 tags:: #github #Framework #nodejs #cross-platform #html #css #Javascript #TODO
 created:: [[20200801]]
 source:: [electron/electron](https://github.com/electron/electron) ![](https://img.shields.io/github/stars/electron/electron)

@@ -1,4 +1,3 @@
-title:: nt_cubic
 tags:: #telegram
 description:: "主要用于记录游戏设计与对业界的思考, 时不时发游戏有关的梗图与奇思妙想"
 description:: [NT³的自吹自擂](https://t.me/nt_cubic) [↩](tg://resolve?domain=nt_cubic)

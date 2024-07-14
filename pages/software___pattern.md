@@ -1,4 +1,3 @@
-title:: software/pattern
 
 - [[Quickref]]
   - UML

@@ -1,4 +1,3 @@
-title:: paradigms/array
 -
 - ## Support
   - A+

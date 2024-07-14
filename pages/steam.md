@@ -1,7 +1,6 @@
 icon:: 🎮
 tags:: game/platform
 created:: [[20230704]]
-title:: steam
 
 - ## Why
 - ## How

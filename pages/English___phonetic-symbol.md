@@ -1,4 +1,3 @@
-title:: English/phonetic-symbol
 description:: 音标
 
 -

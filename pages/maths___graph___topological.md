@@ -1,4 +1,3 @@
-title:: maths/graph/topological
 description:: 拓扑图
 
 -

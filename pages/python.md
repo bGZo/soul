@@ -1,5 +1,4 @@
 icon:: 🐍
-title:: python
 alias:: py
 tags:: lang/programming
 template:: page/python

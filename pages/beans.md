@@ -1,4 +1,3 @@
-title:: beans
 alias:: java beans, java bean
 description:: from java 1.1
 

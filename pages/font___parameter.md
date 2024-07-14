@@ -1,4 +1,3 @@
-title:: font/parameter
 - **磅 & 字号**
   collapsed:: true
   - 1磅约等于 0.35毫米, 即一个10磅的文字, 其高度约等于3.5毫米

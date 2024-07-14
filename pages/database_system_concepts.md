@@ -1,5 +1,4 @@
 icon:: 📖
-title:: database_system_concepts
 alias:: books/数据库系统概念, Database System Concepts
 tags:: #database
 author:: Abraham Silberschatz, Henry F.Korth, S.Sudarshan

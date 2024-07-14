@@ -1,4 +1,3 @@
-title:: imperative
 alias:: Paradigms/imperative
 - ## 命令式编程
   - 汇编语言的抽象化

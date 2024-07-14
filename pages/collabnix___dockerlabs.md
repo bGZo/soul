@@ -1,4 +1,3 @@
-title:: collabnix/dockerlabs
 tags:: #github #opensource #TODO #tutorial #docker
 created:: [[20230205]]
 description:: [collabnix/dockerlabs Docker - Beginners | Intermediate | Advanced](https://github.com/Collabnix/dockerlabs) ![](https://img.shields.io/github/stars/Collabnix/dockerlabs)

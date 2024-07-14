@@ -1,4 +1,3 @@
-title:: Crash Course/Computer Science
 tags:: #github #opensource
 created:: [[20230324]]
 source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https://img.shields.io/github/stars/1c7/crash-course-computer-science-chinese)

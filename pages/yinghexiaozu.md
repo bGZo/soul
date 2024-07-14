@@ -1,4 +1,3 @@
-title:: yinghexiaozu
 alias:: 硬核小卒
 description:: 小卒可以无名，但不能不硬核。 😉
 tags:: #telegram/channel

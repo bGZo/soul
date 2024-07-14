@@ -1,5 +1,4 @@
 icon:: 📖
-title:: Reality+
 alias:: books/现实+每个虚拟世界都是一个新的现实, Reality+ Virtual Worlds and the Problems of Philosophy
 author:: 大卫·查默斯
 publisher:: 中信出版集团

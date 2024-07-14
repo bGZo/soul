@@ -1,4 +1,3 @@
-title:: my/blog
 tags:: #blog #jekyll #vercel
 description:: [Home - bGZo's blog](http://blog.bgzo.cc)
 

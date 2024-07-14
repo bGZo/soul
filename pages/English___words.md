@@ -1,4 +1,3 @@
-title:: English/words
 
 - [[abbr]] Collections
   source:: https://www.allacronyms.com

@@ -1,4 +1,3 @@
-title:: transaction
 alias:: 事务
 tags:: #Spring #database
 wikipedia:: [Database transaction - Wikipedia](https://en.wikipedia.org/wiki/Database_transaction)

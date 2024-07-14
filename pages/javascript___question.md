@@ -1,4 +1,3 @@
-title:: javascript/question
 alias:: question/javascript
   - Variable
     collapsed:: true

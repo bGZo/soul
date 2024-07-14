@@ -1,5 +1,4 @@
 icon:: 📖
-title:: books/spring in action
 tags:: #Spring #java
 author:: Craig Walls
 publisher:: 人民邮电出版社

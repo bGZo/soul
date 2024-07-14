@@ -1,4 +1,3 @@
-title:: garbage_collection
 alias:: Garbage Collection, 垃圾回收
 tags:: #python \#.olang #ruby #Javascript
 

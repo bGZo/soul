@@ -1,4 +1,3 @@
-title:: public/when-they-are-talking-compound
 
 - ## Compound / 复利 / 利滚利 / 驴打滚
   - 我们可以通过减少复利的时间间隔, 来达到利息的最大化. (PS: 有上限)

@@ -1,7 +1,6 @@
 alias:: 数字移民
 created:: [[20240102]]
 tags:: #migrant/digtal
-title:: shuziyimin
 
 - ## Why
   - > 肉体和精神，总要有一个是自由的

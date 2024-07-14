@@ -1,4 +1,3 @@
-title:: ziishaned/learn-regex
 author:: ziishaned
 description:: Learn regex the easy way
 tags:: #regex, #github

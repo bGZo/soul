@@ -1,5 +1,4 @@
 alias:: philosophy, 哲学
-title:: Philosophy
 - ## Roadmap
   collapsed:: true
   - __古希腊、罗马哲学__

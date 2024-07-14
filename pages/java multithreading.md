@@ -1,4 +1,3 @@
-title:: java multithreading
 alias:: multithreading/java
 
 -

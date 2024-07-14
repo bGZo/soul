@@ -1,7 +1,6 @@
 alias:: 议题
 icon:: ⏸
 created:: [[20231227]]
-title:: issue
 
 - ## Why
 - ## How

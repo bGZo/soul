@@ -1,4 +1,3 @@
-title:: Killing-external-links-sucks
 tags:: #internet #China #public, #my/blog, #external_link
 - ### External links been killed
   collapsed:: true

@@ -1,4 +1,3 @@
-title:: the_programmer_idea_book
 tags:: #programming, #project
 
   - TODO ![THE PROGRAMMERS IDEA BOOK](../assets/book_the_programmer_idea_book.pdf)

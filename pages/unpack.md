@@ -1,4 +1,3 @@
-title:: unpack
 alias:: 解包, 提取 CG
 description:: Extracting the resource from game
 tags:: #geek, #tools

@@ -1,4 +1,3 @@
-title:: interview
 description:: 压力考试
 created:: [[20221124]]
 

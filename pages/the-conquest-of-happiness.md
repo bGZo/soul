@@ -1,5 +1,4 @@
 icon:: 📖
-title:: the-conquest-of-happiness
 alias:: book/幸福之路, 幸福之路
 tags:: #book
 author:: Russell

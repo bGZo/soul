@@ -1,5 +1,4 @@
 icon:: 📖
-title:: 剑指Offer
 alias:: book/剑指Offer
 tags:: #book #develop #Question
 author:: 何海涛

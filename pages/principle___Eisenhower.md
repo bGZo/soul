@@ -1,4 +1,3 @@
-title:: principle/Eisenhower
 alias:: 艾森豪威尔矩阵
 tags:: #time/management
 - $$important > urgent$$

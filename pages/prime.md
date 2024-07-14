@@ -1,4 +1,3 @@
-title:: prime
 alias:: maths/number-theory/prime
 tags:: [[algorithm]], TODO
 

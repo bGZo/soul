@@ -27,14 +27,4 @@ tags:: #gtd, #project
   :table-view? false
   }
   #+END_QUERY
-  - `:inputs [:current-page]`
-- query-table:: false
-  #+BEGIN_QUERY
-  {:title [:h3 "Checklist"]
-   :query (and (todo todo) (page [[project]]))
-  :result-transform (fn [result]
-                      (sort-by (fn [b]
-                                 (get b :block/priority "Z")) result))
-  :breadcrumb-show? false
-  }
-  #+END_QUERY
+-

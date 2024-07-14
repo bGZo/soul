@@ -1,4 +1,3 @@
-title:: zsh/prompt
 - TODO Have No Idea...
   - ```
     # In bashrc you should write folling:

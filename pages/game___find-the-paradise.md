@@ -1,4 +1,3 @@
-title:: game/find-the-paradise
 - 01
   collapsed:: true
   - Colin

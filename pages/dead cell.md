@@ -1,5 +1,4 @@
 icon:: 🎮
-title:: dead cell
 alias:: 死亡细胞
 tags:: #game #rogue
 released:: 20180807

@@ -1,4 +1,3 @@
-title:: command/ln
 - On [[Windows]] its called [[mklink]]
 -
 - hard link

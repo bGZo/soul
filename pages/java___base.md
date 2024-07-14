@@ -1,4 +1,3 @@
-title:: java/base
 description:: java syntax
 
 - ## Type (8)

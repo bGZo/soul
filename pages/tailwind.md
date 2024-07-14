@@ -1,6 +1,5 @@
 tags:: #css
 created:: [[20230709]]
-title:: tailwind
 - ## Why
 - ## How
 - ## What

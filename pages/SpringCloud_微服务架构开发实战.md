@@ -1,5 +1,4 @@
 icon:: 📖
-title:: SpringCloud_微服务架构开发实战
 alias:: book/SpringCloud_微服务架构开发实战
 tags:: #book #spring/cloud #microserver
 author:: 董超

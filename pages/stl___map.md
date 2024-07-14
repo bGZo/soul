@@ -1,4 +1,3 @@
-title:: stl/map
 alias:: cpp/stl/map
 - map是STL的一个关联容器，它提供一对一的hash
 -

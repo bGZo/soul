@@ -2,7 +2,6 @@ alias:: Linux Distribution, Linux发行套件
 icon:: 🐧
 tags:: #Linux
 created:: [[20230906]]
-title:: Linux Distro
 - ## Why
 - ## How
   - WAITING 做一个自己的 LINUX 发行版

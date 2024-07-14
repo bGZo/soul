@@ -1,4 +1,3 @@
-title:: vitamineE
 alias:: podcast/vitamineE
 description:: 维生素E
 tags:: #Podcast, #Philosophy

@@ -1,7 +1,6 @@
 icon:: 🐧
 created:: [[20230906]]
 tags:: #Ubuntu, #debian
-title:: how to/manage application on debian
 
 - #+BEGIN_NOTE
   Ubuntu 和 Debian 通吃是因为 Debian 系的 APT 包管理器。

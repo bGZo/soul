@@ -2,7 +2,6 @@ alias:: 域名
 icon:: 🌐
 tags:: #osi/application
 created:: [[20230604]]
-title:: domain
 - ## Why
 - ## How
   - Where could register a domain?

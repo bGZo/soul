@@ -1,4 +1,3 @@
-title:: public/我人生中对不起的几只猫
 tags:: #cat, #public
 created:: [[20210314]]
 

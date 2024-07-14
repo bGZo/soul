@@ -1,4 +1,3 @@
-title:: tree
 alias:: maths/graph/tree
 
 - Base

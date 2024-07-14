@@ -1,4 +1,3 @@
-title:: pmthinking/20211205
 archive:: [Vol.20211205：认真的在 Web3 的操场上玩，很快就能打败其他人](../assets/pmthinking/Vol_20211205：认真的在_Web3_的操场上玩，很快就能打败其他人.htm)
 - # 认真的在Web3的操场上玩，很快就能打败其他人
   collapsed:: true

@@ -1,4 +1,3 @@
-title:: software/process
 -
 - Software quality management / SQM / 软件质量管理
   id:: 6305e7eb-0fd0-4a17-80be-4e269738a37e

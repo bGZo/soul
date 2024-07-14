@@ -1,6 +1,5 @@
 alias:: github/page
 created:: [[20230903]]
-title:: github page
 
 - ## Why
 - ## How

@@ -1,4 +1,3 @@
-title:: chromium/extension
 
 - [[develop]]
 - [[issue]]

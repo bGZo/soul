@@ -1,4 +1,3 @@
-title:: database
 alias:: 数据库
 
 - ## [[Quickref]]

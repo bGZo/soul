@@ -1,6 +1,5 @@
 alias:: 时间管理, time/management
 icon:: 🕛
-title:: time management
 wikipedia:: [Time management - Wikipedia](https://en.wikipedia.org/wiki/Time_management)
 - Cultural views of time management
 - Creating an effective environment

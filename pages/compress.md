@@ -1,7 +1,6 @@
 alias:: 压缩
 icon:: 📦
 created:: [[20240626]]
-title::  compress
 
 - ## Why
   - save money

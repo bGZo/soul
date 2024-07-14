@@ -1,4 +1,3 @@
-title:: translate/quick-refs
 alias:: quick-refs/translate
 - | Author / Works                  | Translator |
   | ------------------------------- | ---------- |

@@ -1,2 +1,1 @@
-title:: English/word/root
 -

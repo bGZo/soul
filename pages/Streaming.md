@@ -2,7 +2,6 @@ collapsed:: true
 alias:: 串流
 created:: [[20230531]]
 tags:: #Game
-title:: Streaming
 - ## Why
   -
 - ## How

@@ -1,5 +1,4 @@
 icon:: 📖
-title:: how_to_take_smart_notes
 alias:: books/卡片笔记写作法_如何实现从阅读到写作, How to Take Smart Notes
 tags:: #learning/learning #note
 author:: 申克·阿伦斯

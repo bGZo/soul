@@ -1,4 +1,3 @@
-title:: servlet
 tags:: #[[java]]
 
 -

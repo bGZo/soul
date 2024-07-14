@@ -1,4 +1,3 @@
-title:: program-think
 alias:: 编程随想
 tags:: #blog
 author:: 编程随想

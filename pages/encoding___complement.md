@@ -1,4 +1,3 @@
-title:: encoding/complement
 description:: 补码
 
 - Ones' Complement

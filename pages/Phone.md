@@ -2,7 +2,6 @@ alias:: 手机
 icon:: 📱
 tags:: #3C
 created:: [[20230719]]
-title:: Phone
 
 - ## Why
 - ## How

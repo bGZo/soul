@@ -1,6 +1,5 @@
 icon:: 🎬
 alias:: 电影, Video/Movie
-title:: Movie
 
   - template:: movie
     template-including-parent:: false

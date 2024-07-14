@@ -1,4 +1,3 @@
-title:: williamlong
 alias:: 月光博客
 tags:: #monthly
 author:: 月光

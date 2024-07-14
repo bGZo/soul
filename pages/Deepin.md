@@ -1,6 +1,5 @@
 icon:: 🐧
 tags:: #[[Linux Distro]]
-title:: Deepin
 - Deepin 是 Debain的稳定版本的Linux发行版本之一，由武汉深之度科技有限公司开发的开源操作系统，其实他为中国的Linux软件层面做出了很大的贡献，~~很符合国人的操作习惯~~。
 - INSTALL
   - 参考[官方教程](https://bbs.deepin.org/forum.php?mod=viewthread&tid=135870).

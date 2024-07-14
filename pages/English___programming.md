@@ -1,4 +1,3 @@
-title:: English/programming
 alias:: programming/english
 
 - [[Quickref]]

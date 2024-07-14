@@ -1,6 +1,5 @@
 alias:: 浏览器
 tags:: #tool
-title:: browser
 
 - ## [[issue]]
   - **浏览器内置通知**

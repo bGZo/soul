@@ -1,4 +1,3 @@
-title:: rss/liqi
 description:: 停更杂志
 source:: [利器](https://liqi.io/)
 

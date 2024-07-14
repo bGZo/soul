@@ -1,6 +1,5 @@
 alias:: lang/Chinese, 中文, 中国人
 icon:: 🇨🇳
-title:: Chinese
 - [[standard]]
   collapsed:: true
   - > 中国古代可考以《康熙字典》等古代官方字书的 "正体" 为标准,  现在关于汉字衍生出一系列标准

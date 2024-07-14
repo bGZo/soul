@@ -1,4 +1,3 @@
-title:: everything-is-remix
 alias:: video/everything-is-remix
 source:: https://player.bilibili.com/player.html?bvid=BV12s411Z7en
 type:: video

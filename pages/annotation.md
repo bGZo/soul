@@ -1,4 +1,3 @@
-title:: annotation
 alias:: 注解
 description:: Java 注解；放在Java源码的类、方法、字段、参数前的一种特殊“注释”；注解是一种用作标注的 "元数据"；被编译器直接忽略，被打包进入class文件
 

@@ -1,4 +1,3 @@
-title:: question/job
 alias:: job/question
   - Kick the can down the road **踢皮球⚽️**
     - > As is the question of whether this kind of legislative postponement is simply an issue of procrastination or a deliberate avoidance of something that it's hoped will somehow go away or fall to someone else.

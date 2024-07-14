@@ -1,6 +1,5 @@
-title:: 2022/archive
 icon:: 💾
-alias::
+tags:: 2022
 
 -
 - WAITING [patreon 怎么支付?](https://www.zhihu.com/question/54819872)
