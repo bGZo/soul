@@ -1,8 +1,8 @@
-alias:: 解包
+title:: unpack
+alias:: 解包, 提取 CG
 description:: Extracting the resource from game
 tags:: #geek, #tools
 created:: [[20230611]]
-title:: unpack
 
 - ## Why
 - ## How
@@ -21,3 +21,6 @@ title:: unpack
         tags:: #github, #open-source,#galgame
         created:: [[20221121]]
 - ## What
+  - 解包列表
+    -
+    -

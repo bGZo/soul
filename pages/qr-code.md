@@ -1,5 +1,6 @@
-alias:: encoding/qr, Quick Response Code, 二维码, QR码, 快速响应矩阵图码
-description:: [QR code - Wikipedia](https://en.wikipedia.org/wiki/QR_code); [QR碼 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/QR%E7%A2%BC)
+alias:: Quick Response Code, 二维码, QR码, 快速响应矩阵图码
+description:: https://en.wikipedia.org/wiki/QR_code
+tags:: #encoding
 
 - ![二维码的工作原理图.mp4](../assets/encoding/二维码的工作原理图_1649517465982_0.mp4)
 - ![image.png](../assets/encoding/image_1649518251181_0.png)

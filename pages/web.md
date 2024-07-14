@@ -1,6 +1,10 @@
-alias:: www
-description:: World Wide Web
+icon:: 📄
+alias:: World Wide Web, www
+created:: [[20240713]]
 
+- ## Why
+- ## How
+- ## What
   - History
     - Web 1.0
     - Web 2.0
@@ -10,13 +14,17 @@ description:: World Wide Web
         - Build-in App (小程序, 各自多套框架, 标准)
         - Next.js Remix, Astro
     - Web 3.0
+      - ....
   - WebSet
     - [[draws/WebSet.excalidraw]]
     - Structure | 内容 (结构)
     - Presentation | 表现
     - Behavior | 表现
-    -
-- Refs
+  - ![](https://i.v2ex.co/fqhz8YF7.webp)
+    [[url]] vs [[uri]] vs [[urn]]
+-
+-
+- ## Reference
   - [World Wide Web - Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web)
   - [国内外IT技术圈完全是两个世界_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1cW4y1b7nC/)
     collapsed:: true

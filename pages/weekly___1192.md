@@ -112,6 +112,7 @@ icon:: 📅
       https://www.ithome.com/0/774/931.htm
   - [数字移民（shuziyimin.org）创作者删除其全部内容](https://www.v2ex.com/t/1049081)
   - [多地高考考生自发声援巴勒斯坦，高考穿短裙遭网暴，四名美国人在中国被刺伤事件](https://mailchi.mp/519e316c8169/ot45ikfh2y-17387566)
+  - [Chrome 127 版本内置AI大模型了 - 软件分享 - LINUX DO](https://linux.do/t/topic/108088)
   - collapsed:: true
     ---
     - {{video https://www.youtube.com/watch?v=LVkUXWBz9sw}}

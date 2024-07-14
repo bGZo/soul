@@ -1,6 +1,6 @@
 title:: bojack-horseman
 alias:: 马男波杰克, Bojack, anime/bojack-horseman
-tags:: #Anime #WAIT
+tags:: #animelist #WAIT
 created:: [[20200611]]
 description:: 有空二刷
 

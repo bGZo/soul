@@ -7916,10 +7916,11 @@ icon:: 📅
         归档页面路径链接的兼容
         前一节提到了主题对内容目录路径的选择可能是不同的，而这也会影响到归档页面的路径。在 Hugo 的大部分主题中，如果主题使用 /content/post/ 作为内容目录，那归档页面路径则默认为 /post/ 且不支持配置。而我们在 Hexo 中通常会使用 /archives/ 作为归档页面的路径，如何才能保持不变呢？
         虽然绝大部分主题（也可能是所有）都没有此项配置，但我们可以通过自定义一套模板和页面的方式来绕过主题的限制。以 even 主题的模板和 CSS 样式为例，在 /layouts/_default/ 目录下新建 archives.html 模板，随后填充以下内容，用于按年分组遍历所有文章，并在原主题的框架下输出文章标题列表：
+      - ```
         {{- define "title" }}{{ T "archive" }} - {{ .Site.Title }}{{ end -}}
         {{- define "content" }}
         {{ $pageList := (where .Site.RegularPages "Type" "post") }}
-      - <section id="archive" class="archive">
+        <section id="archive" class="archive">
         {{- if .Site.Params.showArchiveCount }}
           <div class="archive-title">
             <span class="archive-post-counter">
@@ -7948,7 +7949,9 @@ icon:: 📅
         {{ end }}
         &LT/section>
         {{ end }}
-        随后在 /content/ 目录下新建 archives.md 页面，将 type 指定为刚刚定义的 archives ：
+        ```
+      - 随后在 /content/ 目录下新建 archives.md 页面，将 type 指定为刚刚定义的 archives ：
+      - ```
         ---
         title: "归档"
         layout: "archives"
@@ -7957,19 +7960,23 @@ icon:: 📅
         hidden: true
         type: archives
         ---
-        这时我们就已经可以通过访问 /archives/ 路径来进入到归档页面了，接下来只要在 config.toml 中再将导航栏中的对应按钮指定为预期链接即可。
+        ```
+      - 这时我们就已经可以通过访问 /archives/ 路径来进入到归档页面了，接下来只要在 config.toml 中再将导航栏中的对应按钮指定为预期链接即可。
+      - ```
         [[menu.main]]
         name = "归档"
         weight = 20
         identifier = "archives"
         url = "/archives/"
-        上文这种实现的效果和很多主题的归档页面相比，主要区别在于单页面内罗列了所有文章，即缺少分页。由于大部分主题的分页逻辑和其内部的其他模板耦合较为严重，同时 Hugo 的分页相关变量被限制不能用于自定义模板之中，所以如果希望自定义的归档页能支持分类，则可能需要对 Hugo 的原生逻辑进行包装即额外实现一套分页能力才行。这里不做展开讲述。
+        ```
+      - 上文这种实现的效果和很多主题的归档页面相比，主要区别在于单页面内罗列了所有文章，即缺少分页。由于大部分主题的分页逻辑和其内部的其他模板耦合较为严重，同时 Hugo 的分页相关变量被限制不能用于自定义模板之中，所以如果希望自定义的归档页能支持分类，则可能需要对 Hugo 的原生逻辑进行包装即额外实现一套分页能力才行。这里不做展开讲述。
         友情链接和自我介绍
         和 Hexo 一样，Hugo 也没有直接支持友情链接和自我介绍这类常用页面。在实现上我们要么在 /content/ 目录下自定义页面也就是在页面内维护内容，要么如归档页面一般，通过自定义模板的方式来加载 config.toml 中的配置。两种实现都比较简单，我也更倾向于前者，毕竟这些是低频修改页面，是否可配置区别都不大。
         标签和分类的中英文问题
         在 Hexo 中，我们通常会在 _config.yml 中配置标签和分类的中英文映射，这样我们在 front matter 中可以使用任意语言标识标签和分类，但生成后两者的 URI 都是英文。然而在 Hugo 中却没有这类简易设置，也许我们可以通过修改主题和永久链接的方式来间接支持，但估计成本较高。所以如果对 URI 有强迫症的读者，还是建议把存量文章的标签和分类改为英文。而如果对此没有特殊需求，那使用中文也可。除了 URL 的分享可读性可能较差外，在 2022 年的今天其实已经不会影响搜索引擎的 SEO 效果了。
         支持Git与VPS部署
         不知为何 Hugo 官方没有直接支持使用 Git 搭配 Git Hooks 部署站点，对于我这种把博客部署在 VPS 的用户给出的建议方案是 rsync 。其实 rsync 方案是完全可行且成本不高的，不过本着尽量兼容的原则我还是决定在部署时执行以下 shell 脚本来通过 Git 推送生成的 /public/ 目录至 VPS ，而 VPS 上的 Git 库和 Git Hooks 配置则无需改动：
+        ```
         #! /bin/bash
         rm -rf ./public
         hugo
@@ -7983,6 +7990,7 @@ icon:: 📅
         git push -u foo@bar-server:/var/blog.git HEAD:master --force
         cd ..
         rm -rf ./.deploy_git
+        ```
         兼容Hexo的RSS形式
         使用 Hexo 时博客的 RSS 是全文输出，而换到 Hugo 后 RSS 却变为了输出摘要。作为一个重度 RSS 用户，我自然是深知拉取到的文章还要二次跳转到浏览器才能看原文的体验有多差，所以还是要让 RSS 的表现和此前一致才行。
         Hugo 的 RSS 是基于默认 RSS 模板生成的，所以我们只要重新定义一个模板并改为全文输出即可。Hugo 的默认实现中，决定输出内容的是如下这行代码：
@@ -7994,6 +8002,7 @@ icon:: 📅
         自定义导航栏
         此前使用 Hexo 下 even 主题时自定义了一个用于引导用户的导航栏，那么如何在 Hugo 的 even 主题中实现兼容呢？
         首先我们在 /layouts/partials/header/ 下新建 top-nav.html 模板，按需填充内容，如增加 Newsletter 、Telegram Channel 等引导：
+        ```
         {{- if .Site.Params.enableTopNav }}
         <div class="top-nav">
           {{- if .Site.Params.revue.enabled -}}
@@ -8007,7 +8016,9 @@ icon:: 📅
           {{- end -}}
         &LT/div>
         {{- end -}}
+        ```
         随后我们需要找个位置引入该模板。受 even 主题实现的限制，我们需要将该模板放置于 header 块之后才能最低成本地保留原布局。因此我们只有一个选择，那就是将 baseof.html 这个基础模板进行覆盖。拷贝原模板内容至 /layouts/_default/baseof.html 中，并在 header 块之后、main 块之前引入此前定义的 top-nav.html ：
+        ```
         ...
         <div class="container" id="mobile-panel">
           {{ if not .Params.hideHeaderAndFooter -}}
@@ -8018,7 +8029,9 @@ icon:: 📅
           {{- partial "header/top-nav.html" . -}}
           <main id="main" class="main">
         ...
+        ```
         最后在 config.toml 中完成相关参数配置即可：
+        ```
         [params.wxOfficialAccount]
           enabled = true
           url = ""
@@ -8028,34 +8041,42 @@ icon:: 📅
         [params.revue]
           enabled = true
           home = ""
+        ```
         支持umami访问统计
         博客之前一直按「使用Nginx将请求转发至Google Analytics实现后端统计」一文的方式来实现请求统计。但这个方式的问题在于，由于不要求加载 JS ，很多非真实流量（主要为 RSS 阅读器的抓取）也会被统计进来。后来看到「搭建 umami 收集个人网站统计数据」这篇文章，便也用 umami 搭建了一个轻量的统计能力。
         even 主题自然没有对 umami 进行原生支持，我们需要做的是先找到一个包含 head 的模版并在 &LThead/> 标签中添加以下内容：
+        ```
         {{- if (in (slice (getenv "HUGO_ENV") hugo.Environment) "production") | and .Site.Params.umami.enabled -}}
           <script async defer data-website-id="{{ .Site.Params.umami.id }}" src="{{ .Site.Params.umami.js }}">&LT/script>
         {{- end -}}
+        ```
         然后在配置中完成定义即可：
+        ```
         [params.umami]
           enabled = true
           id = "" # umami 统计 id
           js = "" # umami 的 JS 地址
+        ```
         由于 even 主题没有提供可以直接拓展 &LThead/> 标签的模板，我的选择是将代码加到此前不得不重写的 baseof.html 中。不得不说，这个实现很丑陋，但成本确实也是最低的。
         此外，为了避免本地启动时 umami 将本地请求也进行了统计并将 Referrer 识别为 localhost ，上文的实现中对环境做了判断，即正式生成站点时才会引入 JS 依赖来上报 umami ，本地运行则不引入。
         自定义文章末尾页脚
         此前在 Hexo 的 even 下我也对文章末尾进行了自定义。对于 Hugo 的 even 主题，改造成本最低的方式为重写 /layouts/partials/post/copyright.html 模板。
         首先要和此前展现形式对齐的是「原文链接」。even 主题本身只支持将 Markdown 原文件地址作为文章链接，所以我们需要在该模板中仿照 lionToMarkDown 部分添加以下内容：
+        ```
         {{ if $.Site.Params.copyrightLink -}}
           <p class="copyright-item">
             <span class="item-title">文章链接&LT/span>
             <span class="item-content"><a class="link-to-markdown" href="{{ .Permalink }}" target="_blank">{{ .Permalink }}&LT/a>&LT/span>
           &LT/p>
         {{- end }}
+        ```
         因为暂时没有国际化需要所以文案是固定的中文，如果想更灵活些也可以仿照原实现中的 Markdown link 来做 i18n 。
         随后只要在 copyright.html 的最后引入我们自定义的文末模板即可：
         {{- partial "post/post-footer.html" . -}}
         utterances适配
         even 主题本身是支持 utterances 的，但用于生成 issue 的唯一标识参数被主题写死为了 issue-term="pathname" 即根据 URI 路径生成，并没有暴露配置。而我在使用 Hexo 时该参数的值是 issueTerm="title" 即根据文章标题生成，不进行适配的话会丢失存量评论。
         所以我们需要在 /layouts/partials/ 目录下新建 comments.html 覆盖主题原实现。顺便地，我们可以把另一个参数 label 也改为可配置的，这样一来，生成的 Github issues 便可以自动加上 utterances 标签方便分类：
+        ```
         {{ if and .IsPage (ne .Params.comment false) -}}
         &LT!-- utterances -->
         {{- if .Site.Params.utterances.owner}}
@@ -8070,18 +8091,22 @@ icon:: 📅
           <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.&LT/a>&LT/noscript>
         {{- end }}
         {{- end }}
+        ```
         随后我们便可以在 config.toml 中对 utterances 按需进行配置：
+        ```
         [params.utterances]       # https://utteranc.es/
           owner = ""              # Your GitHub ID
           repo = ""               # The repo to store comments
           issueTerm = "title"     # 新增配置，可按需选择 issue 生成时的唯一标识方式
           label = "utterances"    # 新增配置，可按需指定 issue label
+        ```
         补齐底部社交图标
         主题的社交图标使用的是托管于 iconfont 的私有实现所以直接拓展未支持的新图标较为困难。我在记hexo-theme-even主题优化一文中提到了相同的问题，文中最终选择了使用 Font Awesome 来解决，对于 Hugo 的 even 主题我们也如法炮制进行处理。
         首先，在 Font Awesome 官网下载依赖并放置于 /static 目录下。例如我使用的是引入所有图标 JS 的方式，则最终路径为 /static/js/fontawesome.all.min.js 。然后在 config.toml 配置中引入该 JS 文件：
         [params]
         customJS = ["fontawesome.all.min.js"]
         接着，我们在 /layouts/partials/ 目录下新建 footer.html 覆盖主题原实现并保留原实现的其他代码，只对 social-links 部分进行如下修改：
+      - ```
         <div class="social-links">
         {{- range $name, $config := .Site.Params.social }}
           {{- if $config.path }}
@@ -8089,11 +8114,12 @@ icon:: 📅
           {{- end }}
         {{- end }}
         {{ if .Site.LanguagePrefix -}}
-      - <a href="{{ .Site.LanguagePrefix | absURL }}/index.xml" type="application/rss+xml" class="iconfont" title="rss"><i class="fas fa-rss">&LT/i>&LT/a>
+        <a href="{{ .Site.LanguagePrefix | absURL }}/index.xml" type="application/rss+xml" class="iconfont" title="rss"><i class="fas fa-rss">&LT/i>&LT/a>
         {{- else -}}
           <a href="{{ .Site.RSSLink }}" type="application/rss+xml" class="iconfont" title="rss"><i class="fas fa-rss">&LT/i>&LT/a>
         {{- end }}
         &LT/div>
+        ```
         最后在 config.toml 中添加需要的图标配置即可。icon 即图标的完整 class 属性，path 即需要跳转的链接地址。需要注意的是，主题的原逻辑为了实现多语言，将 RSS 图标的逻辑隔离在了通用逻辑之外。这里也保留了原实现，即 RSS 图标是默认出现且不可去除的。如果不需要 RSS 则可以对上面的代码再进行修改，以删除独立的 RSS 逻辑。
         [params.social]
           a-email = { title = "Email", icon = "fas fa-envelope", path = "" }
@@ -8106,6 +8132,7 @@ icon:: 📅
         此外，由于我们已经覆盖了 footer 模板，那我们也可以对其他内容也进行自定义，比如将友情链接放置于 footer 等，下文的总字数统计也同样均基于自定义的 footer.html 进行处理。
         支持总字数统计
         even 主题自带每篇文章的字数和预计阅读时间统计，但却没有之前我借助 hexo-wordcount 所实现的全站文章字数统计。检索网络后找到了这么一篇文章 Hugo 总文章数和总字数 ，照猫画虎在 footer.html 中添加以下内容：
+        ```
         {{ if .Site.Params.countAllWords.enabled }}
           {{$scratch := newScratch}}
           {{ range (where .Site.Pages "Kind" "page" )}}
@@ -8115,6 +8142,7 @@ icon:: 📅
             {{ .Site.Params.countAllWords.prefix }} {{$scratch.Get "total" }} {{ .Site.Params.countAllWords.suffix }}
           &LT/span>
         {{ end }}
+        ```
         随后在 config.toml 中对相关参数进行配置即可：
         [params.countAllWords]
           enabled = true
@@ -9633,9 +9661,9 @@ icon:: 📅
     https://weibo.com/5890585170/OkNhBcw5t
   - >慢慢来，有点耐心，生活会给答案的。
     http://m.wufazhuce.com/one/4430
-  - TODO https://weread.qq.com/web/bookDetail/a7f32680813ab82c6g016aa3
+  - TODO [抵达：一部政治演化史-包刚升-微信读书](https://weread.qq.com/web/bookDetail/a7f32680813ab82c6g016aa3)
     - [《抵达》](https://book.douban.com/subject/36405004/)
-  - TODO https://weread.qq.com/web/bookDetail/9e8321b0813ab7bf1g013230
+  - TODO [成瘾：在放纵中寻找平衡-安娜·伦布克-微信读书](https://weread.qq.com/web/bookDetail/9e8321b0813ab7bf1g013230)
     - [《成瘾》](https://book.douban.com/subject/36247880/)
   - collapsed:: true
     ---
@@ -9818,3 +9846,4 @@ icon:: 📅
 - ## 这周有什么多快好省的东西吗？
   - Steam 夏促9折国区充值卡，`LRIHY-7MZD0-2G224`
     - {{{iframe https://store.steampowered.com/widget/1091500 ,200}}}
+-

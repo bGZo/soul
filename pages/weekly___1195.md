@@ -11688,10 +11688,54 @@ icon:: 📅
       ｜杨潇《可能的世界》
       https://weibo.com/5890585170/Ol68Aw9Oo
 - ## Not get more done, but rather to have less to do
-  - ---
+  - TODO 微信读书太卡了，尝试把 静读天下 加入到自己的工作流，替换微信读书；
+    collapsed:: true
+    - Onedrive 只能用 Webdev，不知道要如何申请 token，如何适配...
+  - WAITING Windows 中文 Emoji 无法用英文搜，还需要再添加一个输入法，好蠢； #windows/emoji
+    - https://superuser.com/questions/1451149/how-do-i-change-the-input-language-for-emoji-keyboard-in-windows-10
+    - #今天发现了啥 Windows 双拼方案是不支持 emoji 联想的，via: https://v2ex.com/t/996308 #windows/emoji
+  - TODO Windows 字符限制，https://www.reddit.com/r/Windows10/comments/wgea76/why_are_my_file_names_not_allowing_up_to_260/
+  - TODO Firefox 下午内存吃了 10G，快被吃干了，关掉一些不重要的标签页后，恢复了一半，到了 5G，好神奇
+    collapsed:: true
+    - 出内存报告：`about:memory`
+    - 寻找对应 ID：`about:debugging#/runtime/this-firefox`
+    - 拓展也就占了 1G 出头；
+      logseq.order-list-type:: number
+      - 两个大头 background.html 服务
+        logseq.order-list-type:: number
+        - `42db427d-4a02-44be-a457-cba0a9e1f393`: 油猴
+        - `2bb59169-7683-4fd5-a24f-4f7e8a4bdadc`: BPM
+      - logseq.order-list-type:: number
+        ```
+        │    │  │  │  ├──196.05 MB (14.04%) -- string(length=12909, copies=7164, "data:image/x-icon;base64,AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACrns3/opfE/8jH4/+xudv/qrba/56q0f92hrb/jqDL/3N+s/+FkMb/d4Kx/6iu0P++wd7/oKvQ/46hzP+Om8j/u8Hj/4iXwP+WoM7/mZbD/4SOvP+Fl8j/dYG5/2JqoP9eaZ3/Z2+j/19roP9yg7f/doi3/36Otv+Zq9b/pbbW/9jV6P/x5Oj/trjU/4eMt/+Wocn/mJ/I/6601v/NzOT/2NDj/7C20/+lq8v/fYu3/4yTzP+Zodj/mqDQ/8TC4v+vns3/qJnH/8fC3/+0uNv/qrPY/5yp0P91hbX/jJ7J/3J+sv+FkMX/fYq2/7e+3v+2vNv/mqfP/4acyv+dpsj/tbzW/36Ouv+RnM3/ipC//3aCs/+BksP/f47C/36Qwf+Fm8b/kqPP/5ap1f+dr9b/r73d/6ey1P+QnMf/n7Xc/7fE3v/o4Ov/oaTE/4GItv+bps7/mqLK/7O22f/PzOT/29Dl/62y0v+kqc3/gI/A/46a0f+YpNX/oanV/8XE4P+0n87/rJrL/8i/4P+3utv/qLHW/5yp0P94hrb/jJvI/214rf+Bjr//jpnA/73C4P+qstf/kqHQ/42Yzv+vs9T/mKTD/3mMvv96irr/g5O+/5Oi1P+aqtr/m6va/5ms2v+Wr9b/ma/W/56y2f+pudz/v83h/8TO4/+2v9z/mqXP/6a93v/P0uT/k5W6/4aLuv+dp8//nqTM/7a52v/Vz+X/2dDn/6qx0f+gosv/gpDD/5Og0/+WptT/rbbb/8PE4P+1ns7/r53O/8a94P+3vdz/prLW/56q0f93hLX/jJvJ/2x5rv9+j73/nqnL/8DE3/+grNH/i5vQ/5Cay/+4vt//eYWz/2Z6rv+NoM7/jaTP/4mf0v+QpdT/mazZ/52t2/+csdj/n7HY/6a22f+8yO" (truncated))
+        │    │  │  │  │  ├──195.89 MB (14.03%) ── malloc-heap/two-byte
+        │    │  │  │  │  └────0.16 MB (00.01%) ── gc-heap/two-byte
+        ```
+        - 没看懂，这是什么占用？看着像是个图片啊？
+    - logseq.order-list-type:: number
+      ```
+      134,217,727.94 MB (100.0%) -- address-space
+      ├──132,112,344.08 MB (98.43%) ── free(segments=684)
+      ├────2,103,510.09 MB (01.57%) -- reserved
+      │    ├──2,097,094.63 MB (01.56%) ── mapped(segments=13)
+      │    └──────6,415.46 MB (00.00%) ── private(segments=3162)
+      └────────1,873.77 MB (00.00%) ++ commit
+      ```
+      - 没看懂，什么东西占用了这么多，而且明明有 Free，为什么不释放？
+  - TODO Google Map 还有足迹的功能，看起来好棒
+    collapsed:: true
+    - https://www.google.com/maps/d/viewer?hl=zh-CN&msa=0&ll=44.062919570690205%2C125.32241861914062&spn=22.819868%2C39.506836&z=9&mid=1h1MVh7o1437ILQ2mdL7nkfSgvgg
+  - TODO Flutter 说是用起来卡卡的，动画不流畅，骂声好像还挺多的；Electron 封装了一个浏览器，骂声也不少，话说Logseq 就是 Electron 😂 最后还是选了 Kotlin Multiplatform，抽空多学习一下吧。
+    collapsed:: true
+    - [2024 年了，跨平台开发框架有啥推荐的吗 - V2EX](https://hk.v2ex.com/t/1028974)
+  - WAITING 每次遗精，第二天早上起来总是腰酸背痛，头晕脑胀，我知道头晕是因为还想继续睡觉，但是我不季节腰酸背痛； #我不是个例
+    collapsed:: true
+    - https://www.reddit.com/r/backpain/comments/165qh0b/is_it_weird_for_masturbationwet_dreams_to_cause/
+      - 国外叫遗精 nightfall、Wet Dreams、Nocturnal emission、Nocturnal Emissions、Semen leakage
+  - CANCELED 之前有试过 GIST 的拉取、上传 API，也有脚本，但是忘记放哪里了，曹
+    collapsed:: true
+    - 改用 [gh cli](https://cli.github.com/) 了，感觉配合 Vim 使用体验更好，想传哪个，就传哪个；
 - ## 人类一思考，上帝就发笑
-  -
-  - #今天发现了啥 Windows 双拼方案是不支持 emoji 联想的，via: https://v2ex.com/t/996308
   - 今天找番用到的工具
     collapsed:: true
     - 动画花园, https://share.dmhy.org/
@@ -11765,63 +11809,224 @@ icon:: 📅
       - 每天教娃编程, 希望孩子以后也能拿个啥ACM奖.
       - 更新: [Pascal 编程语言之父 尼克劳斯·沃斯 Niklaus Wirth RIP](https://justyy.com/archives/64211)
       - 本文一共 _1253_ 个汉字, 你数一下对不对.
-  - TODO 微信读书太卡了，尝试把 静读天下 加入到自己的工作流，替换微信读书；
-    collapsed:: true
-    - Onedrive 只能用 Webdev，不知道要如何申请 token，如何适配...
-  - TODO Google Map 还有足迹的功能，看起来好棒
-    collapsed:: true
-    - https://www.google.com/maps/d/viewer?hl=zh-CN&msa=0&ll=44.062919570690205%2C125.32241861914062&spn=22.819868%2C39.506836&z=9&mid=1h1MVh7o1437ILQ2mdL7nkfSgvgg
-  - TODO Flutter 说是用起来卡卡的，动画不流畅，骂声好像还挺多的；Electron 封装了一个浏览器，骂声也不少，话说Logseq 就是 Electron 😂 最后还是选了 Kotlin Multiplatform，抽空多学习一下吧。
-    collapsed:: true
-    - [2024 年了，跨平台开发框架有啥推荐的吗 - V2EX](https://hk.v2ex.com/t/1028974)
-  - WAITING 每次遗精，第二天早上起来总是腰酸背痛，头晕脑胀，我知道头晕是因为还想继续睡觉，但是我不季节腰酸背痛； #我不是个例
-    collapsed:: true
-    - https://www.reddit.com/r/backpain/comments/165qh0b/is_it_weird_for_masturbationwet_dreams_to_cause/
-      - 国外叫遗精 nightfall、Wet Dreams、Nocturnal emission、Nocturnal Emissions、Semen leakage
-  - WAITING Windows 中文 Emoji 无法用英文搜，还需要再添加一个输入法，好蠢；
-    collapsed:: true
-    - https://superuser.com/questions/1451149/how-do-i-change-the-input-language-for-emoji-keyboard-in-windows-10
   - #notion/site https://rabbit-hole.notion.site/8c0ed0edbeb146439fd702cdaab9c186?v=bd8008517eda43398409dc98f9a4a05b
-  - TODO Windows 字符限制，https://www.reddit.com/r/Windows10/comments/wgea76/why_are_my_file_names_not_allowing_up_to_260/
-  - Sex Warnning
+  - DONE 朗读百天
     collapsed:: true
-    - 不喜欢玩女性第一视角的黄油，看着女主被操着心疼...
-    - 多和我说说下流话，有多下流就说多下流，我就下流，我就变态
-      collapsed:: true
-      - https://en.wikipedia.org/wiki/Erotic_talk
-      - https://zh.wikipedia.org/wiki/下流話
-    - 打童年开始，就对叫床声感到好奇，一直都没有办法正确看待。
-      collapsed:: true
-      - https://zh.wikipedia.org/zh-cn/%E5%8F%AB%E5%BA%8A
-  - TODO Firefox 下午内存吃了 10G，快被吃干了，关掉一些不重要的标签页后，恢复了一半，到了 5G，好神奇
-    collapsed:: true
-    - 出内存报告：`about:memory`
-    - 寻找对应 ID：`about:debugging#/runtime/this-firefox`
-    - 拓展也就占了 1G 出头；
-      logseq.order-list-type:: number
-      - 两个大头 background.html 服务
-        logseq.order-list-type:: number
-        - `42db427d-4a02-44be-a457-cba0a9e1f393`: 油猴
-        - `2bb59169-7683-4fd5-a24f-4f7e8a4bdadc`: BPM
-      - logseq.order-list-type:: number
-        ```
-        │    │  │  │  ├──196.05 MB (14.04%) -- string(length=12909, copies=7164, "data:image/x-icon;base64,AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACrns3/opfE/8jH4/+xudv/qrba/56q0f92hrb/jqDL/3N+s/+FkMb/d4Kx/6iu0P++wd7/oKvQ/46hzP+Om8j/u8Hj/4iXwP+WoM7/mZbD/4SOvP+Fl8j/dYG5/2JqoP9eaZ3/Z2+j/19roP9yg7f/doi3/36Otv+Zq9b/pbbW/9jV6P/x5Oj/trjU/4eMt/+Wocn/mJ/I/6601v/NzOT/2NDj/7C20/+lq8v/fYu3/4yTzP+Zodj/mqDQ/8TC4v+vns3/qJnH/8fC3/+0uNv/qrPY/5yp0P91hbX/jJ7J/3J+sv+FkMX/fYq2/7e+3v+2vNv/mqfP/4acyv+dpsj/tbzW/36Ouv+RnM3/ipC//3aCs/+BksP/f47C/36Qwf+Fm8b/kqPP/5ap1f+dr9b/r73d/6ey1P+QnMf/n7Xc/7fE3v/o4Ov/oaTE/4GItv+bps7/mqLK/7O22f/PzOT/29Dl/62y0v+kqc3/gI/A/46a0f+YpNX/oanV/8XE4P+0n87/rJrL/8i/4P+3utv/qLHW/5yp0P94hrb/jJvI/214rf+Bjr//jpnA/73C4P+qstf/kqHQ/42Yzv+vs9T/mKTD/3mMvv96irr/g5O+/5Oi1P+aqtr/m6va/5ms2v+Wr9b/ma/W/56y2f+pudz/v83h/8TO4/+2v9z/mqXP/6a93v/P0uT/k5W6/4aLuv+dp8//nqTM/7a52v/Vz+X/2dDn/6qx0f+gosv/gpDD/5Og0/+WptT/rbbb/8PE4P+1ns7/r53O/8a94P+3vdz/prLW/56q0f93hLX/jJvJ/2x5rv9+j73/nqnL/8DE3/+grNH/i5vQ/5Cay/+4vt//eYWz/2Z6rv+NoM7/jaTP/4mf0v+QpdT/mazZ/52t2/+csdj/n7HY/6a22f+8yO" (truncated))
-        │    │  │  │  │  ├──195.89 MB (14.03%) ── malloc-heap/two-byte
-        │    │  │  │  │  └────0.16 MB (00.01%) ── gc-heap/two-byte
-        ```
-        - 没看懂，这是什么占用？看着像是个图片啊？
-    - logseq.order-list-type:: number
-      ```
-      134,217,727.94 MB (100.0%) -- address-space
-      ├──132,112,344.08 MB (98.43%) ── free(segments=684)
-      ├────2,103,510.09 MB (01.57%) -- reserved
-      │    ├──2,097,094.63 MB (01.56%) ── mapped(segments=13)
-      │    └──────6,415.46 MB (00.00%) ── private(segments=3162)
-      └────────1,873.77 MB (00.00%) ++ commit
-      ```
-      - 没看懂，什么东西占用了这么多，而且明明有 Free，为什么不释放？
+    - {{video https://www.youtube.com/watch?v=IzIGwSx9_ho}}
+      - I have a question, would you like to achieve your one-year goals in just 3 months
+      - if you answered yes then keep watching because today I'm going to summarize a book called 12 week year get more done in 12 weeks than others do in 12 months written by Brian Moran and Michael lennington
+      - most businesses and people set annual goals and create 12-month plans. you also do this in your own life you set a New Year's resolution on January 1st and commit to changing your life by December 31st the author's of the book argue that this type of thinking and planning is not effective. wastes so much time and stops you from achieving your goals.
+      - if annualized planning doesn't work then what is the alternative. the authors argue that a better alternative is the 12 we year program and here's why
+        collapsed:: true
+        - first within the 12we year program Seasons don't exist. there is no summer there is no winter there is no Autumn. a week now takes the place of a month and each day accounts for a week through this lens you can see how important each day and week become.
+        - second all the excitement and productivity of the year-end push now happens four times a year. your deadline is always in sight so you stop telling yourself that there's still plenty of time. if you have a slow week you might be able to make it up the following week but you know you can't have too many bad weeks if you are going to be successful at the end of 12 weeks this mindset makes every day important. and the need to produce results every week becomes vital.
+        - third you can't possibly predict every action you will take over a 1\2-month period so any plan you make will be based on assumptions and theories. in contrast. a 12-week plan removes assumptions because the time frame is short enough for you to make an accurate plan and execute it successfully
+        - fourth instead of waiting until December to find out if you failed or succeeded you find out much sooner and course correct no need to wait another year finally the fifth benefit is the relaxation and celebration you look forward to after all your hard work. you now have four opportunities to reflect on your achievements and take a few days off to recharge and when you come back you have a fresh start again. if for some reason your first 12 weeks didn't work out as you had hoped. you don't have to wait another year you have three more chances to get it right and finish the year strong.
+      - if these benefits excite you then here is the four-step formula.
+        collapsed:: true
+        - step number one, Vision. everything around you such as your computer or the phone you're using. now is created Twice. first it started as an idea or Vision in somebody's head and second it was created in physical form in some factories .what I'm trying to say is this. before you set goals you need to get crystal clear about your destination about your vision for the year. imagine it this way. imagine the year has ended and you look back and see that you have achieved all the things for that year what does does that perfect year look like .how much are you earning. do you finally have your own business. are you earning 10 grand per month. are you in great shape as you have always wanted. this is a kind of dreaming stage you are dreaming about your perfect year. don't let your analytical mind come in and say how the hell will you achieve all that in 12 weeks. it's not realistic. this is not the time for how we will get there as well. it is time to dream and dream big. why dream big. because soon you will push yourself beyond your comfort zone and if it is not big and exciting enough you will give up.
+        - step number two plan your execution. now that you know where you want to go. it's time to plan how you will get there .
+          - first you need to find a clear goal. you might have more than one goal .but don't overwhelm yourself with too many goals. the key is to identify a few essential ones. that if achieved would bring you the results you want.
+          - second list all the key tasks for that goal and plan how you will get them done. apply the same logic you applied to goals and focus on key tasks. for example your goal might be to earn $120,000 for the year. now how do you plan to earn that amount of money within 12 weeks. will you earn 10 grand in the first week .another 10 grand in the second week. and continue at this rate for the rest of the time or will the first four weeks have no earnings. but in the remaining eight weeks you will earn 15 grand per month. the goal at this stage is to plan each week and identify what results need to be achieved. by the end of the week and what tasks need to be done. each week needs to be planned in advance and it should look like this. the goal at the top of the page for that week and the list of tasks to achieve that goal. now when you are planning one of the most often questions you will be asking yourself is how. how do I get this task done within 1 week .or how do I get this big goal achieved within 3 weeks. let me tell you a little secret. you are asking the wrong question. you shouldn't be asking how. you should be asking who. I recently read a book called who not how. by one of the greatest business coaches Dan Sullivan .Dan says when we want something done we are trained to ask how can I do this. this is the wrong question. the right question is who can do this for me. for example if you need to design a logo. you need to ask who can do this for me instead of how can I do this. you might say. well I have no idea how to find a logo designer, so I will figure out how I do it myself. well if you don't know who can design a logo, then you need to find another person, who will find you a logo designer. again you need another who question, not a how question. this sounds so simple, and it is simple. but don't let the Simplicity fool you. asking who is not natural for us, so it will take quite some effort to shift your mindset. once you start asking the who question the doors open up for you. it saves you so much time, and money. plus improves the quality of your output, because you are involving others who are experts, at what they do.
+        - step number three, control your process. the idea is simple. at the beginning of each week ideally on Monday review the progress. you made in the last week did you complete all the tasks for the past week, or not. in the next step I will explain how to measure your progress. once the evaluation of the last week is done then create a new weekly plan for the coming week. check your weekly plan every day to ensure you are completing the right tasks, and the timeline of your week still makes sense. if it does, then keep moving, if not, review the plan to restructure the tasks, in order to achieve the week's goal.
+        - step number four, measure your progress. you can't know if you are progressing without measuring it. this is actually one of my favorite parts of the book and here is why I like it. the author recommends two types of measuring systems. one for the results and another one for your execution. for example, let us say you want to lose 1 kilo of weight per week and to achieve that you have planned that you will exercise five times a week and need 2,000 calories a day. using this example we can say that measurement of the result, is the amount of weight lost in one week .did you lose 1 kilo in the past week or not. this is the measurement of the result. however, the measurement of execution is different, it is the number of tasks you completed to achieve that result. in this example it was 5 days of exercising and eating under 2,000 calories per day. did you exercise for 5 days and eat under 2,000 calories every single day. if yes, then you have a 100% execution score. this this is the measurement of execution. the author says you should focus more on measuring execution rather than the results. people who focus on more execution have a higher chance of reaching their goals compared to people who focus on measuring their results only using the above weight loss example. if the only thing you measure is the result losing 1 kilo per week then you will probably get discouraged. once you step on the scale and see that you haven't lost anything for that week. on the other hand, if you focus on the execution you know that result will come because you are doing all the right things. the author says if you complete 85% or more of your tasks every week. results will come and you will reach your goals. you might not see the result for one week but the next week you will probably see it if you stick to executing your plan. you might ask what if the result doesn't come after 2 or 3 weeks. well that means something is wrong with your plan. and it has to change. for example maybe you have calculated the calories wrong. you had to eat5 100 calories instead of 2,000 in order to achieve the result you wanted. this is why it is important to measure both the result and execution. and keep them separate
+      - so to quickly summarize the four-step formula, number one create a Clear Vision number two plan how you will execute your vision number three control your process by evaluating the past week and planning for the new week four measure your progress and focus more on execution if you would like to stop watching at this point you can do that. you already got the core of the message of the book in my opinion.
+      - however I have 10 small tips that will make it very easy for you to implement this four-step formula. here they are.
+        collapsed:: true
+        - tip number one manage your time well by splitting your day into blocks it takes approximately 15 minutes for you to get back to your tasks when you're stopped to check emails or text messages. on average 28% of employees days. are spent managing interruptions and refocusing on what they are doing. in a 40-hour work week that is 11 hours of time wasted. that is why the author advises separating your day into three blocks . block number one. strategic block. this is the time block where you work on strategic tasks. minimum 3 hours. no emails. no talking to colleagues. no daydreaming about what you are going to eat for lunch.
+        - block number two buffer block, the purpose of this block is to handle those small tasks such as emails or calling your mom Etc.
+        - block number three, breakout block. success is not about working hard all the time. you must allow your mind to rest and recharge so you can always work at your full capacity and focus.
+        - tip number two, work life balance is a lie. you struggle to find a balance between work family friends health and personal time. so you decide to give equal time and energy to each of them. the problem is that when you do that you overextend yourself, and become frustrated. so success can't be achieved by balancing your time in each area of Life. success happens when you intentionally create an imbalance and direct the time and energy toward one or two areas of your life. different moments in life will require different amounts of energy and there is nothing wrong with that. the purpose of intentional imbalance is to put your energy where you want it to go.
+        - tip number three avoid having too many goals . too many goals mean too many strategies and obstacles. they will quickly drain your energyM and will make you give up.
+        - tip number four create a routine your execution will suffer a lot if you don't form a routine. you need a routine for everything from your sleep to the time you work
+        - tip number five create your model week your model week is kind of like your perfect scenario where you get everything done. once you start designing your model week , you will quickly be able to say if your plan is realistic or not . if the plan isn't n realistic, you will not be able to find space on your weekly calendar to put some of the tasks . make sure to do this before you start your week one.
+        - tip number six, avoid focusing on tasks that involve your weaknesses . most tasks you are working on should be based on your strengths. not your weaknesses.
+        - tip number seven, you are allowed to say no, when someone invites you somewhere or someone asks you to commit to something, say no as often as you can.
+        - tip number eight, don't multitask. when you spread your attention too thin over multiple directions, you are not fully applying yourself to any tasks. you are overworked and tired. burnout is a likely result and in the end you haven't mastered anything. you've just become mediocre at several things.
+        - tip number nine, some tasks will not get done, and it is okay. many people believe they can do it all and work day and night to catch up with everything on their plate. they focus on what they can do quickly to get it out of the way, which puts their strategic tasks in danger. some tasks will eventually fall through the cracks and it is okay. however those tasks should never be the Strategic ones.
+        - tip number 10, celebrate. even if you didn't reach your goal, you still have three more chances and you probably made tons of progress. so celebrate, and start again
+        - finally here is a bonus tip from my personal experience, sleep well. I can't emphasize the importance of sleep. it is the best productivity tip you will ever need I know how much my life suffers when I don't have enough sleep, but still very often sleep is the first thing. somehow I end up sacrificing when things get tough despite the fact that I know how important it is. so keep an eye on your sleep this is the area I am doing my best to improve as well.
+      - in the end I would like to mention that the reason I summarize this book isn't that I know a lot about planning, it's quite the opposite. I quite suck at it and this was the reason I picked up this book. I usually read books on the areas that I want to improve and this was one of them. I hope it was a useful video.
+      - thanks for watching
 - ## 沙发土豆的自我修养
-  -
+  - vol.412 跟新番动画结婚 2024年4月篇
+    show:: [[跟宇宙结婚]]
+    host:: [[跟宇宙结婚]]
+    episode-link:: [Open in Snipd](https://share.snipd.com/episode/35aa7b32-96f5-4c5c-bec2-9daecb51e0a1)
+    publish-date:: [[20240520]]
+    collapsed:: true
+    ![Image](http://cdn.lizhi.fm/podcast_cover/2018/01/02/2644919310924589127.jpg){height 150.0, width 150.0}
+    - ### Show notes
+      #+BEGIN_QUOTE
+      2024年4月新番介绍来喽！本季新番虽然好像没有出圈的S级巨作，但整体素质优秀，更包含几部大师旧作改编的新版动画，以及好几部过往S级大作的最新季。<br><br>节目中重点聊到了以下20部：<br><br>12:55 沙漠大冒险（剧集版）<br>34:35 怪兽8号<br>1:01:26 吹响！上低音号 第三季<br>1:20:04 GIRLS BAND CRY 少女乐队的呐喊<br>1:32:50 夜晚的水母不会游泳<br>1:41:17 恋语轻唱<br>1:49:27 终末列车去哪里？<br>2:01:27 杀手寓言<br>2:07:50 战队大失格<br>2:17:25 狼与香辛料 行商邂逅贤狼<br>2:39:48 时光巡逻队<br>2:55:27 格林童话变奏曲<br>3:06:42 WIND BREAKER 防风少年<br>3:16:00 失忆投捕<br>3:28:39 星际庄的恋爱日记<br>3:43:27 无职转生Ⅱ ～到了异世界就拿出真本事～ 第2部分<br>3:50:59 鬼灭之刃 柱训练篇<br>3:54:51 关于我转生变成史莱姆这档事 第三季<br>3:58:20 摇曳露营 第三季<br>4:04:03 约会大作战 第五季<br><br>4:10:10 “随堂测验”<br><br>此外，节目里包含了13首巨好听的片头片尾曲。<br>并且主播们还一起鉴赏了其中一首主题歌的审美宇宙无敌的MV。<br><br>详细内容就请收听本期节目。
+      #+END_QUOTE
+    - ### Snips
+      collapsed:: true
+      - #### 1min snip at 01:26:10
+        collapsed:: true
+        - [🎧 Play snip - 1min at 01:27:30️ (01:26:10 - 01:27:30)](https://share.snipd.com/snip/46ebce36-2107-40a6-a5d0-060372e11e2d)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=5170,5250"}]
+      - #### 1min snip at 01:28:45
+        collapsed:: true
+        - [🎧 Play snip - 1min at 01:30:05️ (01:28:45 - 01:30:05)](https://share.snipd.com/snip/f9a1a499-d926-46d3-b847-59ee97a47504)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=5325,5405"}]
+      - #### 1min snip at 01:35:10
+        collapsed:: true
+        - [🎧 Play snip - 1min at 01:36:30️ (01:35:10 - 01:36:30)](https://share.snipd.com/snip/89389793-172a-467c-9127-c5ace89a0cac)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=5710,5790"}]
+      - #### 1min snip at 01:58:34
+        collapsed:: true
+        - [🎧 Play snip - 1min at 01:59:54️ (01:58:34 - 01:59:54)](https://share.snipd.com/snip/b84449b3-3485-4d42-85eb-93eed51d562b)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=7114,7194"}]
+      - #### 1min snip at 02:16:43
+        collapsed:: true
+        - [🎧 Play snip - 1min at 02:18:03️ (02:16:43 - 02:18:03)](https://share.snipd.com/snip/cb0f28e5-9def-4127-a814-0d065e2dc659)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=8203,8283"}]
+      - #### 1min snip at 02:17:58
+        collapsed:: true
+        - [🎧 Play snip - 1min at 02:19:18️ (02:17:58 - 02:19:18)](https://share.snipd.com/snip/ad445e35-fffb-4e40-833c-073713e3a6e3)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=8278,8358"}]
+      - #### 1min snip at 02:39:12
+        collapsed:: true
+        - [🎧 Play snip - 1min at 02:40:32️ (02:39:12 - 02:40:32)](https://share.snipd.com/snip/1a2771e4-0b21-4539-ada2-9d664594fc69)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=9552,9632"}]
+      - #### 1min snip at 02:41:15
+        collapsed:: true
+        - [🎧 Play snip - 1min at 02:42:35️ (02:41:15 - 02:42:35)](https://share.snipd.com/snip/d1f6b1e0-b9e5-438a-aabd-4be211041eb2)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=9675,9755"}]
+      - #### 1min snip at 02:45:15
+        collapsed:: true
+        - [🎧 Play snip - 1min at 02:46:35️ (02:45:15 - 02:46:35)](https://share.snipd.com/snip/4003ebd7-eb48-49a4-987b-0229f646ba90)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=9915,9995"}]
+      - #### 1min snip at 02:55:19
+        collapsed:: true
+        - [🎧 Play snip - 1min at 02:56:39️ (02:55:19 - 02:56:39)](https://share.snipd.com/snip/65d91ddd-21a8-474c-8d60-ba08f01ea555)
+               [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=10519,10599"}]
+      - #### 1min snip at 02:58:24
+        collapsed:: true
+        - [🎧 Play snip - 1min at 02:59:44️ (02:58:24 - 02:59:44)](https://share.snipd.com/snip/1e1af0ff-f707-4aa0-99b9-ecd269e6ede4)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=10704,10784"}]
+      - #### 1min snip at 03:03:22
+        collapsed:: true
+        - [🎧 Play snip - 1min at 03:04:42️ (03:03:22 - 03:04:42)](https://share.snipd.com/snip/75054cde-ed0a-4b24-b907-6282dc765fad)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=11002,11082"}]
+      - #### 1min snip at 03:18:43
+        collapsed:: true
+        - [🎧 Play snip - 1min at 03:20:03️ (03:18:43 - 03:20:03)](https://share.snipd.com/snip/ad3ea00e-6cad-4929-a67a-6acbdd9480c6)
+          [:audio {:controls true :src "http://cdn.lizhi.fm/audio/2024/05/20/3077313436510189574_hd.mp3#t=11923,12003"}]
+      -
+      - #+BEGIN_CENTER
+        Generated by Snipd
+        #+END_CENTER
+      -
+  - 七月新番开播
+    - https://bgmlist.com/
+    - 2024年7月新番tag合集+部分主观简介
+      collapsed:: true
+      - 原创：
+        🆕#亦叶亦花 又译“菜一般花一般” ，P.A.WORKS制作，b站引进
+        🆕#深夜冲击 彻夜+水母？ P.A.WORKS制作
+        🆕#X特遣队的奇幻之旅 又名“异世界自杀小队” ，DC Comics 原作，WIT制作，b站引进
+        🟦#卡片战斗先导者
+        漫改：
+        🆕#鹿乃子乃子虎视眈眈 七月神经之作，话题度应该很高，WIT制作
+        🆕#擅长逃跑的殿下 虽然历史背景不太清楚，但CloverWorks肉眼可见的顶级制作
+        🆕#古连泰沙U 非常古早的IP，中东石油佬的投资，看看钱有没有被卷走
+        🆕#杖与剑的魔剑谭 剧情可能会太典，鉴于是地错的原作者还可以给个机会
+        🆕#这个世界漏洞百出 在游戏世界debug
+        🆕#地下城里的人们 在迷宫上班，b站引进
+        🆕2.5次元的诱惑 拍COS搞涩涩 （因为tag开头不能是数字，暂时使用 #次元诱惑）
+        🆕#疑似后宫 又译“百变的七仓同学”，纯爱故事，b站引进
+        🆕#我的妻子没有感情 机器人题材，手冢P制作
+        🆕#前辈是伪娘 又译“前辈是男孩子”，伪娘+女后辈+男青梅，P9制作
+        🆕#黄昏失焦 男人之间因为拍片产生了多余的感情
+        🆕#异世界失格 太宰治穿越
+        🆕#魔法少女与邪恶曾经敌对 妖狐×仆SS作者遗作，b站引进
+        🆕#多数欠 智斗大逃杀
+        🆕#精灵小姐瘦不了 减肥卖肉喜剧
+        🆕#一击冲天 又名“高尔夫物语”，已播完
+        🟦#神之塔 第一季韩式番剧还蛮新奇的，第二季换了制作公司
+        🟦#我推的孩子 至今仍未知道第一季时b站即使视频提及也会被干的确切原因（本季PV有的up也是通过夹带其它内容才能留存）
+        🟦#战国妖狐 #好想告诉你 #女神的露天咖啡厅 #腼腆英雄 #筋肉人 #妖精的尾巴 #贴纸小狗 #甜甜私房猫 #拉面赤猫
+        小说改：
+        🆕#小市民系列 冰菓原作者米泽穗信另一部作品，更侧重推理，制作公司Lapin Track做过不死少女杀人笑剧，b站引进
+        🆕#败犬女主太多啦 预计是7月乐子来源，A-1 Pictures看起来质量在线
+        🆕#不时轻声地以俄语遮羞的邻座艾莉同学 女主声优上坂堇俄语专业对口，动画工房制作，b站引进
+        🆕#愚物语 #抚物语 西尾维新物语系列
+        🆕#义妹生活 已经先行3集放送了
+        🆕#为何无人记得我的世界 岁月史书的设定有点意思，但是P9制作
+        🆕#无法割舍恋情的双胞胎 又名“恋爱没法用双子除尽”，三角恋题材
+        🆕#再见地球 冲方丁原作，WOWOW电视台投资
+        🆕#身为VTuber的我因为忘记关台而成了传说 #魔导具师妲莉亚不向人低头 #异世界悠闲纪行边养娃边当冒险者 #魔王军最强的魔术师是人类 #靠废柴技能状态异常成为最强的我将蹂躏一切 #我要招架一切反误解的世界最强想成为冒险者 #大叔新人冒险者被最强小队拼死锻炼后无敌 #从路人角色开始的探索英雄谭
+        🟦#你与我最后的战场亦或是世界起始的圣战 b站引进
+        其它：
+        🆕#天穗之咲稻姬 游戏改编，P.A.WORKS边种水稻边制作
+        🆕#亚托莉 -我挚爱的时光- #德里科的托儿所 #JOCHUM #现代误译
+        🟦#尼尔 自动人形 Ver1.1a #暗芝居
+        https://mstdn.moe/@aqua/112693851797350933
+    - 动画疯引入公告: https://gnn.gamer.com.tw/detail.php?sn=270298
+    - 小可爱ちいかわ 
+      cover:: ![🖼 ](https://lain.bgm.tv/r/400/pic/cover/l/c9/b1/354700_S6YP6.jpg){:width 225}
+      tags:: #animelist
+      bangumi:: https://bgm.tv/subject/354700
+      douban:: https://www.douban.com/
+      myanimelist:: 
+      created:: [[20240707]]
+    - 狼与香辛料 行商邂逅贤狼狼と香辛料 MERCHANT MEETS THE WISE WOLF 
+      cover:: ![🖼 ](https://lain.bgm.tv/r/400/pic/cover/l/08/df/372010_KBWk9.jpg){:width 225}
+      tags:: #animelist
+      bangumi:: https://bgm.tv/subject/372010
+      douban:: https://www.douban.com/
+      myanimelist:: 
+      created:: [[20240707]]
+    - 大叔新人冒险者被最强小队拼死锻炼后无敌了。新米オッサン冒険者、最強パーティに死ぬほど鍛えられて無敵になる。
+      cover:: ![🖼 ](https://lain.bgm.tv/r/400/pic/cover/l/6a/45/427059_1V5vV.jpg){:width 225}
+      tags:: #animelist
+      bangumi:: https://bgm.tv/subject/427059
+      douban:: https://www.douban.com/
+      myanimelist:: 
+      created:: [[20240707]]
+    - 我的妻子没有感情僕の妻は感情がない
+      cover:: ![🖼 ](https://lain.bgm.tv/r/400/pic/cover/l/ce/50/482776_G98Y9.jpg){:width 225}
+      bangumi:: https://bgm.tv/subject/
+      douban:: https://www.douban.com/
+      myanimelist:: https://myanimelist.net/anime/
+      icon:: 📺
+      tags:: #animelist
+      created:: [[20240707]]
+    - 魔王军最强的魔术师是人类魔王軍最強の魔術師は人間だった
+      cover:: ![🖼](https://lain.bgm.tv/r/400/pic/cover/l/0b/e5/475933_Kf14e.jpg){:width 225}
+      bangumi:: https://bgm.tv/subject/475933
+      douban:: https://www.douban.com/
+      myanimelist:: https://myanimelist.net/anime/
+      icon:: 📺
+      tags:: #animelist
+      created:: [[20240707]]
+    - 鹿乃子乃子乃子虎视眈眈しかのこのこのここしたんたん
+      cover:: ![🖼](https://lain.bgm.tv/r/400/pic/cover/l/b1/7b/484761_fLYU6.jpg){:width 225}
+      bangumi:: https://bgm.tv/subject/484761
+      douban:: https://www.douban.com/
+      myanimelist:: https://myanimelist.net/anime/
+      icon:: 📺
+      tags:: #animelist
+      created:: [[20240707]]
+    - 依靠被嫌弃的【状态异常技能】而成为最强的我最终蹂躏一切ハズレ枠の【状態異常スキル】で最強になった俺がすべてを蹂躙するまで
+      cover:: ![🖼](https://lain.bgm.tv/r/400/pic/cover/l/ac/c5/476418_50C5z.jpg){:width 225}
+      bangumi:: https://bgm.tv/subject/476418
+      douban:: https://www.douban.com/
+      myanimelist:: https://myanimelist.net/anime/
+      icon:: 📺
+      tags:: #animelist
+      created:: [[20240707]]
+  - 入手了很多游戏
+    - {{iframe https://store.steampowered.com/widget/1091500 ,200px}}
+    - {{iframe https://store.steampowered.com/widget/1850570 ,200px}}
+    - {{iframe https://store.steampowered.com/widget/1585220 ,200px}}
+    - {{iframe https://store.steampowered.com/widget/315810 ,200px}}
+  - 2077 开车的手感真的不如 GTA V 😭
+    collapsed:: true
+    - https://m.gamer.com.tw/forum/C.php?bsn=23379&page=&snA=6459&last=
+    - [2077���MOD���ˣ���ǹе�������ϰ���𶯡����� - ��Ϸҵ���ۺ������� -  TGFC Lifestyle](https://bbs.tgfcer.com/thread-8339469-1-1.html)
 - ## 这周有断舍离吗？
   -
 - ## 这周有什么多快好省的东西吗？

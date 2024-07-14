@@ -342,7 +342,7 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
 - ## [[Comment]]
   - 2022 扫了一遍, 忘的差不多了, 今天下午又扫了一遍, 还是太厉害了, 一本正经地讲写作 (非虚构/学术) 太棒了, 感慨初高中写作是什么东西🙄; 一堆的认知偏误, 费曼, GTD, 第二大脑, 全都串起来了, 当然还有大量的引用还没细看😂
     description:: https://weread.qq.com/web/review/detail/203895941_7FvvkT3qr
-- ## Relate [[Book List]] #learning/learning
+- ## Relate [[book/list]] #learning/learning
   - title:: 费曼学习法
     tags:: 
     author:: 

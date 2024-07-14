@@ -743,7 +743,7 @@ tags:: #geekbang, #Linux
           __be32  s_addr;
         };
         ```
-        - `be`: “big-endian” via [[endian]]
+        - `be`: “big-endian” via [[encoding/character/endian]]
           - 如果在网络上传输超过 1 Byte 的类型, 就要区分大端 (Big Endian) & 小端 (Little Endian)
         - 客户端不需要 bind?
           - 不关心客户端 (不会被访问) 监听到了哪里, 浏览器 随机分配一个端口就可以

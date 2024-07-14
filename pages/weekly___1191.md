@@ -30,6 +30,7 @@ icon:: 📅
   - Taipei [COMPUTEX 2024](https://www.computextaipei.com.tw/en/menu/49A948920FF33BE2D0636733C6861689/info.html) June 4 – 7
     collapsed:: true
     - [如何评价英特尔最新发布的Lunar Lake处理器，新的Lunar Lake处理器架构有哪些亮点?](https://www.zhihu.com/question/658124769)
+    - [AMD 宣布推出适用于移动设备的 Ryzen AI 300 系列：r/hardware --- AMD Announces The Ryzen AI 300 Series For Mobile : r/hardware](https://www.reddit.com/r/hardware/comments/1d76qvq/amd_announces_the_ryzen_ai_300_series_for_mobile/)
   - Docker Hub Mirror is banned in China mainland.
     collapsed:: true
     - > 是不是有墙？
