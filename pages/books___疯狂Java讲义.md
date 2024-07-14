@@ -1,4 +1,3 @@
-title:: books/疯狂Java讲义
 icon:: 📖
 tags:: #java, #deprecated
 author:: 李刚

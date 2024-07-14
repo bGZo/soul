@@ -1,4 +1,3 @@
-title:: imu/training/java
 tags:: [[imu/java]], TODO
 - Courses List
   - 1

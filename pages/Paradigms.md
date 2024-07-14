@@ -1,9 +1,7 @@
-title:: Paradigms
 alias:: programming paradigms, 编程范式
 tags:: #lang/programming
 description:: a way to classify programming languages based on their features
 created:: [[20230826]]
-title:: Paradigms
 
 - ## Why
 - ## How

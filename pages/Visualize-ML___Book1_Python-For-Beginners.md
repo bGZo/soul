@@ -1,6 +1,5 @@
 created::  [[20240623]]
 tags:: #github/repo
-title:: Visualize-ML/Book1_Python-For-Beginners
 source:: https://github.com/Visualize-ML/Book1_Python-For-Beginners
 ![](https://img.shields.io/github/stars/Visualize-ML/Book1_Python-For-Beginners)
 

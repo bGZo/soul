@@ -1,4 +1,3 @@
-title:: newsletter
 alias:: 时事通讯
 tags:: #[[weekly]], #literature/grey
 wikipedia:: [Newsletter - Wikipedia](https://en.wikipedia.org/wiki/Newsletter)

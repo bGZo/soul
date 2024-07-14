@@ -1,10 +1,11 @@
 icon:: 📂
-tags:: #project, #twitter, #mastodon
+tags:: #twitter, #mastodon
 created:: [[20221231]]
-closed:: [[weekly/1140]]
-title:: Get social media
+
 - ## Project Meta
-  - TODO #project Get social media about Thread.net and Weibo.
+  - CANCELED #project Get social media about Thread.net and Weibo.
+    collapsed:: true
+    - 利用 RSSHUB + RSSTT 替代
     - WAITING [Introducing Threads: A New Way to Share With Text | Meta (fb.com)](https://about.fb.com/news/2023/07/introducing-threads-new-app-text-sharing/)
       - [New App - Threads API Documentation - 开发者帮助论坛 - Meta 开发者 (facebook.com)](https://developers.facebook.com/community/threads/1277329089818470/)
       - [Threads API (coursendy.com)](https://coursendy.com/threads-api)

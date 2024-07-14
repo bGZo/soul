@@ -1,4 +1,3 @@
-title:: custom-order-maid-3d2
 alias:: CUSTOM_ORDER_MAID_3D2_Its_a_Night_Magic
 description:: 3D定制女仆2 / カスタムオーダーメイド3D2 /
 tags:: #galgame, #hentai

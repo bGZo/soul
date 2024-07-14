@@ -1,9 +1,7 @@
 alias:: 游戏
 icon:: 🎮
 tags:: #ACGN
-title:: game
 created:: [[20230815]]
-title:: game
 
   - template:: game
     template-including-parent:: false

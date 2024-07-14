@@ -1,4 +1,3 @@
-title:: EggPlantEgg
 alias:: 茄子蛋
 tags:: #band
 wikipedia:: [茄子蛋 - 維基百科，自由的百科全書](https://zh.wikipedia.org/zh-hant/%E8%8C%84%E5%AD%90%E8%9B%8B)

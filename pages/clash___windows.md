@@ -1,4 +1,3 @@
-title:: clash/windows
 alias:: CFW
 tags:: #deprecated 
 source:: [Fndroid/clash_for_windows_pkg: A Windows/macOS GUI based on Clash](https://github.com/Fndroid/clash_for_windows_pkg)  ![](https://img.shields.io/github/stars/Fndroid/clash_for_windows_pkg)

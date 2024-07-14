@@ -1,11 +1,13 @@
 icon:: 📂
-tags:: #steam #DOING #project
+tags:: #steam
 created:: [[20230705]]
-title:: project/steam price badges
+mark:: 使用 iframe 嵌入页面更加简单；
 
 - ## Project Meta
-  collapsed:: true
-  - DOING #project [[project/steam price badges]]
+  - CANCELED #project [[project/steam price badges]]
+    :LOGBOOK:
+    CLOCK: [2024-07-14 Sun 20:42:55]
+    :END:
   - query-table:: false
     #+BEGIN_QUERY
     {:title [:h3 "Tasks related to Steam Price Badges"]
@@ -44,7 +46,6 @@ title:: project/steam price badges
     }
     #+END_QUERY
 - ## Why
-  collapsed:: true
   -
 - ## How
   - Build-in web application cannot fetch / request the right url, it would occur CORS error: #deprecated

@@ -1,7 +1,6 @@
 alias:: 命令
 icon:: ⌘
 created:: [[20230625]]
-title:: command
 
   - Linux Manual
     template:: command-man

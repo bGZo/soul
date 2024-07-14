@@ -1,4 +1,3 @@
-title:: Obviously
 alias:: 显然乐队, 顯然樂隊
 tags:: #band #taiwan
 created:: [[20230115]]

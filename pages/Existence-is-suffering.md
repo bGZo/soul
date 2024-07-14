@@ -1,4 +1,3 @@
-title:: Existence-is-suffering
 tags:: #my/blog, #fucking/reality #public
 
 - ## 出生即伤害, 存在即痛苦

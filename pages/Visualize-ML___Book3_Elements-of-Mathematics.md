@@ -1,4 +1,3 @@
-title:: Visualize-ML/Book3_Elements-of-Mathematics
 tags:: #maths #github #opensource
 created:: [[20230308]]
 author:: 生姜

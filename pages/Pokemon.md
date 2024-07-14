@@ -1,5 +1,4 @@
 alias:: game/pokemon
-title:: Pokemon
 - ## [[Cheat Sheet]]
   - 已发售
     collapsed:: true

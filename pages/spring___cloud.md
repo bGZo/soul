@@ -1,4 +1,3 @@
-title:: spring/cloud
 alias:: spring cloud
 tags:: #microserver
 -

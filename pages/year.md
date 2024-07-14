@@ -1,5 +1,4 @@
 icon:: 📅
-title:: year
 alias:: 年份
 
 - ## Why
@@ -42,8 +41,8 @@ alias:: 年份
     - #### Year [[award]]
       template:: year/review
       template-including-parent:: false
-      collapsed:: true
       - icon:: 🏆
+        alias:: year/``{ c.page.name }``
         created:: ``{ ref(date.now.format('YYYYMMDD')) }``
       - ## Anime Awards
         - ### Bangumi 班固米

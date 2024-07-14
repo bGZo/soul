@@ -5,7 +5,6 @@ document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://
 created:: [[20210801]]
 tags:: #tools
 collapsed:: true
-title:: logseq
 
 - ## Why
   - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[Privacy]], [[censor]], with high [[price]] and bullshit user agreement.

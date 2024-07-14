@@ -1,4 +1,3 @@
-title:: wsl
 alias:: Windows Subsystem For Linux
 tags:: #Windows #Linux #-nix #tools #github #microsoft
 github:: https://github.com/microsoft/WSL

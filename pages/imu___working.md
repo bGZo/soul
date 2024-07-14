@@ -1,4 +1,3 @@
-title:: imu/working
 description:: 就业指导与职业发展
 
 - 结课作业

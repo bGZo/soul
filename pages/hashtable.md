@@ -1,5 +1,4 @@
 alias:: data-structure/hash-table, 哈希表, 散列表
-title:: hashtable
 
 -
 -

@@ -1,6 +1,5 @@
 created:: [[20230912]]
 tags:: #apple
-title:: iPad
 
 - ## Why
   - [[logseq]]

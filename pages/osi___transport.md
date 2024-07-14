@@ -1,4 +1,3 @@
-title:: osi/transport
 description:: 建立**端到端**的连接
 
 - OSI/Transport

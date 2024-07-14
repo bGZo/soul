@@ -1,4 +1,3 @@
-title:: cpp/construct-function
 - # Construct Function
   - ## 显式/隐式 explicit/implicit
     - ```cpp

@@ -1,4 +1,3 @@
-title:: search/engine
 alias:: Search Engine
 - ## [[cheat/sheet]]
   collapsed:: true

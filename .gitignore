@@ -19,17 +19,8 @@ draws/
 logseq/.recycle/
 logseq/bak/
 
-# journals
-pages/%2Eenv.md
+# not public pages
 pages/LFH.md
-pages/2018.md
-pages/2019.md
-pages/2020.md
-pages/2020___archive.md
-pages/2021.md
-pages/2021___archive.md
-pages/2022.md
-pages/2023.md
 
 # config
 # logseq/custom.css

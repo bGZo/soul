@@ -1,5 +1,4 @@
 alias:: 声破天
-title:: spotify
 tags:: #music/platform
 cost:: 1
 created:: [[20220320]]

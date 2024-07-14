@@ -1,4 +1,3 @@
-title:: jdbc
 alias:: java database connectivity
 description:: a Java API that allows Java programs to connect and execute queries with various databases； a part of JavaSE (Java Standard Edition) and it consists of a set of interfaces and classes written in the Java programming language. JDBC provides a standard abstraction for Java applications to communicate with different database management systems
 tags:: #api #java/se

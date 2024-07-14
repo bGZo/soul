@@ -1,4 +1,3 @@
-title:: gamer.com.tw
 description:: 巴哈姆特
 
 - #sucks

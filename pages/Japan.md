@@ -1,5 +1,4 @@
 icon:: 🇯🇵
-title:: Japan
 alias:: 日本
 - ## Lang [[japanese]]
 - ## refs

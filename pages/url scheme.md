@@ -1,5 +1,4 @@
 collapsed:: true
-title:: url scheme
 alias:: deep-linking/mobile
 description:: link to a specific location within a mobile app rather than simply launching the app.
 wikipedia:: [Mobile deep linking - Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking); [List of URI schemes - Wikipedia](https://en.wikipedia.org/wiki/List_of_URI_schemes)

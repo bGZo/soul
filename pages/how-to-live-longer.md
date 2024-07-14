@@ -21,7 +21,7 @@ source:: [geekan/HowToLiveLonger: 程序员延寿指南 | A programmer's guide t
       - __早睡+43% ACM，晚睡+15% ACM（存在争议）__
     - 上下文
       - 体重：减肥（-54% ACM）
-- [[2022/archive]]
+- [[2022 archive]]
   - [红肉和白肉最大的区别是什么？为啥要这么分呢？ - 知乎](https://www.zhihu.com/question/67223570)
     collapsed:: true
     - 根据世界卫生组织的定义，「红肉」指的是**哺乳动物的肌肉**，常见的包括猪肉、牛肉、羊肉等等。鸡、鸭等禽肉和鱼、虾等水产，则统一被称为「白肉」。

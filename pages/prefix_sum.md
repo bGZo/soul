@@ -1,4 +1,3 @@
-title:: prefix_sum
 alias:: algo/prefix_sum, 前缀最大和, 前缀和
 
 - ## Inclusion and Exclusion(容斥原理/排容原理)

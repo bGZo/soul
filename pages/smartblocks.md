@@ -1,4 +1,3 @@
-title:: smartblocks
 tags:: #logseq/plugin
 created:: [[20221213]]
 

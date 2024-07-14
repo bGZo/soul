@@ -1,4 +1,3 @@
-title:: archive/zhihu/shi-guo-huai
 description:: 时国怀
 source:: [时国怀 - 知乎](https://www.zhihu.com/people/shi-guo-huai)
 collapsed:: true

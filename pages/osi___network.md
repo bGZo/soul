@@ -1,4 +1,3 @@
-title:: osi/network
 description:: 网络层
 
 -

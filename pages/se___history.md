@@ -1,4 +1,3 @@
-title:: se/history
 tags:: TODO
 - ## Flopped Events 翻车事件
   - 千禧年 Y2K 问题

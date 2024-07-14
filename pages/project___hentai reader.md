@@ -1,11 +1,10 @@
-description:: 变态阅读器
-tags:: #project #rss #[[github action]] #crawler #hentai
 icon:: 📂
+description:: 变态阅读器
+tags:: #rss #[[github action]] #crawler #hentai
 created:: [[20230614]]
-title:: Hentai Reader
 
 - ## Project Meta
-  - DONE #project Hentai Reader
+  - CANCELED #project Hentai Reader
   - query-table:: false
     #+BEGIN_QUERY
     {:title [:h3 "Tasks related to Hentai Reader"]

@@ -1,4 +1,3 @@
-title:: stream-of-consciousness
 alias:: literary/modernism/stream-of-consciousness
 description:: "泛指注重描绘人物意识流动状态的文学作品，既包括清醒的意识，更包括无意识、梦幻意识和语言前意识。“意识流”一词是心理学词汇，是在1918年梅·辛克莱评论英国陶罗赛·瑞恰生的小说《旅程》时引入文学界的。意识流文学是现代主义文学的重要分支，主要成就体现在小说领域，在戏剧、诗歌与电影等艺术体裁形式中也有所表现"
 

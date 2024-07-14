@@ -1,4 +1,3 @@
-title:: archive/wan-wei-gang
 description:: 万维刚
 collapsed:: true
 

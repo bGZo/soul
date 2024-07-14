@@ -3,7 +3,6 @@ created:: [[20240713]]
 
 -
 - what-about-my-character
-title:: draft/我的性格
 
 - 意识<=>能力
   |            |                             是我                             |              不是我              |

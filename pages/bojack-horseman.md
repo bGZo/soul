@@ -1,4 +1,3 @@
-title:: bojack-horseman
 alias:: 马男波杰克, Bojack, anime/bojack-horseman
 tags:: #animelist #WAIT
 created:: [[20200611]]

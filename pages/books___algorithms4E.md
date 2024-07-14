@@ -1,4 +1,3 @@
-title:: books/algorithms4E
 author:: Robert Sedgewick / Kevin Wayne / 谢路云
 publisher:: 人民邮电出版社
 published-date:: 20121001

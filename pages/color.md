@@ -1,4 +1,3 @@
-title:: color
 tags:: #design
 
 - ## Palette 调色板 🎨🔴🟠🟡🟢🔵🟣🟤

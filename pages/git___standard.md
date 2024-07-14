@@ -1,4 +1,3 @@
-title:: git/standard
 alias:: standard/git
 - Commit
   - ```bash

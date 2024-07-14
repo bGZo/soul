@@ -1,7 +1,6 @@
 alias:: js, lang/programming/javascript
 tags:: TODO, #[[web]]
 icon:: 
-title:: Javascript
 -
 - Asynchronous JavaScript
   collapsed:: true

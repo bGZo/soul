@@ -1,4 +1,3 @@
-title:: kramdown
 description:: parsing and converting a **superset** of Markdown
 tags:: #markdown #ruby/library #mit
 source:: [Home | kramdown](https://kramdown.gettalong.org/index.html)

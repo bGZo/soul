@@ -1,4 +1,3 @@
-title:: the-social-dilemma
 alias:: movie/监视资本主义
 author:: 杰夫·奥洛威斯基
 published:: 2020-09

@@ -1,5 +1,4 @@
 icon:: 🐱
-title:: cat
 alias:: 猫
 tags:: #Hobby
 cost:: 5

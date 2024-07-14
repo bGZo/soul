@@ -1,4 +1,3 @@
-title:: linux/system-call/fork
 -
 - Return
   id:: 63049e75-857f-4575-b888-4008ea57c54d

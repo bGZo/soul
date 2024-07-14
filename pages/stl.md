@@ -1,4 +1,3 @@
-title:: stl
 alias:: cpp/stl
 tags:: #[[data-structure]], #[[algorithm]]
 

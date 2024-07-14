@@ -1,4 +1,3 @@
-title:: podcast/episode
   - title:: 
     tags:: #podcast/episode
     created:: ``{ date.now.format('YYYYMMDD') }``

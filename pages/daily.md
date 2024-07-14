@@ -2,7 +2,6 @@ alias:: 每天
 icon:: 📅
 tags:: #scheduled
 created:: [[20230602]]
-title:: daily
 template:: daily
 template-including-parent:: false
 

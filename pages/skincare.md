@@ -1,4 +1,3 @@
-title:: skincare
 alias:: 护肤
 tags:: #TODO
 created:: [[20221128]]

@@ -2,7 +2,6 @@ alias:: mac/os
 tags:: os
 icon:: 🍎
 created:: [[20240609]]
-title:: macos
 
 - ## Why
 - ## How

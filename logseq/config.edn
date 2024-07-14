@@ -209,7 +209,7 @@
         :charge-range    600
  }
 
- :favorites ["inbox" "content checklist" "project checklist" "waiting checklist" "trash checklist" "navigation" "draft"]
+ :favorites ["draft" "navigation" "inbox" "content checklist" "project checklist" "waiting checklist" "trash checklist" "history/burden"]
 
 ;; :srs/learning-fraction 0.5
 

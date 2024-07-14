@@ -1,7 +1,6 @@
 alias:: 
 created::  [[20240324]]
 tags:: #github/repo #rss
-title:: DIYgod/RSSHub
 source:: https://github.com/DIYgod/RSSHub
 ![](https://img.shields.io/github/stars/DIYgod/RSSHub)
 

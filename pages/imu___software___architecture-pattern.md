@@ -1,4 +1,3 @@
-title:: imu/software/architecture-pattern
 tags:: [[software/pattern]], [[software/architecture]]
 
 -

@@ -1,4 +1,3 @@
-title:: the-little-prince
 alias:: book/the-little-prince
 tags:: #[[English]], #[[English/words]]
 author:: Antoine de Saint-Exupéry

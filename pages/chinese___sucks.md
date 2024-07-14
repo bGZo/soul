@@ -1,4 +1,3 @@
-title:: chinese/sucks
 tags:: #Chinese #sucks
 \#.ol
   - 创造力许可垄断, 敏感; [^WANGZZY]

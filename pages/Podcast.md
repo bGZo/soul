@@ -2,7 +2,6 @@ alias:: 播客
 icon:: 🎧
 tags:: #Hobby
 created:: [[20230603]]
-title:: Podcast
 
   - template:: podcast
     template-including-parent:: false

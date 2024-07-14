@@ -1,4 +1,3 @@
-title:: imu/linux
 email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
 -
 - 占 80%

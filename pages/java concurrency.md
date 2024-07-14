@@ -1,4 +1,3 @@
-title:: java concurrency
 alias:: concurrency/java, java 并发
 tags:: TODO
 

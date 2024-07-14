@@ -1,4 +1,3 @@
-title:: stl/vector
 alias:: cpp/stl/vector
 - assign: 替换旧元素为向量元素分配新值
   - ``` c++

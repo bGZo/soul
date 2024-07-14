@@ -1,4 +1,3 @@
-title:: billfish
 alias:: 尖嘴鱼
 tags:: #tools #font #photo #deprecated
 document:: [知识库 - Billfish素材管理工具](https://www.billfish.cn/category/knowledge/)

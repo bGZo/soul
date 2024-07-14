@@ -1,7 +1,6 @@
 alias:: tools/scoop
 created:: [[20240225]]
 tags:: #Windows #monthly
-title:: scoop
 
 - ## Why
   - [[commandline]]

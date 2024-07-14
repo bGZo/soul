@@ -1,4 +1,3 @@
-title:: asmr
 alias:: hobby/asmr, orgasm/asmr
 description:: Autonomous Sensory Meridian Response / 自主性感官经络反应 / 自发性知觉神经反应 / **颅内高潮(经络)** / 耳音 / 耳搔 / 大脑按摩 /大脑高潮
 description:: [ASMR - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/ASMR)

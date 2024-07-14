@@ -1,4 +1,3 @@
-title:: zsh
 tags:: #[[Linux Commandline]], #tools
 description:: https://github.com/bGZo/dotfiles
 

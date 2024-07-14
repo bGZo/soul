@@ -1,5 +1,4 @@
 icon:: 📖
-title:: better-never-to-have-been
 alias:: book/宁可不曾存在过, Better Never to Have Been The Harm of Coming Into Existence, Better Never to Have Been
 author:: David Benatar
 publisher:: Oxford University Press

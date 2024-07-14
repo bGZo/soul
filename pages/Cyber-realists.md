@@ -1,4 +1,3 @@
-title:: Cyber-realists
 source:: https://seths.blog/2021/08/cyber-realists/
 - Neither default position is defensible or sustainable
 - And yet, thanks for the vigilance and hard work of some folks, technology also has a long track record of making us safer, healthier and even happier.

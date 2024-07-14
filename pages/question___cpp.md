@@ -1,4 +1,3 @@
-title:: question/cpp
 alias:: cpp/question
 -
 - Notes

@@ -1,4 +1,3 @@
-title:: AmazingShow
 alias:: 美秀集團
 tags:: #band #taiwan
 created:: [[20230115]]

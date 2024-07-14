@@ -1,4 +1,3 @@
-title:: job/civil-service
 -
 - More
   - [一年半我考了11次公务员，内附考试细节，不看血亏_职业发展_牛客网](https://www.nowcoder.com/discuss/962449)

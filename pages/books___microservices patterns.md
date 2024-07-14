@@ -1,5 +1,4 @@
 icon:: 📖
-title:: books/microservices patterns
 alias:: book/微服务架构设计模式
 tags:: #microserver #java
 author:: [美] 克里斯·理查森（Chris Richardson）

@@ -1,4 +1,3 @@
-title:: jvm/class-loading
 tags:: TODO
 -
 - Class Life Cycle

@@ -1,4 +1,3 @@
-title:: spring/guides
 source:: https://spring.io/guides
 tags:: TODO
 -

@@ -1,4 +1,3 @@
-title:: shebang
 alias:: hashbang, sha-bang, sharp-exclamation, pound-bang, hash-pling, #!
 tags:: #Linux
 description:: In Linux, this behavior is the result of both kernel and user-space code

@@ -3,7 +3,6 @@ description:: 密不透风的墙, 什么都不会发生
 icon:: 🧱
 created:: [[20230602]]
 tags:: #networking, #China #censor
-title:: GFW
 background-image:: [obama_big_brother_is_watching_poster.jpeg](../assets/obama_big_brother_is_watching_poster_1674888986914_0.jpeg)
 
   - <!-- [Obama Big Brother Is Watching Poster | Zazzle](https://www.zazzle.co.uk/obama_big_brother_is_watching_poster-228974630743633129) -->

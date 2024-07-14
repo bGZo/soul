@@ -1,4 +1,3 @@
-title:: ruanyifeng/weekly
 alias:: 科技爱好者周刊
 tags:: #magazine #newsletter
 source:: [ruanyf/weekly: 科技爱好者周刊，每周五发布](https://github.com/ruanyf/weekly)

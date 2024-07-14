@@ -1,4 +1,3 @@
-title:: PKUFlyingPig/cs-self-learning
 tags:: #github #opensource #tutorial  #programming #roadmap/develop
 created:: [[20230324]]
 description:: [计算机自学指南](https://github.com/PKUFlyingPig/cs-self-learning) ![](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning)；[CS自学指南](https://csdiy.wiki/)

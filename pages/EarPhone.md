@@ -2,7 +2,6 @@ alias:: 耳机
 icon:: 🎧
 tags:: #3c
 created:: [[20230719]]
-title:: EarPhone
 - ## Why
 - ## How
 - ## What

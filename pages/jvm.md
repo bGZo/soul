@@ -1,4 +1,3 @@
-title:: jvm
 alias:: java/virtual-machine
 tags:: TODO
 

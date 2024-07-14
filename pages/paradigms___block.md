@@ -1,4 +1,3 @@
-title:: paradigms/block
 - 块和子程序是结构化编程的基础
   collapsed:: true
   - 结构化所强调的控制结构是用块来形成的

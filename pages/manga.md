@@ -1,6 +1,5 @@
 icon:: 📔
 alias:: comic, 漫画
-title:: manga
 tags:: #book #Hobby #ACGN
 template:: manga
 template-including-parent:: false

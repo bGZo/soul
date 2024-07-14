@@ -1,5 +1,4 @@
 icon:: 🇬🇧
-title:: English
 tags:: #lang
 
 -

@@ -1,4 +1,3 @@
-title:: os
 alias:: system/operating
 
 -
