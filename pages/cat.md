@@ -5,6 +5,7 @@ tags:: #Hobby
 cost:: 5
 created:: [[20230529]]
 public:: false
+
 - ## Why
   - In such a cruel world, you may feel lonely, you may feel that you're too small, to this society with highly industrialized. You would feel sense of belonging if tame it. I mean, you could get a new relationship with someone, even they cannot understand by your language. (See the article written by Su Gengsheng ((6474a8e3-3b3e-45be-ae77-17cbcdc2e226)))
   - And they just like your child, you need to take good care of them. You could play with them in your spare time. You would be the first, or even only person they own in their short lives. You need to know something, such as they really have no bad idea, they're weak, cute and friendly. (See ((4847f074-7bd0-4988-91c9-e46f80e46108)))
@@ -55,7 +56,7 @@ public:: false
     - ZIWI滋益巅峰最近推出的孩子和宠物的视频也让人动容，孩子和宠物，像是成人世界里的童话，天真的幻想、稚嫩的责任感和真挚的感情。这或许也是猫咪教给我们的事情，从孩子变成成年人，并不那么可怕，我们只是实现了孩童时期的梦想。
     - 这么一想，其实长大也没什么可怕。小时候我总觉得长大成人很恐怖，但是此刻再看，其实长大多好呀，我小时候做过的梦，此刻都在一一实现，我有了猫咪，有能力给他们健康的生活，他们能够更长远地陪伴我，我们都过得很快乐。
     - ![](https://mmbiz.qpic.cn/mmbiz_png/EibNoYLTccgia3FIprWEjazwBmeCmu6rEhujH5o6a9EicQhYQUX0b9tlKW0xxPk0VQT7IpKhbl1CxMowxvVBNictTA/640?wx_fmt=png)
-  - [[draft/sorry-for-cats-in-My-First-Half-of-Life]]
+  - [[public/我人生中对不起的几只猫]]
     - WAITING 我是不是一个适合养宠物的人?
       collapsed:: true
       - https://www.v2ex.com/t/834675

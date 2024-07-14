@@ -32,6 +32,7 @@ template-including-parent:: false
   - ## [[weekly/]]
     collapsed:: true
     - icon:: 📅
+      tags::
     - ## 这周发生了啥
       - ---
     - ## 对细小的声音，侧耳倾听
@@ -107,7 +108,7 @@ template-including-parent:: false
     * State "DONE" from "TODO" [2024-05-17 Fri 20:05]
     * State "DONE" from "TODO" [2024-05-26 Sun 22:40]
     :END:
-    - {{iframe https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f}}
+    - \{{iframe https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f}}
       #+BEGIN_CENTER
       [Edit this gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f/edit)
       #+END_CENTER
@@ -136,14 +137,4 @@ template-including-parent:: false
            seq -s", " 20231015 20231021 | xclip -selection clipboard
           ```
 - ## What
-  - 一些周报的正则替换规则
-    - blank
-      - `^[ ]+\n`
-      - ` \((🔥 |❄️ )?Score: \d+\+ in \d+ (minutes|minute|day|days|hour|hours)\)`
-      - `[ ]+相关推荐\n[ -]+\n[ ] +点击可下载ONE一个app\n`
-      - `- 紳士の庭 ♢绅士们的二次元资源分享交流平台♢`
-      - ` – 杯友之家名器飞机杯测评（mingqiceping.com）入门科普,推荐安利,买飞机杯名器必看的专业测评站！`
-    - `- `
-      - `- .*(回答|赞同|关注|发布)了(问题|回答|文章|回答|问题): `
-    - `[$1]($2)`
-      - `\[虚构类\](.*)\n[^]*?(https://book.douban.com/subject/\d+/)`
+  -

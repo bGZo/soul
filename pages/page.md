@@ -1,14 +1,17 @@
 template:: page
 template-including-parent:: false
+icon:: 📄
 
   - alias:: 
     created:: ``{ ref(date.now.format('YYYYMMDD')) }``
     description:: 
-    icon:: 
-    title::  ``{ c.page.name }``
+    icon:: 📄
   - ## Why
     -
   - ## How
     -
   - ## What
     -
+  - ## ↩ Reference
+    -
+-

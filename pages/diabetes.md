@@ -1,5 +1,6 @@
 alias:: 糖尿病
 created:: [[2022]]
+
 - diabetes mellitus, DM
   - 一型 (制造)
   - 二型 (足量分泌)

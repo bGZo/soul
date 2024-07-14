@@ -6,11 +6,11 @@ title:: python documents
 - ## Why
 - ## How
 - ## What
-  - Here is some documents:
-    collapsed:: true
-    - {{iframe [404 Not Found](https://docs.python.org/zh-cn}})
-      [Python Documentation](https://docs.python.org)
+  - Python documents:
+    - {{iframe https://docs.python.org/zh-cn,40vh,iframe-radius}}
     -
+    - {{iframe [404 Not Found](}})
+      [Python Documentation](https://docs.python.org)
     - [ThinkPython2](https://github.com/AllenDowney/ThinkPython2)
     - [Python-Tutorial-Vamei](https://github.com/Vamei/Python-Tutorial-Vamei)
     - [PyZh|利用readthedocs的Python技术文章的收集和翻译](https://github.com/MrKiven/PyZh)

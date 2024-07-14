@@ -1,5 +1,6 @@
 title:: database
 alias:: 数据库
+
 - ## [[Quickref]]
 -
 -
@@ -7,6 +8,7 @@ alias:: 数据库
 -
 -
 - More
+  collapsed:: true
   - People in DataBase Object,  You Should Know
     - 1973年 Charles W. Bachman(1924-2017) 网状数据库技术
     - 1981年 Edgar F. Codd (1923－2003 )数据库系统，尤其是关系型数据库

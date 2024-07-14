@@ -2,6 +2,7 @@ title:: rick-and-morty
 alias:: anime/rick-and-morty, 瑞克与莫迪, R&M, 瑞莫, Rick and Morty
 tags:: #america
 created:: [[20221202]]
+
 - #Comment
   - 周扒片
     collapsed:: true

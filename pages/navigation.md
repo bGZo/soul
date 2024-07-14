@@ -252,7 +252,7 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
       - [Download subtitles from Youtube, Viki, Viu, Kocowa, Wetv and more](https://downsub.com) #Youtube
         id:: 6424f25c-07a0-4533-ae3e-73e33f674fa1
   -
-  - ### 📺 [[Anime]]
+  - ### 📺 [[anime]]
     - [番组放送](https://bgmlist.com/)  #opensource
     - [M站_哔咪动漫,哔咪哔咪, 这里是兴趣使然的无名小站_bimibimi](https://www.bimiacg4.net/) #rss
     - [NEP.Anime | 动画仓库](https://t.me/AnimeNep) [↩](tg://resolve?domain=AnimeNep)
@@ -340,9 +340,9 @@ description:: [Bookmark - Wikipedia](https://en.wikipedia.org/wiki/Bookmark)
     -
     - ### 😍📺 [[ACGN]]
       - [D1DM 第一動漫 線上看動畫 ‣ 免費線上觀看高畫質最新最熱動漫盡在此地](https://d1-dm.online/)
-        #Anime #ban/japan
+        #anime #ban/japan
       - [Hanime1.me - H動漫/裏番/線上看](https://hanime1.me/)
-        #Anime
+        #anime
       - [哔咔漫画](http://picacgp.com/) #manga
       - [E-Hentai Galleries - The Free Hentai Doujinshi, Manga and Image Gallery System](https://e-hentai.org/) #manga
       - [nhentai: hentai doujinshi and manga](https://nhentai.net/) #manga

@@ -1,6 +1,6 @@
-tags:: #[[consume]]
+alias:: 买
+tags:: consume
 
-- ## [[template]]
   - template:: buy
     type:: to-buy-list
     name:: 
@@ -9,14 +9,13 @@ tags:: #[[consume]]
     rmb:: 
     source:: 
     description::
--
-  - query-properties:: [:name :tags :rmb :url ]
-    #+BEGIN_QUERY
-    { :title ["To Buy It"]
-      :query (property type to-buy-list)
-      :table-view? true
-    }
-    #+END_QUERY
+- query-properties:: [:name :tags :rmb :url ]
+  #+BEGIN_QUERY
+  { :title ["To Buy It"]
+    :query (property type to-buy-list)
+    :table-view? true
+  }
+  #+END_QUERY
 - 软路由
 - 背包
 - 手机pp壳
