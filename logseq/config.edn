@@ -1,118 +1,89 @@
+; this config.edn refer those:
+; https://github.com/logseq/logseq/blob/master/src/resources/templates/config.edn
+; https://gist.github.com/tallguyjenks/6afc75e52a3d52d475b9df9dafdecfd2
+; https://gist.github.com/tiensonqin/d871dcba33c4be460fabb3add0840276
+
 {:meta/version 1
+
  :preferred-format "Markdown"
 
- ;; Preferred workflow style.
  :preferred-workflow :todo
 
- ;; The app will ignore those directories or files.
- ;; E.g. :hidden ["/archived" "/test.md" "../assets/archived"]
  :hidden [ "/utils" ]
 
- ;; When creating the new journal page, the app will use your template if there is one.
- ;; You only need to input your template name here.
- :default-templates {:journals "daily"}
+ :default-templates {
+        :journals "daily"
+        :pages "page" ;; wish one day could be supported.
+ }
 
- ;; Whether to enable hover on tooltip preview feature
- ;; Default is true, you can also toggle this via setting page
- :ui/enable-tooltip? false
+ :journal/page-title-format "yyyyMMdd"
 
- ;; Enable Block timestamp
+ :journal/file-name-format "yyyyMMdd"
+
+ :ui/enable-tooltip? true
+
+ :ui/show-brackets? false
+
+ :ui/show-full-blocks? true
+
+ :ui/auto-expand-block-refs? true
+
  :feature/enable-block-timestamps? false
 
- ;; Enable remove accents when searching.
- ;; After toggle this option, please remember to rebuild your search index by press (cmd+c cmd+s).
  :feature/enable-search-remove-accents? true
 
- ;; Disable Built-in Scheduled and deadline Query
+ :feature/enable-journals? true
+
+ :feature/enable-whiteboards? true
+
+ :feature/enable-flashcards? true
+
  :feature/disable-scheduled-and-deadline-query? true
 
- ;; Specify the date on which the week starts.
- ;; Goes from 0 to 6 (Monday to Sunday), default to 6
+ :scheduled/future-days 14
+
  :start-of-week 6
 
- ;; @import url('https://cdn.jsdelivr.net/gh/dracula/logseq@master/custom.css');
- ;; :custom-css-url "@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap');"
+ ;; :custom-css-url "@import url('');"
 
- ;; Set Bullet indentation when exporting, default option: tab
+ ;; :custom-js-url ""
+
+ ;; :arweave/gateway "https://arweave.net"
+ ;; via: https://www.reddit.com/r/logseq/comments/1apvfht/arweave_whats_that/
+
  :export/bullet-indentation :two-spaces
 
- ;; Whether export all pages within that repo or not.
  :publishing/all-pages-public? true
 
- ;; Specify default home page and sidebar status for Logseq
- ;; If not specified, Logseq default opens journals page on startup
- ;; value for `:page` is name of page
- ;; Possible options for `:sidebar` are
- ;; 1. `"Contents"` to open up `Contents` in sidebar by default
- ;; 2. `page name` to open up some page in sidebar
- ;; 3. Or multiple pages in an array ["Contents" "Page A" "Page B"]
- ;; If `:sidebar` is not set, sidebar will be hidden
- ;; Example:
- ;; 1. Setup page "Changelog" as home page and "Contents" in sidebar
- ;; :default-home {:page "Changelog", :sidebar "Contents"}
- ;; 2. Setup page "Jun 3rd, 2021" as home page without sidebar
- ;; :default-home {:page "Jun 3rd, 2021"}
- ;; 3. Setup page "home" as home page with multiple pages in sidebar
- ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
+ :default-home {
+        :page "Contents",
+        :sidebar ["inbox" "content checklist" "project checklist"]
+ }
 
- ;; Tell logseq to use a specific folder in the repo as a default location for notes
  :pages-directory "pages"
 
- ;; Tell logseq to use a specific folder in the repo as a default location for journals
  :journals-directory "journals"
 
- ;; If you prefer to use the file name as the page title
- ;; instead of the first heading's title
- ;; the only option for now is `file`
- ;; :page-name-order "file"
+ :whiteboards-directory "whiteboards"
 
- ;; Setup custom shortcuts under `:shortcuts` key
- ;; Syntax:
- ;; 1. `+` means keys pressing simultaneously. eg: `ctrl+shift+a`
- ;; 2. ` ` empty space between keys represents key chords. eg: `t s` means press `s` follow by `t`
- ;; 3. `mod` means `Ctrl` for Windows/Linux  and `Command` for Mac
- ;; 4. use `false` to disable particular shortcut
- ;; 4. you can mark::  multiple bindings for one action, eg `["ctrl+j" "down"]`
- ;; full list of configurable shortcuts are available below:
- ;; https://github.com/logseq/logseq/blob/master/src/main/frontend/modules/shortcut/config.cljs
- ;; Example:
- ;; :shortcuts
- ;; {:editor/new-block       "enter"
- ;;  :editor/new-line        "shift+enter"
- ;;  :editor/insert-link     "mod+shift+k"
- ;;  :editor/hightlight       false
- ;;  :ui/toggle-settings     "t s"
- ;;  :editor/up              ["ctrl+k" "up"]
- ;;  :editor/down            ["ctrl+j" "down"]
- ;;  :editor/left            ["ctrl+h" "left"]
- ;;  :editor/right           ["ctrl+l" "right"]}
  :shortcuts {}
 
- ;; By default, pressing `Enter` in the document mode will create a new line.
- ;; Set this to `true` so that it's the same behaviour as the usual outliner mode.
  :shortcut/doc-mode-enter-for-new-block? false
 
- ;; Block content larger than `block/content-max-length` will not be searchable
- ;; or editable for performance.
  :block/content-max-length 20000
 
- ;; Whether to show command doc on hover
  :ui/show-command-doc? true
 
- ;; Whether to show empty bullets for non-document mode (the default mode)
  :ui/show-empty-bullets? false
 
- ;; Pre-mark:: d :view function to use in Query
  :query/views
  {:pprint
   (fn [r] [:pre.code (pprint r)])}
 
- ;; Pre-mark:: d :result-transform function to use in Query
  :query/result-transforms
  {:sort-by-priority
   (fn [result] (sort-by (fn [h] (get h :block/priority "Z")) result))}
 
- ;; The app will show those queries in today's journal page,
  :default-queries
  {:journals[
             ;; the "NOW" query asks the tasks which need to be finished "now",
@@ -180,24 +151,28 @@
              :collapsed? true}
             ]}
 
-
- ;; Add your own commands to slash menu to speedup.
  :commands[
-         ;; without plugin dependencies, need to restart logseq
-         ;; via: https://github.com/logseq/logseq/discussions/7976
+           ;; without plugin dependencies, need to restart logseq
+           ;; via: https://github.com/logseq/logseq/discussions/7976
            ["prefix/bilibili" "https://www.bilibili.com/video/"]
            ["prefix/youtube" "https://youtube.com/watch?v="]
-		   ["prefix/github" [[:editor/input "https://raw.githubusercontent.com//main/" {:backward-pos 6}]]]
-		   ["prefix/github/cdn" [[:editor/input "https://rawcdn.githack.com//main/" {:backward-pos 6}]]]
-           ["iframe" [[:editor/input "{{iframe ,300}}\n#+BEGIN_CENTER\nvia: \n#+END_CENTER" {:backward-pos 40}]]]
-		   ["iframe/steam" [[:editor/input "{{{iframe https://store.steampowered.com/widget/ ,200}}}" {:backward-pos 8}]]]
-         ;; depend on plugin
-           
+           ["prefix/github" [[:editor/input "https://raw.githubusercontent.com//main/" {:backward-pos 6}]]]
+           ["prefix/github/cdn" [[:editor/input "https://rawcdn.githack.com//main/" {:backward-pos 6}]]]
+           ["iframe" [[:editor/input "{{iframe ,40vh,iframe-radius}}" {:backward-pos 21}]]]
+           ["iframe/steam" [[:editor/input "{{iframe https://store.steampowered.com/widget/ ,200px}}" {:backward-pos 9}]]]
+           ;; ["python code" [[:editor/input "```python\n\n```" {:backward-pos 4}]]]
+           ;; ["cpp code" [[:editor/input "```cpp\n\n```" {:backward-pos 4}]]]
+           ;; ["java code" [[:editor/input "```java\n\n```" {:backward-pos 4}]]]
+           ;; ["shell code" [[:editor/input "```shell\n\n```" {:backward-pos 4}]]]
+           ;; https://discuss.logseq.com/t/macros-and-commands-lets-share/9565
+           ;; https://discuss.logseq.com/t/wish-add-the-code-block-by-using/12681
+           ;; https://github.com/logseq/logseq/issues/9198
+
+           ;; depend on plugin
+           ["ifame/plugin" "{{renderer :template, iframe}}"]
+           ["draft" "{{renderer :template, draft}}"]
            ["page" "{{renderer :template, page}}"]
            ["weekly" "{{renderer :template, weekly}}"]
-           ["ifame/plugin" "{{renderer :template, iframe}}"]
-
-           
            ["anime" "{{renderer :template, anime}}"]
            ["book" "{{renderer :template, book}}"]
            ["leetcode" "{{renderer :template, leetcode}}"]
@@ -207,131 +182,94 @@
            ["project" "{{renderer :template, project}}"]
            ["man" "{{renderer :template, command-man}}"]
            ["year review" "{{renderer :template, year/review}}"]
-           ;; https://discuss.logseq.com/t/macros-and-commands-lets-share/9565
-           ;; ["python code" [[:editor/input "```python\n\n```" {:backward-pos 4}]]]
-           ;; ["cpp code" [[:editor/input "```cpp\n\n```" {:backward-pos 4}]]]
-           ;; ["java code" [[:editor/input "```java\n\n```" {:backward-pos 4}]]]
-           ;; ["shell code" [[:editor/input "```shell\n\n```" {:backward-pos 4}]]]
-           ;; https://discuss.logseq.com/t/wish-add-the-code-block-by-using/12681
-           ;; https://github.com/logseq/logseq/issues/9198
-           ]
+          ]
 
- ;; By default, a block can only be collapsed if it has some children.
- :outliner/block-title-collapse-enabled? false ;; true, prefermance matters
+ :outliner/block-title-collapse-enabled? false ;; NOTE: the prefermance of logseq will be slowed down.
 
- ;; Macros replace texts and will make you more productive.
  :macros {
-          "iframe" "<iframe src='$1' style='height:$2px;'></iframe>"
-          }
+       "iframe" "<iframe src='$1' style='height:$2' class='$3' allow='fullscreen'/><div class='text-center'>via: <a href='$1' target='_blank' class='external-link'>$1</a></div>"
+ }
 
- ;; The default level to be opened for the linked references.
+ ;''
+
  :ref/default-open-blocks-level 2
 
- :favorites ["inbox" "content checklist" "project checklist" "waiting checklist" "trash checklist" "navigation"]
+ :ref/linked-references-collapsed-threshold 0
 
- :ref/linked-references-collapsed-threshold 20
+ :graph/settings {
+        :orphan-pages?   true
+        :builtin-pages?  false
+        :excluded-pages? false
+        :journal?        false
+ }
 
- :feature/enable-encryption? false
+ :graph/forcesettings {
+        :link-dist       180
+        :charge-strength -600
+        :charge-range    600
+ }
 
- :journal/page-title-format "yyyyMMdd"
- 
- :journal/file-name-format "yyyyMMdd"
- 
- :feature/enable-journals? true
+ :favorites ["inbox" "content checklist" "project checklist" "waiting checklist" "trash checklist" "navigation" "draft"]
 
- :ui/show-brackets? false
+;; :srs/learning-fraction 0.5
 
- ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
- ;; :srs/learning-fraction 0.5
+;; :srs/initial-interval 4
 
- ;; the initial interval after the first successful review of a card (default 4)
- ;; :srs/initial-interval 4
+ :block-hidden-properties #{:public :title :icon}
 
- ;; hide specific properties for blocks
- ;; E.g. :block-hidden-properties #{:created-at :updated-at}
- ;; :block-hidden-properties #{}
-
- ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
 
- ;; Properties to exclude from having property pages
- ;; E.g.:property-pages/excludelist #{:duration :author}
- ;; :property-pages/excludelist
+;; :property-pages/excludelist #{:duration :author}
 
- ;; Enables property values to contain a mix of tags, page-refs, special
- ;; punctuation and free-form text.
- ;; Re-index current graph for config to take effect
- ;; :rich-property-values? true
+;; :property/separated-by-commas #{:alias :tags}
 
- ;; logbook setup
- ;; :logbook/settings
- ;; {:with-second-support? false ;limit logbook to minutes, seconds will be eliminated
- ;;  :enabled-in-all-blocks true ;display logbook in all blocks after timetracking
- ;;  :enabled-in-timestamped-blocks false ;don't display logbook at all
- ;; }
+;; :ignored-page-references-keywords #{:author :website}
 
- ;; Mobile photo uploading setup
- ;; :mobile/photo
- ;; {:allow-editing? true}
+;; :logbook/settings
+;; {:with-second-support? false ;limit logbook to minutes, seconds will be eliminated
+;;  :enabled-in-all-blocks true ;display logbook in all blocks after timetracking
+;;  :enabled-in-timestamped-blocks false ;don't display logbook at all
+;; }
 
- ;; Mobile features options
- ;; Gestures
- ;; :mobile
- ;; {:gestures/disabled-in-block-with-tags ["kanban"]}
+;; :mobile/photo
+;; {:allow-editing? true
+;;  :quality        80}
 
- ;; Extra CodeMirror options
- ;; NOTE: I don't use linewrap because my quote code is really long, 
- ;; and then the main part is always wrapped. read it sucks...  
+;; :mobile
+;; {:gestures/disabled-in-block-with-tags ["kanban"]}
+
  :editor/extra-codemirror-options {
-                                   ;:lineWrapping true 
-                                   ;:theme "rdark"
-                                   }
- ;; ignore #+keyword: for parsing page references in orgmode
- ;; :ignored-page-references-keywords #{"author" "startup"}
+        :lineWrapping   false  ; when code is long, read really sucks 
+        :lineNumbers    true
+        :readOnly       false
+        ;:theme "rdark"
+ }
 
- ;; Quick capture templates on mobile for recieving contents from other apps.
- ;; Each template contains three elements {time}, {text} and {url}, which can be auto-expanded
- ;; by received contents from other apps. Note: the {} cannot be omitted.
- ;; - {time}: capture time
- ;; - {text}: text that users selected before sharing.
- ;; - {url}: url or assets path for media files stored in Logseq.
- ;; You can also reorder them, or even only use one or two of them in the template.
- ;; You can also insert or format any text in the template as shown in the following examples.
- ;; :quick-capture-templates
- ;; {:text "[[quick capture]] **{time}**: {text} from {url}"
- ;;  :media "[[quick capture]] **{time}**: {url}"}
+ :editor/logical-outdenting? true
 
- ;; File sync options
- ;; Ignore these files when syncing, regexp is supported.
- ;; :file-sync/ignore-files []
+ :editor/preferred-pasting-file? true
 
- ;; dwim (do what I mean) for Enter key when editing.
- ;; Context-awareness of Enter key makes editing more easily
- ; :dwim/settings {
- ;   :admonition&src?  true
- ;   :markup?          false
- ;   :block-ref?       true
- ;   :page-ref?        true
- ;   :properties?      true
- ;   :list?            true
- ; }
+;; :quick-capture-templates
+;; {:text "[[quick capture]] **{time}**: {text} from {url}"
+;;  :media "[[quick capture]] **{time}**: {url}"}
+
+;; :quick-capture-options
+;; {:insert-today? false           ;; Default value: true
+;;  :redirect-page? false          ;; Default value: false
+;;  :default-page "quick capture"} ;; Default page: "quick capture"
+
+;; File sync options
+;; Ignore these files when syncing, regexp is supported.
+;; :file-sync/ignore-files []
+
+;; :dwim/settings
+;; {:admonition&src?  true        ;; Default value: true
+;;  :markup?          false       ;; Default value: false
+;;  :block-ref?       true        ;; Default value: true
+;;  :page-ref?        true        ;; Default value: true
+;;  :properties?      true        ;; Default value: true
+;;  :list?            false}      ;; Default value: false
 
  :file/name-format :triple-lowbar
 
- :feature/enable-timetracking? false
-
- :feature/enable-whiteboards? true
-
- :feature/enable-flashcards? true
-
- :ui/show-full-blocks? true
-
- :ui/auto-expand-block-refs? false
- 
- :editor/logical-outdenting? true
- 
- :editor/preferred-pasting-file? true
- 
- :default-home {:page "Contents"}
- 
  }
