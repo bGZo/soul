@@ -1571,7 +1571,7 @@ source:: https://book.douban.com/subject/19952400
     - TODO exercise
   -
   - $$学习一个新的算法 == 思路 + 代码 + 算法轨迹$$
-    tags:: #[[TIL]], #[[programming]]
+    tags:: #[[til]], #[[programming]]
 - TODO FIND
 - TODO STRING
 - TODO BACKGROUND

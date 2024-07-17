@@ -1,7 +1,7 @@
 alias:: commands/crontab
 description:: Job scheduler on Unix-like operating systems | 定期运行的作业
 icon:: ⌘
-tags:: #Linux
+tags:: #linux
 created:: [[20230625]]
 wikipedia:: [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron)
 

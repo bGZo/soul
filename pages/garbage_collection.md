@@ -1,5 +1,5 @@
 alias:: Garbage Collection, 垃圾回收
-tags:: #python \#.olang #ruby #Javascript
+tags:: #python \#.olang #ruby #lang/programming/javascript
 
 - [Garbage collection (computer science) - Wikipedia](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
 -

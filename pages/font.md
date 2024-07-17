@@ -26,7 +26,7 @@ created:: [[20230821]]
       Profromence differences are related with [**CJK Unified Ideographs**](https://en.wikipedia.org/wiki/CJK_Unified_Ideographs), and relating to [CJK Font](https://en.wikipedia.org/wiki/List_of_CJK_fonts). And Some Font display the Japan Font as default pattern, such this `Mircosoft YaHei` in ubuntu when the sys encoding is `US_Utf-8`, but why the window is not such situation?<sup>[3](#j3)</sup>. Some more details [FAQ](https://www.unicode.org/faq/han_cjk.html) with it. By th way, Japan encodes CIJ and Chinese encodes GB.
     -
   -
-  - DONE [[Linux]] [^linux]
+  - DONE [[linux]] [^linux]
     collapsed:: true
     - 单就字体渲染来说，Windows一直走在最前面。Linux因为其特殊的用途，在桌面方面一直落后于Windows。**在CRT时代，Windows有清晰的点阵字体，Linux使用的却是粗陋、显示为方框或乱码的中文字体。到了液晶屏时代，Windows花巨款买下微软雅黑字体版权，Linux却刚刚用上文泉驿点阵字体**。毕竟商业巨头，微软非常照顾自己用户的体验，在字体渲染方面，针对汉字过于复杂的“缺点”，豪掷百万美元买下1种针对PC显示器优化的微软雅黑字体，可谓用心良苦！
     - 由于中文字体笔画复杂的特点，在以前的低分屏和现在仍大量使用的中分屏上，中文字体显示一直是个难题。低分屏或中分屏的ppi都太低，肉眼可见屏幕像素颗粒，因此设计师精心设计的大量漂亮字体在电脑屏幕上几乎全都不好用，需要做大量优化、微调的工作，才能显示**“清晰易辨”**的中文字体。

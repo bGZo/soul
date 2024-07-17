@@ -1,5 +1,5 @@
 alias:: Windows Subsystem For Linux
-tags:: #Windows #Linux #-nix #tools #github #microsoft
+tags:: #Windows #linux #nix #tools #github #microsoft
 github:: https://github.com/microsoft/WSL
 created:: [[202104]]
 ![](https://img.shields.io/github/stars/microsoft/WSL)

@@ -1,5 +1,5 @@
 icon:: 🐧
-tags:: Commandline, #Linux
+tags:: Commandline, #linux
 
 - ## [[Quickref]]
   collapsed:: true

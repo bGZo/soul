@@ -45,7 +45,7 @@ closed:: [[20230227]]
     - 建议17：考虑兼容性，尽可能使用Unicode
       - 要解决示例一的乱码问题可以使用Unicode作为中间介质来完成转换。首先需要对读入的字符用UTF-8进行解码，然后再用GBK进行编码
         - ==我觉得，不如全都用 UTF-8 编解码（关键是Windows命令行也使用 UTF-8），放弃GBK 😅；编码这方面，Windows 家庭中文版总是埋下一个大坑，Linux 就没有这个问题==
-          #Windows #Linux
+          #Windows #linux
     - 建议18：构建合理的包层次来管理module
   - 第3章 基础语法
     - 建议19：有节制地使用from...import语句

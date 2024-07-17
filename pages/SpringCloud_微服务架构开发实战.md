@@ -241,7 +241,7 @@ description:: [cd826/springcloud-demo: Spring cloud demo projects](https://githu
             ```
             ![idea64_46.png](../assets/book_SpringCloud_微服务架构开发实战/idea64_46_1673420429327_0.png)
         - 数据管理
-          - ORM / Object Relational Mapping #Framework
+          - ORM / Object Relational Mapping #framework
             - Hibernate
               description:: 辅助我们将业务对象通过映射的方式存储到数据库中，而不需要使用最原始的SQL语言
           - JPA / Java Persistence API / Java持久性规范

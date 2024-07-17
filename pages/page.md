@@ -12,6 +12,7 @@ icon:: 📄
     -
   - ## What
     -
+  - ## Hierarchy
+    - {{namespace ``{c.page.name}``}}
   - ## ↩ Reference
     -
--

@@ -1,4 +1,5 @@
 alias:: Linux/system-call/sed, commands/sed
+
 - vs [[vim]]
   - 全文本编辑器 vs 行编辑器
     - 非 / 交互

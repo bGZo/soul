@@ -773,7 +773,7 @@ tags:: #Job, #DONE, byd
       - [qianguyihao/Web: 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。](https://github.com/qianguyihao/Web) ![](https://img.shields.io/github/stars/qianguyihao/Web)
       - [ftTony/learning-map: 前端知识思维导图](https://github.com/ftTony/learning-map)![](https://img.shields.io/github/stars/ftTony/learning-map)
       - [CavsZhouyou/Front-End-Interview-Notebook: 前端面试复习笔记](https://github.com/CavsZhouyou/Front-End-Interview-Notebook) ![](https://img.shields.io/github/stars/CavsZhouyou/Front-End-Interview-Notebook)
-      - 学会用 [[Javascript]] 爬虫
+      - 学会用 [[lang/programming/javascript]] 爬虫
         collapsed:: true
         - [使用JavaScript写爬虫 - 知乎](https://zhuanlan.zhihu.com/p/53763115)
     - Pass the verify;

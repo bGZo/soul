@@ -1,4 +1,5 @@
 tags:: TODO, framework
+
 -
 - Flask is flexible. It doesn’t require you to use any particular project or code layout.
 - However, when first starting, it’s helpful to use a more structured approach. This means that the tutorial will require a bit of boilerplate up front, but it’s done to avoid many common pitfalls that new developers encounter, and it creates a project that’s easy to expand on.

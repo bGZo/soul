@@ -1,4 +1,5 @@
 alias:: Inter Process Communication, 进程间通信
+
   - 通信类
     collapsed:: true
     - 在进程之间传递消息，交换数据
@@ -9,7 +10,7 @@ alias:: Inter Process Communication, 进程间通信
     collapsed:: true
     - 协调进程间的操作
       - 某些操作，多个进程不能同时执行，否则可能会产生错误的结果
-- ## [[Linux]] #linux/kernel
+- ## [[linux]] #linux/kernel
   collapsed:: true
   - ## PIPE
     collapsed:: true

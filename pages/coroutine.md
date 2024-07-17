@@ -1,6 +1,5 @@
-alias:: concurrency/coroutine
+alias:: concurrency/coroutine, 协程
 tags:: TODO
-description:: "协程"
 
 -
 - 协程

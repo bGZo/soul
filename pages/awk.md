@@ -2,6 +2,7 @@ alias:: Linux/system-call/awk
 :LOGBOOK:
 CLOCK: [2022-09-28 Wed 09:39:46]
 :END:
+
 - #vs [[sed]]
   collapsed:: true
   - `swk` 统计较为规范的文本

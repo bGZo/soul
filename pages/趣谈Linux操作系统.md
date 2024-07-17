@@ -1,4 +1,4 @@
-tags:: #geekbang, #Linux
+tags:: #geekbang, #linux
 
 - ## 入门
   - ## Why?

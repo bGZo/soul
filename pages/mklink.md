@@ -1,6 +1,7 @@
 alias:: commands/cmd/mklink
 tags:: TODO
-  - same as [[commands/ln]] in [[-nix]]
+
+  - same as [[commands/ln]] in [[nix]]
 -
 - WAITING Onedrive don't support symbolic link to snyc data, wait for it Or chose other plugin/substitute
   collapsed:: true

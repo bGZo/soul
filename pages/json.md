@@ -1,4 +1,4 @@
-tags:: #[[Javascript]]
+tags:: #[[lang/programming/javascript]]
 description:: **J**ava**S**cript **O**bject **N**otation
 
   - 通过键来引用值

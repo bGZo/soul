@@ -22,7 +22,7 @@ created:: [[20230625]]
     #+END_NOTE
 - ## How
 - ## What
-  - ### On [[Linux]]
+  - ### On [[linux]]
     collapsed:: true
     - ### Category refer to [菜鸟教程](https://www.runoob.com/linux/linux-command-manual.html) \#.ol
       collapsed:: true
