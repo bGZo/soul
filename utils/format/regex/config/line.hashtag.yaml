@@ -1,0 +1,4 @@
+regex: '^([ ]+)#([^#]+)'
+rules: '\1\#\2'
+sort: 1
+type: 'line'
