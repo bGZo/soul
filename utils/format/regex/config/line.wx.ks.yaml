@@ -1,0 +1,7 @@
+regex: '^([ ]+)(点击上方蓝字 KnowYourself>  右上角 ··· >设为星标⭐️\n)'
+rules: '\1collapsed:: true\n\1  - '
+sort: 1
+type: 'line'
+
+
+

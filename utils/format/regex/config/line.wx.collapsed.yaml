@@ -1,0 +1,5 @@
+regex: '^([ ]+)(原创.+\n)'
+rules: '\1collapsed:: true\n\1  - \2'
+sort: 1
+type: 'line'
+
