@@ -1,19 +1,83 @@
-tags:: #programming, #project
+alias:: 
+description::
+icon:: 📂
+tags::  #programming
+created:: 20240721
+title:: project/the programmer idea book
 
-  - TODO ![THE PROGRAMMERS IDEA BOOK](../assets/book_the_programmer_idea_book.pdf)
+- ## Project Meta
+  - DOING #project [[project/the programmer idea book]]
+    SCHEDULED: <2024-07-21 Sun 00:00 .+3d>
     :LOGBOOK:
-    * State "DONE" from "TODO" [2023-03-20 Mon 23:22]
-    * State "DONE" from "TODO" [2023-05-02 Tue 22:42]
+    CLOCK: [2024-07-21 Sun 22:36:48]
     :END:
-    \SCHEDULED: <2023-09-05 Fri .+3d>
-  - title:: [karan/Projects](https://github.com/karan/Projects) ![](https://img.shields.io/github/stars/karan/Projects)
-    tags:: #github #opensource
-    created:: 20230320
-    description:: A list of practical projects that anyone can solve in any programming language.
-  - title:: [GitHub - karan/Projects-Solutions](https://github.com/karan/Projects-Solutions) ![](https://img.shields.io/github/stars/karan/Projects-Solutions)
-    tags:: #github #opensource
-    created:: 20230321
-    description:: Links to others' solutions to Projects (https://github.com/karan/Projects/)
+  - query-table:: false
+    collapsed:: true
+    #+BEGIN_QUERY
+    {:title [:h3 "Tasks related to project/the programmer idea book"]
+    :query [:find (pull ?b [*])
+       :in $ ?current-page
+       :where
+       [?p :block/name ?current-page]
+       [?b :block/marker ?marker]
+    [?p :block/alias ?al]
+    (or [?b :block/refs ?p] [?b :block/refs ?al])
+    (or
+       [(= "NOW" ?marker)]
+       [(= "DOING" ?marker)]
+       [(= "WAITING" ?marker)]
+       [(= "LATER" ?marker)]
+    )
+    (not [?b :block/page ?p])
+    ]
+    :inputs [:current-page]
+    :result-transform (fn [result]
+                        (sort-by (fn [b]
+                                   (get b :block/priority "Z")) result))
+    :breadcrumb-show? false
+    :table-view? false
+    }
+    #+END_QUERY
+  - query-table:: false
+    collapsed:: true
+    #+BEGIN_QUERY
+    {:title [:h3 "Checklist"]
+    :query (and (todo todo) (page [[project/the programmer idea book]]))
+    :result-transform (fn [result]
+                        (sort-by (fn [b]
+                                   (get b :block/priority "Z")) result))
+    :breadcrumb-show? false
+    :table-view? false
+    }
+    #+END_QUERY
+- ## Why
+  -
+- ## How
+  collapsed:: true
+  -
+- ## What
+  - ![THE PROGRAMMERS IDEA BOOK](../assets/book_the_programmer_idea_book.pdf)
+    - title:: [karan/Projects](https://github.com/karan/Projects) ![](https://img.shields.io/github/stars/karan/Projects)
+      tags:: #github #opensource
+      created:: 20230320
+      description:: A list of practical projects that anyone can solve in any programming language.
+    - title:: [GitHub - karan/Projects-Solutions](https://github.com/karan/Projects-Solutions) ![](https://img.shields.io/github/stars/karan/Projects-Solutions)
+      tags:: #github #opensource
+      created:: 20230321
+      description:: Links to others' solutions to Projects (https://github.com/karan/Projects/)
+  - ### \# Program Description
+    - #### Input
+      -
+    - #### Output
+      -
+  - ### \# Alternatives
+    -
+  - ### \# Notes
+    -
+- ## ↩ Reference
+  -
+-
+-
 -
 - ## Content
   - ### Numbers

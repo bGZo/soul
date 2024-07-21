@@ -6,16 +6,16 @@ template:: project
 template-including-parent:: false
 
   - alias:: 
+    created:: ``{ date.now.format('YYYYMMDD') }``
     description::
     icon:: 📂
-    tags:: #project
-    created:: ``{ date.now.format('YYYYMMDD') }``
-    title:: ``{ c.page.name }``
+    tags::
   - ## Project Meta
-    collapsed:: true
-    - \DOING #project [[page]]
+    - DOING #project ``{ ref(c.page.name) }``
+      :LOGBOOK:
+      CLOCK: [2024-07-21 Sun 22:36:48]
+      :END:
     - query-table:: false
-      collapsed:: true
       #+BEGIN_QUERY
       {:title [:h3 "Tasks related to ``{ c.page.name }``"]
        :query [:find (pull ?b [*])
@@ -42,7 +42,6 @@ template-including-parent:: false
       }
       #+END_QUERY
     - query-table:: false
-      collapsed:: true
       #+BEGIN_QUERY
       {:title [:h3 "Checklist"]
        :query (and (todo todo) (page [[``{ c.page.name }``]]))
@@ -54,13 +53,10 @@ template-including-parent:: false
       }
       #+END_QUERY
   - ## Why
-    collapsed:: true
     -
   - ## How
-    collapsed:: true
     -
   - ## What
-    collapsed:: true
     - ### \# Program Description
       - #### Input
         -
@@ -70,15 +66,13 @@ template-including-parent:: false
       -
     - ### \# Notes
       -
-  - ## Reference
-    collapsed:: true
+  - ## ↩ Reference
     -
 - ## Why
   -
 - ## How
   -
 - ## What
-  -
   -
 - ## Namespace
   - {{namespace project}}
