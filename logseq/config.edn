@@ -196,12 +196,10 @@
 
  :ref/linked-references-collapsed-threshold 0
 
- :graph/settings {
-        :orphan-pages?   true
-        :builtin-pages?  false
-        :excluded-pages? false
-        :journal?        false
- }
+ :graph/settings {:orphan-pages? true
+ :builtin-pages? false
+ :excluded-pages? false
+ :journal? false}
 
  :graph/forcesettings {
         :link-dist       180
@@ -209,13 +207,18 @@
         :charge-range    600
  }
 
- :favorites ["draft" "navigation" "inbox" "content checklist" "project checklist" "waiting checklist" "trash checklist" "history/burden"]
+ :favorites ["dashboard" "draft" "navigation" "history/burden"]
 
 ;; :srs/learning-fraction 0.5
 
 ;; :srs/initial-interval 4
 
- :block-hidden-properties #{:public :title :icon}
+ :block-hidden-properties #{
+                            :public 
+                            ;:title 
+                            ;:icon 
+                            ;:created
+                            }
 
  :property-pages/enabled? true
 

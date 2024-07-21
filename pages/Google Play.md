@@ -1,2 +1,0 @@
-alias:: Google/play
-icon:: ▶︎

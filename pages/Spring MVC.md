@@ -1,2 +1,0 @@
-alias:: springmvc, spring/mvc
--
