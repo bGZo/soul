@@ -1,6 +1,6 @@
 icon:: 📖
-alias:: book/剑指Offer
-tags:: #book #develop #Question
+alias:: books/剑指Offer
+tags:: #develop #Question
 author:: 何海涛
 publisher:: 电子工业出版社
 published:: 20170500

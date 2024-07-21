@@ -90,7 +90,7 @@ tags:: TODO
   -
 - ## What
   -
- - ## Namespace
+- ## Namespace
   - {{namespace mysql}}
 - ## ↩ Reference
   -

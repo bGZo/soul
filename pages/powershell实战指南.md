@@ -1,4 +1,4 @@
-alias:: book/PowerShell实战指南
+alias:: books/PowerShell实战指南
 author:: Don Jones / Jeffery Hicks
 publisher:: 人民邮电出版社
 published-date:: 20160100

@@ -8,7 +8,7 @@ alias:: hobby/acgn
   -
 - ## What
   -
- - ## Namespace
+- ## Namespace
   - {{namespace acgn}}
 - ## ↩ Reference
   -

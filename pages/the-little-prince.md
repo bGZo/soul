@@ -1,4 +1,4 @@
-alias:: book/the-little-prince
+alias:: books/the-little-prince
 tags:: #[[English]], #[[English/words]]
 author:: Antoine de Saint-Exupéry
 publisher:: 上海阅文信息技术有限公司

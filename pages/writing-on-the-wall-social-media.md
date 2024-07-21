@@ -1,5 +1,5 @@
 icon:: 📖
-alias:: book/社交媒体简史, 社交媒体简史
+alias:: books/社交媒体简史, 社交媒体简史
 tags:: #Privacy #book #History
 author:: Tom Standage
 publisher:: 中信出版社

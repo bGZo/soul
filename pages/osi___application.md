@@ -434,7 +434,7 @@ description::
           - https://verify-email.org/
           - http://tool.chacuo.net/mailverify
           - https://www.emailcamel.com/
- - ## Namespace
+- ## Namespace
   - {{namespace osi/application}}
 - ## ↩ Reference
   - [HTTP | Interview](https://hadyang.com/interview/docs/basic/net/http/)

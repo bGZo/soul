@@ -33,7 +33,7 @@ created:: 20230602
   - [[databases]]
     collapsed:: true
     - [Bangumi 年鉴 | BEST OF 2022](https://bgm.tv/award/2022)
-  - [[Podcast]]
+  - [[podcast]]
     collapsed:: true
     - [2022小宇宙播客大赏](https://annual.podcast.xyz/2022)
     - [Most popular podcasts of 2022 - Apple Podcasts for Creators](https://podcasters.apple.com/4704-news-2022-eoy-charts)

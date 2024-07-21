@@ -1,3 +1,3 @@
-alias:: book/EverythingIsFucked
+alias:: books/EverythingIsFucked
 
 -

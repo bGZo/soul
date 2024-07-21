@@ -1,9 +1,8 @@
+public:: false
 icon:: 🐱
-alias:: 猫
-tags:: #hobby
+alias:: 猫, area/family
 cost:: 5
 created:: 20230529
-public:: false
 
 - ## Why
   - In such a cruel world, you may feel lonely, you may feel that you're too small, to this society with highly industrialized. You would feel sense of belonging if tame it. I mean, you could get a new relationship with someone, even they cannot understand by your language. (See the article written by Su Gengsheng ((6474a8e3-3b3e-45be-ae77-17cbcdc2e226)))
@@ -61,3 +60,28 @@ public:: false
       - https://www.v2ex.com/t/834675
       - 看到上面这个帖子我时常追问我自己养猫合适的心态是什么
       - 可能把他当作自己的朋友看待, 但朋友应该被管束吗? 但你又想再让你的猫离你而去吗? 我很疑惑, 很纠结...
+- alias:: 
+  created:: 20240721
+  description:: 
+  icon:: 📄
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace cat}}
+- ## ↩ Reference
+  -
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace cat}}
+- ## ↩ Reference
+  -
+-

@@ -1,4 +1,4 @@
-alias:: book/Java编程思想
+alias:: books/Java编程思想
 
 - ## Profile
   - > “上帝赋予人类说话的能力，而言语又创造了思想，思想是人类对宇宙的量度。 " --摘自《Prometheus Unbound》，Shelley

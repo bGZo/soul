@@ -512,7 +512,7 @@ tags:: 2022
         如果不缴费很可能是使用上征信、株连之类的管理工具🔧。
       - 看到一句话：
         If something cannot be settled by reasonable experiment or observation, it's not worth debating.These will save you from wasting a lot of time on pointless arguments.如果有些事情不能通过合理的实验或观察来解决，那就不值得辩论。这些可以让你避免浪费大量时间在毫无意义的争论上.😀（来自：Hitchens’ Razor & Newton’s Flaming Laser Sword）
-  - #vitamineE
+  - #podcasts/vitamineE
     collapsed:: true
     - 健康码从来都不是为了“健康”而出现的，是为了“管理”而出现的，希望所有人都能认识到这一点，我们早就已经交出了太多了
       via: https://t.me/vitamineEpodcast/1516

@@ -1,5 +1,5 @@
 icon:: 📖
-alias:: book/微服务架构设计模式
+alias:: books/微服务架构设计模式
 tags:: #microserver #java
 author:: [美] 克里斯·理查森（Chris Richardson）
 publisher:: 机械工业出版社

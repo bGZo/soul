@@ -9,7 +9,7 @@ description::
   -
 - ## What
   -
- - ## Namespace
+- ## Namespace
   - {{namespace area}}
 - ## ↩ Reference
   -

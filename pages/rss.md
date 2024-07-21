@@ -11,7 +11,7 @@ tags:: #info
 - ## Why
   - Build self host info flow => only focus on some fields.
 - ## How
-  - TODO  [[Backup]] and share your [[subscription]] [[monthly]] , including [[Podcast]]
+  - TODO  [[Backup]] and share your [[subscription]] [[monthly]] , including [[podcast]]
     collapsed:: true
     SCHEDULED: <2024-05-01 Wed .+1m>
     :LOGBOOK:

@@ -429,14 +429,14 @@
 -
 - Refs
   - 大话设计模式
-    alias:: book/大话设计模式
+    alias:: books/大话设计模式
     tags:: #[[software/pattern]]
     author:: 程杰
     publisher:: 清华大学出版社
     published-date:: 20071201
     source:: [大话设计模式 (豆瓣)](https://book.douban.com/subject/2334288/)
   - 秒懂设计模式
-    alias:: book/秒懂设计模式
+    alias:: books/秒懂设计模式
     tags:: #[[software/pattern]]
     author:: 刘韬
     publisher::  人民邮电出版社

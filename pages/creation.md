@@ -1,6 +1,6 @@
-alias:: area/consumerism, 消费主义
+alias:: 创作, area/creation
 created:: 20240721
-description:: 
+description:: 为我创作的东西负责
 icon:: 📄
 
 - ## Why
@@ -10,7 +10,7 @@ icon:: 📄
 - ## What
   -
 - ## Namespace
-  - {{namespace consumerism}}
+  - {{namespace creation}}
 - ## ↩ Reference
   -
 -

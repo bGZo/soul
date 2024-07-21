@@ -104,7 +104,7 @@
             - Process Diagram showing how Team B works (doesn't matter if I don't 
               touch it; I also didn't create this and don't expect it to be 
               maintained, no biggie)
- - ## Namespace
+- ## Namespace
   - {{namespace para}}
 - ## ↩ Reference
   - [^para_method]: https://fortelabs.com/blog/para/

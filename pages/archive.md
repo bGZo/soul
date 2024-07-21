@@ -42,7 +42,7 @@ template-including-parent:: false
         - 没有找到可以直接批量网页剪切成 `markdown` 再导入 `logseq` 的, 唯一一个希望是 简悦, 但是==需要账号会员以及自己自定义的模板. 需要后台再挂一个同步助手==...... Fuck Up!
           - 目前感觉 https://github.com/gildas-lormeau/SingleFileZ 让人感觉像是网页重现一般
           - 还有自托管 https://github.com/ArchiveBox/ArchiveBox. 更没有服务器也感觉一般
- - ## Namespace
+- ## Namespace
   - {{namespace archive}}
 - ## ↩ Reference
   -

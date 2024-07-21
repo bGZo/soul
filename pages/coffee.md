@@ -1,8 +1,8 @@
-icon:: ☕
-alias:: 咖啡
-tags:: #hobby
+alias:: 咖啡, hobby/coffee
 cost:: 1
 created:: 20230530
+description:: 
+icon:: ☕
 
 - ## Why
   -
@@ -15,3 +15,7 @@ created:: 20230530
   - rank
     - 法芙娜
     - 舒可曼
+- ## Namespace
+  - {{namespace coffee}}
+- ## ↩ Reference
+  -

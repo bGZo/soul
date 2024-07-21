@@ -1,4 +1,4 @@
-alias:: book/bash-shell脚本编程经典实例
+alias:: books/bash-shell脚本编程经典实例
 author:: Carl Albing / JP Vossen / Cameron Newham
 publisher:: 人民邮电出版社
 published-date:: 20210100

@@ -118,7 +118,7 @@ icon:: 📄
     const S3 = require('aws-sdk/clients/s3')
     ```
     原生Node.js模块 (即指，需要编译源码过后才能被使用的模块) 需要在编译后才能和Electron一起使用。绝大多数的Node.js模块都*不*是原生的， 在650000个模块中只有400是原生的。 当然了，如果你的确需要原生模块，可以在这里查询[如何重新为Electron编译原生模块](https://www.electronjs.org/docs/tutorial/using-native-node-modules)(很简单)。
- - ## Namespace
+- ## Namespace
   - {{namespace electron/learning}}
 - ## ↩ Reference
   - https://github.com/tal-tech/electron-playground/tree/0.0.3

@@ -11,7 +11,7 @@ website:: https://github.com/electron/electron; https://www.electronjs.org
   -
 - ## What
   -
- - ## Namespace
+- ## Namespace
   - {{namespace [[electron]] }}
 - ## ↩ Reference
   -

@@ -1,7 +1,6 @@
-alias:: 播客
-icon:: 🎧
-tags:: #hobby
+alias:: 播客, hobby/podcast
 created:: 20230603
+icon:: 🎧
 
   - template:: podcast
     template-including-parent:: false
@@ -32,7 +31,7 @@ created:: 20230603
       #chatGPT
   - What I am thinking after listening podcast?
     collapsed:: true
-    - Some [[Video]]s are not as good as [[Podcast]]s
+    - Some [[Video]]s are not as good as [[podcast]]s
       - [[Youtube]]
         collapsed:: true
         - New path:  `https://www.youtube.com/@<username>`
@@ -103,6 +102,9 @@ created:: 20230603
           https://www.youtube.com/channel/UCIUYqpXe7yok4x3VkK67B3Q
           ```
       - WAITING [[bilibili]]
+- ## Namespace
+  - {{namespace podcast}}
+- ## ↩ Reference
   - [全平台播客订阅及收听指南 - 少数派](https://sspai.com/post/57960)
   - [我们做了个能帮大家发现播客的小玩具：🎙中文播客榜 - V2EX](https://www.v2ex.com/t/867252)
     - [中文播客榜](https://xyzrank.com/#/)

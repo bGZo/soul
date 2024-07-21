@@ -1,6 +1,6 @@
 icon:: 📖
-alias:: book/软件测试的艺术(第3版)
-tags:: #book #develop #testing
+alias:: books/软件测试的艺术(第3版)
+tags:: #develop #testing
 author:: Glenford J. Myers / Tom Badgett
 publisher:: 机械工业出版社
 published:: 20120415

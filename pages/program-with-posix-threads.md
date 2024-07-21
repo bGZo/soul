@@ -1,3 +1,3 @@
-alias:: book/program-with-posix-threads
+alias:: books/program-with-posix-threads
 
 -

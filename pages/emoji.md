@@ -7,7 +7,7 @@ wikipedia:: https://en.wikipedia.org/wiki/Emoji
 - ## Why
 - ## How
 - ## What
- - ## Namespace
+- ## Namespace
   - {{namespace emoji}}
 - ## ↩ Reference
   - https://en.wikipedia.org/wiki/Implementation_of_emojis

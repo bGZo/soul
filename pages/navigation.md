@@ -393,7 +393,7 @@ exclude-from-graph-view:: true
       - [算数指数-巨量算数](https://trendinsight.oceanengine.com/arithmetic-index)
     - [DB-Engines Ranking - popularity ranking of database management systems](https://db-engines.com/en/ranking)
   -
-  - ### ⏸ [[Podcast]]
+  - ### ⏸ [[podcast]]
     - [Anchor - The easiest way to make a podcast](https://anchor.fm/) #creation
       - via: [如何開始一個成功的Podcast， 新手 Podcast 製作教學 - janstockcoin](https://janstockcoin.com/2021/06/23/podcast3/#%E8%81%AF%E5%90%88%E4%BD%A0%E7%9A%84_Podcast_RSS_%E6%8F%90%E8%A6%81)
     - [pod.link | Share a Podcast](https://pod.link/)

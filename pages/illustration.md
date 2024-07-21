@@ -1,4 +1,15 @@
 alias:: hobby/illustration
+created:: 20240721
+description:: 
+icon:: 📄
 
-- [[pixel]]
--
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace illustration}}
+- ## ↩ Reference
+  -

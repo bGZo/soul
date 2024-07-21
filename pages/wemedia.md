@@ -5,6 +5,6 @@ description:: [自媒体 - 维基百科，自由的百科全书](https://zh.wiki
   - Sub Systems
     - BBS
     - [[blog]]
-    - [[Podcast]]
+    - [[podcast]]
     - [[social/networking]]
     - GroupMessage

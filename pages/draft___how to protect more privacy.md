@@ -1,10 +1,11 @@
-tags:: #Privacy
+icon:: 📝
+created:: 20240721
+tags:: #privacy
+
 - #+BEGIN_NOTE
   The composition of this article was assisted by ChatGPT.
   #+END_NOTE
-- ---
-- collapsed:: true
-  #+BEGIN_TIP
+- #+BEGIN_TIP
   **TL;DR**: Replace the default Search Engine in [[Microsoft Edge]] as followed:
   `https://google.com/search?q=%s&ie=UTF-8`
   #+END_TIP
@@ -16,6 +17,6 @@ tags:: #Privacy
   - #+BEGIN_CAUTION
     The most funny thing is the `sourceid` is set to `chrome` )
     #+END_CAUTION
-- ---
 -
--
+- ## ↩ Reference
+  -

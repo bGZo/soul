@@ -1,2 +1,1 @@
-alias:: hobby/health, 健康
-tags::  #Topic #hobby
+alias:: area/health, 健康

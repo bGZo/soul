@@ -1,6 +1,5 @@
 icon:: 📖
-alias:: book/幸福之路, 幸福之路
-tags:: #book
+alias:: books/幸福之路, 幸福之路
 author:: Russell
 publisher:: 天津人民出版社
 published:: 20210100

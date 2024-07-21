@@ -4,7 +4,7 @@ created:: 20230705
 mark:: 使用 iframe 嵌入页面更加简单；
 
 - ## Project Meta
-  - CANCELED #project [[project/steam price badges]]
+  - CANCELED #project [[archives/steam price badges]]
     :LOGBOOK:
     CLOCK: [2024-07-14 Sun 20:42:55]
     :END:

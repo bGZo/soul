@@ -80,7 +80,7 @@ template-including-parent:: false
 - ## What
   -
   -
- - ## Namespace
+- ## Namespace
   - {{namespace project}}
 - ## ↩ Reference
   -
