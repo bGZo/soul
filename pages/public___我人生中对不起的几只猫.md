@@ -1,5 +1,5 @@
 tags:: #cat, #public
-created:: [[20210314]]
+created:: 20210314
 
 - sorry-for-cats-in-My-First-Half-of-Life
 - ## 养 🐈 这档事

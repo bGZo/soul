@@ -1,7 +1,7 @@
 alias:: 声破天
 tags:: #music/platform
 cost:: 1
-created:: [[20220320]]
+created:: 20220320
 - ## Why this [[music/platform]]
   - To be first, Netease and QQ music both have censored and comments design, which is really wasting time.
   - Then, Apple Music have region restriction, although the China region is cheap, but they have no Joy Zhou and a lot of singer banned by China.
@@ -428,7 +428,7 @@ created:: [[20220320]]
         Regrets (Too Late) - Zeraphym
         NEXT TO YOU (Rhodes Version) - Ken Arai (ケン アライ)
         Psycho,Pt. 2 (Explicit) - Russ
-        寄夏予你 (off vocal) - MoreanP
+        寄夏予你 (off vocal) - MoreanP
         ㅤ - Setton
         Radioactive - William Joseph
         Intro - The xx

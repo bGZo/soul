@@ -6,7 +6,7 @@ translator:: 赵军平, 李三平, 吕云松, 耿煜
 publisher:: O'Reilly
 published::  20180901
 isbn:: 9787519821968
-created:: [[20230328]]
+created:: 20230328
 douban:: https://book.douban.com/subject/26197294 ； https://book.douban.com/subject/30329536/
 description:: [GitHub - Vonng/ddia: 《Designing Data-Intensive Application》DDIA中文翻译](https://github.com/Vonng/ddia)
 
@@ -20,7 +20,7 @@ description:: [GitHub - Vonng/ddia: 《Designing Data-Intensive Application》DD
     - [第一章：可靠性、可伸缩性和可维护性](http://ddia.vonng.com/#/ch1)
     - [第二章：数据模型与查询语言](http://ddia.vonng.com/#/ch2)
       - [关系模型与文档模型](http://ddia.vonng.com/#/ch2?id=%e5%85%b3%e7%b3%bb%e6%a8%a1%e5%9e%8b%e4%b8%8e%e6%96%87%e6%a1%a3%e6%a8%a1%e5%9e%8b)
-        - 关系数据库起源于商业数据处理，在 20 世纪 60 年代和 70 年代用大型计算机来执行。从今天的角度来看，那些用例显得很平常：典型的 **事务处理**（将销售或银行交易，航空公司预订，库存管理信息记录在库）和 **批处理**（客户发票，工资单，报告）。
+        - 关系数据库起源于商业数据处理，在 20 世纪 60 年代和 70 年代用大型计算机来执行。从今天的角度来看，那些用例显得很平常：典型的 **事务处理**（将销售或银行交易，航空公司预订，库存管理信息记录在库）和 **批处理**（客户发票，工资单，报告）。
         - [NoSQL 的诞生](http://ddia.vonng.com/#/ch2?id=nosql-%e7%9a%84%e8%af%9e%e7%94%9f)
         - [对象关系不匹配](http://ddia.vonng.com/#/ch2?id=%e5%af%b9%e8%b1%a1%e5%85%b3%e7%b3%bb%e4%b8%8d%e5%8c%b9%e9%85%8d)
         - [多对一和多对多的关系](http://ddia.vonng.com/#/ch2?id=%e5%a4%9a%e5%af%b9%e4%b8%80%e5%92%8c%e5%a4%9a%e5%af%b9%e5%a4%9a%e7%9a%84%e5%85%b3%e7%b3%bb)

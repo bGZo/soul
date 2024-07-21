@@ -10,6 +10,6 @@ description:: a three-layer model for network design first proposed by [Cisco](h
     - ToR（Top of Rack）交换机；
     -
 - ## References
-  - Khalid Raza, Mark Turner (2002), *Cisco Network Topology and Design*, Cisco Press
+  - Khalid Raza, Mark Turner (2002), *Cisco Network Topology and Design*, Cisco Press
   - [网络三层架构 - yipianchuyun - 博客园](https://www.cnblogs.com/yipianchuyun/p/13842297.html)
   -

@@ -15,78 +15,78 @@ tags:: #tool
       /mnt/c/Users/15517/Desktop/browser/diff > tree -L 3
       .
       ├── BraveWallet
-      │   └── 1.0.20
-      │       ├── README.md
-      │       ├── chainlist.json
-      │       ├── contract-map.json
-      │       ├── evm-contract-map.json
-      │       ├── images
-      │       ├── manifest.fingerprint
-      │       ├── manifest.json
-      │       └── solana-contract-map.json
+      │   └── 1.0.20
+      │       ├── README.md
+      │       ├── chainlist.json
+      │       ├── contract-map.json
+      │       ├── evm-contract-map.json
+      │       ├── images
+      │       ├── manifest.fingerprint
+      │       ├── manifest.json
+      │       └── solana-contract-map.json
       ├── BrowserMetrics-spare.pma
       ├── Default
-      │   ├── Google Profile.ico
-      │   ├── Rewards.log
-      │   ├── ads_service
-      │   │   ├── client.json
-      │   │   ├── confirmations.json
-      │   │   ├── database.sqlite
-      │   │   └── database.sqlite-journal
-      │   └── publisher_info_db
+      │   ├── Google Profile.ico
+      │   ├── Rewards.log
+      │   ├── ads_service
+      │   │   ├── client.json
+      │   │   ├── confirmations.json
+      │   │   ├── database.sqlite
+      │   │   └── database.sqlite-journal
+      │   └── publisher_info_db
       ├── Greaselion
-      │   └── Temp
+      │   └── Temp
       ├── Module Info Cache
       ├── SODA
       ├── SODALanguagePacks
-      │   └── en-US
+      │   └── en-US
       ├── Webstore Downloads
       ├── afalakplffnnnlkncjhbmahjfjhmlkal
-      │   └── 1.0.216
-      │       ├── 1
-      │       ├── manifest.fingerprint
-      │       └── manifest.json
+      │   └── 1.0.216
+      │       ├── 1
+      │       ├── manifest.fingerprint
+      │       └── manifest.json
       ├── aoojcmojmmcbpfgoecoadbdpnagfchel
-      │   └── 1.0.7
-      │       ├── manifest.fingerprint
-      │       ├── manifest.json
-      │       └── photo.json
+      │   └── 1.0.7
+      │       ├── manifest.fingerprint
+      │       ├── manifest.json
+      │       └── photo.json
       ├── cffkpbalmllkdoenhmdmpbkajipdjfam
-      │   └── 1.0.1521
-      │       ├── manifest.fingerprint
-      │       ├── manifest.json
-      │       ├── regional_catalog.json
-      │       ├── resources.json
-      │       └── rs-ABPFilterParserData.dat
+      │   └── 1.0.1521
+      │       ├── manifest.fingerprint
+      │       ├── manifest.json
+      │       ├── regional_catalog.json
+      │       ├── resources.json
+      │       └── rs-ABPFilterParserData.dat
       ├── gccbbckogglekeggclmmekihdgdpdgoe
-      │   └── 1.0.1026
-      │       ├── 21062e05-6c2c-495a-bccb-b681e8bdfea2.jpeg
-      │       ├── 3217128b-2500-4a44-857e-4340488fafd8.png
-      │       ├── 3c255ec1-6fad-420f-b02c-779c874615d1.png
-      │       ├── 51f1a8be-a766-46e9-beca-044cc10109e0.jpeg
-      │       ├── manifest.fingerprint
-      │       ├── manifest.json
-      │       └── photo.json
+      │   └── 1.0.1026
+      │       ├── 21062e05-6c2c-495a-bccb-b681e8bdfea2.jpeg
+      │       ├── 3217128b-2500-4a44-857e-4340488fafd8.png
+      │       ├── 3c255ec1-6fad-420f-b02c-779c874615d1.png
+      │       ├── 51f1a8be-a766-46e9-beca-044cc10109e0.jpeg
+      │       ├── manifest.fingerprint
+      │       ├── manifest.json
+      │       └── photo.json
       ├── iblokdlgekdjophgeonmanpnjihcjkjj
-      │   └── 1.0.71
-      │       ├── dnryisldmaqljgwaxeqbuuhuvrbboqlf
-      │       ├── kkjipiepeooghlclkedllogndmohhnhi
-      │       ├── manifest.fingerprint
-      │       ├── manifest.json
-      │       └── resources.json
+      │   └── 1.0.71
+      │       ├── dnryisldmaqljgwaxeqbuuhuvrbboqlf
+      │       ├── kkjipiepeooghlclkedllogndmohhnhi
+      │       ├── manifest.fingerprint
+      │       ├── manifest.json
+      │       └── resources.json
       ├── lfgnenkkneohplacnfabidofpgcdpofm
-      │   └── 1.0.897
-      │       ├── manifest.fingerprint
-      │       ├── manifest.json
-      │       ├── resources.json
-      │       └── rs-AC023D22-AE88-4060-A978-4FEEEC4221693.dat
+      │   └── 1.0.897
+      │       ├── manifest.fingerprint
+      │       ├── manifest.json
+      │       ├── resources.json
+      │       └── rs-AC023D22-AE88-4060-A978-4FEEEC4221693.dat
       ├── ocilmpijebaopmdifcomolmpigakocmo
-      │   └── 1.0.53
-      │       ├── bvkgcaxyaitmhkbbqnqnqugrjeqzspxv
-      │       ├── emgmepnebbddgnkhfmhdhmjifkglkamo
-      │       ├── manifest.fingerprint
-      │       ├── manifest.json
-      │       └── resources.json
+      │   └── 1.0.53
+      │       ├── bvkgcaxyaitmhkbbqnqnqugrjeqzspxv
+      │       ├── emgmepnebbddgnkhfmhdhmjifkglkamo
+      │       ├── manifest.fingerprint
+      │       ├── manifest.json
+      │       └── resources.json
       └── oofiananboodjbbmdelgdommihjbkfag
           └── 1.0.120
               ├── 6.0

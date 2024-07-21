@@ -3,5 +3,5 @@
   NGA现已有超过三千万注册会员，100个论坛子版块，涵盖魔兽世界、DotA2、英雄联盟、暗黑破坏神3、炉石传说、守望先锋、皇室战争、战舰少女r、魔龙之魂、怪物猎人ol、星际争霸2、魔兽争霸3（war3）、战舰世界、坦克世界、部落冲突、舰队collection、钢铁少女、刀塔传奇、我叫MT2、战争雷霆、剑侠情缘3、CS:GO等热门游戏。
   除游戏版块之外，NGA还开设了汽车、足球、动漫、影音、消费电子、二手交易等生活娱乐版块，秉承NGA注重高质量原创内容的理念，在这里可以看到专业的生活向科普、详实的硬件评测、丰富的观影心得、精彩的旅行游记。
   NGA官方客户端正式上线，专为iPad用户打造完美社区使用体验。大屏看的更舒服，快来NGA和大家一起交流吧！
-  via: [App Store 上的“NGA玩家社区HD”](https://apps.apple.com/cn/app/nga%E7%8E%A9%E5%AE%B6%E7%A4%BE%E5%8C%BAhd/id959860099)
+  via: [App Store 上的“NGA玩家社区HD”](https://apps.apple.com/cn/app/nga%E7%8E%A9%E5%AE%B6%E7%A4%BE%E5%8C%BAhd/id959860099)
 - [艾泽拉斯国家地理 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E8%89%BE%E6%B3%BD%E6%8B%89%E6%96%AF%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86)

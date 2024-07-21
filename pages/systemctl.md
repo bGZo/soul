@@ -1,5 +1,5 @@
 alias:: commands/systemctl
-created:: [[20231005]]
+created:: 20231005
 icon:: ⌘
 - ## Why
 - ## How
@@ -8,7 +8,7 @@ icon:: ⌘
     #+BEGIN_CENTER
     via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/systemctl.html)
     #+END_CENTER
-  - **systemctl命令** 是系统服务管理器指令，它实际上将 [[service]] 和 [[chkconfig]] 这两个命令组合到一起。
+  - **systemctl命令** 是系统服务管理器指令，它实际上将 [[service]] 和 [[chkconfig]] 这两个命令组合到一起。
   - ### 查看所有已启动的服务
     - ```shell
       systemctl list-units --type=service # same as `chkconfig --list`

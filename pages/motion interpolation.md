@@ -1,7 +1,7 @@
 alias:: 插帧, 补帧,  motion-compensated frame interpolation, MCFI
 description::  a form of video processing in which intermediate animation frames are generated between existing ones by means of interpolation, in an attempt to make animation more fluid, to compensate for display motion blur, and for fake slow motion effects.
 tags:: #Video
-created:: [[20230717]]
+created:: 20230717
 wikipedia:: [Motion interpolation - Wikipedia](https://en.wikipedia.org/wiki/Motion_interpolation)
 
 - ## Why
@@ -28,7 +28,7 @@ wikipedia:: [Motion interpolation - Wikipedia](https://en.wikipedia.org/wiki/Mot
             | > | 字幕->字幕同步(帧率)->超前0.5 秒 |
             | [ | 播放->AB 区段循环->设定起点 |
             | Alt + [ | 播放->AB 区段循环->将起点步进 0.1 秒 |
-            |   | 播放->AB 区段循环->区段循环 开|关 |
+            |   | 播放->AB 区段循环->区段循环 开|关 |
             | Alt + | 播放->AB 区段循环->当前章节/标记/书签 区段循环 |
             | ] | 播放->AB 区段循环->设定止点 |
             | Alt + ] | 播放->AB 区段循环->将止点步进 0.1 秒 |

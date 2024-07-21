@@ -1,6 +1,6 @@
 alias:: hashbang, sha-bang, sharp-exclamation, pound-bang, hash-pling, #!
 tags:: #linux
-description:: In Linux, this behavior is the result of both kernel and user-space code
+description:: In Linux, this behavior is the result of both kernel and user-space code
 description:: [Shebang (Unix) - Wikipedia](https://en.wikipedia.org/wiki/Shebang_(Unix)); [Shebang - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Shebang)
 closed:: [[20230111]]
 
@@ -20,7 +20,7 @@ closed:: [[20230111]]
     - It could also be used as a placeholder for scripts that are not meant to be executed, but rather to be used as library scripts that are sourced by other scripts. This way, when someone accidentally runs the script, it won't do anything instead of causing any harm.
 - Portability
   - Program location
-    - For example, might be in */usr/bin/python3*, */usr/local/bin/python3*, or even something like */home/username/bin/python3* if installed by an ordinary user.
+    - For example, might be in */usr/bin/python3*, */usr/local/bin/python3*, or even something like */home/username/bin/python3* if installed by an ordinary user.
   - Character interpretation
   - Magic number
     - A human-readable instance of a magic number in the executable file, the magic byte string being 0x23 0x21, the two-character encoding in ASCII of #!.

@@ -2,7 +2,7 @@ tags:: #opensource
 
   - template:: github
     template-including-parent:: true
-    created::  ``{ ref(date.now.format('YYYYMMDD')) }``
+    created::  ``{ date.now.format('YYYYMMDD') }``
     tags:: #github/repo
     title:: ``{ c.page.name }``
     source:: https://github.com/``{ c.page.name }``

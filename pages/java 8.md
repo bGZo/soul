@@ -1,8 +1,5 @@
----
-icon: ☕
-created: 20240612
-title: java 8
----
+icon:: ☕
+created:: 20240612
 
 - ## Feats
   - **Lambda 表达式 (Lambda Expressions)**
@@ -42,8 +39,8 @@ title: java 8
     - 标准的Base64编解码。
     - 支持无符号运算。
   - java.util.concurrent 包下增加了新的类和方法。
-    - `java.util.concurrent.ConcurrentHashMap` 类添加了新的方法以支持新的StreamApi和lambada表达式。
-    - `java.util.concurrent.atomic` 包下新增了类以支持可伸缩可更新的变量。
+    - `java.util.concurrent.ConcurrentHashMap` 类添加了新的方法以支持新的StreamApi和lambada表达式。
+    - `java.util.concurrent.atomic` 包下新增了类以支持可伸缩可更新的变量。
     - `java.util.concurrent.ForkJoinPool`类新增了方法以支持 common pool。
     - 新增了`java.util.concurrent.locks.StampedLock`类，为控制读/写访问提供了一个基于性能的锁，且有三种模式可供选择。
   - HotSpot

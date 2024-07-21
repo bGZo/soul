@@ -1,6 +1,6 @@
 icon:: 🎮
 tags:: game/platform
-created:: [[20230704]]
+created:: 20230704
 
 - ## Why
 - ## How
@@ -35,7 +35,7 @@ created:: [[20230704]]
         via: [steam点数商店里的季节性徽章多久刷新一次？ NGA玩家社区](https://ngabbs.com/read.php?tid=29809808&rand=920)
     - CANCELED Demo project cannot stay in library #feature #sucks
       collapsed:: true
-      - > They are only part of the library if they are downloaded. Your only option is to sift through your licence history which shows complimentary demos [https://store.steampowered.com/account/licenses/](https://store.steampowered.com/account/licenses/)
+      - > They are only part of the library if they are downloaded. Your only option is to sift through your licence history which shows complimentary demos [https://store.steampowered.com/account/licenses/](https://store.steampowered.com/account/licenses/)
         via: [Not all my demos are there... :: Steam Discussions](https://steamcommunity.com/discussions/forum/0/2527030866874125245/)
       - Only could download via store page
     - CANCELED Cannot change SteamID or Steam Account Name #sucks #feature #wontfix

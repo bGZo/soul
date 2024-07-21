@@ -1,10 +1,7 @@
----
-alias: Sexual, 色情, 情色
-icon: 🔞
-created: 20240409
-tags: #Hobby, #Topic
-title: sex
----
+alias:: Sexual, 色情, 情色
+icon:: 🔞
+created:: 20240409
+tags:: #hobby, #Topic
 
 - #+BEGIN_PINNED
   饱暖思淫欲，每天吃少点并多做运动

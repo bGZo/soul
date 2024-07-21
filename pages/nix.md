@@ -1,7 +1,7 @@
 icon:: 
 alias:: *nix
 description:: operating systems that are like the old workhorse Unix
-created:: [[20230629]]
+created:: 20230629
 wikipedia:: https://en.wikipedia.org/wiki/Unix-like
 
 - ## Why

@@ -1,9 +1,6 @@
----
-alias: jcp
-icon: ☕
-created: 20240612
-title: java community process
----
+alias:: jcp
+icon:: ☕
+created:: 20240612
 
 - ## Why
   -

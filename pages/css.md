@@ -6,18 +6,18 @@ description:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文�
   - ### unit
     collapsed:: true
     via: [CSS units - %, em, rem, px, vh, vw - GeeksforGeeks](https://www.geeksforgeeks.org/css-units-em-rem-px-vh-vw/)
-    - **% –** The % unit is used to set the font-size relative to the current font-size.
-    - **em –** It is used to set the relative size. It is relative to the font-size of the element. 
-      **Note:** Here 2em meaning 2times the size of current font.
-    - **rem –** Relative to the browser base font-size.
+    - **% –** The % unit is used to set the font-size relative to the current font-size.
+    - **em –** It is used to set the relative size. It is relative to the font-size of the element. 
+      **Note:** Here 2em meaning 2times the size of current font.
+    - **rem –** Relative to the browser base font-size.
     - #+BEGIN_NOTE
       Inside a sinlge document, **the length of a REM unit is everywhere the same**, it can just differ between documents. EM on the other side can differ between every element, because it is relative to the elements own font-size (excpetion is the font-size itself, in it **EM is relative to the parent**).
       REM is the newer unit, older browsers don't support it.
       via: [PX to REM converter (instantly and bidirectional)](https://nekocalc.com/px-to-rem-converter)
       #+END_NOTE
-    - **px –** It mark:: s the font-size in terms of pixels. (96px = 1in)
-    - **vh –** Relative to 1% of the height of the viewport.
-    - **vw –** Relative to 1% of the width of the viewport.
+    - **px –** It mark:: s the font-size in terms of pixels. (96px = 1in)
+    - **vh –** Relative to 1% of the height of the viewport.
+    - **vw –** Relative to 1% of the width of the viewport.
     - More
       - [PX to REM converter (instantly and bidirectional)](https://nekocalc.com/px-to-rem-converter)
 - ## Standards

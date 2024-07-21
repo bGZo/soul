@@ -22,9 +22,9 @@ tags:: #garbage_collection
           #+END_WARNING
           via: [Permgen vs Metaspace in Java | Baeldung](https://www.baeldung.com/java-permgen-metaspace)
           - We also have new flags to tune the memory:
-            - *MetaspaceSize* and *MaxMetaspaceSize –* we can set the Metaspace upper bounds.
-            - *MinMetaspaceFreeRatio – *is the minimum percentage of class metadata capacity free after [garbage collection](https://www.baeldung.com/jvm-garbage-collectors)
-            - *MaxMetaspaceFreeRatio *– is the maximum percentage of class metadata capacity free after a garbage collection to avoid a reduction in the amount of space
+            - *MetaspaceSize* and *MaxMetaspaceSize –* we can set the Metaspace upper bounds.
+            - *MinMetaspaceFreeRatio – *is the minimum percentage of class metadata capacity free after [garbage collection](https://www.baeldung.com/jvm-garbage-collectors)
+            - *MaxMetaspaceFreeRatio *– is the maximum percentage of class metadata capacity free after a garbage collection to avoid a reduction in the amount of space
         - 方法区 Method Area
           description:: Store class structure (runtime constants and static variables) and code for methods and constructors.
           - 常量池 Runtime Constant Pool
@@ -57,7 +57,7 @@ tags:: #garbage_collection
           | -XX:NewRatio | ratio of old/new generation sizes (2 default) |
           - `-XX:SurvivorRatio` example
             - if Young Generation size is 10m and VM switch is -XX:SurvivorRatio=2 then 5m will be reserved for Eden Space and 2.5m each for both the Survivor spaces. The default value is 8.
-        - Most of the times, above options are sufficient, but if you want to check out other options too then please check [JVM Options Official Page](https://www.oracle.com/technetwork/java/javase/tech/vmoptions-jsp-140102.html).
+        - Most of the times, above options are sufficient, but if you want to check out other options too then please check [JVM Options Official Page](https://www.oracle.com/technetwork/java/javase/tech/vmoptions-jsp-140102.html).
       - Java Garbage Collection
         - **Marking**
           - Identifies which objects are in use and which ones are not in use.
@@ -74,19 +74,19 @@ tags:: #garbage_collection
       - Java Garbage Collection Types
         - **Serial GC (-XX:+UseSerialGC)**
           collapsed:: true
-          - Serial GC uses the simple **mark-sweep-compact** approach for young and old generations garbage collection i.e Minor and Major GC.Serial GC is useful in client machines such as our simple stand-alone applications and machines with smaller CPU. It is good for small applications with low memory footprint.
+          - Serial GC uses the simple **mark-sweep-compact** approach for young and old generations garbage collection i.e Minor and Major GC.Serial GC is useful in client machines such as our simple stand-alone applications and machines with smaller CPU. It is good for small applications with low memory footprint.
         - **Parallel GC (-XX:+UseParallelGC)**
           collapsed:: true
-          - Parallel GC is same as Serial GC except that is spawns N threads for young generation garbage collection where N is the number of CPU cores in the system. We can control the number of threads using `-XX:ParallelGCThreads=n` JVM option.Parallel Garbage Collector is also called throughput collector because it uses multiple CPUs to speed up the GC performance. Parallel GC uses a single thread for Old Generation garbage collection.
+          - Parallel GC is same as Serial GC except that is spawns N threads for young generation garbage collection where N is the number of CPU cores in the system. We can control the number of threads using `-XX:ParallelGCThreads=n` JVM option.Parallel Garbage Collector is also called throughput collector because it uses multiple CPUs to speed up the GC performance. Parallel GC uses a single thread for Old Generation garbage collection.
         - **Parallel Old GC (-XX:+UseParallelOldGC)**
           collapsed:: true
           - This is same as Parallel GC except that it uses multiple threads for both Young Generation and Old Generation garbage collection.
         - **Concurrent Mark Sweep (CMS) Collector (-XX:+UseConcMarkSweepGC)**
           collapsed:: true
-          - CMS Collector is also referred as concurrent low pause collector. It does the garbage collection for the Old generation. CMS collector tries to minimize the pauses due to garbage collection by doing most of the garbage collection work concurrently with the application threads.CMS collector on the young generation uses the same algorithm as that of the parallel collector. This garbage collector is suitable for responsive applications where we can’t afford longer pause times. We can limit the number of threads in CMS collector using `-XX:ParallelCMSThreads=n` JVM option.
+          - CMS Collector is also referred as concurrent low pause collector. It does the garbage collection for the Old generation. CMS collector tries to minimize the pauses due to garbage collection by doing most of the garbage collection work concurrently with the application threads.CMS collector on the young generation uses the same algorithm as that of the parallel collector. This garbage collector is suitable for responsive applications where we can’t afford longer pause times. We can limit the number of threads in CMS collector using `-XX:ParallelCMSThreads=n` JVM option.
         - **G1 Garbage Collector (-XX:+UseG1GC)**
           collapsed:: true
-          - The Garbage First or G1 garbage collector is available from Java 7 and its long term goal is to replace the CMS collector. The G1 collector is a parallel, concurrent, and incrementally compacting low-pause garbage collector.Garbage First Collector doesn’t work like other collectors and there is no concept of Young and Old generation space. It divides the heap space into multiple equal-sized heap regions. When a garbage collection is invoked, it first collects the region with lesser live data, hence “Garbage First”. You can find more details about it at [Garbage-First Collector Oracle Documentation](https://docs.oracle.com/javase/7/docs/technotes/guides/vm/G1.html).
+          - The Garbage First or G1 garbage collector is available from Java 7 and its long term goal is to replace the CMS collector. The G1 collector is a parallel, concurrent, and incrementally compacting low-pause garbage collector.Garbage First Collector doesn’t work like other collectors and there is no concept of Young and Old generation space. It divides the heap space into multiple equal-sized heap regions. When a garbage collection is invoked, it first collects the region with lesser live data, hence “Garbage First”. You can find more details about it at [Garbage-First Collector Oracle Documentation](https://docs.oracle.com/javase/7/docs/technotes/guides/vm/G1.html).
       - Java Garbage Collection Monitoring
       - Java Garbage Collection Tuning (调优)
 -

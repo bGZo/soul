@@ -43,7 +43,7 @@ tags:: TODO
   - Document
     - [中文文案排版指北（简体中文版） — 码志](https://mazhuang.org/wiki/chinese-copywriting-guidelines/)
     - [yikeke/zh-style-guide: An open-source style guide for writing Chinese technical documents: https://zh-style-guide.readthedocs.io](https://github.com/yikeke/zh-style-guide) ![](https://img.shields.io/github/stars/yikeke/zh-style-guide)
-    - [About this guide  |  Google developer documentation style guide  |  Google Developers](https://developers.google.cn/style)
+    - [About this guide  |  Google developer documentation style guide  |  Google Developers](https://developers.google.cn/style)
     - [Welcome - Apple Support](https://help.apple.com/asg/) | 苹果写作风格指南
     - [Welcome - Microsoft Style Guide | Microsoft Learn](https://learn.microsoft.com/en-us/style-guide/welcome/) | 微软写作风格指南
     - [The Chicago Manual of Style](https://www.chicagomanualofstyle.org/home.html); [Q&A](https://www.chicagomanualofstyle.org/qanda/latest.html) | 芝加哥手册指南

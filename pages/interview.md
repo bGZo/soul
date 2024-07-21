@@ -1,5 +1,5 @@
 description:: 压力考试
-created:: [[20221124]]
+created:: 20221124
 
 - ## Categories
   - 无领导讨论

@@ -51,193 +51,193 @@
         .
         ├── ASSEMBLY_EXCEPTION
         ├── bin # 命令行开发和调试工具
-        │   ├── appletviewer.exe
-        │   ├── clhsdb.exe
-        │   ├── extcheck.exe
-        │   ├── hsdb.exe
-        │   ├── idlj.exe
-        │   ├── jabswitch.exe
-        │   ├── jar.exe
-        │   ├── jarsigner.exe
-        │   ├── javac.exe
-        │   ├── javadoc.exe
-        │   ├── java.exe
-        │   ├── javah.exe
-        │   ├── javap.exe
-        │   ├── java-rmi.exe
-        │   ├── javaw.exe
-        │   ├── jcmd.exe
-        │   ├── jconsole.exe
-        │   ├── jdb.exe
-        │   ├── jdeps.exe
-        │   ├── jfr.exe
-        │   ├── jhat.exe
-        │   ├── jinfo.exe
-        │   ├── jjs.exe
-        │   ├── jli.dll
-        │   ├── jmap.exe
-        │   ├── jps.exe
-        │   ├── jrunscript.exe
-        │   ├── jsadebugd.exe
-        │   ├── jstack.exe
-        │   ├── jstatd.exe
-        │   ├── jstat.exe
-        │   ├── keytool.exe
-        │   ├── kinit.exe
-        │   ├── klist.exe
-        │   ├── ktab.exe
-        │   ├── msvcr100.dll
-        │   ├── native2ascii.exe
-        │   ├── orbd.exe
-        │   ├── pack200.exe
-        │   ├── policytool.exe
-        │   ├── rmic.exe
-        │   ├── rmid.exe
-        │   ├── rmiregistry.exe
-        │   ├── schemagen.exe
-        │   ├── serialver.exe
-        │   ├── servertool.exe
-        │   ├── tnameserv.exe
-        │   ├── unpack200.exe
-        │   ├── wsgen.exe
-        │   ├── wsimport.exe
-        │   └── xjc.exe
+        │   ├── appletviewer.exe
+        │   ├── clhsdb.exe
+        │   ├── extcheck.exe
+        │   ├── hsdb.exe
+        │   ├── idlj.exe
+        │   ├── jabswitch.exe
+        │   ├── jar.exe
+        │   ├── jarsigner.exe
+        │   ├── javac.exe
+        │   ├── javadoc.exe
+        │   ├── java.exe
+        │   ├── javah.exe
+        │   ├── javap.exe
+        │   ├── java-rmi.exe
+        │   ├── javaw.exe
+        │   ├── jcmd.exe
+        │   ├── jconsole.exe
+        │   ├── jdb.exe
+        │   ├── jdeps.exe
+        │   ├── jfr.exe
+        │   ├── jhat.exe
+        │   ├── jinfo.exe
+        │   ├── jjs.exe
+        │   ├── jli.dll
+        │   ├── jmap.exe
+        │   ├── jps.exe
+        │   ├── jrunscript.exe
+        │   ├── jsadebugd.exe
+        │   ├── jstack.exe
+        │   ├── jstatd.exe
+        │   ├── jstat.exe
+        │   ├── keytool.exe
+        │   ├── kinit.exe
+        │   ├── klist.exe
+        │   ├── ktab.exe
+        │   ├── msvcr100.dll
+        │   ├── native2ascii.exe
+        │   ├── orbd.exe
+        │   ├── pack200.exe
+        │   ├── policytool.exe
+        │   ├── rmic.exe
+        │   ├── rmid.exe
+        │   ├── rmiregistry.exe
+        │   ├── schemagen.exe
+        │   ├── serialver.exe
+        │   ├── servertool.exe
+        │   ├── tnameserv.exe
+        │   ├── unpack200.exe
+        │   ├── wsgen.exe
+        │   ├── wsimport.exe
+        │   └── xjc.exe
         ├── demo
-        │   ├── applets
-        │   ├── jfc
-        │   ├── jpda
-        │   ├── jvmti
-        │   ├── management
-        │   ├── nbproject
-        │   ├── nio
-        │   ├── README
-        │   └── scripting
+        │   ├── applets
+        │   ├── jfc
+        │   ├── jpda
+        │   ├── jvmti
+        │   ├── management
+        │   ├── nbproject
+        │   ├── nio
+        │   ├── README
+        │   └── scripting
         ├── include # 编译本地代码时使用的c/c++头部文件
-        │   ├── classfile_constants.h
-        │   ├── jawt.h
-        │   ├── jdwpTransport.h
-        │   ├── jni.h
-        │   ├── jvmticmlr.h
-        │   ├── jvmti.h
-        │   └── win32
+        │   ├── classfile_constants.h
+        │   ├── jawt.h
+        │   ├── jdwpTransport.h
+        │   ├── jni.h
+        │   ├── jvmticmlr.h
+        │   ├── jvmti.h
+        │   └── win32
         ├── jre
-        │   ├── ASSEMBLY_EXCEPTION
-        │   ├── bin # 包含基本指令, windows 上,它包含系统的运行时动态链接
-        │   │   ├── attach.dll
-        │   │   ├── awt.dll
-        │   │   ├── dt_shmem.dll
-        │   │   ├── dt_socket.dll
-        │   │   ├── fontmanager.dll
-        │   │   ├── freetype.dll
-        │   │   ├── hprof.dll
-        │   │   ├── instrument.dll
-        │   │   ├── j2pcsc.dll
-        │   │   ├── j2pkcs11.dll
-        │   │   ├── jaas_nt.dll
-        │   │   ├── jabswitch.exe
-        │   │   ├── JavaAccessBridge-64.dll
-        │   │   ├── java_crw_demo.dll
-        │   │   ├── java.dll
-        │   │   ├── java.exe
-        │   │   ├── java-rmi.exe
-        │   │   ├── javaw.exe
-        │   │   ├── JAWTAccessBridge-64.dll
-        │   │   ├── jawt.dll
-        │   │   ├── jdwp.dll
-        │   │   ├── jjs.exe
-        │   │   ├── jli.dll
-        │   │   ├── jpeg.dll
-        │   │   ├── jsdt.dll
-        │   │   ├── jsound.dll
-        │   │   ├── jsoundds.dll
-        │   │   ├── keytool.exe
-        │   │   ├── kinit.exe
-        │   │   ├── klist.exe
-        │   │   ├── ktab.exe
-        │   │   ├── lcms.dll
-        │   │   ├── management.dll
-        │   │   ├── mlib_image.dll
-        │   │   ├── msvcr100.dll
-        │   │   ├── net.dll
-        │   │   ├── nio.dll
-        │   │   ├── npt.dll
-        │   │   ├── orbd.exe
-        │   │   ├── pack200.exe
-        │   │   ├── policytool.exe
-        │   │   ├── rmid.exe
-        │   │   ├── rmiregistry.exe
-        │   │   ├── sawindbg.dll
-        │   │   ├── server
-        │   │   ├── servertool.exe
-        │   │   ├── splashscreen.dll
-        │   │   ├── sunec.dll
-        │   │   ├── sunmscapi.dll
-        │   │   ├── tnameserv.exe
-        │   │   ├── unpack200.exe
-        │   │   ├── unpack.dll
-        │   │   ├── verify.dll
-        │   │   ├── w2k_lsa_auth.dll
-        │   │   ├── WindowsAccessBridge-64.dll
-        │   │   └── zip.dll
-        │   ├── lib # 包含用户可编辑的配置文件
-        │   │   ├── accessibility.properties
-        │   │   ├── amd64
-        │   │   ├── applet
-        │   │   ├── calendars.properties
-        │   │   ├── charsets.jar
-        │   │   ├── classlist
-        │   │   ├── cmm
-        │   │   ├── content-types.properties
-        │   │   ├── currency.data
-        │   │   ├── ext
-        │   │   ├── flavormap.properties
-        │   │   ├── fontconfig.bfc
-        │   │   ├── fontconfig.properties.src
-        │   │   ├── hijrah-config-umalqura.properties
-        │   │   ├── images
-        │   │   ├── jce.jar
-        │   │   ├── jfr
-        │   │   ├── jfr.jar
-        │   │   ├── jsse.jar
-        │   │   ├── jvm.hprof.txt
-        │   │   ├── logging.properties
-        │   │   ├── management
-        │   │   ├── management-agent.jar
-        │   │   ├── meta-index
-        │   │   ├── net.properties
-        │   │   ├── psfontj2d.properties
-        │   │   ├── psfont.properties.ja
-        │   │   ├── resources.jar
-        │   │   ├── rt.jar # 包含运行时的java类和资源文件
-        │   │   ├── security
-        │   │   ├── sound.properties
-        │   │   ├── tzdb.dat
-        │   │   └── tzmappings
-        │   ├── LICENSE
-        │   └── THIRD_PARTY_README
+        │   ├── ASSEMBLY_EXCEPTION
+        │   ├── bin # 包含基本指令, windows 上,它包含系统的运行时动态链接
+        │   │   ├── attach.dll
+        │   │   ├── awt.dll
+        │   │   ├── dt_shmem.dll
+        │   │   ├── dt_socket.dll
+        │   │   ├── fontmanager.dll
+        │   │   ├── freetype.dll
+        │   │   ├── hprof.dll
+        │   │   ├── instrument.dll
+        │   │   ├── j2pcsc.dll
+        │   │   ├── j2pkcs11.dll
+        │   │   ├── jaas_nt.dll
+        │   │   ├── jabswitch.exe
+        │   │   ├── JavaAccessBridge-64.dll
+        │   │   ├── java_crw_demo.dll
+        │   │   ├── java.dll
+        │   │   ├── java.exe
+        │   │   ├── java-rmi.exe
+        │   │   ├── javaw.exe
+        │   │   ├── JAWTAccessBridge-64.dll
+        │   │   ├── jawt.dll
+        │   │   ├── jdwp.dll
+        │   │   ├── jjs.exe
+        │   │   ├── jli.dll
+        │   │   ├── jpeg.dll
+        │   │   ├── jsdt.dll
+        │   │   ├── jsound.dll
+        │   │   ├── jsoundds.dll
+        │   │   ├── keytool.exe
+        │   │   ├── kinit.exe
+        │   │   ├── klist.exe
+        │   │   ├── ktab.exe
+        │   │   ├── lcms.dll
+        │   │   ├── management.dll
+        │   │   ├── mlib_image.dll
+        │   │   ├── msvcr100.dll
+        │   │   ├── net.dll
+        │   │   ├── nio.dll
+        │   │   ├── npt.dll
+        │   │   ├── orbd.exe
+        │   │   ├── pack200.exe
+        │   │   ├── policytool.exe
+        │   │   ├── rmid.exe
+        │   │   ├── rmiregistry.exe
+        │   │   ├── sawindbg.dll
+        │   │   ├── server
+        │   │   ├── servertool.exe
+        │   │   ├── splashscreen.dll
+        │   │   ├── sunec.dll
+        │   │   ├── sunmscapi.dll
+        │   │   ├── tnameserv.exe
+        │   │   ├── unpack200.exe
+        │   │   ├── unpack.dll
+        │   │   ├── verify.dll
+        │   │   ├── w2k_lsa_auth.dll
+        │   │   ├── WindowsAccessBridge-64.dll
+        │   │   └── zip.dll
+        │   ├── lib # 包含用户可编辑的配置文件
+        │   │   ├── accessibility.properties
+        │   │   ├── amd64
+        │   │   ├── applet
+        │   │   ├── calendars.properties
+        │   │   ├── charsets.jar
+        │   │   ├── classlist
+        │   │   ├── cmm
+        │   │   ├── content-types.properties
+        │   │   ├── currency.data
+        │   │   ├── ext
+        │   │   ├── flavormap.properties
+        │   │   ├── fontconfig.bfc
+        │   │   ├── fontconfig.properties.src
+        │   │   ├── hijrah-config-umalqura.properties
+        │   │   ├── images
+        │   │   ├── jce.jar
+        │   │   ├── jfr
+        │   │   ├── jfr.jar
+        │   │   ├── jsse.jar
+        │   │   ├── jvm.hprof.txt
+        │   │   ├── logging.properties
+        │   │   ├── management
+        │   │   ├── management-agent.jar
+        │   │   ├── meta-index
+        │   │   ├── net.properties
+        │   │   ├── psfontj2d.properties
+        │   │   ├── psfont.properties.ja
+        │   │   ├── resources.jar
+        │   │   ├── rt.jar # 包含运行时的java类和资源文件
+        │   │   ├── security
+        │   │   ├── sound.properties
+        │   │   ├── tzdb.dat
+        │   │   └── tzmappings
+        │   ├── LICENSE
+        │   └── THIRD_PARTY_README
         ├── lib # JDK工具的几个jar和其他类型的文件
-        │   ├── ct.sym
-        │   ├── dt.jar
-        │   ├── ir.idl
-        │   ├── jawt.lib
-        │   ├── jconsole.jar
-        │   ├── jvm.lib
-        │   ├── orb.idl
-        │   ├── sa-jdi.jar
-        │   └── tools.jar # 含javac编译器的java类
+        │   ├── ct.sym
+        │   ├── dt.jar
+        │   ├── ir.idl
+        │   ├── jawt.lib
+        │   ├── jconsole.jar
+        │   ├── jvm.lib
+        │   ├── orb.idl
+        │   ├── sa-jdi.jar
+        │   └── tools.jar # 含javac编译器的java类
         ├── LICENSE
         ├── manifest.json
         ├── release
         ├── sample
-        │   ├── annotations
-        │   ├── forkjoin
-        │   ├── jmx
-        │   ├── lambda
-        │   ├── nbproject
-        │   ├── nio
-        │   ├── README
-        │   ├── scripting
-        │   └── try-with-resources
+        │   ├── annotations
+        │   ├── forkjoin
+        │   ├── jmx
+        │   ├── lambda
+        │   ├── nbproject
+        │   ├── nio
+        │   ├── README
+        │   ├── scripting
+        │   └── try-with-resources
         ├── src.zip
         └── THIRD_PARTY_README
         ```
@@ -246,281 +246,281 @@
         [bgzo@LAPTOP 9.0.4-12]$ tree -L 2
         .
         ├── bin # 包含所有指令,在windows平台上,他继续包含系统的运行时动态链接
-        │   ├── appletviewer.exe
-        │   ├── attach.dll
-        │   ├── awt.dll
-        │   ├── dt_shmem.dll
-        │   ├── dt_socket.dll
-        │   ├── fontmanager.dll
-        │   ├── freetype.dll
-        │   ├── idlj.exe
-        │   ├── instrument.dll
-        │   ├── j2pcsc.dll
-        │   ├── j2pkcs11.dll
-        │   ├── jaas_nt.dll
-        │   ├── jabswitch.exe
-        │   ├── jaccessinspector.exe
-        │   ├── jaccesswalker.exe
-        │   ├── jar.exe
-        │   ├── jarsigner.exe
-        │   ├── javaaccessbridge.dll
-        │   ├── javac.exe
-        │   ├── java.dll
-        │   ├── javadoc.exe
-        │   ├── java.exe
-        │   ├── javah.exe
-        │   ├── javajpeg.dll
-        │   ├── javap.exe
-        │   ├── javaw.exe
-        │   ├── jawt.dll
-        │   ├── jcmd.exe
-        │   ├── jconsole.exe
-        │   ├── jdb.exe
-        │   ├── jdeprscan.exe
-        │   ├── jdeps.exe
-        │   ├── jdwp.dll
-        │   ├── jhsdb.exe
-        │   ├── jimage.dll
-        │   ├── jimage.exe
-        │   ├── jinfo.exe
-        │   ├── jjs.exe
-        │   ├── jli.dll
-        │   ├── jlink.exe
-        │   ├── jmap.exe
-        │   ├── jmod.exe
-        │   ├── jps.exe
-        │   ├── jrunscript.exe
-        │   ├── jshell.exe
-        │   ├── jsound.dll
-        │   ├── jsoundds.dll
-        │   ├── jstack.exe
-        │   ├── jstatd.exe
-        │   ├── jstat.exe
-        │   ├── keytool.exe
-        │   ├── kinit.exe
-        │   ├── klist.exe
-        │   ├── ktab.exe
-        │   ├── lcms.dll
-        │   ├── le.dll
-        │   ├── management_agent.dll
-        │   ├── management.dll
-        │   ├── management_ext.dll
-        │   ├── mlib_image.dll
-        │   ├── msvcp120.dll
-        │   ├── msvcr120.dll
-        │   ├── net.dll
-        │   ├── nio.dll
-        │   ├── orbd.exe
-        │   ├── pack200.exe
-        │   ├── policytool.exe
-        │   ├── prefs.dll
-        │   ├── rmic.exe
-        │   ├── rmid.exe
-        │   ├── rmi.dll
-        │   ├── rmiregistry.exe
-        │   ├── sawindbg.dll
-        │   ├── schemagen.exe
-        │   ├── serialver.exe
-        │   ├── server
-        │   ├── servertool.exe
-        │   ├── splashscreen.dll
-        │   ├── sunec.dll
-        │   ├── sunmscapi.dll
-        │   ├── tnameserv.exe
-        │   ├── unpack200.exe
-        │   ├── unpack.dll
-        │   ├── verify.dll
-        │   ├── w2k_lsa_auth.dll
-        │   ├── windowsaccessbridge-64.dll
-        │   ├── wsgen.exe
-        │   ├── wsimport.exe
-        │   ├── xjc.exe
-        │   └── zip.dll
+        │   ├── appletviewer.exe
+        │   ├── attach.dll
+        │   ├── awt.dll
+        │   ├── dt_shmem.dll
+        │   ├── dt_socket.dll
+        │   ├── fontmanager.dll
+        │   ├── freetype.dll
+        │   ├── idlj.exe
+        │   ├── instrument.dll
+        │   ├── j2pcsc.dll
+        │   ├── j2pkcs11.dll
+        │   ├── jaas_nt.dll
+        │   ├── jabswitch.exe
+        │   ├── jaccessinspector.exe
+        │   ├── jaccesswalker.exe
+        │   ├── jar.exe
+        │   ├── jarsigner.exe
+        │   ├── javaaccessbridge.dll
+        │   ├── javac.exe
+        │   ├── java.dll
+        │   ├── javadoc.exe
+        │   ├── java.exe
+        │   ├── javah.exe
+        │   ├── javajpeg.dll
+        │   ├── javap.exe
+        │   ├── javaw.exe
+        │   ├── jawt.dll
+        │   ├── jcmd.exe
+        │   ├── jconsole.exe
+        │   ├── jdb.exe
+        │   ├── jdeprscan.exe
+        │   ├── jdeps.exe
+        │   ├── jdwp.dll
+        │   ├── jhsdb.exe
+        │   ├── jimage.dll
+        │   ├── jimage.exe
+        │   ├── jinfo.exe
+        │   ├── jjs.exe
+        │   ├── jli.dll
+        │   ├── jlink.exe
+        │   ├── jmap.exe
+        │   ├── jmod.exe
+        │   ├── jps.exe
+        │   ├── jrunscript.exe
+        │   ├── jshell.exe
+        │   ├── jsound.dll
+        │   ├── jsoundds.dll
+        │   ├── jstack.exe
+        │   ├── jstatd.exe
+        │   ├── jstat.exe
+        │   ├── keytool.exe
+        │   ├── kinit.exe
+        │   ├── klist.exe
+        │   ├── ktab.exe
+        │   ├── lcms.dll
+        │   ├── le.dll
+        │   ├── management_agent.dll
+        │   ├── management.dll
+        │   ├── management_ext.dll
+        │   ├── mlib_image.dll
+        │   ├── msvcp120.dll
+        │   ├── msvcr120.dll
+        │   ├── net.dll
+        │   ├── nio.dll
+        │   ├── orbd.exe
+        │   ├── pack200.exe
+        │   ├── policytool.exe
+        │   ├── prefs.dll
+        │   ├── rmic.exe
+        │   ├── rmid.exe
+        │   ├── rmi.dll
+        │   ├── rmiregistry.exe
+        │   ├── sawindbg.dll
+        │   ├── schemagen.exe
+        │   ├── serialver.exe
+        │   ├── server
+        │   ├── servertool.exe
+        │   ├── splashscreen.dll
+        │   ├── sunec.dll
+        │   ├── sunmscapi.dll
+        │   ├── tnameserv.exe
+        │   ├── unpack200.exe
+        │   ├── unpack.dll
+        │   ├── verify.dll
+        │   ├── w2k_lsa_auth.dll
+        │   ├── windowsaccessbridge-64.dll
+        │   ├── wsgen.exe
+        │   ├── wsimport.exe
+        │   ├── xjc.exe
+        │   └── zip.dll
         ├── conf # 包含用户可编辑的配置文件,例如之前位于jre/lib目录中的.properties和policy
-        │   ├── logging.properties
-        │   ├── management
-        │   ├── net.properties
-        │   ├── security
-        │   └── sound.properties
+        │   ├── logging.properties
+        │   ├── management
+        │   ├── net.properties
+        │   ├── security
+        │   └── sound.properties
         ├── include # 包含在以前编译本地代码时使用c/c++头文件,他只存在于JDK中
-        │   ├── classfile_constants.h
-        │   ├── ir.idl
-        │   ├── jawt.h
-        │   ├── jdwpTransport.h
-        │   ├── jni.h
-        │   ├── jvmticmlr.h
-        │   ├── jvmti.h
-        │   ├── orb.idl
-        │   └── win32
+        │   ├── classfile_constants.h
+        │   ├── ir.idl
+        │   ├── jawt.h
+        │   ├── jdwpTransport.h
+        │   ├── jni.h
+        │   ├── jvmticmlr.h
+        │   ├── jvmti.h
+        │   ├── orb.idl
+        │   └── win32
         ├── install.json
         ├── jmods # 包含JMOD格式的平台模块,创建自定义运行时映像需要他,它只存在于jdk中
-        │   ├── java.activation.jmod
-        │   ├── java.base.jmod
-        │   ├── java.compiler.jmod
-        │   ├── java.corba.jmod
-        │   ├── java.datatransfer.jmod
-        │   ├── java.desktop.jmod
-        │   ├── java.instrument.jmod
-        │   ├── java.logging.jmod
-        │   ├── java.management.jmod
-        │   ├── java.management.rmi.jmod
-        │   ├── java.naming.jmod
-        │   ├── java.prefs.jmod
-        │   ├── java.rmi.jmod
-        │   ├── java.scripting.jmod
-        │   ├── java.security.jgss.jmod
-        │   ├── java.security.sasl.jmod
-        │   ├── java.se.ee.jmod
-        │   ├── java.se.jmod
-        │   ├── java.smartcardio.jmod
-        │   ├── java.sql.jmod
-        │   ├── java.sql.rowset.jmod
-        │   ├── java.transaction.jmod
-        │   ├── java.xml.bind.jmod
-        │   ├── java.xml.crypto.jmod
-        │   ├── java.xml.jmod
-        │   ├── java.xml.ws.annotation.jmod
-        │   ├── java.xml.ws.jmod
-        │   ├── jdk.accessibility.jmod
-        │   ├── jdk.attach.jmod
-        │   ├── jdk.charsets.jmod
-        │   ├── jdk.compiler.jmod
-        │   ├── jdk.crypto.cryptoki.jmod
-        │   ├── jdk.crypto.ec.jmod
-        │   ├── jdk.crypto.mscapi.jmod
-        │   ├── jdk.dynalink.jmod
-        │   ├── jdk.editpad.jmod
-        │   ├── jdk.hotspot.agent.jmod
-        │   ├── jdk.httpserver.jmod
-        │   ├── jdk.incubator.httpclient.jmod
-        │   ├── jdk.internal.ed.jmod
-        │   ├── jdk.internal.jvmstat.jmod
-        │   ├── jdk.internal.le.jmod
-        │   ├── jdk.internal.opt.jmod
-        │   ├── jdk.internal.vm.ci.jmod
-        │   ├── jdk.jartool.jmod
-        │   ├── jdk.javadoc.jmod
-        │   ├── jdk.jcmd.jmod
-        │   ├── jdk.jconsole.jmod
-        │   ├── jdk.jdeps.jmod
-        │   ├── jdk.jdi.jmod
-        │   ├── jdk.jdwp.agent.jmod
-        │   ├── jdk.jlink.jmod
-        │   ├── jdk.jshell.jmod
-        │   ├── jdk.jsobject.jmod
-        │   ├── jdk.jstatd.jmod
-        │   ├── jdk.localedata.jmod
-        │   ├── jdk.management.agent.jmod
-        │   ├── jdk.management.jmod
-        │   ├── jdk.naming.dns.jmod
-        │   ├── jdk.naming.rmi.jmod
-        │   ├── jdk.net.jmod
-        │   ├── jdk.pack.jmod
-        │   ├── jdk.policytool.jmod
-        │   ├── jdk.rmic.jmod
-        │   ├── jdk.scripting.nashorn.jmod
-        │   ├── jdk.scripting.nashorn.shell.jmod
-        │   ├── jdk.sctp.jmod
-        │   ├── jdk.security.auth.jmod
-        │   ├── jdk.security.jgss.jmod
-        │   ├── jdk.unsupported.jmod
-        │   ├── jdk.xml.bind.jmod
-        │   ├── jdk.xml.dom.jmod
-        │   ├── jdk.xml.ws.jmod
-        │   └── jdk.zipfs.jmod
+        │   ├── java.activation.jmod
+        │   ├── java.base.jmod
+        │   ├── java.compiler.jmod
+        │   ├── java.corba.jmod
+        │   ├── java.datatransfer.jmod
+        │   ├── java.desktop.jmod
+        │   ├── java.instrument.jmod
+        │   ├── java.logging.jmod
+        │   ├── java.management.jmod
+        │   ├── java.management.rmi.jmod
+        │   ├── java.naming.jmod
+        │   ├── java.prefs.jmod
+        │   ├── java.rmi.jmod
+        │   ├── java.scripting.jmod
+        │   ├── java.security.jgss.jmod
+        │   ├── java.security.sasl.jmod
+        │   ├── java.se.ee.jmod
+        │   ├── java.se.jmod
+        │   ├── java.smartcardio.jmod
+        │   ├── java.sql.jmod
+        │   ├── java.sql.rowset.jmod
+        │   ├── java.transaction.jmod
+        │   ├── java.xml.bind.jmod
+        │   ├── java.xml.crypto.jmod
+        │   ├── java.xml.jmod
+        │   ├── java.xml.ws.annotation.jmod
+        │   ├── java.xml.ws.jmod
+        │   ├── jdk.accessibility.jmod
+        │   ├── jdk.attach.jmod
+        │   ├── jdk.charsets.jmod
+        │   ├── jdk.compiler.jmod
+        │   ├── jdk.crypto.cryptoki.jmod
+        │   ├── jdk.crypto.ec.jmod
+        │   ├── jdk.crypto.mscapi.jmod
+        │   ├── jdk.dynalink.jmod
+        │   ├── jdk.editpad.jmod
+        │   ├── jdk.hotspot.agent.jmod
+        │   ├── jdk.httpserver.jmod
+        │   ├── jdk.incubator.httpclient.jmod
+        │   ├── jdk.internal.ed.jmod
+        │   ├── jdk.internal.jvmstat.jmod
+        │   ├── jdk.internal.le.jmod
+        │   ├── jdk.internal.opt.jmod
+        │   ├── jdk.internal.vm.ci.jmod
+        │   ├── jdk.jartool.jmod
+        │   ├── jdk.javadoc.jmod
+        │   ├── jdk.jcmd.jmod
+        │   ├── jdk.jconsole.jmod
+        │   ├── jdk.jdeps.jmod
+        │   ├── jdk.jdi.jmod
+        │   ├── jdk.jdwp.agent.jmod
+        │   ├── jdk.jlink.jmod
+        │   ├── jdk.jshell.jmod
+        │   ├── jdk.jsobject.jmod
+        │   ├── jdk.jstatd.jmod
+        │   ├── jdk.localedata.jmod
+        │   ├── jdk.management.agent.jmod
+        │   ├── jdk.management.jmod
+        │   ├── jdk.naming.dns.jmod
+        │   ├── jdk.naming.rmi.jmod
+        │   ├── jdk.net.jmod
+        │   ├── jdk.pack.jmod
+        │   ├── jdk.policytool.jmod
+        │   ├── jdk.rmic.jmod
+        │   ├── jdk.scripting.nashorn.jmod
+        │   ├── jdk.scripting.nashorn.shell.jmod
+        │   ├── jdk.sctp.jmod
+        │   ├── jdk.security.auth.jmod
+        │   ├── jdk.security.jgss.jmod
+        │   ├── jdk.unsupported.jmod
+        │   ├── jdk.xml.bind.jmod
+        │   ├── jdk.xml.dom.jmod
+        │   ├── jdk.xml.ws.jmod
+        │   └── jdk.zipfs.jmod
         ├── legal # 法律声明
-        │   ├── java.activation
-        │   ├── java.base
-        │   ├── java.compiler
-        │   ├── java.corba
-        │   ├── java.datatransfer
-        │   ├── java.desktop
-        │   ├── java.instrument
-        │   ├── java.logging
-        │   ├── java.management
-        │   ├── java.management.rmi
-        │   ├── java.naming
-        │   ├── java.prefs
-        │   ├── java.rmi
-        │   ├── java.scripting
-        │   ├── java.se
-        │   ├── java.security.jgss
-        │   ├── java.security.sasl
-        │   ├── java.se.ee
-        │   ├── java.smartcardio
-        │   ├── java.sql
-        │   ├── java.sql.rowset
-        │   ├── java.transaction
-        │   ├── java.xml
-        │   ├── java.xml.bind
-        │   ├── java.xml.crypto
-        │   ├── java.xml.ws
-        │   ├── java.xml.ws.annotation
-        │   ├── jdk.accessibility
-        │   ├── jdk.attach
-        │   ├── jdk.charsets
-        │   ├── jdk.compiler
-        │   ├── jdk.crypto.cryptoki
-        │   ├── jdk.crypto.ec
-        │   ├── jdk.crypto.mscapi
-        │   ├── jdk.dynalink
-        │   ├── jdk.editpad
-        │   ├── jdk.hotspot.agent
-        │   ├── jdk.httpserver
-        │   ├── jdk.incubator.httpclient
-        │   ├── jdk.internal.ed
-        │   ├── jdk.internal.jvmstat
-        │   ├── jdk.internal.le
-        │   ├── jdk.internal.opt
-        │   ├── jdk.internal.vm.ci
-        │   ├── jdk.jartool
-        │   ├── jdk.javadoc
-        │   ├── jdk.jcmd
-        │   ├── jdk.jconsole
-        │   ├── jdk.jdeps
-        │   ├── jdk.jdi
-        │   ├── jdk.jdwp.agent
-        │   ├── jdk.jlink
-        │   ├── jdk.jshell
-        │   ├── jdk.jsobject
-        │   ├── jdk.jstatd
-        │   ├── jdk.localedata
-        │   ├── jdk.management
-        │   ├── jdk.management.agent
-        │   ├── jdk.naming.dns
-        │   ├── jdk.naming.rmi
-        │   ├── jdk.net
-        │   ├── jdk.pack
-        │   ├── jdk.policytool
-        │   ├── jdk.rmic
-        │   ├── jdk.scripting.nashorn
-        │   ├── jdk.scripting.nashorn.shell
-        │   ├── jdk.sctp
-        │   ├── jdk.security.auth
-        │   ├── jdk.security.jgss
-        │   ├── jdk.unsupported
-        │   ├── jdk.xml.bind
-        │   ├── jdk.xml.dom
-        │   ├── jdk.xml.ws
-        │   └── jdk.zipfs
+        │   ├── java.activation
+        │   ├── java.base
+        │   ├── java.compiler
+        │   ├── java.corba
+        │   ├── java.datatransfer
+        │   ├── java.desktop
+        │   ├── java.instrument
+        │   ├── java.logging
+        │   ├── java.management
+        │   ├── java.management.rmi
+        │   ├── java.naming
+        │   ├── java.prefs
+        │   ├── java.rmi
+        │   ├── java.scripting
+        │   ├── java.se
+        │   ├── java.security.jgss
+        │   ├── java.security.sasl
+        │   ├── java.se.ee
+        │   ├── java.smartcardio
+        │   ├── java.sql
+        │   ├── java.sql.rowset
+        │   ├── java.transaction
+        │   ├── java.xml
+        │   ├── java.xml.bind
+        │   ├── java.xml.crypto
+        │   ├── java.xml.ws
+        │   ├── java.xml.ws.annotation
+        │   ├── jdk.accessibility
+        │   ├── jdk.attach
+        │   ├── jdk.charsets
+        │   ├── jdk.compiler
+        │   ├── jdk.crypto.cryptoki
+        │   ├── jdk.crypto.ec
+        │   ├── jdk.crypto.mscapi
+        │   ├── jdk.dynalink
+        │   ├── jdk.editpad
+        │   ├── jdk.hotspot.agent
+        │   ├── jdk.httpserver
+        │   ├── jdk.incubator.httpclient
+        │   ├── jdk.internal.ed
+        │   ├── jdk.internal.jvmstat
+        │   ├── jdk.internal.le
+        │   ├── jdk.internal.opt
+        │   ├── jdk.internal.vm.ci
+        │   ├── jdk.jartool
+        │   ├── jdk.javadoc
+        │   ├── jdk.jcmd
+        │   ├── jdk.jconsole
+        │   ├── jdk.jdeps
+        │   ├── jdk.jdi
+        │   ├── jdk.jdwp.agent
+        │   ├── jdk.jlink
+        │   ├── jdk.jshell
+        │   ├── jdk.jsobject
+        │   ├── jdk.jstatd
+        │   ├── jdk.localedata
+        │   ├── jdk.management
+        │   ├── jdk.management.agent
+        │   ├── jdk.naming.dns
+        │   ├── jdk.naming.rmi
+        │   ├── jdk.net
+        │   ├── jdk.pack
+        │   ├── jdk.policytool
+        │   ├── jdk.rmic
+        │   ├── jdk.scripting.nashorn
+        │   ├── jdk.scripting.nashorn.shell
+        │   ├── jdk.sctp
+        │   ├── jdk.security.auth
+        │   ├── jdk.security.jgss
+        │   ├── jdk.unsupported
+        │   ├── jdk.xml.bind
+        │   ├── jdk.xml.dom
+        │   ├── jdk.xml.ws
+        │   └── jdk.zipfs
         ├── lib # 包含非windows平台上的动态链接本地库,其子目录和文件不应由开发人员直接编译或使用
-        │   ├── classlist
-        │   ├── ct.sym
-        │   ├── fontconfig.bfc
-        │   ├── fontconfig.properties.src
-        │   ├── jawt.lib
-        │   ├── jrt-fs.jar
-        │   ├── jvm.cfg
-        │   ├── jvm.lib
-        │   ├── modules
-        │   ├── psfontj2d.properties
-        │   ├── psfont.properties.ja
-        │   ├── sawindbg.dll.manifest
-        │   ├── security
-        │   ├── server
-        │   ├── src.zip
-        │   ├── tzdb.dat
-        │   └── tzmappings
+        │   ├── classlist
+        │   ├── ct.sym
+        │   ├── fontconfig.bfc
+        │   ├── fontconfig.properties.src
+        │   ├── jawt.lib
+        │   ├── jrt-fs.jar
+        │   ├── jvm.cfg
+        │   ├── jvm.lib
+        │   ├── modules
+        │   ├── psfontj2d.properties
+        │   ├── psfont.properties.ja
+        │   ├── sawindbg.dll.manifest
+        │   ├── security
+        │   ├── server
+        │   ├── src.zip
+        │   ├── tzdb.dat
+        │   └── tzmappings
         ├── manifest.json
         └── release
         ```

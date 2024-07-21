@@ -1,11 +1,11 @@
 alias:: 马男波杰克, Bojack, anime/bojack-horseman
 tags:: #animelist #WAIT
-created:: [[20200611]]
+created:: 20200611
 description:: 有空二刷
 
 -
 - > 你是个好人，截安，这才是最重要的，你也不要停止做一个好人。我喜欢你去商店买东西时总是自带购物袋,喜欢你去什么地方也意是有条不素,我喜欢你在飞机上嚼回香糖减扇琪朵的不适。很多入可能不欣赏这样的你,但是我欣赏
-  > "You're a good person，Dlane，and that's the most important thing，it's important that  you don't stop being good.I like how you always bring your own bags to the grocery store，and how you're always organized to go places，I like how you chew gum on the airplane so your ears will pop.A lot of people might not appreciate that about you，but 1do.
+  > "You're a good person，Dlane，and that's the most important thing，it's important that  you don't stop being good.I like how you always bring your own bags to the grocery store，and how you're always organized to go places，I like how you chew gum on the airplane so your ears will pop.A lot of people might not appreciate that about you，but 1do.
 - > 家就是个臭水坑，有机会的时候走出这个水坑是正确的
   > family is a sinkhole，and you were right to get out when you had the chance.
 - > 洛杉核的伟大之处就在于根本没人关心你是谁你从哪儿来 那就是一个肤浅的城市
@@ -19,7 +19,7 @@ description:: 有空二刷
 - > 从最大的大局来看我们不过是有一天终将被忘记的尘埃 所以我们过去做了什么不要紧我们将被如何记住也不要紧 唯一要紧的是现在是此时此刻
   > In the great grand scheme of things，we're just tiny specks that will one day be forgotten. So，it doesn't matter what we did in the past，or how we'll be remembered.The only thing that matters is right now，this moment，
 - > 我只是觉得跟你在一起时的样 让我觉得很尴尬 我不想再那样了，我只是想努力撑过每一天，不能总问自己我开不开心到底开不开心,这样只会让我变得更凄惨。我不知道我是否相信 正持久的快乐 电视剧和电影里 那些生动活泼幸福美满的他们应该不存在-不会有人能永远快乐的
-  > I was embarrassed by the person l was when I was staying with you. I'm trying not to be that person.I'm just trying to get through.each day. I can't keep asking myself，"Am I  happy？Am I happy？It just makes me more miserable.I donft know if I believe in it，real lasting happiness.All those perky，well-adjusted people you see in movies and TV shows？I don't think they exist .-No one's happy all the time，
+  > I was embarrassed by the person l was when I was staying with you. I'm trying not to be that person.I'm just trying to get through.each day. I can't keep asking myself，"Am I  happy？Am I happy？It just makes me more miserable.I donft know if I believe in it，real lasting happiness.All those perky，well-adjusted people you see in movies and TV shows？I don't think they exist .-No one's happy all the time，
 - > 人要意识到自已过得悲氨需要很长时间 要意识到其实不必如此则需要更久 只有放弃一切 才能找到通往快乐的路
   > It takes a long time to realize how truly miserable you are，even longer to see it doesn't have to be that way. Only after you give up everything can you begin to find a way to be happy.
 - > 比起人我更像马 还是比起马我更像人
@@ -35,7 +35,7 @@ description:: 有空二刷
 - > 你知道我不搞恋爱那一套 结局不是伤害别人就是被伤害 所以为什么要恋爱呢
   > You know that I don't do the whole love thing. Either you end up hurting someone or they hurt you.So，what's the point？
 - > 我认为我知道 怎么 你认为我知道什么 ？我知道我认为的是什么 但我不知道我认为的 是不是你认为我认为我知道的
-  > I think l know. Why？What do you think I know？I mean ,I know what I think，but I  don't know if the thing that I thinik is the thing that you think l know.
+  > I think l know. Why？What do you think I know？I mean ,I know what I think，but I  don't know if the thing that I thinik is the thing that you think l know.
 - > 哪有人考虑除自己之外的世界 这就是社会的弊病所在
   > Nobody thinks about the world outside themselves.You know，this is what's wrong with society.
 - > 总会有些时间让我们能谈谈感情 因为感情是心灵的房顶 感情的房顶一旦漏雨那会导致腥风血雨

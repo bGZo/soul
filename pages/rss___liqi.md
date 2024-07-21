@@ -26,44 +26,44 @@ source:: [利器](https://liqi.io/)
       - 每天由瑞士清洁工打扫一次。
       - 工作内容不用考虑盈利。
     - 你平时获得工作灵感的方式有哪些？
-      - 因为工作其实也没有多少创造性，谈不上需要专门寻找灵感。被问题难住会搜索，搜索不出来就和同事讨论，讨论不出来就看 [xkcd ](https://www.xkcd.com/)，或者翻 [feedly ](https://feedly.com/)。平时会收集一些好东西，遇到优秀的代码会存在 [Github](https://github.com/metaphox) 里，漂亮的摩托车放在 [Pinterest](https://pinterest.com/metaphox) 里，其他笔记放在 [Evernote ](https://www.yinxiang.com/)。无聊的时候就去翻一翻，自己感觉有助于工作。
+      - 因为工作其实也没有多少创造性，谈不上需要专门寻找灵感。被问题难住会搜索，搜索不出来就和同事讨论，讨论不出来就看 [xkcd ](https://www.xkcd.com/)，或者翻 [feedly ](https://feedly.com/)。平时会收集一些好东西，遇到优秀的代码会存在 [Github](https://github.com/metaphox) 里，漂亮的摩托车放在 [Pinterest](https://pinterest.com/metaphox) 里，其他笔记放在 [Evernote ](https://www.yinxiang.com/)。无聊的时候就去翻一翻，自己感觉有助于工作。
   - [陈楸帆｜品牌副总裁，科幻作家，编剧 | 利器](https://liqi.io/chenqiufan/)
     collapsed:: true
     - **你最理想的工作环境是什么？**
-      - 挑高楼层的 [LOFT ](https://baike.baidu.com/subview/84078/8332322.htm)，窗外能看见自然景观（绿植或者海），柔和的浅色调，可调节高度的桌子和 [Herman Miller](https://www.hermanmiller.cn/) 人体工学座椅，手势可以调节光线、温度及音乐，以及一面大书架和可投影的墙壁。
+      - 挑高楼层的 [LOFT ](https://baike.baidu.com/subview/84078/8332322.htm)，窗外能看见自然景观（绿植或者海），柔和的浅色调，可调节高度的桌子和 [Herman Miller](https://www.hermanmiller.cn/) 人体工学座椅，手势可以调节光线、温度及音乐，以及一面大书架和可投影的墙壁。
   - [凯文·凯利｜《连线》创始主编，作家 | 利器](https://liqi.io/kevinkelly/)
     collapsed:: true
     - ### **介绍一下你自己和所做的工作。**
-      - 我[ 整理想法并将其打包 ](https://kk.org/)。我是狂热的摄影师、制造者、旅行者、父亲、骑行者、设计师、哲学家与阅读者。我思考技术哲学，并以写作谋生。最近完成的一本书是有关天使与机器人的漫画小说，叫做[ 《银绳》 ](https://silver-cord.net/)（*The Silver Cord*）。我是[ 《连线》 ](https://www.wired.com/)（*Wired*）的创始人之一，也曾是[ 《全球概览》 ](https://en.wikipedia.org/wiki/Whole_Earth_Catalog)（*Whole Earth Catalog*）的编辑。同时也在更新博客 [Cool Tools ](https://kk.org/cooltools/)，它已经持续更新 12 年了。
+      - 我[ 整理想法并将其打包 ](https://kk.org/)。我是狂热的摄影师、制造者、旅行者、父亲、骑行者、设计师、哲学家与阅读者。我思考技术哲学，并以写作谋生。最近完成的一本书是有关天使与机器人的漫画小说，叫做[ 《银绳》 ](https://silver-cord.net/)（*The Silver Cord*）。我是[ 《连线》 ](https://www.wired.com/)（*Wired*）的创始人之一，也曾是[ 《全球概览》 ](https://en.wikipedia.org/wiki/Whole_Earth_Catalog)（*Whole Earth Catalog*）的编辑。同时也在更新博客 [Cool Tools ](https://kk.org/cooltools/)，它已经持续更新 12 年了。
   - [有才｜开发者，podcast主播 | 利器](https://liqi.io/youcai/)
     collapsed:: true
     - **你平时获得工作灵感的方式有哪些？**
       - 看书。
-      - 看我订阅的 RSS。我现在越来越喜欢 [NewsBlur](https://newsblur.com/) 这个 RSS 付费订阅推送服务，如果你用它的官方 iOS app 的话就会有一个很大的优点，就是可以选择显示 Feeds 的所有文章，还能搜索，特别是我做播客以来搜集资料时对我的帮助很大。以下是我订阅的部分 Blog：
-        - [Stratechery ](https://stratechery.com/)，Ben Thompson 靠他这个独立付费的科技话题分析博客能在台湾养活一家人，你知道有多好了吧？他很高产，不一定每篇都好，但一个月总有那么几篇让我拍手叫绝。
-        - [Six Colors ](https://sixcolors.com/)，Jason Snell 在 MacWorld 退下以后的所有好东西都发在这，我很喜欢他的文笔。
-        - [objc.io ](https://objc.io/)，主要是采访 Apple 生态圈开发者的一个网站，文章不多，但每篇都很棒。
-        - [Marco.org ](https://marco.org/)，嗯，多才多艺的 Marco 还是有挺多独立思考的好东西的，比如差点和耳机厂商吵起来的[ 这篇 ](https://www.marco.org/headphones-closed-portable#hoverall)。
-        - [NSHipster ](https://nshipster.cn/)，总是有很多好文章，关于 iOS 开发，关于各种汇编。
-        - [Solidot ](https://www.solidot.org/)，一个以科技话题为主有全球化视野的新闻源，可信，中文里少数我不需要看完后再去查证的网站。
-        - [TidBITS ](https://tidbits.com/)，现在基本上用它来看 OS X 上的重磅软件更新了，之前博主还是有文章的，这两年似乎越来越少？
-        - [AnandTech ](https://www.anandtech.com/)，我很多关于数码产品的硬件知识都是从这来，看了很多年了，非常靠谱。
-        - [NextDraft ](https://nextdraft.com/)，Dave Pell 写得一手好文章，同时在 Twitter 上吐得一手好槽，真是榜样。
-      - 看 [Netflix](https://www.netflix.com/) 上喜欢的美剧。
+      - 看我订阅的 RSS。我现在越来越喜欢 [NewsBlur](https://newsblur.com/) 这个 RSS 付费订阅推送服务，如果你用它的官方 iOS app 的话就会有一个很大的优点，就是可以选择显示 Feeds 的所有文章，还能搜索，特别是我做播客以来搜集资料时对我的帮助很大。以下是我订阅的部分 Blog：
+        - [Stratechery ](https://stratechery.com/)，Ben Thompson 靠他这个独立付费的科技话题分析博客能在台湾养活一家人，你知道有多好了吧？他很高产，不一定每篇都好，但一个月总有那么几篇让我拍手叫绝。
+        - [Six Colors ](https://sixcolors.com/)，Jason Snell 在 MacWorld 退下以后的所有好东西都发在这，我很喜欢他的文笔。
+        - [objc.io ](https://objc.io/)，主要是采访 Apple 生态圈开发者的一个网站，文章不多，但每篇都很棒。
+        - [Marco.org ](https://marco.org/)，嗯，多才多艺的 Marco 还是有挺多独立思考的好东西的，比如差点和耳机厂商吵起来的[ 这篇 ](https://www.marco.org/headphones-closed-portable#hoverall)。
+        - [NSHipster ](https://nshipster.cn/)，总是有很多好文章，关于 iOS 开发，关于各种汇编。
+        - [Solidot ](https://www.solidot.org/)，一个以科技话题为主有全球化视野的新闻源，可信，中文里少数我不需要看完后再去查证的网站。
+        - [TidBITS ](https://tidbits.com/)，现在基本上用它来看 OS X 上的重磅软件更新了，之前博主还是有文章的，这两年似乎越来越少？
+        - [AnandTech ](https://www.anandtech.com/)，我很多关于数码产品的硬件知识都是从这来，看了很多年了，非常靠谱。
+        - [NextDraft ](https://nextdraft.com/)，Dave Pell 写得一手好文章，同时在 Twitter 上吐得一手好槽，真是榜样。
+      - 看 [Netflix](https://www.netflix.com/) 上喜欢的美剧。
       - 听播客。
-        - [《The Record》 ](https://therecord.co/), 非常喜欢的一档已经停播的节目，由 Brent Simmons 和 Chris Parrish 两位我都很喜欢的资深开发者做的，目前的 11 期我每期都听了不下三遍。
-        - [《Connected》 ](https://www.relay.fm/connected)，三个小伙伴之前在 5by5 做了这档节目的前身 [《The Prompt》 ](https://5by5.tv/prompt)，然后觉得很合拍，就成立了 [Relay FM ](https://www.relay.fm/)，之后还收了 [《Mac Power User》 ](https://www.relay.fm/mpu/)这样的老牌节目，真是佩服！其实我是想听 Federico Viticci 的意大利英文的……
-        - [《Inquisitive》 ](https://www.relay.fm/inquisitive)，仍然是 Relay FM 创始人 Myke Hurley 的节目，建议所有 iOS 开发者朋友都听听，很多好料。
-        - [《Accidental Tech Podcast》 ](https://atp.fm/)，这个我应该不用做过多介绍了吧，每周听他们还是必备的。
-        - [《Debug》 ](https://www.imore.com/debug)，主播之一的 Guy English 和上文出现的 Chris Parrish 做了一款我在 OS X 上最喜欢的软件之一，Napkin。这节目没有固定更新周期，iMore 的主编 Rene 作为主播之一也从来不干预，主要就是采访各种开发团队，很多期都能请到大牌嘉宾，爆出很多 Apple 的料。
-        - [《Invisibilia》 ](https://www.npr.org/podcasts/510307/invisibilia)，NPR 旗下的一档「奇文说今古，谈笑有鸿儒」的节目，其实和去年很火的[ 《Serial》 ](https://serialpodcast.org/)有的一比。
-        - [《UPUPDOWNDOWN》 ](https://www.upup.fm/)，我最喜欢的讲游戏的播客。
-        - [《Sound Opinions》 ](https://www.soundopinions.org/)，他们推荐的独立乐队我都会关注。
-        - [《The Sounds in My Head》 ](https://thesoundsinmyhead.com/)，比上面的那档节目更加独立一点，很多乐队我都不知道。
-        - [《EconTalk》 ](https://www.econtalk.org/)，Russ Roberts 这个畅销书作家主持的一档英文里最好的金融类话题节目。
-        - [《Lore》 ](https://www.lorepodcast.com/)，最近才开的一档讲欧美鬼怪，传说的播客。
-        - [《Internet History Podcast》 ](https://www.internethistorypodcast.com/)，慢慢听，喜欢哪个年代的科技史都可以跳回去。
-        - [《太医来了》 ](https://ipn.li/taiyilaile/)，很多医学常识和黑幕，有意思。
+        - [《The Record》 ](https://therecord.co/), 非常喜欢的一档已经停播的节目，由 Brent Simmons 和 Chris Parrish 两位我都很喜欢的资深开发者做的，目前的 11 期我每期都听了不下三遍。
+        - [《Connected》 ](https://www.relay.fm/connected)，三个小伙伴之前在 5by5 做了这档节目的前身 [《The Prompt》 ](https://5by5.tv/prompt)，然后觉得很合拍，就成立了 [Relay FM ](https://www.relay.fm/)，之后还收了 [《Mac Power User》 ](https://www.relay.fm/mpu/)这样的老牌节目，真是佩服！其实我是想听 Federico Viticci 的意大利英文的……
+        - [《Inquisitive》 ](https://www.relay.fm/inquisitive)，仍然是 Relay FM 创始人 Myke Hurley 的节目，建议所有 iOS 开发者朋友都听听，很多好料。
+        - [《Accidental Tech Podcast》 ](https://atp.fm/)，这个我应该不用做过多介绍了吧，每周听他们还是必备的。
+        - [《Debug》 ](https://www.imore.com/debug)，主播之一的 Guy English 和上文出现的 Chris Parrish 做了一款我在 OS X 上最喜欢的软件之一，Napkin。这节目没有固定更新周期，iMore 的主编 Rene 作为主播之一也从来不干预，主要就是采访各种开发团队，很多期都能请到大牌嘉宾，爆出很多 Apple 的料。
+        - [《Invisibilia》 ](https://www.npr.org/podcasts/510307/invisibilia)，NPR 旗下的一档「奇文说今古，谈笑有鸿儒」的节目，其实和去年很火的[ 《Serial》 ](https://serialpodcast.org/)有的一比。
+        - [《UPUPDOWNDOWN》 ](https://www.upup.fm/)，我最喜欢的讲游戏的播客。
+        - [《Sound Opinions》 ](https://www.soundopinions.org/)，他们推荐的独立乐队我都会关注。
+        - [《The Sounds in My Head》 ](https://thesoundsinmyhead.com/)，比上面的那档节目更加独立一点，很多乐队我都不知道。
+        - [《EconTalk》 ](https://www.econtalk.org/)，Russ Roberts 这个畅销书作家主持的一档英文里最好的金融类话题节目。
+        - [《Lore》 ](https://www.lorepodcast.com/)，最近才开的一档讲欧美鬼怪，传说的播客。
+        - [《Internet History Podcast》 ](https://www.internethistorypodcast.com/)，慢慢听，喜欢哪个年代的科技史都可以跳回去。
+        - [《太医来了》 ](https://ipn.li/taiyilaile/)，很多医学常识和黑幕，有意思。
       - 暴走中也会有很多好点子。
       - 吃好吃的。
       - 坐在街边观察行人（好吧，主要是看美女）。
@@ -72,12 +72,12 @@ source:: [利器](https://liqi.io/)
       - 写日记，这么些年我觉得最好的习惯。
   - [范冰｜产品总监，设计师，开发者 | 利器](https://liqi.io/fanbing/)
     collapsed:: true
-    - 我叫范冰，网名 XDash，88 年生人。北京乐游星空科技有限公司合伙人，二次元动漫项目[ 「高能贩」 ](https://www.gaonengfun.com/)产品总监。曾任职盛大创新院，担任[ 「WiFi 万能钥匙」 ](https://wifi.com/)产品经理。中国最早的个人站长及共享软件开发者，科技博客[ 「同步控」 ](https://www.syncoo.com/)创始人，业余是自由设计师、开发者和网络营销机构顾问。
+    - 我叫范冰，网名 XDash，88 年生人。北京乐游星空科技有限公司合伙人，二次元动漫项目[ 「高能贩」 ](https://www.gaonengfun.com/)产品总监。曾任职盛大创新院，担任[ 「WiFi 万能钥匙」 ](https://wifi.com/)产品经理。中国最早的个人站长及共享软件开发者，科技博客[ 「同步控」 ](https://www.syncoo.com/)创始人，业余是自由设计师、开发者和网络营销机构顾问。
     - 整个从业经历中，我在产品经理、市场公关、项目管理等方面均有涉猎，加之个人对编程开发的兴趣、艺术设计的本科专业和金融投资的研究生学习，让我对互联网创业项目的开展有了多元的理解和经验。
-    - 基于上述经历、兴趣和工作的需要，我花了一年时间撰写了[ 《增长黑客》 ](https://item.jd.com/11732259.html)一书。我试图在书中将个人整理的国内外 growth hacking 的精彩案例资料与个人的实操经验相结合与大家分享。希望能对大家的创业有所帮助。现在书已经卖了 1 个月了，也登上了亚马逊营销新书 top 1 :)
+    - 基于上述经历、兴趣和工作的需要，我花了一年时间撰写了[ 《增长黑客》 ](https://item.jd.com/11732259.html)一书。我试图在书中将个人整理的国内外 growth hacking 的精彩案例资料与个人的实操经验相结合与大家分享。希望能对大家的创业有所帮助。现在书已经卖了 1 个月了，也登上了亚马逊营销新书 top 1 :)
   - [Matrix67｜自由职业者，数学爱好者 | 利器](https://liqi.io/matrix67/)
     collapsed:: true
-    - 我叫顾森，网名 Matrix67，长住北京的重庆人，目前没有固定的职业。一会儿当当码农，一会儿做做编辑，一会儿教教数学，一会儿写写专栏，偶尔再出上几本书。从 2005 年开始，我一直在维护一个以数学为主题的[ 个人博客 ](https://www.matrix67.com/blog)。
+    - 我叫顾森，网名 Matrix67，长住北京的重庆人，目前没有固定的职业。一会儿当当码农，一会儿做做编辑，一会儿教教数学，一会儿写写专栏，偶尔再出上几本书。从 2005 年开始，我一直在维护一个以数学为主题的[ 个人博客 ](https://www.matrix67.com/blog)。
   - [大狗熊｜设计师，开发者，播客主播 | 利器](https://liqi.io/bearbig/)
     collapsed:: true
     - 在每周固定的一天，我会去学校里讲课，在云南大学艺术与设计学院，讲电影（《中外电影史》）或是和交互设计相关的东西，这样看，我也可以算做是大学教师。
@@ -143,7 +143,7 @@ source:: [利器](https://liqi.io/)
   - 来自 1910 年的振动棒广告语：岁月的秘密就藏在振动棒中。伟大的科学家告诉我们，振动棒中蕴含的奇妙力量不仅会带给你健康，更会带给你生命的力量。振动棒将让你生活幸福，振动棒将给你带来活力，振动棒将使你充满力量，振动棒将助你永葆美丽。振动你的身体，让它感到愉悦吧。你没有生病的权利！
   - 在 HBO 喜剧《硅谷》中有这样一个桥段：主人公 Richard 把自己的 Macbook 叫做「女朋友」，因为它是唯一一个跟他很亲密的，会发热的，且可能接触他裆部的物体。那么，Richard 有没有可能爱上他的笔记本电脑呢？Love and Sex with Robots 的作者、人工智能专家 David Levy 认为，影响人类与他者坠入爱河的因素包括：神秘感、相互喜欢、进入一段关系的意愿等等等等，只要机器在一定程度上满足了这些需求，人类当然可能爱上它。所以，如果这台笔记本电脑能够神秘一点，拥有闭月羞花的容貌或者出色的编程才华，同时 Richard 还迫不及待想进入一段关系，那笔电还是有机会的…… Levy 甚至搬出了人格与心理学家 Donn Byrne 在 1971 年提出的「吸引力法则」，虽然看起来很厉害，但其实就是一个意思：好感越多，吸引力越强。法则是长这样的：
   - David Levy 原本是一位国际象棋大师。在 2009 年，他创造出了当时「最有人性的聊天机器人」Alicebot，并因此赢得了「最严苛的图灵测试大奖」——罗布纳奖。在这本书中，他试图通过理性证明，人是有可能爱上机器并和它做爱的。其实，在电影或小说等虚构作品中，人与非人坠入爱河早就不是一个多么新奇的话题。从是枝裕和电影《空气人偶》中的裴斗娜，到《她》里的 OS1 萨曼莎，再到《机械姬》中的机器人伊娃，历代男主能拒绝哪一个？关键还是要看脸，对死宅来说，甚至听声音就足够了。Levy 认为，人类倾向于向任何亲密接触的物体投射情感，不管这个物体是有生命的还是无生命的，不管它是振动棒还是充气人偶，甚至是机器人。他预测，到本世纪中叶，爱上机器人将和爱上个人类一样正常。毕竟，很多机器人比人类可爱多了。
-  - Ian Kerner 最初在一家科技创业公司工作，经历了网络泡沫后，他决意去研修一个临床性学的博士学位。见了许多的夫妻后，他发现，大多数男性花了太多精力在「一进一出」上。其实，要想获得完美的性生活，应该「让前戏（foreplay）变为核心戏（coreplay）」，即，学会用舌头口爱。于是他写了一本书 She Comes First。在书中，Kerner 自创了一些口爱方式，譬如「猫王咆哮式」——牙龈紧贴阴蒂，往上舔。或者是「杰克逊·波洛克式」——像波洛克绘画一样，用舌头大面积的横扫，并加有目的性的点撞。「很多时候，舌头是阴茎的导师，会教它如何表现得更像一位绅士。」Kerner 说。
+  - Ian Kerner 最初在一家科技创业公司工作，经历了网络泡沫后，他决意去研修一个临床性学的博士学位。见了许多的夫妻后，他发现，大多数男性花了太多精力在「一进一出」上。其实，要想获得完美的性生活，应该「让前戏（foreplay）变为核心戏（coreplay）」，即，学会用舌头口爱。于是他写了一本书 She Comes First。在书中，Kerner 自创了一些口爱方式，譬如「猫王咆哮式」——牙龈紧贴阴蒂，往上舔。或者是「杰克逊·波洛克式」——像波洛克绘画一样，用舌头大面积的横扫，并加有目的性的点撞。「很多时候，舌头是阴茎的导师，会教它如何表现得更像一位绅士。」Kerner 说。
 - [入门级嬉皮士速成指南 | 利器](https://liqi.io/basic-hippie/)
   collapsed:: true
   - 除了头发越来越长，大部分人还是什么都没有。约翰·列侬的这句话可以看作是对嬉皮士运动的一种讽刺性的解读。上世纪 50 年代，美国经济猛进，但二战结束后的创伤体尚在，民权运动又伴着冷战和越战接踵而来。早期的嬉皮士们怀揣着真诚纯洁的理想主义，敌视美国那种僵化的中产阶级价值观，他们追求无政府主义，四处游行表达自己的美好心声和和平愿景。而等到嬉皮士文化末期，他们的形象开始与「异装怪相」「软硬毒品」「性解放」「新式音乐」「群居村」这些词语联系在一起，他们任由非理性、魔鬼理论和失败感知摆布。作为一股与社会传统相对立的文化潮流，嬉皮士文化润物细无声般改变了很多事物，在美国多元文化的持久影响和意涵补充层面上，就像一场革命。现在，「嬉皮士」的意涵无疑异常宽泛，你可以 Google 一下「嬉皮士」，也许会弹出很多关于波西米亚风格时装的网页，还有，人们说你有「嬉皮士倾向」，可能是在调侃你「会玩」。本期指南旨在在很短的时间为了你呈现有关嬉皮士的一些极其鲜明的行为与特性，并附上实物和技能供你用更多时间去贴近这个词，甚至，贴近他们。

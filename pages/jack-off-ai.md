@@ -27,8 +27,8 @@ description:: [Jark off AI - bGZo's blog](https://blog.bgzo.cc/jark-off-ai.html)
   载着我飞呀飞呀飞 越过了意义
   **你是我朝夕相伴触手可及的虚拟**
   陪着我像纸笔像自己像雨滴
-  看着我坠啊坠啊坠落到云里. ⛅
-  by 陈粒 via [虚拟](https://music.163.com/outchain/player?type=2&id=421423808&auto=1&height=66)
+  看着我坠啊坠啊坠落到云里. ⛅
+  by 陈粒 via [虚拟](https://music.163.com/outchain/player?type=2&id=421423808&auto=1&height=66)
 - <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5l9sg05BhpfsdLfRvjGsAf?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 -
 - 这么多年过去, 他最喜欢逛的网站还是那么几个:

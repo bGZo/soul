@@ -172,8 +172,8 @@ tags:: TODO
       ```
     - add a few other things to the ConsumingRestApplication class to get it to show quotations from our RESTful source.
       - A logger, to send output to the log (the console, in this example).
-      - A `RestTemplate`, which uses the Jackson JSON processing library to process the incoming data.
-      - A `CommandLineRunner` that runs the `RestTemplate` (and, consequently, fetches our quotation) on startup.
+      - A `RestTemplate`, which uses the Jackson JSON processing library to process the incoming data.
+      - A `CommandLineRunner` that runs the `RestTemplate` (and, consequently, fetches our quotation) on startup.
     - `@Bean`: 告诉方法，产生一个Bean对象，然后这个Bean对象交给Spring管理
       collapsed:: true
       - 产生这个Bean对象的方法Spring只会调用一次，随后这个Spring将会将这个Bean对象放在自己的IOC容器中
@@ -192,12 +192,12 @@ tags:: TODO
             String destroyMethod() default AbstractBeanDefinition.INFER_METHOD;
         }
         ```
-    - `RestTemplate` makes interacting with most RESTful services a one-line incantation. And it can even bind that data to custom domain types.
+    - `RestTemplate` makes interacting with most RESTful services a one-line incantation. And it can even bind that data to custom domain types.
       collapsed:: true
       - First, you need to create a domain class to contain the data that you need.(Quote.java)
-    - `@JsonIgnoreProperties` from the Jackson JSON processing library to indicate that any properties not bound in this type should be ignored. via: [@jsonignore和@JsonIgnoreProperties的区别_筱_智的博客-CSDN博客_@jsonignoreproperties](https://blog.csdn.net/pojpoj/article/details/85292512)
+    - `@JsonIgnoreProperties` from the Jackson JSON processing library to indicate that any properties not bound in this type should be ignored. via: [@jsonignore和@JsonIgnoreProperties的区别_筱_智的博客-CSDN博客_@jsonignoreproperties](https://blog.csdn.net/pojpoj/article/details/85292512)
       collapsed:: true
-      - In case your variable name and key in JSON doc do not match, you can use `@JsonProperty` annotation to specify the exact key of the JSON document.
+      - In case your variable name and key in JSON doc do not match, you can use `@JsonProperty` annotation to specify the exact key of the JSON document.
       - ```java
         //生成json时将name和age属性过滤
         @JsonIgnoreProperties({“name”},{“age”})

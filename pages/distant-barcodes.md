@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium
-created:: [[20230514]]
+created:: 20230514
 
 - ## Content
   - {{iframe https://leetcode.cn/problems/distant-barcodes,300,iframe-radius}}

@@ -3,7 +3,7 @@ template-including-parent:: false
 icon:: 📄
 
   - alias:: 
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    created:: ``{ date.now.format('YYYYMMDD') }``
     description:: 
     icon:: 📄
   - ## Why
@@ -12,7 +12,7 @@ icon:: 📄
     -
   - ## What
     -
-  - ## Hierarchy
+  - ## Namespace
     - {{namespace ``{c.page.name}``}}
   - ## ↩ Reference
     -

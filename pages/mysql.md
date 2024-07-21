@@ -1,11 +1,12 @@
 alias:: database/object–relational/mysql
 tags:: TODO
+
 -
 - 基础架构
   - ![image.png](../assets/database/image_1663350146392_0.png)
 -
 - 存储引擎
-  - `show engines`  命令来查看 MySQL 支持的所有存储引擎
+  - `show engines`  命令来查看 MySQL 支持的所有存储引擎
   - `InnoDB`
     - 只有 InnoDB 是事务性存储引擎，也就是说只有 InnoDB 支持事务
 -
@@ -38,7 +39,7 @@ tags:: TODO
         - 行级锁能大大减少数据库操作的冲突。其加锁粒度最小，并发度高，但加锁的开销也最大，加锁慢，会出现死锁
         - 注意
           collapsed:: true
-          - InnoDB 的行锁是针对索引字段加的锁，表级锁是针对非索引字段加的锁。当我们执行  `UPDATE` 、 `DELETE`  语句时，如果  `WHERE` 条件中字段没有命中唯一索引或者索引失效的话，就会导致扫描全表对表中的所有行记录进行加锁。这个在我们日常工作开发中经常会遇到，一定要多多注意！！！
+          - InnoDB 的行锁是针对索引字段加的锁，表级锁是针对非索引字段加的锁。当我们执行  `UPDATE` 、 `DELETE`  语句时，如果  `WHERE` 条件中字段没有命中唯一索引或者索引失效的话，就会导致扫描全表对表中的所有行记录进行加锁。这个在我们日常工作开发中经常会遇到，一定要多多注意！！！
           - 不过，很多时候即使用了索引也有可能会走全表扫描，这是因为 MySQL 优化器的原因
     - 共享锁 (Share Lock, S锁) & 排他锁 (Exclusive Lock, X 锁)
       - 共享锁 (Share Lock, S锁)
@@ -49,7 +50,7 @@ tags:: TODO
         | ---- | ---- | ---- |
         | S 锁 | 不冲突 | 冲突 |
         | X 锁 | 冲突 | 冲突 |
-      - 由于 MVCC 的存在，对于一般的  `SELECT`  语句，InnoDB 不会加任何锁
+      - 由于 MVCC 的存在，对于一般的  `SELECT`  语句，InnoDB 不会加任何锁
         - 可以通过以下语句显式加共享锁或排他锁
           collapsed:: true
           - ```sql
@@ -79,4 +80,18 @@ tags:: TODO
     - 在数据库中不可重复读和幻读到底应该怎么分？： https://www.zhihu.com/question/392569386
   - [MySQL索引详解 | JavaGuide](https://javaguide.cn/database/mysql/mysql-index.html)
   - [MySQL事务隔离级别详解 | JavaGuide](https://javaguide.cn/database/mysql/transaction-isolation-level.html#%E5%B9%BB%E8%AF%BB)
+- alias:: 
+  created:: 20240718
+  description:: 
+  icon:: 📄
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+ - ## Namespace
+  - {{namespace mysql}}
+- ## ↩ Reference
+  -
 -

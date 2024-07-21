@@ -49,6 +49,6 @@ description:: [Finite difference - Wikipedia](https://en.wikipedia.org/wiki/Fini
       - $$b_l \leftarrow b_l + k,b_{r + 1} \leftarrow b_{r + 1} - k$$
     - 其中 $b_l+k=a_l+k-a_{l-1}$，$b_{r+1}-k=a_{r+1}-(a_r+k)$
     - 最后做一遍前缀和就好了
-  - [[cpp/library]] 实现了差分函数 [`std::adjacent_difference`](https://zh.cppreference.com/w/cpp/algorithm/adjacent_difference)，定义于头文件 `<numeric>` 中
+  - [[cpp/library]] 实现了差分函数 [`std::adjacent_difference`](https://zh.cppreference.com/w/cpp/algorithm/adjacent_difference)，定义于头文件 `<numeric>` 中
 - ## ↩ Reference
   - [OI-wiki/prefix-sum.md at 0f9abbd7e7d9623f931fa25c9e20e4c66cc83dfc · OI-wiki/OI-wiki · GitHub](https://github.com/OI-wiki/OI-wiki/blob/0f9abbd7e7d9623f931fa25c9e20e4c66cc83dfc/docs/basic/prefix-sum.md?plain=1)

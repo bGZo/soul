@@ -1,6 +1,6 @@
 icon:: ©
 alias:: 版权
-created:: [[20221220]]
+created:: 20221220
 description:: 借由赋予对著作的专有权利的方式提供作者从事创作之经济动机，但相对的此种赋予作者专有权利的方式同时也限制了他人任意使用创作物的自由
 tags:: writing, creation
 

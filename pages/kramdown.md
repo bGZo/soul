@@ -1,12 +1,12 @@
 description:: parsing and converting a **superset** of Markdown
 tags:: #markdown #ruby/library #mit
 source:: [Home | kramdown](https://kramdown.gettalong.org/index.html)
-created:: [[20230108]]
+created:: 20230108
 
   - based on the Markdown syntax and has been enhanced with features that are found in other Markdown implementations like Maruku , PHP Markdown Extra and Pandoc .
   - ![](https://kramdown.gettalong.org/overview.png)
 - ## Syntax
-  - [Syntax | kramdown](https://kramdown.gettalong.org/syntax.html) `Difference to Standard Markdown`
+  - [Syntax | kramdown](https://kramdown.gettalong.org/syntax.html) `Difference to Standard Markdown`
     - A list of all the characters (character sequences) that can be *escaped(转义)*:
       - ```
         \         backslash
@@ -28,7 +28,7 @@ created:: [[20230108]]
         '         single quote
         $         dollar sign
         ```
-    - Difference to Standard Markdown
+    - Difference to Standard Markdown
       - Setext Style
         - ```
           This is a normal
@@ -92,7 +92,7 @@ created:: [[20230108]]
           This is a [link](http://example.com){:hreflang="de"}
           ```
       - Abbreviations
-        - kramdown provides a syntax to assign the full phrase to an abbreviation. When writing the text, you don’t need to do anything special. However, ==once you add abbreviation definitions, the abbreviations in the text get marked up automatically. Abbreviations can consist of any character except a closing bracket.==
+        - kramdown provides a syntax to assign the full phrase to an abbreviation. When writing the text, you don’t need to do anything special. However, ==once you add abbreviation definitions, the abbreviations in the text get marked up automatically. Abbreviations can consist of any character except a closing bracket.==
         - ```
           This is some text not written in HTML but in another language!
           *[another language]: It's called Markdown
@@ -100,11 +100,11 @@ created:: [[20230108]]
           {:.mega-big}
           ```
       - Typographic Symbols
-        - `---` will become an em-dash (like this —)
-        - `--` will become an en-dash (like this –)
-        - `...` will become an ellipsis (like this …)
-        - `<<` will become a left guillemet (like this «) – an optional following space will become a non-breakable space
-        - `>>` will become a right guillemet (like this ») – an optional leading space will become a non-breakable space
+        - `---` will become an em-dash (like this —)
+        - `--` will become an en-dash (like this –)
+        - `...` will become an ellipsis (like this …)
+        - `<<` will become a left guillemet (like this «) – an optional following space will become a non-breakable space
+        - `>>` will become a right guillemet (like this ») – an optional leading space will become a non-breakable space
       - End-Of-Block Marker
       - Attribute List Definitions
       - Block Inline Attribute Lists

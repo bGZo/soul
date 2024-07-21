@@ -1,7 +1,7 @@
 alias:: 罪
 description:: https://en.wikipedia.org/wiki/Sin
 
-- New English Translation of St. Thomas Aquinas's *Summa Theologiae* (*Summa Theologica*)
+- New English Translation of St. Thomas Aquinas's *Summa Theologiae* (*Summa Theologica*)
   - [Table of Contents - Part 1-2 (nd.edu)](https://www3.nd.edu/~afreddos/summa-translation/TOC-part1-2.htm)
     - Q76 Ignorance as a Cause of Sin （无知作为一种罪）
       - Q1

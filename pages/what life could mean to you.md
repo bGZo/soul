@@ -1,17 +1,14 @@
----
-alias: [[books/what life could mean to you]], 超越自卑
-author: 阿德勒
-translator: 黄光国
-icon: 📖
-isbn: 9787801733580
-publisher: 国际文化出版公司
-published-date: 20050601
-tags: #translate/joke
-douban: https://book.douban.com/subject/1316093
-weread: https://weread.qq.com/web/reader/51232f605e056751253e156
-created: 20240409
-title: what life could mean to you
----
+alias:: [[books/what life could mean to you]], 超越自卑
+author:: 阿德勒
+translator:: 黄光国
+icon:: 📖
+isbn:: 9787801733580
+publisher:: 国际文化出版公司
+published-date:: 20050601
+tags:: #translate/joke
+douban:: https://book.douban.com/subject/1316093
+weread:: https://weread.qq.com/web/reader/51232f605e056751253e156
+created:: 20240409
 - ## Contents
   - 版权信息
   - 第一章 生活的意义

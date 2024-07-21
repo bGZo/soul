@@ -1,10 +1,4 @@
----
-alias:
-mark:
-icon:
-created: 20240609
-title: darwin
----
+created:: 20240609
 
 - ## Why
   -

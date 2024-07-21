@@ -1,25 +1,22 @@
-alias:: 游戏
+filters:: {}
+created:: 20230815
 icon:: 🎮
-tags:: #ACGN
-created:: [[20230815]]
+alias:: 游戏, acgn/game
+template:: game
+template-including-parent:: false
 
-  - template:: game
-    template-including-parent:: false
-    collapsed:: true
-    - icon:: 🎮
-      title:: 
-      alias:: 
-      desc:: 
-      tags:: #game
-      released:: 
-      developer:: 
-      publisher:: 
-      bangumi:: https://bgm.tv/subject/
-      douban:: https://www.douban.com/
-      description:: 
-      created:: <% today %>
+  - cover:: ![🖼]()
+    alias:: games/``{ c.page.name }``
+    created:: ``{ date.now.format('YYYYMMDD') }``
+    bangumi:: https://bgm.tv/subject/
+    douban:: https://www.douban.com/
+    developer:: 
+    icon:: 🎮
+    tags::
 - ## Why
+  -
 - ## How
+  -
 - ## What
   - 我们一定要对一件事情有看法吗? 为什么我们一定要有看法? #discuss
   - Play pirated game, then buy it future. #discuss
@@ -71,6 +68,7 @@ created:: [[20230815]]
       | **TAB**|TABLE |桌面游戏|
       | **TCG**|TRADING CARD GAME|集换式卡牌游戏|
   - Factories
+    collapsed:: true
     - 3A
       collapsed:: true
       - UBISOFT
@@ -112,5 +110,9 @@ created:: [[20230815]]
       - a社
       - i社
   - Contempt Chain | 鄙视链 #[[meme]]
+    collapsed:: true
     - ![game-disdain-chain.png](../assets/game-disdain-chain_1647196230580_0.png){:height 350, :width 747}
+- ## Namespace
+  - {{namespace game}}
+- ## ↩ Reference
   -

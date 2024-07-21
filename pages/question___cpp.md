@@ -8,7 +8,7 @@ alias:: cpp/question
   - dec的用处就是1在其他编译器里去转换。
   - 逻辑结构的背后是逻辑电路，正如逻辑语言背后是逻辑内存
   - 遇到有限制条件的题在进行循环的时候将限制条件放在第一位（如题1128）——逻辑短路
-  - 读取EOF的意思：while(scanf("%d %d     %d",&m,&n,&t)!=EOF&&(n&&m&&t))
+  - 读取EOF的意思：while(scanf("%d %d     %d",&m,&n,&t)!=EOF&&(n&&m&&t))
   - `Define`
     collapsed:: true
     - ```cpp
@@ -53,7 +53,7 @@ alias:: cpp/question
       - 按照ANSI C，在**最初调用**的main()中使用return和exit()的效果相同
         - **如果main()在一个递归程序中，exit()仍然会终止程序；但return将控制权移交给递归的前一级，直到最初的那一级，此时return才会终止程序**。return和exit()的另一个区别在于，**即使在除main()之外的函数中调用exit()，它也将终止程序。**
     - exit函数是退出应用程序，并将应用程序的一个状态返回给OS，这个状态标识了应用程序的一些运行信息
-    - 和机器和操作系统有关一般是  0 为正常退出 非0 为非正常退出
+    - 和机器和操作系统有关一般是  0 为正常退出 非0 为非正常退出
   - OVERFLOW
     collapsed:: true
     - 查到的一点是：stack overflow和CSS里面的overflow属性，还是比较懵逼，自己`cout<<OVERFLOW;`结果是3，也不清楚是什么，留存在这里。

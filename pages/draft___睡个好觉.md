@@ -1,5 +1,5 @@
 icon:: 📝
-created:: [[20240714]]
+created:: 20240714
 tags:: todo, sleep
 
 - [R90睡眠法 - MBA智库百科](https://wiki.mbalib.com/wiki/R90%E7%9D%A1%E7%9C%A0%E6%B3%95)

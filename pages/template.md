@@ -1,9 +1,7 @@
----
-alias: 模板
-collapsed: true
-created: 20230531
-title: template
----
+icon:: 📄
+created:: 20230531
+alias:: 模板
+exclude-from-graph-view:: true
 
   - template:: page/public
     template-including-parent:: false

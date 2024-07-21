@@ -1,66 +1,39 @@
-alias:: 书
 icon:: 📖
-tags:: #Hobby
-created:: [[20230602]]
+created:: 20230602
+alias:: 书
+tags:: #hobby
+template:: book
+template-including-parent:: false
 
-  - template:: book
-    template-including-parent:: false
-    collapsed:: true
-    - ---
-      cover: {:width 225}
-      alias: books/``{ c.page.name }``
-            translator:
-      icon: 📖
-      isbn:
-      publisher:
-      published-date:
-            douban:
-      goodreads:
-      weread:
-      created: ``{ date.now.format('YYYYMMDD') }``
-      title: ``{ c.page.name }``
-      ---
-    - ## [[Comment]]
-      -
-  - template:: book/public
-    template-including-parent:: false
-    collapsed:: true
-    - ---
-      cover: {:width 225}
-      alias: books/
-            translator:
-      icon: 📖
-      isbn:
-      publisher:
-      published-date:
-            douban:
-      goodreads:
-      weread:
-            date: ``{ date.now.format('YYYYMMDD') }``
-      title: ``{ c.page.name }``
-      ---
-    - ## [[Comment]]
-      -
+  - cover:: {:width 225}
+    alias:: books/``{ c.page.name }``
+    translator::
+    icon:: 📖
+    isbn::
+    publisher::
+    published-date::
+    douban::
+    goodreads::
+    weread::
+    created:: ``{ date.now.format('YYYYMMDD') }``
 - ## Why
-  - collapsed:: true
-    #+BEGIN_QUOTE
+  - >What I have lived for?
+    >
+    Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind. These passions, like great winds, have blown me hither and thither, in a wayward course, over a great ocean of anguish, reaching to the very verge of despair.
     三种单纯然而极其强烈的激情支配着我的一生。那就是对于爱情的渴望，对于知识的追求，以及对于人类苦难痛彻肺腑的怜悯。这些激情犹如狂风，把我伸展到绝望边缘的深深的苦海上东抛西掷，使我的生活没有定向。
-    「我追求爱情，首先因为它叫我消魂」。爱情使人消魂的魅力使我常常乐意为了几小时这样的快乐而牺牲生活中的其他一切。
-    我追求爱情，又因为它减轻孤独感－－那种一个颤抖的灵魂望着世界边缘之外冰冷而无生命的无底深渊时所感到的可怕的孤独。
-    我追求爱情，还因为爱的结合使我在一种神秘的缩影中提前看到了圣者和诗人曾经想像过的天堂。这就是我所追求的，尽管人的生活似乎还不配享有它，但它毕竟是我终于找到的东西。
-    我以同样的热情追求知识，「我想理解人类的心灵，我想了解星辰为何灿烂，我还试图弄懂毕达哥拉斯学说的力量」，是这种力量使我在无常之上高踞主宰地位。我在这方面略有成就，但不多。
-    爱情和知识只要存在，总是向上导往天堂。但是，怜悯又总是把我带回人间。痛苦的呼喊在我心中反响回荡，孩子们受饥荒煎熬，无辜者被压迫者折磨，孤弱无助的老人在自己的儿子眼中变成可恶的累赘，以及世上触目皆是的孤独、贫困和痈苦－－这些都是对人类应该过的生活的嘲弄。我渴望能减少罪恶，可我做不到，于是我感到痛苦。
+    >
+    I have sought love, first, because it brings ecstasy - ecstasy so great that I would often have sacrificed all the rest of life for a few hours of this joy. I have sought it, next, because it relieves loneliness--that terrible loneliness in which one shivering consciousness looks over the rim of the world into the cold unfathomable lifeless abyss. I have sought it finally, because in the union of love I have seen, in a mystic miniature, the prefiguring vision of the heaven that saints and poets have imagined. This is what I sought, and though it might seem too good for human life, this is what--at last--I have found.
+    我追求爱情，首先因为它叫我消魂。爱情使人消魂的魅力使我常常乐意为了几小时这样的快乐而牺牲生活中的其他一切。我追求爱情，又因为它减轻孤独感。那种一个颤抖的灵魂望着世界边缘之外冰冷而无生命的无底深渊时所感到的可怕的孤独。我追求爱情，还因为爱的结合使我在一种神秘的缩影中提前看到了圣者和诗人曾经想像过的天堂。这就是我所追求的，尽管人的生活似乎还不配享有它，但它毕竟是我终于找到的东西。
+    >
+    With equal passion I have sought knowledge. I have wished to understand the hearts of men. I have wished to know why the stars shine. And I have tried to apprehend the Pythagorean power by which number holds sway above the flux. A little of this, but not much, I have achieved.
+    我以同样的热情追求知识，我想理解人类的心灵，我想了解星辰为何灿烂，我还试图弄懂毕达哥拉斯学说的力量，是这种力量使我在无常之上高踞主宰地位。我在这方面略有成就，但不多。
+    >
+    Love and knowledge, so far as they were possible, led upward toward the heavens. But always pity brought me back to earth. Echoes of cries of pain reverberate in my heart. Children in famine, victims tortured by oppressors, helpless old people a burden to their sons, and the whole world of loneliness, poverty, and pain make a mockery of what human life should be. I long to alleviate this evil, but I cannot, and I too suffer.
+    爱情和知识只要存在，总是向上导往天堂。但是，怜悯又总是把我带回人间。痛苦的呼喊在我心中反响回荡，孩子们受饥荒煎熬，无辜者被压迫者折磨，孤弱无助的老人在自己的儿子眼中变成可恶的累赘，以及世上触目皆是的孤独、贫困和痈苦。这些都是对人类应该过的生活的嘲弄。我渴望能减少罪恶，可我做不到，于是我感到痛苦。
+    >
+    This has been my life. I have found it worth living, and would gladly live it again if the chance were offered me.
     这就是我的一生。我觉得这一生是值得活的，如果真有可能再给我一次机会，我将欣然再重活—次。
-    #+END_QUOTE
-    - #+BEGIN_QUOTE
-      > What I have lived for?
-      Bertrand Russell
-      Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind. These passions, like great winds, have blown me hither and thither, in a wayward course, over a great ocean of anguish, reaching to the very verge of despair.
-      I have sought love, first, because it brings ecstasy - ecstasy so great that I would often have sacrificed all the rest of life for a few hours of this joy. I have sought it, next, because it relieves loneliness--that terrible loneliness in which one shivering consciousness looks over the rim of the world into the cold unfathomable lifeless abyss. I have sought it finally, because in the union of love I have seen, in a mystic miniature, the prefiguring vision of the heaven that saints and poets have imagined. This is what I sought, and though it might seem too good for human life, this is what--at last--I have found.
-      With equal passion I have sought knowledge. I have wished to understand the hearts of men. I have wished to know why the stars shine. And I have tried to apprehend the Pythagorean power by which number holds sway above the flux. A little of this, but not much, I have achieved.
-      Love and knowledge, so far as they were possible, led upward toward the heavens. But always pity brought me back to earth. Echoes of cries of pain reverberate in my heart. Children in famine, victims tortured by oppressors, helpless old people a burden to their sons, and the whole world of loneliness, poverty, and pain make a mockery of what human life should be. I long to alleviate this evil, but I cannot, and I too suffer.
-      This has been my life. I have found it worth living, and would gladly live it again if the chance were offered me.
-      #+END_QUOTE
+    —— [[罗素]]
 - ## How
   - How to find / search  books?
     collapsed:: true

@@ -1,8 +1,8 @@
 icon:: 🐱
 alias:: 猫
-tags:: #Hobby
+tags:: #hobby
 cost:: 5
-created:: [[20230529]]
+created:: 20230529
 public:: false
 
 - ## Why

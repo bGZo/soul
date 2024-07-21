@@ -1,5 +1,5 @@
 alias:: 数字移民
-created:: [[20240102]]
+created:: 20240102
 tags:: #migrant/digtal
 
 - ## Why
@@ -12,7 +12,7 @@ tags:: #migrant/digtal
     - title::  WebStackPage/WebStackPage.github.io
       tags:: #github
       source:: [WebStackPage/WebStackPage.github.io: ❤️静态响应式网址导航网站 - webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) ![](https://img.shields.io/github/stars/WebStackPage/WebStackPage.github.io)
-      created:: [[20230108]]
+      created:: 20230108
       closed:: 
       description::
       - Jekyll 版本的后台 [0xl2oot/webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)
@@ -24,8 +24,8 @@ tags:: #migrant/digtal
         关于叫做 digital immigrant，只是数字移民一词的表面意思翻译。被人吐槽用的是 immigrant （移入）而非 emigrant （移出），丧失了「数字移民」这词潜在的诙谐之处。
         2019年9月起，为了方便之后扩展项目，已经启用新域名 shuziyimin.org，访问 digital.immigrant.org 会自动重定向到新域名。
     - 2.数字移民项目简介
-      - 2018年初，[数字移民博客](http://blog.shuziyimin.org/) 上线；
-      - 2018年6月， [Twitter](https://twitter.com/shuziyimin) 与 [Telegram Channel](http://t.me/shuziyimin) 开始更新；
+      - 2018年初，[数字移民博客](http://blog.shuziyimin.org/) 上线；
+      - 2018年6月， [Twitter](https://twitter.com/shuziyimin) 与 [Telegram Channel](http://t.me/shuziyimin) 开始更新；
       - 2021年12月，[数字移民导航](http://shuziyimin.org/)上线；
     - 3.数字移民博客主要内容
       - 基础服务

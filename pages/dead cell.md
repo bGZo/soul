@@ -1,3 +1,5 @@
+-
+-
 icon:: 🎮
 alias:: 死亡细胞
 tags:: #game #rogue
@@ -7,7 +9,7 @@ publisher:: Motion Twin, Playdigious
 bangumi:: https://bgm.tv/subject/214973
 douban:: https://www.douban.com/game/26983425
 source:: https://dead-cells.com
-created:: [[20230120]]
+created:: 20230120
 
 - ## What
   - 攻略

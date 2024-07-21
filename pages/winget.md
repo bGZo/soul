@@ -1,8 +1,8 @@
 alias:: Windows package manager cli
 tags:: #Windows #tools, #scoop
 github:: [microsoft/winget-cli](https://github.com/microsoft/winget-cli)
-released-created:: [[20200514]]
-created:: [[20230512]]
+released-created:: 20200514
+created:: 20230512
 ![](https://img.shields.io/github/stars/microsoft/winget-cli)
 
 - #+BEGIN_WARNING

@@ -1,11 +1,6 @@
----
-collapsed: true
-alias: 代理, 翻墙, 科学上网
-cost: 3
-icon: ✈
-created: 20230602
-title: proxy
----
+alias:: 代理, 翻墙, 科学上网
+icon:: ✈
+created:: 20230602
 
 - #+BEGIN_PINNED
   世界之大，付费可及；
@@ -23,7 +18,7 @@ title: proxy
     collapsed:: true
     - And *MAXMIND* change the access to database since 20191230, via: [Significant Changes to Accessing and Using GeoLite2 Databases](https://blog.maxmind.com/2019/12/significant-changes-to-accessing-and-using-geolite2-databases/)
       collapsed:: true
-      - > Starting **December 30, 2019,** we will be requiring users of our GeoLite2 databases **to [register for a MaxMind account](https://www.maxmind.com/en/geolite2/signup) and obtain a license key in order to download GeoLite2 databases**. We will continue to offer the GeoLite2 databases without charge, and with the ability to redistribute with proper attribution and in compliance with privacy regulations. In addition, we are **introducing a new [end-user license agreement to govern your use of the GeoLite2 databases](https://www.maxmind.com/en/geolite2/eula) **. Previously, GeoLite2 databases were accessible for download to the public on our developer website and were licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) .
+      - > Starting **December 30, 2019,** we will be requiring users of our GeoLite2 databases **to [register for a MaxMind account](https://www.maxmind.com/en/geolite2/signup) and obtain a license key in order to download GeoLite2 databases**. We will continue to offer the GeoLite2 databases without charge, and with the ability to redistribute with proper attribution and in compliance with privacy regulations. In addition, we are **introducing a new [end-user license agreement to govern your use of the GeoLite2 databases](https://www.maxmind.com/en/geolite2/eula) **. Previously, GeoLite2 databases were accessible for download to the public on our developer website and were licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) .
     - So here is some supported by github:
       collapsed:: true
       - [Loyalsoldier/geoip: 🌚 🌍 🌝 GeoIP 规则文件加强版](https://github.com/loyalsoldier/geoip) ![](https://img.shields.io/github/stars/loyalsoldier/geoip)
@@ -105,10 +100,10 @@ title: proxy
       collapsed:: true
       - > 在进行下一步操作前，十分推荐您阅读以下内容：
         与 调用地址 相关的：[什么是URL？](https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/What_is_a_URL)
-        与 配置文件 相关的：[INI 语法介绍](https://zh.wikipedia.org/wiki/INI%E6%96%87%E4%BB%B6) 、 [YAML 语法介绍](https://zh.wikipedia.org/wiki/YAML#%E8%AA%9E%E6%B3%95) 以及 [TOML 语法介绍](https://toml.io/cn/v1.0.0)
-        与 `Clash` 配置相关的：[YAML 语法介绍](https://zh.wikipedia.org/wiki/YAML#%E8%AA%9E%E6%B3%95) 以及 [官方文档](https://github.com/Dreamacro/clash/wiki/configuration)
-        与 `模板` 配置相关的：[INJA 语法介绍](https://github.com/pantor/inja)
-        会经常涉及到的： [正则表达式入门](https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md)
+        与 配置文件 相关的：[INI 语法介绍](https://zh.wikipedia.org/wiki/INI%E6%96%87%E4%BB%B6) 、 [YAML 语法介绍](https://zh.wikipedia.org/wiki/YAML#%E8%AA%9E%E6%B3%95) 以及 [TOML 语法介绍](https://toml.io/cn/v1.0.0)
+        与 `Clash` 配置相关的：[YAML 语法介绍](https://zh.wikipedia.org/wiki/YAML#%E8%AA%9E%E6%B3%95) 以及 [官方文档](https://github.com/Dreamacro/clash/wiki/configuration)
+        与 `模板` 配置相关的：[INJA 语法介绍](https://github.com/pantor/inja)
+        会经常涉及到的： [正则表达式入门](https://github.com/ziishaned/learn-regex/blob/master/translations/README-cn.md)
         当遇到问题需要提交 ISSUE 时的：[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
         当您尝试进行进阶操作时，即默认您有相关的操作能力，本程序仅保证在默认配置文件下能够正常运行。
     - Tools you might be used:
@@ -346,7 +341,7 @@ title: proxy
       - Check document in [Configuration · Dreamacro/clash Wiki](https://github.com/Dreamacro/clash/wiki/configuration)
         collapsed:: true
         - > **Rules**
-          `GEOIP`: `GEOIP,CN,policy` routes any requests to a China IP address to `policy`.
+          `GEOIP`: `GEOIP,CN,policy` routes any requests to a China IP address to `policy`.
   - The clients recommended:
     collapsed:: true
     - iOS: Surge 4, Quantumult X, Quantumult, Loon, Shadowrocket

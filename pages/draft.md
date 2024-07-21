@@ -5,7 +5,7 @@ template:: draft
 template-including-parent:: false
 
   - icon:: 📝
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    created:: ``{ date.now.format('YYYYMMDD') }``
   -
   - ## ↩ Reference
     -

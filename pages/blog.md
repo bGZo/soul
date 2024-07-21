@@ -1,9 +1,6 @@
----
-alias: 博客
-icon: 📝
-created: 2024-01-07
-title: blog
----
+alias:: 博客
+icon:: 📝
+created:: 20240107
 
 - ## Why
   - 为什么写博客？

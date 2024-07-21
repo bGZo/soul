@@ -1,6 +1,6 @@
 icon:: 📄
 alias:: 奶头乐
-created:: [[20240717]]
+created:: 20240717
 description:: 在21世纪这个可能的社会中，20%的劳动年龄人口就足以维持世界经济的运转。另外 80% 的人靠某种形式的福利生活，并享受一种名为“奶子娱乐”的概念，其目的是让 80% 沮丧的公民通过一种极其可预测的、最低公分母的娱乐来保持快乐。为灵魂和身体提供营养。
 wikipedia:: https://en.wikipedia.org/wiki/The_Global_Trap
 

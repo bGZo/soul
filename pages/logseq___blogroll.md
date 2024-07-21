@@ -1,4 +1,4 @@
-created:: [[20240619]]
+created:: 20240619
 #[[blogroll]]
 
 -

@@ -20,7 +20,7 @@ tags:: #[[algorithm]], #[[hash]]
   - $G(X,Y,Z) = (X\wedge{Z}) \vee (Y \wedge \neg{Z})$
   - $H(X,Y,Z) = X \oplus Y \oplus Z$
   - $I(X,Y,Z) = Y \oplus (X \vee \neg{Z})$
-  - $\oplus, \wedge, \vee, \neg$ 是 *XOR*, *AND*, *OR* , *NOT* 的符号
+  - $\oplus, \wedge, \vee, \neg$ 是 *XOR*, *AND*, *OR* , *NOT* 的符号
 - More via: [RFC 1321: The MD5 Message-Digest Algorithm](https://www.rfc-editor.org/rfc/rfc1321) &
   [RFC 6151: Updated Security Considerations for the MD5 Message-Digest and the HMAC-MD5 Algorithms](https://www.rfc-editor.org/rfc/rfc6151)
   > Notice that the collision attack on MD5 can also be applied to password-based challenge-and-response authentication protocols such as the APOP (Authenticated Post Office Protocol) option in POP

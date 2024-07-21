@@ -27,7 +27,7 @@ bookmark:: [AnkiWeb](https://ankiweb.net)
   - DONE Donate Anki by purchasing in [app store](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) (￥163); #donation
     dollar:: 25
     closed:: [[20221029]]
-    - > Use of the service is currently free, and the hosting costs are supported by sales of the [iPhone app](http://ankisrs.net/docs/AnkiMobile.html). As the hosting costs continue to grow, we may need to introduce a "freemium" model in the future, where basic accounts are free, and people can pay for accounts that support larger decks or extra features.
+    - > Use of the service is currently free, and the hosting costs are supported by sales of the [iPhone app](http://ankisrs.net/docs/AnkiMobile.html). As the hosting costs continue to grow, we may need to introduce a "freemium" model in the future, where basic accounts are free, and people can pay for accounts that support larger decks or extra features.
       — [Account Terms - AnkiWeb](https://ankiweb.net/account/terms)
   - Great manuals
     id:: 6469b1b9-9a75-4610-8580-1a049b7fed1d
@@ -110,23 +110,23 @@ bookmark:: [AnkiWeb](https://ankiweb.net)
       | Ctrl+N | Change note type |
       | Ctrl+D | Target deck |
       | Ctrl+L | Customize card template |
-      | Ctrl+B | Bold text |
-      | Ctrl+I | *Italic* text |
+      | Ctrl+B | Bold text |
+      | Ctrl+I | *Italic* text |
       | Ctrl+U | Underline text |
-      | Ctrl+ + | SuperscriptSuperscript |
-      | Ctrl+ = | SubscriptSubscript quick key |
+      | Ctrl+ + | SuperscriptSuperscript |
+      | Ctrl+ = | SubscriptSubscript quick key |
       | Ctrl+ R | Remove formatting |
       | F7 | Set foreground color |
       | F8 | Change color |
       | Ctrl+Shift+C | Cloze deletion |
       | F3 | Attach Picture |
       | F5 | Record Audio |
-      | Ctrl+M, M | MathJax inline |
-      | Ctrl+M, E | MathJax block |
-      | Ctrl+M, C | MathJax chemistry |
-      | Ctrl+T, T | LaTeX |
-      | Ctrl+T, E | LaTeX equation |
-      | Ctrl+T, M | LaTeX math env. |
+      | Ctrl+M, M | MathJax inline |
+      | Ctrl+M, E | MathJax block |
+      | Ctrl+M, C | MathJax chemistry |
+      | Ctrl+T, T | LaTeX |
+      | Ctrl+T, E | LaTeX equation |
+      | Ctrl+T, M | LaTeX math env. |
       | Ctrl+Shift+X | Edit HTML |
       | D | Decks |
       | B | Browse |

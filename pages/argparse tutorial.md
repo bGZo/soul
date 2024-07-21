@@ -123,7 +123,7 @@ description:: [Argparse Tutorial — Python 3.11.1 documentation](https://docs.p
     ```
   - 条件从高到底判断，来展示更多文本；
     collapsed:: true
-    Instead uses verbosity level to display *more* text instead
+    Instead uses verbosity level to display *more* text instead
     - ```python
       import argparse
       parser = argparse.ArgumentParser()

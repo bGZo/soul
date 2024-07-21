@@ -1,8 +1,5 @@
----
-alias: windows 发行版
-created: 20240421
-title: windows/distros
----
+alias:: windows 发行版
+created:: 20240421
 
 - ## Why
 - ## How

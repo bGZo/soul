@@ -1,0 +1,2 @@
+alias:: Google/play
+icon:: ▶︎

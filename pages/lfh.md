@@ -1,0 +1,24 @@
+- #+BEGIN_CENTER
+  [bgzo@outlook.com](mailto:bgzo@outlook.com) / 16271988835 / [github.com/bGZo](https://github.com/bGZo)
+  #+END_CENTER
+- ## 教育
+  - 本科，内蒙古大学，软件工程 (080902)，GPA：3.43/4 [:span {:class ra} "2019.09 ~ 2023.06"]
+- ## 技能
+  - 编程语言：Java, Python, C++11
+  - 工具：CMake, Docker, Git, Linux, Database (Oracle, MySQL, SQLite, Redis)
+  - CET-4：441
+- ## 实习
+  - **四川华迪信息技术有限公司**，JavaEE 开发 [:span {:class ra} "2022.07 ~ 2022.08"]
+    - 学习企业 RUP，CMMI3 软件开发规范；
+    - 对公司下属的系统进行增量开发，完成相关功能的定制和同行 Review，涉及 SSM 框架；
+- ## 项目
+  - **站点内容管理系统** [:span {:class ra} "Java (SSM)"]
+    - 通过 SSM 框架完成对单个网站站点的内容管理，包含前台展示和后台控制，实现了用户管理，角色管理，菜单管理，内容管理的功能；前端运用 LayUI，数据库使用 MySQL；
+  - **自动化部署博客平台** [:span {:class ra} "Python"]
+    - 通过编写脚本，实现了文章发布，标签管理，用户评论等功能，主要基于 Github issues 和 Github Action，通过调用 Github API，完成平台的自动化部署和文章发布；
+  - **CLI 选课系统** [:span {:class ra} "C++"]
+    - 利用面向对象思想，抽取不同领域主体，完成系统的重构。实现了课程管理，学生管理，班级管理。
+- ## 获奖
+  - 内蒙古大学学业优秀奖学金二等奖 [:span {:class ra} "2020.01"]
+  - 内蒙古大学第六届互联网+大学生创新创业大赛 优秀奖[:span {:class ra} "2020.10"]
+  - 内蒙古自治区省中国高校团体程序设计竞赛团队 三等奖[:span {:class ra} "2021.05"]

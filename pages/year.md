@@ -6,7 +6,7 @@ alias:: 年份
 - ## What
   - ### Template
     - CANCELED In new [[year]] page, I will sperate vertical page to two parts at least.  #Closed #deprecated
-      created:: [[20221217]]
+      created:: 20221217
       closed:: [[20230218]]
       collapsed:: true
       - the more details are like this: #changelog/wiki #template
@@ -43,7 +43,7 @@ alias:: 年份
       template-including-parent:: false
       - icon:: 🏆
         alias:: year/``{ c.page.name }``
-        created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+        created:: ``{ date.now.format('YYYYMMDD') }``
       - ## Anime Awards
         - ### Bangumi 班固米
           - {{iframe https://bgm.tv/award/``{ c.page.name }``, 40vh, iframe-radius}}

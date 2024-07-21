@@ -1,31 +1,27 @@
-icon:: 🌸
-alias:: ギャルゲーム, ギャルゲー, ギャルゲ, 美少女游戏, 萌游戏, Visual Novel
-moegirl:: [Galgame - 萌娘百科 萬物皆可萌的百科全書 (moegirl.org.cn)](https://zh.moegirl.org.cn/zh-hk/Galgame)
-wikipedia:: [Bishōjo game - Wikipedia](https://en.wikipedia.org/wiki/Bish%C5%8Djo_game)
-tags:: #Hobby #game
+icon:: 🎮
+alias:: ギャルゲーム, ギャルゲー, ギャルゲ, 美少女游戏, 萌游戏, Visual Novel, game/galgame
+moegirl:: https://zh.moegirl.org.cn/zh-hk/Galgame
+wikipedia:: https://en.wikipedia.org/wiki/Bish%C5%8Djo_game
+tags:: #hobby #game
 description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
+template:: galgame
+template-including-parent:: false
 
-  - cover:: ![🖼 ](../assets/``{ date.now.format('YYYY') }``/)
-    title:: 
-    alias:: 
-    desc:: 
-    tags:: #galgame
-    released:: 
-    developer:: 
-    publisher:: 
+  - cover:: ![🖼]()
+    alias:: galgames/``{ c.page.name }``
+    created:: ``{ date.now.format('YYYYMMDD') }``
     bangumi:: https://bgm.tv/subject/
     douban:: https://www.douban.com/
-    created:: ``{ date.now.format('YYYYMMDD') }``
-    closed:: 
-    template:: galgame
-    template-including-parent:: true
+    developer:: 
+    icon:: 🎮
+    tags::
 - ## WHY
   - I know this kind of game from [*Oreimo*](https://bgm.tv/subject/5436), and I'm really drawn to it. I used to treat it like an alternative to [[anime]], basically it's same except a little complex.
   - Then I know there is rating system for arts, expecially R18 game, which I almost have no education to [[sex]]. So I was addiacted in it deeper, and then find it's nothing if the story is bad.
   - A lot of things happened in [[China]] Internet, such as the policy is changed (to be more restrict, filling with recopy, report ( ((6463a921-47df-47b6-b7e6-971bee380898)) ) and sell again), Zh-Hans-Translation group disbanded appear more and more (See ((64625a01-b388-4404-91a9-baf438852bfe))).
   - Simply speaking, the whole market is exposed outside and turned to legal. Things is not turn good way to develop, because the rule of [[censor]] is not public. So I never touched a domestic galgame till now, because I don't think how deep in some topic they could reach, and that matters.
   - Yet the most friendly platform is [[steam]], but they have the censor as well, including child porn or something else, which is different with [[Japan]]. I doubt, does it make sense? I don't know. I just dream a platform, which could give me all I want. But seemly it's just a dream. (See ((6463bf85-9f47-43a8-b65f-047dc1e2ebdf)))
-  - In broad strokes, I devided it into two categories now, althougt they have more details. (See ((64625a01-1706-4e5d-ba30-e303492e8e84))) \#.ol
+  - In broad strokes, I devided it into two categories now, althougt they have more details. (See ((64625a01-1706-4e5d-ba30-e303492e8e84))) \#.ol
     - [[galgame/jerk-off]] (See [[hentai]] details)
     - [[galgame/god]]
 - ## HOW
@@ -81,7 +77,7 @@ description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 
     - title:: [【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩](https://www.bilibili.com/read/cv6488276)
       author:: Reca_ザキ
       tags:: #archive/web
-      created:: [[20221121]]
+      created:: 20221121
       archive:: [💾 Archived](assets/archived_web/【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩 (11_21_2022 10_05_08 PM).html)
   - DONE How to play in different devices?
     collapsed:: true
@@ -99,14 +95,14 @@ description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 
       description:: "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具"
       tags:: #github
       source::  [hanmin0822/MisakaTranslator: 御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具](https://github.com/hanmin0822/MisakaTranslator) ![](https://img.shields.io/github/stars/hanmin0822/MisakaTranslator)
-      created:: [[202012]]
+      created:: 202012
       description:: Doc with [GAL党的福音——开源生肉翻译器MisakaTranslator正式版发布 - 知乎](https://zhuanlan.zhihu.com/p/112895928)
     - title:: miaomiaosoft/PandaOCR
       author:: miaomiaosoft
       description:: "多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码"
       tags:: #github
       source:: [miaomiaosoft/PandaOCR: PandaOCR - 多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码](https://github.com/miaomiaosoft/PandaOCR) ![](https://img.shields.io/github/stars/miaomiaosoft/PandaOCR)
-      created:: [[202012]]
+      created:: 202012
     - Windows 11 live caption
 - ## WHAT
   - Categories with more details.
@@ -205,4 +201,4 @@ description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 
     - **Unlike book**, they wont have a single page
       - But if, one day, the discuss about origin game increased a huge amount. I will turn it to page. But now, I just record the name I played, I don't have too interest and energy in it. #changelog/wiki
         - ==In a way, this is a decide about hierarchy for content, or just for category?==
-        - And this decision is not limited to galgame, more adopt to items of [[2022]], like [[Hobby]] / [[archive]]. If they're huge, turn it to page, not build a single page immediately.
+        - And this decision is not limited to galgame, more adopt to items of [[2022]], like [[hobby]] / [[archive]]. If they're huge, turn it to page, not build a single page immediately.

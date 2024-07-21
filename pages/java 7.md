@@ -1,8 +1,5 @@
----
-icon: ☕
-created: 20240612
-title: java 7
----
+icon:: ☕
+created:: 20240612
 
 - ## Feats \#.ol
   - 二进制前缀`0b` / `0B`；
@@ -37,6 +34,6 @@ title: java 7
           return reader.readLine();
       }
       ```
-  - 单个catch中捕获多个异常类型（用`|` 分割）并通过改进的类型检查重新抛出异常；
+  - 单个catch中捕获多个异常类型（用`|` 分割）并通过改进的类型检查重新抛出异常；
 - ## ↩ Reference
   - [Java 5，6，7，8，9，10新特性吐血总结 | 拔剑少年的博客](https://it18monkey.github.io/2018/08/05/Java%E6%96%B0%E7%89%B9%E6%80%A7%E6%80%BB%E7%BB%93/)

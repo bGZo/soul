@@ -13,14 +13,14 @@
   - pattern
     - #vs [[algorithm]]
       collapsed:: true
-      - 算法更像是菜谱: 提供达成目标的明确步骤
+      - 算法更像是菜谱: 提供达成目标的明确步骤
       - 模式更像是蓝图: 你可以看到最终的结果和模式的功能, 但需要自己确定实现步骤。
     - include
       collapsed:: true
       - **意图**部分简单描述问题和解决方案。
       - **动机**部分将进一步解释问题并说明模式会如何提供解决方案。
       - **结构**部分展示模式的每个部分和它们之间的关系。
-      - **在不同语言中的实现**提供流行编程语言的代码， 让读者更好地理解模式背后的思想。
+      - **在不同语言中的实现**提供流行编程语言的代码， 让读者更好地理解模式背后的思想。
     -
   - Principles, 6, S.O.L.I.D + LoD
     collapsed:: true
@@ -92,7 +92,7 @@
       description:: **接口隔离原则**; 细粒度化接口(灵活Up)
   - ((63491e18-813e-466e-b6ca-72d05fedbaf2))
     - 创建 (c,5)
-      description:: 提供创建对象的机制; 增加已有代码的灵活性和可复用性
+      description:: 提供创建对象的机制; 增加已有代码的灵活性和可复用性
       collapsed:: true
       - 单例 Singleton
         - ((634cd4bc-9950-4d3c-8057-466be4c059e3))
@@ -156,7 +156,7 @@
           collapsed:: true
           - ![https://user-images.githubusercontent.com/57313137/](../assets/book/秒懂设计模式/175233997-ee7c1f58-b2a5-48ab-8ec2-baf36f384ca2.png)
     - 结构 (s, 7)
-      description:: 如何将对象和类组装成较大的结构; 并同时保持结构的灵活和高效
+      description:: 如何将对象和类组装成较大的结构; 并同时保持结构的灵活和高效
       - 门面 Facade
         collapsed:: true
         id:: 236dd848-1377-4002-a120-a5652b5b6ad8
@@ -194,7 +194,7 @@
             - ![image.png](../assets/pattern/image_1665997671782_0.png)
             - 聚合: 对象 $A$ 包含对象 $B$; $B$ 可以独立于 $A$ 存在
             - 组合: 对象 $A$ 由对象 $B$ 构成; $A$ 负责管理 $B$ 的生命周期。$B$ 无法独立于 $A$ 存在
-        - > 一个对象可以使用多个类的行为, 包含多个指向其他对象的引用, 并将各种工作委派给引用对象。 聚合 （或组合） 组合是许多设计模式背后的关键原则 （包括装饰在内）
+        - > 一个对象可以使用多个类的行为, 包含多个指向其他对象的引用, 并将各种工作委派给引用对象。 聚合 （或组合） 组合是许多设计模式背后的关键原则 （包括装饰在内）
         - Why
           - 把类中的装饰功能从类中搬移去除，简化原有的类
             - 有效地把类的核心职责和装饰功能区分开
@@ -269,15 +269,15 @@
           - [[java]] Library
             - [ java.lang.reflect.Proxy ](http://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Proxy.html)
             - [ java.rmi.\* ](http://docs.oracle.com/javase/8/docs/api/java/rmi/package-summary.html)
-            - [ javax.ejb.EJB ](http://docs.oracle.com/javaee/7/api/javax/ejb/EJB.html) （[查看评论](http://stackoverflow.com/questions/25514361/when-using-ejb-does-each-managed-bean-get-its-own-ejb-instance)）
-            - [ javax.inject.Inject ](http://docs.oracle.com/javaee/7/api/javax/inject/Inject.html) （[查看评论](http://stackoverflow.com/questions/29651008/field-getobj-returns-all-nulls-on-injected-cdi-managed-beans-while-manually-i/29672591#29672591)）
+            - [ javax.ejb.EJB ](http://docs.oracle.com/javaee/7/api/javax/ejb/EJB.html) （[查看评论](http://stackoverflow.com/questions/25514361/when-using-ejb-does-each-managed-bean-get-its-own-ejb-instance)）
+            - [ javax.inject.Inject ](http://docs.oracle.com/javaee/7/api/javax/inject/Inject.html) （[查看评论](http://stackoverflow.com/questions/29651008/field-getobj-returns-all-nulls-on-injected-cdi-managed-beans-while-manually-i/29672591#29672591)）
             - [ javax.persistence.PersistenceContext ](http://docs.oracle.com/javaee/7/api/javax/persistence/PersistenceContext.html)
         - 优缺点
           - ✔ 你可以在客户端毫无察觉的情况下控制服务对象。
-          - ✔ 如果客户端对服务对象的生命周期没有特殊要求， 你可以对生命周期进行管理。
-          - ✔ 即使服务对象还未准备好或不存在， 代理也可以正常工作。
-          - ✔ *开闭原则*。 你可以在不对服务或客户端做出修改的情况下创建新代理。
-          - ✖ 代码可能会变得复杂， 因为需要新建许多类。
+          - ✔ 如果客户端对服务对象的生命周期没有特殊要求， 你可以对生命周期进行管理。
+          - ✔ 即使服务对象还未准备好或不存在， 代理也可以正常工作。
+          - ✔ *开闭原则*。 你可以在不对服务或客户端做出修改的情况下创建新代理。
+          - ✖ 代码可能会变得复杂， 因为需要新建许多类。
           - ✖ 服务响应可能会延迟。
         - #vs ((86a41cdb-f7d3-4159-b616-0780d68c6a80)) & ((d90919b5-0ba4-4c0b-aff7-8f376fa39ee9))
           - 都提供接口
@@ -286,7 +286,7 @@
             - ((d90919b5-0ba4-4c0b-aff7-8f376fa39ee9)) 提供加强接口
         - #vs ((236dd848-1377-4002-a120-a5652b5b6ad8))
           - 两者都缓存了一个实体并进行初始化
-          - 代理与其服务对象遵循同一接口， 使得自己和服务对象可以互换
+          - 代理与其服务对象遵循同一接口， 使得自己和服务对象可以互换
         - #vs ((d90919b5-0ba4-4c0b-aff7-8f376fa39ee9))
           - 都基于 **组合模式**
           - 代理模式自行管理服务周期
@@ -416,7 +416,7 @@
 - TODOs List
   - {{embed ((634ff438-7463-4dd2-a58c-42beb9005794))}}
   - 外观模式
-    - [下列描述中，哪些是外观模式的特点（   _爱奇艺笔试题_牛客网](https://www.nowcoder.com/questionTerminal/19f6568a3fb749bbb8e29d0f7da3af6b)
+    - [下列描述中，哪些是外观模式的特点（   _爱奇艺笔试题_牛客网](https://www.nowcoder.com/questionTerminal/19f6568a3fb749bbb8e29d0f7da3af6b)
     - [假设一个电源总开关可以控制四盏灯、一个风扇、一台空调和一台电__牛客网](https://www.nowcoder.com/questionTerminal/4f0db171e8a841e8b0a2c5f9b6707eb9)
   - 享元模式
     - [共享网络设备模拟：很多网络设备都是支持共享的，如交换机、集线__牛客网](https://www.nowcoder.com/questionTerminal/23dea24378aa4b78b29e1db8d08fdd3d)

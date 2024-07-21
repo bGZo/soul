@@ -29,7 +29,7 @@ source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-softwar
           By the way, currently they migrate to FCM.
       - [Implement Push API using Mozilla's servers · Issue #1020 · ungoogled-software/ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium/issues/1020)
         collapsed:: true
-        - > Rather than use Mozilla servers, [roll your own](https://github.com/mozilla-services/autopush). I don't know if anyone has audited the source for connections to other Mozilla services.
+        - > Rather than use Mozilla servers, [roll your own](https://github.com/mozilla-services/autopush). I don't know if anyone has audited the source for connections to other Mozilla services.
   - Chrome Extensions 无法使用
     collapsed:: true
     - 1. `chrome://flags/#extension-mime-request-handling` -> **Always prompt for ins**

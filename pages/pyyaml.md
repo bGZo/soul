@@ -1,6 +1,6 @@
 icon:: 🐍
 tags:: #[[Python Library]], #yaml
-created:: [[20230718]]
+created:: 20230718
 - ## Why
 - ## How [pyyaml.org/wiki/PyYAMLDocumentation](https://pyyaml.org/wiki/PyYAMLDocumentation)
   - ### Installation
@@ -16,7 +16,7 @@ created:: [[20230718]]
   - ### Tutorial
     - Loading YAML 加载 YAML 文件
       - #+BEGIN_WARNING
-        **It is not safe to call `yaml.load` with any data received from an untrusted source! `yaml.load` is as powerful as `pickle.load` and so may call any Python function.** Check the `yaml.safe_load` function though.
+        **It is not safe to call `yaml.load` with any data received from an untrusted source! `yaml.load` is as powerful as `pickle.load` and so may call any Python function.** Check the `yaml.safe_load` function though.
         #+END_WARNING
       - The function `yaml.load` converts a YAML document to a Python object.
         函数 yaml.load 将YAML文档转换为Python对象。
@@ -31,17 +31,17 @@ created:: [[20230718]]
         - Dict
         - Class Object
       -
-      - `yaml.load` detects the encoding by checking the *BOM* (byte order mark) sequence at the beginning of the string/file. If no *BOM* is present, the *utf-8* encoding is assumed.
+      - `yaml.load` detects the encoding by checking the *BOM* (byte order mark) sequence at the beginning of the string/file. If no *BOM* is present, the *utf-8* encoding is assumed.
     - Dumping YAML
     - Constructors, representers, resolvers
   - ### YAML syntax
-    - A good introduction to the YAML syntax is [Chapter 2 of the YAML specification](http://yaml.org/spec/1.1/#id857168).
-    - You may also check [the YAML cookbook](https://yaml.org/YAML_for_ruby.html). Note that it is focused on a Ruby implementation and uses the old YAML 1.0 syntax.
+    - A good introduction to the YAML syntax is [Chapter 2 of the YAML specification](http://yaml.org/spec/1.1/#id857168).
+    - You may also check [the YAML cookbook](https://yaml.org/YAML_for_ruby.html). Note that it is focused on a Ruby implementation and uses the old YAML 1.0 syntax.
     - #### Documents
       - An empty stream contains no documents.
-      - Documents are separated with `---`.
-      - Documents may optionally end with `...`.
-      - A single document may or may not be marked with `---`.
+      - Documents are separated with `---`.
+      - Documents may optionally end with `...`.
+      - A single document may or may not be marked with `---`.
     - #### Block sequences
     -
     - #### Block mappings

@@ -153,7 +153,7 @@ description:: "HTML, HyperText Markup Language, 网页文档的标准标记语�
         collapsed:: true
         - target的属性–>_blank：浏览器总在一个新打开、未命名的窗口中载入目标_
         - target的属性–>_parent：这个目标使得文档载入父窗口或者包含来超链接引用的框架的框架集。如果这个引用是在窗口或者在顶级框架中，那么它与目标 _self 等效。
-        - target的属性–>_self：这个目标的值对所有没有指定目标的 标签是默认目标，它使得目标文档载入并显示在相同的框架或者窗口中作为源文档。这个目标是多余且不必要的，除非和文档标题  标签中的 target 属性一起使用。
+        - target的属性–>_self：这个目标的值对所有没有指定目标的 标签是默认目标，它使得目标文档载入并显示在相同的框架或者窗口中作为源文档。这个目标是多余且不必要的，除非和文档标题  标签中的 target 属性一起使用。
         - target的属性–>_top：这个目标使得文档载入包含这个超链接的窗口，用 _top 目标将会清除所有被包含的框架并将文档载入整个浏览器窗口。--><!--标签的 target 属性规定在何处打开链接文档。
     - img：图像包含框你插入图片 在img标签里面只设置宽，不设置高，图片就会等比例缩放。
       collapsed:: true
@@ -284,7 +284,7 @@ description:: "HTML, HyperText Markup Language, 网页文档的标准标记语�
   - `map`：响应图的关键元素
   - `area`：图片可被点击的元素
     collapsed:: true
-    - 指定URL：href  和  Alt
+    - 指定URL：href  和  Alt
     - shape和coords 属性，共同起作用
       collapsed:: true
       - shape值：

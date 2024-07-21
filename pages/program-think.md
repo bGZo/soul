@@ -2,13 +2,13 @@ alias:: 编程随想
 tags:: #blog
 author:: 编程随想
 source:: [编程随想的博客](https://program-think.blogspot.com/)
-created:: [[20221212]]
+created:: 20221212
 
 - Archives
   - Java 新手的通病[0]：概述
     collapsed:: true
     #java
-    - 1. [对算法和数据结构不熟悉](https://program-think.blogspot.com/2009/01/defect-of-java-beginner-1-algorithm.html)
+    - 1. [对算法和数据结构不熟悉](https://program-think.blogspot.com/2009/01/defect-of-java-beginner-1-algorithm.html)
       collapsed:: true
       #algorithm
       - 几个问题：
@@ -19,7 +19,7 @@ created:: [[20221212]]
         - 你是否理解空间换时间的思想？
         - 写一个针对整数数组的冒泡排序函数，看看你要修改几次才能跑通。
         - 写一个针对整数数组的二分查找函数，看看你要修改几次才能跑通。
-    - 2. [缺乏面向对象的基本功](https://program-think.blogspot.com/2009/01/defect-of-java-beginner-2-oo.html)
+    - 2. [缺乏面向对象的基本功](https://program-think.blogspot.com/2009/01/defect-of-java-beginner-2-oo.html)
       #oop
       - 几个问题：
         - 基于接口的继承和基于实现的继承各有什么优缺点？
@@ -28,7 +28,7 @@ created:: [[20221212]]
         - 为什么 Java 可以多继承 interface，而不可以多继承 class？
         - 假如让你写一个小游戏（比如人机对战的五子棋），你会如何设计类结构？
         - 类结构设计时，如何考虑可扩展性？
-    - 3. [缺少良好的编程习惯](https://program-think.blogspot.com/2009/02/defect-of-java-beginner-3-code-style.html)
+    - 3. [缺少良好的编程习惯](https://program-think.blogspot.com/2009/02/defect-of-java-beginner-3-code-style.html)
       collapsed:: true
       #programming
       - 随意地命名
@@ -37,8 +37,8 @@ created:: [[20221212]]
       - 代码耦合度太大
         - 至于说到代码耦合分别由哪些情况引起？什么是正交的设计？（关于耦合与正交设计，我后面会专门讨论一下）能完全搞明白的人就更少了。
       - 被 GC 宠坏
-    - 4. [异常处理使用不当](https://program-think.blogspot.com/2009/02/defect-of-java-beginner-4-exception.html)
-    - 5. [对虚拟机（JVM）了解不足](https://program-think.blogspot.com/2009/05/defect-of-java-beginner-5-jvm.html)
+    - 4. [异常处理使用不当](https://program-think.blogspot.com/2009/02/defect-of-java-beginner-4-exception.html)
+    - 5. [对虚拟机（JVM）了解不足](https://program-think.blogspot.com/2009/05/defect-of-java-beginner-5-jvm.html)
       collapsed:: true
       #jvm
       - 关于基本类型和引用类型
@@ -60,7 +60,7 @@ created:: [[20221212]]
   - title:: [计算机网络通讯的【系统性】扫盲——从“基本概念”到“==OSI 模型==”](https://program-think.blogspot.com/2021/03/Computer-Networks-Overview.html)
     author:: 
     tags:: #archive/web #web #networking
-    created:: [[20221212]]
+    created:: 20221212
     description:: 
     archive:: [💾 Archived](../assets/archived_web/计算机网络通讯的【系统性】扫盲——从基本概念到OSI 模型 @ 编程随想的博客 (12_12_2022 2_18_47 PM).html)
     collapsed:: true
@@ -137,7 +137,7 @@ created:: [[20221212]]
       - 物理层的【协议】
         - [USB 协议](https://en.wikipedia.org/wiki/Universal_Serial_Bus)
         - [蓝牙协议](https://en.wikipedia.org/wiki/List_of_Bluetooth_protocols)的一部分
-        - [IEEE 802.11](https://en.wikipedia.org/wiki/IEEE_802.11) 的一部分（Wi-Fi）
+        - [IEEE 802.11](https://en.wikipedia.org/wiki/IEEE_802.11) 的一部分（Wi-Fi）
         - [IEEE 802.16](https://en.wikipedia.org/wiki/IEEE_802.16)（WiMAX）
         - [IEEE 1394](https://en.wikipedia.org/wiki/IEEE_1394)（火线接口）
         - [RS-232 协议](https://en.wikipedia.org/wiki/RS-232)（串行接口/串口）
@@ -169,7 +169,7 @@ created:: [[20221212]]
         - [LLC 协议](https://en.wikipedia.org/wiki/Logical_link_control)（逻辑链路控制）
         - [ARP 协议](https://en.wikipedia.org/wiki/Address_Resolution_Protocol)（解析 MAC 地址）
         - [IEEE 802.3](https://en.wikipedia.org/wiki/IEEE_802.3)（以太网）
-        - [IEEE 802.11](https://en.wikipedia.org/wiki/IEEE_802.11) 的一部分（Wi-Fi）
+        - [IEEE 802.11](https://en.wikipedia.org/wiki/IEEE_802.11) 的一部分（Wi-Fi）
         - [L2TP 协议](https://en.wikipedia.org/wiki/Layer_2_Tunneling_Protocol)（2层VPN）
         - [PPP 协议](https://en.wikipedia.org/wiki/Point-to-Point_Protocol)（拨号上网）
         - [SLIP 协议](https://en.wikipedia.org/wiki/Serial_Line_Internet_Protocol)（拨号上网）
@@ -226,7 +226,7 @@ created:: [[20221212]]
       collapsed:: true
       - 网络层的协议有很多。由于“互联网”已经成为全球的事实标准，因此俺只列出属于“互联网协议族”的那些“网络层协议”：
         collapsed:: true
-        - IP 协议（含 [IPv4](https://en.wikipedia.org/wiki/IPv4) ＆ [IPv6](https://en.wikipedia.org/wiki/IPv6)）
+        - IP 协议（含 [IPv4](https://en.wikipedia.org/wiki/IPv4) ＆ [IPv6](https://en.wikipedia.org/wiki/IPv6)）
         - [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)
         - [IGMP](https://en.wikipedia.org/wiki/Internet_Group_Management_Protocol)
         - [IPSec](https://en.wikipedia.org/wiki/IPsec)
@@ -270,15 +270,15 @@ created:: [[20221212]]
         - **4层交换机（Layer 4 switching）**
         - **状态防火墙（[stateful firewall](https://en.wikipedia.org/wiki/Stateful_firewall)）**
       - 传输层相关的【软件工具】
-        - **[netcat](https://en.wikipedia.org/wiki/Netcat) 家族**——传输层的“瑞士军刀”
+        - **[netcat](https://en.wikipedia.org/wiki/Netcat) 家族**——传输层的“瑞士军刀”
           关于 netcat，俺已经写过一篇比较详细的教程：《[扫盲 netcat（网猫）的 N 种用法——从“网络诊断”到“系统入侵”](https://program-think.blogspot.com/2019/09/Netcat-Tricks.html)》。看完这篇教程，你肯定能体会它功能的强大——很多与 TCP/UDP 相关的事情，都可以用 netcat 搞定。
           另外，netcat 还有很多衍生品（衍生的开源项目），构成一个丰富的 netcat 家族。在上述教程也有介绍。
         - **netstat ＆ ss**
-          Windows 和 POSIX（Linux＆UNIX）都有一个 netstat 命令，可以查看当前系统的 TCP/UDP 状态（包括当前系统开启了哪些监听端口）。
-          另外，Linux 上还有一个 ss 命令，功能更强（但这个命令在 Windows 上默认没有）
+          Windows 和 POSIX（Linux＆UNIX）都有一个 netstat 命令，可以查看当前系统的 TCP/UDP 状态（包括当前系统开启了哪些监听端口）。
+          另外，Linux 上还有一个 ss 命令，功能更强（但这个命令在 Windows 上默认没有）
         - **[nmap](https://en.wikipedia.org/wiki/Nmap)**
           这是最著名的开源的扫描器，可以扫描远程主机监听了哪些传输层端口（注：前面提到的“netcat 家族”也可以干这事儿）
-          nmap 的功能很强，“端口扫描”只是其功能之一。
+          nmap 的功能很强，“端口扫描”只是其功能之一。
     - 业务层（OSI 上三层）：概述
       collapsed:: true
       - 必要性
@@ -324,7 +324,7 @@ created:: [[20221212]]
   - title:: [天朝民众的心理分析：斯德哥尔摩综合症](https://program-think.blogspot.com/2012/06/stockholm-syndrome.html)
     author:: 
     tags:: #GFW #archive/web
-    created:: [[20221212]]
+    created:: 20221212
     description:: 
     archive:: [💾 Archived](../assets/archived_web/天朝民众的心理分析：斯德哥尔摩综合症 @ 编程随想的博客 (12_12_2022 3_20_52 PM).html )
     collapsed:: true

@@ -113,7 +113,7 @@ tags:: 2022
         - > 嗨，我對發生的事感到非常遺憾。我明白你現在可能很忙，也可能不想說話，這都沒關係。我只想讓你知道我很關心你，如果你有任何需要，一定要告訴我。
         - 當朋友傷心難過的時候，很多人都不知道該怎麼辦，只好選擇沉默 via: http://healthland.time.com/2011/01/04/mind-reading-the-art-of-comforting/
         - 其實哪怕你說的話沒有多動聽，甚至有的話說得不是那麼合適，對方也會感激你的關心。**==讓朋友知道有人關心着他或她，這才是最重要的==**
-        - > 宫崎骏说过：你住的城市下雨了 很想问你有没有带伞 可是我忍住了 因为我怕你说你没带 而我又无能为力 就像是我爱你  却给你不到  你想要的的陪伴。[???]
+        - > 宫崎骏说过：你住的城市下雨了 很想问你有没有带伞 可是我忍住了 因为我怕你说你没带 而我又无能为力 就像是我爱你  却给你不到  你想要的的陪伴。[???]
       - 告訴對方你會不時聯繫他或她，關注對方的情況
         collapsed:: true
         - > 「需要我的時候，就給我打電話」
@@ -1144,7 +1144,7 @@ tags:: 2022
   - **The first thing you should learn as a programmer, is that there are teenagers that are better programmers than you will ever be**.
     via: https://twitter.com/TheJackForge/status/1595182015674224640
     #programming
-  - Serbian saying: “In war the politicians give ammunition, the rich give the food and the poor give their children… When the war is over the politicians get back the leftover ammunition, the rich grow more food and the poor search for the graves of their children.”
+  - Serbian saying: “In war the politicians give ammunition, the rich give the food and the poor give their children… When the war is over the politicians get back the leftover ammunition, the rich grow more food and the poor search for the graves of their children.”
     collapsed:: true
     via: https://twitter.com/RepSpartz/status/1497203240240402432 #war
     - {{tweet https://twitter.com/RepSpartz/status/1497203240240402432}}

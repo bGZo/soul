@@ -66,20 +66,20 @@ alias:: interview/java
       - 如果最高位（第 8 位）是 0，表示这个数是正数或零，其余 7 位就是它的原码（即正常的二进制表示）。
       - 如果最高位（第 8 位）是 1，表示这个数是负数，其余 7 位就是它的反码（即原码取反，每个位都变成相反的值）加上一。
         例如：
-      - 数字 +127 的原码和补码都是 `01111111`。
-      - 数字 -127 的原码是 `10000001`，反码是 `01111110`，补码是 `01111110 + 1 = 01111111`。
-      - 数字 +1 的原码和补码都是 `00000001`。
-      - 数字 -1 的原码是 `10000001`，反码是 `01111110`，补码是 `01111110 + 1 = 01111111`。
+      - 数字 +127 的原码和补码都是 `01111111`。
+      - 数字 -127 的原码是 `10000001`，反码是 `01111110`，补码是 `01111110 + 1 = 01111111`。
+      - 数字 +1 的原码和补码都是 `00000001`。
+      - 数字 -1 的原码是 `10000001`，反码是 `01111110`，补码是 `01111110 + 1 = 01111111`。
         [由于 byte 类型只有一个字节（8 比特），所以它能表示的整数范围就受到了限制。](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[2](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[3](https://www.w3schools.com/java/java_data_types.asp)[5](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
         如果我们从最小的负数开始计算：
-      - 最小的负数的补码是 `10000000`，对应十进制 -128。
-      - 加一后得到 `10000001`，对应十进制 -127。
-      - 再加一后得到 `10000010`，对应十进制 -126。
+      - 最小的负数的补码是 `10000000`，对应十进制 -128。
+      - 加一后得到 `10000001`，对应十进制 -127。
+      - 再加一后得到 `10000010`，对应十进制 -126。
       - …
-      - 直到加到 `01111111`，对应十进制 +127。
+      - 直到加到 `01111111`，对应十进制 +127。
         [再加一后就会发生溢出（overflow），即超出了 byte 类型能表示的范围。](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[2](https://howtodoinjava.com/java/basics/primitive-data-types-in-java/)[5](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-        溢出后得到的结果会回到最小值 `-128`。
-        因此，byte 类型能表示的整数范围就是 `-128 ~ +127`。
+        溢出后得到的结果会回到最小值 `-128`。
+        因此，byte 类型能表示的整数范围就是 `-128 ~ +127`。
         您还有其他关于 Java 数据类型或运算符的问题吗？
     - 28、char 类型可以存储中文汉字吗？
     - DONE 29、重载和重写有什么区别？
@@ -166,8 +166,8 @@ alias:: interview/java
       collapsed:: true
       - [UUID 是 Universally Unique Identifier 的缩写，意思是通用唯一标识符。](https://www.javatpoint.com/java-uuid)[1](https://www.javatpoint.com/java-uuid)[2](https://www.javatpoint.com/java-uuid)[3](https://kodejava.org/how-do-i-generate-uuid-guid-in-java/)
       - [UUID 是一种 128 位长的值，由十六进制数字和四个连字符（-）组成。](https://www.javatpoint.com/java-uuid)[1](https://www.javatpoint.com/java-uuid)[2](https://www.javatpoint.com/java-uuid)
-      - [UUID 的格式是 `xxxxxxxx-xxxx-Mxxx-Nxxx-xxxxxxxxxxxx`，其中 x 是任意十六进制数字，M 是 UUID 的版本号（从 1 到 5），N 是 UUID 的变体号（通常是 8、9、a 或 b）。](https://www.baeldung.com/java-uuid)[4](https://www.baeldung.com/java-uuid)
-      - 例如：`f47ac10b-58cc-4372-a567-0e02b2c3d479` 就是一个有效的 UUID。
+      - [UUID 的格式是 `xxxxxxxx-xxxx-Mxxx-Nxxx-xxxxxxxxxxxx`，其中 x 是任意十六进制数字，M 是 UUID 的版本号（从 1 到 5），N 是 UUID 的变体号（通常是 8、9、a 或 b）。](https://www.baeldung.com/java-uuid)[4](https://www.baeldung.com/java-uuid)
+      - 例如：`f47ac10b-58cc-4372-a567-0e02b2c3d479` 就是一个有效的 UUID。
       - [UUID 的目的是在分布式系统中生成一个全局唯一的标识符，用于识别信息、资源或实体。](https://www.javatpoint.com/java-uuid)[2](https://www.javatpoint.com/java-uuid)[3](https://kodejava.org/how-do-i-generate-uuid-guid-in-java/)[4](https://www.baeldung.com/java-uuid)
       - [UUID 可以用于创建随机文件名、会话 ID、事务 ID、数据库记录的主键等场景。](https://kodejava.org/how-do-i-generate-uuid-guid-in-java/)[3](https://kodejava.org/how-do-i-generate-uuid-guid-in-java/)
       - [Java 中提供了 java.util.UUID 类来表示和操作 UUID。](https://www.javatpoint.com/java-uuid)[2](https://www.javatpoint.com/java-uuid)[4](https://www.baeldung.com/java-uuid)[5](https://docs.oracle.com/javase/7/docs/api/java/util/UUID.html)

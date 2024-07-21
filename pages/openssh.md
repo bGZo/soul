@@ -2,9 +2,9 @@ description:: the premier connectivity tool for remote login with the SSH protoc
 tags:: #tools
 
 - ## Suite
-  - Remote operations are done using [ssh](https://man.openbsd.org/ssh.1), [scp](https://man.openbsd.org/scp.1), and [sftp](https://man.openbsd.org/sftp.1).
-  - Key management with [ssh-add](https://man.openbsd.org/ssh-add.1), [ssh-keysign](https://man.openbsd.org/ssh-keysign.8), [ssh-keyscan](https://man.openbsd.org/ssh-keyscan.1), and [ssh-keygen](https://man.openbsd.org/ssh-keygen.1).
-  - The service side consists of [sshd](https://man.openbsd.org/sshd.8), [sftp-server](https://man.openbsd.org/sftp-server.8), and [ssh-agent](https://man.openbsd.org/ssh-agent.1).
+  - Remote operations are done using [ssh](https://man.openbsd.org/ssh.1), [scp](https://man.openbsd.org/scp.1), and [sftp](https://man.openbsd.org/sftp.1).
+  - Key management with [ssh-add](https://man.openbsd.org/ssh-add.1), [ssh-keysign](https://man.openbsd.org/ssh-keysign.8), [ssh-keyscan](https://man.openbsd.org/ssh-keyscan.1), and [ssh-keygen](https://man.openbsd.org/ssh-keygen.1).
+  - The service side consists of [sshd](https://man.openbsd.org/sshd.8), [sftp-server](https://man.openbsd.org/sftp-server.8), and [ssh-agent](https://man.openbsd.org/ssh-agent.1).
 - ## Issue
   - DONE Termux (Android) connect to the computer
     collapsed:: true

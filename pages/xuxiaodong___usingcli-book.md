@@ -1,6 +1,6 @@
 tags:: #github #book #commandline #nix
 source:: [xuxiaodong/usingcli-book: 像黑客一样使用命令行](https://github.com/xuxiaodong/usingcli-book) ![](https://img.shields.io/github/stars/xuxiaodong/usingcli-book)
-created:: [[20230103]]
+created:: 20230103
 closed:: [[20230103]]
 
 - ## [[Quickref]]
@@ -281,7 +281,7 @@ closed:: [[20230103]]
   - 因为 WSL2 比较吃性能, 所以之前我对写过一遍命令行的配置, 很多东西都已经接触过, 加上有 Linux 编程课, 很多细碎的操作老师也讲解过, 所以就不以为然了.
   - 说实话一般, 前期多很多琐碎的概括, 内容好多都是稀松平常的目录切换, 补全, 别名, 搜索历史, 唯几的亮点就是后面的使用技巧, 以及编译器的那几张总结性的图.
   - 比较 #awesome  的点还是这本书的构建技巧
-    - > 源文件使用 [R Markdown](https://rmarkdown.rstudio.com/) 格式编写而成，通过 [bookdown](https://bookdown.org/) 工具生成 PDF 及 ePub 电子书。
+    - > 源文件使用 [R Markdown](https://rmarkdown.rstudio.com/) 格式编写而成，通过 [bookdown](https://bookdown.org/) 工具生成 PDF 及 ePub 电子书。
     - `Makefile`
       ```makefile
       .PHONY: all

@@ -1,8 +1,5 @@
----
-icon: ☕
-created: 20240612
-title: java 6
----
+icon:: ☕
+created:: 20240612
 
 - ## Feats \#.ol
   - 集合框架增强。

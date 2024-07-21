@@ -5,7 +5,7 @@ author:: Glenford J. Myers / Tom Badgett
 publisher:: 机械工业出版社
 published:: 20120415
 isbn:: 9787111376606
-created:: [[20221204]]
+created:: 20221204
 douban:: [软件测试的艺术 (豆瓣)](https://book.douban.com/subject/10549782/)
 weread:: [软件测试的艺术(原书第3版)-Glenford J.Myers Tom Badgett Corey Sandler-微信读书](https://weread.qq.com/web/bookDetail/2e8328c0721bc5672e85953)
 

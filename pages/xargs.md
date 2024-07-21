@@ -5,8 +5,8 @@ alias:: commands/xargs
 -
 - ```shell
   command1 | xargs command2
-  # 管道符（`|`）将输出传递给 `xargs`
-  # 它将负责运行 `command2` 命令，使用 `command1` 的输出作为参数
+  # 管道符（`|`）将输出传递给 `xargs`
+  # 它将负责运行 `command2` 命令，使用 `command1` 的输出作为参数
   ```
 -
 - Options
@@ -14,8 +14,8 @@ alias:: commands/xargs
   - `-p`
     - 操作提醒确认
   - `-n`
-    - 令 `xargs` 每次执行若干个迭代
-    - 用 `-n1` 告诉 `xargs` 一次执行一个迭代
+    - 令 `xargs` 每次执行若干个迭代
+    - 用 `-n1` 告诉 `xargs` 一次执行一个迭代
   - `-I`
     - 将输出内容放入占位符，之后你可以用来做各种事
 -
@@ -26,7 +26,7 @@ alias:: commands/xargs
       cat todelete.txt | xargs rm
       ```
       - 工作方式
-        - `xargs` 会运行 `rm` 2次，为 `cat` 返回的每一行运行一次
+        - `xargs` 会运行 `rm` 2次，为 `cat` 返回的每一行运行一次
   - 同时运行多个命令
     collapsed:: true
     - ```shell

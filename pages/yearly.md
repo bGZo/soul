@@ -1,12 +1,12 @@
 alias:: 年度, 年度总结, 复盘
 icon:: 📅
 tags:: #scheduled
-created:: [[20230602]]
+created:: 20230602
 
 - ## Why
   - Work flow.
 - ## How
-  - 基本每一个平台都会有年度总结, 如果我要聚合所有的平台的链接, 那会永无止境, 我只能在入门的时候多看看这个平台的年度数据. Especially [[Hobby]]
+  - 基本每一个平台都会有年度总结, 如果我要聚合所有的平台的链接, 那会永无止境, 我只能在入门的时候多看看这个平台的年度数据. Especially [[hobby]]
     - You know what, actually I don't give a fuck to this garbage ranking.
       - Only when **you are newer to fields or you are busy all years**, you would need this.
 - ## What

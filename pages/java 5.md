@@ -1,8 +1,5 @@
----
-icon: ☕
-created: 20240612
-title: java 5
----
+icon:: ☕
+created:: 20240612
 
 - ## What
   - [[reflection]]

@@ -7,7 +7,7 @@ isbn:: 9787115598691
 douban:: [Spring实战（第6版） (豆瓣)](https://book.douban.com/subject/36142064)
 weread:: [Spring实战（第6版）-克雷格·沃斯-微信读书](https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4)
 description:: [habuma/spring-in-action-6-samples: Sample code from Spring in Action 6](https://github.com/habuma/spring-in-action-6-samples)
-created:: [[20230111]]
+created:: 20230111
 
 - ## 📄 Contents
   - 关于本书
@@ -792,7 +792,7 @@ created:: [[20230111]]
           - `@Repository`
             description:: 构造型(stereotype)注解, 其他如`@Controller`和`@Component`
           - `@Autowired`
-            description:: (From Spring 2.5, annotations-driven *Dependency Injection*) Allows Spring to resolve and inject collaborating beans into our bean.
+            description:: (From Spring 2.5, annotations-driven *Dependency Injection*) Allows Spring to resolve and inject collaborating beans into our bean.
             collapsed:: true
             - 当类只有一个构造器的时候
               collapsed:: true
@@ -868,12 +868,12 @@ created:: [[20230111]]
             - `Spring Boot` 启动自动加载模式 (`schema.sql`) 和数据(`data.sql`)
               description:: `src/main/resources`, 每次启动都会重新执行
               collapsed:: true
-              - > The data.sql file is executed **each time** the spring-boot application is fired up. This means that if you have insert statements, they may cause an `org.h2.jdbc.JdbcSQLException`-exception, because the **data is already present** in the database. I am using an embedded H2 database, but the problem stays the same.
+              - > The data.sql file is executed **each time** the spring-boot application is fired up. This means that if you have insert statements, they may cause an `org.h2.jdbc.JdbcSQLException`-exception, because the **data is already present** in the database. I am using an embedded H2 database, but the problem stays the same.
                 via: [Spring Boot - Loading Initial Data - Stack Overflow](https://stackoverflow.com/questions/38040572/spring-boot-loading-initial-data)
         - 3.1.4 插入数据
           collapsed:: true
           - `Class GeneratedKeyHolder`
-            description:: The standard implementation of the [`KeyHolder`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/support/KeyHolder.html) interface, to be used for holding auto-generated keys (as potentially returned by JDBC insert statements). Create an instance of this class for each insert operation, and pass it to the corresponding [`JdbcTemplate`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/JdbcTemplate.html) or [`SqlUpdate`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/object/SqlUpdate.html) methods.
+            description:: The standard implementation of the [`KeyHolder`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/support/KeyHolder.html) interface, to be used for holding auto-generated keys (as potentially returned by JDBC insert statements). Create an instance of this class for each insert operation, and pass it to the corresponding [`JdbcTemplate`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/core/JdbcTemplate.html) or [`SqlUpdate`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/object/SqlUpdate.html) methods.
             description:: [GeneratedKeyHolder (Spring Framework 6.0.4 API)](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/support/GeneratedKeyHolder.html)
           - `Class PreparedStatementCreatorFactory`
             description:: Helper class that efficiently **creates multiple PreparedStatementCreator objects with different parameters based on an SQL statement and a single set of parameter declarations**.
@@ -980,10 +980,10 @@ created:: [[20230111]]
             - `@NoArgsConstructor`
               description:: generate a constructor with no parameters. If this is not possible (because of final fields), a compiler error will result instead, unless @NoArgsConstructor(force = true) is used, then all final fields are initialized with 0 / false / null. For fields with constraints, such as @NonNull fields, no check is generated,so be aware that these constraints will generally not be fulfilled until those fields are properly initialized later. Certain java constructs, such as hibernate and the Service Provider Interface require a no-args constructor. This annotation is useful primarily in combination with either @Data or one of the other constructor generating annotations.
             - `@RequiredArgsConstructor`
-              description:: generates a constructor with 1 parameter for each field that requires special handling. All non-initialized `final` fields get a parameter, as well as any fields that are marked as `@NonNull` that aren't initialized where they are declared. For those fields marked with `@NonNull`, an explicit null check is also generated. The constructor will throw a `NullPointerException` if any of the parameters intended for the fields marked with `@NonNull` contain `null`. The order of the parameters match the order in which the fields appear in your class.
+              description:: generates a constructor with 1 parameter for each field that requires special handling. All non-initialized `final` fields get a parameter, as well as any fields that are marked as `@NonNull` that aren't initialized where they are declared. For those fields marked with `@NonNull`, an explicit null check is also generated. The constructor will throw a `NullPointerException` if any of the parameters intended for the fields marked with `@NonNull` contain `null`. The order of the parameters match the order in which the fields appear in your class.
             - `@AllArgsConstructor`
-              description:: generates a constructor with 1 parameter for each field in your class. Fields marked with `@NonNull` result in null checks on those parameters.
-            - > Each of these annotations allows an alternate form, where the generated constructor is always private, and an additional static factory method that wraps around the private constructor is generated. This mode is enabled by supplying the `staticName` value for the annotation, like so: `@RequiredArgsConstructor(staticName="of")`. Such a static factory method will infer generics, unlike a normal constructor. This means your API users get write `MapEntry.of("foo", 5)` instead of the much longer `new MapEntry<String, Integer>("foo", 5)`.
+              description:: generates a constructor with 1 parameter for each field in your class. Fields marked with `@NonNull` result in null checks on those parameters.
+            - > Each of these annotations allows an alternate form, where the generated constructor is always private, and an additional static factory method that wraps around the private constructor is generated. This mode is enabled by supplying the `staticName` value for the annotation, like so: `@RequiredArgsConstructor(staticName="of")`. Such a static factory method will infer generics, unlike a normal constructor. This means your API users get write `MapEntry.of("foo", 5)` instead of the much longer `new MapEntry<String, Integer>("foo", 5)`.
               via: [@NoArgsConstructor, @RequiredArgsConstructor, @AllArgsConstructor](https://projectlombok.org/features/constructor)
         - 声明JPA存储库
         - 3.3.4 自定义JPA存储库
@@ -1236,9 +1236,9 @@ created:: [[20230111]]
                 ```
         - 5.3.2 创建自定义的登录页
           - What is the use of for attribute in label tag?
-            - The for attribute **specifies which form element a label is bound to**.
+            - The for attribute **specifies which form element a label is bound to**.
           - What is the use of name attribute in label tag?
-            - The name attribute specifies the name of an <input> element. The name attribute is used **to reference elements in a JavaScript, or to reference form data after a form is submitted**.
+            - The name attribute specifies the name of an <input> element. The name attribute is used **to reference elements in a JavaScript, or to reference form data after a form is submitted**.
           - 默认情况下，Spring Security会在“/login”路径监听登录请求，用户名和密码输入域的名称分别应为username和password。但这都是可配置的，举例来说，如下的配置自定义了路径和输入域的名称：
           - ```java
             .and()
@@ -1881,7 +1881,7 @@ created:: [[20230111]]
       - ((63d244b1-8572-4263-8d21-197decff603c))
       - Refer the above, `@ExtendWith(SpringExtension.class)` is no need
     - `@ExtendWith` by Junit
-      description:: @ExtendWith is **a repeatable annotation that is used to register extensions for the annotated test class, test interface, test method, parameter, or field**. Annotated parameters are supported in test class constructors, in test methods, and in @BeforeAll , @AfterAll , @BeforeEach , and @AfterEach lifecycle methods. via: [ExtendWith (JUnit 5.8.0 API)](https://junit.org/junit5/docs/5.8.0/api/org.junit.jupiter.api/org/junit/jupiter/api/extension/ExtendWith.html)
+      description:: @ExtendWith is **a repeatable annotation that is used to register extensions for the annotated test class, test interface, test method, parameter, or field**. Annotated parameters are supported in test class constructors, in test methods, and in @BeforeAll , @AfterAll , @BeforeEach , and @AfterEach lifecycle methods. via: [ExtendWith (JUnit 5.8.0 API)](https://junit.org/junit5/docs/5.8.0/api/org.junit.jupiter.api/org/junit/jupiter/api/extension/ExtendWith.html)
     - `@MockBean`
       description:: Spring Boot includes a @MockBean annotation that can be used to description::  a Mockito mock for a bean inside your ApplicationContext.
       - Mockito
@@ -1890,7 +1890,7 @@ created:: [[20230111]]
     - `Class MediaType` -> Internet Media Types
       - Media type
         alias:: MIME type, Content type, 互联网媒体类型, MIME类型, 内容类型
-        description:: a two-part identifier for file formats and format contents transmitted on the Internet
+        description:: a two-part identifier for file formats and format contents transmitted on the Internet
         description:: [Media type - Wikipedia](https://en.wikipedia.org/wiki/Media_type); Postel, J., [Media Type Registration Procedure](https://www.ietf.org/rfc/rfc1590.txt) , RFC 1590, November 1996)
         collapsed:: true
         - 一个MIME类型至少包括两个部分：一个*类型（type）*和一个*子类型（subtype）*
@@ -1917,29 +1917,29 @@ created:: [[20230111]]
           - #+BEGIN_EXAMPLE
             text/html; charset=UTF-8
             #+END_EXAMPLE
-            - `text` is the type
-            - `html` is the subtype
-            - `charset=UTF-8` is an optional parameter indicating the character encoding.
+            - `text` is the type
+            - `html` is the subtype
+            - `charset=UTF-8` is an optional parameter indicating the character encoding.
             - ### More
               - `application/ld+json`
                 - **JavaScript Object Notation for Linked Data**
                   via: [A Guide to JSON-LD for Beginners - Moz](https://moz.com/blog/json-ld-for-beginners)
-              - `application/msword` (.doc)
+              - `application/msword` (.doc)
               - `application/vnd.api+json`
-              - `application/vnd.ms-excel` (.xls)
-              - `application/vnd.ms-powerpoint` (.ppt)
-              - `application/vnd.oasis.opendocument.text` (.odt)
-              - `application/vnd.openxmlformats-officedocument.presentationml.presentation` (.pptx)
-              - `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet` (.xlsx)
-              - `application/vnd.openxmlformats-officedocument.wordprocessingml.document` (.docx)
-              - `application/zstd` (.zst)
+              - `application/vnd.ms-excel` (.xls)
+              - `application/vnd.ms-powerpoint` (.ppt)
+              - `application/vnd.oasis.opendocument.text` (.odt)
+              - `application/vnd.openxmlformats-officedocument.presentationml.presentation` (.pptx)
+              - `application/vnd.openxmlformats-officedocument.spreadsheetml.sheet` (.xlsx)
+              - `application/vnd.openxmlformats-officedocument.wordprocessingml.document` (.docx)
+              - `application/zstd` (.zst)
               - When make a post request, encode the data that forms
                 via: [html - What does enctype='multipart/form-data' mean? - Stack Overflow](https://stackoverflow.com/questions/4526273/what-does-enctype-multipart-form-data-mean)
-                - HTML forms provide [three methods of encoding](https://www.w3.org/html/wg/spec/association-of-controls-and-forms.html#attr-fs-enctype). \#.ol
-                  - `application/x-www-form-urlencoded` (the default)
+                - HTML forms provide [three methods of encoding](https://www.w3.org/html/wg/spec/association-of-controls-and-forms.html#attr-fs-enctype). \#.ol
+                  - `application/x-www-form-urlencoded` (the default)
                     - be more efficient than 2
                   - `multipart/form-data`
-                    - when your form includes any `<input type="file">` elements
+                    - when your form includes any `<input type="file">` elements
                   - `text/plain` (Except for [debugging](http://www.w3.org/TR/html5/forms.html#text/plain-encoding-algorithm), Never use)
       - via: [MediaType (Java EE 6 )](https://docs.oracle.com/javaee/6/api/javax/ws/rs/core/MediaType.html) & [HTTP/1.1: Protocol Parameters](https://www.w3.org/Protocols/rfc2616/rfc2616-sec3.html#sec3.7)
     - `@DataJpaTest`

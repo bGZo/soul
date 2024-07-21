@@ -42,7 +42,7 @@ tags:: #design
     - Reference
       - title:: [GitHub - ozh/github-colors](https://github.com/ozh/github-colors) ![](https://img.shields.io/github/stars/ozh/github-colors)
         tags:: #github #opensource \#.olor #programming
-        created:: [[20230302]]
+        created:: 20230302
         description:: 🌈 Github colors for all the languages
   - ### [[commandline]] #termux
     collapsed:: true
@@ -71,5 +71,5 @@ tags:: #design
   - WAITING Github Markdown was not supported for color rendering(via [github](https://docs.github.com/cn/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#disabling-markdown-rendering)). Yet you could use some third-party markdown web rendering tools (same with milkdown.dev):
     collapsed:: true
     - https://github.com/pandao/editor.md / https://pandao.github.io/editor.md
-    - * Inspiring by making labels for https://github.com/bGZoCg/2021/issues. *
+    - * Inspiring by making labels for https://github.com/bGZoCg/2021/issues. *
 -

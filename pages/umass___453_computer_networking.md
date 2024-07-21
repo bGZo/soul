@@ -1,6 +1,6 @@
 icon:: 🏫
 alias:: 自顶向下计算机网络, Computer Networking: A Top-Down Approach
-created:: [[20230413]]
+created:: 20230413
 
 - [Jim Kurose Homepage (umass.edu)](https://gaia.cs.umass.edu/kurose_ross/index.php)
 - [COMPSCI 453 Computer Networking | Cybersecurity Institute (umass.edu)](https://infosec.cs.umass.edu/content/compsci-453553-computer-networking)

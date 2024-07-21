@@ -1,6 +1,6 @@
 icon:: 📄
 alias:: js, javascript
-created:: [[20240717]]
+created:: 20240717
 description:: a high-level, often just-in-time compiled language that conforms to the ECMAScript standard
 tags:: web
 wikipedia:: https://en.wikipedia.org/wiki/JavaScript

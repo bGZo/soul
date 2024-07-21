@@ -1,9 +1,6 @@
----
-alias: tools/http-server
-mark: 服务器
-created: 20240420
-title: http-server
----
+alias:: tools/http-server
+mark:: 服务器
+created:: 20240420
 
 - ## Why
 - ## How

@@ -6,7 +6,7 @@
     - ```shell
       env USER=flavio node app.js
       ```
-      - Node.js 应用可以通过 Node 的 `process.env` 接口访问 `USER` 这个环境变量。
+      - Node.js 应用可以通过 Node 的 `process.env` 接口访问 `USER` 这个环境变量。
   - 清除所有已经设置的环境变量
     - ```shell
       env -i /usr/local/bin/node app.js

@@ -2,7 +2,7 @@ tags:: #outdated
 douban:: [编写高质量代码：改善Python程序的91个建议 (豆瓣)](https://book.douban.com/subject/25910544/)
 weread:: [编写高质量代码：改善Python程序的91个建议-张颖 赖勇浩-微信读书](https://weread.qq.com/web/bookDetail/b4832100597d8eb481b4cd6)
 cover:: ![](https://img9.doubanio.com/view/subject/l/public/s27308066.jpg)
-created:: [[20230227]]
+created:: 20230227
 closed:: [[20230227]]
 
 - ## Contents

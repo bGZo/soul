@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium #hashtable
-created:: [[20230507]]
+created:: 20230507
 - ## Content
   - <iframe src="https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60" style="height: 600px"></iframe>
     [LeetCode](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60/)

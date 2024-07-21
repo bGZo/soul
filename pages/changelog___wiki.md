@@ -7,13 +7,13 @@ description:: start begin Beta 0.6.5; [Changelog](https://docs.logseq.com/#/page
   - Advanced queries have a new :group-by-page? option [#9133](https://github.com/logseq/logseq/pull/9133)
 - Apr 13st, 2023  Beta 0.9.2
   - Support exporting to image  [#9037](https://github.com/logseq/logseq/pull/9037)
-  - Make publishing accessible to CLIs [#9033](https://github.com/logseq/logseq/pull/9033)
+  - Make publishing accessible to CLIs [#9033](https://github.com/logseq/logseq/pull/9033)
 - Mar 29st, 2023  Beta 0.9.1
 - Mar 28st, 2023 Beta 0.9.0
   collapsed:: true
   - Refactored file system handling to fix filename issues on mobile platforms, requiring re-indexing of your working graph [#8792](https://github.com/logseq/logseq/pull/8792)
   - Added a simple [Query Builder](https://docs.logseq.com/#/page/Query%20Builder) [#8774](https://github.com/logseq/logseq/pull/8774)
-  - Made [Whiteboards](https://docs.logseq.com/#/page/whiteboard) publicly available to all users [#8853](https://github.com/logseq/logseq/pull/8853)
+  - Made [Whiteboards](https://docs.logseq.com/#/page/whiteboard) publicly available to all users [#8853](https://github.com/logseq/logseq/pull/8853)
   - Whiteboards
     - Paste and dnd behavior (also add a placeholder to shape labels) [#8753](https://github.com/logseq/logseq/pull/8753)
     - Publishing [#8899](https://github.com/logseq/logseq/pull/8899)
@@ -24,23 +24,23 @@ description:: start begin Beta 0.6.5; [Changelog](https://docs.logseq.com/#/page
 - Mar 1st, 2023 Beta 0.8.18
   collapsed:: true
   - Support cues for Cloze cards [#8654](https://github.com/logseq/logseq/pull/8654) [Documentation](https://docs.logseq.com/#/page/cloze)
-  - Add support for [block refs](https://docs.logseq.com/#/page/block%20reference) in properties to backlink to blocks [#8695](https://github.com/logseq/logseq/pull/8695)
-  - Add command for copying a page url [#8538](https://github.com/logseq/logseq/pull/8538)
-  - Shortcuts can be disabled with `false` now  [#8618](https://github.com/logseq/logseq/pull/8618)
-  - PDF viewer enhancements [#8616](https://github.com/logseq/logseq/pull/8616)
-  - [Local HTTP Server](https://docs.logseq.com/#/page/local%20http%20server) now supports CORS for use from another web page or browser extension [#8651](https://github.com/logseq/logseq/pull/8651)
+  - Add support for [block refs](https://docs.logseq.com/#/page/block%20reference) in properties to backlink to blocks [#8695](https://github.com/logseq/logseq/pull/8695)
+  - Add command for copying a page url [#8538](https://github.com/logseq/logseq/pull/8538)
+  - Shortcuts can be disabled with `false` now  [#8618](https://github.com/logseq/logseq/pull/8618)
+  - PDF viewer enhancements [#8616](https://github.com/logseq/logseq/pull/8616)
+  - [Local HTTP Server](https://docs.logseq.com/#/page/local%20http%20server) now supports CORS for use from another web page or browser extension [#8651](https://github.com/logseq/logseq/pull/8651)
 - Feb 10th, 2023 Beta 0.8.17
   collapsed:: true
-  - Adds support for `:query-page` as an input [#8449](https://github.com/logseq/logseq/pull/8449) - [Documentation](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs)
-  - Support dragging the PDF viewer head to move the window [#8305](https://github.com/logseq/logseq/pull/8305)
+  - Adds support for `:query-page` as an input [#8449](https://github.com/logseq/logseq/pull/8449) - [Documentation](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs)
+  - Support dragging the PDF viewer head to move the window [#8305](https://github.com/logseq/logseq/pull/8305)
   - Add `{date}` template variable to quick-capture [#8560](https://github.com/logseq/logseq/pull/8560)
   - Add `:default-page` to `quick-capture-options` [#8529](https://github.com/logseq/logseq/pull/8529)
-  - Add +/- syntax, (w)eek (m)onth (y)ear, and time support to query :inputs [#8387](https://github.com/logseq/logseq/pull/8387) - [Documentation](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs)
+  - Add +/- syntax, (w)eek (m)onth (y)ear, and time support to query :inputs [#8387](https://github.com/logseq/logseq/pull/8387) - [Documentation](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs)
 - Jan 12th, 2023 Beta 0.8.16
   collapsed:: true
-  - PDF highlight drag & drop [#8103](https://github.com/logseq/logseq/pull/8103)
-  - New query inputs for advanced query [#5674](https://github.com/logseq/logseq/pull/5674) [Document: Query Inputs](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs)
-  - Add a new option `:ui/show-full-blocks?` to show full blocks in references [#8124](https://github.com/logseq/logseq/pull/8124)
+  - PDF highlight drag & drop [#8103](https://github.com/logseq/logseq/pull/8103)
+  - New query inputs for advanced query [#5674](https://github.com/logseq/logseq/pull/5674) [Document: Query Inputs](https://docs.logseq.com/#/page/advanced%20queries/block/query%20inputs)
+  - Add a new option `:ui/show-full-blocks?` to show full blocks in references [#8124](https://github.com/logseq/logseq/pull/8124)
 - Dec 29th, 2022 Beta 0.8.15
   collapsed:: true
   - Use shortcut  `mod+a`  to select parent blocks up to the whole page [#7803](https://github.com/logseq/logseq/pull/7803)
@@ -48,13 +48,13 @@ description:: start begin Beta 0.6.5; [Changelog](https://docs.logseq.com/#/page
 - Dec 19th, 2022 Beta 0.8.13
   collapsed:: true
   - Logseq Whiteboards now become a Beta Feature
-  - Introduce a new config property  `:logseq.query/nlp-date` . Default to  `false` . Query without  `logseq.query/nlp-date:: true`  would disable date normalization [#7708](https://github.com/logseq/logseq/pull/7708)
+  - Introduce a new config property  `:logseq.query/nlp-date` . Default to  `false` . Query without  `logseq.query/nlp-date:: true`  would disable date normalization [#7708](https://github.com/logseq/logseq/pull/7708)
 - Dec 2nd, 2022 Beta 0.8.12
   collapsed:: true
-  - Add  `page`  and  `append`  parameters to quickCapture URL, add corresponding config in  `config.edn`  [Documentation: Logseq Protocol](https://docs.logseq.com/#/page/Logseq%20Protocol)
+  - Add  `page`  and  `append`  parameters to quickCapture URL, add corresponding config in  `config.edn`  [Documentation: Logseq Protocol](https://docs.logseq.com/#/page/Logseq%20Protocol)
 - Nov 16th, 2022 Beta 0.8.11
   collapsed:: true
-  - [On-disk encryption is removed](https://discuss.logseq.com/t/deprecation-of-on-disk-encryption/12334) [#7221](https://github.com/logseq/logseq/pull/7221). You should follow the instructions to decrypt your graph files.
+  - [On-disk encryption is removed](https://discuss.logseq.com/t/deprecation-of-on-disk-encryption/12334) [#7221](https://github.com/logseq/logseq/pull/7221). You should follow the instructions to decrypt your graph files.
   - `logseq/pages-metadata.edn`  is deprecated. Now it can be safely deleted.
 - Nov 1st, 2022 Beta 0.8.10
   collapsed:: true
@@ -71,11 +71,11 @@ description:: start begin Beta 0.6.5; [Changelog](https://docs.logseq.com/#/page
   - A new theme-based highlighting system and a lot of enhancements to colors
 - Sep 13th, 2022 Beta 0.8.6
   collapsed:: true
-  - Support for global config file, shared across all graphs [#6531](https://github.com/logseq/logseq/pull/6531) Global configuration
+  - Support for global config file, shared across all graphs [#6531](https://github.com/logseq/logseq/pull/6531) Global configuration
 - Sep 1st, 2022 Beta 0.8.3
   collapsed:: true
   - ==Config option to allow for longer, richer property values, new config option `:rich-property-values?` [#6336](https://github.com/logseq/logseq/pull/6336)==
-  - Find in page on electron, use `CMD+F` or `Ctrl+F` to search term in current page [Documentation](https://docs.logseq.com/#/page/Find%20in%20page) [#6443](https://github.com/logseq/logseq/pull/6443)
+  - Find in page on electron, use `CMD+F` or `Ctrl+F` to search term in current page [Documentation](https://docs.logseq.com/#/page/Find%20in%20page) [#6443](https://github.com/logseq/logseq/pull/6443)
 - Aug 17th, 2022 Beta 0.8.1 **New  Electron Version**
   collapsed:: true
   - **NOTE**: This release updates Electron to version 19. If you encounter any errors, Clear Cache and re-add your graphs.

@@ -6,7 +6,7 @@ translator:: 陈琳
 publisher:: 人民邮电出版社
 published:: 20210700
 isbn:: 9787115564672
-created:: [[20220124]]
+created:: 20220124
 douban:: [卡片笔记写作法 (豆瓣)](https://book.douban.com/subject/35503571/)
 weread:: [卡片笔记写作法：如何实现从阅读到写作-申克·阿伦斯-微信读书](https://weread.qq.com/web/bookDetail/3d8326d072552e803d87c41)
 description:: 德国著名学者卢曼基于学习心理学的洞察，借鉴久经考验的笔记技术，使用卡片盒笔记写作法，积累了 9万张知识卡片，一生中写了 58本书和上百篇论文。本书是该系统的第一本中文综合指南和说明，本书分为三个部分，第一个部分从写作知识、写作准备、写作能力和注意事项四个角度概述写作的基本问题；第二部分总结了有效写作的四个原则；第三部分是成功写作的六个步骤。详细解释了卡片盒笔记写作法的工作原理和具体写作方法，这一方法可以帮助我们将精力集中在真正重要的事情上——思考、理解和提出新的写作思路，而不用将时间浪费在寻找笔记、资料或参考文献上。无论你喜欢用笔和纸，还是喜欢在Windows、Mac或Linux上做笔记都没关系，这个方法都能够轻松应用。
@@ -347,7 +347,7 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     author:: 
     publisher:: 
     isbn:: 
-    created:: [[20230125]]
+    created:: 20230125
     closed:: 
     douban:: [费曼学习法（用输出倒逼输入） (豆瓣)](https://book.douban.com/subject/35368398/)
     goodreads:: 
@@ -359,13 +359,13 @@ cover:: ![](https://img2.doubanio.com/view/subject/l/public/s33927783.jpg){:heig
     author:: 
     publisher:: 
     isbn:: 
-    created:: [[20230125]]
+    created:: 20230125
     closed:: 
     douban:: [西蒙学习法 (豆瓣)](https://book.douban.com/subject/36087707/)
     goodreads:: 
     weread:: [西蒙学习法：如何在短时间内快速学会新知识-友荣方略　著-微信读书](https://weread.qq.com/web/bookDetail/a7f32050813ab73e5g017342)
   - title:: 如何高效学习
-    created:: [[20230125]]
+    created:: 20230125
     weread:: [如何高效学习：1年完成麻省理工4年33门课程的整体性学习法-斯科特·扬-微信读书](https://weread.qq.com/web/bookDetail/0683235058c1e6068bd239f)
     desc:: 
     description::

@@ -1,5 +1,5 @@
 tags:: #logseq/plugin
-created:: [[20221213]]
+created:: 20221213
 
 - [[issue]]
   - TODO [#B] The block properties would be missing

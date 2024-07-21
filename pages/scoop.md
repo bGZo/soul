@@ -1,5 +1,5 @@
 alias:: tools/scoop
-created:: [[20240225]]
+created:: 20240225
 tags:: #Windows #monthly
 
 - ## Why

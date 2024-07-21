@@ -2,7 +2,7 @@ icon:: 🤔
 tags:: TODO
   - #vs [[thought]]
     - > thought is one step at a time and these various steps makes up thinking
-    - > But when understood in the widest sense, **any mental event may be understood as a form of thinking, including perception and unconscious mental processes**. In a slightly different sense, the term *thought* refers not to the mental processes themselves but to mental states or systems of ideas brought about by these processes.
+    - > But when understood in the widest sense, **any mental event may be understood as a form of thinking, including perception and unconscious mental processes**. In a slightly different sense, the term *thought* refers not to the mental processes themselves but to mental states or systems of ideas brought about by these processes.
       via: [Thought - Wikipedia](https://en.wikipedia.org/wiki/Thought)
       >
       >但从最广义上理解时，任何心理事件都可以理解为一种思维形式，包括知觉和无意识的心理过程。在稍微不同的意义上，*思想这个词*不是指心理过程本身，而是指由这些过程引起的心理状态或思想体系

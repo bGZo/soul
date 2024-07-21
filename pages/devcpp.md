@@ -1,9 +1,6 @@
----
-alias: tools/devcpp
-created: 20240317
-tags: #compiler #cpp
-title: devcpp
----
+alias:: tools/devcpp
+created:: 20240317
+tags:: #compiler #cpp
 
 - ## Why
 - ## How

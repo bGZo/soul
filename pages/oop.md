@@ -24,8 +24,8 @@ description:: [Object-oriented programming - Wikipedia](https://en.wikipedia.org
     - C++ 中接口其实就是全虚基类。
     - Java 中接口是用 interface 修饰的类。
   - **小结**
-    - C++ 虚函数    ==  Java 普通函数
-    - C++ 纯虚函数  ==  Java 抽象函数
-    - C++ 抽象类    ==  Java 抽象类
-    - C++ 虚基类    ==  Java 接口
+    - C++ 虚函数    ==  Java 普通函数
+    - C++ 纯虚函数  ==  Java 抽象函数
+    - C++ 抽象类    ==  Java 抽象类
+    - C++ 虚基类    ==  Java 接口
   - [JAVA – 虚函数、抽象函数、抽象类、接口](https://www.runoob.com/note/40084)

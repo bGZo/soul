@@ -2,7 +2,7 @@ blog:: [Logseq Blog](https://blog.logseq.com/)
 changelog:: [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changelog.md](https://github.com/logseq/docs/blob/master/pages/Changelog.md?plain=1)
 community:: [Logseq Community Hub](https://hub.logseq.com/);
 document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://mschmidtkorth.github.io/logseq-msk-docs)
-created:: [[20210801]]
+created:: 20210801
 tags:: #tools
 collapsed:: true
 
@@ -20,7 +20,7 @@ collapsed:: true
         [Make it easy to configure syntax highlighting theme? - Questions & Help - Logseq](https://discuss.logseq.com/t/make-it-easy-to-configure-syntax-highlighting-theme/4617)
         - title:: [codemirror/codemirror5: In-browser code editor (version 5, legacy)](https://github.com/codemirror/codemirror5) ![](https://img.shields.io/github/stars/codemirror/codemirror5)
           tags:: #github #opensource
-          created:: [[20230531]]
+          created:: 20230531
       - [Specify Indentation Type & Changing The Default Font - Questions & Help - Logseq](https://discuss.logseq.com/t/specify-indentation-type-changing-the-default-font/2703/6)
         collapsed:: true
         - ```edu
@@ -68,7 +68,7 @@ collapsed:: true
       - `template-including-parent`
       - > `query-properties:: [:book-title :author :series]`
         via: [Specify column order in query table view - Questions & Help - Logseq](https://discuss.logseq.com/t/specify-column-order-in-query-table-view/8877)
-      - >`:table-view`  can have one of the following values:
+      - >`:table-view`  can have one of the following values:
         nil — default, show property button
         true — table view, hide the button
         false — regular view, hide the bbutton
@@ -79,7 +79,7 @@ collapsed:: true
       - Logseq Plugin | 插件
         - title:: [shady2k/logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin)
           tags:: #github #opensource
-          created:: [[20221120]]
+          created:: 20221120
           - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
             collapsed:: true
             #telegram #deprecated
@@ -110,7 +110,7 @@ collapsed:: true
       - But it only support show until **level 2**
     - title:: [shady2k/logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin)
       tags:: #github #opensource
-      created:: [[20221120]]
+      created:: 20221120
       collapsed:: true
       - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
         collapsed:: true
@@ -179,12 +179,12 @@ collapsed:: true
   - The page exported by default is not included plugin setting. The better way is writing it in `custom.css`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5). And here is my changelog: #changelog/wiki
     collapsed:: true
     - Font
-      created:: [[20221015]]
+      created:: 20221015
       collapsed:: true
       - [Basic UI Settings e.g. Font Size - Feature Requests - Logseq](https://discuss.logseq.com/t/basic-ui-settings-e-g-font-size/2946/25)
       - [Specify Indentation Type & Changing The Default Font - Questions & Help - Logseq](https://discuss.logseq.com/t/specify-indentation-type-changing-the-default-font/2703/5)
     - Tags
-      created:: [[20221118]]
+      created:: 20221118
       collapsed:: true
       - ```css
         a.tag[data-ref="star" i]::before {

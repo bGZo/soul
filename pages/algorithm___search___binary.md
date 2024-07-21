@@ -1,8 +1,8 @@
-description:: "binary(二分), half-interval(折半),logarithmic(对数), 在一个升序数组中查找一个数, 难点在于到底要给 mid ± 1, while 里到底用  <= / <"
+description:: "binary(二分), half-interval(折半),logarithmic(对数), 在一个升序数组中查找一个数, 难点在于到底要给 mid ± 1, while 里到底用  <= / <"
 tags:: #[[sort]]
 
 - >Although the basic idea of binary search is comparatively straightforward, the details can be surprisingly tricky | 思路很简单，细节是魔鬼
-  — [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)(1998). *Sorting and searching*. [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming). Vol. 3 (2nd ed.). Reading, MA: Addison-Wesley Professional. [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier)) [978-0-201-89685-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-201-89685-5).
+  — [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)(1998). *Sorting and searching*. [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming). Vol. 3 (2nd ed.). Reading, MA: Addison-Wesley Professional. [ISBN](https://en.wikipedia.org/wiki/ISBN_(identifier)) [978-0-201-89685-5](https://en.wikipedia.org/wiki/Special:BookSources/978-0-201-89685-5).
 -
 - > 管他左侧还右侧，搜索区间定乾坤
   搜索一个元素时，搜索区间两端闭。
@@ -24,7 +24,7 @@ tags:: #[[sort]]
       int left = 0, right = ...;
       while(...) {
           int mid = left + (right - left) / 2;
-          // NOTE: left + (right - left) / 2  better than  (left + right) / 2
+          // NOTE: left + (right - left) / 2  better than  (left + right) / 2
           if (nums[mid] == target) {
               ...
           } else if (nums[mid] < target) {

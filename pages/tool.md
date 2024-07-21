@@ -1,6 +1,6 @@
 alias:: 工具
 icon:: 🛠
-created:: [[20230531]]
+created:: 20230531
 tags:: #Productivity
 
   - template:: tool

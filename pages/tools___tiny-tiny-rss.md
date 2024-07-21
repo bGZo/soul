@@ -1,8 +1,5 @@
----
-created: 20240524
-tags: #rss
-title: tools/tiny-tiny-rss
----
+created:: 20240524
+tags:: #rss
 
 - ## Why
   -

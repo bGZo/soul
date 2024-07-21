@@ -2,7 +2,7 @@ alias:: Word Power Made Easy
 description:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
 tags:: #English #telegram/channel #subscription #DOING
 source:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
-created:: [[20221220]]
+created:: 20221220
 
 - Content
   - 关于词根词缀，简单地说，词尾可以看做是一个特殊的后缀，而词干则是单词去除了词尾后的剩余部分。词根是单词去除了所有词缀（包括前缀和后缀）后的剩余部分。**词干等于或大于词尾**，即有时候词干恰好就是一个词根，或称自由词根。但更多时候词干是词根加上若干词缀。
@@ -31,7 +31,7 @@ created:: [[20221220]]
     collapsed:: true
     - per（加强语气）+suas（劝说）+ion（名词后缀）→说服。
     - title:: `suad-`/`suas-`/`suav-`
-      definition:: {{cloze suavis / sweet;   suadere / to advise; to make something pleasant to / to present in a pleasing manner; hence to recommend / to advise}}
+      definition:: {{cloze suavis / sweet;   suadere / to advise; to make something pleasant to / to present in a pleasing manner; hence to recommend / to advise}}
       tags:: #card, #English #English/word/root
       refs:: [suad-, suas-, suav- - Word Information](https://wordinfo.info/unit/3928)
       description:: "来自拉丁语动词suadere（劝说）及其完成分词suasus，本意是“使变甜，使某事显得令人愉快，说甜言蜜语”，和拉丁词根suav-（甜的，令人愉悦的）、日耳曼单词sweet（甜的）同源"
@@ -104,7 +104,7 @@ created:: [[20221220]]
             (http://wordsmith.org/awad; December 13, 2001)
       - capitulate (verb), capitulates; capitulated; capitulating | 投降
         collapsed:: true
-        - Etymology: from Latin *capitulum*; diminutive of caput, "head"
+        - Etymology: from Latin *capitulum*; diminutive of caput, "head"
         - ![image.png](../assets/pieroots/image_1672653141793_0.png)
           ![image.png](../assets/pieroots/image_1672653146183_0.png)
           ![image.png](../assets/pieroots/image_1672653150429_0.png)
@@ -146,26 +146,26 @@ created:: [[20221220]]
       tags:: #card, #English #English/word/root
       refs:: [gno-, gnos-, gnoto-, -gnostic, -gnosia, -gnomic, -gnomonic, -gnomical, -gnomy, -gnosia, -gnostic, -gnosis - Word Information](https://wordinfo.info/unit/929/s:ignore)
       description::
-      - cognizance (KAHG ni zuhns) (s) (noun), cognizances (pl) | 認知
+      - cognizance (KAHG ni zuhns) (s) (noun), cognizances (pl) | 認知
         collapsed:: true
-        - 1. Conscious knowledge or awareness: The *cognizance* of the importance of the issue at hand was realized by *the board of directors(董事會)*.
-          2. The range of what one can know or understand: Harriet's *cognizance* and perception of the nature of the species of the bird was quite amazing!
-          3. Observance; notice: The administrator will take *cognizance* of Jill's objections at the proper time.
-          4. In law, acknowledgment, recognition, or jurisdiction; the assumption of jurisdiction in a case: The court, being within *cognizance*, was able to act upon the case of murder without needing any further proof.
-          5. In heraldry, a crest or badge worn to distinguish the bearer: The knight was honored with a *cognizance* because of his bravery in battle.
-          6. Etymology: from Anglo-French *conysance*, "recognition"; later, "knowledge" from Old French *conoissance*, "acquaintance, recognition; knowledge, wisdom" (Modern French *connaissance*), from *conoistre*, "to know"; from Latin *cognoscere*, "to get to know, to recognize"; from *com-*, "together" + *gnoscere*, "to know".
+        - 1. Conscious knowledge or awareness: The *cognizance* of the importance of the issue at hand was realized by *the board of directors(董事會)*.
+          2. The range of what one can know or understand: Harriet's *cognizance* and perception of the nature of the species of the bird was quite amazing!
+          3. Observance; notice: The administrator will take *cognizance* of Jill's objections at the proper time.
+          4. In law, acknowledgment, recognition, or jurisdiction; the assumption of jurisdiction in a case: The court, being within *cognizance*, was able to act upon the case of murder without needing any further proof.
+          5. In heraldry, a crest or badge worn to distinguish the bearer: The knight was honored with a *cognizance* because of his bravery in battle.
+          6. Etymology: from Anglo-French *conysance*, "recognition"; later, "knowledge" from Old French *conoissance*, "acquaintance, recognition; knowledge, wisdom" (Modern French *connaissance*), from *conoistre*, "to know"; from Latin *cognoscere*, "to get to know, to recognize"; from *com-*, "together" + *gnoscere*, "to know".
         - ![image.png](../assets/pieroots/image_1672654471138_0.png)
-      - cognizant (KAHG ni zuhnt) (adjective), more cognizant, most cognizant | 認識
+      - cognizant (KAHG ni zuhnt) (adjective), more cognizant, most cognizant | 認識
         collapsed:: true
-        - A reference to a person who knows or is fully aware of something: Hank was *cognizant* of the difficulty in completing the assignment that he gave to his workers.(漢克意識到完成他交給工人的任務的困難。)
-        - James is *cognizant* of his responsibilities as the father of his two boys.
+        - A reference to a person who knows or is fully aware of something: Hank was *cognizant* of the difficulty in completing the assignment that he gave to his workers.(漢克意識到完成他交給工人的任務的困難。)
+        - James is *cognizant* of his responsibilities as the father of his two boys.
         - ![image.png](../assets/pieroots/image_1672654424060_0.png)
           ![image.png](../assets/pieroots/image_1672654429050_0.png)
-      - ignominy (s) (noun), ignominies (pl) | 耻辱
+      - ignominy (s) (noun), ignominies (pl) | 耻辱
         collapsed:: true
-        - 1. A great personal *dishonor or humiliation(耻辱或羞辱)*: Imagine the *ignominy* of going into the classroom in the morning without having pants on!
-          2. A shameful or *disgraceful(不光彩)* action, conduct, or character: After causing the accident, running away, and being caught afterwards, Ted suffered the *ignominy* of having to go to the police station in the police car and having to pay a huge fine.
-          3. Etymology: from Latin *ignominia*; from French *ignominie*; literally, "without a name".
+        - 1. A great personal *dishonor or humiliation(耻辱或羞辱)*: Imagine the *ignominy* of going into the classroom in the morning without having pants on!
+          2. A shameful or *disgraceful(不光彩)* action, conduct, or character: After causing the accident, running away, and being caught afterwards, Ted suffered the *ignominy* of having to go to the police station in the police car and having to pay a huge fine.
+          3. Etymology: from Latin *ignominia*; from French *ignominie*; literally, "without a name".
         - ![image.png](../assets/pieroots/image_1672654753857_0.png)
           ![image.png](../assets/pieroots/image_1672654758167_0.png)
       - prognosis (s) (noun), prognoses (pl) | 預後
@@ -389,7 +389,7 @@ created:: [[20221220]]
   - hatch
     表示孵化的hatch和表示舱门、盖子的hatch虽然拼写一样，实际上词源不同且无关。
     表示舱门的hatch来自原始日耳曼语*hak-（门）。
-    表示“孵化”的hatch来自古英语 *hæccan。
+    表示“孵化”的hatch来自古英语 *hæccan。
     表示“砍”的hatch来自古法语hachier（砍），和名词hatchet（小斧子）同源。
   - matur-
     来自拉丁语形容词maturus，及所衍生的动词maturare。含义是“成熟，成熟的”。后面加一个字母e，构成单词mature，意思和词根一样，做形容词时表示“成熟的”，做动词时表示“成熟”。
@@ -417,7 +417,7 @@ created:: [[20221220]]
     parameter“参数”，para-表示“在旁边、作为对比”。在旁边用来对比的度量指标就是参数。
     sym-表示“一起”，单词symmetry字面意思是“拥有共同的尺寸，拥有共同的比例”，也就是对称，匀称。
   - study
-    词根stud-（努力，勤勉），源自原始印欧语*(s)teu- （推动、驱策、击打）。推动、驱策自己去努力进取。
+    词根stud-（努力，勤勉），源自原始印欧语*(s)teu- （推动、驱策、击打）。推动、驱策自己去努力进取。
     comply
     com（完全）+ply（=ple，装满）→满足（要求）→遵守，顺从。
   - ali/alter
@@ -579,8 +579,8 @@ created:: [[20221220]]
   - hypermature, postmature
     hyper-=over，表示“超越、过度”，所以hypermature的意思就是“过于成熟的”。
     post-表示“在……之后”，所以postmature表示“过了成熟期的”。这两个单词都是后人生造出来的，所以都有其特定的使用场景，不能光看字面意思。
-    比如hypermature常常用来形容cataract，hypermature cataract就是“过熟期白内障”。
-    postmature常用来形容胎儿，postmature fetus就是“过了成熟期还不出生的胎儿”。
+    比如hypermature常常用来形容cataract，hypermature cataract就是“过熟期白内障”。
+    postmature常用来形容胎儿，postmature fetus就是“过了成熟期还不出生的胎儿”。
   - sci-
     “知道”，来自拉丁语动词scire。
     science本意“知识，你所知道的东西”，后来才逐渐用来特指“科学知识”。-ence名词后缀，来自拉丁语名词后缀-entia，其中c原本是t，因为音变才变成了c。当后面再加更多后缀时，就变回了t。

@@ -195,7 +195,7 @@ tags:: #info
                 }
                 ```
               - > In chrome apps, Content Security Policy does not allow inline javascript. So you have to put your javascript in a .js file and include it in your HTML.
-                Further reading: [https://developer.chrome.com/extensions/contentSecurityPolicy](https://developer.chrome.com/extensions/contentSecurityPolicy)
+                Further reading: [https://developer.chrome.com/extensions/contentSecurityPolicy](https://developer.chrome.com/extensions/contentSecurityPolicy)
                 via: [javascript - Refused to execute inline event handler because it violates CSP. (SANDBOX) - Stack Overflow](https://stackoverflow.com/questions/36324333/refused-to-execute-inline-event-handler-because-it-violates-csp-sandbox)
         - Extra
           - [What are Bookmarklets? How to Use JavaScript to Make a Bookmarklet in Chromium and Firefox](https://www.freecodecamp.org/news/what-are-bookmarklets/)

@@ -2,7 +2,8 @@ alias:: 项目清单
 icon:: 📂
 tags:: #gtd, #project
 
-- #+BEGIN_QUERY
+- collapsed:: true
+  #+BEGIN_QUERY
   {:title [:h3 "Tasks related to project"]
    :query [:find (pull ?b [*])
      :in $ ?current-page

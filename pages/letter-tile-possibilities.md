@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 tags:: #leetcode/medium #tree #hashtable #backtracking
-created:: [[20230519]]
+created:: 20230519
 - ## Content
   - <iframe src="https://leetcode.cn/problems/letter-tile-possibilities" style="height: 400px"></iframe>
     [LeetCode](https://leetcode.cn/problems/letter-tile-possibilities/)

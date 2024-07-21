@@ -2,11 +2,11 @@ collapsed:: true
 alias:: deep-linking/mobile
 description:: link to a specific location within a mobile app rather than simply launching the app.
 wikipedia:: [Mobile deep linking - Wikipedia](https://en.wikipedia.org/wiki/Mobile_deep_linking); [List of URI schemes - Wikipedia](https://en.wikipedia.org/wiki/List_of_URI_schemes)
-created:: [[20221128]]
+created:: 20221128
 
   - Implement: The format of the URI used to trigger or deep link an app is often different depending on the mobile operating system.
     - [[android]] devices work through **intents**
-      source:: [Intents and Intent Filters  |  Android Developers](https://developer.android.com/guide/components/intents-filters)
+      source:: [Intents and Intent Filters  |  Android Developers](https://developer.android.com/guide/components/intents-filters)
     - BlackBerry 10 devices work through BB10's invocation framework
     - **Firefox OS** devices work through **Web Activities**
     - [[ios]] devices work through the **openUrl application** method

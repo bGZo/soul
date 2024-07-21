@@ -1,5 +1,5 @@
 alias:: commands/wget
-created:: [[20230703]]
+created:: 20230703
 - ## Why
 - ## How
 - ## What
@@ -14,5 +14,5 @@ created:: [[20230703]]
         - `--miror`开户镜像下载。
         - `-p`下载所有为了html页面显示正常的文件。
         - `--convert-links`下载后，转换成本地的链接。
-        - `-P ./LOCAL`保存所有文件和目录到本地指定目录。
+        - `-P ./LOCAL`保存所有文件和目录到本地指定目录。
 -

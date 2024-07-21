@@ -20,7 +20,7 @@
         - [google chrome extension - Getting "net::ERR_BLOCKED_BY_CLIENT" error on some AJAX calls - Stack Overflow](https://stackoverflow.com/questions/23341765/getting-neterr-blocked-by-client-error-on-some-ajax-calls)
       - `Access to fetch at 'https://pv.sohu.com/cityjson?ie=utf-8' from origin 'https://bgzo.cc' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.`
         - [jquery - Why does my JavaScript code receive a "No 'Access-Control-Allow-Origin' header is present on the requested resource" error, while Postman does not? - Stack Overflow](https://stackoverflow.com/questions/20035101/why-does-my-javascript-code-receive-a-no-access-control-allow-origin-header-i)
-          - When you are using Postman they are not restricted by this policy. Quoted from *[Cross-Origin XMLHttpRequest](https://developer.chrome.com/docs/extensions/mv2/xhr/)*:
+          - When you are using Postman they are not restricted by this policy. Quoted from *[Cross-Origin XMLHttpRequest](https://developer.chrome.com/docs/extensions/mv2/xhr/)*:
             - > Regular web pages can use the XMLHttpRequest object to send and receive data from remote servers, but they're limited by the same origin policy. Extensions aren't so limited. An extension can talk to remote servers outside of its origin, as long as it first requests cross-origin permissions.
 -
 -

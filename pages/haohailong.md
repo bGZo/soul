@@ -1,4 +1,4 @@
-created:: [[20230215]]
+created:: 20230215
 description:: [郝海龍](https://haohailong.net/)
 
 - ## Contents
@@ -696,8 +696,8 @@ description:: [郝海龍](https://haohailong.net/)
   - [「在线教育」和「信息焦虑」 最近在两档播客节目中做客](https://haohailong.net/2020/podcasts-on-online-education-and-information-anxiety)
     collapsed:: true
     - 最近在两档播客节目中做客，主题分别是「在线教育」和「信息焦虑」，欢迎各位订阅收听：
-    - Byte.Coffee [Episode 54: 与郝海龙聊聊线上教学](https://byte.coffee/55)（主播：MilkShake羊）
-    - 海螺电台 [017. 我的 RSS 订阅就像是我的个人图书馆](https://thespiral.fm/episodes/17)（主播：Shawn，另一位嘉宾：MilkShake羊）
+    - Byte.Coffee [Episode 54: 与郝海龙聊聊线上教学](https://byte.coffee/55)（主播：MilkShake羊）
+    - 海螺电台 [017. 我的 RSS 订阅就像是我的个人图书馆](https://thespiral.fm/episodes/17)（主播：Shawn，另一位嘉宾：MilkShake羊）
     - [All rights reserved](https://wikipedia.org/wiki/Copyright)
     - Except where otherwise noted, content on this page is copyrighted.
   - [我的英语学习之路 《英语自学手册》代序](https://haohailong.net/2020/my-path-of-learning-english)

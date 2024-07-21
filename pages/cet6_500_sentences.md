@@ -29,7 +29,7 @@ isbn:: 9787560543574
         - worship God 崇拜上帝 worship the movie star 崇拜影星表示“爱慕”。如：He has worshipped the girl for many years. 他爱慕那个女孩很多年了。worship还可以作名词，表示“崇拜，崇敬”，常构成的搭配有：money worship 拜金主义hero worship 英雄崇拜idol worship 偶像崇拜 freedom of worship 信仰自由
     - 333.The ==newly== announced plan is intended to reduce four major sources of pollutants, including exhaust emissions from over five million motor vehicles, coal-burning in surrounding areas, sandstorms from the north and local construction dust.
       collapsed:: true
-      - > **Newly** is used before a [past](https://www.collinsdictionary.com/dictionary/english/past) [participle](https://www.collinsdictionary.com/dictionary/english/participle) or an [adjective](https://www.collinsdictionary.com/dictionary/english/adjective) to indicate that a particular action is very [recent](https://www.collinsdictionary.com/dictionary/english/recent), or that a particular state of [affairs](https://www.collinsdictionary.com/dictionary/english/affair) has very recently [begun](https://www.collinsdictionary.com/dictionary/english/begin) to [exist](https://www.collinsdictionary.com/dictionary/english/exist).
+      - > **Newly** is used before a [past](https://www.collinsdictionary.com/dictionary/english/past) [participle](https://www.collinsdictionary.com/dictionary/english/participle) or an [adjective](https://www.collinsdictionary.com/dictionary/english/adjective) to indicate that a particular action is very [recent](https://www.collinsdictionary.com/dictionary/english/recent), or that a particular state of [affairs](https://www.collinsdictionary.com/dictionary/english/affair) has very recently [begun](https://www.collinsdictionary.com/dictionary/english/begin) to [exist](https://www.collinsdictionary.com/dictionary/english/exist).
         https://www.collinsdictionary.com/dictionary/english/newly
       - 环保类 主题
         - landfill 垃圾填埋场
@@ -40,7 +40,7 @@ isbn:: 9787560543574
     - 334.In addition, Beijing will impose more severe punishments on those who violate emission-reduction regulations.
       collapsed:: true
       - impose on
-        - > **to **[ask](https://dictionary.cambridge.org/dictionary/learner-english/ask)** or **[expect](https://dictionary.cambridge.org/dictionary/learner-english/expect)** someone to do something that may give them **[extra](https://dictionary.cambridge.org/dictionary/learner-english/extra)** **[work](https://dictionary.cambridge.org/dictionary/learner-english/work)** or **[trouble](https://dictionary.cambridge.org/dictionary/learner-english/trouble)**:**
+        - > **to **[ask](https://dictionary.cambridge.org/dictionary/learner-english/ask)** or **[expect](https://dictionary.cambridge.org/dictionary/learner-english/expect)** someone to do something that may give them **[extra](https://dictionary.cambridge.org/dictionary/learner-english/extra)** **[work](https://dictionary.cambridge.org/dictionary/learner-english/work)** or **[trouble](https://dictionary.cambridge.org/dictionary/learner-english/trouble)**:**
         - 把……强加于；施加影响于 (主动/被动语态)
           - A majority of teachers would like to impose their ideas on students. 大多数老师喜欢将自己的想法强加于学生。
           - Heavy punishment was imposed on those who violate regulations. 违反规则的人被重罚了。
@@ -129,7 +129,7 @@ isbn:: 9787560543574
         collapsed:: true
         - It is impossible to criticize too severely his conduct. 对于他的这种行为，批评得再严厉也不过分。
         - It is impossible to over-praise his work. 我们怎样称赞他的工作都不算过分。
-      - you couldn't agree more/less
+      - you couldn't agree more/less
     - 344.Most educators advise that kids should not be addicted to computer games.
       - 在一坚持（insist），二命令（order、command），三建议（advise、suggest、propose），四要求（demand、require、request、desire）等这些词后的宾语从句中，无论主句谓语动词为何种时态，从句的谓语动词都用“should + 动词原形”或者只用动词原形表示虚拟语气。be addicted to...意为“沉溺于……，沉迷于……”。
       - 另外表示“沉溺于……，沉迷于……”的其他表达还有

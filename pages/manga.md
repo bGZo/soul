@@ -1,6 +1,6 @@
 icon:: 📔
 alias:: comic, 漫画
-tags:: #book #Hobby #ACGN
+tags:: #book #hobby #ACGN
 template:: manga
 template-including-parent:: false
 
@@ -19,7 +19,7 @@ template-including-parent:: false
     description::
 - ## [[tool]]
   - [tachiyomiorg/tachiyomi: Free and open source manga reader for Android.](https://github.com/tachiyomiorg/tachiyomi) #android
-  - [App Store 上的“可达漫画 - 本地漫画阅读器”](https://apps.apple.com/cn/app/%E5%8F%AF%E8%BE%BE%E6%BC%AB%E7%94%BB-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id1545372338) #ios
+  - [App Store 上的“可达漫画 - 本地漫画阅读器”](https://apps.apple.com/cn/app/%E5%8F%AF%E8%BE%BE%E6%BC%AB%E7%94%BB-%E6%9C%AC%E5%9C%B0%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E5%99%A8/id1545372338) #ios
     - [可达漫画 - 献给喜欢看漫画的你 · Issue #5 · xiaogdgenuine/kedamanga-web](https://github.com/xiaogdgenuine/kedamanga-web/issues/5)
     - [可达漫画这 app 的画质增强真的太厉害了 - V2EX](https://v2ex.com/t/817532)
 - ## [[issue]]

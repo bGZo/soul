@@ -4,15 +4,15 @@ tags:: TODO
 - ![image.png](https://cdn.nlark.com/yuque/0/2021/png/1114914/1609986890233-b44d3803-7d5d-4f8b-bfde-2400729f0a74.png#align=left&display=inline&height=265&margin=%5Bobject%20Object%5D&name=image.png&originHeight=529&originWidth=897&size=59930&status=done&style=none&width=448.5)
 # 栈与队列
 ## 栈
-### ADT栈 
-栈是一种操作受限的线性表，它的插入和删除操作只允许在表的同一端进行。  
-允许插入和删除    的一端称为栈顶 (top)，另一端称为栈底(bottom)。 
+### ADT栈 
+栈是一种操作受限的线性表，它的插入和删除操作只允许在表的同一端进行。  
+允许插入和删除    的一端称为栈顶 (top)，另一端称为栈底(bottom)。 
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600946665186-527a5f75-9035-4ca6-bc3c-06e027427933.png#align=left&display=inline&height=170&margin=%5Bobject%20Object%5D&name=image.png&originHeight=339&originWidth=385&size=18804&status=done&style=none&width=192.5)
-栈结构的特点：先进后出(First In Last Out, FILO)或者后进先出(Last In First Out, LIFO)。 
+栈结构的特点：先进后出(First In Last Out, FILO)或者后进先出(Last In First Out, LIFO)。 
 栈结构的特点：先进后出(First In Last Out, FILO)或者后进先出(Last In First Out, LIFO)。
 - 假设栈S=(a0, a1, …, an-1)，a0是栈底元素，an-1是栈顶元素。
 - 入栈（插入操作）的顺序为a0, a1, …, an-1
-- 出栈（删除操作）的顺序为an-1, an-2, …, a0 
+- 出栈（删除操作）的顺序为an-1, an-2, …, a0 
   ```cpp
   ADT Stack {
      Data
@@ -43,13 +43,13 @@ tags:: TODO
   - 一维数组，栈有大小限制。
 - 链式存储
   - 链表实现，栈无大小限制。
-#### 栈的顺序（数组）存储表示 — 顺序栈 
+#### 栈的顺序（数组）存储表示 — 顺序栈 
 定义顺序栈时，应包括以下内容：
 - 顺序表（数组）：StackList
 - 栈顶下标：top
   - 当栈为空时，top=-1；
   - 每当一个元素入栈，top的值增1；
-  - 每当一个元素出栈，top的值减1。 
+  - 每当一个元素出栈，top的值减1。 
     ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600946846205-4764f62b-b257-4024-8652-12d7858220d5.png#align=left&display=inline&height=87&margin=%5Bobject%20Object%5D&name=image.png&originHeight=173&originWidth=918&size=18029&status=done&style=none&width=459)
     ```cpp
     const int MaxStackSize=50; //栈最大容量
@@ -111,12 +111,12 @@ tags:: TODO
     算法分析：
 - 以上有关栈的各种操作与栈中元素个数无关。 时间复杂度均为**O(1)**。
 - 定义顺序栈时，应该知道所需的最大栈长度。 如果事先无法预知栈的最大长度，可以采用**链式栈**。
-#### 栈的链式存储表示 — 链式栈 
+#### 栈的链式存储表示 — 链式栈 
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600947057982-d080100c-8d79-4b6b-a24f-48903dd32cb3.png#align=left&display=inline&height=36&margin=%5Bobject%20Object%5D&name=image.png&originHeight=72&originWidth=779&size=4163&status=done&style=none&width=389.5)
 - 链式栈空间可扩充，无栈满(溢出)问题；
 - 插入与删除仅在栈顶处执行；
 - 链式栈的栈顶在**链表头**；
-- 对于**带头结点**的链式栈，栈空的条件是**top->next==NULL**。 
+- 对于**带头结点**的链式栈，栈空的条件是**top->next==NULL**。 
   ```cpp
   class StackNode {
        DataType data;           //结点数据	
@@ -168,11 +168,11 @@ tags:: TODO
     }
   } //GetTop
   ```
-## 队列 ( Queue ) 
-一种操作受限的线性表，只允许在一端删除，在另一端插入。 允许删除的一端叫做队头(front)，允许插入的一端叫做队尾(rear)。 
+## 队列 ( Queue ) 
+一种操作受限的线性表，只允许在一端删除，在另一端插入。 允许删除的一端叫做队头(front)，允许插入的一端叫做队尾(rear)。 
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600947211887-7860137c-364b-4d76-98df-13439a7b80b3.png#align=left&display=inline&height=87&margin=%5Bobject%20Object%5D&name=image.png&originHeight=173&originWidth=605&size=8986&status=done&style=none&width=302.5)
 **特性** 先进先出(FIFO, First In First Out)
-### ADT 队列 
+### ADT 队列 
 ```cpp
 ADT Queue {
   Data
@@ -201,18 +201,18 @@ Leave
     Output: 返回队头元素
 } //Queue
 ```
-### 队列的实现 
+### 队列的实现 
 队列的实现方式：（类似于线性表、栈）
 - 顺序存储
   - 一维数组，队列长度有限制。
 - 链式存储
-  - 链表实现，队列长度无限制。 
+  - 链表实现，队列长度无限制。 
     在队列的顺序存储表示中：
 - 用一维数组来存放数据元素：
   - 一维数组：QueueList[MaxQSize]
 - 设置两个变量分别指向队头和队尾的位置：
   - 队头位置：front
-  - 队尾位置：rear 
+  - 队尾位置：rear 
     顺序队列的定义如下：
     ```cpp
     const int MaxQSize=50; //队列中数据元素的上限
@@ -229,28 +229,28 @@ Leave
         bool IsFull( );  //判断队列是否已满
     }; //SeqQueue
     ```
-    **入队原则** : 入队时，先将新元素放入 rear 指示的位置，再将尾指针增1.   rear = rear + 1。rear始终指示队尾元素的下一个位置。 
-    **出队原则** :出队时，先将下标为 front 的元素取出，再将头指针增一 front = front + 1。front始终指示队头元素的位置。 
+    **入队原则** : 入队时，先将新元素放入 rear 指示的位置，再将尾指针增1.   rear = rear + 1。rear始终指示队尾元素的下一个位置。 
+    **出队原则** :出队时，先将下标为 front 的元素取出，再将头指针增一 front = front + 1。front始终指示队头元素的位置。 
     **空队列和满队列的条件**
 - 空队列的条件：front == rear == 0;
-- 满队列的条件：rear == MaxQSize; 
+- 满队列的条件：rear == MaxQSize; 
   ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600947462220-4c59618d-0eb6-4b41-ad7f-afa6f3236701.png#align=left&display=inline&height=251&margin=%5Bobject%20Object%5D&name=image.png&originHeight=501&originWidth=938&size=51151&status=done&style=none&width=469)
   ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600947496249-f09e8424-6e8f-49ae-8187-cce91677bd1b.png#align=left&display=inline&height=270&margin=%5Bobject%20Object%5D&name=image.png&originHeight=540&originWidth=945&size=71247&status=done&style=none&width=472.5)
-  “假溢出”的解决方法 
+  “假溢出”的解决方法 
   1. 固定队头
    1. 出队方式发生改变：一个数据出队后，队列中其余数据均向前移动（包括rear）。
    1. 入队方式不变。
   2. 固定队尾
    1. 入队方式发生改变：一个数据入队时，队列中其余数据先向前移动（包括front），然后该数据入队尾。
    1. 出队方式不变。
-  上述两种方法的缺点：在入队和出队时需要移动队列中的所有数据元素。 
+  上述两种方法的缺点：在入队和出队时需要移动队列中的所有数据元素。 
   3. 循环队列
    1. 基本思想：为了不移动数据，将队列设想成环形（首尾相接）。
-   1. 让QueueList[0]接在QueueList[MaxQSize-1]之后，若rear==MaxQSize，则令rear=0。 
+   1. 让QueueList[0]接在QueueList[MaxQSize-1]之后，若rear==MaxQSize，则令rear=0。 
   ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600947598665-a0e39ec6-a544-46e5-bb68-427e29fe1e8b.png#align=left&display=inline&height=135&margin=%5Bobject%20Object%5D&name=image.png&originHeight=269&originWidth=394&size=21462&status=done&style=none&width=197)
    1. 初始队列：front = rear = 0。
    1. 入队方式变为：当一个数据入队时，仍先将数据存入队尾rear指示的位置，然后rear执行如下操作：rear = (rear + 1) % MaxQSize。
-   1. 出队方式变为：当一个数据出队时，仍先将队头front指示的数据取出，然后front执行如下操作：front = (front +1) % MaxQSize。 
+   1. 出队方式变为：当一个数据出队时，仍先将队头front指示的数据取出，然后front执行如下操作：front = (front +1) % MaxQSize。 
   ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600947663222-48e9df6c-cba4-466f-9d16-e2764a218ee3.png#align=left&display=inline&height=281&margin=%5Bobject%20Object%5D&name=image.png&originHeight=561&originWidth=950&size=88915&status=done&style=none&width=475)
   约定
   1. front==rear时，表示队空
@@ -258,7 +258,7 @@ Leave
   说明：这种处理方法使得队列中存在一个空单元。
 - 队列初始化：front = rear = 0;
 - 队空条件：front == rear;
-- 队满条件：(rear + 1) % MaxQSize == front; 
+- 队满条件：(rear + 1) % MaxQSize == front; 
   ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600947757894-a97dfc4e-ab5c-4a52-8ba2-974a2fda534d.png#align=left&display=inline&height=176&margin=%5Bobject%20Object%5D&name=image.png&originHeight=351&originWidth=928&size=123435&status=done&style=none&width=464)
   ```cpp
   SeqQueue::SeqQueue( ){//构造函数，初始化一个空队列
@@ -300,11 +300,11 @@ Leave
   - 它们的时间复杂度均为O(1)。
 - 定义顺序队列时，应该知道所需的最大队列长度。
   - 如果事先无法预知队列的最大长度，可以采用链式队列。
-#### 队列的链式存储表示 — 链式队列 
+#### 队列的链式存储表示 — 链式队列 
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600947884020-87fc1239-8f8b-49a7-935b-2c0afb5e9101.png#align=left&display=inline&height=56&margin=%5Bobject%20Object%5D&name=image.png&originHeight=112&originWidth=769&size=9686&status=done&style=none&width=384.5)
 - 队头在链表头，队尾在链表尾。
 - 链式队列在入队时无队满问题，但出队有队空问题。
-- 对于带有头结点的链式队列的队空条件是 front->next == NULL 或者 front == rear。 
+- 对于带有头结点的链式队列的队空条件是 front->next == NULL 或者 front == rear。 
   ```cpp
   class QNode {  //链队列的结点类
     DataType  data;
@@ -364,11 +364,11 @@ Leave
 ## 栈与队列的应用
 ### 栈的应用
 #### 数制转换问题
-将十进制数N转换为r进制的数，其转换方法利用辗转相除法：以N=3467，r=8为例转换方法如下： 
-得到的8进制数是按低位到高位的顺序产生的，而通常的输出是从高位到低位的，恰好与计算过程相反，因此转换过程中每得到一位8进制数可进栈保存，转换完毕后依次出栈即为转换结果。 
+将十进制数N转换为r进制的数，其转换方法利用辗转相除法：以N=3467，r=8为例转换方法如下： 
+得到的8进制数是按低位到高位的顺序产生的，而通常的输出是从高位到低位的，恰好与计算过程相反，因此转换过程中每得到一位8进制数可进栈保存，转换完毕后依次出栈即为转换结果。 
 当N>0时重复(1)和(2)
 1. 若N≠0，则将N % r 压入栈s中，执行(2)；若N=0，则将栈s中的内容依次出栈，算法结束。
-1. 用N / r的结果代替 N，返回(1)。 
+1. 用N / r的结果代替 N，返回(1)。 
 算法描述如下：
 ```cpp
 void conversion(int N，int r) {
@@ -386,17 +386,17 @@ void conversion(int N，int r) {
 #### 表达式求值—中缀算术表达式
 - 一个表达式由操作数(亦称运算对象)、操作符(亦称运算符)和分界符组成。
 - 运算符从操作数的个数上分为单目、双目和三目；从类型上分为算术运算符、关系运算符、逻辑运算符等。
-- 在本应用中，只讨论由双目算术运算符构成的算术表达式的求值问题。 
+- 在本应用中，只讨论由双目算术运算符构成的算术表达式的求值问题。 
   在计算机中，算术表达式有三种表示形式：
   1. 中缀(infix)表示: <操作数> <操作符> <操作数>，如 A+B；
-  1. 前缀(prefix)表示     <操作符> <操作数> <操作数>，如 +AB；
-  1. 后缀(postfix)表示       <操作数> <操作数> <操作符>，如 AB+； 
-  中缀表达式    a + b * ( c - d ) - e / f
-  后缀表达式    a b c d - * + e f / -
+  1. 前缀(prefix)表示     <操作符> <操作数> <操作数>，如 +AB；
+  1. 后缀(postfix)表示       <操作数> <操作数> <操作符>，如 AB+； 
+  中缀表达式    a + b * ( c - d ) - e / f
+  后缀表达式    a b c d - * + e f / -
 - 中缀算术表达式：每个双目算术运算符在两个操作数中间，假设此处讨论的双目算术运算符仅包括：+、-、*、/、^(乘方)和括号( )。
 - 表达式中相邻两个运算符的计算次序为： 优先级高的先计算；
-  - 优先级相同的自左向右计算； 当使用括号时从最内层括号开始计算; 乘方连续出现时先算最右面的。 
-    运算符间的优先关系(1和2相继出现的运算符) 
+  - 优先级相同的自左向右计算； 当使用括号时从最内层括号开始计算; 乘方连续出现时先算最右面的。 
+    运算符间的优先关系(1和2相继出现的运算符) 
     ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600948756876-412527c0-cdc0-4ba1-9ba9-1363805782d3.png#align=left&display=inline&height=245&margin=%5Bobject%20Object%5D&name=image.png&originHeight=490&originWidth=688&size=25608&status=done&style=none&width=344)
     算法思想：
     设定两个栈：操作数栈 OPND，操作符栈 OPTR；
@@ -404,9 +404,9 @@ void conversion(int N，int r) {
 - 自左向右依次读入表达式的每个字符：是操作数则入OPND栈，是操作符则要进行如下判断：
   - 如果OPTR的栈顶元素(1)＜读入的操作符(2) ，则将操作符(2)入OPTR栈
   - 如果OPTR的栈顶元素(1)==读入的操作符(2) 且1不为'#'，则从OPTR栈中弹出栈顶元素（括号运算符）；否则，算法结束（ 1= 2='#'）
-  - 如果OPTR的栈顶元素(1)＞读入的操作符(2) ，则操作数栈 OPND弹出两个操作数，OPTR栈弹出一个操作符进行计算，并将结果压入 OPND栈。此时，不读取表达式，而是直接判断（1）~（3）。 
-    计算中缀表达式：3*2^(4+2*1)-5#的值 
-    | **读入的字符** | **  操作数栈s1** | ** 运算符栈s2** | **           说明** |
+  - 如果OPTR的栈顶元素(1)＞读入的操作符(2) ，则操作数栈 OPND弹出两个操作数，OPTR栈弹出一个操作符进行计算，并将结果压入 OPND栈。此时，不读取表达式，而是直接判断（1）~（3）。 
+    计算中缀表达式：3*2^(4+2*1)-5#的值 
+    | **读入的字符** | **  操作数栈s1** | ** 运算符栈s2** | **           说明** |
     | --- | --- | --- | --- |
     | **3** | **3** | **#** | **3入栈s1** |
     | ***** | **3** | **#*** | ***入栈s2** |
@@ -448,13 +448,13 @@ void conversion(int N，int r) {
 - 好处：后缀表达式无需括号，并且表达式的计算只需按运算符出现的顺序（从左至右）依次进行，不用考虑运算符的优先级。
 - 如何得到后缀表达式？（这个问题留给大家去解决。）
 - 在后缀表达式中，变量和数字仍然按其出现的顺序依次输入，而操作符（运算符）是在其操作数都已输入后再输入。
-- 例如：表达式“a+b*c”的后缀形式“abc*+” 
+- 例如：表达式“a+b*c”的后缀形式“abc*+” 
   ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600949099317-76f0b10e-81be-41cc-88a8-f3cd95326372.png#align=left&display=inline&height=95&margin=%5Bobject%20Object%5D&name=image.png&originHeight=190&originWidth=643&size=15268&status=done&style=none&width=321.5)
   只需设定一个栈结构，并顺序扫描表达式的每一项，根据它的类型做如下相应操作：
 - 若该项是操作数，则将其入栈；
 - 若该项是操作符<op>，则连续从栈中退出两个操作数Y和X，形成运算指令X<op>Y，并将计算结果重新入栈。
 - 当表达式的所有项都扫描并处理完后，栈顶存放的就是最后的计算结果。
-- 例： ABCD- * + EF ^G / - 
+- 例： ABCD- * + EF ^G / - 
   ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600949159393-c82cdf2a-841e-4db5-b1e9-7dde8787324d.png#align=left&display=inline&height=314&margin=%5Bobject%20Object%5D&name=image.png&originHeight=628&originWidth=802&size=91911&status=done&style=none&width=401)
   ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600949181171-1631a5a7-f910-4713-b711-ef7005939515.png#align=left&display=inline&height=265&margin=%5Bobject%20Object%5D&name=image.png&originHeight=529&originWidth=802&size=82571&status=done&style=none&width=401)
   ```cpp
@@ -476,8 +476,8 @@ void conversion(int N，int r) {
 ### 队列的应用
 #### 舞伴问题
 舞会在星期五晚举行。舞会开始之前，参加舞会的男士和女士各自排队进入舞厅。舞会开始，从两队中按顺序组成舞伴开始跳舞。一曲结束后，男士和女士分别再进入各自队列。如果男士和女士人数不等，则多出的人只能等到下一舞曲开始。
-要求用算法来模拟一支舞曲开始后男士和女士组成舞伴的情况，以及多少人在等待的情况。 
-用两个队列来表示男士和女士等待队列，舞会开始前时，按其性别加入不同队列，舞曲开始后，顺序地同时删除两个队列的元素来组成舞伴，直到某一队列为空。 
+要求用算法来模拟一支舞曲开始后男士和女士组成舞伴的情况，以及多少人在等待的情况。 
+用两个队列来表示男士和女士等待队列，舞会开始前时，按其性别加入不同队列，舞曲开始后，顺序地同时删除两个队列的元素来组成舞伴，直到某一队列为空。 
 ```cpp
 class  Person{               //Person为跳舞人的类
     char *name;
@@ -509,7 +509,7 @@ while(strcmp(p.name,"#")<>0) {
   }
 } //Dance_partner
 ```
-P76: 2 P77: 4，5-(1) 上机实验：实验2、实验3 
+P76: 2 P77: 4，5-(1) 上机实验：实验2、实验3 
 ```cpp
 练习题1
 void  main( )  {
@@ -532,8 +532,8 @@ void  main( )  {
 1. 具有唯一的第一个数据元素(无前驱)；
 1. 具有唯一的最后一个数据元素(无后继) ；
 1. 其他数据元素都有且仅有一个前驱和一个后继。
-## 线性表 (Linear List) 
-由n(>=0)个性质相同的数据元素组成的有限序列，记作：L=（a1, a2, …, an）其中：ai是表中的第i个数据元素，n是表长度。 
+## 线性表 (Linear List) 
+由n(>=0)个性质相同的数据元素组成的有限序列，记作：L=（a1, a2, …, an）其中：ai是表中的第i个数据元素，n是表长度。 
 注意： 数据元素的个数n被定义为表的长度。当n=0时，称为空表。 这里的数据元素ai(1in)只是一个抽象的符号，其具体含义在不同情况下可以不同。
 ### 特点（非空线性表）：
 1. 有且仅有一个开始结点a1，它没有(直接)前趋，但仅有一个(直接)后继a2；
@@ -588,7 +588,7 @@ LOC(ai)=LOC(ai-1)+m。
 LOC(ai) = LOC(a1) + (i -1)×m
 #### 存储结构与逻辑结构的关系
 一维数组在内存中都对应着一组连续的存储单元，因此常用一维数组来表示线性表的顺序存储结构。
-#### 顺序表(SeqList)实现 
+#### 顺序表(SeqList)实现 
 ```cpp
 const  int  MaxListSize=100;
 class SeqList{
@@ -621,10 +621,10 @@ else {
 } //Insert
 ```
 插入算法的时间复杂度: (n-1)/2
-该算法的时间主要消耗在移动元素上。 
-平均情况：设插入每个位置的概率相等，则数据元素的平均移动次数： 
+该算法的时间主要消耗在移动元素上。 
+平均情况：设插入每个位置的概率相等，则数据元素的平均移动次数： 
 插入算法的时间复杂度为：O(n)
-2. 删除算法 
+2. 删除算法 
 ```cpp
 DataType Delete( int i ){
   if (i<0 || i>= size)
@@ -638,8 +638,8 @@ DataType Delete( int i ){
    } 	
 } //Delete
 ```
-删除算法的时间复杂度:  (n-1)/2
-平均情况：设删除每个数据元素的概率相等，则移动数据元素的平均次数为： 
+删除算法的时间复杂度:  (n-1)/2
+平均情况：设删除每个数据元素的概率相等，则移动数据元素的平均次数为： 
 删除算法的时间复杂度为：O(n)
 3. 查找(定位)算法
 ```cpp
@@ -653,17 +653,17 @@ int Locate(DataType e){
       return i; //找到此元素，返回其下标
 } //Locate
 ```
-基本操作:比较 
-查找不成功: 比较 n 次 
-最好情况: 比较1次, O(1) 
-最坏情况:比较n次, O(n) 
+基本操作:比较 
+查找不成功: 比较 n 次 
+最好情况: 比较1次, O(1) 
+最坏情况:比较n次, O(n) 
 成功时:
-平均情况:设查找每个数据元素的概率相等，则 
+平均情况:设查找每个数据元素的概率相等，则 
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600145930893-3d7e4f27-45ac-4ff5-a345-1de6291a364f.png#align=left&display=inline&height=61&margin=%5Bobject%20Object%5D&name=image.png&originHeight=122&originWidth=393&size=6338&status=done&style=none&width=196.5)
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1600145935424-15f184fd-339a-49d1-baf6-f9135d7e3a07.png#align=left&display=inline&height=120&margin=%5Bobject%20Object%5D&name=image.png&originHeight=239&originWidth=700&size=16154&status=done&style=none&width=350)
 时间复杂度：O(n)
 #### 优点
-1. 无需为表示数据元素之间的逻辑关系而增加额       外存储空间。
+1. 无需为表示数据元素之间的逻辑关系而增加额       外存储空间。
 1. 可方便地随机存取表中任一元素。 顺序表的缺点：
 #### 缺点
 1. 预先为数据元素分配空间。
@@ -673,10 +673,10 @@ int Locate(DataType e){
 - 数据元素之间可以连续存储，也可以不连续存储;
 - 数据元素的逻辑顺序与物理顺序可以不一致;
 - 特点：长度可扩充。
-#### 单链表 
+#### 单链表 
 1. 每个结点只有一个指针域且最后一个结点的指针域为空。
-1. 整个单链表可由头指针唯一确定。 
-1. 为了操作（插入和删除）方便，增设一个头结点。 
+1. 整个单链表可由头指针唯一确定。 
+1. 为了操作（插入和删除）方便，增设一个头结点。 
 注意区分: 头结点 && 首结点 && 头指针
 ```cpp
 class Node {  //结点类
@@ -715,7 +715,7 @@ DataType LinkList::Get(int i){ //取元素
  }
 } //Get
 ```
-#### 插入结点 
+#### 插入结点 
 1. 在链表最前端插入
 ```cpp
 newnode->next = head->next;
@@ -747,7 +747,7 @@ p->next=newnode;  size++;
 ```
 #### 删除结点
 删除操作是将表的第i个结点删去。 删除过程：1）定位；2）删除。
- p→next = q→next;  delete q; 
+ p→next = q→next;  delete q; 
 ```cpp
 DataType LinkList::Delete(int i)
 { //删除第i个结点
@@ -767,7 +767,7 @@ size--;    return e;
 } //Delete
 ```
 #### 建立单链表
-建立单链表的常用方法有如下两种： 头插法建表     该方法从一个空表开始，重复读入数据，生成新结点，将读入数据存放到新结点的数据域中，然后将新结点插入到当前链表的表头上，直到读入结束标志为止。 
+建立单链表的常用方法有如下两种： 头插法建表     该方法从一个空表开始，重复读入数据，生成新结点，将读入数据存放到新结点的数据域中，然后将新结点插入到当前链表的表头上，直到读入结束标志为止。 
 ```cpp
 void LinkList::Create( DataType  endTag){ //头插法建表   DataType  value;    head=new Node( );   //创建头结点
   head->next=NULL;
@@ -781,13 +781,13 @@ void LinkList::Create( DataType  endTag){ //头插法建表   DataType  value;  
       cin>>value;      }//while
  }
 ```
-##### 尾插法建表    
-头插法建立链表虽然算法简单，但生成的链表中结点的次序和输入的顺序相反。若希望二者次序一致，可采用尾插法建表。 该方法是将新结点插入到当前链表的表尾上，为此必须增加一个尾指针r，使其始终指向当前链表的尾结点。
+##### 尾插法建表    
+头插法建立链表虽然算法简单，但生成的链表中结点的次序和输入的顺序相反。若希望二者次序一致，可采用尾插法建表。 该方法是将新结点插入到当前链表的表尾上，为此必须增加一个尾指针r，使其始终指向当前链表的尾结点。
 1. 创建头指针head，使尾指针r=head；
 1. 新建结点p，如果head-> next = NULL, 则head-> next =p;r=p;
 1. 否则，r-> next =p; r=p;重复（2）、（3）实现尾插法；
 1. 如果r!= NULL; 则r-> next =NULL;
-##### 尾插法建立单链表 
+##### 尾插法建立单链表 
 ```cpp
 void LinkList:: Create(DataType  endTag) {
     Node  *p, *r;      head=new Node( );
@@ -803,23 +803,23 @@ void LinkList:: Create(DataType  endTag) {
        r-> next =NULL;
 } //Create
 ```
-#### (单)循环链表 
-循环链表基本操作的实现 基本操作与单链表类似  考虑在循环链表中如何判断遍历链表的终止条件？        
-p->next==NULL? 
+#### (单)循环链表 
+循环链表基本操作的实现 基本操作与单链表类似  考虑在循环链表中如何判断遍历链表的终止条件？        
+p->next==NULL? 
 应该是 p->next==head
 #### 双向链表
-双向链表：在单链表的每个结点里再增加一个指向其直接前趋结点的指针域，这样形成的链表中有两个不同方向的链，故称为双向链表。 
+双向链表：在单链表的每个结点里再增加一个指向其直接前趋结点的指针域，这样形成的链表中有两个不同方向的链，故称为双向链表。 
 双向链表的结点结构：
-##### 双向循环链表 
-双向循环链表：首尾相连的双向链表。 
+##### 双向循环链表 
+双向循环链表：首尾相连的双向链表。 
 双向循环链表的结点结构与双向链表一致：
-##### 带头结点的双向循环链表    
+##### 带头结点的双向循环链表    
 结点指向p
 ```cpp
 p→prior→next
 p→next →prior
 ```
-##### 带头结点的双向循环链表类的定义 
+##### 带头结点的双向循环链表类的定义 
 ```cpp
 class DNode{     //双向循环链表中结点定义
  DataType data;
@@ -847,27 +847,27 @@ class DBList{                   //双向循环链表的定义
   void Clear( );                //清空链表
 }; //DBList
 ```
-##### 查找算法 
-搜索成功 
+##### 查找算法 
+搜索成功 
 搜索不成功
 ##### 删除算法
 ```cpp
 current ->prior->next= current ->next;
 ```
-1. current ->prior->next= current ->next; 
-2. current ->next->prior= current ->prior; 
-1. current ->prior->next= current ->next; 
-2. current ->next->prior= current ->prior; 
-3.  delete current ;
-##### 双向循环链表的插入算法 
-1. p->prior=current; 
-2. p->next= current ->next;  
-3. current->next->prior=p; 
-4. current->next=p; 
-交换语句3和语句4将导致反向链表连接不正常。 
-3. current->next=p; 4. current->next->prior=p; 
+1. current ->prior->next= current ->next; 
+2. current ->next->prior= current ->prior; 
+1. current ->prior->next= current ->next; 
+2. current ->next->prior= current ->prior; 
+3.  delete current ;
+##### 双向循环链表的插入算法 
+1. p->prior=current; 
+2. p->next= current ->next;  
+3. current->next->prior=p; 
+4. current->next=p; 
+交换语句3和语句4将导致反向链表连接不正常。 
+3. current->next=p; 4. current->next->prior=p; 
 注意： 与单链表的插入和删除操作不同 的是，在双向（循环）链表中插入和删除必须同时修改两个方向上的指针。
-### 顺序表和链表的比较 
+### 顺序表和链表的比较 
 顺序表
 - 没有附加存储空间开销
 - 随机取得任一元素
@@ -877,18 +877,18 @@ current ->prior->next= current ->next;
 - 插入、删除运算时间代价O(1)
 - 在运行时动态为表中新的元素分配存储空间
 - 顺序取得某一元素
-- 每个元素都有附加存储空间开销（指向下一个结点的指针） 
+- 每个元素都有附加存储空间开销（指向下一个结点的指针） 
   **根据实际应用选择顺序表和链表**
   顺序表
 - 结点总数目大概可以估计
-- 表中结点比较稳定（插入、删除操作少）  
+- 表中结点比较稳定（插入、删除操作少）  
   链表
 - 结点数目无法预知
 - 线性表中结点动态变化（插入、删除操作多）
-### 一元多项式求和算法 
-实例：一元多项式的链表表示 
-在一元多项式的链表表示中每个结点包含三个数据成员：  
-优点：  多项式的项数可以动态增长，不存在存储溢出问题。  插入、删除方便，不移动元素。 扫描两个多项式链表（多项式链表按指数递增排序），若都未检测完：  若当前被检测项指数相等，则系数相加，若不为0，则将结果添加到结果多项式；并且两个多项式指针均后移。  若当前被检测项指数不等，则将指数小者加到结果多项式，并且指针后移。 若一个多项式已检测完，则将另一个多项式剩余部分全部复制到结果多项式。 
+### 一元多项式求和算法 
+实例：一元多项式的链表表示 
+在一元多项式的链表表示中每个结点包含三个数据成员：  
+优点：  多项式的项数可以动态增长，不存在存储溢出问题。  插入、删除方便，不移动元素。 扫描两个多项式链表（多项式链表按指数递增排序），若都未检测完：  若当前被检测项指数相等，则系数相加，若不为0，则将结果添加到结果多项式；并且两个多项式指针均后移。  若当前被检测项指数不等，则将指数小者加到结果多项式，并且指针后移。 若一个多项式已检测完，则将另一个多项式剩余部分全部复制到结果多项式。 
 ```cpp
 下面给出一元多项式的结构说明。
 class PNode
@@ -953,35 +953,35 @@ void PolynList::AddPolyn (PolynList &bh) {
 }
 ```
 ## 数组(Array)
-由一组类型相同的数据元素构成的有限序列，且该有限序列是存储在一块地址连续的内存单元中。 数据元素可以是整数、实数等简单数据类型，也可以是结构体、类等构造数据类型。 在数组中的各数据元素是由其下标来区分的。 当数组中的每个数据元素只有一个下标时，这样的数组称为一维数组。 将一维数组中各数据元素的下标按顺序变成线性表中的序号，则一维数组就是一个线性表（顺序表）。 当一个数组的每个数据元素都含有两个下标时，该数组称为二维数组。 当一个数组的每个数据元素都含有n个下标时，该数组称为n维数组。 
+由一组类型相同的数据元素构成的有限序列，且该有限序列是存储在一块地址连续的内存单元中。 数据元素可以是整数、实数等简单数据类型，也可以是结构体、类等构造数据类型。 在数组中的各数据元素是由其下标来区分的。 当数组中的每个数据元素只有一个下标时，这样的数组称为一维数组。 将一维数组中各数据元素的下标按顺序变成线性表中的序号，则一维数组就是一个线性表（顺序表）。 当一个数组的每个数据元素都含有两个下标时，该数组称为二维数组。 当一个数组的每个数据元素都含有n个下标时，该数组称为n维数组。 
 特别地，
-一个二维数组可以看作每个数据元素都是一个一维数组的一维数组。 
+一个二维数组可以看作每个数据元素都是一个一维数组的一维数组。 
 一个二维数组可以看作每个数据元素都是一个一维数组的一维数组。
-二维数组中的每个元素aij都属于两个线性表：第i行的线性表Bi和第j列线性表Aj。 
-因此，受两个下标的约束，二维数组中的每个元素aij最多有两个直接前驱和两个直接后继. a00没有直接前驱，称之为开始结点，an-1,m-1没有直接后继，称之为终端结点。 第0行的元素a0j (j=1,…,m-1)和第0列的元素ai0 (i=1,…,n-1)都只有一个直接前驱。 第n-1行的元素an-1,j(j=1,…,m-2)和第m-1列的元素ai,n-1(i=1,…,n-2)都只有一个直接后继。aij(1≤i ≤n-2,1 ≤j ≤m-2)都有两个直接前驱结点ai,j-1, ai-1,j和两个直接后继结点ai,j+1, ai+1,j。
-### 三维数组和N维数组 
- 同理，三维数组Am×n × l中每个元素属于三个线性表，每个元素最多有三个直接前驱和三个直接后继。 Ai1,i2,i3   前驱： Ai1-1,i2,i3 , Ai1,i2-1,i3, Ai1,i2,i3-1
-后继： Ai1+1,i2,i3 , Ai1,i2+1,i3, Ai1,i2,i3+1  
+二维数组中的每个元素aij都属于两个线性表：第i行的线性表Bi和第j列线性表Aj。 
+因此，受两个下标的约束，二维数组中的每个元素aij最多有两个直接前驱和两个直接后继. a00没有直接前驱，称之为开始结点，an-1,m-1没有直接后继，称之为终端结点。 第0行的元素a0j (j=1,…,m-1)和第0列的元素ai0 (i=1,…,n-1)都只有一个直接前驱。 第n-1行的元素an-1,j(j=1,…,m-2)和第m-1列的元素ai,n-1(i=1,…,n-2)都只有一个直接后继。aij(1≤i ≤n-2,1 ≤j ≤m-2)都有两个直接前驱结点ai,j-1, ai-1,j和两个直接后继结点ai,j+1, ai+1,j。
+### 三维数组和N维数组 
+ 同理，三维数组Am×n × l中每个元素属于三个线性表，每个元素最多有三个直接前驱和三个直接后继。 Ai1,i2,i3   前驱： Ai1-1,i2,i3 , Ai1,i2-1,i3, Ai1,i2,i3-1
+后继： Ai1+1,i2,i3 , Ai1,i2+1,i3, Ai1,i2,i3+1  
 推而广之 ，n维数组Ab1 ×b2 ×… ×bn中每个元素属于n个线性表，每个元素最多有n个直接前驱和n个直接后继。 Ai1,i2,…,in
 前驱：Ai1-1,i2,…,in, Ai1,i2-1,…,in,…, Ai1,i2,…,in-1
 后继：Ai1+1,i2,…,in, Ai1,i2+1,…,in,…, Ai1,i2,…,in+1
-#### 存储 
-在计算机中通常都采用顺序存储——数组的定义。 由于计算机中的存储空间（地址）是一维的，因此存放多维数组时，必须按照某种次序将数据元素排成一个一维序列。 对于多维数组，有一个次序约定的问题。 例如：二维数组可以按行顺序存储，即：先存放第0行元素，再存放第1行元素，依次类推；也可以按列顺序存储。 规定好次序，所有数据元素都可依次存放到一块地址连续的存储空间中。 只要给出一组下标，便可求出相应数据元素的存储地址（位置）。
+#### 存储 
+在计算机中通常都采用顺序存储——数组的定义。 由于计算机中的存储空间（地址）是一维的，因此存放多维数组时，必须按照某种次序将数据元素排成一个一维序列。 对于多维数组，有一个次序约定的问题。 例如：二维数组可以按行顺序存储，即：先存放第0行元素，再存放第1行元素，依次类推；也可以按列顺序存储。 规定好次序，所有数据元素都可依次存放到一块地址连续的存储空间中。 只要给出一组下标，便可求出相应数据元素的存储地址（位置）。
 ### 用处
 1. 在图像处理中，经常开辟一个一维数组来存放图像数据；
 1. 为了能按图像中像素的坐标获得像素的颜色，需要计算存储地址。
 ### 方法
 每个元素占用l的存储单元。
-1. 一维数组：顺序存储 
+1. 一维数组：顺序存储 
  1. a
- 1. LOC(i) = LOC(i-1)+l = a+i*l 
+ 1. LOC(i) = LOC(i-1)+l = a+i*l 
 2. 二维数组：
-  - 顺序存储  行优先存放：设数组开始存放位置 LOC(0,0)=a,  每个元素占用 l 个存储单元，则数据元素(i, j)的存储地址为
+  - 顺序存储  行优先存放：设数组开始存放位置 LOC(0,0)=a,  每个元素占用 l 个存储单元，则数据元素(i, j)的存储地址为
   - LOC ( i, j ) = a + ( i * m + j ) * l
-  - 列优先存放：设数组开始存放位置 LOC(0,0) = a,  每个元素占用 l 个存储单元，则数据元素(i, j)的存储地址为
-  - LOC ( i, j ) = a + ( j * n + i ) * l 
-    3. 三维数组: 各维元素个数为  m1, m2, m3。  下标为 i1, i2, i3的数据元素的存储地址：（按页/行/列存放）
-  - LOC ( i1, i2, i3 ) = a +    ( i1* m2 * m3 + i2* m3 + i3 ) * l
+  - 列优先存放：设数组开始存放位置 LOC(0,0) = a,  每个元素占用 l 个存储单元，则数据元素(i, j)的存储地址为
+  - LOC ( i, j ) = a + ( j * n + i ) * l 
+    3. 三维数组: 各维元素个数为  m1, m2, m3。  下标为 i1, i2, i3的数据元素的存储地址：（按页/行/列存放）
+  - LOC ( i1, i2, i3 ) = a +    ( i1* m2 * m3 + i2* m3 + i3 ) * l
   - LOC ( i1, i2, …, in ) = a +( i1_m2_m3_…_mn + i2_m3_m4_…_mn+……+ in-1_mn + in ) _ l
 #### 特殊矩阵
 非零元素或零元素的分布有一定规律的矩阵。
@@ -989,23 +989,23 @@ void PolynList::AddPolyn (PolynList &bh) {
 对角矩阵（带状矩阵）；
 稀疏矩
 ####
-#### 与压缩存储 
-压缩存储主要是针对特殊矩阵，为节省存储空间，对可以不存储的元素，如零元素或对称元素，不再存储。  对称矩阵的压缩存储 
-设有一个 nn 的对称矩阵 A。 在矩阵中，aij = aji 
-为了节约存储，只存对角线及对角线以上的元素，或者只存对角线及对角线以下的元素。前者称为上三角矩阵，后者称为下三角矩阵。 为了节约存储，只存对角线及对角线以上的元素，或者只存对角线及对角线以下的元素。前者称为上三角矩阵，后者称为下三角矩阵。 
-把所需元素按行存放于一个一维数组 B 中，称之为对称矩阵的压缩存储。 一维数组 B 共有 n + ( n - 1 ) +  + 1 =               n*(n+1)/2 个元素。 问题：压缩存储之后，如何在一维数组B中定位矩阵中的任意数据元素？ 
-若i ≤ j，数组元素a[i][j]在数组B中的存放位置为                                  +  j-i 
+#### 与压缩存储 
+压缩存储主要是针对特殊矩阵，为节省存储空间，对可以不存储的元素，如零元素或对称元素，不再存储。  对称矩阵的压缩存储 
+设有一个 nn 的对称矩阵 A。 在矩阵中，aij = aji 
+为了节约存储，只存对角线及对角线以上的元素，或者只存对角线及对角线以下的元素。前者称为上三角矩阵，后者称为下三角矩阵。 为了节约存储，只存对角线及对角线以上的元素，或者只存对角线及对角线以下的元素。前者称为上三角矩阵，后者称为下三角矩阵。 
+把所需元素按行存放于一个一维数组 B 中，称之为对称矩阵的压缩存储。 一维数组 B 共有 n + ( n - 1 ) +  + 1 =               n*(n+1)/2 个元素。 问题：压缩存储之后，如何在一维数组B中定位矩阵中的任意数据元素？ 
+若i ≤ j，数组元素a[i][j]在数组B中的存放位置为                                  +  j-i 
 若 i  j, 数组元素a[i][j]在数组B中的存放位置为 1 + 2 +  + i + j = (i + 1)* i / 2 + j
-### 稀疏矩阵 (Sparse Matrix) 
+### 稀疏矩阵 (Sparse Matrix) 
 矩阵A中有s个非零元素，若s远远小于矩阵元素的总数（即s << m×n），而且这些非零元素的分布也没有规律。
 优点：  节省了存储单元
 缺点：  失去了随机存取功
 #### 实现
-存储稀疏矩阵时，为了节省存储单元，可采用只存储非零元素的压缩存储方法。 有两种实现方式：  
+存储稀疏矩阵时，为了节省存储单元，可采用只存储非零元素的压缩存储方法。 有两种实现方式：  
 1. 三元组顺序表——顺序存储
  1. 由于非零元素的分布没有规律，所以在存储非零元素时，需要同时存储该非零元素的行下标 row、列下标 col、值 value。 每一个非零元素可由一个三元组唯一确定
  1. 元素按行递增排序存放的，当行相等时是按列递增排序存放的。
-2. 十字链表——链式存储  
+2. 十字链表——链式存储  
 ```cpp
 const int SMax=1024;
 class  SPNode{        //三元组类
@@ -1031,13 +1031,13 @@ nu是a的列数(b的行数) mu是a的行数(b的列数)
 其时间复杂度为: O(mu×nu)
 ```
 #### 转置
-问题：若采用三元组顺序表存储稀疏矩阵，只要把每个元素的行下标和列下标互换，就完成了对该矩阵的转置运算，这种说法正确吗？ 
+问题：若采用三元组顺序表存储稀疏矩阵，只要把每个元素的行下标和列下标互换，就完成了对该矩阵的转置运算，这种说法正确吗？ 
 思路:
 1. 每个元素的行下标和列下标互换（即三元组中的i和j互换）
 1. a的总行数mu和总列数nu赋为b的总列数和总行数
-1. 重排三元组表内元素的顺序，使转置后的三元组也按行（或列）优先顺序排列。 
-实现：压缩转置 
-思路：反复扫描a.smArray中的列序,从小到大依次进行转置。 
+1. 重排三元组表内元素的顺序，使转置后的三元组也按行（或列）优先顺序排列。 
+实现：压缩转置 
+思路：反复扫描a.smArray中的列序,从小到大依次进行转置。 
 ```cpp
 稀疏矩阵的压缩转置算法:
 SPMatrix SPMatrix::Transpose( ){
@@ -1055,13 +1055,13 @@ SPMatrix SPMatrix::Transpose( ){
 return T;
 }  //Transpose
 ```
-主要时间消耗在查找data[p].j==col元素， 由双重循环完成: for(col=0;col<cn;++col)    循环次数＝cn   //cn为列数         for(p=0;p<en;++p)    循环次数＝en  //en为非零元素个数     所以该算法的时间复杂度为O(cn*en)         ----即 a的列数与a中非零元素的个数之积 最坏情况：a中全是非零元素，此时en=cn*rn， //rn为行数             时间复杂度为 O(cn2*rn) 而用非压缩传统转置算法的时间复杂度也不过是O(cn*rn) 结论：压缩转置算法不能滥用。 前提：仅适用于非零元素个数很少（即en<<rn*cn）的情况。 
-稀疏矩阵的十字链表 
-三元组顺序表能够实现稀疏矩阵的压缩存储，并且适用于求稀疏矩阵的转置等运算，但对于另外一些运算，如矩阵加法、乘法等，在运算的过程中矩阵的非零元素的个数和位置经常发生改变，因此三元组顺序表不适合这些运算。 可采用链式存储结构——十字链表来实现稀疏矩阵的压缩存储。 
-十字链表 每个非零元素用一个含5个域的结点表示：     其中：row、col和val三个域分别表示该非零元素所在的行、列以及它的值；right域用来指向同一行中的下一个非零元素；down域用来指向同一列中的下一个非零元素。 
-每个非零元素用一个含5个域的结点表示：     这样，right域可将稀疏矩阵中同一行上的非零元素链接成一个链表；down域可将稀疏矩阵中同一列上的非零元素链接成一个链表。 
-每个非零元素用一个含5个域的结点表示：     每个非零元素既是某个行链表上的结点，同时又是某个列链表上的结点，整个稀疏矩阵将构成一个十字交叉的链表——十字链表。 
-课后习题： p51：2                      p53：5-(1), 5-(2), 5-(5) 上机实验：实验1
+主要时间消耗在查找data[p].j==col元素， 由双重循环完成: for(col=0;col<cn;++col)    循环次数＝cn   //cn为列数         for(p=0;p<en;++p)    循环次数＝en  //en为非零元素个数     所以该算法的时间复杂度为O(cn*en)         ----即 a的列数与a中非零元素的个数之积 最坏情况：a中全是非零元素，此时en=cn*rn， //rn为行数             时间复杂度为 O(cn2*rn) 而用非压缩传统转置算法的时间复杂度也不过是O(cn*rn) 结论：压缩转置算法不能滥用。 前提：仅适用于非零元素个数很少（即en<<rn*cn）的情况。 
+稀疏矩阵的十字链表 
+三元组顺序表能够实现稀疏矩阵的压缩存储，并且适用于求稀疏矩阵的转置等运算，但对于另外一些运算，如矩阵加法、乘法等，在运算的过程中矩阵的非零元素的个数和位置经常发生改变，因此三元组顺序表不适合这些运算。 可采用链式存储结构——十字链表来实现稀疏矩阵的压缩存储。 
+十字链表 每个非零元素用一个含5个域的结点表示：     其中：row、col和val三个域分别表示该非零元素所在的行、列以及它的值；right域用来指向同一行中的下一个非零元素；down域用来指向同一列中的下一个非零元素。 
+每个非零元素用一个含5个域的结点表示：     这样，right域可将稀疏矩阵中同一行上的非零元素链接成一个链表；down域可将稀疏矩阵中同一列上的非零元素链接成一个链表。 
+每个非零元素用一个含5个域的结点表示：     每个非零元素既是某个行链表上的结点，同时又是某个列链表上的结点，整个稀疏矩阵将构成一个十字交叉的链表——十字链表。 
+课后习题： p51：2                      p53：5-(1), 5-(2), 5-(5) 上机实验：实验1
 # 树
 ### 树的定义
 树是由 n (n ≥ 0) 个结点组成的有限集合。树是一种典型的“层次结构”，体现出“一对多”的关系。
@@ -1082,9 +1082,9 @@ return T;
 - 堂兄弟(cousin)
 - 祖先（descendant） 、子孙（ancestor）
 - 路径（path）
-- 有序树（ordered  tree）
+- 有序树（ordered  tree）
 - 森林(Forest)
-### 二叉树 (Binary Tree) 
+### 二叉树 (Binary Tree) 
 一个结点的有限集合，该集合或者为空，或者是由一个根结点加上两棵分别称为左子树和右子树的、互不相交的二叉树组成。
 #### ADT描述
 ```cpp
@@ -1151,12 +1151,12 @@ LevelOrder
 ##### 2. 中序(LVR)
 ##### 3. 后序(LRV)
 #### 性质
-1. 若二叉树的层次从1开始, 则在二叉树的第 i 层最多有 2个结点。(i ≥ 1)        
+1. 若二叉树的层次从1开始, 则在二叉树的第 i 层最多有 2个结点。(i ≥ 1)        
  1. **[证明用数学归纳法]**
-2. 深度为 k 的二叉树最多有 2个结点, 最少会有 k 个结点。(k ≥ 1)        ** [证明用求等比数列前k项和的公式]**
- 1. 20 + 21 + … + 2k-1 = 2k-1 
+2. 深度为 k 的二叉树最多有 2个结点, 最少会有 k 个结点。(k ≥ 1)        ** [证明用求等比数列前k项和的公式]**
+ 1. 20 + 21 + … + 2k-1 = 2k-1 
 3. 对任何一棵二叉树，如果其叶结点有 n 个，度为2的非叶结点有 n 个，则有 **n****0****＝n****2****＋1 **
- 1. **证明**：若设度为1的结点有 n 个，总结点个数为 n，总边数为 e，则根据二叉树的定义，n = n + n + n     e = 2n + n = n - 1 因此，有  2n2 + n1 = n0 + n1 + n2 - 1        n2 = n0 - 1         n0 = n2 + 1  
+ 1. **证明**：若设度为1的结点有 n 个，总结点个数为 n，总边数为 e，则根据二叉树的定义，n = n + n + n     e = 2n + n = n - 1 因此，有  2n2 + n1 = n0 + n1 + n2 - 1        n2 = n0 - 1         n0 = n2 + 1  
 4. 具有 n (n >= 0) 个结点的完全二叉树的高度为 [log(n+1)]
 4. 满二叉树可以用顺序结构实现
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1604830698428-aae81f37-8329-4226-8ff7-2e28f3e81343.png#align=left&display=inline&height=391&margin=%5Bobject%20Object%5D&name=image.png&originHeight=782&originWidth=1045&size=161044&status=done&style=none&width=522.5)
@@ -1244,7 +1244,7 @@ void BinaryTree::PostOrder(BinaryTreeNode * &t=root)
 - 二叉树结点之间的前驱和后继关系只有在某种次序（前序、中序、后序）的遍历过程中才能确定。
   - 如果能事先知道二叉树结点之间在某种遍历次序（前序、中序、后序）下的前驱和后继关系，那么根据这些前驱和后继即可获得该次序（前序、中序、后序）下的遍历结果。
   - ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1603797620179-b8f0fca1-cf4d-48c0-9da5-246bca0a8e54.png#align=left&display=inline&height=47&margin=%5Bobject%20Object%5D&name=image.png&originHeight=94&originWidth=767&size=49748&status=done&style=none&width=383.5)
-  - **Pre和Succ，分别指向该结点在某种次序下遍历时的前驱和后继(无孩子, 指针域为空)。 **
+  - **Pre和Succ，分别指向该结点在某种次序下遍历时的前驱和后继(无孩子, 指针域为空)。 **
   - lTag=0，leftChild指向左子女
   - lTag=1，leftChild指向前驱
   - rTag=0，rightChild指向右子女
@@ -1319,12 +1319,12 @@ void BinaryTree::PostOrder(BinaryTreeNode * &t=root)
      }
   } //InOrder
   ```
-#### 遍历的非递归实现 
+#### 遍历的非递归实现 
 ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1603798889521-11a371c0-9508-48fb-8708-b14e04254eb9.png#align=left&display=inline&height=224&margin=%5Bobject%20Object%5D&name=image.png&originHeight=448&originWidth=629&size=43359&status=done&style=none&width=314.5)![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1603798905416-788ffa48-3d8a-48b3-8672-7c173c0e6d15.png#align=left&display=inline&height=230&margin=%5Bobject%20Object%5D&name=image.png&originHeight=460&originWidth=629&size=47906&status=done&style=none&width=314.5)![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1603798919386-15339511-ea27-4655-9741-4a50b74e6e34.png#align=left&display=inline&height=230&margin=%5Bobject%20Object%5D&name=image.png&originHeight=460&originWidth=629&size=49841&status=done&style=none&width=314.5)
 - 递归算法在执行的过程中会使用到栈结构——隐式栈。
 - 递归算法转成非递归算法时，也需要使用到栈结构——显式栈。
   - 栈结构需要手动开辟。
-  - 二叉树遍历的非递归实现需要手动开辟栈结构，完成遍历过程。 
+  - 二叉树遍历的非递归实现需要手动开辟栈结构，完成遍历过程。 
     ```cpp
     void PreOrder(BinaryTreeNode *＆p=root) {
         Stack  stack; //建立栈
@@ -1395,7 +1395,7 @@ void BinaryTree::LevelOrder( ) {
 #### 存储
 - 双亲表示法——顺序结构
   - **特别适合求结点双亲的操作**
-  - **不适用求结点子女等操作。 存在“上限”问题。 **
+  - **不适用求结点子女等操作。 存在“上限”问题。 **
     ```cpp
     class NodeType {
         DataType data;
@@ -1409,7 +1409,7 @@ void BinaryTree::LevelOrder( ) {
     ```
 - 子女表示法——顺序结构+链式结构
 - **适合求结点子女的操作**
-- **不适合求结点双亲等操作。 存在“上限”问题。 **
+- **不适合求结点双亲等操作。 存在“上限”问题。 **
   ```cpp
   class CNode {  //孩子结点
     int child;
@@ -1452,15 +1452,15 @@ void BinaryTree::LevelOrder( ) {
 ### Huffman树与编码
 - **结点之间的路径长度 (Path Length)**：两个结点之间的路径长度是连接这两个结点的路径上的分支个数。
 - 叶子结点的权值
-- 二叉树的带权路径长度:     ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1603800788578-c0124af2-b3c3-49b7-ab89-fb3ed7a2dcdf.png#align=left&display=inline&height=105&margin=%5Bobject%20Object%5D&name=image.png&originHeight=209&originWidth=794&size=23804&status=done&style=none&width=397)
+- 二叉树的带权路径长度:     ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1603800788578-c0124af2-b3c3-49b7-ab89-fb3ed7a2dcdf.png#align=left&display=inline&height=105&margin=%5Bobject%20Object%5D&name=image.png&originHeight=209&originWidth=794&size=23804&status=done&style=none&width=397)
 - **哈夫曼树**：给定一组具有确定权值的叶子结点，使得带权路径长度达到最小的那棵二叉树。
   - 权值越大的叶子结点越靠近根结点，而权值越小的叶子结点越远离根结点。
   - 只有度为0（叶子结点）和度为2（分支结点）的结点，不存在度为1的结点。
   - 一种 **前缀编码(任一字符的编码都不是其它字符的编码的前缀)**。解码时 不会出现混淆。 例如：设有abcd需要编码表示（其中，a=0、b=10、c=110、d=11,则**表示 110的编码 可以是c或者da，不唯一**）
 - n个叶子结点构造出的Huffman树共有多少个结点？
-  - 因为n=n+1，所以n=n-1，又由于在Huffman树中没有度为1的结点，所以在Huffman树中结点总数为： n+n-1=2n-1
+  - 因为n=n+1，所以n=n-1，又由于在Huffman树中没有度为1的结点，所以在Huffman树中结点总数为： n+n-1=2n-1
 - 一棵哈夫曼树共有215个结点,对其进行哈夫曼编码,共能得到()个不同的码字
-  - 除了树根总共有 n-1 = 214个  ,   叶子节点为214的一半再加一个
+  - 除了树根总共有 n-1 = 214个  ,   叶子节点为214的一半再加一个
   - ![图片.png](https://cdn.nlark.com/yuque/0/2021/png/1114914/1610625450242-6d33e9cd-a6b7-4c7c-8f10-7a72b8cb2d8a.png#align=left&display=inline&height=1093&margin=%5Bobject%20Object%5D&name=%E5%9B%BE%E7%89%87.png&originHeight=1093&originWidth=1536&size=293594&status=done&style=none&width=1536)
 #### 求每个字符的哈夫曼编码算法
 ```cpp
@@ -1503,7 +1503,7 @@ void GetCode( ) {
   - **强连通图: **
     - 任意一对顶点 v和 v，都存在一条从 v到 v和从vj到vi的(有向)路径。
   - **强连通分量**：有向图中的极大强连通子图称为该有向图的强连通分量。
-- 生成森林：在非连通图中，每个连通分量可生成一棵树，所有连通分量生成的树可组成生成森林。 
+- 生成森林：在非连通图中，每个连通分量可生成一棵树，所有连通分量生成的树可组成生成森林。 
   ```cpp
   class Graph {
    public:
@@ -1529,7 +1529,7 @@ void GetCode( ) {
   - 如果用邻接表存储图：
     - 在DFSTraverse( )函数中，初始化visited数组所需时间为O(n)，并调用n次DFS( )函数；
     - 在DFS( )函数中，每个顶点对应链表中边结点的个数为该顶点的度，因此循环将执行D(V)次。
-  - 综上，无向图深度优先遍历算法的时间复杂度为O(n)+O(2e)=O(n+2e)，即：O(n+2e)。 有向图的深度优先遍历算法的时间复杂度为O(n+e)。（只有出度邻接表的情况） 
+  - 综上，无向图深度优先遍历算法的时间复杂度为O(n)+O(2e)=O(n+2e)，即：O(n+2e)。 有向图的深度优先遍历算法的时间复杂度为O(n+e)。（只有出度邻接表的情况） 
     ```cpp
     void  DFSTraverse( ) {  //深度优先遍历算法
         int  visited[n];       //开辟访问标志数组
@@ -1581,7 +1581,7 @@ void GetCode( ) {
     }
     ```
     这里面的记忆数组在那里.
-####  广度优先遍历(Breadth-First Search, BFS) 
+####  广度优先遍历(Breadth-First Search, BFS) 
 ```cpp
 void  BFSTraverse( ){  //广度优先遍历算法
    int  visited[n];              //设置访问标志数组
@@ -1610,7 +1610,7 @@ void BFS(int v) {
 n-1 <= 网络 <=Cn2=n(n-1)/2
 ## 最小生成树
   - **邻接矩阵**存储连通无向网
-  - 最小生成树 不唯一！ Kruskal（克鲁斯卡尔）算法
+  - 最小生成树 不唯一！ Kruskal（克鲁斯卡尔）算法
   - 设一个含有n个顶点的连通无向网N = { V, E }，最初先构造一个只有n个顶点，没有边的非连通图T = { V, (空集) }，图中每个顶点自成一个连通分量。
   - 当在E中选到一条具有最小权值的边时，若该边的两个顶点落在不同的连通分量上，则将此边加入到T中；否则，将此边舍去，重新选择一条权值最小的边。
   - 按上述方式重复下去，直到所有顶点都在同一个连通分量上为止。
@@ -1828,9 +1828,9 @@ n-1 <= 网络 <=Cn2=n(n-1)/2
 - 单源最短路径：某个顶点到其他顶点间的最短路径。
 - 算法描述: 以邻接矩阵存储图，依次执行以下步骤：
   - **初始化** 设源点为v0，则find[0]=1; 其他find[1..n-1]=0;
-    - dist[i] ← cost[0][i],   i= 1, 2, …, n-1;
-  - 求出长度最短的路径 dist[k] ← min{ dist[i] },  i  V- S; find[k]=1;
-  - 修改dist数组 对于每一个 i  V- S，即：find[i]==0，更新其dist[i] ← min{ dist[i], dist[k](倒数第二个顶点) + cost[k][i] }；若S = V，则算法结束；否则，转(2)。 
+    - dist[i] ← cost[0][i],   i= 1, 2, …, n-1;
+  - 求出长度最短的路径 dist[k] ← min{ dist[i] },  i  V- S; find[k]=1;
+  - 修改dist数组 对于每一个 i  V- S，即：find[i]==0，更新其dist[i] ← min{ dist[i], dist[k](倒数第二个顶点) + cost[k][i] }；若S = V，则算法结束；否则，转(2)。 
     ```cpp
     const  int  Vexnum=20；//图中最大顶点个数
     const  int  max=9999;     //9999表示无穷大
@@ -1911,7 +1911,7 @@ void ShortestPath_Floyd(PathMatrix &path, DistMatrix &A) {//用邻接矩阵存�
   - 活动ak的时间余量el[k]-ee[k]：表示活动ak的最迟开始时间和最早开始时间之间的时间差。
     - 当el[k] == ee[k]时，表示活动ak没有时间余量，即：ak是关键活动。
     - 为了找出AOE网络中的关键活动，需要计算出各活动的ee[k]与el[k]，以判别是否满足el[k] == ee[k]。
-    - 为求得ee[k]与el[k]，需要先计算出各顶点Vi的ve[i]和vl[i]。 
+    - 为求得ee[k]与el[k]，需要先计算出各顶点Vi的ve[i]和vl[i]。 
       ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1605583367519-0a9d3eff-4eb6-4262-bd53-b37016a5f8b5.png#align=left&display=inline&height=269&margin=%5Bobject%20Object%5D&name=image.png&originHeight=537&originWidth=942&size=66034&status=done&style=none&width=471)
       ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1605583338226-59d3432f-4169-4be4-a165-08f73fe63ec9.png#align=left&display=inline&height=265&margin=%5Bobject%20Object%5D&name=image.png&originHeight=530&originWidth=940&size=66570&status=done&style=none&width=470)
       ![image.png](https://cdn.nlark.com/yuque/0/2020/png/1114914/1605583346562-3ab7ee4d-5c78-4c9b-af6c-74f7cb5b423f.png#align=left&display=inline&height=261&margin=%5Bobject%20Object%5D&name=image.png&originHeight=522&originWidth=915&size=43046&status=done&style=none&width=457.5)
@@ -1936,7 +1936,7 @@ void ShortestPath_Floyd(PathMatrix &path, DistMatrix &A) {//用邻接矩阵存�
   - 然后，再对该分块进行顺序查找。
 - 代码: [https://blog.csdn.net/hbtj_1216/article/details/50267977](https://blog.csdn.net/hbtj_1216/article/details/50267977)
 ## 树表
-### 二叉查找树 
+### 二叉查找树 
 ```cpp
 class BiSortTree{
 public:

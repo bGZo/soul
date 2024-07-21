@@ -1,7 +1,8 @@
 icon:: 📅
-created:: [[20230602]]
+created:: 20230602
 template:: weekly
 template-including-parent:: false
+exclude-from-graph-view:: true
 
   - alias:: 
     icon:: 📅
@@ -54,7 +55,7 @@ template-including-parent:: false
   - > What I need is not sex, instead of love, to be understood, and never feel alone.
 - ## Why
   - 叙事疗法
-    created:: [[20230304]]
+    created:: 20230304
     closed:: [[20230617]]
     collapsed:: true
     - #+BEGIN_NOTE
@@ -89,8 +90,8 @@ template-including-parent:: false
         -
 - ## How
   - TODO Pull 工作摸🐟 [Gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f) 的笔记
+    SCHEDULED: <2024-07-27 Sat 00:00 ++1w>
     collapsed:: true
-    SCHEDULED: <2024-06-01 Sat 00:00 ++1w>
     :LOGBOOK:
     * State "DONE" from "TODO" [2024-01-20 Sat 22:00]
     * State "DONE" from "TODO" [2024-01-27 Sat 21:38]
@@ -107,6 +108,7 @@ template-including-parent:: false
     * State "DONE" from "TODO" [2024-05-04 Sat 09:14]
     * State "DONE" from "TODO" [2024-05-17 Fri 20:05]
     * State "DONE" from "TODO" [2024-05-26 Sun 22:40]
+    * State "DONE" from "TODO" [2024-07-20 Sat 21:23]
     :END:
     - \{{iframe https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f}}
       #+BEGIN_CENTER
@@ -138,3 +140,4 @@ template-including-parent:: false
           ```
 - ## What
   -
+- icon:: 📅

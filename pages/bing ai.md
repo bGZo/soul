@@ -1,0 +1,1 @@
+alias:: bing/AI
