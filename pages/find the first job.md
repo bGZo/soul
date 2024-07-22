@@ -788,7 +788,7 @@ tags:: #Job, #DONE, byd
   -
   - ### Special: [[bank]]
     collapsed:: true
-    - [[China]] \#.ol
+    - [[China]] 
       - 中国建设银行——CCB(China Constuction Bank)
       - 中国农业银行——ABC(Agricultural Bank of China)
       - 中国工商银行——ICBC(Industrial and Commercial Bank of China)

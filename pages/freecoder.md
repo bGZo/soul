@@ -12,11 +12,11 @@ description:: 作者一聽就是個大佬，真希望知道他現在過得怎麽
   - 其中，134 是线程私有；
 - {{video https://www.youtube.com/watch?v=A20a0__mXvQ}}
   #garbage_collection
-  - {{youtube-timestamp 44}} GC 判断的标准 GC Root \#.ol
+  - {{youtube-timestamp 44}} GC 判断的标准 GC Root 
     - 栈引用；
     - 本地方法 (Native) 栈 直接/间接 引用；
     - 方法区 Static 变量/常量 直接/间接 引用；
-  - {{youtube-timestamp 120}} 清理堆区的思路 \#.ol
+  - {{youtube-timestamp 120}} 清理堆区的思路 
     - 标记——清理算法
       description:: 对准备清理的对象打上标记，然后清理；
       - 产生内存碎片

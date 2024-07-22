@@ -108,7 +108,7 @@ alias:: serverless/learning
         - 无需用户关心服务端的事情 (容错, 容灾, 安全验证, 自动扩缩容, 日志调试等等)
         - 按使用量 (调用次数, 时长等) 付费, 低费用和高性能并行, 大多数场景下节省开支
         - 快速迭代 & 试错能力 (多版本控制, 灰度, CI&CD 等等)
-    - #History 2014 年 11 月，亚马逊推出真正意义上的第一款 Serverless FaaS 服务: **Lambda**
+    - #history 2014 年 11 月，亚马逊推出真正意义上的第一款 Serverless FaaS 服务: **Lambda**
       collapsed:: true
       - Serverless 的概念才进入了大多数人的视野，也因此 Serverless 曾经一度就等于 FaaS
     - 我们日常谈 Serverless 的时候，基本都是指狭义的 Serverless，但当我们提到某个服务 Serverless 化的时候，往往都是指广义的 Serverless。

@@ -1,10 +1,10 @@
-alias:: gma
+alias:: project/gaming management app, gma
 description:: 类似 Steam 社区那样，直接可以获得游戏相关新闻、攻略，wiki 跳转的应用，Android Pad & Windows care
 icon:: 📂
 tags:: #project
 created:: 20240721
 deadline:: 20240821
-title:: project/gaming management app
+title:: gaming management app
 
 - ## Project Meta
   collapsed:: true

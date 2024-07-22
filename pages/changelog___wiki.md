@@ -2,10 +2,13 @@ alias:: logseq/changelog
 description:: start begin Beta 0.6.5; [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changelog.md](https://github.com/logseq/docs/blob/master/pages/Changelog.md?plain=1)
 
 - Apr 26st, 2023  Beta 0.9.4
+  collapsed:: true
   - Add `:remove-block-children?` query option for advanced queries [#9229](https://github.com/logseq/logseq/pull/9229)
 - Apr 19st, 2023  Beta 0.9.3
+  collapsed:: true
   - Advanced queries have a new :group-by-page? option [#9133](https://github.com/logseq/logseq/pull/9133)
 - Apr 13st, 2023  Beta 0.9.2
+  collapsed:: true
   - Support exporting to image  [#9037](https://github.com/logseq/logseq/pull/9037)
   - Make publishing accessible to CLIs [#9033](https://github.com/logseq/logseq/pull/9033)
 - Mar 29st, 2023  Beta 0.9.1

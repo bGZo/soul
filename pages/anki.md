@@ -18,7 +18,7 @@ bookmark:: [AnkiWeb](https://ankiweb.net)
       ```
   - So I made a basic template `anki` to replace official one, although it has a little ugly and really simple, but it works well )
     - {{iframe https://gist.github.com/bGZo/b26301b0d528f41302f8d547f47f733f}}
-  - And some add-ons deserved as following: \#.ol
+  - And some add-ons deserved as following: 
     - [AnkiConnect - AnkiWeb](https://ankiweb.net/shared/info/2055492159)
     - [AnkiConnect - AnkiWeb](https://ankiweb.net/shared/info/2055492159)
     - [AwesomeTTS - Add speech to your flashcards - AnkiWeb](https://ankiweb.net/shared/info/1436550454)

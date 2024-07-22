@@ -1,9 +1,9 @@
-alias:: 
+alias:: project/closet app
 description:: 
 icon:: 📂
 tags:: #project
 created:: 20240721
-title:: project/closet app
+title:: closet app
 
 - ## Project Meta
   - \DOING #project [[page]]

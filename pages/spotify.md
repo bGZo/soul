@@ -600,7 +600,7 @@ created:: 20220320
         孩子 (Demo) - 西楼
         ```
 - ## What
-  - What I've learn some categories by spotify 🥰 \#.ol
+  - What I've learn some categories by spotify 🥰 
     collapsed:: true
     - Charts：排行榜
     - Live Events：现场活动

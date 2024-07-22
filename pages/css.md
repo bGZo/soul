@@ -44,7 +44,7 @@ description:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文�
 - ## Basics
   - `position`
     description:: description:: s the position of an element in a document
-    - five values \#.ol
+    - five values 
       - static
       - relative
       - absolute

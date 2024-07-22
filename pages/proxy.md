@@ -267,7 +267,7 @@ created:: 20230602
         collapsed:: true
         - [v2ray 教程](https://github.com/vkuajing/v2ray).
         - Backup：[233boy-v2ray](https://github.com/PhenTse/233boy-v2ray)
-    - Others by VPN provider: \#.ol
+    - Others by VPN provider: 
       collapsed:: true
       - OpenVPN
       - IKEv2/IPsec

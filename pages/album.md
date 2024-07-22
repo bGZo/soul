@@ -13,7 +13,7 @@ alias:: 专辑, music/album
       created:: <% today %>
       - ### Description
         -
-      - ### Songs \#.ol
+      - ### Songs 
         -
   - template:: band
     template-including-parent:: false

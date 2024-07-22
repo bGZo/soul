@@ -1,20 +1,18 @@
 alias:: 工具
-icon:: 🛠
 created:: 20230531
-tags:: #Productivity
+icon:: 🛠
+template:: tool
+template-including-parent:: false
 
-  - template:: tool
-    template-including-parent:: false
-    collapsed:: true
-    - alias:: 
-      blog:: 
-      changelog:: 
-      community:: 
-      document:: 
-      icon:: 
-      created:: ``{ date.now.format('YYYYMMDD') }``
-      tags:: 
-      title:: ``{ c.page.name }``
+  - alias:: 
+    blog:: 
+    changelog:: 
+    community:: 
+    document:: 
+    icon:: 
+    created:: ``{ date.now.format('YYYYMMDD') }``
+    tags:: 
+    title:: ``{ c.page.name }``
 - ## Why
   - Creating thing more productive.
 - ## How

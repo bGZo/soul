@@ -3,7 +3,7 @@ description:: [【动力节点】SSM框架之MyBatis上线即经典，跟老杜�
 created:: 20230305
 
   - https://www.yuque.com/dujubin/ltckqu/pozck9 & `rs4n`
-- ## \#.ol-nested-2 Contents
+- ## -nested-2 Contents
   - DONE MyBatis概述
     collapsed:: true
     - 框架

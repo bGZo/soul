@@ -41,7 +41,7 @@ tags:: #design
       background-color:: #525e92
     - Reference
       - title:: [GitHub - ozh/github-colors](https://github.com/ozh/github-colors) ![](https://img.shields.io/github/stars/ozh/github-colors)
-        tags:: #github #opensource \#.olor #programming
+        tags:: #github #opensource or #programming
         created:: 20230302
         description:: 🌈 Github colors for all the languages
   - ### [[commandline]] #termux

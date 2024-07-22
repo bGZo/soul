@@ -24,7 +24,7 @@ created:: 20230625
 - ## What
   - ### On [[linux]]
     collapsed:: true
-    - ### Category refer to [菜鸟教程](https://www.runoob.com/linux/linux-command-manual.html) \#.ol
+    - ### Category refer to [菜鸟教程](https://www.runoob.com/linux/linux-command-manual.html) 
       collapsed:: true
       - 文件管理
         collapsed:: true

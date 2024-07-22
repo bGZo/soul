@@ -82,7 +82,7 @@ created:: 20231231
       created:: 20221220
     - title:: [苑舉正的正舉苑 - YouTube](https://www.youtube.com/channel/UCc11usK6gHIkimYPBdQPSdw)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCc11usK6gHIkimYPBdQPSdw
-      tags:: #podcast #Youtube #subscription \#.olitics
+      tags:: #podcast #Youtube #subscription itics
       created:: 20221220
     - title:: [万物BB机 - YouTube](https://www.youtube.com/channel/UCbhUu8Rmky0SkVP-fmoTwZQ)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCbhUu8Rmky0SkVP-fmoTwZQ
@@ -91,15 +91,15 @@ created:: 20231231
       created:: 20221220
     - title:: [冲浪普拉斯 - YouTube](https://www.youtube.com/channel/UCZNxe_9FQAK2Z3suwaZlwpQ)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCZNxe_9FQAK2Z3suwaZlwpQ
-      tags:: #podcast #Youtube #subscription \#.olitics
+      tags:: #podcast #Youtube #subscription itics
       created:: 20221220
     - title:: [吟游诗人基德 - YouTube](https://www.youtube.com/channel/UCoRl-KroV7gBf20KHD2L8Ag)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCoRl-KroV7gBf20KHD2L8Ag
-      tags:: #podcast #Youtube #subscription \#.olitics
+      tags:: #podcast #Youtube #subscription itics
       created:: 20221220
     - title:: [小约翰可汗 - YouTube](https://www.youtube.com/channel/UCAeIZxbLS06qOpBTAGT1qxA)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCAeIZxbLS06qOpBTAGT1qxA
-      tags:: #podcast #Youtube #subscription \#.olitics
+      tags:: #podcast #Youtube #subscription itics
       created:: 20221220
     - Lang
       collapsed:: true
@@ -113,11 +113,11 @@ created:: 20231231
         created:: 20221220
     - title:: [五岳散人 - YouTube](https://www.youtube.com/channel/UCX8KQ5xQlm0MnZkmHO7CBDw)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCX8KQ5xQlm0MnZkmHO7CBDw
-      tags:: #podcast #Youtube #subscription #China \#.olitics
+      tags:: #podcast #Youtube #subscription #China itics
       created:: 20221220
     - title:: [Hi5第一頻道 - YouTube](https://www.youtube.com/channel/UCvpX0E9dK-40zwYShv186oA)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCvpX0E9dK-40zwYShv186oA
-      tags:: #podcast #Youtube #subscription #History
+      tags:: #podcast #Youtube #subscription #history
       created:: 20221220
     - title:: [Fan Bing 范冰 - 原增长冰法 - YouTube](https://www.youtube.com/channel/UCjrHZB9VQluxjJRnDcqKiqQ)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCjrHZB9VQluxjJRnDcqKiqQ
@@ -141,11 +141,11 @@ created:: 20231231
       created:: 20221220
     - title:: [袁腾飞官方频道 Tengfei Official - YouTube](https://www.youtube.com/channel/UC5xunxPS6oZ1zzKufgREFuA)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UC5xunxPS6oZ1zzKufgREFuA
-      tags:: #podcast #Youtube #subscription #History
+      tags:: #podcast #Youtube #subscription #history
       created:: 20221220
     - title:: [多伦多方脸 - YouTube](https://www.youtube.com/channel/UCzYYzigb1vXR0GQXXBja2kg)
       rss:: https://www.youtube.com/feeds/videos.xml?channel_id=UCzYYzigb1vXR0GQXXBja2kg
-      tags:: #podcast #Youtube #subscription \#.olitics #China
+      tags:: #podcast #Youtube #subscription itics #China
       created:: 20221220
     -
     -

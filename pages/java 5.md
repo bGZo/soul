@@ -6,7 +6,7 @@ created:: 20240612
   - [[java concurrency]]
     - [[java multithreading]]
   - [[generics]]
-- ## Feats \#.ol
+- ## Feats 
   - 泛型 (Generics)
   - 增强循环（Enhanced for Loop）
     collapsed:: true

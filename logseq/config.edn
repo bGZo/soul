@@ -207,7 +207,7 @@
         :charge-range    600
  }
 
- :favorites ["dashboard" "dashboard/para" "draft" "navigation" "history/burden"]
+ :favorites ["!soft laws" "dashboard" "draft" "navigation" "history/burden"]
 
 ;; :srs/learning-fraction 0.5
 

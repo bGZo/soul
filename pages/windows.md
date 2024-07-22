@@ -238,7 +238,7 @@ tags:: system
     - [坑] Windows 的绑定方式和 Office 的方式不同
       collapsed:: true
       - Windows 绑定主板 与 CPU, 在微软帐号里面无法查到, 但在 “设置”--“激活” 显示已经与帐号关联数字许可证激活
-      - 大体有以下几个版本 \#.ol
+      - 大体有以下几个版本 
         collapsed:: true
         - OEM / Original Equipment Manufacturer / 原始设备制造商
         - COEM / Certificate Original Equipment Manufactures / 原始设备制造商证书

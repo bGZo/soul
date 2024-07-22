@@ -6,7 +6,7 @@ created: 20240612
   - [[java exception]]
   - [[reflection]]
   -
-- ## Feats \#.ol
+- ## Feats 
   - 内部类 (inner classes)
   - 声明最终的局部变量(final local variables)、方法参数(method parameters,)和捕获子句参数(catch clause parameters)
   - 实例容器化 (Instance initializers)

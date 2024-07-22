@@ -5,7 +5,7 @@ created:: 20230413
 - [Jim Kurose Homepage (umass.edu)](https://gaia.cs.umass.edu/kurose_ross/index.php)
 - [COMPSCI 453 Computer Networking | Cybersecurity Institute (umass.edu)](https://infosec.cs.umass.edu/content/compsci-453553-computer-networking)
 -
-- ## [Online](https://www.youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu) Lectures  \#.ol-nested-2
+- ## [Online](https://www.youtube.com/playlist?list=PLm556dMNleHc1MWN5BX9B2XkwkNE2Djiu) Lectures  -nested-2
   collapsed:: true
   - CH 01
     collapsed:: true

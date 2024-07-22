@@ -10,7 +10,7 @@ wikipedia:: [Emotion - Wikipedia](https://en.wikipedia.org/wiki/Emotion)
   - [**Wheel of Emotions**](https://en.wikipedia.org/wiki/Emotion_classification#Plutchik's_wheel_of_emotions) by *Robert Plutchik*
     - ![🖼 ](../assets/2023/Plutchik-wheel--zh-cn.svg){:width 550}
       collapsed:: true
-      - 这张图很有意思：\#.ol
+      - 这张图很有意思：
         id:: 647de226-eb83-4164-bc71-8fbf5d96e649
         - 心如止水也算是一种“喜悦”；
         - 失去对未来的“期望”的人，是很难以一种乐观的心态活下去的，所以我们一定要找一点东西去热爱，这样虽然活不活得下去未卜，但一定对未来有所期待；

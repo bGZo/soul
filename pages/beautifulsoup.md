@@ -158,7 +158,7 @@ created:: 20230627
       - Going back and forth
         - `.next_element` 和 `.previous_element`
     - Searching the tree
-      - Kinds of filters \#.ol
+      - Kinds of filters 
         - String `soup.find_all('b')`
         - Regular expression `soup.find_all(re.compile("^b"))`
         - List `soup.find_all(["a", "b"])`

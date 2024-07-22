@@ -10,7 +10,7 @@ description:: 禁止 / 封杀 / 屏蔽
     - [为什么卢本伟开挂会被弄到封杀这么严重？ - 知乎](https://www.zhihu.com/question/296986768)
     - [美国有封杀劣迹艺人的事例吗？ - 知乎](https://www.zhihu.com/question/26032041)
   - 外国 封杀吗 #discuss
-- [[my]]
+- [[bGZo]]
   collapsed:: true
   - wechat #public via: [(TLDR) 微信小号 (无好友) 被限制登陆 == 永封 - V2EX](https://v2ex.com/t/857226#reply7)
     collapsed:: true

@@ -295,7 +295,7 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
   - template:: thought
     template-including-parent:: false
     - <!--Thoughts-->
-      tags:: #thought, #my
+      tags:: #thought, #bGZo
       feeling:: 
       description:: 
       created:: <% today %>

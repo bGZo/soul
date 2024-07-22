@@ -1,4 +1,5 @@
 tags:: #internet #China #public, #my/blog, #external_link
+
 - ### External links been killed
   collapsed:: true
   - 这周用 <https://steampy.com> 低价购入了 Dead Cells 的 CDKey, 虽然 Google Play 也买了, 但论搓起来的手感那是不能比的, 加上原本就早年就接触的, 主打手机市场的元气骑士, `Rogue` 算是给我创造了很多美好的回忆, 藉此机缘, 搜到了这篇文章 —— [触乐夜话：到底是“类Rogue”还是“轻度Rogue”](http://www.chuapp.com/?c=Article&id=288658). 文章比较权衡了`Roguelike` 和 `Roguelite` 的适用范围, 写得很棒, 是很少能在国内媒体看到的长文, 但高兴之余, 也有 2 点担忧:

@@ -20,9 +20,9 @@ exclude-from-graph-view:: true
     - ## What
       -
 - ## Why
-  - As I said, ((646ad604-3548-4c57-a41a-4c551df8a8cc)), **every page should have a template page**, then we could type more productive.
+  - As I said, **every page should have a template page**, then we could type more productive.
 - ## How
-  - How to write the template in a standard way? \#.ol
+  - How to write the template in a standard way? 
     - Using page template as soon as possible, giving up the block template.
     - Sort the properties by the initial.
     - Don't add the `[[]]` in `page_name`.

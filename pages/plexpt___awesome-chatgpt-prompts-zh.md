@@ -1,6 +1,6 @@
 tags:: #chatGPT
 - [awesome-chatgpt-prompts-zh/README.md at main · PlexPt/awesome-chatgpt-prompts-zh · GitHub](https://github.com/PlexPt/awesome-chatgpt-prompts-zh/blob/main/README.md?plain=1)
-- https://raw.githubusercontent.com/PlexPt/awesome-chatgpt-prompts-zh/main/prompts-zh.json \#.ol
+- https://raw.githubusercontent.com/PlexPt/awesome-chatgpt-prompts-zh/main/prompts-zh.json 
   - #+BEGIN_EXAMPLE
       \{\n    "act": "(.*)",\n    "prompt": "(.*)"\n  \},\n
     - $1\n  - `$2`\n

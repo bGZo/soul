@@ -1,19 +1,18 @@
-blog:: [Logseq Blog](https://blog.logseq.com/)
-changelog:: [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changelog.md](https://github.com/logseq/docs/blob/master/pages/Changelog.md?plain=1)
-community:: [Logseq Community Hub](https://hub.logseq.com/);
-document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://mschmidtkorth.github.io/logseq-msk-docs)
+alias:: tools/logseq 
 created:: 20210801
-tags:: #tools
-collapsed:: true
+description:: 
+icon:: 📄
 
 - ## Why
+  collapsed:: true
   - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[Privacy]], [[censor]], with high [[price]] and bullshit user agreement.
     - ((64772db8-4367-4d35-b2ca-fed0e45bdd2c))
   - Basically, it's better that encoding with txt and search in [[vscode]]. I used it in the past but I was dropped in the category hell. When I finish a note last two months, and I have no idea where are they stored. The category I organized is terrible. And the ((6474b5f9-a287-48d9-a097-3400b8de53f7)). I like it.
-  - I've learned a lot of things, not only how to note, how to remember, but also a few philosophy of organizing the whole [[knowledge]] system. (See ((646ad604-3548-4c57-a41a-4c551df8a8cc)))
+  - I've learned a lot of things, not only how to note, how to remember, but also a few philosophy of organizing the whole [[knowledge]] system.
 - ## How
-  - How to use logseq fully? What's the design they are? \#.ol
-    - The configuration, stored in `config.edu` file, which included  a few functions hidden: \#.ol
+  collapsed:: true
+  - How to use logseq fully? What's the design they are?
+    - The configuration, stored in `config.edu` file, which included  a few functions hidden: 
       collapsed:: true
       - [Feature: add codemirror options by andelf · Pull Request #3699 · logseq/logseq](https://github.com/logseq/logseq/pull/3699) via:
         collapsed:: true
@@ -144,7 +143,7 @@ collapsed:: true
       - Right click to select copy this position
     - [Online LaTeX Equation Editor - create, integrate, download](https://latex.codecogs.com) #[[latex]] #[[bookmark]]
     - `@@` use html code!
-    - There are many tools [[deprecated]] as following, #Closed  \#.ol
+    - There are many tools [[deprecated]] as following, #Closed  
       collapsed:: true
       - [Zotero | Your personal research assistant](https://www.zotero.org/)
         - **Alternatives**
@@ -314,9 +313,49 @@ collapsed:: true
     collapsed:: true
     - https://logseq.github.io/#/page/publishing%20(desktop%20app%20only)
 - ## What
+  - Logseq gives us a vision we could organize
+    id:: 6474b5f9-a287-48d9-a097-3400b8de53f7
+    collapsed:: true
+    - Journals in each day
+    - Using bi-directional links and graph to connect.
+      - Although it's really slow.
+  - [笔记软件为何需要本地存储？ - Skywind Inside](https://www.skywind.me/blog/archives/2582)
+    id:: 64772db8-4367-4d35-b2ca-fed0e45bdd2c
+    collapsed:: true
+    - 不要忘记历史：
+      - Evernote：导出备份的 .enex 文件， 再导入时提示有几篇日志图片 太多，没有会员无 法导入。
+      - 印象笔记：用户因为从 Evernote 导入到印象笔记时触发了一个 BUG，五年笔 记丢失。新版本禁止导出公开格式的 .enex 文件，只能导出自己加密的 .note 格式，别的软件无法识别，只能映像笔记自己导出导入。
+      - Notion：因为服务器在境外，偶尔会有无法访问的情况。未来有被墙的风险。
+      - ==Wolai==：CEO 公开声称用户上传非法信息要报警。CEO 公开声称自己审查用户笔记。公开挂程面试序员的隐私信息。
+      - 百度：百度盘扫描用户上传文件并做精准广告推送（上传证件图片的人被推荐电子证件钱包） 百度盘替换用户视频，换成净网行动的宣传视频。
+      - 某在线文档：用户用在线编辑的文稿，因为保存到在线云盘，数日后触发关键字被删除。
+      - 语雀：本来免费的，近期突然宣布新的收费策略，规定免费用户总文档数量不能超过 100 篇（包括小记、文档、数据表、表格、画板等），见这里：[如何看待语雀付费策略](https://www.zhihu.com/question/562238887)？遭到大量投诉后又改为：免费用户每月 100篇，还是无法分享。
+    - 当年 github 就是天天被码云投诉，然后被墙掉了（不一定全是因为它，但它投诉了不少）；现在码云又在投诉仅有的 gitlab ，oschina 上天天看得到 gitlab 的黑文章，比如：
+    - [扒一扒极狐 GitLab 的底裤 – OSCHINA – 中文开源技术交流社区](https://www.oschina.net/news/201455)
+    - OSCHINA 和码云是一家，天天发这些，也不标注下 “利益相关”，兴许各位的 notion 最近经常不容易访问到，也是被国内的竞争对手天天举报吧？按某些公司的尿性，面试程序员的隐私可以挂，用户的笔记随便审核举报，投诉下它 notion 简直小儿科，也许哪天真的就完全用不了。
+    - 因此，你的笔记如果打算保留十年以上，请选择支持本地存储+公开格式（最好文本）的软件，前者在于自己掌握数据，后者在于自己保留可以随时离开的权力。
+  - Dynamic Variable `<%  %>`
+    collapsed:: true
+    - ```
+      today => [[Today's journal page]]
+      yesterday => [[Yesterday's journal page]]
+      tomorrow => [[Tomorrow's journal page]]
+      time => Current time, e.g. 22:44
+      current page => [[Current page]]
+      Natural language date
+        - Today, Tomorrow, Yesterday, Last Friday, etc
+        - 17 August 2013 - 19 August 2013
+        - This Friday from 13:00 - 16.00
+        - 5 days ago
+        - 2 weeks from now
+        - Sat Aug 17 2013 18:40:39 GMT+0900 (JST)
+        - 2014-11-30T08:15:30-05:30
+      Last Friday => [[Feb 12th, 2021]]
+      ```
+      via: [Dynamic Variables](https://docs.logseq.com/#/page/Dynamic%20Variables) by [Templates injecting dynamic dates (and placeholders/arguments) - Feature Requests - Logseq](https://discuss.logseq.com/t/templates-injecting-dynamic-dates-and-placeholders-arguments/833)
+- ## Alternatives
   - What I used in past #note
     id:: 6474b5b1-ad1a-47c3-bc2c-4343950295a9
-    collapsed:: true
     - https://www.cnblogs.com
       logseq.order-list-type:: number
     - https://blog.csdn.net
@@ -351,58 +390,19 @@ collapsed:: true
       logseq.order-list-type:: number
     - https://note.wiz.cn
       logseq.order-list-type:: number
-  - Logseq gives us a vision we could organize
-    id:: 6474b5f9-a287-48d9-a097-3400b8de53f7
-    collapsed:: true
-    - Journals in each day
-    - Using bi-directional links and graph to connect.
-      - Although it's really slow.
-  - [笔记软件为何需要本地存储？ - Skywind Inside](https://www.skywind.me/blog/archives/2582)
-    id:: 64772db8-4367-4d35-b2ca-fed0e45bdd2c
-    collapsed:: true
-    - 不要忘记历史：
-      - Evernote：导出备份的 .enex 文件， 再导入时提示有几篇日志图片 太多，没有会员无 法导入。
-      - 印象笔记：用户因为从 Evernote 导入到印象笔记时触发了一个 BUG，五年笔 记丢失。新版本禁止导出公开格式的 .enex 文件，只能导出自己加密的 .note 格式，别的软件无法识别，只能映像笔记自己导出导入。
-      - Notion：因为服务器在境外，偶尔会有无法访问的情况。未来有被墙的风险。
-      - ==Wolai==：CEO 公开声称用户上传非法信息要报警。CEO 公开声称自己审查用户笔记。公开挂程面试序员的隐私信息。
-      - 百度：百度盘扫描用户上传文件并做精准广告推送（上传证件图片的人被推荐电子证件钱包） 百度盘替换用户视频，换成净网行动的宣传视频。
-      - 某在线文档：用户用在线编辑的文稿，因为保存到在线云盘，数日后触发关键字被删除。
-      - 语雀：本来免费的，近期突然宣布新的收费策略，规定免费用户总文档数量不能超过 100 篇（包括小记、文档、数据表、表格、画板等），见这里：[如何看待语雀付费策略](https://www.zhihu.com/question/562238887)？遭到大量投诉后又改为：免费用户每月 100篇，还是无法分享。
-    - 当年 github 就是天天被码云投诉，然后被墙掉了（不一定全是因为它，但它投诉了不少）；现在码云又在投诉仅有的 gitlab ，oschina 上天天看得到 gitlab 的黑文章，比如：
-    - [扒一扒极狐 GitLab 的底裤 – OSCHINA – 中文开源技术交流社区](https://www.oschina.net/news/201455)
-    - OSCHINA 和码云是一家，天天发这些，也不标注下 “利益相关”，兴许各位的 notion 最近经常不容易访问到，也是被国内的竞争对手天天举报吧？按某些公司的尿性，面试程序员的隐私可以挂，用户的笔记随便审核举报，投诉下它 notion 简直小儿科，也许哪天真的就完全用不了。
-    - 因此，你的笔记如果打算保留十年以上，请选择支持本地存储+公开格式（最好文本）的软件，前者在于自己掌握数据，后者在于自己保留可以随时离开的权力。
-  - What I learned about [[pkm]]?
-    id:: 646ad604-3548-4c57-a41a-4c551df8a8cc
-    - #+BEGIN_PINNED
-      [^1] **Every page should have a [[template]] page refer to parent class**.
-      2 Everything could be page, which could linked somewhere else in graph.
-      3 ((63bac790-01ec-4ada-a89b-89724b3041c4))
-      #+END_PINNED
-      - What's I mean? Even a `[[logseq]]` page I also should use `[[tool]]` template
-  - Dynamic Variable `<%  %>`
-    collapsed:: true
-    - ```
-      today => [[Today's journal page]]
-      yesterday => [[Yesterday's journal page]]
-      tomorrow => [[Tomorrow's journal page]]
-      time => Current time, e.g. 22:44
-      current page => [[Current page]]
-      Natural language date
-        - Today, Tomorrow, Yesterday, Last Friday, etc
-        - 17 August 2013 - 19 August 2013
-        - This Friday from 13:00 - 16.00
-        - 5 days ago
-        - 2 weeks from now
-        - Sat Aug 17 2013 18:40:39 GMT+0900 (JST)
-        - 2014-11-30T08:15:30-05:30
-      Last Friday => [[Feb 12th, 2021]]
-      ```
-      via: [Dynamic Variables](https://docs.logseq.com/#/page/Dynamic%20Variables) by [Templates injecting dynamic dates (and placeholders/arguments) - Feature Requests - Logseq](https://discuss.logseq.com/t/templates-injecting-dynamic-dates-and-placeholders-arguments/833)
-  - [Latest Look what I built topics - Logseq](https://discuss.logseq.com/c/look-what-i-built/11) #[[Kill Time]] #reading
+- ## Namespace
+  - {{namespace logseq}}
+- ## ↩ Reference
+  - https://discuss.logseq.com/c/look-what-i-built #[[kill time]]
   - [logseq/awesome-logseq: Awesome Logseq resources created by the community <3 (github.com)](https://github.com/logseq/awesome-logseq)
   - [Roadmap](https://trello.com/b/8txSM12G/roadmap)
   - [求推荐：知识管理-电子书阅读管理 APP？ - V2EX](https://www.v2ex.com/t/826204)
   - [知识信息组织索引工具推荐 - V2EX](https://www.v2ex.com/t/222874)
   - [有什么比较好的用于摘抄网页的工具吗 - V2EX](https://www.v2ex.com/t/797881)
   -
+-
+- collapsed:: true
+  blog:: [Logseq Blog](https://blog.logseq.com/)
+  changelog:: [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changelog.md](https://github.com/logseq/docs/blob/master/pages/Changelog.md?plain=1)
+  community:: [Logseq Community Hub](https://hub.logseq.com/);
+  document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://mschmidtkorth.github.io/logseq-msk-docs)

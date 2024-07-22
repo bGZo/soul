@@ -38,7 +38,7 @@ created:: 20230111
       - 第16章介绍如何使用Spring Boot Admin。它是构建在Actuator之上的一个对用户友好的基于浏览器的管理应用。
       - 第17章讨论如何将Spring bean暴露为JMX MBean，以及如何消费它们。
       - 最后，第18章介绍如何将Spring应用部署到各种生产环境中，包括Kubernetes。
-  - 第1部分 Spring基础 \#.ol-nested-3
+  - 第1部分 Spring基础 -nested-3
     collapsed:: true
     - Spring起步
       collapsed:: true
@@ -97,7 +97,7 @@ created:: 20230111
         - Spring Initializr
           description:: 基于浏览器的Web应用 / REST API, 能够生成一个Spring项目结构的骨架
           collapsed:: true
-          - 使用方式 \#.ol
+          - 使用方式 
             collapsed:: true
             - 通过地址为 https://start.spring.io/ 的Web应用；
             - 在命令行中使用curl命令；
@@ -392,12 +392,12 @@ created:: 20230111
             ```
         - 1.3.5 了解Spring Boot DevTools
           collapsed:: true
-          - DevTools \#.ol
+          - DevTools 
             description:: 提供了一些便利的开发期工具和特性
             collapsed:: true
             - 代码热更新, 自动重启；
               collapsed:: true
-              - 刚启用, 应用程序会加载到JVM中的 2 个独立的类加载器中 \#.ol
+              - 刚启用, 应用程序会加载到JVM中的 2 个独立的类加载器中 
                 collapsed:: true
                 - 加载代码 / 属性文件 / 项目的 `src/main/` 下几乎所有内容
                   collapsed:: true
@@ -443,7 +443,7 @@ created:: 20230111
             - `REST API` Web
           - 数据持久化 JdbcTemplate
           - Reactive 反应式风格编程 -> Spring WebFlux的新反应式Web框架
-        - 1.4.2 Spring Boot 提供 \#.ol
+        - 1.4.2 Spring Boot 提供 
           collapsed:: true
           - starter依赖
           - 自动配置
@@ -453,7 +453,7 @@ created:: 20230111
           - 在核心框架的测试辅助功能之上，提供了对测试的额外支持
           - 基于Groovy脚本的编程模型 / Spring Boot CLI
             description:: 将整个应用程序编写为Groovy脚本的集合，并通过命令行运行它们
-        - 1.4.3 Spring Data \#.ol
+        - 1.4.3 Spring Data 
           collapsed:: true
           - 将应用程序的数据存储库(repository)定义为简单的Java接口，在定义存储和检索数据的方法时使用一种特定的命名约定即可
           - 处理多种不同类型的数据库
@@ -461,7 +461,7 @@ created:: 20230111
             - 关系型数据库（通过JDBC或JPA实现）
             - 文档数据库(Mongo)
             - 图数据库(Neo4j)
-        - 1.4.4 Spring Security (范围太大) \#.ol
+        - 1.4.4 Spring Security (范围太大) 
           collapsed:: true
           - 包括身份验证
           - 授权和API安全性
@@ -567,7 +567,7 @@ created:: 20230111
           - 硬编码???
         - 2.1.2 创建控制器类
           collapsed:: true
-          - Spring 提供了多种定义视图的方式 \#.ol
+          - Spring 提供了多种定义视图的方式 
             collapsed:: true
             - JavaServer Pages(JSP)
             - Thymeleaf
@@ -843,7 +843,7 @@ created:: 20230111
             description:: 接受查询所使用的SQL及Spring RowMapper的一个实现（用来将结果集中的每行数据映射为一个对象）; 以最终参数(final argument)的形式接收查询中所需的任意参数
           - 必须先将数据写入数据库，才能读取它
             collapsed:: true
-            - Cases \#.ol #chatGPT
+            - Cases  #chatGPT
               description:: keep in mind that a database is a persistent storage, so any changes made to the data must be saved/committed to the database before it can be read back.
               collapsed:: true
               - When data is updated: If you want to read the updated data, you must first write the updated data to the database. This is because the database will not reflect the updated data until it is written.
@@ -932,7 +932,7 @@ created:: 20230111
                 - 这种方式对关系型数据库和非关系型数据库同样有效
         - collapsed:: true
           ---
-          - `Spring Data`(伞形项目) 子项目 \#.ol
+          - `Spring Data`(伞形项目) 子项目 
             description:: Spring Data为各种项目提供基于存储库规范接口自动创建存储库的特性, 很少（甚至没有）持久化相关的逻辑，只需要编写一个或多个存储库接口
             collapsed:: true
             - Spring Data JDBC：对关系型数据库进行JDBC持久化。
@@ -1003,7 +1003,7 @@ created:: 20230111
               - 断言是方法签名中最为有意思的一部分
                 - deliveryZip属性的值必须要等于方法第一个参数传入的值
                 - 关键字Between表明placedAt属性的值必须要位于方法最后两个参数的值之间
-              - 除了Equals和Between操作之外, 还有 \#.ol
+              - 除了Equals和Between操作之外, 还有 
                 - IsAfter、After、IsGreaterThan、GreaterThan；
                 - IsGreaterThanEqual、GreaterThanEqual；
                 - IsBefore、Before、 IsLessThan、LessThan；
@@ -1535,7 +1535,7 @@ created:: 20230111
       collapsed:: true
       - 8.1 OAuth 2简介
         collapsed:: true
-        - 方案 \#.ol
+        - 方案 
           - ==HTTP Basic 认证==来保护“/ingredients”的端点
             - 通过为处理器方法添加@PreAuthorize来实现
               collapsed:: true
@@ -1829,7 +1829,7 @@ created:: 20230111
       - 18.4 构建和部署WAR文件
       - 18.5 以终为始
       - 小结
-- ## [[Comment]] \#.ol
+- ## [[Comment]] 
   - Fuck 异步社区, Download resource need account
   - collapsed:: true
     #+BEGIN_NOTE
@@ -1935,7 +1935,7 @@ created:: 20230111
               - `application/zstd` (.zst)
               - When make a post request, encode the data that forms
                 via: [html - What does enctype='multipart/form-data' mean? - Stack Overflow](https://stackoverflow.com/questions/4526273/what-does-enctype-multipart-form-data-mean)
-                - HTML forms provide [three methods of encoding](https://www.w3.org/html/wg/spec/association-of-controls-and-forms.html#attr-fs-enctype). \#.ol
+                - HTML forms provide [three methods of encoding](https://www.w3.org/html/wg/spec/association-of-controls-and-forms.html#attr-fs-enctype). 
                   - `application/x-www-form-urlencoded` (the default)
                     - be more efficient than 2
                   - `multipart/form-data`
