@@ -1,4 +1,4 @@
-alias:: books/how-to-live-longer
+also:: books/how-to-live-longer
 author:: geekan
 published-date:: 
 source:: [geekan/HowToLiveLonger: 程序员延寿指南 | A programmer's guide to live longer](https://github.com/geekan/HowToLiveLonger)

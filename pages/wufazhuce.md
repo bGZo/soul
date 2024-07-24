@@ -1,1 +1,1 @@
-alias:: ONE · 一个
+also:: ONE · 一个

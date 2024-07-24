@@ -1,1 +1,1 @@
-alias:: javascript/scmascript
+also:: javascript/scmascript

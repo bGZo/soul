@@ -1,6 +1,6 @@
-alias:: tools/docker
+also:: tools/docker
 icon:: 🐳
-created:: 20240524
+created:: [[20240524]]
 
 - ## Why
 - ## How

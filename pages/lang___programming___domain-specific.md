@@ -1,4 +1,4 @@
-alias:: DSL
+also:: DSL
 
 - [Zoo of domain-specific languages – Domain-specific languages](http://dsl-course.org/zoo-of-dsls/) #[[2022 archive]]
   collapsed:: true

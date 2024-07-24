@@ -1,5 +1,5 @@
-alias:: commands/mount, 挂载
-created:: 20231217
+also:: commands/mount, 挂载
+created:: [[20231217]]
 icon:: ⌘
 - ## Why
 - ## How

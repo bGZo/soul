@@ -1,5 +1,5 @@
 icon:: 🇨🇳
-alias:: 中国
+also:: 中国
 
 - Hierarchy
   collapsed:: true

@@ -1,4 +1,4 @@
-alias:: cpp/stl/set
+also:: cpp/stl/set
 - set 容器内的元素会被自动排序，set 与 map 不同，set 中的元素即是键值又是实值，set 不允许两个元素有相同的键值。不能通过 set 的迭代器去修改 set 元素，原因是修改元素会破坏 set 组织。
 - 用法:
   - ``` c++

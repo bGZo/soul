@@ -1,2 +1,2 @@
-alias:: jsr
+also:: jsr
 tags:: java

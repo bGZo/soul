@@ -1,5 +1,5 @@
-alias:: 正则表达式
-created:: 20240421
+also:: 正则表达式
+created:: [[20240421]]
 tags:: #tools
 
 - ## Why

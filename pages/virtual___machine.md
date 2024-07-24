@@ -1,3 +1,3 @@
-alias:: vm
+also:: vm
 -
 -

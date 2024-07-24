@@ -1,2 +1,2 @@
-alias:: music/song
+also:: music/song
 -

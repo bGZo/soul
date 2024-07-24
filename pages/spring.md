@@ -1,5 +1,5 @@
 tags:: #java/framework
-created:: 20230728
+created:: [[20230728]]
 
 - ## [[java]]
   - ### Why

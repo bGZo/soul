@@ -1,1 +1,1 @@
-alias:: Solid State Drive
+also:: Solid State Drive

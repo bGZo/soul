@@ -1,7 +1,7 @@
 ---
 created: 2012-04-06
 ---
-alias:: 我的恋人, my/soulmate
+also:: 我的恋人, my/soulmate
 tags:: #feminism #Love
 created:: 2023-01-01
 - ## 几乎是幻想

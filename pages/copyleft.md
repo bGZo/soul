@@ -1,4 +1,4 @@
-alias:: free-software/copyleft
+also:: free-software/copyleft
 -
 - 自由软件运动为了保护这种自由而发展的概念：它允许他人任意的修改散布作品，惟其散布及修改的行为和作法，亦限定以Copyleft的方式行之
   id:: 62516e1d-9c80-4107-b135-0605740dfda0

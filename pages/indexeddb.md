@@ -1,1 +1,1 @@
-alias:: database/nosql/indexedDB
+also:: database/nosql/indexedDB

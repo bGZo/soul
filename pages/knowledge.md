@@ -1,3 +1,3 @@
 icon:: 📚
-alias:: 知识
+also:: 知识
 tags:: #info

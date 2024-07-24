@@ -1,1 +1,1 @@
-alias:: thought/love
+also:: thought/love

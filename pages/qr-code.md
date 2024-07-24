@@ -1,4 +1,4 @@
-alias:: Quick Response Code, 二维码, QR码, 快速响应矩阵图码
+also:: Quick Response Code, 二维码, QR码, 快速响应矩阵图码
 description:: https://en.wikipedia.org/wiki/QR_code
 tags:: #encoding
 

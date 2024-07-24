@@ -1,4 +1,4 @@
-alias:: cpp/stl
+also:: cpp/stl
 tags:: #[[data-structure]], #[[algorithm]]
 
 - [[cpp]] STL 内置用法:

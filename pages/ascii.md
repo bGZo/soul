@@ -1,6 +1,6 @@
 icon:: 📄
-alias:: 美国信息交换标准代码
-created:: 20240713
+also:: 美国信息交换标准代码
+created:: [[20240713]]
 description:: 计算机只能处理数字，如果要处理文本，就必须先把文本转换为数字才能处理.最早只有127个字母被编码到计算机里，也就是大小写英文字母、数字和一些符号，这个编码表被称为ASCII编码，比如大写字母A的编码是65，小写字母z的编码是122 ASCII 码使用7位二进制数来表示128个字符，也就是用一个字节来表示，最前的一位默认为 0。
 tags:: #encoding/character 
 wikipedia:: https://en.wikipedia.org/wiki/ASCII

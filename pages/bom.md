@@ -1,4 +1,4 @@
-alias:: javascript/bom, web/api/bom
+also:: javascript/bom, web/api/bom
 tags:: #browser
 description:: Browser Object Model / 浏览器对象模型
 

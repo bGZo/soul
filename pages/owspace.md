@@ -1,4 +1,4 @@
-alias:: 单向空间, 十三邀, 单向咖啡, 单向历
+also:: 单向空间, 十三邀, 单向咖啡, 单向历
 bookmark:: [单向空间 (owspace.com)](https://www.owspace.com/)
   - 单向空间旗下子品牌包含
     - 单读（全媒体出版品牌） #owspace/read

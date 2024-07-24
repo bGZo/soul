@@ -1,4 +1,4 @@
-alias:: screen, 显示器, 屏幕
+also:: screen, 显示器, 屏幕
 tags:: #3C
 
 - ## Standard
@@ -18,7 +18,7 @@ tags:: #3C
         - title:: [显示器到底该俯视，还是仰视，还是平视呢？ - 知乎](https://www.zhihu.com/question/20307385)
           author:: 
           tags:: #archive/web
-          created:: 20221121
+          created:: [[20221121]]
           description:: 
           archive:: [💾 Archived](../assets/archived_web/显示器到底该俯视，还是仰视，还是平视呢？ - 知乎 (11_21_2022 10_46_36 PM).html)
         - [看屏幕是仰视、俯视、还是平视好？ - V2EX](https://www.v2ex.com/t/763790)

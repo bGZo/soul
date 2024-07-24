@@ -1,4 +1,4 @@
-created:: 20240630
+created:: [[20240630]]
 description:: 软件命名规则：后缀篇
 
 - ## Why

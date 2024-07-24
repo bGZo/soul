@@ -1,5 +1,5 @@
-alias:: 自动化
-created:: 20211231
+also:: 自动化
+created:: [[20211231]]
 description:: https://github.com/bGZo/2021
 
 - #+BEGIN_PINNED

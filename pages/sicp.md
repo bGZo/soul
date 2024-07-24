@@ -1,4 +1,4 @@
-alias:: Structure and Interpretation of Computer Programs, book/sicp
+also:: Structure and Interpretation of Computer Programs, book/sicp
 published-date:: 
 tags:: TODO
 source:: https://book.douban.com/subject/

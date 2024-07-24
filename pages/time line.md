@@ -1,2 +1,2 @@
-alias:: 时间线, time/line
+also:: 时间线, time/line
 icon:: ⚽

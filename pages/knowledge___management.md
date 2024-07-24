@@ -1,4 +1,4 @@
-alias:: knowledge management, 知识管理
+also:: knowledge management, 知识管理
 
 - ## Directories
   - Google

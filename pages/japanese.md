@@ -1,4 +1,4 @@
-alias:: lang/japanese, 日语
+also:: lang/japanese, 日语
 -
 -
 -

@@ -1,6 +1,6 @@
-alias:: pgsql
+also:: pgsql
 tags:: #database/object–relational
-created:: 20230822
+created:: [[20230822]]
 - ## Why
   - [[vs]] [[mysql]] Ref [彦祖们， pg 还是 mysql? 到底该怎么选？ - V2EX](https://v2ex.com/t/800592)
     - [MySQL :: MySQL Restrictions and Limitations :: 12 Limits in MySQL](https://dev.mysql.com/doc/mysql-reslimits-excerpt/8.0/en/limits.html)

@@ -1,4 +1,4 @@
-alias:: 憤世嫉俗, 愤世嫉俗, negative, emo
+also:: 憤世嫉俗, 愤世嫉俗, negative, emo
 description:: 憤恨不合理的社會現狀，憎恨邪惡的勢力。語本唐．韓愈〈雜說〉四首之三。後用「憤世嫉俗」形容對腐敗的社會現狀及庸俗世態的痛恨。
 
   - title:: **misanthrope**

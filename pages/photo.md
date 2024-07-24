@@ -1,4 +1,4 @@
-alias:: design/photo
+also:: design/photo
 icon:: 📷
 - [[compress]]
   collapsed:: true

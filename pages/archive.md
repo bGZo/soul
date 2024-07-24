@@ -1,6 +1,6 @@
 icon:: 💾
-alias:: para/archive, 存档
-created:: 20240719
+also:: para/archive, 存档
+created:: [[20240719]]
 template:: archive(default: web)
 template-including-parent:: false
 

@@ -1,7 +1,7 @@
-alias:: Tools/VLC
+also:: Tools/VLC
 icon:: ⏯️
 tags:: #Video
-created:: 20200118
+created:: [[20200118]]
 - ## Why
   - Cross Platform.
   - Open source.

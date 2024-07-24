@@ -1,2 +1,2 @@
-alias:: latter/search
+also:: latter/search
 -

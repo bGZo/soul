@@ -1,7 +1,7 @@
-alias:: 年度, 年度总结, 复盘
+also:: 年度, 年度总结, 复盘
 icon:: 📅
 tags:: #scheduled
-created:: 20230602
+created:: [[20230602]]
 
 - ## Why
   - Work flow.

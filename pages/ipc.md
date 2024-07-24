@@ -1,4 +1,4 @@
-alias:: Inter Process Communication, 进程间通信
+also:: Inter Process Communication, 进程间通信
 
   - 通信类
     collapsed:: true

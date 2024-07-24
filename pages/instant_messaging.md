@@ -1,4 +1,4 @@
-alias:: IM, Instant Messaging
+also:: IM, Instant Messaging
 description:: used by social messengers, messaging apps or chat apps
 description:: [Instant messaging - Wikipedia](https://en.wikipedia.org/wiki/Instant_messaging);
 

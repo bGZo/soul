@@ -1,4 +1,4 @@
-alias:: 糖尿病
+also:: 糖尿病
 created:: 2022
 
 - diabetes mellitus, DM

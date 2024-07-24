@@ -1,4 +1,4 @@
-alias:: music/lyrics
+also:: music/lyrics
 - Last Order -- 陈奕迅
   - > 没关系 真的没关系 我也许早就该回去
     再一杯 我告诉自己 到此为止 干了不再续

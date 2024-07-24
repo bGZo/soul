@@ -1,4 +1,4 @@
-alias:: question/javascript
+also:: question/javascript
   - Variable
     collapsed:: true
     - var #[[vs]] let #[[vs]] const

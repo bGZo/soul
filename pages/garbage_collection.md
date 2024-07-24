@@ -1,4 +1,4 @@
-alias:: Garbage Collection, 垃圾回收
+also:: Garbage Collection, 垃圾回收
 tags:: #python ang #ruby #lang/programming/javascript
 
 - [Garbage collection (computer science) - Wikipedia](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))

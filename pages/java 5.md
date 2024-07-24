@@ -1,5 +1,5 @@
 icon:: ☕
-created:: 20240612
+created:: [[20240612]]
 
 - ## What
   - [[reflection]]

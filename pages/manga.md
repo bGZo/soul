@@ -1,12 +1,11 @@
-alias:: comic, 漫画，acgn/comic
-created:: 20240721
+also:: comic, 漫画，acgn/comic
+created:: [[20240721]]
 icon:: 📔
 template:: manga
 template-including-parent:: false
 
   - title:: 
-    alias:: 
-    desc:: 
+    also:: 
     tags:: #manga
     author:: 
     publisher:: 

@@ -1,5 +1,5 @@
 icon:: 🙄
-alias:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
+also:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
 
 - **Generally**, I hate [[software]] [[design]] with
   collapsed:: true

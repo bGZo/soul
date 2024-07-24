@@ -1,4 +1,4 @@
-alias:: monotone-stack
+also:: monotone-stack
 
 - TODO Monotone Stack 没有理解
 -

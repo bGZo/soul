@@ -1,4 +1,4 @@
-alias:: 时间复杂度, 空间复杂度
+also:: 时间复杂度, 空间复杂度
 tags:: #algorithm
 description:: [复杂度 - OI Wiki](https://oi-wiki.org/basic/complexity/)
 

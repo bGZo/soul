@@ -1,4 +1,4 @@
-alias:: develop/roadmap
+also:: develop/roadmap
 tags:: TODO
 
 - Refs via: [study-plan · GitHub Topics](https://github.com/topics/study-plan) & https://github.com/search?q=stars:>100000

@@ -1,4 +1,4 @@
-alias:: 消费
+also:: 消费
 
 - description::  / 消耗 (殆尽)
   - #vs [[buy]]/Purchase

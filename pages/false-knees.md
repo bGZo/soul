@@ -1,4 +1,4 @@
-alias:: 我能有什么坏心思呢, book/我能有什么坏心思呢
+also:: 我能有什么坏心思呢, book/我能有什么坏心思呢
 author:: 乔舒亚·巴克曼 Joshua Barkman
 publisher:: 四川文艺出版社
 published-date:: 20211101

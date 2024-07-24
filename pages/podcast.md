@@ -1,11 +1,11 @@
-alias:: 播客, hobby/podcast
-created:: 20230603
+also:: 播客, hobby/podcast
+created:: [[20230603]]
 icon:: 🎧
 
   - template:: podcast
     template-including-parent:: false
     collapsed:: true
-    - alias:: 
+    - also:: 
       author:: 
       cover:: 
       description:: 

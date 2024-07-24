@@ -1,2 +1,2 @@
 icon:: 
-alias:: Google
+also:: Google

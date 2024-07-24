@@ -1,3 +1,3 @@
-alias:: civil-service/question
+also:: civil-service/question
 tags:: #deprecated
 -

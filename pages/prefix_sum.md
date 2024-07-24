@@ -1,4 +1,4 @@
-alias:: algo/prefix_sum, 前缀最大和, 前缀和
+also:: algo/prefix_sum, 前缀最大和, 前缀和
 
 - ## Inclusion and Exclusion(容斥原理/排容原理)
   - 离散数学/组合数学中的容斥定理

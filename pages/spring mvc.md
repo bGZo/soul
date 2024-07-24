@@ -1,2 +1,2 @@
-alias:: springmvc, spring/mvc
+also:: springmvc, spring/mvc
 -

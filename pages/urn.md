@@ -1,6 +1,6 @@
 icon:: 📄
-alias:: 统一资源名称
-created:: 20240713
+also:: 统一资源名称
+created:: [[20240713]]
 description:: 与 URL 不同，URN 不提供任何关于如何定位资源的信息；它只是标识它，就像一个纯 URI 一样。具体来说，URN 是一种带有 "urn" 方案的 URI
 
 - ## Why

@@ -1,2 +1,2 @@
-alias:: 偏差
+also:: 偏差
 tags:: biases

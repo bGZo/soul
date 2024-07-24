@@ -1,1 +1,1 @@
-alias:: area/health, 健康
+also:: area/health, 健康

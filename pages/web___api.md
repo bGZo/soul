@@ -1,4 +1,4 @@
-alias:: api/web
+also:: api/web
 description::  an application programming interface for either a web server or a web browser
 
 - Refs

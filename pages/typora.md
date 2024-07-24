@@ -1,4 +1,4 @@
-alias:: tool/typora
+also:: tool/typora
 
 - Shortcuts
   collapsed:: true

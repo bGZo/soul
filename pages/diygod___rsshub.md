@@ -1,4 +1,4 @@
-alias:: 
+also:: 
 created::  [[20240324]]
 tags:: #github/repo #rss
 source:: https://github.com/DIYgod/RSSHub

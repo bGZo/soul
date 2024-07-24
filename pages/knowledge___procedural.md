@@ -1,4 +1,4 @@
-alias:: procedural/knowledge, knowing-how, practical knowledge, imperative knowledge, performative knowledge, 过程型知识
+also:: procedural/knowledge, knowing-how, practical knowledge, imperative knowledge, performative knowledge, 过程型知识
 wikipedia:: [Procedural knowledge - Wikipedia](https://en.wikipedia.org/wiki/Procedural_knowledge);
   - Know how to perform some task, including knowing how to perform it skillfully. Such as **how to ride a bike, how to drive a car, or how to use computer, etc**.
   - #vs [[declarative]]

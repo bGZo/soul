@@ -1,4 +1,4 @@
-alias:: books/unix编程艺术
+also:: books/unix编程艺术
 author:: Eric S·Raymond
 publisher:: 电子工业出版社
 published-date:: 20060200

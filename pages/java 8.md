@@ -1,5 +1,5 @@
 icon:: ☕
-created:: 20240612
+created:: [[20240612]]
 
 - ## Feats
   - **Lambda 表达式 (Lambda Expressions)**

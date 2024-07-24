@@ -1,4 +1,4 @@
-alias:: IntelliJ-IDEA, IntelliJ IDEA
+also:: IntelliJ-IDEA, IntelliJ IDEA
 tags:: #tools
 [IntelliJ IDEA – the Leading Java and Kotlin IDE (jetbrains.com)](https://www.jetbrains.com/idea/)
 

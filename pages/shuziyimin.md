@@ -1,5 +1,5 @@
-alias:: 数字移民
-created:: 20240102
+also:: 数字移民
+created:: [[20240102]]
 tags:: #migrant/digtal
 
 - ## Why
@@ -12,7 +12,7 @@ tags:: #migrant/digtal
     - title::  WebStackPage/WebStackPage.github.io
       tags:: #github
       source:: [WebStackPage/WebStackPage.github.io: ❤️静态响应式网址导航网站 - webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) ![](https://img.shields.io/github/stars/WebStackPage/WebStackPage.github.io)
-      created:: 20230108
+      created:: [[20230108]]
       closed:: 
       description::
       - Jekyll 版本的后台 [0xl2oot/webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)

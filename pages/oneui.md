@@ -1,1 +1,1 @@
-alias:: android/rom/oneui
+also:: android/rom/oneui

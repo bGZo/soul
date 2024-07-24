@@ -1,9 +1,10 @@
+exclude-from-graph-view:: true
+icon:: 📄
 template:: page
 template-including-parent:: false
-icon:: 📄
 
-  - alias:: 
-    created:: ``{ date.now.format('YYYYMMDD') }``
+  - also:: [[]], 
+    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
     description:: 
     icon:: 📄
   - ## Why

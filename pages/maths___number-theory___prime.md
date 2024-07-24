@@ -1,6 +1,6 @@
 icon:: 📄
-alias:: prime, 素数, 质数 
-created:: 20240717
+also:: prime, 素数, 质数 
+created:: [[20240717]]
 
 - ## Why
   -

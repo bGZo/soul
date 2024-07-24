@@ -1,4 +1,4 @@
-alias:: Structured Query Language
+also:: Structured Query Language
 tags:: #lang/programming/domain-specific #database
 - ## [[Quickref]]
   - ### ![redshift-dg.pdf](../assets/database/redshift-dg_1665846149243_0.pdf)

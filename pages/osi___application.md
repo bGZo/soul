@@ -1,6 +1,6 @@
 icon:: 📄
-alias:: OSI应用层
-created:: 20240719
+also:: OSI应用层
+created:: [[20240719]]
 description::
 
 - ## Why

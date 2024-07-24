@@ -1,4 +1,4 @@
-alias:: concurrency/java, java 并发
+also:: concurrency/java, java 并发
 tags:: TODO
 
 -

@@ -1,4 +1,4 @@
-alias:: gnu/free-software
+also:: gnu/free-software
 - # Free Software Movements
   id:: 6251698f-50c3-4a4f-b3f6-e4bb36d517c3
   - [[copyleft]]

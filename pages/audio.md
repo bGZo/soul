@@ -1,4 +1,4 @@
-alias:: voice
+also:: voice
 
   - Monaural[^Monaural](单声道) #vs Stereo(立体声)
     - 左右双耳播放相同的音频(信号)

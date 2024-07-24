@@ -5,7 +5,7 @@ document:: [Actions - ShareX](https://getsharex.com/actions)
 changelog:: [Changelog - ShareX](https://getsharex.com/changelog)
 community:: [Discord](https://discord.com/invite/ShareX)
 donation:: [Donate - ShareX](https://getsharex.com/donate)
-created:: 20230110
+created:: [[20230110]]
 description:: [ShareX - The best free and open source screenshot tool for Windows](https://getsharex.com/)
 
 - ## [[cheat/sheet]]

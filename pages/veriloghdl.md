@@ -1,4 +1,4 @@
-alias:: lang/programming/veriloghdl
+also:: lang/programming/veriloghdl
 -
 - EXPERIENCE
   - 被 赋值 与 OUTPUT 的 变量 都应该定义为 `REG`

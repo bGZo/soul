@@ -1,4 +1,4 @@
-alias:: database/object–relational/greenplumn
+also:: database/object–relational/greenplumn
 tags:: TODO
 -
 - Refs

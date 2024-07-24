@@ -1,4 +1,4 @@
-alias:: examined, 审查
+also:: examined, 审查
 description:: [Censorship - Wikipedia](https://en.wikipedia.org/wiki/Censorship)
 
 -

@@ -4,7 +4,7 @@ author:: 李刚
 publisher:: 电子工业出版社
 published:: 20120100
 isbn:: 9787121155789
-created:: 20221125
+created:: [[20221125]]
 closed:: [[20221210]]
 douban:: [疯狂Java讲义 (豆瓣)](https://book.douban.com/subject/10436048/)
 weread:: [疯狂Java讲义（第2版）-李刚编著-微信读书](https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d)

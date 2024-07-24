@@ -1,5 +1,5 @@
 icon:: 📝
-created:: 20240713
+created:: [[20240713]]
 
 - title:: draft/about-code-encourage
 -

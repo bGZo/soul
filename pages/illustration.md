@@ -1,5 +1,5 @@
-alias:: hobby/illustration
-created:: 20240721
+also:: hobby/illustration
+created:: [[20240721]]
 description:: 
 icon:: 📄
 

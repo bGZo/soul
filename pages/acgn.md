@@ -1,6 +1,6 @@
-created:: 20240721
+created:: [[20240721]]
 icon:: 📄
-alias:: hobby/acgn
+also:: hobby/acgn
 
 - ## Why
   -

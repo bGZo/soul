@@ -1,4 +1,4 @@
-alias:: programming/english
+also:: programming/english
 
 - [[Quickref]]
   - name:: wrapper

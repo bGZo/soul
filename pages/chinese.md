@@ -1,4 +1,4 @@
-alias:: lang/Chinese, 中文, 中国人
+also:: lang/Chinese, 中文, 中国人
 icon:: 🇨🇳
 - [[standard]]
   collapsed:: true

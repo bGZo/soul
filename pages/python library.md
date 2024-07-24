@@ -1,6 +1,6 @@
-alias:: python/library
+also:: python/library
 icon:: 🐍
-created:: 20230627
+created:: [[20230627]]
 - ## Why
 - ## How
   - ### How to traverse?

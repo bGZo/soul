@@ -1,11 +1,11 @@
 icon:: 📖
-alias:: books/微服务架构设计模式
+also:: books/微服务架构设计模式
 tags:: #microserver #java
 author:: [美] 克里斯·理查森（Chris Richardson）
 publisher:: 机械工业出版社
 published:: 20190500
 isbn:: 9787111624127
-created:: 20221213
+created:: [[20221213]]
 douban:: [微服务架构设计模式 (豆瓣)](https://book.douban.com/subject/33425123/)
 goodreads:: [Microservices Patterns: With examples in Java by Chris Richardson, Manning Publications by Chris Richardson | Goodreads](https://www.goodreads.com/book/show/55612970-microservices-patterns)
 description:: [microservices-patterns/ftgo-application: Example code for the book Microservice patterns](https://github.com/microservices-patterns/ftgo-application);

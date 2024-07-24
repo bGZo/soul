@@ -1,7 +1,7 @@
-alias:: 手机
+also:: 手机
 icon:: 📱
 tags:: #3C
-created:: 20230719
+created:: [[20230719]]
 
 - ## Why
 - ## How

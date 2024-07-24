@@ -1,1 +1,1 @@
-alias:: open source, 开源
+also:: open source, 开源

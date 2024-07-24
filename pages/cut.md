@@ -1,4 +1,4 @@
-alias:: commands/cut
+also:: commands/cut
 -
 -
 - **Cases**

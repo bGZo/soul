@@ -1,4 +1,4 @@
-alias:: job/question
+also:: job/question
   - Kick the can down the road **踢皮球⚽️**
     - > As is the question of whether this kind of legislative postponement is simply an issue of procrastination or a deliberate avoidance of something that it's hoped will somehow go away or fall to someone else.
       问题是这种立法推迟是否仅仅是拖延问题，还是**故意回避希望以某种方式消失或落入他人手中的事情**

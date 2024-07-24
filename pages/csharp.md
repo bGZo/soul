@@ -1,1 +1,1 @@
-alias:: lang/programming/csharp
+also:: lang/programming/csharp

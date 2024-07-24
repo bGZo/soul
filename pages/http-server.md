@@ -1,6 +1,6 @@
-alias:: tools/http-server
+also:: tools/http-server
 mark:: 服务器
-created:: 20240420
+created:: [[20240420]]
 
 - ## Why
 - ## How

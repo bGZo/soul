@@ -1,6 +1,6 @@
 icon:: 📄
-alias:: 代码页, 内码表, 字符编码
-created:: 20240713
+also:: 代码页, 内码表, 字符编码
+created:: [[20240713]]
 wikipedia:: https://en.wikipedia.org/wiki/Character_encoding
 
 - ## Why

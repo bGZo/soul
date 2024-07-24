@@ -1,5 +1,5 @@
-alias:: project/!migrant from china, 润
-created:: 20240721
+also:: project/!migrant from china, 润
+created:: [[20240721]]
 deadline:: 20340721
 description:: 长期目标：**小润出省，大润出国**
 icon:: 📄

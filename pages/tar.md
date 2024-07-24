@@ -1,4 +1,4 @@
-alias:: commands/tar
+also:: commands/tar
 tags:: #[[compress]]
 - tape archive (磁带档案)
 -

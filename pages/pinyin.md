@@ -1,4 +1,4 @@
-alias:: chinese/pinyin
+also:: chinese/pinyin
 tags:: TODO
 -
 - Double Pinyin

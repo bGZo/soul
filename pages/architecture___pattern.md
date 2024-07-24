@@ -1,2 +1,2 @@
-alias:: software/architecture/pattern
+also:: software/architecture/pattern
 -

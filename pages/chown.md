@@ -1,4 +1,4 @@
-alias:: commands/chown
+also:: commands/chown
 -
 - 所有权转移
   - 所有**者**

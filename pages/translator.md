@@ -1,4 +1,4 @@
-created:: 20240720
+created:: [[20240720]]
 icon:: 📄
-alias:: 译者
+also:: 译者
 exclude-from-graph-view:: true

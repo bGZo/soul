@@ -1,2 +1,2 @@
-alias::  Internet Control Message Protocol
+also::  Internet Control Message Protocol
 -

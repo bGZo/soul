@@ -1,4 +1,4 @@
-alias:: Linux/system-call/awk
+also:: Linux/system-call/awk
 :LOGBOOK:
 CLOCK: [2022-09-28 Wed 09:39:46]
 :END:

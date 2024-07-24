@@ -1,12 +1,12 @@
 icon:: 📅
-alias:: 年份
+also:: 年份
 
 - ## Why
 - ## How
 - ## What
   - ### Template
     - CANCELED In new [[year]] page, I will sperate vertical page to two parts at least.  #Closed #deprecated
-      created:: 20221217
+      created:: [[20221217]]
       closed:: [[20230218]]
       collapsed:: true
       - the more details are like this: #changelog/wiki #template
@@ -18,8 +18,7 @@ alias:: 年份
         template-including-parent: false
         - icon:: 📅
           title:: 
-          alias:: year/
-          desc:: 
+          also:: year/
           tags:: #year
           description::
         - `{{query }}`
@@ -42,7 +41,7 @@ alias:: 年份
       template:: year/review
       template-including-parent:: false
       - icon:: 🏆
-        alias:: year/``{ c.page.name }``
+        also:: year/``{ c.page.name }``
         created:: ``{ date.now.format('YYYYMMDD') }``
       - ## Anime Awards
         - ### Bangumi 班固米

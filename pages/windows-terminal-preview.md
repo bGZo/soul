@@ -1,4 +1,4 @@
-alias:: tool/windows-terminal-preview
+also:: tool/windows-terminal-preview
 tags:: #[[Windows]]
 
 - 多命令行支持**无缝切换**

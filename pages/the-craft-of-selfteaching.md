@@ -1,4 +1,4 @@
-alias:: books/自学是门手艺
+also:: books/自学是门手艺
 tags:: #learning, #github
 author:: 李笑来
 published-date:: 20190314

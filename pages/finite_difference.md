@@ -1,4 +1,4 @@
-alias:: 差分
+also:: 差分
 description:: 一种和前缀和相对的策略，可以当做是求和的逆运算（前缀和逆运算）
 description:: [Finite difference - Wikipedia](https://en.wikipedia.org/wiki/Finite_difference)
 

@@ -1,4 +1,4 @@
-alias:: code/pseido, 伪代码
+also:: code/pseido, 伪代码
 -
 - 用词描述解决何种问题, 不包含具体实现
   - ```

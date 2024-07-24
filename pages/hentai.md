@@ -1,5 +1,5 @@
 icon:: 😍
-alias:: エロ游戏, エロゲー, アダルトゲーム, 18禁ゲーム, エロゲーム, エロゲー, エロゲ, Eroge, Hentai, H-Game, 黄游, 痴汉, 变态, 变态性欲, 色狼, 怪胎, r18
+also:: エロ游戏, エロゲー, アダルトゲーム, 18禁ゲーム, エロゲーム, エロゲー, エロゲ, Eroge, Hentai, H-Game, 黄游, 痴汉, 变态, 变态性欲, 色狼, 怪胎, r18
 description:: ACGN + H-scene，即带有色情内容, SM情节, グロ场面 (R-18G), 犯罪场面, 而且男子的攻略对象也不一定是美少女；从日语中直接借用过来的用词；语气更委婉 (非正常性向) 可以用 エッチ / H / Ecchi；由于绝大多数的变态动画不能直接提供给一般家庭观赏，所以这些成人商品便不能以电视作为媒介来播出，而必须改以OVA的方式作为主要的获益手段
 tags:: #[[sex]] #galgame
 wikipedia:: [Hentai - Wikipedia](https://en.wikipedia.org/wiki/Hentai#Genres)

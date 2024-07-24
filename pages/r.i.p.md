@@ -1,4 +1,4 @@
-alias:: 公墓, grave, died, 404, rip
+also:: 公墓, grave, died, 404, rip
 tags:: #archive
 icon:: 🪦
 

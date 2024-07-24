@@ -1,4 +1,4 @@
-alias:: c艹, c++
+also:: c艹, c++
 tags:: lang/programming/system
 - ## Why
 - ## How

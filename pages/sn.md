@@ -1,4 +1,4 @@
-alias:: Serial Number, SerialNo, 序列号, 机器码, 认证码, 注册申请码
+also:: Serial Number, SerialNo, 序列号, 机器码, 认证码, 注册申请码
 -
 - 验证“产品的合法身份”
   - 一套正版的产品只对应一组产品序列号

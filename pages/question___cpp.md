@@ -1,4 +1,4 @@
-alias:: cpp/question
+also:: cpp/question
 -
 - Notes
   collapsed:: true

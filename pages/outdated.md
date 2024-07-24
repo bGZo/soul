@@ -1,1 +1,1 @@
-alias:: obsolete, 过时
+also:: obsolete, 过时

@@ -1,6 +1,6 @@
 tags:: #Philosophy
 description:: [Philosophy - YouTube](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNgK6MZucdYldNkMybYIHKR)
-created:: 20220101
+created:: [[20220101]]
 
 - ## Why
 - ## How

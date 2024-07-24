@@ -1,5 +1,5 @@
 icon:: 🔖
-alias:: 导航
+also:: 导航
 wikipedia:: https://en.wikipedia.org/wiki/Bookmark
 exclude-from-graph-view:: true
 
@@ -9,7 +9,7 @@ exclude-from-graph-view:: true
     - id:: 66515727-37fc-4088-aff7-c582f96f7344
       title:: https://github.com/eryajf/Thanks-Mirror
       tags:: #github #opensource #mirror #proxy
-      created:: 20230223
+      created:: [[20230223]]
       description:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
       ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
     - [[github]]

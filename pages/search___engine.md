@@ -1,4 +1,4 @@
-alias:: Search Engine
+also:: Search Engine
 - ## [[cheat/sheet]]
   collapsed:: true
   - ```shell

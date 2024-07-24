@@ -1,6 +1,6 @@
-alias:: 压缩
+also:: 压缩
 icon:: 📦
-created:: 20240626
+created:: [[20240626]]
 
 - ## Why
   - save money

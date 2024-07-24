@@ -1,11 +1,11 @@
-alias:: Effective Python: 90 Specific Ways to Write Better Python, books/Effective_Python
+also:: Effective Python: 90 Specific Ways to Write Better Python, books/Effective_Python
 tags:: #python
 author:: 布雷特·斯拉特金
 translator:: 爱飞翔
 publisher:: 机械工业出版社
 published:: 20210101
 isbn:: 9787111674023
-created:: 20230212
+created:: [[20230212]]
 douban:: [Effective Python (豆瓣)](https://book.douban.com/subject/35334595/)
 weread:: [Effective Python：编写高质量Python代码的90个有效方法（原书第2版）](https://weread.qq.com/web/bookDetail/c2932f9072620d81c29c1ed)
 description:: 本书可以帮你掌握真正的 Pythonic 编程方式，令你能够完全发挥出 Python 语言的强大功能，并写出健壮而高效的代码。Scott Meyers 在畅销书《Effective C++》中开创了一种以使用场景为主导的精练教学方式，本书作者 Brett Slatkin 就以这种方式汇聚了 90 条实践原则、开发技巧和便捷方案，并以实用的代码范例来解释它们。Slatkin 根据自己在 Google 公司多年开发 Python 基础架构所积累的经验，揭示 Python 语言中一些鲜为人知的微妙特性，并给出了能够改善代码功能及运行效率的习惯用法。通过本书，你能够了解到解决关键编程任务所用的奇妙方式，并学会编写易于理解、便于维护且利于改进的代码。
@@ -29,7 +29,7 @@ description:: 2020年出版...
     - 第2条 遵循PEP 8风格指南
       collapsed:: true
       - title:: Python Enhancement Proposal \#8
-        alias:: PEP 8
+        also:: PEP 8
         description:: 一份针对Python代码格式而编订的风格指南。尽管只要语法正确，代码随便怎么写都行，但采用一致的风格可以使代码更易读、更易懂。
         document:: [PEP 8 – Style Guide for Python Code | peps.python.org](https://peps.python.org/pep-0008/)
       - #### 与空白有关的建议
@@ -97,7 +97,7 @@ description:: 2020年出版...
       - `str`
         - str实例包含的是Unicode码点
         - 码点
-          alias:: code point, 代码点
+          also:: code point, 代码点
           description:: 这些码点与人类语言之中的文本字符相对应
         - ```shell
           a = 'a\u0300 propos'

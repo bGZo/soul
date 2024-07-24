@@ -1,4 +1,4 @@
-alias:: 火狐, FF
+also:: 火狐, FF
 description:: ff
 
 - [[Backup]]

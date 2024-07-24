@@ -1,4 +1,4 @@
-alias:: Object Relational Mapping, 对象关系映射
+also:: Object Relational Mapping, 对象关系映射
 tags:: #oop, #database
 
 - ## WHY？

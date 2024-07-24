@@ -1,4 +1,4 @@
-alias:: interview/java
+also:: interview/java
 - [600+ 道 Java面试题及答案整理_牛客网](https://www.nowcoder.com/discuss/1023635)
   - Java 基础
     - DONE 1、面向对象编程有哪些特征？（3）

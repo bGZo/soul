@@ -1,4 +1,4 @@
-alias:: argparse/tutorial
+also:: argparse/tutorial
 tags:: #commandline #[[Python Library]]
 document:: [argparse — Parser for command-line options, arguments and sub-commands — Python 3.11.1 documentation](https://docs.python.org/3/library/argparse.html#module-argparse)
 description:: [Argparse Tutorial — Python 3.11.1 documentation](https://docs.python.org/3/howto/argparse.html)

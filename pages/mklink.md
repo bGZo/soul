@@ -1,4 +1,4 @@
-alias:: commands/cmd/mklink
+also:: commands/cmd/mklink
 tags:: TODO
 
   - same as [[commands/ln]] in [[nix]]

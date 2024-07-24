@@ -1,6 +1,6 @@
-created:: 20240720
+created:: [[20240720]]
 icon:: 📄
-alias:: 发行商, 出版社
+also:: 发行商, 出版社
 exclude-from-graph-view:: true
 
 - `{{query (property publisher 2007)}}`

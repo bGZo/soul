@@ -1,5 +1,5 @@
-alias:: learning/electron
-created:: 20240718
+also:: learning/electron
+created:: [[20240718]]
 icon:: 📄
 
 - 一开始使用是小学期作业如果写出图形界面可以获得加分, 但是因为自己写的实在写的有点拖沓, 没有时间赶工这个点了, 放假之后拿出来重新着手去做.

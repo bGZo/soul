@@ -1,4 +1,4 @@
-created:: 20240720
+created:: [[20240720]]
 icon:: 🎛️
 
 - {{embed [[dashboard/para]]}}

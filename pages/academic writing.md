@@ -1,1 +1,1 @@
-alias:: writing/academic, 学术写作
+also:: writing/academic, 学术写作

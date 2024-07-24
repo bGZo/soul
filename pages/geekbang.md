@@ -1,1 +1,1 @@
-alias:: 极客时间, geektime
+also:: 极客时间, geektime

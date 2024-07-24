@@ -1,4 +1,4 @@
-alias:: books/dp进阶之路
+also:: books/dp进阶之路
 tags:: [[dynamic-programming]], #[[algorithm]], TODO
 author:: 邓丝雨
 published-date:: 20161011

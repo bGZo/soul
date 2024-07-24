@@ -1,4 +1,4 @@
-alias:: lang/programming/domain-specific/markdown
+also:: lang/programming/domain-specific/markdown
 created:: 20191213T02:40:57+08:00
 
 - ## [[tool]]

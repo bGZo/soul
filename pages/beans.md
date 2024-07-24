@@ -1,4 +1,4 @@
-alias:: java beans, java bean
+also:: java beans, java bean
 description:: from java 1.1
 
 - 一个公共类，并提供无参公有的构造方法

@@ -1,4 +1,4 @@
-alias:: system/operating
+also:: system/operating
 
 -
 - [[soft-return]]

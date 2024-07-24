@@ -1,4 +1,4 @@
-alias:: standard/git
+also:: standard/git
 - Commit
   - ```bash
     feat: 添加新特性、新功能（ feature ）

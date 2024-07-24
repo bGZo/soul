@@ -1,4 +1,4 @@
-alias:: OD, 外包
+also:: OD, 外包
 description:: 做项目 + 没产品
 tags:: #sucks, #Job
 

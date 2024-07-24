@@ -1,11 +1,11 @@
-alias:: 专辑, music/album
+also:: 专辑, music/album
 
 - ## [[template]]
   - template:: album
     template-including-parent:: false
     collapsed:: true
     - title:: 
-      alias:: 
+      also:: 
       tags:: #album
       artisit:: 
       released_created:: 
@@ -19,7 +19,7 @@ alias:: 专辑, music/album
     template-including-parent:: false
     collapsed:: true
     - title:: 
-      alias:: 
+      also:: 
       tags:: #band
       description:: 
       created:: <% today %>

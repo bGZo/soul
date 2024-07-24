@@ -1,4 +1,4 @@
-alias:: 项目清单
+also:: 项目清单
 icon:: 📂
 tags:: #gtd, #project
 

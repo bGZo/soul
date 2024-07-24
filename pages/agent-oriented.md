@@ -1,4 +1,4 @@
-alias:: paradigms/agent-oriented
+also:: paradigms/agent-oriented
 - construction of the software is centered on the concept of **software agents**
   - a software agent is a computer program that acts for a user or other program in a relationship of agency, which derives from the Latin agere (to do): an agreement to act on one's behalf. Such "action on behalf of" implies the authority to decide which, if any, action is appropriate.
 - |                                |          OOP           |                             AOP                              |                                  |

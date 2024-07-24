@@ -1,1 +1,1 @@
-alias:: java/question
+also:: java/question

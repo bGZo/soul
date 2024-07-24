@@ -1,4 +1,4 @@
-alias:: 怀孕
+also:: 怀孕
 tags:: #做爱 #性
 
 - ## How

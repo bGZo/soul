@@ -1,2 +1,2 @@
-alias:: 数组
+also:: 数组
 tags:: #data-structure

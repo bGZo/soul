@@ -1,4 +1,4 @@
-alias:: 肯定, 自我肯定
+also:: 肯定, 自我肯定
 tags:: #thought/new
 description:: the practice of positive thinking and self-empowerment—fostering a belief that "a positive mental attitude supported by affirmations will achieve success in anything"；积极心理学，经常性地给自己打鸡血
 description:: [Affirmations (New Age) - Wikipedia](https://en.wikipedia.org/wiki/Affirmations_(New_Age))

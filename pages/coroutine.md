@@ -1,4 +1,4 @@
-alias:: concurrency/coroutine, 协程
+also:: concurrency/coroutine, 协程
 tags:: TODO
 
 -

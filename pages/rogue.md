@@ -1,4 +1,4 @@
-alias:: 肉鸽, Rogue: Exploring the Dungeons of Doom, game/rogue
+also:: 肉鸽, Rogue: Exploring the Dungeons of Doom, game/rogue
 description:: [Rogue (video game) - Wikipedia](https://en.wikipedia.org/wiki/Rogue_(video_game))
 
 - `Roguelike` & `Roguelite`

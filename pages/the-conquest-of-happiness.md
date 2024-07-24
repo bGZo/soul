@@ -1,10 +1,10 @@
 icon:: 📖
-alias:: books/幸福之路, 幸福之路
+also:: books/幸福之路, 幸福之路
 author:: Russell
 publisher:: 天津人民出版社
 published:: 20210100
 isbn:: 9787201168821
-created:: 20220704
+created:: [[20220704]]
 douban:: [幸福之路 (豆瓣)](https://book.douban.com/subject/35302634/)
 goodreads:: [The Conquest of Happiness by Bertrand Russell | Goodreads](https://www.goodreads.com/book/show/454750.The_Conquest_of_Happiness)
 weread:: [幸福之路-伯特兰·罗素-微信读书](https://weread.qq.com/web/bookDetail/11e3277072206ec011ec1fa)

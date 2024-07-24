@@ -1,8 +1,8 @@
-alias:: project/closet app
+also:: project/closet app
 description:: 
 icon:: 📂
 tags:: #project
-created:: 20240721
+created:: [[20240721]]
 title:: closet app
 
 - ## Project Meta

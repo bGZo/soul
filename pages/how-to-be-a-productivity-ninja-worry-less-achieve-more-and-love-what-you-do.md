@@ -1,4 +1,4 @@
-alias:: books/高效忍者
+also:: books/高效忍者
 tags:: #[[Productivity]], TODO
 author:: [英]格雷厄姆·阿尔科特
 publisher:: 后浪

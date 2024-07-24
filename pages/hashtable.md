@@ -1,4 +1,4 @@
-alias:: data-structure/hash-table, 哈希表, 散列表
+also:: data-structure/hash-table, 哈希表, 散列表
 
 -
 -

@@ -1,5 +1,5 @@
 icon:: 🎛️
-created:: 20240720
+created:: [[20240720]]
 tags:: para
 
 - ## Project

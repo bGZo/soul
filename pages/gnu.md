@@ -1,2 +1,2 @@
-alias:: GNU'sNotUnix
+also:: GNU'sNotUnix
 -

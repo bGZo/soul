@@ -1,5 +1,5 @@
-alias:: area/minimalism, 极简主义
-created:: 20240721
+also:: area/minimalism, 极简主义
+created:: [[20240721]]
 description:: 断舍离
 icon:: 📄
 

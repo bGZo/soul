@@ -1,20 +1,18 @@
-alias:: 书, hobby/book
-created:: 20230602
+alias:: hobbies/book, 书, 
+created:: [[20230602]]
 icon:: 📖
 template:: book
 template-including-parent:: false
 
   - cover:: {:width 225}
-    alias:: books/``{ c.page.name }``
-    translator::
-    icon:: 📖
-    isbn::
-    publisher::
-    published-date::
-    douban::
-    goodreads::
-    weread::
+    alias:: books/``{ c.page.name }``, 
+    author:: [[@]]
     created:: ``{ date.now.format('YYYYMMDD') }``
+    douban:: 
+    icon:: 📖
+    isbn:: 
+    published-date:: 
+    weread::
 - ## Why
   - >What I have lived for?
     >
@@ -35,7 +33,8 @@ template-including-parent:: false
     —— [[罗素]]
 - ## How
   - How to find / search  books?
-    collapsed:: true
+    -
+    -
     - ~~[Z-Library. The world's largest ebook library.](https://z-lib.org/)~~ #R.I.P
     - [Library Genesis](http://libgen.rs/) / [Library Genesis](https://libgen.li/)
     - [Free eBooks | Project Gutenberg](https://www.gutenberg.org/)

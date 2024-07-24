@@ -1,7 +1,7 @@
 icon:: 👨‍💻
 tags:: #prefix_sum
 description:: [糖糖别胡说，我真的不是签到题目](https://ac.nowcoder.com/acm/problem/14583)
-created:: 20230205
+created:: [[20230205]]
 
 - ## Content
   - 从前，有 nnn 只萌萌的糖糖，他们分成了==两组==一起玩游戏。他们会排成一排，第 iii 只糖糖会随机得到一个能力值 bib_ibi​。从第 iii 秒的时候，第 iii 只糖糖就可以消灭掉所有排在他前面的和他不是同一组的且能力值小于他的糖糖。

@@ -1,5 +1,5 @@
-alias:: commands/wget
-created:: 20230703
+also:: commands/wget
+created:: [[20230703]]
 - ## Why
 - ## How
 - ## What

@@ -1,4 +1,4 @@
-alias:: 数据库
+also:: 数据库
 
 - ## [[Quickref]]
 -

@@ -1,4 +1,4 @@
-alias:: app/android
+also:: app/android
 -
 - [[Quickref]]
   - File Path

@@ -1,4 +1,4 @@
-alias:: database/object–relational/oracle
+also:: database/object–relational/oracle
 -
 - History
   collapsed:: true

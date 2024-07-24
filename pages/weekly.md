@@ -1,10 +1,10 @@
 icon:: 📅
-created:: 20230602
+created:: [[20230602]]
 template:: weekly
 template-including-parent:: false
 exclude-from-graph-view:: true
 
-  - alias:: 
+  - also:: 
     icon:: 📅
   - ## Review
     collapsed:: true
@@ -55,7 +55,7 @@ exclude-from-graph-view:: true
   - > What I need is not sex, instead of love, to be understood, and never feel alone.
 - ## Why
   - 叙事疗法
-    created:: 20230304
+    created:: [[20230304]]
     closed:: [[20230617]]
     collapsed:: true
     - #+BEGIN_NOTE

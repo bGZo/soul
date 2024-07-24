@@ -1,4 +1,4 @@
-alias:: 互联网
+also:: 互联网
 icon:: 🌐
   - #vs [[networking]]
     - Internet is more than networking

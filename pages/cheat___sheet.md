@@ -1,2 +1,2 @@
 icon:: 離
-alias:: Cheat Sheet
+also:: Cheat Sheet

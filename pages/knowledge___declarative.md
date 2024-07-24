@@ -1,4 +1,4 @@
-alias:: declarative/knowledge, 陈述性知识
+also:: declarative/knowledge, 陈述性知识
 wikipedia:: [Descriptive knowledge - Wikipedia](https://en.wikipedia.org/wiki/Descriptive_knowledge)
 - **knowing-that, propositional / descriptive / constative** knowledge
   - knowledge that can be expressed in a **declarative sentence or an indicative proposition**

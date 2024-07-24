@@ -1,4 +1,4 @@
-alias:: 回收箱
+also:: 回收箱
 icon:: 🚮
 tags:: gtd
 

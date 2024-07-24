@@ -1,4 +1,4 @@
-alias:: tool/onenote
+also:: tool/onenote
 
 - {{youtube https://youtu.be/js6odMCIlQU?t=600}}
   id:: 6282126d-f24b-4159-94a8-0e702e024371

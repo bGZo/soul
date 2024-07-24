@@ -1,1 +1,1 @@
-alias:: Hard Disk Drive
+also:: Hard Disk Drive

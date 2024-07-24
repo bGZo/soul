@@ -1,4 +1,4 @@
-alias:: 买
+also:: 买
 tags:: consume
 
   - template:: buy

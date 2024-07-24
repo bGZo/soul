@@ -1,4 +1,4 @@
-alias:: tool/imghost
+also:: tool/imghost
 tags:: #[[photo]]
 
 - FREE

@@ -1,8 +1,8 @@
-alias:: Word Power Made Easy
+also:: Word Power Made Easy
 description:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
 tags:: #English #telegram/channel #subscription #DOING
 source:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
-created:: 20221220
+created:: [[20221220]]
 
 - Content
   - 关于词根词缀，简单地说，词尾可以看做是一个特殊的后缀，而词干则是单词去除了词尾后的剩余部分。词根是单词去除了所有词缀（包括前缀和后缀）后的剩余部分。**词干等于或大于词尾**，即有时候词干恰好就是一个词根，或称自由词根。但更多时候词干是词根加上若干词缀。

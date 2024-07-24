@@ -1,2 +1,2 @@
-alias:: 关系型数据库, ORDBMS, Object-relational database
+also:: 关系型数据库, ORDBMS, Object-relational database
 -

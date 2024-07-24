@@ -1,5 +1,5 @@
 tags:: #browser
-created:: 20230604
+created:: [[20230604]]
 
 - ## Why
   - Before this, I used the [[vivaldi]], [[Firefox]], [[chrome]], [[brave]] and [[chromium]]. I learn a lot about  thought during using. (See  ((acaf8742-7083-4d0d-adc9-eaebc5a30b26)))

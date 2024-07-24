@@ -1,2 +1,2 @@
-alias:: joke/translate
+also:: joke/translate
 -

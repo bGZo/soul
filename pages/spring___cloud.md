@@ -1,4 +1,4 @@
-alias:: spring cloud
+also:: spring cloud
 tags:: #microserver
 -
 - ## References

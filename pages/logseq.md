@@ -1,6 +1,6 @@
-alias:: tools/logseq 
-created:: 20210801
-description:: 
+also:: [[tools/logseq]], 
+created:: [[20210801]]
+description:: a [[personal knowledge management]] tool
 icon:: 📄
 
 - ## Why

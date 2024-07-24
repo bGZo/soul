@@ -1,6 +1,6 @@
-alias:: 备份
+also:: 备份
 icon:: 💿
-created:: 20240128
+created:: [[20240128]]
 tags:: #Storage
 
 - ## Why

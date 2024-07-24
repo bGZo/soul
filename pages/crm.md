@@ -1,2 +1,2 @@
-alias:: Customer Relationship Management, 客户关系管理
+also:: Customer Relationship Management, 客户关系管理
 -

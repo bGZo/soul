@@ -1,11 +1,11 @@
 icon:: 📖
-alias:: books/社交媒体简史, 社交媒体简史
+also:: books/社交媒体简史, 社交媒体简史
 tags:: #Privacy #book #history
 author:: Tom Standage
 publisher:: 中信出版社
 published:: 2019-3
 isbn:: 9787508696980
-created:: 20221216
+created:: [[20221216]]
 douban:: [社交媒体简史 (豆瓣)](https://book.douban.com/subject/30434010/)
 goodreads:: [Writing on the Wall: Social Media - The First 2,000 Years by Tom Standage | Goodreads](https://www.goodreads.com/book/show/17287025-writing-on-the-wall)
 weread:: [社交媒体简史：从莎草纸到互联网-汤姆·斯丹迪奇-微信读书](https://weread.qq.com/web/bookDetail/56932c70718625e4569abd0)

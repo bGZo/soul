@@ -1,4 +1,4 @@
-alias:: commands/no-hang-up
+also:: commands/no-hang-up
 - ```shell
   $ nohup command >out.file 2>&1 &
   ```

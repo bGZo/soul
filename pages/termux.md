@@ -1,4 +1,4 @@
-alias:: android/app/termux
+also:: android/app/termux
 changelog:: https://github.com/termux/termux-app/releases
 -
 - Changelog

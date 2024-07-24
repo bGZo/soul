@@ -1,4 +1,4 @@
-alias:: multithreading/java
+also:: multithreading/java
 
 -
 - [[java]]

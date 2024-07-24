@@ -1,2 +1,2 @@
-alias:: 死亡
+also:: 死亡
 tags:: #writing

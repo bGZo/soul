@@ -1,5 +1,5 @@
 cover:: ![🖼 ](../assets/t6_YueWen_32435929.jpg){:width 225}
-alias:: books/dev/Rust权威指南, The Rust Programming Language
+also:: books/dev/Rust权威指南, The Rust Programming Language
 author:: Steve Klabnik, Carol Nichols
 translator:: 毛靖凯 / 唐刚 / 沙渺
 icon:: 📖
@@ -9,7 +9,7 @@ published-date:: 20200601
 tags:: #Rust
 douban:: https://book.douban.com/subject/35081743/
 weread:: https://weread.qq.com/web/bookDetail/d733256071eeeed9d7322fd
-created:: 20240102
+created:: [[20240102]]
 - ## Contents
   - ## 版权信息
   - ## 内容简介

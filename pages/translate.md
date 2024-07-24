@@ -1,4 +1,4 @@
-alias:: lang/translate
+also:: lang/translate
 - {{embed [[translate/quick-refs]]}}
 - {{embed [[translate/source]]}}
 -

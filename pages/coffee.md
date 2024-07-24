@@ -1,6 +1,6 @@
-alias:: 咖啡, hobby/coffee
+also:: 咖啡, hobby/coffee
 cost:: 1
-created:: 20230530
+created:: [[20230530]]
 description:: 
 icon:: ☕
 

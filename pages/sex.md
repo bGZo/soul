@@ -1,6 +1,6 @@
-alias:: sexual, 色情, 情色, hobby/sex
+also:: sexual, 色情, 情色, hobby/sex
 icon:: 🔞
-created:: 20240409
+created:: [[20240409]]
 
 - #+BEGIN_PINNED
   饱暖思淫欲，每天吃少点并多做运动

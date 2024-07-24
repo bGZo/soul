@@ -1,12 +1,9 @@
 icon:: 🧾
 
-- 👋 Hello there. Thanks for your being here.
-- 😊 Wish you have a fun time. That would be my pleasure.
+- Hello there👋. Thanks for your being here. This is my second brain tried to build with [[logseq]]. Wish you have a fun time. That would be my pleasure.
 - [:h2 {:class text-right} "Contents"]
   {{renderer :tocgen2, *}}
 - [:h2 {:class text-right} "Quick start"]
-  - 导航页 => 🔖[[navigation]]
-    logseq.order-list-type:: number
   - 收集箱 => 📥[[inbox]]
     logseq.order-list-type:: number
   - 执行清单 => 🏃[[content checklist]]
@@ -23,7 +20,7 @@ icon:: 🧾
 - [:h3 {:class text-center} "🌸bGZo © 2024"]
   collapsed:: true
   #+BEGIN_CENTER
-  Copyright 2021 - 2024 [[bGZo]]. All rights reserved. The contents is licensed under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/); the code is under [MIT](https://github.com/bGZo/blog/blob/main/LICENSE) licence. The contents and comments are copyright their respective authors, submission implies license to publish on this web site.
+  Copyright 2021 - 2024 bGZo. All rights reserved. The contents is licensed under a [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/); the code is under [MIT](https://github.com/bGZo/blog/blob/main/LICENSE) licence. The contents and comments are copyright their respective authors, submission implies license to publish on this web site.
   ![http://creativecommons.org/licenses/by-sa/4.0/](https://i.creativecommons.org/l/by-sa/4.0/88x31.png){:height 240, :width 90} ![https://notbyai.fyi/](https://raw.githack.com/bGZo/assets/dev/2024/Written-By-Human-Not-By-AI-Badge-white.svg){:height 320, :width 120}
   #+END_CENTER
   - #+BEGIN_CENTER
@@ -31,8 +28,7 @@ icon:: 🧾
     bGZo
     via: https://discuss.logseq.com/t/align-text-images-etc-to-the-right-workaround/13375
     #+END_CENTER
-  - 👋 I'm **bGZo**, look like privacy-first name, right?
-  - My actual name is *Fenghua*, you could call me _**Hua**_ 🌸.
+  - I'm **bGZo**, look like privacy-first name, right? My actual name is *Fenghua*, you could call me _**Hua**_ 🌸.
   - I love open-source, command-line, creating tools to improve productivity. Recently I focus on Java develop. So any problem welcome to communicate with me.
   - Except above, I love coffee, reading (philosophy, non-fiction most), anime, podcast and instrumental music as well. If you're, wish we could be friends : )
   - I'm engineer, but I love literature.

@@ -1,4 +1,4 @@
-alias:: 浏览器
+also:: 浏览器
 tags:: #tool
 
 - ## [[issue]]

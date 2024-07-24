@@ -1,13 +1,12 @@
 icon:: 🎬
-alias:: 电影, Video/Movie
+also:: 电影, Video/Movie
 
   - template:: movie
     template-including-parent:: false
     collapsed:: true
     - icon:: 🎬
       title:: 
-      alias:: 
-      desc:: 
+      also:: 
       tags:: #Video #Movie
       director:: 
       sreenwriter:: 
@@ -23,8 +22,7 @@ alias:: 电影, Video/Movie
     collapsed:: true
     - icon:: 🎬
       title:: 
-      alias:: 
-      desc:: 
+      also:: 
       tags:: #Video #Movie
       director:: 
       sreenwriter:: 

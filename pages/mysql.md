@@ -1,4 +1,4 @@
-alias:: database/object–relational/mysql
+also:: database/object–relational/mysql
 tags:: TODO
 
 -
@@ -80,8 +80,8 @@ tags:: TODO
     - 在数据库中不可重复读和幻读到底应该怎么分？： https://www.zhihu.com/question/392569386
   - [MySQL索引详解 | JavaGuide](https://javaguide.cn/database/mysql/mysql-index.html)
   - [MySQL事务隔离级别详解 | JavaGuide](https://javaguide.cn/database/mysql/transaction-isolation-level.html#%E5%B9%BB%E8%AF%BB)
-- alias:: 
-  created:: 20240718
+- also:: 
+  created:: [[20240718]]
   description:: 
   icon:: 📄
 - ## Why

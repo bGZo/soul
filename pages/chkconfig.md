@@ -1,5 +1,5 @@
-alias:: commands/chkconfig
-created:: 20231005
+also:: commands/chkconfig
+created:: [[20231005]]
 icon:: ⌘
 - ## Why
 - ## How

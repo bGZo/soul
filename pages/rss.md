@@ -1,4 +1,4 @@
-alias:: RDF Site Summary, Really Simple Syndication
+also:: RDF Site Summary, Really Simple Syndication
 description:: a web feed that allows users and applications to access updates to websites in a standardized. computer-readable format
 released-date:: 19990315
 wikipedia:: https://en.wikipedia.org/wiki/RSS

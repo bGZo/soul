@@ -1,6 +1,6 @@
-alias:: 马男波杰克, Bojack, anime/bojack-horseman
+also:: 马男波杰克, Bojack, anime/bojack-horseman
 tags:: #animelist #WAIT
-created:: 20200611
+created:: [[20200611]]
 description:: 有空二刷
 
 -

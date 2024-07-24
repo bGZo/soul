@@ -1,4 +1,4 @@
-alias:: 罪
+also:: 罪
 description:: https://en.wikipedia.org/wiki/Sin
 
 - New English Translation of St. Thomas Aquinas's *Summa Theologiae* (*Summa Theologica*)

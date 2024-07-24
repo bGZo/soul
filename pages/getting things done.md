@@ -1,7 +1,7 @@
-alias:: getting things done, 把事情处理完, 把事情做好
+also:: gtd, [[把事情处理完]]
 icon:: 🕛
 tags:: #[[time management]]
-created:: 20191203
+created:: [[20191203]]
 
 - ![](https://raw.githack.com/bGZo/assets/dev/2024/topbook-gtd-fs8.png){:height 352, :width 778}
 - ## Why
@@ -83,6 +83,5 @@ created:: 20191203
     - **执行（Engage）**
   - **复盘**
 - ## References
-  collapsed:: true
   - https://tingtalk.me/gtd/
   - https://topbook.cc/course/detail/153

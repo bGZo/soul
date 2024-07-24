@@ -1,4 +1,4 @@
-alias:: donate, 捐助
+also:: donate, 捐助
 tags:: sponsor
 
 - [[issue]]

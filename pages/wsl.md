@@ -1,4 +1,4 @@
-alias:: Windows Subsystem For Linux
+also:: Windows Subsystem For Linux
 tags:: #Windows #linux #nix #tools #github #microsoft
 github:: https://github.com/microsoft/WSL
 created:: 202104

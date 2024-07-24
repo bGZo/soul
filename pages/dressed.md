@@ -1,5 +1,5 @@
-alias:: 打扮, hobby/dressed
-created:: 20240721
+also:: 打扮, hobby/dressed
+created:: [[20240721]]
 icon:: 📄
 
 - ## Why

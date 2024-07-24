@@ -1,4 +1,4 @@
-alias:: java/virtual-machine
+also:: java/virtual-machine
 tags:: TODO
 
 - ![image.png](../assets/Untitled-2022-05-12-1350.excalidraw.png)

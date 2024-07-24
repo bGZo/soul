@@ -1,4 +1,4 @@
-created:: 20240524
+created:: [[20240524]]
 tags:: #rss
 
 - ## Why

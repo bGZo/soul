@@ -1,1 +1,1 @@
-alias:: 外链, external links, external link
+also:: 外链, external links, external link

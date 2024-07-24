@@ -1,7 +1,7 @@
-alias:: Mastodon
+also:: Mastodon
 tags:: #[[social media]] #tool
 source:: [mastodon/mastodon: Your self-hosted, globally interconnected microblogging community](https://github.com/mastodon/mastodon)
-created:: 20221219
+created:: [[20221219]]
 
 - ## [[cheat/sheet]]
   - ### [[shortcut]]

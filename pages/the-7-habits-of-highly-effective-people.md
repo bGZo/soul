@@ -1,6 +1,6 @@
 icon:: 📖
 cover:: ![](https://wfqqreader-1252317822.image.myqcloud.com/cover/600/33810600/t6_33810600.jpg)
-alias:: books/高效能人士的七个习惯, The 7 Habits of Highly Effective People, 高效能人士的七个习惯
+also:: books/高效能人士的七个习惯, The 7 Habits of Highly Effective People, 高效能人士的七个习惯
 tags:: #Productivity #brainwashing
 author:: 史蒂芬·柯维
 translator:: 高新勇 / 王亦兵 / 葛雪蕾
@@ -10,7 +10,7 @@ isbn:: 9787500695356
 douban:: [高效能人士的七个习惯 (豆瓣) (douban.com)](https://book.douban.com/subject/5325618/)
 goodreads:: [The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change by Stephen R. Covey | Goodreads](https://www.goodreads.com/en/book/show/36072)
 weread:: [高效能人士的七个习惯（30周年纪念版）（全新增订版）-史蒂芬·柯维-微信读书 (qq.com)](https://weread.qq.com/web/bookDetail/56d325907203e8a856def7f)
-created:: 20230520
+created:: [[20230520]]
 - ## Contents
   - ## 第1部分
   - ### 第一章 由内而外全面造就自己

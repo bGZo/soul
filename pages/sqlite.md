@@ -1,3 +1,3 @@
-alias:: database/object–relational/sqlite
+also:: database/object–relational/sqlite
 -
 -

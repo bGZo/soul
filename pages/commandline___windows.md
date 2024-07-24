@@ -1,4 +1,4 @@
-alias:: windows/commandline
+also:: windows/commandline
 - ## ![Windows Commmands Reference](../assets/doc_ws-commands.pdf)
   via: [source](https://download.microsoft.com/download/5/8/9/58911986-D4AD-4695-BF63-F734CD4DF8F2/ws-commands.pdf)
   - ### ((64214c33-fd07-4108-8613-fa606cfd9fda))

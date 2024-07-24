@@ -1,5 +1,5 @@
 icon:: 👨‍💻
-alias:: 力扣
+also:: 力扣
 tags:: #question/oj
 
   - template:: leetcode

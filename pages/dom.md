@@ -1,4 +1,4 @@
-alias:: javascript/dom, web/api/dom
+also:: javascript/dom, web/api/dom
 description:: Document Object Model / 页面文档对象模型
 
 - Refs

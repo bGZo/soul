@@ -1,4 +1,4 @@
-created:: 20240630
+created:: [[20240630]]
 description:: Tables are our first versioned component, accepting props to control the output.
 document:: https://docs.logseq.com/#/page/tables
 icon:: 📝

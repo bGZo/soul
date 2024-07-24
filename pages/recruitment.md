@@ -1,1 +1,1 @@
-alias:: 招聘, zhaopin
+also:: 招聘, zhaopin

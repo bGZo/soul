@@ -1,1 +1,1 @@
-alias:: compilation, 编译原理
+also:: compilation, 编译原理

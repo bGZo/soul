@@ -1,1 +1,1 @@
-alias:: GB2312, GB18030
+also:: GB2312, GB18030

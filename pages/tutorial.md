@@ -1,5 +1,5 @@
-alias:: 教程
-created:: 20230719
+also:: 教程
+created:: [[20230719]]
 
   - template:: tutorial
     template-including-parent:: true

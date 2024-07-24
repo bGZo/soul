@@ -1,1 +1,1 @@
-alias:: Steam/Deck
+also:: Steam/Deck

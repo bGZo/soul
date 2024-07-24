@@ -1,4 +1,4 @@
-alias:: 基于 springcloud 的商城系统的设计与开发
+also:: 基于 springcloud 的商城系统的设计与开发
 tags:: #spring/cloud
 
   - [赵俊峰](https://ccs.imu.edu.cn/info/1152/4630.htm)`；`4994323`；`cszjf@imu.edu.cn`

@@ -1,4 +1,4 @@
-alias:: state grid corporation of China, 国家电网公司
+also:: state grid corporation of China, 国家电网公司
 tags:: #China
 description:: https://en.wikipedia.org/wiki/State_Grid_Corporation_of_China
 

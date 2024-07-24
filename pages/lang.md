@@ -1,1 +1,1 @@
-alias:: language, 语言
+also:: language, 语言

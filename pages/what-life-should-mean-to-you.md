@@ -1,4 +1,4 @@
-alias:: books/自卑与超越
+also:: books/自卑与超越
 author:: [奥]阿尔弗雷德•阿德勒（Alfred Adler）
 publisher:: 世界图书出版公司
 published-date:: 20190600

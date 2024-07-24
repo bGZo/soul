@@ -1,4 +1,4 @@
-alias:: games/pokemon
+also:: games/pokemon
 
 - ## [[Cheat Sheet]]
   - 已发售

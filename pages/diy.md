@@ -1,1 +1,1 @@
-alias:: do it yourself
+also:: do it yourself

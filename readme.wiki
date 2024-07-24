@@ -1,0 +1,13 @@
+= LOGSEQ WIKI =
+
+== Rebuild ==
+
+=== Windows ===
+
+<pre>
+rm "$env:appdata\Logseq" -r
+</pre>
+
+== Copyright ==
+
+Copyright 2022 - 2024 [https://github.com/bGZo bGZo]. All rights reserved. The contents is licensed under a [https://creativecommons.org/licenses/by-sa/4.0/ CC-BY-SA]; the code is under [https://github.com/bGZo/blog/blob/main/LICENSE MIT licence].

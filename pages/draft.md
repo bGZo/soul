@@ -1,4 +1,4 @@
-alias:: 草稿
+also:: 草稿
 tags:: #writing 
 icon:: 📝
 template:: draft

@@ -1,4 +1,4 @@
-alias:: declarative/programming
+also:: declarative/programming
 - 声明式编程
   collapsed:: true
   - Against [[imperative]] .

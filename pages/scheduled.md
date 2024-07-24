@@ -1,7 +1,7 @@
-alias:: 计划
+also:: 计划
 icon:: 🗓️
 tags:: #logseq
-created:: 20230602
+created:: [[20230602]]
 
 - ## Why
   - Work flow

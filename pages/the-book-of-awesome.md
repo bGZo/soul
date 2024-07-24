@@ -1,4 +1,4 @@
-alias:: 人生中最美妙的事都是免费的
+also:: 人生中最美妙的事都是免费的
 author:: 尼尔•帕斯理查
 publisher:: 中国华侨出版社
 published-date:: 

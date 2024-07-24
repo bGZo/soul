@@ -1,5 +1,5 @@
-alias:: illustration/pixel,像素
-created:: 20240721
+also:: illustration/pixel,像素
+created:: [[20240721]]
 icon:: 📄
 
 - ## Why

@@ -1,4 +1,4 @@
-alias:: 社交
+also:: 社交
 related:: [[Politics]], [[Philosophy]]
 
 - [[social media]] > [[social/networking]] [^1] #vs

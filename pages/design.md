@@ -1,4 +1,4 @@
-alias:: 设计
+also:: 设计
 
 - [[tool]]
   - Format Code

@@ -1,4 +1,4 @@
-alias:: 事务
+also:: 事务
 tags:: #Spring #database
 wikipedia:: [Database transaction - Wikipedia](https://en.wikipedia.org/wiki/Database_transaction)
 - ## 特性 (ACID, A、I、D 是手段; C 是目的)

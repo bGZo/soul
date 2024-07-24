@@ -1,4 +1,4 @@
-alias:: web site, 网站
+also:: web site, 网站
 - ## [Static web page - Wikipedia](https://en.wikipedia.org/wiki/Static_web_page)
   collapsed:: true
   - [GitbookIO/gitbook](https://github.com/GitbookIO/gitbook) ![](https://img.shields.io/github/stars/GitbookIO/gitbook)

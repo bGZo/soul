@@ -1,2 +1,2 @@
-alias:: jep
+also:: jep
 tags:: jdk

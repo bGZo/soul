@@ -1,4 +1,4 @@
-alias:: commands/line, cli, 命令行
+also:: commands/line, cli, 命令行
 tags:: #tools
 
 -

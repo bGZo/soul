@@ -1,4 +1,4 @@
-alias:: lang/programming/clojure
+also:: lang/programming/clojure
 tags:: WAIT
 -
 - Refs

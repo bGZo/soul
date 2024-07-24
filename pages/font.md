@@ -1,7 +1,7 @@
-alias:: 字体
+also:: 字体
 icon:: 字
 tags:: #designtags:: 
-created:: 20230821
+created:: [[20230821]]
 
 - ## Why
 - ## How

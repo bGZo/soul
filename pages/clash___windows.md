@@ -1,9 +1,9 @@
-alias:: CFW
+also:: CFW
 tags:: #deprecated 
 source:: [Fndroid/clash_for_windows_pkg: A Windows/macOS GUI based on Clash](https://github.com/Fndroid/clash_for_windows_pkg)  ![](https://img.shields.io/github/stars/Fndroid/clash_for_windows_pkg)
 document:: [Clash for Windows | Clash for Windows](https://docs.cfw.lbyczf.com/)
 changelog:: [Fndroid的日常](https://t.me/fndroid_news) [↩](tg://resolve?domain=fndroid_news)
-created:: 20230115
+created:: [[20230115]]
 
 - ~~Changelog~~
   collapsed:: true

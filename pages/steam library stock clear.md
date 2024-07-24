@@ -1,8 +1,8 @@
-alias:: project/steam library stock clear
+also:: project/steam library stock clear
 description::
 icon:: 📂
 tags:: #project
-created:: 20240721
+created:: [[20240721]]
 
 -
 -

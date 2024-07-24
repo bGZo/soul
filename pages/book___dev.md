@@ -1,1 +1,1 @@
-alias:: develop/book
+also:: develop/book

@@ -1,4 +1,4 @@
-alias:: maths/scale
+also:: maths/scale
 - Measurement Unit
   collapsed:: true
   - ((632567dc-203a-4a50-acbe-692fe9c6e248))

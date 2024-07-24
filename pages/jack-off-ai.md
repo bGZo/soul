@@ -1,4 +1,4 @@
-alias:: 导管 AI, 自慰 AI
+also:: 导管 AI, 自慰 AI
 tags:: #[[sex]] #my/blog
 description:: [Jark off AI - bGZo's blog](https://blog.bgzo.cc/jark-off-ai.html)
 

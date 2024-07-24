@@ -1,5 +1,5 @@
 icon:: 🐍
-alias:: py
+also:: py
 tags:: lang/programming
 template:: page/python
 template-including-parent:: false

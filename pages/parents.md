@@ -1,2 +1,2 @@
-alias:: 父母
+also:: 父母
 tags:: #Family

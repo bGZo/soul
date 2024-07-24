@@ -1,4 +1,4 @@
-alias:: data-structure/linked-list
+also:: data-structure/linked-list
 -
 -
 - 单向链表

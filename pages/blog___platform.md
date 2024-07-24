@@ -1,4 +1,4 @@
-alias:: 博客平台
+also:: 博客平台
 
 - ## What
   - Free

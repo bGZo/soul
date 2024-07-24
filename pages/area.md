@@ -1,6 +1,6 @@
 icon:: 📄
-alias:: para/area
-created:: 20240719
+also:: para/area
+created:: [[20240719]]
 description::
 
 - ## Why

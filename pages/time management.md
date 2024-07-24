@@ -1,4 +1,4 @@
-alias:: 时间管理, time/management
+also:: 时间管理, time/management
 icon:: 🕛
 wikipedia:: [Time management - Wikipedia](https://en.wikipedia.org/wiki/Time_management)
 - Cultural views of time management

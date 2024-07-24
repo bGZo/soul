@@ -1,2 +1,2 @@
-alias:: rte
+also:: rte
 -

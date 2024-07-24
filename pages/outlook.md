@@ -1,4 +1,4 @@
-alias:: email/outlook
+also:: email/outlook
 - [[Quickref]]
   - Canlender
     - Global Canlender

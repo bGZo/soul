@@ -1,1 +1,1 @@
-alias:: information, 信息
+also:: information, 信息

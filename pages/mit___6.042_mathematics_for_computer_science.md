@@ -1,5 +1,5 @@
 icon:: 🏫
-alias:: MIT 6.042J, Mathematics for Computer Science
+also:: MIT 6.042J, Mathematics for Computer Science
 description:: Version 2010 Fall, Latter has 2015；
 
 - ## REFERENCES

@@ -1,9 +1,9 @@
 icon:: 
-alias:: clash
+also:: clash
 description:: SS / SSR / V2Ray / 分流
 tags:: ang #proxy
 source:: [Dreamacro/clash: A rule-based tunnel in Go.](https://github.com/Dreamacro/clash) ![](https://img.shields.io/github/stars/Dreamacro/clash)
-created:: 20230115
+created:: [[20230115]]
 
   - [yichengchen/clashX](https://github.com/yichengchen/clashX/) For MacOS ![](https://img.shields.io/github/stars/yichengchen/clashX)
   - [Kr328/ClashForAndroid: A rule-based tunnel for Android.](https://github.com/Kr328/ClashForAndroid/) ![](https://img.shields.io/github/stars/Kr328/ClashForAndroid)

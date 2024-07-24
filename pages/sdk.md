@@ -1,1 +1,1 @@
-alias:: software development kit
+also:: software development kit

@@ -1,4 +1,4 @@
-alias:: commands/umask
+also:: commands/umask
 -
 - ```shell
   umask -S

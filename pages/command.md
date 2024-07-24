@@ -1,11 +1,11 @@
-alias:: 命令
+also:: 命令
 icon:: ⌘
-created:: 20230625
+created:: [[20230625]]
 
   - Linux Manual
     template:: command-man
     template-including-parent:: false
-    - alias:: commands/``{c.page.name}``
+    - also:: commands/``{c.page.name}``
       created:: ``{ date.now.format('YYYYMMDD') }``
       icon:: ⌘
     - ## Why

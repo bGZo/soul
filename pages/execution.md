@@ -1,4 +1,4 @@
-alias:: program/execution
+also:: program/execution
 - ## Outline
   id:: 6257f06a-733c-40cd-bb04-95c22975bb09
   - General Concepts

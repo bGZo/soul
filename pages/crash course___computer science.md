@@ -1,5 +1,5 @@
 tags:: #github #opensource
-created:: 20230324
+created:: [[20230324]]
 source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https://img.shields.io/github/stars/1c7/crash-course-computer-science-chinese)
 
 - [CSAPP+SICP - 知乎](https://www.zhihu.com/column/c_1212802114247979008)

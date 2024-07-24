@@ -1,4 +1,4 @@
-alias:: Linux/system-call/sed, commands/sed
+also:: Linux/system-call/sed, commands/sed
 
 - vs [[vim]]
   - 全文本编辑器 vs 行编辑器

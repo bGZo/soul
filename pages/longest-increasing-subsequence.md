@@ -1,5 +1,5 @@
 icon:: 👨‍💻
-alias:: 最长递增子序列
+also:: 最长递增子序列
 tags:: #leetcode/medium #动态规划
 - ## Content
   - <iframe src="https://leetcode.cn/problems/longest-increasing-subsequence" style="height: 400px"></iframe>

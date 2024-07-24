@@ -1,4 +1,4 @@
-alias:: cpp/stl/vector
+also:: cpp/stl/vector
 - assign: 替换旧元素为向量元素分配新值
   - ``` c++
         void assign(const_iterator first,const_iterator last); // 将区间[first,last)的元素赋值到当前的vector容器

@@ -1,4 +1,4 @@
-alias:: maths/bignum
+also:: maths/bignum
 -
 - 高精度计算 (Arbitrary-Precision Arithmetic), 大整数 (bignum) 计算
 -

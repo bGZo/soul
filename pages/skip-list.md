@@ -1,4 +1,4 @@
-alias:: data-structure/skip-list
+also:: data-structure/skip-list
 description:: 跳表
 tags:: TODO
 

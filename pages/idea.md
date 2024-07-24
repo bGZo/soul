@@ -1,5 +1,5 @@
 icon:: 💡
-alias:: my/idea
+also:: my/idea
 
 - ## 😎 DONE By ME 
   -

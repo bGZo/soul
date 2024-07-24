@@ -1,105 +1,23 @@
+also:: [[logseq/template]]
 icon:: 📄
-created:: 20230531
-alias:: 模板
+created:: [[20230531]]
 exclude-from-graph-view:: true
 
-  - template:: page/public
-    template-including-parent:: false
-    collapsed:: true
-    - ---
-      alias:
-      mark:
-      icon:
-      date: ``{ date.now.format('YYYYMMDD') }``
-            title: ``{ c.page.name }``
-      ---
-    - ## Why
-      -
-    - ## How
-      -
-    - ## What
-      -
 - ## Why
-  - As I said, **every page should have a template page**, then we could type more productive.
 - ## How
-  - How to write the template in a standard way? 
-    - Using page template as soon as possible, giving up the block template.
-    - Sort the properties by the initial.
-    - Don't add the `[[]]` in `page_name`.
-      id:: 6375b6b8-8628-4bf0-9027-668073dceec6
-    - #+BEGIN_WARNING
-      After being imported [[stdword/logseq13-full-house-plugin]], the whole default variables should be changed again.
-      #+END_WARNING
-    - ```markdown
-      - template:: placeholder
-        template-including-parent:: false
-        - alias:: 
-        	collapsed:: true
-          mark:: 
-        	icon:: 
-      	
-      	start-date:: ``{ date.now.format('YYYYMMDD') }``
-      	tags:: 
-      	title:: ``{ c.page.name }``
-      ```
-      - Other properties options references
-        collapsed:: true
-        - ```yml
-          source:: 
-          :: 
-          title:: 
-          #========#
-          author:: 
-          publisher:: 
-          artisit:: 
-          developer:: 
-          #========#
-          end-date:: 
-          #========#
-          :: 
-          released:: 
-          published-date:: 
-          ```
-    - Here are [[deprecated]] properties:
-      - `url`
-      - `mark`
-      - `desc`
-      - `release-date`
-      - `name`
-      - `end`
-        collapsed:: true
-        - 一天之内就能完成的东西，比如唱片、专辑，没有必要缀一个这样的属性。
-        - （PS: 这其实是一个偷懒的做法）
 - ## What
-  - Old templates archived
-    collapsed:: true
-    - template:page/tool
-      template-including-parent: false
-      - icon:: 
-        title:: 
-        alias:: 
-        desc:: 
-        tags:: #tools
-        document:: 
-        changelog:: 
-        community:: 
-        description:: 
-        created:: <% today %>
-      - #+BEGIN_PINNED
-        <!-- Rules -->
-        #+END_PINNED
-      - ## [[cheat/sheet]]
-        - ### [[shortcut]]
-        -
-      - ## [[bookmark]]
-        -
-      - ## [[issue]]
-        - #Closed
-          -
-        -
-      - ## 📃 Reference
-        -
-    - delete ``
-    - 因为 [sawhney17/logseq-smartblocks](https://github.com/sawhney17/logseq-smartblocks), 改变模板的写法;
-    - `#<% today %>` & `<% today %>` 唯一的区别就是前者渲染为标签, 后者渲染为页面; 但都不会真正创建页面
-  - `{{query (property template)}}`
+  - The version has changed several times after those thing imported.
+    - Dynamic variable build-in, like `<% today %>`, `<% current page %>`
+      logseq.order-list-type:: number
+    - [[sawhney17/logseq-smartblocks]]
+      logseq.order-list-type:: number
+      - ```
+        {{renderer :smartblock, book, +Book, true}}
+        ```
+    - 🌟 [[stdword/logseq13-full-house-plugin]]
+      logseq.order-list-type:: number
+      - add more variable to format notes.
+- ## Templates
+  query-table:: false
+  {{query (and (property template) (sort-by created asc))}}
+  - query-table:: false

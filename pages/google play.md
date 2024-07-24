@@ -1,2 +1,2 @@
-alias:: Google/play
+also:: Google/play
 icon:: ▶︎

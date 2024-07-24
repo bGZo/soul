@@ -1,5 +1,5 @@
 tags:: #css
-created:: 20230709
+created:: [[20230709]]
 - ## Why
 - ## How
 - ## What

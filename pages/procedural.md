@@ -1,4 +1,4 @@
-alias:: 过程式
+also:: 过程式
 -
 - #[[knowledge]]
 -

@@ -1,5 +1,5 @@
-alias:: area/consumerism, 消费主义
-created:: 20240721
+also:: area/consumerism, 消费主义
+created:: [[20240721]]
 description:: 
 icon:: 📄
 

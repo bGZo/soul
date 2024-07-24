@@ -1,4 +1,4 @@
-alias:: books/深入浅出SSD
+also:: books/深入浅出SSD
 author:: SSDFans
 publisher:: 机械工业出版社
 published-date:: 20180600

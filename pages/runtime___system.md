@@ -1,4 +1,4 @@
-alias:: execution/runtime/system, runtime-system
+also:: execution/runtime/system, runtime-system
 description:: 运行时系统
 
   - 指一种半编译的执行码在目标机器上运行时的环境

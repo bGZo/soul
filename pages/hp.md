@@ -1,1 +1,1 @@
-alias:: Hewlett Packard, 惠普
+also:: Hewlett Packard, 惠普

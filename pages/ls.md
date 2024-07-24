@@ -1,4 +1,4 @@
-alias:: commands/ls
+also:: commands/ls
 - collapsed:: true
   ```shell
   $ ls -l

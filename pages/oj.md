@@ -1,4 +1,4 @@
-alias:: open judge, online judge, question/oj
+also:: open judge, online judge, question/oj
 tags:: #[[algorithm]], #[[data-structure]]
 
 - [[Quickref]]

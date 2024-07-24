@@ -1,4 +1,4 @@
-created:: 20210128
+created:: [[20210128]]
 closed:: [[20230322]]
 author:: Damian Gordon
 - ## [PythonMondy](http://damiantgordon.com/PythonMonday/) ![Python Monday](../assets/book_pythonmonday.pdf)

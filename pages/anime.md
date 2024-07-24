@@ -1,16 +1,16 @@
 icon:: 📺
-alias:: 动漫, acgn/anime
+also:: [[hobbies/anime]], [[动漫]]
 wikipedia:: https://en.wikipedia.org/wiki/Animation
 template:: anime
 template-including-parent:: false
 
-  - icon:: 📺
-    created:: ``{ date.now.format('YYYYMMDD') }``
-    cover:: ![](){:width 225}
+  - cover:: ![](){:width 225}
     bangumi:: https://bgm.tv/subject/
-    douban:: https://www.douban.com/
+    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    douban:: https://movie.douban.com/subject/
+    icon:: 📺
     myanimelist:: https://myanimelist.net/anime/
-    tags:: #animelist
+    tags:: animes/``{ date.now.format('YYYYMM') }``
 - #+BEGIN_PINNED
   我就是喜欢纸片人。他们是点阵、是数据、这种事情我知道。
   那你喜欢的那个男孩又是什么? 蛋白质? 钙?

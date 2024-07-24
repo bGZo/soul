@@ -1,1 +1,1 @@
-alias:: author/jjal-toon
+also:: author/jjal-toon

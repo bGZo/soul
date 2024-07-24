@@ -1,5 +1,5 @@
-alias:: windows 发行版
-created:: 20240421
+also:: windows 发行版
+created:: [[20240421]]
 
 - ## Why
 - ## How

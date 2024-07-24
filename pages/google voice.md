@@ -1,7 +1,7 @@
-alias:: google/voice
+also:: google/voice
 icon:: 📞
 tags:: #Privacy
-created:: 20230806
+created:: [[20230806]]
 - ## Why
 - ## How
   - How to keep this number?

@@ -1,4 +1,4 @@
-alias:: technical debt, design debt, code debt, 技术债
+also:: technical debt, design debt, code debt, 技术债
 description:: Analogous with monetary debt, if technical debt is not repaid, it can accumulate "interest", making it harder to implement changes. (与货币债务类似，如果不偿还技术债务，它会积累“利息”，使实施变革变得更加困难)
 description:: [Technical debt - Wikipedia](https://en.wikipedia.org/wiki/Technical_debt)
 
@@ -9,5 +9,5 @@ description:: [Technical debt - Wikipedia](https://en.wikipedia.org/wiki/Technic
     >
     [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham) (1992-03-26). ["The WyCash Portfolio Management System"](http://c2.com/doc/oopsla92.html). Retrieved 2008-09-26.
   - I agree so much. "Only install the plugins when you can read and understand the source code."
-    created:: 20230215
+    created:: [[20230215]]
     - ![Logseq_212.png](../assets/Logseq_212_1676439263372_0.png)

@@ -1,1 +1,1 @@
-alias:: chinese/literature
+also:: chinese/literature

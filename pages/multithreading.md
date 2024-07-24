@@ -1,4 +1,4 @@
-alias:: concurrency/multithreading
+also:: concurrency/multithreading
 description:: 进程(中国大陆); ==过程==、行程、程序、处理程序(港台)
 tags:: TODO
 

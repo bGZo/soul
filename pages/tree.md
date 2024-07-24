@@ -1,4 +1,4 @@
-alias:: maths/graph/tree
+also:: maths/graph/tree
 
 - Base
   collapsed:: true

@@ -1,4 +1,4 @@
-alias:: algo/sort
+also:: algo/sort
 
 -
 - ## Sort Function

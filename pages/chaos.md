@@ -1,5 +1,5 @@
 -
-alias:: 混沌系列
+also:: 混沌系列
 tags:: #game
 
 - ## 混沌之子 Choas;Child [[20240503]]

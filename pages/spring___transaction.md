@@ -1,3 +1,3 @@
-alias:: transaction/spring
+also:: transaction/spring
 tags:: TODO
 description:: Spring 事务

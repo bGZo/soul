@@ -1,10 +1,10 @@
 icon:: 📖
-alias:: books/现实+每个虚拟世界都是一个新的现实, Reality+ Virtual Worlds and the Problems of Philosophy
+also:: books/现实+每个虚拟世界都是一个新的现实, Reality+ Virtual Worlds and the Problems of Philosophy
 author:: 大卫·查默斯
 publisher:: 中信出版集团
 published::  20220125
 isbn:: 9787521747782
-created:: 20230126
+created:: [[20230126]]
 douban:: [现实+ (豆瓣)](https://book.douban.com/subject/36124466/)
 goodreads:: [Reality+: Virtual Worlds and the Problems of Philosophy by David J. Chalmers | Goodreads](https://www.goodreads.com/book/show/58975776-reality)
 weread:: [现实+：每个虚拟世界都是一个新的现实-大卫·查默斯-微信读书](https://weread.qq.com/web/bookDetail/d1732540813ab7739g016887)

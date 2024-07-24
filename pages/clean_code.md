@@ -1,4 +1,4 @@
-alias:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books/代码整洁之道
+also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books/代码整洁之道
 - ## ![Clean Code: A Handbook of Agile Software Craftsmanship](../assets/book_clean_code_a_handbook_of_agile_software_craftsmanship.pdf)
 - ## ![代码整洁之道：程序员的职业素养](../assets/book_代码整洁之道_程序员的职业素养_马丁.pdf)
 - ((6436c79d-c0ca-499f-a330-2c7ddd0fbde6)) ((6436c78f-318d-40f4-8bab-3db31e19923b))

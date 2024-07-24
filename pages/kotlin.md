@@ -1,5 +1,5 @@
 alias::
-created:: 20240630
+created:: [[20240630]]
 description::
 icon::
 tags:: #lang/programming

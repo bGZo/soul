@@ -1,5 +1,5 @@
 cover:: ![](https://img9.doubanio.com/view/subject/l/public/s25506196.jpg)
-alias:: books/大学英语六级经典必背500句
+also:: books/大学英语六级经典必背500句
 tags:: #English
 published-date:: 20160900
 weread:: [大学英语六级经典必背500句-俞敏洪-微信读书](https://weread.qq.com/web/bookDetail/800323e07158c8e0800fd55)

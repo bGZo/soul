@@ -1,2 +1,2 @@
-alias:: ir, execution/intermediate-representation
+also:: ir, execution/intermediate-representation
 -

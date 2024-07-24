@@ -1,6 +1,6 @@
-alias:: 存储
+also:: 存储
 icon:: 💾
-created:: 20240128
+created:: [[20240128]]
 tags:: #3C, #tool
 
 - ## Why

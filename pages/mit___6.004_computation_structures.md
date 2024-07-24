@@ -1,2 +1,2 @@
-alias:: Computation Structures
+also:: Computation Structures
 -

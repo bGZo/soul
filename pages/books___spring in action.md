@@ -7,7 +7,7 @@ isbn:: 9787115598691
 douban:: [Spring实战（第6版） (豆瓣)](https://book.douban.com/subject/36142064)
 weread:: [Spring实战（第6版）-克雷格·沃斯-微信读书](https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4)
 description:: [habuma/spring-in-action-6-samples: Sample code from Spring in Action 6](https://github.com/habuma/spring-in-action-6-samples)
-created:: 20230111
+created:: [[20230111]]
 
 - ## 📄 Contents
   - 关于本书
@@ -1889,7 +1889,7 @@ created:: 20230111
       - via: ((63d38953-fce4-471c-990e-98f98b614547))
     - `Class MediaType` -> Internet Media Types
       - Media type
-        alias:: MIME type, Content type, 互联网媒体类型, MIME类型, 内容类型
+        also:: MIME type, Content type, 互联网媒体类型, MIME类型, 内容类型
         description:: a two-part identifier for file formats and format contents transmitted on the Internet
         description:: [Media type - Wikipedia](https://en.wikipedia.org/wiki/Media_type); Postel, J., [Media Type Registration Procedure](https://www.ietf.org/rfc/rfc1590.txt) , RFC 1590, November 1996)
         collapsed:: true

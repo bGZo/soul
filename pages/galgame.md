@@ -1,5 +1,5 @@
 icon:: 🎮
-alias:: ギャルゲーム, ギャルゲー, ギャルゲ, 美少女游戏, 萌游戏, Visual Novel, game/galgame
+also:: ギャルゲーム, ギャルゲー, ギャルゲ, 美少女游戏, 萌游戏, Visual Novel, game/galgame
 moegirl:: https://zh.moegirl.org.cn/zh-hk/Galgame
 wikipedia:: https://en.wikipedia.org/wiki/Bish%C5%8Djo_game
 description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
@@ -7,7 +7,7 @@ template:: galgame
 template-including-parent:: false
 
   - cover:: ![🖼]()
-    alias:: galgames/``{ c.page.name }``
+    also:: galgames/``{ c.page.name }``
     created:: ``{ date.now.format('YYYYMMDD') }``
     bangumi:: https://bgm.tv/subject/
     douban:: https://www.douban.com/
@@ -76,7 +76,7 @@ template-including-parent:: false
     - title:: [【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩](https://www.bilibili.com/read/cv6488276)
       author:: Reca_ザキ
       tags:: #archive/web
-      created:: 20221121
+      created:: [[20221121]]
       archive:: [💾 Archived](assets/archived_web/【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩 (11_21_2022 10_05_08 PM).html)
   - DONE How to play in different devices?
     collapsed:: true

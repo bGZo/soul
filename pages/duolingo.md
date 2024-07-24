@@ -1,4 +1,4 @@
-alias:: 多邻国
+also:: 多邻国
 tags:: #lang
 cost:: 1
-created:: 20230529
+created:: [[20230529]]

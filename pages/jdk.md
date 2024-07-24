@@ -1,4 +1,4 @@
-alias:: java development kit, java/development_kit
+also:: java development kit, java/development_kit
 description:: 功能齐全的 Java [[sdk]]；
 tags:: #sdk
 description:: [Java Development Kit - Wikipedia](https://en.wikipedia.org/wiki/Java_Development_Kit)；[JDK - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/JDK)

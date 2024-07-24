@@ -1,6 +1,6 @@
 icon:: 🎮
 tags:: game/platform
-created:: 20230704
+created:: [[20230704]]
 
 - ## Why
 - ## How

@@ -1,4 +1,4 @@
-alias:: 版本号
+also:: 版本号
 
 -
   - ```shell

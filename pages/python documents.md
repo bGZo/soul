@@ -1,6 +1,6 @@
-alias:: python/documents
+also:: python/documents
 icon:: 🐍
-created:: 20230627
+created:: [[20230627]]
 
 - ## Why
 - ## How

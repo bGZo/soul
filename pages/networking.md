@@ -1,4 +1,4 @@
-alias:: 网络
+also:: 网络
 icon:: 🌐
 -
 - [Why is Ethernet So Power Hungry? - Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/questions/52349/why-is-ethernet-so-power-hungry)

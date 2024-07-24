@@ -1,4 +1,4 @@
-alias:: commands/grep
+also:: commands/grep
 - global regular expression print | 全局正则表达式打印
 -
 -

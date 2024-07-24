@@ -1,6 +1,6 @@
-alias:: 代理, 翻墙, 科学上网
+also:: 代理, 翻墙, 科学上网
 icon:: ✈
-created:: 20230602
+created:: [[20230602]]
 
 - #+BEGIN_PINNED
   世界之大，付费可及；

@@ -1,4 +1,4 @@
-alias:: Not Only SQL, 不仅仅是SQL
+also:: Not Only SQL, 不仅仅是SQL
 description:: 对不同于传统的关系型数据库的数据库管理系统的统称, nosql 用于超大规模数据的存储, 这些类型的数据存储不需要固定的模式，无需多余操作就可以横向扩展
 description:: 用户数据和操作日志成倍的增加，如果要对这些数据进行挖掘，只能使用 NoSQL
 

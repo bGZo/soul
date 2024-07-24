@@ -1,4 +1,4 @@
-alias:: 不如读书
+also:: 不如读书
 tags:: #newsletter #history
 
 - [[后记：我们该如何记忆历史]]

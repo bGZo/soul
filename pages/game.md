@@ -1,12 +1,12 @@
 filters:: {}
-created:: 20230815
+created:: [[20230815]]
 icon:: 🎮
-alias:: 游戏, acgn/game
+also:: 游戏, acgn/game
 template:: game
 template-including-parent:: false
 
   - cover:: ![🖼]()
-    alias:: games/``{ c.page.name }``
+    also:: games/``{ c.page.name }``
     created:: ``{ date.now.format('YYYYMMDD') }``
     bangumi:: https://bgm.tv/subject/
     douban:: https://www.douban.com/

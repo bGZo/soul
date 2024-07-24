@@ -1,5 +1,5 @@
-alias:: 工具
-created:: 20230531
+also:: 工具
+created:: [[20230531]]
 icon:: 🛠
 template:: tool
 template-including-parent:: false
@@ -10,9 +10,8 @@ template-including-parent:: false
     community:: 
     document:: 
     icon:: 
-    created:: ``{ date.now.format('YYYYMMDD') }``
-    tags:: 
-    title:: ``{ c.page.name }``
+    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    tags::
 - ## Why
   - Creating thing more productive.
 - ## How

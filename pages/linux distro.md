@@ -1,7 +1,7 @@
-alias:: Linux Distribution, Linux发行套件
+also:: Linux Distribution, Linux发行套件
 icon:: 🐧
 tags:: #linux
-created:: 20230906
+created:: [[20230906]]
 
 - ## Why
 - ## How

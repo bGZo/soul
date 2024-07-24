@@ -1,6 +1,6 @@
-alias:: jcp
+also:: jcp
 icon:: ☕
-created:: 20240612
+created:: [[20240612]]
 
 - ## Why
   -

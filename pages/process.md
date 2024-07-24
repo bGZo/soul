@@ -1,4 +1,4 @@
-alias:: os/process, 进程
+also:: os/process, 进程
 
 - TODO 用 go 和 docker 讲解进程????
 - ## Wiki

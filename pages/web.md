@@ -1,6 +1,6 @@
 icon:: 📄
-alias:: World Wide Web, www
-created:: 20240713
+also:: World Wide Web, www
+created:: [[20240713]]
 
 - ## Why
 - ## How

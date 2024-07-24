@@ -1,2 +1,2 @@
-alias:: se/probability-theory
+also:: se/probability-theory
 -

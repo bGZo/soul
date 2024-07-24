@@ -1,5 +1,5 @@
 icon:: 📝
-created:: 20240721
+created:: [[20240721]]
 tags:: #privacy
 
 - #+BEGIN_NOTE

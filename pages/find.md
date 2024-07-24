@@ -1,4 +1,4 @@
-alias:: Linux/system-call/find
+also:: Linux/system-call/find
 
 - WAITING System Call & Commands 区别? 要怎么分类???
 -
