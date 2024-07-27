@@ -1,5 +1,6 @@
 file:: [book_柴犬绅士_都市型男好品位穿搭指南.pdf](../assets/book_柴犬绅士_都市型男好品位穿搭指南.pdf)
 file-path:: ../assets/book_柴犬绅士_都市型男好品位穿搭指南.pdf
+exclude-from-graph-view:: true
 - [:span]
   ls-type:: annotation
   hl-page:: 19

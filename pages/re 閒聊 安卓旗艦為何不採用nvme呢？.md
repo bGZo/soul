@@ -1,9 +1,10 @@
----
-created: 2024-01-28
-tags: Ptt BBS 批踢踢
-source: https://www.ptt.cc/bbs/MobileComm/M.1520838748.A.6EB.html
-author: mainline (OCISLY)
----
+icon:: 💾
+author:: 
+created:: [[20240128]]
+exclude-from-graph-view:: true
+source:: https://www.ptt.cc/bbs/MobileComm/M.1520838748.A.6EB.html
+type:: archives-web
+
 - 看板MobileComm
 - 標題Re: \[閒聊\] 安卓旗艦為何不採用NVME呢？
 - 時間Mon Mar 12 15:12:25 2018

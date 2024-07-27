@@ -1,3 +1,6 @@
+created:: [[20240727]]
+exclude-from-graph-view:: true
+icon:: 📄
 tags:: #deprecated
 
 - why-microsoft-todo-is-shits

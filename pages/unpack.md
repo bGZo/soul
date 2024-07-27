@@ -8,7 +8,7 @@ created:: [[20230611]]
   - How to unpack game?
     - [[unity]]
       - title:: [Perfare/AssetStudio: AssetStudio is a tool for exploring, extracting and exporting assets and assetbundles](https://github.com/Perfare/AssetStudio) ![](https://img.shields.io/github/stars/Perfare/AssetStudio)
-        tags:: #github #opensource #archived #unity #unpack
+        tags:: #github #opensource #archive #unity #unpack
         created:: [[20230201]]
     - RPG Maker WOLF
       - title:: [Sinflower/WolfDec: A Simple Wolf RPG File Decrypter](https://github.com/Sinflower/WolfDec) ![](https://img.shields.io/github/stars/Sinflower/WolfDec)

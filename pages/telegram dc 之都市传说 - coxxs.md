@@ -1,8 +1,10 @@
----
-created: 20240427
-source: https://dev.moe/2564
-author: Coxxs
----
+icon:: 💾
+author:: Coxxs
+created:: [[20240427]]
+exclude-from-graph-view:: true
+source:: https://dev.moe/2564
+type:: archives-web
+
 - - Telegram 号称有 5 个数据中心（DC, Data Center），在 Telegram 代码与文档中被称作 DC 1~5。其中 DC1 与 DC3 位于美国的迈阿密（Miami, USA）；DC2 与 DC4 位于荷兰的阿姆斯特丹（Amsterdam, NL）；DC5 位于新加坡（Singapore）。
 - 每个帐号都会在注册时关联一个 DC，此后**不随**用户更改手机号或地理位置迁移。用户也不能自由选用 DC——如果连接到了错误的 DC，服务端会返回错误信息，要求客户端连接到帐号所关联的正确 DC 上。
 - ## 从日常宕机的 DC5 说起

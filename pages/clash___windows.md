@@ -4,6 +4,8 @@ source:: [Fndroid/clash_for_windows_pkg: A Windows/macOS GUI based on Clash](htt
 document:: [Clash for Windows | Clash for Windows](https://docs.cfw.lbyczf.com/)
 changelog:: [Fndroid的日常](https://t.me/fndroid_news) [↩](tg://resolve?domain=fndroid_news)
 created:: [[20230115]]
+exclude-from-graph-view:: true
+icon:: 📄
 
 - ~~Changelog~~
   collapsed:: true

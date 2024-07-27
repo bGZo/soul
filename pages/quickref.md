@@ -1,4 +1,6 @@
 icon:: ↩
+created:: [[20240727]]
+exclude-from-graph-view:: true
 
 - WAITING **Need to be remembered ==in time==**
   :LOGBOOK:

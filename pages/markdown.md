@@ -58,7 +58,7 @@ created:: 20191213T02:40:57+08:00
       | cpp | C++ |
       | crmsh | crmsh |
       | crystal | Crystal |
-      | cs | C# |
+      | cs | c\# |
       | csp | CSP |
       | css | CSS |
       | d | D |

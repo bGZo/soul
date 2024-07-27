@@ -5,7 +5,7 @@ icon:: 📄
 
 - ## Why
   collapsed:: true
-  - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[Privacy]], [[censor]], with high [[price]] and bullshit user agreement.
+  - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[privacy]], [[censor]], with high [[price]] and bullshit user agreement.
     - ((64772db8-4367-4d35-b2ca-fed0e45bdd2c))
   - Basically, it's better that encoding with txt and search in [[vscode]]. I used it in the past but I was dropped in the category hell. When I finish a note last two months, and I have no idea where are they stored. The category I organized is terrible. And the ((6474b5f9-a287-48d9-a097-3400b8de53f7)). I like it.
   - I've learned a lot of things, not only how to note, how to remember, but also a few philosophy of organizing the whole [[knowledge]] system.

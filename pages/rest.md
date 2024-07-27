@@ -76,7 +76,7 @@ tags:: #[[osi/application]]
           - 在HATEOAS链接的帮助下，客户端可以通过解析这个JSON来检查链接，并轻松提出请求。如果端点发生变化，他们将得到新的端点，而不需要改变客户端的代码。
 -
 - Refs
-  - [怎样用通俗的语言解释REST，以及RESTful？- 覃超​ - 知乎](https://www.zhihu.com/question/28557115/answer/48094438)
+  - [怎样用通俗的语言解释REST，以及RESTful？- 覃超  - 知乎](https://www.zhihu.com/question/28557115/answer/48094438)
   - [表现层状态转换（REST）是什么？有什么优点？](https://chinese.freecodecamp.org/news/benefits-of-rest/)
   - [Representational state transfer - Wikipedia](https://en.wikipedia.org/wiki/Representational_state_transfer)
   - [HATEOAS - Wikipedia](https://en.wikipedia.org/wiki/HATEOAS)

@@ -1,8 +1,9 @@
----
-created: 20240605
-source: https://www.qiyichao.cn/archives/18/
-tags: #ubuntu #snap 
----
+icon:: 💾
+author:: 
+created:: [[20240605]]
+exclude-from-graph-view:: true
+source:: https://www.qiyichao.cn/archives/18/
+type:: archives-web
 
 - 在过去，想发布一个 Linux 应用程序会带来很多问题：
   - 程序文件遍布整个系统
@@ -23,7 +24,7 @@ tags: #ubuntu #snap
 - 你也可以在 Snapcraft 的官方文档（[https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)）中找到对应系统的安装命令。
 - 在系统包含 Snap 后，可以安装 Snap 应用程序：
 - ```
-  snap install &lt;snap name&gt;
+  snap install <snap name>
   ```
 - 默认情况下，Snap 应用会被安装到 `/snap/<snap name>/<revision>/` 目录下。我们可以安装一个 Hello 应用：
 - ```
@@ -32,9 +33,9 @@ tags: #ubuntu #snap
 - 这样我们就可以运行这个应用。
 - ```
   hello
-  &gt; Hello, world!
+  > Hello, world!
   - hello.universe
-  &gt; Hello, universe!
+  > Hello, universe!
   ```
 - Snap 也可以支持后台运行的应用。
 - ```

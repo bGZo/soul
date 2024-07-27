@@ -1,6 +1,6 @@
 icon:: 📝
 created:: [[20240615]]
-status:: [[writing/published]]
+status:: writing/published
 tags:: #[[feminism]]
 
 - {{video https://www.youtube.com/watch?v=wp43OdtAAkM}}

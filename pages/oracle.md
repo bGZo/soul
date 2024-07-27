@@ -232,29 +232,29 @@ also:: database/object–relational/oracle
       -- | FORMAT | MEANINGS|
       -- |--------|---------|
       -- | yy     | two  digits 两位年显示值|
-      -- ​| yyy    | three  digits 三位年显示值|
-      -- ​| yyyy   | four  digits 四位年显示值|
-      -- ​| Month  | |
-      -- ​| mm     | number两位月显示值|
-      -- ​| mon    | abbreviated 字符集表示 显示值|
-      -- ​| month  | spelled out 字符集表示 显示值|
-      -- ​| Day    |
-      -- ​| dd     | number 当月第几天显示值|
-      -- ​| ddd    | number 当年第几天显示值|
-      -- ​| dy     | abbreviated 当周第几天简写|
-      -- ​| day    | spelled out 当周第几天全写|
-      -- ​| ddspth | spelled out ordinal|
-      -- ​| Hour   | |
-      -- ​| hh     | two digits 12小时进制|
-      -- ​| hh24   | two digits 24小时进制|​
-      -- ​| Minute | |
-      -- ​| mi     | two  digits 60进制显示值|
-      -- ​| Second | |
-      -- ​| ss     | twodigits 60进制显示值|
+      --  | yyy    | three  digits 三位年显示值|
+      --  | yyyy   | four  digits 四位年显示值|
+      --  | Month  | |
+      --  | mm     | number两位月显示值|
+      --  | mon    | abbreviated 字符集表示 显示值|
+      --  | month  | spelled out 字符集表示 显示值|
+      --  | Day    |
+      --  | dd     | number 当月第几天显示值|
+      --  | ddd    | number 当年第几天显示值|
+      --  | dy     | abbreviated 当周第几天简写|
+      --  | day    | spelled out 当周第几天全写|
+      --  | ddspth | spelled out ordinal|
+      --  | Hour   | |
+      --  | hh     | two digits 12小时进制|
+      --  | hh24   | two digits 24小时进制| 
+      --  | Minute | |
+      --  | mi     | two  digits 60进制显示值|
+      --  | Second | |
+      --  | ss     | twodigits 60进制显示值|
       -- | Other  | |
-      -- ​| Q      | digit 季度|
-      -- ​| WW     | digit 当年第几周|
-      -- ​| W      | digit 当月第几周|
+      --  | Q      | digit 季度|
+      --  | WW     | digit 当年第几周|
+      --  | W      | digit 当月第几周|
       --
       -- TRUNC（number,num_digits)
       -- by the way, the `trunc()` and `round()` handling the date type in

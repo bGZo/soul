@@ -1,6 +1,7 @@
 icon:: 🔒
 also:: area/privacy, 隐私
 created:: [[20240721]]
+title:: privacy
 
 - ## Why
   - 隐私一旦和政治挂钩，那么就不再是一种可有可无的东西，其事关 Everything；

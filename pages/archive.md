@@ -1,15 +1,15 @@
 icon:: 💾
-also:: para/archive, 存档
+also:: 存档
 created:: [[20240719]]
-template:: archive(default: web)
-template-including-parent:: false
 
-  - title:: 
+  - icon:: 💾
     author:: 
-    tags:: #archive/web
-    created:: <% today %>
-    description:: 
-    archive:: [💾 Archived](../assets/archived_web/ )
+    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    exclude-from-graph-view:: true
+    source:: 
+    type:: archives-web
+    template:: archive(default: web)
+    template-including-parent:: true
 - ## Why
   -
 - ## How 
@@ -32,6 +32,8 @@ template-including-parent:: false
   - [ArchiveBox/ArchiveBox: 🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...](https://github.com/ArchiveBox/ArchiveBox) ![](https://img.shields.io/github/stars/ArchiveBox/ArchiveBox)
   - [go-shiori/shiori: Simple bookmark manager built with Go](https://github.com/go-shiori/shiori)
   - Google/百度快照
+-
+-
 - ## What
   - 哪一个更加安全? 更加有效? #discuss
     - > 劝你别用 webarchive， 它会被 DMCA 管制

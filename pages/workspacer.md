@@ -5,6 +5,8 @@ document:: [configuring workspacer](https://workspacer.org/config/)
 changelog:: [changelog](https://workspacer.org/changelog/)
 created:: [[20220427]]
 description:: [Tiling window manager - Wikipedia](https://en.wikipedia.org/wiki/Tiling_window_manager); [windows 下有没有这样的分屏工具-(内有图)? - V2EX](https://www.v2ex.com/t/429177#; )
+exclude-from-graph-view:: true
+icon:: 📄
 
 - ## What
   collapsed:: true

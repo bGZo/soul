@@ -246,7 +246,7 @@ created:: [[20230602]]
             collapsed:: true
             - shadowsocksR 作者 @breakwa11 表示会继续开发新版本，@clowwindy 对其致谢
         - 8.22：@clowwindy 删除所有 github 上的 shadowsocks 仓库，之前在 twitter 上发布了删除的相关动态。同时 @clowwindy 明确表示不会继续开发 shadowsocks 项目
-        - 8.24：@breakwa11 发布 ShadowsocksR C# v3.4.0
+        - 8.24：@breakwa11 发布 ShadowsocksR c\# v3.4.0
         - 8.25：@breakwa11 发布 SSR 更新计划
       - [https://github.com/shadowsocks/shadowsocks-iOS/issues/124](https://web.archive.org/web/20150822223925/https://github.com/shadowsocks/shadowsocks-iOS/issues/124) (web archive)
         collapsed:: true

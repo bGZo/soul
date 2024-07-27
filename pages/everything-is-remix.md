@@ -1,8 +1,11 @@
 also:: video/everything-is-remix
+created:: [[20210101]]
 source:: https://player.bilibili.com/player.html?bvid=BV12s411Z7en
 type:: video
+
 - {{youtube https://www.youtube.com/watch?v=nJPERZDfyWc}}
-- {{bilibili BV12s411Z7en}}
+  collapsed:: true
+  - {{bilibili BV12s411Z7en}}
 - 糖山帮从Chic乐队的“Good Times”中采样了贝斯riff并用在自己1979年的热门单曲“Rapper's Delight”中
 - **The song remains the same**
   - 重金属的首创 剪纸 重排

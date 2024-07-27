@@ -1,5 +1,6 @@
 file:: [20230424-mainland-publishing-industry.pdf](../assets/20230424-mainland-publishing-industry.pdf)
 file-path:: ../assets/20230424-mainland-publishing-industry.pdf
+exclude-from-graph-view:: true
 - 中信书店和西西弗书店这两家大型连锁书店早在2022年10月前后便已将该书悄然撤下。
   ls-type:: annotation
   hl-page:: 2

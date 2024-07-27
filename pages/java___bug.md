@@ -1,3 +1,4 @@
 also:: bug/java
-- [[why's/java/chinese-messy-code]]
+
+- [[java/chinese-messy-code]]
 -

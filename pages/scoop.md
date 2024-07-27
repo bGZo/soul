@@ -21,7 +21,7 @@ tags:: #Windows #monthly
       你可以 scoop export 一个 json 文件，下次重装直接 scoop import 就行了
       — [Windows 包管理 scoop 太好用了! - V2EX](https://www.v2ex.com/t/869453)
       #+END_QUOTE
-  - WAITING How to automatically backup the installed app? #project #ideea #automatic #script #monthly
+  - WAITING How to automatically backup the installed app? \#project \#ideea \#automatic \#script \#monthly
 - ## What
   - DONE 用 scoop 安装浏览器存在兼容问题： `Start Menu\Programs\Scoop Apps`启动 和 默认浏览器启动
     collapsed:: true

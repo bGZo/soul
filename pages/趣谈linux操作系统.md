@@ -1,3 +1,4 @@
+exclude-from-graph-view:: true
 tags:: #geekbang, #linux
 
 - ## 入门

@@ -1,6 +1,6 @@
 icon:: 📝
 created:: [[20240706]]
-status:: [[writing/draft]]
+status:: writing/draft
 tags:: #[[self/care]]
 
 - {{video https://www.youtube.com/watch?v=m5_dNOK7oN8}}

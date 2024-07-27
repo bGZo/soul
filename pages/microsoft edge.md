@@ -15,7 +15,7 @@ created:: [[20230604]]
     - Then one day, I used [[wacom]] to browse web, then I found they're not support the default operation of chromium. They're only compatible with the mouse, instead of the tablet. So I changed again.
     - I changed to the brave, which is used my roommate. And I found they're based on [[chromium]], so they don't have the GMS. So they couldn't receive the message after closing tabs. So I changed to chromium.
     - Then [[chatGPT]], [[bing AI]] and Google Bard is released, which is not support in other browser except the edge browser.
-    - I used it a lot. Then I found their PDF reader, voice reader, and more additions with windows OS is powerful then chromium. So I changed it. And the [[Privacy]] is really dangerous, which I am really afraid of. I should notice a lot in the future.
+    - I used it a lot. Then I found their PDF reader, voice reader, and more additions with windows OS is powerful then chromium. So I changed it. And the [[privacy]] is really dangerous, which I am really afraid of. I should notice a lot in the future.
 -
 -
 - ## [[browser]]

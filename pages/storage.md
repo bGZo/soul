@@ -11,7 +11,7 @@ tags:: #3C, #tool
 - ## What
   - ### 存储介质
     - #### SSD
-      - [[book/深入浅出SSD]]
+      - [[深入浅出SSD]]
     - #### HDD
       id:: 6252b452-2852-46b3-8a0d-d32a1056d5f1
       - S.M.A.R.T. Self-Monitoring Analysis and Reporting Technology 自我监测、分析及报告技术
@@ -26,8 +26,8 @@ tags:: #3C, #tool
           via: https://www.bodnara.co.kr/bbs/article.html?num=147425, https://unwire.hk/2018/06/27/sd-express/dc/cam-parts, https://www.sdcard.org/developers/sd-standard-overview/bus-speed-default-speed-high-speed-uhs-sd-express
       - EVO Plus: 三星独有格式.
       - Refereneces
-        - [[为什么现在的手机大多已不支持SD存储卡扩展呢？ - 知乎]]
-        - [[Re 閒聊 安卓旗艦為何不採用NVME呢？]]
+        - [[为什么现在的手机大多已不支持SD存储卡扩展呢]]
+        - [[Re 閒聊 安卓旗艦為何不採用NVME呢]]
   - ### 检测工具 [[tools]]
     - ```shell
       # Windows

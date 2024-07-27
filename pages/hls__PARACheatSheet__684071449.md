@@ -1,6 +1,6 @@
-exclude-from-graph-view:: true
 file:: [PARACheatSheet.pdf](https://rawcdn.githack.com/bgzo/assets/dev/pdf/PARACheatSheet.pdf)
 file-path:: https://rawcdn.githack.com/bgzo/assets/dev/pdf/PARACheatSheet.pdf
+exclude-from-graph-view:: true
 
 - Organize by project, not by topic (such as psychology or marketing) or kind of information (quotes, book notes, insights)
   ls-type:: annotation

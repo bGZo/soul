@@ -1,4 +1,4 @@
-- ## Java Platform
+## Java Platform
   - > Java 是解释执行”,这句话正确吗?
   - 对于“Java是解释执行”这句话,这个说法不太准确。我们开发的Java的源代码,首先通过Javac编译成为字节码(bytecode),然后,在运行时,通过Java虚拟机(JVM)内嵌的解释器将字节码转换成为最终的机器码。但是常见的JVM,比如我们大多数情况使用的OracleJDK提供的HotspotJVM,都提供了JIT(Just-In-Time)编译器,也就是通常所说的动态编译器,JIT能够在运行时将热点代码编译成机器码,这种情况下部分热点代码就属于**编译执行**,而不是解释执行了
   - ![image.png](../assets/image_1645981467170_0.png)
@@ -28,7 +28,7 @@
   - Exception是程序正常运行中，可以预料的意外情况，可能并且应该被捕获，进行相应处理
   - Error是指在正常情况下，不大可能出现的情况，绝大部分的Error都会导致程序（比如JVM自身）处于非正常的、不可恢复状态
   - Exception又分为**可检查**（checked）异常和**不检查**（unchecked）异常，可检查异常在源代码里必须显式地进行捕获处理，这是编译期检查的一部分
-  - [[Throwable]]
+  - \[[Throwable]]
   - ![image.png](../assets/image_1646036640769_0.png)
   - 两个基本原则
     - **尽量不要捕获类似Exception这样的通用异常，而是应该捕获特定异常**，在这里是Thread.sleep()抛出的InterruptedException

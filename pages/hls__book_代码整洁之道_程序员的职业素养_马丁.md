@@ -1,5 +1,6 @@
 file:: [book_代码整洁之道_程序员的职业素养_马丁.pdf](../assets/book_代码整洁之道_程序员的职业素养_马丁.pdf)
 file-path:: ../assets/book_代码整洁之道_程序员的职业素养_马丁.pdf
+exclude-from-graph-view:: true
 - 5S哲学
   ls-type:: annotation
   hl-page:: 16

@@ -2,10 +2,55 @@ icon:: ✍
 also:: 写作
 tags:: #creation
 
+  - template:: writing/idea
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 📝
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      status:: ``{ 'writing/idea' }``
+    -
+    - ## ↩ Reference
+      -
+  - template:: writing/outline
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 📝
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      status:: ``{ 'writing/outline' }``
+    -
+    - ## ↩ Reference
+      -
+  - template:: writing/draft
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 📝
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      status:: ``{ 'writing/draft' }``
+    -
+    - ## ↩ Reference
+      -
+  - template:: writing/edit
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 📝
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      status:: ``{ 'writing/edit' }``
+    -
+    - ## ↩ Reference
+      -
+  - template:: writing/published
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 📝
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      status:: ``{ 'writing/published' }``
+    -
+    - ## ↩ Reference
+      -
 - > 每个伟大的作家都会创造出一个独属于自己的世界，而那个世界——那个世界的色彩、气味、声音甚至触觉——并不会随着阅读的结束而完全消失。好的虚构会侵入现实。
-  via: [VOL.3078 - 「ONE · 一个」](http://m.wufazhuce.com/one/3122) by 孔亚雷[^KONG_YALEI]
--
+  via: http://m.wufazhuce.com/one/3122 by 孔亚雷[^KONG_YALEI]
 - Format
+  collapsed:: true
   - 新闻稿
     collapsed:: true
     - > 憋了一天只憋出了提纲，第二天又推翻了第一天的提纲，最后在deadline之前草草的出了一篇，意料之中的被主管直接驳回.
@@ -234,7 +279,6 @@ tags:: #creation
         9. 源于外文书刊却译成中文，结果牛头不对马嘴
         10. 转引外文注释却不注明原出处，让人难以查找原文献，难以辨认其真伪
         11. 一稿多投，有的甚至是略作一点“乔装”后就投给不同的多家刊物
--
 - ## ↩ Reference
   - collapsed:: true
     [^KONG_YALEI]: 个人文学清单

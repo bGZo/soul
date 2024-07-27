@@ -1,6 +1,6 @@
 icon:: 📝
 created:: [[20240727]]
-status:: [[writing/draft]]
+status:: writing/draft
 
 - > 那时她还太年轻，不知道所有命运馈赠的礼物，早已在暗中*标好了价格*
 - # 便宜的最贵

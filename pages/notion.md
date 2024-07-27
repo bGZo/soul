@@ -1,4 +1,8 @@
+created:: [[20240727]]
+exclude-from-graph-view:: true
+icon:: 📄
 tags:: #deprecated
+
 - Collection Site
   collapsed:: true
   - [Notion Official](https://www.notion.so/Notion-Official-83715d7703ee4b8699b5e659a4712dd8)

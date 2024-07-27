@@ -1,1 +1,3 @@
-also::  #放弃
+created:: [[20240727]]
+exclude-from-graph-view:: true
+icon:: 📄

@@ -250,7 +250,7 @@ created:: [[20230627]]
         # is_binary_string(open('/usr/bin/python', 'rb').read(1024))
         # >>> True
         # via https://stackoverflow.com/questions/898669/how-can-i-detect-if-a-file-is-binary-non-text-in-python
-        # https://github.com/file/file/blob/f2a6e7cb7db9b5fd86100403df6b2f830c7f22ba/src/encoding.c#L151-L228
+        # https://github.com/file/file/blob/f2a6e7cb7db9b5fd86100403df6b2f830c7f22ba/src/encoding.c\#L151-L228
         ```
     - ### OS Manage
       collapsed:: true

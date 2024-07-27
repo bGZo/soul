@@ -1,19 +1,58 @@
-alias:: hobbies/book, 书, 
-created:: [[20230602]]
 icon:: 📖
-template:: book
-template-including-parent:: false
+also:: [[书]] 
+created:: [[20230602]]
 
-  - cover:: {:width 225}
-    alias:: books/``{ c.page.name }``, 
-    author:: [[@]]
-    created:: ``{ date.now.format('YYYYMMDD') }``
-    douban:: 
-    icon:: 📖
-    isbn:: 
-    published-date:: 
-    weread::
+  - template:: book/reading
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 📖
+      cover:: {{image/cover }}
+      also:: 
+      author:: 
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      isbn:: 
+      lang:: chinese
+      published-date:: 
+      status:: book/reading
+      tags:: 
+      type:: ``{ 'book' }``
+      douban:: {{doubook }}
+      weread:: {{weread }}
+  - template:: book/dev/reading
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 📖
+      cover:: {{image/cover }}
+      also::
+      author::
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      isbn::
+      lang:: chinese
+      published-date::
+      status:: book/reading
+      tags::
+      type:: ``{ 'book/dev' }``
+      douban:: {{doubook }}
+      weread:: {{weread }}
+      id:: 270a1f2a-108c-4635-921e-e7763b312051
+  - template:: book/done
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 📖
+      cover:: {{image/cover }}
+      also::
+      author:: 
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      isbn:: 
+      lang:: chinese
+      published-date:: 
+      status:: book/done
+      tags:: 
+      type:: ``{ 'book' }``
+      douban:: {{doubook }}
+      weread:: {{weread }}
 - ## Why
+  collapsed:: true
   - >What I have lived for?
     >
     Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind. These passions, like great winds, have blown me hither and thither, in a wayward course, over a great ocean of anguish, reaching to the very verge of despair.
@@ -32,6 +71,7 @@ template-including-parent:: false
     这就是我的一生。我觉得这一生是值得活的，如果真有可能再给我一次机会，我将欣然再重活—次。
     —— [[罗素]]
 - ## How
+  collapsed:: true
   - How to find / search  books?
     -
     -
@@ -62,6 +102,7 @@ template-including-parent:: false
       - Similar products: GET_ANIME, GET_VIDEO, GET_GAME
     - [实体图书扫描导入 Notion 实践 · 豆瓣评分版 - Linmi](https://linmi.cc/42154.html)
 - ## What
+  collapsed:: true
   - What I mostly care when I read? 
     collapsed:: true
     - **Digest** ≫ *Print Book* in most cases.
@@ -474,5 +515,5 @@ template-including-parent:: false
 - ## Namespace
   - {{namespace book}}
 - ## ↩ Reference
-  -
+  - TODO http://aves.art/
 -

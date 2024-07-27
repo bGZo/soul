@@ -1,6 +1,6 @@
 icon:: 📝
 created:: [[20240525]]
-status:: [[writing/published]]
+status:: writing/published
 tags:: #[[self/healing]]
 
 - {{video https://www.youtube.com/watch?v=zABLecsR5UE}}

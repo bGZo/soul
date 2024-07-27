@@ -17,7 +17,7 @@ also:: cpp/question
       y = x - y;\
       x = x - y;
       ```
-    - ​ int size = sizeof(a) / sizeof(int);是否有必要??????
+    -   int size = sizeof(a) / sizeof(int);是否有必要??????
     - ```cpp
       - char p[10];
       int main(){

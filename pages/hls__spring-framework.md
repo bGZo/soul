@@ -1,3 +1,4 @@
+exclude-from-graph-view:: true
 file-path:: ../assets/spring-framework.pdf
 - 2.3. Design Philosophy
   ls-type:: annotation

@@ -15,7 +15,7 @@ created:: [[20240524]]
       sudo systemctl daemon-reload
       sudo systemctl restart docker
       ```
-    - Personal mirror: ((6650a095-667c-4169-8fd8-49074f4678fc)) #[[Privacy]]
+    - Personal mirror: ((6650a095-667c-4169-8fd8-49074f4678fc)) #[[privacy]]
       - Get via: https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
       - 阿里云 => 控制台 => 容器镜像服务 => 镜像加速器
     - More details via: https://docs.docker.com/engine/install

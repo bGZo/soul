@@ -1,9 +1,17 @@
-also:: books/深入浅出SSD
+icon:: 📖
+cover:: {{image/cover https://img9.doubanio.com/view/subject/s/public/s29829855.jpg}}
 author:: SSDFans
-publisher:: 机械工业出版社
-published-date:: 20180600
-source:: https://book.douban.com/subject/30240853
+created:: [[20240727]]
+isbn:: 9787111599791
+lang:: chinese
+published-date:: 20180601
+status:: book/reading
+tags:: #ssd
+type:: book
+douban:: {{doubook 30240853}}
+weread:: {{weread }}
 
+-
 - # SSD
   id:: 624abfdb-61e4-44ea-81a9-0e675c25f03e
   - ## 综述

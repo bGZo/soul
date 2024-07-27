@@ -1,5 +1,6 @@
 file:: [book_the_programmer_idea_book.pdf](../assets/book_the_programmer_idea_book.pdf)
 file-path:: ../assets/book_the_programmer_idea_book.pdf
+exclude-from-graph-view:: true
 - Ask the user to enter in a width, length and the cost per 1 unit of flooring. Have the program calculate how much it would cost to cover the area specified with the flooring.
   ls-type:: annotation
   hl-page:: 18

@@ -1,7 +1,9 @@
----
-created: 20240106 15:08
-source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
----
+icon:: 💾
+author:: VBird, 鳥哥
+created:: [[20240106]]
+exclude-from-graph-view:: true
+source:: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
+type:: archives-web
 - 在 Linux 上頭的圖形介面我們稱之為 X Window System，簡稱為 X 或 X11 囉！ 為何稱之為系統呢？這是因為 X 視窗系統又分為 X server 與 X client ，既然是 Server/Client (主從架構) 這就表示其實 X 視窗系統是可以跨網路且跨平台的！X 視窗系統對於 Linux 來說僅是一個軟體， 只是這個軟體日趨重要喔！因為 Linux 是否能夠在桌上型電腦上面流行，與這個 X 視窗系統有關啦！ 好在，目前的 X 視窗系統整合到 Linux 已經非常優秀了，而且也能夠具有 3D 加速的功能， 只是，我們還是得要瞭解一下 X 視窗系統才好，這樣如果出問題，我們才有辦法處理啊！
 - ### 23.1 什麼是 X Window System
   Unix Like 作業系統不是只能進行伺服器的架設而已，在美編、排版、製圖、多媒體應用上也是有其需要的。 這些需求都需要用到圖形介面 (Graphical User Interface, GUI) 的操作的， 所以後來才有所謂的 X Window System 這玩意兒。那麼為啥圖形視窗介面要稱為 X 呢？因為就英文字母來看 X 是在 W(indow) 後面，因此，人們就戲稱這一版的視窗介面為 X 囉 (有下一版的新視窗之意)！
@@ -102,8 +104,8 @@ source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
   ![鳥哥](assets/2024/vbird_face.gif "鳥哥") 不論怎麼說，鳥哥還是希望大家可以透過解析 startx 這個 script 的內容去找到每個檔案， 再根據分析每個檔案來找到您 distributions 上面的 X 相關檔案～ 畢竟每個版本的 Linux 還是有所差異的～
   另外，如果有特殊需求，你當然可以自訂 X client 的參數！這就得要修改你家目錄下的 ~/.xinitrc 這個檔案囉。 不過要注意的是，如果你的 .xinitrc 設定檔裡面有啟動的 x client 很多的時候，千萬注意將除了最後一個 window manager 或 X Client 之外，都放到背景裡面去執行啊！舉例來說，像底下這樣：
   ```
-  <span>       xclock -geometry 100x100-5+5 &amp;
-       xterm -geometry 80x50-50+150 &amp;
+  <span>       xclock -geometry 100x100-5+5 &
+       xterm -geometry 80x50-50+150 &
        exec /usr/bin/twm</span>
   ```
   意思就是說，我啟動了 X ，並且同時啟動 xclock / xterm / twm 這三個 X clients 喔！ 如此一來，你的 X 就有這三個咚咚可以使用了！如果忘記加上 & 的符號，那就..... 會讓系統等待啊，而無法一次就登入 X 呢！
@@ -117,23 +119,23 @@ source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
   好了，我們可以針對 X Server 與 X client 的架構來做個簡單的測試喔！ 這裡鳥哥假設你的 tty1 是 multi-user.target 的，而且你也曾經在 tty2 測試過相關的指令，所以你的 X :1 將會啟用在 tty3 喔！ 而且，底下的指令都是在 tty1 的地方執行的，至於底下的畫面則是在 tty3 的地方展現。 因此，請自行切換 tty1 下達指令與 tty3 查閱結果囉！
   ```
   <span>1. 先來啟動第一個 X 在 :1 畫面中：</span>
-  [dmtsai@study ~]$ <span>X :1 &amp;</span>
+  [dmtsai@study ~]$ <span>X :1 &</span>
   ```
   ![單純啟動 X server的情況](assets/2024/xwin_test_1.gif "單純啟動 X server的情況")
   圖23.1.3、單純啟動 X server的情況
   上述的 X 是大寫，那個 :1 是寫在一起的，至於 & 則是放到背景去執行。此時系統會主動的跳到第二個圖形介面終端機，亦即 tty3 上喔！所以如果一切順利的話，你應該可以看到一個 X 的滑鼠游標可以讓你移動了(如上圖所示)。 該畫面就是 X Server 啟動的畫面囉！醜醜的，而且沒有什麼 client 可以用啊！ 接下來，請按下 \[ctrl\]+\[alt\]+\[F1\] 回到剛剛下達指令的終端機： (若沒有 xterm 請自行 yum 安裝它！)
   ```
   <span>2. 輸入數個可以在 X 當中執行的虛擬終端機</span>
-  [dmtsai@study ~]$ <span>xterm -display :1  &amp;</span>
-  [dmtsai@study ~]$ <span>xterm -display :1  &amp;</span>
+  [dmtsai@study ~]$ <span>xterm -display :1  &</span>
+  [dmtsai@study ~]$ <span>xterm -display :1  &</span>
   ```
   ![在 X 上面啟動 xterm 終端機顯示的結果](assets/2024/centos7_xwin_test_2.jpg "在 X 上面啟動 xterm 終端機顯示的結果")
   圖23.1.4、在 X 上面啟動 xterm 終端機顯示的結果
   那個 xterm 是必須要在 X 底下才能夠執行的終端機介面。加入的參數 -display 則是指出這個 xterm 要在那個 display 使用的。這兩個指令請不要一次下完！先執行一次，然後按下 \[ctrl\]+\[alt\]+\[F3\] 去到 X 畫面中，你會發現多了一個終端機囉～ 不過，可惜的是，你無法看到終端機的標題、也無法移動終端機，當然也無法調整終端機的大小啊！我們回到剛剛的 tty1 然後再次下達 xterm 指令，理論上應該多一個終端機，去到 tty3 查閱一下。唉～沒有多出一個終端機啊？ 這是因為兩個終端機重疊了～我們又無法移動終端機，所以只看到一個。 接下來，請再次回到 tty1 去下達指令吧！(可能需要 yum install xorg-x11-apps 喔！)
   ```
   <span>3. 在輸入不同的 X client 觀察觀察，分別去到 tty3 觀察喔！</span>
-  [dmtsai@study ~]$ <span>xclock -display :1  &amp;</span>
-  [dmtsai@study ~]$ <span>xeyes -display :1  &amp;</span>
+  [dmtsai@study ~]$ <span>xclock -display :1  &</span>
+  [dmtsai@study ~]$ <span>xeyes -display :1  &</span>
   ```
   ![分別啟動 xclock 時鐘與 xeyes 眼睛的結果](assets/2024/centos7_xwin_test_3.jpg "分別啟動 xclock 時鐘與 xeyes 眼睛的結果")
   圖23.1.5、分別啟動 xclock 時鐘與 xeyes 眼睛的結果
@@ -141,12 +143,12 @@ source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
   ```
   <span>4. 輸入可以管理的 window manager，我們這邊先以 root 來安裝 twm 喔！</span>
   [root@study ~]# <span>yum install http://ftp.ksu.edu.tw/FTP/CentOS/6/os/x86_64/\</span>
-  &gt; <span>Packages/xorg-x11-twm-1.0.3-5.1.el6.x86_64.rpm</span>
+  > <span>Packages/xorg-x11-twm-1.0.3-5.1.el6.x86_64.rpm</span>
   <span># 真要命！CentOS 7 說 twm 已經沒有在維護，所以沒有提供這玩意兒了！鳥哥只好拿舊版的 twm 來安裝！
   # 請您自行到相關的網站上找尋這個 twm 囉！因為版本可能會不一樣！</span>
   [root@study ~]# <span>yum install xorg-x11-fonts-{100dpi,75dpi,Type1}</span>
   <span>5. 接下來就可以開始用 dmtsai 的身份來玩一下這玩意兒了！</span>
-  [dmtsai@study ~]$ <span>twm -display :1  &amp;</span>
+  [dmtsai@study ~]$ <span>twm -display :1  &</span>
   ```
   ![視窗管理員 twm 的功能顯示](assets/2024/centos7_xwin_test_4.jpg "視窗管理員 twm 的功能顯示")
   圖23.1.6、視窗管理員 twm 的功能顯示
@@ -192,7 +194,7 @@ source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
   注意一下，在修改這個檔案之前，務必將這個檔案給它備份下來，免的改錯了甚麼東西導致連 X server 都無法啟動的問題啊。這個檔案的內容是分成數個段落的，每個段落以 Section 開始，以 EndSection 結束， 裡面含有該 Section (段落) 的相關設定值，例如:
   ```
   <span>Section  "section name"
-  …… <span>&lt;== 與這個 section name 有關的設定項目</span>
+  …… <span><== 與這個 section name 有關的設定項目</span>
   ……
   EndSection</span>
   ```
@@ -308,15 +310,15 @@ source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
   EndSection
   <span># Monitor 與實際的顯示器有關，而 Screen 則是與顯示的畫面解析度、色彩深度有關。
   # 我們可以設定多個解析度，實際應用時可以讓使用者自行選擇想要的解析度來呈現，設定如下：
-  #Modes    "1024x768" "800x600" "640x480" <span>&lt;==解析度</span>
+  #Modes    "1024x768" "800x600" "640x480" <span><==解析度</span>
   # 上述的 Modes 是在 "Display" 底下的子設定。
   # 不過，為了避免困擾，鳥哥通常只指定一到兩個解析度而已。</span>
   ```
   上面設定完畢之後，就等於將整個 X Server 設定妥當了，很簡單吧。如果你想要更新其他的例如顯示晶片的模組的話，就得要去硬體開發商的網站下載原始檔來編譯才行。 設定完畢之後，你就可以啟動 X Server 試看看囉。然後，請將 xorg.conf.new 更名成類似 00-vbird.conf 之類的檔名， 再將該檔案移動到 /etc/X11/xorg.conf.d/ 裡面去，這樣就 OK 了！
   ```
   <span># 測試 X server 的設定檔是否正常：</span>
-  [root@study ~]# <span>startx  </span>  <span>&lt;==直接在 multi-user.target 啟動 X 看看</span>
-  [root@study ~]# <span>Xorg :1 </span>  <span>&lt;==在 tty3 單獨啟動 X server 看看</span>
+  [root@study ~]# <span>startx  </span>  <span><==直接在 multi-user.target 啟動 X 看看</span>
+  [root@study ~]# <span>Xorg :1 </span>  <span><==在 tty3 單獨啟動 X server 看看</span>
   ```
   當然，你也可以利用 systemctl isolate graphical.target 這個指令直接切換到圖形介面的登入來試看看囉。
   Tips
@@ -336,14 +338,14 @@ source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
   drwxr-xr-x. 2 root root 21 Sep 16 11:48 /usr/share/fonts/cjkuni-ukai  <span># 這就是楷書！</span>
   drwxr-xr-x. 2 root root 22 May  4 17:54 /usr/share/fonts/cjkuni-uming
   [root@study ~]# <span>ll /etc/X11/fontpath.d/</span><span>
-  lrwxrwxrwx. 1 root root 29 Sep 16 11:48 cjkuni-ukai-fonts -&gt; /usr/share/fonts/cjkuni-ukai/
-  lrwxrwxrwx. 1 root root 30 May  4 17:54 cjkuni-uming-fonts -&gt; /usr/share/fonts/cjkuni-uming/
-  lrwxrwxrwx. 1 root root 36 May  4 17:52 default-ghostscript -&gt; /usr/share/fonts/default/ghostscript
-  lrwxrwxrwx. 1 root root 30 May  4 17:52 fonts-default -&gt; /usr/share/fonts/default/Type1
-  lrwxrwxrwx. 1 root root 27 May  4 17:51 liberation-fonts -&gt; /usr/share/fonts/liberation
-  lrwxrwxrwx. 1 root root 27 Sep 15 17:10 xorg-x11-fonts-100dpi:unscaled:pri=30 -&gt; /usr/share/X11/fonts/100dpi
-  lrwxrwxrwx. 1 root root 26 Sep 15 17:10 xorg-x11-fonts-75dpi:unscaled:pri=20 -&gt; /usr/share/X11/fonts/75dpi
-  lrwxrwxrwx. 1 root root 26 May  4 17:52 xorg-x11-fonts-Type1 -&gt; /usr/share/X11/fonts/Type1</span>
+  lrwxrwxrwx. 1 root root 29 Sep 16 11:48 cjkuni-ukai-fonts -> /usr/share/fonts/cjkuni-ukai/
+  lrwxrwxrwx. 1 root root 30 May  4 17:54 cjkuni-uming-fonts -> /usr/share/fonts/cjkuni-uming/
+  lrwxrwxrwx. 1 root root 36 May  4 17:52 default-ghostscript -> /usr/share/fonts/default/ghostscript
+  lrwxrwxrwx. 1 root root 30 May  4 17:52 fonts-default -> /usr/share/fonts/default/Type1
+  lrwxrwxrwx. 1 root root 27 May  4 17:51 liberation-fonts -> /usr/share/fonts/liberation
+  lrwxrwxrwx. 1 root root 27 Sep 15 17:10 xorg-x11-fonts-100dpi:unscaled:pri=30 -> /usr/share/X11/fonts/100dpi
+  lrwxrwxrwx. 1 root root 26 Sep 15 17:10 xorg-x11-fonts-75dpi:unscaled:pri=20 -> /usr/share/X11/fonts/75dpi
+  lrwxrwxrwx. 1 root root 26 May  4 17:52 xorg-x11-fonts-Type1 -> /usr/share/X11/fonts/Type1</span>
   <span># 竟然會自動的將該字型加入到 fontpath.d 當中！太好了！ ^_^</span>
   <span># 2. 建立該字型的字型快取資料，並檢查是否真的取用了？</span>
   [root@study ~]# <span>fc-cache -v | grep ukai</span>
@@ -374,7 +376,7 @@ source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
   <span>....(後面省略)....</span>
   <span># -v 僅是列出目前的字型資料， -f 則是強制重新建立字型快取！</span>
   <span># 3. 透過 fc-list 列出已經被使用的檔案看看：</span>
-  [root@study ~]# <span>fc-list : file | grep window</span>  <span>&lt;==找出被快取住的檔名</span>
+  [root@study ~]# <span>fc-list : file | grep window</span>  <span><==找出被快取住的檔名</span>
   /usr/share/fonts/windows/timesbi.ttf:
   /usr/share/fonts/windows/timesi.ttf:
   /usr/share/fonts/windows/msjh.ttf:
@@ -538,16 +540,16 @@ source: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
   [root@study ~]# <span>vi /etc/X11/xorg.conf</span>
   Section "Device"
         Identifier  "Videocard0"
-        <span>Driver      "intel"</span>  <span>&lt;==原本可能會是使用 i91x 喔</span>
+        <span>Driver      "intel"</span>  <span><==原本可能會是使用 i91x 喔</span>
   EndSection
   Section "Module"
         <span>....(中間省略)....</span>
-        <span>Load  "glx"    <span>&lt;==這兩個很重要！務必要載入！</span>
+        <span>Load  "glx"    <span><==這兩個很重要！務必要載入！</span>
         Load  "dri"</span>
         <span>....(中間省略)....</span>
   EndSection
-  <span>Section "DRI"          <span>&lt;==這三行是新增的！讓大家都能使用 DRI</span>
-       Mode 0666       <span>&lt;==基本上，就是權限的設定</span>
+  <span>Section "DRI"          <span><==這三行是新增的！讓大家都能使用 DRI</span>
+       Mode 0666       <span><==基本上，就是權限的設定</span>
   EndSection</span>
   ```
   如果一切順利的話，接下來就是重新啟動 X 囉～使用新的 Intel 驅動程式吧！加油囉！

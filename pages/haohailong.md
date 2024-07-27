@@ -1,5 +1,7 @@
 created:: [[20230215]]
 description:: [郝海龍](https://haohailong.net/)
+exclude-from-graph-view:: true
+type:: archives-web
 
 - ## Contents
   - [「辱華」與「霸權」](https://haohailong.net/2023/ru-hua-yu-ba-quan-392418c4)

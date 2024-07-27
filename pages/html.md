@@ -302,7 +302,7 @@ description:: "HTML, HyperText Markup Language, 网页文档的标准标记语�
     - ```html
       <body>
         <h1>jsdafjk</h1>
-        <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1551728654&amp;site=qq&amp;menu=yes">1551728654</a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=1551728654&site=qq&menu=yes">1551728654</a>
         <br/>
         <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1551728654">1551728654</a>
       </body>

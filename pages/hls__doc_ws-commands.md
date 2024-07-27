@@ -1,5 +1,7 @@
 file:: [doc_ws-commands.pdf](../assets/doc_ws-commands.pdf)
 file-path:: ../assets/doc_ws-commands.pdf
+exclude-from-graph-view:: true
+
 - shutdown
   ls-type:: annotation
   hl-page:: 811

@@ -1,8 +1,10 @@
----
-created: 20240106 12:07
-tags: nvidia docker2
-source: https://blog.csdn.net/yjy420/article/details/132305356
----
+icon:: 💾
+author:: 
+created:: [[20240106]]
+exclude-from-graph-view:: true
+source:: https://blog.csdn.net/yjy420/article/details/132305356
+type:: archives-web
+
 - ### 省流版总结
   凡是使用了命令`nvidia docker`或者在docker中引入了`--runtime=nvidia`参数的都是过时教程，最新方法只需要下载`nvidia-container-toolkits`，在docker中引入`--gpus`参数即可。
 - ### [nvidia](https://so.csdn.net/so/search?q=nvidia&spm=1001.2101.3001.7020) docker

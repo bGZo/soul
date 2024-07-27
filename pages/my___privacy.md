@@ -1,4 +1,4 @@
-tags:: #Privacy
+tags:: #privacy
 
 - ## Delete Account Queue
   - Even though I know the *delete account* is not really delete database, it just a soft delete, still I want to try it, just for another people if they could see.
@@ -88,7 +88,7 @@ tags:: #Privacy
   collapsed:: true
   - Use different name on each platform, here's my name pool
     - ```
-      ​
+       
       ㅤ
       ً
       god
@@ -133,7 +133,7 @@ tags:: #Privacy
       ```
 - [[tool]]
   - [网名生成器、姓名生成器、名字在线生成器](https://www.qmsjmfb.com/)
-- [​ - Zero Width Space: U+200B - Unicode Character Table](https://unicode-table.com/en/200B/)
+- [  - Zero Width Space: U+200B - Unicode Character Table](https://unicode-table.com/en/200B/)
 - [微信如何设置空白昵称？ - 知乎](https://www.zhihu.com/question/54624230)
 - [微信, QQ, 微博, 淘宝, 支付宝, 京东, 百度, 网易 注销指南](https://sspai.com/post/43381),
   - Phone > Everything? Excuse me??? why just could use a  app to unsubscribe, not all platform?!

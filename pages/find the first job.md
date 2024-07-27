@@ -762,7 +762,7 @@ tags:: #Job, #DONE, byd
         - [[mooc/javaee]]
         - [[geekbang/Java核心技术]]
     - TODO Submit [[cv]];
-    - DOING [[books/spring in action]] daily until you done;
+    - DOING [[spring in action]] daily until you done;
       :LOGBOOK:
       * State "DONE" from "TODO" [2023-05-05 Fri 21:14]
       * State "DONE" from "TODO" [2023-05-06 Sat 17:51]
@@ -788,7 +788,7 @@ tags:: #Job, #DONE, byd
   -
   - ### Special: [[bank]]
     collapsed:: true
-    - [[China]] 
+    - [[China]]
       - 中国建设银行——CCB(China Constuction Bank)
       - 中国农业银行——ABC(Agricultural Bank of China)
       - 中国工商银行——ICBC(Industrial and Commercial Bank of China)

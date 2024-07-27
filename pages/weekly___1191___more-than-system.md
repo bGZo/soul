@@ -1,6 +1,6 @@
 icon:: 📝
 created:: [[20240608]]
-status:: [[writing/published]]
+status:: writing/published
 tags:: #[[society]]
 
 - {{video https://www.youtube.com/watch?v=2vjPBrBU-TM}}

@@ -1,6 +1,6 @@
 icon:: 📝
 created:: [[20240601]]
-status:: [[writing/published]]
+status:: writing/published
 tags:: #[[self/care]]
 
 - {{video https://www.youtube.com/watch?v=YJkOxWVn0SU}}

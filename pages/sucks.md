@@ -157,7 +157,7 @@ also:: Black List, black list, blocked, block, shame, 黑名单, 拉黑, 🙄
   - Real-name system or phone rationing system in [[China]] | 实名系统
   - Account cannot be deleted, cannot be exported | 无法删除, 无法导出
     collapsed:: true
-    #Privacy
+    #privacy
   - Account include activities timeline | 全记录用户数据
     collapsed:: true
     - [[zhihu]]

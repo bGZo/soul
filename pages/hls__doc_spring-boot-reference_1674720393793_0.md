@@ -1,5 +1,6 @@
 file:: [doc_spring-boot-reference_1674720393793_0.pdf](../assets/doc_spring-boot-reference_1674720393793_0.pdf)
 file-path:: ../assets/doc_spring-boot-reference_1674720393793_0.pdf
+exclude-from-graph-view:: true
 - @SpringBootTest annotation, which can be used as an alternative to the standard spring-test @ContextConfiguration annotation when you need Spring Boot features.
   ls-type:: annotation
   hl-page:: 156

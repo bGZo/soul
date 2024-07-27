@@ -1,5 +1,6 @@
 file:: [book_clean_code_a_handbook_of_agile_software_craftsmanship.pdf](../assets/book_clean_code_a_handbook_of_agile_software_craftsmanship.pdf)
 file-path:: ../assets/book_clean_code_a_handbook_of_agile_software_craftsmanship.pdf
+exclude-from-graph-view:: true
 - Small things matter
   ls-type:: annotation
   hl-page:: 20

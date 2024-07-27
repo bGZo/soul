@@ -1,6 +1,6 @@
 icon:: 📝
 created:: [[20240518]]
-status:: [[writing/published]]
+status:: writing/published
 tags:: #[[life]]
 
 - {{video https://www.youtube.com/watch?v=UtF6Jej8yb4}}

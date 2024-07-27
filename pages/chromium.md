@@ -1,6 +1,6 @@
 also:: browser/chromium, chrome
 description:: uGc
-icon:: 
+icon:: 
 source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-software/ungoogled-chromium: Google Chromium, sans integration with Google](https://github.com/ungoogled-software/ungoogled-chromium) ![](https://img.shields.io/github/stars/ungoogled-software/ungoogled-chromium)
 
   - Gc with [Hibbiki/chromium-win64: Chromium builds for Windows x64](https://github.com/Hibbiki/chromium-win64) ![](https://img.shields.io/github/stars/Hibbiki/chromium-win64)

@@ -376,8 +376,8 @@ description:: algorithm
             # 思路：数组排序后比较差异
           def isAnagram(self, s: str, t: str) -> bool:
               return sorted(s) == sorted(t)
-            ​```+
-            ​```java
+             ```+
+             ```java
             public class Solution {
           public boolean isAnagram(String s, String t) {
               if(s.length() != t.length()) return false;

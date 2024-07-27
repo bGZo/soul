@@ -1,7 +1,13 @@
-tags:: #github #book #commandline #nix
-source:: [xuxiaodong/usingcli-book: 像黑客一样使用命令行](https://github.com/xuxiaodong/usingcli-book) ![](https://img.shields.io/github/stars/xuxiaodong/usingcli-book)
+icon:: 📖
+cover:: {{image/cover https://rawcdn.githack.com/xuxiaodong/usingcli-book/main/images/cover-thumb.png}}
+author:: xuxiaodong
 created:: [[20230103]]
-closed:: [[20230103]]
+lang:: chinese
+published-date:: 20221118 
+status:: book/done
+tags:: #commandline #nix
+type:: book/dev
+https://github.com/xuxiaodong/usingcli-book
 
 - ## [[Quickref]]
   - ((0ad5daf6-95a7-44f6-8f77-dd4623b9076a))
