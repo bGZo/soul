@@ -138,6 +138,3 @@ exclude-from-graph-view:: true
         - ```
            seq -s", " 20231015 20231021 | xclip -selection clipboard
           ```
-- ## What
-  -
-- icon:: 📅

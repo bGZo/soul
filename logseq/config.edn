@@ -57,7 +57,7 @@
 
  :default-home {
         :page "Contents",
-        :sidebar ["inbox" "content checklist" "project checklist"]
+        :sidebar ["Contents"]
  }
 
  :pages-directory "pages"
@@ -194,7 +194,7 @@
 
  :ref/default-open-blocks-level 2
 
- :ref/linked-references-collapsed-threshold 0
+ :ref/linked-references-collapsed-threshold 50
 
  :graph/settings {:orphan-pages? true
  :builtin-pages? false

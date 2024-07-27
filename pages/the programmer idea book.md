@@ -1,12 +1,11 @@
-also:: 
+also:: [[projects/the programmer idea book]] 
 description::
 icon:: 📂
-tags::  #programming
+tags:: #programming
 created:: [[20240721]]
-title:: project/the programmer idea book
 
 - ## Project Meta
-  - DOING #project [[project/the programmer idea book]]
+  - DOING #project [[the programmer idea book]]
     SCHEDULED: <2024-07-21 Sun 00:00 .+3d>
     :LOGBOOK:
     CLOCK: [2024-07-21 Sun 22:36:48]

@@ -3,7 +3,7 @@ created:: [[20240720]]
 tags:: para
 
 - ## Project
-  - {{namespace project}}
+  - {{namespace projects}}
 - ## Area
   - {{namespace area}}
 - ## Resource
