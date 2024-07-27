@@ -23,17 +23,17 @@
  * fix: props margin too short.
  */
 .block-properties > div > :is(div, span, a):first-child {
-  width: calc(100% + 1em);
+  width: calc(100% + 1.4rem);
 }
 .block-properties .page-property-value {
-  margin-left: 2em;
+  margin-left: 2rem;
 }
 .block-properties > div > div {
   display: block !important;
 }
 .block-properties:not(.page-properties) > div > :is(div, span, a):first-child:after, .block-properties.page-properties > div > :is(div, span, a):first-child:after, .ls-block.ls-block.block-properties > div > :is(div, span, a):first-child:after {
   display: inline;
-  margin: 2px 0.6em 0 0;
+  margin: 0;
   float: right;
 }
 
