@@ -1,0 +1,4 @@
+regex: '&amp;'
+rules: '&'
+sort: 1
+type: 'line'
