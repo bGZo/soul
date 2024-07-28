@@ -1,17 +1,39 @@
 also:: 工具
 created:: [[20230531]]
 icon:: 🛠
-template:: tool
-template-including-parent:: false
 
-  - alias:: 
-    blog:: 
-    changelog:: 
-    community:: 
-    document:: 
-    icon:: 
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
-    tags::
+  - template:: tool/deprecated
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 🛠
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      document:: 
+      exclude-from-graph-view:: true
+      status:: tool/deprecated
+      tags:: 
+      type:: ``{ 'tool' }``
+    -
+    - ## ↩ Reference
+      -
+  - template:: tool/star
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: 🛠
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      document:: 
+      status:: tool/star
+      tags:: 
+      type:: ``{ 'tool' }``
+    - ## Why
+      -
+    - ## How
+      -
+    - ## What
+      -
+    - ## Namespace
+      - {{namespace ``{c.page.name}``}}
+    - ## ↩ Reference
+      -
 - ## Why
   - Creating thing more productive.
 - ## How

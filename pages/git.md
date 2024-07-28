@@ -1,5 +1,10 @@
-tags:: #tools
+icon:: 🛠
 created:: [[20230728]]
+document:: 
+status:: tool/star
+tags:: 
+type:: tool
+
 - ## Why
 - ## How
   - ### Commands References
@@ -136,7 +141,18 @@ created:: [[20230728]]
           - 删除工作空间改动代码，撤销 `commit`，撤销 `git add .`
           - 注意完成这个操作后，就恢复到了上一次的commit状态
 - ## What
-  - ![git-cheatsheet.pdf](../assets/git-cheatsheet_1645371794288_0.pdf)
+  - Good Git commit
+    collapsed:: true
+    - ```bash
+      feat: 添加新特性、新功能（ feature ）
+      fix: 修复 bug
+      docs: 仅仅修改了文档
+      style: 仅仅修改了空格、格式缩进、逗号等等，不改变代码逻辑
+      refactor: 代码重构，没有加新功能或者修复 bug
+      perf: 增加代码进行性能测试
+      test: 增加测试用例
+      chore: 改变构建流程、或者增加依赖库、工具等
+      ```
   - Emojis supported by Github
     collapsed:: true
     - gist from https://gist.github.com/parmentf/035de27d6ed1dce0b36a
@@ -193,10 +209,10 @@ created:: [[20230728]]
   - TODO GitHub 贡献图 模仿
     collapsed:: true
     - [GitHub - liangzr/github-run: Let your contributions graph running](https://github.com/liangzr/github-run)
-  - More tutorials
-    - https://learnxinyminutes.com/docs/zh-cn/git-cn/
-    - https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
-  - Refs
-    - [撤销git add - SegmentFault 思否](https://segmentfault.com/q/1010000006864939)
-    - [git使用情景2：commit之后，想撤销commit_天空还是那么蓝的博客-CSDN博客_git 撤回commit](https://blog.csdn.net/w958796636/article/details/53611133)
--
+- ## ↩ Reference
+  - ![git-cheatsheet.pdf](../assets/git-cheatsheet_1645371794288_0.pdf)
+  - https://www.v2ex.com/t/828792
+  - [撤销git add - SegmentFault 思否](https://segmentfault.com/q/1010000006864939)
+  - https://learnxinyminutes.com/docs/zh-cn/git-cn/
+  - https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+  - [git使用情景2：commit之后，想撤销commit_天空还是那么蓝的博客-CSDN博客_git 撤回commit](https://blog.csdn.net/w958796636/article/details/53611133)

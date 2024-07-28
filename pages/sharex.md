@@ -31,7 +31,7 @@ description:: [ShareX - The best free and open source screenshot tool for Window
       - Compress PNG file lossless using [[optipng]] [OptiPNG Home Page](https://optipng.sourceforge.net/)
       - Convert image to JPEG using [magick.exe](https://imagemagick.org/)
       - Convert image to JPEG using [cjpeg.exe](https://github.com/mozilla/mozjpeg)
-    - #### [[Video]]
+    - #### [[video]]
       - Convert video to x264/ x265 / VP8 / VP9 / Xvid / GIF / WebP / APNG   using [ffmpeg.exe](https://www.ffmpeg.org/)
     - Compress file to ZIP / 7z using [7z.exe](https://www.7-zip.org/)
     - via: [Actions - ShareX](https://getsharex.com/actions)

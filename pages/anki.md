@@ -1,6 +1,10 @@
-tags:: tools
-wikipedia:: [Anki (software) - Wikipedia](https://en.wikipedia.org/wiki/Anki_(software))
-bookmark:: [AnkiWeb](https://ankiweb.net)
+icon:: 🛠
+created:: [[20240728]]
+document:: https://ankiweb.net
+status:: tool/star
+tags:: #learning 
+type:: tool
+wikipedia:: https://en.wikipedia.org/wiki/Anki_(software)
 
 - ## Why
   - I was used to blame my hobbies except the study for forgotten knowledge in the past. And basically I picked up a wrong story from the first.
@@ -18,7 +22,7 @@ bookmark:: [AnkiWeb](https://ankiweb.net)
       ```
   - So I made a basic template `anki` to replace official one, although it has a little ugly and really simple, but it works well )
     - {{iframe https://gist.github.com/bGZo/b26301b0d528f41302f8d547f47f733f}}
-  - And some add-ons deserved as following: 
+  - And some add-ons deserved as following:
     - [AnkiConnect - AnkiWeb](https://ankiweb.net/shared/info/2055492159)
     - [AnkiConnect - AnkiWeb](https://ankiweb.net/shared/info/2055492159)
     - [AwesomeTTS - Add speech to your flashcards - AnkiWeb](https://ankiweb.net/shared/info/1436550454)
@@ -76,7 +80,7 @@ bookmark:: [AnkiWeb](https://ankiweb.net)
             - Imagine we have a current retention rate of 85% and we want to increase it to 90%. We’d calculate the modifier as:
               - log(90%) / log(85%) = 0.65
     - [Intro - AnkiMobile Manual](https://docs.ankimobile.net/)
-    - [Anki经验贴快速查询](https://www.douban.com/group/topic/80413417/) #outdated
+    - [Anki经验贴快速查询](https://www.douban.com/group/topic/80413417/) #deprecated
   - Shortcuts
     id:: 6469cfdf-21b3-4c96-8a1a-a852de39f55e
     - #+BEGIN_QUOTE

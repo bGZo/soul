@@ -1,7 +1,19 @@
-tags:: #[[Linux Commandline]], #tools
-description:: https://github.com/bGZo/dotfiles
+icon:: 🛠
+created:: [[20240728]]
+document:: 
+status:: tool/star
+tags:: #[[commandline]], 
+type:: tool
 
-- ## Refs
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  - backup: https://github.com/bGZo/dotfiles
+- ## Namespace
+  - {{namespace zsh}}
+- ## ↩ Reference
   - [linux-command|Linux命令大全搜索工具](https://github.com/jaywcjlove/linux-command)
   - [如何在Ubuntu 18.04 LTS中安装和美化ZSH Shell - 系统极客](https://www.sysgeek.cn/install-zsh-shell-ubuntu-18-04/)
   - [Oh-My-Zsh及主题、插件安装与配置美化 - 破碎虚空的个人空间 - OSCHINA - 中文开源技术交流社区](https://my.oschina.net/u/2266513/blog/3103451)
@@ -13,3 +25,4 @@ description:: https://github.com/bGZo/dotfiles
   - [git - zsh+on-my-zsh配置教程指南（程序员必备）【已备份】 - michael翔的IT私房菜 - SegmentFault 思否](https://segmentfault.com/a/1190000013612471)
   - [Oh My Zsh 教程 - 掘金](https://juejin.im/post/6844903669578596359)
   - [Tab key == 4 spaces and auto-indent after curly braces in Vim]([whitespace - Tab key == 4 spaces and auto-indent after curly braces in Vim - Stack Overflow](https://stackoverflow.com/questions/234564/tab-key-4-spaces-and-auto-indent-after-curly-braces-in-vim))
+  -

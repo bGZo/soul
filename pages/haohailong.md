@@ -693,7 +693,7 @@ type:: archives-web
     - 这篇文章中，我讲了自己在主动记录时间方面的一些心得，如果你也曾打算追踪自己的时间，但却因为文章中说到的这些问题而放弃，希望本文能够给你带来新的启发。
     - \[^3\]:一些书籍也给出了习惯形成需要的一些要素，比如在《习惯的力量》一书中描述的一个习惯的回路是：Cue（信号）→ Routine（惯常行为） → Reward（奖赏），然后在回到 Cue（信号）。如有需求可以参考这些书籍，但这并不是本文重点。
   - [《英语自学手册》总目录](https://haohailong.net/2020/a-self-study-guide-to-english-toc)
-  - [[郝海龙 - 英语自学手册]]
+  - [[英语自学手册]]
   - [禅与英语自学艺术 How does Hao learn English?](https://haohailong.net/2020/chan-yu-ying-yu-zi-xue-yi-zhu)
   - [「在线教育」和「信息焦虑」 最近在两档播客节目中做客](https://haohailong.net/2020/podcasts-on-online-education-and-information-anxiety)
     collapsed:: true

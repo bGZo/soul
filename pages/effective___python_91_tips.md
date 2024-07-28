@@ -1,4 +1,4 @@
-tags:: #outdated
+tags:: #deprecated 
 douban:: [编写高质量代码：改善Python程序的91个建议 (豆瓣)](https://book.douban.com/subject/25910544/)
 weread:: [编写高质量代码：改善Python程序的91个建议-张颖 赖勇浩-微信读书](https://weread.qq.com/web/bookDetail/b4832100597d8eb481b4cd6)
 cover:: ![](https://img9.doubanio.com/view/subject/l/public/s27308066.jpg)
@@ -110,14 +110,14 @@ closed:: [[20230227]]
     - 建议71：使用pip和yolk安装、管理包
     - 建议72：做paster创建包
     - ==建议73：理解单元测试概念== #testing
-      - 有效的单元测试应该从以下几个方面考虑 
+      - 有效的单元测试应该从以下几个方面考虑
         - 测试先行，编写单元测试应该尽量安排在项目的早期，并且测试代码应该先于被测试的代码，这样更有利于明确需求。典型的单元测试的步骤如下：
           - 创建测试计划（Test Plan）
           - 编写测试用例，准备测试数据
           - 编写测试脚本
           - 编写被测代码，在代码完成之后执行测试脚本
           - 修正代码缺陷，重新测试直到代码可接受为止。
-        - 遵循单元测试基本原则 
+        - 遵循单元测试基本原则
           - 一致性
             collapsed:: true
             - 意味着1000次执行和一次执行的结果应该是一样的

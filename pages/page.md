@@ -3,10 +3,10 @@ icon:: 📄
 template:: page
 template-including-parent:: false
 
-  - also:: [[]], 
+  - icon:: 📄
+    also:: [[]], 
     created:: ``{ ref(date.now.format('YYYYMMDD')) }``
-    description:: 
-    icon:: 📄
+    description::
   - ## Why
     -
   - ## How

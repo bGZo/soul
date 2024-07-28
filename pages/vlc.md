@@ -1,7 +1,8 @@
 also:: Tools/VLC
 icon:: ⏯️
-tags:: #Video
+tags:: #video
 created:: [[20200118]]
+
 - ## Why
   - Cross Platform.
   - Open source.

@@ -1,6 +1,11 @@
-also:: Masb Spring面试题
-description:: https://www.bilibili.com/video/BV17K411Z7EB
+icon:: 💾
+author:: 马士兵
+created:: [[20230304]]
+exclude-from-graph-view:: true
+source:: https://www.bilibili.com/video/BV17K411Z7EB
+type:: archives-web
 
+- 原视频已经消失，此页终结
 - [bjmashibing/InternetArchitect: 年薪百万互联网架构师课程文档及源码(公开部分)](https://github.com/bjmashibing/InternetArchitect)
 - ## 心态调整
   collapsed:: true
@@ -16,6 +21,7 @@ description:: https://www.bilibili.com/video/BV17K411Z7EB
   - P10 技术实力模块描述的原则
   - P11 技术描述模块的错误案例
 - ## Spring面试题
+  collapsed:: true
   - ### P12 谈谈 Spring IOC 理解，原理与实现
     collapsed:: true
     - 总：当前问题回答的是那些具体的点
@@ -155,9 +161,9 @@ description:: https://www.bilibili.com/video/BV17K411Z7EB
             - 获得返回对象类型
           - `getObject`
             - 自定义创建对象的过程 （new、反射、动态代理）
-  -
-  - P18 Spring中用到的设计模式
+  - ### P18 Spring中用到的设计模式
   - ### P19 Spring的AOP的底层实现原理
+    collapsed:: true
     - IOC => AOP 只是过程中的一个拓展
       - `BeanPostProcessor`
     -
@@ -166,6 +172,7 @@ description:: https://www.bilibili.com/video/BV17K411Z7EB
   - 动态代理
   - P20 Spring的事务是如何回滚的？
   - P21 谈一下spring事务传播？
+-
 - P22 【性能优化面试题】虚拟机栈
 - P23 【性能优化面试题】pc计数器
 - P24 【性能优化面试题】本地方法栈

@@ -1,28 +1,13 @@
-also:: Mastodon
-tags:: #[[social media]] #tool
-source:: [mastodon/mastodon: Your self-hosted, globally interconnected microblogging community](https://github.com/mastodon/mastodon)
+icon:: 🛠
 created:: [[20221219]]
+document:: https://github.com/mastodon/mastodon
+status:: tool/star
+tags:: #[[social-media]]
+type:: tool
 
-- ## [[cheat/sheet]]
-  - ### [[shortcut]]
-    collapsed:: true
-    - |---|---|
-      | p | Open author's profile |
-      | m | Mention author |
-      | s | Focus search bar |
-      | ? | Display this legend |
-      via: [Mastodon](https://mastodon.social/keyboard-shortcuts)
-  - ### [[api]]
-    collapsed:: true
-    - `m.cmx.im`
-      collapsed:: true
-      - Contents
-        - `api/v1/statuses/{post_id}`
-      - Comments
-        - `api/v1/statuses/{post_id}/context`
--
-- ## [[issue]]
-  collapsed:: true
+- ## Why
+  -
+- ## How
   - DONE MOVE OUT
     collapsed:: true
     - View HTML
@@ -56,4 +41,25 @@ created:: [[20221219]]
     https://mastodon.fediverse.observer/list
     https://the-federation.info/mastodon
     #tools
--
+- ## What
+  -
+- ## Namespace
+  - {{namespace mastodon}}
+- ## ↩ Reference
+  - ### [[shortcut]]
+    collapsed:: true
+    - |---|---|
+      | p | Open author's profile |
+      | m | Mention author |
+      | s | Focus search bar |
+      | ? | Display this legend |
+      via: [Mastodon](https://mastodon.social/keyboard-shortcuts)
+  - ### [[api]]
+    collapsed:: true
+    - `m.cmx.im`
+      collapsed:: true
+      - Contents
+        - `api/v1/statuses/{post_id}`
+      - Comments
+        - `api/v1/statuses/{post_id}/context`
+  -

@@ -1,5 +1,5 @@
 icon:: 🎮
-tags:: game/platform
+tags:: game/platform, price-discrimination
 created:: [[20230704]]
 
 - ## Why

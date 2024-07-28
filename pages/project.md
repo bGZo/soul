@@ -11,7 +11,7 @@ template-including-parent:: false
     icon:: 📂
     tags::
   - ## Project Meta
-    - DOING #project ``{ ref(c.page.name) }``
+    - ``{ 'DOING #project ' + ref(c.page.name) }``
       :LOGBOOK:
       CLOCK: [2024-07-21 Sun 22:36:48]
       :END:

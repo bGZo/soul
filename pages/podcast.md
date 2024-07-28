@@ -31,7 +31,7 @@ icon:: 🎧
       #chatGPT
   - What I am thinking after listening podcast?
     collapsed:: true
-    - Some [[Video]]s are not as good as [[podcast]]s
+    - Some [[video]]s are not as good as [[podcast]]s
       - [[Youtube]]
         collapsed:: true
         - New path:  `https://www.youtube.com/@<username>`

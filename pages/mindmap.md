@@ -1,7 +1,21 @@
-also:: 思维导图, Mind map
-tags:: #tools
-description:: [Mind map - Wikipedia](https://en.wikipedia.org/wiki/Mind_map)
+icon:: 🛠
+created:: [[20240728]]
+document:: 思维导图
+status:: tool/star
+tags:: 
+type:: tool
+wikipedia:: https://en.wikipedia.org/wiki/Mind_map
+title:: mindmap
 
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace mind_map}}
+- ## ↩ Reference
   - title:: 🌟 [markmap/markmap](https://github.com/markmap/markmap) ![](https://img.shields.io/github/stars/markmap/markmap)
     tags:: #github #opensource
     created:: [[20230205]]
@@ -19,3 +33,5 @@ description:: [Mind map - Wikipedia](https://en.wikipedia.org/wiki/Mind_map)
     tags:: #github #opensource
     created:: [[20230205]]
     description:: 基于 D3.js 的 web 思维导图
+  -
+-

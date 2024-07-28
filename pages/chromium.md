@@ -1,7 +1,11 @@
-also:: browser/chromium, chrome
-description:: uGc
-icon:: 
-source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-software/ungoogled-chromium: Google Chromium, sans integration with Google](https://github.com/ungoogled-software/ungoogled-chromium) ![](https://img.shields.io/github/stars/ungoogled-software/ungoogled-chromium)
+icon:: 🛠
+created:: [[20240728]]
+document:: https://www.chromium.org/chromium-projects, https://github.com/ungoogled-software/ungoogled-chromium 
+exclude-from-graph-view:: true
+status:: tool/deprecated
+tags:: 
+type:: tool
+![](https://img.shields.io/github/stars/ungoogled-software/ungoogled-chromium)
 
   - Gc with [Hibbiki/chromium-win64: Chromium builds for Windows x64](https://github.com/Hibbiki/chromium-win64) ![](https://img.shields.io/github/stars/Hibbiki/chromium-win64)
 - [[Backup]]
@@ -16,6 +20,7 @@ source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-softwar
     - `History`
     - `Bookmarks`
 - [[issue]]
+  collapsed:: true
   - Web notification cannot use (+Brave) #[[wontfix]]
     collapsed:: true
     - **Google Cloud Message / Firebase Cloud Messaging** 无法在 ungoogle 的浏览器使用...
@@ -115,3 +120,5 @@ source:: [Home](https://www.chromium.org/chromium-projects/); [ungoogled-softwar
         [*.]sina.com.cn
         ```
   - [3 月 15 日谷歌就要停止第三方 chrome 浏览器的同步功能了，我该怎么办？ - V2EX](https://www.v2ex.com/t/761099)
+- ## ↩ Reference
+  -

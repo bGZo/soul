@@ -1,7 +1,10 @@
+icon:: 🛠
 created:: [[20240727]]
+document:: https://help.vivaldi.com/desktop/
 exclude-from-graph-view:: true
-icon:: 📄
-tags:: #browser #deprecated
+status:: tool/deprecated
+tags:: browser
+type:: tool
 
 - ## Feature 🎉
   collapsed:: true
@@ -19,6 +22,5 @@ tags:: #browser #deprecated
   - don' t use `oneTab` -> use Bookmark
   - `bookmark`
   - **extension data path**: `.\scoop\persist\vivaldi\User Data\Default\Extensions`;
-- ## Refs
-  collapsed:: true
-  - https://help.vivaldi.com/desktop/
+- ## ↩ Reference
+  -

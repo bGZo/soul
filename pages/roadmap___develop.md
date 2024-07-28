@@ -6,7 +6,7 @@ tags:: TODO
   - [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) ![](https://img.shields.io/github/stars/kamranahmedse/developer-roadmap)
     collapsed:: true
     - [ccloli/developer-roadmap-zh-CN-2020](https://github.com/ccloli/developer-roadmap-zh-CN) ![](https://img.shields.io/github/stars/ccloli/developer-roadmap-zh-CN)
-      #outdated
+      #deprecated
   - [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ![](https://img.shields.io/github/stars/EbookFoundation/free-programming-books) #[[book]]
     collapsed:: true
     - [大家来推荐几本对职业生涯影响较大的技术书籍 - V2EX](https://www.v2ex.com/t/795885)

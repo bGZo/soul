@@ -2,7 +2,7 @@ also:: 油管
 icon:: 📺
 created:: [[20211115]]
 tags:: #video #Platform
-filters:: {"20221220" false, "dont" true}
+filters:: {}
 id:: 65633c2a-d6ca-4124-b367-fb71278d780e
 
   - template:: youtuber

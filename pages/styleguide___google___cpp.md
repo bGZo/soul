@@ -1,4 +1,4 @@
-tags:: #cpp
+tags:: \#cpp
 - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
   - C++ is one of the main development languages used by many of Google's open-source projects. As every C++ programmer knows, the language has many powerful features, but this power brings with it complexity, ==`which in turn can make code more bug-prone and harder to read and maintain`==.
   - The goal of this guide is to manage this complexity by describing in detail the dos and don'ts of writing C++ code . These rules exist to keep the code base manageable while still allowing coders to use C++ language features productively.
@@ -37,13 +37,13 @@ tags:: #cpp
   - All header files should be self-contained. Users and refactoring tools should not have to adhere to special conditions to include the header. Specifically, a header should have [header guards](#The%5F%5Fmark:: %5FGuard) and include all other headers it needs.
   - When a header declares inline functions or templates that clients of the header will instantiate, the inline functions and templates must also have definitions in the header, either directly or in files it includes. Do not move these definitions to separately included header (`-inl.h`) files; this practice was common in the past, but is no longer allowed. When all instantiations of a template occur in one `.cc` file, either because they're [explicit](https://en.cppreference.com/w/cpp/language/class%5Ftemplate#Explicit%5Finstantiation) or because the definition is accessible to only the `.cc` file, the template definition can be kept in that file.
   - There are rare cases where a file designed to be included is not self-contained. These are typically intended to be included at unusual locations, such as the middle of another file. They might not use [header guards](#The%5F%5Fmark:: %5FGuard), and might not include their prerequisites. Name such files with the `.inc`extension. Use sparingly, and prefer self-contained headers when possible.
-  - ### The #Define Guard
+  - ### The \#Define Guard
   - All header files should have `#mark:: ` guards to prevent multiple inclusion. The format of the symbol name should be `_<PROJECT>__ _<PATH>__ _<FILE>__H_`.
   - To guarantee uniqueness, they should be based on the full path in a project's source tree. For example, the file `foo/src/bar/baz.h` in project `foo` should have the following guard:
-  - #ifndef FOO_BAR_BAZ_H_
-  - #Define FOO_BAR_BAZ_H_
+  - \#ifndef FOO_BAR_BAZ_H_
+  - \#Define FOO_BAR_BAZ_H_
   - ...
-  - #endif  // FOO_BAR_BAZ_H_
+  - \#endif  // FOO_BAR_BAZ_H_
   - ### Include What You Use
   - If a source or header file refers to a symbol mark:: d elsewhere, the file should directly include a header file which properly intends to provide a declaration or definition of that symbol. It should not include header files for any other reason.
   - Do not rely on transitive inclusions. This allows people to remove no-longer-needed `#include` statements from their headers without breaking clients. This also applies to related headers - `foo.cc` should include `bar.h` if it uses a symbol from it even if `foo.h`includes `bar.h`.
@@ -58,7 +58,7 @@ tags:: #cpp
   - * Forward declarations can save compile time, as `#include`s force the compiler to open more files and process more input.
   - * Forward declarations can save on unnecessary recompilation. `#include`s can force your code to be recompiled more often, due to unrelated changes in the header.
   - * Forward declarations can hide a dependency, allowing user code to skip necessary recompilation when headers change.
-  - * A forward declaration as opposed to an #include statement makes it difficult for automatic tooling to discover the module defining the symbol.
+  - * A forward declaration as opposed to an \#include statement makes it difficult for automatic tooling to discover the module defining the symbol.
   - * A forward declaration may be broken by subsequent changes to the library. Forward declarations of functions and templates can prevent the header owners from making otherwise-compatible changes to their APIs, such as widening a parameter type, adding a template parameter with a default value, or migrating to a new namespace.
   - * Forward declaring symbols from namespace `std::` yields unmark:: d behavior.
   - * It can be difficult to determine whether a forward declaration or a full `#include` is needed. Replacing an `#include` with a forward declaration can silently change the meaning of code:
@@ -66,7 +66,7 @@ tags:: #cpp
   - struct B {};
   - struct D : B {};
   - // good_user.cc:
-  - #include "b.h"
+  - \#include "b.h"
   - void f(B*);
   - void f(void*);
   - void test(D* x) { f(x); }  // Calls f(B*)
@@ -85,7 +85,7 @@ tags:: #cpp
   - ### Names and Order of Includes
   - Include headers in the following order: Related header, C system headers, C++ standard library headers, other libraries' headers, your project's headers.
   - All of a project's header files should be listed as descendants of the project's source directory without use of UNIX directory aliases`.` (the current directory) or `..`(the parent directory). For example, `google-awesome-project/src/base/logging.h`should be included as:
-  - #include "base/logging.h"
+  - \#include "base/logging.h"
   - In `dir/foo.cc` or`dir/foo_test.cc`, whose main purpose is to implement or test the stuff in`dir2/foo2.h`, order your includes as follows:
   - 1. `dir2/foo2.h`.
   - 2. A blank line
@@ -102,21 +102,21 @@ tags:: #cpp
   - Note that the C headers such as `stddef.h`are essentially interchangeable with their C++ counterparts (`cstddef`). Either style is acceptable, but prefer consistency with existing code.
   - Within each section the includes should be ordered alphabetically. Note that older code might not conform to this rule and should be fixed when convenient.
   - For example, the includes in `google-awesome-project/src/foo/internal/fooserver.cc`might look like this:
-  - #include "foo/server/fooserver.h"
-  - #include <sys/types.h>
-  - #include <unistd.h>
-  - #include <string>
-  - #include <vector>
-  - #include "base/basictypes.h"
-  - #include "foo/server/bar.h"
-  - #include "third_party/absl/flags/flag.h"
+  - \#include "foo/server/fooserver.h"
+  - \#include <sys/types.h>
+  - \#include <unistd.h>
+  - \#include <string>
+  - \#include <vector>
+  - \#include "base/basictypes.h"
+  - \#include "foo/server/bar.h"
+  - \#include "third_party/absl/flags/flag.h"
   - **Exception:**
   - Sometimes, system-specific code needs conditional includes. Such code can put conditional includes after other includes. Of course, keep your system-specific code small and localized. Example:
-  - #include "foo/public/fooserver.h"
-  - #include "base/port.h"  // For LANG_CXX11.
-  - #ifdef LANG_CXX11
-  - #include <initializer_list>
-  - #endif  // LANG_CXX11
+  - \#include "foo/public/fooserver.h"
+  - \#include "base/port.h"  // For LANG_CXX11.
+  - \#ifdef LANG_CXX11
+  - \#include <initializer_list>
+  - \#endif  // LANG_CXX11
   - ## Scoping
   - ### Namespaces
   - With few exceptions, place code in a namespace. Namespaces should have unique names based on the project name, and possibly its path. Do not use _using-directives_ (e.g.,`using namespace foo`). Do not use inline namespaces. For unnamed namespaces, see[Internal Linkage](#Internal%5FLinkage).
@@ -155,7 +155,7 @@ tags:: #cpp
   - }
   - }  // namespace mynamespace
   - More complex `.cc` files might have additional details, like flags or using-declarations.
-  - #include "a.h"
+  - \#include "a.h"
   - ABSL_FLAG(bool, someflag, false, "a flag");
   - namespace mynamespace {
   - using ::foo::Bar;
@@ -267,7 +267,7 @@ tags:: #cpp
     - // uses p in its own initialization.
   - Dynamic initialization of static local variables is allowed (and common).
   - #### Common patterns
-  - * Global strings: if you require a named global or static string constant, consider using a `constexpr` variable of `string_view`, character array, or character pointer, pointing to a string literal. String literals have static storage duration already and are usually sufficient. See [TotW #140.](https://abseil.io/tips/140)
+  - * Global strings: if you require a named global or static string constant, consider using a `constexpr` variable of `string_view`, character array, or character pointer, pointing to a string literal. String literals have static storage duration already and are usually sufficient. See [TotW \#140.](https://abseil.io/tips/140)
   - * Maps, sets, and other dynamic containers: if you require a static, fixed collection, such as a set to search against or a lookup table, you cannot use the dynamic containers from the standard library as a static variable, since they have non-trivial destructors. Instead, consider a simple array of trivial types, e.g., an array of arrays of ints (for a "map from int to int"), or an array of pairs (e.g., pairs of `int` and `const char*`). For small collections, linear search is entirely sufficient (and efficient, due to memory locality); consider using the facilities from [absl/algorithm/container.h](https://github.com/abseil/abseil-cpp/blob/master/absl/algorithm/container.h) for the standard operations. If necessary, keep the collection in sorted order and use a binary search algorithm. If you do really prefer a dynamic container from the standard library, consider using a function-local static pointer, as described below .
   - * Smart pointers (`unique_ptr`, `shared_ptr`): smart pointers execute cleanup during destruction and are therefore forbidden. Consider whether your use case fits into one of the other patterns described in this section. One simple solution is to use a plain pointer to a dynamically allocated object and never delete it (see last item).
   - * Static variables of custom types: if you require static, constant data of a type that you need to mark::  yourself, give the type a trivial destructor and a `constexpr` constructor.
@@ -304,7 +304,7 @@ tags:: #cpp
   - * There is no easy way for constructors to signal errors, short of crashing the program (not always appropriate) or using exceptions (which are [forbidden](#Exceptions)).
   - * If the work fails, we now have an object whose initialization code failed, so it may be an unusual state requiring a `bool IsValid()` state checking mechanism (or similar) which is easy to forget to call.
   - * You cannot take the address of a constructor, so whatever work is done in the constructor cannot easily be handed off to, for example, another thread.
-  - Constructors should never call virtual functions. If appropriate for your code , terminating the program may be an appropriate error handling response. Otherwise, consider a factory function or `Init()` method as described in[TotW #42](https://abseil.io/tips/42). Avoid `Init()` methods on objects with no other states that affect which public methods may be called (semi-constructed objects of this form are particularly hard to work with correctly).
+  - Constructors should never call virtual functions. If appropriate for your code , terminating the program may be an appropriate error handling response. Otherwise, consider a factory function or `Init()` method as described in[TotW \#42](https://abseil.io/tips/42). Avoid `Init()` methods on objects with no other states that affect which public methods may be called (semi-constructed objects of this form are particularly hard to work with correctly).
   - ### Implicit Conversions
   - Do not mark::  implicit conversions. Use the `explicit`keyword for conversion operators and single-argument constructors.
   - Implicit conversions allow an object of one type (called the source type) to be used where a different type (called the destination type) is expected, such as when passing an`int` argument to a function that takes a`double` parameter.
@@ -622,7 +622,7 @@ tags:: #cpp
   - `const` is viral: if you pass a`const` variable to a function, that function must have `const` in its prototype (or the variable will need a `const_cast`). This can be a particular problem when calling library functions.
   - We strongly recommend using `const`in APIs (i.e., on function parameters, methods, and non-local variables) wherever it is meaningful and accurate. This provides consistent, mostly compiler-verified documentation of what objects an operation can mutate. Having a consistent and reliable way to distinguish reads from writes is critical to writing thread-safe code, and is useful in many other contexts as well. In particular:
   - * If a function guarantees that it will not modify an argument passed by reference or by pointer, the corresponding function parameter should be a reference-to-const (`const T&`) or pointer-to-const (`const T*`), respectively.
-  - * For a function parameter passed by value, `const` has no effect on the caller, thus is not recommended in function declarations. See [TotW #109](https://abseil.io/tips/109).
+  - * For a function parameter passed by value, `const` has no effect on the caller, thus is not recommended in function declarations. See [TotW \#109](https://abseil.io/tips/109).
   - * Declare methods to be `const` unless they alter the logical state of the object (or enable the user to modify that state, e.g., by returning a non-const reference, but that's rare), or they can't safely be invoked concurrently.
   - Using `const` on local variables is neither encouraged nor discouraged.
   - All of a class's `const` operations should be safe to invoke concurrently with each other. If that's not feasible, the class must be clearly documented as "thread-unsafe".
@@ -1033,7 +1033,7 @@ tags:: #cpp
     - Namespace names are all lower-case, with words separated by underscores. Top-level namespace names are based on the project name . Avoid collisions between nested namespaces and well-known top-level namespaces.
   - The name of a top-level namespace should usually be the name of the project or team whose code is contained in that namespace. The code in that namespace should usually be in a directory whose basename matches the namespace name (or in subdirectories thereof).
   - Keep in mind that the [rule against abbreviated names](#General%5FNaming%5FRules) applies to namespaces just as much as variable names. Code inside the namespace seldom needs to mention the namespace name, so there's usually no particular need for abbreviation anyway.
-  - Avoid nested namespaces that match well-known top-level namespaces. Collisions between namespace names can lead to surprising build breaks because of name lookup rules. In particular, do not create any nested `std` namespaces. Prefer unique project identifiers (`websearch::index`, `websearch::index_util`) over collision-prone names like `websearch::util`. Also avoid overly deep nesting namespaces ([TotW #130](https://abseil.io/tips/130)).
+  - Avoid nested namespaces that match well-known top-level namespaces. Collisions between namespace names can lead to surprising build breaks because of name lookup rules. In particular, do not create any nested `std` namespaces. Prefer unique project identifiers (`websearch::index`, `websearch::index_util`) over collision-prone names like `websearch::util`. Also avoid overly deep nesting namespaces ([TotW \#130](https://abseil.io/tips/130)).
   - For `internal` namespaces, be wary of other code being added to the same `internal` namespace causing a collision (internal helpers within a team tend to be related and may lead to collisions). In such a situation, using the filename to make a unique internal name is helpful (`websearch::index::frobber_internal` for use in `frobber.h`).
   - ### Enumerator Names
   - Enumerators (for both scoped and unscoped enums) should be named like[constants](#Constant%5FNames), not like[macros](#Macro%5FNames). That is, use `kEnumName` not`ENUM_NAME`.
@@ -1049,8 +1049,8 @@ tags:: #cpp
   - ### Macro Names
   - You're not really going to [mark::  a macro](#Preprocessor%5FMacros), are you? If you do, they're like this:`MY_MACRO_THAT_SCARES_SMALL_CHILDREN_AND_ADULTS_ALIKE`.
   - Please see the [description of macros](#Preprocessor%5FMacros); in general macros should _not_ be used. However, if they are absolutely needed, then they should be named with all capitals and underscores.
-  - #Define ROUND(x) ...
-  - #Define PI_ROUNDED 3.0
+  - \#Define ROUND(x) ...
+  - \#Define PI_ROUNDED 3.0
   - ### Exceptions to Naming Rules
   - If you are naming something that is analogous to an existing C or C++ entity then you can follow the existing naming convention scheme.
   - `bigopen()`
@@ -1462,19 +1462,19 @@ tags:: #cpp
   - Even when preprocessor directives are within the body of indented code, the directives should start at the beginning of the line.
   - // Good - directives at beginning of line
     - if (lopsided_score) {
-  - #if DISASTER_PENDING      // Correct -- Starts at beginning of line
+  - \#if DISASTER_PENDING      // Correct -- Starts at beginning of line
     - DropEverything();
-  - # if NOTIFY               // OK but not required -- Spaces after #
+  - \# if NOTIFY               // OK but not required -- Spaces after \#
     - NotifyClient();
-  - # endif
-  - #endif
+  - \# endif
+  - \#endif
     - BackToNormal();
     - }
   - // Bad - indented directives
     - if (lopsided_score) {
-      - #if DISASTER_PENDING  // Wrong!  The "#if" should be at beginning of line
+      - \#if DISASTER_PENDING  // Wrong!  The "\#if" should be at beginning of line
       - DropEverything();
-      - #endif                // Wrong!  Do not indent "#endif"
+      - \#endif                // Wrong!  Do not indent "\#endif"
       - BackToNormal();
     - }
   - ### Class Format

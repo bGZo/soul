@@ -1,7 +1,15 @@
-also:: books/人体系统调优不完全指南
+icon:: 📖
+cover:: {{image/cover }}
+also:: 健康学习到150岁 - 人体系统调优不完全指南
 author:: zijie0
+created:: [[20240728]]
+isbn:: ?
+lang:: chinese
 published-date:: 20220522
-source:: [zijie0/HumanSystemOptimization: 健康学习到150岁 - 人体系统调优不完全指南](https://github.com/zijie0/HumanSystemOptimization)
+status:: book/done
+tags:: #health 
+type:: book
+https://github.com/zijie0/HumanSystemOptimization ![](https://img.shields.io/github/stars/zijie0/HumanSystemOptimization)
 
 - Digests
   - 睡眠

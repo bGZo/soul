@@ -1,9 +1,15 @@
+icon:: 🛠
 also:: Windows Subsystem For Linux
-tags:: #Windows #linux #nix #tools #github #microsoft
-github:: https://github.com/microsoft/WSL
+created:: [[20240728]]
+document:: https://github.com/microsoft/WSL
+status:: tool/star
+tags:: #windows #linux 
+type:: tool
 created:: 202104
-![](https://img.shields.io/github/stars/microsoft/WSL)
+ ![](https://img.shields.io/github/stars/microsoft/WSL)
 
+- ## Why
+  -
 - ## How
   - DONE WSL GUI
     collapsed:: true
@@ -62,3 +68,7 @@ created:: 202104
     - via: [WSL 和 WSL2 简单对比 - V2EX](https://v2ex.com/t/587642)
     - [🚀 为什么在 WSL 下项目的编译/运行/git 等等和 IO 相关的操作貌似很慢？ · Issue #17 · spencerwooo/dowww](https://github.com/spencerwooo/dowww/issues/17#issuecomment-457128479)
     - [你不需要花哨的命令提示符 - 知乎](https://zhuanlan.zhihu.com/p/51008087)
+- ## Namespace
+  - {{namespace wsl}}
+- ## ↩ Reference
+  -

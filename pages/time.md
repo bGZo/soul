@@ -1,13 +1,8 @@
 also:: 时间
 icon:: 🕛
 
-- [[tool]]
-  - {{iframe https://fliqlo.com}}
-    #+BEGIN_CENTER
-    via: https://fliqlo.com
-    #+END_CENTER
-  - {{iframe https://rectangles.app}}
-    #+BEGIN_CENTER
-    via: https://rectangles.app
-    #+END_CENTER
+-
+- [[tools]]
+  - {{iframe https://fliqlo.com,40vh,iframe-radius}}
+  - {{iframe https://rectangles.app,40vh,iframe-radius}}
 -

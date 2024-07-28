@@ -1,15 +1,22 @@
-tags:: tools
+icon:: 🛠
+created:: [[20240728]]
+document:: 
+status:: tool/star
+tags:: storage/cloud
+type:: tool
 
-- > 世纪互联只提供商业版，个人版和家庭版 365 全都是由微软自营
-  via: [如何判断自己 office365 的 onedrive 是存在微软云还是世纪互联](https://www.v2ex.com/t/751037)
--
--
-- collapsed:: true
-- [[messing-up-onedrive]]
--
--
--
--
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  - [[messing-up-onedrive]]
+  -
+- ## Namespace
+  - {{namespace onedrive}}
+- ## ↩ Reference
+  - > 世纪互联只提供商业版，个人版和家庭版 365 全都是由微软自营
+    via: [如何判断自己 office365 的 onedrive 是存在微软云还是世纪互联](https://www.v2ex.com/t/751037)
   - WebDev
     collapsed:: true
     - 不支持, 需要自己折腾;

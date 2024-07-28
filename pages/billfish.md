@@ -1,11 +1,10 @@
-also:: 尖嘴鱼
-tags:: #tools #font #photo #deprecated
-document:: [知识库 - Billfish素材管理工具](https://www.billfish.cn/category/knowledge/)
-changelog:: [软件下载- Billfish素材管理工具](https://www.billfish.cn/download/)
-community:: [Billfish素材管理软件-用户交流论坛 - Powered by Discuz!](https://www.billfish.cn/bbs/)
+icon:: 🛠
 created:: [[20230127]]
+document:: https://www.billfish.cn/category/knowledge, https://www.billfish.cn/download, https://www.billfish.cn/bbs
 exclude-from-graph-view:: true
-icon:: 📄
+status:: tool/deprecated
+tags:: #font #photo
+type:: tool
 
 - #+BEGIN_TIP
   软件其实有一个更好的 Geek 思路

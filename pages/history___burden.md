@@ -1988,7 +1988,6 @@ exclude-from-graph-view:: true
             description::
       - type:: to-buy-list
             name:: TINHIFI T4
-            tags:: TINHIFI
             price:: 
             rmb:: 619.00
             source:: https://item.taobao.com/item.htm?id=608793029925
@@ -2009,7 +2008,6 @@ exclude-from-graph-view:: true
             description::
       - type:: to-buy-list
             name:: 飞傲FD1
-            tags:: FiiO
             price:: 
             rmb:: 338
             source:: https://detail.tmall.com/item.htm?id=620887099094
@@ -2030,7 +2028,6 @@ exclude-from-graph-view:: true
             description::
       - type:: to-buy-list
             name:: ThinkPad 红点键盘
-            tags:: lenovo
             price:: 
             rmb:: 199.00
             source:: https://detail.tmall.com/item.htm?id=36188327041

@@ -7,7 +7,7 @@ also:: 电影, Video/Movie
     - icon:: 🎬
       title:: 
       also:: 
-      tags:: #Video #Movie
+      tags:: #video #Movie
       director:: 
       sreenwriter:: 
       actor:: 
@@ -23,7 +23,7 @@ also:: 电影, Video/Movie
     - icon:: 🎬
       title:: 
       also:: 
-      tags:: #Video #Movie
+      tags:: #video #Movie
       director:: 
       sreenwriter:: 
       actor:: 

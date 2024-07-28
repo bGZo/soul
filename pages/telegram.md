@@ -1,8 +1,9 @@
-also:: [[tools/telegram]], [[tg]]
-tags:: #tool/im
-document:: [https://core.telegram.org/api Telegram APIs ]
-changelog:: [https://desktop.telegram.org/changelog Version history]
+icon:: 🛠
 created:: [[20200108]]
+document:: https://core.telegram.org/api, https://desktop.telegram.org/changelog
+status:: tool/star
+tags:: #instant-message 
+type:: tool
 
 - ## Why
   -

@@ -1,5 +1,6 @@
 also:: Word Power Made Easy
 description:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
+exclude-from-graph-view:: true
 tags:: #English #telegram/channel #subscription #DOING
 source:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
 created:: [[20221220]]

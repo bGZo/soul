@@ -1,8 +1,10 @@
-also:: commands/line, cli, 命令行
-tags:: #tools
+icon:: 🛠
+created:: [[20240728]]
+document:: commands/line, cli, 命令行
+status:: tool/star
+tags:: 
+type:: tool
 
--
--
 - [[terminal]] #vs shell #vs [[bash]]/[[zsh]]
   - [[terminal]] 提供一个命令的输入输出环境
     collapsed:: true
@@ -20,9 +22,7 @@ tags:: #tools
       - 命令历史表
       - ... 等等
     - bash 与 Bourne shell 完全向后兼容
--
 - angle-brackets
   collapsed:: true
   - `>` -> 输出重定向
     `>>` -> 追加
--

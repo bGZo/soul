@@ -244,8 +244,8 @@ exclude-from-graph-view:: true
     - [Find Blog👁发现博客](https://t.me/FindBlog) [↩](tg://resolve?domain=FindBlog)
     - [timqian/chinese-independent-blogs: 中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
     - https://www.google.com/search?q=site:v2ex.com+blog #search/latter
-  -
-  - ### 🎥 [[Video]]
+  - dfmsdkf
+  - ### 🎥 [[video]]
     - [首页 - 人人影视下载分享站](https://yyets.dmesg.app/home)
     - [80s电影网 - MP4高清电影分享](https://www.kk80s.com/)
     -
@@ -268,7 +268,6 @@ exclude-from-graph-view:: true
     - [梦蓝字幕组发布站](https://mlsub.net/)
     - [卡通站|粤语动画|国语动画|tvb卡通](https://www.ktkkt.top/)
     - [Ani-One中文官方動畫頻道 - YouTube](https://www.youtube.com/@AniOneAnime/videos)
-  -
   - ### 📔 [[manga]]
     - [在线看漫画_飒漫乐画_妃夕妍雪 - 漫画柜](https://www.manhuagui.com/)
     - [Mox.moe (Kindle漫畫|Kobo漫畫|epub漫畫) (mox.moe)](https://mox.moe/)
@@ -323,7 +322,7 @@ exclude-from-graph-view:: true
       - [Comici | 漫爱次元](https://www.comici.win/)
       - ~~[紳士向 | 搜尋標籤 | udn遊戲角落](https://game.udn.com/game/tag/紳士向)~~
     -
-    - ### 😍🎥 [[Video]]
+    - ### 😍🎥 [[video]]
       - [XVIDEOS.COM - Free Porn Videos](https://www.xvideos.com/)
         - [Free Porn Videos - XVIDEOS.COM](https://www.xvideos.com/)
       - [XNXX.COM | Free Porn, Sex, Tube Videos, XXX Pics, Pussy in Porno Movies ](https://www.xnxx.com/)

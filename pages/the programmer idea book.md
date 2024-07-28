@@ -6,7 +6,7 @@ created:: [[20240721]]
 
 - ## Project Meta
   - DOING #project [[the programmer idea book]]
-    SCHEDULED: <2024-07-21 Sun 00:00 .+3d>
+    SCHEDULED: <2024-07-21 Sun 00:00 .+30d>
     :LOGBOOK:
     CLOCK: [2024-07-21 Sun 22:36:48]
     :END:

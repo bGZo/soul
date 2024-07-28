@@ -1,7 +1,9 @@
-also:: [[tools/logseq]], 
+icon:: 🛠
 created:: [[20210801]]
-description:: a [[personal knowledge management]] tool
-icon:: 📄
+document:: https://blog.logseq.com, https://docs.logseq.com, https://hub.logseq.com
+status:: tool/star
+tags:: #[[personal knowledge management]]
+type:: tool
 
 - ## Why
   collapsed:: true
@@ -399,10 +401,4 @@ icon:: 📄
   - [求推荐：知识管理-电子书阅读管理 APP？ - V2EX](https://www.v2ex.com/t/826204)
   - [知识信息组织索引工具推荐 - V2EX](https://www.v2ex.com/t/222874)
   - [有什么比较好的用于摘抄网页的工具吗 - V2EX](https://www.v2ex.com/t/797881)
-  -
--
-- collapsed:: true
-  blog:: [Logseq Blog](https://blog.logseq.com/)
-  changelog:: [Changelog](https://docs.logseq.com/#/page/changelog); [docs/Changelog.md](https://github.com/logseq/docs/blob/master/pages/Changelog.md?plain=1)
-  community:: [Logseq Community Hub](https://hub.logseq.com/);
-  document:: [Official Docs](https://docs.logseq.com/); [Unofficial Docs](https://mschmidtkorth.github.io/logseq-msk-docs)
+  - https://mschmidtkorth.github.io/logseq-msk-docs

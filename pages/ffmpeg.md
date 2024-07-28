@@ -1,5 +1,6 @@
 also:: commands/ffmpeg
-tags:: #[[free-software]], #[[Video]]
+tags:: #[[free-software]], #[[video]]
+
 -
 - 子程序(4)
   - ffmpeg
