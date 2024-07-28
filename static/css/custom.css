@@ -88,7 +88,7 @@ hr {
 }
 
 @media (prefers-color-scheme: dark) {
-  .light-theme, html[data-theme="light"]{
+  .dark-theme, html[data-theme="dark"]{
     --ls-tag-background-hover: var(--color-level-1);
     --ls-page-blockquote-border-color: var(--ls-highlight-color);
     --ls-page-blockquote-bg-color: var(--color-level-3);
@@ -98,6 +98,28 @@ hr {
   img {
     filter: brightness(.80) contrast(1.1);
   }
+  ::selection {
+    background:#d3d3d3;
+    color:#555;
+  }
+  blockquote, .ls-block[data-refs-self*="\"quote\""]:not(.pre-block) {
+    background-color: var(--lx-gray-05-alpha);
+    border-left: 4px solid var(--ls-highlight-text-color);
+  }
+  .inline-wrap,
+  .block-content,
+  ol > li > p,
+  .breadcrumb.block-parents > a,
+  .cp__query-builder .cp__select .input-wrap input {
+    color: var(--lx-gray-11);
+  }
+  .cp__query-builder .cp__select .input-wrap input {
+    background: black;
+  }
+  .left-sidebar-inner .nav-content-item .header{
+    background: var(--left-sidebar-bg-color);
+  }
+
 }
 mark>code {
   background-color: var(--ls-highlight-color) !important;
