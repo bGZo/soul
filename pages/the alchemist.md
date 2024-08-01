@@ -11,6 +11,6 @@ weread:: [牧羊少年奇幻之旅-保罗•柯艾略-微信读书 (qq.com)](htt
 created:: [[20230718]]
 - ## Contents
   -
-- ## [[Comment]]
+- ## Comment
   -
 -

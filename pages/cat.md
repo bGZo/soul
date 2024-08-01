@@ -1,8 +1,8 @@
 public:: false
 icon:: 🐱
-also:: 猫, area/family
 cost:: 5
 created:: [[20230529]]
+type:: hobby
 
 - ## Why
   - In such a cruel world, you may feel lonely, you may feel that you're too small, to this society with highly industrialized. You would feel sense of belonging if tame it. I mean, you could get a new relationship with someone, even they cannot understand by your language. (See the article written by Su Gengsheng ((6474a8e3-3b3e-45be-ae77-17cbcdc2e226)))
@@ -54,12 +54,7 @@ created:: [[20230529]]
     - ZIWI滋益巅峰最近推出的孩子和宠物的视频也让人动容，孩子和宠物，像是成人世界里的童话，天真的幻想、稚嫩的责任感和真挚的感情。这或许也是猫咪教给我们的事情，从孩子变成成年人，并不那么可怕，我们只是实现了孩童时期的梦想。
     - 这么一想，其实长大也没什么可怕。小时候我总觉得长大成人很恐怖，但是此刻再看，其实长大多好呀，我小时候做过的梦，此刻都在一一实现，我有了猫咪，有能力给他们健康的生活，他们能够更长远地陪伴我，我们都过得很快乐。
     - ![](https://mmbiz.qpic.cn/mmbiz_png/EibNoYLTccgia3FIprWEjazwBmeCmu6rEhujH5o6a9EicQhYQUX0b9tlKW0xxPk0VQT7IpKhbl1CxMowxvVBNictTA/640?wx_fmt=png)
-  - [[public/我人生中对不起的几只猫]]
-    - WAITING 我是不是一个适合养宠物的人?
-      collapsed:: true
-      - https://www.v2ex.com/t/834675
-      - 看到上面这个帖子我时常追问我自己养猫合适的心态是什么
-      - 可能把他当作自己的朋友看待, 但朋友应该被管束吗? 但你又想再让你的猫离你而去吗? 我很疑惑, 很纠结...
+  -
 - also:: 
   created:: [[20240721]]
   description:: 

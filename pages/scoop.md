@@ -7,10 +7,7 @@ tags:: #Windows #monthly
 - ## How
   - DONE How to find softwares could be installed?
     - online #star
-      - {{iframe https://bjansen.github.io/scoop-apps/,300}}
-        #+BEGIN_CENTER
-        via: https://bjansen.github.io/scoop-apps/
-        #+END_CENTER
+      - {{iframe https://bjansen.github.io/scoop-apps/,40vh,iframe-radius}}
     - local: `scoop search xxx`
   - DONE How to migrate between diff pcs？
     - {{embed ((65ccf1f1-1c85-4844-8e8f-b0947b25b0fd))}}

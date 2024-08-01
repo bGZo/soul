@@ -1,5 +1,5 @@
+icon:: ✈️
 also:: 代理, 翻墙, 科学上网
-icon:: ✈
 created:: [[20230602]]
 
 - #+BEGIN_PINNED

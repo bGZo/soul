@@ -1,18 +1,21 @@
 filters:: {}
 created:: [[20230815]]
 icon:: 🎮
-also:: 游戏, acgn/game
+also:: 游戏, 
 template:: game
 template-including-parent:: false
+type:: hobby
 
-  - cover:: ![🖼]()
-    also:: games/``{ c.page.name }``
-    created:: ``{ date.now.format('YYYYMMDD') }``
-    bangumi:: https://bgm.tv/subject/
-    douban:: https://www.douban.com/
-    developer:: 
-    icon:: 🎮
-    tags::
+  - icon:: 🎮
+    cover:: {{image/cover }}
+    also:: ``{ c.page.name }``, 
+    author:: 
+    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    rating:: ⭐⭐⭐⭐⭐
+    tags:: 
+    type:: ``{ 'game' }``
+    bangumi:: {{bangumi }}
+    douban:: {{dougame }}
 - ## Why
   -
 - ## How

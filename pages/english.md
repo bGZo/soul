@@ -21,7 +21,7 @@ tags:: #lang
   - 聋哑人 四六级 是怎么学的?? 听力怎么考???
 -
 -
-- ## [[cheat/sheet]]
+- ## [[quickref]]
   - ![image.png](../assets/works/english-alphabet-cheat-sheet.excalidraw.png)
     #a-picture-is-worth-a-thousand-words
 - ## Alphabet

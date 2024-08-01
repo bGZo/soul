@@ -5,6 +5,7 @@ created:: [[20240727]]
 isbn:: 9787111599791
 lang:: chinese
 published-date:: 20180601
+rating:: ⭐⭐⭐
 status:: book/reading
 tags:: #ssd
 type:: book

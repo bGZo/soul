@@ -136,5 +136,5 @@ wikipedia:: https://en.wikipedia.org/wiki/Anki_(software)
       | B | Browse |
       | T | Stats |
       | Y | Sync |
-      [49 Anki Keyboard Shortcuts for Win & Mac – LAYMN](https://laymn.com/anki-keyboard-shortcuts/) #cheat/sheet
+      [49 Anki Keyboard Shortcuts for Win & Mac – LAYMN](https://laymn.com/anki-keyboard-shortcuts/) #quickref
 -

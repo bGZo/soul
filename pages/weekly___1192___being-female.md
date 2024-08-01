@@ -1,4 +1,5 @@
 icon:: 📝
+also:: 成为女性
 created:: [[20240615]]
 status:: writing/published
 tags:: #[[feminism]]

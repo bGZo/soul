@@ -1,6 +1,7 @@
-also:: 播客, hobby/podcast
-created:: [[20230603]]
 icon:: 🎧
+also:: 播客
+created:: [[20230603]]
+type:: hobby
 
   - template:: podcast
     template-including-parent:: false

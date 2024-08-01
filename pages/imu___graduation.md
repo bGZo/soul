@@ -1,5 +1,5 @@
 also:: 基于 springcloud 的商城系统的设计与开发
-tags:: #spring/cloud
+tags:: #spring-cloud
 
   - [赵俊峰](https://ccs.imu.edu.cn/info/1152/4630.htm)`；`4994323`；`cszjf@imu.edu.cn`
   - 课题介绍：
@@ -184,7 +184,7 @@ tags:: #spring/cloud
         - 提供者：启动后向Eureka注册自己信息（地址，提供什么服务）
         - 消费者：向Eureka订阅服务，Eureka会将对应服务的所有提供者地址列表发送给消费者，并且定期更新
         - 心跳(续约)：提供者定期通过http方式向Eureka刷新自己的状态
-      - 引入方法 
+      - 引入方法
         - 服务器添加 `Eureka` 以后，在应用启动类中添加 `@EnableEurekaServer` 声明是一个 EurekaServer；再添加 Eureka 配置文件，包含端口、集群地址 `service-url` 和一些注册与订阅的配置。
           - `register-with-eureka`(注册信息到EurekaServer) 和 `fetch-registry`(拉取其它服务的信息) 默认为 True，因为只存在一台注册中心，所以无需告知自己的位置，应设置为 False
             id:: 646b638f-2553-4ecc-b243-56449d2c535a
@@ -344,7 +344,7 @@ tags:: #spring/cloud
       - 请求压缩？
       - 日志级别？
     - [Zuul](https://github.com/Netflix/zuul) 网关 (by Netflix)
-      - 网关解决的问题（直接对外暴露服务接口可能出现的问题）： 
+      - 网关解决的问题（直接对外暴露服务接口可能出现的问题）：
         - 无法保证 “服务无状态”
           - 开放服务的权限控制机制将会贯穿并污染整个开放服务的业务逻辑
         - 无法复用 既有接口
@@ -721,7 +721,7 @@ tags:: #spring/cloud
       - Elasticsearch也是基于Lucene的全文检索库，本质也是存储数据，很多概念与MySQL类似的。
       - 对比关系：
         - 索引（indices）--------------------------------Databases 数据库
-        -   类型（type）-----------------------------Table 数据表
+        - 类型（type）-----------------------------Table 数据表
         - 文档（Document）----------------Row 行
         - 字段（Field）-------------------Columns 列
         - | 概念 | 说明 |
@@ -824,7 +824,7 @@ tags:: #spring/cloud
     - [JWT](https://jwt.io) （Json Web Token）
       description:: JSON 风格轻量级的授权和身份认证规范，可实现无状态、分布式的Web应用授权
       - [GitHub - jwtk/jjwt: Java JWT: JSON Web Token for Java and Android](https://github.com/jwtk/jjwt)
-      - 格式 
+      - 格式
         - Header：头部，包含：
           - 声明类型，这里是JWT
           - 加密算法，自定义
@@ -835,7 +835,7 @@ tags:: #spring/cloud
           - 这部分也会采用base64加密，得到第二部分数据
         - Signature：签名，是整个数据的认证信息。一般根据前两步的数据，再加上服务的的密钥（secret）（不要泄漏，最好周期性更换），通过加密算法生成。用于验证整个数据完整和可靠性
         - ![](C:\Users\15517\Desktop\review\乐优商城《项目笔记》\day17笔记\assets\1527322512370.png)
-      - 交互流程 
+      - 交互流程
         - 用户登录
         - 服务的认证，通过后根据 secret 生成token
         - 将生成的 token 返回给浏览器

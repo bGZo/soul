@@ -1,5 +1,14 @@
-also:: 兰斯, ランス
-tags:: #hentai #galgame/god
+icon:: 🎮
+cover:: {{image/cover }}
+also:: rance, 兰斯, ランス
+author:: 
+created:: [[20240801]]
+rating:: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+tags:: 
+type:: game
+bangumi:: {{bangumi }}
+douban:: {{dougame }}
+
 - ## Series
   - ![](../assets/game_rance/Rance-series-nav-full.webp)
     via: [Rance Series | AliceSoftWiki | Fandom](https://alicesoft.fandom.com/wiki/Rance_Series)
@@ -37,7 +46,7 @@ tags:: #hentai #galgame/god
     - [ランス世界の歴史 06 三大國誕生 ~ 傳說就此開始](https://www.youtube.com/watch?v=ADP3j65sh_s)
     - [【图片】【兰斯系列世界观】一个从创世神开始就不正经的世界【bilibili吧】_百度贴吧](https://tieba.baidu.com/p/4034255846?pn=1)
     - [【图片】战国兰斯全人物介绍_战国兰斯吧_百度贴吧](http://c.tieba.baidu.com/p/7350187283)
-## ↩ Reference
+- ## ↩ Reference
   - [The Continent | AliceSoftWiki | Fandom](https://alicesoft.fandom.com/wiki/The_Continent)
   - [蘭斯 | New Komica wiki (仮) Wiki | Fandom](https://newkomica-kari.fandom.com/zh-tw/wiki/%E8%98%AD%E6%96%AF#cite_note-9)
   - [蘭斯 - 萌娘百科 萬物皆可萌的百科全書](https://zh.moegirl.org.cn/%E5%85%B0%E6%96%AF)

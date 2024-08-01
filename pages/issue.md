@@ -1,6 +1,7 @@
 also:: 议题
 icon:: ⏸
 created:: [[20231227]]
+exclude-from-graph-view:: true
 
 - ## Why
 - ## How

@@ -1,6 +1,6 @@
 icon:: 📖
 also:: books/Spring Cloud 微服务架构开发实战
-tags:: #spring/cloud #microserver
+tags:: #spring-cloud #microserver
 author:: 董超
 publisher:: 机械工业出版社
 published:: 20180700
@@ -280,7 +280,7 @@ title:: springcloud 微服务架构开发实战
                 scope:: 方法或类
                 - 注解类上
                   - 类中所有注解的方法都会继承类中所声明的属性
-                - 简化的注解 
+                - 简化的注解
                   - @GetMapping
                     description:: 处理Get请求
                   - @PostMapping
@@ -315,7 +315,7 @@ title:: springcloud 微服务架构开发实战
     - 第3章 Spring Cloud简介
       - 3.1 微服务架构的核心关键点
         collapsed:: true
-        - ![](../assets/book_SpringCloud_微服务架构开发实战/epub_22920378_12.jpeg) 
+        - ![](../assets/book_SpringCloud_微服务架构开发实战/epub_22920378_12.jpeg)
           - 服务治理
           - 负载均衡
           - 统一入口
@@ -326,7 +326,7 @@ title:: springcloud 微服务架构开发实战
       - 3.2 Spring Cloud技术概览
         collapsed:: true
         - **==Spring Cloud==**
-          description:: "在Netflix OSS等多家开源的基础上，使用Spring Boot风格将这些比较成熟的微服务框架组合起来，屏蔽掉了复杂的配置和实现原理，为快速构建微服务架构的应用提供了一套基础设施工具和开发支持。所提供的基础设施，如服务发现、客户端负载均衡、API网关、微服务容错、统一配置中心、消息总线及微服务调用监控等，都可以做到一键启动和部署，极大减轻了我们进入微服务世界的难度" 
+          description:: "在Netflix OSS等多家开源的基础上，使用Spring Boot风格将这些比较成熟的微服务框架组合起来，屏蔽掉了复杂的配置和实现原理，为快速构建微服务架构的应用提供了一套基础设施工具和开发支持。所提供的基础设施，如服务发现、客户端负载均衡、API网关、微服务容错、统一配置中心、消息总线及微服务调用监控等，都可以做到一键启动和部署，极大减轻了我们进入微服务世界的难度"
           - 基于Netflix实现服务治理、客户端负载均衡和声明式调用；
           - 服务网关；
           - 微服务容错管理；

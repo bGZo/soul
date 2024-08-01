@@ -1,4 +1,5 @@
 icon:: 📝
+also:: 湿疹复发
 created:: [[20240525]]
 status:: writing/published
 tags:: #[[self/healing]]

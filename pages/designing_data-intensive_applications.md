@@ -56,6 +56,6 @@ description:: [GitHub - Vonng/ddia: 《Designing Data-Intensive Application》DD
     - [第十二章：数据系统的未来](http://ddia.vonng.com/#/ch12)
   - [术语表](http://ddia.vonng.com/#/glossary)
   - [后记](http://ddia.vonng.com/#/colophon)
-- ## [[Comment]]
+- ## Comment
   -
 -

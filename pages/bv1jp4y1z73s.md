@@ -113,7 +113,7 @@ created:: [[20230305]]
         - #+BEGIN_NOTE
           ((640557c0-956b-4ead-b339-b232f87b1459))
           #+END_NOTE
-          #Spring
+          #spring-framework
       - dataSource 数据源 ((6405588e-b1d8-452c-af29-98df978567d7)) type
         - **UNPOOLED**
           - 采用传统的获取连接的方式，虽然也实现Javax.sql.DataSource接口，但是并没有使用池的思想。

@@ -1,6 +1,6 @@
 also:: 项目清单
 icon:: 📂
-tags:: #gtd, #project
+tags:: #getting-things-done, #project
 
 - collapsed:: true
   #+BEGIN_QUERY

@@ -1113,7 +1113,7 @@ exclude-from-graph-view:: true
           - 充值卡貌似不需要当地 IP
           - [创了个steam阿根廷小号有什么要注意的地方吗? - 知乎](https://www.zhihu.com/question/452543214/answer/1821222215)
           - [英文里游戏的小号怎么说？ - 知乎](https://www.zhihu.com/question/35480979)
-        - [[rance]]
+        -
         - Steam Profile -> [Steam 社区 :: GamingTaylor](https://steamcommunity.com/id/gaming_taylor/)
         - I社的新作 恋活Summer 去年就出了, 但是找不到Steam的版本
           - 好像因为Steam又有监管, 然后还需要自己打日文补丁, 所以其实日本市场对这方面很淡
@@ -2528,3 +2528,13 @@ exclude-from-graph-view:: true
       collapsed:: true
       - 迅雷P2P有一个规则：在下载到99.9%的时候，会对文件进行块检验，如果某个块出现问题，无法重新下载，则会一直卡在当前进度不动。实际当进度来到99.9%的时候，文件早已下完，最后的0.1%仅是留给迅雷做文件检查用。如果哪天卡在99.9%不动，别傻楞去充白金会员，**大声告诉你：钛金会员都没用！**
   - ## [What benefit do we get by thinking of objects as “sending messages to each other”?](https://softwareengineering.stackexchange.com/questions/417896/what-benefit-do-we-get-by-thinking-of-objects-as-sending-messages-to-each-other?newreg=f33ab7e2647346d6b8ff7749ae7a6a6d)
+- tools
+  - Font Style
+    - [𝓲𝓷𝓼𝓽𝓪𝓰𝓻𝓪𝓶 字體](https://tw.piliapp.com/instagram/fonts/)
+    - [Fancy Text Generator (𝓬𝓸𝓹𝔂 𝖆𝖓𝖉 𝓹𝓪𝓼𝓽𝓮) ― LingoJam](https://lingojam.com/FancyTextGenerator)
+  - Platform
+    - [Telegraph](https://telegra.ph/)
+    - [写意 Writee 写作社区 – O3O](https://o3o.foundation/project/writee/)
+      - [Write.as — A place for focused writing.](https://write.as/)
+  - ~~[[twitter]]~~
+    - ~~[Typefully - Twitter Thread Maker & Analytics](https://typefully.com/write)~~

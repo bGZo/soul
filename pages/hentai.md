@@ -7,7 +7,7 @@ wikipedia:: [Hentai - Wikipedia](https://en.wikipedia.org/wiki/Hentai#Genres)
 -
 -
 -
-- ## [[cheat/sheet]]
+- ## [[quickref]]
   collapsed:: true
   - |         English terms         |           Japanese terms          | Chinese terms |
     |:-----------------------------:|:---------------------------------:|:-------------:|

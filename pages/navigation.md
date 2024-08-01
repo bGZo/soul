@@ -25,7 +25,7 @@ exclude-from-graph-view:: true
       - https://raw.gitfast.tk
       - https://raw.gitslow.tk
       - https://raw.verge.tk
-    - [[Google]]
+    - [[google]]
       collapsed:: true
       - https://g.luciaz.me
         collapsed:: true
@@ -140,7 +140,7 @@ exclude-from-graph-view:: true
     - ### 📰 [[font]]
       collapsed:: true
       - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/cheat-sheet)
-        #cheat/sheet
+        #quickref
       - [字体天下](http://www.fonts.net.cn/)
       - [[programming]]
         collapsed:: true

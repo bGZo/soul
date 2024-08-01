@@ -1,15 +1,16 @@
 icon:: 📂
-also:: para/project,项目
+also:: 项目
 created:: [[20230623]]
 description:: any undertaking, carried out individually or collaboratively and possibly involving research or design, that is carefully planned to achieve a particular goal.
 template:: project
 template-including-parent:: false
 
-  - also:: 
-    created:: ``{ date.now.format('YYYYMMDD') }``
-    description::
-    icon:: 📂
-    tags::
+  - icon:: 📂
+    also:: 
+    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    description:: 
+    tags:: 
+    type:: ``{ 'project' }``
   - ## Project Meta
     - ``{ 'DOING #project ' + ref(c.page.name) }``
       :LOGBOOK:

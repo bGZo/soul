@@ -4,6 +4,7 @@ author:: xuxiaodong
 created:: [[20230103]]
 lang:: chinese
 published-date:: 20221118 
+rating:: ⭐⭐⭐
 status:: book/done
 tags:: #commandline #nix
 type:: book/dev
@@ -282,7 +283,7 @@ https://github.com/xuxiaodong/usingcli-book
     - 配置框架
     - 增强工具
   - 第七章 结语
-- ## [[Comment]]
+- ## Comment
   collapsed:: true
   - 因为 WSL2 比较吃性能, 所以之前我对写过一遍命令行的配置, 很多东西都已经接触过, 加上有 Linux 编程课, 很多细碎的操作老师也讲解过, 所以就不以为然了.
   - 说实话一般, 前期多很多琐碎的概括, 内容好多都是稀松平常的目录切换, 补全, 别名, 搜索历史, 唯几的亮点就是后面的使用技巧, 以及编译器的那几张总结性的图.

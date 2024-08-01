@@ -1,4 +1,4 @@
-icon:: 🧾
+icon:: 📄
 
 - Hello there👋. Thanks for your being here. This is my second brain tried to build with [[logseq]]. Wish you have a fun time. That would be my pleasure.
 - [:h2 {:class text-right} "Contents"]
@@ -15,7 +15,6 @@ icon:: 🧾
   - 个人周报 => 📅[[weekly]]
     logseq.order-list-type:: number
 - [:h2 {:class text-right} "Focus on"]
-  - {{namespace area}}
 -
 - [:h3 {:class text-center} "🌸bGZo © 2024"]
   collapsed:: true

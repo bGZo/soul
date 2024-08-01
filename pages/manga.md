@@ -3,6 +3,7 @@ created:: [[20240721]]
 icon:: 📔
 template:: manga
 template-including-parent:: false
+type:: hobby
 
   - title:: 
     also:: 

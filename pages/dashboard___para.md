@@ -3,13 +3,14 @@ created:: [[20240720]]
 tags:: para
 
 - ## Project
-  - {{namespace projects}}
+  {{query (page-property :type project)}}
 - ## Area
-  - {{namespace area}}
+  - [[writings]]
+    collapsed:: true
+    - {{namespace weekly}}
 - ## Resource
-  - {{namespace hobby}}
-  - {{namespace weekly}}
+  - [[hobbies]]
 - ## Archives
-  collapsed:: true
+  - [[archives]]
   - {{namespace archive}}
   - {{namespace archives}}

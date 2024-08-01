@@ -26,5 +26,5 @@ description:: *Better Never to Have Been* argues for a number of related, highly
   - 5. Abortion: The 'Pro-Death' View
   - 6. Population and Extinction
   - 7. Conclusion
-- ## [[Comment]]
+- ## Comment
   -

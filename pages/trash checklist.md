@@ -1,5 +1,5 @@
 also:: 回收箱
-icon:: 🚮
+icon:: 🥛
 tags:: gtd
 
 -

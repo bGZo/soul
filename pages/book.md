@@ -13,6 +13,7 @@ created:: [[20230602]]
       isbn:: 
       lang:: chinese
       published-date:: 
+      rating:: ⭐⭐⭐⭐⭐
       status:: book/reading
       tags:: 
       type:: ``{ 'book' }``
@@ -21,7 +22,8 @@ created:: [[20230602]]
   - template:: book/dev/reading
     template-including-parent:: false
     collapsed:: true
-    - icon:: 📖
+    - id:: 270a1f2a-108c-4635-921e-e7763b312051
+      icon:: 📖
       cover:: {{image/cover }}
       also::
       author::
@@ -29,12 +31,12 @@ created:: [[20230602]]
       isbn::
       lang:: chinese
       published-date::
+      rating:: ⭐⭐⭐⭐⭐
       status:: book/reading
       tags::
       type:: ``{ 'book/dev' }``
       douban:: {{doubook }}
       weread:: {{weread }}
-      id:: 270a1f2a-108c-4635-921e-e7763b312051
   - template:: book/done
     template-including-parent:: false
     collapsed:: true
@@ -46,6 +48,7 @@ created:: [[20230602]]
       isbn:: 
       lang:: chinese
       published-date:: 
+      rating:: ⭐⭐⭐⭐⭐
       status:: book/done
       tags:: 
       type:: ``{ 'book' }``

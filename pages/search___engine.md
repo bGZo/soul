@@ -1,5 +1,6 @@
 also:: Search Engine
-- ## [[cheat/sheet]]
+
+- ## [[quickref]]
   collapsed:: true
   - ```shell
     # Google

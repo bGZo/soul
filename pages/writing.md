@@ -5,7 +5,8 @@ tags:: #creation
   - template:: writing/idea
     template-including-parent:: false
     collapsed:: true
-    - icon:: 📝
+    - also:: 
+      icon:: 📝
       created:: ``{ ref(date.now.format('YYYYMMDD')) }``
       status:: ``{ 'writing/idea' }``
     -
@@ -14,7 +15,8 @@ tags:: #creation
   - template:: writing/outline
     template-including-parent:: false
     collapsed:: true
-    - icon:: 📝
+    - also:: 
+      icon:: 📝
       created:: ``{ ref(date.now.format('YYYYMMDD')) }``
       status:: ``{ 'writing/outline' }``
     -
@@ -23,7 +25,8 @@ tags:: #creation
   - template:: writing/draft
     template-including-parent:: false
     collapsed:: true
-    - icon:: 📝
+    - also:: 
+      icon:: 📝
       created:: ``{ ref(date.now.format('YYYYMMDD')) }``
       status:: ``{ 'writing/draft' }``
     -
@@ -32,7 +35,8 @@ tags:: #creation
   - template:: writing/edit
     template-including-parent:: false
     collapsed:: true
-    - icon:: 📝
+    - also:: 
+      icon:: 📝
       created:: ``{ ref(date.now.format('YYYYMMDD')) }``
       status:: ``{ 'writing/edit' }``
     -
@@ -41,7 +45,8 @@ tags:: #creation
   - template:: writing/published
     template-including-parent:: false
     collapsed:: true
-    - icon:: 📝
+    - also:: 
+      icon:: 📝
       created:: ``{ ref(date.now.format('YYYYMMDD')) }``
       status:: ``{ 'writing/published' }``
     -

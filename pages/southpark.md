@@ -1,5 +1,14 @@
-also:: South Park, video/south-park
+cover:: {{image/cover }}
+icon:: 📺
+also:: 南方公园
 created:: [[20221201]]
+rating:: ⭐⭐⭐⭐⭐
+tags:: 
+type:: anime
+bangumi:: {{bangumi }} 
+douban:: {{doufilm }}
+myanimelist:: {{myanimelist }}
+
 - collapsed:: true
   > 南方公园最有意思的一点是他什么都反对，反对言论自由，反对言论不自由;反对政治正确，反对政治不正确；反对信仰自由，反对信仰不自由；反对非法移民，反对移民非法~~~
   但是在我看来南方公园只反对一个东西——神圣化，谁敢以不可置疑的神圣观点judge别人，南方公园就用归谬拿他取乐。

@@ -8,7 +8,7 @@ donation:: [Donate - ShareX](https://getsharex.com/donate)
 created:: [[20230110]]
 description:: [ShareX - The best free and open source screenshot tool for Windows](https://getsharex.com/)
 
-- ## [[cheat/sheet]]
+- ## [[quickref]]
   - ### [[shortcut]]
     - [Keybinds - ShareX](https://getsharex.com/docs/keybinds)
 - ## [[issue]]

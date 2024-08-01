@@ -11,5 +11,5 @@ douban:: https://book.douban.com/subject/10548379/
 - ## ![Database System Concepts](../assets/book_database_system_concepts_6th_edition.pdf) | ![数据库系统概念](../assets/book_数据库系统概念.pdf)
 - ## Contents
   -
-- ## [[Comment]]
+- ## Comment
   -

@@ -29,9 +29,8 @@ icon:: 📄
     #费曼
 -
 - ## 等级森严的归类法仅仅是一种方式
-  collapsed:: true
   - 最近，我学了一些简单的知识管理框架[^podcast]，我发现，没有任何一种是完美的，但你一定得从个中发现适合你自己的 Workflow，社区可以分享 Graph，可以分享用例，但最终如何运用，完全取决于你。
-    - [[project,area,resource,archive]]
+    - [[project-area-resource-archive]]
       logseq.order-list-type:: number
       collapsed:: true
       - #[[ignored problem]]
@@ -45,7 +44,7 @@ icon:: 📄
             logseq.order-list-type:: number
         - more via: https://www.reddit.com/r/Notion/comments/fx0b9u/is_paramethod_incomplete/
           logseq.order-list-type:: number
-    - [[capture,organize,distill,express]]
+    - [[capture-organize-distill-express]]
       logseq.order-list-type:: number
       collapsed:: true
       - #[[ignored problem]]
@@ -66,15 +65,15 @@ icon:: 📄
                 template-including-parent:: yes
                 logseq.order-list-type:: number
                 ``{ ref('test/' + c.page.name)}``
-    - [[getting things done]]
+    - [[getting-things-done]]
       logseq.order-list-type:: number
-    - [[pillars,pipe,vaults]]
+    - [[pillars-pipe-vaults]]
       logseq.order-list-type:: number
-    - [[input,control,output,refine]]
+    - [[input-control-output-refine]]
       logseq.order-list-type:: number
-    - [[atlas,calendar,cards,extras,sources,spaces]] [^more-methodology]
+    - [[atlas-calendar-cards-extras-sources-spaces]] [^more-methodology]
       logseq.order-list-type:: number
-    - [[object,key result]]
+    - [[object-key-result]]
       logseq.order-list-type:: number
       - object 不一定可量化，但务必保证可实现；
       - key result 务必要量化，3个最好， 9 个往上不可取；
@@ -90,7 +89,6 @@ icon:: 📄
   - 我们在上面讲了利用 Graph 解放自己的笔记，对于 Logseq 而言，我们不必总要利用把一本书的内容统一放在 `xxx` 内，更没有必要强制自己放在 `books/xxx` 的名空间下，我们没有必要一定要建立这样的强分类体系，就像 PARA 理论忽视的东西一样， Object 之间的关系错综复杂，笔记可以移动，可以重组，可以创造，不如说，这才是笔记真正的作用，笔记不仅仅是为了记录下此时此刻，我们可以肆意排列组合，增删修改，直到我们满意为止。笔记本该如此；
 -
 - ## 社区是一座待开采的金矿
-  collapsed:: true
   - 萨特说，他人即地狱。我觉得这并不适用于社区，对于社区而言，他人即宝藏。
   - 接触社区后，我发现了非常多，跟我有相同烦恼的用户，他们分享、讨论了非常多用例。例如
     - collapsed:: true

@@ -1,7 +1,8 @@
 collapsed:: true
 also:: 串流
 created:: [[20230531]]
-tags:: #Game
+tags:: #game
+
 - ## Why
   -
 - ## How

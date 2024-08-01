@@ -41,7 +41,6 @@ created:: [[20221124]]
 - 从今天开始, 我不会为任何一个 Github 引流的 README/REPOS 点 Star 🌟
   collapsed:: true
   via: https://twitter.com/imbGZo/status/1595624863016026112
-  #thought #github #public #twitter
   - 1/
     我知道创作不易, 我宁可希望你放出来一个 DONATION LINK, 而不是这种浪费别人时间的方式, 取而代之.
     > YOU SOLVE MY PROBLEM, SHUT UP AND TAKE MY MONEY.

@@ -1,7 +1,15 @@
-tags:: #my/blog, #fucking/reality #public
+icon:: 📝
+created:: [[20240801]]
+status:: writing/published
+tags:: #fucking/reality
 
+-
+- ## ↩ Reference
+  -
+-
 - ## 出生即伤害, 存在即痛苦
-  - [[Rick and Morty]] 衍生漫画 20210303 的一期 _Rick and Morty Presents: Jerryboree_[^JERRYBOREE] 中讲了杰瑞托管所的真相, 我印象很深, 在漫画中, `X-198` 号杰瑞吃了 _GOD PILL_, 成为 GOD 后做的第一件事, 就是 _NO MORE JERRYS_, 结束了其他 Jerry 的一生. 为什么呢?
+  - [[rick-and-morty]]
+    - 衍生漫画 20210303 的一期 _Rick and Morty Presents: Jerryboree_[^JERRYBOREE] 中讲了杰瑞托管所的真相, 我印象很深, 在漫画中, `X-198` 号杰瑞吃了 _GOD PILL_, 成为 GOD 后做的第一件事, 就是 _NO MORE JERRYS_, 结束了其他 Jerry 的一生. 为什么呢?
   - > "TO BE A JERRY IS TO LIVE A LIFE OF ENDLESSPAIN AND PUNISHMENT.
     "I WILL NOT LET MY KIND CONTINUE TO SUFFER."
     身为杰瑞, 注定要一生承受无尽的苦痛和惩罚

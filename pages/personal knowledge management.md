@@ -8,8 +8,8 @@ icon:: 📄
 - ## How
   -
 - ## What
-  - [[gtd]]
-  - [[para]]
+  - [[getting-things-done]]
+  - [[project-area-resource-archive]]
 - ## Namespace
   - {{namespace personal knowledge management}}
 - ## ↩ Reference

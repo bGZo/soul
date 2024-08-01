@@ -100,5 +100,5 @@ description:: CN release on 20221200
   - 致谢
   - 术语参考释义
   - 注释
-- ## [[Comment]]
+- ## Comment
   -

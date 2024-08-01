@@ -4,7 +4,7 @@ wikipedia:: [Microservices - Wikipedia](https://en.wikipedia.org/wiki/Microservi
 - [微服務 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9C%8D%E5%8B%99)
 - ## Framework
   - ### [[java]]
-    - [[spring/cloud]] | 它能够基于 REST 服务来构建服务，帮助架构师构建出一套完整的微服务技术生态链。
+    - [[spring-cloud]] | 它能够基于 REST 服务来构建服务，帮助架构师构建出一套完整的微服务技术生态链。
     - Dropwizard：用于开发高性能和 Restful 的 Web 服务，对配置、应用程序指标、日志记录和操作工具都提供了开箱即用的支持。
     - Restlet： 该框架遵循 RST 架构风格，可以帮助 Java 开发人员构建微服务。
     - Spark：最好的 Java 微服务框架之一，该框架支持通过 Java 8 和 Kotlin 创建微服务架构的应用程序。

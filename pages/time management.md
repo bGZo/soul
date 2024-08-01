@@ -1,6 +1,7 @@
 also:: 时间管理, time/management
 icon:: 🕛
 wikipedia:: [Time management - Wikipedia](https://en.wikipedia.org/wiki/Time_management)
+
 - Cultural views of time management
 - Creating an effective environment
 - Setting priorities and goals
@@ -34,7 +35,7 @@ wikipedia:: [Time management - Wikipedia](https://en.wikipedia.org/wiki/Time_man
   - Task list organization
   - Software applications
   - Time management systems
-  - [[gtd]], Getting Things Done, 尽管去做
+  - [[getting-things-done]], Getting Things Done, 尽管去做
   - Pomodoro
 - Related concepts
 - See also

@@ -1,6 +1,6 @@
 also:: central processing unit, 中央处理器,
 description:: Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations.
-icon:: 𓇲
+icon:: 📄
 created:: [[20230719]]
 wikipedia:: [Central processing unit - Wikipedia](https://en.wikipedia.org/wiki/Central_processing_unit)
 

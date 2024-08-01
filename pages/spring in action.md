@@ -5,8 +5,9 @@ created:: [[20230111]]
 isbn:: 9787115598691
 lang:: chinese
 published-date:: 20221201
+rating:: ⭐⭐⭐⭐
 status:: book/reading
-tags:: #Spring #java
+tags:: #spring-framework #java
 type:: book/dev
 douban:: {{doubook 36142064}}
 weread:: {{weread c6d32700813ab77d1g0136f4}}
@@ -1834,7 +1835,7 @@ weread:: {{weread c6d32700813ab77d1g0136f4}}
       - 18.4 构建和部署WAR文件
       - 18.5 以终为始
       - 小结
-- ## [[Comment]]
+- ## Comment
   - Fuck 异步社区, Download resource need account
   - collapsed:: true
     #+BEGIN_NOTE

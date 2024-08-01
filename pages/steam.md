@@ -33,12 +33,12 @@ created:: [[20230704]]
       collapsed:: true
       - > 淘宝/stcn交易区买就行了，点数很便宜，10w点好像才50块钱....
         via: [steam点数商店里的季节性徽章多久刷新一次？ NGA玩家社区](https://ngabbs.com/read.php?tid=29809808&rand=920)
-    - CANCELED Demo project cannot stay in library #feature #sucks
+    - CANCELED Demo project cannot stay in library #feat #sucks
       collapsed:: true
       - > They are only part of the library if they are downloaded. Your only option is to sift through your licence history which shows complimentary demos [https://store.steampowered.com/account/licenses/](https://store.steampowered.com/account/licenses/)
         via: [Not all my demos are there... :: Steam Discussions](https://steamcommunity.com/discussions/forum/0/2527030866874125245/)
       - Only could download via store page
-    - CANCELED Cannot change SteamID or Steam Account Name #sucks #feature #wontfix
+    - CANCELED Cannot change SteamID or Steam Account Name #sucks #feat #wontfix
       collapsed:: true
       - > Your SteamID and Steam Account Name can not be changed, even by Steam Support staff members. Your player name can be changed at any time in your Profile Settings, under "Edit my Profile" page.
         via: [Can my SteamID and/or Steam Account Name be changed?](https://help.steampowered.com/en/faqs/view/2816-BE67-5B69-0FEC)

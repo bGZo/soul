@@ -1,4 +1,7 @@
-tags:: #internet #China #public, #my/blog, #external_link
+icon:: 📝
+created:: [[20240801]]
+status:: writing/published
+tags:: #external-link #internet, #China
 
 - ### External links been killed
   collapsed:: true

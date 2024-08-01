@@ -5,6 +5,7 @@ created:: [[20221125]]
 isbn:: 9787121155789
 lang:: chinese
 published-date:: 20120101
+rating:: ⭐⭐⭐
 status:: book/done
 tags:: #java, #deprecated
 type:: book/dev

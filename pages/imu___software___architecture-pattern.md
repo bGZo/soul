@@ -1,4 +1,4 @@
-tags:: [[software/pattern]], [[software/architecture]]
+tags:: [[software-pattern]], [[software/architecture]]
 
 -
 -

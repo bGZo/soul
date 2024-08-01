@@ -1,8 +1,8 @@
-also:: 咖啡, hobby/coffee
+icon:: ☕
+also:: 咖啡
 cost:: 1
 created:: [[20230530]]
-description:: 
-icon:: ☕
+type:: hobby
 
 - ## Why
   -

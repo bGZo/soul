@@ -1,2 +1,2 @@
 also:: 父母
-tags:: #Family
+tags:: #family

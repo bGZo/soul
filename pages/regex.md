@@ -9,7 +9,7 @@ tags:: #tools
       - ```javascript
         s = s.replaceAll("\\p{So}+", "");
         ```
-        #why
+        \#why
       - [java - What is the regex to extract all the emojis from a string? - Stack Overflow](https://stackoverflow.com/questions/24840667/what-is-the-regex-to-extract-all-the-emojis-from-a-string)
     - [[Question]]
       collapsed:: true
