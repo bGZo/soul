@@ -16,7 +16,7 @@ type:: framework
     - ...
     - ### ![Spring Framework Version 6.0.5](../assets/doc_spring-framework.pdf)
       - ((63ff4c81-939e-4651-b735-744c0b4cd4df))
-  - Spring #vs SpringMVC #vs [[spring boot]]
+  - Spring #vs SpringMVC #vs [[spring-boot]]
     collapsed:: true
     - Spring 是一个开源容器框架，可以接管web层，业务层，dao层，持久层的组件; 并且可以配置各种bean，和维护 bean 之间的关系; 其核心就是 控制反转（IOC）和 面向切面（AOP）; 简单的说就是一个分层的轻量级开源框架
     - SpringMVC 属于 SpringFrameWork 的后续产品，已经融合在 Spring Web Flow 里面; 它是一种mvc框架，用于替代 servlet 处理、响应请求、获取表单参数、表单校验等;

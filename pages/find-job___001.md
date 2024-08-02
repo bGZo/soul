@@ -617,7 +617,7 @@ type:: project/done
         - 并发
         - [[spring-framework]]
           - Spring 官方教程
-        - [[spring boot]]
+        - [[spring-boot]]
         - 看到的几套很好的教程
           - [KuangStudy](https://www.kuangstudy.com/course)
             collapsed:: true
@@ -752,7 +752,7 @@ type:: project/done
         - [前阿里大佬带你深入JVM字节码执行引擎_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1gv411678m/)
         - [【Java并发】并发编程的意义是什么？月薪30K必知必会的Java AQS机制_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV12K411G7Fg/)
         - [[Java编程思想]] | JDK 5/6,  有点太老了  Σ( ° △ °|||
-        - [[mooc/javaee]]
+        - [[javaee]]
         - [[geekbang/Java核心技术]]
     - TODO Submit [[cv]];
     - DOING [[spring in action]] daily until you done;

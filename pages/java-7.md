@@ -1,7 +1,7 @@
 icon:: ☕
 created:: [[20240612]]
 
-- ## Feats 
+- ## Feats
   - 二进制前缀`0b` / `0B`；
     collapsed:: true
     - 整型（byte, short, int, long）可以直接用二进制表示

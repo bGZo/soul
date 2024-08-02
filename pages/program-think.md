@@ -1,4 +1,5 @@
 also:: 编程随想
+exclude-from-graph-view:: true
 tags:: #blog
 author:: 编程随想
 source:: [编程随想的博客](https://program-think.blogspot.com/)
@@ -8,7 +9,8 @@ created:: [[20221212]]
   - Java 新手的通病[0]：概述
     collapsed:: true
     #java
-    - 1. [对算法和数据结构不熟悉](https://program-think.blogspot.com/2009/01/defect-of-java-beginner-1-algorithm.html)
+    - collapsed:: true
+      1. [对算法和数据结构不熟悉](https://program-think.blogspot.com/2009/01/defect-of-java-beginner-1-algorithm.html)
       collapsed:: true
       #algorithm
       - 几个问题：
@@ -28,7 +30,8 @@ created:: [[20221212]]
         - 为什么 Java 可以多继承 interface，而不可以多继承 class？
         - 假如让你写一个小游戏（比如人机对战的五子棋），你会如何设计类结构？
         - 类结构设计时，如何考虑可扩展性？
-    - 3. [缺少良好的编程习惯](https://program-think.blogspot.com/2009/02/defect-of-java-beginner-3-code-style.html)
+    - collapsed:: true
+      3. [缺少良好的编程习惯](https://program-think.blogspot.com/2009/02/defect-of-java-beginner-3-code-style.html)
       collapsed:: true
       #programming
       - 随意地命名
@@ -38,7 +41,8 @@ created:: [[20221212]]
         - 至于说到代码耦合分别由哪些情况引起？什么是正交的设计？（关于耦合与正交设计，我后面会专门讨论一下）能完全搞明白的人就更少了。
       - 被 GC 宠坏
     - 4. [异常处理使用不当](https://program-think.blogspot.com/2009/02/defect-of-java-beginner-4-exception.html)
-    - 5. [对虚拟机（JVM）了解不足](https://program-think.blogspot.com/2009/05/defect-of-java-beginner-5-jvm.html)
+    - collapsed:: true
+      5. [对虚拟机（JVM）了解不足](https://program-think.blogspot.com/2009/05/defect-of-java-beginner-5-jvm.html)
       collapsed:: true
       #jvm
       - 关于基本类型和引用类型

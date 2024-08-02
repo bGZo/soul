@@ -27,7 +27,7 @@ tags:: #oop, #database
       - So the code above does the same as the SQL query. Note that every ORM tool is built differently so the methods are never the same, but the general purpose is similar.
       - ORM tools can generate methods like the one in the last example.
       - Most OOP languages have a variety of ORM tools that you can choose from. Here are some of the most popular for Java, Python, PHP, and .NET development:
-    - ### Popular ORM Tools for Java #java/framework/orm
+    - ### Popular ORM Tools for Java #java-orm
       - #### 1\. Hibernate
         - [Hibernate](https://hibernate.org/orm/) enables developers to write data persistent classes following OOP concepts like inheritance, polymorphism, association, composition. Hibernate is highly performant and is also scalable.
       - #### 2\. Apache OpenJPA

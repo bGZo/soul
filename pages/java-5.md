@@ -5,9 +5,9 @@ created:: [[20240612]]
   - [[reflection]]
   - [[java concurrency]]
     - [[java multithreading]]
-  - [[generics]]
-- ## Feats 
-  - 泛型 (Generics)
+- ## Feats
+  - 修改命名方式（1.5 -> 5）；
+  - 泛型 (Generics) => [[java-generics]]
   - 增强循环（Enhanced for Loop）
     collapsed:: true
     - ```java
@@ -72,7 +72,6 @@ created:: [[20240612]]
     collapsed:: true
     - 关键字`@interface`
   - 新的线程模型和并发库（`java.util.concurrent`)
-  - 修改命名方式（1.5 -> 5）；
 - ## ↩ Reference
   - [Java 5.0 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/Java_5.0)
   - [Java 5，6，7，8，9，10新特性吐血总结 | 拔剑少年的博客](https://it18monkey.github.io/2018/08/05/Java%E6%96%B0%E7%89%B9%E6%80%A7%E6%80%BB%E7%BB%93/)

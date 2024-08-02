@@ -2,43 +2,33 @@ icon:: ☕
 type:: lang/programming
 
 - ## Why
-  - Why use Java?
-    - ...
 - ## How
-  - How use Java?
-    - ...
 - ## What
-  - Java is what?
-  -
-  - What's the difference with [[cpp]]?
-    collapsed:: true
-    - | Items | Java | [[cpp]] |
-      | 面向对象(封装/继承/多态)|✔|✔|
-      | 方法重载 |✔|✔|
-      | 指针(直接访问内存)  | ✖ | ✔|
-      | 类多继承 | ✖(接口替代) | ✔|
-      | 操作符重载| ✖ |✔(复杂++)|
-      | 内存管理垃圾回收机制(GC) / 内存安全 | ✔ | ✖ |
-  - ## [[oop]]
+  - [[oop]]
     collapsed:: true
     - 封装 Encapsulation
-      description:: 明确接口
-    - 继承 Composition, inheritance, and delegation (委托???)
-      description:: "继承基类, 做出扩展; 子类(完全)兼容基类"
       collapsed:: true
+      - 明确接口
+    - 继承 Composition, inheritance, and delegation (委托???)
+      collapsed:: true
+      - 继承基类, 做出扩展; 子类(完全)兼容基类
       - 继承 (泛化)
         - 实现继承
-          description:: 无需额外编码的能力
+          collapsed:: true
+          - 无需额外编码的能力
         - 可视继承
-          description:: 子窗体（类）使用基窗体（类）的外观和实现代码的能力
+          collapsed:: true
+          - 子窗体（类）使用基窗体（类）的外观和实现代码的能力
       - 组合 (聚合)
         - 接口继承
-          description:: 子类必须提供实现的能力
+          collapsed:: true
+          - 子类必须提供实现的能力
         - 纯虚类
     - 多态 Polymorphism
-      description:: "基于对象所属类的不同, 外部对同一个方法的调用, 实际执行的逻辑不同; 多态依赖继承"
       collapsed:: true
+      - 基于对象所属类的不同, 外部对同一个方法的调用, 实际执行的逻辑不同; 多态依赖继承
       - 重写/覆盖 Override
+        collapsed:: true
         - 虚函数重写
         - 接口重写
         - 注意
@@ -54,8 +44,9 @@ type:: lang/programming
             - **抛出异常** 子类 <= 父类方法
             - **访问权限** 子类 >= 父类方法
       - 重载 Overload
+        collapsed:: true
         - 同名函数
-    - 接口 #vs 抽象类
+    - 接口 \#vs 抽象类
       id:: 63e7791a-04a5-425e-a98b-9c35bd1f7400
       collapsed:: true
       - 1.接口的方法默认是public，所有方法在接口中不能有实现，抽象类可以有非抽象的方法
@@ -64,7 +55,7 @@ type:: lang/programming
       - 4.一个类实现接口的话要实现接口的所有方法，而抽象类不一定
       - 5.接口不能用new实例化，但可以声明，但是必须引用一个实现该接口的对象
       - java 8 在接口中用default修饰的方法可以有函数体
-    - 纯虚类 #vs 接口
+    - 纯虚类 \#vs 接口
       collapsed:: true
       - 同
         - 都是抽象类，都不能实例化
@@ -72,4 +63,5 @@ type:: lang/programming
       - 异
         - 纯虚类
         - 接口
+  - [[encoding]] => [[java-chinese-messy-code]]
 -

@@ -1,4 +1,23 @@
-- Under [[idea]] Design UI Tools
+icon:: 📄
+created:: [[20240802]]
+description::
+tags:: java
+
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace java-swing}}
+- ## ↩ Reference
+  -
+- Under [[jetbrains/idea]] Design UI Tools
+  - [IntelliJ IDE 开发Java GUI 入门 - 简书](https://www.jianshu.com/p/cdca9a30b86b)
+    - 拖完页面后, 在主页面函数中右键 Generate Form, 之后就可以生成调用代码.
+- ## References
+  - [[为什么很多人说 Java 不适合编写桌面应用]]
   - [swing还有人用吗？ - 知乎](https://www.zhihu.com/question/26610345)
     - 如果你学习到了 JavaSE 的 Swing 部分，建议如下：
       collapsed:: true
@@ -9,6 +28,3 @@
       - 企业开发现在基本没有 Swing 什么事，自己拿 Swing 做个小的界面程序还是挺有用的
       - Oracle 官方有个教你使用 Netbeans 开发 Swing 的教程，需要的可以参考下《Learning Swing with the NetBeans IDE》
       - http://docs.oracle.com/javase/tutorial/uiswing/learn/
-  - [IntelliJ IDE 开发Java GUI 入门 - 简书](https://www.jianshu.com/p/cdca9a30b86b)
-    - 拖完页面后, 在主页面函数中右键 Generate Form, 之后就可以生成调用代码.
--
