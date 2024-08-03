@@ -59,7 +59,7 @@ source:: https://book.douban.com/subject/
   - ### Procedures as Black-Box Abstractions
     - 至关重要的是，每个过程都完成一个可识别的任务，该任务可以用作定义其他过程的模块
     - 一个过程定义应该能够抑制细节
-      - 过程嵌套定义有助于隐藏不必要的细节, 但要是像 [[lang/programming/cpp]] 该怎么做呢?
+      - 过程嵌套定义有助于隐藏不必要的细节, 但要是像 [[cpp]] 该怎么做呢?
     - 本地名称
   - ## refs
     - [DeathKing/Learning-SICP: MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集](https://github.com/DeathKing/Learning-SICP)

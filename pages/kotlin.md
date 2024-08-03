@@ -1,9 +1,9 @@
+background-color:: red
 alias::
 created:: [[20240630]]
 description::
 icon::
-tags:: #lang/programming
-background-color:: red
+type:: lang/programming
 
 - ## Why
   -

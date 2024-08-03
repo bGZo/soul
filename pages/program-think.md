@@ -327,7 +327,7 @@ created:: [[20221212]]
         - “隧道协议”可以做到更灵活的包裹——既可以对层次相隔很远的协议进行包裹，也可以对同一层的协议进行包裹，甚至可以“倒挂”——所谓的“倒挂”就是让【上】层反过来包裹【下】层
   - title:: [天朝民众的心理分析：斯德哥尔摩综合症](https://program-think.blogspot.com/2012/06/stockholm-syndrome.html)
     author:: 
-    tags:: #GFW #archive/web
+    tags:: #gfw #archive/web
     created:: [[20221212]]
     description:: 
     archive:: [💾 Archived](../assets/archived_web/天朝民众的心理分析：斯德哥尔摩综合症 @ 编程随想的博客 (12_12_2022 3_20_52 PM).html )

@@ -1,160 +1,130 @@
 
+
 - [[abbr]] Collections
   source:: https://www.allacronyms.com
   collapsed:: true
   - name:: et al.
     full:: {{cloze at alia; and others; and co-workers; 等它人}}
-    tag:: 
     description::  人的场合用et al; 而无生命的场合用etc.(et cetera); (etc.) et al.的前面不要逗号
     type:: abbr
   - name:: viz.
     full:: {{cloze videlicet / namely / towit / precisely / that is to say / 即}}
-    tag:: 
     description:: viz位于同位列表之前; 要把它前面单词所包含的项目全部列出
     type:: abbr
   - name:: etc.
     full:: {{cloze et cetera. and so forth; and the others; and other things; and the rest; and so on}}
-    tag:: 
     description::  不要在e.g.的列表最后用etc( 在including后的列表后也不宜使用etc); 这是因为 e.g. 表示泛泛的举几个例子; 并没有囊括所有的实例; 其中就已经包含“等等”; 如果再加一个 etc. 就多余了 ; via: https://blog.sciencenet.cn/blog-510768-1112873.html
     type:: abbr
   - name:: i.e.
     full:: {{cloze id est / that is}}
-    tag:: 
     description:: http://www.ruanyifeng.com/blog/2005/09/egie.html
     type:: abbr
   - name:: e.g.
     full:: {{cloze exempli gratia / for example}}
-    tag:: 
     description:: http://www.ruanyifeng.com/blog/2005/09/egie.html
     type:: abbr
   - name:: foo / bar
     full:: {{cloze foo/ fu (fuck-up/ 一团糟); beyond all recognition (超越认知 / 无法识别 / 一塌糊涂)}}
-    tag:: 
     description:: 变量命名
     type:: itRef
   - name:: AKA/aka
     full:: {{cloze Also Known As  名 亦称 也被称为 }}
-    tag:: 
     description:: 
     type:: abbr
   - name:: TBH
     full:: {{cloze to be honest 老实说}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: IMAO
     full:: {{cloze laugh my ass off 笑到不行 超爆笑}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: BTW
     full:: {{cloze by the way 顺带一提}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: TTYL
     full:: {{cloze talk to you later 晚点聊}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: IDK
     full:: {{cloze l don't know 我不知道}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: plz
     full:: {{cloze please 拜托}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: thx
     full:: {{cloze thanks 谢谢}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: tmr
     full:: {{cloze tomorrow 明天}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: ppl
     full:: {{cloze people 人们 大家}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: IMHO
     full:: {{cloze in my humble opinion 依我浅见}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: STFW
     full:: {{cloze  Search The Fucking Web 他妈的网上搜索}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: RTFM
     full:: {{cloze Read The Fucking Manual 去读他妈的手册}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: luser
     full:: {{cloze luser(loser) 任何普通用户. 只有用户帐户权限的外行 }}
-    tag:: 
     description:: https://en.wikipedia.org/wiki/Luser
     type:: abbr
   - name:: SMH
     full:: {{cloze Shake my head}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: TBD
     full:: {{cloze To Be Determined}}
-    tag:: 
     description:: We might use this when we announce a party or event for a specific date but the location has not been decided. In this case we would say “Location TBD
     type:: abbr
   - name:: TBA
     full:: {{cloze To Be Announced; similar way to “TBD” }}
-    tag:: 
     description:: 
     type:: abbr
   - name:: RSVP
     full:: {{cloze Repondez s’il vous plait!}}
-    tag:: 
     description:: This means please respond or please get back to us and let us know if you can come. It is used a lot in party invitations.
     type:: abbr
   - name:: LOL
     full:: {{cloze Laughing Out Loud}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: ETA
     full:: {{cloze Estimated Time of Arrival}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: FYI
     full:: {{cloze For Your Information 仅供参考}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: PTSD
     full:: {{cloze Post-traumatic stress disorder; 是一种由非常紧张、令人恐惧或痛苦的事件引起的焦虑症}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: DOA
     full:: {{cloze Dead on Arrival}}
-    tag:: 
     description:: This means that something is finished right from the start. It means that something never got started or never gained any momentum.
     type:: abbr
   - name:: wdym
     full:: {{cloze what did you mean?}}
-    tag:: 
     description:: 
     type:: abbr
   - name:: PS
     full:: {{cloze Post Script 附言}}
-    tag:: 
     description:: 
     type:: abbr
   -

@@ -1,7 +1,7 @@
 icon:: 📝
 created:: [[20240801]]
 status:: writing/published
-tags:: #external-link #internet, #China
+tags:: #external-link #internet, #china
 
 - ### External links been killed
   collapsed:: true

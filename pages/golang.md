@@ -1,4 +1,4 @@
-also:: lang/programming/golang
+type:: lang/programming
 
 -
 - #issue

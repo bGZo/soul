@@ -13,7 +13,7 @@ also:: 专辑, music/album
       created:: <% today %>
       - ### Description
         -
-      - ### Songs 
+      - ### Songs
         -
   - template:: band
     template-including-parent:: false
@@ -27,7 +27,7 @@ also:: 专辑, music/album
       -
     - ## Description
       -
-- [[lang/chinese]]
+- [[chinese]]
   - 非白
     collapsed:: true
     - > 这是我的第一张概念专辑, 在没有告诉任何人的时候, 一个人窝在漆黑里倾泻出来的. 可以说《理想》是我的孩子, 我很糟糕, 但它很棒. 将它公之于世之后, 我的任务也就完成了, 未来的它会怎么样与我无关. 沉或浮或许在我决定拿它做概念的时候已经定下了, 毕竟我创作它的目的不是寻找共鸣, 而是**阐述一种被社会边缘化的态度**.  你也许无法听懂这张专辑, 那是件好事. 如果你不喜欢它, 不是你的问题, 不是我的问题, 更不是它的问题.

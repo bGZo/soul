@@ -1,7 +1,6 @@
 document:: [Spring Boot Reference Documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/index.html)
-tags:: #java/framework
 created:: [[20230728]]
-title:: spring-boot
+type:: framework/java
 
 - ## Why
 - ## How

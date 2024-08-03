@@ -1,6 +1,5 @@
 also:: 字体
-icon:: 字
-tags:: #designtags:: 
+tags:: #design
 created:: [[20230821]]
 
 - ## Why

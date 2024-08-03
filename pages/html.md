@@ -1,7 +1,7 @@
 icon:: 📄
 created:: [[20240730]]
 description:: HTML, HyperText Markup Language, 网页文档的标准标记语言, 但是 HTML 把不同类型的元素，如 描述性元素 color、i 等 和 结构性元素 div、table 等，以及元素属性放在一起，为以后的维护和管理埋下隐患
-tags:: #web #domain-specific
+tags:: #web #domain-specific-modeling
 type:: lang/programming
 
 - ## Why

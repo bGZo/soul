@@ -1,3 +1,4 @@
+filters:: {"sucks" true}
 icon:: 🇨🇳
 also:: 中国
 
@@ -107,7 +108,7 @@ also:: 中国
     - 主管社会团体
       collapsed:: true
       - 中国思想政治工作研究会
-- 央企 #Job
+- 央企 #job
   - 98 家实业类中央企业 
     collapsed:: true
     - 中国核工业集团有限公司
@@ -244,6 +245,4 @@ also:: 中国
     - 中国烟草总公司
     - 中国邮政集团公司
     - 中国对外文化集团公司
-- Refs
-  collapsed:: true
-  - [[telegram]]
+-

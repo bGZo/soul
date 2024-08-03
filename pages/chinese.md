@@ -1,5 +1,7 @@
 also:: lang/Chinese, 中文, 中国人
 icon:: 🇨🇳
+title:: chinese
+
 - [[standard]]
   collapsed:: true
   - > 中国古代可考以《康熙字典》等古代官方字书的 "正体" 为标准,  现在关于汉字衍生出一系列标准
@@ -41,3 +43,4 @@ icon:: 🇨🇳
 - Refs
   - [谈一谈汉字的“简体”、“繁体”、“异体”、“正体”、“俗体”、“古写”等概念](https://zhuanlan.zhihu.com/p/87587931)
   - [_汉字简化_的历史经过是怎样的？哪些人主持了汉字的简化工作？](https://www.zhihu.com/question/19965854/answer/36442288)
+-

@@ -5,7 +5,7 @@
   collapsed:: true
   - ALGOL blocks are delimited by the keywords "`begin`" and "`end`" or equivalent
     - ALGOL 68 uses parentheses.
-  - [[lang/programming/system/c]], blocks are delimited by curly braces - "`{`" and "`}`".
+  - [[system-c]], blocks are delimited by curly braces - "`{`" and "`}`".
   - MS-DOS Batch Lang
     - `()`
   - [[python]]

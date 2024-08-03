@@ -1,8 +1,9 @@
 also:: maths/scale
+
 - Measurement Unit
   collapsed:: true
   - ((632567dc-203a-4a50-acbe-692fe9c6e248))
-  - [[Chinese]] 定义非常混乱, 还是按照 [[English]] 的来吧, 我不愿意再花时间弄了...
+  - [[chinese]] 定义非常混乱, 还是按照 [[english]] 的来吧, 我不愿意再花时间弄了...
 - Convert
   collapsed:: true
   - 10 进制 to

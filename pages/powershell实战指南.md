@@ -2,7 +2,7 @@ also:: books/PowerShell实战指南
 author:: Don Jones / Jeffery Hicks
 publisher:: 人民邮电出版社
 published-date:: 20160100
-tag:: #[[PowerShell]]
+tags:: #[[PowerShell]]
 source:: [Windows PowerShell实战指南 (豆瓣)](https://book.douban.com/subject/26833248/)
 
 - tmd 确实连个循环分支都不讲的吗... 屮

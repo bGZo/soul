@@ -1,7 +1,7 @@
 also:: Word Power Made Easy
 description:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
 exclude-from-graph-view:: true
-tags:: #English #telegram/channel #subscription #DOING
+tags:: #english #telegram/channel #subscription #DOING
 source:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
 created:: [[20221220]]
 
@@ -33,7 +33,7 @@ created:: [[20221220]]
     - per（加强语气）+suas（劝说）+ion（名词后缀）→说服。
     - title:: `suad-`/`suas-`/`suav-`
       definition:: {{cloze suavis / sweet;   suadere / to advise; to make something pleasant to / to present in a pleasing manner; hence to recommend / to advise}}
-      tags:: #card, #English #English/word/root
+      tags:: #card, #english #English/word/root
       refs:: [suad-, suas-, suav- - Word Information](https://wordinfo.info/unit/3928)
       description:: "来自拉丁语动词suadere（劝说）及其完成分词suasus，本意是“使变甜，使某事显得令人愉快，说甜言蜜语”，和拉丁词根suav-（甜的，令人愉悦的）、日耳曼单词sweet（甜的）同源"
       - assuage (verb, /əˈsweɪdʒ/), assuages; assuaged; assuaging
@@ -52,7 +52,7 @@ created:: [[20221220]]
       - **empl-其实衍生自词根em-(买，拿)**
       - title:: `ampl-`/`ampli-`
         definition:: {{cloze 大的/广阔的 / large / enlargement / spacious(寬敞的); comprehensive; enough / more than enough}}
-        tags:: #card, #English #English/word/root
+        tags:: #card, #english #English/word/root
         refs:: [ampli-, ampl- - Word Information](https://wordinfo.info/unit/113)
         description::
         - ample (adjective); ampler, more ample; amplest, most ample | 寬
@@ -67,7 +67,7 @@ created:: [[20221220]]
     - precipitate=pre（向前）+cipit（=capit，头）+ate（动词和形容词后缀）→头向前→一头栽下→猛地落下。转做名词，表示落下来的东西，也就是沉淀物。
     - title:: `capit-` / `capt-` / `cap-` / `cep-` / `ceps-` / `chapt-` / `chef` / `cip-`
       definition:: {{cloze  head; leader / chief / or first}}
-      tags:: #card, #English #English/word/root
+      tags:: #card, #english #English/word/root
       refs:: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
       description::
       - > When the French *borrowed words*(借用单词) from Latin, they frequently used soft sounds. These French words, with their softer sounds, then made their way into the English language. At the same time, English borrowed words directly from Latin. So it is that in English we often have two words which share the same root, but which have different, though related, forms and meanings.
@@ -144,7 +144,7 @@ created:: [[20221220]]
       - 另一个含义是“没有意识到、不去注意”，所以是“忽略、不理睬”的意思，派生出的ignored就是“被忽略的”
     - title:: `gno-` / `gnos-` / `gnoto-` / `-gnostic` / `-gnosia` / `-gnomic` / `-gnomonic` / `-gnomical` / `-gnomy` / `-gnosia` / `-gnostic` / `-gnosis`
       definition:: {{cloze (Greek) know / learn / discern(辨別)}}
-      tags:: #card, #English #English/word/root
+      tags:: #card, #english #English/word/root
       refs:: [gno-, gnos-, gnoto-, -gnostic, -gnosia, -gnomic, -gnomonic, -gnomical, -gnomy, -gnosia, -gnostic, -gnosis - Word Information](https://wordinfo.info/unit/929/s:ignore)
       description::
       - cognizance (KAHG ni zuhns) (s) (noun), cognizances (pl) | 認知

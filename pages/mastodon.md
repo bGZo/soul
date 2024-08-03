@@ -46,7 +46,7 @@ type:: tool
 - ## Namespace
   - {{namespace mastodon}}
 - ## ↩ Reference
-  - ### [[shortcut]]
+  - shortcuts
     collapsed:: true
     - |---|---|
       | p | Open author's profile |

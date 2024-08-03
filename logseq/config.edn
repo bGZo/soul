@@ -30,7 +30,7 @@
 
  :feature/enable-block-timestamps? false
 
- :feature/enable-search-remove-accents? false
+ :feature/enable-search-remove-accents? true
 
  :feature/enable-journals? true
 
@@ -104,6 +104,7 @@
              :result-transform (fn [result]
                                  (sort-by (fn [h]
                                             (get h :block/priority "Z")) result))
+             :breadcrumbs-show? true
              :collapsed? false}
 
             ;; the "NEXT" query asks the future tasks.
@@ -120,6 +121,7 @@
                      ;[(< ?d ?next)]
                      ]
              ;:inputs [:today :3650d-after]
+             :breadcrumbs-show? true
              :collapsed? false}
 
             {:title "🗓️ Scheduled"
@@ -148,6 +150,7 @@
                      ;(between ?b ?start ?today)
                      ]
              ;:inputs [:-3650d :today]
+             :breadcrumbs-show? true
              :collapsed? true}
             ]}
 
@@ -168,26 +171,16 @@
            ;; https://discuss.logseq.com/t/wish-add-the-code-block-by-using/12681
            ;; https://github.com/logseq/logseq/issues/9198
 
-           ;; depend on plugin
-           ["ifame/plugin" "{{renderer :template, iframe}}"]
-           ["draft" "{{renderer :template, draft}}"]
-           ["page" "{{renderer :template, page}}"]
-           ["weekly" "{{renderer :template, weekly}}"]
-           ["anime" "{{renderer :template, anime}}"]
-           ["book" "{{renderer :template, book}}"]
-           ["leetcode" "{{renderer :template, leetcode}}"]
-           ["galgame" "{{renderer :template, galgame}}"]
-           ["image/year" "{{renderer :template, insert image by year}}"]
-           ["podcast/episode" "{{renderer :template, podcast/episode}}"]
-           ["project" "{{renderer :template, project}}"]
-           ["man" "{{renderer :template, command-man}}"]
-           ["year review" "{{renderer :template, year/review}}"]
           ]
 
  :outliner/block-title-collapse-enabled? false ;; NOTE: the prefermance of logseq will be slowed down.
 
  :macros {
        "iframe" "<iframe src='$1' style='height:$2' class='$3' allow='fullscreen'/><div class='text-center'>via: <a href='$1' target='_blank' class='external-link'>$1</a></div>"
+       "bangumi" "https://bgm.tv/subject/$1"
+       "myanimelist" "https://myanimelist.net/anime/$1"
+       "doufilm" "https://book.douban.com/subject/$1"
+       "dougame" "https://www.douban.com/game/$1"
        "doubook" "https://book.douban.com/subject/$1"
        "weread" "https://weread.qq.com/web/bookDetail/$1"
        "image/cover" "![]($1){:width 100}"
@@ -211,7 +204,7 @@
         :charge-range    600
  }
 
- :favorites ["!announcements" "dashboard" "navigation" "history/burden" "writings" "tools"]
+ :favorites ["announcements" "issue" "omnivore" "dashboard" "navigation" "history/burden" "writings" "hobbies" "tools"]
 
 ;; :srs/learning-fraction 0.5
 

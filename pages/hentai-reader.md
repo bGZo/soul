@@ -101,7 +101,7 @@ type:: product/done
   - ### \# Alternatives
     - Feedbro
   - ### \# Notes
-    - The project tech stack is [[python]], [[jekyll]], [[tailwind]] and few [[lang/programming/javascript]];
+    - The project tech stack is [[python]], [[jekyll]], [[tailwind]] and few [[javascript]];
     - The libraries I used is
       - [[pyyaml]]
         collapsed:: true

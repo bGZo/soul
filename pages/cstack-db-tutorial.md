@@ -94,10 +94,9 @@ created:: 2022
   collapsed:: true
   - name:: HTH
     full:: {{cloze Hope That Helps}}
-    tag:: 
     description:: used in electronic messages when you have told someone something or done something for them via: https://www.macmillandictionary.com/dictionary/british/hth
     type:: abbr
-  - `uint8_t` / `uint16_t` / `uint32_t` / `uint64_t` in [[lang/programming/system/c]]
+  - `uint8_t` / `uint16_t` / `uint32_t` / `uint64_t` in [[system-c]]
     id:: 629d9e2c-2c0c-48db-ae2d-56eba8649d36
     collapsed:: true
     - 这些类型的来源：这些数据类型中都带有_t, _t 表示这些数据类型是通过typedef定义的，而不是新的数据类型。也就是说，它们其实是我们已知的类型的别名。

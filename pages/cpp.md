@@ -1,5 +1,7 @@
-also:: c艹, c++
-tags:: lang/programming/system
+also:: c++
+tags:: system
+type:: lang/programming
+
 - ## Why
 - ## How
 - ## What
@@ -15,4 +17,5 @@ tags:: lang/programming/system
   - TODO [changkun/modern-cpp-tutorial: 📚 Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) ![](https://img.shields.io/github/stars/changkun/modern-cpp-tutorial)
   - TODO [Bjarne Stroustrup 的 C++ 风格与技术 FAQ（中文版）](https://www.stroustrup.com/bsfaq2cn.html)
   - TODO [cppreference-zh-20210212.chm](../assets/cpp/cppreference-zh-20210212_1645372520366_0.chm)
+-
 -

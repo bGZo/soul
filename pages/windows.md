@@ -234,7 +234,7 @@ tags:: system
     collapsed:: true
     - Needs
       collapsed:: true
-      - 纯英文的开发环境 #English
+      - 纯英文的开发环境 #english
     - [坑] Windows 的绑定方式和 Office 的方式不同
       collapsed:: true
       - Windows 绑定主板 与 CPU, 在微软帐号里面无法查到, 但在 “设置”--“激活” 显示已经与帐号关联数字许可证激活
@@ -325,15 +325,5 @@ tags:: system
       ```
   - DONE Add input double pinyin with flypy
     collapsed:: true
-    - Native input sucks #sucks
-      collapsed:: true
-      - 之前一直使用 QQ 输入法
-      - [奇客Solidot | QQ 被发现扫描并上传用户的浏览器历史](https://www.solidot.org/story?sid=66679)
-        collapsed:: true
-        - [【白名单方式】限制腾讯系（微信、QQ等）文件读写@20210117-2 - 用户规则分享区 - 火绒安全软件](https://bbs.huorong.cn/thread-79373-1-1.html)
-        - [Huorong-Rules/Tencent at main · tutugreen/Huorong-Rules · GitHub](https://github.com/tutugreen/Huorong-Rules/tree/main/Tencent)
-    - `小鹤`  Support: `win+r` -> `regedit` -> `计算机\HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS` -> New Create `UserDefinedDoublePinyinScheme0` -> `小鹤双拼*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt`. [reference_1](https://blog.zaihua.me/archives/379/), [reference_2](https://www.flypy.com/bbs/forum.php?mod=viewthread&tid=166&extra=page%3D1).
-      collapsed:: true
-      - BUG
-        collapsed:: true
-        - 命令行光标表示, 换成中文重新输入, 参见https://blog.csdn.net/leilei7407/article/details/101266801
+    - BUG
+      - 命令行光标表示, 换成中文重新输入, 参见https://blog.csdn.net/leilei7407/article/details/101266801

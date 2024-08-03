@@ -26,7 +26,7 @@ tags:: #[[algorithm]], #[[hash]]
   > Notice that the collision attack on MD5 can also be applied to password-based challenge-and-response authentication protocols such as the APOP (Authenticated Post Office Protocol) option in POP
   >
 - [[Quickref]]
-  - [[js]] Library: `https://unpkg.com/spark-md5@3.0.1/spark-md5.min.js`
+  - [[javascript]] Library: `https://unpkg.com/spark-md5@3.0.1/spark-md5.min.js`
 - Refs
   - [MD5 - Wikipedia](https://en.wikipedia.org/wiki/MD5); [MD5 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/MD5)
   - [怎么给文件生成MD5 - 掘金](https://juejin.cn/post/6877072128135561223)

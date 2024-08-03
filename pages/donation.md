@@ -9,9 +9,9 @@ tags:: sponsor
     - DONE 20220922 **$4(￥25)** [Z-lib Donate](https://en.id1lib.org/howtodonate.php?signAll=1&ts=1618)
     -
   - [[archive]]
-    via:: [Donate to the Internet Archive!](https://archive.org/donate/)
+    source:: [Donate to the Internet Archive!](https://archive.org/donate/)
   - [[logseq]]
-    via:: [Logseq - Open Collective](https://opencollective.com/logseq)
+    source:: [Logseq - Open Collective](https://opencollective.com/logseq)
   - [Support our nonprofit | freeCodeCamp.org](https://www.freecodecamp.org/donate/)
   - Tampermonkey
   - WAITING Bangumi

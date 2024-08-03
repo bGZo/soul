@@ -1,4 +1,5 @@
 also:: job/question
+
   - Kick the can down the road **踢皮球⚽️**
     - > As is the question of whether this kind of legislative postponement is simply an issue of procrastination or a deliberate avoidance of something that it's hoped will somehow go away or fall to someone else.
       问题是这种立法推迟是否仅仅是拖延问题，还是**故意回避希望以某种方式消失或落入他人手中的事情**
@@ -29,7 +30,7 @@ also:: job/question
       - [[thought]]
         collapsed:: true
         - 代码的耦合 分摊到 生活中就是搅屎棍, 无法分清的责任关系; #[[programming]]
-      - 权威机构 [[China]]
+      - 权威机构 [[china]]
         collapsed:: true
         - 1. 中纪委举报, 地址: `北京市西城区永定门内西街甲二号`;
         - 2. 信函举报, 地址如上, 收件人是 `中央纪委国家监委信访室` 收;

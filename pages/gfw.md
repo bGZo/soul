@@ -1,12 +1,10 @@
 also:: +8, +86, Simple Chinese, Great Firewall
-description:: 密不透风的墙, 什么都不会发生
 icon:: 🧱
 created:: [[20230602]]
-tags:: #networking, #China #censor
+tags:: #networking, #china #censor
 background-image:: [obama_big_brother_is_watching_poster.jpeg](../assets/obama_big_brother_is_watching_poster_1674888986914_0.jpeg)
 
   - <!-- [Obama Big Brother Is Watching Poster | Zazzle](https://www.zazzle.co.uk/obama_big_brother_is_watching_poster-228974630743633129) -->
-  - [yihong0618 on Twitter: "GFW，+86，+8，再加个简体中文，我们已经有了 4 道墙了。" / Twitter](https://twitter.com/yihong0618/status/1431506334977966082)
 - ## Why
   - IDK
 - ## How

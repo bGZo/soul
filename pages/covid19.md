@@ -122,7 +122,7 @@ description:: 新型冠狀病毒肺炎 / 武汉肺炎
     一定要提前查知要里的适用人群! 布洛芬禁用于肾功能不完整的人!
     #+END_NOTE
     - ![image.png](../assets/covid/image_1671169729417_0.png)
-      via:: [扑热息痛（又叫泰诺或对乙酰氨基酚片）哪里买 - V2EX](https://www.v2ex.com/t/902647)
+      source:: [扑热息痛（又叫泰诺或对乙酰氨基酚片）哪里买 - V2EX](https://www.v2ex.com/t/902647)
 - Discuss
   - > 有话语权的年轻人可以拉上窗帘，摇晃身体，假装列车还在继续前行
     {{video https://www.youtube.com/watch?v=wszg3BAOEV8}}

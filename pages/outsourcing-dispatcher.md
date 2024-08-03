@@ -1,6 +1,8 @@
+icon:: 🤮
 also:: OD, 外包
 description:: 做项目 + 没产品
-tags:: #sucks, #Job
+tags:: #job
+type:: sucks
 
 - 分类
   collapsed:: true

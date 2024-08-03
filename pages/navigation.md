@@ -197,7 +197,7 @@ exclude-from-graph-view:: true
     - [DEV Community 👩‍💻👨‍💻](https://dev.to/)
     - [daily.dev | The Homepage Developers Deserve](https://app.daily.dev/)
   -
-  - ### 💼 Company #Job
+  - ### 💼 Company #job
     collapsed:: true
     - [脉脉-成就职业梦想](https://maimai.cn/)
     - [面试经验|工资待遇|职业圈 - 职朋](https://www.job592.com)
@@ -398,7 +398,7 @@ exclude-from-graph-view:: true
     - [pod.link | Share a Podcast](https://pod.link/)
     - ~~[Podcast PlayFM Play Later for Bgzo](https://player.fm/bgzo/play-later/all)~~
   -
-  - ### 🇨🇳 [[China]] [[gov]]
+  - ### 🇨🇳 [[china]] [[gov]]
     - [信用信息公示系统](http://www.gsxt.gov.cn/index.html)
     - [合同示范文本库](http://cont.12315.cn)
     - [标准地图服务](http://bzdt.ch.mnr.gov.cn/index.html)

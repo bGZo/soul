@@ -9,7 +9,7 @@ also:: 过程式编程, procedural/programming
     - 函数 (functions)
   - 在程序执行的任何一个时间点，都可以调用某个特定的程序
     - 任何一个特定的程序，也能被任意一个程序或是它自己本身调用
-  - [[lang/programming]]
+  - [[lang-programming]]
     - 1957-1964: Fortran, ALGOL, COBOL, PL/I, BASIC
     - 1970-1972: Pascal, C
 - Hardware supported -> a stack register and instructions for calling procedures and returning from them

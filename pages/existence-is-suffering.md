@@ -1,7 +1,7 @@
 icon:: 📝
 created:: [[20240801]]
 status:: writing/published
-tags:: #fucking/reality
+tags:: #fuck-reality
 
 -
 - ## ↩ Reference

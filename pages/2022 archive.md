@@ -156,7 +156,7 @@ tags:: 2022
       - **==不要吝於表達你的關心==**。
       - 不要評判對方。即便你覺得對方正在經歷的事沒那麼嚴重，可以很快恢復，也要**==尊重你的朋友，讓他們自己找到治癒的途徑==**。
   - ---
-  - [[English]]
+  - [[english]]
     collapsed:: true
     - We **do** plan to keep adding to this content here on Khan Academy, so check back here every few months for updates.
       via: [Where to go from here (article) | Algorithms | Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/algorithms-more-learning/a/where-to-go-from-here)
@@ -212,7 +212,7 @@ tags:: 2022
     - 我随手翻着晚报，想到如此大权在握的男人竟然还要动怒，未免太荒谬了。我开始思忖，也可能，在不明就里的状况下，怒气就是权势的附属品，好比鬼怪附体？譬如说，有钱人时常动怒，因为总在担心穷人要夺走他们的财富。
       弗吉尼亚·伍尔夫《一间自己的房间》 source
     - “深入一线关怀学生”就是让你删帖，“关注学生心理健康问题”就是把你的名字上报给心理中心，“为学生排忧解难”就是告诉你服从学校决定，“妥善处置学生困难”就是通知你让你别困难。这种设想与实际的撕裂和此地所有的现象别无二致。不要对高校抱有幻想，这里没有乌托邦。 source
-      #GFW
+      #gfw
     - 说一千道一万，其实大S就算真的是吸毒，多P，出轨，养男人，无恶不作，汪小菲依然需要支付法律判决上应付的离婚赡养费用。 source
     - 【新冠肺炎期间心理疏导】
       所谓的「放开」事实上是有三个不同理路的论点：
@@ -299,7 +299,7 @@ tags:: 2022
       https://mp.weixin.qq.com/s/GRruLSJ0koPIaRJwQeHcxg
     - 在谈到中国用户为什么用Steam上的Wallpaper Engine看毛片的时候，作者说到，**Not everyone in China can afford to spend a lot on VPN services, so they have to find platforms that aren’t completely blocked, like Steam.**
       但是在一个扫地工都会给主播买礼物打赏的社会，每月价格类似一包烟钱的VPN真的是因为价格才没有被普遍使用的么？
-      via: https://t.me/intheflux/1733 #GFW
+      via: https://t.me/intheflux/1733 #gfw
     - 我们不再能够根据自己的生活经验来描述世界了，至少你的世界不再是那个世界了。我们可以继续活在自己的世界，幻想那个世界也是这样或者完全不是这样。但我们无法直接感知那个世界了。它太过混沦、破碎、复杂。它有太多开关、门窗、密道。问题回到：我是不是能继续在自己的世界生活？我是否想要进入那个世界？
     - 要知道我们中国人搞历史就像太监拍A片，基本上就靠一张嘴，上嘴唇一碰下嘴唇，一千年的文明史就出来了。
       突然遇见一吹就是一百万年的人，大家的感受就像开着八倍速的外挂玩网游，忽然遇到了一个挂160倍速的，非常生气：尼玛你不怕数值溢出啊？
@@ -885,7 +885,7 @@ tags:: 2022
     - 有五四运动，一群革命先驱为了社会的不公与解放，勇于站出来发出自己年轻的声音。
     - 别人又问了，**2020年有啥青年的印记？**
     - **你说“有《后浪》，为大家展现当代年轻人的各种业余爱好和兴趣，大家靠问爹妈要钱，都有选择权啦！”我特么臊得慌，你不嫌丢人，我嫌丢人，好吗？**
-  - [新中国成立 70 周年，你有什么想对祖国说的话？](https://www.zhihu.com/question/335080274/answer/804255047) #[[GFW]]
+  - [新中国成立 70 周年，你有什么想对祖国说的话？](https://www.zhihu.com/question/335080274/answer/804255047) #[[gfw]]
     collapsed:: true
     - **中华人民共和国宪法**
     - **第三十五条**
@@ -1221,7 +1221,7 @@ tags:: 2022
     collapsed:: true
     - 1966年7月16日，73岁的毛泽东横渡长江。人民日报报道：畅游15公里，用时1小时05分，这个泳速是当年世界纪录保持者的四倍，世界泳联于是两次向中国体协发电报邀请毛泽东出席世界游泳锦标赛，中国方面不作任何回应。
       collapsed:: true
-      via: https://twitter.com/ZYZZ337799/status/1579281678765559808 #GFW
+      via: https://twitter.com/ZYZZ337799/status/1579281678765559808 #gfw
       - {{tweet https://twitter.com/ZYZZ337799/status/1579281678765559808}}
     - 剛剛gmail密碼忘了
       我去申訴
@@ -1768,7 +1768,7 @@ tags:: 2022
   - Penis vs. Clitoris: It’s basically the same thing https://www.facebook.com/transarmy/photos/a.101087104719810/233847554777097/
   - 这个小作文太真实太好笑了 source (http://www.douban.com/people/1299702/status/3019670201/)
   - 男性性工作者：疫情下想自救，組工會卻可能會被抓 https://youtu.be/BtmpN4TosWk
-- #GFW
+- #gfw
   collapsed:: true
   - CDT编者按：该文为知乎网友 @社会主义螺丝钉 对提问《中国严格的新冠疫情防控措施能一直管用并持续下去吗？》的回答，目前回答已遭到删除。
     以下为全文：
@@ -1826,7 +1826,7 @@ tags:: 2022
     4.
     你都能想到的国家能想不到吗？
     国家这么大上边也不可能面面俱到
-- #Job
+- #job
   collapsed:: true
   - 酷安夜话
     去面试吧
@@ -1877,7 +1877,7 @@ tags:: 2022
   - [为什么称央视六套为六公主](../assets/archived_web/为什么称央视六套为六公主_ - 知乎 (11_15_2022 12_00_51 PM).html)
   - [Buy and consume – lawstuff.org.uk](https://lawstuff.org.uk/at-what-age-can-i/buy-and-consume/) #[[consume]]
     - 这个普法网站做得真好
-  - [[GFW]]
+  - [[gfw]]
     - [Freedom on the Net 2022: Countering an Authoritarian Overhaul of the Internet | Freedom House](https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet)
   - [学历较高的男生如何看待杨笠？](https://www.zhihu.com/question/451659084/answer/2168008741)
     collapsed:: true
@@ -2389,7 +2389,7 @@ tags:: 2022
     - 这么大的问题，没人管没人问没人想解决实际问题，没人承担责任，就是一笔糊涂账，全在混水摸鱼。
     - 如果放到现在，科学家一回来，就看到舆论人文的肤浅，官场的贪腐，学术界官僚，为了一些评选私下四处搞动作是甚至大打出手，再看看这个匪夷所思的房价，再看看不学无术的人开着豪车四处炫耀等等，你说人家回来干嘛？！就是回来了，也没人支持他实现导弹梦想吧？！就会有一堆美帝代理人拿了黑钱，四处发文章说，我们不需要拥有自己的导弹，可以直接买或者靠美国保护的混账话。又说投入太大，不划算，影响了经济民生。如果坚持搞，又得面临间谍的干扰破坏。
     - 一句话，心浮气躁，搞得了啥科技。
-  - [对五一调休意见都这么大，为什么不能取消？ - 知乎](https://www.zhihu.com/question/456312109) #GFW
+  - [对五一调休意见都这么大，为什么不能取消？ - 知乎](https://www.zhihu.com/question/456312109) #gfw
     collapsed:: true
     - [sd240324](https://www.zhihu.com/people/sd240324)
       - 理论上来说，作为民主国家，人民是有参政议政的资格的，而实际操作时，你的任何政治诉求都可以通过给政治代表投票的方式达到。
@@ -2397,9 +2397,9 @@ tags:: 2022
       - 如果你说你不知道哪位人大代表持有“取消调休”这个政治提案，那你需要花时间了解我国的民主政治制度以及你所在区域的人大代表。但如果你的希望是：
       - **有“青天大老爷”看到你在网上抱怨，他体恤民情，为民做主，主动取消调休。**
       - 这是封建皇权社会才有的政治思维，劝你放弃这种幼稚而落后的想法，学习一下现代民主政治。
-  - [如何评价 Steam 近期无法连接？ - 知乎](https://www.zhihu.com/question/525590687) #GFW
+  - [如何评价 Steam 近期无法连接？ - 知乎](https://www.zhihu.com/question/525590687) #gfw
     collapsed:: true
-    - **中国什么时候开始禁枪的？** #GFW
+    - **中国什么时候开始禁枪的？** #gfw
     - 我有一次和我爸谈到这个问题。
     - 因为我奶奶有时候说到我爸年轻的时候打猎的事，专打鸟脖子，一枪一个准，我奶奶负责捡。
     - “有这好处还能禁枪？能禁的住吗？”
@@ -2415,7 +2415,7 @@ tags:: 2022
     - “然后呢？”
     - “然后持枪证到期了，不给续，枪统一管理，要用的时候去管理处打报告拿。开始批枪还是比较轻松的，后面就……”
     - “懂了。”
-  - 囚歌 #GFW
+  - 囚歌 #gfw
     collapsed:: true
     - 为人进出的门紧锁着，
       为狗爬走的洞敞开着，
@@ -2429,7 +2429,7 @@ tags:: 2022
       地下的火冲腾，
       把这活棺材和我一齐烧掉，
       我应该在烈火和热血中得到永生。
-  - [以后手机系统内的反诈中心是强制内置的吗?](https://www.v2ex.com/t/835486) #[[GFW]]
+  - [以后手机系统内的反诈中心是强制内置的吗?](https://www.v2ex.com/t/835486) #[[gfw]]
     collapsed:: true
     - [?] 你不喜欢被监控就已经是在反对国家了
     - 想监控你有一万种方法，而且监控又不是 tg 独有，想想棱镜门，没有哪个 zf 是白莲花
@@ -2602,7 +2602,7 @@ tags:: 2022
     - https://www.v2ex.com/t/882082?p=1
     - 如果你有自己的服务器，那么还可以用来加速和备份这个方案：
     - https://olivida.eth.limo/09582A3A-7F32-4E3D-97B0-3105DFE42566/
-  - [想透明上油管谷歌，看港台欧美电视，需要买啥？ - V2EX](https://www.v2ex.com/t/884614)  #[[GFW]]
+  - [想透明上油管谷歌，看港台欧美电视，需要买啥？ - V2EX](https://www.v2ex.com/t/884614)  #[[gfw]]
     collapsed:: true
     - 现在的环境下楼主能进入中国也是很难得。同为居住在中国的外国人，我根据自己在北美的生活经验，给出如下建议（能看得出来楼主的中文不错，所以也使用中文回答）：
     - 1 、看电视用 Roku 流媒体播放器，可以看 CNN/NBC/CBS/ABC/Fox/ESPN/NatGeo/Discovery/BloombergTV/HISTORY 的直播节目，同时也支持看流媒体内容，包括 Netflix/Disney+/Paramount+/Peacock/Showtime/Starz/Tubi/VUDU/PlutoTV
@@ -2613,7 +2613,7 @@ tags:: 2022
     - 6 、由于版权限制的原因，很多流媒体服务商限制来自中国的网络请求，例如 Netflix/Disney+/Paramount+/Peacock/Showtime/Starz/Tubi/VUDU/PlutoTV 等。同样你需要使用 VPN 服务来解除这些限制，这种 VPN 与上面用来访问 Internet 的 VPN 不同，不一定可以直接连接，但是他们是流媒体友好的，你需要在其他 VPN 已经提供服务的情况下再使用这些 VPN 。流媒体 VPN 推荐 ExpressVPN/PureVPN/NordVPN 等。
     - 7 、关于杂志和报纸，现在基本上比较流行的杂志都可以在线访问了，例如 TIME/New Yorker/NatGeo/Atlantic/Harpers/Foreign Affairs/Politico ，只是从阅读实体报刊变成了阅读电子版。
     - 8 、关于书籍的购买阅读，只要你有一个 4G/LTE 版本的 Amazon Kindle 阅读器，那么买电子书也不是问题。在中国可以很方便地购买和阅读 Amazon Kindle 商店中的各种图书，使用 Kindle Unlimited 服务也正常。
-  - [在这个美好的国庆，我被裁了。 - V2EX](https://www.v2ex.com/t/884316) #[[Job]]
+  - [在这个美好的国庆，我被裁了。 - V2EX](https://www.v2ex.com/t/884316) #[[job]]
     collapsed:: true
     - https://blog.forecho.com/receiving-unemployment-insurance-benefits-in-shenzhen.html
       分享我在深圳领失业保险金的经验

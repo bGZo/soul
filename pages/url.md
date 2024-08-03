@@ -7,7 +7,7 @@ description:: 提供了互联网上资源的网络地址或位置。它通常用
   -
 - ## How
   - 一个中文域名会如何编码？为什么会出现 `xn--` 的字样？
-    #encoding #Chinese
+    #encoding #chinese
     - 中文网址编码是一种将中文域名转换为英文域名的方法，它使用了一种叫做 Punycode 的算法。Punycode 是一种将 Unicode 字符串编码为 ASCII 字符串的方式，它使用了 xn-- 前缀和一些数字和字母来表示原始的 Unicode 字符串，因为 DNS 不支持 Unicode。例如，中文网址 `编码.com` 的 Punycode 编码是 `xn–fiqz59cpva341l.com`。这样做的目的是为了让不支持 Unicode 的浏览器和服务器能够识别和访问中文域名[^Punycode]
     - more via: https://github.com/mingyun/mingyun.github.io/blob/master/Characterencoding.html
     - [^Punycode]: https://stackoverflow.com/questions/9724379/xn-on-domain-what-it-means

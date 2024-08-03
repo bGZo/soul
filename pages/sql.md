@@ -1,5 +1,7 @@
 also:: Structured Query Language
-tags:: #lang/programming/domain-specific #database
+tags:: #domain-specific-modeling #database
+type:: lang/programming
+
 - ## [[Quickref]]
   - ### ![redshift-dg.pdf](../assets/database/redshift-dg_1665846149243_0.pdf)
   - ### Syntax [Learn SQL in Y Minutes](https://learnxinyminutes.com/docs/zh-cn/sql/)

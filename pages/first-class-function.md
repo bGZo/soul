@@ -1,4 +1,5 @@
 also:: Paradigms/first-class-function
+
 - have first-class functions if it treats functions as first-class citizens
   - supports passing functions as arguments to other functions
   - returning them as the values from other functions
@@ -16,7 +17,7 @@ also:: Paradigms/first-class-function
     - Intensional equality | 内涵相等
     - Reference equality | 引用相等
 -
-- ## [[lang/programming]] Support
+- ## [[lang-programming]] Support
   - ![image.png](../assets/image_1656431254761_0.png)
 - ## Refs
   - [First-class function - Wikipedia](https://en.wikipedia.org/wiki/First-class_function#Assigning_functions_to_variables)

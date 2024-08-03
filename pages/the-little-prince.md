@@ -1,5 +1,5 @@
 also:: books/the-little-prince
-tags:: #[[English]], #[[English/words]]
+tags:: #[[english]], #[[English/words]]
 author:: Antoine de Saint-Exupéry
 publisher:: 上海阅文信息技术有限公司
 published-date:: 20180400

@@ -9,7 +9,7 @@ created:: [[20230110]]
 description:: [ShareX - The best free and open source screenshot tool for Windows](https://getsharex.com/)
 
 - ## [[quickref]]
-  - ### [[shortcut]]
+  - shortcuts
     - [Keybinds - ShareX](https://getsharex.com/docs/keybinds)
 - ## [[issue]]
   - #Closed

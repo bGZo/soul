@@ -617,7 +617,7 @@ type:: project/done
         - 并发
         - [[spring-framework]]
           - Spring 官方教程
-        - [[spring-boot]]
+        - [[spring boot]]
         - 看到的几套很好的教程
           - [KuangStudy](https://www.kuangstudy.com/course)
             collapsed:: true
@@ -752,10 +752,10 @@ type:: project/done
         - [前阿里大佬带你深入JVM字节码执行引擎_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1gv411678m/)
         - [【Java并发】并发编程的意义是什么？月薪30K必知必会的Java AQS机制_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV12K411G7Fg/)
         - [[Java编程思想]] | JDK 5/6,  有点太老了  Σ( ° △ °|||
-        - [[javaee]]
+        - [[mooc/javaee]]
         - [[geekbang/Java核心技术]]
     - TODO Submit [[cv]];
-    - DOING [[spring in action]] daily until you done;
+    - DOING [[spring-in-action]] daily until you done;
       :LOGBOOK:
       * State "DONE" from "TODO" [2023-05-05 Fri 21:14]
       * State "DONE" from "TODO" [2023-05-06 Sat 17:51]
@@ -766,7 +766,7 @@ type:: project/done
       - [qianguyihao/Web: 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。](https://github.com/qianguyihao/Web) ![](https://img.shields.io/github/stars/qianguyihao/Web)
       - [ftTony/learning-map: 前端知识思维导图](https://github.com/ftTony/learning-map)![](https://img.shields.io/github/stars/ftTony/learning-map)
       - [CavsZhouyou/Front-End-Interview-Notebook: 前端面试复习笔记](https://github.com/CavsZhouyou/Front-End-Interview-Notebook) ![](https://img.shields.io/github/stars/CavsZhouyou/Front-End-Interview-Notebook)
-      - 学会用 [[lang/programming/javascript]] 爬虫
+      - 学会用 [[javascript]] 爬虫
         collapsed:: true
         - [使用JavaScript写爬虫 - 知乎](https://zhuanlan.zhihu.com/p/53763115)
     - Pass the verify;
@@ -781,7 +781,7 @@ type:: project/done
   -
   - ### Special: [[bank]]
     collapsed:: true
-    - [[China]]
+    - [[china]]
       - 中国建设银行——CCB(China Constuction Bank)
       - 中国农业银行——ABC(Agricultural Bank of China)
       - 中国工商银行——ICBC(Industrial and Commercial Bank of China)

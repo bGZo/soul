@@ -1,5 +1,5 @@
 also:: state grid corporation of China, 国家电网公司
-tags:: #China
+tags:: #china
 description:: https://en.wikipedia.org/wiki/State_Grid_Corporation_of_China
 
 - ![](https://picx.zhimg.com/v2-b9f303825c74bb0d46ed66447739a686_r.jpg?source=1940ef5c)

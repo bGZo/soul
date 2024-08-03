@@ -1,7 +1,7 @@
 also:: area/migrant, 移民, 迁移
 created:: 20240721 
 icon:: 📄
-tags:: #GFW, #proxy
+tags:: #gfw, #proxy
 
 - ## Why
   -

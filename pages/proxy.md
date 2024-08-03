@@ -6,7 +6,7 @@ created:: [[20230602]]
   世界之大，付费可及；
   #+END_PINNED
 - ## Why
-  - Due to [[GFW]] )
+  - Due to [[gfw]] )
 - ## How
   - <a href='ms-settings:network-proxy'>Jump to Windows Proxy Settings</a>
   - How to avoid the DNS cache pollution by IPS? (See ((64795467-e51f-45d9-ab92-8ce0e224ec71)))
