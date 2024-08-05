@@ -1,9 +1,10 @@
-also:: bilibili做的恶
+also:: bilibili作的恶
 icon:: 🤮
 created:: [[20240803]]
 status:: writing/draft
 tags:: #bilibili 
 type:: sucks
+exclude-from-graph-view:: true
 
 -
 - ## ↩ Reference

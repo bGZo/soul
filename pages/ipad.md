@@ -4,7 +4,7 @@ tags:: #apple
 - ## Why
   - [[logseq]]
 - ## How
-  - How to use [[safari]] on iOS mobile?
+  - How to use safari on iOS mobile?
     - DONE Custom search engine
     - TODO Compile code on iPad
       collapsed:: true

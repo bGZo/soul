@@ -5,18 +5,7 @@ template:: manga
 template-including-parent:: false
 type:: hobby
 
-  - title:: 
-    also:: 
-    tags:: #manga
-    author:: 
-    publisher:: 
-    created:: <% today %>
-    closed:: 
-    source:: 
-    bangumi:: https://bgm.tv/subject/
-    douban:: https://www.douban.com/
-    goodreads:: 
-    description::
+  -
 - ## Why
   -
 - ## How
@@ -29,3 +18,6 @@ type:: hobby
 - ## ↩ Reference
   - [可达漫画 - 献给喜欢看漫画的你 · Issue #5 · xiaogdgenuine/kedamanga-web](https://github.com/xiaogdgenuine/kedamanga-web/issues/5)
   - [可达漫画这 app 的画质增强真的太厉害了 - V2EX](https://v2ex.com/t/817532)
+  - [[navigation]]
+    - [在线看漫画_飒漫乐画_妃夕妍雪 - 漫画柜](https://www.manhuagui.com/)
+    - [Mox.moe (Kindle漫畫|Kobo漫畫|epub漫畫) (mox.moe)](https://mox.moe/)

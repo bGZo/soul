@@ -1,6 +1,7 @@
 also:: 告别网易云
 icon:: 📝
 created:: [[20200905]]
+exclude-from-graph-view:: true
 status:: writing/published
 
 - ## Preface

@@ -1,6 +1,7 @@
 icon:: 📝
 tags:: #cat
 created:: [[20210314]]
+exclude-from-graph-view:: true
 status:: writing/published
 
 - sorry-for-cats-in-My-First-Half-of-Life

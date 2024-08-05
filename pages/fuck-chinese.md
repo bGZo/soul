@@ -4,6 +4,7 @@ created:: [[20240803]]
 status:: writing/draft
 tags:: #chinese
 type:: sucks
+exclude-from-graph-view:: true
 
 - > 现代汉语就像用脏了的人民币，我要把它洗一洗 
   — 顾城

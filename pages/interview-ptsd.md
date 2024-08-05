@@ -1,6 +1,7 @@
 also:: 面试破防时刻
 icon:: 📝
 created:: [[20230316]]
+exclude-from-graph-view:: true
 status:: writing/draft
 tags:: #interview #ptsd
 

@@ -1,8 +1,9 @@
-also:: meta做的恶
+also:: meta作的恶
 icon:: 🤮
 created:: [[20240803]]
 status:: writing/draft
 type:: sucks
+exclude-from-graph-view:: true
 
 - #instant-message
 - Not Allow to Guest, Must have a account.

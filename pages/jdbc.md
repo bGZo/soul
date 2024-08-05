@@ -15,7 +15,7 @@ tags:: #api #javase
       - 涉及到事务的代码需要正确提交或回滚事务
 -
 - ## Compare
-  - ### execute #vs executeUpdate, executeQuery [^EXE_UPDATE_QUERY]
+  - ### execute vs executeUpdate, executeQuery [^EXE_UPDATE_QUERY]
     collapsed:: true
     - ```java
       ResultSet executeQuery(String sql);
@@ -26,7 +26,7 @@ tags:: #api #javase
         // Executes the given SQL statement, which may return multiple results.
       via: https://docs.oracle.com/javase/8/docs/api/java/sql/Statement.html
       ```
-  - ### Statement #vs PreparedStatement [^PRE_VS_STATE]
+  - ### Statement vs PreparedStatement [^PRE_VS_STATE]
     collapsed:: true
     - | **AA** | **Statement**                                                                           | **PreparedStatement**                                                                        |
       | ------ | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |

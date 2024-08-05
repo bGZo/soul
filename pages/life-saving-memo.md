@@ -1,6 +1,7 @@
 icon:: 📝
 also:: 想对以前的自己说
 created:: [[20240714]]
+exclude-from-graph-view:: true
 status:: writing/idea
 type:: memo
 

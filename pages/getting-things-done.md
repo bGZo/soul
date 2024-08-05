@@ -8,22 +8,22 @@ created:: [[20191203]]
   - 清空大脑，不混乱
   - 明确下一步要做什么
 - ## How
-  - 做事方法论，消化 Inbox，Focus [[content checklist]]
+  - 做事方法论，消化 Inbox，Focus [[checklist/content]]
     - 是否可以行动？
       logseq.order-list-type:: number
       - 不可以行动，你可能需要
         logseq.order-list-type:: number
         - 参考资料 Reference
           logseq.order-list-type:: number
-        - [[waiting checklist]] Somday/maybe
+        - [[checklist/waiting]] Somday/maybe
           logseq.order-list-type:: number
-        - [[trash checklist]]
+        - [[checklist/trash]]
           logseq.order-list-type:: number
       - 否则进入下一步
         logseq.order-list-type:: number
     - 可以一步搞定吗？
       logseq.order-list-type:: number
-      - 不可以一步到位，需要拆分子任务 => [[project checklist]]
+      - 不可以一步到位，需要拆分子任务 => [[checklist/project]]
         logseq.order-list-type:: number
       - 否则进入下一步
         logseq.order-list-type:: number
@@ -35,7 +35,7 @@ created:: [[20191203]]
         logseq.order-list-type:: number
     - 这件事由我做吗？
       logseq.order-list-type:: number
-      - 不是我就能做的，进入 [[等待清单]]
+      - 不是我就能做的，进入 [[checklist/waiting]] 等待清单
         logseq.order-list-type:: number
       - 否则进入下一步
         logseq.order-list-type:: number
@@ -43,7 +43,7 @@ created:: [[20191203]]
       logseq.order-list-type:: number
       - 有时间限制，使用日历或者闹钟进行提醒
         logseq.order-list-type:: number
-      - 否则则只需要聚焦 [[content checklist]]
+      - 否则则只需要聚焦 [[checklist/content]]
         logseq.order-list-type:: number
   - ![](https://raw.githack.com/bGZo/assets/dev/2024/gtd-thing-time-manage.png){:height 359, :width 748}
   -

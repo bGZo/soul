@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20230923]]
+exclude-from-graph-view:: true
 status:: writing/published
 
 - 今天下午，EMS 取走了武汉寄过来的快递，寄去了北京。Apple 退货算是告一段落，这让我不禁开始重新想一个问题：**我真正的需求到底是什么**？

@@ -1,9 +1,10 @@
-also:: gfw做的恶
+also:: gfw作的恶
 icon:: 🤮
 created:: [[20240803]]
 status:: writing/draft
 tags:: #gfw 
 type:: sucks
+exclude-from-graph-view:: true
 
 - > 密不透风的墙, 什么都不会发生
 - Commercialize with [[gfw]], they should be [[shame]] | 用 [[gfw]] 来商业化

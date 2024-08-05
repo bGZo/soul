@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20221109]]
+exclude-from-graph-view:: true
 status:: writing/published
 tags:: #[[sex]]
 

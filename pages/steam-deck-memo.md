@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20240714]]
+exclude-from-graph-view:: true
 status:: writing/draft
 tags:: #[[fix-depression-towards-gaming]] #[[steam]]
 type:: memo

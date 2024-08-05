@@ -1,8 +1,5 @@
-background-color:: red
-alias::
+icon:: 📄
 created:: [[20240630]]
-description::
-icon::
 type:: lang/programming
 
 - ## Why

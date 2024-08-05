@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20200101]]
+exclude-from-graph-view:: true
 status:: writing/idea
 
 - draft/注意力陷阱

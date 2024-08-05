@@ -1,0 +1,34 @@
+icon:: 🏫
+also:: Database Systems
+
+- ## REFERENCES
+  - [Schedule | CMU 15-445/645 :: Intro to Database Systems (Fall 2022)](https://15445.courses.cs.cmu.edu/fall2022/schedule.html)
+  - [CMU Intro to Database Systems (15-445/645 - Fall 2022) - YouTube](https://www.youtube.com/playlist?list=PLSE8ODhjZXjaKScG3l0nuOiDTTqpfnWFf)
+-
+- ## CONTENTS
+  - Relational Model & Relational Algebra (CMU Intro to Database Systems / Fall 2022)
+  - Modern SQL (CMU Intro to Database Systems / Fall 2022)
+  - Database Storage 1 (CMU Intro to Database Systems / Fall 2022)
+  - Database Storage 2 (CMU Intro to Database Systems / Fall 2022)
+  - Columnar Databases & Compression (CMU Intro to Database Systems / Fall 2022)
+  - Memory Management + Buffer Cache (CMU Intro to Database Systems / Fall 2022)
+  - Hash Tables (CMU Intro to Database Systems / Fall 2022)
+  - B+Tree Indexes (CMU Intro to Database Systems / Fall 2022)
+  - Concurrent Indexes (CMU Intro to Database Systems / Fall 2022)
+  - Sorting & Aggregation Algorithms (CMU Intro to Database Systems / Fall 2022)
+  - Join Algorithms (CMU Intro to Database Systems / Fall 2022)
+  - Query Execution 1 (CMU Intro to Database Systems / Fall 2022)
+  - Parallel Query Execution (CMU Intro to Database Systems / Fall 2022)
+  - Query Planning & Optimization (CMU Intro to Database Systems / Fall 2022)
+  - Concurrency Control Theory (CMU Intro to Database Systems / Fall 2022)
+  - Two-Phase Locking in Databases (CMU Intro to Database Systems / Fall 2022)
+  - Timestamp-Ordering Concurrency Control (CMU Intro to Database Systems / Fall 2022)
+  - Multi-Version Concurrency Control MVCC (CMU Intro to Database Systems / Fall 2022)
+  - Database Logging & Shadow Paging (CMU Intro to Database Systems / Fall 2022)
+  - Database Recovery with ARIES (CMU Intro to Database Systems / Fall 2022)
+  - Introduction to Distributed Databases (CMU Intro to Database Systems / Fall 2022)
+  - Distributed Transactional Database Systems (CMU Intro to Database Systems / Fall 2022)
+  - Distributed Analytical Database Systems (CMU Intro to Database Systems / Fall 2022)
+  - Embedded Database Logic (CMU Intro to Database Systems / Fall 2022)
+  - Snowflake Database Architecture Overview (CMU Intro to Database Systems / Fall 2022)
+  - Live Call-in Q&A Lecture (CMU Intro to Database Systems / Fall 2022)

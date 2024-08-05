@@ -1,5 +1,5 @@
 tags:: #[[osi/application]]
-- ![image.png](../assets/dev/image_1662468739910_0.png)
+- ![image.png](../../soul/assets/dev/image_1662468739910_0.png)
 - (Resource) Representational state transfer, REST / 表现层状态转移, 资源在网络中以某种表现形式进行状态转移
   - **一种架构风格**
   - before: SOAP

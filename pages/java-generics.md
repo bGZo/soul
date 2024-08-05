@@ -13,14 +13,14 @@ description:: 拓展 Java 类型系统，允许对各类型对象进行操作，
       ```
 - ## How
 - ## What
-  - Better way on [[java-5]]
+  - Better way on [[java05]]
     collapsed:: true
     - ```java
       final List<String> v = new ArrayList<String>();
       v.add("test");
       final Integer i = (Integer) v.get(0); // (type error)  compilation-time error
       ```
-  - Better `type inference`(类型推断) on [[java-7]]
+  - Better `type inference`(类型推断) on [[java07]]
     collapsed:: true
     - ```java
       final Entry<String, String> grade = new Entry<>("Mike", "A");

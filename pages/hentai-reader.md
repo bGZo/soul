@@ -115,7 +115,7 @@ type:: product/done
         - [python - AttributeError: module 'feedparser' has no attribute 'FeedParserDict' - Stack Overflow](https://stackoverflow.com/questions/46829474/attributeerror-module-feedparser-has-no-attribute-feedparserdict)
       - [[requests]]
       - [[feedgen]]
-      - [[pytz]]
+      - pytz
       - `pyyaml`, `opml`, `feedparser`, `requests`, `feedgen`, `pytz`
     - The work need to be more skilled.
       - Use the [[tailwind]], instead of writing CSS one by one.

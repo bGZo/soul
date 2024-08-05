@@ -33,7 +33,7 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
       logseq.order-list-type:: number
       collapsed:: true
       - 只能被调用一次
-    - ![image.png](../assets/imu/java/image_1662360074985_0.png)
+    - ![image.png](../../soul/assets/imu/java/image_1662360074985_0.png)
       logseq.order-list-type:: number
 -
 - ## Namespace
@@ -57,18 +57,18 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
           - WebSphere
     - 接口 `Servlet`
     - 版本
-      - ![image.png](../assets/imu/java/image_1662360951450_0.png)
+      - ![image.png](../../soul/assets/imu/java/image_1662360951450_0.png)
   - Container
     collapsed:: true
     - ((63159c22-44d2-4292-87ea-392c76727867))
-    - #vs Server
+    - vs Server
       - 服务器
         - 功能单一, 只能提供 http(s) 服务(静态服务), 不能执行任何编程语言
         - 动态网站
           - **必要条件**
             - **编程语言运行环境（运行时， [[runtime]] ）+ 数据库管理系统**
           - TODO 网站开发可以用**非脚本语言**吗???
-        - ![image.png](../assets/imu/java/image_1662362580896_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662362580896_0.png)
       - 容器
         - 传统 JRE 无法运行 Servlet
           - Servlet 容器就是 Servlet 代码的运行环境（运行时）
@@ -76,21 +76,21 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
           - 生活中, 用来装水、装粮食
         - **我们自己编写的 Servlet 类为什么需要 Servlet 容器来管理呢？**
           - 我们编写的 Servlet 类没有 main() 函数，不能独立运行，只能作为一个模块被载入到 Servlet 容器，然后由 Servlet 容器来实例化，并调用其中的方法。
-        - ![image.png](../assets/imu/java/image_1662363471054_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662363471054_0.png)
           - 一个动态页面对应一个 Servlet 类，开发一个动态页面就是编写一个 Servlet 类，当用户请求到达时，Servlet 容器会根据配置文件（web.xml）来决定调用哪个类。
           - 用户的 HTTP 请求首先到达 Web 服务器，Web 服务器判断该请求是静态资源还是动态资源：如果是静态资源就直接返回，此时相当于用户下载了一个服务器上的文件；如果是动态资源将无法处理，必须将该请求转发给 Servlet 容器
           - Servlet 容器接收到请求以后，会根据配置文件（web.xml）找到对应的 Servlet 类，将它加载并实例化，然后调用其中的方法来处理用户请求；处理结束后，Servlet 容器将处理结果再转交给 Web 服务器，由 Web 服务器将处理结果进行封装，以 HTTP 响应的形式发送给最终的用户
         - Web Container 往往也会自带 Web Server
           - 所以您可以不用再安装 Apache、IIS、Nginx 等传统意义上的服务器，只需要安装一款 Web 容器，就能部署 Servlet 网站了
           - 有的教材将 Tomcat 称为 Web 容器，有的教材又将 Tomcat 称为 Web 服务器，两者的概念已经非常模糊了。
-          - ![image.png](../assets/imu/java/image_1662363618717_0.png)
+          - ![image.png](../../soul/assets/imu/java/image_1662363618717_0.png)
         -
     - Tomcat
       - 目录结构
   - Create(3)
     collapsed:: true
     - Servlet & GenericServlet & HttpServlet
-      - ![image.png](../assets/imu/java/image_1662364811475_0.png)
+      - ![image.png](../../soul/assets/imu/java/image_1662364811475_0.png)
       -
       - Servlet
         - ```java
@@ -127,16 +127,16 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
         | \\servletDemo\\WEB-INF\\classes | 存放各种 .class 文件或者包含 .class 文件的目录，Servlet 类的 .class 文件也存放在此。 | 否   |
         | \\servletDemo\\WEB-INF\\lib     | 存放应用所需的各种 jar 包，例如 JDBC 驱动程序的 jar 包。                       | 否   |
         | \\servletDemo\\WEB-INF\\web.xml | web.xml 中包含应用程序的配置和部署信息。                                   | 是   |
-      - ![image.png](../assets/imu/java/image_1662366951672_0.png)
+      - ![image.png](../../soul/assets/imu/java/image_1662366951672_0.png)
   - Annotation 注解
     collapsed:: true
     - 属性
-      - ![image.png](../assets/imu/java/image_1662367293682_0.png)
+      - ![image.png](../../soul/assets/imu/java/image_1662367293682_0.png)
     - `web.xml`
       - 将所有的 Servlet 的配置集中进行管理
       - 冗长解决方案 => 注解（Annotation）就是一种更好的选择
         - From Servlet 3.0
-      - Annotation #vs XML
+      - Annotation vs XML
         - `@WebServlet`
           - 优点：@WebServlet 直接在 Servlet 类中使用，代码量少，配置简单。每个类只关注自身业务逻辑，与其他 Servlet 类互不干扰，适合多人同时开发。
           - 缺点：Servlet 较多时，每个 Servlet 的配置分布在各自的类中，不便于查找和修改。
@@ -205,7 +205,7 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
         - 请求处理完成后，将响应信息封装到 HttpServletReponse 对象中。
           Servlet 容器将响应信息返回给客户端。
         - 当 Servlet 容器将响应信息返回给客户端后，HttpServletRequest 对象和 HttpServletReponse 对象被销毁。
-        - ![image.png](../assets/imu/java/image_1662368872209_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662368872209_0.png)
       - 获取请求行信息
         - ```java
           String getMethod();
@@ -244,7 +244,7 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
         void include(ServletRequest request,ServletResponse response);
         ```
       - 原理
-        - ![image.png](../assets/imu/java/image_1662369494829_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662369494829_0.png)
       - 特点
         - 不支持跨域, 只能跳到当前应用中的资源
         - URL 不会发生变化, 浏览器不知道在服务器内部发生了转发行为
@@ -252,7 +252,7 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
         - 只有转发到最后一个 Web 资源时，生成的响应才会被发送到客户端
       - request 域对象
         - ((6315ba24-8210-41b0-adb3-06547995067f))
-        - #vs Context 域对象
+        - vs Context 域对象
           - 生命周期不同
             - Context 域对象的生命周期从容器启动开始，到容器关闭或者 Web 应用被移除时结束；
             - request 域对象的生命周期从客户端向容器发送请求开始，到对这次请求做出响应后结束。
@@ -292,8 +292,8 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
           - 服务器端的 Web 资源返回一个状态码为 302 的响应信息，该响应的含义为：通知浏览器再次发送请求，访问另一个 Web 资源（在响应信息中提供了另一个资源的 URL）。
           - 当浏览器接收到响应后，立即自动访问另一个指定的 Web 资源。
           - 另一 Web 资源将请求处理完成后，由容器把响应信息返回给浏览器进行展示。
-          - ![image.png](../assets/imu/java/image_1662370062860_0.png)
-        - #vs ((6315b6aa-c5a1-46f4-b1bc-5ab3b5c2929b))
+          - ![image.png](../../soul/assets/imu/java/image_1662370062860_0.png)
+        - vs ((6315b6aa-c5a1-46f4-b1bc-5ab3b5c2929b))
           - | 区别                           | 转发        | 重定向       |
             | ---------------------------- | --------- | --------- |
             | 浏览器地址栏 URL 是否发生改变            | 否         | 是         |
@@ -325,7 +325,7 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
       - 客户端浏览器访问服务器时，服务器通过在 HTTP 响应中增加 Set-Cookie 字段，将数据信息发送给浏览器。
       - 浏览器将 Cookie 保存在内存中或硬盘上。
       - 再次请求该服务器时，浏览器通过在 HTTP 请求消息中增加 Cookie 请求头字段，将 Cookie 回传给 Web 服务器。服务器根据 Cookie 信息跟踪客户端的状态。
-      - ![image.png](../assets/imu/java/image_1662370373637_0.png)
+      - ![image.png](../../soul/assets/imu/java/image_1662370373637_0.png)
     - API
       - HttpServletResponse 接口和 HttpServletRequest 接口
         - ```java
@@ -362,12 +362,12 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
       - 服务器将 SessionID 以 Cookie（Cookie 名称为：“JSESSIONID”，值为 SessionID 的值）的形式发送给客户端浏览器；
       - 客户端浏览器再次发送 HTTP 请求时，会将携带 SessionID 的 Cookie 随请求一起发送给服务器；
       - 服务器从请求中读取 SessionID，然后根据 SessionID 找到对应的 Session 对象
-      - ![image.png](../assets/imu/java/image_1662370705364_0.png)
+      - ![image.png](../../soul/assets/imu/java/image_1662370705364_0.png)
       - 注意：
         - 流程中的 Cookie 是容器自动生成的，它的 maxAge 属性取值为 -1，表示仅当前浏览器有效。
         - 浏览器关闭时，对应的 Session 并没有失效，但此时与此 Session 对应的 Cookie 已失效，导致浏览器无法再通过 Cookie 获取服务器端的 Session 对象。
         - 同一浏览器的不同窗口共享同一 Session 对象，但不同浏览器窗口之间不能共享 Session 对象。
-    - #vs Cookie
+    - vs Cookie
       - | 不同点         | Cookie                                              | Session                                                   |
         | ----------- | --------------------------------------------------- | --------------------------------------------------------- |
         | 存储位置     | 客户端 浏览器内存/硬盘                         | 服务器端                                       |
@@ -401,7 +401,7 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
         - 服务器关闭或者应用被卸载。
     - Session 域对象
       - Session 、request 以及 ServletContext 合称为 Servlet 的三大域对象，它们都能保存和传递数据，但是三者也存在许多差异
-      - #vs request, context
+      - vs request, context
         - | 不同   | request                                                         | Session                                                                                                    | ServletContext                                        |
           | ---- | --------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
           | 类型   | javax.servlet.http.HttpServletRequest                           | javax.servlet.http.HttpSession                                                                             | javax.servlet.ServletContext                          |
@@ -419,7 +419,7 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
       - 在 Filter 的 doFilter() 方法内，调用 FilterChain.doFilter() 方法，将请求传递给下一个过滤器或目标资源。
       - 目标资源生成响应信息返回客户端之前，处理控制权会再次回到 Filter 的 doFilter() 方法，执行 FilterChain.doFilter() 后的语句，检查 response 对象，修改响应头和响应正文。
       - 响应信息返回客户端。
-      - ![image.png](../assets/imu/java/image_1662372590946_0.png)
+      - ![image.png](../../soul/assets/imu/java/image_1662372590946_0.png)
     - 生命周期
       - 初始化阶段
         - Servlet 容器负责加载和实例化 Filter。容器启动时，读取 web.xml 或 @WebFilter 的配置信息对所有的过滤器进行加载和实例化。
@@ -458,7 +458,7 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
           ```
     - 过滤器链
       - 拦截过程
-        - ![image.png](../assets/imu/java/image_1662376038929_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662376038929_0.png)
       - javax.servlet 包中提供了一个 FilterChain 接口，该接口由容器实现
       - ```java
         void doFilter(ServletRequest request ,ServletResponse response)
@@ -475,11 +475,11 @@ https://github.com/jakartaee/servlet ![](https://img.shields.io/github/stars/jak
       - 注册监听器：将监听器与事件源进行绑定。
     - 按照监听的事件划分(3)
       - 监听对象创建和销毁的监听器
-        - ![image.png](../assets/imu/java/image_1662376596747_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662376596747_0.png)
       - 监听对象中属性变更的监听器
-        - ![image.png](../assets/imu/java/image_1662376636338_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662376636338_0.png)
       - 监听 HttpSession 中的对象状态改变的监听器
-        - ![image.png](../assets/imu/java/image_1662376674348_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662376674348_0.png)
   - 统计在线人数 via: [Servlet监听器统计网站在线人数](http://c.biancheng.net/servlet2/user-online.html)
   - [C语言中文网：C语言程序设计门户网站(入门教程、编程软件)](http://c.biancheng.net/)
 -

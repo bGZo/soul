@@ -1,7 +1,7 @@
 also:: java 容器, java 集合
 description:: a framework that provides an architecture to store and manipulate(操纵) the group of objects
 description:: from java 1.2
-tags:: #[[java-2]]
+tags:: #[[java02]]
 
 - #+BEGIN_NOTE
   灵活性(存储, 类型, 数量, 映射关系) > 数组
@@ -47,9 +47,9 @@ tags:: #[[java-2]]
     - SortedMap
       - TreeMap
         id:: 632dcb3a-4de2-4e94-98e4-0fa89e3e9ca1
-  - ![image.png](../assets/image_1652522212837_0.png){:height 479, :width 747}
+  - ![image.png](../../soul/assets/image_1652522212837_0.png){:height 479, :width 747}
     (省略了AbstractList, NavigableSet等抽象类以及其他的一些辅助)
-  - [[question/java]]
+  - [[java-interview]]
     - Map 没有继承 iterable, 却可以使用迭代器?
       - Map及其子类虽然没有实现Interable、Iterator，但是，Map内部生成Collection，从而间接实现Iterable接口和生成Iterator，所以，Map也可以使用迭代器。
       - via: [map没有继承iterable，为什么可以使用迭代器_百度知道](https://zhidao.baidu.com/question/1771462425941801540.html)
@@ -58,19 +58,19 @@ tags:: #[[java-2]]
   - Collection
     - ((632dca84-78bc-41b6-b6fa-8a5af022a7e2))
       - **List** 均按添加时的顺序存放，不自动排序
-      - ((632dcab0-65f1-4abb-b354-3d3245d1ae5a)) #vs ((632dcaab-2ecb-412b-80d5-03a1c8464039))
+      - ((632dcab0-65f1-4abb-b354-3d3245d1ae5a)) vs ((632dcaab-2ecb-412b-80d5-03a1c8464039))
         - | **Items** | **Vector**| **Arraylist** |
           | **底层**  | `Object[]`|
           | **地位** | 古老实现 | 主要实现 |
           | **线程安全** | ✖ | ✔ |
-      - ((632dcaab-2ecb-412b-80d5-03a1c8464039)) #vs ((632dca98-ffb9-4184-9941-ee414e0cb3f7))
+      - ((632dcaab-2ecb-412b-80d5-03a1c8464039)) vs ((632dca98-ffb9-4184-9941-ee414e0cb3f7))
         - | **Items** | **Arraylist** | **LinkedList** |
           | **线程安全** | ✖| ✖|
           | **底层** | Object [] | ~~循环链表~~ 双向链表(>=JDK1.7) |
           | **插/删 受元素位置影响** | ✔ O(n/2) | ✖ O(1) |
           | **快速随机访问**  | ✔| ✖|
           | **内存占用** | 结尾需要预留出空间 | 原子元素更多(前驱后继)|
-      - ((632dcab0-65f1-4abb-b354-3d3245d1ae5a)) #vs ((632dcaab-2ecb-412b-80d5-03a1c8464039)) #vs ((632dca98-ffb9-4184-9941-ee414e0cb3f7))
+      - ((632dcab0-65f1-4abb-b354-3d3245d1ae5a)) vs ((632dcaab-2ecb-412b-80d5-03a1c8464039)) vs ((632dca98-ffb9-4184-9941-ee414e0cb3f7))
         - 三者都是有序集合, 功能也比较近似, 但在行为、性能、线程安全等方面，有很大不同 (具体设计)
         - Vector 是 Java 早期提供的 **线程安全的动态数组** ，如果不需要线程安全，并不建议选择，毕竟同步是有额外开销的。Vector 内部是使用对象数组来保存数据，可以根据需要自动的增加容量，当数组已满时，会创建新的数组，并拷贝原有数组数据。
         - ArrayList 是应用更加广泛的 **动态数组** 实现，它本身不是线程安全的，所以性能要好很多。与 Vector 近似，ArrayList 也是可以根据需要调整容量，不过两者的调整逻辑有所区别，Vector 在扩容时会提高 1 倍，而 ArrayList 则是增加 50%。
@@ -78,7 +78,7 @@ tags:: #[[java-2]]
       - ArrayList 的扩容机制
       - RandomAccess 接口
     - ((632dca85-724d-47f1-8c94-374e45c73cf5))
-      - ((632dca85-724d-47f1-8c94-374e45c73cf5)) #vs ((632dcabb-11e0-44e3-9dc5-4650a37729b6))
+      - ((632dca85-724d-47f1-8c94-374e45c73cf5)) vs ((632dcabb-11e0-44e3-9dc5-4650a37729b6))
         - | **Queue 接口** | **抛出异常**  | **返回特殊值** |
             | ------------ | --------- | ---------- |
             | **插入队尾**     | add(E e)  | offer(E e) |
@@ -93,7 +93,7 @@ tags:: #[[java-2]]
             | **查询队首元素** | getFirst()    | peekFirst()     |
             | **查询队尾元素** | getLast()     | peekLast()      |
           - Deque 还提供有 push() 和 pop() 等其他方法，可用于模拟栈
-      - ((632dcaf4-a182-43d6-8b59-2a4a519c22bf)) #vs ((632dca98-ffb9-4184-9941-ee414e0cb3f7))
+      - ((632dcaf4-a182-43d6-8b59-2a4a519c22bf)) vs ((632dca98-ffb9-4184-9941-ee414e0cb3f7))
         - | **Items** | **ArrayDeque** | **LinkedList** |
           | **Deque 接口** | ✔|✔|
           | **队列性质**| ✔|✔|
@@ -115,7 +115,7 @@ tags:: #[[java-2]]
       - TODO 手撕算法, 堆排序、求第K大的数、带权图的遍历
     - ((632dca8a-b676-42b3-a86b-731ee1b2ae20))
       - **Set** 默认按自然顺序排序，可通过构造器传入自定义的比较器自定义排序策略，**但是，**LinkedHashSet无序
-      - ((632dcb0c-b678-48bd-a06a-a1918892a55b)) #vs ((632dcb10-70cb-477e-aea4-479701e77e8b)) #vs ((632dcf22-9be9-4d21-95f0-25ce123e6ffa))
+      - ((632dcb0c-b678-48bd-a06a-a1918892a55b)) vs ((632dcb10-70cb-477e-aea4-479701e77e8b)) vs ((632dcf22-9be9-4d21-95f0-25ce123e6ffa))
         - | **Items** | **HashSet** | **LinkedHashSet** | **TreeSet**|
           | **Set 接口实现**| ✔|✔ |✔ |
           | **元素唯一**| ✔| ✔| ✔|
@@ -137,24 +137,24 @@ tags:: #[[java-2]]
   - ((632dca8e-3286-4ea0-b0eb-f631076beece))
     - **HashMap, TreeMap, ConcurrentHashMap 是有序的**
     - ~~**Hashtable, LinkedHashMap 不是有序的**~~
-    - ((632dcb36-cd98-4c18-ae97-566e0241b807)) #vs ((632dcb31-df51-443f-978d-4741a4061228))
+    - ((632dcb36-cd98-4c18-ae97-566e0241b807)) vs ((632dcb31-df51-443f-978d-4741a4061228))
       - | **Items** | **HashMap** | **Hashtable** |
         | **线程安全** | ✖ | ✔ (`synchronized` 修饰)|
         | **效率**(基于第一点) | 较高 | 遗留类, 很多冗余, 不如用[:br] `ConcurrentHashMap`|
         | **Null key / Null value** | ✔|✖|
         | **初始 / 扩容 容量**| 16-> 16*2; N->$$2^{N}$$(`tableSizeFor()`) | 11->2n+1|
         | **底层** | >=1.8, 链表长>8, 数组>64, 转换红黑树 | ✖|
-    - ((632dcb36-cd98-4c18-ae97-566e0241b807)) #vs ((632dcb0c-b678-48bd-a06a-a1918892a55b))
+    - ((632dcb36-cd98-4c18-ae97-566e0241b807)) vs ((632dcb0c-b678-48bd-a06a-a1918892a55b))
       - |               **HashMap**                |                          **HashSet**                           |
         | :------------------------------------: | :----------------------------------------------------------: |
         |           实现了 `Map` 接口            |                       实现 `Set` 接口                        |
         |               存储键值对               |                          仅存储对象                          |
         |     调用 `put()`向 map 中添加元素      |             调用 `add()`方法向 `Set` 中添加元素              |
         | `HashMap` 使用键（Key）计算 `hashcode` | `HashSet` 使用成员对象来计算 `hashcode` 值，对于两个对象来说 `hashcode` 可能相同，所以`equals()`方法用来判断对象的相等性 |
-    - ((632dcb36-cd98-4c18-ae97-566e0241b807)) #vs ((632dcb3a-4de2-4e94-98e4-0fa89e3e9ca1))
+    - ((632dcb36-cd98-4c18-ae97-566e0241b807)) vs ((632dcb3a-4de2-4e94-98e4-0fa89e3e9ca1))
       id:: 6281aacf-fca1-4b5e-a89c-8134870db5ff
-      - ![image.png](../assets/image_1652685166712_0.png)
-  - 底层 -> ((632dca84-78bc-41b6-b6fa-8a5af022a7e2)) #vs ((632dca8a-b676-42b3-a86b-731ee1b2ae20)) #vs ((632dca85-724d-47f1-8c94-374e45c73cf5)) #vs ((632dca8e-3286-4ea0-b0eb-f631076beece))
+      - ![image.png](../../soul/assets/image_1652685166712_0.png)
+  - 底层 -> ((632dca84-78bc-41b6-b6fa-8a5af022a7e2)) vs ((632dca8a-b676-42b3-a86b-731ee1b2ae20)) vs ((632dca85-724d-47f1-8c94-374e45c73cf5)) vs ((632dca8e-3286-4ea0-b0eb-f631076beece))
     - ((632dca84-78bc-41b6-b6fa-8a5af022a7e2))
       - `Arraylist`
         - `Object[]` 数组

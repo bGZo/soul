@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20240727]]
+exclude-from-graph-view:: true
 status:: writing/published
 
 - ## Compound / 复利 / 利滚利 / 驴打滚

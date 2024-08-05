@@ -1,6 +1,5 @@
 icon:: 📅
 created:: [[20230602]]
-
 template:: weekly
 template-including-parent:: false
 exclude-from-graph-view:: true
@@ -11,7 +10,7 @@ exclude-from-graph-view:: true
   - 周报是一种叙事疗法，通过和自我对话，把人生的主题性换回给自己，以更好地掌控人生；
 - ## How
   - TODO Pull 工作摸🐟 [Gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f) 的笔记
-    SCHEDULED: <2024-07-27 Sat 00:00 ++1w>
+    SCHEDULED: <2024-08-03 Sat 00:00 ++1w>
     collapsed:: true
     :LOGBOOK:
     * State "DONE" from "TODO" [2024-01-20 Sat 22:00]
@@ -30,6 +29,7 @@ exclude-from-graph-view:: true
     * State "DONE" from "TODO" [2024-05-17 Fri 20:05]
     * State "DONE" from "TODO" [2024-05-26 Sun 22:40]
     * State "DONE" from "TODO" [2024-07-20 Sat 21:23]
+    * State "DONE" from "TODO" [2024-08-03 Sat 13:39]
     :END:
     - [[logseq/sync]]
       - ~~Android~~
@@ -102,8 +102,8 @@ exclude-from-graph-view:: true
       closed:: [[20240728]]
       collapsed:: true
       - Loghub 目的是承接夸夸周报的上班部分，归档从 [[telegram]] 收集来的内容；在没有接入自动化的前半部分，一切都能做到尽然有序；但是没能做到及时回顾；就算用 Random Notes 也没有用。
-      - 2024 上半年，接入 [[Rongronggg9/RSS-to-Telegram-Bot]] 两个月后，相较于过去三年的数据库，页面数直接翻了一倍，因为相当于把数据库单方面交给了 RSS 订阅的作者去自动化。
-      - [[weekly/1198/wrong-second-brain]] 后，我意识到这是一个错误的第二大脑，笔记存档不应该由自动化接入，不应该如此简单，对于笔记，我应该做一个慈善的独裁者。
+      - 2024 上半年，接入 [[RSS-to-Telegram-Bot]] 两个月后，相较于过去三年的数据库，页面数直接翻了一倍，因为相当于把数据库单方面交给了 RSS 订阅的作者去自动化。
+      - [[weekly/1198-wrong-second-brain]] 后，我意识到这是一个错误的第二大脑，笔记存档不应该由自动化接入，不应该如此简单，对于笔记，我应该做一个慈善的独裁者。
       - 所以这些周报暂时以 journals 的形式存在了我的库里，但问题到这里还没有解决，因为如果这些 blocks 不能聚合，以周报的形式进行输出，还有第二种可能吗？
       - 我现在还不能给出答案，但是可以确定的是，这不是一种妥善的方式。
       - collapsed:: true

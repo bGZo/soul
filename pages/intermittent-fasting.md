@@ -1,5 +1,15 @@
-also:: intermittent-fasting, 断食
-tags:: #health
+icon:: 📄
+also:: 间歇性断食
+created:: [[20240803]]
+type:: hobby
 
-- TODO Dave Asprey 的书《 Fast This Way 》
--
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace intermittent-fasting}}
+- ## ↩ Reference
+  -

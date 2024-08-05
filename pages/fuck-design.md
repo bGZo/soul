@@ -4,11 +4,12 @@ created:: [[20240803]]
 status:: writing/draft
 tags:: #design 
 type:: sucks
+exclude-from-graph-view:: true
 
 - Account include activities timeline | 全记录用户数据
   collapsed:: true
   - [[zhihu]]
-  - [[Bangumi]]
+  - [[bangumi]]
 - Account only support singleton session | 单设备登陆
   collapsed:: true
   - Alipay
@@ -32,5 +33,8 @@ type:: sucks
     - ......
 - Account cannot be deleted, cannot be exported | 无法删除, 无法导出
   collapsed:: true
+- Product never has [[changelog]]
+  collapsed:: true
+  - 我不需要看你的文档 (Intro Articles), 拜托, 只需要告诉我和上个版本有什么变化就可以(有一点点傲慢), 摆脱对他人搬运的依赖. 就像是处理内容农场一样
 - ## ↩ Reference
   -

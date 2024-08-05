@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20211001]]
+exclude-from-graph-view:: true
 status:: writing/published
 
 - 21年10月第三个周末看到了 [@february](https://sunhuiquan.github.io/) 个人的 blog, 感慨他能在学校的环境下做出如此的成就, 心血来潮, 也想赶在表达欲消失之前, 简单写些自己的编码经历. 奈何这几年来文件管理做的不好, 犄角旮旯藏的都是自己的写的小 Sticks; 从 ubuntu 迁移到 windows 更是丢了自己一年的历史数据; 加上不正确的记忆, 东拼西凑, 勉强挤出些文字, 却是囿于自己的笔力浅薄, 删改不断, 写完回读, 又弗如远甚. 罢了, 凑合着看吧...

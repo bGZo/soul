@@ -1,6 +1,3 @@
-also:: [[logseq/template]]
-icon:: 📄
-created:: [[20230531]]
 exclude-from-graph-view:: true
 
 - ## Why

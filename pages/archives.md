@@ -7,7 +7,6 @@ tags:: #archive
 - ## Webs
   query-sort-by:: page
   query-sort-desc:: false
-  collapsed:: true
   {{query (page-property :type archives-web)}}
 - ## How
   -

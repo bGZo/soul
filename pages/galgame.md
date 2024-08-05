@@ -1,34 +1,23 @@
 icon:: 🎮
 also:: ギャルゲーム, ギャルゲー, ギャルゲ, 美少女游戏, 萌游戏, Visual Novel, game/galgame
-moegirl:: https://zh.moegirl.org.cn/zh-hk/Galgame
+description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / hentai
 wikipedia:: https://en.wikipedia.org/wiki/Bish%C5%8Djo_game
-description:: 主要以具有魅力的女性为卖点类型的游戏的俗称 / 乙女游戏 Otome Game, 冒险游戏 / [[hentai]]
-template:: galgame
-template-including-parent:: false
 
-  - cover:: ![🖼]()
-    also:: galgames/``{ c.page.name }``
-    created:: ``{ date.now.format('YYYYMMDD') }``
-    bangumi:: https://bgm.tv/subject/
-    douban:: https://www.douban.com/
-    developer:: 
-    icon:: 🎮
-    tags::
 - ## WHY
-  - I know this kind of game from [*Oreimo*](https://bgm.tv/subject/5436), and I'm really drawn to it. I used to treat it like an alternative to [[anime]], basically it's same except a little complex.
-  - Then I know there is rating system for arts, expecially R18 game, which I almost have no education to [[sex]]. So I was addiacted in it deeper, and then find it's nothing if the story is bad.
-  - A lot of things happened in [[china]] Internet, such as the policy is changed (to be more restrict, filling with recopy, report ( ((6463a921-47df-47b6-b7e6-971bee380898)) ) and sell again), Zh-Hans-Translation group disbanded appear more and more (See ((64625a01-b388-4404-91a9-baf438852bfe))).
-  - Simply speaking, the whole market is exposed outside and turned to legal. Things is not turn good way to develop, because the rule of [[censor]] is not public. So I never touched a domestic galgame till now, because I don't think how deep in some topic they could reach, and that matters.
-  - Yet the most friendly platform is [[steam]], but they have the censor as well, including child porn or something else, which is different with [[Japan]]. I doubt, does it make sense? I don't know. I just dream a platform, which could give me all I want. But seemly it's just a dream. (See ((6463bf85-9f47-43a8-b65f-047dc1e2ebdf)))
+  - I know this kind of game from [*Oreimo*](https://bgm.tv/subject/5436), and I'm really drawn to it. I used to treat it like an alternative to anime, basically it's same except a little complex.
+  - Then I know there is rating system for arts, expecially R18 game, which I almost have no education to sex. So I was addiacted in it deeper, and then find it's nothing if the story is bad.
+  - A lot of things happened in china Internet, such as the policy is changed (to be more restrict, filling with recopy, report ( ((6463a921-47df-47b6-b7e6-971bee380898)) ) and sell again), Zh-Hans-Translation group disbanded appear more and more (See ((64625a01-b388-4404-91a9-baf438852bfe))).
+  - Simply speaking, the whole market is exposed outside and turned to legal. Things is not turn good way to develop, because the rule of censor is not public. So I never touched a domestic galgame till now, because I don't think how deep in some topic they could reach, and that matters.
+  - Yet the most friendly platform is steam, but they have the censor as well, including child porn or something else, which is different with Japan. I doubt, does it make sense? I don't know. I just dream a platform, which could give me all I want. But seemly it's just a dream. (See ((6463bf85-9f47-43a8-b65f-047dc1e2ebdf)))
   - In broad strokes, I devided it into two categories now, althougt they have more details. (See ((64625a01-1706-4e5d-ba30-e303492e8e84)))
-    - [[galgame/jerk-off]] (See [[hentai]] details)
-    - [[galgame/god]]
+    - galgame/jerk-off (See hentai details)
+    - galgame/god
 - ## HOW
   - DONE How to [[unpack]] a galgame, for getting their resource?
     collapsed:: true
     - ((63db96e5-053c-4978-8860-a305fa58f26c))
       id:: 63da20d9-3875-4191-a09a-735a0ca76cc5
-    - DONE Mp4 No Loss Encode | MP4无损压缩 #issue #ffmpeg
+    - DONE Mp4 No Loss Encode | MP4无损压缩
       collapsed:: true
       - ```bash
         ffmpeg -i $in -c:v libx264 -c:a libfaac -crf 20 -preset:v veryslow $out
@@ -41,9 +30,9 @@ template-including-parent:: false
         - 自己试了下0, 无损压缩, 文件大小从30M -> 300M
       - via: [shell - FFMPEG convert .mpg video to .mp4 without lose quality - Stack Overflow](https://stackoverflow.com/questions/33672960/ffmpeg-convert-mpg-video-to-mp4-without-lose-quality)
         - WAITING [Encode/H.264 – FFmpeg](https://trac.ffmpeg.org/wiki/Encode/H.264)
-    - DONE Diff 2 compressed video info (size under different bitrate/High@L ...)? #issue
+    - DONE Diff 2 compressed video info (size under different bitrate/High@L ...)?
       collapsed:: true
-      - 比较两个命令的输出有何区别 (最好着色)? #diff
+      - 比较两个命令的输出有何区别 (最好着色)?
         - ```shell
            diff -u --color <(mediainfo --fullscan wbgm08.mp4) <(mediainfo --fullscan default.mp4)
           ```
@@ -73,11 +62,7 @@ template-including-parent:: false
         - ```shell
           diff -r dir1 dir2
           ```
-    - title:: [【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩](https://www.bilibili.com/read/cv6488276)
-      author:: Reca_ザキ
-      tags:: #archive/web
-      created:: [[20221121]]
-      archive:: [💾 Archived](assets/archived_web/【技术】新人也能懂的galgame游戏解包方法 - 哔哩哔哩 (11_21_2022 10_05_08 PM).html)
+    - [[新人也能懂的galgame游戏解包方法]]
   - DONE How to play in different devices?
     collapsed:: true
     - [zeas2/Kirikiroid2](https://github.com/zeas2/Kirikiroid2)
@@ -87,19 +72,23 @@ template-including-parent:: false
       collapsed:: true
       - [onsshare/onscripter: onscripter clootection](https://github.com/onsshare/onscripter)
     - [xupefei/Locale-Emulator: Yet Another System Region and Language Simulator](https://github.com/xupefei/Locale-Emulator)
+  - DONE Should I build each page for every single galgame? Just like book, Is that necessary? ~~Pointful~~ Meaningful? @20221121
+    collapsed:: true
+    - **Unlike book**, they wont have a single page
+      - But if, one day, the discuss about origin game increased a huge amount. I will turn it to page. But now, I just record the name I played, I don't have too interest and energy in it. \#changelog/wiki
+        - ==In a way, this is a decide about hierarchy for content, or just for category?==
+        - And this decision is not limited to galgame, more adopt to items of 2022, like hobby / archive. If they're huge, turn it to page, not build a single page immediately.
   - WAITING How to play without zh-has translation?
     collapsed:: true
     - title:: hanmin0822/MisakaTranslator
       author:: hanmin0822
       description:: "御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具"
-      tags:: #github
       source::  [hanmin0822/MisakaTranslator: 御坂翻译器—Galgame/文字游戏/漫画多语种实时机翻工具](https://github.com/hanmin0822/MisakaTranslator) ![](https://img.shields.io/github/stars/hanmin0822/MisakaTranslator)
       created:: 202012
       description:: Doc with [GAL党的福音——开源生肉翻译器MisakaTranslator正式版发布 - 知乎](https://zhuanlan.zhihu.com/p/112895928)
     - title:: miaomiaosoft/PandaOCR
       author:: miaomiaosoft
       description:: "多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码"
-      tags:: #github
       source:: [miaomiaosoft/PandaOCR: PandaOCR - 多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码](https://github.com/miaomiaosoft/PandaOCR) ![](https://img.shields.io/github/stars/miaomiaosoft/PandaOCR)
       created:: 202012
     - Windows 11 live caption
@@ -181,23 +170,29 @@ template-including-parent:: false
       - [弥生月/善雅鸽 汉化组](https://esugugugu.com/)
       - [独占汉化组](https://dzhhz.wordpress.com/author/duzhanhanhua/)
       - [杏爱会](https://pooi.moe/)
-    - Report #sucks
-      - ⌈终焉无脑韛-单推水巴⌋ 举报汉化到柚子社 #2020
-        id:: 6463a921-47df-47b6-b7e6-971bee380898
-        - ((6463c4a4-6fc6-45a2-b266-56038e219ec0))
-        - [如何评价录制汉化galgame视频上传哔哩哔哩的行为？ - 知乎](https://www.zhihu.com/question/62779037/answer/288546281)
-        - [3月24日弥生月汉化组举报事件始末 我们究竟还要迫害为我们默默奉献的人多久](https://www.bilibili.com/read/cv5275470/)
-        - [如何评价b站up主终焉无脑韛-单推水巴到柚子社官推举报某汉化组, 导致汉化组终止原有计划并提前解散?](https://www.zhihu.com/question/382070522/answer/1101695673)
-      - ((6463ace1-77ef-4506-ba7f-0c3d9cf0e89a))
-  - [[bookmark]]
-    collapsed:: true
-    - [月幕Galgame-最戳你XP的美少女游戏综合交流平台 | 来感受这绝妙的艺术体裁](https://www.ymgal.games/index)
-    - [GAL必备 - ACG喵导航](https://www.miaoaaa.com/favorites/gal%e5%bf%85%e5%a4%87)
-- collapsed:: true
-  ----
-  - DONE Should I build each page for every single galgame? Just like [[book]], Is that necessary? ~~Pointful~~ Meaningful? @20221121
-    collapsed:: true
-    - **Unlike book**, they wont have a single page
-      - But if, one day, the discuss about origin game increased a huge amount. I will turn it to page. But now, I just record the name I played, I don't have too interest and energy in it. #changelog/wiki
-        - ==In a way, this is a decide about hierarchy for content, or just for category?==
-        - And this decision is not limited to galgame, more adopt to items of [[2022]], like [[hobby]] / [[archive]]. If they're huge, turn it to page, not build a single page immediately.
+  - bookmark
+- ## Namespace
+  - {{namespace galgame}}
+- ## ↩ Reference
+  - [月幕Galgame-最戳你XP的美少女游戏综合交流平台 | 来感受这绝妙的艺术体裁](https://www.ymgal.games/index)
+  - [GAL必备 - ACG喵导航](https://www.miaoaaa.com/favorites/gal%e5%bf%85%e5%a4%87)
+  - https://zh.moegirl.org.cn/zh-hk/Galgame
+  - [我的galgame资源站--忧郁的loli_忧郁的弟弟](https://www.mmgal.com/)
+  - [天遊二次元-非专业的PC及APP之Galgame情报，专攻汉化文字游戏，原天使二次元](https://www.tiangal.com/)
+    - [天使二次元 — 本站专注ACG，主攻Galgame，兼攻Comic，Anime。以汉化版Galgame为主，为未来Gal中文界培养生力军。](https://www.tianshie.com/)
+  - [GMgard ](https://gmgard.com/)
+  - [琉璃神社★分享动漫快乐](https://acg.gy)
+  - [南+ South Plus - powered by Pu!mdHd](https://www.south-plus.net/)
+    - [北+ South Plus - powered by Pu!mdHd](https://www.north-plus.net/)
+    - [西+ South Plus - powered by Pu!mdHd](https://www.east-plus.net/)
+    - [夏+ South Plus - powered by Pu!mdHd](https://www.summer-plus.net/)
+  - [紳士 - 4Gamers](https://www.4gamers.com.tw/gentlemen)
+  - [ACG里世界](https://acgn.zone/)
+  - [『澄空学园』 GalGame专题网](https://bbs.sumisora.net/)
+  - [混沌心海 -](https://imcsea.club/)
+  - [臭鼬娘 - 恋屁同好交流分享](https://www.skunkgirl.cc/)
+  - [M社討論組](https://lt.gkdacg.com/)
+  - [ようこそ、紳士会所へ！](https://www.sshs.pw/)
+  - [Comici | 漫爱次元](https://www.comici.win/)
+  - ~~[紳士向 | 搜尋標籤 | udn遊戲角落](https://game.udn.com/game/tag/紳士向)~~
+-

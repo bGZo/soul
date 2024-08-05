@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20240801]]
+exclude-from-graph-view:: true
 status:: writing/published
 tags:: #external-link #internet, #china
 
@@ -39,11 +40,11 @@ tags:: #external-link #internet, #china
     > 例如 WX 就没有限制在公众号带 tb 店的货，因为它没有成熟度类似的 C2C 电商平台，只有自家有份的京东才能享受到跳转优化。[^VPS_3]
   - 最简单, 烂大街的个人博客都是如此, 不必说企业的压力了, 若再把外联消除掉, 落实实名制度, 还要时刻提防自己博客中出现的不合规内容, 那这个人博客耗费的精力是在太过高昂了. 起步即劝退.
   - 最近十年, 一个更加含蓄的方向就是跳转链接和短链, 如知乎. 简书, CSDN 的跳转链接(`https://link.zhihu.com/?target=`), 和 `t.cn` / `b23.tv` / `dou.bz` / `dwz.cn` / `bit.ly` / `adf.ly` 等短链服务;
-  - ![firefox_80.png](../assets/firefox_80_1674237082414_0.png)
+  - ![firefox_80.png](../../soul/assets/firefox_80_1674237082414_0.png)
   - 可是纵使像 Twitter 这类隐晦的跳转, 但是我依旧觉得是互联网的牛皮藓, 因为:
   - 1. 如克拉克定律所说[^THREE_LAWS], "**在任何一项足够先进的技术和魔法之间，我们无法做出区分**", 虽然链接跳转算不是什么先进技术, 但是**跳转过程可能存在无数无感知的暗箱操作**, 而这一过程用户永不可能知悉. 可是, 如果我看到 `youtube` 的二级域名, 我会知道这是一个视频, 如果链接有 `twitter/xxx/status` 的字样, 我会知道只是一条推文,  但如果我给你一个 <https://t.co/jw9a4ZOxFB>, 你真的能知道这里面是什么吗?🐶 [^ANSWER]
     2. **非隐私友好**, 作为一个开发人员, 我乐于看到数据统计, 尤其是 [Google Analytics](https://analytics.google.com) 一类的东西, 因为能看到读者每一个操作的统计记录[BLOG_DESIGN], 甚至浏览时长, 滑动, 点击, 但是我相信, 任何一个人都不希望被别人 Track, 如同我们不希望坐在我们对面的那些人, 知道我们中午吃了什么, 上周日在哪里, 又做了什么一样;
-    ![joined-screenshot.jpg](../assets/joined-screenshot_1674276217942_0.jpg)
+    ![joined-screenshot.jpg](../../soul/assets/joined-screenshot_1674276217942_0.jpg)
     3. **自带软墙属性**, 如郝海龙软墙一文中讲的[^WALL], 很多人会因为设计者有意的设计, 而放弃访问这个站点, 达到把你留在本网站这一目的. 他不会考虑所他抹杀掉的, 你那可贵的好奇心, 至于原因什么的, 能编的要多少有多少, 无所顾忌, 反正用户也不 care, 也从不会证伪;
 - ### The future with white list
   collapsed:: true

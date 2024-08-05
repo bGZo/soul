@@ -114,8 +114,27 @@ type:: hobby
       - i社
   - Contempt Chain | 鄙视链 #[[meme]]
     collapsed:: true
-    - ![game-disdain-chain.png](../assets/game-disdain-chain_1647196230580_0.png){:height 350, :width 747}
+    - ![game-disdain-chain.png](../../soul/assets/game-disdain-chain_1647196230580_0.png){:height 350, :width 747}
 - ## Namespace
   - {{namespace game}}
 - ## ↩ Reference
-  -
+  - [[navigation]]
+    - #### 👥 community
+      - [其乐 Keylol](https://keylol.com/)
+      - [Steam Community](https://steamcommunity.com/)
+      - [机核 GCORES](https://www.gcores.com/)
+      - [小黑盒 - 高能玩家聚集地](https://xiaoheihe.cn/home)
+      - [SteamPY_安全省钱的Steam游戏交易市场](https://steampy.com/)
+      - [游民星空 - 大型单机游戏门户 提供特色单机游戏资讯、下载](https://www.gamersky.com/)
+      - [TapTap | 发现好游戏](https://www.taptap.cn/)
+        - [TapTap | Worlds worth discovering.](https://www.taptap.io/)
+    - Pirated Game | 盗版游戏
+      - [Cкачать игры на ПК (последние версии 2022) через торрент бесплатно](https://byrut.org/)
+      - [IGGGAMES » Free Download PC Games - Direct Links - Torrent](https://iigggames.com/)
+      - [单机游戏_单机游戏下载_单机游戏大全中文版下载_3DM游戏网](https://www.3dmgame.com/)
+      - [Switch520](https://xxxxx520.com/)
+    - Game Show
+      - [:::G-EIGHT::: Gamer, Entertainment, Indie game, Gathering, H-Game ](https://geight.io/) #taiwan
+    - 众筹 / 集资
+      - [遊戲 專案探索 | 嘖嘖 zeczec × 讓美好的事物發生：台灣的群眾集資平台](https://www.zeczec.com/categories?category=13&page=1) #taiwan
+      - [摩点 - 发现新奇好物](https://www.modian.com/)

@@ -1,1 +1,3 @@
-also:: java runtime environment, java/runtime/environment, runtime/environment/java
+icon:: ☕
+also:: java runtime environment
+tags:: runtime

@@ -14,8 +14,7 @@ created:: [[20240719]]
 -
 - ## Why
   -
-- ## How 
-  #tool/archive
+- ## How
   - [gildas-lormeau/SingleFile: Web Extension and CLI tool for saving a faithful copy of an entire web page in a single HTML file](https://github.com/gildas-lormeau/SingleFile) ![](https://img.shields.io/github/stars/gildas-lormeau/SingleFile);
     - [SingleFile - Chrome Web Store](https://chrome.google.com/webstore/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle?hl=en)
     - [SingleFileZ - Chrome Web Store](https://chrome.google.com/webstore/detail/singlefilez/offkdfbbigofcgdokjemgjpdockaafjg/)
@@ -37,7 +36,7 @@ created:: [[20240719]]
 -
 -
 - ## What
-  - 哪一个更加安全? 更加有效? #discuss
+  - 哪一个更加安全? 更加有效? #question
     - > 劝你别用 webarchive， 它会被 DMCA 管制
       可以弄一个 tg 群或者某些群组，或者匿名版之类的，再或者 onion
       via: [迫于互联网上文章被删，求大家存档工具 - V2EX](https://www.v2ex.com/t/797613)

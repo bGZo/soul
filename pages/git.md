@@ -59,7 +59,7 @@ type:: tool
         ```
       - `git fetch` -> why don't integrate into HEAD?
         - `git fetch` + `git merge` == `git pull` via https://www.jianshu.com/p/a5c4d2f99807
-        - ![image.png](../assets/image_1645371143990_0.png){:height 188, :width 632}
+        - ![image.png](../../soul/assets/image_1645371143990_0.png){:height 188, :width 632}
         - ```bash
           git fetch origin master
           git log -p master..origin/master
@@ -210,7 +210,7 @@ type:: tool
     collapsed:: true
     - [GitHub - liangzr/github-run: Let your contributions graph running](https://github.com/liangzr/github-run)
 - ## ↩ Reference
-  - ![git-cheatsheet.pdf](../assets/git-cheatsheet_1645371794288_0.pdf)
+  - ![git-cheatsheet.pdf](../../soul/assets/git-cheatsheet_1645371794288_0.pdf)
   - https://www.v2ex.com/t/828792
   - [撤销git add - SegmentFault 思否](https://segmentfault.com/q/1010000006864939)
   - https://learnxinyminutes.com/docs/zh-cn/git-cn/

@@ -1,12 +1,12 @@
+icon:: 🗺
 also:: develop/roadmap
-tags:: TODO
 
 - Refs via: [study-plan · GitHub Topics](https://github.com/topics/study-plan) & https://github.com/search?q=stars:>100000
   - [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) ![](https://img.shields.io/github/stars/freeCodeCamp/freeCodeCamp)
   - [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) ![](https://img.shields.io/github/stars/kamranahmedse/developer-roadmap)
     collapsed:: true
     - [ccloli/developer-roadmap-zh-CN-2020](https://github.com/ccloli/developer-roadmap-zh-CN) ![](https://img.shields.io/github/stars/ccloli/developer-roadmap-zh-CN)
-      #deprecated
+      \#deprecated
   - [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ![](https://img.shields.io/github/stars/EbookFoundation/free-programming-books) #[[book]]
     collapsed:: true
     - [大家来推荐几本对职业生涯影响较大的技术书籍 - V2EX](https://www.v2ex.com/t/795885)
@@ -20,14 +20,14 @@ tags:: TODO
   - [lib-pku/libpku: 北京大学课程资料民间整理](https://github.com/lib-pku/libpku) ![](https://img.shields.io/github/stars/lib-pku/libpku)
   - [QSCTech/zju-icicles: 浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles) ![](https://img.shields.io/github/stars/QSCTech/zju-icicles)
   - [PKUanonym/REKCARC-TSC-UHT: 清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT) ![](https://img.shields.io/github/stars/PKUanonym/REKCARC-TSC-UHT)
-  - [[PKUFlyingPig/cs-self-learning]]
+  - [[cs-self-learning]]
   - [USTC-Resource/USTC-Course: 中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course) ![](https://img.shields.io/github/stars/USTC-Resource/USTC-Course)
   - [kxxwz/SJTU-Courses: 上海交通大学课程资料分享](https://github.com/kxxwz/SJTU-Courses) ![](https://img.shields.io/github/stars/kxxwz/SJTU-Courses)
   - [zjdx1998/seucourseshare: 东南大学课程共享计划](https://github.com/zjdx1998/seucourseshare) ![](https://img.shields.io/github/stars/zjdx1998/seucourseshare)
   - [sysuexam/SYSU-Exam: 收集整理SYSU期末考试卷子、资料](https://github.com/sysuexam/SYSU-Exam) ![](https://img.shields.io/github/stars/sysuexam/SYSU-Exam)
   - [idealclover/NJU-Review-Materials: 📝 南哪(南大)课程复习资料 Review materials for NJU](https://github.com/idealclover/NJU-Review-Materials) ![](https://img.shields.io/github/stars/idealclover/NJU-Review-Materials)
   - [📚各大高校课程资源汇总，在Github上大学](https://studyhard.cf/)
-- [[Mind map]]
+- [[mindmap]]
   - [geekxh/hello-beginner: github 最全技术类思维导图](https://github.com/geekxh/hello-beginner) ![](https://img.shields.io/github/stars/geekxh/hello-beginner)
   - [justjavac/programming-mindmap: 编程相关的思维导图](https://github.com/justjavac/programming-mindmap) ![](https://img.shields.io/github/stars/justjavac/programming-mindmap)
   - [caiyongji/full-stack-mind-map: 全栈技术思维导图](https://github.com/caiyongji/full-stack-mind-map)![](https://img.shields.io/github/stars/caiyongji/full-stack-mind-map)

@@ -1,9 +1,10 @@
-also:: 豆瓣做的恶
+also:: 豆瓣作的恶
 icon:: 🤮
 created:: [[20240803]]
 status:: writing/draft
 tags:: #douban 
 type:: sucks
+exclude-from-graph-view:: true
 
 - 为了强推绑定手机号
   collapsed:: true

@@ -6,8 +6,7 @@ exclude-from-graph-view:: true
 - ## Why
 - ## How
 - ## What
-- collapsed:: true
-  #+BEGIN_QUERY
+- #+BEGIN_QUERY
   {:title [:h3 "All Issues in Other Page"]
    :query [:find (pull ?b [*])
            :where
@@ -18,8 +17,7 @@ exclude-from-graph-view:: true
    :table-view? false
   }
   #+END_QUERY
-- collapsed:: true
-  #+BEGIN_QUERY
+- #+BEGIN_QUERY
     {:title [:h6 "Blocks tagged #issue"]
      :query [:find (pull ?h [*])
              :in $ ?target

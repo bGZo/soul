@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20230506]]
+exclude-from-graph-view:: true
 status:: writing/published
 
 - I don't know how to deal relationship with my parents

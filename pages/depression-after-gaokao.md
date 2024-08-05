@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20240713]]
+exclude-from-graph-view:: true
 status:: writing/draft
 
 - draft/高考后的发疯日记

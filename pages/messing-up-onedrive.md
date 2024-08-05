@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20221025]]
+exclude-from-graph-view:: true
 status:: writing/draft
 tags:: #onedrive #geek
 

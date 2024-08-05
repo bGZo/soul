@@ -6,11 +6,11 @@ icon:: 📄
 - [:h2 {:class text-right} "Quick start"]
   - 收集箱 => 📥[[inbox]]
     logseq.order-list-type:: number
-  - 执行清单 => 🏃[[content checklist]]
+  - 执行清单 => 🏃[[checklist/content]]
     logseq.order-list-type:: number
-  - 项目清单 => 📂[[project checklist]]
+  - 项目清单 => 📂[[checklist/project]]
     logseq.order-list-type:: number
-  - 等待清单 => 🤔[[waiting checklist]]
+  - 等待清单 => 🤔[[checklist/waiting]]
     logseq.order-list-type:: number
   - 个人周报 => 📅[[weekly]]
     logseq.order-list-type:: number

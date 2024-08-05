@@ -10,7 +10,7 @@ bangumi:: {{bangumi }}
 douban:: {{dougame }}
 
 - ## Series
-  - ![](../assets/game_rance/Rance-series-nav-full.webp)
+  - ![](../../soul/assets/game_rance/Rance-series-nav-full.webp)
     via: [Rance Series | AliceSoftWiki | Fandom](https://alicesoft.fandom.com/wiki/Rance_Series)
   - DONE Rance 01 寻找小光
   - DONE Rance 02 叛逆的少女们

@@ -5,7 +5,7 @@ type:: framework/java
 - ## Why
 - ## How
 - ## What
-  - ![Spring Boot Reference  Documentation Version 3.0.2](../assets/doc_spring-boot-reference_1674720393793_0.pdf) #Quickref
+  - ![Spring Boot Reference  Documentation Version 3.0.2](../../soul/assets/doc_spring-boot-reference_1674720393793_0.pdf]]
     id:: 63d23474-5062-468a-818e-2cf1dacd8ecb
   - [5 Spring Boot Projects in 10 Hours - Line by Line Coding 🔥](https://www.youtube.com/watch?v=VR1zoNomG3w)
     collapsed:: true

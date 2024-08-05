@@ -187,7 +187,6 @@ created:: [[20230602]]
       {{iframe https://gist.github.com/bGZo/82a76ecbebf81b556a1d20a91a6bd21a}}
 - ## What
   - >上机 3h，测试网络 2h，刚敲没半个小时，下课了，草 🤯
-    #joke
   - What is proxies? And how many specifications (protocols) they have?
     collapsed:: true
     - [SS](https://shadowsocks.org/) / [Shadowsocks](https://github.com/shadowsocks)
@@ -208,13 +207,13 @@ created:: [[20230602]]
         collapsed:: true
         - SSH Tunnel
           collapsed:: true
-          ![🖼 ](../assets/2023/whats-shadowsocks-03.png)
+          ![🖼 ](../../soul/assets/2023/whats-shadowsocks-03.png)
           - 1) 首先用户和境外服务器基于 ssh 建立起一条加密（RSA）的通道
           - 2-3) 用户通过建立起的隧道进行代理，通过 ssh server 向真实的服务发起请求
           - 4-5) 服务通过 ssh server，再通过创建好的隧道返回给用户
         - Shadowsocks
           collapsed:: true
-          ![🖼 ](../assets/2023/whats-shadowsocks-04.png)
+          ![🖼 ](../../soul/assets/2023/whats-shadowsocks-04.png)
           - #+BEGIN_NOTE
             简单理解的话，shadowsocks 是将原来 ssh 创建的 Socks5 协议拆开成 server 端和 client 端，所以下面这个原理图基本上和利用 ssh tunnel 大致类似
             #+END_NOTE
@@ -337,7 +336,7 @@ created:: [[20230602]]
     collapsed:: true
     - Another useful file is `GeoIP`, which is supported by [MAXMIND](https://www.maxmind.com/en/geoip2-country-database), to determine an Internet visitor's country based on their IP address. And this file is often used in your `config.yaml`. Check your configure )
       collapsed:: true
-      - ![Code_211.png](../assets/Code_211_1676435689409_0.png)
+      - ![Code_211.png](../../soul/assets/Code_211_1676435689409_0.png)
       - Check document in [Configuration · Dreamacro/clash Wiki](https://github.com/Dreamacro/clash/wiki/configuration)
         collapsed:: true
         - > **Rules**
@@ -556,10 +555,3 @@ created:: [[20230602]]
       - > *往往不需要政府造墙，网民也会自发造墙*
     - ==[欢迎 - 教程WIKI](https://help.happynothings031.xyz/)==
     - [关于在使用 Clash 过程中遇到的问题 - 明心的博客 | 明心 Blog](https://benjamingao.github.io/2019/03/02/%E5%85%B3%E4%BA%8E%E5%9C%A8%E4%BD%BF%E7%94%A8-Clash-%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/)
-  - collapsed:: true
-    #+BEGIN_IMPORTANT
-    Proxies [[sucks]] as well, which would be identified and treated as spam by some service providers.
-    #+END_IMPORTANT
-    - Reddit [[sucks]]
-      collapsed:: true
-      - [I got the error message "Looks like you've been doing that a lot. Take a break for 5 minutes before trying again." when posting my first thread in 8 days. : help](https://www.reddit.com/r/help/comments/nh2tsy/i_got_the_error_message_looks_like_youve_been/)

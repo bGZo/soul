@@ -1,9 +1,10 @@
-also:: 阮一峰做的恶
+also:: 阮一峰作的恶
 icon:: 🤮
 created:: [[20240803]]
 status:: writing/draft
 tags:: #ruanyifeng 
 type:: sucks
+exclude-from-graph-view:: true
 
 - collapsed:: true
   >您使用了广告拦截器，导致本站内容无法显示。

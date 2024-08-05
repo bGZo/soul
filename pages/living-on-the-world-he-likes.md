@@ -1,9 +1,10 @@
-icon:: 📝
 created:: [[20240503]]
+icon:: 📝
+also:: 靠喜欢之人活着的男人
+exclude-from-graph-view:: true
 status:: writing/published
 {{iframe https://bgm.tv/blog/338114,40vh,iframe-radius}}
 
-- # 靠喜欢之人活着的男人
 - 故事终于读完了，从清明假期读完共通线之后，一直沉迷在尾上的幻想中。小心翼翼保持着一个星期一条线的节奏，乃乃线留到了五一，就在昨晚，终于开启了 TRUE 线，很短，不到一个小时的时间就画上了句点。
 - 两年前读完素晴日的那种感觉再度袭来，虽然后劲不及前者，但是故事不由分说，还是单方面地结束了。尽管猜到一半，不愿意相信，但看到官方的 FD 之后，确信了，拓留还是进去了，为了他的孩子，尾上世利嘉。
 - ![image.png](../assets/image_1714719511984_0.png){:height 476, :width 747}

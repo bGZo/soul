@@ -24,5 +24,5 @@ wikipedia:: https://en.wikipedia.org/wiki/Web_API
 - ## Namespace
   - {{namespace web-api}}
 - ## ↩ Reference
-  - ![image.png](../assets/wiki/image_1668337528771_0.png)
+  - ![image.png](../../soul/assets/wiki/image_1668337528771_0.png)
 -

@@ -60,3 +60,9 @@ created:: [[20230704]]
       - [steam 跨区与游玩非正版游戏有哪些区别？ - 知乎](https://www.zhihu.com/question/471974650)
       - [为什么 Steam 中国区这么便宜？ - 知乎](https://www.zhihu.com/question/277905509)
       - [steam俄区用中国ip用贝宝买游戏会出现红信或其他情况吗](https://www.zhihu.com/question/441876380/answer/2291288895)
+- ## References
+  - [[navigation]]
+    - [Bottom 100 worst Steam Games – Steam 250](https://steam250.com/bottom100) | Steam 差评榜
+      - https://store.steampowered.com/search/?sort_by=Reviews_ASC
+      - https://store.steampowered.com/search/?sort_by=Reviews_DESC
+-

@@ -25,7 +25,7 @@ wikipedia:: https://en.wikipedia.org/wiki/Jakarta_Server_Pages
   - 语法
     - 内置对象 / 保留字(9)
       collapsed:: true
-      - ![image.png](../assets/imu/java/image_1662376901724_0.png)
+      - ![image.png](../../soul/assets/imu/java/image_1662376901724_0.png)
     - 域对象(4)
       collapsed:: true
       - 都能通过以下 3 个方法，对属性进行保存、获取和移除操作
@@ -35,17 +35,17 @@ wikipedia:: https://en.wikipedia.org/wiki/Jakarta_Server_Pages
           | Object | getAttribute(String name)           | 获取域对象中的属性值 |
           | void   | removeAttribute(String name)        | 将属性从域对象中移除 |
       - 作用域各不相同
-        - ![image.png](../assets/imu/java/image_1662377086775_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662377086775_0.png)
     - JSP 标准标签库 (JSTL)
       collapsed:: true
       - 核心标签
-        - ![image.png](../assets/imu/java/image_1662385290406_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662385290406_0.png)
       - 格式化标签, 格式化并输出文本、日期、时间、数字
-        - ![image.png](../assets/imu/java/image_1662385384978_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662385384978_0.png)
       - SQL, 与关系型数据库（Oracle，MySQL，SQL Server等等）进行交互的标签
-        - ![image.png](../assets/imu/java/image_1662385418119_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662385418119_0.png)
       - JSTL函数
-        - ![image.png](../assets/imu/java/image_1662385498017_0.png)
+        - ![image.png](../../soul/assets/imu/java/image_1662385498017_0.png)
 - ## Namespace
   - {{namespace java-server-pages}}
 - ## ↩ Reference

@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20240801]]
+exclude-from-graph-view:: true
 status:: writing/published
 tags:: #fuck-reality
 
@@ -54,7 +55,7 @@ tags:: #fuck-reality
   - ![ApplicationFrameHost_81.png](../assets/ApplicationFrameHost_81_1674282758820_0.png)
     - Scenario A 是一个存在的 X, 我们认为X感到痛苦 (Pain) 的存在是坏的(Bad), 感到愉悦 (Presence) 的存在是好的(Good); 右边是与之对称的象限, Scenario B是一个不存在的X, 我们知道, 当一个人痛苦的时候, 消解他的存在从而让他不在感到痛苦, 像是把一个经历痛苦的人解放出来, 是好的(Good), 往下看, 对于剥夺一个人的快乐, 我们常常认为是罪恶的, 这也是我们很多人生孩子的理由, 我想也让他在这个世界上幸福地活着, 但是注意, 作者强调, 这是一个不存在的人, 你不对世界上任何人产生剥夺, 它是一个糟糕(bad) 和不那么糟糕(not bad)的问题, 这个时候你又会发现, 如果苦痛糟糕, 愉悦喜闻乐见, 苦痛的缺失很好, 但是愉悦的缺失却不那么糟糕, 也不那么坏, 它落在了两者的灰色地带, 快乐和苦痛之间并没有对称性(symmetry). 可能还是不太清楚, 附上部分原文, 请君定夺:
     - > However, the important question, when the absence ofpleasure involves no deprivation for anybody, is whether it is also ‘not bad’ or whether it is ‘bad’. The answer, I suggest, is that it is ‘not good, but not bad either’ rather than ‘not good, but bad’. Because ‘not bad’ is a more informative evaluation than ‘not good’, that is the one I prefer. However, even those who wish to stick with ‘not good’ will not thereby succeed in restoring symmetry. If pain is bad and pleasure is good, but the absence of pain is good and the absence of pleasure not good, then there is no symmetry between pleasure and pain.
-  - 尽管听了很多讨论, 其实我还是不知道这个问题的答案, 我的恋人, 你知道吗? 我知道可能只是我自己厌世的情绪作祟, 有的时候我会像 [[South Park]] 说的那样想, 若我只是干在我母亲胸脯上的精斑就好了[^SOUTH_PARK]
+  - 尽管听了很多讨论, 其实我还是不知道这个问题的答案, 我的恋人, 你知道吗? 我知道可能只是我自己厌世的情绪作祟, 有的时候我会像 [[southpark]] 说的那样想, 若我只是干在我母亲胸脯上的精斑就好了[^SOUTH_PARK]
   - ![E07.jpg](../assets/E07_1674275739482_0.jpg)
 -
 - ## 你是在偷懒, 逃避问题吗?

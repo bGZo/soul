@@ -302,7 +302,7 @@ type:: project/done
       source:: [编制 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/%E7%BC%96%E5%88%B6); [长期看，编制还重要吗？ - 知乎](https://www.zhihu.com/question/356545782/answer/948511722)
       collapsed:: true
       - > 编制这个问题，如果大家都没有的话，无所谓，大家都是一样的，如果你身处在这样的大环境中，别人有而你没有，那你就感觉很不爽了
-      - 编制 #vs 非编制
+      - 编制 vs 非编制
         collapsed:: true
         - 退休后有无正常的工资以及医疗、住房等保障
           编制基本属于事业单位，财政发工资, 无编制的主要是单位发工资
@@ -325,7 +325,7 @@ type:: project/done
       collapsed:: true
       - 国家统一招生的普通高校毕业生离校时和在择业期内（国家规定择业期为二年，有些地方延长至三年）未落实工作单位、其户口、档案、组织关系保留在原毕业学校，或业生就业主管部门（毕业生就业指导服务中心）、各级人才交流服务机构和各级公共就业服务机构的毕业生，可按应届高校毕业生对待。
       -
-    - 校园招聘 #vs 社会招聘
+    - 校园招聘 vs 社会招聘
       collapsed:: true
       - 难度: 校园招聘 < 社会招聘
       - 找工作这事不能图省心省力
@@ -600,7 +600,7 @@ type:: project/done
     - Prepared Progress
       - [[cv]]
       - [[java]] 开发(后端) [[roadmap/develop]]
-        - [[java multithreading]] 学习
+        - [[java-multithreading]] 学习
           - **synchronized**
           - **LockSupport**
           - **yield + 原子类**
@@ -617,7 +617,7 @@ type:: project/done
         - 并发
         - [[spring-framework]]
           - Spring 官方教程
-        - [[spring boot]]
+        - [[spring-boot]]
         - 看到的几套很好的教程
           - [KuangStudy](https://www.kuangstudy.com/course)
             collapsed:: true
@@ -753,7 +753,7 @@ type:: project/done
         - [【Java并发】并发编程的意义是什么？月薪30K必知必会的Java AQS机制_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV12K411G7Fg/)
         - [[Java编程思想]] | JDK 5/6,  有点太老了  Σ( ° △ °|||
         - [[mooc/javaee]]
-        - [[geekbang/Java核心技术]]
+        - geekbang/Java核心技术]]
     - TODO Submit [[cv]];
     - DOING [[spring-in-action]] daily until you done;
       :LOGBOOK:

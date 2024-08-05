@@ -1,4 +1,4 @@
-filters:: {"done" true}
+filters:: {}
 icon:: 🤮
 also:: black list, block, shame, 黑名单, 拉黑
 
@@ -6,7 +6,7 @@ also:: black list, block, shame, 黑名单, 拉黑
     template-including-parent:: false
     collapsed:: true
     - icon:: 🤮
-      also:: ``{ c.page.name }``做的恶
+      also:: ``{ c.page.name }``作的恶
       created:: ``{ ref(date.now.format('YYYYMMDD')) }``
       status:: ``{ 'writing/draft' }``
       type:: ``{ 'sucks' }``

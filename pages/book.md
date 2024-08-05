@@ -1,5 +1,5 @@
 icon:: 📖
-also:: [[书]] 
+also:: 书
 created:: [[20230602]]
 
   - template:: book/reading
@@ -55,7 +55,6 @@ created:: [[20230602]]
       douban:: {{doubook }}
       weread:: {{weread }}
 - ## Why
-  collapsed:: true
   - >What I have lived for?
     >
     Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind. These passions, like great winds, have blown me hither and thither, in a wayward course, over a great ocean of anguish, reaching to the very verge of despair.
@@ -72,12 +71,9 @@ created:: [[20230602]]
     >
     This has been my life. I have found it worth living, and would gladly live it again if the chance were offered me.
     这就是我的一生。我觉得这一生是值得活的，如果真有可能再给我一次机会，我将欣然再重活—次。
-    —— [[罗素]]
+    —— 罗素
 - ## How
-  collapsed:: true
   - How to find / search  books?
-    -
-    -
     - ~~[Z-Library. The world's largest ebook library.](https://z-lib.org/)~~ #R.I.P
     - [Library Genesis](http://libgen.rs/) / [Library Genesis](https://libgen.li/)
     - [Free eBooks | Project Gutenberg](https://www.gutenberg.org/)
@@ -86,33 +82,22 @@ created:: [[20230602]]
     - [Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials](https://freecomputerbooks.com/)
     - [Free-eBooks.net | Download free Fiction, Health, Romance and many more books](https://www.free-ebooks.net/)
   - How to [[unlock]] book DRM?
-    collapsed:: true
     - [apprenticeharper/DeDRM_tools: DeDRM tools for ebooks](https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm) ![](https://img.shields.io/github/stars/apprenticeharper/DeDRM_tools)
     - [FreeMyPDF.com - Removes passwords from viewable PDFs](http://freemypdf.com/)
-  - How to convert [[markdown]] to pdf?
-    collapsed:: true
-    - [Customizing pandoc to generate beautiful pdf and epub from markdown](https://learnbyexample.github.io/customizing-pandoc/)
-  - WAITING How to build reading system [[opensource]], especially without commercial way!
-    collapsed:: true
+  - WAITING How to build reading system [[github]], especially without commercial way!
     - No [[weread]] !!
     - [Moon+ Pro and Calibre Integration - MobileRead Forums](https://www.mobileread.com/forums/showthread.php?t=328164)
     - [电脑上有哪些好用的 ePub 阅读器？ - 知乎](https://www.zhihu.com/question/19979089)
     - [云书库calibre-web搭建（1） | J.F's BLOG](https://blog.zzbd.org/2020/02/29/calibre-web/)
     - [这可能是安卓端最强的电子书阅读APP（“静读天下”使用技巧）_电子书刊_什么值得买](https://post.smzdm.com/p/a3g7dzkd/)
-  - WAITING How to import book using scanning? #anime #Movie #game
-    collapsed:: true
-    - GET_ISBN_INFO
-      - Similar products: GET_ANIME, GET_VIDEO, GET_GAME
-    - [实体图书扫描导入 Notion 实践 · 豆瓣评分版 - Linmi](https://linmi.cc/42154.html)
 - ## What
-  collapsed:: true
   - What I mostly care when I read? 
     collapsed:: true
     - **Digest** ≫ *Print Book* in most cases.
       collapsed:: true
       - `equb` > `awz3` >= `mobi` > `PDF` (**手写UP**)
         - > PDF 是输出文件，不推荐编辑。打个比方，你用什么肥料灌溉米饭？
-          via: [你用什么编辑 pdf? - V2EX](https://www.v2ex.com/t/863307#; ) #discuss
+          via: [你用什么编辑 pdf? - V2EX](https://www.v2ex.com/t/863307#; ) #question
         - 前 3 者可以转换 `PDF`, 过程不可逆. 但 `PDF` 更加通用, 可以直接做文章的引用(准确到页)
           - `mobi/azw*`
             - Amazon 私有格式, 亚马逊利用 `azw` 对电子书做 `DRM` 版权保护
@@ -515,8 +500,11 @@ created:: [[20230602]]
   - JEL分类系统
     collapsed:: true
     - > JEL分类系统, 是美国经济学会《经济文献杂志》（Journal of Economic Literature)所创立的对经济学文献的主题分类系统, 并被现代西方经济学界广泛采用。 该分类方法主要采用开头的一个英文字母与随后的两位阿拉伯数字一起对经济学各部类进行“辞书式”编码分类。
-- ## Namespace
-  - {{namespace book}}
 - ## ↩ Reference
+  - [[实体图书扫描导入Notion实践]]
+    collapsed:: true
+    - WAITING How to import book using scanning on [[logseq]]?
+    - GET_ISBN_INFO
+      - Similar products: GET_ANIME, GET_VIDEO, GET_GAME
   - TODO http://aves.art/
 -

@@ -1,14 +1,12 @@
 icon:: 📝
 created:: [[20240713]]
+exclude-from-graph-view:: true
 status:: writing/draft
 tags:: #windows
 type:: memo
 
 - ## Close Ads
-  - created::  [[20240626]]
-    type:: tool/star
-    source:: https://github.com/xM4ddy/OFGB
-    ![](https://img.shields.io/github/stars/xM4ddy/OFGB)
+  - [[xM4ddy/OFGB]]
 - ## Uninstall build-in soft
   - Setting => Application => installed
     logseq.order-list-type:: number
@@ -37,12 +35,6 @@ type:: memo
         - New Create `UserDefinedDoublePinyinScheme0`
           - `flypy*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt`
 - ## Power Search with Everything & Tool bar
-  - EverythingToolbar
-    icon:: 🛠
-    created:: [[20240731]]
-    document:: https://github.com/srwi/EverythingToolbar
-    status:: tool/star
-    type:: tool
-    ![](https://img.shields.io/github/stars/srwi/EverythingToolbar)
+  - [[EverythingToolbar]]
 - ## References
   - [^china-office]: https://v2ex.com/t/1048191

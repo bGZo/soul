@@ -27,7 +27,7 @@ wikipedia:: https://en.wikipedia.org/wiki/Java_EE
         - 提供数据类型和此类类型的绑定来扩展组件 Bean
       - Jakarta Contexts and Dependency Injection ( [[cdi]] )
         - 提供[依赖注入](https://en.wikipedia.org/wiki/Dependency_injection)容器
-      - [Jakarta Enterprise Beans](https://en.wikipedia.org/wiki/Jakarta_Enterprise_Beans) ([[ejb]])
+      - [Jakarta Enterprise Beans](https://en.wikipedia.org/wiki/Jakarta_Enterprise_Beans) via: [[java-beans]]
         - 定义了一组轻量级 API，对象容器（EJB 容器）将支持这些 API，以便提供[事务](https://en.wikipedia.org/wiki/Transaction_processing)（使用[JTA](https://en.wikipedia.org/wiki/Jakarta_Transactions) ）、[远程过程调用](https://en.wikipedia.org/wiki/Remote_procedure_call)（使用[RMI](https://en.wikipedia.org/wiki/Java_remote_method_invocation)或[RMI-IIOP](https://en.wikipedia.org/wiki/RMI-IIOP) ）、[并发控制](https://en.wikipedia.org/wiki/Concurrency_control)、[依赖关系](https://en.wikipedia.org/wiki/Dependency_injection)业务对象的[注入](https://en.wikipedia.org/wiki/Dependency_injection)和[访问控制](https://en.wikipedia.org/wiki/Access_control)。该包包含 Jakarta Enterprise Beans 类和接口，它们定义企业 Bean 与其客户端之间以及企业 Bean 与 ejb 容器之间的契约。
       - [Jakarta Persistence](https://en.wikipedia.org/wiki/Jakarta_Persistence) ( [[jpa]] )
         - 关系数据库表和 Java 类之间的对象关系映射的规范

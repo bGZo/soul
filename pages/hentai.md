@@ -4,10 +4,7 @@ description:: ACGN + H-scene，即带有色情内容, SM情节, グロ场面 (R-
 tags:: #[[sex]] #galgame
 wikipedia:: [Hentai - Wikipedia](https://en.wikipedia.org/wiki/Hentai#Genres)
 
--
--
--
-- ## [[quickref]]
+- ## quickref
   collapsed:: true
   - |         English terms         |           Japanese terms          | Chinese terms |
     |:-----------------------------:|:---------------------------------:|:-------------:|

@@ -15,7 +15,8 @@ type:: tool
     id:: acaf8742-7083-4d0d-adc9-eaebc5a30b26
     icon:: 📝
     created:: [[20240728]]
-    status:: writing/draft
+    exclude-from-graph-view:: true
+status:: writing/draft
     collapsed:: true
     - The longest I used is firefox and vivaldi. The former I begin to use in high school, but the performance of high usage is not as good as the chrome. So I changed to chrome, which is really faster and feeling good.
     - But the auto updater is annoying. So I deleted its updater software. And that's okey.

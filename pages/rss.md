@@ -36,7 +36,7 @@ tags:: #info
       #+END_CENTER
   - DONE The amount of RSS feed supported by socal media is very few, no matter they are.
     collapsed:: true
-    - We have [[DIYgod/RSSHub]]
+    - We have [[RSSHub]]
   - WAITING Overdesign / design deliberatly, which is hard to fetch normally.
     collapsed:: true
     - 爬取方式

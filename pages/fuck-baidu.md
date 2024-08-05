@@ -1,8 +1,9 @@
 icon:: 🤮
-also:: 百度做得恶
+also:: 百度作的恶
 created:: [[20240713]]
 tags:: #baidu
 type:: sucks
+exclude-from-graph-view:: true
 status:: writing/draft
 
 - ## 为什么用 Google 搜索引擎

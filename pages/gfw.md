@@ -2,7 +2,7 @@ also:: +8, +86, Simple Chinese, Great Firewall
 icon:: 🧱
 created:: [[20230602]]
 tags:: #networking, #china #censor
-background-image:: [obama_big_brother_is_watching_poster.jpeg](../assets/obama_big_brother_is_watching_poster_1674888986914_0.jpeg)
+background-image:: [obama_big_brother_is_watching_poster.jpeg](../../soul/assets/obama_big_brother_is_watching_poster_1674888986914_0.jpeg)
 
   - <!-- [Obama Big Brother Is Watching Poster | Zazzle](https://www.zazzle.co.uk/obama_big_brother_is_watching_poster-228974630743633129) -->
 - ## Why

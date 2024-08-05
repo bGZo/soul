@@ -1,8 +1,9 @@
-also:: utools做的恶
+also:: utools作的恶
 icon:: 🤮
 created:: [[20240803]]
 status:: writing/draft
 type:: sucks
+exclude-from-graph-view:: true
 
 -
 - ## ↩ Reference

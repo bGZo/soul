@@ -104,7 +104,7 @@ type:: interview
       - 限制访问:
         - 静态方法 => 静态成员; ✖类成员
     -
-    - In [[java]], between  [[overload]] #vs [[override]]
+    - In java, between  overload vs override
       - | **区别点**     | **Overload** | **Override** |
         | :--------- | :------- |:----------- |
         | **发生范围**   | 同一个类 | 子类 |

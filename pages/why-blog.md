@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20220101]]
+exclude-from-graph-view:: true
 status:: writing/draft
 
 - ## Remember

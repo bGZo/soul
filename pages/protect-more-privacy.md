@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20240721]]
+exclude-from-graph-view:: true
 status:: writing/draft
 tags:: #privacy
 

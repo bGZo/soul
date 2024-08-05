@@ -1,9 +1,10 @@
 icon:: 🤮
-also:: steam做的恶
+also:: steam作的恶
 created:: [[20240803]]
 status:: writing/draft
 tags:: #steam 
 type:: sucks
+exclude-from-graph-view:: true
 
 - Cannot change SteamID or Steam Account Name #wontfix
   - > Your SteamID and Steam Account Name can not be changed, even by Steam Support staff members. Your player name can be changed at any time in your Profile Settings, under "Edit my Profile" page.

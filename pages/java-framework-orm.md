@@ -1,7 +1,8 @@
 icon:: 📄
 also:: [[]], 
 created:: [[20240802]]
-description:: Java ORM 框架
+description:: 
+type:: framework/orm
 
 - ## Why
   -

@@ -5,7 +5,7 @@ created:: [[20230719]]
 
 - ## Why
 - ## How
-  - [[great/phone]]
+  - [[great-phone]]
 - ## What
   - What's different with [[ios]] and [[android]]
     collapsed:: true

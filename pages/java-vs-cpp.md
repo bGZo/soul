@@ -16,7 +16,7 @@ wikipedia:: https://en.wikipedia.org/wiki/Comparison_of_Java_and_C%2B%2B
     | 类多继承 | ✖(接口替代) | ✔|
     | 操作符重载| ✖ |✔(复杂++)|
     | 内存管理垃圾回收机制(GC) / 内存安全 | ✔ | ✖ |
-  - ## [[java]] #vs [[cpp]]
+  - ## [[java]] vs [[cpp]]
     - **虚函数**
       description:: 为了多态
       - Java 没有虚函数的概念 -> Java 普通函数 == C++ 虚函数

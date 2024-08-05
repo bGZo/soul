@@ -1,5 +1,5 @@
-also:: sexual, 色情, 情色
 icon:: 🔞
+also:: sexual, 色情, 情色
 created:: [[20240409]]
 type:: hobby
 
@@ -7,9 +7,9 @@ type:: hobby
   饱暖思淫欲，每天吃少点并多做运动
   #+END_PINNED
 - ## Why
-  - [[多巴胺]]
+  - 多巴胺
 - ## How
-  - 如何[[做爱]]/[[自慰]]？达到[[高潮]]？
+  - 如何做爱/自慰？达到高潮？
     collapsed:: true
     - 性交（阴道 / 插入式性行为）
     - 肛交
@@ -71,10 +71,10 @@ type:: hobby
       - https://www.google.com/search?q=做爱%20口渴
     - 做爱需要不会破的纸巾
 - ## What
-  - 一个人的性：[[自慰]]
-  - 两人以上的性：[[做爱]]
+  - 一个人的性：自慰
+  - 两人以上的性：做爱
 - ## References
-  - 一些中英术语对照表 #[[quickref]] #translate
+  - 一些中英术语对照表 #translate
     collapsed:: true
     - | English                          | Chinese                                         |
       |----------------------------------|-------------------------------------------------|

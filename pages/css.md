@@ -3,7 +3,7 @@ tags:: #domain-specific-modeling #web
 description:: W3C 的推荐标准; 一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言，由W3C定义和维护
 type:: lang/programming
 
-- ## [[Quickref]]
+- Quickref
   - ### unit
     collapsed:: true
     via: [CSS units - %, em, rem, px, vh, vw - GeeksforGeeks](https://www.geeksforgeeks.org/css-units-em-rem-px-vh-vw/)

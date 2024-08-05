@@ -27,7 +27,7 @@ type:: lang/programming
   - Empty HTML Elements | 内容可为空
   - HTML is Not Case Sensitive | 大小写不敏感
   - HTML Tag Reference
-    - ==Not supported in HTML5== (12) #[[deprecated]]
+    - ==Not supported in HTML5== (12) \#deprecated
       collapsed:: true
       - ~~`<frame> <frameset> <noframes>`~~
       - ~~`<acronym>`~~

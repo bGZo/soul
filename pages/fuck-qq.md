@@ -1,8 +1,9 @@
 icon:: 🤮
-also:: fuck-qq做的恶
+also:: fuck-qq作的恶
 created:: [[20240803]]
 status:: writing/draft
 type:: sucks
+exclude-from-graph-view:: true
 
 - 之前一直使用 QQ 输入法
 - [奇客Solidot | QQ 被发现扫描并上传用户的浏览器历史](https://www.solidot.org/story?sid=66679)

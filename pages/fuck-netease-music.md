@@ -1,8 +1,9 @@
-also:: 网易云音乐做的恶
+also:: 网易云音乐作的恶
 icon:: 🤮
 created:: [[20240803]]
 status:: writing/draft
 type:: sucks
+exclude-from-graph-view:: true
 
 - 网易云的评论和社交真是抓住了人寻到好东西的同时急切想要分享的心态
 - policy via: https://music.163.com/musician/artist/protocol?key=apply

@@ -1,12 +1,21 @@
-also:: Object Relational Mapping, 对象关系映射
+icon:: 📄
+also:: [[]], O/RM, and O/R mapping tool, Object Relational Mapping, 对象关系映射
+created:: [[20240805]]
+description::
 tags:: #oop, #database
+wikipedia:: https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping
 
-- ## WHY？
+- ## Why
   - 因为开发使用**面向对象**，存储却用**关系型数据库**（而非面向对象数据库）；
   - 数据持久化技术
     - 通过描述类对象与数据库表之间的映射关系, 自动将应用程序中的对象持久化到关系型数据库的表中
     - ORM 在对象模型和关系型数据库的表之间建立一座桥梁，程序员使用 API 直接操作 JavaBean 对象就可以实现数据的存储、查询、更改和删除等操作
-- ## References
+- ## How
+  -
+- ## What
+- ## Namespace
+  - {{namespace orm}}
+- ## ↩ Reference
   - [What is an ORM – The Meaning of Object Relational Mapping Database Tools (freecodecamp.org)](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/)
     collapsed:: true
     - Object Relational Mapping (ORM) is a technique used in creating a "bridge" between object-oriented programs and, in most cases, [relational databases](https://www.freecodecamp.org/news/what-is-a-relational-database-rdbms-definition/).
@@ -82,4 +91,4 @@ tags:: #oop, #database
     - We listed some of the popular ORM tools for different programming languages.
     - We concluded with some of the advantages and disadvantages of using ORM tools. languages.
     - Happy coding!
--
+  -

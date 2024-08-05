@@ -1,4 +1,4 @@
-icon:: 📄
+icon:: ➿
 also:: [[20221130]], 
 created:: [[20240731]]
 description:: Autonomous Sensory Meridian Response / 自主性感官经络反应 / 自发性知觉神经反应 / **颅内高潮(经络)** / 耳音 / 耳搔 / 大脑按摩 /大脑高潮
@@ -18,7 +18,7 @@ wikipedia:: https://zh.wikipedia.org/zh-cn/ASMR
     - 艾伦解释说她选择了“经络”一词来代替性高潮一词，并说她找到了一本字典，它把“经络”一词定义为“最高发展点或时期”和“最大的繁荣”之类
   - 以后下有 `WAV` 就把 `mp3` 删了，有需要的话，自己按照码率往低转就是了；
     collapsed:: true
-    - ![20230209-1345.png](../assets/20230209-1345_1675921554104_0.png)
+    - ![20230209-1345.png](../../soul/assets/20230209-1345_1675921554104_0.png)
 - ## What
   - Ways
     id:: 628df7ca-b65e-4c30-9402-872f885498b4
@@ -42,7 +42,14 @@ wikipedia:: https://zh.wikipedia.org/zh-cn/ASMR
 - ## Namespace
   - {{namespace asmr}}
 - ## ↩ Reference
-  - [Rainy Mood • #1 Rain Sounds • Sleep & Study](https://www.rainymood.com/)
-  - [潮汐 - 睡眠, 专注, 冥想, 呼吸](https://tide.fm/)
-  - [心潮减压-科技范心理健康应用，屡获创新大奖](https://psy-1.com/)
-  - [Noizio – ambient sound equalizer for macOS, iOS & Android.](https://noiz.io/)
+  - [[navigation]]
+    - [Rainy Mood • #1 Rain Sounds • Sleep & Study](https://www.rainymood.com/)
+    - [潮汐 - 睡眠, 专注, 冥想, 呼吸](https://tide.fm/)
+    - [心潮减压-科技范心理健康应用，屡获创新大奖](https://psy-1.com/)
+    - [Noizio – ambient sound equalizer for macOS, iOS & Android.](https://noiz.io/)
+    - [ASMR Online](https://www.asmr.one/works)
+    - [清沫网 | 网络电台|情感文章|情感故事|在线电台|音乐电台|纯音乐推荐|主播稿子](https://www.qingmo.net/)
+    - [ASMR Land - Free Download Japanese ASMR](https://asmrland.website/ )
+    - [eatASMR - 令人陶醉的ASMR助眠网站|催眠|安眠|哄睡|告别失眠](https://eatasmr.com/)
+    - [ASMR基佬中心](https://www.asmrgay.com)
+-

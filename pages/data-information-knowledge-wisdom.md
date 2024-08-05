@@ -1,7 +1,7 @@
 icon:: 📄
 created:: [[20240730]]
 
-- ![](../assets/data-information-knowledge-insight-wisdom-impact.jpg)
+- ![](../../soul/assets/data-information-knowledge-insight-wisdom-impact.jpg)
   via: [Want to know how to turn change into a movement? - Gapingvoid](https://www.gapingvoid.com/blog/2019/03/05/want-to-know-how-to-turn-change-into-a-movement/)
   - \lect
     - Data

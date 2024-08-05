@@ -1,14 +1,15 @@
 icon:: 🎛️
 created:: [[20240720]]
+exclude-from-graph-view:: true
 
 - ## \# 收集
   - {{embed [[inbox]]}}
 - ## \# 执行
-  - {{embed [[content checklist]]}}
+  - {{embed [[checklist/content]]}}
 - ## \# 项目
-  - {{embed [[project checklist]]}}
+  - {{embed [[checklist/project]]}}
 - ## \# 等待
-  - {{embed [[waiting checklist]]}}
+  - {{embed [[checklist/waiting]]}}
 - ## \# 存档
   collapsed:: true
-  - {{embed [[trash checklist]]}}
+  - {{embed [[checklist/trash]]}}

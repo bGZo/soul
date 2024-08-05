@@ -1,5 +1,6 @@
 icon:: 📝
 created:: [[20221210]]
+exclude-from-graph-view:: true
 status:: writing/draft
 tags:: #chatGPT
 
