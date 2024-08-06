@@ -1,4 +1,4 @@
-also:: 性幻想, sex/fantasy
+also:: 性幻想, sex/fantasy, 意淫
 icon:: 🔞
 created:: [[20240411]]
 wikipedia:: https://en.wikipedia.org/wiki/Sexual_fantasy

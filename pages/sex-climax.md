@@ -1,4 +1,4 @@
-also:: climax, sex/orgasm, orgasm
+also:: sex-climax, sex/orgasm, orgasm, 高潮
 icon:: 🔞
 created:: [[20240412]]
 wikipedia:: https://en.wikipedia.org/wiki/Orgasm

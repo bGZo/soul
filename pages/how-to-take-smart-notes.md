@@ -352,7 +352,6 @@ weread:: {{weread 3d8326d072552e803d87c41}}
     created:: [[20230125]]
     closed:: 
     douban:: [费曼学习法（用输出倒逼输入） (豆瓣)](https://book.douban.com/subject/35368398/)
-    goodreads:: 
     weread:: [费曼学习法-尹红心 李伟-微信读书](https://weread.qq.com/web/bookDetail/6eb32330723b4e476ebec59)
     description::
   - title:: 西蒙学习法
@@ -363,7 +362,6 @@ weread:: {{weread 3d8326d072552e803d87c41}}
     created:: [[20230125]]
     closed:: 
     douban:: [西蒙学习法 (豆瓣)](https://book.douban.com/subject/36087707/)
-    goodreads:: 
     weread:: [西蒙学习法：如何在短时间内快速学会新知识-友荣方略　著-微信读书](https://weread.qq.com/web/bookDetail/a7f32050813ab73e5g017342)
   - title:: 如何高效学习
     created:: [[20230125]]

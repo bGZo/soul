@@ -6,7 +6,7 @@ published::  20220125
 isbn:: 9787521747782
 created:: [[20230126]]
 douban:: [现实+ (豆瓣)](https://book.douban.com/subject/36124466/)
-goodreads:: [Reality+: Virtual Worlds and the Problems of Philosophy by David J. Chalmers | Goodreads](https://www.goodreads.com/book/show/58975776-reality)
+[Reality+: Virtual Worlds and the Problems of Philosophy by David J. Chalmers | Goodreads](https://www.goodreads.com/book/show/58975776-reality)
 weread:: [现实+：每个虚拟世界都是一个新的现实-大卫·查默斯-微信读书](https://weread.qq.com/web/bookDetail/d1732540813ab7739g016887)
 description:: 当你沉浸王者峡谷，拿着手机寻找精灵宝可梦，当你用视频软件组织工作会议，或用约会软件模拟与恋人的未来时，虚拟现实技术已经对真实生活产生实质性影响。随着技术提升，虚拟现实头盔可能过渡为隐形眼镜，最终变为视网膜或大脑植入物，像《黑客帝国》一样，虚拟世界将与真实世界别无二致，你将在虚拟社会中度过大量时光，开展工作，进行社交和娱乐。**“移居”到虚拟社会的好处和坏处都是什么？它究竟意味着什么？更重要的是，我们怎样才能在虚拟世界过上更好的生活？**所有虚拟社会可能存在的问题都被作者思考了个遍，读者将在书中邂逅过去千百年来的历史伟人，还会了解到近几十年来的当代人物和观点。作者将涉足大量核心哲学话题，包括：知识、现实、心智、语言、价值、道德伦理、科学、宗教，等等。他将运用数百年来哲学家们设计的强大工具，来思考关于虚拟社会的话题。这本关于人类命运的未来之书，将带你领悟虚拟世界在生活中的作用，更好地理解现实本身。
 description:: CN release on 20221200
@@ -62,7 +62,7 @@ description:: CN release on 20221200
             - 试图报道真相的记者出现了错误，这是失实报道
           - “点击诱饵” (clickbait)
             description:: 此类网站利用吸引眼球的标题引击链接，从而进入相关网站。为了推广自己，会编造新闻故事，而不在乎其真假。
-        - 我们有办法区分真实新闻与虚假新闻 
+        - 我们有办法区分真实新闻与虚假新闻
           - 小问题和前后矛盾会暴露虚假本质
           - 从新闻缺乏信服力来断定其为虚假新闻
           - 根据新闻内容的平庸断定其真实

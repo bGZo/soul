@@ -1,4 +1,4 @@
-also:: Pearly_penile_papules
+also:: Pearly_penile_papules, 珍珠疹
 created:: [[20240409]]
 tags:: #龟头
 wikipedia:: https://en.wikipedia.org/wiki/Pearly_penile_papules

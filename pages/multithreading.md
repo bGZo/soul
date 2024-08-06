@@ -4,6 +4,7 @@ tags:: TODO
 
 - [[process]] #vs [[thread]]
   id:: 63e72768-1f77-4542-9d9b-aa3e724b7bce
+  collapsed:: true
   - 定义/内存共享/阻塞/依赖/数据共享/系统处理
     collapsed:: true
     创建/上下文切换/通信/资源/终止
@@ -27,6 +28,7 @@ tags:: TODO
   - ![https://www.youtube.com/watch?v=Dhf-DYO1K78](../assets/os/Screenshotter--YouTube-ProcessvsThread-1’18”_1660740100262_0.png)
 -
 - Refs
+  collapsed:: true
   - [Process (computing) - Wikipedia](https://en.wikipedia.org/wiki/Process_(computing))
   - [Multithreading and concurrency fundamentals](https://www.educative.io/blog/multithreading-and-concurrency-fundamentals)
   - Todo List

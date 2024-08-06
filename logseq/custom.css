@@ -43,8 +43,16 @@
  * link: http://unpkg.com/bgzo/img/texture.png
  */
 #app-container,#main-container {
+  background-image: 
+    linear-gradient(rgba(128, 128, 128, .02) 0.001em, transparent .1em), 
+    linear-gradient(90deg, rgba(128, 128, 128, .02) 0.001em, transparent .1em);
+  background-size: 1em 1em;
+  background-attachment: scroll;
+  background-repeat: repeat;
+  /**
   background-image: url(http://unpkg.com/bgzo/img/texture.png);
   background-repeat: repeat;
+  **/
 }
 
 

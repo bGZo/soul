@@ -1,4 +1,4 @@
-also:: cpp/question
+tags:: cpp
 -
 - Notes
   collapsed:: true

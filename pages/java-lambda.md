@@ -2,6 +2,7 @@ icon:: ☕
 also:: [[]], 
 created:: [[20240805]]
 description::
+tags:: #java08
 
 - ## Why
   -

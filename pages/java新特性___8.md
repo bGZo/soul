@@ -597,7 +597,6 @@ collapsed:: true
 - # Stream流
   collapsed:: true
   - ## 1.引言
-    collapsed:: true
     - 说到Stream便容易想到I/O Stream，而实际上，谁规定“流”就一定是“IO流”呢？在Java 8中，得益于Lambda所带来的函数式编程，引入了一个全新的**Stream**概念，用于解决已有集合类库既有的弊端。
     - 传统集合的多步遍历代码几乎所有的集合（如 `Collection` 接口或 `Map` 接口等）都支持直接或间接的遍历操作。而当我们需要对集合中的元素进行操作的时候，除了必需的添加、删除、获取外，最典型的就是集合遍历。例如：
       collapsed:: true
@@ -929,7 +928,6 @@ collapsed:: true
           ```
 - ---
 - Lambda表达式
-  collapsed:: true
   - 来源
     collapsed:: true
     - λ[læ:mdə]演算

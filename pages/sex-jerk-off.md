@@ -1,4 +1,4 @@
-also:: Masturbation, 自渎, 自淫, 手淫, 自摸, 导管, 打胶, 撸管, 打飞机, 打手枪, 手冲, playing with yourself, pleasuring oneself, jackie, jack off, jerk off
+also:: Masturbation, 自慰, 自渎, 自淫, 手淫, 自摸, 导管, 打胶, 撸管, 打飞机, 打手枪, 手冲, playing with yourself, pleasuring oneself, jackie, jack off, jerk off
 icon:: 🔞
 created:: [[20240409]]
 

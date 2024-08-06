@@ -6,7 +6,8 @@ exclude-from-graph-view:: true
 - ## Why
 - ## How
 - ## What
-- #+BEGIN_QUERY
+- collapsed:: true
+  #+BEGIN_QUERY
   {:title [:h3 "All Issues in Other Page"]
    :query [:find (pull ?b [*])
            :where
