@@ -1,6 +1,7 @@
 also:: 事务
 tags:: #spring-framework #database
-wikipedia:: [Database transaction - Wikipedia](https://en.wikipedia.org/wiki/Database_transaction)
+wikipedia:: https://en.wikipedia.org/wiki/Database_transaction
+title:: database-transaction
 
 - ## 特性 (ACID, A、I、D 是手段; C 是目的)
   id:: 6324a046-49b3-48d6-8275-b6b0feca5d51

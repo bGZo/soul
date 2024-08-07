@@ -1,18 +1,20 @@
 icon:: ☕
 created::  [[20240801]]
 tags:: java
+wikipedia:: https://en.wikipedia.org/wiki/Java_version_history
 
 - ## What
   - Java's edition (3 main)
-    collapsed:: true
     - [[javase]] **Java SE** / Java Platform, Standard Edition / ~~J2SE~~
       logseq.order-list-type:: number
     - **Jakarta EE** / Java Platform, Enterprise Edition / ~~Java EE~~ / ~~J2EE~~
       logseq.order-list-type:: number
     - **Java ME** / Java Platform, Micro Edition / ~~J2ME~~
       logseq.order-list-type:: number
-    - ---
-    - 有几点需要说明：
+    - collapsed:: true
+      #+BEGIN_NOTE
+      有几点需要注意
+      #+END_NOTE
       - SE 主要包含语言特性，标准库和虚拟机 [[jvm]]
         logseq.order-list-type:: number
       - EE 主要包含企业级 API，如 servlet、 jsp、EJB、JMS、JPA、 cdi等。
@@ -22,14 +24,8 @@ tags:: java
         - 注意 JavaME != Android != 嵌入系统开发
       - [[javaee]] *J2SE / J2EE / J2ME* 均是 java02 时代的称呼，自 [[java05]] 之后集体更名为 *JavaSE / JavaEE / JavaME*； JavaEE 在 [[java08]] 之后被 Oracle 移交 eclipse 基金会管理，故更名为 Jakarta；
         logseq.order-list-type:: number
-  - Java‘s versions
-    collapsed:: true
-    - {{query (property :type "java-version")}}
-      query-table:: true
-      query-properties:: [:page :icon :created :type]
   - JDK version #jdk
-    collapsed:: true
-    - ![](https://raw.githack.com/bGZo/assets/dev/2024/image_1652343742216_0-or8-or8-or8.png)
+    - ![](https://raw.githack.com/bGZo/assets/dev/2024/image_1652343742216_0-or8-or8-or8.png){:height 739, :width 515}
     - Oracle JDK vs OpenJDK
       collapsed:: true
       - | Items | Oracle JDK | OpenJDK |
@@ -53,5 +49,10 @@ tags:: java
         - 仅当受到Oracle JDK关键补丁更新(CPUs)版本之外的其他漏洞的影响时才用
 - ## Namespace
   - {{namespace java/version}}
+  - {{query (property :type java-version)}}
+    query-sort-by:: page
+    query-table:: true
+    query-sort-desc:: false
+    query-properties:: [:page :created :type :released-date :tags]
 - ## ↩ Reference
   -

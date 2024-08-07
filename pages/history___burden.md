@@ -2538,3 +2538,12 @@ exclude-from-graph-view:: true
       - [Write.as — A place for focused writing.](https://write.as/)
   - ~~[[twitter]]~~
     - ~~[Typefully - Twitter Thread Maker & Analytics](https://typefully.com/write)~~
+  - [New Thought - Wikipedia](https://en.wikipedia.org/wiki/New_Thought)
+- 大写的，异化的人
+  - 我时常觉得现代我自身享受的生活是异化的，是非常远离自然的，一种和我身体构造，完全背道而驰的状态，
+  - 我们痴迷、上瘾的另一种解释，是因为这是我们少数还在返祖的活动
+  - 所以我总是怀疑现代流行文化，我们要以什么样的角度看待，如何看待？全盘否定，尺度在哪里？怎么去甄别？有什么尺度，我不知道。
+  - 我只知道现在的自己，明确地在作弊，明确地在cheat，我在享受我不应该获得的快乐，而无需我自己付出任何代价。
+  - 或者说，代价早就标明了，等待我的，可能就是万丈深渊；
+-
+-

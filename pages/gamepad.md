@@ -1,7 +1,7 @@
 also:: 手柄, 手把
 icon:: 🎮
 tags:: #game
-wikipedia:: [Gamepad - Wikipedia](https://en.wikipedia.org/wiki/Gamepad)
+wikipedia:: https://en.wikipedia.org/wiki/Gamepad
 created:: [[20230604]]
 - ## Why
   -

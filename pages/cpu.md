@@ -2,7 +2,7 @@ also:: central processing unit, 中央处理器,
 description:: Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations.
 icon:: 📄
 created:: [[20230719]]
-wikipedia:: [Central processing unit - Wikipedia](https://en.wikipedia.org/wiki/Central_processing_unit)
+wikipedia:: https://en.wikipedia.org/wiki/Central_processing_unit
 
 - ## Why
 - ## How
@@ -22,3 +22,8 @@ wikipedia:: [Central processing unit - Wikipedia](https://en.wikipedia.org/wiki/
       - [armv6、armv7、armv7s、armv8、armv64及其i386、x86_64区别_arm6和arm8有什么区别？_查里王的博客-CSDN博客](https://blog.csdn.net/tony_vip/article/details/105889734)
       - [ARMv7 与 ARMv8的区别_armv7和armv8_liguiyuan112的博客-CSDN博客](https://blog.csdn.net/u012505617/article/details/89205642)
       - [Intel和AMD 与 x86，ARM，MIPS有什么区别？ - 知乎](https://www.zhihu.com/question/63627218)
+- ## References
+  - 桌面CPU性能天梯图 #rank
+    - {{iframe https://www.mydrivers.com/zhuanti/tianti/cpu/index.html,40vh,iframe-radius}}
+  - 手机CPU性能天梯图 #rank
+    - {{iframe https://www.mydrivers.com/zhuanti/tianti/01/index.html,40vh,iframe-radius}}

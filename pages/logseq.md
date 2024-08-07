@@ -143,7 +143,7 @@ type:: tool
       collapsed:: true
       - URL with \#t=XhYmZs \?t=XhYmZs
       - Right click to select copy this position
-    - [Online LaTeX Equation Editor - create, integrate, download](https://latex.codecogs.com) #[[latex]] #[[bookmark]]
+    - [Online LaTeX Equation Editor - create, integrate, download](https://latex.codecogs.com) #[[latex]] #[[navigation]]
     - `@@` use html code!
     - There are many tools [[deprecated]] as following, #Closed  
       collapsed:: true

@@ -1,6 +1,6 @@
 also:: battery/charger, 充电器
 icon:: 🔋
-wikipedia:: [Battery charger - Wikipedia](https://en.wikipedia.org/wiki/Battery_charger)
+wikipedia:: https://en.wikipedia.org/wiki/Battery_charger
 created:: [[20230609]]
 - ## Why
 - ## How

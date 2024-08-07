@@ -1,11 +1,13 @@
 tags:: #database
+
 - #+BEGIN_WARNING
   **闭包 / 最小依赖集 / 范式优化**
   #+END_WARNING
   via: [数据库必考习题合集_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1P5411e7rU)
   - {{video https://www.bilibili.com/video/BV1P5411e7rU}}
 - ## 绪论
-  - ### Data #vs DB #vs DBMS #vs DBS
+  - ### Data vs DB vs DBMS vs DBS
+    collapsed:: true
     - 数据 (Data)
       - 描述事物的符号记录，是数据库中的基本对象
     - 数据库 (Database)
@@ -47,15 +49,18 @@ tags:: #database
         - 数据独立性高
         - 数据由DBMS统一管理和控制
   - ### 独立性 -> **数据的独立性**
+    collapsed:: true
     - 物理独立性
       - 指用户的应用程序与存储在磁盘上的数据库中的数据是相互独立的.
     - 逻辑独立性
       - 指用户的应用程序与数据库的逻辑结构是相互独立的，即数据的逻辑结构改变了，用户程序也可以不变
   - ### 数据模型是数据库系统的核心和基础
+    collapsed:: true
     - 数据模型的组成要素:
       - 数据结构: 描述数据库的组成对象以及对象之间的联系
       - 数据操作: 指对数据库中各种对象的实例允许执行的操作集合.
   - ### 数据库系统 (DBS) 的**三级模式结构**
+    collapsed:: true
     - 指数据库系统是由==外模式、模式和内模式==三级构成
       - ![image.png](../assets/database/image_1663335773111_0.png){:height 232, :width 355}
     - 模式 (逻辑模式)
@@ -149,7 +154,7 @@ tags:: #database
     - 关系演算语言 (略)
     - 具有关系代数和关系演算
 - ## 双重特点的语言 ([[sql]]): 用于和DBMS通信的语言
-  - **等值连接** #vs **自然连接**
+  - **等值连接** vs **自然连接**
     - 等值连接
       id:: 6324a046-e91c-4834-b16b-99aeff00c4ea
       - 连接运算符是 "="
@@ -283,7 +288,7 @@ tags:: #database
   - 查询优化的总目标: 选择有效的策略，求得给定关系表达式的值，使得查询代价最小
   - 代数优化策略是通过对关系代数表达式的等价变化来提高查询效率 物理优化就是
   - 要选择高效合理的操作算法或存取路径，求得优化的查询计划，达到查询优化的目标
-- ## 数据库恢复技术  #transaction
+- ## 数据库恢复技术  #database-transaction
   - ### 事务
     - 概念：用户定义的一个数据库操作序列，这些操作要么全做要么全不做，是不可分割的工作单位"
     - 通常以 `BEGIN TRANSACTION` 开始，以 `COMMIT/ROLLBACK` 结束.
@@ -386,11 +391,9 @@ tags:: #database
   -
 - ---
   - would use Repo
-    collapsed:: true
     - https://github.com/WolfMy/course_select_system
     - https://github.com/yueht17/course_management_system
   - Django and Flask
-    collapsed:: true
     - Diff: https://www.guru99.com/flask-vs-django.html
     - WSGI: The Web Server Gateway Interface (WSGI, pronounced whiskey or WIZ-ghee) is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming language. The current version of WSGI, version 1.0.1, is specified in Python Enhancement Proposal (PEP) 3333
     - https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface

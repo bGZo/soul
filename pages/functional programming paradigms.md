@@ -1,7 +1,7 @@
 also:: Functional Programming, 函数式编程范式, 函数式编程
 tags:: #programming-paradigms
 created:: [[20230826]]
-wikipedia:: [Functional programming - Wikipedia](https://en.wikipedia.org/wiki/Functional_programming)
+wikipedia:: https://en.wikipedia.org/wiki/Functional_programming
 
 - ## Why
   -

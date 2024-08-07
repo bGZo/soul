@@ -1,4 +1,5 @@
 also:: search/engine/google
+
 - 2014年12月版 部分参考：《利用搜索引擎检索现有技术》魏保志201203版
   collapsed:: true
   - | Char        | Meanings                                                     | Case                              |
@@ -31,7 +32,7 @@ also:: search/engine/google
     | weather:    | 查询该地区或城市当前的天气状况                               | weather:北京                      |
     | stocks:     | 查询股票信息; 一般源于专业财经网站                           | stocks:比亚迪                     |
     | mark:: :     | 返回包含查询关键词定义的网面                                 | mark:: :  暗网                     |
-- #bookmark
+- #navigation
   - Advanced Search: https://www.google.com/advanced_search
   - Help: https://support.google.com/websearch/?hl=zh-Hans
   - Directory: http://directory.google.com/

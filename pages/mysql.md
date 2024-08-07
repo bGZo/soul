@@ -18,7 +18,7 @@ tags:: TODO
   - MySQL 8.0 版本后移除，因为这个功能不太实用
 -
 - Implements
-  - [[transaction]]
+  - [[database-transaction]]
     collapsed:: true
     - MySQL 的 ((6327cf39-8e1a-4229-8d14-6dd05b40c394)) 基于 **锁** 和 **MVCC** 机制共同实现
       - 除了 SERIALIZABLE 隔离级别(锁实现)，其他的隔离级别都是基于 MVCC 实现

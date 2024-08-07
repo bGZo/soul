@@ -2,7 +2,7 @@ also:: 幸福
 description:: a positive and pleasant emotion, ranging from contentment to intense joy
 tags:: #emotion
 created:: [[20230614]]
-wikipedia:: [Happiness - Wikipedia](https://en.wikipedia.org/wiki/Happiness)
+wikipedia:: https://en.wikipedia.org/wiki/Happiness
 
 - ## Why
   - No why, this is the desire human being all long for.

@@ -2,7 +2,7 @@ also:: 插帧, 补帧,  motion-compensated frame interpolation, MCFI
 description::  a form of video processing in which intermediate animation frames are generated between existing ones by means of interpolation, in an attempt to make animation more fluid, to compensate for display motion blur, and for fake slow motion effects.
 tags:: #video
 created:: [[20230717]]
-wikipedia:: [Motion interpolation - Wikipedia](https://en.wikipedia.org/wiki/Motion_interpolation)
+wikipedia:: https://en.wikipedia.org/wiki/Motion_interpolation
 
 - ## Why
   - Play the video smoothly.

@@ -1,2 +1,4 @@
+icon:: 📄
 also:: personal knowledge management, 个人知识管理
-tags:: #knowledge/management
+tags:: #knowledge
+created:: [[20240807]]

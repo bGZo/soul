@@ -190,7 +190,7 @@ created:: [[20230602]]
   - What is proxies? And how many specifications (protocols) they have?
     collapsed:: true
     - [SS](https://shadowsocks.org/) / [Shadowsocks](https://github.com/shadowsocks)
-      wikipedia:: [Shadowsocks - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Shadowsocks)
+      wikipedia:: https://zh.wikipedia.org/wiki/Shadowsocks
       collapsed:: true
       - What's socks5?
         collapsed:: true
@@ -278,7 +278,7 @@ created:: [[20230602]]
     collapsed:: true
     - $$ IPLC / IEPL > CN2_{GIA} > BGP > 中继_{隧道} > CN2_{GT} > 直连 > 普通$$
     - Leased line 不过墙
-      wikipedia:: [Leased line - Wikipedia](https://en.wikipedia.org/wiki/Leased_line)
+      wikipedia:: https://en.wikipedia.org/wiki/Leased_line
       collapsed:: true
       - **IPLC** / International Private Leased Circuit
         collapsed:: true

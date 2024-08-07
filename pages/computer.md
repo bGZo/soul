@@ -3,7 +3,7 @@ description:: a machine that can be programmed to carry out sequences of arithme
 icon:: 🖥️
 tags:: #3C
 created:: [[20230620]]
-wikipedia:: [Computer - Wikipedia](https://en.wikipedia.org/wiki/Computer)
+wikipedia:: https://en.wikipedia.org/wiki/Computer
 
   - ### Computer Devices
     template:: computer

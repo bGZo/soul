@@ -1,13 +1,12 @@
 icon:: ☕
 created:: [[20240612]]
+released-date:: 20140318
 type:: java-version
+tags:: #lts
 
 - ## Feats
-  - **Lambda 表达式 (Lambda Expressions)**
-    collapsed:: true
-    - Lambda 允许把函数作为一个方法的参数（函数作为参数传递到方法中）
+  - [[java-lambda]] | 表达式 (Lambda Expressions)
   - **方法引用 (Method references)**
-    collapsed:: true
     - 方法引用提供了非常有用的语法，可以直接引用已有Java类或对象（实例）的方法或构造器。与lambda联合使用，方法引用可以使语言的构造更紧凑简洁，减少冗余代码。
   - **默认方法(Default methods)**
     collapsed:: true
@@ -49,6 +48,7 @@ type:: java-version
     - 方法调用的字节码指令支持默认方法。
 -
 - ## ↩ Reference
+  collapsed:: true
   - [Java 5，6，7，8，9，10新特性吐血总结 | 拔剑少年的博客](https://it18monkey.github.io/2018/08/05/Java%E6%96%B0%E7%89%B9%E6%80%A7%E6%80%BB%E7%BB%93/)
     - [JDK Release Notes](http://www.oracle.com/technetwork/java/javase/jdk-relnotes-index-2162236.html)
     - [What’s New in JDK 8](http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html)

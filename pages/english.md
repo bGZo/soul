@@ -78,7 +78,7 @@ tags:: #lang
         via: [History of the alphabet - Wikipedia](https://en.wikipedia.org/wiki/History_of_the_alphabet)
         - ![image.png](../assets/english/image_1671456429406_0.png)
           via: [字母的历史 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E5%AD%97%E6%AF%8D%E7%9A%84%E6%AD%B7%E5%8F%B2)
-- ## [[bookmark]]
+- ## [[navigation]]
   - TODO [xitu/gold-miner: 🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台](https://github.com/xitu/gold-miner) ![](https://img.shields.io/github/stars/xitu/gold-miner)
   - [yujiangshui/A-Programmers-Guide-to-English: 专为程序员编写的英语学习指南 v1.2](https://github.com/yujiangshui/A-Programmers-Guide-to-English) ![](https://img.shields.io/github/stars/yujiangshui/A-Programmers-Guide-to-English)
   - [Wei-Xia/most-frequent-technology-english-words: 程序员工作中常见的英语词汇](https://github.com/Wei-Xia/most-frequent-technology-english-words) ![](https://img.shields.io/github/stars/Wei-Xia/most-frequent-technology-english-words)

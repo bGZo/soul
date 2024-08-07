@@ -1,13 +1,24 @@
+icon:: 📄
 also:: 数据库
+created:: [[20240807]]
+description::
 
-- ## [[Quickref]]
--
--
--
--
--
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace database}}
+- ## ↩ Reference
+  - [MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷](https://www.bilibili.com/video/BV12b411K7Zu).
+  - [尚硅谷MySQL核心技术基础知识笔记](https://www.jianshu.com/p/91856df6b6f9)
+  - https://www.jianshu.com/p/f7f9440e30a5
+  - [关系数据理论是个什么牛马_学Java的猪猪侠_InfoQ写作社区](https://xie.infoq.cn/article/789f225a5e725cd88a5037049)
+  - [Database normalization - Wikipedia](https://en.wikipedia.org/wiki/Database_normalization); [数据库规范化 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-hans/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A7%84%E8%8C%83%E5%8C%96)
+  - [数据库基础知识总结 | JavaGuide](https://javaguide.cn/database/basis.html#%E4%BB%80%E4%B9%88%E6%98%AF-er-%E5%9B%BE)
 - More
-  collapsed:: true
   - People in DataBase Object,  You Should Know
     - 1973年 Charles W. Bachman(1924-2017) 网状数据库技术
     - 1981年 Edgar F. Codd (1923－2003 )数据库系统，尤其是关系型数据库
@@ -30,7 +41,7 @@ also:: 数据库
         - 2018年，国家科技进步二等奖
       - 东软: [OpenBASE](http://www.openbase.com.cn)
       - 阿里巴巴: [OceanBase](http://code.taobao.org/p/OceanBase/src/)
-  - [[magazine]]
+  - magazine
     - | 刊物简称  | 刊物全称                                            | 出版社                | 网址                                                 |
       | --------- | --------------------------------------------------- | --------------------- | ---------------------------------------------------- |
       | TODS      | ACM Transactions on Database Systems                | ACM                   | http://www.acm.org/tods/                             |
@@ -49,14 +60,3 @@ also:: 数据库
       - 中国计算机学会领导下的数据库学术组织
       - 由数据库专业委员会主办的中国数据库学术会议(NDBC)始于1977年
       - 国内数据库领域较为权威的会议
--
-- Refs
-  -
-  - [MySQL_基础+高级篇- 数据库 -sql -mysql教程_mysql视频_mysql入门_尚硅谷](https://www.bilibili.com/video/BV12b411K7Zu).
-  - [尚硅谷MySQL核心技术基础知识笔记](https://www.jianshu.com/p/91856df6b6f9)
-  - https://www.jianshu.com/p/f7f9440e30a5
-  - [关系数据理论是个什么牛马_学Java的猪猪侠_InfoQ写作社区](https://xie.infoq.cn/article/789f225a5e725cd88a5037049)
-  - [Database normalization - Wikipedia](https://en.wikipedia.org/wiki/Database_normalization); [数据库规范化 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-hans/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A7%84%E8%8C%83%E5%8C%96)
-  - [数据库基础知识总结 | JavaGuide](https://javaguide.cn/database/basis.html#%E4%BB%80%E4%B9%88%E6%98%AF-er-%E5%9B%BE)
--
--

@@ -1,6 +1,7 @@
 icon:: ☕
 created:: [[20240612]]
 type:: java-version
+tags:: #lts
 
 - ## Features [^feature]
   - 181: [Nest-Based Access Control](https://openjdk.org/jeps/181)

@@ -1,5 +1,5 @@
 ## 概述
-  - 经过4次推迟，历经曲折的Java9最终在2017年9月21日发布。因为里面加入的模块化系统，在最初设想的时候并没有想过那么复杂，花费的时间超出预估时间。距离java8大约三年时间。
+  -
   - Java 9提供了超过150项新功能特性，包括备受期待的模块化系统、可交互的REPL工具: jshell, JDK编译工具，语法层面的改变：Java公共API和私有代码，以及安全增强、扩展提升、性能管理改善等。可以说Java 9是一个庞大的系统工程，完全做了一个整体改变。
   - 但是这个巨大改变的功劳，都给了java11了，**目前oracle对8,11都长期支持，9,10不支持了**，只能从[历史版本](http://jdk.java.net/)中下载，Java 11 将会获得 Oracle 提供的长期支持服务，直至2026年9月。
   - 从Java9这个版本开始，Java 的计划发布周期是6个月，下一个Java的主版本将于2018年3月发布，命名为Java18.3(java10)， 紧接着再过六个月将发布Java18.9 (java11).
@@ -46,6 +46,7 @@
     - https://docs.oracle.com/javase/9/
   - JDK和JRE的目录的改变
     - JDK8
+      collapsed:: true
       - ```shell
         [bgzo@LAPTOP 8u342-b07]$ tree -L 2
         .
@@ -242,6 +243,7 @@
         └── THIRD_PARTY_README
         ```
     - JDK9 从9开始以后的JDK目录结构都是如此
+      collapsed:: true
       - ```shell
         [bgzo@LAPTOP 9.0.4-12]$ tree -L 2
         .

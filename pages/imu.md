@@ -1,9 +1,10 @@
 icon:: 🏫
+
 - ## [[software/engineering]]
   -
 -
 -
-- [[bookmark]]
+- [[navigation]]
   :LOGBOOK:
   CLOCK: [2022-11-15 Tue 19:01:54]
   :END:

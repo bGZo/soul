@@ -1,3 +1,4 @@
+icon:: 🥇
 description:: 排位 / 排行榜
 tags:: #standard
 

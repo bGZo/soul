@@ -1,37 +1,5 @@
-# Lambda表达式
-collapsed:: true
-  - Java8新引入的语法糖 Lambda表达式（关于lambda表达式是否属于语法糖存在很多争议，有人说他并不是语法糖，这里我们不纠结于字面表述）·。Lambda表达式是一种用于取代匿名类，把函数行为表述为函数式编程风格的一种匿名函数，这里再重申一下：Lambda表达式的执行结果是函数式接口的一个匿名对象（Lambda表达式的基本语法在初级课程已经讲过，在此不做赘述）。
-  - ## 1. 示例代码
-    - 需求：遍历List集合
-      - ### 1.1. 使用Lambda表达式
-        collapsed:: true
-        - ```java
-          public class LambdaTest {
-            public static void main(String... args) {
-                List<String> strList = Arrays.asList("马", "士", "兵");
-                strList.forEach(s -> {
-                    System.out.println(s);
-                });
-            }
-          }
-          ```
-      - ### 1.2. 使用匿名内部类
-        - 那么，我们可以使用匿名内部类的形式来实现上述lambda表达式的功能，以下代码的功能一致的：
-          collapsed:: true
-          - ```java
-            public class LambdaTest2 {
-              public static void main(String... args) {
-                  List<String> strList = Arrays.asList("马", "士", "兵");
-                  //通过匿名内部类来代替lambda表达式
-                  strList.forEach(new Consumer<String>() {
-                      @Override
-                      public void accept(String s) {
-                          System.out.println(s);
-                      }
-                  });
-              }
-            }
-            ```
+- TODO Lambda表达式
+  collapsed:: true
   - ## 2. 示例代码分析
     collapsed:: true
     - `forEach()`是`Iterable`接口的一个默认方法，它需要一个`Consumer`类型的参数，方法体中是一个for循环，对迭代器的每一个对象进行遍历，处理方法就是调用参数对象的`accept()`方法：
@@ -220,23 +188,11 @@ collapsed:: true
         ```
     - Bingo！
     - 现在我们初步得到了一些结论：
-    - > 1. Lambda表达式底层是用内部类来实现的
-      > 2. 该内部类实现了*某个（根据Lambda所属的代码指定）*函数式接口，并重写了该接口的抽象方法
-      > 3. 该内部类是在程序运行时使用ASM技术动态生成的，所以编译期没有对应的.class文件，但是我们可以通过设置系统属性将该内部类文件转储出来
+    -
   - ## 5. Lambda表达式编译和运行过程
     collapsed:: true
-    - 至此，我们只窥视了Lambda表达式底层实现的冰山一角。接下来会有一堆概念和过程，慎入！
     - ![1560239569399](D:/工作/03_资料/Lambda表达式编译和运行过程.png)
-    - 1. Java7在[JSR（Java Specification Requests，Java 规范提案） 292](https://jcp.org/en/jsr/detail?id=292)中增加了对动态类型语言的支持，使得Java也可以像*C语言*那样将方法作为参数传递，其实现在`java.lang.invoke`包中。它的核心就是`invokedynamic`指令，为后面**函数式编程**和**响应式编程**提供了前置支持。
-      2. `invokedynamic`指令对应的执行方法会关联到一个*动态*调用点对象（`java.lang.invoke.CallSite`），一个调用点（call site）是一个方法句柄（method handle，调用点的目标）的持有者，这个调用点对象会指向一个具体的引导方法（bootstrap method，比如`metafactory()`），引导方法成功调用之后，调用点的目标将会与它持有的方法句柄的引用永久绑定，最终得到一个实现了函数式接口（比如Consumer）的对象。
-      3. Lambda表达式在编译期进行脱糖（desugar），它的主体部分会被转换成一个脱糖方法（desugared method，即`lambda$main$0`），这是一个合成方法，如果Lambda没有用到外部变量，则是一个私有的静态方法，否则将是个私有的实例方法——synthetic 表示不在源码中显示，并在Lambda所属的方法（比如main方法）中生成`invokedynamic`指令。
-      4. **进入运行期**，`invokedynamic`指令会调用引导方法`metafactory()`初始化ASM生成内部类所需的各项属性，然后由`spinInnerClass()`方法组装内部类并用Unsafe加载到JVM，通过构造方法实例化内部类的实例（Lambda的实现内部类的构造是私有的，需要手动设置可访问属性为true），最后绑定到方法句柄，完成调用点的创建。
-      5. 你可以把调用点看成是函数式接口（例如Consumer等）的匿名对象，当然，内部类是确实存在的——比如`final class LambdaTest$$Lambda$1 implements Consumer`。值得注意的是，内部类的实现方法里并没有Lambda表达式的任何操作，它不过是调用了脱糖后定义在调用点目标类（`targetClass`，即`LambdaTest`类）中的合成方法（即`lambda$main$0`）而已，这样做使得内部类的代码量尽可能的减少，降低内存占用，对效率的提升更加稳定和可控。
-  - ## 6. Lambda表达式的语法糖结论
-    collapsed:: true
-    - Lambda表达式在编译期脱去糖衣语法，生成了一个“合成方法”，在运行期，`invokedynamic`指令通过引导方法创建调用点，过程中生成一个实现了函数式接口的内部类并返回它的对象，最终通过调用点所持有的方法句柄完成对合成方法的调用，实现具体的功能。
-    - Lambda表达式是一个语法糖，但远远不止是一个语法糖。
-- # 方法引用
+- 方法引用
   collapsed:: true
   - 在使用Lambda表达式的时候，我们实际上传递进去的代码就是一种解决方案：拿什么参数做什么操作。那么考虑一种情况：如果我们在Lambda中所指定的操作方案，已经有地方存在相同方案，那是否还有必要再写重复逻辑？
   - ## 1.冗余的Lambda场景
@@ -594,8 +550,7 @@ collapsed:: true
     - 在这个例子中，下面两种写法是等效的：
     - Lambda表达式： `length -> new int[length]`
     - 方法引用： `int[]::new`
-- # Stream流
-  collapsed:: true
+- Stream流
   - ## 1.引言
     - 说到Stream便容易想到I/O Stream，而实际上，谁规定“流”就一定是“IO流”呢？在Java 8中，得益于Lambda所带来的函数式编程，引入了一个全新的**Stream**概念，用于解决已有集合类库既有的弊端。
     - 传统集合的多步遍历代码几乎所有的集合（如 `Collection` 接口或 `Map` 接口等）都支持直接或间接的遍历操作。而当我们需要对集合中的元素进行操作的时候，除了必需的添加、删除、获取外，最典型的就是集合遍历。例如：
@@ -688,7 +643,6 @@ collapsed:: true
           ```
       - 直接阅读代码的字面意思即可完美展示无关逻辑方式的语义：**获取流、过滤姓张、过滤长度为3、逐一打印**。代码中并没有体现使用线性循环或是其他任何算法进行遍历，我们真正要做的事情内容被更好地体现在代码中。
   - ## 2.流式思想概述
-    collapsed:: true
     - 注意：请暂时忘记对传统IO流的固有印象！
     - **整体来看，流式思想类似于工厂车间的“**生产流水线”。
     - 当需要对多个元素进行操作（特别是多步操作）的时候，考虑到性能及便利性，我们应该首先拼好一个“模型”步骤    方案，然后再按照方案去执行它。这是一种集合元素的处理方案，而方案就是一种“函数模型”。
@@ -760,7 +714,6 @@ collapsed:: true
           ```
       - > 备注： of 方法的参数其实是一个可变参数，所以支持数组。
   - ## 4.常用方法
-    collapsed:: true
     - 流模型的操作很丰富，这里介绍一些常用的API。这些方法可以被分成两种：
       collapsed:: true
       - **延迟方法**：返回值类型仍然是 Stream 接口自身类型的方法，因此支持链式调用。（除了终结方法外，其余方法均为延迟方法。）
@@ -926,34 +879,3 @@ collapsed:: true
             }
           }
           ```
-- ---
-- Lambda表达式
-  - 来源
-    collapsed:: true
-    - λ[læ:mdə]演算
-  - Lambda表达式  ->  函数
-    collapsed:: true
-    - 使代码变得简洁、紧凑
-    - 函数式编程 -> 函数是“第一等公民” => ==级别和类相同==
-      collapsed:: true
-      - 可以赋值给变量
-      - 可以作为（其它函数的）参数进行传递
-      - 可以作为（其它函数的）返回值
-  - 语法格式
-    collapsed:: true
-    - ```
-      (parameters) -> { statements; }
-      (parameters) -> expression
-      ```
-  - 使用前提
-    collapsed:: true
-    - 函数式接口 == 只有一个（抽象方法）的接口
-  - 常用函数式接口
-    collapsed:: true
-    - ```
-      Runnable / Callable
-      Supplier / Consumer
-      Comparator
-      Predicate
-      Function
-      ```

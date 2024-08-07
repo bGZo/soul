@@ -61,7 +61,7 @@ icon:: 🛠
   - Creating thing more productive.
 - ## How
 - ## What
-  - What is different between [[bookmark]]s vs tools?
+  - What is different between [[navigation]]s vs tools?
     - > However, the term "tool" is often used more broadly to refer to physical devices or software programs that are used to perform specific tasks or functions. This could include hand tools, power tools, and digital tools like computer programs and apps. While a bookmark is a digital tool that is used in a web browser, it is not typically considered to be the same type of tool as a hammer or a screwdriver, for example.
       #chatGPT
     - 我发现很多存在 Logseq 中的工具都是 Bookmark 形式, 并且在 Build 的过程中, 总是把这两个概念混淆; Tool 和 Bookmark 是两个不用的东西, **Bookmark 作为工具的一种, 可不可以 More than a tool? 比如, 类 News 的网站算是一种工具吗?**
