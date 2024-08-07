@@ -39,24 +39,6 @@
 
 
 /**
- * fix: overwrite build-in css
- * link: http://unpkg.com/bgzo/img/texture.png
- */
-#app-container,#main-container {
-  background-image: 
-    linear-gradient(rgba(128, 128, 128, .02) 0.001em, transparent .1em), 
-    linear-gradient(90deg, rgba(128, 128, 128, .02) 0.001em, transparent .1em);
-  background-size: 1em 1em;
-  background-attachment: scroll;
-  background-repeat: repeat;
-  /**
-  background-image: url(http://unpkg.com/bgzo/img/texture.png);
-  background-repeat: repeat;
-  **/
-}
-
-
-/**
  * feat: table wrap style by tag
  */
 a.tag[data-ref*="config/table-wrap"] {
@@ -95,6 +77,17 @@ hr {
   --ls-page-properties-background-color: var(--color-level-3);
 }
 
+@media (prefers-color-scheme: light) {
+  /**
+   * fix: overwrite build-in css
+   * link: http://unpkg.com/bgzo/img/texture.png
+   */
+  #app-container, #main-container {
+    background-image: url(http://unpkg.com/bgzo/img/texture.png);
+    background-repeat: repeat;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .dark-theme, html[data-theme="dark"]{
     --ls-tag-background-hover: var(--color-level-1);
@@ -126,6 +119,19 @@ hr {
   }
   .left-sidebar-inner .nav-content-item .header{
     background: var(--left-sidebar-bg-color);
+  }
+    
+  /**
+   * fix: overwrite build-in css
+   * link: http://unpkg.com/bgzo/img/texture.png
+   */
+  #app-container,#main-container {
+    background-image: 
+      linear-gradient(rgba(130, 130, 130, .1) 0.01em, transparent .1em), 
+      linear-gradient(90deg, rgba(130, 130, 130, .1) 0.01em, transparent .1em);
+    background-size: 1em 1em;
+    background-attachment: scroll;
+    background-repeat: repeat;
   }
 
 }
