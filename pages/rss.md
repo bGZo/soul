@@ -5,13 +5,13 @@ wikipedia:: https://en.wikipedia.org/wiki/RSS
 tags:: #info
 
 - The first time icon of RSS I see is in the CD show. I even don't know what exactly is it. It appeared in the product birthed in last 10 years in China mainland.
-- And then, when I have some spare time in 2020, I notice it again. I wonder whether it have some interesting story or not. And at that point, I use a simple and not well reader to subscribe RSS. And just feeling amazing, and feel sad as well, like (by the way, they're [[sucks]])
+- And then, when I have some spare time in 2020, I notice it again. I wonder whether it have some interesting story or not. And at that point, I use a simple and not well reader to subscribe RSS. And just feeling amazing, and feel sad as well, like (by the way, they're sucks)
 - If you host a RSS link, you've well done. I would appreciate you 😘
   -
 - ## Why
   - Build self host info flow => only focus on some fields.
 - ## How
-  - TODO  [[Backup]] and share your [[subscription]] [[monthly]] , including [[podcast]]
+  - TODO Backup and share your subscription.
     collapsed:: true
     SCHEDULED: <2024-05-01 Wed .+1m>
     :LOGBOOK:
@@ -66,7 +66,7 @@ tags:: #info
         - 我想划线高亮, 我就必须跳转到原网站去阅读,
           传统的 Rss Reader 全文抓取失去了意义
         - 稍后读 Read Latter 无所谓, 因为本来就打算在后者阅读
-      - 参考同类竞品 [[Alternative]] [[read latter]] [[tools]]
+      - 参考同类竞品 [[Alternative]] [[tools]]
         - [简悦 SimpRead - 如杂志般沉浸式阅读体验的扩展](http://ksria.com/simpread/)
         - [Readwise](https://readwise.io/)
         - [Pocket: Home](https://getpocket.com/en/)
@@ -154,20 +154,18 @@ tags:: #info
     - Atom like https://gmgard.moe/rss
   - What I used in past and recommand now
     id:: 4dd1229b-d8a7-4599-b042-8e767800317e
-    - ✨ [GitHub - Rongronggg9/RSS-to-Telegram-Bot: A Telegram RSS bot that cares about your reading experience](https://github.com/Rongronggg9/RSS-to-Telegram-Bot) #telegram
+    - ✨ [GitHub - Rongronggg9/RSS-to-Telegram-Bot: A Telegram RSS bot that cares about your reading experience](https://github.com/Rongronggg9/RSS-to-Telegram-Bot)
     - ✨ [Feedbro - Chrome Web Store (google.com)](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa?hl=en)
       collapsed:: true
       - But I prefer like the brave build-in RSS reader😭😭
     - ✨ [期待 V2RSS by angelia](https://v2rss.com)
     - ✨ Inoreader to browser feed history.
-    - collapsed:: true
-      ---
+    - ---
       - [yang991178/fluent-reader: Modern desktop RSS reader built with Electron, React, and Fluent UI (github.com)](https://github.com/yang991178/fluent-reader)
       - [HenryQW/Awesome-TTRSS: [maintainer wanted] 🐋 Awesome TTRSS, a powerful Dockerised all-in-one RSS solution. (github.com)](https://github.com/HenryQW/Awesome-TTRSS)
       - [zhaoolee/garss: Github Actions采集RSS, 打造无广告内容优质的头版头条超赞宝藏页](https://github.com/zhaoolee/garss) ![](https://img.shields.io/github/stars/zhaoolee/garss)
       - [己思](https://ohmyrss.com/#)
       - ~~[gandf/slick-rss](https://github.com/gandf/slick-rss)~~
-        collapsed:: true
         - DONE with some userscripts due to some issues
           - When address is begin with `//xxx.com`, the final address will be `chrome-extension://xxx.com`, while it should be `http`. I try some ways but I am novice in javascript.
           - `//` only supported with server and extension actually run at local. `//` img cannot loaded and the http url is wrong as well.

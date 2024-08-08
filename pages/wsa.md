@@ -1,6 +1,6 @@
 also:: Windows Subsystem for Android
 tags:: #Windows #android
-alternatives:: [[samsung/dex]]
+[[samsung/dex]]
 created:: [[20230823]]
 
 - ## Why

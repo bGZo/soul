@@ -1,6 +1,7 @@
 also:: 读者书摘
-tags:: #telegram/channel #R.I.P
 created:: [[20221021]]
+type:: telegram/channel
+exclude-from-graph-view:: true
 
 - ## [Telegram channel "读者书摘" — @duzheshuzhai — TGStat](https://tgstat.com/channel/@duzheshuzhai)
   -

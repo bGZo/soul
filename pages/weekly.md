@@ -6,7 +6,6 @@ exclude-from-graph-view:: true
 
 - ## Why
   - 周报是一种 [[ork]] 聚焦的手段，通过复盘过去七天的足迹，我们能清晰目标，以更好地调整方向；
-    collapsed:: true
   - 周报是一种叙事疗法，通过和自我对话，把人生的主题性换回给自己，以更好地掌控人生；
 - ## How
   - TODO Pull 工作摸🐟 [Gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f) 的笔记

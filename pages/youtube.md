@@ -5,13 +5,6 @@ tags:: #video #Platform
 filters:: {}
 id:: 65633c2a-d6ca-4124-b367-fb71278d780e
 
-  - template:: youtuber
-    template-including-parent:: false
-    - title:: 
-      rss:: 
-      tags:: #Youtube #subscription
-      description:: 
-      created:: <% today %>
 - ## Why
 - ## How
 - ## What

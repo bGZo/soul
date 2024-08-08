@@ -298,6 +298,10 @@ exclude-from-graph-view:: true
     - [gotson/komga: Media server for comics/mangas/BDs with API and OPDS support](https://github.com/gotson/komga)
   -
   - ### 🥇 [[Rank]]
+    - #### 🚀 CPU
+      - | | [桌面CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/cpu/index.html)| [手机CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/01/index.html)|
+      -
+    - #### 🎮 [[steam]]
     - #### 🔎 [[search]]
       - [Google Trends](https://trends.google.com/trends/?geo=SG)
       - [百度指数](https://index.baidu.com/v2/index.html#/)
@@ -363,5 +367,3 @@ exclude-from-graph-view:: true
   - [吾爱二次元—二次元导航、ACG导航、宅男导航](https://www.52ecy.com/)
   - [ACG御宅世界导航 | 二次元导航站，收录各种强大的资源网站以及有趣好用的站点](https://www.acgyzsj.top/)
   - [ACGN导航 - 你的二次元导航资源网站！](https://www.acgnsns.top/)
-icon:: 🔖
-tags:: tool

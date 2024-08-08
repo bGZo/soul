@@ -1,5 +1,5 @@
 also:: pgsql
-tags:: #database-object–relational
+tags:: #database/object–relational
 created:: [[20230822]]
 
 - ## Why

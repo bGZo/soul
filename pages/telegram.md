@@ -1,3 +1,4 @@
+filters:: {"rss" true}
 icon:: 🛠
 created:: [[20200108]]
 document:: https://core.telegram.org/api, https://desktop.telegram.org/changelog
@@ -9,7 +10,6 @@ type:: tool
   -
 - ## How
   - ### Shortcuts
-    collapsed:: true
     - 功能相关
       - **搜索 >> Ctrl+F**
         联系人 >> Ctrl+J
@@ -56,6 +56,10 @@ type:: tool
         logseq.order-list-type:: number
     - Desktop alternatives
       - https://github.com/UnigramDev/Unigram
+- ## Namespace
+  - {{query (property :type "telegram/channel")}}
+    query-table:: true
+    query-properties:: [:page :icon :also :created :description :type]
 - ## 📃 References
   - tg, 电报, t.me, telegram.me, telegram.org, telesco.pe, tg.dev
   - [^ruanyifeng]: https://twitter.com/ruanyf/status/1386900067852816386

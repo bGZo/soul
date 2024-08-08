@@ -3,11 +3,12 @@ cover:: {{image/cover https://rawcdn.githack.com/xuxiaodong/usingcli-book/main/i
 author:: xuxiaodong
 created:: [[20230103]]
 lang:: chinese
-published-date:: 20221118 
+published-date:: 20221118
 rating:: ⭐⭐⭐
 status:: book/done
 tags:: #commandline #nix
 type:: book/dev
+title:: usingcli-book
 https://github.com/xuxiaodong/usingcli-book
 
 - ## [[Quickref]]

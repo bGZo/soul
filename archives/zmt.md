@@ -1,9 +1,7 @@
+exclude-from-graph-view:: true
 source:: https://zmt.pub
-rss:: https://zmt.pub/feed
-tags:: blog
 
 - ## Content
-  collapsed:: true
   - [丰县 – zmt](https://zmt.pub/2022/02/17/%e4%b8%b0%e5%8e%bf/)
     collapsed:: true
     - 这个我是非常相信的，因为遇到过很多想自杀的城里人，别说生八个娃，生一个都产前产后抑郁。但是人不能替他人决定生死。

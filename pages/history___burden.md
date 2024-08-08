@@ -1340,7 +1340,7 @@ exclude-from-graph-view:: true
     Wired Things Via [[geek]]
     #+END_PINNED
   - [[issue]]
-    - #Alternatives 替代品
+    - Alternatives 替代品
       :LOGBOOK:
       CLOCK: [2022-11-05 Sat 15:42:51]
       :END:
