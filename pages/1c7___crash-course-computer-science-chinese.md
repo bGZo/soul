@@ -1,10 +1,12 @@
-tags:: #github #opensource
-created:: [[20230324]]
-source:: https://github.com/1c7/crash-course-computer-science-chinese ![](https://img.shields.io/github/stars/1c7/crash-course-computer-science-chinese)
+icon:: 📦
+created::  [[20230324]]
+type:: github/repo
+tags:: #computer-science #tutorial 
+source:: {{gh 1c7/crash-course-computer-science-chinese}}
 
 - [CSAPP+SICP - 知乎](https://www.zhihu.com/column/c_1212802114247979008)
 - Coursera镜像网站：[https://www.mooc.cn](https://www.mooc.cn)
-- ## Content 
+- ## Content
   - 计算机早期历史
     id:: 6331a08f-14fb-483b-ab89-e92add5bc9ea
     - M(Mega)B

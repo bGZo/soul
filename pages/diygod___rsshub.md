@@ -1,14 +1,14 @@
-also:: 
-created:: [[20240324]]
-source:: https://github.com/DIYgod/RSSHub
-title:: rsshub
-![](https://img.shields.io/github/stars/DIYgod/RSSHub)
+icon:: 📦
+created::  [[20240324]]
+description:: 
+tags:: #[[rss]] #[[crawler]]
+type:: github/repo
+source:: {{gh DIYgod/RSSHub}}
 
 - ## Why
 - ## How
 - WAITING I really want to contribute [RSSHub](https://docs.rsshub.app/joinus/quick-start.html) 😭
   - ~~`JSON` to `RSS`~~
-    collapsed:: true
     - 需求消失 -> 监控某些 API 的变化 -> 学习 RSSHUB 路由编写规则
     - [RSS--一个古老、小众的阅读方法_CrazyDragon_King的博客-CSDN博客](https://blog.csdn.net/qq_40734247/article/details/105416907)
       description:: 转换方法只针对某个版本的 RSS XML 文件, 适用性不强
@@ -82,35 +82,31 @@ title:: rsshub
         ```
     - via: [jsonfeed-to-rss - npm](https://www.npmjs.com/package/jsonfeed-to-rss)
 - ## What
-  - collapsed:: true
-    > 为什么 RSSHub 里的图片 / 视频加载不出来？
+  - [[mirror]] [[navigation]]
+    - {{nav https://plink.anyfeeder.com }}
+      logseq.order-list-type:: number
+    - {{nav https://rsshub.bgzo.cc }}
+      logseq.order-list-type:: number
+    - {{nav https://rss.shab.fun  }}
+      logseq.order-list-type:: number
+    - {{nav https://rss.injahow.cn }}
+      logseq.order-list-type:: number
+    - {{nav https://i.scnu.edu.cn/sub }}
+      logseq.order-list-type:: number
+    - {{nav https://rssforever.com }}
+      logseq.order-list-type:: number
+    - {{nav https://rsshub-gilt-nine.vercel.app }}
+      logseq.order-list-type:: number
+    - {{nav https://rsshub.uneasy.win }}
+      logseq.order-list-type:: number
+  - 为什么 RSSHub 里的图片 / 视频加载不出来？
     - RSSHub 里的图片 / 视频地址都是源站地址，部分有防盗链，所以 RSSHub 给图片加了`referrerpolicy="no-referrer"`  属性来**防止跨域问题**，但部分 RSS 服务会自作主张去掉这个属性，如 Feedly、Inoreader，在它们的网页端图片会触发跨域加载不出来。同时，视频目前没有类似的属性，因此大部分阅读器都无法通过防盗链检查。下面是一些解决方案：
       - 使用不发送 Referer 的阅读器，如 [Inoreader 网页版 (opens new window)](https://www.inoreader.com/)配合[禁用 Referer 的 user script (opens new window)](https://greasyfork.org/zh-CN/scripts/376884)、[RSS to Telegram Bot (opens new window)](https://github.com/Rongronggg9/RSS-to-Telegram-Bot)等。如果你的阅读器能够绕过防盗链成功播放内嵌视频，那么它就是不发送 Referer 的，请考虑添加到文档里帮助更多的人。
       - 设置反代，参考 [通用参数 -> 多媒体处理](https://docs.rsshub.app/parameter.html#duo-mei-ti-chu-li)。
       - 回到原网站查看相关资源
-  - collapsed:: true
-    > 没有我想订阅的网站怎么办嘤嘤嘤 QAQ
+  - 没有我想订阅的网站怎么办嘤嘤嘤 QAQ
     - 如果你会写 JavaScript，请按照[规则](https://docs.rsshub.app/joinus/quick-start.html#ti-jiao-xin-de-rsshub-gui-ze)提交 pull request，否则按照要求[提交 issue (opens new window)](https://github.com/DIYgod/RSSHub/issues/new?template=rss_request_zh.md)，然后等待有缘人完成你的需求，也可以考虑[赞助项目](https://docs.rsshub.app/support)或附上一张你自己的女装照来获得更快的 issue 响应速度。
   - If the [official website](https://rsshub.app/) is blocked, we could try to use following site:
-    collapsed:: true
-    - https://plink.anyfeeder.com ![](https://img.shields.io/website.svg?label=&url=https://plink.anyfeeder.com)
-      logseq.order-list-type:: number
-    - https://rsshub.bgzo.cc ![](https://img.shields.io/website.svg?label=&url=https://rsshub.bgzo.cc)
-      logseq.order-list-type:: number
-    - https://rss.shab.fun  ![](https://img.shields.io/website.svg?label=&url=https://rss.shab.fun)
-      logseq.order-list-type:: number
-    - https://rss.injahow.cn ![](https://img.shields.io/website.svg?label=&url=https://rss.injahow.cn)
-      logseq.order-list-type:: number
-    - https://i.scnu.edu.cn/sub ![](https://img.shields.io/website.svg?label=&url=https://i.scnu.edu.cn/sub)
-      logseq.order-list-type:: number
-    - https://rssforever.com ![](https://img.shields.io/website.svg?label=&url=https://rssforever.com)
-      logseq.order-list-type:: number
-    - https://rsshub-gilt-nine.vercel.app ![](https://img.shields.io/website.svg?label=&url=https://rsshub-gilt-nine.vercel.app)
-      logseq.order-list-type:: number
-    - https://rsshub.uneasy.win ![](https://img.shields.io/website.svg?label=&url=https://rsshub.uneasy.win)
-      logseq.order-list-type:: number
   - [通用参数 | RSSHub](https://docs.rsshub.app/parameter.html)
   - [常见问题 | RSSHub](https://docs.rsshub.app/faq.html)
--
--
 -

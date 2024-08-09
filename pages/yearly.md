@@ -80,7 +80,7 @@ created:: [[20230602]]
           collapsed:: true
           {{renderer :smartblock, book, +Book, false}} {{renderer :smartblock, podcast/episode, +Episode, false}} {{renderer :smartblock, game, +Game, false}} {{renderer :smartblock, galgame, +Hentai, false}} {{renderer :smartblock, video, +Video, false}} {{renderer :smartblock, video/movie, +Movie, false}} {{renderer :smartblock, anime, +Anime, false}} {{renderer :smartblock, manga, +Manga, false}}
           -
-        - ## [[archive]]
+        - ## archive
           collapsed:: true
           {{renderer :smartblock, archive(default: web), +Web, false}}
           -

@@ -2,7 +2,7 @@ icon:: 📝
 created:: [[20240706]]
 exclude-from-graph-view:: true
 status:: writing/draft
-tags:: #[[self/care]]
+tags:: #[[self-care]]
 
 - {{video https://www.youtube.com/watch?v=m5_dNOK7oN8}}
 - > The fact that I don't feel like me no more

@@ -732,7 +732,7 @@ type:: project/done
         - [DreamCats/java-notes: 自己的学习笔记。包含：个人秋招经历、🐂客面经问题按照频率总结、Java一系列知识、数据库、分布式、微服务、前端、技术面试、每日文章等(持续更新)](https://github.com/DreamCats/java-notes)![](https://img.shields.io/github/stars/DreamCats/java-notes)
         - [CyC2018/CS-Notes: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计](https://github.com/CyC2018/CS-Notes) ![](https://img.shields.io/github/stars/CyC2018/CS-Notes)
         - [hadyang/interview: Java 笔试、面试 知识整理](https://github.com/hadyang/interview) ![](https://img.shields.io/github/stars/hadyang/interview)
-        - [[Snailclimb/JavaGuide]]
+        - [[java-interview]]
         - [doocs/advanced-java Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java) ![](https://img.shields.io/github/stars/doocs/advanced-java)
         - [AobingJava/JavaFamily](https://github.com/AobingJava/JavaFamily) ![](https://img.shields.io/github/stars/AobingJava/JavaFamily)
         - [DuGuQiuBai/Java: 27天成为Java大神](https://github.com/DuGuQiuBai/Java) ![](https://img.shields.io/github/stars/DuGuQiuBai/Java)

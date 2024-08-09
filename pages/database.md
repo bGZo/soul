@@ -1,4 +1,4 @@
-icon:: 📄
+icon:: 🛢️
 also:: 数据库
 created:: [[20240807]]
 description::

@@ -2,10 +2,10 @@ icon:: 💾
 tags:: 2022
 
 -
--
 - WAITING [patreon 怎么支付?](https://www.zhihu.com/question/54819872)
   collapsed:: true
   - 信用卡（VISA）/ Paypal（国区也可）
+-
 - [[tutorial]]
   - [numbbbbb.com/20160704_我如何用三个月入门日语.numbbbbb.com](https://github.com/numbbbbb/numbbbbb.com/blob/master/source/_posts/20160704_%E6%88%91%E5%A6%82%E4%BD%95%E7%94%A8%E4%B8%89%E4%B8%AA%E6%9C%88%E5%85%A5%E9%97%A8%E6%97%A5%E8%AF%AD.md) #[[japanese]]
     collapsed:: true
@@ -187,7 +187,9 @@ tags:: 2022
     - 奧古斯特拒絕行納粹禮，他的舉動被人拍了下來，因而使他聞名於世。
     - ![image.png](../assets/archived/image_1666177782853_0.png)
   - [[magasa]]
-  - [[archive/wan-wei-gang]]
+  -
+-
+-
 - telegram
   - #Douban
     collapsed:: true
@@ -234,7 +236,7 @@ tags:: 2022
       所以宠物们在世上的最后一刻，其实都在焦急的寻找主人的身影。
       而这件事时常令他感到崩溃。
       你首先不能畏惧，才能去安慰它死亡只是生命的一部分，是所有生命命中注定的事，即使它听不懂，但陪伴就是最好的语言。 [source](https://m.weibo.cn/status/MelKAATzv)
-  -
+  - collapsed:: true
   -
   -
   - collapsed:: true
@@ -2381,7 +2383,7 @@ tags:: 2022
       你不好找工作，并不是因为你学了C`#`，而是因为你只会一点C`#`。
     - 只要你技术扎实，算法/数据结构，网络、IO、存储等有一个方面比较深入，找个工作应该没有难度，什么华为中兴，BAT，微软，IBM之类的，都有没有问题（这些大公司，动则上万人，其实哪有那么多精英？多半都是普通人，只要努力，你也可以的）。
     - 但是如果你只会一点语法， 那么无论是C`#`还是JAVA或者C++，都没有用。
-  - [Is this project dead? · Issue #805 · necolas/normalize.css](https://github.com/necolas/normalize.css/issues/805) #github
+  - [Is this project dead? · Issue #805 · necolas/normalize.css](https://github.com/necolas/normalize.css/issues/805)
     collapsed:: true
     - I wondered the same when looking at this and other similar projects. Over a year of no updates while others are more current. I agree 100% with your proposal, archive it so users are informed that updates are not coming, or at least make it clear that if there are any updates, any sort of timeline is unknown.
   - 反诈中心 #miui

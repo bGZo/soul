@@ -2,7 +2,7 @@ icon:: 📝
 created:: [[20240601]]
 status:: writing/published
 exclude-from-graph-view:: true
-tags:: #[[self/care]]
+tags:: #[[self-care]]
 
 - {{video https://www.youtube.com/watch?v=YJkOxWVn0SU}}
 - > Could someone save my life?

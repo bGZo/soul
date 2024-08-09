@@ -1,6 +1,9 @@
-tags:: #github, #bank
-source:: [sty945/bank_interview: 银行笔试面试经验分享及资料分享（help you pass the bank interview, and get a amazing bank offer!）](https://github.com/sty945/bank_interview) ![](https://img.shields.io/github/stars/sty945/bank_interview)
-created:: [[20221124]]
+icon:: 📦
+created:: [[20221124]] 
+description:: 银行笔试面试经验分享及资料分享（help you pass the bank interview, and get a amazing bank offer!
+tags:: #[[bank]] #[[interview]]
+type:: github/repo
+source:: {{gh sty945/bank_interview}}
 
 - **银行常见问题**
   collapsed:: true
@@ -37,7 +40,6 @@ created:: [[20221124]]
       - 刚入职前三个月做什么？-》如熟悉工作流程，业务方向，确定自己的工作方向和重点等
       - 入职2-3年怎么样？-》如在某一个技术方向上能够有所专研之类，成长为团队技术骨干，能够独立支撑某个核心业务模块或者子系统研发等
       - 入职5年怎么样-》能说通就行，甚至可说希望做好今2-3年的事，系好人生第一粒纽扣，到时候再根据职业发展再做规划
-- ---
 - 从今天开始, 我不会为任何一个 Github 引流的 README/REPOS 点 Star 🌟
   collapsed:: true
   via: https://twitter.com/imbGZo/status/1595624863016026112

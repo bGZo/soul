@@ -49,7 +49,7 @@ icon:: 🛠
 - id:: 64772f1d-4e63-462e-8fbe-9e41e802b2c5
   collapsed:: true
   #+BEGIN_PINNED
-  [[github]] ≫ Paid Service;
+  [[opensource]] ≫ Paid Service;
   #+END_PINNED
   - 不要迷信付费付费去广告那一套, 对于使用频率极低的那一部分软件, 我觉得花一两分钟换取即时的服务完全值得.
     - 注意看作者有没有注明服务的服务周期，也就是说，服务明天就有可能被下架. 😁

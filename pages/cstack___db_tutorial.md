@@ -1,7 +1,10 @@
+icon:: 📦
+created::  [[20220808]]
+description:: 
 tags:: #database #tutorial
-created:: 2022
+type:: github/repo
+source:: {{gh cstack/db_tutorial}}
 
-- ## [GitHub - cstack/db_tutorial: Writing a sqlite clone from scratch in C](https://github.com/cstack/db_tutorial)
 - ## P01
   collapsed:: true
   - **REPL** (read-execute-print loop)

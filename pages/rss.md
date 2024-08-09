@@ -160,12 +160,14 @@ tags:: #info
       - But I prefer like the brave build-in RSS reader😭😭
     - ✨ [期待 V2RSS by angelia](https://v2rss.com)
     - ✨ Inoreader to browser feed history.
-    - ---
+    - collapsed:: true
+      ---
       - [yang991178/fluent-reader: Modern desktop RSS reader built with Electron, React, and Fluent UI (github.com)](https://github.com/yang991178/fluent-reader)
       - [HenryQW/Awesome-TTRSS: [maintainer wanted] 🐋 Awesome TTRSS, a powerful Dockerised all-in-one RSS solution. (github.com)](https://github.com/HenryQW/Awesome-TTRSS)
       - [zhaoolee/garss: Github Actions采集RSS, 打造无广告内容优质的头版头条超赞宝藏页](https://github.com/zhaoolee/garss) ![](https://img.shields.io/github/stars/zhaoolee/garss)
       - [己思](https://ohmyrss.com/#)
       - ~~[gandf/slick-rss](https://github.com/gandf/slick-rss)~~
+        collapsed:: true
         - DONE with some userscripts due to some issues
           - When address is begin with `//xxx.com`, the final address will be `chrome-extension://xxx.com`, while it should be `http`. I try some ways but I am novice in javascript.
           - `//` only supported with server and extension actually run at local. `//` img cannot loaded and the http url is wrong as well.

@@ -9,7 +9,7 @@ exclude-from-graph-view:: true
   CLOCK: [2023-05-12 Fri 01:20:21]
   :END:
 - title:: [GitHub - Fechin/reference](https://github.com/Fechin/reference) ![](https://img.shields.io/github/stars/Fechin/reference)
-  tags:: #github #opensource #jekyll
+  tags::  #jekyll
   created:: [[20230323]]
   description:: ⭕ Share quick reference cheat sheet for developers
 -

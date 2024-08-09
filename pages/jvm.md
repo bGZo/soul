@@ -30,7 +30,7 @@ tags:: TODO
     - JRockit VM
     - TODO Comparison of Java virtual machines
 -
-- ## [[my/booklist]]
+- \booklist]]
   - [实战Java虚拟机 (豆瓣)](https://book.douban.com/subject/26354292/)
   - [深入理解Java虚拟机（第3版） (豆瓣)](https://book.douban.com/subject/34907497/)
 -

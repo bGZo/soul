@@ -1,4 +1,4 @@
-tags:: #book/list #reading
+tags:: #reading
 
 - TODO/READING, reading/todo, book/list, book list, 书单, read latter, 稍后读
 - ##  [汉译世界学术名著丛书](https://weread.qq.com/misc/booklist/14214625_6VYjyGxUk)

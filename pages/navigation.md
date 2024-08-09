@@ -11,19 +11,7 @@ exclude-from-graph-view:: true
       created:: [[20230223]]
       description:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
       ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
-    - [[github]]
-      collapsed:: true
-      - https://hub.xn--p8jhe.tw
-      - https://hub.xn--gzu630h.xn--kpry57d
-      - https://hub.fastgit.xyz
-      - https://cdn.githubjs.cf
-      - https://gitclone.com
-      - https://hub.gitfast.tk
-      - https://hub.gitslow.tk
-      - https://hub.verge.tk
-      - https://raw.gitfast.tk
-      - https://raw.gitslow.tk
-      - https://raw.verge.tk
+    - collapsed:: true
     - [[google]]
       collapsed:: true
       - https://g.luciaz.me
@@ -180,14 +168,6 @@ exclude-from-graph-view:: true
     - [Diagram Software and Flowchart Maker](https://www.diagrams.net/)
   -
   - ### 📝 Share Gist / Clipboard
-    collapsed:: true
-    - [Ubuntu Pastebin](https://paste.ubuntu.com/);
-    - [Fast Share Code](https://app.niucodata.com/share);
-    - [Carbon | Create and share beautiful images of your source code](https://carbon.now.sh/);
-    - [鸡毛信](https://cmd.im/)
-    - [Vuash - Send secret messages safely.](https://www.vua.sh/)
-    - [Note.ms](https://note.ms/othw)
-    - [Notepin - Extremely simple note taking](https://notepin.co/)
   -
   - ### 👥 Community
     collapsed:: true

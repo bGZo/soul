@@ -1,7 +1,11 @@
-tags:: #github #剑指Offer #algorithm
-source:: [labuladong/fucking-algorithm: 刷算法全靠套路 ](https://github.com/labuladong/fucking-algorithm) ![](https://img.shields.io/github/stars/labuladong/fucking-algorithm)
-created:: [[20221204]]
+icon:: 📦
+created::  [[20221204]]
+description:: 刷算法全靠套路
+tags:: #剑指Offer #algorithm
+type:: github/repo
+source:: {{gh labuladong/fucking-algorithm}}
 
+-
 - Content
   - 0
     collapsed:: true

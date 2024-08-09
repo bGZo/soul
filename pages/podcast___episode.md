@@ -8,3 +8,6 @@ template-including-parent:: true
     -
   - Snips
     -
+- [](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin)
+  tags:: #github #opensource
+  created:: 20221120

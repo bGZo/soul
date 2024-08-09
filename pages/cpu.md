@@ -24,6 +24,6 @@ wikipedia:: https://en.wikipedia.org/wiki/Central_processing_unit
       - [Intel和AMD 与 x86，ARM，MIPS有什么区别？ - 知乎](https://www.zhihu.com/question/63627218)
 - ## References
   - 桌面CPU性能天梯图 #rank
-    - {{iframe https://www.mydrivers.com/zhuanti/tianti/cpu/index.html,40vh,iframe-radius}}
+    - {{nav https://www.mydrivers.com/zhuanti/tianti/cpu/index.html}}
   - 手机CPU性能天梯图 #rank
-    - {{iframe https://www.mydrivers.com/zhuanti/tianti/01/index.html,40vh,iframe-radius}}
+    - {{nav https://www.mydrivers.com/zhuanti/tianti/01/index.html}}

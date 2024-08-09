@@ -84,7 +84,6 @@ https://github.com/xuxiaodong/usingcli-book
           |@ |主机名|
           |$ |变量名|
     - 可编程补全
-      id:: 0ad5daf6-95a7-44f6-8f77-dd4623b9076a
       - bash 示例
         collapsed:: true
         - `/etc/bash_completion.d/mycmd`
@@ -151,12 +150,10 @@ https://github.com/xuxiaodong/usingcli-book
     - Emacs 编辑模式实战
     - vi 编辑模式实战
       - ![image.png](../assets/book/usingcli/image_1672738875178_0.png)
-        id:: 63b3f83a-9ce8-4210-b8d0-1364acd2142b
   - 第五章 必备锦囊
     - 快速导航
     - 使用别名
     - 利用 {} 构造参数
-      id:: 1381e7a1-1b26-4bdd-9820-414429b64c00
       collapsed:: true
       - 备份文件
         - 我发现很多朋友在备份文件时执行的命令是：
@@ -256,9 +253,7 @@ https://github.com/xuxiaodong/usingcli-book
           ```
           `echo` 命令的外层 `{}` (花括号) 中包含 3 个内层 `{}` (花括号)，这样就将所有的大写字母、小写字母以及从 0 到 9 的数字都罗列出来了。
     - 其它妙招
-      id:: 4a6c2437-47e8-4dc0-a407-dc8960dc30a2
       - 重复执行命令
-        id:: e58a4e3b-5d73-4f84-854b-98b1e72dd71f
         - 当我为演讲主题准备材料时，我想用 `figlet` 这个工具来制作一些有趣的 ASCII 艺术字。虽然 `figlet` 提供了很多艺术样式，但是我并没有见过每一种。要想选择最酷的 ASCII 艺术字，所以我必须把每种样式都浏览一遍。于是，我执行了下面的命令：
           ```bash
           xiaodong@codeland:~$ figlet -f ascii9 Linux

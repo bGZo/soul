@@ -194,3 +194,15 @@ a.tag:active, a.tag:focus, a.tag:hover {
   border-radius: 0.5rem !important;
   box-shadow: var(--tw-shadow) !important;
 }
+
+.raw_html {
+  display: inline;
+}
+.inline-left-tag {
+  display: inline;
+  margin-right: .5em;
+}
+.inline-right-tag {
+  display: inline;
+  margin-left: .5em;
+}

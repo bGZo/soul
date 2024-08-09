@@ -1,7 +1,11 @@
-tags:: #github #opensource
-created:: [[20220628]]
+icon:: 📦
+created::  [[20220628]]
+description:: 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师
+tags:: #[[web]] #[[tutorial]]
+type:: github/repo
+source:: {{gh qianguyihao/web}}
 
-- ## [qianguyihao/Web: 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师。 (github.com)](https://github.com/qianguyihao/Web) ![](https://img.shields.io/github/stars/qianguyihao/Web)
+- ## TODO [qianguyihao/Web: 。 (github.com)](https://github.com/qianguyihao/Web)
   - 前端工具
     - 01-VS Code的使用
     - 02-Git的使用
@@ -31,7 +35,7 @@ created:: [[20220628]]
         - 表现
         - 行为
     - 02-浏览器的介绍
-      - High level structure 
+      - High level structure
         - User Interface（UI界面）
           collapsed:: true
           - 包括地址栏、前进/后退按钮、书签菜单等。也就是浏览器主窗口之外的其他部分。

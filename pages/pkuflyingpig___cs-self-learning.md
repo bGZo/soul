@@ -1,7 +1,12 @@
-created:: [[20230324]]
-description:: [计算机自学指南](https://github.com/PKUFlyingPig/cs-self-learning) ![](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning)；[CS自学指南](https://csdiy.wiki/)
-title:: cs-self-learning
+icon:: 📦
+created::  [[20230324]]
+description:: 计算机自学指南
+tags:: #computer-science 
+type:: github/repo
+source:: {{gh pkuflyingpig/cs-self-learning}}
 
+- {{iframe https://csdiy.wiki,40vh,iframe-radius}}
+  collapsed:: true
   - > *Everyone should enjoy CS if you have a good teacher to teach you a good course.*
     ![](https://raw.githubusercontent.com/PKUFlyingPig/cs-self-learning/master/docs/images/title.png)
 - ## Contents

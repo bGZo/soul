@@ -84,7 +84,7 @@ created:: [[20230602]]
   - How to [[unlock]] book DRM?
     - [apprenticeharper/DeDRM_tools: DeDRM tools for ebooks](https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm) ![](https://img.shields.io/github/stars/apprenticeharper/DeDRM_tools)
     - [FreeMyPDF.com - Removes passwords from viewable PDFs](http://freemypdf.com/)
-  - WAITING How to build reading system [[github]], especially without commercial way!
+  - WAITING How to build reading system github, especially without commercial way!
     - No [[weread]] !!
     - [Moon+ Pro and Calibre Integration - MobileRead Forums](https://www.mobileread.com/forums/showthread.php?t=328164)
     - [电脑上有哪些好用的 ePub 阅读器？ - 知乎](https://www.zhihu.com/question/19979089)

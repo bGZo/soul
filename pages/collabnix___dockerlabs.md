@@ -1,8 +1,10 @@
-tags:: #github #opensource #TODO #tutorial #docker
-created:: [[20230205]]
-description:: [collabnix/dockerlabs Docker - Beginners | Intermediate | Advanced](https://github.com/Collabnix/dockerlabs) ![](https://img.shields.io/github/stars/Collabnix/dockerlabs)
+icon:: 📦
+created::  [[20240808]]
+tags::  #tutorial #docker
+type:: github/repo
+source:: {{gh collabnix/dockerlabs}}
 
-- [Lab #22: Down Command | dockerlabs](https://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/down_command.html)
+- TODO [Lab #22: Down Command | dockerlabs](https://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/down_command.html)
   - ```shell
     $ docker-compose up -d
     $ docker-compose down
@@ -11,3 +13,4 @@ description:: [collabnix/dockerlabs Docker - Beginners | Intermediate | Advanced
     $ docker-compose down --volumes
     $ docker-compose down --volume --rmi all
     ```
+-

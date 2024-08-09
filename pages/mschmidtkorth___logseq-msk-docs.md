@@ -1,8 +1,12 @@
-tags:: #github #logseq #tutorial
-source:: [mschmidtkorth/logseq-msk-docs: Unofficial Logseq documentation.](https://github.com/mschmidtkorth/logseq-msk-docs) ![](https://img.shields.io/github/stars/mschmidtkorth/logseq-msk-docs)
-created:: [[20221218]]
+icon:: 📦
+created::  [[20221218]]
+description:: Unofficial Logseq documentation
+tags:: #logseq #tutorial
+type:: github/repo
+source:: {{gh mschmidtkorth/logseq-msk-docs}}
 
-- [Queries/Advanced Queries/Tutorial](https://mschmidtkorth.github.io/logseq-msk-docs/#/page/queries%2Fadvanced%20queries%2Ftutorial)
+-
+- TODO [Queries/Advanced Queries/Tutorial](https://mschmidtkorth.github.io/logseq-msk-docs/#/page/queries%2Fadvanced%20queries%2Ftutorial)
   - `{{query [[MyTag]]}}`
     - ```clojure
       #+BEGIN_QUERY

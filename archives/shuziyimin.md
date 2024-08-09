@@ -10,11 +10,8 @@ tags:: #migrant/digtal
     collapsed:: true
     - 导航站没有使用动态页面，所有静态 HTML 都是手动写的。因为收集好各个网站名称、网站 URL、网站简介、网站 icon 就基本完成了。所以收集好上述内容后，我用 Google sheet 中的 CONCATENATE 函数连接，一键生成需要的 HTML，复制粘贴就完成了页面的制作。
     - title::  WebStackPage/WebStackPage.github.io
-      tags:: #github
       source:: [WebStackPage/WebStackPage.github.io: ❤️静态响应式网址导航网站 - webstack.cc](https://github.com/WebStackPage/WebStackPage.github.io) ![](https://img.shields.io/github/stars/WebStackPage/WebStackPage.github.io)
       created:: [[20230108]]
-      closed:: 
-      description::
       - Jekyll 版本的后台 [0xl2oot/webstack-jekyll](https://github.com/0xl2oot/webstack-jekyll)
       - 从Chrome书签生成Jekyll版本配置的工具 [hanxi/webstack-jekyll](https://github.com/hanxi/webstack-jekyll)
   - [「数字移民」简介与文章列表 – 数字移民](https://blog.shuziyimin.org/431)

@@ -56,11 +56,10 @@ created:: [[20240721]]
 - ## What
   - ![THE PROGRAMMERS IDEA BOOK](../assets/book_the_programmer_idea_book.pdf)
     - title:: [karan/Projects](https://github.com/karan/Projects) ![](https://img.shields.io/github/stars/karan/Projects)
-      tags:: #github #opensource
       created:: [[20230320]]
       description:: A list of practical projects that anyone can solve in any programming language.
     - title:: [GitHub - karan/Projects-Solutions](https://github.com/karan/Projects-Solutions) ![](https://img.shields.io/github/stars/karan/Projects-Solutions)
-      tags:: #github #opensource
+      
       created:: [[20230321]]
       description:: Links to others' solutions to Projects (https://github.com/karan/Projects/)
   - ### \# Program Description

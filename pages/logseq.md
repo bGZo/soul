@@ -20,7 +20,6 @@ type:: tool
         collapsed:: true
         [Make it easy to configure syntax highlighting theme? - Questions & Help - Logseq](https://discuss.logseq.com/t/make-it-easy-to-configure-syntax-highlighting-theme/4617)
         - title:: [codemirror/codemirror5: In-browser code editor (version 5, legacy)](https://github.com/codemirror/codemirror5) ![](https://img.shields.io/github/stars/codemirror/codemirror5)
-          tags:: #github #opensource
           created:: 20230531
       - [Specify Indentation Type & Changing The Default Font - Questions & Help - Logseq](https://discuss.logseq.com/t/specify-indentation-type-changing-the-default-font/2703/6)
         collapsed:: true
@@ -78,67 +77,11 @@ type:: tool
       background-image:: https://images.unsplash.com/photo-1498855926480-d98e83099315
       collapsed:: true
       - Logseq Plugin | 插件
-        - title:: [shady2k/logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin)
-          tags:: #github #opensource
-          created:: 20221120
-          - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
-            collapsed:: true
-            #telegram #deprecated
-            - I think the journals more like tasks with #[[getting-things-done]]
-          - Sub block will gone #issue
-            - Test case:
-              collapsed:: true
-              - ```
-                Test
-                  * sub test
-                    * sub test
-                Here show something
-                Test
-                  + sub test
-                    + sub test
-                Here show something
-                - Test
-                  - sub test
-                    - sub test
-                Here show something
-                ```
-                Get:
-            - Solution:
-              collapsed:: true
-              - Regex. Turn `(^[ ]*)-` to `$1\-`/`$1+`/`$1*`
-              - Looking in logseq how to write original format.
+        - [[shady2k/logseq-inbox-telegram-plugin]]
       - [The HTML presentation framework | reveal.js](https://revealjs.com/)
       - But it only support show until **level 2**
-    - title:: [shady2k/logseq-inbox-telegram-plugin](https://github.com/shady2k/logseq-inbox-telegram-plugin) ![](https://img.shields.io/github/stars/shady2k/logseq-inbox-telegram-plugin)
-      tags:: #github #opensource
-      created:: 20221120
+    - [[shady2k/logseq-inbox-telegram-plugin]]
       collapsed:: true
-      - ~~Enable journals cause https://github.com/shady2k/logseq-inbox-telegram-plugin.~~
-        collapsed:: true
-        #telegram #deprecated
-        - I think the journals more like tasks with #[[getting-things-done]]
-      - Sub block will gone #issue
-        - Test case:
-          collapsed:: true
-          - ```
-            Test
-              * sub test
-                * sub test
-            Here show something
-            Test
-              + sub test
-                + sub test
-            Here show something
-            - Test
-              - sub test
-                - sub test
-            Here show something
-            ```
-            Get:
-        - Solution:
-          collapsed:: true
-          - Regex. Turn `(^[ ]*)-` to `$1\-`/`$1+`/`$1*`
-          - Looking in logseq how to write original format.
     - `/embed Youtube video` with **timestamp**
       collapsed:: true
       - URL with \#t=XhYmZs \?t=XhYmZs
@@ -356,71 +299,46 @@ type:: tool
       ```
       via: [Dynamic Variables](https://docs.logseq.com/#/page/Dynamic%20Variables) by [Templates injecting dynamic dates (and placeholders/arguments) - Feature Requests - Logseq](https://discuss.logseq.com/t/templates-injecting-dynamic-dates-and-placeholders-arguments/833)
 - ## Alternatives
-  - What I used in past #note
+  - What I used in past note
     id:: 6474b5b1-ad1a-47c3-bc2c-4343950295a9
-    - https://www.cnblogs.com
+    - {{nav https://www.cnblogs.com}}
       logseq.order-list-type:: number
-    - https://blog.csdn.net
+    - {{nav https://blog.csdn.net}}
       logseq.order-list-type:: number
-    - https://www.notion.so
+    - {{nav https://www.notion.so}}
       logseq.order-list-type:: number
-    - https://logseq.github.io
+    - {{nav https://logseq.github.io}}
       logseq.order-list-type:: number
-    - https://www.onenote.com
+    - {{nav https://www.onenote.com}}
       logseq.order-list-type:: number
-    - https://www.yuque.com
+    - {{nav https://www.yuque.com}}
       logseq.order-list-type:: number
-    - https://cn.wordpress.org
+    - {{nav https://cn.wordpress.org}}
       logseq.order-list-type:: number
-    - https://note.youdao.com
+    - {{nav https://note.youdao.com}}
       logseq.order-list-type:: number
-    - http://typecho.org
+    - {{nav http://typecho.org}}
       logseq.order-list-type:: number
-    - https://www.bitcron.com
+    - {{nav https://www.bitcron.com}}
       logseq.order-list-type:: number
-    - https://hexo.io/zh-cn
+    - {{nav https://hexo.io/zh-cn}}
       logseq.order-list-type:: number
-    - https://www.gitbook.com
+    - {{nav https://www.gitbook.com}}
       logseq.order-list-type:: number
-    - https://www.mkdocs.org
+    - {{nav https://www.mkdocs.org}}
       logseq.order-list-type:: number
-    - https://www.blogger.com
+    - {{nav https://www.blogger.com}}
       logseq.order-list-type:: number
-    - https://gohugo.io
+    - {{nav https://gohugo.io}}
       logseq.order-list-type:: number
-    - https://obsidian.md
+    - {{nav https://obsidian.md}}
       logseq.order-list-type:: number
-    - https://note.wiz.cn
+    - {{nav https://note.wiz.cn}}
       logseq.order-list-type:: number
-    - Others
+    - {{nav https://blogit.io/}}
       logseq.order-list-type:: number
-      collapsed:: true
-      - Free
-        logseq.order-list-type:: number
-        - [Blogger Google](https://www.blogger.com)
-          logseq.order-list-type:: number
-        - [博客园 - 开发者的网上家园](https://www.cnblogs.com/)
-          logseq.order-list-type:: number
-        - [CSDN博客-专业IT技术发表平台](https://blog.csdn.net/)
-          logseq.order-list-type:: number
-        - [WordPress.com：构建站点、售卖商品、创建博客以及更多精彩功能](https://wordpress.com)
-          logseq.order-list-type:: number
-        - 静态页面托管
-          logseq.order-list-type:: number
-          - ~~Gitee Pages~~
-            logseq.order-list-type:: number
-          - GitHub Pages 
-            logseq.order-list-type:: number
-          - Cloudflare Pages 
-            logseq.order-list-type:: number
-          - Vercel
-            logseq.order-list-type:: number
-      - With a Price
-        logseq.order-list-type:: number
-        - [BlogIt](https://blogit.io/)
-          logseq.order-list-type:: number
-        - [Typlog](https://typlog.com/)
-          logseq.order-list-type:: number
+    - {{nav https://typlog.com}}
+      logseq.order-list-type:: number
 - ## Namespace
   - {{namespace logseq}}
 - ## ↩ Reference

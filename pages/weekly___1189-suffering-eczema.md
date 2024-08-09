@@ -3,7 +3,7 @@ also:: 湿疹复发
 created:: [[20240525]]
 status:: writing/published
 exclude-from-graph-view:: true
-tags:: #[[self/healing]]
+tags:: #[[self-healing]]
 exclude-from-graph-view:: true
 
 - {{video https://www.youtube.com/watch?v=zABLecsR5UE}}
