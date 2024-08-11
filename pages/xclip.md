@@ -1,10 +1,16 @@
-also:: commands/xclip
-created:: [[20231015]]
 icon:: ⌘
+created:: [[20240811]]
+description:: 管理 X 粘贴板
+type:: command/linux
+
 - ## Why
+  -
 - ## How
+  -
 - ## What
-  - {{iframe https://wangchujiang.com/linux-command/c/xclip.html, 400}}
-    #+BEGIN_CENTER
-    via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/xclip.html)
-    #+END_CENTER
+  - {{iframe https://wangchujiang.com/linux-command/c/xclip.html,40vh,iframe-radius}}
+  -
+- ## Namespace
+  - {{namespace xclip}}
+- ## ↩ Reference
+  -

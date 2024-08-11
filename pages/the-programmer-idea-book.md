@@ -49,43 +49,15 @@ created:: [[20240721]]
     }
     #+END_QUERY
 - ## Why
-  -
+  - Have no idea what to do with programming
 - ## How
-  collapsed:: true
-  -
-- ## What
-  - ![THE PROGRAMMERS IDEA BOOK](../assets/book_the_programmer_idea_book.pdf)
-    - title:: [karan/Projects](https://github.com/karan/Projects) ![](https://img.shields.io/github/stars/karan/Projects)
-      created:: [[20230320]]
-      description:: A list of practical projects that anyone can solve in any programming language.
-    - title:: [GitHub - karan/Projects-Solutions](https://github.com/karan/Projects-Solutions) ![](https://img.shields.io/github/stars/karan/Projects-Solutions)
-      
-      created:: [[20230321]]
-      description:: Links to others' solutions to Projects (https://github.com/karan/Projects/)
-  - ### \# Program Description
-    - #### Input
-      -
-    - #### Output
-      -
-  - ### \# Alternatives
-    -
-  - ### \# Notes
-    -
-- ## ↩ Reference
-  -
--
--
--
-- ## Content
   - ### Numbers
     - Add/Subtract/Multiply/Divide Fractions | 分数的加减乘除
-      collapsed:: true
       -
-    - Alarm Clock
-      collapsed:: true
+    - TODO Alarm Clock
       - ((64187a57-5760-4a7e-a4e6-6c080efe21a3))
       - ((64187a87-d70a-4641-aa51-06f0103d839b))
-      -
+    -
     - Binary to Decimal and Back Converter
     - Calculator
     - Change Return Program
@@ -158,6 +130,24 @@ created:: [[20240721]]
     - Sieve of Eratosthenes
     - Tax Calculator
     - Unit Converter (Temp, Currency, Volume, Mass and More)
+  -
+-
+- ## What
+  collapsed:: true
+  - ### \# Program Description
+    - #### Input
+      -
+    - #### Output
+      -
+  - ### \# Alternatives
+    -
+  - ### \# Notes
+    -
+- ## ↩ Reference
+  - ![The Programmer Idea](https://rawcdn.githack.com/bgzo/assets/dev/pdf/the-programmer-idea.pdf)
+  - [[karan/projects]]
+  - [[karan/projects-solutions]]
+- ## Content
   -
   - ### Text
     collapsed:: true

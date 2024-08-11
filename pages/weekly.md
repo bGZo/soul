@@ -8,9 +8,7 @@ exclude-from-graph-view:: true
   - 周报是一种 [[ork]] 聚焦的手段，通过复盘过去七天的足迹，我们能清晰目标，以更好地调整方向；
   - 周报是一种叙事疗法，通过和自我对话，把人生的主题性换回给自己，以更好地掌控人生；
 - ## How
-  - TODO Pull 工作摸🐟 [Gist](https://gist.github.com/bGZo/506b84a3a3e56bbf5b13e89fa4f9666f) 的笔记
-    SCHEDULED: <2024-08-03 Sat 00:00 ++1w>
-    collapsed:: true
+  - 摸🐟笔记
     :LOGBOOK:
     * State "DONE" from "TODO" [2024-01-20 Sat 22:00]
     * State "DONE" from "TODO" [2024-01-27 Sat 21:38]
@@ -30,31 +28,34 @@ exclude-from-graph-view:: true
     * State "DONE" from "TODO" [2024-07-20 Sat 21:23]
     * State "DONE" from "TODO" [2024-08-03 Sat 13:39]
     :END:
-    - [[logseq/sync]]
-      - ~~Android~~
-        collapsed:: true
-        - Google Drive: http://127.0.0.1:5244/gdrive/SamsungFiles/androidLogseq.md
-      - ~~iOS (Download without coookie)~~
-        collapsed:: true
-        - https://www.icloud.com.cn/iclouddrive/0dfP2NK-LLjycO3mpP6-R7OSw#iOSLogseq
-    - Combine week notes via ((66515680-e8b8-422b-8113-d79d42028cd4))
+    - # https://gist.github.com + https://cli.github.com/
+      background-color:: gray
+      - ["vim": executable file not found in $PATH #928](https://github.com/profclems/glab/issues/928)
+      - https://github.com/cli/cli/issues/1068
+    - ~~logseq~~
+      background-color:: gray
       collapsed:: true
-      - Windows
-        - 合并一周
-          - ```powershell
-            Write-Host -NoNewline cat $($str=""; $format=", yyyyMMdd.\m\d"; $today = Get-Date; $startOfLastWeek = $today.AddDays(-($today.DayOfWeek.value__)); $endOfLastWeek = $startOfLastWeek.AddDays(5);$currentDate = $endOfLastWeek; while ($currentDate -ge $startOfLastWeek) { $str += $currentDate.ToString($format); $currentDate = $currentDate.AddDays(-1)}; echo $str.Substring(2);) "|" ac (Get-Date).AddDays(6 - [int](Get-Date).DayOfWeek).ToString("yyyyMMdd.\m\d")
-            ```
-        - 删除一周
-          collapsed:: true
-          - ```powershell
-            Write-Host -NoNewline rm $($str=""; $format=", yyyyMMdd.\m\d"; $today = Get-Date; $startOfLastWeek = $today.AddDays(-($today.DayOfWeek.value__)); $endOfLastWeek = $startOfLastWeek.AddDays(5);$currentDate = $endOfLastWeek; while ($currentDate -ge $startOfLastWeek) { $str += $currentDate.ToString($format); $currentDate = $currentDate.AddDays(-1)}; echo $str.Substring(2);)
-            ```
-      - Linux
-        collapsed:: true
-        - ```
-           seq -s", " 20231015 20231021 | xclip -selection clipboard
+      - sync on android
+        - Google Drive: http://127.0.0.1:5244/gdrive/SamsungFiles/androidLogseq.md
+      - sync on iCloud
+        - https://www.icloud.com.cn/iclouddrive/0dfP2NK-LLjycO3mpP6-R7OSw#iOSLogseq
+  - Combine week notes via ((66515680-e8b8-422b-8113-d79d42028cd4))
+    collapsed:: true
+    - Windows
+      - 合并一周
+        - ```powershell
+          Write-Host -NoNewline cat $($str=""; $format=", yyyyMMdd.\m\d"; $today = Get-Date; $startOfLastWeek = $today.AddDays(-($today.DayOfWeek.value__)); $endOfLastWeek = $startOfLastWeek.AddDays(5);$currentDate = $endOfLastWeek; while ($currentDate -ge $startOfLastWeek) { $str += $currentDate.ToString($format); $currentDate = $currentDate.AddDays(-1)}; echo $str.Substring(2);) "|" ac (Get-Date).AddDays(6 - [int](Get-Date).DayOfWeek).ToString("yyyyMMdd.\m\d")
           ```
--
+      - 删除一周
+        collapsed:: true
+        - ```powershell
+          Write-Host -NoNewline rm $($str=""; $format=", yyyyMMdd.\m\d"; $today = Get-Date; $startOfLastWeek = $today.AddDays(-($today.DayOfWeek.value__)); $endOfLastWeek = $startOfLastWeek.AddDays(5);$currentDate = $endOfLastWeek; while ($currentDate -ge $startOfLastWeek) { $str += $currentDate.ToString($format); $currentDate = $currentDate.AddDays(-1)}; echo $str.Substring(2);)
+          ```
+    - Linux
+      collapsed:: true
+      - ```
+         seq -s", " 20231015 20231021 | xclip -selection clipboard
+        ```
 - ## What
   - 周报形式千千万，这里存档一些启用的模板：
     - 夸夸周报

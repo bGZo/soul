@@ -1,5 +1,5 @@
 icon:: 🕛
-tags:: #[[time-management]]
+tags:: #[[time management]]
 created:: [[20191203]]
 
 - # GTD

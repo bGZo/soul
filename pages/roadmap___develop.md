@@ -20,7 +20,7 @@ also:: develop/roadmap
   - [lib-pku/libpku: 北京大学课程资料民间整理](https://github.com/lib-pku/libpku) ![](https://img.shields.io/github/stars/lib-pku/libpku)
   - [QSCTech/zju-icicles: 浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles) ![](https://img.shields.io/github/stars/QSCTech/zju-icicles)
   - [PKUanonym/REKCARC-TSC-UHT: 清华大学计算机系课程攻略](https://github.com/PKUanonym/REKCARC-TSC-UHT) ![](https://img.shields.io/github/stars/PKUanonym/REKCARC-TSC-UHT)
-  - [[pkuflyingpig/cs-self-learning]]
+  - [[cs-self-learning]]
   - [USTC-Resource/USTC-Course: 中国科学技术大学课程资源](https://github.com/USTC-Resource/USTC-Course) ![](https://img.shields.io/github/stars/USTC-Resource/USTC-Course)
   - [kxxwz/SJTU-Courses: 上海交通大学课程资料分享](https://github.com/kxxwz/SJTU-Courses) ![](https://img.shields.io/github/stars/kxxwz/SJTU-Courses)
   - [zjdx1998/seucourseshare: 东南大学课程共享计划](https://github.com/zjdx1998/seucourseshare) ![](https://img.shields.io/github/stars/zjdx1998/seucourseshare)

@@ -5,13 +5,6 @@ exclude-from-graph-view:: true
 
 - ## 👨‍💻 Work
   - ### 🚀 Mirrors
-    collapsed:: true
-    - id:: 66515727-37fc-4088-aff7-c582f96f7344
-      title:: https://github.com/eryajf/Thanks-Mirror
-      created:: [[20230223]]
-      description:: 整理记录各个包管理器，系统镜像，以及常用软件的好用镜像
-      ![](https://img.shields.io/github/stars/eryajf/Thanks-Mirror)
-    - collapsed:: true
     - [[google]]
       collapsed:: true
       - https://g.luciaz.me
@@ -67,46 +60,17 @@ exclude-from-graph-view:: true
           - [Yandex](https://mirror.yandex.ru)
   -
   - ### 📃 Document
-    collapsed:: true
     - [WeRead - 微信读书](https://weread.qq.com/)
     - [Raindrop - All-in-one bookmark manager](https://app.raindrop.io/my/-1)
     - [DevDocs API Documentation](https://devdocs.io/)
     - #### 👨‍💻 [[encoding]]
-      collapsed:: true
       - [Unicode - Compart](https://www.compart.com/en/unicode)
       - [Basic Latin — ✔️ ❤️ ★ Unicode Character Table](https://unicode-table.com/en/)
   -
-  - ### 💻 Public Compiler
-    collapsed:: true
-    - [菜鸟工具 - 不止于工具](https://c.runoob.com/)
-    - [在线编辑器,在线运行代码,在线编译器大全 - 在线工具(cainiaojc.com)](https://www.cainiaojc.com/tool/)
-    - [洛谷在线 IDE](https://www.luogu.com.cn/ide)
-    - [Online Compiler by Programiz](https://www.programiz.com/c-programming/online-compiler/)
-  -
-  - ### ✏ Public Editor
-    collapsed:: true
-    - 🌟 [VSCode For the Web](https://vscode.dev)
-    - [Smart Text Editor](https://stedit.app)
-    - #### [[latex]] Web Import Latex Libs
-      collapsed:: true
-      - [MathJax | Beautiful math in all browsers.](https://www.mathjax.org/)
-      - [KaTeX – The fastest math typesetting library for the web](https://katex.org/)
-    - #### [[markdown]]
-      collapsed:: true
-      - [🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more](https://www.webfx.com/tools/emoji-cheat-sheet/) #emoji
-      - [Create LaTeX tables online – TablesGenerator.com](https://www.tablesgenerator.com/) #logseq
-    - #### [[web]]
-      collapsed:: true
-      - [CodeSandbox: Online Code Editor and IDE for Rapid Web Development](https://codesandbox.io/)
-      - [CodePen: Online Code Editor and Front End Web Developer Community](https://codepen.io/)
-      - [StackBlitz | Instant Dev Environments | Click. Code. Done.](https://stackblitz.com/)
   -
   - ### 🐛 Debug
-    collapsed:: true
     - [Hoppscotch • Hoppscotch](https://hoppscotch.io/)
-  -
   - ### 🎨 Design
-    collapsed:: true
     - ### 🔴🟠🟡🟢🔵🟣🟤 [[color]]
       collapsed:: true
       - [Color Palettes](https://www.color-hex.com/color-palettes/)
@@ -123,7 +87,6 @@ exclude-from-graph-view:: true
       - [ShapeFactory | Simple tools to enrich creativity](https://shapefactory.co/)
       - [yeun/open-color: Color scheme for UI design.](https://github.com/yeun/open-color)
       - via: [大家有什么好的配色网站或者软件推荐吗？ - V2EX](https://www.v2ex.com/t/525939)
-    -
     - ### 📰 [[font]]
       collapsed:: true
       - [Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher](https://www.nerdfonts.com/cheat-sheet)
@@ -134,11 +97,9 @@ exclude-from-graph-view:: true
         - [中文字体 Ubuntu](https://wiki.ubuntu.org.cn/%E5%85%8D%E8%B4%B9%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93)
         - [Free-Chinese-Fonts](http://zenozeng.github.io/Free-Chinese-Fonts/)
         - [coding-fonts](https://github.com/chriscoyier/coding-fonts)
-    -
     - ### 🌌 Icon
       collapsed:: true
       - [iconfont-阿里巴巴矢量图标库](https://www.iconfont.cn/)
-    -
     - ### 🖼 [[photo]] / WallPaper
       collapsed:: true
       - [彼岸桌面（已备）](http://www.netbian.com/)
@@ -159,22 +120,16 @@ exclude-from-graph-view:: true
       - [压缩图](https://www.yasuotu.com/shuiyin)
       - [topology](http://topology.le5le.com/)
       - [ppt背景图片,ppt模板免费下载,ppt制作_扑奔PPT](https://www.pooban.com/)
-    -
-  -
   - ### 🖌 Draw
     collapsed:: true
     - 🌟 [Excalidraw](https://excalidraw.com)
     - [Canvas](https://canvas.apps.chrome/)
     - [Diagram Software and Flowchart Maker](https://www.diagrams.net/)
-  -
-  - ### 📝 Share Gist / Clipboard
-  -
   - ### 👥 Community
     collapsed:: true
     - [GitHub: Let’s build from here · GitHub](https://github.com/)
     - [DEV Community 👩‍💻👨‍💻](https://dev.to/)
     - [daily.dev | The Homepage Developers Deserve](https://app.daily.dev/)
-  -
   - ### 💼 Company #job
     collapsed:: true
     - [脉脉-成就职业梦想](https://maimai.cn/)
@@ -182,7 +137,6 @@ exclude-from-graph-view:: true
     - [职友集：让求职者少走弯路](https://www.jobui.com/)
     - [看准网-查工资|聊面试|评公司|搜职位|国内领先的职场信息平台](https://www.kanzhun.com)
     - [企查查 - 企业工商信息查询系统_查企业_查老板_查风险就上企查查!](https://www.qcc.com/)
-  -
   - ### Other Tools
     collapsed:: true
     - [ChatGPT - OpenAI](https://chat.openai.com/)
@@ -213,6 +167,10 @@ exclude-from-graph-view:: true
       - [ZOJ](http://acm.zju.edu.cn/onlinejudge/)
       - [ZTrening](http://www.codah.club/)
 -
+-
+-
+-
+-
 - ## 😎 Life / Hobbies
   - ### Books
     - [书格](https://new.shuge.org/)
@@ -229,35 +187,6 @@ exclude-from-graph-view:: true
     -
     - ### 🧾 Subtitle
       - [Download subtitles from Youtube, Viki, Viu, Kocowa, Wetv and more](https://downsub.com) #Youtube
-  -
-  - ### 📔 [[manga]]
-  - ### 😍 [[hentai]]
-    - ### 😍📚[[database]]
-      - [JAVLibrary, Your online informative source for Japanese adult videos.](https://www.javlibrary.com/cn/)
-      - [JavDB, Online information source for adult movies](https://javdb.com/)
-        - [JavBus - AV磁力連結分享 - 日本成人影片資料庫](https://www.javbus.com/)
-    -
-    -
-    - ### 😍🎥 [[video]]
-      - [XVIDEOS.COM - Free Porn Videos](https://www.xvideos.com/)
-        - [Free Porn Videos - XVIDEOS.COM](https://www.xvideos.com/)
-      - [XNXX.COM | Free Porn, Sex, Tube Videos, XXX Pics, Pussy in Porno Movies ](https://www.xnxx.com/)
-        - [Free Porn, Sex, Tube Videos, XXX Pics, Pussy in Porno Movies - XNXX.COM](https://www.xnxx.com/)
-      - [xHamster - Free Porn Videos & Sex Tube Movies at xHamster](https://xhamster.com/)
-        - [Free Porn Videos & Sex Tube Movies at xHamster](https://xhamster18.desi/)
-      - [Netflav - 主頁 / Home](https://netflav.com/)
-      - [Pornhub | 免费色情视频及性爱影片 – A片，X级，色情片分享网站](https://cn.pornhub.com/)
-      - [YouPorn | Free Porn Videos - HD Porno Tube & XXX Sex Videos](https://www.youporn.com/)
-      - [Free Live Sex Cams and Adult Chat with Naked Girls | Stripchat](https://stripchat.com/)
-      - [SpankBang: Free Porn Videos and 4K Sex Movies](https://spankbang.com/)
-      - [Chaturbate - Free Adult Webcams, Live Sex, Free Sex Chat, Exhibitionist & Pornstar Free Cams](https://chaturbate.com/)
-      - [OnlyFans](https://onlyfans.com/)
-      - [FANZA 日本最大級のアダルトポータル (旧DMM.R18)](https://www.dmm.co.jp/top/)
-    -
-    -
-    - ### 😍 Domestic
-      - [杯友之家名器飞机杯测评（mingqiceping.com）入门科普,推荐安利,买飞机杯名器必看的专业测评站！ – 飞机杯名器~评测,科普,安利](https://mingqiceping.com/)
-      - [铁牛爱经官网 – 国内首家「性能力」培训品牌 – 中国保健协会理事单位。 – 专业男人「性能力」培训品牌](https://tieniu.ren/)
   -
   - ### 📚 [[database]]
     - [MyAnimeList.net - Anime and Manga Database and Community](https://myanimelist.net/)  #social/networking
@@ -280,8 +209,6 @@ exclude-from-graph-view:: true
   - ### 🥇 [[Rank]]
     - #### 🚀 CPU
       - | | [桌面CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/cpu/index.html)| [手机CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/01/index.html)|
-      -
-    - #### 🎮 [[steam]]
     - #### 🔎 [[search]]
       - [Google Trends](https://trends.google.com/trends/?geo=SG)
       - [百度指数](https://index.baidu.com/v2/index.html#/)

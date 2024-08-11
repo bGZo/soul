@@ -7,7 +7,7 @@ tags:: #Ubuntu, #debian
   #+END_NOTE
 - ## \#0 Mirror
   - {{embed ((66515727-99f3-4d0d-b4c9-fc0fe63d8106))}}
-  - More via: {{embed ((66515727-37fc-4088-aff7-c582f96f7344))}}
+  - More via:
 - ## \#1 Install
   - From mirror source:
     - ```shell

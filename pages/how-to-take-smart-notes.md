@@ -187,7 +187,7 @@ weread:: {{weread 3d8326d072552e803d87c41}}
             description:: 需要我们在较长的时间内保持对一项任务的关注
           - #+BEGIN_IMPORTANT
             集中的注意力必然会受到持续增长的外界干扰的影响，并且随着时间的推移，我们练习专注力的机会越来越少，人们注意力的平均持续时间似乎也大大缩减了
-            **How to 练习专注力?** #TODO/workout
+            **How to 练习专注力?** #workout
             #+END_IMPORTANT
         - 写作的流程 #writing
           - 打字

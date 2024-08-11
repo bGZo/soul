@@ -302,4 +302,5 @@ tags:: #creation
   - academic writing 学术写作
   - 微信 - 新闻怎么写
   - 微信 - 胡键老师-教你六步写好一篇学术论文
+  - https://discuss.logseq.com/t/lesson-5-how-to-power-your-workflows-using-properties-and-dynamic-variables/10173
 -

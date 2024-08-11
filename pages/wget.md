@@ -1,10 +1,12 @@
-also:: commands/wget
+icon:: ⌘
 created:: [[20230703]]
+description:: Linux系统下载文件工具
+type:: command/linux
+
 - ## Why
 - ## How
 - ## What
-  - [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/cat.html)
-    {{iframe https://wangchujiang.com/linux-command/c/wget.html, 400}}
+  - {{iframe https://wangchujiang.com/linux-command/c/wget.html,40vh,iframe-radius}}
     - ==wget非常稳定，它在带宽很窄的情况下和不稳定网络中有很强的适应性，如果是由于网络的原因下载失败，wget会不断的尝试，直到整个文件下载完毕。如果是服务器打断下载过程，它会再次联到服务器上从停止的地方继续下载。这对从那些限定了链接时间的服务器上下载大文件非常有用。==
       - TODO 如何复现这个应用场景？
     - **镜像网站**：`--mirror`

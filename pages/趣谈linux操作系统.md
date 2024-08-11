@@ -54,12 +54,11 @@ tags:: #geekbang, #linux
   - ## Subsystem
     - ![image.png](../assets/image_1645947936470_0.png)
   - ## Several [[command]]
-    collapsed:: true
     - ![image.png](../assets/image_1645956348730_0.png)
     - [[ls]]
     - Install
       - 在 Windows 里面,最终会变成 C:\Program Files 下面的一个文件夹以及注册表里面的一些配置。对应 Linux 里面会放的更散一点。例如,主执行文件会放在 /usr/bin 或者 /usr/sbin 下面,其他的库文件会放在 /var 下面,配置文件会放在 /etc 下面
-    - [[command/nohup]]
+    - [[nohup]]
     -
   - ## 系统调用
     -
@@ -195,7 +194,7 @@ tags:: #geekbang, #linux
           gcc -o dynamiccreateprocess createprocess.o -L. -ldynamicprocess
           ```
           - 当运行这个程序的时候，首先寻找动态链接库，然后加载它。默认情况下，系统在 /lib 和 /usr/lib 文件夹下寻找动态链接库。如果找不到就会报错，我们可以设定 `export LD_LIBRARY_PATH=.` 环境变量，程序运行时会在此环境变量指定的文件夹下寻找动态链接库。
-    - [[commands/exec]]
+    - [[exec]]
     -
   - ## ch02 线程
     - ```cpp

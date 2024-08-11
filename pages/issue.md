@@ -18,7 +18,8 @@ exclude-from-graph-view:: true
    :table-view? false
   }
   #+END_QUERY
-- #+BEGIN_QUERY
+- collapsed:: true
+  #+BEGIN_QUERY
     {:title [:h6 "Blocks tagged #issue"]
      :query [:find (pull ?h [*])
              :in $ ?target

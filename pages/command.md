@@ -1,25 +1,45 @@
-also:: 命令
 icon:: ⌘
+also:: 命令
 created:: [[20230625]]
 
-  - Linux Manual
-    template:: command-man
+  - template:: command/linux
     template-including-parent:: false
-    - also:: commands/``{c.page.name}``
-      created:: ``{ date.now.format('YYYYMMDD') }``
-      icon:: ⌘
+    collapsed:: true
+    - icon:: ⌘
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      description:: 
+      type:: ``{ 'command/linux' }``
     - ## Why
+      -
     - ## How
+      -
     - ## What
-      - {{iframe https://wangchujiang.com/linux-command/c/``{c.page.name}``.html, 400}}
-        #+BEGIN_CENTER
-        via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/``{c.page.name}``.html)
-        #+END_CENTER
+      - {{iframe https://wangchujiang.com/linux-command/c/``{c.page.name}``.html,40vh,iframe-radius}}
+      -
+    - ## Namespace
+      - {{namespace ``{c.page.name}``}}
+    - ## ↩ Reference
+      -
+  - template:: command/windows
+    template-including-parent:: false
+    collapsed:: true
+    - icon:: ⌘
+      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      description:: 
+      type:: ``{ 'command/windows' }``
+    - ## Why
+      -
+    - ## How
+      -
+    - ## What
+      -
+    - ## Namespace
+      - {{namespace ``{c.page.name}``}}
+    - ## ↩ Reference
+      -
 - ## Why
-  - #+BEGIN_NOTE
-    It's evergreen(常青) knowledge that will not be out of date any time soon.
+  - > It's evergreen(常青) knowledge that will not be out of date any time soon.
     — [The Linux Command Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook/) | [zh-has](https://chinese.freecodecamp.org/news/the-linux-commands-handbook/)
-    #+END_NOTE
 - ## How
 - ## What
   - ### On [[linux]]
@@ -627,3 +647,5 @@ created:: [[20230625]]
       - `dirname` <-> `basename`
   - ### On [[Windows]]
     collapsed:: true
+-
+- {{namespace command}}

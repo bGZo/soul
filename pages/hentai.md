@@ -31,4 +31,26 @@ wikipedia:: https://en.wikipedia.org/wiki/Hentai#Genres
   - ---
   - > 在十九世纪下半叶，美国有一些资产阶级报纸，为了赚钱，以登载色情、凶杀之类诲淫诲盗内容的新闻来招徕读者，其中有两家报纸竞相刊载表现这种内容的一套题名《黄色孩童》的连环画，于是人们就称这一类报纸为黄色报纸。表现这种内容的文艺，就被称为黄色文艺。同样，那些宣扬色情、淫秽、颓废的内容，腐蚀人们的心灵的音乐或歌曲，就被称为黄色音乐或黄色歌曲。
     via: 怎样鉴别黄色歌曲
--
+- ## References
+  - [[navigation]]
+    - library
+      collapsed:: true
+      - {{nav https://www.javlibrary.com}}
+      - {{nav https://javdb.com}}
+        - {{nav https://www.javbus.com}}
+    - online
+      collapsed:: true
+      - {{nav https://www.xvideos.com}}
+      - {{nav https://www.xnxx.com}}
+      - {{nav https://xhamster.com}}
+      - {{nav https://cn.pornhub.com}}
+      - {{nav https://www.youporn.com}}
+      - {{nav https://netflav.com}}
+      - {{nav https://chaturbate.com}}
+      - {{nav https://spankbang.com}}
+      - {{nav https://stripchat.com}}
+      - {{nav https://www.dmm.co.jp/top/}}
+    - others
+      collapsed:: true
+      - {{nav https://mingqiceping.com}}
+      - {{nav https://tieniu.ren}}

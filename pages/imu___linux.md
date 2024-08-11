@@ -835,7 +835,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
 -
 - Other
   - [[vim]]
-  - [[command/exec]] 系统调用
+  - [[exec]] 系统调用
     collapsed:: true
     - ```cpp
       pid_t child=fork();
@@ -885,7 +885,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
           }
       }
       ```
-  - [[command/tar]] 打包
+  - [[tar]] 打包
   -
 - Refs
   - [Linux创建进程链、进程扇、进程树_小咸鱼一条的博客-CSDN博客_进程树怎么画](https://blog.csdn.net/weixin_45907789/article/details/109256707)

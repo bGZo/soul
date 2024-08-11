@@ -67,7 +67,7 @@ description:: 静态强类型，但因为提供了类似反射等机制，也具
   collapsed:: true
   - ~~java-swing~~
     collapsed:: true
-    - Under [[jetbrains-idea]] Design UI Tools
+    - Under [[jetbrains/idea]] Design UI Tools
       - [IntelliJ IDE 开发Java GUI 入门 - 简书](https://www.jianshu.com/p/cdca9a30b86b)
         - 拖完页面后, 在主页面函数中右键 Generate Form, 之后就可以生成调用代码.
     - [[为什么很多人说Java不适合编写桌面应用]]

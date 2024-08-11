@@ -120,26 +120,29 @@ hr {
   .left-sidebar-inner .nav-content-item .header{
     background: var(--left-sidebar-bg-color);
   }
-    
+
   /**
    * fix: overwrite build-in css
    * link: http://unpkg.com/bgzo/img/texture.png
    */
   #app-container,#main-container {
-    background-image: 
-      linear-gradient(rgba(130, 130, 130, .1) 0.01em, transparent .1em), 
-      linear-gradient(90deg, rgba(130, 130, 130, .1) 0.01em, transparent .1em);
+    background-image:
+      linear-gradient(rgba(130, 130, 130, .05) 0.01em, transparent .05em),
+      linear-gradient(90deg, rgba(130, 130, 130, .05) 0.01em, transparent .05em);
     background-size: 1em 1em;
     background-attachment: scroll;
     background-repeat: repeat;
   }
 
 }
-mark>code {
-  background-color: var(--ls-highlight-color) !important;
-}
-mark>a {
-  color: black !important;
+mark{
+  color: #1e1e1e;
+  code {
+    background-color: var(--ls-highlight-color) !important;
+  }
+  a {
+    color: black !important;
+  }
 }
 .page-ref {
   color: var(--ls-highlight-text-color);
@@ -205,4 +208,8 @@ a.tag:active, a.tag:focus, a.tag:hover {
 .inline-right-tag {
   display: inline;
   margin-left: .5em;
+}
+
+.macro {
+    display: inline;
 }

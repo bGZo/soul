@@ -13,9 +13,8 @@ type:: lang/programming
   - [[function-prototype]]
 - ## Reference
   - ![doc_Cpp_STL_ReferenceManual.pdf](../assets/doc_Cpp_STL_ReferenceManual_1674806976137_0.pdf)
-  - TODO [Light-City/CPlusPlusThings C++那些事](https://github.com/Light-City/CPlusPlusThings)  ![](https://img.shields.io/github/stars/Light-City/CPlusPlusThings)
-  - TODO [changkun/modern-cpp-tutorial: 📚 Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) ![](https://img.shields.io/github/stars/changkun/modern-cpp-tutorial)
-  - TODO [Bjarne Stroustrup 的 C++ 风格与技术 FAQ（中文版）](https://www.stroustrup.com/bsfaq2cn.html)
-  - TODO [cppreference-zh-20210212.chm](../assets/cpp/cppreference-zh-20210212_1645372520366_0.chm)
--
+  - [cppreference-zh-20210212.chm](../assets/cpp/cppreference-zh-20210212_1645372520366_0.chm)
+  - [Light-City/CPlusPlusThings C++那些事](https://github.com/Light-City/CPlusPlusThings)  ![](https://img.shields.io/github/stars/Light-City/CPlusPlusThings)
+  - [changkun/modern-cpp-tutorial: 📚 Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial) ![](https://img.shields.io/github/stars/changkun/modern-cpp-tutorial)
+  - [Bjarne Stroustrup 的 C++ 风格与技术 FAQ（中文版）](https://www.stroustrup.com/bsfaq2cn.html)
 -

@@ -1,15 +1,17 @@
 also:: tools/scoop
 created:: [[20240225]]
-tags:: #Windows #monthly
+tags:: #windows
 
 - ## Why
   - [[commandline]]
 - ## How
-  - DONE How to find softwares could be installed?
-    - online #star
-      - {{iframe https://bjansen.github.io/scoop-apps/,40vh,iframe-radius}}
+  - ### Find Software
+    collapsed:: true
+    - online via:
+      {{iframe https://bjansen.github.io/scoop-apps/,40vh,iframe-radius}}
     - local: `scoop search xxx`
-  - DONE How to migrate between diff pcs？
+  - ### Migrate PCs
+    collapsed:: true
     - {{embed ((65ccf1f1-1c85-4844-8e8f-b0947b25b0fd))}}
       logseq.order-list-type:: number
       #star
@@ -18,7 +20,11 @@ tags:: #Windows #monthly
       你可以 scoop export 一个 json 文件，下次重装直接 scoop import 就行了
       — [Windows 包管理 scoop 太好用了! - V2EX](https://www.v2ex.com/t/869453)
       #+END_QUOTE
-  - WAITING How to automatically backup the installed app? \#project \#ideea \#automatic \#script \#monthly
+  - ### Reset Version
+    collapsed:: true
+    - ```shell
+      scoop reset logseq@0.10.8
+      ```
 - ## What
   - DONE 用 scoop 安装浏览器存在兼容问题： `Start Menu\Programs\Scoop Apps`启动 和 默认浏览器启动
     collapsed:: true
@@ -117,6 +123,6 @@ tags:: #Windows #monthly
         - notice its not "Set-Theme" from [Windows Terminal - PowerShell customization via oh-my-posh/posh-git Set-Theme error? · Issue #9237 · microsoft/terminal](https://github.com/microsoft/terminal/issues/9237#issuecomment-798913706)
           - > It seems the "Set-Theme" cmdlet was renamed to "Set-PoshPrompt".
         - more color-schemes:  [Windows 终端配色方案 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/terminal/customize-settings/color-schemes)
-  - 一些参考文章
-    - [Scoop——也许是Windows平台最好用的软件（包）管理器 - 知乎](https://zhuanlan.zhihu.com/p/463284082)
-    - [Scoop - Windows下的包管理工具 - 简书 (jianshu.com)](https://www.jianshu.com/p/d88616d7138e)
+- ## References
+  - [Scoop——也许是Windows平台最好用的软件（包）管理器 - 知乎](https://zhuanlan.zhihu.com/p/463284082)
+  - [Scoop - Windows下的包管理工具 - 简书 (jianshu.com)](https://www.jianshu.com/p/d88616d7138e)

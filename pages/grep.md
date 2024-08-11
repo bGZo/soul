@@ -1,13 +1,24 @@
-also:: commands/grep
-- global regular expression print | 全局正则表达式打印
--
+icon:: ⌘
+created:: [[20240811]]
+description:: global regular expression print | 全局正则表达式打印 | 强大的文本搜索工具
+type:: command/linux
+
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  - {{iframe https://wangchujiang.com/linux-command/c/grep.html,40vh,iframe-radius}}
+  -
+- ## Namespace
+  - {{namespace grep}}
+- ## ↩ Reference
+  -
 -
 -
 - ```shell
   less index.md | grep -n document.getElementById
   ```
--
--
 - Parms
   - ```
     -F, --fixed-strings

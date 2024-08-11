@@ -1,6 +1,19 @@
-also:: 护肤
-tags:: #TODO
+icon:: 📄
+also:: 护肤 
 created:: [[20221128]]
+description:: 
+type:: hobby
+
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace skincare}}
+- ## ↩ Reference
+  -
 -
 - [有什么可以让皮肤变好的方法？ - 知乎](https://zhuanlan.zhihu.com/p/40181735?utm_id=0)
 - [这可能是最有效的去黑头方法了！草莓鼻患者必看！ - 知乎](https://zhuanlan.zhihu.com/p/525231074)

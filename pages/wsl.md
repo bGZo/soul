@@ -48,7 +48,7 @@ created:: 202104
       "acrylicOpacity": 0.7,
       ```
 - ## What
-  - Open in `explore.exe` #PowerShell #Windows
+  - Open in `explore.exe` #powershell #Windows
     collapsed:: true
     - ```bash
       cd \\wsl$\Ubuntu

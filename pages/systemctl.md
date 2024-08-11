@@ -1,13 +1,14 @@
-also:: commands/systemctl
-created:: [[20231005]]
 icon:: ⌘
+created:: [[20231005]]
+description:: 系统服务管理器指令
+type:: command/linux
+
 - ## Why
+  -
 - ## How
+  -
 - ## What
-  - {{iframe https://wangchujiang.com/linux-command/c/systemctl.html, 400}}
-    #+BEGIN_CENTER
-    via: [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/systemctl.html)
-    #+END_CENTER
+  - {{iframe https://wangchujiang.com/linux-command/c/systemctl.html,40vh,iframe-radius}}
   - **systemctl命令** 是系统服务管理器指令，它实际上将 [[service]] 和 [[chkconfig]] 这两个命令组合到一起。
   - ### 查看所有已启动的服务
     - ```shell
@@ -18,3 +19,7 @@ icon:: ⌘
       systemctl mask sleep.target
       systemctl unmask sleep.target
       ```
+- ## Namespace
+  - {{namespace systemctl}}
+- ## ↩ Reference
+  -

@@ -1,7 +1,10 @@
-also:: commands/chmod
-created:: [[20231217]]
 icon:: ⌘
+created:: [[20231217]]
+description:: 用来变更文件或目录的权限
+type:: command/linux
+
 - ## Why
+  -
 - ## How
   - 每个人都可以读取
     - ```shell
@@ -45,6 +48,15 @@ icon:: ⌘
         - `5` 代表可以读取和执行
         - `6` 代表可以读取和写入
         - `7` 代表可以读取、执行和写入
+- ## What
+  - {{iframe https://wangchujiang.com/linux-command/c/chmod.html,40vh,iframe-radius}}
+  -
+- ## Namespace
+  - {{namespace chmod}}
+- ## ↩ Reference
+  -
+-
+- ## Why
 - ## What
   - {{iframe https://wangchujiang.com/linux-command/c/chmod.html, 400}}
     #+BEGIN_CENTER

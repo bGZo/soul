@@ -1379,7 +1379,7 @@ exclude-from-graph-view:: true
     - WAITING [[sort]] 可视化
       - [如何可视化「排序算法」 - 知乎](https://zhuanlan.zhihu.com/p/31314248)
       - [数据结构和算法动态可视化 (Chinese) - VisuAlgo](https://visualgo.net/zh)
-    - WAITING #ACGN Blog Theme / combine with origin blog?
+    - WAITING #anime Blog Theme / combine with origin blog?
       - 把 Git Blog 改造成为 Jekyll 博客
       - **重要特性**: 支持**搜索**
       - 博客 != 教程

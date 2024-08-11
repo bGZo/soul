@@ -46,4 +46,14 @@ wikipedia:: https://en.wikipedia.org/wiki/Animation
       - [nhentai: hentai doujinshi and manga](https://nhentai.net/)
       - [DLsite:从同人志，同人游戏开始，到PC软件，漫画的二次元综合下载商店 | DLsite综合首页](https://www.dlsite.com/index.html)
       - [FANZA 日本最大級のアダルトポータル (旧DMM.R18)](https://www.dmm.co.jp/top/)
+    - archive
+      - [~情报搜集⭐资源渠道⭐分享汇总~](https://bgm.tv/group/topic/367032)
+      - [白嫖党福音、资源汇总(解说更新完毕)](https://bgm.tv/group/topic/373032)
+      - [网上冲浪指南](https://bgm.tv/group/topic/371445)
+      - [ACG情报交流](http://duobaoxiang.ysepan.com/)
+  - WAITING [Too much] Digest the content via: [二次元 | RSSHub](https://docs.rsshub.app/anime.html) #[[weekly]]
+    - anitama
+      - [如何看待anitama即将解散？ - 知乎](https://www.zhihu.com/question/313191641)
+-
+-
 -

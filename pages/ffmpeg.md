@@ -1,4 +1,3 @@
-also:: commands/ffmpeg
 tags:: #[[free-software]], #[[video]]
 
 -

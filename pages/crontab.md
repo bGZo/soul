@@ -1,10 +1,21 @@
-also:: commands/crontab
-description:: Job scheduler on Unix-like operating systems | 定期运行的作业
 icon:: ⌘
-tags:: #linux
 created:: [[20230625]]
+description:: 提交和管理用户的需要周期性执行的任务 | Job scheduler on Unix-like operating systems | 定期运行的作业
+type:: command/linux
 wikipedia:: https://en.wikipedia.org/wiki/Cron
 
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  - {{iframe https://wangchujiang.com/linux-command/c/crontab.html,40vh,iframe-radius}}
+  -
+- ## Namespace
+  - {{namespace crontab}}
+- ## ↩ Reference
+  -
+-
 - ## Why
 - ## How
 - ## What

@@ -84,6 +84,7 @@ https://github.com/xuxiaodong/usingcli-book
           |@ |主机名|
           |$ |变量名|
     - 可编程补全
+      id:: 0ad5daf6-95a7-44f6-8f77-dd4623b9076a
       - bash 示例
         collapsed:: true
         - `/etc/bash_completion.d/mycmd`
@@ -150,10 +151,12 @@ https://github.com/xuxiaodong/usingcli-book
     - Emacs 编辑模式实战
     - vi 编辑模式实战
       - ![image.png](../assets/book/usingcli/image_1672738875178_0.png)
+        id:: 63b3f83a-9ce8-4210-b8d0-1364acd2142b
   - 第五章 必备锦囊
     - 快速导航
     - 使用别名
     - 利用 {} 构造参数
+      id:: 1381e7a1-1b26-4bdd-9820-414429b64c00
       collapsed:: true
       - 备份文件
         - 我发现很多朋友在备份文件时执行的命令是：

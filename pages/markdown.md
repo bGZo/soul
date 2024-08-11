@@ -262,6 +262,10 @@ tags:: #domain-specific
 - ## Namespace
   - {{namespace markdown}}
 - ## ↩ Reference
+  - table generate oneline
+    - {{nav https://www.tablesgenerator.com}}
+  - pick emoji
+    - {{nav https://www.webfx.com/tools/emoji-cheat-sheet}}
   - [Markdown 脚注 | Markdown 官方教程](https://markdown.com.cn/extended-syntax/footnotes.html)
   - [流程图图形标准含义 - Rooker - 博客园](https://www.cnblogs.com/lukelook/p/11217031.html)
   - [CommonMark](https://commonmark.org/)

@@ -5,7 +5,7 @@ tags:: system
 - ## Why
 - ## How
   - ~~[BitDock比特工具栏-官方社区 - 首页](http://www.bitdock.cn/bbs/forum.php)~~ #deprecated #beautify
-  - ### Shortcuts #Quickref
+  - ### Shortcuts
     - `Windows`
       collapsed:: true
       - |     Operation      |                      Effects                       |

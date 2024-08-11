@@ -342,7 +342,7 @@ type:: tool
 - ## Namespace
   - {{namespace logseq}}
 - ## ↩ Reference
-  - https://discuss.logseq.com/c/look-what-i-built #[[kill time]]
+  - https://discuss.logseq.com/c/look-what-i-built #[[kill-time]]
   - [logseq/awesome-logseq: Awesome Logseq resources created by the community <3 (github.com)](https://github.com/logseq/awesome-logseq)
   - [Roadmap](https://trello.com/b/8txSM12G/roadmap)
   - [求推荐：知识管理-电子书阅读管理 APP？ - V2EX](https://www.v2ex.com/t/826204)

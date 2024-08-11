@@ -1,6 +1,6 @@
 tags:: #java
 
-- 系统编码 (Utf-8 / GBK) 的问题, [[commandline/windows]] 编码是 GBK, 就算时区切回 Utf-8(Bata版本) 命令行会出现乱码/不输出的问题, 官网的 JDK 根据电脑输出编码格式, 无法改变 JDK 的输出语言(GBK), 基本是无解...
+- 系统编码 (Utf-8 / GBK) 的问题, [[windows-commandline]] 编码是 GBK, 就算时区切回 Utf-8(Bata版本) 命令行会出现乱码/不输出的问题, 官网的 JDK 根据电脑输出编码格式, 无法改变 JDK 的输出语言(GBK), 基本是无解...
 - ```shell
   $ chcp (code)
   ```

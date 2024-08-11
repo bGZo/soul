@@ -1,6 +1,19 @@
-also:: commands/diff
-created:: [[20240420]]
 icon:: ⌘
+created:: [[20240420]]
+description:: 比较给定的两个文件的不同
+type:: command/linux
+
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  - {{iframe https://wangchujiang.com/linux-command/c/diff.html,40vh,iframe-radius}}
+  -
+- ## Namespace
+  - {{namespace diff}}
+- ## ↩ Reference
+  -
 - ## Why
 - ## How
 - ## What

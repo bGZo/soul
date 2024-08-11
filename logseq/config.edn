@@ -9,7 +9,7 @@
 
  :preferred-workflow :todo
 
- :hidden [ "/utils" "/archives" ]
+ :hidden [ "/utils" ]
 
  :default-templates {
         :journals "daily"
@@ -177,8 +177,9 @@
 
  :macros {
        "iframe" "<iframe src='$1' style='height:$2' class='$3' allow='fullscreen'/><div class='text-center'>via: <a href='$1' target='_blank' class='external-link'>$1</a></div>"
-       "nav" "<img class='inline-left-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$1'/><a href='$1' target='_blank' class='external-link'>$1</a>"
+       "nav" "<a href='$1' target='_blank' class='external-link'>$1</a><img class='inline-right-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$1'/>"
        "gh" "<a href='https://github.com/$1' target='_blank' class='external-link'>https://github.com/$1</a><img class='inline-right-tag' src='https://img.shields.io/github/stars/$1'/>"
+       "tg" "https://t.me/$1 <a href='tg://resolve?domain=$1' target='_blank' class='external-link'>🚀</a>"
        "bangumi" "https://bgm.tv/subject/$1"
        "myanimelist" "https://myanimelist.net/anime/$1"
        "doufilm" "https://book.douban.com/subject/$1"
@@ -186,10 +187,10 @@
        "doubook" "https://book.douban.com/subject/$1"
        "weread" "https://weread.qq.com/web/bookDetail/$1"
        "image/cover" "![]($1){:width 100}"
-       
+
        ;; wish one day could support
        "ghgist" "<script src='https://gist.github.com/bGZo/$1.js'></script>"
-          
+
           }
 
  ;''
@@ -209,7 +210,7 @@
         :charge-range    600
  }
 
- :favorites ["announcements" "issue" "omnivore" "dashboard" "navigation" "history/burden" "writings" "hobbies" "tools"]
+ :favorites ["postgresql修炼之道" "announcements" "issue" "omnivore" "dashboard" "navigation" "history/burden" "writings" "hobbies" "tools"]
 
 ;; :srs/learning-fraction 0.5
 

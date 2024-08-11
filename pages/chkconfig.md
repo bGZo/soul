@@ -1,9 +1,17 @@
-also:: commands/chkconfig
-created:: [[20231005]]
 icon:: ⌘
+created:: [[20231005]]
+description:: 检查或设置系统的各种服务
+type:: command/linux
+
 - ## Why
+  -
 - ## How
+  -
 - ## What
-  - [Linux 命令搜索引擎 by wangchujiang](https://wangchujiang.com/linux-command/c/cat.html)
-    {{iframe https://wangchujiang.com/linux-command/c/chkconfig.html, 400}}
+  - {{iframe https://wangchujiang.com/linux-command/c/chkconfig.html,40vh,iframe-radius}}
+  -
+- ## Namespace
+  - {{namespace chkconfig}}
+- ## ↩ Reference
+  -
 -
