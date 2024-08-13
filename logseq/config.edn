@@ -105,7 +105,7 @@
                                  (sort-by (fn [h]
                                             (get h :block/priority "Z")) result))
              :breadcrumbs-show? true
-             :collapsed? false}
+             :collapsed? true}
 
             ;; the "NEXT" query asks the future tasks.
             {:title "📅 NEXT"
@@ -122,7 +122,7 @@
                      ]
              ;:inputs [:today :3650d-after]
              :breadcrumbs-show? true
-             :collapsed? false}
+             :collapsed? true}
 
             {:title "🗓️ Scheduled"
              :query [:find (pull ?b [*])
@@ -138,7 +138,7 @@
                                  (sort-by (fn [h]
                                             (get h :block/scheduled)) result))
              :breadcrumbs-show? true
-             :collapsed? false}
+             :collapsed? true}
 
             {:title "🔥 OVERDUE"
              :query [:find (pull ?b [*])
@@ -197,7 +197,7 @@
 
  :ref/default-open-blocks-level 2
 
- :ref/linked-references-collapsed-threshold 50
+ :ref/linked-references-collapsed-threshold 10
 
  :graph/settings {:orphan-pages? true
  :builtin-pages? false
@@ -210,7 +210,7 @@
         :charge-range    600
  }
 
- :favorites ["postgresql修炼之道" "announcements" "issue" "omnivore" "dashboard" "navigation" "history/burden" "writings" "hobbies" "tools"]
+ :favorites ["announcements" "issue" "omnivore" "dashboard" "navigation" "writings" "hobbies" "tools" "history/burden" "postgresql修炼之道"]
 
 ;; :srs/learning-fraction 0.5
 

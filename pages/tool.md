@@ -1,6 +1,6 @@
+icon:: 🛠
 also:: 工具
 created:: [[20230531]]
-icon:: 🛠
 
   - template:: tool/deprecated
     template-including-parent:: false

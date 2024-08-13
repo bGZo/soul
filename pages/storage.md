@@ -27,7 +27,7 @@ tags:: #3C, #tool
       - EVO Plus: 三星独有格式.
       - Refereneces
         - [[为什么现在的手机大多已不支持SD存储卡扩展呢]]
-        - [[Re 閒聊 安卓旗艦為何不採用NVME呢]]
+        - [[安卓旗艦為何不採用nvme呢]]
   - ### 检测工具 [[tools]]
     - ```shell
       # Windows

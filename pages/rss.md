@@ -154,7 +154,7 @@ tags:: #info
     - Atom like https://gmgard.moe/rss
   - What I used in past and recommand now
     id:: 4dd1229b-d8a7-4599-b042-8e767800317e
-    - ✨ [GitHub - Rongronggg9/RSS-to-Telegram-Bot: A Telegram RSS bot that cares about your reading experience](https://github.com/Rongronggg9/RSS-to-Telegram-Bot)
+    - ✨[[rongronggg9/rss-to-telegram-bot]]
     - ✨ [Feedbro - Chrome Web Store (google.com)](https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa?hl=en)
       collapsed:: true
       - But I prefer like the brave build-in RSS reader😭😭

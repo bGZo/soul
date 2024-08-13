@@ -1,6 +1,6 @@
 icon:: 🐧
 created:: [[20240524]]
-tags:: #[[Linux Distro]], #debian 
+tags:: #[[Linux Distro]], #debian
 
 - ## Why
   - 为什么选择 Ubuntu?

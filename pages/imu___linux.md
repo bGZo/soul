@@ -43,7 +43,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
   - 同一台机器通信
     - 有血缘
       - 父子进程
-        - [[linux/system-call/fork]]
+        - [[lsc-fork]]
           collapsed:: true
           - {{embed ((63049e75-857f-4575-b888-4008ea57c54d))}}
           - Cases

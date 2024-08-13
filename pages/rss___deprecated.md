@@ -1,4 +1,3 @@
-tags:: #rss/deprecated
 template:: rss/deprecated
 template-including-parent:: true
 

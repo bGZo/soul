@@ -113,7 +113,7 @@ also:: os/process, 进程
         cat /tmp/xxx.log
         top # 不看不知道, 一看吓一跳, 我的电脑里面有两个僵尸进程, woc
         ```
-- ## [[linux/kernel]] Process | Linux 操作进程
+- ## [[linux-kernel]] Process | Linux 操作进程
   - 进程创建运行 by [[cpp]]
     collapsed:: true
     - **fork：函数用于从已存在的进程中创建一个新进程**（新进程称为子进程，而原进程称为父进程。这个函数有两个返回值，子进程返回0，父进程返回父进程的pid，pid 是一个标志进程的数字，可以用函数getpid() 获得）
@@ -153,7 +153,7 @@ also:: os/process, 进程
       }
       ```
     -
-  - 经由 [[linux/system-call]] 处理的进程操作
+  - 经由 [[linux-system-call]] 处理的进程操作
     - 后台进程管理 `fg`、`bg`、`jobs`、`&`、`ctrl + z`、`ctrl + c`、`ctrl + \`、`ctrl + d`
       - `&`: 加在一个命令的最后，可以把这个命令放到后台执行
         - `gftp &`

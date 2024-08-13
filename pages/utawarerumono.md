@@ -1,6 +1,15 @@
+icon:: 🎮
+cover:: {{image/cover }}
 also:: 传颂之物
-tags:: #galgame/god
+author:: 
+created:: [[20240812]]
+rating:: ⭐⭐⭐⭐
+tags:: 
+type:: game
+bangumi:: {{bangumi }}
+douban:: {{dougame }}
 
+-
 - Series
   collapsed:: true
   - title:: 传颂之物 致逝者的摇篮曲

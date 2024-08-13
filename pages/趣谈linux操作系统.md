@@ -62,7 +62,7 @@ tags:: #geekbang, #linux
     -
   - ## 系统调用
     -
-    - [[linux/system-call]]
+    - [[linux-system-call]]
     - collapsed:: true
       > "一切皆文件"
       - 启动一个进程,需要一个程序文件,这是一个**二进制文件**。

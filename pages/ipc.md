@@ -10,7 +10,7 @@ also:: Inter Process Communication, 进程间通信
     collapsed:: true
     - 协调进程间的操作
       - 某些操作，多个进程不能同时执行，否则可能会产生错误的结果
-- ## [[linux]] #linux/kernel
+- ## [[linux]] #linux-kernel
   collapsed:: true
   - ## PIPE
     collapsed:: true
