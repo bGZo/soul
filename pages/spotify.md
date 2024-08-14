@@ -1,6 +1,6 @@
 also:: 声破天
-tags:: #music/platform
 created:: [[20220320]]
+type:: platform/music
 
 - ## Why
   - To be first, Netease and QQ music both have censored and comments design, which is really wasting time.

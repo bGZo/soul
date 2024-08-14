@@ -189,7 +189,7 @@ exclude-from-graph-view:: true
       - [Download subtitles from Youtube, Viki, Viu, Kocowa, Wetv and more](https://downsub.com) #Youtube
   -
   - ### 📚 [[database]]
-    - [MyAnimeList.net - Anime and Manga Database and Community](https://myanimelist.net/)  #social/networking
+    - [MyAnimeList.net - Anime and Manga Database and Community](https://myanimelist.net/)  #social-networking
     - [Baka-Updates Manga - Your Reviews, Series, Scanlator and Latest Manga Release Resource](https://www.mangaupdates.com/)
     - [The Visual Novel Database | vndb](https://vndb.org/)
     - [GGBases-A base of galgame's torrent/magnet to download!(67160)](https://www.ggbases.com/)

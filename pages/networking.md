@@ -1,149 +1,157 @@
-also:: 网络
 icon:: 🌐
--
-- [Why is Ethernet So Power Hungry? - Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/questions/52349/why-is-ethernet-so-power-hungry)
-  collapsed:: true
-  - This is mostly due to ethernet not being a mobile standard. It was never intended for low power usage
-  - The biggest current draw in a operating mode is the integrated PHY. It keeps the ethernet connection active. As long as a cable is plugged in (on both ends and both devices are on), the link is active, 10baseT keeps ±2v on each pair. This is how the standard (IEEE 802.3) was designed, a always active data connection.
-  - On the other hand, all of these have a comparably low standby/powerdown current. If you need "low power" ethernet, then you want to power manage. If you don't need to use the ethernet, you power off the entire thing. This works great for transmit only projects. Arbitrary receive mode projects, not so much (web host for example).
-  - http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2200.pdf
-  - http://www.micrel.com/_PDF/Ethernet/datasheets/ksz8851snl_ds.pdf
-  - http://www.marvell.com/transceivers/assets/Marvell-88E3016-Fast-Ethernet.pdf
--
-- #ping #python  实现 （抄来的）
-  collapsed:: true
-  ```python
-  #ICMPPing.py
-  import socket
-  import os
-  import struct
-  import time
-  import select
-  ICMP_ECHO_REQUEST = 8
-  #生成校验和
-  def checksum(str):
-      csum = 0
-      countTo = (len(str) / 2) * 2
-      count = 0
-      while count < countTo:
-          thisVal = str[count + 1] * 256 + str[count]
-          csum = csum + thisVal
-          csum = csum & 0xffffffff
-          count = count + 2
-      if countTo < len(str):
-          csum = csum + str[len(str) - 1].decode()
-          csum = csum & 0xffffffff
-      csum = (csum >> 16) + (csum & 0xffff)
-      csum = csum + (csum >> 16)
-      answer = ~csum
-      answer = answer & 0xffff
-      answer = answer >> 8 | (answer << 8 & 0xff00)
-      return answer
-  #接收一次Ping的返回消息
-  def receiveOnePing(mySocket, ID, sequence, destAddr, timeout):
-      timeLeft = timeout
-      while 1:
-          startedSelect = time.time()
-          whatReady = select.select([mySocket], [], [], timeLeft)
-          howLongInSelect = (time.time() - startedSelect)
-          if whatReady[0] == []:  # Timeout
-              return None
-          timeReceived = time.time()
-          ########## Begin ##########
-          recPacket, addr = mySocket.recvfrom(1024)
-          header = recPacket[20:28]
-          type, code, checksum, packetID, sequence = struct.unpack("!bbHHh", header)
-          if type == 0 and packetID == ID:  # type should be 0
-              byte_in_double = struct.calcsize("!d")
-              timeSent = struct.unpack("!d", recPacket[28 : 28 + byte_in_double])[0]
-              delay = timeReceived - startedSelect
-              ttl = ord(struct.unpack("!c", recPacket[8:9])[0].decode())
-              return (delay, ttl, byte_in_double)
-          ########## End ##########
-          timeLeft = timeLeft - howLongInSelect
-          if timeLeft <= 0:
-              return None
-  #发送一次Ping数据包
-  def sendOnePing(mySocket, ID, sequence, destAddr):
-      # 头部构成： type (8), code (8), checksum (16), id (16), sequence (16)
-      myChecksum = 0
-      # Make a dummy header with a 0 checksum.
-      # struct -- Interpret strings as packed binary data
-      header = struct.pack("!bbHHh", ICMP_ECHO_REQUEST, 0, myChecksum, ID, sequence)
-      data = struct.pack("!d", time.time())
-      # 计算头部和数据的校验和
-      myChecksum = checksum(header + data)
-      header = struct.pack("!bbHHh", ICMP_ECHO_REQUEST, 0, myChecksum, ID, sequence)
-      packet = header + data
-      mySocket.sendto(packet, (destAddr, 1))  # AF_INET address must be tuple, not str
-      # Both LISTS and TUPLES consist of a number of objects
-      # which can be referenced by their position number within the object
-  #向指定地址发送Ping消息
-  def doOnePing(destAddr, ID, sequence, timeout):
-      icmp = socket.getprotobyname("icmp")
-      # 创建原始套接字
-      mySocket = socket.socket(socket.AF_INET, socket.SOCK_RAW, icmp)
-      sendOnePing(mySocket, ID, sequence, destAddr)
-      delay = receiveOnePing(mySocket, ID, sequence, destAddr, timeout)
-      mySocket.close()
-      return delay
-  #主函数Ping
-  def ping(host, timeout=1):
-      # timeout=1指: 如果1秒内没从服务器返回，客户端认为Ping或Pong丢失。
-      dest = socket.gethostbyname(host)
-      print("Pinging " + dest + " using Python:")
-      print("")
-      #每秒向服务器发送一次Ping请求
-      myID = os.getpid() & 0xFFFF  # 返回进程ID
-      loss = 0
-      for i in range(4):
-          result = doOnePing(dest, myID, i, timeout)
-          if not result:
-              print("Request timed out.")
-              loss += 1
-          else:
-              delay = int(result[0]*1000)
-              ttl = result[1]
-              bytes = result[2]
-              print("Received from " + dest + ": byte(s)=" + str(bytes) + " delay=" + str(delay) + "ms TTL=" + str(ttl))
-          time.sleep(1)  # one second
-      print("Packet: sent = " + str(4) + " received = " + str(4-loss) + " lost = " + str(loss))
-      return
-  ping("127.0.0.1")
-  ```
-  - Checksum 二进制反码求和
-    - 方法:
-      - 遇到进位舍去, 再加1, 直到不产生进位
-      - ```cpp
-         unsigned short checksum(unsigned short *buf, int length) {
-             unsigned long sum;
-             for(sum = 0; length > 0; length--) {
-                 sum += *buf++;
-                 sum = (sum>>16) + (sum&0xffff);
-                 sum += (sum>>16);
-             }
-             return ~sum;
-         }  // from https://article.itxueyuan.com/pBrplP
-         ```
-    - 证明 (refer to: https://note.sbwcwso.com/pages/1dd33b)
-    - $[X]_{反} + [Y]_{反} = [X+Y]_{反}$
-      - $X \ge 0 \& Y\ge 0$, 显然成立
-      - $X * Y < 0$ 时, 原式变为 $[X]_{反} + [Y]_{反} = X + Y + 2^{n} - 1$
-        - 当 $X+Y \le 0$, 此时 应该为 $[X]_{反} + [Y]_{反} = X + Y + 2^{n} - 1$, 与原式相同, 保持不变
-        - 当 $X+Y \ge 0$, 此时 应该为 $[X]_{反} + [Y]_{反} = X + Y$, 此时原式溢出, 去掉最高位, 再加 $1$ 恢复.
-      - 当 $X < 0 \& Y < 0$, 原式变为 $[X]_{反} + [Y]_{反} = X + 2^{n} - 1 + Y + 2^{n} - 1$, 原式溢出, 需要去掉最高位, 再加 $1$ 恢复.
-    - Links
-      - https://www.cnblogs.com/jcchan/p/10400504.html
-        ```math
-          - $[X]_{反} + [Y]_{反} = [X+Y]_{反}$
-            - $X \ge 0 \& Y\ge 0$, 显然成立
-            - $X * Y < 0$ 时, 原式变为 $[X]_{反} + [Y]_{反} = X + Y + 2^{n} - 1$
-        - 当 $X+Y \le 0$, 此时 应该为 $[X]_{反} + [Y]_{反} = X + Y + 2^{n} - 1$, 与原式相同, 保持不变
-        - 当 $X+Y \ge 0$, 此时 应该为 $[X]_{反} + [Y]_{反} = X + Y$, 此时原式溢出, 去掉最高位, 再加 $1$ 恢复.
-            - 当 $X < 0 \& Y < 0$, 原式变为 $[X]_{反} + [Y]_{反} = X + 2^{n} - 1 + Y + 2^{n} - 1$, 原式溢出, 需要去掉最高位, 再加 $1$ 恢复.
-        ```
--
-- Refs
+also:: 网络
+created:: [[20240814]]
+description::
+
+- ## Why
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace networking}}
+- ## ↩ Reference
+  - [Why is Ethernet So Power Hungry? - Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/questions/52349/why-is-ethernet-so-power-hungry)
+    collapsed:: true
+    - This is mostly due to ethernet not being a mobile standard. It was never intended for low power usage
+    - The biggest current draw in a operating mode is the integrated PHY. It keeps the ethernet connection active. As long as a cable is plugged in (on both ends and both devices are on), the link is active, 10baseT keeps ±2v on each pair. This is how the standard (IEEE 802.3) was designed, a always active data connection.
+    - On the other hand, all of these have a comparably low standby/powerdown current. If you need "low power" ethernet, then you want to power manage. If you don't need to use the ethernet, you power off the entire thing. This works great for transmit only projects. Arbitrary receive mode projects, not so much (web host for example).
+    - http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2200.pdf
+    - http://www.micrel.com/_PDF/Ethernet/datasheets/ksz8851snl_ds.pdf
+    - http://www.marvell.com/transceivers/assets/Marvell-88E3016-Fast-Ethernet.pdf
+  - #ping #python  实现 （抄来的）
+    collapsed:: true
+    - ```python
+      #ICMPPing.py
+      import socket
+      import os
+      import struct
+      import time
+      import select
+      ICMP_ECHO_REQUEST = 8
+      #生成校验和
+      def checksum(str):
+          csum = 0
+          countTo = (len(str) / 2) * 2
+          count = 0
+          while count < countTo:
+              thisVal = str[count + 1] * 256 + str[count]
+              csum = csum + thisVal
+              csum = csum & 0xffffffff
+              count = count + 2
+          if countTo < len(str):
+              csum = csum + str[len(str) - 1].decode()
+              csum = csum & 0xffffffff
+          csum = (csum >> 16) + (csum & 0xffff)
+          csum = csum + (csum >> 16)
+          answer = ~csum
+          answer = answer & 0xffff
+          answer = answer >> 8 | (answer << 8 & 0xff00)
+          return answer
+      #接收一次Ping的返回消息
+      def receiveOnePing(mySocket, ID, sequence, destAddr, timeout):
+          timeLeft = timeout
+          while 1:
+              startedSelect = time.time()
+              whatReady = select.select([mySocket], [], [], timeLeft)
+              howLongInSelect = (time.time() - startedSelect)
+              if whatReady[0] == []:  # Timeout
+                  return None
+              timeReceived = time.time()
+              ########## Begin ##########
+              recPacket, addr = mySocket.recvfrom(1024)
+              header = recPacket[20:28]
+              type, code, checksum, packetID, sequence = struct.unpack("!bbHHh", header)
+              if type == 0 and packetID == ID:  # type should be 0
+                  byte_in_double = struct.calcsize("!d")
+                  timeSent = struct.unpack("!d", recPacket[28 : 28 + byte_in_double])[0]
+                  delay = timeReceived - startedSelect
+                  ttl = ord(struct.unpack("!c", recPacket[8:9])[0].decode())
+                  return (delay, ttl, byte_in_double)
+              ########## End ##########
+              timeLeft = timeLeft - howLongInSelect
+              if timeLeft <= 0:
+                  return None
+      #发送一次Ping数据包
+      def sendOnePing(mySocket, ID, sequence, destAddr):
+          # 头部构成： type (8), code (8), checksum (16), id (16), sequence (16)
+          myChecksum = 0
+          # Make a dummy header with a 0 checksum.
+          # struct -- Interpret strings as packed binary data
+          header = struct.pack("!bbHHh", ICMP_ECHO_REQUEST, 0, myChecksum, ID, sequence)
+          data = struct.pack("!d", time.time())
+          # 计算头部和数据的校验和
+          myChecksum = checksum(header + data)
+          header = struct.pack("!bbHHh", ICMP_ECHO_REQUEST, 0, myChecksum, ID, sequence)
+          packet = header + data
+          mySocket.sendto(packet, (destAddr, 1))  # AF_INET address must be tuple, not str
+          # Both LISTS and TUPLES consist of a number of objects
+          # which can be referenced by their position number within the object
+      #向指定地址发送Ping消息
+      def doOnePing(destAddr, ID, sequence, timeout):
+          icmp = socket.getprotobyname("icmp")
+          # 创建原始套接字
+          mySocket = socket.socket(socket.AF_INET, socket.SOCK_RAW, icmp)
+          sendOnePing(mySocket, ID, sequence, destAddr)
+          delay = receiveOnePing(mySocket, ID, sequence, destAddr, timeout)
+          mySocket.close()
+          return delay
+      #主函数Ping
+      def ping(host, timeout=1):
+          # timeout=1指: 如果1秒内没从服务器返回，客户端认为Ping或Pong丢失。
+          dest = socket.gethostbyname(host)
+          print("Pinging " + dest + " using Python:")
+          print("")
+          #每秒向服务器发送一次Ping请求
+          myID = os.getpid() & 0xFFFF  # 返回进程ID
+          loss = 0
+          for i in range(4):
+              result = doOnePing(dest, myID, i, timeout)
+              if not result:
+                  print("Request timed out.")
+                  loss += 1
+              else:
+                  delay = int(result[0]*1000)
+                  ttl = result[1]
+                  bytes = result[2]
+                  print("Received from " + dest + ": byte(s)=" + str(bytes) + " delay=" + str(delay) + "ms TTL=" + str(ttl))
+              time.sleep(1)  # one second
+          print("Packet: sent = " + str(4) + " received = " + str(4-loss) + " lost = " + str(loss))
+          return
+      ping("127.0.0.1")
+      ```
+    - Checksum 二进制反码求和
+      - 方法:
+        - 遇到进位舍去, 再加1, 直到不产生进位
+        - ```cpp
+           unsigned short checksum(unsigned short *buf, int length) {
+               unsigned long sum;
+               for(sum = 0; length > 0; length--) {
+                   sum += *buf++;
+                   sum = (sum>>16) + (sum&0xffff);
+                   sum += (sum>>16);
+               }
+               return ~sum;
+           }  // from https://article.itxueyuan.com/pBrplP
+           ```
+      - 证明 (refer to: https://note.sbwcwso.com/pages/1dd33b)
+      - $[X]_{反} + [Y]_{反} = [X+Y]_{反}$
+        - $X \ge 0 \& Y\ge 0$, 显然成立
+        - $X * Y < 0$ 时, 原式变为 $[X]_{反} + [Y]_{反} = X + Y + 2^{n} - 1$
+          - 当 $X+Y \le 0$, 此时 应该为 $[X]_{反} + [Y]_{反} = X + Y + 2^{n} - 1$, 与原式相同, 保持不变
+          - 当 $X+Y \ge 0$, 此时 应该为 $[X]_{反} + [Y]_{反} = X + Y$, 此时原式溢出, 去掉最高位, 再加 $1$ 恢复.
+        - 当 $X < 0 \& Y < 0$, 原式变为 $[X]_{反} + [Y]_{反} = X + 2^{n} - 1 + Y + 2^{n} - 1$, 原式溢出, 需要去掉最高位, 再加 $1$ 恢复.
+      - Links
+        - https://www.cnblogs.com/jcchan/p/10400504.html
+          ```math
+            - $[X]_{反} + [Y]_{反} = [X+Y]_{反}$
+              - $X \ge 0 \& Y\ge 0$, 显然成立
+              - $X * Y < 0$ 时, 原式变为 $[X]_{反} + [Y]_{反} = X + Y + 2^{n} - 1$
+          - 当 $X+Y \le 0$, 此时 应该为 $[X]_{反} + [Y]_{反} = X + Y + 2^{n} - 1$, 与原式相同, 保持不变
+          - 当 $X+Y \ge 0$, 此时 应该为 $[X]_{反} + [Y]_{反} = X + Y$, 此时原式溢出, 去掉最高位, 再加 $1$ 恢复.
+              - 当 $X < 0 \& Y < 0$, 原式变为 $[X]_{反} + [Y]_{反} = X + 2^{n} - 1 + Y + 2^{n} - 1$, 原式溢出, 需要去掉最高位, 再加 $1$ 恢复.
+          ```
   - [2020-01-15] 在查了三个小时的英文 Wikipedia 无果，科学上网 倒腾了4个小时无果，Github CLone 奇慢,  我只想说在国内查资料的门槛太高了...... In , 这个时代的主流技术, 下个时代的预备技术.
   - 网站为什么要做301跳转（永久重定向）
     source:: https://wz.a5.net/article/981.html
@@ -200,4 +208,21 @@ icon:: 🌐
     - 所以说真不是你3000个100M家用宽带就顶人家300G了，到了上游平均给你分一两个M那就照顾你了。毕竟按照现在的市价，运营商每个M零售的话不收你个几十元/月那是要赔死的。
     - 家用的是共享带宽。或者叫best effort。
     - 共享带宽和独享带宽有什么区别？都是100M宽带, 总共1000M给10个人分，叫独享带宽。总共1000M给11个人分，叫共享带宽。给100个人分呢？也叫共享带宽。给500个人分呢？还是共享带宽。具体多少人分呢？不好意思，企业机密。多少人分全凭运营商良心。要不怎么同样都叫100M宽带有的好用有的渣呢。一分钱一分货就是用在这里的。到底多少人分我没法告诉你，但我可以明确的告诉你：如果阿里100M一年7万的话，那要分差不多100户以上才能一年700的价格卖给你。实际上也差不多，100M的共享宽带平均一户分1M以上你差不多就可以烧高香了。你说那不对啊，我测速明明可以跑满速。那是因为在这一瞬间其他人用的不够多而已。
+  - 3model
+    collapsed:: true
+    - a three-layer model for network design first proposed by [Cisco](https://en.wikipedia.org/wiki/Cisco).
+    - ![https://community.fs.com/blog/how-to-choose-the-right-distribution-switch.html](https://media.fs.com/images/community/upload/kindEditor/202105/25/distribution-layer-diagram-1621937301-ES7wiU19cL.jpg){:height 408, :width 778}
+      - ### Core 核心层
+        - 为进出数据中心的包提供高速的转发
+      - ### Distribution / Aggregation 汇聚层
+        - 连接接入交换机，同时提供其他的服务；
+        - 例如：防火墙，SSL Offload，入侵检测，网络分析等
+      - ### Access layer 接入层
+        - ToR（Top of Rack）交换机；
+        -
+      - Khalid Raza, Mark Turner (2002), *Cisco Network Topology and Design*, Cisco Press
+      - [网络三层架构 - yipianchuyun - 博客园](https://www.cnblogs.com/yipianchuyun/p/13842297.html)
+    -
+      -
+-
 -

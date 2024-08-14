@@ -1,4 +1,5 @@
--
+exclude-from-graph-view:: true
+
 - blog1
   collapsed:: true
   - https://www.hecaitou.com/2024/07/the-lost-game.html

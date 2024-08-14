@@ -1,4 +1,5 @@
-tags:: #music/platform #apple
+tags:: #apple
+type:: platform/music
 
 - nice
   - directly using, no proxy, take replace of common spotify.

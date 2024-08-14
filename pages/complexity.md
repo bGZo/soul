@@ -42,7 +42,7 @@ description:: [复杂度 - OI Wiki](https://oi-wiki.org/basic/complexity/)
 - 空间复杂度
   description:: 类似地. 算法所使用的空间随输入规模变化的趋势可以用 **空间复杂度** 来衡量
   -
-  - `int` #计算机组成原理
+  - `int` \#计算机组成原理
     - 32bit / 4Byte
     - $2^{31}-1=2147483647$
     - 符号位+数值位

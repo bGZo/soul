@@ -1,10 +1,9 @@
 also:: Pearly_penile_papules, 珍珠疹
 created:: [[20240409]]
-tags:: #龟头
 wikipedia:: https://en.wikipedia.org/wiki/Pearly_penile_papules
 
 - ## Why
-  -
+  - 龟头
 - ## How
   - ### 治疗
     - 一些较为可信得案例：涂抹 **茶树油** 亲测可用，需半年左右

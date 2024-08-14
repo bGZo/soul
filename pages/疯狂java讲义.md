@@ -188,7 +188,7 @@ exclude-from-graph-view:: true
                 Leaf的普通初始化块
                 执行Leaf的构造器
                 ```
-                #this-code/weird
+                #weird-code
                 - ==系统将在类初始化阶段执行静态初始化块, 而不是在创建对象时才执行, 并且如结果所示, 只会执行一次==
                 - 静态初始化只会在初始化类的时候运行, 所以第二次创建 `Leaf()` 的时候没有了前三行
             - 静态初始化块不能访问非静态成员, 包括不能访问实例Field和实例方法
@@ -213,7 +213,7 @@ exclude-from-graph-view:: true
             9
             6
             ```
-            #this-code/weird
+            #weird-code
             - 当Java创建一个对象时，**系统先为该对象的所有实例Field分配内存**（前提是该类已经被加载过了），接着程序开始对这些实例变量执行初始化，其初始化顺序是：先执行初始化块或声明Field时指定的初始值，再执行构造器里指定的初始值。
               - ==这里的意思是: 先扫一遍变量, 分配内存, 然后赋值则从上而下来, 变量 `a` 在静态块的值为`6`, 却被后面非静态块的赋值给覆盖掉了==
         - 形式上, 初始化块 不能接收任何参数
@@ -292,7 +292,7 @@ exclude-from-graph-view:: true
             ```
             false
             ```
-            #this-code/weird
+            #weird-code
             - ==只有两个包装类引用指向同一个对象时才会返回true==
         - & 自动装箱 边界超限
           collapsed:: true
@@ -313,7 +313,7 @@ exclude-from-graph-view:: true
             两个2自动装箱后是否相等：true
             两个128自动装箱后是否相等：false
             ```
-            #this-code/weird
+            #weird-code
             - 查看Java系统中java.lang.Integer类的源代码，如下所示
               collapsed:: true
               ```java
@@ -681,7 +681,7 @@ exclude-from-graph-view:: true
                   }
                 }
                 ```
-                #this-code/weird Why???
+                #weird-code Why???
                 - 在next方法中存在集合的修改校验方法，==**当remove最后一个参数时，hasNext方法返回为false，不会执行后面的next方法，所以删除最后一个元素时不会报错**==；ArrayList的hasNext在迭代完最后一个元素后会再进入一次循环，所以换成ArrayList即使是删除最后一个元素也会报错；单线程建议使用迭代器的remove方法
                   collapsed:: true
                   - ==并不是不能修改，使用foreach过程中要修改，只能使用迭代器中的remove去修改，**否则在源码内部表示修改次数的变量不会改变**，在检测（每次foreach都会检测，检测表示修改变量次数的变量）时候就会引发异常==
@@ -1259,7 +1259,7 @@ exclude-from-graph-view:: true
               [疯狂Java讲义, 疯狂Android讲义]
               [疯狂Android讲义]
               ```
-              #this-code/weird
+              #weird-code
               - 从上面运行结果可以看出，执行①行代码时，程序试图删除一个A对象，List将会调用该A对象的equals()方法依次与集合元素进行比较，如果该equals()方法以某个集合元素作为参数时返回true，List将会删除该元素
           -
         - 迭代器 `ListIterator()`

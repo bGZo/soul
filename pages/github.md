@@ -7,7 +7,7 @@ exclude-from-graph-view:: true
     icon:: 📦
     created::  ``{ ref(date.now.format('YYYYMMDD')) }``
     description:: 
-    tags:: #[[]]
+    tags:: 
     type:: ``{ 'github/repo' }``
     source:: {{gh ``{ c.page.name }``}}
 - ## Why

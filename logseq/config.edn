@@ -210,7 +210,7 @@
         :charge-range    600
  }
 
- :favorites ["announcements" "issue" "omnivore" "dashboard" "navigation" "writings" "hobbies" "tools" "history/burden" "postgresql修炼之道"]
+ :favorites ["weird-code" "announcements" "issue" "omnivore" "dashboard" "navigation" "writings" "hobbies" "tools" "history/burden" "hecaitou" "networking" "postgresql修炼之道"]
 
 ;; :srs/learning-fraction 0.5
 

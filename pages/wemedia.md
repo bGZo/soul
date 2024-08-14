@@ -6,5 +6,5 @@ description:: [自媒体 - 维基百科，自由的百科全书](https://zh.wiki
     - BBS
     - [[blog]]
     - [[podcast]]
-    - [[social/networking]]
+    - [[social-networking]]
     - GroupMessage

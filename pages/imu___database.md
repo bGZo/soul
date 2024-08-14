@@ -278,7 +278,7 @@ tags:: #database
       - ![image.png](../assets/image_1663347347280_0.png)
       - ER 图转换成数据库实际的关系模型
         ![image.png](../assets/image_1663347369828_0.png)
-  - More Via [[mysql/index]]
+  - More Via [[mysql-index]]
 - ## 查询处理与查询优化
   - 查询优化的优点不仅在于用户不必考虑如何最好的表达查询以获得较好的效率，而且在于系统可以比用户程序的“优化”做得更好
   - 查询优化的总目标: 选择有效的策略，求得给定关系表达式的值，使得查询代价最小

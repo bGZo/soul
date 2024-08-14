@@ -19,6 +19,7 @@ description::
   - [Database normalization - Wikipedia](https://en.wikipedia.org/wiki/Database_normalization); [数据库规范化 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-hans/%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A7%84%E8%8C%83%E5%8C%96)
   - [数据库基础知识总结 | JavaGuide](https://javaguide.cn/database/basis.html#%E4%BB%80%E4%B9%88%E6%98%AF-er-%E5%9B%BE)
 - More
+  collapsed:: true
   - People in DataBase Object,  You Should Know
     - 1973年 Charles W. Bachman(1924-2017) 网状数据库技术
     - 1981年 Edgar F. Codd (1923－2003 )数据库系统，尤其是关系型数据库

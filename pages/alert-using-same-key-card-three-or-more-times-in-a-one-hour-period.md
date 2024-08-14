@@ -12,7 +12,7 @@ created:: 20230207
 - ## Solution
   -
 - ## Conclusion
-  - 多声明局部变量是一个好习惯，有时候为了紧凑的写法，而不考虑写更清晰的局部变量非常不明智 #code/style
+  - 多声明局部变量是一个好习惯，有时候为了紧凑的写法，而不考虑写更清晰的局部变量非常不明智 #code-style
     - ```java
       for(int i = 0; i<keyName.length; i++){
         hm.putIfAbsent(keyName[i], new ArrayList<>());

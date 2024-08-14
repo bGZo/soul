@@ -49,7 +49,7 @@ tags:: #migrant/digtal
 -
 - [[music]]
   collapsed:: true
-  - DONE #archive Netease Music to [[Apple/music]]
+  - DONE #archive Netease Music to [[apple-music]]
     :LOGBOOK:
     CLOCK: [2022-02-24 Thu 21:50:50]--[2022-02-24 Thu 21:50:51] =>  00:00:01
     :END:
@@ -58,4 +58,4 @@ tags:: #migrant/digtal
       this comment is being deleted.
       #+END_WARNING
       It's really feel like GFW. Cause **its a lie** made by offical social media that everyone would be trusted in netease village, everything will love them. But netease merely is a business company, the imagnation is becoming larger and larger as they grew up.
-  - [[Apple/music]] to [[ytmusic]]
+  - [[apple-music]] to [[ytmusic]]

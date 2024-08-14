@@ -38,7 +38,7 @@ also:: 阅读
             }
             console.log(length_len);
             ```
-            #this-code/weird
+            #weird-code
             - ```
               8
               0.8

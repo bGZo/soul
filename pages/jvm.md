@@ -15,7 +15,7 @@ tags:: TODO
     - [[jdk]] 支持分层编译和 AOT 协作使用
     - 编译质量 < JIT 编译器
 - Java Virtual Machine
-  - 运行 Java 字节码 [[code/byte]] 的虚拟机
+  - 运行 Java 字节码 [[code-byte]] 的虚拟机
     - $$ 传统解释型语言 < Java 运行效率 < 编译性语言(C++，Rust，Go...)$$
     - $$Awesome => 运行效率 > 解释型语言高 + 保留了 解释型语言 可移植的特点$$
   - $$跨平台 == 字节码 + JVM_{ Win + Linux + Mac + ... } == 一次编译, 随处运行$$

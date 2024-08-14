@@ -1,10 +1,19 @@
-also:: books/高效忍者
-tags:: #[[Productivity]], TODO
-author:: [英]格雷厄姆·阿尔科特
-publisher:: 后浪
+icon:: 📖
+cover:: {{image/cover }}
+also:: 高效忍者
+author:: 格雷厄姆·阿尔科特
+created:: [[20240814]]
+isbn:: 
+lang:: chinese
 published-date:: 20190700
-source:: [高效忍者 (豆瓣)](https://book.douban.com/subject/34436016/)
+rating:: ⭐⭐⭐
+status:: book/done
+tags:: #productivity 
+type:: book
+douban:: {{doubook 34436016}}
+weread:: {{weread }}
 
+-
 - Digests
   - 前言
     collapsed:: true

@@ -1,5 +1,5 @@
 icon:: 📄
-also:: [[]], 平行计算(台); 并行计算(大陆);并行
+also:: 微程序
 created:: [[20240814]]
 description::
 
@@ -10,6 +10,6 @@ description::
 - ## What
   -
 - ## Namespace
-  - {{namespace parallel}}
+  - {{namespace code-micro}}
 - ## ↩ Reference
   -

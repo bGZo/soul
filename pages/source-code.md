@@ -1,5 +1,5 @@
 icon:: 📄
-also:: [[]], 平行计算(台); 并行计算(大陆);并行
+also:: 源代码
 created:: [[20240814]]
 description::
 
@@ -10,6 +10,6 @@ description::
 - ## What
   -
 - ## Namespace
-  - {{namespace parallel}}
+  - {{namespace source-code}}
 - ## ↩ Reference
   -

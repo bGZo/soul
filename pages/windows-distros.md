@@ -6,7 +6,7 @@ created:: [[20240421]]
 - ## What
   - [[dot]]
   - [[nt]]
-  - [[Windows XP]]
+  - [[windowsxp]]
   - ...
-  - [[Windows 10]]
-  - [[Windows 11]]
+  - [[Windows10]]
+  - [[Windows11]]

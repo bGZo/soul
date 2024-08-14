@@ -1,7 +1,6 @@
 icon:: 📄
-also:: [[]], 平行计算(台); 并行计算(大陆);并行
+also:: 索引
 created:: [[20240814]]
-description::
 
 - ## Why
   -
@@ -10,6 +9,6 @@ description::
 - ## What
   -
 - ## Namespace
-  - {{namespace parallel}}
+  - {{namespace index}}
 - ## ↩ Reference
   -

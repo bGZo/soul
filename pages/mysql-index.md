@@ -1,7 +1,6 @@
-also:: mysql/index
 mark:: 一种用于快速查询和检索数据的数据结构
 created:: [[20240417]]
-tags:: #[[data-structure]]
+tags:: #[[data-structure]] #mysql
 
   - Use Case
     - `not null`(**Best**) & `where` & `having`
