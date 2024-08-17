@@ -1,6 +1,7 @@
-icon:: 🐧
+also:: DEBIAN 管理应用记
+icon:: 📝
 created:: [[20230906]]
-tags:: #Ubuntu, #debian
+status:: writing/draft
 
 - #+BEGIN_NOTE
   Ubuntu 和 Debian 通吃是因为 Debian 系的 APT 包管理器。

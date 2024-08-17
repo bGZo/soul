@@ -8,7 +8,7 @@ exclude-from-graph-view:: true
 
 - Account include activities timeline | 全记录用户数据
   collapsed:: true
-  - [[zhihu]]
+  - zhihu
   - [[bangumi]]
 - Account only support singleton session | 单设备登陆
   collapsed:: true

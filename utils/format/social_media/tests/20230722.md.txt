@@ -32,14 +32,14 @@ icon:: 📅
     - DONE qBittorrent with [[rss]] fetch by [蜜柑计划 - Mikan Project (mikanani.me)](https://mikanani.me/) 追番；
       collapsed:: true
       - DONE [c0re100/qBittorrent-Enhanced-Edition: [Unofficial] qBittorrent Enhanced, based on qBittorrent (github.com)](https://github.com/c0re100/qBittorrent-Enhanced-Edition)
-      - WAIT RSS fetch not work under gfw.
+      - WAITING RSS fetch not work under gfw.
         collapsed:: true
         - [蜜柑计划RSS无法访问的解决办法 (bgm.tv)](https://bgm.tv/group/topic/380685)
         - Not work under [Allow to use proxy per subsystem by glassez · Pull Request #18528 · qbittorrent/qBittorrent (github.com)](https://github.com/qbittorrent/qBittorrent/pull/18528)
       - [用python写了个扫蜜柑计划rss推到aria2/motrix下载的脚本会有人可能用得到吗 (bgm.tv)](https://bgm.tv/group/topic/360778)
-        - WAIT [BGmi/BGmi: [looking for maintainers] BGmi is a cli tool with Web UI for subscribed bangumi. (github.com)](https://github.com/BGmi/BGmi)
-        - WAIT [Flexget/Flexget: The official FlexGet repository (github.com)](https://github.com/Flexget/Flexget)
-        - WAIT [huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by! --- hubinn/huginn：创建代表您进行监控和操作的代理。您的代理人随时待命！ (github.com)](https://github.com/huginn/huginn)
+        - WAITING [BGmi/BGmi: [looking for maintainers] BGmi is a cli tool with Web UI for subscribed bangumi. (github.com)](https://github.com/BGmi/BGmi)
+        - WAITING [Flexget/Flexget: The official FlexGet repository (github.com)](https://github.com/Flexget/Flexget)
+        - WAITING [huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by! --- hubinn/huginn：创建代表您进行监控和操作的代理。您的代理人随时待命！ (github.com)](https://github.com/huginn/huginn)
       - qBittorrent Tracker List
         - [ngosang/trackerslist: Updated list of public BitTorrent trackers (github.com)](https://github.com/ngosang/trackerslist)
           - 国外用户；

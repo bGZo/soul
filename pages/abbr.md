@@ -14,7 +14,7 @@
   - template:: word/it
     template-including-parent:: false
     - definition:: {{cloze }}
-      tags:: #card, #programming/word
+      tags:: #card, #programming
       refs:: 
       description::
   - 在 `page_name`中,  不会再加入 `[[]]`的符号;

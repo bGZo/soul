@@ -10,7 +10,7 @@ exclude-from-graph-view:: true
     collapsed:: true
     - DONE Modify Font CSS (Solarized) in 20230128
       collapsed:: true
-      - [chawyehsu/lxgw-wenkai-webfont: webfont package for the LXGW WenKai typeface](https://github.com/chawyehsu/lxgw-wenkai-webfont) #sucks #font/web
+      - [chawyehsu/lxgw-wenkai-webfont: webfont package for the LXGW WenKai typeface](https://github.com/chawyehsu/lxgw-wenkai-webfont) #sucks #font
         collapsed:: true
         - 总耗时 2.1 min 😅
           ![firefox_103.png](../assets/firefox_103_1674914188465_0.png)

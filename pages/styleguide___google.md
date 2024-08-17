@@ -1,3 +1,4 @@
-tags:: #programming/style
+tags:: #code-style
+
 - [[styleguide/google/cpp]]
 -

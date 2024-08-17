@@ -2,7 +2,7 @@ tags:: #[[data-structure]], #[[maths]]
 description:: algorithm
 
 -
-- [[roadmap/algo]] via: [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)
+- [[roadmap]] via: [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)
   collapsed:: true
   - 01. Automated planning, 自动化规划
   - collapsed:: true

@@ -52,7 +52,7 @@ status:: writing/published
 -
 - 他平生最渴望的就是来一场假面大乱交[^2], 所以每次明星出花边新闻的时候, 他都格外羡慕, 陈冠希, 罗志祥, 王力宏, 吴亦凡, 他不知道这些帅气明星犯了什么恶心的罪行, 但是他们同为男人, 都有一个大乱交的白日梦, 他觉得这很正常, 时不时像项羽看到秦始皇一样, 满怀雄心的想, “彼可取而代也”
 -
-- 当怡情退怯, 对自慰的执念变成了让自己冷静的手段, 像[[华尔街之狼]]讲得那样[^3]:
+- 当怡情退怯, 对自慰的执念变成了让自己冷静的手段, 像华尔街之狼讲得那样[^3]:
 -
 - > Mark Hanna: You gotta pump those numbers up. Those are rookie numbers in this racket. **I, myself, I jerk off at least twice a day.**
   Jordan Belfort: Wow.

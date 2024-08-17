@@ -1,4 +1,5 @@
 also:: Google Mobile Service
+
 - > 2018年7月, 欧盟在对 Google 相关问题进行调查之后, 欧盟对谷歌处以创纪录规模的反垄断罚款, 金额将高达43亿欧元(50亿美元). 欧盟指责谷歌通过滥用其 Android 市场的主导地位, 而将自家的搜索引擎和 Chrome 应用程序捆绑到操作系统中. Google 可不吃这亏, 羊毛出在羊身上, Google 进行了反制. 2019年2月1日开始, 对欧盟手机厂商进行收费, 安装 GMS 的每台设备收 40 美元的授权费.  via: https://www.sohu.com/a/315171197_114986
 - GMS, Google应用程序和[API](https://developers.google.com/android/guides/overview)的集合. via: https://zhuanlan.zhihu.com/p/66478028 一般的用途有:
 - GMS为Android上Google公司的系列应用程序提供支持.

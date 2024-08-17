@@ -599,7 +599,7 @@ type:: project/done
       - 工资的成分是什么? 绩效整体占比是多少?
     - Prepared Progress
       - [[cv]]
-      - [[java]] 开发(后端) [[roadmap/develop]]
+      - [[java]] 开发(后端) [[roadmap]]
         - [[java-multithreading]] 学习
           - **synchronized**
           - **LockSupport**
@@ -702,7 +702,7 @@ type:: project/done
       - [[bank]]
       - [[job/civil-service]]
   -
-  - ### Special: [[programming]] #learning #roadmap/develop
+  - ### Special: [[programming]] #learning #roadmap
     -
     - TODO  Java exercise;
       SCHEDULED: <2024-03-11 Mon 00:00 .+1d>

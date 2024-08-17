@@ -1,4 +1,4 @@
-tags:: #garbage_collection
+tags:: #garbage-collection
 
 - ## [Java (JVM) Memory Model - Memory Management in Java | DigitalOcean](https://www.digitalocean.com/community/tutorials/java-jvm-memory-model-memory-management-in-java)
   ![](../assets/Java-Memory-Model.png)

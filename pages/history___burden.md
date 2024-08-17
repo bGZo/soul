@@ -4,6 +4,14 @@ also:: 历史包袱
 description:: 一些迁移过程中产生的，不知道放哪的笔记，我把他们放在这里，我不再关注他们，但是他们不能删除，可恶；
 exclude-from-graph-view:: true
 
+-
+- also:: 节俭
+  description:: Extreme Frugality，过度节俭
+- hedonism
+  also:: 享乐主义
+  wikipedia:: https://en.wikipedia.org/wiki/Hedonism
+  - > 19世纪英国哲学家约翰·斯图尔特·密尔与边沁由他们的功利主义]]的伦理理论提出了享乐主义的基本原理。享乐主义是功利主义的价值观之先驱：所有行为皆是基于要给最多的人数获得最大的快乐。
+    —— [享乐主义 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/zh-cn/%E4%BA%AB%E6%A8%82%E4%B8%BB%E7%BE%A9)
 - typora
   - Shortcuts
     collapsed:: true
@@ -2226,8 +2234,8 @@ exclude-from-graph-view:: true
       - 我越发地坚信这样的一句话. 思想的芦苇左右摇摆不定, 我觉得确是最好的, 不会一成不变, 也不会左右为难, 随时随地选择舒服自己的状态, 在不违背道德的界限下合理而温柔地释放欲望, 是极好极好的.
     - 吃饱就睡觉, 睡醒就打炮 #[[sex]]
     - 法不责众, 意味着只要你和大多数人保持一致, 你某种程度上就真的是安全的. #joke #gfw
-    - 理一个杀马特的发型坚持一天 #love/romantic
-    - 想一起变轻吗? 我们往北走吗, 地球的 $g$ 会变小点 #love/romantic
+    - 理一个杀马特的发型坚持一天 #love
+    - 想一起变轻吗? 我们往北走吗, 地球的 $g$ 会变小点 #love
     - 重新读书 #book
       created:: [[20210210]]
       collapsed:: true
@@ -2750,3 +2758,7 @@ exclude-from-graph-view:: true
   also:: 同质化
 - religious
   also:: 宗教
+- 美好的回忆
+-
+-
+-

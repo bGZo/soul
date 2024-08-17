@@ -1,6 +1,7 @@
 also:: technical debt, design debt, code debt, 技术债
 description:: Analogous with monetary debt, if technical debt is not repaid, it can accumulate "interest", making it harder to implement changes. (与货币债务类似，如果不偿还技术债务，它会积累“利息”，使实施变革变得更加困难)
-description:: [Technical debt - Wikipedia](https://en.wikipedia.org/wiki/Technical_debt)
+tags:: #shoulders-of-giants
+wikipedia:: https://en.wikipedia.org/wiki/Technical_debt
 
   - > Shipping first time code is like going into debt. A little debt speeds development so long as it is paid back promptly with a rewrite... The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. Entire engineering organizations can be brought to a stand-still under the debt load of an unconsolidated implementation, object-oriented or otherwise.
     — Ward Cunningham, 1992

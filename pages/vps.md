@@ -1,4 +1,4 @@
-tags:: WAIT
+tags:: WAITING
 description:: 没钱
 
 - telegram-bot

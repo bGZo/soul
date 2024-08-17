@@ -36,3 +36,7 @@ created:: [[20230906]]
     - Gentoo Linux
     - Arch Linux
     - ...
+- ## Namespaces
+  - {{query (property :type "linux/distro")}}
+    query-table:: true
+    query-properties:: [:page :icon :created :description :wikipedia]

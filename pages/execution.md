@@ -43,7 +43,7 @@ tags:: #programing
       - [[recompilation]] 动态重编译
     - Notable [[runtime-system]]
       collapsed:: true
-      - [[android/runtime]] Android Runtime（ART）
+      - Android Runtime（ART）
       - 通用语言运行库（CLR）
       - crt0
       - [[jvm]] Java虚拟机（JVM）

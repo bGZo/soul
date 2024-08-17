@@ -764,7 +764,7 @@ tags:: #spring-cloud
         - 在输出时，我们可以指定输出的目的地，如果目的地是Response的流，那就是网络响应。如果目的地是本地文件，那就实现静态化了。
         - 而在SpringBoot中已经自动配置了模板引擎，因此我们不需要关心这个。现在我们做静态化，就是把输出的目的地改成本地文件即可！
       -
-  - ### WAIT Rabbitmq及数据同步
+  - ### WAITING Rabbitmq及数据同步
     - RabbitMQ
     - WAITING 搜索服务、商品静态页的数据同步
     - 实现思路
@@ -938,7 +938,7 @@ tags:: #spring-cloud
       -
       -
         -
-  - ### WAIT 购物车
+  - ### WAITING 购物车
   - ### 下单
 - ## Leyou: issues
   collapsed:: true
@@ -963,7 +963,7 @@ tags:: #spring-cloud
         - 'image.com':'127.0.0.1'
         - 'wg.com':'127.0.0.1'
       ```
-- ## WAIT BV11N411Z7is （JWT??）
+- ## WAITING BV11N411Z7is （JWT??）
   collapsed:: true
   - ### [P2 锋迷商城项目互联网环境下问题分析](https://www.bilibili.com/video/BV11N411Z7is?p=2)
     collapsed:: true

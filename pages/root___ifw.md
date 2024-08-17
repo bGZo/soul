@@ -1,1 +1,0 @@
-- Intent Firewall, via: https://cn.apkjam.com/blog/ifw.html

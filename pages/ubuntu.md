@@ -1,6 +1,9 @@
 icon:: 🐧
 created:: [[20240524]]
-tags:: #[[Linux Distro]], #debian
+description:: 由英国 Canonical Ltd 发布，提供商业支持。基于自由软件。
+tags:: #debian 
+type:: linux/distro
+wikipedia:: https://en.wikipedia.org/wiki/Ubuntu
 
 - ## Why
   - 为什么选择 Ubuntu?
@@ -13,7 +16,7 @@ tags:: #[[Linux Distro]], #debian
     - ```shell
       lsb_release -a
       ```
-  - [[how to/manage application on debian]]
+  - [[manage-application-on-debian]]
 - ## What
   - What's snap?
     - 近来 24.04 上对 Snap 的评价褒贬不一。

@@ -6,6 +6,7 @@ created:: [[20230821]]
 - ## How
 - ## What
   - Font collections
+    collapsed:: true
     - | Sence | Fonts |
       | Standard | Times New Roman |
       | Sans-serif | [Arial](https://zh.wikipedia.org/zh-cn/Arial) |
@@ -17,14 +18,12 @@ created:: [[20230821]]
       collapsed:: true
       - > **微软公司斥巨资委托方正字体公司专门为Vista系统设计制作了微软雅黑(方正兰亭黑)**, 微软公司只拥有微软雅黑的使用权, 而版权在方正手中. 我们仅可以在Windows系统中使用微软雅黑！脱离Windows平台的一切商业行为, 都属于侵权行为, 同时在Windows系统下, 商业行为也不被允许, 包括网页设计中, 主动调用微软雅黑字体, 更不可以以图片的形式在网页中用到微软雅黑！
         via: [微软雅黑字体侵权？推荐20款无版权的开源字体！ - 知乎](https://zhuanlan.zhihu.com/p/49049779)
-  -
   - DONE 中竖门 & 门
     collapsed:: true
     - ![](../assets/japan-men.webp)
     - 微软雅黑默认状态下部分字符显示为日文字符, 如`门`就会显示 '中间一竖的`门`'. 纠正方法换字体 --`文泉译米` 即可
       Profromence differences are related with [**CJK Unified Ideographs**](https://en.wikipedia.org/wiki/CJK_Unified_Ideographs), and relating to [CJK Font](https://en.wikipedia.org/wiki/List_of_CJK_fonts). And Some Font display the Japan Font as default pattern, such this `Mircosoft YaHei` in ubuntu when the sys encoding is `US_Utf-8`, but why the window is not such situation?<sup>[3](#j3)</sup>. Some more details [FAQ](https://www.unicode.org/faq/han_cjk.html) with it. By th way, Japan encodes CIJ and Chinese encodes GB.
     -
-  -
   - DONE [[linux]] [^linux]
     collapsed:: true
     - 单就字体渲染来说，Windows一直走在最前面。Linux因为其特殊的用途，在桌面方面一直落后于Windows。**在CRT时代，Windows有清晰的点阵字体，Linux使用的却是粗陋、显示为方框或乱码的中文字体。到了液晶屏时代，Windows花巨款买下微软雅黑字体版权，Linux却刚刚用上文泉驿点阵字体**。毕竟商业巨头，微软非常照顾自己用户的体验，在字体渲染方面，针对汉字过于复杂的“缺点”，豪掷百万美元买下1种针对PC显示器优化的微软雅黑字体，可谓用心良苦！
@@ -44,6 +43,7 @@ created:: [[20230821]]
       - {{video https://www.youtube.com/watch?v=41i9EN9l8uc}}
     - 20221020
   - TODO 字体收集
+    collapsed:: true
     - id:: 6374947b-7716-4507-8561-f6c91e6d6fa4
       title:: [ryanoasis/nerd-fonts: Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more](https://github.com/ryanoasis/nerd-fonts) ![](https://img.shields.io/github/stars/ryanoasis/nerd-fonts)
       description:: "Nerd Fonts is a project that patches developer targeted fonts with a high number of glyphs (icons). Specifically to add a high number of extra glyphs from popular 'iconic fonts' such as Font Awesome, Devicons, Octicons, and others."
@@ -94,17 +94,39 @@ created:: [[20230821]]
       - [FiraCode | 符号连体](https://github.com/tonsky/FiraCode).
       - [Adobe Fonts-Source Code Pro | 全英文环境较好](https://github.com/adobe-fonts/source-code-pro).
   - Standards
+    collapsed:: true
     -
     -
     -
     -
   - [serif，sans-serif，monospace，cursive和**fantasy** | 黯羽轻扬](http://www.ayqy.net/blog/serif%EF%BC%8Csans-serif%EF%BC%8Cmonospace%EF%BC%8Ccursive%E5%92%8Cfantasy/)
-  -
-  -
-  -
--
--
--
+  - **磅 & 字号**
+    collapsed:: true
+    - 1磅约等于 0.35毫米, 即一个10磅的文字, 其高度约等于3.5毫米
+    - | **磅（1-1638）** | **字号** |
+      | :--------------: | :------: |
+      | 42               | 初号     |
+      | 36               | 小初     |
+      | 26               | 一号     |
+      | 24               | 小一号   |
+      | 22               | 二号     |
+      | 18               | 小二号   |
+      | 16               | 三号     |
+      | 15               | 小三号   |
+      | 14               | 四号     |
+      | 12               | 小四号   |
+      | 10.5             | 五号     |
+      | 9                | 小五号   |
+      | 7.5              | 六号     |
+      | 6.5              | 小六号   |
+      | 5.5              | 七号     |
+      | 5                | 八号     |
+  - **衬线 (serif) & 无衬线体 (sans-serif)**
+    collapsed:: true
+    - 衬线体
+      - 字母结构笔画之外的装饰性笔画
+    - 无衬线体 (sans-serif)
+      - 没有衬线的字体, 个人感觉衬线字体阅读感更强, 无衬线更美化.
 - [^linux]: via: [一条命令搞定Linux字体渲染——Ubuntu系发行版微软雅黑+宋体终极解决方案 | Linux区](https://linux.zone/278)
 - [^Collection]: via: [「免版权字体」收集网站，已收藏了 45 款免费商用字体 - V2EX](https://v2ex.com/t/627989#; )
 - [The Type — 文字 / 设计 / 文化 » Basics: 衬线](https://www.thetype.com/2010/01/1814/)

@@ -1,4 +1,4 @@
-tags:: WAIT
+tags:: WAITING
 
 - Content cache
   - [Z-Library 镜像 - 小白工具箱](https://www.ooopn.com/tool/zlibrary/)

@@ -32,7 +32,7 @@ created:: [[20231231]]
     Don't watch shorts (tiktok);
     Don't watch movie comment;
     #+END_PINNED
-    #Youtube #DONT
+    #Youtube #dont
     - Why not watch movie comment is cause #censor (by government, by video author, or something others). If you are a good and normal person, literally, that's okey.😅 A example is 电源解说
   - #+BEGIN_PINNED
     Some videos is actually a podcast, more than video.🙄

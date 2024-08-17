@@ -1,5 +1,5 @@
 also:: Garbage Collection, 垃圾回收
-tags:: #python ang #ruby #javascript
+tags:: #python #ruby #javascript
 
 - [Garbage collection (computer science) - Wikipedia](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science))
 -
