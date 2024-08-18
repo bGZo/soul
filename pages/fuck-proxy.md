@@ -1,6 +1,7 @@
 icon:: 🤮
 also:: 代理不是银弹
 created:: [[20240804]]
+exclude-from-graph-view:: true
 status:: writing/draft
 type:: sucks
 

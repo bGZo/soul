@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20240623]]
 description:: 
+exclude-from-graph-view:: true
 tags:: 
 type:: github/repo
 source:: {{gh visualize-ml/book1_python-for-beginners}}

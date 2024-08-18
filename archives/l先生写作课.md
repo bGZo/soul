@@ -1,5 +1,7 @@
+exclude-from-graph-view:: true
 tags:: #[[writing]]
 source:: https://mp.weixin.qq.com/s/FS6vViYHHONfoCJxQk2dBA
+
 - Map
   - 01 概论：一切从用户思维开始
   - 02 选题：如何提高文章的传播力？

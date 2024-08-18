@@ -7,7 +7,7 @@ tags:: #question/oj
     collapsed:: true
     - icon:: 👨‍💻
       tags:: #leetcode/medium
-      created:: ``{ date.now.format('YYYYMMDD') }``
+      created:: ``date.now.format('YYYYMMDD')``
       - 。
     - ## Content
       - <iframe src="https://leetcode.cn/problems/``{c.page.name}``" style="height: 400px"></iframe>

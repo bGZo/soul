@@ -3,19 +3,19 @@
     template-including-parent:: false
     - definition:: {{cloze }}
       tags:: #card, #English/word
-      refs:: 
+      references:: 
       description::
   - template:: word/zh
     template-including-parent:: false
     - definition:: {{cloze }}
       tags:: #card, #Chinese/word
-      refs:: 
+      references:: 
       description::
   - template:: word/it
     template-including-parent:: false
     - definition:: {{cloze }}
       tags:: #card, #programming
-      refs:: 
+      references:: 
       description::
   - 在 `page_name`中,  不会再加入 `[[]]`的符号;
     collapsed:: true

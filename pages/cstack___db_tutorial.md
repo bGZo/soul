@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20220808]]
 description:: 
+exclude-from-graph-view:: true
 tags:: #database #tutorial
 type:: github/repo
 source:: {{gh cstack/db_tutorial}}

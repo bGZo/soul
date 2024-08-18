@@ -1,9 +1,9 @@
 also:: Word Power Made Easy
 created:: [[20221220]]
-description:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！任何问题或讨论请加 http://t.me/lazyfun
+description:: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！
 exclude-from-graph-view:: true
 tags:: #english 
-source:: [https://t.me/pieroots](tg://resolve?domain=pieroots)
+source:: {{tg pieroots}}
 type:: telegram/channel
 
 - Content
@@ -35,7 +35,7 @@ type:: telegram/channel
     - title:: `suad-`/`suas-`/`suav-`
       definition:: {{cloze suavis / sweet;   suadere / to advise; to make something pleasant to / to present in a pleasing manner; hence to recommend / to advise}}
       tags:: #card, #english #English/word/root
-      refs:: [suad-, suas-, suav- - Word Information](https://wordinfo.info/unit/3928)
+      references:: [suad-, suas-, suav- - Word Information](https://wordinfo.info/unit/3928)
       description:: "来自拉丁语动词suadere（劝说）及其完成分词suasus，本意是“使变甜，使某事显得令人愉快，说甜言蜜语”，和拉丁词根suav-（甜的，令人愉悦的）、日耳曼单词sweet（甜的）同源"
       - assuage (verb, /əˈsweɪdʒ/), assuages; assuaged; assuaging
         - ![image.png](../assets/pieroots/image_1672647956994_0.png)
@@ -54,7 +54,7 @@ type:: telegram/channel
       - title:: `ampl-`/`ampli-`
         definition:: {{cloze 大的/广阔的 / large / enlargement / spacious(寬敞的); comprehensive; enough / more than enough}}
         tags:: #card, #english #English/word/root
-        refs:: [ampli-, ampl- - Word Information](https://wordinfo.info/unit/113)
+        references:: [ampli-, ampl- - Word Information](https://wordinfo.info/unit/113)
         description::
         - ample (adjective); ampler, more ample; amplest, most ample | 寬
         - amplification (s) (noun), amplifications (pl) | 放大
@@ -69,7 +69,7 @@ type:: telegram/channel
     - title:: `capit-` / `capt-` / `cap-` / `cep-` / `ceps-` / `chapt-` / `chef` / `cip-`
       definition:: {{cloze  head; leader / chief / or first}}
       tags:: #card, #english #English/word/root
-      refs:: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
+      references:: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
       description::
       - > When the French *borrowed words*(借用单词) from Latin, they frequently used soft sounds. These French words, with their softer sounds, then made their way into the English language. At the same time, English borrowed words directly from Latin. So it is that in English we often have two words which share the same root, but which have different, though related, forms and meanings.
         via: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
@@ -146,7 +146,8 @@ type:: telegram/channel
     - title:: `gno-` / `gnos-` / `gnoto-` / `-gnostic` / `-gnosia` / `-gnomic` / `-gnomonic` / `-gnomical` / `-gnomy` / `-gnosia` / `-gnostic` / `-gnosis`
       definition:: {{cloze (Greek) know / learn / discern(辨別)}}
       tags:: #card, #english #English/word/root
-      refs:: [gno-, gnos-, gnoto-, -gnostic, -gnosia, -gnomic, -gnomonic, -gnomical, -gnomy, -gnosia, -gnostic, -gnosis - Word Information](https://wordinfo.info/unit/929/s:ignore)
+      
+      references:: [gno-, gnos-, gnoto-, -gnostic, -gnosia, -gnomic, -gnomonic, -gnomical, -gnomy, -gnosia, -gnostic, -gnosis - Word Information](https://wordinfo.info/unit/929/s:ignore)
       description::
       - cognizance (KAHG ni zuhns) (s) (noun), cognizances (pl) | 認知
         collapsed:: true

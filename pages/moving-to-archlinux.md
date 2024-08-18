@@ -1,6 +1,7 @@
 also:: archlinux 折腾记
 icon:: 📝
 created:: [[20230924]]
+exclude-from-graph-view:: true
 tags:: #archlinux
 status:: writing/draft
 

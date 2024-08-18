@@ -6,10 +6,10 @@ also:: black list, block, shame, 黑名单, 拉黑
     template-including-parent:: false
     collapsed:: true
     - icon:: 🤮
-      also:: ``{ c.page.name }``作的恶
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
-      status:: ``{ 'writing/draft' }``
-      type:: ``{ 'sucks' }``
+      also:: ``c.page.name``作的恶
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      status:: ``'writing/draft'``
+      type:: ``'sucks'``
     -
     - ## ↩ Reference
       -

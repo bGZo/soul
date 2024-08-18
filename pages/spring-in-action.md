@@ -2,6 +2,7 @@ icon:: 📖
 cover:: {{image/cover https://img3.doubanio.com/view/subject/s/public/s34360957.jpg}}
 author:: Craig Walls
 created:: [[20230111]]
+exclude-from-graph-view:: true
 isbn:: 9787115598691
 lang:: chinese
 published-date:: 20221201

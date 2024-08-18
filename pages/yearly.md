@@ -76,7 +76,7 @@ created:: [[20230602]]
           collapsed:: true
           {{renderer :smartblock, thought, +Thought, false}}
           -
-        - ## [[time line]]
+        - ## time line
           collapsed:: true
           {{renderer :smartblock, book, +Book, false}} {{renderer :smartblock, podcast/episode, +Episode, false}} {{renderer :smartblock, game, +Game, false}} {{renderer :smartblock, galgame, +Hentai, false}} {{renderer :smartblock, video, +Video, false}} {{renderer :smartblock, video/movie, +Movie, false}} {{renderer :smartblock, anime, +Anime, false}} {{renderer :smartblock, manga, +Manga, false}}
           -
@@ -92,7 +92,7 @@ created:: [[20230602]]
       template-including-parent:: false
       - icon:: 🏆
         also:: year/``{ c.page.name }``
-        created:: ``{ date.now.format('YYYYMMDD') }``
+        created:: ``date.now.format('YYYYMMDD')``
       - ## Anime Awards
         - ### Bangumi 班固米
           - {{iframe https://bgm.tv/award/``{ c.page.name }``, 40vh, iframe-radius}}

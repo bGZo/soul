@@ -1,6 +1,7 @@
 also:: Git 提交规范
 icon:: 📝
 created:: [[20240810]]
+exclude-from-graph-view:: true
 status:: writing/draft
 tags:: #git
 

@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20230324]]
 description:: 计算机自学指南
+exclude-from-graph-view:: true
 tags:: #computer-science 
 type:: github/repo
 source:: {{gh pkuflyingpig/cs-self-learning}}

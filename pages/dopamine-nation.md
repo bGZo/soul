@@ -3,6 +3,7 @@ cover:: {{image/cover https://img9.doubanio.com/view/subject/s/public/s34472995.
 also:: 成瘾:在放纵中寻找平衡
 author:: 在放纵中寻找平衡
 created:: [[20240803]]
+exclude-from-graph-view:: true
 isbn:: 9787513350068
 lang:: chinese
 published-date:: 20230300

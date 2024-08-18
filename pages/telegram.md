@@ -1,15 +1,25 @@
 filters:: {"rss" true}
-icon:: 🛠
+icon:: ✈️
 created:: [[20200108]]
 document:: https://core.telegram.org/api, https://desktop.telegram.org/changelog
 status:: tool/star
 tags:: #instant-message 
 type:: tool
 
+  - template:: telegram/channel
+    template-including-parent:: false
+    - icon:: ✈️
+      also:: 
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      description:: 
+      exclude-from-graph-view:: true
+      source:: {{tg ``c.page.name``}}
+      type:: ``'telegram/channel'``
 - ## Why
   -
 - ## How
   - ### Shortcuts
+    collapsed:: true
     - 功能相关
       - **搜索 >> Ctrl+F**
         联系人 >> Ctrl+J
@@ -48,18 +58,18 @@ type:: tool
 - ## What
   - ### Clients
     - Web alternatives [^ruanyifeng]
-      - https://web.telegram.org
+      - {{nav https://web.telegram.org}}
         logseq.order-list-type:: number
-      - https://webk.telegram.org
+      - {{nav https://webk.telegram.org}}
         logseq.order-list-type:: number
-      - https://webz.telegram.org
+      - {{nav https://webz.telegram.org}}
         logseq.order-list-type:: number
     - Desktop alternatives
       - https://github.com/UnigramDev/Unigram
 - ## Namespace
   - {{query (property :type "telegram/channel")}}
     query-table:: true
-    query-properties:: [:page :icon :also :created :description :type]
+    query-properties:: [:page :also :created :description :type :source]
 - ## 📃 References
   - tg, 电报, t.me, telegram.me, telegram.org, telesco.pe, tg.dev
   - [^ruanyifeng]: https://twitter.com/ruanyf/status/1386900067852816386

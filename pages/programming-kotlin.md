@@ -3,6 +3,7 @@ cover:: {{image/cover https://img1.doubanio.com/view/subject/s/public/s33929048.
 also:: 创建优雅、富于表现力和高性能的JVM与Android应用程序
 author:: 文卡特·苏布拉马尼亚姆
 created:: [[20240807]]
+exclude-from-graph-view:: true
 isbn:: 9787111682752
 lang:: chinese
 published-date:: 20210620

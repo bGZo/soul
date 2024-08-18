@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20240324]]
 description:: 
+exclude-from-graph-view:: true
 tags:: #[[rss]] #[[crawler]]
 type:: github/repo
 source:: {{gh DIYgod/RSSHub}}

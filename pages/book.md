@@ -9,14 +9,15 @@ created:: [[20230602]]
       cover:: {{image/cover }}
       also:: 
       author:: 
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      exclude-from-graph-view:: true
       isbn:: 
       lang:: chinese
       published-date:: 
       rating:: ⭐⭐⭐⭐⭐
       status:: book/reading
       tags:: 
-      type:: ``{ 'book' }``
+      type:: ``'book'``
       douban:: {{doubook }}
       weread:: {{weread }}
   - template:: book/dev/reading
@@ -27,14 +28,15 @@ created:: [[20230602]]
       cover:: {{image/cover }}
       also::
       author::
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      exclude-from-graph-view:: true
       isbn::
       lang:: chinese
       published-date::
       rating:: ⭐⭐⭐⭐⭐
       status:: book/reading
       tags::
-      type:: ``{ 'book/dev' }``
+      type:: ``'book/dev'``
       douban:: {{doubook }}
       weread:: {{weread }}
   - template:: book/done
@@ -44,14 +46,15 @@ created:: [[20230602]]
       cover:: {{image/cover }}
       also::
       author:: 
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      exclude-from-graph-view:: true
       isbn:: 
       lang:: chinese
       published-date:: 
       rating:: ⭐⭐⭐⭐⭐
       status:: book/done
       tags:: 
-      type:: ``{ 'book' }``
+      type:: ``'book'``
       douban:: {{doubook }}
       weread:: {{weread }}
 - ## Why

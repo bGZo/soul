@@ -5,9 +5,9 @@ template-including-parent:: false
 
   - icon:: 📄
     also:: [[]], 
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    created:: ``ref(date.now.format('YYYYMMDD'))``
     description:: 
-    type:: ``{ 'hobby' }``
+    type:: ``'hobby'``
   - ## Why
     -
   - ## How
@@ -15,7 +15,7 @@ template-including-parent:: false
   - ## What
     -
   - ## Namespace
-    - {{namespace ``{c.page.name}``}}
+    - ``'{{namespace ' + c.currentPage.name + '}}'``
   - ## ↩ Reference
     -
 - ## Why

@@ -6,9 +6,9 @@ created:: [[20230625]]
     template-including-parent:: false
     collapsed:: true
     - icon:: ⌘
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
       description:: 
-      type:: ``{ 'command/linux' }``
+      type:: ``'command/linux'``
     - ## Why
       -
     - ## How
@@ -17,16 +17,16 @@ created:: [[20230625]]
       - {{iframe https://wangchujiang.com/linux-command/c/``{c.page.name}``.html,40vh,iframe-radius}}
       -
     - ## Namespace
-      - {{namespace ``{c.page.name}``}}
+      - ``'{{namespace ' + c.currentPage.name + '}}'``
     - ## ↩ Reference
       -
   - template:: command/windows
     template-including-parent:: false
     collapsed:: true
     - icon:: ⌘
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
       description:: 
-      type:: ``{ 'command/windows' }``
+      type:: ``'command/windows'``
     - ## Why
       -
     - ## How
@@ -34,7 +34,7 @@ created:: [[20230625]]
     - ## What
       -
     - ## Namespace
-      - {{namespace ``{c.page.name}``}}
+      - ``'{{namespace ' + c.currentPage.name + '}}'``
     - ## ↩ Reference
       -
 - ## Why

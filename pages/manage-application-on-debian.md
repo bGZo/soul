@@ -1,6 +1,7 @@
 also:: DEBIAN 管理应用记
 icon:: 📝
 created:: [[20230906]]
+exclude-from-graph-view:: true
 status:: writing/draft
 
 - #+BEGIN_NOTE

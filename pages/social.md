@@ -1,5 +1,5 @@
 also:: 社交
-related:: [[Politics]], [[Philosophy]]
+tags:: [[Politics]], [[Philosophy]]
 
 - [[social-media]] > [[social-networking]] [^1] #vs
   - Social media need a social networking, in order to disburse content to those that wish to consume and interact with it.

@@ -7,18 +7,18 @@ template-including-parent:: false
 
   - icon:: 📂
     also:: 
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    created:: ``ref(date.now.format('YYYYMMDD'))``
     description:: 
     tags:: 
-    type:: ``{ 'project' }``
+    type:: ``'project'``
   - ## Project Meta
-    - ``{ 'DOING #project ' + ref(c.page.name) }``
+    -``'DOING #project ' + ref(c.page.name)``
       :LOGBOOK:
       CLOCK: [2024-07-21 Sun 22:36:48]
       :END:
     - query-table:: false
       #+BEGIN_QUERY
-      {:title [:h3 "Tasks related to ``{ c.page.name }``"]
+      {:title [:h3 "Tasks related to``c.page.name``"]
        :query [:find (pull ?b [*])
            :in $ ?current-page
            :where

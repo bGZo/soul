@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20220628]]
 description:: 千古前端图文教程，超详细的前端入门到进阶知识库。从零开始学前端，做一名精致优雅的前端工程师
+exclude-from-graph-view:: true
 tags:: #[[web]] #[[tutorial]]
 type:: github/repo
 source:: {{gh qianguyihao/web}}

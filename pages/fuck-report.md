@@ -1,6 +1,7 @@
 icon:: 🤮
 also:: 去你妈的举报
 created:: [[20240804]]
+exclude-from-graph-view:: true
 status:: writing/draft
 type:: sucks
 

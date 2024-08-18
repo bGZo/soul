@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20221204]]
 description:: 刷算法全靠套路
+exclude-from-graph-view:: true
 tags:: #剑指Offer #algorithm
 type:: github/repo
 source:: {{gh labuladong/fucking-algorithm}}

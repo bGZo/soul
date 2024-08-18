@@ -3,6 +3,7 @@ cover:: {{image/cover https://img9.doubanio.com/view/subject/s/public/s33492346.
 also:: 你当像鸟飞往你的山
 author:: 塔拉·韦斯特弗
 created:: [[20200125]]
+exclude-from-graph-view:: true
 isbn:: 9787544276986
 lang:: chinese
 published-date:: 20191000

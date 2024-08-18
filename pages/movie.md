@@ -1,35 +1,18 @@
 icon:: 🎬
 also:: 电影, Video/Movie
+title:: movie
 
   - template:: movie
     template-including-parent:: false
-    collapsed:: true
     - icon:: 🎬
       title:: 
       also:: 
-      tags:: #video #Movie
+      tags:: 
       director:: 
       sreenwriter:: 
       actor:: 
       douban:: https://www.douban.com/
       imdb:: https://www.imdb.com/title/
-      rt:: 
-      description:: 
-      created:: <% today %>
-      closed::
-  - template:: page/movie
-    template-including-parent:: false
-    collapsed:: true
-    - icon:: 🎬
-      title:: 
-      also:: 
-      tags:: #video #Movie
-      director:: 
-      sreenwriter:: 
-      actor:: 
-      douban:: https://www.douban.com/
-      imdb:: https://www.imdb.com/title/
-      rt:: 
       description:: 
       created:: <% today %>
       closed::

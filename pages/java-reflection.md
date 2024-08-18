@@ -227,8 +227,7 @@ description:: 基于动态代理，类似 RPC、AOP。赋予程序在运行时**
   - [访问字段 - 廖雪峰](https://www.liaoxuefeng.com/wiki/1252599548343744/1264803033837024)
   - [获取继承关系 - 廖雪峰](https://www.liaoxuefeng.com/wiki/1252599548343744/1264804244564000)
   - [动态代理 - 廖雪峰](https://www.liaoxuefeng.com/wiki/1252599548343744/1264804593397984)
-also:: java 反射
-description:: Reflection enables Java code to discover information about the fields, methods and constructors of loaded classes, and to use reflected fields, methods, and constructors to operate on their *underlying counterparts(底层对应物)*, *within security restrictions*(安全限制内). The API *accommodates(满足)* applications that need access to either the public members of a target object (based on its runtime class) or the members declared by a given class(该API访问目标对象的公共成员（基于其运行时的类）或特定类所声明的成员的应用程序). It also allows programs to suppress default reflective access control(它还允许程序抑制默认的反射性访问控制).
-description:: [Core Java Reflection](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/index.html)；from java 1.1
-
+    also:: java 反射
+    description:: Reflection enables Java code to discover information about the fields, methods and constructors of loaded classes, and to use reflected fields, methods, and constructors to operate on their *underlying counterparts(底层对应物)*, *within security restrictions*(安全限制内). The API *accommodates(满足)* applications that need access to either the public members of a target object (based on its runtime class) or the members declared by a given class(该API访问目标对象的公共成员（基于其运行时的类）或特定类所声明的成员的应用程序). It also allows programs to suppress default reflective access control(它还允许程序抑制默认的反射性访问控制).
+    description:: [Core Java Reflection](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/index.html)；from java 1.1
 -

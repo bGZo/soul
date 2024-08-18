@@ -3,6 +3,7 @@ cover:: {{image/cover https://img9.doubanio.com/view/subject/s/public/s34587985.
 also:: 戒掉恋爱脑：战胜情感依赖，找回独立自我
 author:: 西尔维·田纳本, 彭璐琪
 created:: [[20240201]]
+exclude-from-graph-view:: true
 isbn:: 9787115616975
 lang:: french
 published-date:: 20230801

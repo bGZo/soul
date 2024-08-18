@@ -4,9 +4,23 @@ template:: weekly
 template-including-parent:: false
 exclude-from-graph-view:: true
 
+  - #+BEGIN_TIP
+    人生已走过了 天、 周、 个月
+    #+END_TIP
+  - ## 人类一思考，上帝就发笑
+    -
+  - ## 沙发土豆的自我修养
+    -
+  - ## 这周有断舍离吗？
+    -
+  - ## 这周有什么多快好省的东西吗？
+    -
+  - ## 这周有吃什么好吃的吗？
+    -
 - ## Why
   - 周报是一种 [[ork]] 聚焦的手段，通过复盘过去七天的足迹，我们能清晰目标，以更好地调整方向；
   - 周报是一种叙事疗法，通过和自我对话，把人生的主题性换回给自己，以更好地掌控人生；
+-
 - ## How
   - 摸🐟笔记
     :LOGBOOK:
@@ -34,13 +48,11 @@ exclude-from-graph-view:: true
       - https://github.com/cli/cli/issues/1068
     - ~~logseq~~
       background-color:: gray
-      collapsed:: true
       - sync on android
         - Google Drive: http://127.0.0.1:5244/gdrive/SamsungFiles/androidLogseq.md
       - sync on iCloud
         - https://www.icloud.com.cn/iclouddrive/0dfP2NK-LLjycO3mpP6-R7OSw#iOSLogseq
   - Combine week notes via ((66515680-e8b8-422b-8113-d79d42028cd4))
-    collapsed:: true
     - Windows
       - 合并一周
         - ```powershell
@@ -100,7 +112,6 @@ exclude-from-graph-view:: true
     - Loghub 聚合周报
       created:: [[20230617]]
       closed:: [[20240728]]
-      collapsed:: true
       - Loghub 目的是承接夸夸周报的上班部分，归档从 [[telegram]] 收集来的内容；在没有接入自动化的前半部分，一切都能做到尽然有序；但是没能做到及时回顾；就算用 Random Notes 也没有用。
       - 2024 上半年，接入 [[rongronggg9/rss-to-telegram-bot]] 两个月后，相较于过去三年的数据库，页面数直接翻了一倍，因为相当于把数据库单方面交给了 RSS 订阅的作者去自动化。
       - [[weekly/1198-wrong-second-brain]] 后，我意识到这是一个错误的第二大脑，笔记存档不应该由自动化接入，不应该如此简单，对于笔记，我应该做一个慈善的独裁者。

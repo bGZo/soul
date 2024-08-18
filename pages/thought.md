@@ -1,6 +1,5 @@
 icon:: 💭
-name:: [Outline of thought - Wikipedia](https://en.wikipedia.org/wiki/Outline_of_thought#Types_of_thought_(thinking))
-archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia (11_15_2022 11_40_59 PM).html)
+wikipedia:: https://en.wikipedia.org/wiki/Outline_of_thought
 
   - also known as [[thinking]] processes
 - Outline
@@ -291,12 +290,5 @@ archive:: [💾 Archived](../assets/archived_web/Outline of thought - Wikipedia 
     - Validity – Argument whose conclusion must be true if its premises are
     - Value theory – Concept in sociology and philosophy
     - Wrongdoing – Act that is illegal or immoral
-- [[template]]
-  - template:: thought
-    template-including-parent:: false
-    - <!--Thoughts-->
-      tags:: #thought, #bGZo
-      feeling:: 
-      description:: 
-      created:: <% today %>
+-
 -

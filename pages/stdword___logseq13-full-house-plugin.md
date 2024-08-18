@@ -9,7 +9,7 @@ tags:: #changelog/wiki #changelog/broken/
     - **上下文**：比较重要的一个变量是`c`，它代表上下文 (context)，拥有四个成员变量，`c.block`、`c.page`、`c.template`、`c.self`，使用的语法比较特别：
       logseq.order-list-type:: number
       - ```
-        ``{ c.page.name }``
+       ``c.page.name``
         ```
       - 上下文不连贯条件支持，直接看 Demo，玩得比较转，有点抽象
         - ```
@@ -19,8 +19,8 @@ tags:: #changelog/wiki #changelog/broken/
                           let [ authors, title ] = c.page.name.split(' — ', 2)
                           authors = authors.split(', ').map(ref)
                }``
-              name:: ``{ title }``
-              authors:: ``{ authors.join('; ') }``
+              name:: ``title``
+              authors:: ``authors.join('; ')``
               ``{ !
                       } else logseq.App.showMsg('The page is not a book', 'info', {timeout: 3000})
                }``

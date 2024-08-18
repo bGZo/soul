@@ -2,6 +2,7 @@ icon:: 📖
 cover:: {{image/cover https://rawcdn.githack.com/xuxiaodong/usingcli-book/main/images/cover-thumb.png}}
 author:: xuxiaodong
 created:: [[20230103]]
+exclude-from-graph-view:: true
 lang:: chinese
 published-date:: 20221118
 rating:: ⭐⭐⭐

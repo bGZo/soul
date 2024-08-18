@@ -1,6 +1,7 @@
 icon:: 📝
 also:: 好的手机
 created:: [[20240727]]
+exclude-from-graph-view:: true
 status:: writing/idea
 tags:: #phone
 

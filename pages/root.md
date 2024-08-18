@@ -1,6 +1,5 @@
 icon:: 📄
-also:: [[]], 
-created:: [[20240816]]
+created:: [[20240817]]
 description:: 
 tags:: #Android
 

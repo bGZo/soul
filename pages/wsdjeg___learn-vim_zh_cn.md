@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20240808]]
 description:: 
+exclude-from-graph-view:: true
 tags:: #vim #tutorial
 type:: github/repo
 source:: {{gh wsdjeg/learn-vim_zh_cn}}

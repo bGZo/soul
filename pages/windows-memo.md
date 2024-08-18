@@ -35,12 +35,31 @@ type:: memo
     "UserDefinedDoublePinyinScheme0"="flypy*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt"
     ```
     - Save as `.reg` and run
-  - `win+r`
-    - `regedit`
-      - `计算机\HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS`
-        - New Create `UserDefinedDoublePinyinScheme0`
-          - `flypy*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt`
-- ## Power Search with Everything & Tool bar
+  - `win+r` => `regedit`
+    - ```
+      Computer\HKEY_CURRENT_USER\Software\Microsoft\InputMethod\Settings\CHS
+      ```
+      - New Create `UserDefinedDoublePinyinScheme0`
+        - `flypy*2*^*iuvdjhcwfg^xmlnpbksqszxkrltvyovt`
+- ## Search with Everything & Tool bar
   - [[EverythingToolbar]]
+- ## Disable Turbo boost on ==Laptop==
+  - #+BEGIN_TIP
+    Considered [[battery]] duration, disable `Processor performance boost mode` on `powercfg.cpl`
+    #+END_TIP
+  - If not shown on power setting, go `regedit` to edit: [^turbo-boost]
+    - ```
+      Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\54533251-82be-4824-96c1-47b60b740d00\be337238-0d82-4146-a960-4f3749d470c7
+      ```
+      - Set `Attributes` from `1` to `2`.
+  - The turn back to set them disable.
 - ## References
   - [^china-office]: https://v2ex.com/t/1048191
+  - collapsed:: true
+    [^turbo-boost]: https://www.youtube.com/watch?v=iWBVtXPfTB0
+    - Seem like some pc support edit on the bios
+      collapsed:: true
+      - Settings --> AMD OverClocking --> Precision Boost Overdrive
+        via: https://www.reddit.com/r/AMDHelp/comments/es0d4a/how_exactly_do_you_disable_pbo/
+      -
+-

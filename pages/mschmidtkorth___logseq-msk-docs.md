@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20221218]]
 description:: Unofficial Logseq documentation
+exclude-from-graph-view:: true
 tags:: #logseq #tutorial
 type:: github/repo
 source:: {{gh mschmidtkorth/logseq-msk-docs}}

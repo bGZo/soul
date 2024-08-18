@@ -55,7 +55,7 @@ tags:: #info
     - ![](https://raw.githack.com/bGZo/assets/dev/2024/infoflow.excalidraw-fs8.png)
       #book #reading #writing #flow
       `[[draws/flow.book.excalidraw]]`
-      - When rss failed/[[404]], go to [Inoreader - Take back control of your news feed](https://www.inoreader.com/). Subscribe, and find the old articles.
+      - When rss failed, go to [Inoreader - Take back control of your news feed](https://www.inoreader.com/). Subscribe, and find the old articles.
       - When you seeing a good source, you shouldn't subscribe immediately, you should save a read latter and done it as soon as possible. Because it will accumulate while  you don't care it. Yet it might be a instant source, so it will be spam in the future.
         collapsed:: true
         In deeper, *I take rss more than a reading tool, but their origional purpose, __notification__*.

@@ -1,5 +1,6 @@
 icon:: 📦
 created::  [[20240808]]
+exclude-from-graph-view:: true
 tags::  #tutorial #docker
 type:: github/repo
 source:: {{gh collabnix/dockerlabs}}

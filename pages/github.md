@@ -5,11 +5,12 @@ exclude-from-graph-view:: true
   - template:: github
     template-including-parent:: true
     icon:: 📦
-    created::  ``{ ref(date.now.format('YYYYMMDD')) }``
+    created:: ``ref(date.now.format('YYYYMMDD'))``
     description:: 
+    exclude-from-graph-view:: true
     tags:: 
-    type:: ``{ 'github/repo' }``
-    source:: {{gh ``{ c.page.name }``}}
+    type:: ``'github/repo'``
+    source::  ``'{{gh ' + c.page.name + '}}'``
 - ## Why
 - ## How
 - ## What
@@ -17,6 +18,8 @@ exclude-from-graph-view:: true
   - {{query (property :type "github/repo")}}
     query-table:: true
     query-properties:: [:page :tags :description :created :source]
+    query-sort-by:: page
+    query-sort-desc:: false
 - ## ↩ Reference
   - [[mirror]] [[navigation]]
     - {{nav https://hub.xn--p8jhe.tw}}

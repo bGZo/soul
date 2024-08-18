@@ -4,20 +4,24 @@ tags:: #creation
 
   - template:: writing/idea
     template-including-parent:: false
+    collapsed:: true
     - also:: 
       icon:: 📝
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
-      status:: ``{ 'writing/idea' }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      exclude-from-graph-view:: true
+      status:: ``'writing/idea'``
     -
     - ## ↩ Reference
+      collapsed:: true
       -
   - template:: writing/outline
     template-including-parent:: false
     collapsed:: true
     - also:: 
       icon:: 📝
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
-      status:: ``{ 'writing/outline' }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      exclude-from-graph-view:: true
+      status:: ``'writing/outline'``
     -
     - ## ↩ Reference
       -
@@ -26,8 +30,9 @@ tags:: #creation
     collapsed:: true
     - also:: 
       icon:: 📝
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
-      status:: ``{ 'writing/draft' }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      exclude-from-graph-view:: true
+      status:: ``'writing/draft'``
     -
     - ## ↩ Reference
       -
@@ -36,8 +41,9 @@ tags:: #creation
     collapsed:: true
     - also:: 
       icon:: 📝
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
-      status:: ``{ 'writing/edit' }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      exclude-from-graph-view:: true
+      status:: ``'writing/edit'``
     -
     - ## ↩ Reference
       -
@@ -46,8 +52,9 @@ tags:: #creation
     collapsed:: true
     - also:: 
       icon:: 📝
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
-      status:: ``{ 'writing/published' }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
+      exclude-from-graph-view:: true
+      status:: ``'writing/published'``
     -
     - ## ↩ Reference
       -

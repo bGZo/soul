@@ -8,12 +8,13 @@ type:: hobby
 
   - icon:: 🎮
     cover:: {{image/cover }}
-    also:: ``{ c.page.name }``, 
+    also:: ``c.page.name``, 
     author:: 
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    created:: ``ref(date.now.format('YYYYMMDD'))``
+    exclude-from-graph-view:: true
     rating:: ⭐⭐⭐⭐⭐
     tags:: 
-    type:: ``{ 'game' }``
+    type:: ``'game'``
     bangumi:: {{bangumi }}
     douban:: {{dougame }}
 - ## Why
@@ -138,3 +139,4 @@ type:: hobby
     - 众筹 / 集资
       - [遊戲 專案探索 | 嘖嘖 zeczec × 讓美好的事物發生：台灣的群眾集資平台](https://www.zeczec.com/categories?category=13&page=1) #taiwan
       - [摩点 - 发现新奇好物](https://www.modian.com/)
+-

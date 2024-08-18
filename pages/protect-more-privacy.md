@@ -86,7 +86,7 @@ tags:: #privacy
       - 其实很多社区不会验证你的邮箱的正确性, 所以如果你不 care 未来的话, 几秒就可以拿到一个账号... 并且可以正常回帖... 呵呵
   - [jdm-contrib/jdm: A directory of direct links to delete your account from web services. (github.com)](https://github.com/jdm-contrib/jdm)
   - 华为云会议 130
-- ## Separate [[github]] Commit Email
+- ## Separate github Commit Email
   collapsed:: true
   - [[git]] 提交记录依赖 `user.name` & `user.email`;
     - 个人提交  `bgzo@outlook.com`

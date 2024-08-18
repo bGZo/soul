@@ -1,7 +1,8 @@
 also:: 硬核小卒
-description:: 小卒可以无名，但不能不硬核。 😉 https://t.me/yinghexiaozu [↩](tg://resolve?domain=yinghexiaozu)
+description:: 小卒可以无名，但不能不硬核。 😉
 created:: [[20221201]]
 exclude-from-graph-view:: true
+source:: {{tg yinghexiaozu}}
 type:: telegram/channel
 
 - 以前上学的时候从来没有考虑过“听课效率”这件事，老师们倡导的就是上课要好好记笔记，把老师的板书一字不差地给抄下来。现在回头想想其实不对，边听边写这样的操作会不停打断我们注意力，严重降低了“听课效率”。上课那几十分钟里，最重要的是全神贯注地去听讲，尽力理解老师的讲课思路。毕竟笔记随时都可以补充，但是从头到尾给你讲解一个东西的机会稍纵即逝。

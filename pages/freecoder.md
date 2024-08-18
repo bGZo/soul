@@ -11,7 +11,7 @@ description:: 作者一聽就是個大佬，真希望知道他現在過得怎麽
     - 永久代，源数据空间，存储静态方法，常量，方法
   - 其中，134 是线程私有；
 - {{video https://www.youtube.com/watch?v=A20a0__mXvQ}}
-  #garbage-collection
+  #garbage_collection
   - {{youtube-timestamp 44}} GC 判断的标准 GC Root
     - 栈引用；
     - 本地方法 (Native) 栈 直接/间接 引用；

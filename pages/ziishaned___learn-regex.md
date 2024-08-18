@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20210808]]
 description:: Learn regex the easy way
+exclude-from-graph-view:: true
 tags:: #regex
 type:: github/repo
 source:: {{gh ziishaned/learn-regex}}

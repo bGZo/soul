@@ -6,7 +6,6 @@ tags:: #windows
   - [[commandline]]
 - ## How
   - ### Find Software
-    collapsed:: true
     - online via:
       {{iframe https://bjansen.github.io/scoop-apps/,40vh,iframe-radius}}
     - local: `scoop search xxx`

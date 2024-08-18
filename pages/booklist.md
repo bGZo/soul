@@ -1,7 +1,10 @@
-tags:: #reading
+icon:: 📄
+also:: 书单
+created:: [[20240714]]
+tags:: #book
 
 - TODO/READING, reading/todo, book/list, book list, 书单, read latter, 稍后读
-- ##  [汉译世界学术名著丛书](https://weread.qq.com/misc/booklist/14214625_6VYjyGxUk)
+- [汉译世界学术名著丛书](https://weread.qq.com/misc/booklist/14214625_6VYjyGxUk)
   collapsed:: true
   - [奥义书](https://weread.qq.com/web/reader/4c532360813ab71dbg011352)
   - [薄伽梵歌（汉译世界学术名著丛书）](https://weread.qq.com/web/reader/dd4325f072051b4fdd4a216)
@@ -162,7 +165,7 @@ tags:: #reading
   - [论独一理智（汉译世界学术名著丛书）](https://weread.qq.com/web/reader/d8432ef071fabd95d841318)
   - [游叙弗伦 苏格拉底的申辩 克力同/汉译世界学术名著丛书](https://weread.qq.com/web/reader/de732b30811e3b160g014582)
   - [薄伽梵歌](https://weread.qq.com/web/reader/05f32bb0813ab71dag016d6f)
-- ##  [牛津通识读本](https://weread.qq.com/misc/booklist/15051517_7dMgDx9U0)
+- [牛津通识读本](https://weread.qq.com/misc/booklist/15051517_7dMgDx9U0)
   collapsed:: true
   - [牛津通识读本：卡夫卡是谁（中文版）](https://weread.qq.com/web/reader/4df32a405ceabe4df390115)
   - [牛津通识读本：批判理论（中文版）](https://weread.qq.com/web/reader/b89322507185cdcab89ef2e)
@@ -268,7 +271,7 @@ tags:: #reading
   - [牛津通识读本：拜占庭](https://weread.qq.com/web/reader/f0532b20729a48a0f0574aa)
   - [牛津通识读本：知识](https://weread.qq.com/web/reader/68532780729a48af685e3f1)
   - [牛津通识读本：景观设计学](https://weread.qq.com/web/reader/95332830729a48b1953e0b3)
-- ## [非虚构·社科·纪实·叙世](https://weread.qq.com/misc/booklist/49783926_7fuM88ctH)
+- [非虚构·社科·纪实·叙世](https://weread.qq.com/misc/booklist/49783926_7fuM88ctH)
   collapsed:: true
   - [二手时间](https://weread.qq.com/web/reader/822322405cb2d68225b634b)
   - [美国底层](https://weread.qq.com/web/reader/080327c0723ae5380801b9b)
@@ -671,4 +674,5 @@ tags:: #reading
   - [日本权力结构之谜](https://weread.qq.com/web/reader/8ca32d40720ac8178ca33bd)
   - [双螺旋：发现DNA结构的故事（睿文馆）](https://weread.qq.com/web/reader/f18320c07182db1ff182119)
   - [老后破产：名为“长寿”的噩梦（译文纪实）](https://weread.qq.com/web/reader/edb32af0726a6728edb2000)
+-
 -

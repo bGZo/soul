@@ -353,7 +353,7 @@ exclude-from-graph-view:: true
 - ## What
   collapsed:: true
   - TODO Lists
-    - https://cuvids.io/app/video/97/watch/ #[[books/algorithms4E]]
+    - https://cuvids.io/app/video/97/watch/ #[[algorithms4E]]
     - x86_64 Linux Assembly
       source:: https://www.youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn
       collapsed:: true
@@ -1706,7 +1706,7 @@ exclude-from-graph-view:: true
       - music.bgzo.cc -> My Favs
         - 完全静态的听歌网站
         - 版权问题?
-    - WAITING [[MonthTopic]] Like Newsletter #[[writing]]
+    - WAITING Like Newsletter #[[writing]]
     - WAITING 完善 cms 系统
       - [韩剧tv-韩剧-韩剧网-韩剧TV官网-TSKS韩剧社-韩剧Tv](https://www.1vys.com/)
     - WAITING 聊天室 & 做一个匿名服务

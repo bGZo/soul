@@ -4,13 +4,13 @@ created:: [[20240719]]
 
   - icon:: 💾
     author:: 
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    created:: ``ref(date.now.format('YYYYMMDD'))``
     exclude-from-graph-view:: true
     source:: 
+    tags:: 
     type:: archives-web
     template:: archive(default: web)
     template-including-parent:: true
--
 -
 - ## Why
   -

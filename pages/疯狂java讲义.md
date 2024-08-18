@@ -2,6 +2,7 @@ icon:: 📖
 cover:: {{image/cover https://img3.doubanio.com/view/subject/s/public/s27273703.jpg}}
 author:: 李刚
 created:: [[20221125]]
+exclude-from-graph-view:: true
 isbn:: 9787121155789
 lang:: chinese
 published-date:: 20120101

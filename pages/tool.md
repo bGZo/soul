@@ -6,12 +6,12 @@ created:: [[20230531]]
     template-including-parent:: false
     collapsed:: true
     - icon:: 🛠
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
       document:: 
       exclude-from-graph-view:: true
       status:: tool/deprecated
       tags:: 
-      type:: ``{ 'tool' }``
+      type:: ``'tool'``
     -
     - ## ↩ Reference
       -
@@ -19,12 +19,12 @@ created:: [[20230531]]
     template-including-parent:: false
     collapsed:: true
     - icon:: 🛠
-      created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+      created:: ``ref(date.now.format('YYYYMMDD'))``
       document:: 
       exclude-from-graph-view:: true
       status:: tool/star
       tags:: 
-      type:: ``{ 'tool' }``
+      type:: ``'tool'``
     - ## Why
       -
     - ## How
@@ -32,7 +32,7 @@ created:: [[20230531]]
     - ## What
       -
     - ## Namespace
-      - {{namespace ``{c.page.name}``}}
+      - ``'{{namespace ' + c.currentPage.name + '}}'``
     - ## ↩ Reference
       -
 - #+BEGIN_PINNED

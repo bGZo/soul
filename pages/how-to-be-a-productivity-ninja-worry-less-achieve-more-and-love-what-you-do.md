@@ -3,6 +3,7 @@ cover:: {{image/cover }}
 also:: 高效忍者
 author:: 格雷厄姆·阿尔科特
 created:: [[20240814]]
+exclude-from-graph-view:: true
 isbn:: 
 lang:: chinese
 published-date:: 20190700

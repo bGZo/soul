@@ -1,6 +1,7 @@
 icon:: 📦
 created:: [[20221124]] 
 description:: 银行笔试面试经验分享及资料分享（help you pass the bank interview, and get a amazing bank offer!
+exclude-from-graph-view:: true
 tags:: #[[bank]] #[[interview]]
 type:: github/repo
 source:: {{gh sty945/bank_interview}}

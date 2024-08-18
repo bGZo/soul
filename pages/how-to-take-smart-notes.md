@@ -3,6 +3,7 @@ cover:: {{image/cover https://img2.doubanio.com/view/subject/l/public/s33927783.
 also:: 卡片笔记写作法:如何实现从阅读到写作, How to Take Smart Notes
 author:: 申克·阿伦斯, 陈琳
 created:: [[20220124]]
+exclude-from-graph-view:: true
 isbn:: 9787115564672
 lang:: chinese
 published-date:: 20210700
@@ -343,7 +344,7 @@ weread:: {{weread 3d8326d072552e803d87c41}}
 - ## Comment
   - 2022 扫了一遍, 忘的差不多了, 今天下午又扫了一遍, 还是太厉害了, 一本正经地讲写作 (非虚构/学术) 太棒了, 感慨初高中写作是什么东西🙄; 一堆的认知偏误, 费曼, GTD, 第二大脑, 全都串起来了, 当然还有大量的引用还没细看😂
     description:: https://weread.qq.com/web/review/detail/203895941_7FvvkT3qr
-- ## Relate [[book/list]] #learning/learning
+- ## Relate [[booklist]] #learning/learning
   - title:: 费曼学习法
     tags:: 
     author:: 

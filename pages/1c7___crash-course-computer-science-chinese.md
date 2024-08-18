@@ -1,5 +1,6 @@
 icon:: 📦
 created::  [[20230324]]
+exclude-from-graph-view:: true
 type:: github/repo
 tags:: #computer-science #tutorial 
 source:: {{gh 1c7/crash-course-computer-science-chinese}}

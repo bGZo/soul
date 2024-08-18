@@ -1,3 +1,0 @@
-description:: 谚语
-
--

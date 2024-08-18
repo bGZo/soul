@@ -2,6 +2,7 @@ icon:: 📖
 cover:: {{image/cover https://img9.doubanio.com/view/subject/s/public/s29829855.jpg}}
 author:: SSDFans
 created:: [[20240727]]
+exclude-from-graph-view:: true
 isbn:: 9787111599791
 lang:: chinese
 published-date:: 20180601

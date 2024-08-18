@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20221120]]
 description:: 
+exclude-from-graph-view:: true
 tags:: #[[logseq]]
 type:: github/repo
 source:: {{gh shady2k/logseq-inbox-telegram-plugin}}

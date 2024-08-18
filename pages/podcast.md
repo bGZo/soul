@@ -12,8 +12,8 @@ type:: hobby
       description:: 
       icon:: 🎧
       tags:: 
-      created:: ``{ date.now.format('YYYYMMDD') }``
-      title:: ``{ c.page.name }``
+      created:: ``date.now.format('YYYYMMDD')``
+      title:: ``c.page.name``
   - `<iframe src=" " autoplay=0 frameborder=0></iframe>` #deprecated
 - ## Why
   - I listen podcast since [[twitter]]'s recommendation, and my first platform is [xiaoyuzhoufm)](https://www.xiaoyuzhoufm.com/). Then I changed to other platform cause they are not useful across devices.

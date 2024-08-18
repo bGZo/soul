@@ -7,11 +7,11 @@ wikipedia:: https://en.wikipedia.org/wiki/Animation
 
   - cover:: {{image/cover }}
     icon:: 📺
-    also:: ``{ c.page.name }``, 
-    created:: ``{ ref(date.now.format('YYYYMMDD')) }``
+    also:: ``c.page.name``, 
+    created:: ``ref(date.now.format('YYYYMMDD'))``
     rating:: ⭐⭐⭐⭐⭐
-    tags:: ``{ 'animes/' + date.now.format('YYYYMM') }``
-    type:: ``{ 'anime' }``
+    tags:: ``'animes/' + date.now.format('YYYYMM')``
+    type:: ``'anime'``
     bangumi:: {{bangumi }} 
     douban:: {{doufilm }}
     myanimelist:: {{myanimelist }}

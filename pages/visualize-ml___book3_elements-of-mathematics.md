@@ -1,6 +1,7 @@
 icon:: 📦
 created::  [[20230308]]
 description:: Book_3_《数学要素》 |   鸢尾花书：从加减乘除到机器学习；本册有，583幅图，136个代码文件，其中24个Streamlit App；状态：清华社五审五校中；Github稿件基本稳定，欢迎提意见，会及时修改
+exclude-from-graph-view:: true
 tags:: #maths 
 type:: github/repo
 source:: {{gh visualize-ml/book3_elements-of-mathematics}}
