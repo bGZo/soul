@@ -1,6 +1,7 @@
 tags:: [[imu/java]], TODO
 
 - Courses List
+  collapsed:: true
   - 1
     collapsed:: true
     - ORM 与 MyBatisPlus 软件编程

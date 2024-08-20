@@ -27,7 +27,7 @@ tags:: #database-object–relational
     collapsed:: true
     - [[transaction]]
       collapsed:: true
-      - MySQL 的 ((6327cf39-8e1a-4229-8d14-6dd05b40c394)) 基于 **锁** 和 **MVCC** 机制共同实现
+      - MySQL 的 ### \* ==**事务隔离级别**== 基于 **锁** 和 **MVCC** 机制共同实现
         - 除了 SERIALIZABLE 隔离级别(锁实现)，其他的隔离级别都是基于 MVCC 实现
           - SERIALIZABLE 之外的其他隔离级别可能也需要用到锁机制
       - 默认隔离级别

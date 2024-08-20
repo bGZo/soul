@@ -1068,8 +1068,8 @@ exclude-from-graph-view:: true
           CLOCK: [2022-08-24 Wed 00:16:15]
           CLOCK: [2022-08-29 Mon 21:27:08]--[2022-08-29 Mon 21:27:09] =>  00:00:01
           :END:
-          - After [[software/engineering]] via: 软件过程推荐的...
-        - DONE [[imu/software/architecture-pattern]] 设计模式 & 软件架构
+          - After [[software-engine]] via: 软件过程推荐的...
+        - DONE [[software-pattern]] 设计模式 & 软件架构
           collapsed:: true
           :LOGBOOK:
           CLOCK: [2022-08-19 Fri 17:02:05]--[2022-08-30 Tue 14:12:13] =>  261:10:08
@@ -2759,6 +2759,20 @@ exclude-from-graph-view:: true
 - religious
   also:: 宗教
 - 美好的回忆
--
+- 写代码的理论和实际
+  collapsed:: true
+  - 实际写代码的时候，以前总是喜欢这样写条件分支
+    - ```java
+      if (condition){
+      } else {
+      }
+      ```
+  - 但是最近屎山看多了，还是这样写更加方便一点
+    - ```java
+      if (condition){
+      }
+      else {
+      }
+      ```
 -
 -

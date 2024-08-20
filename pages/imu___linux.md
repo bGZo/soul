@@ -1,10 +1,10 @@
 email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
 
--
 - 占 80%
--
 - Make
+  collapsed:: true
   - 手写
+    collapsed:: true
     - ```makefile
       mypipes: mypipes.o client.o server.o
           g++ mypipes.o client.o server.o -o mypipes
@@ -18,6 +18,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
           rm *.o
       ```
   - 自动编译
+    collapsed:: true
     - ```makefile
       GCC=g++
       CFLAG=-c
@@ -38,9 +39,10 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
           rm *.o
           rm ${SEXE} ${CEXE}
       ```
--
 - 进程间通信
+  collapsed:: true
   - 同一台机器通信
+    collapsed:: true
     - 有血缘
       - 父子进程
         - [[lsc-fork]]
@@ -413,6 +415,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
       - TODO 消息队列
       - TODO 共享内存
   - 不同机器通信
+    collapsed:: true
     - !socket
       - TODO TCP
         - `server`
@@ -655,8 +658,8 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
                 close(confd);
             }
             ```
--
 - 多线程
+  collapsed:: true
   - 线程基础使用
     - ```cpp
       #include <iostream>
@@ -832,8 +835,8 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
           std::cout<<account<<std::endl;
       }
       ```
--
 - Other
+  collapsed:: true
   - [[vim]]
   - [[exec]] 系统调用
     collapsed:: true
@@ -886,6 +889,7 @@ email:: ![csxingyi@imu.edu.cn](mailto:csxingyi@imu.edu.cn)
       }
       ```
   - [[tar]] 打包
-  -
 - Refs
+  collapsed:: true
   - [Linux创建进程链、进程扇、进程树_小咸鱼一条的博客-CSDN博客_进程树怎么画](https://blog.csdn.net/weixin_45907789/article/details/109256707)
+-

@@ -395,6 +395,13 @@ title:: postgresql
   - Table
     - 约束
     - 触发器
+    - 表空间
+    - 视图
+    - 索引
+    - 物化视图
+  - [[transaction]]
+  -
+    -
 -
 -
 -

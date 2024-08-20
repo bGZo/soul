@@ -1,7 +1,11 @@
+also:: 软件过程
+
 - 卷面是 80 分 (20分简答 + 60分==案例==) + 平时 20 分
+  collapsed:: true
   - 第一次开课?
   - 傻逼???
 - 作业
+  collapsed:: true
   - 需求管理工具比较
     collapsed:: true
     - via: https://www.docin.com/p-1664474036.html
@@ -21,8 +25,8 @@
       | **Import and Export** **（文件** **的导入****导出）** | DOORS 在从 Word 导入文件时，会把Word 文件中的表格，图形和 OLE 对象原封不动导入，并可以在 DOORS 中对导入的表格和 OLE 对象（如 MS Visio 图形）进行编辑。                       |                                                              | 在从Word导入文件时，会丢失所有 Word 中的表格，图形和 OLE 对象，也就谈不上对他们的编辑操作了     |
   - 故障分析软件比较 word 报告
   - 读论文，写调研报告
-- ---
 - Homework
+  collapsed:: true
   - 请说明需求的3个层次分别是什么，并对其进行简要说明
     collapsed:: true
     - **业务**需求 (business requirement)
@@ -187,6 +191,7 @@
     - 这充分说明软件过程的不成熟，没有具体过程检测数据类型转换会出现的问题
   - 阅读完全部的 CMM(Capability Maturity Model, 能力成熟度模型) 内容，选择出你认为最有价值的十条关键实践，并说出理由
     id:: 63085063-bf2c-46b2-bf6b-62e31a207fe9
+    collapsed:: true
     - 项目实际情况 -> 选定遵循的标准、规范
       collapsed:: true
       - 好的编码规范可以
@@ -571,9 +576,10 @@
         - 软件缺陷的作⽤?
           collapsed:: true
           - 通过缺陷分析，发现各种类型缺陷发⽣的概率，掌握缺陷集中的区域、明晰缺陷发展趋势、了解缺陷产⽣主要原因。
-- ---
 - Outline `软件过程 +`
-  - 1. 规范 (*)
+  collapsed:: true
+  - collapsed:: true
+    1. 规范 (*)
     - 过程的定义
       collapsed:: true
       - 过程的定义
@@ -675,7 +681,8 @@
       - 基于IDEF3的过程建模
       - 基于Agent的自适应软件过程模型
       - 基于SOA的软件过程模型
-  - 2. 成熟度
+  - collapsed:: true
+    2. 成熟度
     - 过程成熟度标准
       collapsed:: true
       - 软件过程不成熟的特点
@@ -700,7 +707,8 @@
       - 软件过程环境和过程框架
       - 软件过程文化
       - PSP/TSP和CMM组成的软件过程框架
-  - 3. 组织管理
+  - collapsed:: true
+    3. 组织管理
     - 组织过程焦点
       collapsed:: true
       - 组织过程焦点的基础
@@ -732,7 +740,8 @@
       - 需求
       - 设计和实现
       - 测试和后期维护
-  - 4. 需求管理
+  - collapsed:: true
+    4. 需求管理
     - 需求管理的模型和流程
       collapsed:: true
       - 软件需求工程概述
@@ -747,7 +756,8 @@
       - 需求确认
       - 需求跟踪
       - 需求变更控制
-  - 5. 技术管理
+  - collapsed:: true
+    5. 技术管理
     - 软件过程的技术架构
       collapsed:: true
       - 过程技术架构的层次和内容
@@ -770,7 +780,8 @@
       - 需求管理工具
       - 面向对象的分析设计工具
       - 配置管理和变更管理工具
-  - 6. 项目管理 (*)
+  - collapsed:: true
+    6. 项目管理 (*)
     - ==软件配置管理(SCM, Software Configuration Management)==
       - 任务 / 定义
         - 管理软件的变化
@@ -865,7 +876,8 @@
       - WBS-工作分解结构
     - 项目跟踪和监督
       - 项目跟踪的重要性
-  - 7. ==软件质量管理 (*)== via: ((6305e7eb-0fd0-4a17-80be-4e269738a37e))
+  - collapsed:: true
+    7. ==软件质量管理 (*)== via: ((6305e7eb-0fd0-4a17-80be-4e269738a37e))
     - 7.1 质量管理概述
       - 缺陷的消除并不能真正保证软件的质量，更重要的是缺陷的预防和管理
       - ![image.png](../assets/imu/sp/image_1661330135275_0.png)
@@ -910,7 +922,8 @@
     - 背景
     - 意义
     - 作用
-  - 8. 集成管理
+  - collapsed:: true
+    8. 集成管理
     - 集成项目管理
       collapsed:: true
       - 项目过程的集成管理
@@ -940,7 +953,8 @@
       - 流程重整
       - 产品重整
       - 新产品开发
-  - 9. 评估和改进
+  - collapsed:: true
+    9. 评估和改进
     - 过程模型的剪裁
       collapsed:: true
       - 软件开发组织的类型
@@ -981,7 +995,8 @@
       - 过程改进计划
       - 过程改进的具体实施步骤
       - 软件过程改进的自动化实现
-  - 10. 管理实践
+  - collapsed:: true
+    10. 管理实践
     - IBM-Rational 业务驱动开发的过程管理
       collapsed:: true
       - RUP的迭代过程
@@ -1008,10 +1023,9 @@
       collapsed:: true
       - 过程模式的对比分析
       - 自我定义的理想管理过程
-- ---
-- More
-  - [[software/process]]
 - Refs
+  collapsed:: true
+  - [[software/process]]
   - 软件过程管理 - 朱少民 - 清华大学出版社 - 2007-4
     isbn:: 9787302146407
     source:: https://book.douban.com/subject/2035607
