@@ -5,6 +5,10 @@ description:: 一些迁移过程中产生的，不知道放哪的笔记，我把
 exclude-from-graph-view:: true
 
 -
+- [奧古斯特·蘭德梅賽 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8F%A4%E6%96%AF%E7%89%B9%C2%B7%E5%85%B0%E5%BE%B7%E6%A2%85%E8%B5%9B)
+  collapsed:: true
+  - 奧古斯特拒絕行納粹禮，他的舉動被人拍了下來，因而使他聞名於世。
+  - ![image.png](../assets/archived/image_1666177782853_0.png)
 - also:: 节俭
   description:: Extreme Frugality，过度节俭
 - hedonism
@@ -1401,7 +1405,7 @@ exclude-from-graph-view:: true
     - TODO [#B] Output #flow
       - Social Media
         - TODO 怎么记录自己的琐碎, 就像这个样子吗? 但是这个样子条件又太高了, 利用 Gihtub 太麻烦, 利用 Twitter 不好整理, 利用Wordpress体验又太差...
-    - TODO [#C] **Entertainment** #[[Kill Time]]
+    - TODO [#C] **Entertainment** #[[kill-time]]
       - 刷剧清单
         - TODO never-let-me-go
           - Movie-[别让我走 (豆瓣)](https://movie.douban.com/subject/3321409/)
@@ -1542,7 +1546,7 @@ exclude-from-graph-view:: true
       - [[book]]
         - **陈映真、王拓、三毛、震琼琼、陈铭孺、杨青矗**
         - 论边沁与柯勒律治
-      - [[search/latter]]
+      - [[kill-time]]
         - 逛 Github
           - https://github.com/search?q=stars:>10000+cpp
         - 想吃的零食

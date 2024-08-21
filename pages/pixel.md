@@ -1,6 +1,8 @@
-also:: illustration/pixel,像素
-created:: [[20240721]]
 icon:: 📄
+also:: 像素
+created:: [[20240721]]
+tags:: #illustration
+type:: hobby
 
 - ## Why
   -

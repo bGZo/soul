@@ -673,7 +673,7 @@ type:: project/done
         - [[frameworks]]
         - [[software-pattern]]
         - [[leetcode]]
-        - [[book]]
+        - book
       - More
         - MBTI-Results
           - 人格类型
@@ -700,7 +700,7 @@ type:: project/done
             - [“提倡者” 人格 (INFJ) | 16Personalities](https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC)
             - [INFJ - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/INFJ)
       - [[bank]]
-      - [[job/civil-service]]
+      - [[civil-service]]
   -
   - ### Special: [[programming]] #learning #roadmap
     -

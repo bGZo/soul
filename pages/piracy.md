@@ -1,8 +1,7 @@
 icon:: 📄
-also:: C#
+also:: 盗版 
 created:: [[20240821]]
-description:: 
-type:: lang/programming
+description::
 
 - ## Why
   -
@@ -11,6 +10,7 @@ type:: lang/programming
 - ## What
   -
 - ## Namespace
-  - {{namespace csharp}}
+  - {{namespace piracy}}
 - ## ↩ Reference
-  -
+  - https://en.wikipedia.org/wiki/Video_game_piracy
+-

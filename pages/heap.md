@@ -1,8 +1,8 @@
 icon:: 📄
-also:: C#
+also:: 堆
 created:: [[20240821]]
 description:: 
-type:: lang/programming
+type:: data-structure
 
 - ## Why
   -
@@ -11,6 +11,7 @@ type:: lang/programming
 - ## What
   -
 - ## Namespace
-  - {{namespace csharp}}
+  - {{namespace heap}}
 - ## ↩ Reference
   -
+-

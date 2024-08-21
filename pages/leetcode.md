@@ -1,6 +1,5 @@
 icon:: 👨‍💻
 also:: 力扣
-tags:: #question/oj
 
   - template:: leetcode
     template-including-parent:: false
@@ -42,11 +41,9 @@ tags:: #question/oj
     - MLE：memory limit exceeded，运行内存超过限制
   - [全站排名咋算的 - 力扣（LeetCode）](https://leetcode.cn/circle/discuss/gYbvxx/)
     - 主页显示的是当前进度的做题数，全站排名用的是所有进度的并集
-  -
-also:: 
-created:: [[20240721]]
-description::
-icon:: 📂
-tags::
-
+  - also:: 
+    created:: [[20240721]]
+    description::
+    icon:: 📂
+    tags::
 -

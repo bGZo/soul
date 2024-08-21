@@ -1,11 +1,8 @@
 - It's really hard that I need to remember every function prototype even they don't have manual.😱 via: https://stackoverflow.com/questions/9463640/tools-that-list-the-prototypes-in-so-library
 - I have to check the `.h` to find prototype or search info in cppreference. Fucked.q
-- ---
+-
 - [[cpp/array]]
 - [[cpp/getline]]
-- [[stl/vector]]
-- [[stl/set]]
-- [[stl/map]]
 - [[cpp/convert]]
 - [[cpp/scale]]
 - [[cpp/template]]
@@ -34,6 +31,7 @@
       - 一般教科书都鼓励程序员们进行防错性的程序设计，但要记住这种编程风格会隐瞒错误。当进行防错性编程时，如果"不可能发生"的事情的确发生了，则要使用断言进行报警
     -
 - <ctype.h> Functions
+  collapsed:: true
   - via: https://www.programiz.com/c-programming/library-function/ctype.h/isalpha
   - `isalnum()`
   - `isalpha()`

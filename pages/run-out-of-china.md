@@ -22,5 +22,7 @@ type:: project
 - ## Namespace
   - {{namespace migrant from china}}
 - ## ↩ Reference
-  -
+  - 在 U.S. News 的「最佳国家」排行榜中，中国排在 17/78 位。
+    也就是说，前面 16 个国家都值得你润。
+    https://www.usnews.com/news/best-countries/rankings
 -
