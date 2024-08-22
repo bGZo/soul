@@ -1,5 +1,5 @@
 icon:: 📄
-also:: [[]], 打扮,  
+also::  打扮,  
 created:: [[20240721]]
 description:: 
 type:: hobby

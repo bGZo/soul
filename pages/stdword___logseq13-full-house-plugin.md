@@ -1,5 +1,12 @@
-tags:: #changelog/wiki #changelog/broken/
+icon:: 📦
+created:: [[20240822]]
+description:: 
+exclude-from-graph-view:: true
+tags:: #logseq 
+type:: github/repo
+source::  {{gh stdword/logseq13-full-house-plugin}}
 
+- Broken change
 - ## Documents
   - ### [Tutorial](https://stdword.github.io/logseq13-full-house-plugin/#/tutorial)
     - **模板使用**：`{{renderer :template, xxx }}` 语法广泛，可以能支持引用与页面，就算没有声明模板，也可以直接套用，默认是带父级元素的，可以用 `-` 去除
@@ -9,7 +16,7 @@ tags:: #changelog/wiki #changelog/broken/
     - **上下文**：比较重要的一个变量是`c`，它代表上下文 (context)，拥有四个成员变量，`c.block`、`c.page`、`c.template`、`c.self`，使用的语法比较特别：
       logseq.order-list-type:: number
       - ```
-       ``c.page.name``
+        ``c.page.name``
         ```
       - 上下文不连贯条件支持，直接看 Demo，玩得比较转，有点抽象
         - ```

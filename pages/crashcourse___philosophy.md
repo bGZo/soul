@@ -4,6 +4,7 @@ created:: [[20220101]]
 
 - ## Why
 - ## How
+  collapsed:: true
   - ((6424f25c-07a0-4533-ae3e-73e33f674fa1))
   - {{iframe https://savesubs.com/}}
   - WAITING 每周一集哲学课 [[Crash Course/Philosophy]]
@@ -189,7 +190,7 @@ created:: [[20220101]]
         - 但前提2利用語言誤導我們認為「沒有貓」是存在的事物，而非不存在的事物
           - 詞句「沒有貓」讓我們以為是在指一種有兩條尾巴的幻想生物
         - 這就把我們帶到結論：如果「沒有貓」有兩條尾巴，而每隻貓都比「沒有貓」多一條尾巴，所以，每隻貓都會有三條尾巴！
-      -  特別是在當我們討論特定概念如：「虛無」、「不存在」或「空虛」
+      - 特別是在當我們討論特定概念如：「虛無」、「不存在」或「空虛」
   - ### Cartesian Skepticism - Neo, Meet Rene
     collapsed:: true
     笛卡尔怀疑论 - Neo，认识 Rene

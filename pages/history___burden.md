@@ -5,6 +5,41 @@ description:: 一些迁移过程中产生的，不知道放哪的笔记，我把
 exclude-from-graph-view:: true
 
 -
+- cyber-realists
+  collapsed:: true
+  - source:: https://seths.blog/2021/08/cyber-realists/
+  - Neither default position is defensible or sustainable
+  - And yet, thanks for the vigilance and hard work of some folks, technology also has a long track record of making us safer, healthier and even happier.
+  - The cyber-realist sees both and is focused on being careful about systemic change and lock-in, especially for cultural and organizational changes that are hard to walk away from.
+- cynical
+  collapsed:: true
+  - also:: 憤世嫉俗, 愤世嫉俗, negative, emo
+    description:: 憤恨不合理的社會現狀，憎恨邪惡的勢力。語本唐．韓愈〈雜說〉四首之三。後用「憤世嫉俗」形容對腐敗的社會現狀及庸俗世態的痛恨。
+  - title:: **misanthrope**
+    definition:: {{cloze 指不喜歡人類、對人類感到不信任的人，來泛指厭世的人}}
+    tags:: #card, #english
+    references:: [「厭世」英文是什麼？cynical? negative? emo? – 英文庫](https://english.cool/cynical/)
+    description::
+  - title:: **cynical**
+    definition:: {{cloze 指對這個世界、對人性的不信任，認為人都是自私的，甚至帶有鄙視、不屑的態度。 }}
+    tags:: #card, #english
+    references:: [「厭世」英文是什麼？cynical? negative? emo? – 英文庫](https://english.cool/cynical/)
+    description::
+  - Related:
+    - 忿恚(huì)不平
+    - 與時俯仰、隨波逐流、隨俗浮沉
+- icon:: 📖
+  also:: books/数据库系统概念, Database System Concepts
+  tags:: #database
+  author:: Abraham Silberschatz, Henry F.Korth, S.Sudarshan
+  translator:: 杨冬青, 李红燕, 唐世渭
+  publisher:: 机械工业出版社
+  published:: 20120300
+  isbn:: 9787111375296
+  created:: [[20230328]]
+  douban:: https://book.douban.com/subject/10548379/
+  collapsed:: true
+  - ## ![Database System Concepts](../assets/book_database_system_concepts_6th_edition.pdf) | ![数据库系统概念](../assets/book_数据库系统概念.pdf)
 - [奧古斯特·蘭德梅賽 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8F%A4%E6%96%AF%E7%89%B9%C2%B7%E5%85%B0%E5%BE%B7%E6%A2%85%E8%B5%9B)
   collapsed:: true
   - 奧古斯特拒絕行納粹禮，他的舉動被人拍了下來，因而使他聞名於世。

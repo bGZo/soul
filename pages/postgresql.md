@@ -3,7 +3,7 @@ also:: pgsql
 created:: [[20240817]]
 description:: C实现；BDS协议；之前叫Ingres，后面为了解决一些ingres中的一些问题，更名 postgre；社区活跃，3个月一版；允许跨版本升级；
 tags:: #database-object–relational
-source:: {{nav https://www.postgresql.org/}}, {{nav http://www.postgres.cn/v2/home}}
+source:: {{nav-ri https://www.postgresql.org/}}, {{nav-ri http://www.postgres.cn/v2/home}}
 title:: postgresql
 
 - ## Why

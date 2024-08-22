@@ -1,5 +1,5 @@
 icon:: 📄
-also:: [[]], 
+also::  
 created:: [[20240821]]
 description:: 
 type:: lang/programming

@@ -1,5 +1,5 @@
 icon:: 📄
-also:: [[]], 
+also::  
 created:: [[20240728]]
 description::
 

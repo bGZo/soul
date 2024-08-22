@@ -1,4 +1,4 @@
-also:: Paradigms/contract
+type:: paradigms
 - ## Design by Contract / Programming by Contract / Contract Programming / Contract-First development / Code Contracts 契约式设计
   - 要求软件设计者为**软件组件定义正式的，精确的并且可验证的接口**
     id:: 04715ca8-720c-4d08-a85c-724cdbdd97b0

@@ -177,7 +177,12 @@
 
  :macros {
        "iframe" "<iframe src='$1' style='height:$2' class='$3' allow='fullscreen'/><div class='text-center'>via: <a href='$1' target='_blank' class='external-link'>$1</a></div>"
-       "nav" "<a href='$1' target='_blank' class='external-link'>$1</a><img class='inline-right-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$1'/>"
+
+       "nav" "<img class='inline-left-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$1'/><a href='$1' target='_blank' class='external-link'>$1</a>"
+       "nav-ri" "<a href='$1' target='_blank' class='external-link'>$1</a><img class='inline-right-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$1'/>"
+       "navi" "<img class='inline-left-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$2'/><a href='$2' target='_blank' class='external-link'>$1</a>"
+       "navi-ri" "<a href='$2' target='_blank' class='external-link'>$1</a><img class='inline-left-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$2'/>"
+
        "gh" "<a href='https://github.com/$1' target='_blank' class='external-link'>https://github.com/$1</a><img class='inline-right-tag' src='https://img.shields.io/github/stars/$1'/>"
        "tg" "https://t.me/$1 <a href='tg://resolve?domain=$1' target='_blank' class='external-link'>🚀</a>"
        "bangumi" "https://bgm.tv/subject/$1"
@@ -211,7 +216,7 @@
         :charge-range    600
  }
 
- :favorites ["announcements" "issue" "dashboard" "musics" "navigation" "writings" "hobbies" "tools" "omnivore" "2022 archive" "history/burden" "hecaitou" "networking" "postgresql修炼之道"]
+ :favorites ["announcements" "issue" "dashboard" "musics" "navigation" "writings" "hobbies" "tools" "omnivore" "2022 archive" "history/burden" "hecaitou" "networking" "postgresql修炼之道" "blogroll"]
 
 ;; :srs/learning-fraction 0.5
 
