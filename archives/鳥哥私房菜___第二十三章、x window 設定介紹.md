@@ -4,6 +4,7 @@ created:: [[20240106]]
 exclude-from-graph-view:: true
 source:: https://linux.vbird.org/linux_basic/centos7/0590xwindow.php
 type:: archives-web
+
 - 在 Linux 上頭的圖形介面我們稱之為 X Window System，簡稱為 X 或 X11 囉！ 為何稱之為系統呢？這是因為 X 視窗系統又分為 X server 與 X client ，既然是 Server/Client (主從架構) 這就表示其實 X 視窗系統是可以跨網路且跨平台的！X 視窗系統對於 Linux 來說僅是一個軟體， 只是這個軟體日趨重要喔！因為 Linux 是否能夠在桌上型電腦上面流行，與這個 X 視窗系統有關啦！ 好在，目前的 X 視窗系統整合到 Linux 已經非常優秀了，而且也能夠具有 3D 加速的功能， 只是，我們還是得要瞭解一下 X 視窗系統才好，這樣如果出問題，我們才有辦法處理啊！
 - ### 23.1 什麼是 X Window System
   Unix Like 作業系統不是只能進行伺服器的架設而已，在美編、排版、製圖、多媒體應用上也是有其需要的。 這些需求都需要用到圖形介面 (Graphical User Interface, GUI) 的操作的， 所以後來才有所謂的 X Window System 這玩意兒。那麼為啥圖形視窗介面要稱為 X 呢？因為就英文字母來看 X 是在 W(indow) 後面，因此，人們就戲稱這一版的視窗介面為 X 囉 (有下一版的新視窗之意)！

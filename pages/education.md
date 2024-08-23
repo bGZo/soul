@@ -1,4 +1,5 @@
 also:: 教育
+
 - ## US
   - Breakdown of different models of primary, secondary, and post-secondary education
     - ![image.png](../assets/image_1653112974430_0.png)

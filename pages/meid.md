@@ -1,4 +1,5 @@
 also:: phone/meid
+
 - **Mobile Equipment Identifier**, 移动设备识别码
 - CDMA手机的身份识别码, 用于 CDMA 制式的手机唯 一的识别码
 - 网络端可以对该手机进行跟踪和监管

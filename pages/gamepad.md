@@ -3,6 +3,7 @@ icon:: 🎮
 tags:: #game
 wikipedia:: https://en.wikipedia.org/wiki/Gamepad
 created:: [[20230604]]
+
 - ## Why
   -
 - ## How

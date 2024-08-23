@@ -1,6 +1,7 @@
 icon:: 🐍
 tags:: #[[Python Library]], #yaml
 created:: [[20230718]]
+
 - ## Why
 - ## How [pyyaml.org/wiki/PyYAMLDocumentation](https://pyyaml.org/wiki/PyYAMLDocumentation)
   - ### Installation

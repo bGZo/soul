@@ -5,6 +5,16 @@ description:: 一些迁移过程中产生的，不知道放哪的笔记，我把
 exclude-from-graph-view:: true
 
 -
+-
+- schema: https://schema.org/description
+- 什么是数学
+  also:: books/什么是数学-对思想和方法的基本研究
+  tags:: TODO
+  author:: [美] R·柯朗 H·罗宾 著 / I·斯图尔特 修订 / 左平 / 张饴慈
+  publisher:: 复旦大学出版社
+  published-date:: 20050500
+  source:: [什么是数学 (豆瓣)](https://book.douban.com/subject/1320282/)
+- https://mozilla.social/@FirefoxNightly.rss
 - cyber-realists
   collapsed:: true
   - source:: https://seths.blog/2021/08/cyber-realists/

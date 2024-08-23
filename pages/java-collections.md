@@ -190,7 +190,8 @@ description:: start from [[java02]]
       - `ArrayQueue`
         - `Object[]` 数组 + 双指针
     - Map
-      - `HashMap`
+      - `HashMap` #hashtable
+        collapsed:: true
         - [[java08]] 之前：数组+链表
           - 数组是主体
           - 链表为了解决哈希冲突而存在（“拉链法”解决冲突）
@@ -199,6 +200,8 @@ description:: start from [[java02]]
           - #+BEGIN_NOTE
             转换成红黑树前会判断，如果当前数组的长度小于 64，那么会选择先进行数组扩容，而不是转换为红黑树
             #+END_NOTE
+        - hashmap 默认情况下，初始大小为 16，负载因子默认是0.75，故超过 12 会进行扩容；
+          - 扩容策略是 \* 2，会从 16 => 32 => 64 => 128
       - `LinkedHashMap` extends HashMap
         - 继承自 ``
         - 底层仍然是基于拉链式散列结构即由数组和链表或红黑树组成

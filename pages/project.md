@@ -12,10 +12,10 @@ template-including-parent:: false
     tags:: 
     type:: ``'project'``
   - ## Project Meta
-    -``'DOING #project ' + ref(c.page.name)``
-      :LOGBOOK:
-      CLOCK: [2024-07-21 Sun 22:36:48]
-      :END:
+    :LOGBOOK:
+    CLOCK: [2024-07-21 Sun 22:36:48]
+    :END:
+    - ``'DOING #project ' + ref(c.page.name)``
     - query-table:: false
       #+BEGIN_QUERY
       {:title [:h3 "Tasks related to``c.page.name``"]
@@ -45,7 +45,7 @@ template-including-parent:: false
     - query-table:: false
       #+BEGIN_QUERY
       {:title [:h3 "Checklist"]
-       :query (and (todo todo) (page [[``{ c.page.name }``]]))
+       :query (and (todo todo) (page [[``c.page.name``]]))
         :result-transform (fn [result]
                             (sort-by (fn [b]
                                        (get b :block/priority "Z")) result))

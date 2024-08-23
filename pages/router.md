@@ -1,5 +1,6 @@
 also:: 路由器
-tags:: #3C
+type:: hobby
+
 - [便携路由器有意义吗？OpenWrt智能便携路由器 GL-AR750S 开箱体验 - YouTube](https://www.youtube.com/watch?v=2AgS3pVzi24)
 - 软路由
   - 手机改造

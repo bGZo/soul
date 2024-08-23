@@ -1,7 +1,7 @@
-also:: 手机
 icon:: 📱
-tags:: #3C
+also:: 手机
 created:: [[20230719]]
+type:: hobby
 
 - ## Why
 - ## How

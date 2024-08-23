@@ -2,6 +2,7 @@ also:: 茄子蛋
 tags:: #band
 wikipedia:: https://zh.wikipedia.org/zh-hant/%E8%8C%84%E5%AD%90%E8%9B%8B
 created:: [[20230115]]
+
 - ## Members
   - 黄奇斌（阿斌）主唱、Keyboard	1990年9月10日（32岁）
   - 蔡铠任（阿任）吉他、和声	1990年9月7日（32岁）

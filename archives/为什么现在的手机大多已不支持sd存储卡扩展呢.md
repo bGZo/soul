@@ -4,6 +4,7 @@ created:: [[20240128]]
 exclude-from-graph-view:: true
 source:: https://www.zhihu.com/question/263647941/answer/1004284541
 type:: archives-web
+
 - ## 先说结论：
   - 厂家以和跟不上时代的SD卡协会的人以及应用端加上消费者，共同导致sd卡被边缘化。
 - ## **手机厂家**

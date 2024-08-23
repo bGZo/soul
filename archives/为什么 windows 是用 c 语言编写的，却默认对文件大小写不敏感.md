@@ -4,6 +4,7 @@ created:: [[20240224]]
 exclude-from-graph-view:: true
 source:: https://www.zhihu.com/question/443835000/answer/1726902348
 type:: archives-web
+
 - 其实在WSL出现之后，Windows逐步开放了大小写区分的支持
 - 在RS5以上的系统里，可以用以下命令对某个目录打开/关闭Win32大小写区分支持，保存的是一个扩展属性
 - ```shell

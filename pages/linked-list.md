@@ -1,4 +1,5 @@
 also:: data-structure/linked-list
+
 -
 -
 - 单向链表
