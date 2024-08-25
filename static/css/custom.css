@@ -3,6 +3,9 @@
 @import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/quotes/quotes.css');
 @import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/tasks/tasks.css');
 @import url('https://rawcdn.githack.com/yoyurec/logseq-awesome-content/main/src/modules/code/code.css');
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/columns/columns.css");
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/todayQueries/todayQueries.css");
+@import url("https://raw.githack.com/yoyurec/logseq-awesome-content/main/src/modules/breadcrumbs/breadcrumbs.css");
 
 /**
  * feat: with right layout ability
