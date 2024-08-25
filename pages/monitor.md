@@ -1,5 +1,5 @@
 also:: screen, 显示器, 屏幕
-type:: hobby
+tags:: #3C
 
 - ## Standard
   collapsed:: true

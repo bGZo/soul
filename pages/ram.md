@@ -1,5 +1,5 @@
 also:: random access memory, 随机访问存储器, 随机存取储存器, 内部存储器, 内存
-type:: hobby
+tags:: #3C
 wikipedia:: https://en.wikipedia.org/wiki/Random-access_memory
 
   - > The two main types of volatile(易失性) random-access semiconductor memory

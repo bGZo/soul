@@ -53,7 +53,7 @@ tags:: #spring-cloud
     - #### 三线表
     - #### Cite
       collapsed:: true
-      - 就 [[software-engine]] 而言，还是使用 IEEE 比较合适吧，因为是工科。 #STEM
+      - 就 [[software/engineering]] 而言，还是使用 IEEE 比较合适吧，因为是工科。 #STEM
       - APA (American Psychological Association) 是美国心理学，常用在教育、教育心理学中；
       - MLA (Modern Language Association) 是现代语言学，用在人文学中；
       - Chicago/Turabian是商业、历史、和艺术；

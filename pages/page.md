@@ -4,7 +4,7 @@ template:: page
 template-including-parent:: false
 
   - icon:: 📄
-    also::  
+    also:: [[]], 
     created:: ``ref(date.now.format('YYYYMMDD'))``
     description::
   - ## Why

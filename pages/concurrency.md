@@ -1,5 +1,5 @@
 icon:: 📄
-also:: simultaneous, 并发
+also:: [[]], simultaneous, 并发
 created:: [[20240814]]
 description:: 并发计算(大陆); 并行计算(台); a form of computing in which several computations are executed concurrently — during overlapping(重叠) time periods — instead of sequentially(顺序) — with one completing before the next starts
 wikipedia:: https://en.wikipedia.org/wiki/Concurrent_computing

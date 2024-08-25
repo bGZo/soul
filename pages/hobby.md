@@ -4,7 +4,7 @@ template:: hobby
 template-including-parent:: false
 
   - icon:: 📄
-    also::  
+    also:: [[]], 
     created:: ``ref(date.now.format('YYYYMMDD'))``
     description:: 
     type:: ``'hobby'``

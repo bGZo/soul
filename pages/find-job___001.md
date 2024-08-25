@@ -673,7 +673,7 @@ type:: project/done
         - [[frameworks]]
         - [[software-pattern]]
         - [[leetcode]]
-        - book
+        - [[book]]
       - More
         - MBTI-Results
           - 人格类型
@@ -700,7 +700,7 @@ type:: project/done
             - [“提倡者” 人格 (INFJ) | 16Personalities](https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC)
             - [INFJ - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/INFJ)
       - [[bank]]
-      - [[civil-service]]
+      - [[job/civil-service]]
   -
   - ### Special: [[programming]] #learning #roadmap
     -
@@ -728,7 +728,7 @@ type:: project/done
         - [[java]] / [[spring-framework]] / [[networking]]
         - [[nowcoder/review_java]]
         - [Java校招面试题目合集_Java工程师/Java开发_牛客网](https://www.nowcoder.com/ta/review-java)
-        - [[BV17K411Z7EB]] Spring 面试题
+        - [[bv17k411z7eb-Spring面试题]] Spring 面试题
         - [DreamCats/java-notes: 自己的学习笔记。包含：个人秋招经历、🐂客面经问题按照频率总结、Java一系列知识、数据库、分布式、微服务、前端、技术面试、每日文章等(持续更新)](https://github.com/DreamCats/java-notes)![](https://img.shields.io/github/stars/DreamCats/java-notes)
         - [CyC2018/CS-Notes: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计](https://github.com/CyC2018/CS-Notes) ![](https://img.shields.io/github/stars/CyC2018/CS-Notes)
         - [hadyang/interview: Java 笔试、面试 知识整理](https://github.com/hadyang/interview) ![](https://img.shields.io/github/stars/hadyang/interview)

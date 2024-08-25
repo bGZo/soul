@@ -1,5 +1,6 @@
 icon:: 👨‍💻
 also:: 力扣
+tags:: #question/oj
 
   - template:: leetcode
     template-including-parent:: false

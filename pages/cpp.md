@@ -1,4 +1,4 @@
-also:: C++, CPP
+also:: c++
 tags:: system
 type:: lang/programming
 

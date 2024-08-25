@@ -6,7 +6,7 @@ created:: [[20240730]]
 - ## How
   -
 - ## What
-  - [[Pad]]
+  - [[pad]]
   - [[Windows]]
     collapsed:: true
     - [Microsoft Store - Generation Project (v1.2.3) (by @rgadguard & mkuba50)](https://store.rg-adguard.net/)

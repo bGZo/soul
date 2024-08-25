@@ -1,4 +1,4 @@
-type:: paradigms
+also:: Paradigms/contract
 
 - ## Design by Contract / Programming by Contract / Contract Programming / Contract-First development / Code Contracts 契约式设计
   - 要求软件设计者为**软件组件定义正式的，精确的并且可验证的接口**

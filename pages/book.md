@@ -77,78 +77,13 @@ created:: [[20230602]]
     —— 罗素
 - ## How
   - How to find / search  books?
-    - [Z-Library. The world's largest ebook library.] {{nav https://z-lib.org/}}
-      logseq.order-list-type:: number
-    - [Library Genesis] {{nav http://libgen.rs/}} / [Library Genesis] {{nav https://libgen.li/}}
-      logseq.order-list-type:: number
-    - [Free eBooks | Project Gutenberg] {{nav https://www.gutenberg.org/}}
-      logseq.order-list-type:: number
-    - [Download free eBooks for students and read business books for professionals online | Bookboon] {{nav https://bookboon.com/}}
-      logseq.order-list-type:: number
-    - [Academia.edu - Share research] {{nav https://www.academia.edu/}}
-      logseq.order-list-type:: number
-    - [Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials] {{nav https://freecomputerbooks.com/}}
-      logseq.order-list-type:: number
-    - [Free-eBooks.net | Download free Fiction, Health, Romance and many more books] {{nav https://www.free-ebooks.net/}}
-      logseq.order-list-type:: number
-    - 鸠摩搜索 {{nav https://www.jiumodiary.com/}} 除了资源多，鸠摩还贴心地按照不同的格式对书籍进行了分类；
-      logseq.order-list-type:: number
-    - 电子书搜索 {{nav https://ebook.chongbuluo.com/}}  快搜电子书搜索，有多个资源站点可选择
-      logseq.order-list-type:: number
-    - 苦瓜书盘 {{nav https://www.kgbook.com/}} 可下载到符合手机尺寸的电子书；
-      logseq.order-list-type:: number
-    - OpenStaxCNXLibrary {{nav https://cnx.org/browse}}  这是一个下载到国外教材的电子书网站；
-      logseq.order-list-type:: number
-    - 好读 {{nav http://www.haodoo.net/}} 繁体字的界面，你应该知道它是哪儿的网站~一个推广中文电子书的公益网站，建站于2001年。
-      logseq.order-list-type:: number
-    - 书格 {{nav https://new.shuge.org/}}  可能是最好用的古籍资料下载网站；
-      logseq.order-list-type:: number
-    - 云海电子书 {{nav http://www.pdfbook.cn/}} 站内书籍类型丰富、不管是小众、文学，还是励志成功，艺术摄影，计算机网络……你都可以在这里找到、并免费下载它的pdf版本；
-      logseq.order-list-type:: number
-    - PDF之家 {{nav http://www.pdfzj.com/}}  拥有海量优质资源的PDF站点；
-      logseq.order-list-type:: number
-    - 图灵社区 {{nav https://www.ituring.com.cn/book?tab=free}}  国内最优质的技术书出版社之一，提供免费的技术电子书下载；
-      logseq.order-list-type:: number
-    - 万千合集 {{nav http://www.hejizhan.com/bbs/}}  最专业的学术资源搜索引擎；
-      logseq.order-list-type:: number
-    - 计算机书籍控 {{nav http://bestcbooks.com/}}  最好的计算机书籍下载站点；
-      logseq.order-list-type:: number
-    - 世界数字图书馆 {{nav https://www.wdl.org/zh/}}  将在互联网上以多语种格式免费提供世界各地的重要材料,包括手稿、地图、珍本书籍、乐谱、录音、电影、印刷品、照片、建筑图等等；
-      logseq.order-list-type:: number
-    - 采 书 {{nav http://ebook.name/}}  一个免费电子书搜索引擎,为用户提供kindle电子书的搜索服务；
-      logseq.order-list-type:: number
-    - 书享家 {{nav http://shuxiangjia.cn/}}  电子书下载导航网站，提供优质的电子书搜索引擎、kindle下载站、PDF下载站、书单书评的入口导航。网站本身也会推荐一些优质的书单。
-      logseq.order-list-type:: number
-    - 爱问共享资料 {{nav http://ishare.iask.sina.com.cn/}}  资料搜索引擎。提供PPT、kindle书籍、PDF、Excel、DOC等各种格式的资料下载，内容齐全。
-      logseq.order-list-type:: number
-    - Sobooks {{nav https://sobooks.cc/xiaoshuowenxue}}. 提供时间、文件格式、文件页数等维度搜索，快速定位到想要的文档
-      logseq.order-list-type:: number
-    - 辣豆瓣 {{nav http://www.ladouban.com/}}  只是这里虽然也免费，但是每天只能下载6本
-      logseq.order-list-type:: number
-    - libgen {{nav http://gen.lib.rus.ec/}}  这家应该是俄罗斯的ip，大部分英语书籍都可以在这里搜到，只是是pdf格式
-      logseq.order-list-type:: number
-    - 電子爱好馆 {{nav http://zlzazhi.com/}} 
-      logseq.order-list-type:: number
-    - 田间小站 {{nav https://www.tjxz.cc/}} 
-      logseq.order-list-type:: number
-    - EPUBEE {{nav http://cn.epubee.com/books/}}: 号称最大的电子书网站。
-      logseq.order-list-type:: number
-    - E书联盟 {{nav https://www.book118.com/}} 
-      logseq.order-list-type:: number
-    - 科塔学术 {{nav https://site.sciping.com/}}  最专业、准确、及时、全面的科研与学术资源导航平台
-      logseq.order-list-type:: number
-    - 若蓝格 {{nav https://www.ifblue.net/}} 杂志，各类书刊分享
-      logseq.order-list-type:: number
-    - 万方数据 {{nav http://www.wanfangdata.com.cn/index.html}}  知识服务平台，期刊、报告、论文、专利
-      logseq.order-list-type:: number
-    - 上海图书馆家谱 {{nav http://wrd2016.library.sh.cn/channel/stjp/}}  上海图书馆藏家谱古文
-      logseq.order-list-type:: number
-    - 抗战文献数据平台 {{nav http://www.modernhistory.org.cn/index.htm}}  抗日战争期间报刊文献资料
-      logseq.order-list-type:: number
-    - 中国历代人物图像数据库 {{nav http://diglweb.zjlib.cn:8081/zjtsg/mingren/index.htm}}  从夏商周开始历史人物画像资料
-      logseq.order-list-type:: number
-    - zi.1lib {{nav https://zh.1lib.org/}}:全球最大的数字图书馆自2009年起的免费图书馆. 免费下载epub、pdf、mobi格式电子书支持转换为FBTXT、RTF等格式
-      logseq.order-list-type:: number
+    - ~~[Z-Library. The world's largest ebook library.](https://z-lib.org/)~~ #R.I.P
+    - [Library Genesis](http://libgen.rs/) / [Library Genesis](https://libgen.li/)
+    - [Free eBooks | Project Gutenberg](https://www.gutenberg.org/)
+    - [Download free eBooks for students and read business books for professionals online | Bookboon](https://bookboon.com/)
+    - [Academia.edu - Share research](https://www.academia.edu/)
+    - [Free Computer, Programming, Mathematics, Technical Books, Lecture Notes and Tutorials](https://freecomputerbooks.com/)
+    - [Free-eBooks.net | Download free Fiction, Health, Romance and many more books](https://www.free-ebooks.net/)
   - How to [[unlock]] book DRM?
     - [apprenticeharper/DeDRM_tools: DeDRM tools for ebooks](https://github.com/apprenticeharper/DeDRM_tools/wiki/Exactly-how-to-remove-DRM#removing-drm#removing-drm) ![](https://img.shields.io/github/stars/apprenticeharper/DeDRM_tools)
     - [FreeMyPDF.com - Removes passwords from viewable PDFs](http://freemypdf.com/)
@@ -575,11 +510,4 @@ created:: [[20230602]]
     - GET_ISBN_INFO
       - Similar products: GET_ANIME, GET_VIDEO, GET_GAME
   - TODO http://aves.art/
-  - [有没有这样一个开源应用？可以存储 epub， mobi 等格式的书籍，然后拿起任何一部设备都能读？ - V2EX](https://www.v2ex.com/t/884988)
-    collapsed:: true
-    - 我反推一下，猜猜隐藏的商业诉求
-    - 1 、自己手里一堆 pdf epub 盗版书籍，想给很多人看
-    - 2 、用户能看所有的书，搜索所有的书
-    - 3 、用户有很多类型的终端，无法控制
-    - 4 、服务器后续得加控制代码，所以需要是开源的；
-    - 5 、客户端 app 还没钱折腾，最好 web 就能用
+-

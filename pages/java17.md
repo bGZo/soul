@@ -1,5 +1,5 @@
 icon:: ☕
-also::  
+also:: [[]], 
 created:: [[20240807]]
 description::
 type:: java-version

@@ -1,16 +1,15 @@
 icon:: 📄
-also:: [[]], 
-created:: [[20240728]]
+also:: [[]],
+created:: [[20240825]]
 description::
 
 - ## Why
-  -
+  - [[spacedeck]]
 - ## How
   -
 - ## What
   -
 - ## Namespace
-  - {{namespace backup/rss}}
+  - {{namespace Pad}}
 - ## ↩ Reference
   -
--

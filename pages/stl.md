@@ -2,7 +2,6 @@ also:: cpp/stl
 tags:: #[[data-structure]], #[[algorithm]]
 
 - [[cpp]] STL 内置用法:
-  collapsed:: true
   - `find`：顺序查找。`find(v.begin(), v.end(), value)`，其中 `value` 为需要查找的值。
   - `find_end`：逆序查找。`find_end(v.begin(), v.end(), value)`。
   - `reverse`：翻转数组、字符串。`reverse(v.begin(), v.end())` 或 `reverse(a + begin, a + end)`。
@@ -10,7 +9,7 @@ tags:: #[[data-structure]], #[[algorithm]]
   - ~~`random_shuffle`：随机地打乱数组。`random_shuffle(v.begin(), v.end())` 或 `random_shuffle(v + begin, v + end)`。~~
   - `sort`：排序。`sort(v.begin(), v.end(), cmp)` 或 `sort(a + begin, a + end, cmp)`，其中 `end` 是排序的数组最后一个元素的后一位，`cmp` 为自定义的比较函数。
   - `stable_sort`：稳定排序，用法同 `sort()`。
-  - `nth_element`：按指定范围进行分类，即找出序列中第 $n$ 大的元素，使其左边均为小于它的数，右边均为大于它的数。`nth_element(v.begin(), v.begin() + mid, v.end(), cmp)` 或 `nth_eleme nt(a + begin, a + begin + mid, a + end, cmp)`。
+  - TODO `nth_element`：按指定范围进行分类，即找出序列中第 $n$ 大的元素，使其左边均为小于它的数，右边均为大于它的数。`nth_element(v.begin(), v.begin() + mid, v.end(), cmp)` 或 `nth_eleme nt(a + begin, a + begin + mid, a + end, cmp)`。
   - `binary_search`：二分查找。`binary_search(v.begin(), v.end(), value)`，其中 `value` 为需要查找的值。
   - `merge`：将两个（已排序的）序列 **有序合并** 到第三个序列的 **插入迭代器** 上。`merge(v1.begin(), v1.end(), v2.begin(), v2.end() ,back_inserter(v3))`。
   - `inplace_merge`：将两个（已按小于运算符排序的）：`[first,middle), [middle,last)` 范围 **原地合并为一个有序序列**。`inplace_merge(v.begin(), v.begin() + middle, v.end())`。
@@ -22,7 +21,6 @@ tags:: #[[data-structure]], #[[algorithm]]
   - `partial_sum`：求前缀和。设源容器为 $x$ ，目标容器为 $y$ ，则令 $y[i]=x[0]+x[1]+...+x[i]$ 。`partial_sum(src.begin(), src.end(), back_inserter(dst))`。
 -
 - Outline
-  collapsed:: true
   - Input/output
   - Strings
   - algorithm
@@ -55,5 +53,5 @@ tags:: #[[data-structure]], #[[algorithm]]
       - <stdarg.h>
 -
 - Refs
-  - https://en.wikipedia.org/wiki/Standard_Template_Library
+  - [Standard Template Library - Wikipedia](https://en.wikipedia.org/wiki/Standard_Template_Library)
 -

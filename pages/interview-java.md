@@ -1,5 +1,5 @@
 icon:: 📄
-also::  
+also:: [[]], 
 created:: [[20240802]]
 description:: Java 面试
 tags:: java

@@ -4,7 +4,6 @@ created:: [[20220101]]
 
 - ## Why
 - ## How
-  collapsed:: true
   - ((6424f25c-07a0-4533-ae3e-73e33f674fa1))
   - {{iframe https://savesubs.com/}}
   - WAITING 每周一集哲学课 [[Crash Course/Philosophy]]

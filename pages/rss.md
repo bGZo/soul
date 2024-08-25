@@ -41,7 +41,7 @@ tags:: #info
     collapsed:: true
     - 爬取方式
       - RSS 订阅（关闭全文输出）
-      - [[sawhney17/logseq-web-parser]]
+      - [sawhney17/logseq-web-parser (github.com)](https://github.com/sawhney17/logseq-web-parser) #Logseq/plugin
     - Some website not support output full-text RSS, so we have to open in browser to read. Luckily, we could get full-text RSS through parse url, most rss reader support that. But even more, they change the output format of HTML, and they wouldn't support full-text fetch. You will always see following page:
     - I know they want to get more actual views, to get more money ads brings. But it's really likely say:
       > "Do you want me to tell this stuff?"

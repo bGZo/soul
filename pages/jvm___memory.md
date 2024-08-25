@@ -90,7 +90,7 @@ tags:: #garbage_collection
       - Java Garbage Collection Monitoring
       - Java Garbage Collection Tuning (调优)
 -
-- [[java-interview]]
+- [[question/java]]
   - 介绍下 Java 内存区域（运行时数据区）
   - Java 对象的创建过程（五步，建议能默写出来并且要知道每一步虚拟机做了什么）
   - 对象的访问定位的两种方式（句柄和直接指针两种方式）

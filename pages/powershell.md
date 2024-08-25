@@ -1,5 +1,5 @@
 icon:: ⌘
-also::  
+also:: [[]], 
 created:: [[20240810]]
 description::
 tags:: #windows

@@ -1,4 +1,9 @@
 also:: 计划
 icon:: 🗓️
+tags:: #logseq
 created:: [[20230602]]
-exclude-from-graph-view:: true
+
+- ## Why
+  - Work flow
+- ## How
+- ## What

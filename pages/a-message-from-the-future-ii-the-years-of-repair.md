@@ -1,4 +1,5 @@
 source:: https://www.youtube.com/watch?v=2m8YACFJlMg
+
 - [50%]
 - Britain needs to rethink its defence policy **from the ground up**; the last big review took place in 1998.
   英国需要从头至尾重新考虑下自己的国防政策，然而上次大规模从新审查还要追溯到1998年

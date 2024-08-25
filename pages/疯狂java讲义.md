@@ -890,7 +890,7 @@ exclude-from-graph-view:: true
       - LinkedHashSet类
         collapsed:: true
         - 当遍历LinkedHashSet集合里的元素时，LinkedHashSet将会按元素的添加顺序来访问集合里的元素
-        - LinkedHashSet需要维护元素的插入顺序，因此性能略低于HashSet的性能，**但在迭代访问Set里的全部元素时将有很好的性能，因为它以链表来维护内部顺序**
+        - TODO LinkedHashSet需要维护元素的插入顺序，因此性能略低于HashSet的性能，**但在迭代访问Set里的全部元素时将有很好的性能，因为它以链表来维护内部顺序**
           #Question [performance - Why are linked lists faster than arrays? - Stack Overflow](https://stackoverflow.com/questions/5445131/why-are-linked-lists-faster-than-arrays)
       - TreeSet实现类
         description:: "SortedSet接口的实现类，可以确保集合元素处于排序状态"
@@ -1601,7 +1601,7 @@ exclude-from-graph-view:: true
             - `-Xmx`
               collapsed:: true
               - 设置JVM的堆内存最大大小（最好不要超过物理内存大小）
-            - #question ==为什么IDEA 可以直接运行???==
+            - #TODO#question ==为什么IDEA 可以直接运行???==
           - 如果需要遍历List集合元素. 性能选择
             collapsed:: true
             - ArrayList、Vector集合
@@ -2187,7 +2187,7 @@ exclude-from-graph-view:: true
         - 只要代码在编译时没有出现警告，就不会遇到运行时ClassCastException异常
       - 在Java的早期设计中，允许Integer[]数组赋值给Number[]变量存在缺陷，因此Java在泛型设计时进行了改进，它不再允许把List<Integer>对象赋值给List<Number>变量
         collapsed:: true
-        #question
+        #TODO#question
         - [oracle11g - Difference between number and integer datatype in oracle dictionary views - Stack Overflow](https://stackoverflow.com/questions/13494010/difference-between-number-and-integer-datatype-in-oracle-dictionary-views)
         -
       - 使用类型通配符 `?`
@@ -2272,7 +2272,7 @@ exclude-from-graph-view:: true
             }
             ```
             - 如果需要为类型形参指定类上限，类上限必须位于第一位
-    - 9.4 泛型方法 (Generic Method, Java 5) #Question
+    - TODO 9.4 泛型方法 (Generic Method, Java 5) #Question
       collapsed:: true
       - 定义
         collapsed:: true
@@ -2319,7 +2319,7 @@ exclude-from-graph-view:: true
               }
             }
             ```
-      - 泛型方法 vs 类型通配符
+      - 泛型方法 #vs 类型通配符
         collapsed:: true
         - 大多数时候都可以使用泛型方法来代替类型通配符
           collapsed:: true
@@ -2678,7 +2678,7 @@ exclude-from-graph-view:: true
               collapsed:: true
               - 这种驱动是智能的，它知道数据库使用的底层协议
               - 这种驱动是**目前最流行的JDBC驱动**。
-    - 13.2 SQL语法 #mysql #Question (重新深入学一遍)
+    - TODO 13.2 SQL语法 #mysql #Question (重新深入学一遍)
       - 安装数据库
       - 关系数据库基本概念和MySQL基本命令
       - SQL语句基础
@@ -3143,7 +3143,7 @@ exclude-from-graph-view:: true
           #+END_NOTE
           - 不要使用占位符参数代替表名、列名等数据库对象
           - 更不要用占位符参数来代替SQL语句中的insert、select等关键字
-      - 使用CallableStatement调用存储过程 #Question
+      - TODO 使用CallableStatement调用存储过程 #Question
         collapsed:: true
         - ```sql
           delimiter //
@@ -3672,7 +3672,7 @@ exclude-from-graph-view:: true
             - #+BEGIN_NOTE
               **使用ResultSetMetaData需要一定的系统开销**，因此如果在编程过程中已经知道ResultSet里包含多少列，以及每列的列名、类型等信息，就没有必要使用ResultSetMetaData来分析该ResultSet对象了
               #+END_NOTE
-    - 13.6 Java 7的RowSet 1.1 #Question
+    - TODO 13.6 Java 7的RowSet 1.1 #Question
       collapsed:: true
       - RowSet接口继承了ResultSet接口, 包含如下常用子接口
         collapsed:: true
@@ -3685,7 +3685,7 @@ exclude-from-graph-view:: true
           - FilteredRowSet
           - JoinRowSet
           - WebRowSet
-      - RowSet vs ResultSet
+      - RowSet #vs ResultSet
         collapsed:: true
         - RowSet默认是可滚动、可更新、可序列化的结果集
         - 作为JavaBean使用，因此能方便地在网络上传输，用于同步两端的数据
@@ -4015,7 +4015,7 @@ exclude-from-graph-view:: true
       collapsed:: true
       - 1.开发C/S结构的图书销售管理系统，要求实现两个模块：① 后台管理，包括管理种类、管理图书库存（可以上传图书封面图片）、出版社管理；② 销售前台，包括查询图书资料（根据种类、书名、出版社）、销售图书（会影响库存），并记录每条销售信息，统计每天、每月的销售情况。
       - 2.开发MySQL企业管理器，功能类似于SQLyog。
-  - 第14章 Annotation (注释) #Question
+  - TODO 第14章 Annotation (注释) #Question
     - Annotation
       description:: (>=JDK 5) A kind of **metadata** that makes references to the data itself but is not an actual part of it (Annotation 本身)
       collapsed:: true
@@ -4818,7 +4818,7 @@ exclude-from-graph-view:: true
           - 下载工具用多条线程启动输入流来读取网络数据，并使用RandomAccessFile将从网络上读取的数据写入前面建立的空文件中，每写一些数据后，记录文件指针的文件就分别记下每个RandomAccessFile当前的文件指针位置
             collapsed:: true
             - 网络断开后，再次开始下载时，每个RandomAccessFile都根据记录文件指针的文件中记录的位置继续向下写数据
-    - 15.8 对象序列化 #Question
+    - TODO 15.8 对象序列化 #Question
       collapsed:: true
       - 目标 - 允许把内存中的Java对象转换成平台无关的二进制流, 其他程序获得这种二进制流，都可以将这种二进制流恢复成原来的Java对象
         collapsed:: true

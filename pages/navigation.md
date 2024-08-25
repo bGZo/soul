@@ -130,6 +130,13 @@ exclude-from-graph-view:: true
     - [GitHub: Let’s build from here · GitHub](https://github.com/)
     - [DEV Community 👩‍💻👨‍💻](https://dev.to/)
     - [daily.dev | The Homepage Developers Deserve](https://app.daily.dev/)
+  - ### 💼 Company #job
+    collapsed:: true
+    - [脉脉-成就职业梦想](https://maimai.cn/)
+    - [面试经验|工资待遇|职业圈 - 职朋](https://www.job592.com)
+    - [职友集：让求职者少走弯路](https://www.jobui.com/)
+    - [看准网-查工资|聊面试|评公司|搜职位|国内领先的职场信息平台](https://www.kanzhun.com)
+    - [企查查 - 企业工商信息查询系统_查企业_查老板_查风险就上企查查!](https://www.qcc.com/)
   - ### Other Tools
     collapsed:: true
     - [ChatGPT - OpenAI](https://chat.openai.com/)
@@ -172,7 +179,7 @@ exclude-from-graph-view:: true
     - [十年之约](https://www.foreverblog.cn/)
     - [Find Blog👁发现博客](https://t.me/FindBlog) [↩](tg://resolve?domain=FindBlog)
     - [timqian/chinese-independent-blogs: 中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
-    - https://www.google.com/search?q=site:v2ex.com+blog #kill-time
+    - https://www.google.com/search?q=site:v2ex.com+blog #search/latter
   -
   - ### 🎥 [[video]]
     - [首页 - 人人影视下载分享站](https://yyets.dmesg.app/home)

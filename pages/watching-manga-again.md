@@ -2,7 +2,7 @@ icon:: 📝
 created:: [[20240721]]
 exclude-from-graph-view:: true
 status:: writing/draft
-tags:: #manga, #copyright #bilibili, #piracy
+tags:: #manga, #copyright #bilibili
 
 -
 - > 尊敬的看漫画用户，应无职转生漫画版权方的要求，现已删除屏蔽无职转生漫画所有卷和册，仅保留作品文字简介，请喜欢这部漫画的漫迷购买书籍或杂志欣赏！为此给各位漫迷带来的不便，敬请谅解！
@@ -15,15 +15,4 @@ tags:: #manga, #copyright #bilibili, #piracy
   - [如何比较bilibili漫画和动漫之家？ - 知乎](https://www.zhihu.com/question/329958030)
   - [如何看待动漫之家登载漫画作品含危害社会公德内容被处罚？ - 知乎](https://www.zhihu.com/question/429904512)
   - [为什么动漫之家评论下面都是一星保护？ - 知乎](https://www.zhihu.com/question/374612672)
-  - [如何看待动漫之家登载漫画作品含危害社会公德内容被处罚？](https://www.zhihu.com/question/429904512/answer/1571844285)
-    collapsed:: true
-    - 谨记，有些漫画，「正版」就等于「没有」。
-  - [如何看待动漫之家登载漫画作品含危害社会公德内容被处罚？](https://www.zhihu.com/question/429904512/answer/1571248116)
-    collapsed:: true
-    - 违法所得19.16元？真TM丢人。小编呢？赶紧出来给我充值的码！
-  - [如何比较bilibili漫画和动漫之家？](https://www.zhihu.com/question/329958030/answer/1740742385)
-    collapsed:: true
-    - 对于B站,两句话:
-    - 1:"您可能是正版汉化的受害者"
-    - 2:"占着茅坑不拉屎"
 -

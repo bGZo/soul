@@ -1,7 +1,7 @@
 also:: 存储
 icon:: 💾
 created:: [[20240128]]
-type:: hobby
+tags:: #3C, #tool
 
 - ## Why
   collapsed:: true

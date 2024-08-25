@@ -105,7 +105,7 @@
                                  (sort-by (fn [h]
                                             (get h :block/priority "Z")) result))
              :breadcrumbs-show? true
-             :collapsed? true}
+             :collapsed? false}
 
             ;; the "NEXT" query asks the future tasks.
             {:title "📅 NEXT"
@@ -122,7 +122,7 @@
                      ]
              ;:inputs [:today :3650d-after]
              :breadcrumbs-show? true
-             :collapsed? true}
+             :collapsed? false}
 
             {:title "🗓️ Scheduled"
              :query [:find (pull ?b [*])
@@ -138,7 +138,7 @@
                                  (sort-by (fn [h]
                                             (get h :block/scheduled)) result))
              :breadcrumbs-show? true
-             :collapsed? true}
+             :collapsed? false}
 
             {:title "🔥 OVERDUE"
              :query [:find (pull ?b [*])
@@ -232,52 +232,54 @@
  :property-pages/enabled? true
 
 :property-pages/excludelist #{
-       ;:duration :author
-       ;:tags
-       :icon
-       :also
-       :author
-       :cover
-       :created
-       :description
-       ;:exclude-from-graph-view
-       :isbn
-       :lang
-       :published-date
-       :rating
-       :schema
-       :source
-       :status
-       :title
-       :template
-       :template-including-parent
-       :type
+                              ;:duration :author
+                              ;:tags
+                              :icon
+                              :also
+                              :author
+                              :cover
+                              :created
+                              :description
+                              ;:exclude-from-graph-view
+                              :isbn
+                              :lang
+                              :published-date
+                              :rating
+                              :schema
+                              :source
+                              :status
+                              :title
+                              :template
+                              :template-including-parent
+                              :type
 
-       :bangumi
-       :douban
-       :weread
-       :wikipedia
+                              :bangumi
+                              :douban
+                              :weread
+                              :wikipedia
+                              :.ol
+                              :.kanban
 
-       :药品名称
-       :成份
-       :性状
-       :作用类别
-       :适应症
-       :规格
-       :用法用量
-       :不良反应
-       :禁忌
-       :注意事项
-       :药物相互作用
-       :药理作用
-       :贮藏
-       :包装
-       :有效期
-       :执行标准
-       :批准文号
-       :说明书修订日期
-       :生产企业名称
-       :生产地址
+                              :药品名称
+                              :成份
+                              :性状
+                              :作用类别
+                              :适应症
+                              :规格
+                              :用法用量
+                              :不良反应
+                              :禁忌
+                              :注意事项
+                              :药物相互作用
+                              :药理作用
+                              :贮藏
+                              :包装
+                              :有效期
+                              :执行标准
+                              :批准文号
+                              :说明书修订日期
+                              :生产企业名称
+                              :生产地址
        }
 
 :property/separated-by-commas #{

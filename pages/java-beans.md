@@ -1,5 +1,5 @@
 icon:: ☕
-also::  
+also:: [[]], 
 created:: [[20240805]]
 description:: 将一个或多个对象封装在单个标准化对象中的类
 tags:: #java01

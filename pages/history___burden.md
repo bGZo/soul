@@ -5,55 +5,6 @@ description:: 一些迁移过程中产生的，不知道放哪的笔记，我把
 exclude-from-graph-view:: true
 
 -
--
-- schema: https://schema.org/description
-- 什么是数学
-  also:: books/什么是数学-对思想和方法的基本研究
-  tags:: TODO
-  author:: [美] R·柯朗 H·罗宾 著 / I·斯图尔特 修订 / 左平 / 张饴慈
-  publisher:: 复旦大学出版社
-  published-date:: 20050500
-  source:: [什么是数学 (豆瓣)](https://book.douban.com/subject/1320282/)
-- https://mozilla.social/@FirefoxNightly.rss
-- cyber-realists
-  collapsed:: true
-  - source:: https://seths.blog/2021/08/cyber-realists/
-  - Neither default position is defensible or sustainable
-  - And yet, thanks for the vigilance and hard work of some folks, technology also has a long track record of making us safer, healthier and even happier.
-  - The cyber-realist sees both and is focused on being careful about systemic change and lock-in, especially for cultural and organizational changes that are hard to walk away from.
-- cynical
-  collapsed:: true
-  - also:: 憤世嫉俗, 愤世嫉俗, negative, emo
-    description:: 憤恨不合理的社會現狀，憎恨邪惡的勢力。語本唐．韓愈〈雜說〉四首之三。後用「憤世嫉俗」形容對腐敗的社會現狀及庸俗世態的痛恨。
-  - title:: **misanthrope**
-    definition:: {{cloze 指不喜歡人類、對人類感到不信任的人，來泛指厭世的人}}
-    tags:: #card, #english
-    references:: [「厭世」英文是什麼？cynical? negative? emo? – 英文庫](https://english.cool/cynical/)
-    description::
-  - title:: **cynical**
-    definition:: {{cloze 指對這個世界、對人性的不信任，認為人都是自私的，甚至帶有鄙視、不屑的態度。 }}
-    tags:: #card, #english
-    references:: [「厭世」英文是什麼？cynical? negative? emo? – 英文庫](https://english.cool/cynical/)
-    description::
-  - Related:
-    - 忿恚(huì)不平
-    - 與時俯仰、隨波逐流、隨俗浮沉
-- icon:: 📖
-  also:: books/数据库系统概念, Database System Concepts
-  tags:: #database
-  author:: Abraham Silberschatz, Henry F.Korth, S.Sudarshan
-  translator:: 杨冬青, 李红燕, 唐世渭
-  publisher:: 机械工业出版社
-  published:: 20120300
-  isbn:: 9787111375296
-  created:: [[20230328]]
-  douban:: https://book.douban.com/subject/10548379/
-  collapsed:: true
-  - ## ![Database System Concepts](../assets/book_database_system_concepts_6th_edition.pdf) | ![数据库系统概念](../assets/book_数据库系统概念.pdf)
-- [奧古斯特·蘭德梅賽 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8F%A4%E6%96%AF%E7%89%B9%C2%B7%E5%85%B0%E5%BE%B7%E6%A2%85%E8%B5%9B)
-  collapsed:: true
-  - 奧古斯特拒絕行納粹禮，他的舉動被人拍了下來，因而使他聞名於世。
-  - ![image.png](../assets/archived/image_1666177782853_0.png)
 - also:: 节俭
   description:: Extreme Frugality，过度节俭
 - hedonism
@@ -1117,8 +1068,8 @@ exclude-from-graph-view:: true
           CLOCK: [2022-08-24 Wed 00:16:15]
           CLOCK: [2022-08-29 Mon 21:27:08]--[2022-08-29 Mon 21:27:09] =>  00:00:01
           :END:
-          - After [[software-engine]] via: 软件过程推荐的...
-        - DONE [[software-pattern]] 设计模式 & 软件架构
+          - After [[software/engineering]] via: 软件过程推荐的...
+        - DONE [[imu/software/architecture-pattern]] 设计模式 & 软件架构
           collapsed:: true
           :LOGBOOK:
           CLOCK: [2022-08-19 Fri 17:02:05]--[2022-08-30 Tue 14:12:13] =>  261:10:08
@@ -1450,7 +1401,7 @@ exclude-from-graph-view:: true
     - TODO [#B] Output #flow
       - Social Media
         - TODO 怎么记录自己的琐碎, 就像这个样子吗? 但是这个样子条件又太高了, 利用 Gihtub 太麻烦, 利用 Twitter 不好整理, 利用Wordpress体验又太差...
-    - TODO [#C] **Entertainment** #[[kill-time]]
+    - TODO [#C] **Entertainment** #[[Kill Time]]
       - 刷剧清单
         - TODO never-let-me-go
           - Movie-[别让我走 (豆瓣)](https://movie.douban.com/subject/3321409/)
@@ -1560,7 +1511,7 @@ exclude-from-graph-view:: true
           - [TrackersListCollection/README-ZH.md at master · XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection/blob/master/README-ZH.md)
         - 为什么 Sync Pro 会判定文件冲突?
         - 怎么 Samsung Tab S4 连个记录系统流畅的人都没有?
-          - 理想的 [[Pad]] 就是可以在 iPad Mini 里面塞一个 M1 了, 普通的太大了, 感觉各种方面拿来也不方便...
+          - 理想的 [[pad]] 就是可以在 iPad Mini 里面塞一个 M1 了, 普通的太大了, 感觉各种方面拿来也不方便...
         - 为什么我~~这么喜欢~~总是冲家人生气?
           - 止不住的生气是因为**家人没有办法理解我**, 有悖于我的认知和我的精力.
             - 当我发现我的家人和世俗看待我的眼光一样时, 当我没有多少精力可以做出解释的时候, 我必然需要和家人扯开距离. 但这不就更无法成为家人了吗?
@@ -1591,7 +1542,7 @@ exclude-from-graph-view:: true
       - [[book]]
         - **陈映真、王拓、三毛、震琼琼、陈铭孺、杨青矗**
         - 论边沁与柯勒律治
-      - [[kill-time]]
+      - [[search/latter]]
         - 逛 Github
           - https://github.com/search?q=stars:>10000+cpp
         - 想吃的零食
@@ -2808,20 +2759,6 @@ exclude-from-graph-view:: true
 - religious
   also:: 宗教
 - 美好的回忆
-- 写代码的理论和实际
-  collapsed:: true
-  - 实际写代码的时候，以前总是喜欢这样写条件分支
-    - ```java
-      if (condition){
-      } else {
-      }
-      ```
-  - 但是最近屎山看多了，还是这样写更加方便一点
-    - ```java
-      if (condition){
-      }
-      else {
-      }
-      ```
+-
 -
 -

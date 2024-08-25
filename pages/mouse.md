@@ -1,2 +1,2 @@
 also:: 鼠标
-type:: hobby
+tags:: #3C

@@ -46,5 +46,3 @@ exclude-from-graph-view:: true
       logseq.order-list-type:: number
   - Fork somebody repo cannot change to private?
     - [What security issue is caused by changing the visibility of a fork on Github? - Stack Overflow](https://stackoverflow.com/questions/71446341/what-security-issue-is-caused-by-changing-the-visibility-of-a-fork-on-github)
-    - [Dependency versions | GitHub Pages](https://pages.github.com/versions/)
-    - [Features • GitHub Actions](https://github.com/features/actions)

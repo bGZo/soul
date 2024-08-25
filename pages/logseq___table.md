@@ -7,8 +7,7 @@ icon:: 📝
 - ## How
 - ## What
   - 🌟 Tricks on table version 1
-    - 表格内**换行** `[:br]`
-    - 表格内**竖线** `@@html: &vert;@@`
+    - 表格内换行 `[:br]`
   - 🎉 New version demo
     - logseq.table.version:: 2
       logseq.table.hover:: both
@@ -22,5 +21,4 @@ icon:: 📝
       |-------| ------|
       | logseq | privacy-first |
       | obsdian | closed-source |
--
 -

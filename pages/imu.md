@@ -1,12 +1,16 @@
 icon:: 🏫
 
+- ## [[software/engineering]]
+  -
+-
+-
 - [[navigation]]
   :LOGBOOK:
   CLOCK: [2022-11-15 Tue 19:01:54]
   :END:
-  - [深澜软件](http://login.imu.edu.cn); [[IP]深澜软件](http://172.31.99.50)
+  - Life
+    - [深澜软件](http://login.imu.edu.cn); [[IP]深澜软件](http://172.31.99.50)
   - [内蒙古大学](https://www.imu.edu.cn/)
-    collapsed:: true
     - [校历](https://ai.imu.edu.cn/IMUcal.html)
     - [教务处](https://uaa.imu.edu.cn/index.htm)
     - [就业信息网](https://imu.nmbys.cn/)
@@ -21,3 +25,6 @@ icon:: 🏫
         - [中国大学生程序设计竞赛(CCPC)-官网](https://ccpc.io/)
         -
     - [教务管理 系统](http://jwxt.imu.edu.cn/login)
+  -
+-
+-

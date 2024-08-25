@@ -1,7 +1,7 @@
 icon:: 📄
 created:: [[20240730]]
 exclude-from-graph-view:: true
-type:: hobby
+tags:: #3C
 wikipedia:: https://en.wikipedia.org/wiki/Graphics_processing_unit
 
 - ## Why

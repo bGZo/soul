@@ -1,5 +1,5 @@
 icon:: 📄
-also::  
+also:: [[]], 
 created:: [[20240731]]
 description:: 面包屑导航
 type:: design/web
