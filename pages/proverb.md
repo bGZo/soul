@@ -1,0 +1,223 @@
+icon:: 📄
+also::  
+created:: [[20240830]]
+description::
+
+- ## [[English]]
+  - Collections
+    collapsed:: true
+    - A bad beginning makes a bad ending. 不善始者不善终。
+    - A bad thing never dies. 遗臭万年。
+    - A bad workman always blames his tools. 不会撑船怪河弯。
+    - A bird in the hand is worth than two in the bush. 一鸟在手胜过双鸟在林。
+    - A boaster and a liar are cousins-german. 吹牛与说谎本是同宗。
+    - A bully is always a coward. 色厉内荏。
+    - A burden of one's choice is not felt. 爱挑的担子不嫌重。
+    - A candle lights others and consumes itself. 蜡烛照亮别人，却毁灭了自己。
+    - A cat has 9 lives. 猫有九条命。
+    - A cat may look at a king. 人人平等。
+    - A close mouth catches no flies. 病从口入。
+    - A constant guest is never welcome. 常客令人厌。
+    - Actions speak louder than words. 事实胜于雄辩。
+    - Adversity leads to prosperity. 穷则思变。
+    - Adversity makes a man wise, not rich. 逆境出人才。
+    - A fair death honors the whole life. 死得其所，流芳百世。
+    - A faithful friend is hard to find. 知音难觅。
+    - A fall into a pit, a gain in your wit. 吃一堑，长一智。
+    - A fox may grow gray, but never good. 江山易改，本性难移。
+    - A friend in need is a friend indeed. 患难见真情。
+    - A friend is easier lost than found. 得朋友难，失朋友易。
+    - A friend is never known till a man has need. 需要之时方知友。
+    - A friend without faults will never be found. 没有十全十美的朋友。
+    - "After you" is good manners. “您先请”是礼貌。
+    - A good beginning is half done. 良好的开端是成功的一半。
+    - A good beginning makes a good ending.
+      善始者善终。
+    - A good book is a good friend. 好书如挚友。
+    - A good book is the best of friends, the same today andforever. 一本好书，相伴一生。
+    - A good conscience is a soft pillow. 不做亏心事，不怕鬼叫门。
+    - A good fame is better than a good face. 美名胜过美貌。
+    - A good husband makes a good wife. 夫善则妻贤。
+    - A good medicine tastes bitter. 良药苦口。
+    - A good wife health is a man's best wealth. 妻贤身体好是男人最大的财富。
+    - A great talker is a great liar. 说大话者多谎言。
+    - A hedge between keeps friendship green. 君子之交淡如水。
+    - A joke never gains an enemy but loses a friend. 戏谑不能化敌为友，只能使人失去朋友。
+    - A leopard cannot change its spots. 积习难改。
+    - A liar is not believed when he speaks the truth. 说谎者即使讲真话也没人相信。
+    - A light heart lives long. 静以修身。
+    - A little body often harbors a great soul. 浓缩的都是精品。
+    - A little knowledge is a dangerous thing. 一知半解，自欺欺人。
+    - A little pot is soon hot. 狗肚子盛不得四两油。
+    - All are brave when the enemy flies. 敌人逃窜时，人人都成了勇士。
+    - All good things come to an end. 天下没有不散的筵席。
+    - All rivers run into sea. 海纳百川。
+    - All roads lead to Rome. 条条大路通罗马。
+    - All that ends well is well. 结果好，就一切都好。
+    - All that glitters is not gold. 闪光的不一定都是金子。
+    - All things are difficult before they are easy. 凡事总是由难而易。
+    - All work and no play makes Jack a dull boy. 只会用功不玩耍，聪明孩子也变傻。
+    - A man becomes learned by asking questions. 不耻下问才能有学问。
+    - A man can do no more than he can. 凡事都应量力而行。
+    - A man cannot spin and reel at the same time. 一心不能二用。
+    - A man is known by his friends. 什么人交什么朋友。
+    - A man of words and not of deeds is like a garden full ofweeds. 光说空话不做事，犹如花园光长刺。
+    - A man without money is no man at all. 一分钱难倒英雄汉。
+    - A merry heart goes all the way. 心旷神怡，事事顺利。
+    - A miss is as good as a mile. 失之毫厘，差之千里。
+    - A mother's love never changes. 母爱永恒。
+    - An apple a day keeps the doctor away. 一天一苹果，不用请医生。
+    - A new broom sweeps clean. 新官上任三把火。
+    - An eye for an eye and a tooth for a tooth. 以眼还眼，以牙还牙。
+    - An hour in the morning is worth two in the evening. 一日之计在于晨。
+    - An old dog cannot learn new tricks. 老狗学不出新把戏。
+    - An ounce of luck is better than a pound of wisdom. 聪明才智，不如运气。
+    - An ounce of prevention is worth a pound of cure. 预防为主，治疗为辅。
+    - A rolling stone gathers no moss. 滚石不生苔，转业不聚财。
+    - As a man sows, so he shall reap. 种瓜得瓜，种豆得豆。
+    - A single flower does not make a spring. 一花独放不是春，百花齐放春满园。
+    - A snow year, a rich year. 瑞雪兆丰年。
+    - A sound mind in a sound body. 健全的精神寓于健康的身体。
+    - A still tongue makes a wise head. 寡言者智。
+    - A stitch in time saves nine. 小洞不补，大洞吃苦。
+    - A straight foot is not afraid of a crooked shoe. 身正不怕影子斜。
+    - A wise head makes a close mouth. 真人不露相，露相非真人。
+    - A word spoken is past recalling. 一言既出，驷马难追。
+    - A year's plan starts with spring. 一年之计在于春。
+    - A young idler, an old beggar. 少壮不努力，老大徒伤悲。
+    - Bad news has wings. 好事不出门，坏事传千里。
+    - Barking dogs seldom bite. 吠犬不咬人。
+    - Beauty lies in the love's eyes. 情人眼里出西施。
+    - Be swift to hear, slow to speak. 听宜敏捷，言宜缓行。
+    - Better late than never. 不怕慢，单怕站。
+    - Better to ask the way than go astray. 问路总比迷路好。
+    - Between friends all is common. 朋友之间不分彼此。
+    - Birds of a feather flock together. 物以类聚，人以群分。
+    - Blood is thicker than water. 血浓于水。
+    - Blood will have blood. 血债血偿。
+    - Books and friends should be few but good. 读书如交友，应求少而精。
+    - Business is business. 公事公办。
+    - Business is the salt of life. 事业是人生的第一需要。
+    - By reading we enrich the mind, by conversation we polishit. 读书使人充实，交谈使人精明。
+    - Cannot see the wood for the trees. 一叶障目，不见泰山。
+    - Care and diligence bring luck. 谨慎和勤奋才能抓住机遇。
+    - Caution is the parent of safety. 小心驶得万年船。
+    - Cheats never prosper. 骗人发不了财。
+    - Children are what the mothers are. 耳濡目染，身教言传。
+    - Choose an author as you choose a friend. 择书如择友。
+    - Come what may, heaven won't fall. 做你的吧，天塌不下来。
+    - Complacency is the enemy of study. 学习的敌人是自己的满足。
+    - Confidence in yourself is the first step on the road tosuccess. 自信是走向成功的第一步。
+    - Constant dripping wears away a stone. 水滴石穿，绳锯木断。
+    - Content is better than riches. 知足者常乐。
+    - Count one's chickens before they are hatched. 蛋未孵先数雏。
+    - Courtesy on one side only lasts not long. 来而不往非礼也。
+    - Creep before you walk. 循序渐进。
+    - Cry for the moon. 海底捞月。
+    - Custom is a second nature. 习惯是后天养成的。
+    - Custom makes all things easy. 有个好习惯，事事皆不难。
+    - Diamond cuts diamond. 强中自有强中手。
+    - Do as the Romans do. 入乡随俗。
+    - Do as you would be done by. 己所不欲，勿施于人。
+    - Doing is better than saying. 与其挂在嘴上，不如落实在行动上。
+    - Do it now. 机不可失，时不再来。
+    - Do nothing by halves. 凡事不可半途而废。
+    - Don't claim to know what you don't know. 不要不懂装懂。
+    - Don't have too many irons in the fire. 不要揽事过多。
+    - Don't make a mountain out of a molehill. 不要小题大做。
+    - Don't put off till tomorrow what should be done today. 今日事，今日毕。
+    - Don't put the cart before the horse. 不要本末倒置。
+    - Don't trouble trouble until trouble troubles you. 不要自找麻烦。
+    - Don't try to teach your grandmother to suck eggs. 不要班门弄斧。
+    - Do well and have well. 善有善报。
+    - Each bird love to hear himself sing. 孤芳自赏。
+    - Early to bed and early to rise makes a man healthy,wealthy and wise. 早睡早起身体好。
+    - Easier said than done. 说得容易，做得难。
+    - Easy come, easy go. 来也匆匆，去也匆匆。
+    - Eat to live, but not live to eat. 人吃饭是为了活着，但活着不是为了吃饭。
+    - Empty vessels make the greatest sound. 实磨无声空磨响，满瓶不动半瓶摇。
+    - Envy has no holidays. 忌妒之人无宁日。
+    - Even Homer sometimes nods. 智者千虑，必有一失。
+    - Even reckoning makes long friends. 亲兄弟，明算账。
+    - Every advantage has its disadvantage. 有利必有弊。
+    - Everybody's business is nobody's business. 人人负责，等于没人负责。
+    - Every day is not Sunday. 好景不常在。
+    - Every dog has his day. 谁都有得意的时候。
+    - Every door may be shut, but death's door. 人生在世，唯死难逃。
+    - Every heart has its own sorrow. 各人有各人的苦恼。
+    - Every little helps a mickle. 聚沙成塔，集腋成裘。
+    - Every man for himself, and the devil takes the hindmost. 人不为己，天诛地灭。
+    - Every man has his faults. 金无足赤，人无完人。
+    - Every man has his hobbyhorse. 萝卜青菜，各有所爱。
+    - Every man has his weak side. 人人都有弱点。
+    - Every man is the architect of his own fortune. 自己的命运自己掌握。
+    - Every minute counts. 分秒必争。
+    - Every mother's child is handsome. 孩子是自己的好。
+    - Every potter praises hit pot. 王婆卖瓜，自卖自夸。
+    - Everything is good when new, but friends when old. 东西是新的好，朋友是老的亲。
+    - Example is better then percept. 说一遍，不如做一遍。
+    - Experience is the father of wisdom and memory the mother. 经验是智慧之父，记忆是智慧之母。
+    - Experience must be bought. 吃一堑，长一智。
+    - Fact speak louder than words. 事实胜于雄辩。
+    - Failure is the mother of success. 失败是成功之母。
+    - False friends are worse than bitter enemies. 明枪易躲，暗箭难防。
+    - Far from eye, far from heart. 眼不见，心不烦。
+    - Far water does not put out near fire. 远水救不了近火。
+    - Faults are thick where love is thin. 一朝情意淡，样样不顺眼。
+    - Fear always springs from ignorance. 恐惧源于无知。
+    - Fields have eyes, and woods have ears. 隔墙有耳。
+    - Fire and water have no mercy. 水火无情。
+    - Fire is a good servant but a bad master. 火是一把双刃剑。
+    - First come, first served. 先来后到。
+    - First impressions are half the battle. 初次见面，印象最深。
+    - First think and then speak. 先想后说。
+    - Fools grow without watering. 朽木不可雕。
+    - Fool's haste is no speed. 欲速则不达。
+    - Fools has fortune. 呆人有呆福。
+    - Fools learn nothing from wise men, but wise men learnmuch from fools. 愚者不学无术，智者不耻下问。
+    - Forbidden fruit is sweet. 禁果格外香。
+    - Fortune favors those who use their judgement. 机遇偏爱善断之人。
+    - Fortune knocks once at least at every man's gate. 风水轮流转。
+    - Four eyes see more than two. 集思广益。
+    - Friends agree best at distance. 朋友之间也会保持距离。
+    - Friends are thieves of time. 朋友是时间的窃贼。
+    - Friends must part. 再好的朋友也有分手的时候。
+    - Genius is nothing but labor and diligence. 天才不过是勤奋而已。
+    - Give a dog a bad name and hang him. 众口铄金，积毁销骨。
+    - God helps those who help themselves. 自助者天助。
+    - Gold will not buy anything. 黄金并非万能。
+    - Good for good is natural, good for evil is manly. 以德报德是常理，以德报怨大丈夫。
+    - Good health is over wealth. 健康是最大的财富。
+    - Good medicine for health tastes bitter to the mouth. 良药苦口利于病。
+    - Good watch prevents misfortune. 谨慎消灾。
+    - Great barkers are no biters. 吠犬不咬人。
+    - Great hopes make great man. 伟大的抱负造就伟大的人物。
+    - Great minds think alike. 英雄所见略同。
+    - Great men have great faults. 英雄犯大错误。
+    - Great men's sons seldom do well. 富不过三代。
+    - Great trees are good for nothing but shade. 大树底下好乘凉。
+    - Great wits have short memories. 贵人多忘事。
+    - Greedy folks have long arms. 心贪手长。
+    - Guilty consciences make men cowards. 做贼心虚。
+    - Habit cures habit. 心病还需心药医。
+    - Handsome is he who does handsomely. 行为漂亮才算美。
+    - Happiness takes no account of time. 欢乐不觉时光过。
+    - Happy is he who owes nothing. 要想活得痛快，身上不能背债。
+    - Happy is the man who learns from the misfortunes ofothers. 吸取他人教训，自己才会走运。
+    - Harm set, harm get. 害人害己。
+    - Hasty love, soon cold. 一见钟情难维久。
+    - Health is better than wealth. 健康胜过财富
+    - To err is human, to forgive is divine人非圣贤，孰能无过
+    - One is never too old to learn活到老，学到老
+    - Knowledge is power. 知识就是力量
+    - Where there is a will, there is a way 世上无难事，只要肯攀登
+- ## [[chinese]]
+  -
+- ## How
+  -
+- ## What
+  -
+- ## Namespace
+  - {{namespace proverb}}
+- ## ↩ Reference
+  -

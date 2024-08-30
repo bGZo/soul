@@ -1,7 +1,7 @@
-also:: 耳机
 icon:: 🎧
-tags:: #3c
+also:: 耳机
 created:: [[20230719]]
+type:: hobby
 
 - ## Why
 - ## How

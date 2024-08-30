@@ -234,7 +234,7 @@ tags:: system
     collapsed:: true
     - Needs
       collapsed:: true
-      - 纯英文的开发环境 #english
+      - 纯英文的开发环境 #English
     - [坑] Windows 的绑定方式和 Office 的方式不同
       collapsed:: true
       - Windows 绑定主板 与 CPU, 在微软帐号里面无法查到, 但在 “设置”--“激活” 显示已经与帐号关联数字许可证激活

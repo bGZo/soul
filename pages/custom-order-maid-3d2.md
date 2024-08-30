@@ -1,10 +1,15 @@
-also:: CUSTOM_ORDER_MAID_3D2_Its_a_Night_Magic
-description:: 3D定制女仆2 / カスタムオーダーメイド3D2 /
-tags:: #galgame, #hentai
-source:: [CUSTOM ORDER MAID 3D2](https://com3d2.world/r18/main.html)
-bangumi:: [カスタムメイド3D2 | Bangumi 番组计划](https://bgm.tv/subject/131547)
-douban:: [3D定制女仆2 カスタムメイド3D 2 (豆瓣)](https://www.douban.com/game/27591210/)
+icon:: 🎮
+cover:: {{image/cover }}
+also:: CUSTOM_ORDER_MAID_3D2_Its_a_Night_Magic, 3D定制女仆2,  カスタムオーダーメイド3D2
+author:: 
 created:: [[20221123]]
+exclude-from-graph-view:: true
+rating:: ⭐⭐⭐⭐
+tags:: 
+type:: game
+bangumi:: {{bangumi 131547}}
+douban:: {{dougame 27591210}}
+source:: https://com3d2.world/r18/main.html
 
 - New desire
   collapsed:: true

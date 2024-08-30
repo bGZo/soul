@@ -7,7 +7,6 @@ exclude-from-graph-view:: true
   -
 - ## What
   - [Home - bGZo's blog](http://blog.bgzo.cc) #blog #jekyll #vercel
-    collapsed:: true
     - DONE Modify Font CSS (Solarized) in 20230128
       collapsed:: true
       - [chawyehsu/lxgw-wenkai-webfont: webfont package for the LXGW WenKai typeface](https://github.com/chawyehsu/lxgw-wenkai-webfont) #sucks #font/web
@@ -24,7 +23,7 @@ exclude-from-graph-view:: true
           - `lxgw-wenkai-screen-webfont`
         - 测试用的是 Screen 版本, 总共 10 M, 对比原版需要 30M, 感觉只有 Build-in App 才会用, 但这不标榜 Webfont 吗? Build-in 我直接去哪原版了, 来这里做什么?
       - 作者应该是下了幸苦, 按一定分区大小进行划分, 每个包差不多50多K, 合在一起的 CSS 差不多 100 多K, 但是要全部包加载完才能渲染完, 2分钟内一直在下载状态就非常不能忍;
-    - DONE ~~Add support for CN characters~~ in 20230131 #deprecated #regex
+    - DONE ~~Add support for CN characters~~ in 20230131 #regex
       collapsed:: true
       - 1 , 替换
         2 . 替换
@@ -52,12 +51,14 @@ exclude-from-graph-view:: true
       - https://github.com with `?`
     - TODO Add telegram article preview
     - TODO Fix twitter card image preview
--
+    - 博客的新理念：想象另一种可能
+      - another possibility
+      - Another possibility
+    - blog 支持加载GitHub评论
+      :LOGBOOK:
+      CLOCK: [2024-08-30 Fri 10:03:55]--[2024-08-30 Fri 10:03:56] =>  00:00:01
+      :END:
 - ## Namespace
   - {{namespace blog}}
 - ## ↩ Reference
-  -
 -
--
--
-- blog 支持加载GitHub评论

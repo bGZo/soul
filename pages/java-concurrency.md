@@ -2,7 +2,7 @@ also:: concurrency/java, java 并发
 tags:: TODO
 
 -
-- `sleep()` #vs `wait()` #[[question/java]]
+- `sleep()` #vs `wait()` #[[java-interview]]
   - | **Items**   |`sleep()`  | `wait()`  |
     |--|--|--|
     | **暂停执行线程** | ✔     | ✔        |

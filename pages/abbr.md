@@ -2,7 +2,7 @@
   - template:: word(default: en)
     template-including-parent:: false
     - definition:: {{cloze }}
-      tags:: #card, #English/word
+      tags:: #card, #english-word
       references:: 
       description::
   - template:: word/zh

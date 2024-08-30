@@ -1,8 +1,8 @@
 also:: Personal Computer, PC, 计算机
 description:: a machine that can be programmed to carry out sequences of arithmetic or logical operations (computation) automatically.
 icon:: 🖥️
-tags:: #3C
 created:: [[20230620]]
+type:: hobby
 wikipedia:: https://en.wikipedia.org/wiki/Computer
 
   - ### Computer Devices

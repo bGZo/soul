@@ -16,23 +16,9 @@ released-date:: 20240319
       logseq.order-list-type:: number
       background-color:: green
       id:: cbb1ecbf-cfa9-4277-b057-6b1aef5cd5e6
-      - 通过在G1中实现区域钉扎来减少延迟，这样在Java Native Interface（JNI）关键区域期间就不需要禁用垃圾收集。
-    - 447: Statements before super(...) (Preview)
-      logseq.order-list-type:: number
       collapsed:: true
-      - 允许没有应用实例的语句出现在显式构造函数调用之前（explicit constructor invocation）
-      - ```java
-        import java.math.BigInteger;
-        
-        public class PositiveBigInteger extends BigInteger {
-          public PositiveBigInteger(long value) {
-            super(String.valueOf(value)); // Potentially unnecessary work
-            if (value <= 0)
-              throw new IllegalArgumentException("non-positive value");
-          }
-        }
-        ```
-        via: https://openjdk.org/jeps/447
+      - 通过在G1中实现区域钉扎来减少延迟，这样在Java Native Interface（JNI）关键区域期间就不需要禁用垃圾收集。
+      - 使用 JNI 时，Java 线程无需在 G1 GC 操作完成之前等待，从而提高开发人员的工作效率。
     - 454: Foreign Function & Memory API via: https://openjdk.org/jeps/454
       logseq.order-list-type:: number
       collapsed:: true
@@ -76,24 +62,35 @@ released-date:: 20240319
         }
         ```
         via: https://blog.csdn.net/nanxiaotao/article/details/136863342
-    - 456: Unnamed Variables & Patterns
+      - **价值**
+        collapsed:: true
+        - 生产力：用简洁、可读且纯 Java API 取代脆弱的本机方法和 Java 本机接口 (JNI)。
+        - 性能：提供对外部函数和内存的访问，其开销与 JNI 和 sun.misc.Unsafe 相当（如果不是更好的话）。
+        - 广泛的平台支持：允许在 JVM 运行的每个平台上发现和调用本机库。
+        - 一致性：提供在多种内存（例如本机内存、持久内存和托管堆内存）中操作无限大小的结构化和非结构化数据的方法。
+        - 健全性：保证没有释放后使用错误，即使在多个线程之间分配和释放内存时也是如此。
+        - 完整性：允许程序使用本机代码和数据执行不安全的操作，但默认警告用户此类操作。
+    - 456: Unnamed Variables & Patterns 未命名变量和模式
       logseq.order-list-type:: number
       collapsed:: true
       - 使用未命名变量和未命名模式增强Java编程语言，当需要变量声明或嵌套模式但从未使用时，可以使用这些变量和模式。两者都用下划线字符_表示。
       - 表明声明的该变量创建者无意使用，并告知后开者也不该使用，之前我们可能写 `ignored variable`. 现在统一写 `_`
       - `_` 在 Java 8 中是警告，在 Java 9 中是错误；
+        collapsed:: true
         via: https://stackoverflow.com/questions/23523946
         - `use of '_' as an identifier is not supported in releases since java 9`
       - 适用场景
+        collapsed:: true
         - 块内局部变量；
         - 异常处理；
+          collapsed:: true
           - `try()` 块内（resource specification）
           - `catch()` 块内
         - `for` 循环；
+          collapsed:: true
           - 增强 for 循环；
         - `lambda` 表达式
       - ```java
-        
         import java.util.ArrayList;
         import java.util.List;
         import java.util.Map;
@@ -132,21 +129,18 @@ released-date:: 20240319
         }
         
         ```
-    - 457: Class-File API (Preview) via: https://openjdk.org/jeps/457
+      - **价值**
+        - 捕获开发人员的意图，即未使用给定的绑定或 lambda 参数，并强制执行该属性以澄清程序并减少出错的机会。
+        - 通过识别必须声明（例如，在 catch 子句中）但未使用的变量，提高所有代码的可维护性。
+        - 允许多个模式出现在单个 case 标签中，如果它们都没有声明任何模式变量。
+        - 通过消除不必要的嵌套类型模式来提高记录模式的可读性
+    - 458: Launch Multi-File Source-Code Programs 启动多文件源代码程序
       logseq.order-list-type:: number
-      background-color:: pink
-      - 提供一个标准的API，用于解析、生成和转换Java类文件。这是一个预览API。
-      - ASM???
-      - https://jameshamilton.eu/programming/build-compiler-jep-457-class-file-api
-      - https://github.com/mrjameshamilton/jep457-hello-world/blob/master/Main.java
-        - ??? 为什么运行不了???
-    - 458: Launch Multi-File Source-Code Programs
-      logseq.order-list-type:: number
-      collapsed:: true
       - #+BEGIN_EXAMPLE
         增强java应用程序启动器，使其能够运行作为java源代码的多个文件提供的程序。这将使从小程序到大程序的过渡更加渐进，使开发人员能够选择是否以及何时配置构建工具。
         #+END_EXAMPLE
       - JDK 11 针对 Java 应用启动器做过优化，可以直接跑 `.java` 的 `source` 文件:
+        collapsed:: true
         - ```java
           class Prog {
             public static void main(String[] args) { Helper.run(); }
@@ -161,6 +155,33 @@ released-date:: 20240319
           ```
         - 局限是这些类必须放在一个文件中
       - JDK 22 打破了这个限制
+    - logseq.order-list-type:: number
+    - 447: Statements before super(...) (Preview)
+      logseq.order-list-type:: number
+      collapsed:: true
+      - 允许没有应用实例的语句出现在显式构造函数调用之前（explicit constructor invocation）
+      - ```java
+        import java.math.BigInteger;
+        
+        public class PositiveBigInteger extends BigInteger {
+          public PositiveBigInteger(long value) {
+            super(String.valueOf(value)); // Potentially unnecessary work
+            if (value <= 0)
+              throw new IllegalArgumentException("non-positive value");
+          }
+        }
+        ```
+        via: https://openjdk.org/jeps/447
+    - 457: Class-File API (Preview) via: https://openjdk.org/jeps/457
+      logseq.order-list-type:: number
+      background-color:: pink
+      collapsed:: true
+      - 提供一个标准的API，用于解析、生成和转换Java类文件。这是一个预览API。
+      - ASM???
+      - https://jameshamilton.eu/programming/build-compiler-jep-457-class-file-api
+      - https://github.com/mrjameshamilton/jep457-hello-world/blob/master/Main.java
+        collapsed:: true
+        - ??? 为什么运行不了???
     - 459: String Templates (Second Preview)
       logseq.order-list-type:: number
       collapsed:: true
@@ -192,8 +213,8 @@ released-date:: 20240319
           // 复杂
           ```
       - demo
+        collapsed:: true
         - ```java
-          
           import static java.lang.StringTemplate.STR;
           
           public class templateStr {
@@ -234,64 +255,8 @@ released-date:: 20240319
           
           }
           ```
-    - 460: Vector API (Seventh Incubator) via: https://openjdk.org/jeps/460
+    - TODO 461: Stream Gatherers (Preview)
       logseq.order-list-type:: number
-      collapsed:: true
-      - #+BEGIN_EXAMPLE
-        引入API来表示向量计算，这些向量计算在运行时可靠地编译为支持的CPU架构上的最佳向量指令，从而实现优于等效标量计算的性能。
-        #+END_EXAMPLE
-      - ```java
-        import jdk.incubator.vector.IntVector;
-        import jdk.incubator.vector.VectorSpecies;
-        
-        public class vectorDemo {
-        
-          private static final VectorSpecies<Integer> SPECIES = IntVector.SPECIES_PREFERRED;
-        
-        public static void vectorAddition(int[] a, int[] b, int[] result) {
-          int i = 0;
-          int upperBound = SPECIES.loopBound(a.length);
-          for (i = 0; i < upperBound; i += SPECIES.length()) {
-            // 从数据中加载向量
-            IntVector va = IntVector.fromArray(SPECIES, a, i);
-            IntVector vb = IntVector.fromArray(SPECIES, b, i);
-            // 执行逐元素加法
-            IntVector vr = va.add(vb);
-            // 将结果存储在结果数组中
-            vr.intoArray(result, i);
-          }x
-          // 处理剩余元素
-          for (; i < a.length; i++) {
-            result[i] = a[i] + b[i];
-          }
-        }
-        
-        
-        
-        public static void main(String[] args) {
-          int[] a = {1, 2, 3, 4, 5};
-          int[] b = {6, 7, 8, 9, 10};
-          int[] result = new int[a.length];
-        
-          vectorAddition(a, b, result);
-        
-          // 输出结果
-          for (int r : result) {
-            System.out.println(r);
-          }
-        
-        }
-        }
-        ```
-        via: https://blog.csdn.net/nanxiaotao/article/details/136863342
-      - ```shell
-        D:\apps\jdk-22.0.2\bin\java.exe --add-modules=jdk.incubator.vector .\vectorDemo.java
-        ```
-      - Java 机器学习
-        - https://time.geekbang.org/column/article/464927
-    - 461: Stream Gatherers (Preview)
-      logseq.order-list-type:: number
-      collapsed:: true
       - #+BEGIN_EXAMPLE
         增强Stream API以支持自定义中间操作。这将允许流管道以现有内置中间操作无法轻松实现的方式转换数据。这是一个预览API。
         #+END_EXAMPLE
@@ -346,10 +311,12 @@ released-date:: 20240319
           }
           ```
       - TODO `Gather` 带来的新的 API
+        collapsed:: true
         - ...
     - 462: Structured Concurrency (Second Preview)
       logseq.order-list-type:: number
       background-color:: green
+      collapsed:: true
       - 通过引入用于结构化并发的API来简化并发编程。结构化并发将在不同线程中运行的相关任务组视为单个工作单元，从而简化错误处理和消除，提高可靠性，并增强可观察性。这是一个预览API。
     - 463: Implicitly Declared Classes and Instance Main Methods (Second Preview)
       logseq.order-list-type:: number
@@ -418,10 +385,61 @@ released-date:: 20240319
         }
         ```
         via: https://davidvlijmincx.com/posts/java-scoped-values-tutorial/
-  - ## References
-    - https://waylau.com/jdk-22-released/
-    - https://openjdk.org/projects/jdk/22/
+    - 460: Vector API (Seventh Incubator) via: https://openjdk.org/jeps/460
+      logseq.order-list-type:: number
+      collapsed:: true
+      - #+BEGIN_EXAMPLE
+        引入API来表示向量计算，这些向量计算在运行时可靠地编译为支持的CPU架构上的最佳向量指令，从而实现优于等效标量计算的性能。
+        #+END_EXAMPLE
+      - ```java
+        import jdk.incubator.vector.IntVector;
+        import jdk.incubator.vector.VectorSpecies;
+        
+        public class vectorDemo {
+          private static final VectorSpecies<Integer> SPECIES = IntVector.SPECIES_PREFERRED;
+          public static void vectorAddition(int[] a, int[] b, int[] result) {
+            int i = 0;
+            int upperBound = SPECIES.loopBound(a.length);
+            for (i = 0; i < upperBound; i += SPECIES.length()) {
+              // 从数据中加载向量
+              IntVector va = IntVector.fromArray(SPECIES, a, i);
+              IntVector vb = IntVector.fromArray(SPECIES, b, i);
+              // 执行逐元素加法
+              IntVector vr = va.add(vb);
+              // 将结果存储在结果数组中
+              vr.intoArray(result, i);
+            }x
+              // 处理剩余元素
+              for (; i < a.length; i++) {
+                result[i] = a[i] + b[i];
+              }
+          }
+        
+          public static void main(String[] args) {
+            int[] a = {1, 2, 3, 4, 5};
+            int[] b = {6, 7, 8, 9, 10};
+            int[] result = new int[a.length];
+        
+            vectorAddition(a, b, result);
+        
+            // 输出结果
+            for (int r : result) {
+              System.out.println(r);
+            }
+        
+          }
+        }
+        ```
+        via: https://blog.csdn.net/nanxiaotao/article/details/136863342
+      - ```shell
+        D:\apps\jdk-22.0.2\bin\java.exe --add-modules=jdk.incubator.vector .\vectorDemo.java
+        ```
+      - Java 机器学习
+        collapsed:: true
+        - https://time.geekbang.org/column/article/464927
 - ## Namespace
   - {{namespace java22}}
 - ## ↩ Reference
-  -
+  - https://waylau.com/jdk-22-released/
+  - https://openjdk.org/projects/jdk/22/
+  - https://www.didispace.com/java-features/java22/#statements-before-super-preview-jep-447

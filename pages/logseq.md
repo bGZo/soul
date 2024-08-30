@@ -2,18 +2,17 @@ icon:: 🛠
 created:: [[20210801]]
 document:: https://blog.logseq.com, https://docs.logseq.com, https://hub.logseq.com
 status:: tool/star
-tags:: #[[personal knowledge management]]
+tags:: #[[personal-knowledge-management]]
 type:: tool
 
 - ## Why
-  collapsed:: true
-  - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[privacy]], [[censor]], with high [[price]] and bullshit user agreement.
+  - I hate some applications I used in past (See What I used in past note), they suck in a while, including [[privacy]], [[censor]], with high [[price]] and bullshit user agreement.
     - ((64772db8-4367-4d35-b2ca-fed0e45bdd2c))
   - Basically, it's better that encoding with txt and search in [[vscode]]. I used it in the past but I was dropped in the category hell. When I finish a note last two months, and I have no idea where are they stored. The category I organized is terrible. And the ((6474b5f9-a287-48d9-a097-3400b8de53f7)). I like it.
   - I've learned a lot of things, not only how to note, how to remember, but also a few philosophy of organizing the whole [[knowledge]] system.
 - ## How
-  collapsed:: true
   - How to use logseq fully? What's the design they are?
+    collapsed:: true
     - The configuration, stored in `config.edu` file, which included  a few functions hidden: 
       collapsed:: true
       - [Feature: add codemirror options by andelf · Pull Request #3699 · logseq/logseq](https://github.com/logseq/logseq/pull/3699) via:
@@ -120,7 +119,7 @@ type:: tool
           - 在 [Use Namespaces to Create a Dynamic Note Index in Logseq - YouTube](https://www.youtube.com/watch?v=fm45fG3A-Q4) 的更多的是 (层级)搜索
             collapsed:: true
             - 视频结尾说明一个更多的好处就是**在每次层级改变的时候, 只需要变更 Hashtag, 而不是将内容从一个文件搬运到另一个文件** (我是后者hhh)
-  - The page exported by default is not included plugin setting. The better way is writing it in `custom.css`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5). And here is my changelog: #changelog/wiki
+  - The page exported by default is not included plugin setting. The better way is writing it in `custom.css`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5). And here is my changelog: #logseq/changelog
     collapsed:: true
     - Font
       created:: 20221015
@@ -258,6 +257,7 @@ type:: tool
     collapsed:: true
     - https://logseq.github.io/#/page/publishing%20(desktop%20app%20only)
 - ## What
+  - AKA **LS**
   - Logseq gives us a vision we could organize
     id:: 6474b5f9-a287-48d9-a097-3400b8de53f7
     collapsed:: true
@@ -298,54 +298,114 @@ type:: tool
       Last Friday => [[Feb 12th, 2021]]
       ```
       via: [Dynamic Variables](https://docs.logseq.com/#/page/Dynamic%20Variables) by [Templates injecting dynamic dates (and placeholders/arguments) - Feature Requests - Logseq](https://discuss.logseq.com/t/templates-injecting-dynamic-dates-and-placeholders-arguments/833)
-- ## Alternatives
-  - What I used in past note
-    id:: 6474b5b1-ad1a-47c3-bc2c-4343950295a9
-    - {{nav https://www.cnblogs.com}}
+  - WAITING Waiting issues for better:
+    collapsed:: true
+    - hide duplicating **aliases** on graph
       logseq.order-list-type:: number
-    - {{nav https://blog.csdn.net}}
+      collapsed:: true
+      - issue via: https://github.com/logseq/logseq/issues/4709
+        logseq.order-list-type:: number
+      - discuss via https://discuss.logseq.com/t/enhancement-of-aliases/14466/19
+        logseq.order-list-type:: number
+    - outline **toc** for sidebar
       logseq.order-list-type:: number
-    - {{nav https://www.notion.so}}
+      collapsed:: true
+      - discuss via https://discuss.logseq.com/t/outline-overview-for-sidebar/740/30
+        logseq.order-list-type:: number
+    - **equb** view book
       logseq.order-list-type:: number
-    - {{nav https://logseq.github.io}}
+      collapsed:: true
+      - saving memory
+        logseq.order-list-type:: number
+      - discuss via https://discuss.logseq.com/t/support-epub-format-ebooks/2010/27
+        logseq.order-list-type:: number
+    - disable **lazy load**
       logseq.order-list-type:: number
-    - {{nav https://www.onenote.com}}
+      collapsed:: true
+      - this make search and reach impossible in huge blocks
+        logseq.order-list-type:: number
+      - discuss via https://discuss.logseq.com/t/provide-option-to-disable-lazy-load/9784/14
+        logseq.order-list-type:: number
+    - sort for **references**
       logseq.order-list-type:: number
-    - {{nav https://www.yuque.com}}
+      collapsed:: true
+      - discuss via: https://discuss.logseq.com/t/sort-linked-references/10391/6
+    - cross platform with **plugin**
       logseq.order-list-type:: number
-    - {{nav https://cn.wordpress.org}}
+      collapsed:: true
+      - discuss via https://discuss.logseq.com/t/plugin-support-for-ios-android-apps/10109/21
+        logseq.order-list-type:: number
+        collapsed:: true
+        - they said the most difficult is UI library during multi platform
+          logseq.order-list-type:: number
+    - custom **icon** with image
       logseq.order-list-type:: number
-    - {{nav https://note.youdao.com}}
+      collapsed:: true
+      - discuss via https://discuss.logseq.com/t/image-asset-as-page-icon/3826/11
+        logseq.order-list-type:: number
+    - different **environment** on different graph
       logseq.order-list-type:: number
-    - {{nav http://typecho.org}}
+      collapsed:: true
+      - https://discuss.logseq.com/t/different-plugins-for-each-graph/5846/4
+        logseq.order-list-type:: number
+    - **fuzzy search** is not fuzzy
       logseq.order-list-type:: number
-    - {{nav https://www.bitcron.com}}
+      collapsed:: true
+      - like search `windows memo` or `memo windows`, you will get different results
+        logseq.order-list-type:: number
+      - https://discuss.logseq.com/t/option-to-choose-between-fuzzy-search-and-precise-search/17528/1
+        logseq.order-list-type:: number
+    - **export** with plugin feature on `custom.js`
       logseq.order-list-type:: number
-    - {{nav https://hexo.io/zh-cn}}
-      logseq.order-list-type:: number
-    - {{nav https://www.gitbook.com}}
-      logseq.order-list-type:: number
-    - {{nav https://www.mkdocs.org}}
-      logseq.order-list-type:: number
-    - {{nav https://www.blogger.com}}
-      logseq.order-list-type:: number
-    - {{nav https://gohugo.io}}
-      logseq.order-list-type:: number
-    - {{nav https://obsidian.md}}
-      logseq.order-list-type:: number
-    - {{nav https://note.wiz.cn}}
-      logseq.order-list-type:: number
-    - {{nav https://blogit.io/}}
-      logseq.order-list-type:: number
-    - {{nav https://typlog.com}}
-      logseq.order-list-type:: number
+      collapsed:: true
+      - https://discuss.logseq.com/t/export-published-document-with-plugin-installed-in-a-dockerized-container/22603
+        logseq.order-list-type:: number
+- ## Alternatives notes apps
+  collapsed:: true
+  - {{nav https://www.cnblogs.com}}
+    logseq.order-list-type:: number
+  - {{nav https://blog.csdn.net}}
+    logseq.order-list-type:: number
+  - {{nav https://www.notion.so}}
+    logseq.order-list-type:: number
+  - {{nav https://logseq.github.io}}
+    logseq.order-list-type:: number
+  - {{nav https://www.onenote.com}}
+    logseq.order-list-type:: number
+  - {{nav https://www.yuque.com}}
+    logseq.order-list-type:: number
+  - {{nav https://cn.wordpress.org}}
+    logseq.order-list-type:: number
+  - {{nav https://note.youdao.com}}
+    logseq.order-list-type:: number
+  - {{nav http://typecho.org}}
+    logseq.order-list-type:: number
+  - {{nav https://hexo.io/zh-cn}}
+    logseq.order-list-type:: number
+  - {{nav https://www.gitbook.com}}
+    logseq.order-list-type:: number
+  - {{nav https://www.mkdocs.org}}
+    logseq.order-list-type:: number
+  - {{nav https://www.blogger.com}}
+    logseq.order-list-type:: number
+  - {{nav https://gohugo.io}}
+    logseq.order-list-type:: number
+  - {{nav https://obsidian.md}}
+    logseq.order-list-type:: number
+  - {{nav https://note.wiz.cn}}
+    logseq.order-list-type:: number
+  - {{nav https://blogit.io/}}
+    logseq.order-list-type:: number
+  - {{nav https://typlog.com}}
+    logseq.order-list-type:: number
+  - {{nav https://www.bitcron.com}}
+    logseq.order-list-type:: number
 - ## Namespace
   - {{namespace logseq}}
 - ## ↩ Reference
   - https://discuss.logseq.com/c/look-what-i-built #[[kill-time]]
-  - [logseq/awesome-logseq: Awesome Logseq resources created by the community <3 (github.com)](https://github.com/logseq/awesome-logseq)
   - [Roadmap](https://trello.com/b/8txSM12G/roadmap)
   - [求推荐：知识管理-电子书阅读管理 APP？ - V2EX](https://www.v2ex.com/t/826204)
   - [知识信息组织索引工具推荐 - V2EX](https://www.v2ex.com/t/222874)
   - [有什么比较好的用于摘抄网页的工具吗 - V2EX](https://www.v2ex.com/t/797881)
-  - https://mschmidtkorth.github.io/logseq-msk-docs
+-

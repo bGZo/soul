@@ -5,6 +5,125 @@ description:: 一些迁移过程中产生的，不知道放哪的笔记，我把
 exclude-from-graph-view:: true
 
 -
+- collapsed:: true
+  ---
+  - 农民就是最大的内需
+  - 女儿就是原罪？
+-
+- modulo 模除, %, mod
+  - [Modulo - Wikipedia](https://en.wikipedia.org/wiki/Modulo)
+  - [模除 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E6%A8%A1%E9%99%A4)
+- logseq 最大的问题是，他没有办法对查询出的表格进行更近一步的编辑
+  collapsed:: true
+  - 比如我可以查询出来所有关联了 author 的创作者，并且我希望可以对他们做一个国别的拓展，唯一可行的办法就是改变原有的 block，让在原来的 block 变得越来越臃肿。直到有一天变得难以维护，你不得不删掉他。
+- 面对越来越难的验证码校验，真的让人感觉，中国人生下来就是要做题的
+- schema: https://schema.org/description
+- 什么是数学
+  also:: books/什么是数学-对思想和方法的基本研究
+  tags:: TODO
+  author:: [美] R·柯朗 H·罗宾 著 / I·斯图尔特 修订 / 左平 / 张饴慈
+  publisher:: 复旦大学出版社
+  published-date:: 20050500
+  source:: [什么是数学 (豆瓣)](https://book.douban.com/subject/1320282/)
+- https://mozilla.social/@FirefoxNightly.rss
+- cyber-realists
+  collapsed:: true
+  - source:: https://seths.blog/2021/08/cyber-realists/
+  - Neither default position is defensible or sustainable
+  - And yet, thanks for the vigilance and hard work of some folks, technology also has a long track record of making us safer, healthier and even happier.
+  - The cyber-realist sees both and is focused on being careful about systemic change and lock-in, especially for cultural and organizational changes that are hard to walk away from.
+- cynical
+  collapsed:: true
+  - also:: 憤世嫉俗, 愤世嫉俗, negative, emo
+    description:: 憤恨不合理的社會現狀，憎恨邪惡的勢力。語本唐．韓愈〈雜說〉四首之三。後用「憤世嫉俗」形容對腐敗的社會現狀及庸俗世態的痛恨。
+  - title:: **misanthrope**
+    definition:: {{cloze 指不喜歡人類、對人類感到不信任的人，來泛指厭世的人}}
+    tags:: #card
+    references:: [「厭世」英文是什麼？cynical? negative? emo? – 英文庫](https://english.cool/cynical/)
+    description::
+  - title:: **cynical**
+    definition:: {{cloze 指對這個世界、對人性的不信任，認為人都是自私的，甚至帶有鄙視、不屑的態度。 }}
+    tags:: #card
+    references:: [「厭世」英文是什麼？cynical? negative? emo? – 英文庫](https://english.cool/cynical/)
+    description::
+  - Related:
+    - 忿恚(huì)不平
+    - 與時俯仰、隨波逐流、隨俗浮沉
+- icon:: 📖
+  also:: books/数据库系统概念, Database System Concepts
+  tags:: #database
+  author:: Abraham Silberschatz, Henry F.Korth, S.Sudarshan
+  translator:: 杨冬青, 李红燕, 唐世渭
+  publisher:: 机械工业出版社
+  published:: 20120300
+  isbn:: 9787111375296
+  created:: [[20230328]]
+  douban:: https://book.douban.com/subject/10548379/
+  collapsed:: true
+  - ## ![Database System Concepts](../assets/book_database_system_concepts_6th_edition.pdf) | ![数据库系统概念](../assets/book_数据库系统概念.pdf)
+- [奧古斯特·蘭德梅賽 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8F%A4%E6%96%AF%E7%89%B9%C2%B7%E5%85%B0%E5%BE%B7%E6%A2%85%E8%B5%9B)
+  collapsed:: true
+  - 奧古斯特拒絕行納粹禮，他的舉動被人拍了下來，因而使他聞名於世。
+- ![image.png](../assets/archived/image_1666177782853_0.png)
+- icon:: 📖
+  also:: books/数据库系统概念, Database System Concepts
+  tags:: #database
+  author:: Abraham Silberschatz, Henry F.Korth, S.Sudarshan
+  translator:: 杨冬青, 李红燕, 唐世渭
+  publisher:: 机械工业出版社
+  published:: 20120300
+  isbn:: 9787111375296
+  created:: [[20230328]]
+  douban:: https://book.douban.com/subject/10548379/
+  collapsed:: true
+  - ## ![Database System Concepts](../assets/book_database_system_concepts_6th_edition.pdf) | ![数据库系统概念](../assets/book_数据库系统概念.pdf)
+- [奧古斯特·蘭德梅賽 - 維基百科，自由的百科全書](https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8F%A4%E6%96%AF%E7%89%B9%C2%B7%E5%85%B0%E5%BE%B7%E6%A2%85%E8%B5%9B)
+  collapsed:: true
+- 奧古斯特拒絕行納粹禮，他的舉動被人拍了下來，因而使他聞名於世。
+-
+-
+- ```
+  - 写代码的理论和实际
+  -
+    collapsed:: true
+    - 实际写代码的时候，以前总是喜欢这样写条件分支
+      - ```java
+        if (condition){
+        } else {
+        }
+  
+    - 但是最近屎山看多了，还是这样写更加方便一点
+      - ```java
+        if (condition){
+        }
+        else {
+        }
+  
+  ```
+- News
+  collapsed:: true
+  - https://readhub.cn/topic/8cPbP5dBfkx
+  - [大陆地区18位身份证校验码算法](https://tool.lu/article/6yV/url)
+  - [B站故障应急与业务1-5-10摸排：如何实现超95%故障自发现率？](https://tool.lu/article/6yU/url)
+  - [腾讯技术：为超越JVM而生？深入理解Kotlin Native的梦想与可能](https://tool.lu/article/6yN/url)
+  - [阿里巴巴技术：Java字符串拼接技术演进及阿里巴巴的贡献](https://tool.lu/article/6yM/url)
+  - [vivo技术：TimeWheel 算法介绍及在应用上的探索](https://tool.lu/article/6yL/url)
+  - [得物技术：风控基建实战：如何打造高效安全的AIGC系统](https://tool.lu/article/6yK/url)
+- 双拼命名法
+  collapsed:: true
+  - lufghx
+  - whjkrs
+  - zhig
+  - vzpgig
+  - xijbpk
+- ok, 每次走到 Mac 不支持 NTFS 和 EXT 文件格式的时候，都感觉很傻逼，所以又想退款了
+  collapsed:: true
+  - >The real question is what would Microsoft/Apple gain?
+    https://www.reddit.com/r/linuxquestions/comments/p3bxne/why_isnt_ext4_readablemountable_on_mac_nor_windows/
+- >房子养老金其实是盯上了你们房子的维修基金，想纳入统筹，想怎么用就怎么用。先给老房养老，解决当下；至于次新的养老，相信后人的智慧。
+  https://www.v2ex.com/t/1067864
+- 618 本质就是，饥饿营销
+  - https://en.wikipedia.org/wiki/Hunger_marketing
 - also:: 节俭
   description:: Extreme Frugality，过度节俭
 - hedonism
@@ -1068,7 +1187,7 @@ exclude-from-graph-view:: true
           CLOCK: [2022-08-24 Wed 00:16:15]
           CLOCK: [2022-08-29 Mon 21:27:08]--[2022-08-29 Mon 21:27:09] =>  00:00:01
           :END:
-          - After [[software/engineering]] via: 软件过程推荐的...
+          - After [[software-engine]] via: 软件过程推荐的...
         - DONE [[imu/software/architecture-pattern]] 设计模式 & 软件架构
           collapsed:: true
           :LOGBOOK:
@@ -1542,7 +1661,7 @@ exclude-from-graph-view:: true
       - [[book]]
         - **陈映真、王拓、三毛、震琼琼、陈铭孺、杨青矗**
         - 论边沁与柯勒律治
-      - [[search/latter]]
+      - [[kill-time]]
         - 逛 Github
           - https://github.com/search?q=stars:>10000+cpp
         - 想吃的零食
@@ -2759,6 +2878,6 @@ exclude-from-graph-view:: true
 - religious
   also:: 宗教
 - 美好的回忆
--
+- collapsed:: true
 -
 -

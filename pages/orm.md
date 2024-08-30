@@ -1,5 +1,5 @@
 icon:: 📄
-also:: [[]], O/RM, and O/R mapping tool, Object Relational Mapping, 对象关系映射
+also::  O/RM, and O/R mapping tool, Object Relational Mapping, 对象关系映射
 created:: [[20240805]]
 description::
 tags:: #oop, #database

@@ -1,53 +1,36 @@
 icon:: ⌘
-also:: [[]], 
+also::  
 created:: [[20240810]]
 description::
-tags:: #windows
+tags:: #shell
+type:: lang/programming
 
-- collapsed:: true
-  #+BEGIN_NOTE
-  Low version(v5) used [UTF-16LE](https://wikipedia.org/wiki/UTF-16), and only support `UTF8`(with BOM);
-  #+END_NOTE
-  via: [About Character Encoding - PowerShell | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_character_encoding)
-  #encoding
-  - Higher version(v6) could solve this issue, they support `utf8NoBOM`, and can be changed using following command:
-    - ```ps
-      $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
-      $PSDefaultParameterValues['*:Encoding'] = 'utf8'
-      ```
-  - #+BEGIN_NOTE
-    By the way, `chcp 65001` not works, because it not change `utf-16le` by default.
-    #+END_NOTE
-  - collapsed:: true
-    #+BEGIN_TIP
-    So using the `pwsh` instead of `powershell` since
-    #+END_TIP
-    - [What is the difference between [pwsh] and [Powershell Integrated Console] on VS Code? - Stack Overflow](https://stackoverflow.com/questions/60124810/what-is-the-difference-between-pwsh-and-powershell-integrated-console-on-vs)
-    - [shell - How to force a Powershell Script to run a specific Version - Stack Overflow](https://stackoverflow.com/questions/61720842/how-to-force-a-powershell-script-to-run-a-specific-version)
-    - [about Pwsh - PowerShell | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.3)
-  - #+BEGIN_TIP
-    Another way is that using UTF-16LE or UTF-8 with BOM by default as well.
-    #+END_TIP
-    - [php - cURL gets response with utf-8 BOM - Stack Overflow](https://stackoverflow.com/questions/12509855/curl-gets-response-with-utf-8-bom)
-  - More help articles:
-    - [powershell、cmd终端修改编码 - xututu6 - 博客园](https://www.cnblogs.com/xututu6/p/16574454.html)
-    - [Using PowerShell 7 in VS Code | rnelson0](https://rnelson0.com/2020/03/05/using-powershell-7-in-vs-code/) #vscode
-  -
 - ## Why
-  - [[commandline]]
-  - > Because-I-Believe-PowerShell-Commands-Are-Way-Too-Long-And-Unnecessarily-Verbose-That-I-Definitely-Hate-To-Type-Any-Of-Them-For-The-Sake-Of-My-Finger-Health-And-Keyboard-Durability
-    —— [wdhwg001](https://www.v2ex.com/member/wdhwg001) [PowerShell 这种强大的命令行工具，为什么使用的人很少？ - V2EX](https://www.v2ex.com/t/876580)
 - ## How
-  - Get version
+  - ps5 vs ps7
+    collapsed:: true
+    - >PS7 renamed  `powershell.exe`  to  `pwsh.exe`
+      via: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.4
+    - migrating via: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.4#using-powershell-7-side-by-side-with-windows-powershell-51
+  - get **version**
     - ```shell
       echo $PSVersionTable
       ```
-  - PS5 vs PS7
-    - >PS7 renamed  `powershell.exe`  to  `pwsh.exe`
-      via: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/differences-from-windows-powershell?view=powershell-7.4
-    - more migrating via: https://learn.microsoft.com/en-us/powershell/scripting/whats-new/migrating-from-windows-powershell-51-to-powershell-7?view=powershell-7.4#using-powershell-7-side-by-side-with-windows-powershell-51
-- ## What
-  - ### Syntax
+  - **output** with `echo` alias of `Write-Output` (cmdlet)
+    - #+BEGIN_NOTE
+      大部分 `cmdlet` 和函数都遵循 "动词-名词" 命名规则
+      #+END_NOTE
+    - ```shell
+      echo Hello world!
+      echo 'Hello world!';
+      ```
+  - **click run** with bat file on windows
+    - ```shell
+      Powershell.exe -executionpolicy remotesigned -File  C:\Users\SE\Desktop\ps.ps1
+      ```
+      via: https://stackoverflow.com/questions/19335004
+  - base
+    collapsed:: true
     - ``` powershell
       Get-ExecutionPolicy -List
       Set-ExecutionPolicy AllSigned
@@ -115,8 +98,9 @@ tags:: #windows
       # 内联其他文件 (点操作符)
       . .\otherScriptName.ps1
       ```
+  - 控制流
+    collapsed:: true
     - ```powershell
-      ### 控制流
       # 下面是条件判断结构
       if ($Age -is [string]) {
       	echo 'But.. $Age cannot be a string!'
@@ -162,19 +146,21 @@ tags:: #windows
       # 获取当前会话中的提供者
       Get-PSProvider
       ```
+  - Providers
+    collapsed:: true
     - ```powershell
-        ### Providers
-        # 列出当前目录下的文件和子目录
-        ls # 或者 `dir`
-        cd ~ # 回到主目录
-        Get-Alias ls # -> Get-ChildItem
-        # 这些 cmdlet 有更加通用的名称，因为它不仅仅只操作当前目录，这一点和其他脚本语言不同。
-        cd HKCU: # 跳转 HKEY_CURRENT_USER 注册表中的值
-        # 获取当前会话中的提供者
-        Get-PSProvider
+      # 列出当前目录下的文件和子目录
+      ls # 或者 `dir`
+      cd ~ # 回到主目录
+      Get-Alias ls # -> Get-ChildItem
+      # 这些 cmdlet 有更加通用的名称，因为它不仅仅只操作当前目录，这一点和其他脚本语言不同。
+      cd HKCU: # 跳转 HKEY_CURRENT_USER 注册表中的值
+      # 获取当前会话中的提供者
+      Get-PSProvider
       ```
+  - 管道
+    collapsed:: true
     - ```powershell
-      ### 管道
       # Cmdlets 中的参数用来控制它们的行为：
       Get-ChildItem -Filter *.txt -Name # 获取所有 txt 文件名。
       # 需要输入足够多的参数来确保没有歧义。
@@ -202,6 +188,8 @@ tags:: #windows
       # `@{name='lbl';expression={$_}`
       ps | Format-Table ID,Name,@{n='VM(MB)';e={'{0:n2}' -f ($_.VM / 1MB)}} -autoSize
       ```
+  - 函数
+    collapsed:: true
     - ```powershell
       ### 函数
       # [string] 注记是可选的。
@@ -238,8 +226,10 @@ tags:: #windows
       	END { Write-Verbose 'Website(s) created' }
       }
       ```
+  - 都是 .NET
+    collapsed:: true
     - ```powershell
-      ### 都是 .NET
+      
       # PS 中的字符串事实上就是 .NET 的 System.String 类型
       # 所有 .NET 方法和属性都可用
       'string'.ToUpper().Replace('G', 'ggg')
@@ -255,6 +245,8 @@ tags:: #windows
       $writer.Write([Environment]::NewLine)
       $writer.Dispose()
       ```
+  - IO
+    collapsed:: true
     - ```powershell
       ### IO
       # 从输入读入一个值
@@ -266,8 +258,9 @@ tags:: #windows
       # Set-Content, Add-Content, Clear-Content
       Get-Command ConvertTo-*,ConvertFrom-*
       ```
+  - 有用的东西
+    collapsed:: true
     - ```powershell
-      ### 有用的东西
       # 更新 PATH
       $env:PATH = [System.Environment]::GetEnvironmentVariable("Path", "Machine") +
       	";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
@@ -297,32 +290,67 @@ tags:: #windows
       	notepad $Profile
       }
       ```
-    - Other
-      - 回显
-        - ```powershell
-          Set-PSDebug -Trace 1
-          # 0: Turn script tracing off.
-          # 1: Trace script lines as they run.
-          # 2: Trace script lines, variable assignments, function calls, and scripts.
-          ```
-          via: [debugging - PowerShell "echo on" - Stack Overflow](https://stackoverflow.com/questions/2063995/powershell-echo-on)
-      - Output
-        - ```powershell
-          write-host xxx
-          write(-output) xxx
-          # output 为管道输出, 可以进行管道搭配
-          ```
-          via: [windows - PowerShell difference between Write-Host and Write-Output? - Stack Overflow](https://stackoverflow.com/questions/19754069/powershell-difference-between-write-host-and-write-output)
-      - 去重
-        - ```powershell
-          xxx | sort -Unique
-          ```
-      - `ConvertTo-Html`: 输出的内容转换为HTML
-      - `out-file`: 重定向输出到一个文件（file）或者到打印机
-      - `Get-Process/Start-Process/Stop-Process/Wait-Process`: 操作进程
-      - `write-EventLog`: 写入日志
-      - `Get-Alias/New-Alias/Set-Alias/Import-Alias`: 别名
+  - Other
+    collapsed:: true
+    - 回显
+      - ```powershell
+        Set-PSDebug -Trace 1
+        # 0: Turn script tracing off.
+        # 1: Trace script lines as they run.
+        # 2: Trace script lines, variable assignments, function calls, and scripts.
+        ```
+        via: [debugging - PowerShell "echo on" - Stack Overflow](https://stackoverflow.com/questions/2063995/powershell-echo-on)
+    - Output
+      - ```powershell
+        write-host xxx
+        write(-output) xxx
+        # output 为管道输出, 可以进行管道搭配
+        ```
+        via: [windows - PowerShell difference between Write-Host and Write-Output? - Stack Overflow](https://stackoverflow.com/questions/19754069/powershell-difference-between-write-host-and-write-output)
+    - 去重
+      - ```powershell
+        xxx | sort -Unique
+        ```
+    - `ConvertTo-Html`: 输出的内容转换为HTML
+    - `out-file`: 重定向输出到一个文件（file）或者到打印机
+    - `Get-Process/Start-Process/Stop-Process/Wait-Process`: 操作进程
+    - `write-EventLog`: 写入日志
+    - `Get-Alias/New-Alias/Set-Alias/Import-Alias`: 别名
+  -
+- ## What
+  - collapsed:: true
+    #+BEGIN_NOTE
+    Low version(v5) used [UTF-16LE](https://wikipedia.org/wiki/UTF-16), and only support `UTF8`(with BOM);
+    #+END_NOTE
+    via: [About Character Encoding - PowerShell | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_character_encoding)
+    #encoding
+    - Higher version(v6) could solve this issue, they support `utf8NoBOM`, and can be changed using following command:
+      - ```ps
+        $PSDefaultParameterValues['Out-File:Encoding'] = 'utf8'
+        $PSDefaultParameterValues['*:Encoding'] = 'utf8'
+        ```
+    - #+BEGIN_NOTE
+      By the way, `chcp 65001` not works, because it not change `utf-16le` by default.
+      #+END_NOTE
+    - collapsed:: true
+      #+BEGIN_TIP
+      So using the `pwsh` instead of `powershell` since
+      #+END_TIP
+      - [What is the difference between [pwsh] and [Powershell Integrated Console] on VS Code? - Stack Overflow](https://stackoverflow.com/questions/60124810/what-is-the-difference-between-pwsh-and-powershell-integrated-console-on-vs)
+      - [shell - How to force a Powershell Script to run a specific Version - Stack Overflow](https://stackoverflow.com/questions/61720842/how-to-force-a-powershell-script-to-run-a-specific-version)
+      - [about Pwsh - PowerShell | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.3)
+    - #+BEGIN_TIP
+      Another way is that using UTF-16LE or UTF-8 with BOM by default as well.
+      #+END_TIP
+      - [php - cURL gets response with utf-8 BOM - Stack Overflow](https://stackoverflow.com/questions/12509855/curl-gets-response-with-utf-8-bom)
+    - More help articles:
+      - [powershell、cmd终端修改编码 - xututu6 - 博客园](https://www.cnblogs.com/xututu6/p/16574454.html)
+      - [Using PowerShell 7 in VS Code | rnelson0](https://rnelson0.com/2020/03/05/using-powershell-7-in-vs-code/) #vscode
+    -
 - ## Namespace
   - {{namespace powershell}}
 - ## ↩ Reference
+  - > Because-I-Believe-PowerShell-Commands-Are-Way-Too-Long-And-Unnecessarily-Verbose-That-I-Definitely-Hate-To-Type-Any-Of-Them-For-The-Sake-Of-My-Finger-Health-And-Keyboard-Durability
+    —— [PowerShell 为什么使用的人很少？ - V2EX](https://www.v2ex.com/t/876580)
   - [Learn X in Y Minutes: Scenic Programming Language Tours](https://learnxinyminutes.com/docs/zh-cn/powershell-cn/)
+-

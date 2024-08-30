@@ -1,4 +1,4 @@
-
+tags:: #english
 
 - [[abbr]] Collections
   source:: https://www.allacronyms.com
@@ -131,42 +131,42 @@
 - __Archived__
 - __Frequent__
   collapsed:: true
-  - **吐槽** #card #English/word
+  - **吐槽** #card #english-word
     - {{cloze 太宽泛的含义了. 可以扩大缩小, 引申, 还没有专门的译法; dissing / trashing / cynical (某些語境) / complains(扩大) /  correct sb(扩大) / bullshit(扩大)}}
     - via: https://www.zhihu.com/question/21597518
-  - **** #card #English/word
+  - **** #card #english-word
     - {{cloze }}
   - [哪些词汇是外企email常用的？ - 知乎](https://zhuanlan.zhihu.com/p/24833687)
-    - **bullet points** #card #English/word
+    - **bullet points** #card #english-word
       - {{cloze 重点内容}}
-    - **callout** #card #English/word
+    - **callout** #card #english-word
       - {{cloze 标注, 有箭头或者线条的标注文字叫做callout，不叫remark, comment, note.}}
-    - **with regard to/ regarding** #card #English/word
+    - **with regard to/ regarding** #card #english-word
       - {{cloze about}}
-    - **echo** #card #English/word
+    - **echo** #card #english-word
       - {{cloze 重复一下某人观点”，谦虚的说法}}
-    - **address** #card #English/word
+    - **address** #card #english-word
       - {{cloze 意思介于think/talk about和solve之间，但是不完全一样，不承诺一定能解决，委婉表示"需要引起注意并解决”，固定搭配address the issue/ problem/question/ concern}}
-    - **bring up** #card #English/word
+    - **bring up** #card #english-word
       - {{cloze 隐含提出来供大家讨论的意思，比mention的意思更丰富}}
-    - **expedite** #card #English/word
+    - **expedite** #card #english-word
       - {{cloze 邮件中多用这个词代替accelerate和speed up.}}
-    - **check in** #card #English/word
+    - **check in** #card #english-word
       - {{cloze 在邮件里经即可表示”获取信息“也可以表示“汇报“}}
-  - __Only 3 left in stock__ #card #English/word
+  - __Only 3 left in stock__ #card #english-word
     - {{cloze 现货}}
-  - **power/battery bar** #card #English/word
+  - **power/battery bar** #card #english-word
     - {{cloze 电量条}}
-  - __template literial__  #card #English/word
+  - __template literial__  #card #english-word
     collapsed:: true
     - {{cloze 模板文字}}
-  - **registering at MIIT (as ICP)** #card #English/word
+  - **registering at MIIT (as ICP)** #card #english-word
     - {{cloze 域名备案 }}
     - https://www.zhihu.com/question/20083286
     - MIIT => Ministry of Industry and Information Technology, 中华人民共和国工业和信息化部
-  - **troll** #card #English/word
+  - **troll** #card #english-word
     - 钓鱼/恶意挑衅的帖子/引战
-  - **easy girl** #card #English/word
+  - **easy girl** #card #english-word
     - 功利女(专找年纪大的男人的女生); 容易受骗的人; 容易捕获的猎物
   - Duck test #card
     collapsed:: true
@@ -224,7 +224,7 @@
 - __Unpopular__
   background-color:: grey
   collapsed:: true
-  - __head rush__ #card #English/word
+  - __head rush__ #card #english-word
     card-last-interval:: 4
     card-repeats:: 1
     card-ease-factor:: 2.6
@@ -233,5 +233,5 @@
     card-last-score:: 5
     - A head rush is a sudden drop in your blood pressure when you stand up from a lying or seated position
     - {{cloze 头冲}}
-  - xxl #card #English/word
+  - xxl #card #english-word
     - {{cloze Double Extra Large}}

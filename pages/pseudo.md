@@ -1,5 +1,5 @@
 icon:: 📄
-also:: [[]], 伪代码, 
+also::  伪代码, 
 created:: [[20240814]]
 description::
 

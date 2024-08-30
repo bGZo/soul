@@ -23,7 +23,40 @@ wikipedia:: https://en.wikipedia.org/wiki/Central_processing_unit
       - [ARMv7 与 ARMv8的区别_armv7和armv8_liguiyuan112的博客-CSDN博客](https://blog.csdn.net/u012505617/article/details/89205642)
       - [Intel和AMD 与 x86，ARM，MIPS有什么区别？ - 知乎](https://www.zhihu.com/question/63627218)
 - ## References
-  - 桌面CPU性能天梯图 #rank
-    - {{nav https://www.mydrivers.com/zhuanti/tianti/cpu/index.html}}
-  - 手机CPU性能天梯图 #rank
-    - {{nav https://www.mydrivers.com/zhuanti/tianti/01/index.html}}
+  - 天梯图 | [[rank]]
+    - 桌面CPU性能天梯图
+      - {{nav https://www.mydrivers.com/zhuanti/tianti/cpu/index.html}}
+    - 手机CPU性能天梯图
+      - {{nav https://www.mydrivers.com/zhuanti/tianti/01/index.html}}
+    - 桌面 CPU
+      collapsed:: true
+      - {{iframe https://www.mydrivers.com/zhuanti/tianti/cpu/index.html}}
+        #+BEGIN_CENTER
+        [桌面CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/cpu/index.html)
+        #+END_CENTER
+      -
+    - 笔记本 CPU （低压）
+      collapsed:: true
+      - {{iframe https://www.mydrivers.com/zhuanti/tianti/cpum/index.html}}
+        #+BEGIN_CENTER
+        [笔记本CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/cpum/index.html)
+        #+END_CENTER
+      -
+      -
+    - 移动 CPU
+      collapsed:: true
+      - {{iframe https://www.mydrivers.com/zhuanti/tianti/01/index.html}}
+        #+BEGIN_CENTER
+        [手机CPU性能天梯图](https://www.mydrivers.com/zhuanti/tianti/01/index.html)
+        #+END_CENTER
+      - {{iframe https://www.socpk.com/cpu/}}
+        #+BEGIN_CENTER
+        [CPU性能排行 (socpk.com)](https://www.socpk.com/cpu/)
+        #+END_CENTER
+    - Another Way
+      collapsed:: true
+      - [PassMark Software - CPU Benchmark Charts](https://www.cpubenchmark.net/)
+      - {{iframe https://browser.geekbench.com/processor-benchmarks}}
+        #+BEGIN_CENTER
+        via: [Home - Geekbench](https://browser.geekbench.com/)
+        #+END_CENTER

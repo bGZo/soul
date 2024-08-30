@@ -179,7 +179,7 @@ exclude-from-graph-view:: true
     - [十年之约](https://www.foreverblog.cn/)
     - [Find Blog👁发现博客](https://t.me/FindBlog) [↩](tg://resolve?domain=FindBlog)
     - [timqian/chinese-independent-blogs: 中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
-    - https://www.google.com/search?q=site:v2ex.com+blog #search/latter
+    - https://www.google.com/search?q=site:v2ex.com+blog #kill-time
   -
   - ### 🎥 [[video]]
     - [首页 - 人人影视下载分享站](https://yyets.dmesg.app/home)

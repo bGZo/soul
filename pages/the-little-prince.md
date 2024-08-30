@@ -1,9 +1,18 @@
-also:: books/the-little-prince
-tags:: #[[english]], #[[English/words]]
+icon:: 📖
+cover:: {{image/cover }}
+also:: 小王子
 author:: Antoine de Saint-Exupéry
-publisher:: 上海阅文信息技术有限公司
+created:: [[20240830]]
+exclude-from-graph-view:: true
+isbn:: 
+lang:: english
 published-date:: 20180400
-source:: https://book.douban.com/subject/1370897
+rating:: ⭐⭐⭐⭐⭐
+status:: book/done
+tags:: 
+type:: book
+douban:: {{doubook 1370897}}
+weread:: {{weread }}
 
   - > 1943 年 首次出版
     > 1944 年 7 月, 作者在执行飞行任务时失联，从此再也没有回来

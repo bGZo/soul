@@ -126,10 +126,7 @@ exclude-from-graph-view:: true
     - 注意你的措辭。在這種時期，你的朋友可能格外敏感。所以，說話要格外考慮對方的感受。
     - **==不要吝於表達你的關心==**。
     - 不要評判對方。即便你覺得對方正在經歷的事沒那麼嚴重，可以很快恢復，也要**==尊重你的朋友，讓他們自己找到治癒的途徑==**。
-- [[english]]
-  collapsed:: true
-  - We **do** plan to keep adding to this content here on Khan Academy, so check back here every few months for updates.
-    via: [Where to go from here (article) | Algorithms | Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/algorithms-more-learning/a/where-to-go-from-here)
+-
 - \#thought
   collapsed:: true
   - [为什么很多男的到了中年突然开始炒股？](https://www.zhihu.com/question/419997323/answer/2462782348)

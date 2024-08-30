@@ -1,6 +1,7 @@
-also:: programming/english
+tags:: #programing
 
-- [[Quickref]]
+- collapsed:: true
+  ---
   - name:: wrapper
     full:: {{cloze 包装/包装}}
     description:: 在面向对象程序设计中被称为 method delegation(方法委托)
@@ -126,12 +127,9 @@ also:: programming/english
 - `descriptor fd`: 文件描述符(File descriptor)是计算机科学中的一个术语，是一个用于表述指向文件的引用的抽象化概念.
 - `PGC`:(Professional Generated Content)指专业生产内容。用来泛指内容个性化、视角多元化、传播民主化、社会关系虚拟化。也称为PPC,(Professionally-produced Content)由传统广电业者按照几乎与电视节目无异的方式进行制作，但在内容的传播层面，却必须按照互联网的传播特性进行调整。
 - `UGC`(User-generated Content，用户生产内容，也称UCC，User-created Content)功不可没。随着移动互联网的发展，网上内容的创作又被细分出PGC(Professionally-generated Content，专业生产内容，也称PPC，Professionally-produced Content)和OGC(Occupationally-generated Content，职业生产内容)
--
--
 - 服务器 —> 伺服器
 - 程序 --> 程式
 - 软件 --> 软体
--
 - Refs
   - https://en.wikipedia.org/wiki/Internationalization_and_localization
   - https://en.wikipedia.org/wiki/INF_file

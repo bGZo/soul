@@ -1,4 +1,6 @@
 source:: https://www.youtube.com/watch?v=2m8YACFJlMg
+exclude-from-graph-view:: true
+type:: archives-web
 
 - [50%]
 - Britain needs to rethink its defence policy **from the ground up**; the last big review took place in 1998.

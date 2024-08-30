@@ -105,7 +105,7 @@
                                  (sort-by (fn [h]
                                             (get h :block/priority "Z")) result))
              :breadcrumbs-show? true
-             :collapsed? false}
+             :collapsed? true}
 
             ;; the "NEXT" query asks the future tasks.
             {:title "📅 NEXT"
@@ -138,7 +138,7 @@
                                  (sort-by (fn [h]
                                             (get h :block/scheduled)) result))
              :breadcrumbs-show? true
-             :collapsed? false}
+             :collapsed? true}
 
             {:title "🔥 OVERDUE"
              :query [:find (pull ?b [*])

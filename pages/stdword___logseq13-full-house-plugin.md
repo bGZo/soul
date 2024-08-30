@@ -1,5 +1,12 @@
-tags:: #changelog/wiki #changelog/broken/
+icon:: 📦
+created:: [[20240822]]
+description:: 
+exclude-from-graph-view:: true
+tags:: #logseq 
+type:: github/repo
+source::  {{gh stdword/logseq13-full-house-plugin}}
 
+- Broken change
 - ## Documents
   - ### [Tutorial](https://stdword.github.io/logseq13-full-house-plugin/#/tutorial)
     - **模板使用**：`{{renderer :template, xxx }}` 语法广泛，可以能支持引用与页面，就算没有声明模板，也可以直接套用，默认是带父级元素的，可以用 `-` 去除
