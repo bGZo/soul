@@ -9,7 +9,7 @@ type:: tool
   - 版本管理
 - ## How
   - Config
-    - ```
+    - ```shell
       # sense with low-
       Git 大小写不敏感
       `git mv`

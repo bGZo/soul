@@ -6,11 +6,9 @@ tags:: #[[shell]]
 type:: tool
 
 - ## Why
-  -
 - ## How
-  -
+  - Install {{gh bGZo/dotfiles}} => via README
 - ## What
-  - backup: https://github.com/bGZo/dotfiles
 - ## Namespace
   - {{namespace zsh}}
 - ## ↩ Reference

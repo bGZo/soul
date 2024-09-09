@@ -1,4 +1,3 @@
-also:: [[logseq/!announcements]]
 created:: [[20240722]]
 description:: 弱规则不是规则，仅仅只是一种建议
 icon:: 📢

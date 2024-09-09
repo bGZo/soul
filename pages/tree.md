@@ -77,7 +77,6 @@ also:: maths/graph/tree
       collapsed:: true
       - 所有叶结点的深度均相同的二叉树称为完美二叉树
       - ![image.png](../assets/maths/graph/tree/image_1663234180296_0.png)
--
 - 存储
   collapsed:: true
   - 邻接表
@@ -132,8 +131,8 @@ also:: maths/graph/tree
       // -- or --
       int child[N][2];
       ```
--
 - 遍历
+  collapsed:: true
   - 树上 DFS
   - 二叉树上 DFS
     - 先序遍历
@@ -160,9 +159,12 @@ also:: maths/graph/tree
       dfs(root, EMPTY_NODE);
       ```
   - 有根树
--
 - Refs
+  collapsed:: true
   - [树基础 - OI Wiki](https://oi-wiki.org/graph/tree-basic/#%E6%A0%91%E4%B8%8A-dfs)
   - [二叉树：前序遍历、中序遍历、后续遍历 图：深度优先（DFS）、广度优先（BFS）_运行成功的博客-CSDN博客](https://blog.csdn.net/weixin_43357638/article/details/99730284)
+-
+-
+-
 -
 -

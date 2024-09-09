@@ -109,6 +109,7 @@ also:: 中国
       collapsed:: true
       - 中国思想政治工作研究会
 - 央企 #job
+  collapsed:: true
   - 98 家实业类中央企业 
     collapsed:: true
     - 中国核工业集团有限公司

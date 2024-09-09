@@ -1,6 +1,6 @@
 icon:: 👨‍💻
 also:: 最长递增子序列
-tags:: #leetcode/medium #动态规划
+tags:: #leetcode/medium #dynamic-programming
 
 - ## Content
   - <iframe src="https://leetcode.cn/problems/longest-increasing-subsequence" style="height: 400px"></iframe>

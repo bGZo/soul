@@ -262,7 +262,7 @@ created:: [[20230305]]
       - SDK 高版本编译异常
         - `--add-opens java.base/java.lang=ALL-UNNAMED`
         - `--add-opens java.base/sun.net.util=ALL-UNNAMED`
-    - 使用Javassist生成DaoImpl类 #动态代理
+    - 使用Javassist生成DaoImpl类 \#动态代理
       - 利用 Java 反射和声明好的接口，生成对应的方法；
       - ```java
         package com.powernode.bank.utils;

@@ -4,6 +4,8 @@
 # | |__| (_) | (_| \__ \  __/ (_| |  | (_| | | |_| | (_| | | | | (_) | | |  __/
 # |_____\___/ \__, |___/\___|\__, | (_)__, |_|\__|_|\__, |_| |_|\___/|_|  \___|
 #            |___/             |_|   |___/         |___/
+###############################################################################
+
 #config
 .obsidian/
 .vscode/
@@ -11,8 +13,10 @@
 .trash/
 .venv/
 __pycache__/
+
 # PDFs, IMAGEs and more
 assets/
+
 # Draw
 draws/
 # Recyble Bin
@@ -22,6 +26,7 @@ logseq/bak/
 # not public pages
 pages/LFH.md
 pages/Omnivore.md
+
 # config
 # logseq/custom.css
 # logseq/config.edn
@@ -30,3 +35,7 @@ pages/Omnivore.md
 utils/format/regex/backup/
 utils/format/regex/tests/
 utils/blog/blogger.com/sitemap.xml
+
+# File
+.DS_Store
+

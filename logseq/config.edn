@@ -313,7 +313,7 @@
 
  :editor/logical-outdenting? true
 
- :editor/preferred-pasting-file? true
+ :editor/preferred-pasting-file? false
 
 ;; :quick-capture-templates
 ;; {:text "[[quick capture]] **{time}**: {text} from {url}"

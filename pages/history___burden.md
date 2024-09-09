@@ -5,18 +5,10 @@ description:: 一些迁移过程中产生的，不知道放哪的笔记，我把
 exclude-from-graph-view:: true
 
 -
-- collapsed:: true
-  ---
-  - 农民就是最大的内需
-  - 女儿就是原罪？
 -
 - modulo 模除, %, mod
   - [Modulo - Wikipedia](https://en.wikipedia.org/wiki/Modulo)
   - [模除 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E6%A8%A1%E9%99%A4)
-- logseq 最大的问题是，他没有办法对查询出的表格进行更近一步的编辑
-  collapsed:: true
-  - 比如我可以查询出来所有关联了 author 的创作者，并且我希望可以对他们做一个国别的拓展，唯一可行的办法就是改变原有的 block，让在原来的 block 变得越来越臃肿。直到有一天变得难以维护，你不得不删掉他。
-- 面对越来越难的验证码校验，真的让人感觉，中国人生下来就是要做题的
 - schema: https://schema.org/description
 - 什么是数学
   also:: books/什么是数学-对思想和方法的基本研究
@@ -100,30 +92,6 @@ exclude-from-graph-view:: true
         }
   
   ```
-- News
-  collapsed:: true
-  - https://readhub.cn/topic/8cPbP5dBfkx
-  - [大陆地区18位身份证校验码算法](https://tool.lu/article/6yV/url)
-  - [B站故障应急与业务1-5-10摸排：如何实现超95%故障自发现率？](https://tool.lu/article/6yU/url)
-  - [腾讯技术：为超越JVM而生？深入理解Kotlin Native的梦想与可能](https://tool.lu/article/6yN/url)
-  - [阿里巴巴技术：Java字符串拼接技术演进及阿里巴巴的贡献](https://tool.lu/article/6yM/url)
-  - [vivo技术：TimeWheel 算法介绍及在应用上的探索](https://tool.lu/article/6yL/url)
-  - [得物技术：风控基建实战：如何打造高效安全的AIGC系统](https://tool.lu/article/6yK/url)
-- 双拼命名法
-  collapsed:: true
-  - lufghx
-  - whjkrs
-  - zhig
-  - vzpgig
-  - xijbpk
-- ok, 每次走到 Mac 不支持 NTFS 和 EXT 文件格式的时候，都感觉很傻逼，所以又想退款了
-  collapsed:: true
-  - >The real question is what would Microsoft/Apple gain?
-    https://www.reddit.com/r/linuxquestions/comments/p3bxne/why_isnt_ext4_readablemountable_on_mac_nor_windows/
-- >房子养老金其实是盯上了你们房子的维修基金，想纳入统筹，想怎么用就怎么用。先给老房养老，解决当下；至于次新的养老，相信后人的智慧。
-  https://www.v2ex.com/t/1067864
-- 618 本质就是，饥饿营销
-  - https://en.wikipedia.org/wiki/Hunger_marketing
 - also:: 节俭
   description:: Extreme Frugality，过度节俭
 - hedonism
@@ -2816,13 +2784,6 @@ exclude-from-graph-view:: true
   - ~~[[twitter]]~~
     - ~~[Typefully - Twitter Thread Maker & Analytics](https://typefully.com/write)~~
   - [New Thought - Wikipedia](https://en.wikipedia.org/wiki/New_Thought)
-- 大写的，异化的人
-  collapsed:: true
-  - 我时常觉得现代我自身享受的生活是异化的，是非常远离自然的，一种和我身体构造，完全背道而驰的状态，
-  - 我们痴迷、上瘾的另一种解释，是因为这是我们少数还在返祖的活动
-  - 所以我总是怀疑现代流行文化，我们要以什么样的角度看待，如何看待？全盘否定，尺度在哪里？怎么去甄别？有什么尺度，我不知道。
-  - 我只知道现在的自己，明确地在作弊，明确地在cheat，我在享受我不应该获得的快乐，而无需我自己付出任何代价。
-  - 或者说，代价早就标明了，等待我的，可能就是万丈深渊；
 - what-about-my-character
   collapsed:: true
   - 意识<=>能力
@@ -2877,7 +2838,5 @@ exclude-from-graph-view:: true
   also:: 同质化
 - religious
   also:: 宗教
-- 美好的回忆
-- collapsed:: true
 -
 -

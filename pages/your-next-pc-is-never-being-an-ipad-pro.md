@@ -37,7 +37,6 @@ status:: writing/published
   - （SP也用较多篇幅画这个，但是我没有看懂）
   - 让我真的开始怀疑起了自己的很多行为。直到现在我也无法确认哪些行为是被商界洗脑，哪些自己的
   - 我爱 Linux! Really! Power! Free! No limited! Seem like be extinct in this suck world.
--
 - ## ↩ Reference
   - [Your next computer is NEVER EVER an iPad Pro · Issue #24 · bGZo/blog](https://github.com/bGZo/blog/issues/24)
 -

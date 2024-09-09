@@ -1,7 +1,7 @@
 icon:: 📄
-also::  
+also::  算法
 created:: [[20240821]]
-description::
+description:: 求解问题的计算机规则集，根据精确的定义，对有效输入产生对应的输出结果
 tags:: #[[data-structure]], #[[maths]]
 
 - ## Why
@@ -9,11 +9,190 @@ tags:: #[[data-structure]], #[[maths]]
 - ## How
   -
 - ## What
+  - 学习算法的一些方法论：
+    - Chunk it up 切碎知识点
+      logseq.order-list-type:: number
+      collapsed:: true
+      - 脉络连接
+    - Deliberate Practicing 刻意练习
+      logseq.order-list-type:: number
+      collapsed:: true
+      - 职业化运动
+        collapsed:: true
+        - 基本功是区别业余和职业选手的根本
+        - 基础动作的分解训练和反复练习 —> 最大的误区
+      - 刻意练习 — 过遍数（五毒神掌）
+        collapsed:: true
+        - 5分钟：读题 + 思考 + 直接看解法：注意！多解法，比较解法优劣 + 背诵、默写好的解法
+          logseq.order-list-type:: number
+        - 马上自己写 —> LeetCode 提交 + 多种解法比较、体会 —> 优化
+          logseq.order-list-type:: number
+        - 过了一天后，再重复做题 + 不同解法的熟练程度 —> 专项练习
+          logseq.order-list-type:: number
+        - 过了一周：反复回来练习相同题目
+          logseq.order-list-type:: number
+        - 面试前一周恢复性训练
+          logseq.order-list-type:: number
+      - 练习缺陷、弱点地方
+      - 不舒服、不爽、枯燥
+    - Feedback 反馈
+      logseq.order-list-type:: number
+      collapsed:: true
+      - 即时反馈
+        logseq.order-list-type:: number
+      - 主动型反馈（自己去找）
+        logseq.order-list-type:: number
+      - 高手代码 (GitHub, LeetCode, etc.)
+        logseq.order-list-type:: number
+      - 第一视角直播
+        logseq.order-list-type:: number
+      - 被动式反馈（高手给你指点）
+        logseq.order-list-type:: number
+      - code review
+        logseq.order-list-type:: number
+      - 教练看你打，给你反馈
+        logseq.order-list-type:: number
+    - 切题四件套
+      logseq.order-list-type:: number
+      collapsed:: true
+      - Clarification
+        logseq.order-list-type:: number
+      - Possible solutions
+        logseq.order-list-type:: number
+        collapsed:: true
+        - compare (time/space)
+        - optimal（加强）
+      - Coding（多写）
+        logseq.order-list-type:: number
+      - Test cases
+        logseq.order-list-type:: number
+    - 辅助方法：
+      logseq.order-list-type:: number
+      collapsed:: true
+      - 断点继传法
+      - 对照阅读法
+      - 教学视频法
+      - 书看不懂时，不硬看，扫清障碍，咱再来……
+      - 多找几本书，对照着看……
+      - 先看教学视频入门，再看书
+  - 算法设计关注点：
+    - 是预期的效果吗？
+      logseq.order-list-type:: number
+      collapsed:: true
+      - 真实值 / 真值，via: https://en.wikipedia.org/wiki/Truth_value
+        logseq.order-list-type:: number
+      - 度量标准
+        logseq.order-list-type:: number
+    - 是最佳的方法吗？
+      logseq.order-list-type:: number
+      - 术语
+        logseq.order-list-type:: number
+        collapsed:: true
+        - 多项式算法 (polynomial algorithm)
+          logseq.order-list-type:: number
+        - 可行解 (certificate)
+          logseq.order-list-type:: number
+      - 刻画问题复杂度
+        logseq.order-list-type:: number
+        - 非确定性多项式问题，NP
+          logseq.order-list-type:: number
+        - 多项式问题，P
+          logseq.order-list-type:: number
+        - NP 完全问题
+          logseq.order-list-type:: number
+        - NP 难问题
+          logseq.order-list-type:: number
+        - #+BEGIN_NOTE
+          P = NP? 目前还没法证明
+          #+END_NOTE
+    - 更大的数据集会收敛到哪里？表现如何？
+      logseq.order-list-type:: number
+      collapsed:: true
+      - 时间复杂度：算法的用时随数据规模而增长的趋势
+        logseq.order-list-type:: number
+        collapsed:: true
+        - 数据规模：输入数字个数、图点数与边数等等; 一般来说，数据规模越大，算法的用时就越长
+          collapsed:: true
+          - 为什么要考虑数据规模?
+            collapsed:: true
+            - 现代计算机的运算速度会把微乎其微的差别无限放大;
+        - 考虑到**输入内容** $$∝$$ 运行用时, 分为
+          collapsed:: true
+          - 最坏时间复杂度
+          - 平均时间复杂度 / 期望
+        - floor(x)=[x] (<=x的最大整数)  ceil(x)=[x] (>=x 的最小整数)
+        - 复杂度
+          collapsed:: true
+          - [数学分析](https://www.zhihu.com/question/21387264/answer/417321105)
+          - Master Theorem
+      - 空间复杂度：算法所空间使用随输入规模变化的趋势
+        logseq.order-list-type:: number
+        collapsed:: true
+        -
+        - `int` \#计算机组成原理
+          collapsed:: true
+          - 32bit / 4Byte
+          - $2^{31}-1=2147483647$
+          - 符号位+数值位
+        - long long
+          collapsed:: true
+          - double : 符号位1+指数位11+小数位52
+            0.3*2取二进制?? -- 精度丢失
+          - |a-b|<=10^-9 / 10\^-6
+        - 512M/32位=128\*1024\*1024
+        - 1s -> 3-5s
+      - 渐进符号：函数的阶的规范描述, 简单来说，渐进符号忽略了一个函数中增长较慢的部分以及各项的系数(在时间复杂度相关分析中，系数一般被称作 "常数"), 而保留了可以用来表明该函数增长趋势的重要部分
+        logseq.order-list-type:: number
+        collapsed:: true
+        - 大 $O$ 符号：研究时间复杂度时通常会使用 $O$ 符号; 因为我们关注的通常是程序用时的上界; 而不关心其用时的下界; 这里的「上界」和「下界」是对于函数的变化趋势而言的; 而不是对算法而言的
+          collapsed:: true
+          - 使用广泛主要原因
+            collapsed:: true
+            - 我们有时只能证明时间复杂度的上界而无法证明其下界
+              collapsed:: true
+              - 这种情况一般出现在较为复杂的算法以及复杂度分析
+            - $O$ 在电脑上输入更方便一些
+          - 量度 Big O notation
+            collapsed:: true
+            - $O(1)$ / Constant Complexity / 常数复杂度
+              collapsed:: true
+              - 表示与输入数据规模无关
+            - $O(logn)$ / Logarithmic Complexity / 对数复杂度
+              collapsed:: true
+              - 一般底数默认2
+              - 不是2也没关系, 用换底公式 ${\log_a}b = \frac{{{\log_c}b}} {{{\log_c}a}}$ 之后就是常数了
+            - O（Vn）
+            - $O(n)$ / Linear Complexity / 线性复杂度
+            - $O(n^2)$ / N square Complexity / 平⽅复杂度
+            - $O(n^3)$ / N square Complexity / ⽴⽅复杂度
+            - $...$
+            - $O(C^n)$ / Exponential Growth / 指数级, $C$ 是一个常数
+            - $O(n!)$ / Factorial / 阶乘级
+            - 注意：只看最⾼复杂度的运算
+  - 算法策论
+    - 分治
+    - 动态规划 by 理查德 · 贝尔曼 #dynamic-programming
+    - 贪心
+    - TODO 求解 TSP
+    - TODO PageRank 算法
+  - 线性规划？
   -
 - ## Namespace
   - {{namespace algorithm}}
 - ## ↩ Reference
-  collapsed:: true
+  - [复杂度 - OI Wiki](https://oi-wiki.org/basic/complexity/)
+  - [CTF Wiki](https://ctf-wiki.org/)
+  - [OI Wiki](https://oi-wiki.org/)
+  - [知乎 Live - 如何自学计算机专业课程？ · Shannon's Blog](https://shannonchenchn.github.io/2018/10/07/zhihu-live-how-to-learn-cs-by-yourself/)
+    - [如何自学计算机专业课程？ - 知乎 Live](https://www.zhihu.com/lives/837669764146003968)
+  - [OI 赛事与赛制 - OI Wiki](https://oi-wiki.org/contest/oi/)
+  - [ICPC/CCPC 赛事与赛制 - OI Wiki](https://oi-wiki.org/contest/icpc/)
+  - [黄明《从简单的线性数据结构开始：栈与队列》](https://shimo.im/docs/jTKWyPTYkQwDPYkr/)
+  - [王记超《Java中HashMap数据结构分析（语言无关）》](https://shimo.im/docs/wXpyygqVqYhHW6px)
+  - [张宇腾《Dijkstra算法分享》](https://shimo.im/docs/kkTgptvpQxj633Dk)
+  - [阎文元《聊聊散列表》](https://shimo.im/docs/K9vKxdr69RtpKJtJ)
+  - [张鹏《深入浅出数组》](https://shimo.im/docs/jpDKpgDTXTjtDkhj/)
+  -
   - [[roadmap]] via: [List of algorithms - Wikipedia](https://en.wikipedia.org/wiki/List_of_algorithms)
     collapsed:: true
     - 01. Automated planning, 自动化规划
@@ -148,19 +327,6 @@ tags:: #[[data-structure]], #[[maths]]
       - heyfocus.com
       - IDEA + LeetCode Plugin
       - LeetCode
-    - 复杂度
-      collapsed:: true
-      - 时间复杂度
-        collapsed:: true
-        - O(1) 常数复杂度，最佳，比如 Hash 表、缓存等
-        - O(log n) 仅次于常数复杂度，如二分查找、二叉搜索树等
-        - O(n) 线性复杂度，如大多数遍历操作
-        - O(n^2) 双重 for 循环
-        - O(2^n) 递归的时间复杂度
-      - 空间复杂度
-        collapsed:: true
-        - O(1) 原地操作
-        - O(n) 开辟线性辅助空间
     - 数组
       collapsed:: true
       - 连续空间
@@ -188,6 +354,7 @@ tags:: #[[data-structure]], #[[maths]]
       - 查询、合并
       - 路径压缩
     - ![data-struct.png](../assets/algo/data-struct_1663207949320_0.png)
+      collapsed:: true
       - | 数据结构 |                            优点                            |                         缺点                         |
         | :------: | :--------------------------------------------------------: | :--------------------------------------------------: |
         |   数组   |                           插入快                           |      查找慢，删除慢，大小固定，只能存储单一元素      |
@@ -797,52 +964,7 @@ tags:: #[[data-structure]], #[[maths]]
     - 第19课丨高级动态规划
     - 第20课丨字符串算法
     - 第21课丨期末串讲
-  - Tips
-    collapsed:: true
-    - Chunk it up 切碎知识点
-      collapsed:: true
-      - 庖丁解牛
-      - 脉络连接
-    - Deliberate Practicing 刻意练习
-      collapsed:: true
-      - 职业化运动
-      - 基本功是区别业余和职业选手的根本
-      - 基础动作的分解训练和反复练习 —> 最大的误区
-      - 刻意练习 — 过遍数（五毒神掌）
-        - 5分钟：读题 + 思考 + 直接看解法：注意！多解法，比较解法优劣 + 背诵、默写好的解法
-        - 马上自己写 —> LeetCode 提交 + 多种解法比较、体会 —> 优化
-        - 过了一天后，再重复做题 + 不同解法的熟练程度 —> 专项练习
-        - 过了一周：反复回来练习相同题目
-        - 面试前一周恢复性训练
-      - 练习缺陷、弱点地方
-      - 不舒服、不爽、枯燥
-    - Feedback 反馈
-      collapsed:: true
-      - 即时反馈
-      - 主动型反馈（自己去找）
-      - 高手代码 (GitHub, LeetCode, etc.)
-      - 第一视角直播
-      - 被动式反馈（高手给你指点）
-      - code review
-      - 教练看你打，给你反馈
-    - 切题四件套
-      collapsed:: true
-      - Clarification
-      - Possible solutions
-        - compare (time/space)
-        - optimal（加强）
-      - Coding（多写）
-      - Test cases
-    - Tips
-      collapsed:: true
-      - 断点继传法
-      - 对照阅读法
-      - 教学视频法
-      - 书看不懂时，不硬看，扫清障碍，咱再来……
-      - 多找几本书，对照着看……
-      - 先看教学视频入门，再看书
   - [[standard]]
-    collapsed:: true
     - ACM SoftwareProcesse
       collapsed:: true
       - SE/Software Processes
@@ -912,7 +1034,6 @@ tags:: #[[data-structure]], #[[maths]]
         > Why would you do that ?
       - 当你主要在第N层工作时，需要对第N-1和N+1层下功夫，通常就足以应付日常的工作和学习任务了
   - Competitions
-    collapsed:: true
     - [[noip]]
     - ICPC/ACM (International Collegiate Programming Contest, 国际大学生程序设计竞赛)
       collapsed:: true
@@ -921,20 +1042,7 @@ tags:: #[[data-structure]], #[[maths]]
     - CCPC (China Collegiate Programming Contest) 中国大学生程序设计竞赛
       collapsed:: true
       - 官方地址: [ccpc.io](https://ccpc.io/)
-  - Refs
-    collapsed:: true
-    - [CTF Wiki](https://ctf-wiki.org/)
-    - [OI Wiki](https://oi-wiki.org/)
-    - [知乎 Live - 如何自学计算机专业课程？ · Shannon's Blog](https://shannonchenchn.github.io/2018/10/07/zhihu-live-how-to-learn-cs-by-yourself/)
-      - [如何自学计算机专业课程？ - 知乎 Live](https://www.zhihu.com/lives/837669764146003968)
-    - [OI 赛事与赛制 - OI Wiki](https://oi-wiki.org/contest/oi/)
-    - [ICPC/CCPC 赛事与赛制 - OI Wiki](https://oi-wiki.org/contest/icpc/)
-    -
-    - [黄明《从简单的线性数据结构开始：栈与队列》](https://shimo.im/docs/jTKWyPTYkQwDPYkr/)
-    - [王记超《Java中HashMap数据结构分析（语言无关）》](https://shimo.im/docs/wXpyygqVqYhHW6px)
-    - [张宇腾《Dijkstra算法分享》](https://shimo.im/docs/kkTgptvpQxj633Dk)
-    - [阎文元《聊聊散列表》](https://shimo.im/docs/K9vKxdr69RtpKJtJ)
-    - [张鹏《深入浅出数组》](https://shimo.im/docs/jpDKpgDTXTjtDkhj/)
+  -
   - [[bitwise-operation]]
     collapsed:: true
     - TODO  diff [[bit-map]] && [[bit-array]] and above ???
@@ -942,4 +1050,4 @@ tags:: #[[data-structure]], #[[maths]]
   - 大数相加（模拟）
     collapsed:: true
     - 两个string 是否可以模拟？
--
+  - 伪代码

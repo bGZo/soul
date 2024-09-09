@@ -225,7 +225,7 @@ also:: algo/sort
     - ((63229b9b-d803-4609-9750-e622c0decb3e))
     - ((63229ba0-be1e-4ad5-ad52-3d7cfed78250))
 -
-- 复杂度 [[complexity]]
+- 复杂度
   collapsed:: true
   - ((63229b8b-b393-4d32-899c-be19c41e358d))
     - Worst-case running time

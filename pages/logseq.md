@@ -6,7 +6,7 @@ tags:: #[[personal-knowledge-management]]
 type:: tool
 
 - ## Why
-  - I hate some applications I used in past (See What I used in past note), they suck in a while, including [[privacy]], [[censor]], with high [[price]] and bullshit user agreement.
+  - I hate some applications I used in past (See ((6474b5b1-ad1a-47c3-bc2c-4343950295a9))), they suck in a while, including [[privacy]], [[censor]], with high [[price]] and bullshit user agreement.
     - ((64772db8-4367-4d35-b2ca-fed0e45bdd2c))
   - Basically, it's better that encoding with txt and search in [[vscode]]. I used it in the past but I was dropped in the category hell. When I finish a note last two months, and I have no idea where are they stored. The category I organized is terrible. And the ((6474b5f9-a287-48d9-a097-3400b8de53f7)). I like it.
   - I've learned a lot of things, not only how to note, how to remember, but also a few philosophy of organizing the whole [[knowledge]] system.
@@ -119,7 +119,7 @@ type:: tool
           - 在 [Use Namespaces to Create a Dynamic Note Index in Logseq - YouTube](https://www.youtube.com/watch?v=fm45fG3A-Q4) 的更多的是 (层级)搜索
             collapsed:: true
             - 视频结尾说明一个更多的好处就是**在每次层级改变的时候, 只需要变更 Hashtag, 而不是将内容从一个文件搬运到另一个文件** (我是后者hhh)
-  - The page exported by default is not included plugin setting. The better way is writing it in `custom.css`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5). And here is my changelog: #logseq/changelog
+  - The page exported by default is not included plugin setting. The better way is writing it in `custom.css`. I maintain a simple [Solarized](https://ethanschoonover.com/solarized/) [theme](https://gist.github.com/bGZo/b36c594b75499284d953bc2314d8e0b5). And here is my changelog: #changelog
     collapsed:: true
     - Font
       created:: 20221015
@@ -257,7 +257,6 @@ type:: tool
     collapsed:: true
     - https://logseq.github.io/#/page/publishing%20(desktop%20app%20only)
 - ## What
-  - AKA **LS**
   - Logseq gives us a vision we could organize
     id:: 6474b5f9-a287-48d9-a097-3400b8de53f7
     collapsed:: true
