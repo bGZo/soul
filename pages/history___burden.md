@@ -5,6 +5,36 @@ description:: 一些迁移过程中产生的，不知道放哪的笔记，我把
 exclude-from-graph-view:: true
 
 -
+- 我知道他们困在那里，尽管我真的希望去改变这一局面，但我发现我的意见太高、太远，对他们一点用也没有，政策停发才是最大的问题。如果现在我们打算放弃一切，那么未来的未来，他们又要如何安置自己。至少保持现状还可以讨生活，日子还能过得下去，所以我认为他们一定没有什么勇气改变这操蛋的日常。
+  collapsed:: true
+  - 每次我都在犹豫买票回家的车票钱，实际上，从你整个人生来讲，看自己爱的人，永远是值得的。而你此时此刻跟你不爱的人待在一起，才痛苦百倍。
+  - 父母 未来 从业
+- 程序员真的能干一辈子吗？
+-
+- collapsed:: true
+  ---
+  - JSON 转 Map via https://stackoverflow.com/questions/57160533
+    collapsed:: true
+    - ```
+      List<HashMap<String, Object>> output = cropDetails.toList().stream().map(m -> ((HashMap<String, Object>) m)).collect(Collectors.toList());
+      ```
+  - 抱怨调休其实一种情绪化的反应，本质上并没有逻辑，因为改休几天就休几天，本质上没什么区别。所以正常情况下，Chinese 只有这点假期：
+    collapsed:: true
+    - 元旦，1d => 3d
+    - 春节，5d => 10d / 9d
+    - 清明节，1d => 3d
+    - 劳动节，1d => 5d
+    - 端午节，1d => 3d
+    - 中秋节，1d => 3d
+    - 国庆节，1d => 3d
+    - 除夕不放假，春节只放 3 天，加上周六日连休 10 天，多放的几天全部需要调休回来
+  - 手机管家 -> Tasker
+  - 修复 GMS
+  - ChatGPT 闪退
+    - S9 / K20Pro 卖亏了...
+- 那里的口音会把 手机 叫成 圣剑 啊
+- 主播叫你名字的时候的那种高兴，是你完全没有人缘的表现呢
+-
 -
 - modulo 模除, %, mod
   - [Modulo - Wikipedia](https://en.wikipedia.org/wiki/Modulo)

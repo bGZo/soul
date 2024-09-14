@@ -102,9 +102,9 @@ tags:: #java
       - [throw只能抛出一个异常对象，而throws可以声明多个异常类型](https://blog.csdn.net/legendaryhaha/article/details/88397984)[2](https://blog.csdn.net/legendaryhaha/article/details/88397984)[4](https://www.javatpoint.com/difference-between-throw-and-throws-in-java)。
       - [throw抛出的异常需要在方法内部或者调用者处进行捕获或者声明](https://blog.csdn.net/legendaryhaha/article/details/88397984)[2](https://blog.csdn.net/legendaryhaha/article/details/88397984)[5](https://blog.csdn.net/meism5/article/details/90414147)[，否则编译报错。如果是运行时异常，则不需要捕获或者声明](https://blog.csdn.net/meism5/article/details/90414147)
     - 42、try-catch-finally 中哪个部分可以省略？
-    - DONE 43、try 里面 return，finally还会执行吗？（会）
+    - 43、try 里面 return，finally还会执行吗？（会） #java-exception
       collapsed:: true
-      - [是的，finally还会执行。根据Java文档](https://juejin.cn/post/6844904016170713096)[1](https://juejin.cn/post/6844904016170713096)[，finally语句块是在try语句块执行完成之后一定会执行的，即使try中有return，continue或者break关键字](https://juejin.cn/post/6844904016170713096)[1](https://juejin.cn/post/6844904016170713096)[2](https://juejin.cn/post/6844904016170713096)[。但是要注意的是，如果try中有return语句，那么它会先把返回值保存到一个本地变量中，然后再执行finally语句块，最后再返回保存的值](https://juejin.cn/post/6844904016170713096)[2](https://juejin.cn/post/6844904016170713096)[3](https://www.cnblogs.com/LoveBell/p/12007181.html)[。如果finally中也有return语句，那么它会覆盖掉try中的返回值](https://www.cnblogs.com/LoveBell/p/12007181.html)[3](https://www.cnblogs.com/LoveBell/p/12007181.html)。
+      - 如果 `try` / `catch` 中有 `return` 语句，那么它会先把返回值保存到一个本地变量中，然后再执行finally语句块，最后再返回保存的值。如果finally中也有return语句，那么它会覆盖掉try中的返回值。
     - 44、int 和 Integer 有什么区别？
     - 45、什么是包装类型？有什么用？
     - 46、什么是自动装厢、拆厢？

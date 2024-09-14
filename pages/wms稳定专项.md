@@ -68,41 +68,51 @@ type:: project
 - ## ↩ Reference
   -
 - ## 维护脚本
-  - 数据表：增量查询
+  - 数据表：增量查询 (当天查询)
     collapsed:: true
     - ```sql
       select count(1) from wms_sap_post_result where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_out_requirement_head where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_in_receipt where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;   
-      
       select count(1) from wms_out_requirement_item where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_out_return_item_d where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
       
       
-      
       select count(1) from wms_out_return_item where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_out_return_head where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_core_wmsdoc_item where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_task_center where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_core_wmsdoc_head where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
       
       
-      
       select count(1) from wms_in_delivery_pack_label where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_in_inbound_head where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_in_delivery_pack_item where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_in_inbound_item where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
-      
       select count(1) from wms_in_delivery_pack where to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') >= current_date - INTERVAL '1 day' AND to_date(create_date, 'YYYY-MM-DD HH24:MI:SS') < current_date;
+      
       ```
--
+  - 节假日查询
+    collapsed:: true
+    - ```sql
+      select count(1) from wms_sap_post_result where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_out_requirement_head where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_in_receipt where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_out_requirement_item where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_out_return_item_d where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      
+      
+      select count(1) from wms_out_return_item where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_out_return_head where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_core_wmsdoc_item where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_task_center where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_core_wmsdoc_head where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      
+      
+      select count(1) from wms_in_delivery_pack_label where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_in_inbound_head where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_in_delivery_pack_item where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_in_inbound_item where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      select count(1) from wms_in_delivery_pack where create_date >'2024-08-31 00:00:00' and create_date <'2024-09-01 00:00:00';
+      
+      ```

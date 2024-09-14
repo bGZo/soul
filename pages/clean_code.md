@@ -1,4 +1,4 @@
-also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books/代码整洁之道
+also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship
 
 - ## ![Clean Code: A Handbook of Agile Software Craftsmanship](../assets/book_clean_code_a_handbook_of_agile_software_craftsmanship.pdf)
 - ## ![代码整洁之道：程序员的职业素养](../assets/book_代码整洁之道_程序员的职业素养_马丁.pdf)
@@ -7,11 +7,14 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     —— [5S (methodology) - Wikipedia](https://en.wikipedia.org/wiki/5S_(methodology))
 -
 -
-- ## CONTENTS -nested-3
+- ## CONTENTS
   - 整洁代码
+    logseq.order-list-type:: number
+    collapsed:: true
     - 要有代码
     - 糟糕的代码
     - 混乱的代价
+      collapsed:: true
       - 华丽新设计
       - 态度
       - 迷题
@@ -24,6 +27,8 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 小结
     - 文献
   - 有意义的命名
+    logseq.order-list-type:: number
+    collapsed:: true
     - 介绍
     - 名副其实
     - 避免误导
@@ -31,6 +36,7 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 使用读得出来的名称
     - 使用可搜索的名称
     - 避免使用编码
+      collapsed:: true
       - 2.7.1匈牙利语标记法
       - 成员前缀
       - 接口和实现
@@ -46,12 +52,15 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 不要添加没用的语境
     - 最后的话
   - 函数
+    logseq.order-list-type:: number
+    collapsed:: true
     - 短小
     - 只做一件事
     - 每个函数一个抽象层级
     - switch语句
     - 使用描述性的名称
     - 函数参数
+      collapsed:: true
       - 一元函数的普遍形式
       - 标识参数
       - 二元函数
@@ -62,6 +71,7 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 无副作用
     - 分隔指令与询问
     - 使用异常替代返回错误码
+      collapsed:: true
       - 抽离Try/Catch代码块
       - 错误处理就是一件事
       - Error.java依赖磁铁
@@ -72,9 +82,12 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - SetupTeardownIncluder程序
     - 文献
   - 注释
+    logseq.order-list-type:: number
+    collapsed:: true
     - 注释不能美化糟糕的代码
     - 用代码来阐述
     - 好注释
+      collapsed:: true
       - 法律信息
       - 提供信息的注释
       - 对意图的解释
@@ -84,6 +97,7 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
       - 放大
       - 公共API中的Javadoc
     - 坏注释
+      collapsed:: true
       - 喃喃自语
       - 多余的注释
       - 误导性注释
@@ -105,14 +119,18 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
       - 范例
     - 文献
   - 格式
+    logseq.order-list-type:: number
+    collapsed:: true
     - 格式的目的
     - 垂直格式
+      collapsed:: true
       - 向报纸学习
       - 概念间垂直方向上的区隔
       - 垂直方向上的靠近
       - 垂直距离
       - 垂直顺序
     - 横向格式
+      collapsed:: true
       - 水平方向上的区隔与靠近
       - 水平对⻬
       - 缩进
@@ -120,9 +138,12 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 团队规则
     - 鲍勃大叔的格式规则
   - 对象和数据结构
+    logseq.order-list-type:: number
+    collapsed:: true
     - 数据抽象
     - 数据、对象的反对称性
     - 得墨忒耳律
+      collapsed:: true
       - 火⻋失事
       - 混杂
       - 隐藏结构
@@ -130,6 +151,8 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 小结
     - 文献
   - 错误处理
+    logseq.order-list-type:: number
+    collapsed:: true
     - 使用异常而非返回码
     - 先写Try-Catch-Finally语句
     - 使用不可控异常
@@ -141,6 +164,8 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 小结
     - 文献
   - 边界
+    logseq.order-list-type:: number
+    collapsed:: true
     - 使用第三方代码
     - 浏览和学习边界
     - 学习log4j
@@ -149,9 +174,12 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 整洁的边界
     - 文献
   - 单元测试
+    logseq.order-list-type:: number
+    collapsed:: true
     - TDD三定律
     - 保持测试整洁
     - 整洁的测试
+      collapsed:: true
       - 面向特定领域的测试语言
       - 双重标准
     - 每个测试一个断言
@@ -159,16 +187,22 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 小结
     - 文献
   - 类
+    logseq.order-list-type:: number
+    collapsed:: true
     - 类的组织
     - 类应该短小
+      collapsed:: true
       - 单一权责原则
       - 内聚
       - 保持内聚性就会得到许多短小的类
     - 为了修改而组织
     - 文献
   - 系统
+    logseq.order-list-type:: number
+    collapsed:: true
     - 如何建造一个城市
     - 将系统的构造与使用分开
+      collapsed:: true
       - 分解main
       - 工厂
       - 依赖注入
@@ -183,6 +217,8 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 小结
     - 文献
   - 迭进
+    logseq.order-list-type:: number
+    collapsed:: true
     - 通过迭进设计达到整洁目的
     - 简单设计规则1：运行所有测试
     - 简单设计规则2〜4：重构
@@ -192,15 +228,19 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 小结
     - 文献
   - 并发编程
+    logseq.order-list-type:: number
+    collapsed:: true
     - 为什么要并发
     - 挑战
     - 并发防御原则
+      collapsed:: true
       - 单一权责原则
       - 推论：限制数据作用域
       - 推论：使用数据复本
       - 推论：线程应尽可能地独立
     - 了解Java库
     - 了解执行模型
+      collapsed:: true
       - 生产者-消费者模型
       - 读者-作者模型
       - 宴席哲学家
@@ -208,6 +248,7 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 保持同步区域微小
     - 很难编写正确的关闭代码
     - 测试线程代码
+      collapsed:: true
       - 将伪失败看作可能的线程问题
       - 先使非线程代码可工作
       - 编写可插拔的线程代码
@@ -220,21 +261,30 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 小结
     - 文献
   - 逐步改进
+    logseq.order-list-type:: number
+    collapsed:: true
     - Args的实现
     - Args：草稿
+      collapsed:: true
       - 所以我暂停了
       - 渐进
     - 字符串参数
     - 小结
   - JUnit内幕
+    logseq.order-list-type:: number
+    collapsed:: true
     - JUnit框架
     - 小结
   - 重构SerialDate
+    logseq.order-list-type:: number
+    collapsed:: true
     - 首先，让它能工作
     - 让它做对
     - 小结
     - 文献
   - 味道与启发
+    logseq.order-list-type:: number
+    collapsed:: true
     - 注释
     - 环境
     - 函数
@@ -245,3 +295,5 @@ also:: clean code, Clean Code: A Handbook of Agile Software Craftsmanship, books
     - 小结
     - 文献
   - ((6436c5b7-800d-4bb1-a1dd-e4bba28f53f6))
+    logseq.order-list-type:: number
+-

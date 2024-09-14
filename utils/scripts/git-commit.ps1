@@ -5,7 +5,10 @@ git pull origin main
 
 # git add .
 
-git add ../../.
+git add ../../logseq/
+git add ../../pages/
+git add ../../utils/
+
 
 git commit -am "docs: a commit a day keeps the girl friend away"
 

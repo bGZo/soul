@@ -2,6 +2,7 @@
   via: [Exception Hierarchy in Java - BenchResources.Net](https://www.benchresources.net/exception-hierarchy-in-java/)
 - ## `Exception` vs `Error`
   id:: 6277ae64-a3bf-40c7-9165-ce9b94ac7941
+  collapsed:: true
   - 程序本身是否可以处理 via:[Java中的两种异常类型是什么？他们有什么区别？__牛客网](https://www.nowcoder.com/questionTerminal/3ded1983c85c4ae197e005bd31777bc7?toCommentId=80958)
     - Error 程序无法处理；
       collapsed:: true
