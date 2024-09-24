@@ -182,7 +182,7 @@
        "nav-ri" "<a href='$1' target='_blank' class='external-link'>$1</a><img class='inline-right-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$1'/>"
        "navi" "<img class='inline-left-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$2'/><a href='$2' target='_blank' class='external-link'>$1</a>"
        "navi-ri" "<a href='$2' target='_blank' class='external-link'>$1</a><img class='inline-left-tag' src='https://img.shields.io/website.svg?label=&cacheSeconds=7200&url=$2'/>"
-
+       "gh" "<a href='https://github.com/$1' target='_blank' class='external-link'>https://github.com/$1</a><img class='inline-right-tag' src='https://img.shields.io/github/stars/$1'/>"
        "tg" "https://t.me/$1 <a href='tg://resolve?domain=$1' target='_blank' class='external-link'>🚀</a>"
        "bangumi" "https://bgm.tv/subject/$1"
        "myanimelist" "https://myanimelist.net/anime/$1"
@@ -194,8 +194,7 @@
        "am" "<iframe allow='autoplay *; encrypted-media *;' frameborder='0' height='450' style='width:100%;max-width:660px;overflow:hidden;background:transparent;' sandbox='allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation' src='https://embed.music.apple.com/cn/album/$1' />"
 
        ;; wish one day could support
-       "ghgist" "<script src='https://gist.github.com/bGZo/$1.js'></script>"
-
+       ;; "ghgist" "<script src='https://gist.github.com/bGZo/$1.js'></script>"
           }
 
  ;''
