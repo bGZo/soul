@@ -5,6 +5,40 @@ description:: 一些迁移过程中产生的，不知道放哪的笔记，我把
 exclude-from-graph-view:: true
 
 -
+-
+- https://tool.lu/article/6D5/url
+- https://tool.lu/article/6D3/url
+- https://tool.lu/article/6D2/url
+- https://readhub.cn/topic/8dBR2AdsygZ
+- https://readhub.cn/topic/8d9FPgdGUgJ
+  logseq.order-list-type:: number
+- https://tool.lu/article/6CN/url 标签
+  logseq.order-list-type:: number
+- https://tool.lu/article/6CM/url vue3 迁移
+  logseq.order-list-type:: number
+- https://tool.lu/article/6CL/url AIGC 风格
+  logseq.order-list-type:: number
+- https://tool.lu/article/6CJ/url 微前端
+  logseq.order-list-type:: number
+- ---
+  - NodeJS Recommend Packages
+    collapsed:: true
+    - `http-server`
+    - `kill-port`
+  - Root on Tab S8.
+    collapsed:: true
+    - Vim can run on android termux.
+  - 你不得不承认，这水是浑浊的：
+    collapsed:: true
+    - https://www.v2ex.com/t/1074599
+  - 连坐的一个后果就是，拖家带口的人不会再反抗：
+    collapsed:: true
+    - https://www.v2ex.com/t/1075251
+- > 房东需要连坐这个制度也是个问题，人的素质也有问题。
+  https://www.v2ex.com/t/1075847
+- >我真的枯死：要么就是给房东打工，要么就是给银行打工；
+  https://www.v2ex.com/t/1075613
+-
 - 我知道他们困在那里，尽管我真的希望去改变这一局面，但我发现我的意见太高、太远，对他们一点用也没有，政策停发才是最大的问题。如果现在我们打算放弃一切，那么未来的未来，他们又要如何安置自己。至少保持现状还可以讨生活，日子还能过得下去，所以我认为他们一定没有什么勇气改变这操蛋的日常。
   collapsed:: true
   - 每次我都在犹豫买票回家的车票钱，实际上，从你整个人生来讲，看自己爱的人，永远是值得的。而你此时此刻跟你不爱的人待在一起，才痛苦百倍。

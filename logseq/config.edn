@@ -280,6 +280,7 @@
                               :说明书修订日期
                               :生产企业名称
                               :生产地址
+                              :background-image
        }
 
 :property/separated-by-commas #{

@@ -2,7 +2,7 @@ icon:: 👨‍💻
 
 - [[introduction]]
 - [[csapp]]
-- [[os]]
+- [[operating-system]]
   - [[system/-nix]]
 - [[networking]]
 - [[software/architecture]]

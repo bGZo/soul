@@ -1,4 +1,4 @@
-tags:: #Phone #system
+tags:: #Phone #operating-system
 
 -
 - iPA商店-最优秀的iPA资源下载网站

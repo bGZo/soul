@@ -11,6 +11,7 @@ tags:: #domain-specific
     - [Customizing pandoc to generate beautiful pdf and epub from markdown](https://learnbyexample.github.io/customizing-pandoc/)
 - ## What
   - Introducing
+    collapsed:: true
     - 据 GitHub Flavored Markdown（GFM）官方文档介绍，Markdown 是由约翰·格鲁伯（John Gruber）在亚伦·斯沃茨（Aaron Swartz）的帮助下开发，并在 2004 年发布的标记语言。
     - 其设计灵感主要来源于纯文本电子邮件的格式，目标是让人们能够使用易读、易写的纯文本格式编写文档，而且这些文档可以转换为 HTML（Hyper Text Markup Language，超文本标记语言）文档。
     - 起初 Markdown 主要用于网络写作，后来人们希望 Markdown 能够应用到更多的领域，如写书、记笔记、写文档、写幻灯片等。
@@ -22,6 +23,7 @@ tags:: #domain-specific
       - [MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
       - [R Markdown](https://rmarkdown.rstudio.com/)
   - Timeline
+    collapsed:: true
     - 2004
       collapsed:: true
       - Markdown 发布，作者是 John Gruber
@@ -42,6 +44,7 @@ tags:: #domain-specific
       - GitHub 发布了 GitHub Flavored Markdown，即 GFM。 此版本遵循 CommonMark 规范，新增了围栏代码块、表格、删除线、自动链接、Emoji 表情和任务列表等功能，是目前使用最广泛的版本。
     - 总之，版本之多  John Gruber 认为合理，未做约束，作出约束的是[ CommonMark](http://commonmark.org/) ——它为 Markdown 提出了一个标准的、明确的语法规范，以及一套全面的测试，根据此规范可以验证 Markdown 的实现结果，GitHub Flavored Markdown（GFM）遵循的就是 CommonMark 规范
   - Advanced Syntax
+    collapsed:: true
     - Mermaid [mermaid-js/mermaid- Markdownish syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs.](https://github.com/mermaid-js/mermaid) ![](https://img.shields.io/github/stars/mermaid-js/mermaid)
     - Flow
       - ```flow
@@ -57,19 +60,23 @@ tags:: #domain-specific
         # via: https://www.thiscodeworks.com/6086881411312200146f509a
         ```
   - Anchor (锚点)
+    collapsed:: true
     - ```
       this is a para.[^something_ref]
       
       [^something_ref]: https://xxx.com/xxx
       ```
   - Collapsed on web
+    collapsed:: true
     - ```
       <details><summary>点击展开</summary><a>xxxxx</a></details>
       ```
   - Beautify uri
+    collapsed:: true
     - ` `(空格) 尽量用 `_ / -` 来替换;
       - 在网页的编码中, ' '代表`%20`, 出来的网址会冗杂
   - Code list
+    collapsed:: true
     - https://terryl.in/en/highlight-js-html-code-language-list-for-syntax-highlighting/#how-it-works
     - | code | type |
       |---|---|
@@ -262,6 +269,11 @@ tags:: #domain-specific
 - ## Namespace
   - {{namespace markdown}}
 - ## ↩ Reference
+  -
+  -
+  - name:: soft break / soft return / soft enter
+    description:: {{cloze a carriage return automatically inserted by the software program, usually because of a word wrap}}
+    type:: quick-ref
   - table generate oneline
     - {{nav https://www.tablesgenerator.com}}
   - pick emoji

@@ -1,12 +1,11 @@
-also:: system/operating
-
 -
-- [[soft-return]]
+-
 - [[process]]
 - [[os/bios]]
 - [[os/file-system]]
 -
 - Page replacement algorithm
+  collapsed:: true
   - **OPT/OPR**, **Optimal Page Replacement**.
   - FIFO,First In First Out. (LIFO,First In Last Out.)
     - **Second Chance**.
@@ -18,6 +17,7 @@ also:: system/operating
     - Page_replacement-[Wikipedia-EN](https://en.wikipedia.org/wiki/Page_replacement_algorithm#Page_replacement_algorithms)
     - Memory Management-[Pdx Edu](http://web.cecs.pdx.edu/~harry/os/slides/Ch3-MemMgmt-2.pdf)
 - 进程
+  collapsed:: true
   - `fork()`: 返回两个三种类型的参数, 从调用的地方复制一份, 两者同时向下运行.
   - `exec()`
   -
@@ -51,12 +51,11 @@ also:: system/operating
       ```
       [3/n] 存储管理
 - 磁盘工作原理
+  collapsed:: true
   - 一直以来不是很理解计算机组成原理的磁盘工作原理, 这周上操作系统再次提到了这个模块, 偶然寻到一个[视频](https://www.bilibili.com/video/BV11a4y1x7PC/)讲解, 感觉非常清晰, 总之就是三级寻址, `柱面 => 磁道(定位盘面) => 扇区`.
     ![output](https://user-images.githubusercontent.com/57313137/144595594-178548be-1bce-4f4b-9b08-85d77d497e82.gif)
--
--
--
 - More
+  collapsed:: true
   - [tobegit3hub/understand_linux_process: The open-source ebook of Understand Linux Process](https://github.com/tobegit3hub/understand_linux_process)
   - [doctording/os: 《操作系统真相还原》笔记](https://github.com/doctording/os)
 -
